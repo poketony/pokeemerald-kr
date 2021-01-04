@@ -613,7 +613,7 @@ BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons: @ 8251297
 	// 3ひき おえらび くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen: @ 82512E2
-	.string "모험가여!!\p"
+	.string "모험자여!!\p"
 	.string "데려갈 수 있는 포켓몬이\n"
 	.string "3마리는 필요합니다!\p"
 	.string "또 포켓몬이 지니고 있는 도구를\n"
@@ -637,7 +637,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen: @ 82512E2
 	// また おこし くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50: @ 82513C1
-	.string "모험가여!!\p"
+	.string "모험자여!!\p"
 	.string "데려갈 수 있는 포켓몬이\n"
 	.string "3마리는 필요합니다!\p"
 	.string "참가하려면 레벨 50 이하의\n"
@@ -716,7 +716,7 @@ BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel: @ 8251647
 	// いのって おりますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag: @ 82516D6
-	.string "모험가여!\p"
+	.string "모험자여!\p"
 	.string "지난번 종료하기 전에\n"
 	.string "리포트를 제대로\l"
 	.string "작성하지 않으셨죠?\p"
@@ -1172,7 +1172,7 @@ BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing: @ 82525F4
 	// せいは されましたな!
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints: @ 8252662
-	.string "모험가여!\n"
+	.string "모험자여!\n"
 	.string "당신의 뜨거운 용기를 기리며\l"
 	.string "배틀포인트를 드리겠습니다!$"
 	// ぼうけんしゃよ!ｎ

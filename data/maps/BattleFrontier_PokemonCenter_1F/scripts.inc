@@ -40,22 +40,32 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty:: @ 8267931
 	end
 
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon: @ 8267944
-	.string "There was someone here using a \n"
-	.string "POKéMON I've never seen before.\p"
-	.string "I never learned about it at\n"
-	.string "TRAINER'S SCHOOL at least.\p"
-	.string "I wonder where you can catch POKéMON\n"
-	.string "like that.$"
+	.string "본 적이 없는 포켓몬을\n"
+	.string "쓰는 사람이 있었어!\p"
+	.string "트레이너스쿨에서도\n"
+	.string "알려준 적이 없었는데\l"
+	.string "어디서 잡는 걸까나!$"
+	// みたこともない ポケモンをｎ
+	// つかってる ひとが いた!ｐ
+	// トレ-ナ-ズスク-ルでもｎ
+	// ならわなかった けどｌ
+	// あんなの どこに いるのかなあ!
 
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena: @ 82679EB
-	.string "Okay! Next stop, the BATTLE ARENA!\n"
-	.string "I'd better get the right POKéMON from\l"
-	.string "the PC Storage System.$"
+	.string "좋아! 다음은 배틀아레나다!\n"
+	.string "그 포켓몬과 그 포켓몬을\l"
+	.string "PC에서 데리고 가자!$"
+	// よしっ! おつぎは バトルアリ-ナだ!ｎ
+	// あのポケモンと あのポケモンをｌ
+	// パソコンから つれて いくぜ!
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge: @ 8267A4B
-	.string "Giggle… I'm going to go through every\n"
-	.string "challenge with just this baby!$"
+	.string "우후 저는 전부\n"
+	.string "이 아이와 함께 도전할 거예요!$"
+	// うふ わたしは ぜ-んぶｎ
+	// このコと がんばるんだ もんね!
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty: @ 8267A90
-	.string "SKITTY: Mya myaaah!$"
+	.string "에나비: 미야 미야-앗!$"
+	// エネコ『みゃ みゃ-っ!
 

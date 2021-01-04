@@ -49,32 +49,55 @@ BattleFrontier_Lounge6_EventScript_TradeCompleted:: @ 8265083
 	end
 
 BattleFrontier_Lounge6_Text_WouldYouLikeToTrade: @ 826508D
-	.string "My POKéMON is a {STR_VAR_2}.\n"
-	.string "Do you know it?\l"
-	.string "It's quite cute and rather nice.\p"
-	.string "This little one, I could trade with\n"
-	.string "pride!\p"
-	.string "Would you like to trade me a {STR_VAR_1}\n"
-	.string "for my {STR_VAR_2}?$"
+	.string "나의 이 포켓몬\n"
+	.string "{STR_VAR_2}{K_I}라는데 알고 있나요?\l"
+	.string "꽤 귀엽고 느낌도 좋아요-\p"
+	.string "이 애라면 저\n"
+	.string "자신 있게 교환할 수 있어요!\p"
+	.string "어때요?\n"
+	.string "저의 이 {STR_VAR_2}{K_WAGWA}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 교환하실래요?$"
+	// わたしの この ポケモンｎ
+	// §うって いうんですよ しってます?ｌ
+	// なかなか かわいくて イイかんじ ですよ-ｐ
+	// このコ だったら わたしｎ
+	// むねをはって こうかんに だせます!ｐ
+	// どうです?ｎ
+	// わたしの この §うｌ
+	// §いと こうかん しません?
 
 BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt: @ 8265128
-	.string "Oh, it's adorable!\n"
-	.string "Thank you!\l"
-	.string "I promise I'll be good to it!\p"
-	.string "Oh! I hope you'll be good to\n"
-	.string "my {STR_VAR_2}, too!$"
+	.string "와- 귀엽네요-...!\n"
+	.string "정말 고마워요\l"
+	.string "소중하게 키울게요!\p"
+	.string "앗 {STR_VAR_2}도\n"
+	.string "잘 부탁드려요!$"
+	// わ- かわいい ですね-……!ｎ
+	// どうも ありがとうｌ
+	// たいせつに しますよ!ｐ
+	// あっ §うもｎ
+	// よろしく おねがい します!
 
 BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon: @ 826518D
-	.string "Oh, I'm sorry!\n"
-	.string "I don't intend to trade for anything\l"
-	.string "but a {STR_VAR_1}.$"
+	.string "앗 죄송해요!\n"
+	.string "저 {STR_VAR_1}{K_IGA} 아니면\l"
+	.string "교환할 생각이 없어서-$"
+	// あ ゴメンなさい!ｎ
+	// わたし §い いがいとはｌ
+	// こうかん するつもり ないんで-
 
 BattleFrontier_Lounge6_Text_WellThatsFineToo: @ 82651CB
-	.string "Oh, you won't?\n"
-	.string "Well, that's fine, too.\l"
-	.string "Please come visit us again.$"
+	.string "아 안되는 건가요!\n"
+	.string "딱히 상관은 없지만\l"
+	.string "다음에 또 와주세요-$"
+	// あ やめますか!ｎ
+	// べつに いいですよｌ
+	// また こんど きてください-
 
 BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined: @ 826520E
-	.string "Giggle!\n"
-	.string "A SKITTY is so much cuter than I had\l"
-	.string "imagined. I'm delighted!$"
+	.string "우후후!\n"
+	.string "에나비가 생각했던 것보다 더\l"
+	.string "귀여워서 정말로 기뻐요-$"
+	// うふふ!ｎ
+	// エネコが おもってたより ずっとｌ
+	// かわいくて ほんと うれしいです-

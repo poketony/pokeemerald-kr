@@ -102,34 +102,54 @@ BattleFrontier_RankingHall_EventScript_Boy:: @ 825E573
 	end
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall: @ 825E57C
-	.string "This is the RANKING HALL.\p"
-	.string "This is where we recognize the immortal\n"
-	.string "TRAINERS who left great records in\l"
-	.string "BATTLE FRONTIER events.$"
+	.string "여기는 랭킹홀\p"
+	.string "배틀프런티어에 도전한\n"
+	.string "트레이너들의 위대한 기록을\l"
+	.string "기리는 장소입니다$"
+	// ここは ランキングホ-ルｐ
+	// バトルフロンティアに ちょうせん したｎ
+	// トレ-ナ-たちの いだいな きろくをｌ
+	// たたえる ばしょ です
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords: @ 825E5F9
-	.string "BATTLE DOME, BATTLE PIKE,\n"
-	.string "and BATTLE FACTORY Records$"
+	.string "배틀돔 배틀튜브\n"
+	.string "배틀팩토리의 기록은 이쪽$"
+	// バトルド-ム バトルチュ-ブｎ
+	// バトルファクトリ- の きろくは こちら
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords: @ 825E62E
-	.string "BATTLE PALACE, BATTLE ARENA,\n"
-	.string "and BATTLE PYRAMID Records$"
+	.string "배틀팰리스 배틀아레나\n"
+	.string "배틀피라미드의 기록은 이쪽$"
+	// バトルパレス バトルアリ-ナｎ
+	// バトルピラミッド の きろくは こちら
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList: @ 825E666
-	.string "Hi, is your name on this list?$"
+	.string "저기 네 이름\n"
+	.string "여기에 적혀 있어?$"
+	// ねえ きみの なまえｎ
+	// ここに のってるの?
 
 BattleFrontier_RankingHall_Text_WowThatsSuper: @ 825E685
-	.string "Wow, that's super!\n"
-	.string "I'll have to try harder, too!$"
+	.string "헤- 굉장하다!\n"
+	.string "나도 열심히 해야지!$"
+	// へ- すごいね!ｎ
+	// ぼくも がんばらなきゃ!
 
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName: @ 825E6B6
-	.string "Oh, is that right?\p"
-	.string "If you saw your friend's name up here,\n"
-	.string "I bet it would make you work harder!$"
+	.string "그렇구나...\p"
+	.string "하지만 친구의 이름을 여기서 보면\n"
+	.string "더 열심히 하고 싶어지지!$"
+	// そうなんだ…ｐ
+	// でも ともだちの なまえを ここで みるとｎ
+	// がんばろうって きもちに なるよね!
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere: @ 825E715
-	.string "Hmm…\n"
-	.string "My name's not up there…\p"
-	.string "Well, it's only natural since I haven't\n"
-	.string "taken any challenges yet.$"
+	.string "음 내 이름\n"
+	.string "적혀 있지 않네...\p"
+	.string "아직 어디에도 도전하지 않았으니까\n"
+	.string "당연한 건가...$"
+	// う-ん ぼくの なまえｎ
+	// のって ないなあ……ｐ
+	// まだ どこにも ちょうせん してないからｎ
+	// あたりまえか……
 

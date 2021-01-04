@@ -229,7 +229,7 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest:: @ 8263A34
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier: @ 8263A3F
-	.string "SCOTT: Well, hello and welcome!\n"
+	.string "금작화: Well, hello and welcome!\n"
 	.string "Heheh… Sorry about the cramped space.\p"
 	.string "Anyway, {PLAYER}{KUN}, let me formally\n"
 	.string "welcome you to the BATTLE FRONTIER.\p"
