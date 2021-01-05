@@ -425,7 +425,7 @@ BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong: @ 8265C6F
 	// こんなところに いたり しないよな
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful: @ 8265D17
-	.string "내가 반바지 꼬마였을 때\n"
+	.string "제가 반바지 꼬마였을 때\n"
 	.string "강하고 아름다운 그녀들은\l"
 	.string "모든 트레이너의 아이돌이었죠\p"
 	.string "지금도 그 기술의 아름다움은\n"
@@ -433,7 +433,7 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful: @ 8265D17
 	.string "점점 갈고닦아져 빛나고 있답니다\p"
 	.string "하지만... 왠지 이런 생각이 듭니다\p"
 	.string "시간이란 것은 참으로\n"
-	.string "잔혹하군요...$"
+	.string "잔혹하다고...$"
 	// わたしが まだ たんぱんこぞう だったころｎ
 	// つよく うつくしい かのじょ たちはｌ
 	// トレ-ナ- みんなの アイドル でしたｐ

@@ -353,14 +353,13 @@ BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay: @ 8266733
 	// おつかれさまです!
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere: @ 8266764
-	.string "금작화: It's great to see you here,\n"
-	.string "it really is!\p"
-	.string "I hope you'll take your time and\n"
-	.string "explore everywhere.\p"
-	.string "Naturally, I hope you'll also experience\n"
-	.string "the pure essence of battling.\p"
-	.string "I also have my quarters here, so feel\n"
-	.string "free to visit if you have time.$"
+	.string "금작화: 네가 와주다니\n"
+	.string "엄청 기쁜걸!\p"
+	.string "부디 차분하고 확실하게\n"
+	.string "포켓몬 승부의 진수를\l"
+	.string "맛봐주면 좋겠어!\p"
+	.string "내 방도 있으니까\n"
+	.string "한가할 때 찾아와 줘!$"
 	// エニシダ『きみが きてくれてｎ
 	// とっても うれしいよ!ｐ
 	// ぜひ ゆっくりと そして じっくりとｎ
@@ -370,22 +369,24 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere: @ 8266764
 	// ひまが あるときに たずねて きてくれよ!
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities: @ 8266857
-	.string "I'm your guide to the various facilities\n"
-	.string "here in the BATTLE FRONTIER.$"
+	.string "이쪽에서는 배틀프런티어에 있는\n"
+	.string "여러 시설의\l"
+	.string "안내를 하고 있습니다!$"
 	// こちらでは バトルフロンティアに あるｎ
 	// さまざまな しせつのｌ
 	// ごあんないを いたします!
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2: @ 826689D
-	.string "Which would you like to learn about?$"
+	.string "어느 설명을 듣겠습니까?$"
 	// どの せつめいが ききたいですか?
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo: @ 82668C2
-	.string "It is the gigantic tower considered\n"
-	.string "to be the BATTLE FRONTIER's symbol.\p"
-	.string "There are four kinds of BATTLE ROOMS\n"
-	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
-	.string "and LINK MULTI BATTLES.$"
+	.string "배틀프런티어의 상징이라고도\n"
+	.string "할 수 있는 거대한 탑입니다\p"
+	.string "이쪽의 건물에서는 싱글\n"
+	.string "더블 멀티 통신멀티\l"
+	.string "4개의 배틀룸에서 배틀을\l"
+	.string "즐길 수 있습니다!$"
 	// バトルフロンティアの シンボル ともｎ
 	// いえる きょだいな とう ですｐ
 	// こちらの たてもの では シングルｎ
@@ -394,13 +395,13 @@ BattleFrontier_ReceptionGate_Text_BattleTowerInfo: @ 82668C2
 	// たのしむことが できます!
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo: @ 826696F
-	.string "The BATTLE DOME is the large building\n"
-	.string "shaped like a huge egg.\p"
-	.string "Events named Battle Tourneys are held\n"
-	.string "in this facility.\p"
-	.string "The Battle Tourneys are offered in\n"
-	.string "two courses--for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "배틀돔은 알 모양을\n"
+	.string "한 커다란 건물입니다\p"
+	.string "이쪽에서는 배틀토너먼트라고 하는\n"
+	.string "이벤트가 개최되고 있습니다\p"
+	.string "또한 배틀토너먼트에는\n"
+	.string "싱글배틀용 더블배틀용\l"
+	.string "2개의 코스가 있습니다!$"
 	// バトルド-ムは たまごの ようなｎ
 	// かたちをした おおきな たてものですｐ
 	// こちらでは バトルト-ナメント というｎ
@@ -410,10 +411,11 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo: @ 826696F
 	// 2つの コ-スが あります!
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo: @ 8266A34
-	.string "The BATTLE PALACE is the red building\n"
-	.string "on the right of the BATTLE FRONTIER.\p"
-	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and DOUBLE BATTLES.$"
+	.string "배틀팰리스는 배틀프런티어의\n"
+	.string "우측 하단에 있는 붉은 건물입니다\p"
+	.string "이쪽의 건물에서는\n"
+	.string "싱글 더블 2개의\l"
+	.string "배틀홀로의 도전이 가능합니다$"
 	// バトルパレスは バトルフロンティアのｎ
 	// みぎはじに ある あかい たてものですｐ
 	// こちらの たてもの ではｎ
@@ -421,11 +423,11 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo: @ 8266A34
 	// バトルホ-ルへの ちょうせんが できます
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo: @ 8266AC2
-	.string "The BATTLE ARENA is the dojo-like\n"
-	.string "building at the center-right of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Set KO Tourney\n"
-	.string "takes place at the BATTLE ARENA.$"
+	.string "배틀아레나는 배틀프런티어의\n"
+	.string "중앙에서 오른쪽에 위치한\l"
+	.string "도장과 닮은 건물입니다\p"
+	.string "이쪽에서는 연승팀배틀이라고 하는\n"
+	.string "이벤트가 개최되고 있습니다!$"
 	// バトルアリ-ナは バトルフロンティアのｎ
 	// ちゅうおう みぎに いちするｌ
 	// どうじょうの ような たてものですｐ
@@ -433,13 +435,13 @@ BattleFrontier_ReceptionGate_Text_BattleArenaInfo: @ 8266AC2
 	// イベントを かいさい しております!
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo: @ 8266B5D
-	.string "The BATTLE FACTORY is the large\n"
-	.string "building that is the closest to us.\p"
-	.string "An event called the Battle Swap\n"
-	.string "is conducted there.\p"
-	.string "The Battle Swap event is offered in\n"
-	.string "two courses for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+	.string "배틀팩토리는 이곳을 나가서 가장\n"
+	.string "가까이에 있는 커다란 빌딩입니다\p"
+	.string "이쪽에서는 배틀트레이드라고 하는\n"
+	.string "이벤트가 개최되고 있습니다\p"
+	.string "또한 배틀트레이드에는\n"
+	.string "싱글배틀용 더블배틀용\l"
+	.string "2개의 코스가 준비되어 있습니다!$"
 	// バトルファクトリ-は ここをでて いちばんｎ
 	// ちかくにある おおきな ビルに なりますｐ
 	// こちらでは バトルトレ-ド というｎ
@@ -449,11 +451,11 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo: @ 8266B5D
 	// 2つの コ-スが ようい されています!
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo: @ 8266C24
-	.string "The BATTLE PIKE is the building shaped\n"
-	.string "like a POKéMON at the center-left of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Battle Choice\n"
-	.string "is conducted there.$"
+	.string "배틀튜브는 배틀프런티어의\n"
+	.string "중앙에서 왼쪽에 위치한\l"
+	.string "포켓몬 모양의 건물입니다\p"
+	.string "이쪽에서는 배틀게임이라고 하는\n"
+	.string "이벤트가 개최되고 있습니다!$"
 	// バトルチュ-ブは バトルフロンティアのｎ
 	// ちゅうおう ひだりに いちするｌ
 	// ポケモンの かたちを した たてものですｐ
@@ -461,22 +463,22 @@ BattleFrontier_ReceptionGate_Text_BattlePikeInfo: @ 8266C24
 	// イベントを かいさい しております!
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo: @ 8266CBB
-	.string "The BATTLE PYRAMID is the enormous\n"
-	.string "pyramid.\p"
-	.string "An event called the Battle Quest\n"
-	.string "is conducted there.$"
+	.string "배틀피라미드는 거대한\n"
+	.string "피라미드 모양의 건물입니다\p"
+	.string "이쪽에서는 배틀어드벤처라고 하는\n"
+	.string "이벤트가 개최되고 있습니다!$"
 	// バトルピラミッドは きょだいなｎ
 	// ピラミッドの かたちをした たてものですｐ
 	// こちらでは バトルアドベンチャ- というｎ
 	// イベントを かいさい しております!
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo: @ 8266D1C
-	.string "The RANKING HALL is located near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "There, you may see the most fantastic\n"
-	.string "records left by the TRAINERS that\l"
-	.string "took on the many challenges of\l"
-	.string "the BATTLE FRONTIER.$"
+	.string "랭킹홀은\n"
+	.string "배틀타워 근처에 있습니다\p"
+	.string "이쪽은 배틀프런티어에서\n"
+	.string "배틀한 트레이너의\l"
+	.string "가장 뛰어난 기록을\l"
+	.string "볼 수 있습니다$"
 	// ランキングホ-ルはｎ
 	// バトルタワ-の ちかくに ありますｐ
 	// こちらは バトルフロンティアでｎ
@@ -485,11 +487,12 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo: @ 8266D1C
 	// みることが できます
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo: @ 8266DCB
-	.string "The EXCHANGE SERVICE CORNER is near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "The Battle Points you have earned in\n"
-	.string "the BATTLE FRONTIER may be exchanged\l"
-	.string "for fabulous prizes there.$"
+	.string "교환 서비스 코너는\n"
+	.string "배틀타워 근처에 있습니다\p"
+	.string "이쪽에서는 배틀프런티어\n"
+	.string "안에서 모은 배틀포인트를\l"
+	.string "멋진 경품과\l"
+	.string "교환할 수 있습니다!$"
 	// ひきかえサ-ビス コ-ナ-はｎ
 	// バトルタワ-の ちかくに ありますｐ
 	// こちらでは バトルフロンティアのｎ
@@ -498,38 +501,40 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo: @ 8266DCB
 	// こうかんする ことが できます!
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules: @ 8266E66
-	.string "I'm your guide to the basic rules that\n"
-	.string "are common to all the challenges\l"
-	.string "offered by the facilities in the BATTLE\l"
-	.string "FRONTIER.$"
+	.string "이쪽에서는 배틀프런티어에 있는\n"
+	.string "모든 시설에서 공통된\l"
+	.string "도전을 위해 기본적인\l"
+	.string "규칙을 설명합니다!$"
 	// こちらでは バトルフロンティアに あるｎ
 	// すべての しせつに きょうつう したｌ
 	// ちょうせんの ための きほんてきなｌ
 	// ル-ルを せつめい いたします!
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat: @ 8266EE0
-	.string "What would you like to learn about?$"
+	.string "어느 설명을 듣겠습니까?$"
 	// どの せつめいが ききたいですか?
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo: @ 8266F04
-	.string "All the challenges at the BATTLE\n"
-	.string "FRONTIER's facilities come in\l"
-	.string "two courses--Level 50 and Open Level.$"
+	.string "배틀프런티어에 있는\n"
+	.string "모든 시설의 도전은\l"
+	.string "크게 레벨 50의 코스와\l"
+	.string "오픈 레벨의 코스로 나눠집니다$"
 	// バトルフロンティアに あるｎ
 	// すべての しせつの ちょうせんはｌ
 	// おおきく レベル50の コ-スとｌ
 	// オ-プンレベルの コ-スに わかれています
 
 BattleFrontier_ReceptionGate_Text_Level50Info: @ 8266F69
-	.string "The Level 50 course is open to POKéMON\n"
-	.string "up to and including Level 50.\p"
-	.string "Please keep in mind, however, that\n"
-	.string "no TRAINER you face will have any\l"
-	.string "POKéMON below Level 50.\p"
-	.string "This course is the entry level for\n"
-	.string "battles at the BATTLE FRONTIER.\p"
-	.string "To begin, we hope you will challenge\n"
-	.string "this course.$"
+	.string "레벨 50의 코스에는 이름대로\n"
+	.string "레벨 50까지의 포켓몬으로\l"
+	.string "도전할 수 있습니다\p"
+	.string "다만 레벨 50보다 높은 레벨의\n"
+	.string "포켓몬을 지닌 트레이너가\l"
+	.string "등장하는 일은 없습니다\l"
+	.string "아무쪼록 주의해 주십시오\p"
+	.string "또한 이 코스가 배틀프런티어의\n"
+	.string "배틀의 기본이 되므로\l"
+	.string "꼭 도전해 보는 것을 추천합니다$"
 	// レベル50の コ-スでは なまえの とおりｎ
 	// レベル50までの ポケモンをｌ
 	// ちょうせん させることが できますｐ
@@ -542,14 +547,15 @@ BattleFrontier_ReceptionGate_Text_Level50Info: @ 8266F69
 	// ぜひ チャレンジして みてください
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo: @ 8267080
-	.string "The Open Level course places no limit\n"
-	.string "on the levels of POKéMON entering\l"
-	.string "challenges.\p"
-	.string "The levels of your opponents will\n"
-	.string "be adjusted to match the levels of\l"
-	.string "your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 60.$"
+	.string "오픈 레벨의 코스에는\n"
+	.string "도전에 참가하는 포켓몬의\l"
+	.string "레벨 제한이 없습니다\p"
+	.string "당신의 포켓몬의 레벨에 맞춰\n"
+	.string "대전하는 트레이너의 포켓몬의\l"
+	.string "레벨이 바뀝니다\p"
+	.string "다만 레벨 60보다 낮은 레벨의\n"
+	.string "포켓몬을 데리고 있는 트레이너는\l"
+	.string "등장하지 않습니다$"
 	// オ-プンレベルの コ-スではｎ
 	// ちょうせんに さんかする ポケモンのｌ
 	// レベルに せいげんが ありませんｐ
@@ -561,15 +567,16 @@ BattleFrontier_ReceptionGate_Text_OpenLevelInfo: @ 8267080
 	// とうじょう することは ありません
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo: @ 826716A
-	.string "Virtually any kind of POKéMON may take\n"
-	.string "on the challenges at all facilities.\p"
-	.string "EGGS and certain kinds of POKéMON,\n"
-	.string "however, are not permitted.\p"
-	.string "The numbers of POKéMON required for\n"
-	.string "challenges will depend on the facility.\p"
-	.string "At all facilities, however, two or more\n"
-	.string "of the same kind of POKéMON are not\l"
-	.string "permitted.$"
+	.string "알이나 일부 예외를\n"
+	.string "제외한 대부분의 포켓몬이\l"
+	.string "모든 시설에 도전 가능합니다\p"
+	.string "도전을 위해\n"
+	.string "필요한 포켓몬의 수는\l"
+	.string "시설에 따라 다릅니다\p"
+	.string "다만 어느 시설에서도\n"
+	.string "같은 종류의 포켓몬을\l"
+	.string "2마리 이상 참가시킬 수는\l"
+	.string "없기에 주의해 주십시오$"
 	// タマゴや いちぶの れいがいをｎ
 	// のぞいて ほとんどの ポケモンがｌ
 	// すべての しせつに ちょうせん できますｐ
@@ -582,12 +589,13 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo: @ 826716A
 	// できませんので ごちゅうい ください
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo: @ 8267298
-	.string "When entering a challenge at a BATTLE\n"
-	.string "FRONTIER facility, POKéMON may not\l"
-	.string "be holding the same kind of item.\p"
-	.string "Please make sure that all POKéMON\n"
-	.string "entering a challenge are holding\l"
-	.string "different items.$"
+	.string "배틀프런티어의 시설에\n"
+	.string "포켓몬을 참가시킬 때\p"
+	.string "각각의 포켓몬은\n"
+	.string "같은 아이템을 지닐 수 없습니다\p"
+	.string "참가시킬 포켓몬이\n"
+	.string "모두 다른 도구를\l"
+	.string "지니도록 해주십시오$"
 	// バトルフロンティアの しせつにｎ
 	// ポケモンを ちょうせん させるときｐ
 	// それぞれの ポケモンがｎ
@@ -597,25 +605,25 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo: @ 8267298
 	// もたせて おくように してください
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass: @ 8267357
-	.string "I'm your guide to the FRONTIER PASS.$"
+	.string "이쪽에서는 프런티어패스의\n"
+	.string "설명을 하고 있습니다!$"
 	// こちらでは フロンティアパスのｎ
 	// せつめいを いたします!
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1: @ 826737C
-	.string "Which would you like to learn about?$"
+	.string "어느 설명을 듣겠습니까?$"
 	// どの せつめいが ききたいですか?
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo: @ 82673A1
-	.string "There are seven facilities at\n"
-	.string "the BATTLE FRONTIER.\p"
-	.string "TRAINERS who gain recognition for\n"
-	.string "their abilities may be rewarded with\l"
-	.string "symbols from each of the facilities.\p"
-	.string "To earn a symbol, TRAINERS may need\n"
-	.string "to defeat other TRAINERS in a row,\l"
-	.string "and may need to win events repeatedly.\p"
-	.string "It's certainly not easy to win symbols.\n"
-	.string "I wish you the best of luck!$"
+	.string "배틀프런티어의 7개의 시설에서\n"
+	.string "강함을 인정받은 트레이너가\l"
+	.string "각각의 시설의 심볼을\l"
+	.string "받는 경우가 있습니다\p"
+	.string "심볼을 받기 위해서는\n"
+	.string "계속 트레이너를 이겨나가거나\l"
+	.string "계속 제패하거나...\p"
+	.string "꽤나 힘든 조건이지만\n"
+	.string "부디 힘내주세요!$"
 	// バトルフロンティアの 7つの しせつでｎ
 	// つよさを みとめられた トレ-ナ-がｌ
 	// それぞれの しせつの シンボルをｌ
@@ -627,16 +635,14 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo: @ 82673A1
 	// ぜひ がんばって くださいね!
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo: @ 82674F3
-	.string "It is possible to record one battle\n"
-	.string "on your FRONTIER PASS.\p"
-	.string "You may record a battle you had with\n"
-	.string "a friend or friends.\p"
-	.string "Or you may record a battle conducted\n"
-	.string "at the BATTLE FRONTIER excluding\l"
-	.string "matches at the BATTLE PIKE or\l"
-	.string "the BATTLE PYRAMID.\p"
-	.string "You may choose to record your match\n"
-	.string "at the end of a battle.$"
+	.string "당신의 대전을 하나만\n"
+	.string "패스에 기록할 수 있습니다\p"
+	.string "친구와의 대전이나\n"
+	.string "배틀튜브 배틀팰리스 이외의\l"
+	.string "배틀프런티어에서의\l"
+	.string "대전을 기록할 수 있습니다\p"
+	.string "대전이 끝났을 때\n"
+	.string "기록 여부를 결정합니다$"
 	// あなたの たいせんを ひとつだけｎ
 	// パスに きろくする ことが できますｐ
 	// おともだち との たいせんかｎ
@@ -647,12 +653,12 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo: @ 82674F3
 	// きろく するか どうかを きめられます
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo: @ 826761C
-	.string "Battle Points are rewards given to\n"
-	.string "TRAINERS who battled outstandingly\l"
-	.string "at the BATTLE FRONTIER.\p"
-	.string "You may trade in your Battle Points\n"
-	.string "for prizes at the EXCHANGE SERVICE\l"
-	.string "CORNER.$"
+	.string "배틀포인트는\n"
+	.string "배틀프런티어에서 굉장한\l"
+	.string "배틀을 한 트레이너에게\l"
+	.string "주어지는 보상입니다\p"
+	.string "모은 포인트는 교환 서비스로\n"
+	.string "상품과 교환할 수 있습니다$"
 	// バトルポイントはｎ
 	// バトルフロンティアで すばらしいｌ
 	// たたかいを した トレ-ナ-にｌ

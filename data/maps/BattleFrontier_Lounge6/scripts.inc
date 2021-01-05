@@ -55,7 +55,7 @@ BattleFrontier_Lounge6_Text_WouldYouLikeToTrade: @ 826508D
 	.string "이 애라면 저\n"
 	.string "자신 있게 교환할 수 있어요!\p"
 	.string "어때요?\n"
-	.string "저의 이 {STR_VAR_2}{K_WAGWA}\n"
+	.string "저의 이 {STR_VAR_2}{K_WAGWA}\l"
 	.string "{STR_VAR_1}{K_EULREUL} 교환하실래요?$"
 	// わたしの この ポケモンｎ
 	// §うって いうんですよ しってます?ｌ

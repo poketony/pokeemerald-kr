@@ -229,13 +229,13 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest:: @ 8263A34
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier: @ 8263A3F
-	.string "금작화: Well, hello and welcome!\n"
-	.string "Heheh… Sorry about the cramped space.\p"
-	.string "Anyway, {PLAYER}{KUN}, let me formally\n"
-	.string "welcome you to the BATTLE FRONTIER.\p"
-	.string "This is my dream come true.\n"
-	.string "It took me years and years, but I've\l"
-	.string "finally given shape to my dream.$"
+	.string "금작화: 아아 어서 와\n"
+	.string "헤헤... 좁은 곳이라서 미안해\p"
+	.string "그럼 다시 한 번 {PLAYER}\n"
+	.string "잘 왔어 배틀프런티어에!\p"
+	.string "여기는 내 꿈의 결정체!\n"
+	.string "몇 년씩이나 걸렸지만 겨우\l"
+	.string "만들 수 있었지!$"
 	// エニシダ『ああ いらっしゃいｎ
 	// へへ…… せまい ところで ごめんよｐ
 	// では あらためて §あ§おｎ
@@ -245,12 +245,11 @@ BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier: @ 8263A3F
 	// かたちに することが できたんだ!
 
 BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal: @ 8263B29
-	.string "On reflection, it was a terribly long\n"
-	.string "journey…\p"
-	.string "I left home alone on a quest to find\n"
-	.string "strong TRAINERS.\p"
-	.string "No one can imagine how much effort\n"
-	.string "or time it took to make this real.$"
+	.string "생각해 보면 긴 여정이었어...\n"
+	.string "강한 트레이너를 찾아서\l"
+	.string "혼자서 여행하고...\l"
+	.string "여기까지 오는 데에 얼마나\l"
+	.string "많은 노력과 시간을 들였는지...$"
 	// おもえば ながい みちのりだった……ｎ
 	// つよい トレ-ナ-を もとめてｌ
 	// ただひとり たびだち……ｌ
@@ -258,13 +257,13 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal: @ 8263B29
 	// どりょくと じかんが ひつようだったか……
 
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing: @ 8263BD4
-	.string "But that's all in the past.\n"
-	.string "No point dwelling on that!\p"
-	.string "All I want for you is to enjoy battling\n"
-	.string "to your heart's content here.\p"
-	.string "{PLAYER}{KUN}, I want you to have this\n"
-	.string "as a memento for all the time our\l"
-	.string "paths crossed on our journeys.$"
+	.string "아니 이런 옛날 이야기로는\n"
+	.string "진행이 안 되지!\p"
+	.string "어쨌든 마음껏\n"
+	.string "포켓몬 승부를 즐겨줘!\p"
+	.string "이건 나와 {PLAYER}{K_IGA}\n"
+	.string "여행하면서 몇 번이고 만났던\l"
+	.string "기념으로 줄게!$"
 	// いや こんな むかしばなしをｎ
 	// していても はじまらないな!ｐ
 	// とにかく こころ ゆくまでｎ
@@ -274,19 +273,19 @@ BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing: @ 8263BD4
 	// きねんだよ!
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints: @ 8263CB0
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_1} Battle Point(s).$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}BP를 받았다!$"
 	// §あは バトルポイントをｎ
 	// §い BP もらった!
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints: @ 8263CD0
-	.string "SCOTT: You can check your Battle\n"
-	.string "Points on your FRONTIER PASS.\p"
-	.string "The more success you have here at\n"
-	.string "the BATTLE FRONTIER, the more Battle\l"
-	.string "Points you will collect.\p"
-	.string "Use your Battle Points the way you\n"
-	.string "see fit, like trading them for items.$"
+	.string "금작화: 배틀포인트는\n"
+	.string "프런티어패스로 볼 수 있어!\p"
+	.string "포인트는 이 프런티어에서\n"
+	.string "활약하면 활약할수록\l"
+	.string "모이게 되지!\p"
+	.string "원하는 것과 교환하거나\n"
+	.string "마음대로 쓰도록 해!$"
 	// エニシダ『バトルポイントはｎ
 	// フロンティアパスで みられるからね!ｌ
 	// ポイントは この フロンティアでｌ
@@ -296,21 +295,23 @@ BattleFrontier_ScottsHouse_Text_ExplainBattlePoints: @ 8263CD0
 	// すきなように かつようして くれ!
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings: @ 8263DB8
-	.string "I'm expecting great things from you!$"
+	.string "네 활약을\n"
+	.string "많이 기대하고 있어!$"
 	// きみの かつやくｎ
 	// おおいに きたい しているからね!
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers: @ 8263DDD
-	.string "SCOTT: Every TRAINER is an individual.\n"
-	.string "They all lead lives of their own.\p"
-	.string "But when they're in a battle,\n"
-	.string "it doesn't matter who they are.\p"
-	.string "They're all the same!\p"
-	.string "I love the purity of battle,\n"
-	.string "where everyone is equal.\p"
-	.string "That's why I go everywhere seeking\n"
-	.string "TRAINERS who are serious about\l"
-	.string "battling, and invite them here.$"
+	.string "금작화: 어느 트레이너나\n"
+	.string "각자의 인생이 있지?\p"
+	.string "하지만 배틀할 때는\n"
+	.string "그런 거에 전혀 관계없이\l"
+	.string "모두 똑같아져!\p"
+	.string "나는 그런\n"
+	.string "배틀의 순수함이\l"
+	.string "너무나도 좋아\p"
+	.string "그래서 여러 곳에 다니면서\n"
+	.string "진심으로 배틀하는 트레이너를\l"
+	.string "잔뜩 초대한 거야!$"
 	// エニシダ『どの トレ-ナ-にもｎ
 	// それぞれの じんせいが あるだろ?ｐ
 	// でも たたかう ときはｎ
@@ -324,14 +325,13 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers: @ 8263DDD
 	// いっぱい しょうたい してくるのさ!
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain: @ 8263F12
-	.string "SCOTT: Have you met any of\n"
-	.string "the FRONTIER BRAINS?\p"
-	.string "Better yet, have you obtained any\n"
-	.string "symbols from them?\p"
-	.string "I handpicked the FRONTIER BRAINS\n"
-	.string "as the toughest TRAINERS anywhere.\p"
-	.string "But I'm sure that seeing how tough\n"
-	.string "you are will startle even them!$"
+	.string "금작화: 내 브레인들한테서\n"
+	.string "프런티어패스의 심볼을\l"
+	.string "이미 받았으려나?\p"
+	.string "내가 발견한\n"
+	.string "최강의 프런티어브레인도\l"
+	.string "네 강함을 본다면\l"
+	.string "아마도 놀랄 테지!$"
 	// エニシダ『わが ブレ-ンたち からｎ
 	// フロンティアパスの シンボルはｌ
 	// もう もらったかな?ｐ
@@ -341,14 +341,12 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain: @ 8263F12
 	// おそらく おどろく だろうね!
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier: @ 8263FFE
-	.string "SCOTT: You don't just train for battle,\n"
-	.string "right?\p"
-	.string "I think I remember you working on\n"
-	.string "a POKéDEX as well.\p"
-	.string "Well, guess what?\p"
-	.string "You may run into wild POKéMON in\n"
-	.string "the BATTLE FRONTIER somewhere…\l"
-	.string "Fufufu!$"
+	.string "금작화: 너는 분명\n"
+	.string "승부만이 아니라\l"
+	.string "포켓몬 도감도 모으고 있었지!\p"
+	.string "어쩌면 배틀프런티어에도\n"
+	.string "포켓몬과 만날 수 있는 장소가\l"
+	.string "있을지도 모르지? 우후후...$"
 	// エニシダ『きみは たしかｎ
 	// しょうぶ だけでは なくてｌ
 	// ポケモンずかんも つくって いたね!ｐ
@@ -357,19 +355,17 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier: @ 8263FFE
 	// あるかも しれないよ? うふふ……
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols: @ 82640BC
-	.string "SCOTT: Are you enjoying things in\n"
-	.string "the BATTLE FRONTIER?\p"
-	.string "…Wait a second…\n"
-	.string "Oh!\p"
-	.string "Your FRONTIER PASS!\n"
-	.string "You've collected the full set\l"
-	.string "of silver symbols!\p"
-	.string "That's more than impressive!\n"
-	.string "You are tough, just as I suspected!\p"
-	.string "Normally, I wouldn't do something\n"
-	.string "like this, but this is a special time!\p"
-	.string "I want you to have this.\n"
-	.string "I'm sure you can put it to proper use.$"
+	.string "금작화: 배틀프런티어는\n"
+	.string "즐기고 있어?\p"
+	.string "...잠깐 오옷!\p"
+	.string "네 프런티어패스!\n"
+	.string "은심볼이 모두\l"
+	.string "모여 있잖아!\p"
+	.string "굉장하구나 너는 생각대로\n"
+	.string "강한 트레이너였어!\p"
+	.string "보통 이런 일은 안하지만\n"
+	.string "부디 기념으로 이걸 받아줘!\l"
+	.string "너라면 잘 쓸 수 있을 거야...!$"
 	// エニシダ『バトルフロンティアをｎ
 	// たのしんで くれて いるかな?ｐ
 	// ……って おおっっ!ｐ
@@ -383,19 +379,20 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols: @ 82640BC
 	// きみなら つかいこなせる はずだよ……!
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols: @ 8264216
-	.string "SCOTT: I hope you're enjoying\n"
-	.string "everything in the BATTLE FRONTIER.\p"
-	.string "…Wait a second…\n"
-	.string "Oh, my disbelieving eyes!\p"
-	.string "Your FRONTIER PASS!\n"
-	.string "You've gathered up the full set\l"
-	.string "of gold symbols!\p"
-	.string "That's more than stupendous!\n"
-	.string "You're incredible, just as I suspected!\p"
-	.string "… … … … … …\p"
-	.string "{PLAYER}, you've got to accept this!\p"
-	.string "I think you will be able to\n"
-	.string "appreciate the value of my gift!$"
+	.string "금작화: 배틀프런티어는\n"
+	.string "즐기고 있어?\p"
+	.string "...잠깐 우와아아앗!\p"
+	.string "네 프런티어패스!\n"
+	.string "금심볼이 모두\l"
+	.string "모여 있잖아!\p"
+	.string "이건 정말 대단해!\n"
+	.string "역시 너는 생각대로\l"
+	.string "굉장한 트레이너였어!\p"
+	.string "...... ...... ......\p"
+	.string "{PLAYER}! 부디 네게\n"
+	.string "이걸 선물하게 해줘!\p"
+	.string "너라면 이것의 가치를\n"
+	.string "알아줄 거라고 생각해!$"
 	// エニシダ『バトルフロンティアはｎ
 	// まんきつ してるかな?ｐ
 	// ……って うひょおおっっ!ｐ
@@ -405,32 +402,32 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols: @ 8264216
 	// これはすごいっ!ｎ
 	// やっぱり きみは おもったとおりｌ
 	// すごい トレ-ナ- だったんだなあ!ｐ
-	// …… …… ……ｐ§あ§お! ぜひ きみにｎ
+	// …… …… ……ｐ
+	// §あ§お! ぜひ きみにｎ
 	// これを プレゼント させて くれ!ｐ
 	// きみならば これの かちをｎ
 	// わかって くれると おもうんだ!
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere: @ 8264373
-	.string "I must say I have the gift of knowing\n"
-	.string "a good TRAINER when I see one.\p"
-	.string "I'm so glad I had the foresight to\n"
-	.string "bring you here!$"
+	.string "이야- 내가 생각해도\n"
+	.string "난 트레이너를 보는 눈이 있나 봐\l"
+	.string "너를 데리고 와서 정말 다행이야!\l"
+	.string "하하하$"
 	// いや- われながらｎ
 	// トレ-ナ-を みるめが さえてるな-ｌ
 	// きみを つれてきて ほんと よかった!ｌ
 	// ほく ほく
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed: @ 82643EB
-	.string "Your BERRY POCKET seems to\n"
-	.string "be stuffed.$"
+	.string "나무열매 포켓이 가득찬 모양이네$"
 	// きのみポケットが いっぱい みたいね
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow: @ 8264412
-	.string "SCOTT: Oh, I heard about you!\n"
-	.string "How you ruled the BATTLE TOWER!\l"
-	.string "You beat over 50 TRAINERS in a row?\p"
-	.string "That's fantastic!\n"
-	.string "I want you to have this!$"
+	.string "금작화: 오옷 들었어!\n"
+	.string "배틀타워에서 활약했다며!\l"
+	.string "50연승을 달성한 거지?\p"
+	.string "굉장하구만 기념으로\n"
+	.string "이걸 받아줘!$"
 	// エニシダ『おっ きいたよ!ｎ
 	// バトルタワ-での かつやく!ｌ
 	// 50にん いじょう かちぬいたって?ｐ
@@ -438,11 +435,11 @@ BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow: @ 8264412
 	// これを うけとって くれよ!
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow: @ 826449F
-	.string "SCOTT: Oh, my! I heard about you!\n"
-	.string "How you overwhelmed the BATTLE TOWER!\l"
-	.string "You beat over 100 TRAINERS in a row?\p"
-	.string "That's ridiculously spectacular!\n"
-	.string "You've got to have this!$"
+	.string "금작화: 오옷 들었어!\n"
+	.string "배틀타워에서 활약했다며!\l"
+	.string "100연승을 달성한 거지?\p"
+	.string "엄청 대단한데-!\n"
+	.string "부디 이걸 기념으로 받아줘!$"
 	// エニシダ『おおうっ きいたよ!ｎ
 	// バトルタワ-での だいかつやく!ｌ
 	// 100にん いじょう かちぬいたって?ｐ
@@ -450,14 +447,14 @@ BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow: @ 826449F
 	// ぜひ これを きねんに うけとってくれ!
 
 BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings: @ 8264546
-	.string "I'll be expecting to hear even greater\n"
-	.string "things about you now!$"
+	.string "앞으로도 더욱더\n"
+	.string "기대하고 있을게!$"
 	// これからも ますますｎ
 	// きたい しているよ!
 
 BattleFrontier_ScottsHouse_Text_ComeBackForThisLater: @ 8264583
-	.string "Oops, well, if you have too much\n"
-	.string "stuff, come back for this later.$"
+	.string "...잠깐 지닌 물건이 가득하다면\n"
+	.string "정리하고 나서 다시 와줘!$"
 	// ……って にもつが いっぱいならｎ
 	// とって おくから またおいで!
 
