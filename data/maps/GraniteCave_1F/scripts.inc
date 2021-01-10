@@ -18,22 +18,22 @@ GraniteCave_1F_EventScript_ReceivedFlash:: @ 822DA8A
 	end
 
 GraniteCave_1F_Text_GetsDarkAheadHereYouGo: @ 822DA94
-	.string "Hey, you.\n"
-	.string "It gets awfully dark ahead.\l"
-	.string "It'll be tough trying to explore.\p"
-	.string "That guy who came by earlier…\n"
-	.string "STEVEN, I think it was.\p"
-	.string "He knew how to use FLASH, so he ought\n"
-	.string "to be all right, but…\p"
-	.string "Well, for us HIKERS, helping out those\n"
-	.string "that we meet is our motto.\p"
-	.string "Here you go, I'll pass this on to you.$"
+	.string "어이 거기 너\n"
+	.string "이 앞은 어두워서\l"
+	.string "탐험하는 것도 힘들어!\p"
+	.string "방금 전에 여기 온 남자...\n"
+	.string "성호라고 했었나?\p"
+	.string "플래시의 사용법을 알고 있어서\n"
+	.string "괜찮을 거라고 생각해\p"
+	.string "음! 등산가는 만난 사람에게\n"
+	.string "상냥하게 대하는 것이 신조!\p"
+	.string "이걸 너한테 줄게!$"
 
 GraniteCave_1F_Text_ExplainFlash: @ 822DBB7
-	.string "Teach that hidden move FLASH to\n"
-	.string "a POKéMON and use it.\p"
-	.string "It lights up even the inky darkness\n"
-	.string "of caves.\p"
-	.string "But, to use it, you need the GYM BADGE\n"
-	.string "from DEWFORD's POKéMON GYM.$"
+	.string "비전기술 플래시를 포켓몬한테\n"
+	.string "배우게 해서 사용하면 말이지\p"
+	.string "깜깜한 동굴을\n"
+	.string "밝게 비춰줘!\p"
+	.string "뭐 사용하려면 무로의\n"
+	.string "체육관 배지가 필요하지만$"
 

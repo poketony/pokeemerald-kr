@@ -24,14 +24,13 @@ EverGrandeCity_EventScript_SetVisitedEverGrande:: @ 81E7D46
 	end
 
 EverGrandeCity_Text_EnteringVictoryRoad: @ 81E7D4F
-	.string "ENTERING VICTORY ROAD$"
+	.string "이 앞은 챔피언로드$"
 
 EverGrandeCity_Text_EnteringPokemonLeague: @ 81E7D65
-	.string "ENTERING POKéMON LEAGUE\n"
-	.string "CENTER GATE$"
+	.string "이 앞은 포켓몬리그\n"
+	.string "정면 게이트$"
 
 EverGrandeCity_Text_CitySign: @ 81E7D89
-	.string "EVER GRANDE CITY\p"
-	.string "“The paradise of flowers, the sea,\n"
-	.string "and POKéMON.”$"
+	.string "여기는 그랜드시티\n"
+	.string "꽃과 바다와 포켓몬의 낙원$"
 

@@ -203,32 +203,46 @@ FortreeCity_Gym_Text_AshleyPostBattle: @ 8216B5F
 	.string "안심하고 지낼 수 있어$"
 
 FortreeCity_Gym_Text_HumbertoIntro: @ 8216B9E
-	.string "When WINONA takes to battle, her face\n"
-	.string "shines with beautiful determination…\p"
-	.string "I'm not letting you witness that\n"
-	.string "lovely sight!$"
+	.string "은송님이 싸울 때의\n"
+	.string "그 늠름한 얼굴...\p"
+	.string "너 같은 녀석이 보게 할 수는 없지!$"
+	// ナギさまが たたかわれる ときのｎ
+	// あの りりしい おかお……ｐ
+	// おまえ なんかにゃ みせられないぜ!
 
 FortreeCity_Gym_Text_HumbertoDefeat: @ 8216C18
-	.string "Urk!\n"
-	.string "I couldn't stop you.$"
+	.string "우우!\n"
+	.string "나로서는 막을 수 없었어$"
+	// うう!ｎ
+	// おれでは とめられ なかった
 
 FortreeCity_Gym_Text_HumbertoPostBattle: @ 8216C32
-	.string "You'd better watch it!\n"
-	.string "Don't get distracted staring at WINONA\l"
-	.string "or you'll go crashing down in a heap!$"
+	.string "은송님을 넋 놓고 보다가\n"
+	.string "완패하지 않도록\l"
+	.string "조심하라고!$"
+	// ナギさまに みとれてｎ
+	// ボロまけ しないようにｌ
+	// ちゅういするんだな!
 
 FortreeCity_Gym_Text_DariusIntro: @ 8216C96
-	.string "You'd better know that there are all\n"
-	.string "sorts of FLYING-type POKéMON.\p"
-	.string "You do know that, right?$"
+	.string "비행타입이라곤 해도\n"
+	.string "여러 포켓몬이 있어!\p"
+	.string "넌 그걸 알고 있어?$"
+	// ひこうタイプ って いってもｎ
+	// いろんな ポケモンが いるんだぜ!ｌ
+	// おまえ それ わかってる?
 
 FortreeCity_Gym_Text_DariusDefeat: @ 8216CF2
-	.string "You seem to know your stuff!$"
+	.string "꽤 알고 있네!$"
+	// なかなか わかってるな!
 
 FortreeCity_Gym_Text_DariusPostBattle: @ 8216D0F
-	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our LEADER\l"
-	.string "WINONA's POKéMON are all business.$"
+	.string "나는 져버렸지만\n"
+	.string "은송님의 포켓몬은\l"
+	.string "더 강하다고!$"
+	// ぼくは まけたけどｎ
+	// ナギ リ-ダ-の ポケモンはｌ
+	// ほんと てごわいぞ!
 
 FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "저는 이 검방울시티 체육관에서\n"
@@ -287,35 +301,55 @@ FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "은송: 사람은 땅에 있는 한\n"
+	.string "중력에서 벗어날 수 없어요\p"
+	.string "하지만 전력으로 날갯짓하면\n"
+	.string "하늘을 날 수 있게 되지요\p"
+	.string "챔피언까지 오른\n"
+	.string "당신의 실력\l"
+	.string "다시 한 번 보도록 하겠습니다!$"
+	// ナギ『ひとは ちじょうに いる かぎりｎ
+	// いんりょくから のがれることは できないｐ
+	// でも ぜんりょくで はばたけばｎ
+	// そらを とぶことは できるのですｐ
+	// チャンピオンにまで のぼりつめたｎ
+	// あなたの じつりょくｌ
+	// もういちど みせて いただきますわ!
 
 FortreeCity_Gym_Text_WinonaRematchDefeat: @ 82171E6
-	.string "I failed to reach your height again…$"
+	.string "역시 닿지 않았나요...$"
+	// やはり とどかなかった……
 
 FortreeCity_Gym_Text_WinonaPostRematch: @ 821720B
-	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "은송: 비록 승부에서 졌지만\n"
+	.string "마음의 강함이 꺾이지 않았다면\l"
+	.string "몇 번이고 날 수 있어요...\p"
+	.string "저는 그렇게 믿고 있습니다!$"
+	// ナギ『たとえ しょうぶに まけてもｎ
+	// こころの つばさが おれて いなければｌ
+	// なんどでも うかび あがれる……ｐ
+	// わたしは そう しんじて いますよ!
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "POKéMON with you?\p"
-	.string "Please return with two POKéMON\n"
-	.string "at the very least.$"
+	.string "은송: 사람은 땅에 있는 한\n"
+	.string "중력에서 벗어날 수 없어요\p"
+	.string "하지만 전력으로 날갯짓하면\n"
+	.string "하늘을 날 수 있게 되지요\p"
+	.string "챔피언까지 오른\n"
+	.string "당신의 실력\l"
+	.string "다시 한 번 보도록 하겠습니다!\p"
+	.string "...어라? 싸울 수 있는 포켓몬을\n"
+	.string "1마리밖에 데리고 있지 않군요\p"
+	.string "적어도 2마리 이상\n"
+	.string "포켓몬을 데리고 와주세요$"
+	// ナギ『ひとは ちじょうに いる かぎりｎ
+	// いんりょくから のがれることは できないｐ
+	// でも ぜんりょくで はばたけばｎ
+	// そらを とぶことは できるのですｐ
+	// チャンピオンにまで のぼりつめたｎ
+	// あなたの じつりょくｌ
+	// もういちど みせて いただきますわ!ｎ
+	// ……あら? たたかえる ポケモンをｎ
+	// 1ひきしか もっていませんねｐ
+	// せめて 2ひき いじょうのｎ
+	// ポケモンを もって また きてください

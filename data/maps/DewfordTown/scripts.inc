@@ -774,7 +774,7 @@ DewfordTown_Text_TellMeWhatsNewAndIn: @ 81EA242
 
 DewfordTown_Text_OfCourseIKnowAboutThat: @ 81EA2AA
 	.string "응? “{STR_VAR_2}”?\p"
-	.string "... ...\p"
+	.string "...... ......\p"
 	.string "...아! 응응!\n"
 	.string "응 알아 알아!\p"
 	.string "무, 물론 알고 있지!\n"

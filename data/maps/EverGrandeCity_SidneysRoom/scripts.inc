@@ -66,23 +66,22 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated:: @ 8227F95
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech: @ 8227FA7
-	.string "Welcome, challenger!\n"
-	.string "I'm SIDNEY of the ELITE FOUR.\p"
-	.string "I like that look you're giving me.\n"
-	.string "I guess you'll give me a good match.\l"
-	.string "That's good! Looking real good!\p"
-	.string "All right! You and me, let's enjoy\n"
-	.string "a battle that can only be staged\l"
-	.string "here in the POKéMON LEAGUE!$"
+	.string "어서 오게 도전자여!\n"
+	.string "난 사천왕 혁진\p"
+	.string "음- 좋은 표정이야\n"
+	.string "꽤나 즐길 수 있겠는데!\l"
+	.string "좋아! 아주 좋아!\p"
+	.string "좋았어! 우리 함께\n"
+	.string "포켓몬리그에서만 맛볼 수 있는\l"
+	.string "배틀을 즐겨보도록 하자!!$"
 
 EverGrandeCity_SidneysRoom_Text_Defeat: @ 82280A2
-	.string "Well, how do you like that? I lost!\n"
-	.string "Eh, it was fun, so it doesn't matter.$"
+	.string "이런 이런 져버렸군\n"
+	.string "뭐 꽤 즐겼으니 상관없지만$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech: @ 82280EC
-	.string "Well, listen to what this loser has\n"
-	.string "to say.\p"
-	.string "You've got what it takes to go far.\n"
-	.string "Now, go on to the next room and enjoy\l"
-	.string "your next battle!$"
+	.string "패배한 내가 한마디 하지\p"
+	.string "너라면 더 앞으로 나아갈 수 있어\n"
+	.string "자 그럼 다음 방으로 가서\l"
+	.string "배틀을 즐기고 와!$"
 

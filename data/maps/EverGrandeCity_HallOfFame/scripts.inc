@@ -86,16 +86,24 @@ EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2: @ 8229908
 	step_end
 
 EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions: @ 822990E
-	.string "WALLACE: This room…\p"
-	.string "This is where we keep records of\n"
-	.string "POKéMON that prevailed through\l"
-	.string "harsh battles.\p"
-	.string "It is here that the LEAGUE CHAMPIONS\n"
-	.string "are honored.$"
+	.string "윤진: 이곳은...\p"
+	.string "격렬한 싸움을 이겨낸\n"
+	.string "포켓몬을 기록하는 곳이자\p"
+	.string "포켓몬리그 챔피언의\n"
+	.string "영광을 기리기 위한 장소지!$"
+	// ミクリ『ここは……ｐ
+	// はげしい たたかいを かちぬいたｎ
+	// ポケモンを きろくする ばしょｐ
+	// リ-グ チャンピオンのｎ
+	// えいこうを たたえる ための へやさ!
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames: @ 82299A3
-	.string "WALLACE: Come on, let's record your\n"
-	.string "name as a TRAINER who triumphed over\l"
-	.string "the POKéMON LEAGUE, and the names of\l"
-	.string "the partners who battled with you.$"
+	.string "윤진: 자! 포켓몬리그에서\n"
+	.string "승리를 쟁취한 네 이름과\p"
+	.string "너와 함께 싸운 파트너를\n"
+	.string "이 머신에 기록하는 거야!$"
+	// ミクリ『さあ! ポケモン リ-グをｎ
+	// かちぬいた きみの なまえとｐ
+	// ともに たたかった きみの パ-トナ-をｎ
+	// この マシンに きろく するのだ!
 

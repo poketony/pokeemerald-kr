@@ -307,46 +307,68 @@ FallarborTown_BattleTentLobby_EventScript_ExitRules:: @ 8200302
 	end
 
 FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid: @ 8200304
-	.string "Fufufufufu.\p"
-	.string "I'm going to make everyone think\n"
-	.string "I'm just a kid and let them play down.\p"
-	.string "Then, I'll shock them and grab\n"
-	.string "the title!$"
+	.string "후후후후후후\p"
+	.string "단순한 어린애라고 생각하게 해서\n"
+	.string "모두를 방심시키고\l"
+	.string "내가 우승하는 거야!$"
+	// ふふふふふふｐ
+	// ほんの こどもだと おもわせてｎ
+	// みんなを ゆだん させてｌ
+	// ボクは ゆうしょう するのだ!
 
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite: @ 8200382
-	.string "You know how BATTLE TENTS offer\n"
-	.string "different events in different towns?\p"
-	.string "My favorite is definitely the BATTLE\n"
-	.string "TENT in FALLARBOR TOWN.\p"
-	.string "I think it's fantastic how TRAINERS\n"
-	.string "try to win with all their faith in\l"
-	.string "their POKéMON.$"
+	.string "배틀텐트는 마을에 따라\n"
+	.string "도전할 수 있는 게 다르지?\l"
+	.string "나는 당연히 단풍마을의\l"
+	.string "배틀텐트가 좋아!\p"
+	.string "믿고 있는 포켓몬들과 이겨나가다니\n"
+	.string "엄청 멋지지 않아?$"
+	// バトルテントって まちに よってｎ
+	// ちょうせん できる ことが ちがうでしょ?ｌ
+	// あたしは だんぜん ハジツゲのｌ
+	// バトルテントが すきなのよね!ｐ
+	// しんじてる ポケモンたちと かちぬくってｎ
+	// すごく かっこいいじゃない?
 
 FallarborTown_BattleTentLobby_Text_CameToCampOut: @ 820045A
-	.string "I heard something about some tent,\n"
-	.string "so I came to camp out.\p"
-	.string "I didn't know that tents these days\n"
-	.string "are so luxurious!\p"
-	.string "Since I'm here, I may as well try\n"
-	.string "my hand at battling!$"
+	.string "텐트라고 해서 캠핑하러 왔는데...\p"
+	.string "요즘 텐트는\n"
+	.string "호화로운 모양이네\l"
+	.string "좋아 온 김에 도전해볼까?$"
+	// テントというから キャンプ しにきたら…ｐ
+	// さいきんの テント というのはｎ
+	// ごうかな もん だなあｌ
+	// よし ついでに ちょうせん してみるか?
 
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone: @ 8200501
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
-	.string "So you came out to this BATTLE TENT!\p"
-	.string "The people in these parts tend to be\n"
-	.string "easygoing and laid-back.\p"
-	.string "But, you see, what I'm looking for are\n"
-	.string "people with…\p"
-	.string "How should I say this?\p"
-	.string "Someone bursting with the desire\n"
-	.string "and the drive to win.\p"
-	.string "If there were a TRAINER like that,\n"
-	.string "I'd immediately…\p"
-	.string "Whoops! Never mind!\n"
-	.string "Keep working at it!$"
+	.string "금작화: 여어 {PLAYER}\n"
+	.string "왔구나 배틀텐트에!\p"
+	.string "정말 이 지방은\n"
+	.string "태평한 사람이 많구나\l"
+	.string "나는 좀 더 이런...\l"
+	.string "이기고 싶은 파워가 넘쳐흐르는\l"
+	.string "사람을 원하는데 말이지!\l"
+	.string "그런 트레이너가 있다면 바로\p"
+	.string "...라니 아냐 아무것도\n"
+	.string "그럼 힘내!$"
+	// エニシダ『やあ §あ§おｎ
+	// きたんだね バトルテントに!ｐ
+	// どうも この ちほうはｎ
+	// ノンビリ した ひとが おおくてねｌ
+	// もっと こう……ｌ
+	// かちたい パワ-の ありまくりなｌ
+	// ひとを わたしは もとめて いるんだよ!ｌ
+	// そういう トレ-ナ-が いれば すぐにでもｐ
+	// ……って いや なんでもないよｎ
+	// じゃ がんばってね!
 
 FallarborTown_BattleTentLobby_Text_ScottMakeChallenge: @ 8200653
-	.string "SCOTT: Instead of wasting your\n"
-	.string "time with the likes of me, why not\l"
-	.string "make a challenge?$"
+	.string "금작화: 나한테\n"
+	.string "자꾸 말 걸지 말고\l"
+	.string "빨리 챌린지를\l"
+	.string "해보는 건 어때?$"
+	// エニシダ『わたし なんかにｎ
+	// いつまでも かまって いないでｌ
+	// さっそく チャレンジｌ
+	// して みたら どうだい?
 

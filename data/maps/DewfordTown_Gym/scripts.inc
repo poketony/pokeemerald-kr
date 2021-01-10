@@ -358,40 +358,58 @@ DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
 	.string "철구님의 얼굴이 보이지 않아...$"
 
 DewfordTown_Gym_Text_LilithIntro: @ 81FCDB8
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
+	.string "우후후...!\n"
+	.string "어두워서 헤메고 있니?$"
+	// うふふ……!ｎ
+	// くらくて まよっているの かな?
 
 DewfordTown_Gym_Text_LilithDefeat: @ 81FCDE5
-	.string "Oh, you…\n"
-	.string "I don't want to know you!$"
+	.string "뭐야 정말\n"
+	.string "난 몰라!$"
+	// なによ もうｎ
+	// しらない!
 
 DewfordTown_Gym_Text_LilithPostBattle: @ 81FCE08
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
+	.string "당신 따위는 이대로 헤매서\n"
+	.string "입구로 돌아가 버리라고!$"
+	// あなた なんて このまま まよってｎ
+	// いりぐちに もどっちゃえば い-のよ!
 
 DewfordTown_Gym_Text_BrendenIntro: @ 81FCE48
-	.string "I'll show you the gumption of\n"
-	.string "a sailing man!$"
+	.string "바다의 사나이의 의지를\n"
+	.string "보여주도록 하지!$"
+	// うみの おとこの いじをｎ
+	// みせつけて やるぜぃ!
 
 DewfordTown_Gym_Text_BrendenDefeat: @ 81FCE75
-	.string "How'd this happen?\n"
-	.string "It's not like me to lose this way!$"
+	.string "어떻게 된 거지!\n"
+	.string "내가 져버리다니...$"
+	// どうしたぃ!ｎ
+	// おれと した ことが……
 
 DewfordTown_Gym_Text_BrendenPostBattle: @ 81FCEAB
-	.string "Oh, aye! You're worthy of seeing\n"
-	.string "our GYM LEADER.$"
+	.string "오우! 너라면\n"
+	.string "체육관 관장한테 도전해도 되겠는데!$"
+	// おう! あんたならｎ
+	// ジムリ-ダ-に いどむに ふさわしいぜぃ!
 
 DewfordTown_Gym_Text_CristianIntro: @ 81FCEDC
-	.string "If you mean to pass, it has to be\n"
-	.string "through me!$"
+	.string "여길 지나가려면\n"
+	.string "나를 쓰러뜨려라!$"
+	// ここを とおる ならｎ
+	// この わしを たおしてから じゃ!
 
 DewfordTown_Gym_Text_CristianDefeat: @ 81FCF0A
-	.string "Grrrrr!\n"
-	.string "Vastly overpowered!$"
+	.string "으-음!\n"
+	.string "엄청 강하군...!$"
+	// むう-ん!ｎ
+	// すごく つよい……!
 
 DewfordTown_Gym_Text_CristianPostBattle: @ 81FCF26
-	.string "You win!\n"
-	.string "Go after that BADGE!$"
+	.string "내가 졌다!\n"
+	.string "힘내서 배지까지 얻어가라고!$"
+	// わしの まけじゃ!ｎ
+	// がんばって バッジ とってこいよ!
 
 DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
 	.string "난 무로마을 포켓몬체육관\n"
@@ -456,28 +474,47 @@ DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
+	.string "철구: 파도는 한 번 물러나도\n"
+	.string "언젠가 반드시 바닷가로 돌아오지\p"
+	.string "너 정도의 빅 웨이브야\n"
+	.string "분명 다시 올 거라고 생각했어!\p"
+	.string "자 얼마나 강해졌는지\n"
+	.string "나한테 보여 봐!$"
+	// トウキ『なみというのは いちど ひいてもｎ
+	// いつか かならず はまべに もどってくるｐ
+	// キミほどの ビッグウェ-ブだｎ
+	// きっと また くると おもっていたよ!ｐ
+	// さあ どれほど たかさを ましたのかｎ
+	// ボクに みせてくれ!
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat: @ 81FD367
-	.string "Wow!\n"
-	.string "Swamped again!$"
+	.string "와-우!\n"
+	.string "너한테 삼켜져버렸는걸!$"
+	// わ-おっ!ｎ
+	// キミに のみこまれそうだ!
 
 DewfordTown_Gym_Text_BrawlyPostRematch: @ 81FD37B
-	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string "철구: 역시 포켓몬 승부는\n"
+	.string "끝을 알 수 없을 정도로 엄청 넓어!\l"
+	.string "마치 호연지방의 바다 같지!$"
+	// トウキ『やっぱり ポケモン しょうぶはｎ
+	// そこが みえないほど ふかく ひろい!ｌ
+	// まるで ホウエンの うみの ようだね!
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
-	.string "BRAWLY: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one POKéMON\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "철구: 파도는 한 번 물러나도\n"
+	.string "언젠가 반드시 바닷가로 돌아오지\p"
+	.string "너 정도의 빅 웨이브야\n"
+	.string "분명 다시 올 거라고 생각했어!\p"
+	.string "...어라? 싸울 수 있는 포켓몬을\n"
+	.string "1마리밖에 데리고 있지 않구나\p"
+	.string "미안하지만 2마리 이상의\n"
+	.string "포켓몬을 데리고 다시 와 줘$"
+	// トウキ『なみというのは いちど ひいてもｎ
+	// いつか かならず はまべに もどってくるｐ
+	// キミほどの ビッグウェ-ブだｎ
+	// きっと また くると おもっていたよ!ｐ
+	// ……あれ? たたかえる ポケモンをｎ
+	// 1ひきしか もっていないんだねｐ
+	// すまないけど 2ひき いじょうのｎ
+	// ポケモンを もって また きてくれよ

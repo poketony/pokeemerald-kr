@@ -230,121 +230,217 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives: @ 8228C43
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech: @ 8228C4C
-	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
-	.string "That incident in SOOTOPOLIS CITY…\n"
-	.string "That was superb work, putting an end\l"
-	.string "to that crisis all by yourself.\p"
-	.string "Oops!\p"
-	.string "It wouldn't be fair to say that you\n"
-	.string "alone ended the crisis.\p"
-	.string "You overcame that difficult situation\n"
-	.string "by working as one with your POKéMON.\p"
-	.string "We TRAINERS raise POKéMON by giving\n"
-	.string "them items and by teaching them new\l"
-	.string "techniques for battle.\p"
-	.string "But we ourselves also learn many\n"
-	.string "things from POKéMON.\p"
-	.string "And this is where your achievements\n"
-	.string "are put to the test against what\l"
-	.string "others like you have achieved.\p"
-	.string "Now!\p"
-	.string "Who can most elegantly dance with\n"
-	.string "their POKéMON in HOENN?\p"
-	.string "Show me right here and now!$"
+	.string "윤진: 잘 왔어 {PLAYER}\p"
+	.string "루네시티에서 일어난 대사건을\n"
+	.string "네가 혼자서 해결한 건\l"
+	.string "꽤나 훌륭했어\p"
+	.string "...이런!\p"
+	.string "너 혼자의 힘으로\n"
+	.string "해결한 건 아니었지\p"
+	.string "너와... 너의 포켓몬이\n"
+	.string "힘을 합쳤기에 비로소\l"
+	.string "고난을 뛰어넘을 수 있었던 거야\p"
+	.string "우리들 트레이너는\n"
+	.string "여러 도구를 주거나\l"
+	.string "여러 기술을 배우게 해서\l"
+	.string "포켓몬을 키우고 있지...\p"
+	.string "하지만 우리들 자신도\n"
+	.string "포켓몬에게서 많은 것들을\l"
+	.string "배우고 있어\p"
+	.string "그리고 여긴...\n"
+	.string "그 성과를 부딪치는 장소\p"
+	.string "자!\p"
+	.string "호연지방에서 제일 화려하게\n"
+	.string "포켓몬과 춤추는 것은 누구인지!\p"
+	.string "지금 여기서 보여줄게!$"
+	// ミクリ『ようこそ §あ§おｐ
+	// ルネシティで おこった だいじけんをｎ
+	// きみが ひとりで かいけつ したのはｌ
+	// なかなか みごと だったよｐ
+	// ……おっと!ｐ
+	// きみひとりの ちからでｎ
+	// かいけつ したわけでは なかったなｐ
+	// きみと…… きみの ポケモンがｎ
+	// ちからを あわせたからこそｌ
+	// こんなんを のりこえ られたんだｐ
+	// わたしたち トレ-ナ-はｎ
+	// いろんな どうぐを あたえたりｌ
+	// いろんな わざを おしえたり してｌ
+	// ポケモンを そだてている……ｐ
+	// けれど わたしたち じしんもｎ
+	// ポケモンから たくさんの ことをｌ
+	// おしえられて いるのさｐ
+	// そして ここは……ｎ
+	// その せいかを ぶつけあう ばしょｐ
+	// さあ!ｐ
+	// ホウエンで いちばん かれいにｎ
+	// ポケモンと おどれるのは だれなのか!ｐ
+	// いま ここで みせて もらおう!
 
 EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
-	.string "I, the CHAMPION, fall in defeat…\p"
-	.string "That was wonderful work.\n"
-	.string "You were elegant, infuriatingly so.\l"
-	.string "And yet it was utterly glorious!\p"
-	.string "Kudos to you, {PLAYER}{KUN}!\p"
-	.string "You are a truly noble POKéMON\n"
-	.string "TRAINER!$"
+	.string "챔피언인\n"
+	.string "나를 쓰러뜨릴 줄이야...\p"
+	.string "정말 원더풀하고\n"
+	.string "얄미울 정도로 엘레강트!\l" 
+	.string "하지만 매우 글로리어스!\p"
+	.string "너는 정말로 멋진\n"
+	.string "포켓몬 트레이너야!$"
+	// チャンピオンであるｎ
+	// わたしを うちまかす とは……ｐ
+	// なんと ワンダフル!ｎ
+	// にくらしいほど エレガント!ｌ
+	// だけど とっても グロリアス!ｐ
+	// さすがだよ §あ§お!ｐ
+	// きみは ほんとうに すばらしいｎ
+	// ポケモン トレ-ナ-だ!
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech: @ 8228F66
-	.string "WALLACE: The POKéMON you sent into\n"
-	.string "battle…\p"
-	.string "At times they danced like a spring\n"
-	.string "breeze, and at times they struck\l"
-	.string "like lightning.\p"
-	.string "It was with light, yet surefooted,\n"
-	.string "elegance that you led your POKéMON.\p"
-	.string "Even I felt bedazzled by your\n"
-	.string "masterful performance!\p"
-	.string "You now stand at the glorious peak\n"
-	.string "of the POKéMON LEAGUE.\p"
-	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "윤진: 네가 내보내온\n"
+	.string "여러 포켓몬들...\p"
+	.string "때로는 봄바람처럼 춤추고\n"
+	.string "어떤 때에는 번개처럼 찌르지\p"
+	.string "그런 포켓몬들을\n"
+	.string "부드럽게 다루는 너의 모습\p"
+	.string "이 나조차도\n"
+	.string "홀딱 반해버릴 정도였어!\p"
+	.string "이 포켓몬리그에서\n"
+	.string "훌륭히 정점에 선 너야말로\l"
+	.string "호연지방의 새로운...$"
+	// ミクリ『きみが くりだしてきたｎ
+	// ポケモンの かずかず……ｐ
+	// ときに はるかぜの ように まいｎ
+	// あるいは いなづまの ように さすｐ
+	// そんな ポケモンたちをｎ
+	// かろやかに あやつる きみの すがたｐ
+	// この わたしで さえもｎ
+	// ほれぼれ するほど だったよ!ｐ
+	// この ポケモンリ-グでｎ
+	// みごと ちょうてんに たった きみこそｌ
+	// ホウエンちほうの あたらしい……
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice: @ 82290CA
-	.string "MAY: {PLAYER}{KUN}!\p"
-	.string "Here's some advice before you challenge\n"
-	.string "the CHAMPION…$"
+	.string "봄이: {PLAYER}!\p"
+	.string "챔피언한테 도전하기 전에\n"
+	.string "어드바이스를...!$"
+	// ハルカ『§あ§お!ｐ
+	// チャンピオンに ちょうせん するまえにｎ
+	// アドバイス……!
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver: @ 822910B
-	.string "MAY: Huh?\n"
-	.string "What, what, what?\p"
-	.string "{PLAYER}{KUN}…\n"
-	.string "Could it be that…\l"
-	.string "It's already over?$"
+	.string "봄이: 응? 으응??\p"
+	.string "{PLAYER}...\n"
+	.string "설마...\l"
+	.string "이미 끝난 거야...?$"
+	// ハルカ『あれ? あれれ?ｐ
+	// §あ§お……ｎ
+	// ひょっとして……ｌ
+	// もう おわっちゃった……?
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice: @ 8229152
-	.string "BRENDAN: {PLAYER}!\p"
-	.string "How would you like some advice before\n"
-	.string "you challenge the CHAMPION?…$"
+	.string "휘웅: {PLAYER}!\p"
+	.string "챔피언한테 도전하기 전에\n"
+	.string "내가 어드바이스를 해줄 테니까...$"
+	// ユウキ『§あ!ｐ
+	// チャンピオンに ちょうせん するまえにｎ
+	// オレが アドバイス してやろうか……
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon: @ 82291A2
-	.string "BRENDAN: {PLAYER}…\p"
-	.string "Are you trying to tell me…\n"
-	.string "You've beaten the CHAMPION?$"
+	.string "휘웅: {PLAYER}...\p"
+	.string "너 설마\n"
+	.string "챔피언한테 이긴 거야?$"
+	// ユウキ『§あ……ｐ
+	// おまえ ひょっとしてｎ
+	// チャンピオンに かったのか?
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex: @ 82291E6
-	.string "PROF. BIRCH: See?\n"
-	.string "What did I tell you, {RIVAL}?\p"
-	.string "Didn't I tell you that you don't need\n"
-	.string "to worry about {PLAYER}{KUN}?\p"
-	.string "… … … … … … … …\n"
-	.string "{PLAYER}{KUN}, you've finally done it.\p"
-	.string "When I heard that you defeated your\n"
-	.string "own father at the PETALBURG GYM,\l"
-	.string "I thought perhaps you had a chance…\p"
-	.string "But to think you've actually become\n"
-	.string "the CHAMPION!\p"
-	.string "Ah, yes!\p"
-	.string "What became of your POKéDEX?\n"
-	.string "Here, let me see.$"
+	.string "털보박사: 거봐라 {RIVAL}{K_AYA}!\p"
+	.string "{PLAYER}{K_I}라면 걱정할 필요 없다고\n"
+	.string "내가 말하지 않았더냐!\p"
+	.string "...... ...... ......\n"
+	.string "{PLAYER} 드디어 해냈구나\p"
+	.string "네가 등화체육관에 있는 아빠한테\n"
+	.string "이겼다고 들었을 때부터\l"
+	.string "혹시나...하는 생각은 있었다만\p"
+	.string "설마 진짜 챔피언이\n"
+	.string "될 줄이야!\p"
+	.string "...오오 맞다!\p"
+	.string "너의 포켓몬 도감은 어떻게 되었니?\n"
+	.string "나에게 보여다오!$"
+	// オダマキ『ほれみろ §か!ｐ
+	// §あ§おなら しんぱい いらんとｎ
+	// わたしが いったとおり だろう!ｐ
+	// …… …… ……ｎ
+	// §あ§お とうとう やりとげたなｐ
+	// きみが トウカ ジムの おとうさんにｎ
+	// かちぬいたと きいた ときにｌ
+	// もしや…… とは おもったがｐ
+	// まさか ほんとうに チャンピオンにｎ
+	// なってしまうとは な!ｐ
+	// ……おお そうだ!ｐ
+	// きみの ポケモンずかんは どうなった?ｎ
+	// わたしに みせて ごらん!
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations: @ 822934D
-	.string "PROF. BIRCH: Anyways,\n"
-	.string "congratulations!\p"
-	.string "Now, go proudly into the final room!$"
+	.string "털보박사: 어쨌든 축하한다!\p"
+	.string "자 그럼 당당하게 안쪽 방에\n"
+	.string "갔다 오너라!$"
+	// オダマキ『とにかく おめでとう!ｐ
+	// さあ むねをはって おくの へやにｎ
+	// いってくるが いいよ!
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe: @ 8229399
-	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "No, let me rephrase that properly.\p"
-	.string "The new CHAMPION!\p"
-	.string "Come with me.$"
+	.string "윤진: {PLAYER}\p"
+	.string "...아니 다시 말하지\p"
+	.string "새로운 챔피언!\p"
+	.string "자 나를 따라와줘$"
+	// ミクリ『§あ§おｐ
+	// ……いや あらためて よびなおそうｐ
+	// あたらしい チャンピオン!ｐ
+	// さあ わたしに ついて きたまえ
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside: @ 82293EB
-	.string "WALLACE: I'm sorry, but…\p"
-	.string "From here on, only those TRAINERS who\n"
-	.string "have become CHAMPIONS may enter.\p"
-	.string "You'll have to wait outside with\n"
-	.string "PROF. BIRCH.$"
+	.string "윤진: 미안하게 됐지만...\p"
+	.string "이 앞의 방은\n"
+	.string "챔피언이 된 트레이너만이\l"
+	.string "들어갈 수 있는 장소\p"
+	.string "너는 거기서 털보박사와\n"
+	.string "함께 기다리고 있어줘$"
+	// ミクリ『もうしわけ ないが……ｐ
+	// ここから さきの へやはｎ
+	// チャンピオンに なった トレ-ナ- だけがｌ
+	// はいることの できる ばしょｐ
+	// きみは そこで オダマキはかせとｎ
+	// いっしょに まっていて くれたまえ
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations: @ 8229479
-	.string "MAY: Groan…\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "I'm just joking! That's okay!\n"
-	.string "That's the rule!\p"
-	.string "{PLAYER}{KUN}!\n"
-	.string "Honestly, congratulations!$"
+	.string "봄이: ...힝!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "장난이야! 괜찮아 괜찮아!\n"
+	.string "그게 룰이니까 지켜야지!\p"
+	.string "{PLAYER}!\n"
+	.string "정말 축하해!!$"
+	// ハルカ『……が-ん!ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// な-んてね いいの いいの!ｎ
+	// だって そういう きまり だもんね!ｐ
+	// §あ§お!ｎ
+	// ほんとうに おめでとう!!
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations: @ 82294F5
-	.string "BRENDAN: Whaaaat?! … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "It can't be helped if that's the rule.\p"
-	.string "{PLAYER}, way to go!\n"
-	.string "Congratulations!$"
+	.string "휘웅: !\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "어쩔 수 없지\n"
+	.string "룰이 그런 거니까\p"
+	.string "{PLAYER}!\n"
+	.string "정말 축하해!!$"
+	// ユウキ『……え-っ!ｎ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// ま しかたないかｎ
+	// そういう きまり だもんなｐ
+	// §あ! よかったなｎ
+	// おめでとう!!
 
