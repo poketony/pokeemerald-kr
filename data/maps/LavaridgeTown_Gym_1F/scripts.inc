@@ -267,42 +267,60 @@ LavaridgeTown_Gym_1F_Text_DaniellePostBattle: @ 81FEE5D
 	.string "아름답고 강한 트레이너가 될 거야!$"
 
 LavaridgeTown_Gym_B1F_Text_JaceIntro: @ 81FEE9D
-	.string "Come on, get with it!\n"
-	.string "Let's go before my feelings cool!$"
+	.string "자 자!\n"
+	.string "분위기가 식기 전에 배틀하자고!$"
+	// ほら ほらっ!ｎ
+	// きもちが さめない うちに いくぜっ!
 
 LavaridgeTown_Gym_B1F_Text_JaceDefeat: @ 81FEED5
-	.string "It's so hot, and yet my heart is\n"
-	.string "clutched by ice…$"
+	.string "이렇게나 뜨거운데\n"
+	.string "내 마음은 쓸쓸하구만...$"
+	// こんなに あついのにｎ
+	// おれの こころが さむい……
 
 LavaridgeTown_Gym_B1F_Text_JacePostBattle: @ 81FEF07
-	.string "The way the battling spirit burns\n"
-	.string "within you, you may stand a chance\l"
-	.string "against our LEADER.$"
+	.string "그 정도의 투지를 불태울 수 있다면\n"
+	.string "관장에게도 이길 수 있을 거야$"
+	// そのくらい とうしを もやして いればｎ
+	// もしかしたら リ-ダ-にも かてるかもな
 
 LavaridgeTown_Gym_B1F_Text_JeffIntro: @ 81FEF60
-	.string "See how the flames blaze wildly?\n"
-	.string "They flare in anticipation of my win!$"
+	.string "봐 이 솟아오르는 불꽃을!\n"
+	.string "내 승리를 축하하고 있는 거야!$"
+	// みよ この もえさかる ほのおを!ｎ
+	// オレの しょうりを よげんして いるのだ!
 
 LavaridgeTown_Gym_B1F_Text_JeffDefeat: @ 81FEFA7
-	.string "Something didn't go right.$"
+	.string "이상하네$"
+	// おかしいなあ
 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle: @ 81FEFC2
-	.string "Well, so what? I say so what?\n"
-	.string "I can walk on hot coals barefoot!\p"
-	.string "…Don't even think about trying it!$"
+	.string "역시 난 대단해!\n"
+	.string "모닥불 위를 맨발로 걷고 있잖아!\p"
+	.string "...너는 따라하면 안 돼$"
+	// いいもんね! オレなんてｎ
+	// たきびの うえを はだしで はしれるぜ!ｐ
+	// …… おまえは まね するなよ
 
 LavaridgeTown_Gym_B1F_Text_EliIntro: @ 81FF025
-	.string "As much as I love mountains,\n"
-	.string "I especially love volcanoes.$"
+	.string "산 중에서도 특히\n"
+	.string "화산이 제일 좋죠!$"
+	// やまの なかでも とくにｎ
+	// かざんが だいすき でして……
 
 LavaridgeTown_Gym_B1F_Text_EliDefeat: @ 81FF05F
-	.string "Well, it seems to me I lost without\n"
-	.string "ever being in control.$"
+	.string "갈팡질팔하는 사이에\n"
+	.string "져버린 겁니까$"
+	// あれよ あれよと いうまにｎ
+	// まけちまった わけでして
 
 LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
-	.string "I stay here because I became a fan\n"
-	.string "of FLANNERY's power.\p"
-	.string "Hehehehe.$"
+	.string "민지님의 강함에 반해서\n"
+	.string "전 여기에 있는 겁니다...\p"
+	.string "헤헤헤헤$"
+	// アスナさんの つよさに ほれてｎ
+	// わしは ここに いるわけ でして……ｌ
+	// へへへへ
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
 	.string "어서 오세요 ...가 아니라\p"
@@ -358,9 +376,14 @@ LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
 	.string "포켓내비에 등록했다!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle: @ 81FF546
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+	.string "당신의 강함\n"
+	.string "누군가를 떠올리게 하네...\p"
+	.string "맞아! 등화도시의 체육관 관장\n"
+	.string "종길님과 닮았어!$"
+	// あなたの つよさｎ
+	// だれかを おもいださせるの よね……ｐ
+	// そうだ! トウカシティの ジムリ-ダ-ｎ
+	// センリさんに にているんだ!
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
 	.string "용암마을 포켓몬체육관$"
@@ -371,35 +394,55 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch: @ 81FF601
-	.string "FLANNERY: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!$"
+	.string "민지: 승부에 졌다고\n"
+	.string "난 주저않지 않아!\p"
+	.string "왜냐하면 나는 포켓몬을 좋아하고\n"
+	.string "승부하는 게 좋고\l"
+	.string "그리고... 이 체육관이 좋으니까!\p"
+	.string "자 다시 한 번\n"
+	.string "핫한 기술을 부딪쳐 보자!$"
+	// アスナ『しょうぶに まけた ぐらいでｎ
+	// あたしは へこたれたり しない!ｐ
+	// なぜなら あたしは ポケモンが すきでｎ
+	// しょうぶを するのが すきでｌ
+	// それに…… このジムが すきだから!ｐ
+	// さあ もういちど いっしょにｎ
+	// ホットな わざを ぶつけあいましょう!
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat: @ 81FF69F
-	.string "Whew!\n"
-	.string "On the verge of eruption!$"
+	.string "후우! 폭발 직전!$"
+	// ふぅ! ばくはつ すんぜん!
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch: @ 81FF6BF
-	.string "FLANNERY: I lost the match,\n"
-	.string "but I'm completely satisfied.\p"
-	.string "It's not often I get to enjoy a battle\n"
-	.string "this heated.\p"
-	.string "Let's have another one like this\n"
-	.string "again sometime!$"
+	.string "민지: 승부에선 졌지만\n"
+	.string "이런 히트한 배틀을 할 수 있어서\l"
+	.string "난 만족했어!\p"
+	.string "나중에 다시 승부하자!$"
+	// アスナ『しょうぶには まけたけどｎ
+	// こんなに ヒ-トする たたかいが できてｌ
+	// あたしは まんぞくよ!ｐ
+	// そのうち また しょうぶ しましょうね!
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
-	.string "FLANNERY: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love POKéMON.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this GYM!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!\p"
-	.string "Oh, wait. Do you only have one POKéMON\n"
-	.string "that can battle?\p"
-	.string "I hate to say this, but when you come\n"
-	.string "see me, bring at least two POKéMON.$"
+	.string "민지: 승부에 졌다고\n"
+	.string "난 주저않지 않아!\p"
+	.string "왜냐하면 나는 포켓몬을 좋아하고\n"
+	.string "승부하는 게 좋고\l"
+	.string "그리고... 이 체육관이 좋으니까!\p"
+	.string "자 다시 한 번\n"
+	.string "핫한 기술을 부딪쳐 보자!\p"
+	.string "...어라? 싸울 수 있는 포켓몬을\n"
+	.string "1마리밖에 데리고 있지 않네\p"
+	.string "미안하지만 2마리 이상\n"
+	.string "포켓몬을 데리고 와줘$"
+	// アスナ『しょうぶに まけた ぐらいでｎ
+	// あたしは へこたれたり しない!ｐ
+	// なぜなら あたしは ポケモンが すきでｎ
+	// しょうぶを するのが すきでｌ
+	// それに…… このジムが すきだから!ｐ
+	// さあ もういちど いっしょにｎ
+	// ホットな わざを ぶつけあいましょう!ｐ
+	// ……あら? たたかえる ポケモンをｎ
+	// 1ひきしか もって いないんですねｐ
+	// すみませんけど 2ひき いじょうのｎ
+	// ポケモンを もって きてください

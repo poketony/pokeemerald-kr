@@ -113,24 +113,42 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy: @ 8218A5B
 	.string "놓고 나갈 수 없지!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles: @ 8218ACF
-	.string "SCOTT: … … … … …\n"
-	.string "… … … … … Zzz…\p"
-	.string "… … … … … Huh?!\n"
-	.string "Oh, sorry, sorry! I was snoozing!\p"
-	.string "I came to check out this POKéMON\n"
-	.string "CONTEST thing.\p"
-	.string "I have to admit, it does look quite\n"
-	.string "entertaining, but…\p"
-	.string "Consider me a purist--I prefer\n"
-	.string "battles and tough TRAINERS.\p"
-	.string "But that's just me.\p"
-	.string "{PLAYER}{KUN}, I hope you'll enjoy everything\n"
-	.string "like the GYMS, CONTESTS, BATTLE TENT,\l"
-	.string "the whole works!$"
+	.string "금작화: ...... ......\n"
+	.string "...... ...... ...쿨\p"
+	.string "...... ...... ......!\n"
+	.string "아 아아 {PLAYER}\l"
+	.string "미안미안 낮잠자고 있었어\p"
+	.string "포켓몬 콘테스트라는 게\n"
+	.string "어떤 건지 보러 왔거든\l"
+	.string "그럭저럭 재밌었지만...\p"
+	.string "뭐 나는 역시\n"
+	.string "순수한 배틀에 강한\l"
+	.string "트레이너가 마음에 들어\p"
+	.string "응 {PLAYER}{K_EUNNEUN}\n"
+	.string "체육관도 콘테스트도 배틀텐트도\l"
+	.string "뭐든지 즐기고 와줘!$"
+	// エニシダ『…… ……ｎ
+	// …… …… ……ズｐ
+	// …… …… ……!ｎ
+	// あ ああ §あ§おｌ
+	// ごめんごめん ひるね してたんだｐ
+	// ポケモンコンテスト ってのがｎ
+	// どんな ものか みに きたんだｌ
+	// なかなか おもしろそう だけど……ｐ
+	// まあ わたしは やっぱりｎ
+	// じゅんすいに たたかって つよいｌ
+	// トレ-ナ-が すき だけどねｐ
+	// うん §あ§おはｎ
+	// ジムに コンテストに バトルテントｌ
+	// なんでも たのしんで くれよ!
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy: @ 8218C33
-	.string "SCOTT: I think it does take strategy\n"
-	.string "to win a CONTEST.\p"
-	.string "Devising CONTEST strategies is one way\n"
-	.string "of becoming a better TRAINER, I'd say.$"
+	.string "금작화: 콘테스트에서 이기기 위한\n"
+	.string "전략을 세우는 것도\l"
+	.string "강한 트레이너가 되기 위한\l"
+	.string "방법 중 하나일지도 모르겠네$"
+	// エニシダ『コンテストに かつためのｎ
+	// せんりゃくを ねるのもｌ
+	// つよい トレ-ナ-に なるためのｌ
+	// ほうほうの ひとつでは あるね
 

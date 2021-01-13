@@ -238,78 +238,133 @@ MeteorFalls_1F_1R_EventScript_MetCozmo:: @ 822BF3D
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite: @ 822BF47
-	.string "Hehehe!\p"
-	.string "With this METEORITE, that thing in\n"
-	.string "MT. CHIMNEY will…$"
+	.string "우효효...!\p"
+	.string "이 운석이 있으면\n"
+	.string "굴뚝산의 그 녀석이...$"
+	// ウヒョヒョ……!ｐ
+	// この いんせきが あればｎ
+	// えんとつやまの アイツが……
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma: @ 822BF84
-	.string "Heh?\p"
-	.string "I don't know who you are, but if you get\n"
-	.string "in the way of TEAM MAGMA, don't\l"
-	.string "expect any mercy!$"
+	.string "우효?\p"
+	.string "네가 누군지는 모르겠지만\n"
+	.string "마그마단의 방해를 한다면\l"
+	.string "용서하지 않겠다!$"
+	// ウヒョ?ｐ
+	// だれだか しらないがｎ
+	// マグマだんの ジャマを するきならｌ
+	// ようしゃ しないぜ!
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma: @ 822BFE4
-	.string "Hold it right there, TEAM MAGMA!\p"
-	.string "You're badly mistaken if you think you\n"
-	.string "can have your way with the world!$"
+	.string "멈춰라! 마그마단!\p"
+	.string "세계를 너희들 마음대로\n"
+	.string "하겠다니 착각하지 마라!$"
+	// まてっ! マグマだん!ｐ
+	// せかいを おまえらの おもいどおりにｎ
+	// できるなんて おおまちがいだ!
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua: @ 822C04E
-	.string "Hehehe!\n"
-	.string "Even TEAM AQUA joins us!\p"
-	.string "But it's too much trouble to deal with\n"
-	.string "you all…\p"
-	.string "Heh, it doesn't matter!\p"
-	.string "We've got the METEORITE, so off to\n"
-	.string "MT. CHIMNEY we go!\p"
-	.string "Hehehe! Be seeing you, you TEAM\n"
-	.string "AQUA dingbats!$"
+	.string "우효효...!\n"
+	.string "아쿠아단까지 온 건가!\p"
+	.string "하나하나 상대하는 것도\n"
+	.string "귀찮군...\p"
+	.string "뭐 됐어!\n"
+	.string "운석은 손에 넣었고\l"
+	.string "서둘러 굴뚝산에 가볼까!\p"
+	.string "우효효!\n"
+	.string "안녕이다! 멍청한 아쿠아단!$"
+	// ウヒョヒョ……!ｎ
+	// アクアだん まで やってきたのかよ!ｐ
+	// いちいち あいてを してやるのもｎ
+	// めんどうだな……ｐ
+	// まあ いいや!ｎ
+	// いんせきは てに いれたしｌ
+	// さっさと えんとつやまに いくか!ｐ
+	// ウヒョヒョ!ｎ
+	// あばよ! まぬけな アクアだん!
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore: @ 822C11C
-	.string "ARCHIE: Didn't I see you before?\n"
-	.string "At SLATEPORT's MUSEUM?\p"
-	.string "Ah, so your name is {PLAYER}.\p"
-	.string "At the time, I thought you were one\n"
-	.string "of TEAM MAGMA's goons.\p"
-	.string "Humph…\n"
-	.string "You're one odd kid.\p"
-	.string "TEAM MAGMA is a dangerous group of\n"
-	.string "total fanatics.\p"
-	.string "They engage in destruction, claiming\n"
-	.string "to expand the land mass.\p"
-	.string "They are the rivals to us,\n"
-	.string "the sea-loving TEAM AQUA!$"
+	.string "아강: 너하고는 분명...\n"
+	.string "잿빛도시의 박물관에서 만났었지\p"
+	.string "그런가 {PLAYER}{K_I}라고 하는군\p"
+	.string "그때는 마그마단의 조무래기라고\n"
+	.string "생각했었는데\l"
+	.string "흠...\l"
+	.string "이상한 녀석이로군...\p"
+	.string "마그마단이라는 건\n"
+	.string "땅을 넓히려고 하면서\p"
+	.string "파괴활동을 계속하는\n"
+	.string "위험한 집단이다!\p"
+	.string "바다를 사랑하는 우리 아쿠아단의\n"
+	.string "숙적인 거지!$"
+	// アオギリ『おまえとは たしか……ｎ
+	// カイナの はくぶつかんでも あったがｐ
+	// そうか §あと いうのかｐ
+	// あのときは マグマだんの したっぱだとｎ
+	// おもったんだがｌ
+	// ふん……ｌ
+	// おかしな やつだな……ｐ
+	// マグマだん というのはｎ
+	// りくちをふやす などと いってはｌ
+	// はかいかつどうを くりかえすｌ
+	// きけんな しゅうだんだ!ｐ
+	// うみを あいする われわれ アクアだんのｎ
+	// しゅくてき なのだよ!
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma: @ 822C268
-	.string "BOSS, we should give chase to\n"
-	.string "TEAM MAGMA…$"
+	.string "아강님\n"
+	.string "마그마단을 쫓아가야죠...$"
+	// アオギリさまｎ
+	// マグマだんを おいかけないと……
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo: @ 822C292
-	.string "ARCHIE: Yes, yes, we must!\n"
-	.string "We've got to hurry.\p"
-	.string "There's no telling what TEAM MAGMA\n"
-	.string "will do at MT. CHIMNEY!$"
+	.string "아강: 그래!\p"
+	.string "마그마단 녀석들이 굴뚝산에서\n"
+	.string "무슨 짓을 할지 모른다!$"
+	// アオギリ『そうだな!ｐ
+	// マグマだんの やつら えんとつやまでｎ
+	// なにを しでかすか わからない!
 
 MeteorFalls_1F_1R_Text_ArchieFarewell: @ 822C2FC
-	.string "ARCHIE: {PLAYER}, you should keep\n"
-	.string "an eye out for TEAM MAGMA, too.\p"
-	.string "Farewell!$"
+	.string "아강: {PLAYER}... 너도\n"
+	.string "마그마단은 조심하도록 해라\p"
+	.string "그럼 작별이다!$"
+	// アオギリ『§あ…… おまえもｎ
+	// マグマだんには ようじん するんだなｐ
+	// では さらばだ!
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
-	.string "I… I'm COZMO…\n"
-	.string "I'm a PROFESSOR…\p"
-	.string "TEAM MAGMA asked me to guide them\n"
-	.string "to METEOR FALLS…\p"
-	.string "But they tricked me.\n"
-	.string "They even took my METEORITE away…\p"
-	.string "And then another similar bunch,\n"
-	.string "TEAM AQUA showed up.\p"
-	.string "After that…\n"
-	.string "I don't understand any of it.\p"
-	.string "But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"
+	.string "난 공석박사...\p"
+	.string "마그마단에게 부탁받아서\n"
+	.string "여기까지 안내해줬는데\l"
+	.string "속아서 운석을\l"
+	.string "빼앗겨버렸어...\p"
+	.string "게다가 아쿠아단이라고 하는\n"
+	.string "비슷한 녀석들까지 나타나서\l"
+	.string "뭐가 어떻게 된 건지...\p"
+	.string "그건 그렇고 마그마단은\n"
+	.string "운석 같은 걸 가지고\l"
+	.string "굴뚝산에서\l"
+	.string "뭘 하려는 걸까...?$"
+	// ぼく ソライシ……ｐ
+	// マグマだんに たのまれてｎ
+	// ここまで あんない してきたんだけどｌ
+	// だまされてｌ
+	// いんせき とられちゃったよ……ｐ
+	// おまけに アクアだん っていうｎ
+	// にたような れんちゅうまで あらわれてｌ
+	// もう なにが なんだか……ｐ
+	// それにしても マグマだんはｎ
+	// いんせき なんか もっていってｌ
+	// えんとつやまでｌ
+	// なにする つもり なんだろう……?
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney: @ 822C47D
-	.string "PROF. COZMO: But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"
+	.string "공석박사: 그건 그렇고 마그마단은\n"
+	.string "운석 같은 걸 가지고\l"
+	.string "굴뚝산에서\l"
+	.string "뭘 하려는 걸까...?$"
+	// ソライシ『それにしても マグマだんはｎ
+	// いんせき なんか もっていってｌ
+	// えんとつやまでｌ
+	// なにする つもり なんだろう……?

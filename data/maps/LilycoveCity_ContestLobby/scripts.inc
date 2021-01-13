@@ -1023,14 +1023,22 @@ LilycoveCity_ContestLobby_EventScript_LittleGirlHaveCase:: @ 821AD06
 	end
 
 LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase: @ 821AD10
-	.string "Yippee!\p"
-	.string "The lady at the reception counter\n"
-	.string "gave me a case for {POKEBLOCK}S!$"
+	.string "우와-!\p"
+	.string "접수원 언니한테서\n"
+	.string "포켓몬스넥 넣는 케이스 받았다!$"
+	// うわ-い!ｐ
+	// うけつけの おねえちゃんからｎ
+	// ポロック いれる ケ-ス もらった!
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
-	.string "Make {POKEBLOCK}S and put them in there.\p"
-	.string "When you make a {POKEBLOCK}, everyone\n"
-	.string "has to put in a different BERRY.$"
+	.string "포켓몬스넥 만들고 넣어!\p"
+	.string "하지만 포켓몬스넥 만들 때는\n"
+	.string "모두 다른 나무열매로\l"
+	.string "만들지 않으면 안 돼!$"
+	// ポロック つくって いれて!ｐ
+	// でね ポロック つくる ときはｎ
+	// みんなが ちがう きのみでｌ
+	// つくらないと ダメ なんだよ!
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "우승 축하해!\p"
@@ -1099,16 +1107,20 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome: @ 821B1B1
 	.string "우헤헤헤헤$"
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere: @ 821B24D
-	.string "You can see a whole variety of\n"
-	.string "POKéMON here.\p"
-	.string "That's why I make this place a regular\n"
-	.string "part of my daily stroll.$"
+	.string "여기에 오면\n"
+	.string "포켓몬을 잔뜩 볼 수 있으니까\l"
+	.string "산책코스로 다니고 있어!$"
+	// ここに くればｎ
+	// ポケモンを たくさん みられるからｌ
+	// さんぽコ-スに してるの!
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes: @ 821B2BA
-	.string "Wow, coming out to a CONTEST is\n"
-	.string "a feast for these eyes!\p"
-	.string "Would you look at all the POKéMON\n"
-	.string "that just scream to be painted?$"
+	.string "이야 콘테스트회장에 오면\n"
+	.string "그릴 만한 포켓몬이\l"
+	.string "잔뜩 있구만!$"
+	// いやあ コンテストかいじょうに くるとｎ
+	// かきがいの ある ポケモンがｌ
+	// いっぱい だね!
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme: @ 821B334
 	.string "강인함콘테스트는\n"

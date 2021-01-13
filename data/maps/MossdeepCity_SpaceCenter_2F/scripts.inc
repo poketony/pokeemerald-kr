@@ -384,8 +384,10 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets: @ 82241A1
 	.string "안성맞춤인 장소로군$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel: @ 822420C
-	.string "Why would TEAM MAGMA want to steal\n"
-	.string "our rocket fuel in the first place?$"
+	.string "로켓의 연료 같은 걸 빼앗아서\n"
+	.string "마그마단은 뭘 할 셈이지?$"
+	// ロケットの ねんりょうなんか うばってｎ
+	// マグマだんは なにする つもりだ!?
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
 	.string "나도 조금만 더 젊었더라면\n"
@@ -394,135 +396,207 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
 	.string "좋-아 힘내자-!!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis: @ 82242C5
-	.string "If TEAM MAGMA takes the rocket fuel,\n"
-	.string "I won't be able to go to space!\p"
-	.string "They can't be allowed to get away\n"
-	.string "with such an outrage!$"
+	.string "마그마단한테 연료를 빼앗기면\n"
+	.string "내가 우주에 갈 수 없게 된다!\p"
+	.string "그렇게 놔둘까 보냐-!$"
+	// マグマだんに ねんりょうを うばわれたらｎ
+	// わしが うちゅうに いけなくなる!ｐ
+	// そんなこと させて たまるか-!
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace: @ 8224342
 	.string "언젠가 평범한 사람들도\n"
 	.string "우주에 갈 수 있게 되면 좋겠다...$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
-	.string "TEAM MAGMA…\n"
-	.string "Do they want to go to space, too?$"
+	.string "마그마단...\n"
+	.string "우주에 가고 싶어하는 걸까?$"
+	// マグマだんも……ｎ
+	// うちゅうに いきたいの かな?
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn: @ 82243A4
-	.string "What's wrong with you?\p"
-	.string "You're outnumbered three to one,\n"
-	.string "but you still want to take us on?$"
+	.string "뭐야 너!\p"
+	.string "우리 3명한테 둘러싸여 있으면서\n"
+	.string "해보자는 거냐?!$"
+	// なんだ おまえ!ｐ
+	// おれたち 3にんに かこまれてるのにｎ
+	// やろうってのか!?
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer: @ 82243FE
-	.string "Good answer!\n"
-	.string "That's what a smart person'll do!$"
+	.string "그렇지!\n"
+	.string "그래야 착한 아이지!$"
+	// だよな!ｎ
+	// そのほうが おりこうさん だぜ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro: @ 822442D
-	.string "A reckless go-getter, are you?\n"
-	.string "Okay, I'll go first!$"
+	.string "무모한 녀석...\n"
+	.string "그럼 나부터 간다!$"
+	// むてっぽうな やつめ……ｎ
+	// まずは オレからだ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat: @ 8224461
-	.string "I lost!\n"
-	.string "But!$"
+	.string "난 졌어 하지만!$"
+	// オレは まけたが しかし!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro: @ 822446E
-	.string "It's too soon to be relieved!\n"
-	.string "I'm up next!$"
+	.string "아직 안심하긴 일러\n"
+	.string "다음 상대는 나다!$"
+	// あんしん するのは まだ はやいｎ
+	// つぎは オレが あいてだ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat: @ 8224499
-	.string "I lost, too!\n"
-	.string "But!$"
+	.string "난 졌어 그치만!$"
+	// オレも まけたが だけど!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro: @ 82244AB
-	.string "I bet you want to take a break.\n"
-	.string "But I'm not about to let you do that!$"
+	.string "한숨 돌리고 싶을 테지만\n"
+	.string "그렇게 놔두진 않겠어!$"
+	// ひとやすみ したいだろう けどｎ
+	// そんな わけには いきませ-ん!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat: @ 82244F1
-	.string "We should've taken a break…\n"
-	.string "That's what we should've done…$"
+	.string "우리들이 한숨을\n"
+	.string "돌렸어야... 했는데...$"
+	// オレたちが ひとやすみｎ
+	// しておけば…… よかった……
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle: @ 822452C
-	.string "Three of us here, and look at the sorry\n"
-	.string "mess we got ourselves into.$"
+	.string "3명이서 덤볐는데 이 꼴이라니!$"
+	// 3にんも いて このザマか!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle: @ 8224570
-	.string "We three losing like this…\n"
-	.string "We look worse than usual by triple!$"
+	.string "3명이서 지면\n"
+	.string "부끄러움도 3배!$"
+	// 3にんがかりで まけるとｎ
+	// いつもの 3ばい かっこわるいぜ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle: @ 82245AF
-	.string "Are we being useful to our leader\n"
-	.string "at all?$"
+	.string "우리들의 리더에\n"
+	.string "어울릴 거 같은데...?$"
+	// オレたち リ-ダ-のｎ
+	// やくに たってるのかな……?
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou: @ 82245D9
-	.string "Hehehe!\p"
-	.string "We come all the way here to get some\n"
-	.string "fuel, and we're interfered with again!\p"
-	.string "If you're going to mess with us too,\n"
-	.string "we'll take care of you at the same time!$"
+	.string "우효효! 모처럼\n"
+	.string "연료를 가지러 왔는데\l"
+	.string "방해가 들어왔군!\p"
+	.string "너도 우리들을 방해하겠다면\n"
+	.string "같이 정리해 주마!$"
+	// ウヒョヒョ! せっかくｎ
+	// ねんりょうを いただきに きたのにｌ
+	// ジャマが はいっちまった!ｐ
+	// おまえも オレたちの ジャマを するならｎ
+	// いっしょに かたづけて やろうか!
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere: @ 822467B
-	.string "MAXIE: Clear out of the way!\n"
-	.string "Don't you dare interfere!$"
+	.string "마적! 에-잇 거기를 비켜라!\n"
+	.string "우리들을 방해하지 말란 말이다!$"
+	// マツブサ『え-い そこをどけ!ｎ
+	// われわれの ジャマを するんじゃない!
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel: @ 82246B2
-	.string "STEVEN: TEAM MAGMA…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+	.string "성호: 마그마단...\n"
+	.string "로켓의 연료를 훔쳐서\l"
+	.string "대체 뭘 할 셈이야!$"
+	// ダイゴ『マグマだん……ｎ
+	// ロケットの ねんりょうなんか ぬすんでｌ
+	// いったい なにをする つもりなんだ!
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
-	.string "MAXIE: Fufufu… Since you're so\n"
-	.string "curious, you deserve an explanation.\p"
-	.string "We're going to jettison the entire\n"
-	.string "load into MT. CHIMNEY!\p"
-	.string "With GROUDON gone, we have no need\n"
-	.string "for that slag heap of a mountain!\p"
-	.string "So we'll use the fuel's power to make\n"
-	.string "the volcano erupt!\p"
-	.string "It will be savage!$"
+	.string "마적: 후후후...\n"
+	.string "그렇게 알고 싶다면 가르쳐주지\p"
+	.string "굴뚝산의 분화구에\n"
+	.string "전부 쏟아넣을 것이다!\p"
+	.string "그란돈도 사라져버렸고\n"
+	.string "이제 그런 산에 볼일은 없지\p"
+	.string "그러니 연료의 힘을 이용해서\n"
+	.string "화산을 분화시킬 것이다\l"
+	.string "콰과광 하고 말이다!$"
+	// マツブサ『ふふふ……ｎ
+	// そんなに しりたけりゃ おしえてやろうｐ
+	// えんとつやまの かこうにｎ
+	// ぜんぶ なげこんで やるのさ!ｐ
+	// グラ-ドンも きえてしまった ことだしｎ
+	// もう あんなやまに ようはないｐ
+	// だから ねんりょうの ちからを りようしてｎ
+	// かざんを ふんか させて やるのさｌ
+	// ズドド-ン とな!
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
-	.string "STEVEN: {PLAYER}{KUN}!\n"
-	.string "You're going to help me?\p"
-	.string "Let's go into battle together!\n"
-	.string "Are you ready?$"
+	.string "성호: {PLAYER}!\n"
+	.string "힘을 빌려줄 수 있어?!\p"
+	.string "나와 함께 싸우자!\n"
+	.string "준비는 됐어?$"
+	// ダイゴ『§あ§お!ｎ
+	// ちからを かして くれるのかい!?ｐ
+	// ボクと いっしょに たたかおう!ｎ
+	// じゅんびは いいね?
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly: @ 8224854
-	.string "STEVEN: Then, hurry!\n"
-	.string "Get ready quickly!$"
+	.string "성호: 그럼 서둘러\n"
+	.string "준비를 해줘!$"
+	// ダイゴ『じゃあ いそいでｎ
+	// じゅんびを ととのえて くるんだ!
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand: @ 822487C
-	.string "All I want…\n"
-	.string "I just want to expand the land mass…$"
+	.string "나는 단지...\n"
+	.string "땅을 넓히고 싶을 뿐이었는데...$"
+	// わたしは ただ……ｎ
+	// りくちを ふやしたい だけなのに……
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat: @ 82248AD
-	.string "I'm with our leader…$"
+	.string "동감입니다...$"
+	// みぎに おなじ だ……
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
-	.string "MAXIE: We failed to make the volcano\n"
-	.string "erupt…\p"
-	.string "We failed to control GROUDON after\n"
-	.string "we had awoken it…\p"
-	.string "Is our goal to expand the land\n"
-	.string "misguided?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "If…\n"
-	.string "If we, TEAM MAGMA, are wrong…\l"
-	.string "… … … … … …\p"
-	.string "Then might TEAM AQUA's goal to expand\n"
-	.string "the sea also be equally misguided?$"
+	.string "마적: 우리들은 화산을\n"
+	.string "분화시키지 못했다...\p"
+	.string "잠에서 깨어난 그란돈도\n"
+	.string "컨트롤하지 못했다...\p"
+	.string "땅을 넓히려는 생각은\n"
+	.string "잘못되었다는 말인가?\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "만약... 우리 마그마단이\n"
+	.string "잘못되었다고 한다면\l"
+	.string "...... ...... ......\p"
+	.string "설마 아쿠아단의\n"
+	.string "바다를 넓히려는 생각도...$"
+	// マツブサ『われわれは かざんをｎ
+	// ふんか させられ なかった……ｐ
+	// ねむりから めざめた グラ-ドンもｎ
+	// コントロ-ル できなかった……ｐ
+	// りくちをふやす という かんがえはｎ
+	// まちがって いるのか?ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// もしも…… われわれ マグマだんがｎ
+	// まちがっていると いうのならｌ
+	// …… …… ……ｐ
+	// まさか アクアだんのｎ
+	// うみをふやす という かんがえも……
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
-	.string "MAXIE: All right…\n"
-	.string "We will give up on the fuel…\p"
-	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+	.string "마적: 알았다...\n"
+	.string "연료는 포기하지...\p"
+	.string "나에게는 따로 확인해야만\n"
+	.string "하는 일이 있으니까 말이다...$"
+	// マツブサ『わかった……ｎ
+	// ねんりょうは あきらめよう……ｐ
+	// わたしには ほかに たしかめ なければｎ
+	// ならない ことが あるようだ……
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
-	.string "STEVEN: Whew, that was too tense.\n"
-	.string "{PLAYER}{KUN}, thank you.\p"
-	.string "I have something to give you as\n"
-	.string "thanks for your support.\p"
-	.string "Please come see me at home\n"
-	.string "after this.\p"
-	.string "Oh, yes, I don't live in RUSTBORO CITY.\n"
-	.string "I live right here on this island.$"
+	.string "성호: 휴우 위험했어\n"
+	.string "고마워 {PLAYER}\p"
+	.string "힘을 빌려준 보답으로\n"
+	.string "좋은 걸 선물할게\l"
+	.string "나중에 집으로 와줘\p"
+	.string "내 집은 금탄도시가 아니라\n"
+	.string "이 섬에 있어$"
+	// ダイゴ『ふう あぶない ところ だったｎ
+	// §あ§お ありがとうｐ
+	// ちからを かしてくれた おれいにｎ
+	// いいものを あげるからｌ
+	// あとで いえまで きておくれｐ
+	// ボクのいえは カナズミ じゃないよｎ
+	// このしまに あるんだ

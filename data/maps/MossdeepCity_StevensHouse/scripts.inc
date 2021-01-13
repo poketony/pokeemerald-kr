@@ -157,14 +157,20 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall:: @ 8222926
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive: @ 8222936
-	.string "STEVEN: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "성호: {PLAYER}...\p"
+	.string "보는 대로 아무것도 없지만\n"
+	.string "여기가 내 집이야\p"
+	.string "...맞다 아까는 고마웠어\n"
+	.string "이건 내가 주는 감사의 마음\l"
+	.string "비전머신 다이빙이야\p"
+	.string "사양 말고 받아줘$"
+	// ダイゴ『§あ§お……ｐ
+	// みてのとおり なにも ないけどｎ
+	// ここが ボクの いえなんだｐ
+	// ……そうだ さっきは ありがとうｎ
+	// これは ボクからの おれいの きもちｌ
+	// ひでんマシンの ダイビングだｐ
+	// えんりょ しないで もっていきなよ
 
 MossdeepCity_StevensHouse_Text_ExplainDive: @ 8222A0E
 	.string "성호: 파도타기를 하고 있으면\n"
@@ -176,13 +182,24 @@ MossdeepCity_StevensHouse_Text_ExplainDive: @ 8222A0E
 	.string "다시 한 번 다이빙을 써\p"
 	.string "장소에 따라\n"
 	.string "떠오를 수 없는 경우도 있지만$"
+	// ダイゴ『なみのりを しているとｎ
+	// みずの いろが こい ばしょが あるｐ
+	// そこで ダイビングを つかうとｎ
+	// うみの そこに もぐれるからｐ
+	// うかびたい ときはｎ
+	// もういちど ダイビングを つかうんだｐ
+	// ばしょに よってはｎ
+	// うかべない ばあいも あるけど
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis: @ 8222B11
-	.string "STEVEN: Apparently, there's an\n"
-	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "성호: 이끼시티와 루네시티 사이에는\n"
+	.string "해저동굴이 있는 듯해\p"
+	.string "왜 그... 해양관장이\n"
+	.string "발견한 그거 있잖아$"
+	// ダイゴ『トクサネと ルネの あいだにはｎ
+	// かいていどうくつが あるらしいｐ
+	// ほら たしか…… クスノキかんちょうがｎ
+	// はっけんした という あれだよ
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum: @ 8222B9E
 	.string "{PLAYER}{K_EUNNEUN}\n"

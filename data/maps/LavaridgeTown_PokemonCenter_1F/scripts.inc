@@ -37,10 +37,12 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether: @ 81FFB37
 	.string "느낌이 든단 말이지$"
 
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate: @ 81FFBAD
-	.string "It's sort of magical how just sitting\n"
-	.string "in a hot-spring pool can invigorate.\p"
-	.string "I wish I could let my POKéMON\n"
-	.string "soak, too.$"
+	.string "온천에 들어간 것만으로도\n"
+	.string "건강해진다니 신기해-!\l"
+	.string "포켓몬하고 같이 들어가고 싶다-$"
+	// おんせんに はいる だけでｎ
+	// げんきに なるなんて ふしぎだな-!ｌ
+	// ポケモンも いれて あげたいな-
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo: @ 81FFC21
 	.string "허허허! 젊구먼\n"

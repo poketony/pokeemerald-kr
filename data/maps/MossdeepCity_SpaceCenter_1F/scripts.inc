@@ -308,15 +308,18 @@ MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber: @ 82232C8
 	.string "이걸로 {STR_VAR_1}번 발사 성공이야!$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent: @ 8223305
-	.string "I know that things are a little\n"
-	.string "haywire right now, but…\p"
-	.string "The rocket's launch is imminent!$"
+	.string "이런 소란 중에도...\p"
+	.string "이제 곧 로켓 발사할 거야!$"
+	// こんな さわぎの とちゅう だけど……ｐ
+	// もうすぐ ロケットが はっしゃ するぞ!
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber: @ 822335E
-	.string "I know that things are a little\n"
-	.string "haywire right now, but…\p"
-	.string "The rocket launched safely!\n"
-	.string "That's successful launch no. {STR_VAR_1}!$"
+	.string "이런 소란 중에도...\p"
+	.string "로켓이 발사됐어!\n"
+	.string "이걸로 {STR_VAR_1}번 발사 성공이야!$"
+	// こんな さわぎの とちゅう だけど……ｐ
+	// ロケットが はっしゃ したよ!ｎ
+	// これで §いかい うちあげ せいこうだ!
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection: @ 82233D3
 	.string "로켓을 발사하기 위해서는\n"
@@ -328,10 +331,16 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection: @ 82233D3
 	.string "거기에 로망이 가득 차 있으니까$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter: @ 82234B7
-	.string "Those MAGMA thugs have their sights\n"
-	.string "set on our SPACE CENTER.\p"
-	.string "But we can't allow anything that minor\n"
-	.string "to interfere with our rocket launch!$"
+	.string "마그마단 녀석들\n"
+	.string "이 우주센터를 노리고 있어\p"
+	.string "하지만 그렇다고 해서\n"
+	.string "로켓 발사를\l"
+	.string "멈출 생각은 없어!$"
+	// マグマだんの やつらがｎ
+	// この うちゅうセンタ-を ねらっているｐ
+	// だが そんなこと ぐらいでｎ
+	// ロケットの はっしゃをｌ
+	// やめるわけには いかないんだ!
 
 MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt: @ 8223540
 	.string "해안에서 산책하면서\n"
@@ -344,14 +353,20 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers: @ 82235A6
 	.string "유명했어$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis: @ 82235F0
-	.string "TEAM MAGMA can't be allowed to steal\n"
-	.string "the rocket fuel.\p"
-	.string "Oh, by the way, you can have this stone\n"
-	.string "I found on the beach.$"
+	.string "마그마단에게 로켓연료를\n"
+	.string "빼앗기면 안 돼!\p"
+	.string "그나저나 해안에서 주운 이 돌을\n"
+	.string "너에게 줄게!$"
+	// マグマだんに ロケットねんりょうをｎ
+	// うばわれる わけには いかない!ｐ
+	// でも かいがんで みつけた このいしはｎ
+	// きみに あげるよ!
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma: @ 8223664
-	.string "With TEAM MAGMA around, I guess\n"
-	.string "strolls on the beach aren't safe.$"
+	.string "마그마단을 쫓아내야 해\n"
+	.string "해안에서 산책할 때가 아냐!$"
+	// マグマだんを おっぱらわなきゃｎ
+	// かいがんの さんぽ どころじゃないね!
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
 	.string "사람에 따라\n"
@@ -360,10 +375,14 @@ MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
 	.string "이거 진짜일까?$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma: @ 82236E8
-	.string "TEAM AQUA should take care of\n"
-	.string "TEAM MAGMA!\p"
-	.string "But if they did that, TEAM AQUA will\n"
-	.string "become bold and brazen, won't they?$"
+	.string "마그마단 같은 건\n"
+	.string "아쿠아단이 해치우면 좋을 텐데!\p"
+	.string "하지만 그렇게 되면 그때는\n"
+	.string "아쿠아단이 날뛰게 되겠지$"
+	// マグマだん なんてｎ
+	// アクアだんが やっつければ いいのよ!ｐ
+	// でも そうすると こんどはｎ
+	// アクアだんが おおきなかおを するのよね
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
 	.string "거대한 철 덩어리가\n"
@@ -372,82 +391,127 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
 	.string "정말 대박인 거 같아$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream: @ 82237B5
-	.string "A giant chunk of metal bursts through\n"
-	.string "the skies and flies into space…\p"
-	.string "But TEAM MAGMA wants to spoil\n"
-	.string "that dream of mine!\p"
-	.string "I'm not having any of that!$"
+	.string "거대한 철 덩어리가\n"
+	.string "창공을 뚫고\l"
+	.string "우주까지 날아간다...\p"
+	.string "그런 내 꿈을 방해하다니\n"
+	.string "마그마단 놈들! 으으으 용서 못 해!$"
+	// でっかい てつの かたまりがｎ
+	// おおぞらを つきぬけｌ
+	// うちゅうまで とんで いく……ｐ
+	// そんな わしのゆめを ジャマするｎ
+	// マグマだんめ! ぬぬぬ ゆるさん!
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel: @ 8223849
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
-	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
-	.string "fuel on this island.\p"
-	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
-	.string "I'll keep an eye on things for\n"
-	.string "a while longer.\p"
-	.string "In the meantime, why don't you go\n"
-	.string "check out the town?$"
+	.string "성호: {PLAYER} 거기에 있는\n"
+	.string "예고장은 이미 읽었어?\p"
+	.string "마그마단은 이 섬에 있는\n"
+	.string "로켓연료를 빼앗으려고 해!\p"
+	.string "뭐에 쓰려고 하는지는 모르겠지만\n"
+	.string "녀석들한테 넘길 순 없지!\p"
+	.string "나는 여기서 조금 더\n"
+	.string "망을 볼 테니까 너는 마을이라도\l"
+	.string "견학하고 있는 게 어때$"
+	// ダイゴ『§あ§お そこにあるｎ
+	// よこくじょうは もう よんだかい?ｐ
+	// マグマだんは このしまに あるｎ
+	// ロケットねんりょうを ねらっている!ｐ
+	// なにに つかうのか しらないけどｎ
+	// かれらに わたす わけには いかないよ!ｐ
+	// ボクは もうすこし ここでｎ
+	// みはって いるから きみは まちでもｌ
+	// けんぶつ してきたら どうかな
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro: @ 822396C
-	.string "As promised, we've come for\n"
-	.string "the rocket fuel!$"
+	.string "약속대로 로켓연료를\n"
+	.string "받으러 왔다!$"
+	// やくそく どおり ロケットねんりょうをｎ
+	// ちょうだいしに きたわよ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat: @ 8223999
-	.string "Ran out of fuel…$"
+	.string "연료가 떨어졌어...$"
+	// ねんりょうぎれ……
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle: @ 82239AA
-	.string "Don't think you're on a roll just\n"
-	.string "because you've beaten me!$"
+	.string "나한테 이긴 정도로\n"
+	.string "우쭐해지면 안된다고!$"
+	// わたしに かった ぐらいでｎ
+	// ちょうしに のってちゃ ダメよ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro: @ 82239E6
-	.string "We gave you fair warning!\n"
-	.string "There's nothing sneaky about us!$"
+	.string "제대로 예고를 하고 왔어!\n"
+	.string "우린 비겁하지 않아!$"
+	// ちゃんと よこく してから きたんだ!ｎ
+	// オレたちゃ ひきょうものじゃ ないぜ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat: @ 8223A21
-	.string "Grrr…\n"
-	.string "We should've used sneaky treachery…$"
+	.string "으-음... 비겁한 수를\n"
+	.string "쓸 걸 그랬나...$"
+	// う-む…… ひきょうな てをｎ
+	// つかえば よかった……
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle: @ 8223A4B
-	.string "Okay, I get it already! The next time,\n"
-	.string "we'll come unannounced.$"
+	.string "알았어 다음에 올 때는\n"
+	.string "갑자기 쳐들어오도록 할게...$"
+	// わかったよ こんど くるときはｎ
+	// いきなり くるように するよ……
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro: @ 8223A8A
-	.string "The rocket fuel the SPACE CENTER has\n"
-	.string "in storage--that's what we're after.\p"
-	.string "We mean to take every last bit of it!$"
+	.string "우주센터에 저장되어 있는\n"
+	.string "로켓의 연료는\l"
+	.string "전부 우리가 받아가겠어!$"
+	// うちゅうセンタ-に ちょぞう してあるｎ
+	// ロケットの ねんりょうはｌ
+	// ぜんぶ オレたちが いただいて いくぜ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat: @ 8223AFA
-	.string "Please, can you spare some fuel?\n"
-	.string "Even a chintzy cup will do!$"
+	.string "컵이라도 좋으니까\n"
+	.string "연료를 가득 따라주면 안될까?$"
+	// コップいっぱいで いいからｎ
+	// ねんりょう くれない?
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle: @ 8223B37
-	.string "What are we going to do with\n"
-	.string "the rocket fuel?\p"
-	.string "How would I know?\n"
-	.string "Ask our leader upstairs!$"
+	.string "연료를 어디에 쓸 거냐고?\n"
+	.string "그런 걸 내가 어떻게 알아!\l"
+	.string "2층에 있는 리더한테 물어봐!$"
+	// ねんりょうの つかいみち?ｎ
+	// そんなこと オレは しらん!ｌ
+	// 2かいに いる リ-ダ-に きいてくれ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro: @ 8223B90
-	.string "Our leader said no one, but no one,\n"
-	.string "gets past me!$"
+	.string "리더한테 아무도 지나가지\n"
+	.string "못하게 하라고 들었는데!$"
+	// リ-ダ-から だれも ここを とおすなｎ
+	// って いわれてるんだよ!
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat: @ 8223BC2
-	.string "Ack! Ack! Aaack!$"
+	.string "앗 앗 앗$"
+	// あっ あっ あっ
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle: @ 8223BD3
-	.string "Please, tell our leader that\n"
-	.string "I never abandoned my post.\l"
-	.string "That I stayed to the bitter end…$"
+	.string "리더에게 내가 마지막까지\n"
+	.string "자리를 지켰다고\l"
+	.string "말해두는 거 잊지 마!$"
+	// リ-ダ-には オレが さいごまでｎ
+	// もちばを はなれなかった ってｌ
+	// いっといて くれよ!
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice: @ 8223C2C
-	.string "This is…\n"
-	.string "An intent-to-steal notice?\p"
-	.string "“To the staff of the SPACE CENTER:\n"
-	.string "How are you? We are doing fine.\p"
-	.string "“We will soon visit you to take your\n"
-	.string "rocket fuel.\p"
-	.string "“Please don't try to stop us.\n"
-	.string "We will take the fuel no matter what.\p"
-	.string "“Let there be more land!\n"
-	.string "                                          TEAM MAGMA”$"
+	.string "이건...\n"
+	.string "범행 예고장?\p"
+	.string "“우주센터 여러분\n"
+	.string "  잘 지내고 계십니까\p"
+	.string "  로켓의 연료는\n"
+	.string "  곧 저희가 받아가겠습니다\l"
+	.string "  거절해도 어쩔 수 없답니다\p"
+	.string "  더 많은 땅을!\n"
+	.string "                            마그마단”$"
+	// これは……ｎ
+	// はんこう よこくじょう?ｐ
+	// 「うちゅうセンタ-の みなさんｎ
+	//  いかが おすごしで しょうかｐ
+	//  ロケットの ねんりょうはｎ
+	//  まもなく われわれが いただきますｌ
+	//  イヤだと いっても ムダなので-すｐ
+	//  もっと りくちを!ｎ
+	//               マグマだん

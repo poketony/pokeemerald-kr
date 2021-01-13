@@ -477,78 +477,111 @@ MossdeepCity_Gym_Text_MauraPostBattle: @ 822132E
 	.string "자신에게 돌아오는 거야...$"
 
 MossdeepCity_Gym_Text_SylviaIntro: @ 82213C2
-	.string "Even at the risk of life, I will win\n"
-	.string "this battle!$"
+	.string "목숨을 깎는 한이 있더라도\n"
+	.string "이 승부는 이기겠어...!$"
+	// いのちを けずって でもｎ
+	// この しょうぶ かってみせるわ……!
 
 MossdeepCity_Gym_Text_SylviaDefeat: @ 82213F4
-	.string "What you do…\n"
-	.string "It horrifies me…$"
+	.string "당신\n"
+	.string "무서운 짓을...$"
+	// あなたはｎ
+	// おそろしい ことを……
 
 MossdeepCity_Gym_Text_SylviaPostBattle: @ 8221412
-	.string "How dare you beat me…\p"
-	.string "It won't be my fault if something\n"
-	.string "horrible befalls you…$"
+	.string "당신이 이겼어...\n"
+	.string "무슨 일이 일어나도 난 몰라...!$"
+	// あたしに かったわね……ｎ
+	// なにが おきても しらないわよ……!
 
 MossdeepCity_Gym_Text_NateIntro: @ 8221460
-	.string "Hohoho.\p"
-	.string "You need me to show you how tenacious\n"
-	.string "the PSYCHIC type can be.$"
+	.string "호호호\p"
+	.string "에스퍼타입의 강한 기술을\n"
+	.string "당신에게 알려드리죠$"
+	// ほっほっほｐ
+	// エスパ-タイプの てごわさをｎ
+	// あなたに おしえて さしあげましょう
 
 MossdeepCity_Gym_Text_NateDefeat: @ 82214A7
-	.string "Oh! My, my!\n"
-	.string "Your battle style is fantastic!$"
+	.string "이 이건!\n"
+	.string "굉장한 배틀 실력이군요$"
+	// こ これは これは!ｎ
+	// すばらしい たたかいかた ですな
 
 MossdeepCity_Gym_Text_NatePostBattle: @ 82214D3
-	.string "I… I don't let defeat rattle m-me,\n"
-	.string "however b-badly.$"
+	.string "저 저는 아무리 져도\n"
+	.string "꺾이지 않을 거예요$"
+	// わ わたくしは どんなに まけてもｎ
+	// とりみだしは しませんから
 
 MossdeepCity_Gym_Text_KathleenIntro: @ 8221507
-	.string "Let me show you a perfectly awful,\n"
-	.string "horrifying time!$"
+	.string "내 무서운 눈과 마주치다니\n"
+	.string "해보자는 거냐!$"
+	// おそろしいめに あわせて やろうか-っ!
 
 MossdeepCity_Gym_Text_KathleenDefeat: @ 822153B
-	.string "N-nooooo!$"
+	.string "싫어어엇!$"
+	// いやあああ-っ!
 
 MossdeepCity_Gym_Text_KathleenPostBattle: @ 8221545
-	.string "Your vitality is contagious!\n"
-	.string "Get away from me quickly!$"
+	.string "당신의 상태가 나빠질 거야\n"
+	.string "빨리 내게서 떨어져!$"
+	// あなたの げんきが うつるわｎ
+	// はやく いっちゃいなさいよ!
 
 MossdeepCity_Gym_Text_CliffordIntro: @ 822157C
-	.string "I may be past my prime, but I suggest\n"
-	.string "you not patronize me.$"
+	.string "늙었다고 해서\n"
+	.string "만만하게 보면 곤란하네$"
+	// としより だからと いってｎ
+	// あまく みて もらっては こまりますよ
 
 MossdeepCity_Gym_Text_CliffordDefeat: @ 82215B8
-	.string "Ah, you overflow with the power\n"
-	.string "of youth!$"
+	.string "젊음이 흘러넘치는구먼!$"
+	// あふれる わかさを かんじる!
 
 MossdeepCity_Gym_Text_CliffordPostBattle: @ 82215E2
-	.string "It seems that I could not overcome\n"
-	.string "your youthful energy.$"
+	.string "이 체육관 관장도 그렇지!\n"
+	.string "젊고 발랄하단다$"
+	// この ジムの リ-ダ-も そりゃもう!ｎ
+	// わかくて げんき はつらつ ですぞ
 
 MossdeepCity_Gym_Text_MaceyIntro: @ 822161B
-	.string "You're not getting through to the end!\n"
-	.string "Not if I can help it!$"
+	.string "아직이야\n"
+	.string "아직 체육관 관장과 만날 순 없어!$"
+	// まだよｎ
+	// まだ ジムリ-ダ-には あわせないわよ!
 
 MossdeepCity_Gym_Text_MaceyDefeat: @ 8221658
-	.string "How could you be so ludicrously\n"
-	.string "strong?$"
+	.string "잠깐! 뭐야 그 강함!$"
+	// ちょっと! なんなの その つよさ!
 
 MossdeepCity_Gym_Text_MaceyPostBattle: @ 8221680
-	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
-	.string "The way you battle is somehow brutal!$"
+	.string "흥 당신은 강하지만\n"
+	.string "에스퍼는 좋아하지 않는구나!\l"
+	.string "뭔가 거칠게 배틀하는걸!$"
+	// フン あんたは つよいけどｎ
+	// エスパ-むき では ないわ!ｌ
+	// なんだか たたかいかたが がさつ だもん!
 
 MossdeepCity_Gym_Text_NicholasIntro: @ 82216EE
-	.string "Wroooar! Have a taste of my super\n"
-	.string "POKéMON hard-battling power!$"
+	.string "우오옷! 내\n"
+	.string "슈퍼포켓몬승부강한파워를\l"
+	.string "받아라-!$"
+	// うぉ-っし! おれのｎ
+	// ス-パ-ポケモンしょうぶつよいパワ- をｌ
+	// うけて みろ-っ!
 
 MossdeepCity_Gym_Text_NicholasDefeat: @ 822172D
-	.string "Oh!\n"
-	.string "Done in!$"
+	.string "당했다아아아!$"
+	// やられたあああ!
 
 MossdeepCity_Gym_Text_NicholasPostBattle: @ 822173A
-	.string "All right! I think I'll develop a special\n"
-	.string "invincible POKéMON power next.$"
+	.string "좋아! 다음은\n"
+	.string "스페셜포켓몬지고싶지않아파워도\l"
+	.string "개발해 볼까?$"
+	// よし! つぎはｎ
+	// スペシャルポケモンまけないパワ- でもｌ
+	// かいはつ するかな?
 
 MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
 	.string "풍: 에헤헤...체육관 관장이\p"
@@ -595,22 +628,36 @@ MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
 MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
 	.string "체육관 관장 풍&란을\n"
 	.string "포켓내비에 등록했다!$"
+	// ジムリ-ダ- フウとランをｎ
+	// ポケナビに とうろく した!
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
-	.string "TATE: Looks like the bond between you\n"
-	.string "and your POKéMON is far stronger than\l"
-	.string "the bond that we share as twins.\p"
-	.string "LIZA: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+	.string "풍: 남매의 유대감보다\n"
+	.string "너와 포켓몬의 유대감이\l"
+	.string "더 강했나봐...\p"
+	.string "란: 당신이라면 분명 강해질 수 있어!\n"
+	.string "배틀했으니까 우리라면 알 수 있어!$"
+	// フウ『きょうだいの きずな よりｎ
+	// きみと ポケモンとの きずなの ほうがｌ
+	// はるかに つよかった みたいだね……ｐ
+	// ラン『あなたなら もっと つよくなれる!ｎ
+	// たたかった あたしたちには わかるわ!
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
-	.string "TATE: Hehehe… Were you surprised?\p"
-	.string "LIZA: That there are two GYM LEADERS?\p"
-	.string "TATE: Oops, you have only one…\n"
-	.string "LIZA: POKéMON that can battle.\p"
-	.string "TATE: We can't battle that way!\p"
-	.string "LIZA: If you want to challenge us,\n"
-	.string "bring some more POKéMON.$"
+	.string "풍: 에헤헤...체육관 관장이\p"
+	.string "란: 두 명이나 있어서 놀랐지?\p"
+	.string "풍: 어라? 싸울 수 있는 포켓몬이\n"
+	.string "란: 한 마리밖에 없어!\p"
+	.string "풍: 그러면 배틀할 수 없어!\n"
+	.string "란: 승부를 하고 싶다면\l"
+	.string "더 포켓몬을 데려와!$"
+	// フウ『へへへ…… ジムリ-ダ-がｐ
+	// ラン『ふたりも いるんで おどろいた?ｐ
+	// フウ『あら? たたかえる ポケモンがｎ
+	// ラン『いっぴき しか いないヨ!ｐ
+	// フウ『それでは たたかえないね!ｎ
+	// ラン『しょうぶを たのしみたいからｌ
+	// もっと ポケモン つれてきてヨ!
 
 MossdeepCity_Gym_Text_GymStatue: @ 8221CB0
 	.string "이끼시티 포켓몬체육관$"
@@ -622,26 +669,42 @@ MossdeepCity_Gym_Text_GymStatueCertified: @ 8221CCA
 	.string "{PLAYER}$"
 
 MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
-	.string "TATE: POKéMON…\n"
-	.string "LIZA: POKéMON…\p"
-	.string "TATE: By changing the party's mix…\n"
-	.string "LIZA: The battle style changes.\p"
-	.string "TATE: But me…\n"
-	.string "LIZA: But me…\p"
-	.string "TATE: I'll always be with LIZA!\n"
-	.string "LIZA: I'll always be with TATE!\p"
-	.string "TATE: Our combination…\n"
-	.string "LIZA: We'll show you again and again!$"
+	.string "풍: 포켓몬은...\n"
+	.string "란: 포켓몬은...\p"
+	.string "풍: 조합을 바꾸면\n"
+	.string "란: 배틀하는 방법도 바뀌지\p"
+	.string "풍: 하지만 나는...\n"
+	.string "란: 하지만 나는...\p"
+	.string "풍: 언제나 란과 함께 있어!\n"
+	.string "란: 언제나 풍과 함께 있지!\p"
+	.string "풍: 우리들의 콤비네이션\n"
+	.string "란: 몇 번이든 보여줄게!$"
+	// フウ『ポケモンは……ｎ
+	// ラン『ポケモンは……ｐ
+	// フウ『くみあわせを かえるとｎ
+	// ラン『たたかいかたも かわるよねｐ
+	// フウ『でも ぼくは……ｎ
+	// ラン『でも あたしは……ｐ
+	// フウ『いつでも ランと いっしょ!ｎ
+	// ラン『いつでも フウと いっしょ!ｐ
+	// フウ『ぼくたちの コンビネ-ションｎ
+	// ラン『なんどでも みせて あげるわ!
 
 MossdeepCity_Gym_Text_TateAndLizaRematchDefeat: @ 8221E05
-	.string "TATE: You and your POKéMON…\n"
-	.string "LIZA: It's as if you were siblings!$"
+	.string "풍: 너와 포켓몬은\n"
+	.string "란: 마치 형제 같아!$"
+	// フウ『きみと ポケモンってｎ
+	// ラン『まるで きょうだい みたい!
 
 MossdeepCity_Gym_Text_TateAndLizaPostRematch: @ 8221E45
-	.string "TATE: You can knock us down,\n"
-	.string "but we'll never stay down!\p"
-	.string "LIZA: Because the two of us,\n"
-	.string "we always support each other!$"
+	.string "풍: 몇 번이나 쓰러져도\n"
+	.string "다시 일어설 거야!\p"
+	.string "란: 왜냐하면 우리 둘은\n"
+	.string "힘을 합쳐 힘낼 테니까!$"
+	// フウ『なんど たおされたってｎ
+	// また たちなおって みせるからね!ｐ
+	// ラン『だって あたしたち ふたりｎ
+	// ちからを あわせて がんばれるもの!
 
 MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
 	.string "풍: 에헤헤...체육관 관장이\p"

@@ -12,32 +12,46 @@ MagmaHideout_3F_1R_EventScript_Grunt16:: @ 823A1CA
 	end
 
 MagmaHideout_3F_1R_Text_Grunt9Intro: @ 823A1E1
-	.string "What did I do to deserve this guard\n"
-	.string "posting?\p"
-	.string "My left ear is burning up!$"
+	.string "왜 나는 이런 곳을\n"
+	.string "담당하게 된 거야!\p"
+	.string "왼쪽 귀가 뜨거워!$"
+	// なんで オレは こんなところのｎ
+	// たんとう なんだよ!ｐ
+	// ひだりのみみ が あつい じゃね-か!
 
 MagmaHideout_3F_1R_Text_Grunt9Defeat: @ 823A229
-	.string "I'm getting heat exhaustion…$"
+	.string "뜨거워서 맥빠진다...$"
+	// あつくて ヘロヘロ……
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle: @ 823A246
-	.string "Do you think it's odd that we're wearing\n"
-	.string "hoods in this magma-filled volcano?$"
+	.string "이런 마그마투성이인 화산 안에서\n"
+	.string "후드를 쓴 우리들이 이상한 거지?$"
+	// こんな マグマだらけの かざんの なかでｎ
+	// フ-ドを かぶってる オレたち へん?
 
 MagmaHideout_3F_1R_Text_Grunt16Intro: @ 823A293
-	.string "We joined so we can help our leader\n"
-	.string "achieve his fantastic vision.\p"
-	.string "I don't care if you're with TEAM AQUA\n"
-	.string "or if you're just some kid passing by.\p"
-	.string "No one interferes with us and gets\n"
-	.string "away with it!$"
+	.string "우리들은 리더가 노리고 있는\n"
+	.string "굉장한 목적을\l"
+	.string "실현하기 위해 모였지!\p"
+	.string "아쿠아단 따위나\n"
+	.string "지나가던 꼬마가\l"
+	.string "방해한다면 용서치 않겠어!$"
+	// アタシたちは リ-ダ-が めざしているｎ
+	// すばらしい もくてきをｌ
+	// じつげん するために あつまったの!ｐ
+	// アクアだん だろうがｎ
+	// とおりすがりの おこさま だろうがｌ
+	// じゃまを するなら ゆるさないわ!
 
 MagmaHideout_3F_1R_Text_Grunt16Defeat: @ 823A353
-	.string "Oh, no!\n"
-	.string "You're not to be trusted at all!$"
+	.string "헤에- 강하구나!$"
+	// ひえ- あなどれない ひと!
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle: @ 823A37C
-	.string "Listen to me.\n"
-	.string "TEAM MAGMA is right!\p"
-	.string "Don't listen to TEAM AQUA.\n"
-	.string "Don't believe their lies!$"
+	.string "알겠어? 옳은 건 마그마단이야!\n"
+	.string "아쿠아단이 말하는 건\l"
+	.string "거짓말밖에 없으니까 믿으면 안 돼!$"
+	// いい? ただしいのは マグマだんよ!ｎ
+	// アクアだんの いうことなんかｌ
+	// うそ ばっかりだから しんじちゃ ダメよ!
 

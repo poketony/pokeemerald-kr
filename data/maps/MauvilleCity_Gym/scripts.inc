@@ -341,15 +341,20 @@ MauvilleCity_Gym_Text_VivianPostBattle: @ 820E50F
 	.string "분명히 모르는 게 없을 거야$"
 
 MauvilleCity_Gym_Text_AngeloIntro: @ 820E593
-	.string "I love shiny things!$"
+	.string "나 빛나는 거 엄청 좋아해!$"
+	// ぼく ひかるもの だ-いすき なんだ!
 
 MauvilleCity_Gym_Text_AngeloDefeat: @ 820E5A8
-	.string "Oh…\n"
-	.string "My eyes are frazzled…$"
+	.string "아아...\n"
+	.string "눈이 따끔따끔해$"
+	// ああ…ｎ
+	// めのまえが チカ チカ
 
 MauvilleCity_Gym_Text_AngeloPostBattle: @ 820E5C2
-	.string "MAUVILLE GYM's WATTSON has a shiny\n"
-	.string "forehead. It makes me happy!$"
+	.string "보라체육관도 암페어님의 이마도\n"
+	.string "번쩍번쩍 빛나서 기뻐!$"
+	// キンセツジムも テッセンさんの おデコもｎ
+	// ピカピカ ひかってて うれしいな!
 
 MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
 	.string "마을을 개조하는 계획도\n"
@@ -413,32 +418,48 @@ MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7
-	.string "WATTSON: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my POKéMON!\p"
-	.string "Wahahahaha!\p"
-	.string "I'll make sparks fly from you!\n"
-	.string "Don't say I didn't warn you!$"
+	.string "암페어: 어이쿠 찾아온 건가!\n"
+	.string "알았네! 나하고 포켓몬\l"
+	.string "승부를 하고 싶은 게지?!\p"
+	.string "와하하하핫!\p"
+	.string "스파크로 찌릿찌릿하게\n"
+	.string "만들어 줄 테니 각오하게나!$"
+	// テッセン『お-っと あらわれたな!ｎ
+	// わかっとる! わしと ポケモンのｌ
+	// しょうぶを したいんじゃろう!?ｐ
+	// わっはははは!ｐ
+	// ひばな バチバチ いわせて やるからｎ
+	// かくご するんじゃぞ!
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat: @ 820EA42
-	.string "Oof…\n"
-	.string "Our batteries ran dry…$"
+	.string "후우 배터리가 다 됐구먼...$"
+	// ふぅ バッテリ-ぎれ じゃ……
 
 MauvilleCity_Gym_Text_WattsonPostRematch: @ 820EA5E
-	.string "WATTSON: We'll have to recharge our\n"
-	.string "batteries again.\p"
-	.string "When we're fully charged up, we'll\n"
-	.string "gladly accept your challenge.\p"
-	.string "So, come back again sometime,\n"
-	.string "won't you?$"
+	.string "암페어: 나는 충전을 하고\p"
+	.string "준비를 마치고 나서\n"
+	.string "다시 네 도전을 받을 테니\l"
+	.string "좀 나중에 와주게...$"
+	// テッセン『わしゃ じゅうでんの しなおしだｐ
+	// たいせいを たてなおしたらｎ
+	// また きみの ちょうせんを うけるからｌ
+	// しばらく してから きておくれ……
 
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
-	.string "WATTSON: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my POKéMON!\p"
-	.string "Wahahahaha!\p"
-	.string "Oops! Wait!\n"
-	.string "You've only one POKéMON with you!\p"
-	.string "Come see me with two or more\n"
-	.string "POKéMON, all right?$"
+	.string "암페어: 어이쿠 찾아온 건가!\n"
+	.string "알았네! 나하고 포켓몬\l"
+	.string "승부를 하고 싶은 게지?!\p"
+	.string "와하하하핫!\p"
+	.string "...어라? 싸울 수 있는 포켓몬을\n"
+	.string "1마리밖에 데리고 있지 않은 겐가\p"
+	.string "미안하지만 2마리 이상\n"
+	.string "포켓몬을 데리고 와주게!$"
+	// テッセン『お-っと あらわれたな!ｎ
+	// わかっとる! わしと ポケモンのｌ
+	// しょうぶを したいんじゃろう!?ｐ
+	// わっはははは!ｐ
+	// ……ありゃ? たたかえる ポケモンをｎ
+	// 1ひきしか もっておらん ようだなｐ
+	// すまんが 2ひき いじょうのｎ
+	// ポケモンを もって きておくれ!
 

@@ -29,31 +29,60 @@ MeteorFalls_StevensCave_EventScript_Defeated:: @ 823B1CD
 	end
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst: @ 823B1E1
-	.string "STEVEN: Oh, wow, {PLAYER}{KUN}.\n"
-	.string "I'm amazed you knew where to find me.\p"
-	.string "Do you, uh…maybe think of me as\n"
-	.string "just a rock maniac?\p"
-	.string "No, that can't be right.\p"
-	.string "We battled alongside each other at\n"
-	.string "the SOOTOPOLIS SPACE CENTER.\p"
-	.string "You should have a very good idea\n"
-	.string "about how good I am.\p"
-	.string "Okay, {PLAYER}{KUN}, if you're going to mount\n"
-	.string "a serious challenge, expect the worst!$"
+	.string "성호: 호오 {PLAYER}\n"
+	.string "내가 여기 있는 걸 용케 알았네\p"
+	.string "설마 너... 나를 평범한\n"
+	.string "돌마니아라고 생각한 거야?\p"
+	.string "...아니 이끼시티의 우주센터에서\n"
+	.string "같이 싸웠었으니까\p"
+	.string "내가 얼마나 강한지는\n"
+	.string "너도 알고 있겠지\p"
+	.string "좋아 {PLAYER}\n"
+	.string "진심으로 승부할 거라면\n"
+	.string "각오하고 덤벼봐!$"
+	// ダイゴ『へぇ §あ§おｎ
+	// ボクが ここにいるって よく わかったねｐ
+	// もしかして きみ…… ボクをｎ
+	// ただの いしマニアだと おもってる?ｐ
+	// ……いや トクサネの うちゅうセンタ-でｎ
+	// いっしょに たたかったからｐ
+	// ボクが どれくらい つよいのかｎ
+	// きみだって しってるはず だよねｐ
+	// よし §あ§おｐ
+	// ほんきで しょうぶ するならｎ
+	// かくごして くれよな!
 
 MeteorFalls_StevensCave_Text_StevenDefeat: @ 823B32D
-	.string "You…\n"
-	.string "I had no idea you'd become so strong…$"
+	.string "너는...\n"
+	.string "이 정도로 강해져 있었구나$"
+	// きみは……ｎ
+	// これほどまでに つよくなって いたのか
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue: @ 823B358
-	.string "STEVEN: Come to think of it, ever since\n"
-	.string "our paths first crossed in GRANITE\l"
-	.string "CAVE in DEWFORD, I had this feeling.\p"
-	.string "I thought that you would eventually\n"
-	.string "become the CHAMPION.\p"
-	.string "My predictions usually come true.\p"
-	.string "And where will you go from here?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Fufufu, even I couldn't tell you that.$"
+	.string "성호: 그러고 보니...\n"
+	.string "무로마을의 바위 동굴에서\l"
+	.string "처음으로 만났을 때부터\p"
+	.string "언젠가 네가 챔피언이\n"
+	.string "될 거 같다는 느낌이 들었어\p"
+	.string "내 예상은\n"
+	.string "언제나 잘 맞거든\p"
+	.string "그럼...\n"
+	.string "다음으로 네가 향할 곳은...\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "후후후 아무리 나라도\n"
+	.string "그런 것까진 모르겠다$"
+	// ダイゴ『そういえば……ｎ
+	// ムロ タウンの いしのどうくつでｌ
+	// はじめて あった ときからｐ
+	// いずれ きみは チャンピオンにｎ
+	// なるような きが していたｐ
+	// ボクの よそうはｎ
+	// だいたい いつも あたるんだよｐ
+	// じゃあ……ｎ
+	// つぎに きみが むかうのは……ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// ふふふ さすがの ボクもｎ
+	// そんなこと までは わからないな
 

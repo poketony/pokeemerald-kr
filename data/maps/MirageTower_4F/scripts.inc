@@ -63,20 +63,34 @@ MirageTower_4F_EventScript_CollapseMirageTower:: @ 823ADCA
 	end
 
 MirageTower_4F_Text_TakeRootFossil: @ 823ADF9
-	.string "You found the ROOT FOSSIL.\p"
-	.string "If this FOSSIL is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the ROOT FOSSIL anyway?$"
+	.string "뿌리화석을 발견했다!\p"
+	.string "이 화석을 가져가면\n"
+	.string "발밑이 무너져버릴 것 같다...\p"
+	.string "뿌리화석을 가져가겠습니까?$"
+	// ねっこのカセキを みつけた!ｐ
+	// この カセキを とるとｎ
+	// あしもとが くずれて しまいそうだ……ｐ
+	// ねっこのカセキを とりますか?
 
 MirageTower_4F_Text_LeftRootFossilAlone: @ 823AE79
-	.string "{PLAYER} left the ROOT FOSSIL alone.$"
+	.string "{PLAYER}{K_EUNNEUN} 뿌리화석을\n"
+	.string "그대로 놔두었다$"
+	// §あは ねっこのカセキをｎ
+	// そのままに しておいた
 
 MirageTower_4F_Text_TakeClawFossil: @ 823AE98
-	.string "You found the CLAW FOSSIL.\p"
-	.string "If this FOSSIL is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the CLAW FOSSIL anyway?$"
+	.string "발톱화석을 발견했다!\p"
+	.string "이 화석을 가져가면\n"
+	.string "발밑이 무너져버릴 것 같다...\p"
+	.string "발톱화석을 가져가겠습니까?$"
+	// ツメのカセキを みつけた!ｐ
+	// この カセキを とるとｎ
+	// あしもとが くずれて しまいそうだ……ｐ
+	// ツメのカセキを とりますか?
 
 MirageTower_4F_Text_LeaveClawFossilAlone: @ 823AF18
-	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+	.string "{PLAYER}{K_EUNNEUN} 발톱화석을\n"
+	.string "그대로 놔두었다$"
+	// §あは ツメのカセキをｎ
+	// そのままに しておいた
 

@@ -134,99 +134,157 @@ MagmaHideout_4F_EventScript_Tabitha:: @ 823A6D1
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro: @ 823A6E8
-	.string "I want to see GROUDON, too, but they\n"
-	.string "won't let me see even its tail…\p"
-	.string "It's got me feeling really frustrated.\p"
-	.string "Oh, no!\n"
-	.string "I blabbed about GROUDON!$"
+	.string "나도 그란돈을 보고 싶은데\n"
+	.string "꼬리도 보여주질 않아서\p"
+	.string "조바심이 나기 시작했어...\p"
+	.string "앗!\n"
+	.string "그란돈에 대해 말해버렸다!$"
+	// オレも グラ-ドンを みたいのにｎ
+	// まだ シッポすら みせて もらえなくてｐ
+	// イライラ してるんだ……ｐ
+	// あっ!ｎ
+	// グラ-ドンのこと いっちゃった!
 
 MagmaHideout_4F_Text_Grunt11Defeat: @ 823A775
-	.string "I guess it's impossible to win if one\n"
-	.string "doesn't have a calm mind…$"
+	.string "역시 냉정함을\n"
+	.string "잃어버리면 이길 수 없어...$"
+	// やっぱり れいせいな きもちをｎ
+	// うしなって いたら かてないな……
 
 MagmaHideout_4F_Text_Grunt11PostBattle: @ 823A7B5
-	.string "I wonder if GROUDON even has a tail?$"
+	.string "그러고 보니 그란돈한테는\n"
+	.string "꼬리가 있을까...?$"
+	// そういえば グラ-ドンにはｎ
+	// シッポなんて あるんだろうか……?
 
 MagmaHideout_4F_Text_Grunt12Intro: @ 823A7DA
-	.string "Fuhahaha!\n"
-	.string "Soon! Very soon!\l"
-	.string "Our grand objective will be achieved!$"
+	.string "우하하 얼마 안 남았어!\n"
+	.string "우리들의 목적이 실현된다!$"
+	// ふはは もうすぐ! もうすぐだ!ｎ
+	// オレたちの もくてきが じつげん する!
 
 MagmaHideout_4F_Text_Grunt12Defeat: @ 823A81B
-	.string "Grrr…\n"
-	.string "I've come so far, but now this?$"
+	.string "크으윽 여기까지 왔는데!$"
+	// ぐうう ここまで きていながら!
 
 MagmaHideout_4F_Text_Grunt12PostBattle: @ 823A841
-	.string "MAXIE, sir!\n"
-	.string "An intruder is headed your way!$"
+	.string "마적님-!\n"
+	.string "침입자가 그쪽으로-!$"
+	// マツブサさま-!ｎ
+	// しんにゅうしゃが そっちに-!
 
 MagmaHideout_4F_Text_Grunt13Intro: @ 823A86D
-	.string "You're not finished yet!\n"
-	.string "You're not getting by me easily!$"
+	.string "아직이다-!\n"
+	.string "간단하게 보내진 않아!$"
+	// まだまだ-!ｎ
+	// かんたんには おくへ いかせない!
 
 MagmaHideout_4F_Text_Grunt13Defeat: @ 823A8A7
-	.string "Was I that easy to knock down?$"
+	.string "나 간단하게 져버린 거야?$"
+	// オレって たおすの かんたん だった?
 
 MagmaHideout_4F_Text_Grunt13PostBattle: @ 823A8C6
-	.string "C-come on, one more match…$"
+	.string "하 한 승부 더... 털썩$"
+	// も もう ひとしょうぶ…… がくっ
 
 MagmaHideout_4F_Text_TabithaIntro: @ 823A8E1
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, GROUDON is sleeping!\p"
-	.string "MAXIE went to GROUDON just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "우효!\n"
+	.string "여기까지 왔으니 알려주마!\p"
+	.string "그래 이 앞에는\n"
+	.string "그란돈이 잠들어 있다!\p"
+	.string "마적님은 지금 막\n"
+	.string "그란돈한테 가셨어!\p"
+	.string "곧 잠에서 깨어날 테지!\n"
+	.string "우효! 우효효!$"
+	// ウヒョ!ｎ
+	// ここまで きたんだから おしえて やろうｐ
+	// そうさ このさきにはｎ
+	// グラ-ドンが ねむって いるのさ!ｐ
+	// マツブサさまは たったいまｎ
+	// グラ-ドンの ところへ いった!ｐ
+	// もうすぐ ねむりから めをさますぞ!ｎ
+	// ウヒョ! ウヒョヒョ!
 
 MagmaHideout_4F_Text_TabithaDefeat: @ 823A994
-	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "당했다… 우효$"
+	// やられちまったい…… ウヒョ
 
 MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
-	.string "…And while you wasted time with me,\n"
-	.string "MAXIE should have awakened GROUDON…$"
+	.string "...이런 식으로 너하고\n"
+	.string "시간을 보내는 동안에\l"
+	.string "마적님이 그란돈을... 우효$"
+	// ……と こんな ぐあいに おまえとｎ
+	// あそんで やっている あいだにｌ
+	// マツブサさまが グラ-ドンを…… ウヒョ
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
-	.string "MAXIE: GROUDON…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This BLUE ORB is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the BLUE ORB.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+	.string "마적: 마그마에 잠든 그란돈이여\n"
+	.string "뭘 해도 일어나지 않던 네가\l"
+	.string "원하는 건 쪽빛구슬...\p"
+	.string "그런 거겠지?\p"
+	.string "자아 가져왔다\n"
+	.string "이 빛으로 눈을 떠라!\p"
+	.string "그리고 진정한 힘을\n"
+	.string "나에게 보여다오!$"
+	// マツブサ『マグマに ねむる グラ-ドンよｎ
+	// なにをしても めざめなかった おまえがｌ
+	// もとめて いたのは あいいろのたま……ｐ
+	// そうなんだろう?ｐ
+	// さあ ここに もってきて やったぞｎ
+	// この かがやきで めを さませ!ｐ
+	// そして ほんとうの ちからをｎ
+	// わたしに みせて おくれ!
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
-	.string "MAXIE: GROUDON!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+	.string "마적: ...그란돈!\n"
+	.string "대체 어떻게 된 거지?!\p"
+	.string "쪽빛구슬로는 안되는 건가?\p"
+	.string "그란돈이여!\n"
+	.string "어디로 사라져 버린 거냐...$"
+	// マツブサ『……グラ-ドン!ｎ
+	// いったい どうしたと いうんだ!?ｐ
+	// あいいろのたまでは だめだと いうのか?ｐ
+	// グラ-ドンよ!ｎ
+	// どこへ きえて しまったんだ……
 
 MagmaHideout_4F_Text_MaxieOhItWasYou: @ 823AB33
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "마적: 네 녀석인가!\p"
+	.string "이곳저곳에서 잔뜩\n"
+	.string "서성거리고 다닌 모양인데\p"
+	.string "과연 네가 뭔가\n"
+	.string "잔꾀를 부린 거로군...!$"
+	// マツブサ『おまえか!ｐ
+	// あっちでも こっちでも ちょこちょことｎ
+	// うろつき まわって いたようだがｐ
+	// なるほど おまえが なにかｎ
+	// こざいくを していたんだな……!
 
 MagmaHideout_4F_Text_MaxieDefeat: @ 823ABB5
-	.string "What makes you so adept at handling\n"
-	.string "POKéMON?$"
+	.string "너는 어째서 그렇게\n"
+	.string "포켓몬을 잘 다룰 수 있는 거지...$"
+	// おまえは なぜ そんなにｎ
+	// ポケモンを うまく あつかえるのだ……
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
-	.string "MAXIE: There has to be some reason\n"
-	.string "why GROUDON fled…\p"
-	.string "That's what you're trying to say,\n"
-	.string "aren't you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Humph…\n"
-	.string "You think I didn't know that?\p"
-	.string "With GROUDON gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after GROUDON, so this\n"
-	.string "is where we part!$"
+	.string "마적: 그란돈이 도망친 데에는\n"
+	.string "뭔가 이유가 있다...\l"
+	.string "그렇게 말하고 싶은 건가?\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "흠...\n"
+	.string "그 정도는 나도 알고 있다\p"
+	.string "그란돈이 없어진 이상\n"
+	.string "이 산에는 더 이상 볼일이 없지\p"
+	.string "나는 그란돈을 쫓아가겠다\n"
+	.string "너하고는 여기서 작별이다!$"
+	// マツブサ『グラ-ドンが にげだしたの にはｎ
+	// なにか わけがある……ｌ
+	// そう いいたいの だろう?ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// ふん……ｎ
+	// それぐらい わたしも わかっていたさｐ
+	// グラ-ドンが いなくなって しまえばｎ
+	// もう こんな やまに ようはないｐ
+	// わたしは グラ-ドンを おいかけるからｎ
+	// おまえとも ここで おわかれだな!

@@ -1,5 +1,5 @@
 gBirchDexRatingText_AreYouCurious::
-	.string "털보박사: 오오 {PLAYER}{KUN}!\p"
+	.string "털보박사: 오오 {PLAYER}!\p"
 	.string "포켓몬 도감의 상태를\n"
 	.string "보여 주겠니?$"
 

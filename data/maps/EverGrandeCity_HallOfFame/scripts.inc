@@ -90,7 +90,7 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions: @ 822990E
 	.string "격렬한 싸움을 이겨낸\n"
 	.string "포켓몬을 기록하는 곳이자\p"
 	.string "포켓몬리그 챔피언의\n"
-	.string "영광을 기리기 위한 장소지!$"
+	.string "영광을 기리기 위한 장소!$"
 	// ミクリ『ここは……ｐ
 	// はげしい たたかいを かちぬいたｎ
 	// ポケモンを きろくする ばしょｐ

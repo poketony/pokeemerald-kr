@@ -20,10 +20,10 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash:: @ 820F9A5
 
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis: @ 820F9AF
 	.string "허허!\p"
-	.string "나를 바위깨기아버지라고\n"
+	.string "나를 바위깨기아저씨라고\n"
 	.string "부르는 사람들이 있는 모양인데\l"
 	.string "실례라고!\p"
-	.string "나는 아직 아버지가 아니야\n"
+	.string "나는 아직 아저씨가 아니야\n"
 	.string "적어도 바위깨기형님이라고\l"
 	.string "불러주면 좋겠어!\p"
 	.string "허허!\p"
