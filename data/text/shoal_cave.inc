@@ -22,8 +22,8 @@ ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
 ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
 	.string "그럼 바로\n"
 	.string "조개껍질방울을 만들게\p"
-	.string "... ... ... ... ... ... ... ...\n"
-	.string "... ... ... ... ... ... ... ...\p"
+	.string "...... ...... ...... ......\n"
+	.string "...... ...... ...... ......\p"
 	.string "자 됐다!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:

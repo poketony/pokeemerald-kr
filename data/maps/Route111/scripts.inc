@@ -595,156 +595,190 @@ Route111_EventScript_TrainerHillSign:: @ 81F146C
 	end
 
 Route111_Text_BattleOurFamily: @ 81F1475
-	.string "Hello! I take it you're a traveler.\p"
-	.string "How's this? What do you say to taking\n"
-	.string "on our family of four in a series of\l"
-	.string "POKéMON battles?$"
+	.string "이보게! 여행 중인 건 알고 있지만,\p"
+	.string "잠깐 어떤가? 지금 여기서\n"
+	.string "우리 가족 4명과\l"
+	.string "포켓몬 승부를 해보지 않겠나?$"
 
 Route111_Text_IsThatSo: @ 81F14F5
-	.string "Is that so?\n"
-	.string "Drop in, if you change your mind!$"
+	.string "그렇군!\n"
+	.string "마음이 바뀌면 다시 오게!$"
 
 Route111_Text_VictorIntro: @ 81F1523
-	.string "That's the spirit! I like you!$"
+	.string "멋진 배짱이군! 마음에 들었다!$"
 
 Route111_Text_VictorDefeat: @ 81F1542
-	.string "Aiyah!\n"
-	.string "You're a lot tougher than I expected!$"
+	.string "어허!\n"
+	.string "생각했던 것보다 강하군!$"
 
 Route111_Text_VictorPostBattle: @ 81F156F
-	.string "Hey, all!\n"
-	.string "I've found a pretty strong TRAINER!$"
+	.string "이봐-!\n"
+	.string "상당히 강한 트레이너가 있다-!$"
 
 Route111_Text_VictoriaIntro: @ 81F159D
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the TRAINER to beat\n"
-	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string "어머머! 생각보다 어리군요?!\p"
+	.string "우리 남편을 이기다니\n"
+	.string "정말 굉장한 실력의\l"
+	.string "트레이너인가 보죠?\p"
+	.string "자 그럼 이번엔 저와 승부해요!$"
 
 Route111_Text_VictoriaDefeat: @ 81F1616
-	.string "Oh, gosh!\n"
-	.string "I can't get over how strong you are!$"
+	.string "에구머니나!\n"
+	.string "어쩜 그렇게 강하신가요?!$"
 
 Route111_Text_VictoriaPostBattle: @ 81F1645
-	.string "There's a strong TRAINER here!\n"
-	.string "This one's really strong!$"
+	.string "강해-!\n"
+	.string "이 사람 엄청나게 강해요-!$"
 
 Route111_Text_ViviIntro: @ 81F167E
-	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
-	.string "Really! Honestly!$"
+	.string "엄마보다 강하다니 굉장하다!\p"
+	.string "하지만 나도 꽤 강하다고!\n"
+	.string "진짜라니까?!$"
 
 Route111_Text_ViviDefeat: @ 81F16C6
-	.string "Huh? Did I just lose?$"
+	.string "응? 서, 설마 져버린 건가...?$"
 
 Route111_Text_ViviPostBattle: @ 81F16DC
-	.string "This stinks…\p"
-	.string "…Snivel… Grandma!$"
+	.string "너무 분해...\p"
+	.string "...훌쩍!\n"
+	.string "할머니이-이!!$"
 
 Route111_Text_VickyIntro: @ 81F16FB
-	.string "How dare you make my granddaughter\n"
-	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
-	.string "Prepare to lose!$"
+	.string "요 녀석-!\n"
+	.string "우리 귀여운 손녀에게\l"
+	.string "무슨 짓을 한 게냐!\p"
+	.string "이렇게 된 이상 내가 직접\n"
+	.string "네 포켓몬을 혼내줄 테니 각오해라잇!$"
 
 Route111_Text_VickyDefeat: @ 81F1756
-	.string "Kwah! You are strong…\n"
-	.string "My granddaughter was right…$"
+	.string "아이고! 강하구먼...\n"
+	.string "우리 손녀가 한 말이 사실이었어$"
 
 Route111_Text_VickyPostBattle: @ 81F1788
-	.string "If you're not in any hurry,\n"
-	.string "visit with us awhile.$"
+	.string "얘야... 갈 길이 바쁘지 않으면\n"
+	.string "종종 우리 집에 들렀다 가거라...$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks: @ 81F17BA
-	.string "If you don't raise your POKéMON some\n"
-	.string "more, it could be tough to keep winning\l"
-	.string "up through the ranks.\p"
-	.string "I've heard the POKéMON LEAGUE's\n"
-	.string "ELITE FOUR are far stronger than\l"
-	.string "any GYM LEADER.$"
+	.string "좀 더 포켓몬을 단련시키지 않으면\n"
+	.string "앞으로 이기기 어려울 것 같아\p"
+	.string "포켓몬리그에 있는 사천왕은\n"
+	.string "지금까지 승부했던\l"
+	.string "체육관 관장들보다\l"
+	.string "훨씬 강하다고 하니까 말이야$"
 
 Route111_Text_WinstrateFamilyDestroyedMe: @ 81F186E
-	.string "I challenged the WINSTRATE family,\n"
-	.string "but four matches in a row is tough\l"
-	.string "going… They destroyed me.$"
+	.string "연승가족에게 도전했는데\n"
+	.string "4명과 연속으로\l"
+	.string "포켓몬 승부를 하는 건\l"
+	.string "정말 힘들더라... 완패하고 말았어$"
 
 Route111_Text_RouteSignMauville: @ 81F18CE
-	.string "ROUTE 111\n"
-	.string "{DOWN_ARROW} MAUVILLE CITY$"
+	.string "여기는 111번도로\n"
+	.string "{DOWN_ARROW} 보라시티$"
 
 Route111_Text_WinstrateHouseSign: @ 81F18E8
-	.string "“Our family's hearts beat as one!”\n"
-	.string "THE WINSTRATE'S HOUSE$"
+	.string "우리 가족은 한마음\n"
+	.string "“연승가족의 집”$"
 
 Route111_Text_RouteSign112: @ 81F1921
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 112$"
+	.string "여기는 111번도로\n"
+	.string "{LEFT_ARROW} 112번도로$"
 
 Route111_Text_RouteSign113: @ 81F1937
-	.string "ROUTE 111\n"
-	.string "{LEFT_ARROW} ROUTE 113$"
+	.string "여기는 111번도로\n"
+	.string "{LEFT_ARROW} 113번도로$"
 
 Route111_Text_OldLadysRestStopSign: @ 81F194D
-	.string "OLD LADY'S REST STOP\n"
-	.string "“Come in and rest your tired bones.”$"
+	.string "“건강할머니의 집”\n"
+	.string "지쳤다고 느낀다면 들렀다 가렴!$"
 
 Route111_Text_TrainerTipsSpAtkSpDef: @ 81F1987
-	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a POKéMON's\n"
-	.string "powerfulness is SP. ATK. It stands for\l"
-	.string "“SPECIAL ATTACK.”\p"
-	.string "Likewise, SP. DEF stands for “SPECIAL\n"
-	.string "DEFENSE.”$"
+	.string "정보 나눔 게시판!!\p"
+	.string "포켓몬의 능력을 나타내는 말 중에\n"
+	.string "특수공격이란\l"
+	.string "특수공격력을\p"
+	.string "특수방어란\n"
+	.string "특수방어력을 뜻하는 말입니다!$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere: @ 81F1A22
-	.string "There should be a tower made of sand\n"
-	.string "around here somewhere.\p"
-	.string "But for some reason, it can be seen\n"
-	.string "sometimes, and sometimes not.\p"
-	.string "That's why I call it the MIRAGE TOWER.$"
+	.string "이 주변에 모래로 된\n"
+	.string "탑이 있을 텐데\p"
+	.string "어떻게 된 건지\n"
+	.string "보였다 말았다 해\p"
+	.string "그래서 나는 그걸\n"
+	.string "환영탑이라고 부르고 있지...$"
+	// この あたりに すなで できたｎ
+	// とうが たっている はず なんだがｐ
+	// どうしたわけかｎ
+	// みえるときと みえないときが あるのだｐ
+	// だから わたしは それをｎ
+	// げんえいのとう と よんでいる……
 
 Route111_Text_MirageTowerClearlyVisible: @ 81F1AC7
-	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
-	.string "is clearly visible!\p"
-	.string "But it looks so fragile…\n"
-	.string "It could crumble away anytime…\p"
-	.string "I want to go inside it, but I can't\n"
-	.string "get my courage up for it…$"
+	.string "보인다! 모래로 된 탑이!\n"
+	.string "환영이라고 불렸던 모래탑이\l"
+	.string "확실하게 보인다고!\p"
+	.string "하지만 그 모습은 덧없이\n"
+	.string "지금도 무너져 내리는 듯하군...\p"
+	.string "음- 들어가고 싶지만\n"
+	.string "무서워서 용기가 생기지 않아!$"
+	// みえるぞ! すなのとう が!ｎ
+	// げんえい と よばれた すなのとうがｎ
+	// はっきりと みえる!ｐ
+	// しかし そのすがたは はかなくてｎ
+	// いまにも くずれて しまいそうだ……ｐ
+	// う-ん はいって みたいがｎ
+	// こわくて ゆうきが でん!
 
 Route111_Text_ThatWasShockingSandRainedDown: @ 81F1B92
-	.string "Whoa…\n"
-	.string "That was shocking.\p"
-	.string "Sand rained down in chunks all of\n"
-	.string "a sudden.\p"
-	.string "What was it like inside?\n"
-	.string "Were there sandy ghosts and such?$"
+	.string "하- 깜짝 놀랐어...\p"
+	.string "갑자기 하늘에서 모래가\n"
+	.string "뿔뿔이 내릴 줄이야\p"
+	.string "그래서 안은 어땠어?\n"
+	.string "역시 모래 귀신이 나온 거야?$"
+	// は- びっくりした……ｐ
+	// いきなり すなが そらからｎ
+	// バラバラと ふって きたんじゃｐ
+	// で なかは どうじゃった?ｎ
+	// やはり すなの オバケ とか でたか?
 
 Route111_Text_MirageTowerHasntBeenSeenSince: @ 81F1C12
-	.string "Since I spoke to you, the tower of sand\n"
-	.string "hasn't been seen.\p"
-	.string "Perhaps it really was\n"
-	.string "the MIRAGE TOWER…$"
+	.string "그때 이후로\n"
+	.string "모래탑을 볼 수 없게 됐어\p"
+	.string "역시 환영이었던 건가$"
+	// あれからｎ
+	// すなのとう は みえなく なったｐ
+	// やはり げんえいのとう だったのか……
 
 Route111_Text_ClawFossilDisappeared: @ 81F1C74
-	.string "The CLAW FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "발톱화석은\n"
+	.string "모래 속으로 파묻혔다...$"
+	// ツメのかせきはｎ
+	// すなに もぐって しまった……
 
 Route111_Text_RootFossilDisappeared: @ 81F1C9F
-	.string "The ROOT FOSSIL disappeared into\n"
-	.string "the sand…$"
+	.string "뿌리화석은\n"
+	.string "모래 속으로 파묻혔다...$"
+	// ねっこのかせきはｎ
+	// すなに もぐって しまった……
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash: @ 81F1CCA
-	.string "Oh, no!\p"
-	.string "My uncle in MAUVILLE told me to take\n"
-	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
-	.string "My uncle? He lives across from\n"
-	.string "the bike shop in MAUVILLE.$"
+	.string "아 이런!\p"
+	.string "111번도로에 가면\n"
+	.string "바위깨기를 가져가라고\l"
+	.string "보라시티의 삼촌이 말했었는데!\p"
+	.string "삼촌? 사이클숍의\n"
+	.string "건너편의 집에 살고 있어$"
+	// しまった!ｐ
+	// 111ばんどうろに いくならｎ
+	// いわくだきを もっていけ ってｌ
+	// キンセツの おじさんに いわれてたんだ!ｐ
+	// おじさん? サイクルショップのｎ
+	// むかいがわの いえに すんでるよ
 
 Route111_Text_TrainerHillSign: @ 81F1D61
-	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”$"
+	.string "{RIGHT_ARROW} 트레이너힐 입구\n"
+	.string "뛰어올라라! 뜨거운 트레이너들이여!$"
+	// ©しう トレ-ナ-ヒル いりぐちｎ
+	// かけあがれ! あつき トレ-ナ-たち!
 

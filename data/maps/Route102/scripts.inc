@@ -76,36 +76,35 @@ Route102_EventScript_Allen:: @ 81EC1E1
 	end
 
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
-	.string "WALLY: {PLAYER}…\n"
-	.string "POKéMON hide in tall grass like this,\l"
-	.string "don't they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
-	.string "…Whoa!$"
+	.string "민진: {PLAYER}님...\n"
+	.string "포켓몬은 보통 이런 풀숲에\l"
+	.string "있지 않나요...?\p"
+	.string "제가 잘 잡는지\n"
+	.string "옆에서 한번 봐주세요...\p"
+	.string "...우와!!$"
 
 Route102_Text_WallyIDidIt: @ 81EC271
-	.string "WALLY: I did it… It's my…\n"
-	.string "My POKéMON!$"
+	.string "민진: 잡혔어...내...\n"
+	.string "내 포켓몬이다...!!$"
 
 Route102_Text_LetsGoBack: @ 81EC297
-	.string "{PLAYER}, thank you!\n"
-	.string "Let's go back to the GYM!$"
+	.string "{PLAYER}님 고마워요!\n"
+	.string "체육관으로 같이 돌아가요!$"
 
 Route102_Text_ImNotVeryTall: @ 81EC2C0
-	.string "I'm…not very tall, so I sink right\n"
-	.string "into tall grass.\p"
-	.string "The grass goes up my nose and…\n"
-	.string "Fwafwafwafwafwa…\p"
-	.string "Fwatchoo!$"
+	.string "난... 키가 작아서\n"
+	.string "풀숲을 걸으면\p"
+	.string "풀잎이 코에 들어가\n"
+	.string "에 에 에...\p"
+	.string "엣치!$"
 
 Route102_Text_CatchWholeBunchOfPokemon: @ 81EC32E
-	.string "I'm going to catch a whole bunch of\n"
-	.string "POKéMON!$"
+	.string "포켓몬 많이 많이 잡아야지-!$"
 
 Route102_Text_RouteSignOldale: @ 81EC35B
-	.string "ROUTE 102\n"
-	.string "{RIGHT_ARROW} OLDALE TOWN$"
+	.string "여기는 102번도로\n"
+	.string "{RIGHT_ARROW} 고도마을$"
 
 Route102_Text_RouteSignPetalburg: @ 81EC373
-	.string "ROUTE 102\n"
-	.string "{LEFT_ARROW} PETALBURG CITY$"
+	.string "여기는 102번도로\n"
+	.string "{LEFT_ARROW} 등화도시$"

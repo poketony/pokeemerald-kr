@@ -500,135 +500,165 @@ Route119_EventScript_ScottWonAtFortreeGymCall:: @ 81F49EC
 	end
 
 Route119_Text_MayIntro: @ 81F49FD
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
-	.string "How much stronger have you gotten?\n"
-	.string "Let me check for you!\p"
-	.string "Ready with your POKéMON?\n"
-	.string "Of course you are! Go!$"
+	.string "봄이: {PLAYER}!\n"
+	.string "어디에 있었어? 찾았잖아!\p"
+	.string "얼마나 강해졌는지\n"
+	.string "잠깐 시험해 볼게!\p"
+	.string "포켓몬의 준비는...\n"
+	.string "당연히 끝났겠지! 간다!$"
 
 Route119_Text_MayDefeat: @ 81F4A98
-	.string "Achah!\n"
-	.string "{PLAYER}{KUN}, you're strong!\p"
-	.string "I was worried that you might be\n"
-	.string "struggling with your training.$"
+	.string "으아-!\n"
+	.string "{PLAYER} 강하잖아!\p"
+	.string "포켓몬을 키우지 못해서\n"
+	.string "곤란할 거라고 걱정하고 있었는데$"
 
 Route119_Text_MayPresentForYou: @ 81F4AF3
-	.string "MAY: But I had absolutely nothing to\n"
-	.string "worry about! Keep it up!\p"
-	.string "And, here! I have a present for you.$"
+	.string "봄이: 전혀 아무렇지도 않아!\n"
+	.string "그 기세로 힘내도록 해!\p"
+	.string "이건 내가 주는 선물이야!$"
 
 Route119_Text_MayExplainFly: @ 81F4B56
-	.string "MAY: Use FLY, and your POKéMON will\n"
-	.string "instantly carry you to any town you've\l"
-	.string "already visited.\p"
-	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from FORTREE CITY.\l"
-	.string "That's important, so don't forget.\p"
-	.string "You should FLY home and visit\n"
-	.string "LITTLEROOT for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
+	.string "봄이: 공중날기를 쓰면\n"
+	.string "한 번 갔던 도시라면 순식간에\l"
+	.string "날아갈 수 있게 돼!\p"
+	.string "하지만 공중날기를 쓰려면\n"
+	.string "검방울시티의\l"
+	.string "체육관 배지가 필요해\l"
+	.string "이거 중요한 거니까 잊지 마!\p"
+	.string "가끔 공중날기로\n"
+	.string "미로마을에 가보는 것도\l"
+	.string "좋을 것 같아\p"
+	.string "{PLAYER}네 엄마\n"
+	.string "걱정하고 계실지도 모르니까...\p"
+	.string "그럼\n"
+	.string "또 어딘가에서 만나!$"
 
 Route119_Text_BrendanIntro: @ 81F4C9A
-	.string "BRENDAN: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
-	.string "Let me see how good you got.\n"
-	.string "I'll test you!\p"
-	.string "Now!\n"
-	.string "It's a battle, so battle!$"
+	.string "휘웅: {PLAYER}!\n"
+	.string "여기에서 포켓몬 찾고 있었어?\p"
+	.string "얼마나 강해졌는지\n"
+	.string "시험해 줄게\p"
+	.string "자!\n"
+	.string "승부 승부다!$"
 
 Route119_Text_BrendanDefeat: @ 81F4D24
-	.string "Hmm…\n"
-	.string "You've gotten pretty darn decent.$"
+	.string "흠...\n"
+	.string "꽤 강해졌구나$"
 
 Route119_Text_BrendanIllGiveYouThis: @ 81F4D4B
-	.string "BRENDAN: I'd say you're good enough\n"
-	.string "to search for POKéMON anywhere.\p"
-	.string "Here, I'll give you this.\n"
-	.string "Try it out.$"
+	.string "휘웅: 그 정도면\n"
+	.string "어디에서 포켓몬을 찾아도\l"
+	.string "아무 문제 없겠는데\p"
+	.string "이거 줄 테니까 써 봐!$"
 
 Route119_Text_BrendanExplainFly: @ 81F4DB5
-	.string "BRENDAN: Use FLY, and your POKéMON\n"
-	.string "instantly carries you to any town\l"
-	.string "you've already visited.\p"
-	.string "But you need the FORTREE GYM BADGE \n"
-	.string "to do that.\p"
-	.string "Anyway, I have to move along.$"
+	.string "휘웅: 공중날기를 쓰면\n"
+	.string "한 번 갔던 도시라면\l"
+	.string "순식간에 날아갈 수 있어\p"
+	.string "단지 검방울시티 체육관의\n"
+	.string "체육관 배지가 필요하지만...\p"
+	.string "그럼 난 먼저 갈게$"
 
 Route119_Text_ScottWayToGoBeSeeingYou: @ 81F4E60
-	.string "SCOTT: Hahahah!\n"
-	.string "Way to go, {PLAYER}{KUN}!\p"
-	.string "I just passed by a TRAINER riding\n"
-	.string "a BIKE.\p"
-	.string "You just beat that TRAINER, didn't you?\n"
-	.string "It was pretty obvious that you did.\p"
-	.string "The kid looked really upset with\n"
-	.string "a face all red from anger.\p"
-	.string "I sure seem to run into you often.\n"
-	.string "Are you off to FORTREE GYM next?\p"
-	.string "I expect that you'll do well at the GYM.\n"
-	.string "Well, I'll be seeing you!$"
+	.string "금작화: 우후후!\n"
+	.string "꽤 하네 {PLAYER}...!\p"
+	.string "지금 자전거를 탄 트레이너와\n"
+	.string "엇갈렸는데 말이야\l"
+	.string "너 그 트레이너한테 이겼지?\l"
+	.string "알고 있다고-!\p"
+	.string "그야 그 애 새빨간 얼굴로\n"
+	.string "무척 분해하고 있었으니까!\p"
+	.string "그건 그렇고 너하고는\n"
+	.string "여러 곳에서 만나는구나!\l"
+	.string "다음은 검방울체육관에 갈 거지?\p"
+	.string "체육관전도 기대하고 있을게!\n"
+	.string "그럼 또 보자!$"
+	// エニシダ『うふふ!ｎ
+	// やるねえ §あ§お……!ｐ
+	// いま じてんしゃに のった トレ-ナ-とｎ
+	// すれちがったん だけどさｌ
+	// きみ あのトレ-ナ-に かったんだろ?ｌ
+	// わかるよ-!ｐ
+	// だって あのコ まっかな かおしてｎ
+	// すっごく くやしそう だったからね!ｐ
+	// それにしても きみとはｎ
+	// いろいろな ところで あうね!ｌ
+	// この あとは ヒワマキジムに いくのかな?ｐ
+	// ジムせんも きたい してるよ!ｎ
+	// じゃ また あおうね!
 
 
 Route119_Text_ScottYouWonAtFortreeGym: @ 81F4FBA
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p"
-	.string "Just as I thought, you won at\n"
-	.string "the FORTREE GYM.\p"
-	.string "Your strength…\n"
-	.string "Perhaps you really are the TRAINER\l"
-	.string "that I've been searching for.\p"
-	.string "Remember, you have a fan in me.\n"
-	.string "I'll be cheering from the sidelines.\l"
-	.string "Keep up the great work!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...삑!\p"
+	.string "금작화: 여어 안녕\n"
+	.string "{PLAYER} 나야!\p"
+	.string "생각했던 대로!\n"
+	.string "검방울체육관에서도 이겼구나!\p"
+	.string "너의 그 강함은 어쩌면...\n"
+	.string "내가 찾고 있던 트레이너는\l"
+	.string "정말로 너일지도 모르겠어!\p"
+	.string "응 너에 대해선 앞으로도\n"
+	.string "멀리서나마 응원하고 있을게!\l"
+	.string "그럼 힘내라고!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...딸깍-$"
+	// …… …… ……ｎ
+	// …… …… …… ピッ!ｐ
+	// エニシダ『やあどうもｎ
+	// §あ§お わたしだよ!ｐ
+	// おもった とおり!ｎ
+	// ヒワマキジム でも きみは かったね!ｐ
+	// きみの その つよさ もしかしたら……ｎ
+	// わたしの もとめている トレ-ナ-はｌ
+	// ほんとうに きみかも しれないな!ｐ
+	// うん きみのこと これからもｎ
+	// かげながら おうえん しているから!ｌ
+	// じゃ がんばってよ!ｐ
+	// …… …… ……ｎ
+	// …… …… …… ツ-
 
 Route119_Text_StayAwayFromWeatherInstitute: @ 81F50EB
-	.string "We're standing lookout here.\p"
-	.string "Hey, you! Stay away from the WEATHER\n"
-	.string "INSTITUTE. It's not safe.$"
+	.string "우린 여기에서 망을 보고 있지\p"
+	.string "어이 너! 위험하니까\n"
+	.string "날씨 연구소에는 가까이 가지 마$"
 
 Route119_Text_DontGoNearWeatherInstitute: @ 81F5147
-	.string "Lookout duty is surprisingly boring.\p"
-	.string "Hey, you! Please don't go near the\n"
-	.string "WEATHER INSTITUTE.$"
+	.string "망보는 건 의외로 한가롭네...\p"
+	.string "어이 너! 부탁이니까 연구소에는\n"
+	.string "가까이 가지 마라!$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons: @ 81F51A2
-	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
-	.string "hanging on to them somehow.\p"
-	.string "But it turns out there's an HM move\n"
-	.string "called FLY!\p"
-	.string "I wish I'd known about that a long\n"
-	.string "time ago…$"
+	.string "새포켓몬을 많이 잡아서\n"
+	.string "매달리면\l"
+	.string "하늘을 날 수 있을 거라 생각했어요\p"
+	.string "그런데 “공중날기”라는\n"
+	.string "비전기술이 있다는 거예요!?\p"
+	.string "좀 더 일찍 알고 싶었는데...$"
 
 Route119_Text_TallGrassSnaresBikeTires: @ 81F5261
-	.string "Tch…\n"
-	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
-	.string "There's no way you can cycle here.$"
+	.string "큰일이야...\p"
+	.string "긴 풀이 타이어에 휘감기니까\n"
+	.string "자전거를 탈 수가 없어...$"
 
 Route119_Text_CanYourMonMakeSecretBase: @ 81F52B9
-	.string "Can your POKéMON use its SECRET POWER\n"
-	.string "on a big pile of grass and make a\l"
-	.string "SECRET BASE?$"
+	.string "너의 포켓몬\n"
+	.string "비밀의힘이라는 기술을 써서\l"
+	.string "큰 풀 덩어리에\l"
+	.string "비밀기지를 만들 수 있어?$"
 
 Route119_Text_RouteSignFortree: @ 81F530E
-	.string "ROUTE 119\n"
-	.string "{RIGHT_ARROW} FORTREE CITY$"
+	.string "여기는 119번도로\n"
+	.string "{RIGHT_ARROW} 검방울시티$"
 
 Route119_Text_WeatherInstitute: @ 81F5327
-	.string "WEATHER INSTITUTE$"
+	.string "“날씨 연구소”$"
 
 Route119_Text_TrainerTipsDecoration: @ 81F5339
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string "정보 나눔 게시판!!\p"
+	.string "비밀기지에는 굿즈를\n"
+	.string "16개까지 놓을 수 있습니다!\p"
+	.string "좋아하는 굿즈를 선택해서\n"
+	.string "당신만의 마음에 드는\l"
+	.string "비밀기지를 만듭시다!$"

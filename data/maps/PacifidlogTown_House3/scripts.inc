@@ -54,39 +54,64 @@ PacifidlogTown_House3_EventScript_Girl:: @ 8203CB5
 	end
 
 PacifidlogTown_House3_Text_WillingToTradeIt: @ 8203CBE
-	.string "Check out this {STR_VAR_2}!\p"
-	.string "It's the {STR_VAR_2} that I caught\n"
-	.string "yesterday to celebrate my birthday!\p"
-	.string "Oh, I can see that you want it!\n"
-	.string "After all, it's priceless!\p"
-	.string "I'll tell you what. I might be willing\n"
-	.string "to trade it for a {STR_VAR_1}.$"
+	.string "봐줘 나의 {STR_VAR_2}!\n"
+	.string "내가 어제 생일이었던\l"
+	.string "기념으로 잡은 {STR_VAR_2}{K_I}야!\p"
+	.string "오! 갖고 싶다는 얼굴인데?\n"
+	.string "뭐 소중한 {STR_VAR_2}{K_I}니까!\p"
+	.string "좋아! {STR_VAR_1}{K_I}라면\n"
+	.string "교환해 주도록 할게!$"
+	// みてくれよ この §う!ｎ
+	// おれが きのう じぶんの たんじょうびにｌ
+	// きねんに つかまえた §うだ!ｐ
+	// お! ほしい って かおを したな?ｎ
+	// まっ きちょうな §うだからな!ｐ
+	// よし! §いと だったらｎ
+	// こうかん して やっても いいぞ!
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou: @ 8203D87
-	.string "Oh, so this is a {STR_VAR_1}?\p"
-	.string "It's sort of like a {STR_VAR_2},\n"
-	.string "and yet it's subtly different.\p"
-	.string "Thank you!$"
+	.string "오옷 이게 {STR_VAR_1}{K_I}구나-!\n"
+	.string "역시 {STR_VAR_2}{K_WAGWA}는\l"
+	.string "여러 가지 닮았으면서도\l"
+	.string "미묘하게 다르네!\p"
+	.string "고마워!$"
+	// おっ これが §い かあ-!ｎ
+	// やっぱ §う とはｌ
+	// いろいろ にている ようでｌ
+	// びみょうに ちがうなあ!ｐ
+	// サンキュ!
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon: @ 8203DDE
-	.string "No, no, no! I won't accept any\n"
-	.string "less than a real {STR_VAR_1}!$"
+	.string "안돼안돼! {STR_VAR_1}{K_IGA} 아니라면\n"
+	.string "받을 수 없어!$"
+	// だめだめ! §い じゃないと ｎ
+	// ひきうけられないね!
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything: @ 8203E12
-	.string "Oh, so you're not going to go through\n"
-	.string "with this?\p"
-	.string "That's cool. I'm not desperate to make\n"
-	.string "a trade or anything.$"
+	.string "흐-음 관두는 거구가...\p"
+	.string "뭐 나도\n"
+	.string "꼭 해야만 하는 건 아니니까$"
+	// ふ-ん やめるのか……ｐ
+	// まっ おれのほうもｎ
+	// どうしても って わけじゃ ないしね
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
-	.string "I know I could go looking for one\n"
-	.string "on my own, but…\p"
-	.string "But I really wanted to get a BAGON\n"
-	.string "that another TRAINER caught…$"
+	.string "스스로 찾아도 되지만...\p"
+	.string "다른 트레이너가 잡은\n"
+	.string "아공이란 녀석을\l"
+	.string "어떻게든 갖고 싶단 말이지$"
+	// じぶんで さがしても いいんだけど……ｐ
+	// ほかの トレ-ナ-が つかまえたｎ
+	// タツベイ って いうのがｌ
+	// どうしても ほしかったんだよね
 
 PacifidlogTown_House3_Text_IsThatAPokedex: @ 8203EF1
 	.string "그거 포켓몬 도감이야?\p"
 	.string "그 말은 너 많은 포켓몬이랑\n"
 	.string "만났다는 소리 아니야?\p"
 	.string "그거 정말 부러워!$"
+	// それって ポケモンずかん?ｐ
+	// それって あなた たくさんのｎ
+	// ポケモンと であった ってこと?ｐ
+	// それって すっごい うらやましい!
 

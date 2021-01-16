@@ -105,42 +105,44 @@ Route110_TrickHousePuzzle2_EventScript_Georgia:: @ 826BCA3
 	end
 
 Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened: @ 826BCBA
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is smart.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 똑똑해”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle2_Text_TedIntro: @ 826BD25
-	.string "Which switch closes which hole?$"
+	.string "어느 스위치로\n"
+	.string "어느 구멍이 닫히는 거지?$"
 
 Route110_TrickHousePuzzle2_Text_TedDefeat: @ 826BD45
-	.string "After that battle, I'm even more\n"
-	.string "confused!$"
+	.string "승부했더니\n"
+	.string "더 알 수 없게 돼버렸어!$"
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle: @ 826BD70
-	.string "Can I get you to push all the buttons\n"
-	.string "for me?$"
+	.string "너 나 대신에\n"
+	.string "스위치 전부 눌러주라!$"
 
 Route110_TrickHousePuzzle2_Text_PaulIntro: @ 826BD9E
-	.string "Oh! You're on your second TRICK HOUSE\n"
-	.string "challenge!$"
+	.string "우옷! 미궁의 대저택에\n"
+	.string "2번 챌린지하는 거구나!$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat: @ 826BDCF
-	.string "You're good at battling too?$"
+	.string "포켓몬 승부도 잘하는 거야?$"
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle: @ 826BDEC
-	.string "The TRICK MASTER rigged all the tricks\n"
-	.string "in this house all by himself.$"
+	.string "미궁대왕 혼자서\n"
+	.string "이 장치들을 만들었나봐!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro: @ 826BE31
-	.string "I want to make my own GYM one day.\n"
-	.string "So, I'm studying how to set traps.$"
+	.string "언젠가 내 체육관을 만들고 싶어서\n"
+	.string "여기의 장치들을 연구하는 중이야!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat: @ 826BE77
-	.string "I didn't study battling enough!$"
+	.string "포켓몬 승부는\n"
+	.string "연구가 부족했어-!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle: @ 826BE97
-	.string "You're strong, aren't you?\n"
-	.string "Maybe even enough to be a GYM LEADER!$"
+	.string "너 강하구나... 체육관 관장이\n"
+	.string "될 수 있을 거 같은데?$"
 

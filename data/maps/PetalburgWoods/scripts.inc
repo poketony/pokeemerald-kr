@@ -414,14 +414,16 @@ PetalburgWoods_Text_PeopleRespectYou: @ 822E889
 	.string "존경받지 않을까?!$"
 
 PetalburgWoods_Text_IWantRematch1: @ 822E8C3
-	.string "I want a rematch when my BUG\n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "벌레포켓몬이 자라면 다시 와!\n"
+	.string "포켓내비에 등록할게!$"
+	// むしポケモン そだったら また しょうぶだ!ｎ
+	// ポケナビに とうろく するぞ
 
 PetalburgWoods_Text_IWantRematch2: @ 822E914
-	.string "I want a rematch when my BUG \n"
-	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "벌레포켓몬이 자라면 다시 승부하자!\n"
+	.string "포켓내비에 등록할게!$"
+	// むしポケモン そだったら また しょうぶだ!ｎ
+	// ポケナビに とうろく するぞ
 
 PetalburgWoods_Text_MyPokemonHaveGrown: @ 822E966
 	.string "내 벌레포켓몬 짱 많이 컸어!\n"

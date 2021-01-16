@@ -101,81 +101,86 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted:: @ 8269553
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro: @ 8269555
-	.string "I'm the owner of the SEASHORE HOUSE.\n"
-	.string "But you can call me MR. SEA!\p"
-	.string "What I love above all is to see hot\n"
-	.string "POKéMON battles.\p"
-	.string "Let me see that your heart burns hot!\p"
-	.string "If you can defeat all the TRAINERS\n"
-	.string "here, I'll reward your efforts.$"
+	.string "난 바다의 집 아저씨!\n"
+	.string "사람들은 바다아저씨라고 부르지!\p"
+	.string "어쨌든 뜨거운 포켓몬 승부를\n"
+	.string "보는 걸 정말 좋아한다고-!\p"
+	.string "자네도 말이야- 뜨-거운 하트로\n"
+	.string "여기에 있는\p"
+	.string "모든 트레이너를 상대로\n"
+	.string "이기면 내가 좋은 거 줄게-$"
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches: @ 8269635
-	.string "Show me some hot matches!\p"
-	.string "I run this SEASHORE HOUSE just for\n"
-	.string "that reason alone!$"
+	.string "뜨-거운 승부를 보여줘!\p"
+	.string "그거 하나만 보고\n"
+	.string "이 바다의 집을 하고 있는 거야 난-!$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles: @ 8269685
-	.string "You're scorching hot!\n"
-	.string "Those battles blazed!\l"
-	.string "I'm more than just satisfied!\p"
-	.string "As thanks for showing me your hot\n"
-	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of SODA POP!$"
+	.string "자네 대단한데-!\n"
+	.string "정말 뜨거운 포켓몬 승부였어!\l"
+	.string "나 정말 대만족했어!\p"
+	.string "이건 뜨거운 승부를 보여준\n"
+	.string "자네에게 주는 감사의 표시야\p"
+	.string "미네랄사이다 반 세트\n"
+	.string "가져가-$"
 
 Route109_SeashoreHouse_Text_BagFull: @ 826973A
-	.string "Oh, but hey, your BAG's jammed full.\n"
-	.string "I'll hang on to these for you.$"
+	.string "가방이 가득 찼네-\n"
+	.string "가방 비우고 오면 줄게$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop: @ 826977E
-	.string "Want to buy some SODA POP?\n"
-	.string "POKéMON love it!\p"
-	.string "Just ¥300 a bottle!\n"
-	.string "Buy some!$"
+	.string "포켓몬도 정말 좋아하는\n"
+	.string "미네랄사이다!\p"
+	.string "한 병에 300원이야-\n"
+	.string "사 가지 않을래?$"
 
 Route109_SeashoreHouse_Text_HereYouGo: @ 82697C8
-	.string "Here you go!$"
+	.string "자 여기$"
 
 Route109_SeashoreHouse_Text_NotEnoughMoney: @ 82697D5
-	.string "You don't have the money.$"
+	.string "돈이 부족한데-$"
 
 Route109_SeashoreHouse_Text_ThatsTooBad: @ 82697EF
-	.string "No?\n"
-	.string "That's too bad.$"
+	.string "그거 아쉽네-$"
 
 Route109_SeashoreHouse_Text_DwayneIntro: @ 8269803
-	.string "If you're looking for a battle in the\n"
-	.string "SEASHORE HOUSE, you'll find no\l"
-	.string "hotter TRAINER than me, matey!$"
+	.string "이 바다의 집에서 가장\n"
+	.string "뜨거운 포켓몬 승부를\l"
+	.string "벌일 수 있는 건\l"
+	.string "바로 이 몸이시다!$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated: @ 8269867
-	.string "That was a hot battle!\n"
-	.string "I can accept that loss, matey!$"
+	.string "확실히 뜨거운 승부였다\n"
+	.string "패배를 수긍할 수밖에 없는 느낌이군!$"
 
 Route109_SeashoreHouse_Text_DwaynePostBattle: @ 826989D
-	.string "Whenever I'm in SLATEPORT, I enjoy\n"
-	.string "hot battles and ice-cold SODA POP!$"
+	.string "나는 잿빛도시에 올 때마다\n"
+	.string "뜨거운 승부와\l"
+	.string "시원한 미네랄사이다를 즐기지!$"
 
 Route109_SeashoreHouse_Text_JohannaIntro: @ 82698E3
-	.string "Boring battles aren't worth the effort.\p"
-	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and POKéMON!$"
+	.string "지루한 승부는 필요 없어!\p"
+	.string "타오르는 듯한 승부야말로\n"
+	.string "트레이너와 포켓몬을\l"
+	.string "강하게 만드는 거야!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated: @ 8269947
-	.string "That's hot!$"
+	.string "너무 뜨겁잖아!$"
 
 Route109_SeashoreHouse_Text_JohannaPostBattle: @ 8269953
-	.string "Whew, I'm all thirsty.\n"
-	.string "Maybe I'll have a SODA POP.$"
+	.string "아- 목말라\n"
+	.string "미네랄사이다나 마실까?$"
 
 Route109_SeashoreHouse_Text_SimonIntro: @ 8269986
-	.string "I'm going to show you how great\n"
-	.string "my POKéMON are, but don't cry!$"
+	.string "굉장한 내 포켓몬을\n"
+	.string "똑똑히 보여줄 테니까 울지 말라고!$"
 
 Route109_SeashoreHouse_Text_SimonDefeated: @ 82699C5
-	.string "…I lost, but I won't cry…$"
+	.string "...졌지만 울지 않겠어$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle: @ 82699DF
-	.string "If one of my POKéMON knew the move\n"
-	.string "for carrying me across water on its\l"
-	.string "back, I could get rid of this inner tube.$"
+	.string "포켓몬이 날 태우고\n"
+	.string "물 위를 나아갈 수 있는 기술을\l"
+	.string "쓸 수 있다면\l"
+	.string "튜브도 필요 없을 텐데$"
 

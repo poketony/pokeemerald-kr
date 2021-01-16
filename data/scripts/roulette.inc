@@ -48,13 +48,13 @@ Roulette_Text_Jackpot::
 	.string "대당첨!!$"
 
 Roulette_Text_NothingDoing::
-	.string "꽝…$"
+	.string "꽝...$"
 
 Roulette_Text_YouveWonXCoins::
 	.string "동전 {STR_VAR_1}개를 얻습니다!$"
 
 Roulette_Text_NoCoinsLeft::
-	.string "동전이 다 떨어졌다…$"
+	.string "동전이 다 떨어졌다...$"
 
 Roulette_Text_KeepPlaying::
 	.string "계속해서 즐기겠습니까?$"

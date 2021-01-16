@@ -34,67 +34,86 @@ MtPyre_3F_EventScript_RematchGabrielle:: @ 82317CC
 	end
 
 MtPyre_3F_Text_WilliamIntro: @ 82317E3
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "영험하고 신통한 산의 힘으로\n"
+	.string "사이코 파워가\l"
+	.string "업그레이드된 이 몸을\l"
+	.string "고작 어린애인 네가 이길 수 있을까?$"
 
 MtPyre_3F_Text_WilliamDefeat: @ 8231853
-	.string "I drown in self-pity…$"
+	.string "업... 업...$"
 
 MtPyre_3F_Text_WilliamPostBattle: @ 8231869
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
+	.string "나의 사이코 파워는 확실히\n"
+	.string "올라갔을 텐데...$"
 
 MtPyre_3F_Text_KaylaIntro: @ 82318A1
-	.string "Ahahahaha!\p"
-	.string "This is no place for children, least\n"
-	.string "of all you!$"
+	.string "오호호호홋!\p"
+	.string "여기는 당신 같은 어린애가\n"
+	.string "올 곳이 아니랍니다!$"
 
 MtPyre_3F_Text_KaylaDefeat: @ 82318DD
-	.string "I lost that cleanly…$"
+	.string "깨끗이 졌어...!$"
 
 MtPyre_3F_Text_KaylaPostBattle: @ 82318F2
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "아직 수행이 부족하구나...\n"
+	.string "정상을 노리겠어...!\p"
+	.string "파이팅! 나!$"
 
 MtPyre_3F_Text_GabrielleIntro: @ 8231952
-	.string "Why have you come here?$"
+	.string "당신은 어째서 여기에...?$"
+	// あなたは なぜ ここへ……?
 
 MtPyre_3F_Text_GabrielleDefeat: @ 823196A
-	.string "That was amazing!\n"
-	.string "You're a very special TRAINER.$"
+	.string "대단해!\n"
+	.string "당신은 멋진 트레이너씨구나$"
+	// すごいわ!ｎ
+	// あなたは すてきな トレ-ナ-さんね
 
 MtPyre_3F_Text_GabriellePostBattle: @ 823199B
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "이제는 세상에 없는 포켓몬\n"
+	.string "아직 같이 있는 포켓몬\p"
+	.string "그리고\n"
+	.string "앞으로 만날 포켓몬...\p"
+	.string "모두 소중한 포켓몬들이지\n"
+	.string "부디 그걸 기억해줘$"
+	// いまはもう いない ポケモンｎ
+	// いま いっしょに いる ポケモンｐ
+	// それにｎ
+	// これから であう ポケモン……ｐ
+	// すべて たいせつな ポケモン なのよｎ
+	// おぼえて おいて くださいね
 
 MtPyre_3F_Text_GabrielleRegister: @ 8231A49
-	.string "I would like to see your POKéMON\n"
-	.string "when they grow up some more…\p"
-	.string "Please, I need to see your POKéNAV.$"
+	.string "당신의 포켓몬이 자라는 걸\n"
+	.string "보고 싶어...\l"
+	.string "자 포켓내비를 빌려줘$"
+	// あなたの ポケモンが そだったらｎ
+	// みてみたいわ……ｌ
+	// さあ ポケナビを だして
 
 MtPyre_3F_Text_GabrielleRematchIntro: @ 8231AAB
-	.string "Oh, it's you…\p"
-	.string "Have you come to show me your grown\n"
-	.string "POKéMON?$"
+	.string "어라 당신은...\n"
+	.string "키운 포켓몬 보여줄래?$"
+	// あら あなたは……ｎ
+	// そだてた ポケモン みせてくれるの?
 
 MtPyre_3F_Text_GabrielleRematchDefeat: @ 8231AE6
-	.string "How amazing!\n"
-	.string "You are a special person.$"
+	.string "정말 대단해!\n"
+	.string "당신은 멋지구나$"
+	// ほんとうに すごいわ!ｎ
+	// あなたは すてきね
 
 MtPyre_3F_Text_GabriellePostRematch: @ 8231B0D
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "I see that you've remembered that.$"
+	.string "이제는 세상에 없는 포켓몬\n"
+	.string "아직 같이 있는 포켓몬\p"
+	.string "그리고\n"
+	.string "앞으로 만날 포켓몬...\p"
+	.string "모두 소중한 포켓몬들이지\n"
+	.string "부디 그걸 기억해줘$"
+	// いまはもう いない ポケモンｎ
+	// いま いっしょに いる ポケモンｐ
+	// それにｎ
+	// これから であう ポケモン……ｐ
+	// すべて たいせつな ポケモン なのよｎ
+	// おぼえて くれて いたのね
 

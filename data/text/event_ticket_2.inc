@@ -102,7 +102,7 @@ FarawayIsland_Entrance_Text_Sign: @ 82C6D5A
     .string "...월 6일\n"
     .string "여기에 들어서는 인...이\l"
     .string "다시 ...난다면\l"
-	.string "마음이 상냥한...이기를\p"
+	.string "마음이 상냥한 ...이기를\p"
 	.string "...기에 그 소원을 새겨\n"
     .string "이 ...을 뒤로한다\p"
 	.string "...무$"

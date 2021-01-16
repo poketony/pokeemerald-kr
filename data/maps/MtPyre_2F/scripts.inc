@@ -43,93 +43,102 @@ MtPyre_2F_EventScript_Zander:: @ 823118C
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty: @ 82311A3
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string "귀여웠던 에나비와의 추억...\n"
+	.string "떠올리기만 해도 눈물이 자꾸 흘러...$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove: @ 82311E6
-	.string "Ooch, ouch… There are holes in the\n"
-	.string "ground here and there.\p"
-	.string "I didn't notice and took a tumble from\n"
-	.string "the floor above.$"
+	.string "아야야야얏... 바닥의 이곳저곳에\n"
+	.string "구멍이 뚫려 있는데 보질 못하고\l"
+	.string "아저씨 위에서부터 떨어지고 말았어$"
 
 MtPyre_2F_Text_MarkIntro: @ 8231258
-	.string "Hey! Are you searching for POKéMON?\n"
-	.string "You came along after me! You're rude!$"
+	.string "너도 포켓몬을 찾으러 온 건가?\n"
+	.string "나중에 온 주제에 건방지군?!$"
 
 MtPyre_2F_Text_MarkDefeat: @ 82312A2
-	.string "Ayieeeeh!\n"
-	.string "I'm sorry, forgive me, please!$"
+	.string "흐이이이이이익!\n"
+	.string "용서해 주십쇼-!$"
 
 MtPyre_2F_Text_MarkPostBattle: @ 82312CB
-	.string "People don't come here often, so\n"
-	.string "I thought there'd be rare POKéMON.$"
+	.string "거의 사람이 드나들지 않는 산이니\n"
+	.string "희귀한 포켓몬이 있을 것 같았어$"
 
 MtPyre_2F_Text_LukeIntro: @ 823130F
-	.string "LUKE: We're here on a dare.\p"
-	.string "Heheh, if I show her how cool I am,\n"
-	.string "she'll fall for me. I know it!\p"
-	.string "I know! I'll cream you and show her\n"
-	.string "how cool I am!$"
+	.string "테르: 좋아! 담력 훈련을 하는 거야!\n"
+	.string "멋진 내 모습을 보면\l"
+	.string "그녀가 나에게 더 반하겠지?!\p"
+	.string "그래! 널 쓰러뜨리고\n"
+	.string "멋진 모습을 보여주겠어!$"
 
 MtPyre_2F_Text_LukeDefeat: @ 82313A1
-	.string "LUKE: Whoopsie!$"
+	.string "테르: 어이쿠-!$"
 
 MtPyre_2F_Text_LukePostBattle: @ 82313B1
-	.string "LUKE: Well, we lost but that's okay!\n"
-	.string "I'm right here by your side.\l"
-	.string "We'll make it through this dare!$"
+	.string "테르: 져버렸지만 괜찮아!\n"
+	.string "내가 있잖아!\l"
+	.string "담력 훈련 같은 건 아무것도 아니라고!$"
 
 MtPyre_2F_Text_LukeNotEnoughMons: @ 8231414
-	.string "LUKE: If you want to take me on,\n"
-	.string "bring some more POKéMON.\p"
-	.string "If you don't, I won't be able to show\n"
-	.string "off to my girl how cool I am!$"
+	.string "테르: 나랑 승부하려면\n"
+	.string "포켓몬을 더 데려오라고!\p"
+	.string "더 데려와야 내가 그녀 앞에서\n"
+	.string "멋진 모습을 보일 수 있으니까!$"
 
 MtPyre_2F_Text_DezIntro: @ 8231492
-	.string "DEZ: I came here on a dare with my\n"
-	.string "boyfriend.\p"
-	.string "It's really scary, but I'm with my\n"
-	.string "boyfriend. It's okay.\p"
-	.string "I know! I'll get my boyfriend to look\n"
-	.string "cool by beating you!$"
+	.string "마코: 남자 친구랑\n"
+	.string "담력 훈련을 하러 왔어\l"
+	.string "엄청 무섭지만\l"
+	.string "남자 친구가 있으니까 괜찮아!\p"
+	.string "그래! 널 쓰러뜨리는\n"
+	.string "남자 친구의 멋진 모습을 보여줄게!$"
 
 MtPyre_2F_Text_DezDefeat: @ 8231534
-	.string "DEZ: Waaaah! I'm scared!$"
+	.string "마코: 아-앙 무서워-!$"
 
 MtPyre_2F_Text_DezPostBattle: @ 823154D
-	.string "DEZ: We're lovey-dovey, so we don't\n"
-	.string "care if we lose!$"
+	.string "마코: 우리들은 러브러브니까\n"
+	.string "져도 괜찮아!$"
 
 MtPyre_2F_Text_DezNotEnoughMons: @ 8231582
-	.string "DEZ: If you want to challenge us, you\n"
-	.string "should bring at least two POKéMON.\p"
-	.string "My boyfriend's strong.\n"
-	.string "Just one POKéMON won't do at all.$"
+	.string "마코: 우리랑 승부하고 싶으면\n"
+	.string "포켓몬이 적어도\l"
+	.string "두 마리는 있어야 해\p"
+	.string "우리 자기는 엄청 강하니까 말이야\n"
+	.string "한 마리 가지고는 어림없어$"
 
 MtPyre_2F_Text_LeahIntro: @ 8231604
-	.string "You are an unfamiliar sight…\n"
-	.string "Depart before anything befalls you!$"
+	.string "본 적 없는 얼굴...\n"
+	.string "무슨 일이 생기기 전에 돌아가!$"
+	// みかけぬ かおね……ｎ
+	// なにも おきない うちに かえりなさい!
 
 MtPyre_2F_Text_LeahDefeat: @ 8231645
-	.string "Hmm…\n"
-	.string "You're durable.$"
+	.string "음... 강하네$"
+	// むん…… てごわいのね
 
 MtPyre_2F_Text_LeahPostBattle: @ 823165A
-	.string "Our family has been TRAINERS here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "증조할머니 때부터\n"
+	.string "여기서 트레이너를 하고 있어\l"
+	.string "이 산을 지키고 있지...$"
+	// ひい おばあさまの だい からｎ
+	// ここで トレ-ナ-を やっているの……ｌ
+	// この やまを まもっていくわ……
 
 MtPyre_2F_Text_ZanderIntro: @ 82316C7
-	.string "Kiyaaaaah!\n"
-	.string "I'm terrified!$"
+	.string "끼 꺄아아아악!\n"
+	.string "나왔다아아아!$"
+	// ぎっ ぎゃああああっ!ｎ
+	// でたあああっ!
 
 MtPyre_2F_Text_ZanderDefeat: @ 82316E1
-	.string "Nooooooo!\n"
-	.string "I lost my wits!$"
+	.string "져 져버렸다아아아아!$"
+	// ま まけたああああっ!
 
 MtPyre_2F_Text_ZanderPostBattle: @ 82316FB
-	.string "I get freaked out every time I see\n"
-	.string "anything move…\p"
-	.string "I shouldn't have come here to train…$"
+	.string "뭐 뭔가가 움직일 때마다\n"
+	.string "깜짝 놀라\p"
+	.string "여기서 수행하는 게 아니었는데$"
+	// な なにかが うごく たびにｎ
+	// ビクっと するよｌ
+	// ここで しゅぎょう するんじゃ なかったよ
 

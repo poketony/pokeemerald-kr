@@ -219,123 +219,197 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist:: @ 827018B
 	end
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro: @ 827019C
-	.string "The INSTITUTE created a type of\n"
-	.string "POKéMON that has something to do with\l"
-	.string "the weather. We're here to take them!$"
+	.string "이 연구소에서 만들어진\n"
+	.string "포켓몬은 날씨와 관계가 있대서\l"
+	.string "받아 가려고 온 거야!$"
+	// この けんきゅうじょで うみだされたｎ
+	// ポケモンは てんきと かんけいある ってｌ
+	// きいたから いただきに きたのさ!
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat: @ 8270208
-	.string "Our plan's being spoiled by a kid?$"
+	.string "이런 꼬맹이에게 방해당한 건가?!$"
+	// こんな こどもに じゃま されるのか!?
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
-	.string "If the POKéMON they made here can\n"
-	.string "control the weather freely, then we of\l"
-	.string "TEAM AQUA definitely need it!$"
+	.string "여기서 만들어진 포켓몬이\n"
+	.string "날씨를 자유롭게 조종할 수 있다면\l"
+	.string "아쿠아단에게 반드시 필요하다!$"
+	// ここで うみだされた ポケモンがｎ
+	// もし てんきを じゆうに あやつれるならｌ
+	// ぜったい アクアだんに ひつよう だぜ!
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro: @ 8270292
-	.string "We're TEAM AQUA!\n"
-	.string "We appear wherever anything rare is\l"
-	.string "found!$"
+	.string "우리들은 아쿠아단!\n"
+	.string "희귀한 게 있는 곳이라면\l"
+	.string "어디든 나타난다!$"
+	// おれたち アクアだん!ｎ
+	// めずらしい ものが ある ところならｌ
+	// どこにでも あらわれる!
 
 Route119_WeatherInstitute_2F_Text_Grunt3Defeat: @ 82702CE
-	.string "You got me!$"
+	.string "이거 큰일이군!$"
+	// こいつは まいった!
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle: @ 82702DA
-	.string "You don't have any idea what we of\n"
-	.string "TEAM AQUA are working towards!\l"
-	.string "You stay out of our way!$"
+	.string "아쿠아단의 이상도 모르면서\n"
+	.string "방해하지 말라고!$"
+	// アクアだんの りそうを しらないくせにｎ
+	// じゃま するんじゃ ないよ!
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro: @ 8270335
-	.string "Don't tell me you're looking for that\n"
-	.string "weather POKéMON, too?\p"
-	.string "That's a no-no!\n"
-	.string "We were here to get it first!$"
+	.string "당신도 날씨와 관계있는\n"
+	.string "포켓몬을 찾으러 온 거야?\p"
+	.string "안 돼!\n"
+	.string "우리들이 먼저 가져갈 거야!$"
+	// あなたも てんきに かんけいのあるｎ
+	// ポケモンを さがしに きたの?ｐ
+	// だめよ!ｎ
+	// あたしたちが さきに いただくんだから!
 
 Route119_WeatherInstitute_2F_Text_Grunt5Defeat: @ 827039F
-	.string "Oh, will you look at my POKéMON?$"
+	.string "음- 더 이상 포켓몬이-$"
+	// んも- ポケモンが-
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle: @ 82703C0
-	.string "Humph, so what?\n"
-	.string "What we want…\p"
-	.string "What we really want isn't here…\n"
-	.string "Ihihihihi…$"
+	.string "흥 좋아!\p"
+	.string "우리들이 정말로 노리는 건\n"
+	.string "다른 곳에... 이히히히$"
+	// ふん いいさ!ｐ
+	// あたしたちが ほんとうに ほしいのはｎ
+	// もっと ほかに…… イヒヒヒ
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro: @ 8270409
-	.string "Ahahahaha!\p"
-	.string "You're going to meddle in TEAM AQUA's\n"
-	.string "affairs?\p"
-	.string "You're either absolutely fearless,\n"
-	.string "simply ignorant, or both!\p"
-	.string "You're so cute, you're disgusting!\n"
-	.string "I'll put you down, kiddy!$"
+	.string "오-호호!\p"
+	.string "우리들 아쿠아단의\n"
+	.string "방해를 할 셈이야?!\p"
+	.string "정말 무서운 걸 모르는 건지\n"
+	.string "그냥 어리석은 건지...\p"
+	.string "너무 귀여워서 얄미워!\n"
+	.string "해치워 줄게!$"
+	// オ-ッホッホ!ｐ
+	// われわれ アクアだんのｎ
+	// じゃまを しようと いうの!?ｐ
+	// もう こわいものしらず といおうかｎ
+	// ただの おろかものと いおうか……ｐ
+	// かわいすぎて にくらしく なっちゃう!ｎ
+	// やっつけて あげるわね!
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat: @ 82704BD
-	.string "Ahahahaha!\n"
-	.string "You're disgustingly strong!$"
+	.string "오-호호!\n"
+	.string "너무 강해서 얄미운 걸!$"
+	// オ-ッホッホ!ｎ
+	// つよくて にくらしく なっちゃうわ!
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle: @ 82704E4
-	.string "It's bad enough to have TEAM MAGMA\n"
-	.string "blunder about, but now there's you!\p"
-	.string "What makes you want to sniff around\n"
-	.string "in our business, anyway?$"
+	.string "마그마단만으로도 귀찮은데\n"
+	.string "넌 또 왜 우리 주변을\l"
+	.string "서성거리고 있는 거야!$"
+	// マグマだん だけでも めざわり なのにｎ
+	// あなた どうして わたしたちの まわりをｌ
+	// チョロチョロ かぎまわって いるの!
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy: @ 8270568
-	.string "We have a situation here!\p"
-	.string "A TEAM MAGMA mob just passed\n"
-	.string "the WEATHER INSTITUTE.\p"
-	.string "They appear to be headed for\n"
-	.string "MT. PYRE!$"
+	.string "큰일입니다!\p"
+	.string "지금 막 마그마단 녀석들이\n"
+	.string "날씨 연구소를 지나\p"
+	.string "송화산 쪽으로\n"
+	.string "향하고 있습니다!$"
+	// たいへんです!ｐ
+	// たったいま マグマだんの れんちゅうがｎ
+	// てんきけんきゅうじょを つうかしてｌ
+	// おくりびやま ほうめんにｌ
+	// むかって いきました!
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre: @ 82705DD
-	.string "What?!\p"
-	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to MT. PYRE, too!\p"
-	.string "Ahahahaha!\n"
-	.string "TEAM MAGMA, just you wait!$"
+	.string "뭐라고?!\p"
+	.string "이러고 있을 때가 아냐\n"
+	.string "우리들도 송화산으로 서둘러 가자!\p"
+	.string "오-호호!\n"
+	.string "마그마단 놈들 기다려라-!$"
+	// なんですって!ｐ
+	// え-い こうしちゃ いられないｎ
+	// われわれも おくりびやまに いそぐわよ!ｐ
+	// オ-ッホッホ!ｎ
+	// マグマだんめ まってなさ-い!
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon: @ 8270650
-	.string "Thanks!\n"
-	.string "Thanks to you, we're safe!\p"
-	.string "It might be an odd way of thanking you,\n"
-	.string "but take this POKéMON.$"
+	.string "고맙다\n"
+	.string "자네 덕분에 살았어\p"
+	.string "감사의 표시라고 하기엔 좀 그렇다만\n"
+	.string "이 포켓몬을 받아주게나$"
+	// ありがとうよｎ
+	// きみの おかげで たすかったよｐ
+	// おれいと いっては なんだがｎ
+	// この ポケモンを もらって おくれ
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon: @ 82706B2
-	.string "Hm? You don't seem to have any room\n"
-	.string "for this POKéMON.$"
+	.string "그 이상\n"
+	.string "포켓몬을 지닐 수 없나 보구나$"
+	// あら? それいじょうｎ
+	// ポケモンを もてないようだよ
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform: @ 82706E8
-	.string "{PLAYER} received CASTFORM!$"
+	.string "{PLAYER}{K_EUNNEUN}"
+	.string "캐스퐁을 받았다!$"
+	// §あはｎ
+	// ポワルンを もらった!
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather: @ 82706FE
-	.string "That POKéMON changes shape according\n"
-	.string "to the weather conditions.\p"
-	.string "There're plenty of them in the\n"
-	.string "INSTITUTE--go ahead and take it.$"
+	.string "그 녀석은 그 당시의 날씨에 따라\n"
+	.string "모습을 바꾸는 포켓몬이란다\p"
+	.string "연구소에는 많이 있으니까\n"
+	.string "사양 말고 받아주렴$"
+	// そいつは そのときの てんきに よってｎ
+	// すがたを かえる ポケモン なんだよｐ
+	// けんきゅうじょ には たくさん いるからｎ
+	// えんりょせずに もらって おくれよ
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous: @ 827077E
-	.string "I've been researching rain for many\n"
-	.string "years, but it's ridiculous to think that\l"
-	.string "humans can freely change the weather.$"
+	.string "나도 오랫동안\n"
+	.string "비를 연구하고 있지만\l"
+	.string "날씨를 자유자재로 바꾼다니\l"
+	.string "인간에게는 무리야$"
+	// わたしも ながい あいだｎ
+	// あめの けんきゅうを してるがｌ
+	// てんきを じゆうじざいに かえるだなんてｌ
+	// にんげんには むりな はなし だよ
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather: @ 82707F1
-	.string "I track weather patterns over\n"
-	.string "the HOENN region.\p"
-	.string "Presently, a drought has been recorded\n"
-	.string "in {STR_VAR_1}.\p"
-	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "저는 호연지방의 날씨를\n"
+	.string "관측하고 있습니다\p"
+	.string "현재 {STR_VAR_1}에서\n"
+	.string "가뭄이 발생 중입니다!\p"
+	.string "그렇다는 건\n"
+	.string "{STR_VAR_1}의 어딘가에...?$"
+	// わたしは ホウエンちほうの てんきをｎ
+	// かんそく していますｐ
+	// げんざい §いでｎ
+	// ひでりが はっせい しています!ｐ
+	// ということはｎ
+	// §いの どこかに……?
 
 Route119_WeatherInstitute_2F_Text_KyogreWeather: @ 8270873
-	.string "I track weather patterns over\n"
-	.string "the HOENN region.\p"
-	.string "Presently, heavy rainfall has been\n"
-	.string "recorded over {STR_VAR_1}.\p"
-	.string "Could that mean, somewhere near\n"
-	.string "{STR_VAR_1}…$"
+	.string "저는 호연지방의 날씨를\n"
+	.string "관측하고 있습니다\p"
+	.string "현재 {STR_VAR_1}에서\n"
+	.string "폭우가 발생 중입니다!\p"
+	.string "그렇다는 건\n"
+	.string "{STR_VAR_1}의 어딘가에...?$"
+	// わたしは ホウエンちほうの てんきをｎ
+	// かんそく していますｐ
+	// げんざい §いでｎ
+	// はげしい おおあめが ふっています!ｐ
+	// ということはｎ
+	// §いの どこかに……?
 
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather: @ 82708FC
-	.string "Abnormal weather conditions are\n"
-	.string "no longer being reported.\p"
-	.string "The occasional rainfall is a blessing,\n"
-	.string "really.$"
+	.string "이상 기후는\n"
+	.string "이제 관측되지 않습니다\p"
+	.string "가끔씩 비가 내리지만\n"
+	.string "그건 단비라고 할 수 있겠죠!$"
+	// いじょう きしょうはｎ
+	// もう かんそく されなく なりましたｐ
+	// たまに あめが ふってもｎ
+	// それは めぐみのあめと いえるでしょう!
 

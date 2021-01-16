@@ -1747,39 +1747,67 @@ PetalburgCity_Gym_Text_GymStatueCertified: @ 8207467
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch: @ 82074A2
-	.string "DAD: {PLAYER}…\n"
-	.string "I had a feeling that you would come.\p"
-	.string "I would never refuse to accept\n"
-	.string "a challenge from you.\p"
-	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
-	.string "we are a parent and child.\p"
-	.string "…No, because we are parent and child,\n"
-	.string "we owe it to each other to do the best\l"
-	.string "we can. Isn't that right, {PLAYER}?$"
+	.string "아빠: {PLAYER}{K_AYA}...\n"
+	.string "역시 다시 왔구나...\p"
+	.string "네가 승부를 원하는데\n"
+	.string "내가 거절할 리가 없지\p"
+	.string "알고 있겠지?\p"
+	.string "체육관 안에서는 서로\n"
+	.string "부모 자식인 건 관계없단다\p"
+	.string "...아니 부모 자식이기에\n"
+	.string "전력으로 부딪치는 걸지도 모르지\l"
+	.string "그렇지? {PLAYER}{K_AYA}!$"
+	// パパ『§あ……ｎ
+	// やはり あらわれたな……ｐ
+	// おまえに しょうぶを いどまれてｎ
+	// この わたしが ことわる はずがないｐ
+	// わかっているな?ｐ
+	// ジムの なかでは おたがいにｎ
+	// おやこで あることなど かんけいないｐ
+	// ……いや おやこ だからこそｎ
+	// ぜんりょくで ぶつかるんだｌ
+	// そうだろ? §あ!
 
 PetalburgCity_Gym_Text_NormanRematchDefeat: @ 82075CE
-	.string "Uh… Haha…\n"
-	.string "Maybe that was going too hard…$"
+	.string "하하 하하...\n"
+	.string "너무 전력을 낸... 걸까?$"
+	// はは はは……ｎ
+	// ぜんりょくを だしすぎた…… かな?
 
 PetalburgCity_Gym_Text_NormanPostRematch: @ 82075F7
-	.string "DAD: {PLAYER}…\n"
-	.string "What is your dream?\p"
-	.string "My dream…\n"
-	.string "Hahaha…\l"
-	.string "It has already come true, actually.$"
+	.string "아빠: {PLAYER}{K_AYA}...\n"
+	.string "네 꿈은 뭐니?\p"
+	.string "내 꿈은...\n"
+	.string "하하하...\l"
+	.string "사실 이미 이루어졌단다$"
+	// パパ『§あ……ｎ
+	// おまえの ゆめは なんだ?ｐ
+	// わたしの ゆめは……ｎ
+	// ははは……ｌ
+	// じつは もう かなったんだよ
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons: @ 820764A
-	.string "DAD: {PLAYER}…\n"
-	.string "I had a feeling that you would come.\p"
-	.string "I would never refuse to accept\n"
-	.string "a challenge from you.\p"
-	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
-	.string "we are a parent and child.\p"
-	.string "Hm? Wait a second, {PLAYER}.\p"
-	.string "Do you only have one POKéMON that is\n"
-	.string "capable of battle?\p"
-	.string "Sorry, but you'll have to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "아빠: {PLAYER}{K_AYA}...\n"
+	.string "역시 다시 왔구나...\p"
+	.string "네가 승부를 원하는데\n"
+	.string "내가 거절할 리가 없지\p"
+	.string "알고 있겠지?\p"
+	.string "체육관 안에서는 서로\n"
+	.string "부모 자식인 건 관계없단다\p"
+	.string "...어라? 잠깐 {PLAYER}{K_AYA}\n"
+	.string "너 싸울 수 있는 포켓몬을\l"
+	.string "한 마리만 데리고 있구나\p"
+	.string "미안하지만 두 마리 이상\n"
+	.string "포켓몬을 데리고 다시 와주렴$"
+	// パパ『§あ……ｎ
+	// やはり あらわれたな……ｐ
+	// おまえに しょうぶを いどまれてｎ
+	// この わたしが ことわる はずがないｐ
+	// わかっているな?ｐジムの なかでは おたがいにｎ
+	// おやこで あることなど かんけいない……ｐ
+	// ……うん? なんだ §あｎ
+	// おまえは たたかえる ポケモンをｌ
+	// 1ひきしか もっていないのかｐ
+	// わるいけれど 2ひき いじょうのｎ
+	// ポケモンを もって また きておくれ
 

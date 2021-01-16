@@ -29,43 +29,45 @@ Route110_TrickHousePuzzle4_EventScript_Paula:: @ 826C8AC
 	end
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened: @ 826C8C3
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is cool.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 멋있어”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle4_Text_CoraIntro: @ 826C92D
-	.string "It's too much bother to think this out.\n"
-	.string "I only wanted to battle!$"
+	.string "이런 걸 생각해야 한다니\n"
+	.string "정말 귀찮아!\l"
+	.string "난 승부만 하고 싶은데-!$"
 
 Route110_TrickHousePuzzle4_Text_CoraDefeat: @ 826C96E
-	.string "Even though I lost, I still like battling\n"
-	.string "the best!$"
+	.string "져버렸지만 역시\n"
+	.string "포켓몬 승부가 제일 즐거워!$"
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle: @ 826C9A2
-	.string "Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.$"
+	.string "트레이너가 있을 것 같은 곳이라면\n"
+	.string "어디든 가고 싶어져!$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro: @ 826C9E4
-	.string "Heh! Boulders like this, I can brush\n"
-	.string "aside with one finger!$"
+	.string "이런 바위 정도는\n"
+	.string "손가락 하나로도 OK다!$"
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat: @ 826CA20
-	.string "I can push boulders, but I can't solve\n"
-	.string "the puzzle…$"
+	.string "바위가 밀어져도\n"
+	.string "퍼즐이 풀리지 않아...$"
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle: @ 826CA53
-	.string "It's not good enough to be brawny…\n"
-	.string "You have to use your head. Be brainy!$"
+	.string "힘만 세다고 되는 게 아니군...\n"
+	.string "머리를 쓰지 않으면$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro: @ 826CA9C
-	.string "The TRICK HOUSE is getting trickier,\n"
-	.string "isn't it?$"
+	.string "미궁의 대저택도 점점\n"
+	.string "어려워지기 시작했네!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat: @ 826CACB
-	.string "Aaak!$"
+	.string "아앗!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle: @ 826CAD1
-	.string "Has anyone made it to the end?$"
+	.string "마지막까지 남을\n"
+	.string "사람이 있을지 모르겠네?$"
 

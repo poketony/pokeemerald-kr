@@ -187,28 +187,29 @@ Route117_EventScript_Aisha:: @ 81F3C65
 	end
 
 Route117_Text_DayCarePokemonHadNewMove: @ 81F3C7C
-	.string "I left my POKéMON at the DAY CARE.\p"
-	.string "When I got it back, it had a new move\n"
-	.string "that I didn't teach it.\l"
-	.string "I was really, really surprised.$"
+	.string "키우미집에 포켓몬을\n"
+	.string "맡겨놓고 있었어\p"
+	.string "그랬더니 글쎄 내 포켓몬이 어느샌가\n"
+	.string "모르는 기술을 배우고 있어서\l"
+	.string "깜짝 놀랐지 뭐야!$"
 
 Route117_Text_ArentTheseFlowersPretty: @ 81F3CFD
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string "어때?\n"
+	.string "예쁘게 늘어선 이 꽃들!\p"
+	.string "전부 다- 내가 심은 거야!$"
 
 Route117_Text_AirIsTastyHere: @ 81F3D41
-	.string "The air is tasty here!$"
+	.string "공기가 마시쪄-!$"
 
 Route117_Text_RouteSignVerdanturf: @ 81F3D58
-	.string "ROUTE 117\n"
-	.string "{LEFT_ARROW} VERDANTURF TOWN$"
+	.string "여기는 117번도로\n"
+	.string "{LEFT_ARROW} 잔디마을$"
 
 Route117_Text_RouteSignMauville: @ 81F3D74
-	.string "ROUTE 117\n"
-	.string "{RIGHT_ARROW} MAUVILLE CITY$"
+	.string "여기는 117번도로\n"
+	.string "{RIGHT_ARROW} 보라시티$"
 
 Route117_Text_DayCareSign: @ 81F3D8E
-	.string "POKéMON DAY CARE\n"
-	.string "“Let us raise your POKéMON.”$"
+	.string "“포켓몬 키우미집”\n"
+	.string "당신의 포켓몬을 키워 드립니다$"
 

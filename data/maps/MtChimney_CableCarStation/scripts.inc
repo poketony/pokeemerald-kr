@@ -89,12 +89,14 @@ MtChimney_CableCarStation_Movement_ExitCableCar: @ 822ACB4
 	step_end
 
 MtChimney_CableCarStation_Text_CableCarReadyGetOn: @ 822ACB9
-	.string "The CABLE CAR is ready to go down.\n"
-	.string "Would you like to be on it?$"
+	.string "하행 케이블카가\n"
+	.string "곧 출발합니다\l"
+	.string "이용하시겠습니까?$"
 
 MtChimney_CableCarStation_Text_StepThisWay: @ 822ACF8
-	.string "Please step this way.$"
+	.string "그럼 이쪽으로 오세요!$"
 
 MtChimney_CableCarStation_Text_RideAnotherTime: @ 822AD0E
-	.string "Please ride with us another time.$"
+	.string "또 이용하시길\n"
+	.string "기다리고 있겠습니다!$"
 

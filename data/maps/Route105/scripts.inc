@@ -83,21 +83,35 @@ Route105_EventScript_AndresRematch:: @ 81EE31F
 	end
 
 Route104_Text_DadPokenavCall: @ 81EE336
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "DAD: Oh, {PLAYER}?\p"
-	.string "… … … … … …\n"
-	.string "Where are you now?\l"
-	.string "It sounds windy wherever you are.\p"
-	.string "I just heard from DEVON's MR. STONE\n"
-	.string "about your POKéNAV, so I decided\l"
-	.string "to give you a call.\p"
-	.string "It sounds like you're doing fine,\n"
-	.string "so that's fine with me.\p"
-	.string "You take care now.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...삑!\p"
+	.string "아빠: 오오 {PLAYER}이구나!\p"
+	.string "...... ...... ......\p"
+	.string "지금 어디에 있는 거니?\n"
+	.string "제법 바람 소리가 강하구나\p"
+	.string "...그래그래 데봉의 나발명씨한테서\n"
+	.string "포켓내비를 받았다고 들어서\l"
+	.string "한번 전화해 봤단다!\p"
+	.string "건강하게 모험 중이라면 그걸로 됐어!\n"
+	.string "그럼 조심하려무나!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...딸깍-$"
+	// …… …… ……ｎ
+	// …… …… …… ピッ!ｐ
+	// パパ『おお §あか!ｐ
+	// …… …… ……ｎ
+	// おまえは いま どこに いるんだ?ｎ
+	// ずいぶん かぜの おとが つよいなｐ
+	// ……そうそう デボンの ツワブキさんからｎ
+	// ポケナビの ことを きいたもんでなｌ
+	// ちょっと よびだして みたんだ!ｐ
+	// げんきで やってるなら それでよし!ｎ
+	// じゃあ きをつけてな!ｐ
+	// …… …… ……ｎ
+	// …… …… …… ツ-
 
 Route104_Text_RegisteredDadInPokenav: @ 81EE463
-	.string "Registered DAD NORMAN\n"
-	.string "in the POKéNAV.$"
+	.string "아빠 종길을\n"
+	.string "포켓내비에 등록했다!$"
+	// パパ センリをｎ
+	// ポケナビに とうろく した!

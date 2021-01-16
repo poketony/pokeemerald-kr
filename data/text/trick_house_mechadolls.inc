@@ -1,134 +1,134 @@
 gTrickHouse_Mechadoll_Oddish:: @ 27ECBC
-	.string "ODDISH$"
+	.string "뚜벅쵸$"
 
 gTrickHouse_Mechadoll_Poochyena:: @ 27ECC3
-	.string "POOCHYENA$"
+	.string "포챠나$"
 
 gTrickHouse_Mechadoll_Taillow:: @ 27ECCD
-	.string "TAILLOW$"
+	.string "테일로$"
 
 gTrickHouse_Mechadoll_Azurill:: @ 27ECD5
-	.string "AZURILL$"
+	.string "루리리$"
 
 gTrickHouse_Mechadoll_Lotad:: @ 27ECDD
-	.string "LOTAD$"
+	.string "연꽃몬$"
 
 gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
-	.string "WINGULL$"
+	.string "갈모매$"
 
 gTrickHouse_Mechadoll_Dustox:: @ 27ECEB
-	.string "DUSTOX$"
+	.string "독케일$"
 
 gTrickHouse_Mechadoll_Zubat:: @ 27ECF2
-	.string "ZUBAT$"
+	.string "주뱃$"
 
 gTrickHouse_Mechadoll_Nincada:: @ 27ECF8
-	.string "NINCADA$"
+	.string "토중몬$"
 
 gTrickHouse_Mechadoll_Ralts:: @ 27ED00
-	.string "RALTS$"
+	.string "랄토스$"
 
 gTrickHouse_Mechadoll_Zigzagoon:: @ 27ED06
-	.string "ZIGZAGOON$"
+	.string "지그제구리$"
 
 gTrickHouse_Mechadoll_Slakoth:: @ 27ED10
-	.string "SLAKOTH$"
+	.string "게을로$"
 
 gTrickHouse_Mechadoll_Poochyena2:: @ 27ED18
-	.string "POOCHYENA$"
+	.string "포챠나$"
 
 gTrickHouse_Mechadoll_Shroomish:: @ 27ED22
-	.string "SHROOMISH$"
+	.string "버섯꼬$"
 
 gTrickHouse_Mechadoll_Zigzagoon2:: @ 27ED2C
-	.string "ZIGZAGOON$"
+	.string "지그제구리$"
 
 gTrickHouse_Mechadoll_Poochyena3:: @ 27ED36
-	.string "POOCHYENA$"
+	.string "포챠나$"
 
 gTrickHouse_Mechadoll_Zubat2:: @ 27ED40
-	.string "ZUBAT$"
+	.string "주뱃$"
 
 gTrickHouse_Mechadoll_Carvanha:: @ 27ED46
-	.string "CARVANHA$"
+	.string "샤크니아$"
 
 gTrickHouse_Mechadoll_BurnHeal:: @ 27ED4F
-	.string "BURN HEAL$"
+	.string "화상치료제$"
 
 gTrickHouse_Mechadoll_HarborMail:: @ 27ED59
-	.string "HARBOR MAIL$"
+	.string "항구메일$"
 
 gTrickHouse_Mechadoll_SamePrice:: @ 27ED65
-	.string "Same price$"
+	.string "같은 가격$"
 
 gTrickHouse_Mechadoll_60Yen:: @ 27ED70
-	.string "¥60$"
+	.string "60원$"
 
 gTrickHouse_Mechadoll_55Yen:: @ 27ED74
-	.string "¥55$"
+	.string "55원$"
 
 gTrickHouse_Mechadoll_Nothing:: @ 27ED78
-	.string "Nothing$"
+	.string "남지 않는다$"
 
 gTrickHouse_Mechadoll_CostMore:: @ 27ED80
-	.string "They will cost more.$"
+	.string "비싸다$"
 
 gTrickHouse_Mechadoll_CostLess:: @ 27ED95
-	.string "They will cost less.$"
+	.string "싸다$"
 
 gTrickHouse_Mechadoll_SamePrice2:: @ 27EDAA
-	.string "Same price$"
+	.string "같은 가격$"
 
 gTrickHouse_Mechadoll_Male:: @ 27EDB5
-	.string "Male$"
+	.string "남성$"
 
 gTrickHouse_Mechadoll_Female:: @ 27EDBA
-	.string "Female$"
+	.string "여성$"
 
 gTrickHouse_Mechadoll_Neither:: @ 27EDC1
-	.string "Neither$"
+	.string "둘 다 아니다$"
 
 gTrickHouse_Mechadoll_ElderlyMen:: @ 27EDC9
-	.string "Elderly men$"
+	.string "할아버지$"
 
 gTrickHouse_Mechadoll_ElderlyLadies:: @ 27EDD5
-	.string "Elderly ladies$"
+	.string "할머니$"
 
 gTrickHouse_Mechadoll_SameNumber:: @ 27EDE4
-	.string "Same number$"
+	.string "같은 가격$"
 
 gTrickHouse_Mechadoll_None:: @ 27EDF0
-	.string "None$"
+	.string "없다$"
 
 gTrickHouse_Mechadoll_One:: @ 27EDF5
-	.string "1$"
+	.string "한 명$"
 
 gTrickHouse_Mechadoll_Two:: @ 27EDF7
-	.string "2$"
+	.string "두 명$"
 
 gTrickHouse_Mechadoll_Two2:: @ 27EDF9
-	.string "2$"
+	.string "두 마리$"
 
 gTrickHouse_Mechadoll_Three:: @ 27EDFB
-	.string "3$"
+	.string "세 마리$"
 
 gTrickHouse_Mechadoll_Four:: @ 27EDFD
-	.string "4$"
+	.string "네 마리$"
 
 gTrickHouse_Mechadoll_Six:: @ 27EDFF
-	.string "6$"
+	.string "6채$"
 
 gTrickHouse_Mechadoll_Seven:: @ 27EE01
-	.string "7$"
+	.string "7채$"
 
 gTrickHouse_Mechadoll_Eight:: @ 27EE03
-	.string "8$"
+	.string "8채$"
 
 gTrickHouse_Mechadoll_Six2:: @ 27EE05
-	.string "6$"
+	.string "여섯 명$"
 
 gTrickHouse_Mechadoll_Seven2:: @ 27EE07
-	.string "7$"
+	.string "일곱 명$"
 
 gTrickHouse_Mechadoll_Eight2:: @ 27EE09
-	.string "8$"
+	.string "여덟 명$"

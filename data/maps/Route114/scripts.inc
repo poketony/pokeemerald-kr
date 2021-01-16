@@ -186,26 +186,26 @@ Route114_EventScript_Kai:: @ 81F27F2
 	end
 
 Route114_Text_AllMyMonDoesIsRoarTakeThis: @ 81F2809
-	.string "All my POKéMON does is ROAR…\n"
-	.string "No one dares to come near me…\p"
-	.string "Sigh… If you would, please take\n"
-	.string "this TM away…$"
+	.string "내 포켓몬 매일 울부짖기만 해서\n"
+	.string "다들 도망가 버려요...\p"
+	.string "당신이 괜찮다면\n"
+	.string "이 기술머신 좀 가져가 주세요$"
 
 Route114_Text_ExplainRoar: @ 81F2872
-	.string "TM05 contains ROAR.\n"
-	.string "A ROAR sends POKéMON scurrying.$"
+	.string "기술머신05의 내용은 울부짖기예요\n"
+	.string "울부짖으면 포켓몬이 도망간답니다$"
 
 Route114_Text_Poochyena: @ 81F28A6
-	.string "Bow! Bowwow!$"
+	.string "포!! 포포!!$"
 
 Route114_Text_MeteorFallsSign: @ 81F28B3
-	.string "METEOR FALLS\n"
-	.string "RUSTBORO CITY THROUGH HERE$"
+	.string "여기는 유성의 폭포\n"
+	.string "여길 지나가면 금탄도시$"
 
 Route114_Text_FossilManiacsHouseSign: @ 81F28DB
-	.string "FOSSIL MANIAC'S HOUSE\n"
-	.string "“Fossils gratefully accepted!”$"
+	.string "“화석마니아의 집”\n"
+	.string "희귀한 화석이 있으면 주세요!$"
 
 Route114_Text_LanettesHouse: @ 81F2910
-	.string "LANETTE'S HOUSE$"
+	.string "“보은의 집”$"
 

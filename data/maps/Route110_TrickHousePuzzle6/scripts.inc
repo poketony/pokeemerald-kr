@@ -43,45 +43,43 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian:: @ 826DE0F
 	end
 
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened: @ 826DE26
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is my life.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 소중해”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaIntro: @ 826DE93
-	.string "When I heard there was a strange\n"
-	.string "house, I had to check it out.$"
+	.string "최근에 이상한 저택이 생겼다는\n"
+	.string "소문을 듣고 조사하러 왔어!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaDefeat: @ 826DED2
-	.string "I've discovered a tough TRAINER!$"
+	.string "강한 트레이너를 발견했다!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle: @ 826DEF3
-	.string "I'm sure having a good time checking\n"
-	.string "this place out.\p"
-	.string "It's a challenge I've found worth\n"
-	.string "repeating!$"
+	.string "저택을 조사하고 있는데 재미있어서\n"
+	.string "몇 번이고 도전하고 있어!$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro: @ 826DF55
-	.string "Maybe I could get my BIRD POKéMON\n"
-	.string "to fly over the wall…$"
+	.string "나의 새포켓몬으로\n"
+	.string "벽을 뛰어넘어 버릴까...?$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat: @ 826DF8D
-	.string "Gwaaah! I blew it!$"
+	.string "와앗 져버렸다!$"
 
 Route110_TrickHousePuzzle6_Text_BennyPostBattle: @ 826DFA0
-	.string "Ehehehe… I guess I lost because\n"
-	.string "I was trying to cheat.$"
+	.string "데헤헤... 잔꾀를 부려서\n"
+	.string "져버린 건가...$"
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro: @ 826DFD7
-	.string "I'm getting dizzy from these rotating\n"
-	.string "doors…$"
+	.string "회전하는 문 때문에\n"
+	.string "눈이 돌아간다...$"
 
 Route110_TrickHousePuzzle6_Text_SebastianDefeat: @ 826E004
-	.string "Everything's spinning around and\n"
-	.string "around. I can't take this anymore…$"
+	.string "빙글빙글 빙글빙글\n"
+	.string "난 더 이상은 못한다...$"
 
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle: @ 826E048
-	.string "You don't seem to be affected at all.\n"
-	.string "Or do you have your poker face on?$"
+	.string "너는 전혀 아무렇지도 않은 모양이네\n"
+	.string "그게 아니면 무표정이란 거니?$"
 

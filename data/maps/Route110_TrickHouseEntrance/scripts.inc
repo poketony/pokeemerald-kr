@@ -757,130 +757,127 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle:: @ 826A459
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched: @ 826A474
-	.string "You're being watched…$"
+	.string "누군가의 시선이 느껴진다...$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk: @ 826A48A
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 책상 밑에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree: @ 826A4DA
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 나무 밑에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser: @ 826A529
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 옷장 안에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow: @ 826A577
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 창문 건너편에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter: @ 826A5C8
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 화분 안에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard: @ 826A616
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 찬장 안에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow: @ 826A665
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 창문 건너편에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion: @ 826A6B6
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!$"
+	.string "으 으음...!\p"
+	.string "어떻게 이 몸이 방석 밑에\n"
+	.string "숨어 있다는 걸 알았지?...대단한데!$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster: @ 826A709
-	.string "Behold!\p"
-	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of HOENN!\l"
-	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "이 몸이 바로\p"
+	.string "호연지방 최대의\n"
+	.string "수수께끼 인물!\l"
+	.string "그 이름도 유명한...\p"
+	.string "미궁대왕이닷\n"
+	.string "와하하하! 잘 부탁한다!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse: @ 826A78C
-	.string "You, you've come to challenge\n"
-	.string "my TRICK HOUSE, haven't you?\p"
-	.string "That's why you're here, isn't it?\n"
-	.string "Yes, it is!\p"
-	.string "Consider your challenge accepted!\p"
-	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "자네 여기 미궁의 대저택에\n"
+	.string "도전하러 온 거군\l"
+	.string "어때 내 말이 맞나?\l"
+	.string "좋아 도전을 받아주지!\p"
+	.string "저기 있는 족자로 들어가서\n"
+	.string "도전하도록!\l"
+	.string "이 몸은\n"
+	.string "제일 안쪽 방에서 기다리겠다!$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll: @ 826A878
-	.string "It's a scroll.$"
+	.string "족자다!$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll: @ 826A887
-	.string "There is a big hole behind the scroll!\p"
-	.string "Want to go in?$"
+	.string "족자 뒤를 들여다보니\n"
+	.string "커다란 구멍이 있다!\p"
+	.string "안으로 들어가보겠습니까?$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote: @ 826A8BD
-	.string "There is a note affixed to the scroll…\p"
-	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. TRICK MASTER”$"
+	.string "족자 위에는 메모가 붙어 있다\p"
+	.string "“여행 떠납니다...찾지 말아 주세요\n"
+	.string "미궁대왕”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick: @ 826A921
-	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!$"
+	.string "자 그럼 이번 장치에는\n"
+	.string "이런 거나 저런 걸...\p"
+	.string "우후후... 내가 생각해봐도\n"
+	.string "무진장 어렵다고... 우후후$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges: @ 826A9AF
-	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
-	.string "challenges!\p"
-	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!$"
+	.string "우왓 뭐야! 자넨가!\p"
+	.string "지금은 아직 다음에 쓰일 장치를\n"
+	.string "생각 중이라고!\p"
+	.string "좀 더 이 몸에게\n"
+	.string "생각할 시간을\l"
+	.string "줘도 괜찮잖아!\l"
+	.string "좀 있다가 다시 와줘!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward: @ 826AA82
-	.string "Ah, it's you! You're here to accept the\n"
-	.string "reward from before, isn't that right?\l"
-	.string "Yes, right I am!\p"
-	.string "Here!\n"
-	.string "I'll give it to you now!$"
+	.string "오오 자넨가! 어디 보자 지난번의\n"
+	.string "선물을 가지러 온 거군!\l"
+	.string "좋아 지금 주마!$"
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward: @ 826AB00
-	.string "Hah?\n"
-	.string "Did you not come to claim your reward?$"
+	.string "어라?\n"
+	.string "선물을 가지러 온 게 아니었어?$"
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent: @ 826AB2C
-	.string "MECHADOLL 5 I AM!\n"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
-	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?$"
+	.string "이 몸은 꼭두각시인형 5호!\n"
+	.string "선물을 받지 않으면\l"
+	.string "미궁대왕을 따라갈 수 없다고!$"
 
 Route110_TrickHouseEntrance_Text_ThenFarewell: @ 826ABAE
-	.string "THEN FAREWELL.$"
+	.string "그럼 안녕!$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain: @ 826ABBD
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.$"
+	.string "PC가 가득 찼네...?\n"
+	.string "너무하잖아!$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll: @ 826ABE8
-	.string "{PLAYER} found a scroll.$"
+	.string "{PLAYER}{K_EUNNEUN} 두루마리를 발견했다!$"
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode: @ 826ABFB
-	.string "{PLAYER} memorized the secret code\n"
-	.string "written on the scroll.$"
+	.string "{PLAYER}{K_EUNNEUN} 두루마리에 적혀 있는\n"
+	.string "암호를 기억했다!$"
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt: @ 826AC2F
-	.string "A secret code is written on it.$"
+	.string "암호가 적혀 있다$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere: @ 826AC4F
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
-	.string "on it: “Write the secret code here.”$"
+	.string "문은 열쇠로 잠겨 있다!\p"
+	.string "...자세히 보니 문에\n"
+	.string "문자가 적혀 있다\l"
+	.string "“여기에 암호를 적어라”$"

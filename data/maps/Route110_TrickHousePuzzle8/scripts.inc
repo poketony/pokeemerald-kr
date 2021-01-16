@@ -29,44 +29,45 @@ Route110_TrickHousePuzzle8_EventScript_Leroy:: @ 826E84D
 	end
 
 Route110_TrickHousePuzzle8_EventScript_WroteSecretCodeLockOpened:: @ 826E864
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER I love.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 사랑해요”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle8_Text_VincentIntro: @ 826E8CD
-	.string "Not many TRAINERS have made it\n"
-	.string "this far.$"
+	.string "여기까지 올 수 있는 트레이너는\n"
+	.string "그렇게 많지 않네!$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat: @ 826E8F6
-	.string "That must mean you're tough, too…$"
+	.string "즉 너도\n"
+	.string "대단하다는 거겠지...$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle: @ 826E918
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+	.string "엣 포켓몬리그의 챔피언에게\n"
+	.string "이겼다고? 대 대단해...!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro: @ 826E954
-	.string "Consider yourself lucky to be\n"
-	.string "battling me!$"
+	.string "나와 승부하다니\n"
+	.string "당신 행복하겠구나!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat: @ 826E97F
-	.string "This isn't right!\n"
-	.string "I can't lose!$"
+	.string "이럴 수가! 내가\n"
+	.string "져버리다니!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle: @ 826E99F
-	.string "It's a miracle that you beat me.\n"
-	.string "You can brag about it.$"
+	.string "나한테 이기다니 기적이야!\n"
+	.string "자랑스러워할 일이라고!$"
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro: @ 826E9D7
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+	.string "당신도 미궁의 대저택에\n"
+	.string "계속해서 도전하고 있군요!$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat: @ 826EA14
-	.string "I see…\n"
-	.string "You possess an extraordinary style.$"
+	.string "과연...\n"
+	.string "놀라운 센스로군요!$"
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle: @ 826EA3F
-	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "당신같은 사람이 와 줘서\n"
+	.string "미궁대왕도 만족하시겠죠!$"
 

@@ -450,9 +450,9 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
 	.string "알았네! 나하고 포켓몬\l"
 	.string "승부를 하고 싶은 게지?!\p"
 	.string "와하하하핫!\p"
-	.string "...어라? 싸울 수 있는 포켓몬을\n"
-	.string "1마리밖에 데리고 있지 않은 겐가\p"
-	.string "미안하지만 2마리 이상\n"
+	.string "...어라? 싸울 수 있는 포켓몬이\n"
+	.string "한 마리밖에 없는 겐가\p"
+	.string "미안하지만 두 마리 이상\n"
 	.string "포켓몬을 데리고 와주게!$"
 	// テッセン『お-っと あらわれたな!ｎ
 	// わかっとる! わしと ポケモンのｌ

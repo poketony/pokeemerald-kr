@@ -74,65 +74,107 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4:: @ 826FB40
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro: @ 826FB57
-	.string "The BOSS got interested in\n"
-	.string "the research they have going here,\l"
-	.string "so he sent us out.\p"
-	.string "You quit meddling!$"
+	.string "리더가 여기서의 연구에\n"
+	.string "흥미가 있으셔서\l"
+	.string "우리들을 보낸 거다! 방해하지 마!$"
+	// リ-ダ-が ここでの けんきゅうにｎ
+	// きょうみを もったらしくてｌ
+	// おれらを よこしたんだ! ジャマするな!
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat: @ 826FBBB
-	.string "Blast it…\n"
-	.string "Blasted by a kid…$"
+	.string "젠장-\n"
+	.string "어린애에게 졌다...$"
+	// くそ-ｎ
+	// こどもに まけた……
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle: @ 826FBD7
-	.string "Our BOSS knows everything.\p"
-	.string "But I'm just a GRUNT. What would I know\n"
-	.string "about what he's thinking?$"
+	.string "리더는 뭐든지 알고 있어\p"
+	.string "하지만 무엇을 생각하고 있는지\n"
+	.string "조무래기인 우리는 전혀 상상도 안 가$"
+	// リ-ダ-は なんでも しっている……ｐ
+	// しかし なにを かんがえて いるのかｎ
+	// したっぱの おれらには さっぱりだ
 
 Route119_WeatherInstitute_1F_Text_Grunt4Intro: @ 826FC34
-	.string "Huh?\n"
-	.string "What's a kid doing here?$"
+	.string "어라?\n"
+	.string "왜 여기에 어린애가 있는 거지?$"
+	// あら?ｎ
+	// どうして ここに こどもが いるのかしら?
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat: @ 826FC52
-	.string "Huh?\n"
-	.string "I lost?!$"
+	.string "어머-\n"
+	.string "져버린 건가-?!$"
+	// あら-ｎ
+	// まけちゃった-!?$
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle: @ 826FC60
-	.string "Oh, no…\n"
-	.string "I'll catch an earful for losing to a kid…\p"
-	.string "I should just take a nap in the bed…$"
+	.string "어머머...\n"
+	.string "어린애한테 진 게 알려지면\l"
+	.string "혼이 날 거야...\p"
+	.string "침대에서 자는 척이라도 할까?$"
+	// あらら……ｎ
+	// こどもに まけたら おこられちゃう……ｐ
+	// ベッドで ねてようかしら?
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs: @ 826FCB7
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string "내가 침대에서 자는 동안\n"
+	.string "모두 2층으로 가버렸어$"
+	// ぼくが ベッドで ねてる あいだにｎ
+	// みんな 2かいに いっちゃったよ
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong: @ 826FCE5
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "{K_BOY_CALL} 강하네!\p"
+	.string "나도 {K_BOY_CALL} 같은\n"
+	.string "포켓몬 트레이너가 되고 싶어!$"
+	// §い つよいんだね!ｐ
+	// ぼくも §い みたいなｎ
+	// ポケモントレ-ナ-に なりたいや!
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain: @ 826FD2E
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string "박사님은 말이야\n"
+	.string "비를 정말 좋아해\p"
+	.string "그렇지만 계속 비가 내리면\n"
+	.string "곤란해지는 사람도 있지\p"
+	.string "그래서 박사님은\n"
+	.string "이 비를 무언가로\l"
+	.string "바꿔 쓸 수 없을까 하고\l"
+	.string "연구하고 있어$"
+	// はかせは あめが だいすき なのですｐ
+	// ですが あめが ふりつづくとｎ
+	// こまってしまう ひとも いるわけですｐ
+	// そこで はかせはｎ
+	// この あめを なにかに つかえないかｌ
+	// けんきゅう なさっているのです
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather: @ 826FDE8
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "이 연구소의 2층에서는\n"
+	.string "호연지방의 날씨\l"
+	.string "변화를 조사하고 있습니다\p"
+	.string "최근에 다시 이곳저곳에서\n"
+	.string "일시적인 가뭄이나 폭우가\l"
+	.string "관측되고 있는 듯합니다만...$"
+	// この けんきゅうじょの 2かいではｎ
+	// ホウエンちほうの てんきのｌ
+	// うつりかわりを しらべていますｐ
+	// さいきん また あちこちでｎ
+	// いちじてきな ひでりや おおあめがｌ
+	// かんそく されている ようですが……
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo: @ 826FE94
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "안녕!\n"
+	.string "당신 덕분에 살았어요!\p"
+	.string "...그건 그렇고\n"
+	.string "아쿠아단 녀석들은\l"
+	.string "도대체 무얼 할 생각이었을까요?$"
+	// やあ!ｎ
+	// あなたの おかげで たすかりましたよ!ｌ
+	// それにしても……ｐ
+	// アクアだんの れんちゅうはｎ
+	// なにを するつもり だったのでしょう?
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed: @ 826FEFC
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "침대가 있다...\n"
+	.string "좀 쉬었다 가자$"
+	// ベッドが ある……ｎ
+	// やすんでいこう
 

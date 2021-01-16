@@ -739,7 +739,7 @@ MauvilleCity_GameCorner_Text_OhIsThatSo: @ 82106BF
 	.string "동전 모아서 와주세요!$"
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsX: @ 8210705
-	.string "{STR_VAR_1}로\n"
+	.string "{STR_VAR_1}{K_EU}로\n"
 	.string "교환하시겠습니까?$"
 	// §いでｎ
 	// いいですね?$

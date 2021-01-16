@@ -975,127 +975,127 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake: @ 826D632
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened: @ 826D660
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is a genius.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 천재”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro: @ 826D6CE
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 1 AM I!\p"
-	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
-	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "달그락달그락...\n"
+	.string "이 몸은 꼭두각시인형 1호!\p"
+	.string "꼭두각시인형 5호가 있는 곳까지\n"
+	.string "연속해서 퀴즈를 맞추면\l"
+	.string "암호를 알 수 있을 거야!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1: @ 826D757
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "꼭두각시인형 1호 퀴즈!\p"
+	.string "이 중에 110번도로에\n"
+	.string "없는 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2: @ 826D7AA
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "꼭두각시인형 1호 퀴즈!\p"
+	.string "이 중에서 물타입이 아닌\n"
+	.string "포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3: @ 826D7FC
-	.string "MECHADOLL 1 QUIZ.\p"
-	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "꼭두각시인형 1호 퀴즈!\p"
+	.string "이 중에서 흡혈을\n"
+	.string "사용하지 못하는 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough: @ 826D84D
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
-	.string "GO THROUGH. PLEASE.$"
+	.string "축하해 정답이야!\n"
+	.string "자 그럼 안으로 가!$"
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError: @ 826D883
-	.string "BZZZT. DISAPPOINTMENT.\n"
-	.string "ERROR.$"
+	.string "땡!\n"
+	.string "틀렸어!$"
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha: @ 826D8A1
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
-	.string "CLICKETY-CLACK!$"
+	.string "와하하하하! 와하하하하!\n"
+	.string "달그락달그락!$"
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge: @ 826D8C9
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+	.string "재도전을 기다릴게-!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro: @ 826D8EA
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 2 AM I!\p"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
-	.string "IS SET TOO LOW.$"
+	.string "달그락달그락...\n"
+	.string "이 몸은 꼭두각시인형 2호!\l"
+	.string "1호의 퀴즈는 너무 쉬워!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1: @ 826D940
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "꼭두각시인형 2호 퀴즈!\p"
+	.string "민진이 아빠한테서\n"
+	.string "빌린 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2: @ 826D98C
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "꼭두각시인형 2호 퀴즈!\p"
+	.string "털보박사를 뒤쫓고 있었던\n"
+	.string "포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3: @ 826D9CE
-	.string "MECHADOLL 2 QUIZ.\p"
-	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "꼭두각시인형 2호 퀴즈!\p"
+	.string "등화숲에서 아쿠아단이\n"
+	.string "사용했던 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro: @ 826DA1E
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 3 AM I!\p"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "달그락달그락...\n"
+	.string "이 몸은 꼭두각시인형 3호!\l"
+	.string "돈에 대해서는 좀 까다로워$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1: @ 826DA64
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "꼭두각시인형 3호 퀴즈!\p"
+	.string "항구메일 3개 사는 거랑\n"
+	.string "화상치료제 1개 사는 거랑\l"
+	.string "뭐가 더 비쌀까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2: @ 826DAAD
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "꼭두각시인형 3호 퀴즈!\p"
+	.string "수퍼볼을 팔아서\n"
+	.string "상처약을 사면 얼마 남을까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3: @ 826DAFF
-	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "꼭두각시인형 3호 퀴즈!\p"
+	.string "벌레회피스프레이랑\n"
+	.string "미네랄사이다를 사면\l"
+	.string "좋은상처약보다 비싸질까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro: @ 826DB4C
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 4 THAT IS ME!\p"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+	.string "달그락달그락...\n"
+	.string "난 꼭두각시인형 4호야!\l"
+	.string "아름다운 나의 퀴즈 한번 맞혀봐!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1: @ 826DB94
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In SEASHORE HOUSE, were there more men\n"
-	.string "or women?$"
+	.string "꼭두각시인형 4호 퀴즈야!\p"
+	.string "바다의 집에는\n"
+	.string "남성과 여성 중 어느 쪽이 많을까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2: @ 826DBD7
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In LAVARIDGE TOWN, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "꼭두각시인형 4호 퀴즈야!\p"
+	.string "용암마을에는 할아버지와\n"
+	.string "할머니 중 어느 쪽이 많을까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3: @ 826DC2A
-	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In the TRAINER'S SCHOOL, how many\n"
-	.string "girl students were there?$"
+	.string "꼭두각시인형 4호 퀴즈야!\p"
+	.string "트레이너스쿨에는\n"
+	.string "여학생이 몇 명 있을까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro: @ 826DC78
-	.string "CLICKETY-CLACK…\n"
-	.string "MECHADOLL 5 AM I!\p"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
-	.string "ACHIEVEMENT AM I.$"
+	.string "달그락달그락...\n"
+	.string "이 몸은 꼭두각시인형 5호!\l"
+	.string "대왕의 최고 걸작!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1: @ 826DCCB
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
-	.string "how many POKéMON were there?$"
+	.string "꼭두각시인형 5호 퀴즈!\p"
+	.string "잿빛도시의 애호가클럽에\n"
+	.string "있는 포켓몬은 몇 마리일까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2: @ 826DD1B
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
-	.string "tree houses were there?$"
+	.string "꼭두각시인형 5호 퀴즈!\p"
+	.string "검방울시티에는\n"
+	.string "나무로 된 집이 몇 채일까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3: @ 826DD5F
-	.string "MECHADOLL 5 QUIZ.\p"
-	.string "On the CYCLING ROAD, how many\n"
-	.string "TRIATHLETES were there?$"
+	.string "꼭두각시인형 5호 퀴즈!\p"
+	.string "사이클링 로드에는\n"
+	.string "트라이애슬리트가 몇 명일까?$"

@@ -506,10 +506,10 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
 	.string "언젠가 반드시 바닷가로 돌아오지\p"
 	.string "너 정도의 빅 웨이브야\n"
 	.string "분명 다시 올 거라고 생각했어!\p"
-	.string "...어라? 싸울 수 있는 포켓몬을\n"
-	.string "1마리밖에 데리고 있지 않구나\p"
-	.string "미안하지만 2마리 이상의\n"
-	.string "포켓몬을 데리고 다시 와 줘$"
+	.string "...어라? 싸울 수 있는 포켓몬이\n"
+	.string "한 마리밖에 없구나\p"
+	.string "미안하지만 두 마리 이상의\n"
+	.string "포켓몬을 데리고 다시 와줘$"
 	// トウキ『なみというのは いちど ひいてもｎ
 	// いつか かならず はまべに もどってくるｐ
 	// キミほどの ビッグウェ-ブだｎ

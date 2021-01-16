@@ -33,22 +33,23 @@ Route111_OldLadysRestStop_EventScript_DeclineRest:: @ 822A96E
 	end
 
 Route111_OldLadysRestStop_Text_RestUpHere: @ 822A978
-	.string "Oh, dear, dear.\n"
-	.string "Aren't your POKéMON exhausted?\p"
-	.string "If you'd like, rest up here.\n"
-	.string "That's a fine idea! You should do that.$"
+	.string "아니 아니 자네의 포켓몬\n"
+	.string "지쳐 있는 것 같구먼\p"
+	.string "괜찮으면 쉬었다가 가시게나!\n"
+	.string "그래! 쉴 땐 쉬어야지!$"
 
 Route111_OldLadysRestStop_Text_TakeYourTimeRestUp: @ 822A9EC
-	.string "That's right.\n"
-	.string "Take your time and rest up!$"
+	.string "그래그래\n"
+	.string "여기서 푹 쉬고 가시게!$"
 
 Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest: @ 822AA16
-	.string "Oh, dear, dear.\n"
-	.string "Are your POKéMON still tired?\p"
-	.string "You should take another rest here.\n"
-	.string "That's a fine idea. You should do that.$"
+	.string "아니 아니\n"
+	.string "아직 지쳐 있구먼?\p"
+	.string "좀 더 쉬었다 가시게나!\n"
+	.string "그래! 쉴 땐 쉬어야지!$"
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy: @ 822AA8F
-	.string "Is that so?\n"
-	.string "You don't need to be shy about it.$"
+	.string "그려...?\n"
+	.string "정말 괜찮은 겐가?\l"
+	.string "사양 말게나$"
 

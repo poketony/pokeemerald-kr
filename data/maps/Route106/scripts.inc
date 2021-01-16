@@ -43,7 +43,7 @@ Route106_EventScript_Ned:: @ 81EE523
 	end
 
 Route106_Text_TrainerTips: @ 81EE53A
-	.string "TRAINER TIPS\p"
-	.string "Advice on catching POKéMON with a ROD:\n"
-	.string "Press the A Button if you get a bite.$"
+	.string "정보 나눔 게시판!!\p"
+	.string "포켓몬을 잘 낚아 올릴 수 있는\n"
+	.string "요령은 깜짝 놀랐을 때 A 버튼!$"
 

@@ -431,9 +431,9 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
 	.string "그리고... 이 체육관이 좋으니까!\p"
 	.string "자 다시 한 번\n"
 	.string "핫한 기술을 부딪쳐 보자!\p"
-	.string "...어라? 싸울 수 있는 포켓몬을\n"
-	.string "1마리밖에 데리고 있지 않네\p"
-	.string "미안하지만 2마리 이상\n"
+	.string "...어라? 싸울 수 있는 포켓몬이\n"
+	.string "한 마리밖에 없구나\p"
+	.string "미안하지만 두 마리 이상\n"
 	.string "포켓몬을 데리고 와줘$"
 	// アスナ『しょうぶに まけた ぐらいでｎ
 	// あたしは へこたれたり しない!ｐ

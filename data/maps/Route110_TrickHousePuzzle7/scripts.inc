@@ -318,78 +318,95 @@ Route110_TrickHousePuzzle7_EventScript_Everett:: @ 826E3FC
 	end
 
 Route110_TrickHousePuzzle7_EventScript_WroteSecretCodeLockOpened:: @ 826E413
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is huggable.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
+	.string "문에 적었다!\p"
+	.string "“미궁대왕님 껴안고 싶어”\p"
+	.string "...... ...... ......\p"
+	.string "문의 자물쇠가 풀렸다!$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaIntro: @ 826E481
-	.string "The TRICK MASTER always vanishes\n"
-	.string "like smoke. How does he do it?$"
+	.string "항상 미궁대왕은 팟 하고\n"
+	.string "사라지던데 어떻게 하는 걸까?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaDefeat: @ 826E4C1
-	.string "Aiyeeeh! You're much too strong!\n"
-	.string "How do you do it?$"
+	.string "히엑-!\n"
+	.string "어째서 그렇게 강한 거야?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaPostBattle: @ 826E4F4
-	.string "I wish I could appear and disappear as\n"
-	.string "if I were smoke, too.$"
+	.string "나도 자유자재로\n"
+	.string "사라졌다가 나타났다가 하고 싶다$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaIntro: @ 826E531
-	.string "Going around the same spot…\n"
-	.string "It begets ill fortune…$"
+	.string "같은 곳을 계속해서\n"
+	.string "몇 번이고 맴돌고 있어서 불길해...$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaDefeat: @ 826E564
-	.string "Defeated!\n"
-	.string "It's a bad sign…$"
+	.string "졌다...!\n"
+	.string "재수가 안 좋아...!$"
 
 Route110_TrickHousePuzzle7_Text_PatriciaPostBattle: @ 826E57F
-	.string "I've circled the same spot over ten\n"
-	.string "times now… It's ill fortune…$"
+	.string "나는 이제 10회 이상\n"
+	.string "맴돌고 말았어... 불길한데...$"
 
 Route110_TrickHousePuzzle7_Text_AlexisIntro: @ 826E5C0
-	.string "Whoever wins will get through here\n"
-	.string "first. That's the feeling I get.$"
+	.string "이긴 쪽이 먼저 이 장치를\n"
+	.string "빠져나갈 거 같은 예감이 들어!$"
 
 Route110_TrickHousePuzzle7_Text_AlexisDefeat: @ 826E604
-	.string "Oh!\n"
-	.string "Well, go ahead, then!$"
+	.string "어라!\n"
+	.string "자 그럼 먼저 나가!$"
 
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle: @ 826E61E
-	.string "You're solving all the puzzles in the\n"
-	.string "TRICK HOUSE. That's the feeling I get.$"
+	.string "당신은 미궁의 대저택의 장치를\n"
+	.string "전부 풀 거 같은 예감이 들어!$"
 
 Route110_TrickHousePuzzle7_Text_MarielaIntro: @ 826E66B
-	.string "Nufufufu, here at last!\n"
-	.string "Let's get right with it!$"
+	.string "으흐흐흐 왔구나\n"
+	.string "자 승부하자!$"
+	// んっふっふっふ きたわねっｎ
+	// さあ しょうぶよ!
 
 Route110_TrickHousePuzzle7_Text_MarielaDefeat: @ 826E69C
-	.string "You're so casual about winning!$"
+	.string "간단하게 져버리다니!$"
+	// あっさり かってくれちゃって!
 
 Route110_TrickHousePuzzle7_Text_MarielaPostBattle: @ 826E6BC
-	.string "Humph! I'm not upset!\n"
-	.string "Not me!$"
+	.string "흥 별로 분한 건 아니야!\n"
+	.string "정말로!$"
+	// ふん べつに くやしく ないから!ｎ
+	// わたし!
 
 Route110_TrickHousePuzzle7_Text_AlvaroIntro: @ 826E6DA
-	.string "I ever so closely watched you coming!$"
+	.string "네가 점점\n"
+	.string "다가오는 걸 보고 있었어!$"
+	// きみが どんどんｎ
+	// ちかづいて くるのを みていたぜ!
 
 Route110_TrickHousePuzzle7_Text_AlvaroDefeat: @ 826E700
-	.string "This outcome I didn't see coming…$"
+	.string "이런 결과는\n"
+	.string "보이지 않았는데$"
+	// こんな けっかはｎ
+	// みえなかった
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle: @ 826E722
-	.string "Well, anyway, we both picked a weird\n"
-	.string "place to get acquainted.\p"
-	.string "As one weirdo to another,\n"
-	.string "let's do our best!$"
+	.string "뭐 이런 곳에 왔으니까\n"
+	.string "별난 사람끼리 서로 잘해보자고!$"
+	// ま こんな ところで あったんだｎ
+	// ものずき どうし おたがい がんばろうぜ!
 
 Route110_TrickHousePuzzle7_Text_EverettIntro: @ 826E78D
-	.string "It's awfully cramped in here…$"
+	.string "조 좁아...\n"
+	.string "여기...$"
+	// せ せまいな……ｎ
+	// ここは……
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat: @ 826E7AB
-	.string "Oh, yes, strong you are.$"
+	.string "오오 강해강해$"
+	// おお つよいつよい
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle: @ 826E7C4
-	.string "I was hoping to switch places with you\n"
-	.string "when I beat you, but…$"
+	.string "만약 이긴다면 바꿔달라고\n"
+	.string "할 생각이었는데$"
+	// もし かったら いれかわって やれとｎ
+	// おもって いたんだけどね
 

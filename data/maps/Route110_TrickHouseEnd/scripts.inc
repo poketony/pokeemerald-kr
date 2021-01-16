@@ -263,109 +263,123 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise: @ 826B08B
 	step_end
 
 Route110_TrickHouseEnd_Text_YouveMadeItToMe: @ 826B08D
-	.string "Aak!\n"
-	.string "You've made it to me?\l"
-	.string "Hmmm… You're sharp!$"
+	.string "앗!\n"
+	.string "자네 여기까지 온 건가!\l"
+	.string "음...대단한데!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees: @ 826B0BC
-	.string "It took me all night to plant all those\n"
-	.string "trees…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five, six places!$"
+	.string "밤을 새서 미로를 만들었는데...\p"
+	.string "이 몸 다음 다음 다음\n"
+	.string "다음 다음 다음으로\l"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze: @ 826B13B
-	.string "It took me all night to make the maze…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five places!$"
+	.string "밤을 새서\n"
+	.string "바위를 옮겨 놓았는데....\p"
+	.string "이 몸 다음 다음 다음\n"
+	.string "다음 다음으로\l"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels: @ 826B1AD
-	.string "It took me all night to prepare\n"
-	.string "the wall panels…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four places!$"
+	.string "밤을 새서 창문 막아\n"
+	.string "방 안을 어둡게 했는데...\p"
+	.string "이 몸 다음 다음 다음 다음으로\n"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders: @ 826B223
-	.string "It took me all night to shove in those\n"
-	.string "boulders…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three places!$"
+	.string "밤을 새서 바위를 밀어 놨는데...\p"
+	.string "이 몸 다음 다음 다음으로\n"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls: @ 826B293
-	.string "It took me all night to make MECHADOLLS\n"
-	.string "and another to think up the quiz…\p"
-	.string "You're almost my equal in greatness by\n"
-	.string "one, two places!$"
+	.string "밤을 새서 인형 만들고\n"
+	.string "밤을 새서 퀴즈 생각했는데...\p"
+	.string "이 몸 다음 다음으로\n"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors: @ 826B315
-	.string "It took me all night to install\n"
-	.string "the doors…\p"
-	.string "You're almost my equal in greatness!$"
+	.string "밤을 새서 문을\n"
+	.string "설치해 놓았는데...\p"
+	.string "이 몸 다음으로\n"
+	.string "대단하군!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows: @ 826B365
-	.string "It took me all night setting up arrows…\p"
-	.string "You're my equal in greatness!$"
+	.string "밤을 새서 화살표 정렬해 놨는데...\p"
+	.string "이 몸과 비슷할 만큼 대단해!$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors: @ 826B3AB
-	.string "It took me all night polishing floors…\p"
-	.string "You're above me in greatness!\n"
-	.string "Possibly…$"
+	.string "밤을 새서 바닥을 닦아 놨는데...\p"
+	.string "이 몸보다 더 대단할지도...!$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry: @ 826B3FA
-	.string "Wh-what should I do?\n"
-	.string "My fountain of ideas for tricks has\l"
-	.string "run dry…\p"
-	.string "Perhaps it is time I toured the country\n"
-	.string "on a quest to devise new tricks…$"
+	.string "어 어쩌지...\n"
+	.string "숨겨진 장치를 만들 만한\l"
+	.string "아이디어가 다 떨어져버렸어...\p"
+	.string "또 전국 각지를 돌면서\n"
+	.string "새로운 장치를 생각해와야겠다...$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent: @ 826B485
-	.string "I hate to admit defeat, but you have\n"
-	.string "bested me!\p"
-	.string "Still, you must have been reeled in by\n"
-	.string "my charisma for you to visit me again\l"
-	.string "and again. Yes, you must have!\p"
-	.string "But that has nothing to do with my\n"
-	.string "losing!\p"
-	.string "In recognition of the friendship\n"
-	.string "between you, the driven, and the genius\l"
-	.string "that is myself, I demand that you take\l"
-	.string "this keepsake!\p"
-	.string "Actually there are two--\n"
-	.string "a RED TENT and a BLUE TENT.\l"
-	.string "Which do you prefer?$"
+	.string "인정하고 싶진 않지만\n"
+	.string "자네한테는 졌다...!\p"
+	.string "뭐 그렇게 몇 번이나 와준 걸 보면\n"
+	.string "그만큼 이 몸이\l"
+	.string "매력 있었단 소리겠지만\p"
+	.string "그거랑 이 몸이 진 거랑은\n"
+	.string "상관없어!\p"
+	.string "아 그래! 자네와의\n"
+	.string "우정을 기념해서\l"
+	.string "좋은 걸 주도록 하지!\p"
+	.string "“빨강텐트”와 “파랑텐트”\l"
+	.string "둘 중에 어느 걸 가지고 싶어?$"
+	// みとめたくは ないんだがｎ
+	// あんたには まけた……!ｐ
+	// まあ なんども きてくれた あたりｎ
+	// よっぽど わがはいにｌ
+	// みりょくを かんじたの だろうけどなｐ
+	// そのことと わがはいが まけたこととはｎ
+	// かんけいなし!ｐ
+	// そうだ! あんたと わがはいのｎ
+	// ゆうじょうを きねんしてｌ
+	// いいものを プレゼント しよう!ｐ
+	// 「あかいテント」と「あおいテント」ｎ
+	// ふたつ あるんだが どっちが ほしい?
 
 Route110_TrickHouseEnd_Text_NoRoomInPC: @ 826B615
-	.string "What? No room in your PC?\n"
-	.string "What am I to make of that?\p"
-	.string "I wish I could say that, but I am much\n"
-	.string "too kind and caring, so come back later!$"
+	.string "뭐 PC에 들어가지 않는다고?\n"
+	.string "그런 거 내 알 바냐!\p"
+	.string "...라고 말하고 싶지만\n"
+	.string "이 몸은 상냥하니까\l"
+	.string "나중에 찾으러 오도록!$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney: @ 826B69A
-	.string "… … … … … …\p"
-	.string "I am leaving on a journey of discovery.\n"
-	.string "A quest in search of new tricks.\p"
-	.string "I wish that you will one day visit and\n"
-	.string "entertain me again.\p"
-	.string "And now, farewell!$"
+	.string "...... ...... ......\p"
+	.string "이 몸은 이제부터\n"
+	.string "새로운 아이디어를 찾으러\l"
+	.string "여행을 떠날까 해...\p"
+	.string "자네도 나중에 또\n"
+	.string "여기 와서 놀다 가도록 해!\p"
+	.string "그럼 안녕...!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward: @ 826B73D
-	.string "Fine!\n"
-	.string "You have earned this reward!$"
+	.string "좋아 자네에게\n"
+	.string "선물을 주지!$"
 
 Route110_TrickHouseEnd_Text_NoRoomForThis: @ 826B760
-	.string "What? Have you no room for this?\n"
-	.string "What manner of items do you carry?\p"
-	.string "But fine, since you've reached me,\n"
-	.string "your reward will be with me till later.$"
+	.string "뭣 전부 들 수가 없다고?\n"
+	.string "뭘 그렇게 많이 들고 있는 건가?\l"
+	.string "뭐 그래도 여기까지 와주었고\l"
+	.string "상품은 다음에 주도록 하지!$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou: @ 826B7EF
-	.string "Scrub that smug smirk from your face!\n"
-	.string "It's much too early to think you've won!\p"
-	.string "I'll make new tricks to stump you, I will.\n"
-	.string "You may mock me only when you're done.\p"
-	.string "Come back for the next exciting\n"
-	.string "installment!$"
+	.string "어쭈 뭘 그렇게 자신있어 해\n"
+	.string "이 몸한테 완전히 이기려면\l"
+	.string "아직 멀었어!\p"
+	.string "앞으로 또 새로운 장치를 만들 테니\n"
+	.string "그거나 돌파한 다음에 날 비웃어 봐!\p"
+	.string "그럼 다음을 기대하도록!$"
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe: @ 826B8BD
-	.string "Now, now! You're ignoring me now?\n"
-	.string "Now that, I consider heartbreaking!$"
+	.string "어이어이\n"
+	.string "이 몸을 무시하는 거야!\l"
+	.string "그거 아주 서러운데$"
 

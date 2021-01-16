@@ -257,57 +257,60 @@ Route118_EventScript_Deandre:: @ 81F40A7
 	end
 
 Route118_Text_StevenQuestions: @ 81F40BE
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
-	.string "We met in the cave near DEWFORD.\p"
-	.string "Have you met many kinds of POKéMON\n"
-	.string "since I last saw you?\p"
-	.string "There are many, many kinds of POKéMON\n"
-	.string "in this wide world of ours.\p"
-	.string "If you wanted to raise only your\n"
-	.string "favorites, that's fine.\p"
-	.string "Perhaps you find it more fun to raise\n"
-	.string "all sorts of POKéMON.\p"
-	.string "As a TRAINER of POKéMON,\n"
-	.string "what do you think?\p"
-	.string "Of course, it's not any of my business.\p"
-	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "성호: 안녕!\p"
+	.string "넌 무로마을에서 만났던\n"
+	.string "트레이너였지!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "그래 {PLAYER}{K_I}라고 하는구나\n"
+	.string "기억해둘게\p"
+	.string "{PLAYER}\p"
+	.string "이 넓은 세계에는\n"
+	.string "다양한 포켓몬이 있고\l"
+	.string "각자 여러 가지 타입을 가지고 있어\p"
+	.string "여러 가지 타입의\n"
+	.string "포켓몬을 키울 것인가\l"
+	.string "아니면 좋아하는 타입의\l"
+	.string "포켓몬만을 키울 것인가...\p"
+	.string "넌 포켓몬 트레이너로서\n"
+	.string "어떻게 생각해?\p"
+	.string "내가 신경 쓸 건 아니긴 한데\p"
+	.string "그럼\n"
+	.string "또 만날 수 있음 좋겠네$"
 
 Route118_Text_YouAgreeGoodRodIsGood: @ 81F427B
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
-	.string "Wouldn't you agree?$"
+	.string "음!\n"
+	.string "좋은낚싯대는 정말 좋은 거 같아!\p"
+	.string "너도 그렇게 생각하지?$"
 
 Route118_Text_IdenticalMindsTakeThis: @ 81F42AF
-	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "음!\n"
+	.string "너랑은 죽이 맞는데!\p"
+	.string "음!\n"
+	.string "좋은낚싯대를 줄게!$"
 
 Route118_Text_TryYourLuckFishing: @ 81F42E7
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "물이 있는 곳이라면\n"
+	.string "어디서든 낚시를 하는 게 좋을 거야!$"
 
 Route118_Text_DontYouLikeToFish: @ 81F4319
-	.string "Don't you like to fish?$"
+	.string "낚시 싫어하니?$"
 
 Route118_Text_TryCatchingMonWithGoodRod: @ 81F4331
-	.string "Try catching all sorts of POKéMON\n"
-	.string "with your GOOD ROD.$"
+	.string "좋은낚싯대로\n"
+	.string "다양한 포켓몬을 낚아 봐!$"
 
 Route118_Text_CanCrossRiversWithSurf: @ 81F4367
-	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
-	.string "POKéMON can be counted on to do so\n"
-	.string "much!$"
+	.string "배를 안 가지고 있어도\n"
+	.string "파도타기를 배운 포켓몬이 있으면\l"
+	.string "바다든 강이든 건너갈 수 있어!\p"
+	.string "포켓몬은 정말 믿음직스러운 거 같아!$"
 
 Route118_Text_RouteSignMauville: @ 81F43F4
-	.string "ROUTE 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "여기는 118번도로\n"
+	.string "{LEFT_ARROW} 보라시티$"
 
 Route118_Text_RouteSign119: @ 81F440E
-	.string "ROUTE 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "여기는 118번도로\n"
+	.string "{UP_ARROW} 119번도로$"
 

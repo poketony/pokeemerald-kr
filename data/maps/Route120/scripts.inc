@@ -388,70 +388,75 @@ Route120_EventScript_Callie:: @ 81F5981
 	end
 
 Route120_Text_StevenGreeting: @ 81F5998
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "성호: 응? {PLAYER}{K_I}구나\n"
+	.string "오랜만이네\p"
+	.string "여기에 보이지 않는 무언가가 있지?\p"
+	.string "그 보이지 않는 무언가에게\n"
+	.string "이 도구를 쓰면...\p"
+	.string "아니지... 설명하는 것보다\n"
+	.string "실제로 써보는 편이 재미있겠어\p"
+	.string "{PLAYER} 너의 포켓몬\n"
+	.string "승부할 준비는 돼 있나?$"
 
 Route120_Text_StevenIllWaitHere: @ 81F5AAC
-	.string "STEVEN: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "성호: 그래?\p"
+	.string "나는 여기서 기다리고 있을 테니\n"
+	.string "준비를 하도록 해$"
 
 Route120_Text_StevenReadyForBattle: @ 81F5ADE
-	.string "STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
-	.string "ready for battle?$"
+	.string "성호: {PLAYER} 너의 포켓몬\n"
+	.string "승부할 준비는 돼 있나?$"
 
 Route120_Text_StevenShowMeYourPower: @ 81F5B0F
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+	.string "성호: {PLAYER}\n"
+	.string "너의 트레이너로서의\l"
+	.string "실력을 보여줘!$"
 
 Route120_Text_StevenUsedDevonScope: @ 81F5B43
-	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "성호는\n"
+	.string "데봉스코프를 사용했다!\p"
+	.string "투명했던 포켓몬의 모습이\n"
+	.string "훤히 보이게 됐다!\p"
+	.string "포켓몬은\n"
+	.string "놀라서 덤벼들었다!$"
 
 Route120_Text_StevenGiveDevonScope: @ 81F5BAF
-	.string "STEVEN: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "성호: 역시\n"
+	.string "너의 배틀 방식은 재미있구나\p"
+	.string "처음에 무로마을에서 만났을 때보다\n"
+	.string "포켓몬도 성장해 있고...\p"
+	.string "그렇지\n"
+	.string "이 데봉스코프는 너에게 줄게\p"
+	.string "또 모습을 숨기고 있는\n"
+	.string "포켓몬이 있을지도 모르니까$"
 
 Route120_Text_StevenGoodbye: @ 81F5C7B
-	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "성호: {PLAYER}\p"
+	.string "나는 열심히 하는\n"
+	.string "트레이너와 포켓몬을 좋아하지\p"
+	.string "그래서 너도 좋아해\p"
+	.string "그럼\n"
+	.string "다시 어딘가에서 만나자!$"
 
 Kecleon_Text_SomethingUnseeable: @ 81F5D00
-	.string "Something unseeable is in the way.$"
+	.string "보이지 않는 무언가가 있는 것 같다$"
 
 Kecleon_Text_WantToUseDevonScope: @ 81F5D23
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "보이지 않는 무언가가 있는 것 같다\p"
+	.string "데봉스코프를 사용하겠습니까?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked: @ 81F5D63
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "데봉스코프를 사용했다!\p"
+	.string "투명했던 포켓몬의 모습이\n"
+	.string "훤히 보이게 됐다!\p"
+	.string "포켓몬은\n"
+	.string "놀라서 덤벼들었다!$"
 
 Route120_Text_RouteSignFortree: @ 81F5DCB
-	.string "ROUTE 120\n"
-	.string "{LEFT_ARROW} FORTREE CITY$"
+	.string "여기는 120번도로\n"
+	.string "{LEFT_ARROW} 검방울시티$"
 
 Route120_Text_RouteSign121: @ 81F5DE4
-	.string "{RIGHT_ARROW} ROUTE 121\n"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "{RIGHT_ARROW} 121번도로\n"
+	.string "{LEFT_ARROW} 120번도로$"

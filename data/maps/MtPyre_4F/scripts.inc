@@ -9,14 +9,16 @@ MtPyre_5F_EventScript_Atsushi:: @ 8231BC9
 	end
 
 MtPyre_5F_Text_AtsushiIntro: @ 8231BE0
-	.string "Teacher…\n"
-	.string "Please watch over my progress!$"
+	.string "스승님...\n"
+	.string "지금 제 실력을\l"
+	.string "지켜봐 주십쇼!$"
 
 MtPyre_5F_Text_AtsushiDefeat: @ 8231C08
-	.string "Teacher…\n"
-	.string "Please forgive me!$"
+	.string "스승님...\n"
+	.string "면목 없습니다...$"
 
 MtPyre_5F_Text_AtsushiPostBattle: @ 8231C24
-	.string "Until I improve, my teacher, who rests\n"
-	.string "here, will never find true peace…$"
+	.string "더욱 강해지지 않으면\n"
+	.string "이곳에 잠들어 계신 스승님도\l"
+	.string "안심하실 수 없겠지...$"
 

@@ -9,17 +9,17 @@ MtPyre_4F_EventScript_Tasha:: @ 8231C6E
 	end
 
 MtPyre_4F_Text_TashaIntro: @ 8231C85
-	.string "I love all things horrifying…\n"
-	.string "It's like a disease…\p"
-	.string "When I'm here…\n"
-	.string "I shiver with fear…$"
+	.string "무서운 게 좋아서...\n"
+	.string "너무너무 좋아서 참을 수가 없어...\p"
+	.string "난 여기에 있으면\n"
+	.string "무서워서 떨려...$"
 
 MtPyre_4F_Text_TashaDefeat: @ 8231CDB
-	.string "Losing, I dislike…$"
+	.string "지는 건 싫어...$"
 
 MtPyre_4F_Text_TashaPostBattle: @ 8231CEE
-	.string "I want to see dreadful things…\n"
-	.string "I can't leave…\p"
-	.string "Stay…\n"
-	.string "Won't you stay with me?$"
+	.string "무서운 걸 보고 싶어서\n"
+	.string "여기서 떠날 수 없어...\p"
+	.string "저기...\n"
+	.string "너도 같이 있을래...?$"
 

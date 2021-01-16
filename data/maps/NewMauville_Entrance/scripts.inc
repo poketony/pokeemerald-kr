@@ -50,12 +50,13 @@ NewMauville_Entrance_EventScript_DontOpenDoor:: @ 8237380
 	end
 
 NewMauville_Entrance_Text_DoorIsLocked: @ 8237382
-	.string "The door is locked.$"
+	.string "문이 닫혀 있다$"
 
 NewMauville_Entrance_Text_UseBasementKey: @ 8237396
-	.string "Use the BASEMENT KEY?$"
+	.string "지하열쇠를 쓰겠습니까?$"
 
 NewMauville_Entrance_Text_UsedBasementKey: @ 82373AC
-	.string "{PLAYER} used the BASEMENT KEY.\p"
-	.string "The door opened!$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "지하열쇠를 썼다!\p"
+	.string "문이 열렸다!$"
 

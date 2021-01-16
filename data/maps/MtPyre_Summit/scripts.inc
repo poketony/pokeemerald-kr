@@ -451,196 +451,353 @@ MtPyre_Summit_EventScript_Grunt4:: @ 8232442
 	end
 
 MtPyre_Summit_Text_Grunt1Intro: @ 8232459
-	.string "No! Those TEAM MAGMA goons got\n"
-	.string "here ahead of us!\p"
-	.string "We can't fall behind!$"
+	.string "젠장-! 마그마단 녀석들\n"
+	.string "먼저 가버린 건가\p"
+	.string "우리들도 질 순 없지!$"
+	// くっそ-! マグマだんの れんちゅうにｎ
+	// さきを こされて しまったがｐ
+	// オレたちだって まけちゃ いないぜ!
 
 MtPyre_Summit_Text_Grunt1Defeat: @ 82324A0
-	.string "I thought you were one of the MAGMAS\n"
-	.string "who happened to come back…$"
+	.string "너... 도망치고 있던\n"
+	.string "마그마단이라고 생각했는데$"
+	// おまえ…… にげていった マグマだんがｎ
+	// もどって きたのかと おもったんだよ
 
 MtPyre_Summit_Text_Grunt1PostBattle: @ 82324E0
-	.string "Yeah, so you are strong…\n"
-	.string "But there're a lot of us!$"
+	.string "넌 확실히 강하군...\n"
+	.string "하지만 우리들은 아주 많다!$"
+	// たしかに おまえは つよいな……ｎ
+	// だけど おれたちは たくさん いるんだぞ!
 
 MtPyre_Summit_Text_Grunt2Intro: @ 8232513
-	.string "Hah!\n"
-	.string "Too bad for you!\p"
-	.string "If you came earlier, you only would've\n"
-	.string "had to battle the wimpy TEAM MAGMA.\p"
-	.string "But since you arrived now, you have\n"
-	.string "to take on us toughies!$"
+	.string "앗 아쉽게 됐네!\p"
+	.string "조금만 더 빨리 여기에\n"
+	.string "왔다면 약해빠진 마그마단하고\l"
+	.string "승부를 했을 텐데\p"
+	.string "지금 와버린 탓에\n"
+	.string "강한 우리들이 상대니까!$"
+	// おっ ざんねん だったな!ｐ
+	// もうすこし はやく ここにくればｎ
+	// あの よわっちょろい マグマだんとのｌ
+	// しょうぶで すんだ はずなのにｐ
+	// いまごろ きた おかげでｎ
+	// つよい オレたちが あいてだぜ!
 
 MtPyre_Summit_Text_Grunt2Defeat: @ 82325B0
-	.string "Urgh… I should've let you take on\n"
-	.string "TEAM MAGMA first…$"
+	.string "으-음 마그마단이\n"
+	.string "상대가 되는 게 나았을지도...$"
+	// う-む…… マグマだんにｎ
+	// あいてを させれば よかった……
 
 MtPyre_Summit_Text_Grunt2PostBattle: @ 82325E4
-	.string "You don't know anything!\n"
-	.string "So why are you messing with us?$"
+	.string "아무것도 모르는 주제에\n"
+	.string "우리를 방해하지 마라!$"
+	// なにも しらないくせにｎ
+	// オレたちの じゃまを するんじゃないぜ!
 
 MtPyre_Summit_Text_Grunt3Intro: @ 823261D
-	.string "You…\n"
-	.string "We saw you at MT. CHIMNEY.\p"
-	.string "You don't belong to either TEAM,\n"
-	.string "so why would you be here?$"
+	.string "너... 굴뚝산에서 만났던!\p"
+	.string "어느 쪽 단원도 아닌데\n"
+	.string "왜 여기에 있는 거야?$"
+	// おまえ…… えんとつやまで あったな!ｐ
+	// どっちの だんいん でもないのにｎ
+	// なぜ こんな ところに いるんだ!?
 
 MtPyre_Summit_Text_Grunt3Defeat: @ 8232678
-	.string "If you're going to mess with anyone,\n"
-	.string "let it be TEAM MAGMA…$"
+	.string "으으으...\n"
+	.string "방해할 거면 마그마단한테 하라고...$"
+	// ぐぐぐ……ｎ
+	// じゃまを するなら マグマだんに しろ……
 
 MtPyre_Summit_Text_Grunt3PostBattle: @ 82326B3
-	.string "Heh, it doesn't matter!\n"
-	.string "We bought ourselves some time!\p"
-	.string "The BOSS should have snatched what\n"
-	.string "he was after!$"
+	.string "뭐 됐어 시간은 벌었다!\n"
+	.string "지금쯤 리더가 원하는 걸\n"
+	.string "빼앗았을 거다!$"
+	// まあいいさ じかんは かせげた!ｐ
+	// リ-ダ-の もくてきの ものｎ
+	// うばえた はずだぜ!
 
 MtPyre_Summit_Text_Grunt4Intro: @ 823271B
-	.string "Oh, I know!\n"
-	.string "You tried to join TEAM MAGMA,\l"
-	.string "but they wouldn't have you!\p"
-	.string "Well, don't think that we'll let you\n"
-	.string "join our TEAM AQUA!$"
+	.string "앗 알겠다!\n"
+	.string "너 마그마단에 들어가려고 했는데\l"
+	.string "거절당한 거지!\p"
+	.string "하! 우리 아쿠아단도\n"
+	.string "받아주지 않을 거거든!$"
+	// あっ わかった!ｎ
+	// あんた マグマだんに はいろうと したけどｌ
+	// いれて もらえなかったんでしょ!ｐ
+	// はん! うちら アクアだんに だってｎ
+	// いれてやんないよ!
 
 MtPyre_Summit_Text_Grunt4Defeat: @ 823279A
-	.string "If you want to join TEAM AQUA that\n"
-	.string "badly, we can consider it…$"
+	.string "그렇게 원한다면 아쿠아단에\n"
+	.string "넣어줄 수도 있어...$"
+	// そうしたら アクアだんに いれてｎ
+	// やらない ことも ないよ……
 
 MtPyre_Summit_Text_Grunt4PostBattle: @ 82327D8
-	.string "We have a great combination going\n"
-	.string "with us members and our leader.$"
+	.string "리더와 우리 단원 사이에는\n"
+	.string "훌륭한 콤비네이션이 있다고!$"
+	// リ-ダ-と あたしたち だんいんとのｎ
+	// みごとな コンビネ-ション ってわけさ!
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo: @ 823281A
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
-	.string "Okay, TEAM!\n"
-	.string "We're pulling out!$"
+	.string "아강: 마그마단의 마적이\n"
+	.string "먼저 앞질러 가버린 건가\l"
+	.string "우리도 볼일은 다 봤지!\p"
+	.string "송화산에 모셔져 있던\n"
+	.string "주홍구슬...\l"
+	.string "이 아강이 받아가도록 하겠다!\p"
+	.string "후후후...\n"
+	.string "이걸로 우리들의 목적도\l"
+	.string "이루어질 터...\p"
+	.string "자!\n"
+	.string "여기서 철수한다!$"
+	// アオギリ『マグマだんの マツブサにｎ
+	// さきを こされて しまったがｌ
+	// われわれも ようじは すませたぜ!ｐ
+	// おくりびやまに まつられて いたｎ
+	// べにいろのたま……ｌ
+	// たしかに アオギリが いただいた!ｐ
+	// ふふふ……ｎ
+	// これで われわれの もくてきもｌ
+	// はたせると いうものだ……ｐ
+	// さあ!ｎ
+	// ここは ひきあげるぞ!
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis: @ 823290E
-	.string "Oh, no…\n"
-	.string "This cannot happen…\p"
-	.string "Not only the BLUE ORB, but even\n"
-	.string "the RED ORB has been taken…\p"
-	.string "The BLUE ORB and RED ORB must never\n"
-	.string "be separated. They belong together.\p"
-	.string "What are those men trying to do with\n"
-	.string "the two ORBS?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Oh, yes. Was it TEAM MAGMA who came\n"
-	.string "and took the BLUE ORB first?\p"
-	.string "Well, in their haste, they left this\n"
-	.string "behind.\p"
-	.string "I couldn't imagine what exactly it\n"
-	.string "could be.\p"
-	.string "I would like you to have it.\n"
-	.string "Perhaps it will be useful in some way.$"
+	.string "아아 이거 어쩌면 좋을꼬...!\p"
+	.string "쪽빛구슬뿐만이 아니라\n"
+	.string "주홍구슬까지\l"
+	.string "빼앗겨 버리다니...\p"
+	.string "쪽빛구슬과 주홍구슬이\n"
+	.string "서로 떨어져 버리다니\l"
+	.string "결코 있어서는 안 될 일이거늘...\p"
+	.string "그 남자들은 두 구슬로\n"
+	.string "대체 뭘 하려는 건가...\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "그러고 보니 처음에 나타난\n"
+	.string "쪽빛구슬을 가져간\l"
+	.string "마그마단 녀석이\l"
+	.string "이런 걸 두고 갔었단다...\p"
+	.string "이게 뭔지는 나도 모르겠다만\p"
+	.string "너 괜찮다면 이걸\n"
+	.string "받도록 하거라...\p"
+	.string "혹시나 도움이 될 수도\n"
+	.string "있으니까 말이지...!$"
+	// ああ なんという ことだ……!ｐ
+	// あいいろのたま だけではなくｎ
+	// べにいろのたま までもがｌ
+	// うばわれて しまうとは……ｐ
+	// あいいろのたまと べにいろのたまがｎ
+	// はなればなれに なって しまうなどｌ
+	// けっして あっては ならないこと……ｐ
+	// あの おとこたちは ふたつのたまでｎ
+	// いったい なにを するきなのか……ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// そういえば さいしょに あらわれてｎ
+	// あいいろのたまを うばって いったｌ
+	// マグマだん とやらがｌ
+	// こんなものを おとしていった……ｐ
+	// これが なんなのか わたしには わからんｐ
+	// おまえさん よかったら こいつをｎ
+	// もらって おくれ……ｐ
+	// もしかすると なにかの やくにｎ
+	// たつのでは ないだろうか……!
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken: @ 8232AD8
-	.string "The BLUE ORB and RED ORB taken by\n"
-	.string "those sinister men…\p"
-	.string "They must never be apart…\n"
-	.string "I fear something terrible will happen…$"
+	.string "수상한 두 남자가 가져간\n"
+	.string "쪽빛구슬과 주홍구슬...\p"
+	.string "따로 떨어져 있으면\n"
+	.string "분명 좋지 않은 일이 일어날 거야...$"
+	// あやしげな ふたりの おとこに うばわれたｎ
+	// あいいろのたまと べにいろのたま……ｐ
+	// ふたつが はなればなれ ではｎ
+	// きっと よくないことが おこる……
 
 MtPyre_Summit_Text_GroudonKyogreAwakened: @ 8232B4F
-	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and KYOGRE\n"
-	.string "have been awakened?\p"
-	.string "It is said that the BLUE ORB and\n"
-	.string "the RED ORB quelled the rage of\l"
-	.string "the two POKéMON…\p"
-	.string "It is also said that the true owner\n"
-	.string "of the ORBS still exists.\p"
-	.string "However, no one knows who, or what\n"
-	.string "exactly, the ORBS belong to.\p"
-	.string "It could be a human, or perhaps\n"
-	.string "a POKéMON, but no one knows.$"
+	.string "뭐라고...\n"
+	.string "그란돈과 가이오가가\l"
+	.string "눈을 떠버렸다는 건가...\p"
+	.string "일찍이 두 마리의 포켓몬의\n"
+	.string "분노를 잠재우는 것이\l"
+	.string "쪽빛구슬과 주홍구슬이라고\l"
+	.string "전해져 왔었지...\p"
+	.string "그리고 그 구슬의 진정한 주인이\n"
+	.string "어딘가에 있다는 것도...\p"
+	.string "그것이 사람인지\n"
+	.string "아니면 포켓몬인지\p"
+	.string "이것만은\n"
+	.string "그 누구도 알지 못한다네...$"
+	// なんと……ｎ
+	// グラ-ドンと カイオ-ガがｌ
+	// めざめて しまったと いうのか……ｐ
+	// かつて 2ひきの ポケモンのｎ
+	// いかりを しずめたのがｌ
+	// あいいろのたまと べにいろのたまだとｌ
+	// そう いわれておる……ｐ
+	// そして そのたまの しんの もちぬしがｎ
+	// どこかに いると いうのだが……ｐ
+	// それが ひと なのかｎ
+	// あるいは ポケモン なのかｐ
+	// こればっかりはｎ
+	// だれにも わからんのだよ……
 
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs: @ 8232CA6
-	.string "The two men who took the ORBS came\n"
-	.string "back to return them on their own.\p"
-	.string "Those men…\n"
-	.string "Perhaps they are not so evil after all…$"
+	.string "두 구슬을 가져간 남자들이\n"
+	.string "스스로 돌려주러 오다니...\p"
+	.string "그 둘... 생각보다\n"
+	.string "나쁜 녀석들은 아닌가 보구먼$"
+	// ふたつのたまを うばった おとこたちがｎ
+	// みずから かえしに くるとは……ｐ
+	// あの ふたり……ｎ
+	// あんがい わるいやつでは ないのかもな
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs: @ 8232D1E
-	.string "The embodiments of the land, sea,\n"
-	.string "and the sky…\p"
-	.string "That is said to be the identities of\n"
-	.string "the super-ancient POKéMON…\p"
-	.string "In the same way that we humans and\n"
-	.string "POKéMON have life, our world, too,\l"
-	.string "is alive…\p"
-	.string "The super-ancient POKéMON have\n"
-	.string "taught us that…$"
+	.string "대지와 바다와 창공의 화신...\p"
+	.string "그것이 초 고대포켓몬의\n"
+	.string "정체라고 전해지고 있단다...\p"
+	.string "우리들 인간이나 포켓몬에게\n"
+	.string "생명이 있는 것처럼\l"
+	.string "이 대지 역시 살아있단다...\p"
+	.string "초 고대포켓몬은 우리들에게 그것을\n"
+	.string "알려주려 했던 거겠지...$"
+	// だいちと うみと おおぞらの けしん……ｐ
+	// それが ちょうこだいポケモンのｎ
+	// しょうたい とも いわれておる……ｐ
+	// わしら にんげんや ポケモンにｎ
+	// いのちが あるようにｌ
+	// この せかいだって いきている……ｐ
+	// ちょうこだいポケモンは わしたちにｎ
+	// そのことを おしえて くれたのさ……
 
 MtPyre_Summit_Text_WillYouHearOutMyTale: @ 8232E0C
-	.string "MT. PYRE is where we calm the spirits\n"
-	.string "of POKéMON that have passed on…\p"
-	.string "This is a high place where one can\n"
-	.string "see all of HOENN…\p"
-	.string "The disembodied spirits of POKéMON\n"
-	.string "must find solace here…\p"
-	.string "Is it coincidence that you are here…\p"
-	.string "Will you hear out my tale? A tale long\n"
-	.string "told in the HOENN region?$"
+	.string "송화산은 포켓몬의 영혼을\n"
+	.string "위로하기 위한 곳...\p"
+	.string "여기는 높은 곳에 있기 때문에\n"
+	.string "호연지방을 한눈에 볼 수 있어서\l"
+	.string "포켓몬들의 영혼도\l"
+	.string "평온함을 느낄 수 있는 거겠지...\p"
+	.string "자네가 여기로 온 것도\n"
+	.string "하나의 인연...\p"
+	.string "호연지방에서 전해지고 있는\n"
+	.string "이야기를 듣고 가게나...$"
+	// おくりびやまは ポケモンの たましいをｎ
+	// なぐさめる ための ところ……ｐ
+	// ここは たかい ばしょに あってｎ
+	// ホウエンを みわたす ことが できるからｌ
+	// ポケモンたちの たましいもｌ
+	// やすらぎを おぼえるの じゃろう……ｐ
+	// おまえさんが ここに きたのもｎ
+	// なにかの えん……ｐ
+	// ホウエンちほうに つたわる はなしをｎ
+	// きいて いきなされ……
 
 MtPyre_Summit_Text_GroudonKyogreTale: @ 8232F27
-	.string "It happened long, long ago…\p"
-	.string "The world was wracked by a ferocious\n"
-	.string "clash between the POKéMON of the land\l"
-	.string "and the POKéMON of the sea…\p"
-	.string "The POKéMON of the land raised\n"
-	.string "mountains and created continents…\p"
-	.string "The POKéMON of the sea raised huge\n"
-	.string "waves and carved out oceans…\p"
-	.string "Their fierce duel raged without end.\p"
-	.string "The world was engulfed in massive\n"
-	.string "infernos and vicious storms.\p"
-	.string "The BLUE ORB and the RED ORB brought\n"
-	.string "an end to the calamity.\p"
-	.string "Light poured from the two ORBS and\n"
-	.string "becalmed the enraged adversaries.\p"
-	.string "The pair, made docile, dove deep into\n"
-	.string "the sea where eventually they\l"
-	.string "disappeared…$"
+	.string "멀고도 먼 옛날...\p"
+	.string "세계는 육지와 바다의 포켓몬이\n"
+	.string "격렬한 싸움을 벌이고 있었지\p"
+	.string "육지의 포켓몬은\n"
+	.string "대지를 일으켜 세워 땅을 넓히고\p"
+	.string "바다의 포켓몬은\n"
+	.string "거센 파도를 일으켜 바다를 넓혔지\p"
+	.string "두 마리의 싸움은 끝나지 않고\p"
+	.string "이 세계는 활활 타오르는 불꽃과\n"
+	.string "휘몰아치는 폭풍으로 휩싸였지\p"
+	.string "그것을 잠재운 것이\n"
+	.string "주홍구슬과 쪽빛구슬...\p"
+	.string "두 구슬에서 퍼진 빛이\n"
+	.string "두 마리의 분노를 잠재웠다\p"
+	.string "그리고 얌전해진 두 마리는\n"
+	.string "해저 깊은 곳으로 들어가\l"
+	.string "머지않아 그 모습을 감추었다는군....$"
+	// とおい とおい おおむかしの こと……ｐ
+	// せかいでは りくと うみの ポケモンがｎ
+	// はげしい たたかいを くりひろげていたｐ
+	// りくの ポケモンはｎ
+	// だいちを もりあげ じめんを ひろげｐ
+	// うみの ポケモンはｎ
+	// あらなみを おこして うみを ひろげたｐ
+	// 2ひきの たたかいは おわることなくｎ
+	// この せかいは もえさかる ほのおとｌ
+	// ふきあれる あらしで うめつくされたｐ
+	// それを しずめたのがｎ
+	// あいいろのたま と べにいろのたま……ｐ
+	// ふたつの たまから ひろがる ひかりがｎ
+	// 2ひきの いかりを しずめたｐ
+	// そして おとなしくなった 2ひきはｎ
+	// かいてい ふかく もぐっていきｌ
+	// やがて そのすがたを けしたのじゃ……
 
 MtPyre_Summit_Text_WellThatTooIsFine: @ 8233162
-	.string "I see…\n"
-	.string "Well, that, too, is fine…$"
+	.string "그러냐...\n"
+	.string "뭐 그것도 좋겠지...$"
+	// そうかね……ｎ
+	// まあ それも よいじゃろう……
 
 MtPyre_Summit_Text_MaxieSilence: @ 8233183
-	.string "MAXIE: {PLAYER}…\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "마적: {PLAYER}...\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......$"
+	// マツブサ『§あ……ｐ
+	// …… …… ……ｎ
+	// …… …… ……
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn: @ 82331A6
-	.string "It is my role to pass on the legends\n"
-	.string "of HOENN to future generations.\p"
-	.string "And the crisis that just ended in\n"
-	.string "SOOTOPOLIS rewrote a legend…\p"
-	.string "Have you the time to hear the new\n"
-	.string "legend of HOENN?$"
+	.string "호연지방에 남겨진 전설을\n"
+	.string "전하는 것이 내 사명\p"
+	.string "그리고 지금\n"
+	.string "루네시티에서 일어난 사건은\l"
+	.string "막을 내리고\l"
+	.string "전설은 새롭게 다시 써졌다...\p"
+	.string "새로운 호연지방의 전설을\n"
+	.string "듣고 가게나...$"
+	// ホウエンに のこされた いいつたえをｎ
+	// かたりつぐのが わたしの やくめｐ
+	// そして いまｎ
+	// ルネで おこった じけんは まくを とじｌ
+	// いいつたえは また ぬりかえられた……ｐ
+	// あらたな ホウエンの いいつたえをｎ
+	// きいて いきなされ……
 
 MtPyre_Summit_Text_HoennTrioTale: @ 823325D
-	.string "It happened long, long ago…\p"
-	.string "The world was wracked by a ferocious\n"
-	.string "clash between the POKéMON of the land\l"
-	.string "and the POKéMON of the sea…\p"
-	.string "The POKéMON of the land raised\n"
-	.string "mountains and created continents…\p"
-	.string "The POKéMON of the sea raised huge\n"
-	.string "waves and carved out oceans…\p"
-	.string "Their fierce duel raged without end.\p"
-	.string "The world was engulfed in massive\n"
-	.string "fires and vicious storms.\p"
-	.string "It was then that the POKéMON of\n"
-	.string "the sky descended from a storm.\p"
-	.string "The POKéMON, shining a vivid green,\n"
-	.string "becalmed the two enraged POKéMON.\p"
-	.string "Then, its duty done, the green POKéMON\n"
-	.string "flew off into the wild blue yonder…$"
+	.string "멀고도 먼 옛날...\p"
+	.string "세계는 육지와 바다의 포켓몬이\n"
+	.string "격렬한 싸움을 벌이고 있었지\p"
+	.string "육지의 포켓몬은\n"
+	.string "대지를 일으켜 세워 땅을 넓히고\p"
+	.string "바다의 포켓몬은\n"
+	.string "거센 파도를 일으켜 바다를 넓혔지\p"
+	.string "두 마리의 싸움은 끝나지 않고\p"
+	.string "이 세계는 활활 타오르는 불꽃과\n"
+	.string "휘몰아치는 폭풍으로 휩싸였지\p"
+	.string "그때!\n"
+	.string "폭풍 속에서 내려온 것이\l"
+	.string "창공의 포켓몬...\p"
+	.string "그 초록색으로 빛나는 포켓몬은\n"
+	.string "두 마리의 분노를 잠재우고\l"
+	.string "또다시 어딘가로 날아가버렸다\p"
+	.string "어딘가 멀리 있는\l"
+	.string "하늘 저편으로...$"
+	// とおい とおい おおむかしの こと……ｐ
+	// せかいでは りくと うみの ポケモンがｎ
+	// はげしい たたかいを くりひろげていたｐ
+	// りくの ポケモンはｎ
+	// だいちを もりあげ じめんを ひろげｐ
+	// うみの ポケモンはｎ
+	// あらなみを おこして うみを ひろげたｐ
+	// 2ひきの たたかいは おわることなくｎ
+	// この せかいは もえさかる ほのおとｌ
+	// ふきあれる あらしで うめつくされたｐ
+	// そのとき!ｎ
+	// あらしの なかから まいおりて きたのがｌ
+	// おおぞらの ポケモン……ｐ
+	// その みどりに かがやく ポケモンはｎ
+	// 2ひきの いかりを しずめるとｌ
+	// また どこかへと とびさって いったｐ
+	// どこか とおいｎ
+	// そらの かなたへ……
 
