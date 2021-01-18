@@ -226,101 +226,173 @@ SeafloorCavern_Room9_Movement_Delay32: @ 823505C
 	step_end
 
 SeafloorCavern_Room9_Text_ArchieHoldItRightThere: @ 823505F
-	.string "ARCHIE: Hold it right there.$"
+	.string "아강: ...거기 멈춰라!$"
+	// アオギリ『……まつんだ!
 
 SeafloorCavern_Room9_Text_ArchieSoItWasYou: @ 823507C
-	.string "ARCHIE: Fufufu…\n"
-	.string "So it was you, after all.$"
+	.string "아강: 후후후...\n"
+	.string "역시 너였던 건가$"
+	// アオギリ『ふふふ……ｎ
+	// やはり おまえ だったか
 
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre: @ 82350A6
-	.string "ARCHIE: Behold!\p"
-	.string "See how beautiful it is, the sleeping\n"
-	.string "form of the ancient POKéMON KYOGRE!\p"
-	.string "I have waited so long for this day to\n"
-	.string "come…$"
+	.string "아강: 어떠냐 봐라!\p"
+	.string "초 고대포켓몬 가이오가가\n"
+	.string "조용히 잠들어 있는\l"
+	.string "이 아름다운 모습을!\p"
+	.string "난 이 날이 오기만을\n"
+	.string "오랫동안 기다려왔다...$"
+	// アオギリ『どうだ みてみろ!ｐ
+	// ちょう こだいポケモン カイオ-ガがｎ
+	// しずかに ねむる うつくしい すがたを!ｐ
+	// おれは この ひが くるのをｎ
+	// ながい あいだ まっていた……
 
 SeafloorCavern_Room9_Text_ArchieYouMustDisappear: @ 823512C
-	.string "ARCHIE: It surprises me, how you've\n"
-	.string "managed to chase me here.\p"
-	.string "But that's all over now.\p"
-	.string "For the realization of my dream,\n"
-	.string "you must disappear now!$"
+	.string "아강: 그건 그렇고 설마 네가\n"
+	.string "여기까지 왔을 줄이야!\p"
+	.string "하지만 그것도 끝이다\n"
+	.string "내 목적 달성을 위해\l"
+	.string "너는 여기서 사라져 줘야겠다!$"
+	// アオギリ『それにしても まさかｎ
+	// ここまで くいついて くるとはな!ｐ
+	// だが それも もう おわりｎ
+	// おれの もくてき たっせいの ためｌ
+	// おまえには ここで きえてもらう!
 
 SeafloorCavern_Room9_Text_ArchieDefeat: @ 82351BC
-	.string "What?!\n"
-	.string "I lost to a mere child like you?!$"
+	.string "뭐라고?!\n"
+	.string "너같은 녀석한테 내가...?!$"
+	// なにっ!?ｎ
+	// おまえ ごときに おれが……?
 
 SeafloorCavern_Room9_Text_ArchieWithThisRedOrb: @ 82351E5
-	.string "ARCHIE: Fufufu…\p"
-	.string "I commend you. I must recognize that\n"
-	.string "you are truly gifted.\p"
-	.string "But!\n"
-	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "아강: 후후후...\p"
+	.string "역시나라고 해야 하나...\n"
+	.string "너의 그 힘은 인정하마!\p"
+	.string "허나...!\n"
+	.string "내게는 이것이 있다!\p"
+	.string "이 주홍구슬이 있으면\n"
+	.string "가이오가를...$"
+	// アオギリ『フフフ……ｐ
+	// さすが というべきか……ｎ
+	// おまえの その ちからは みとめよう!ｐ
+	// だが……!ｎ
+	// おれには これが ある!ｐ
+	// この べにいろのたまが あればｎ
+	// カイオ-ガを……
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself: @ 8235279
-	.string "The RED ORB suddenly began shining\n"
-	.string "by itself!$"
+	.string "주홍구슬이...\n"
+	.string "멋대로 빛나기 시작했다...?!$"
+	// べにいろのたまが……ｎ
+	// かってに かがやき はじめた……!?
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
-	.string "ARCHIE: What?!\p"
-	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "아강: ..?!\p"
+	.string "나는 아무것도 하지 않았는데\n"
+	.string "어째서 주홍구슬이...?\p"
+	.string "가이오가는 어디로 사라졌지?$"
+	// アオギリ『……!?ｐ
+	// おれは なにも していないのにｎ
+	// なぜ べにいろのたまが……?ｐ
+	// カイオ-ガは どこへ きえた?
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside: @ 82352F6
-	.string "ARCHIE: Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "아강: 밖에 있는\n"
+	.string "단원한테로군$"
+	// アオギリ『そとに いるｎ
+	// だんいん からの れんらくか
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
-	.string "ARCHIE: Yes, what is it?\p"
-	.string "Hm…\n"
-	.string "It's raining heavily?\p"
-	.string "Good… That should have happened.\n"
-	.string "That is why we awakened KYOGRE,\l"
-	.string "to realize TEAM AQUA's vision of\l"
-	.string "expanding the sea.\p"
-	.string "What?!\p"
-	.string "It's raining far harder than we\n"
-	.string "envisioned? You're in danger?\p"
-	.string "That can't be…\n"
-	.string "That's just not possible…\p"
-	.string "Hold your position and monitor\n"
-	.string "the situation!$"
+	.string "아강: 뭔가...?\p"
+	.string "흠...\n"
+	.string "폭우가 내리고 있다고...\p"
+	.string "그렇겠지... 그것이야말로\n"
+	.string "우리들 아쿠아단의 목적\l"
+	.string "바다를 넓히기 위해 가이오가를\l"
+	.string "깨운 이유니까 말이다\p"
+	.string "뭐라고!\p"
+	.string "예상한 것 이상의 폭우로 이대로라면\n"
+	.string "우리들도 위험하다고?!\p"
+	.string "설마 그럴 리가...\n"
+	.string "그럴 리가 없을 텐데...\p"
+	.string "어쨌든 계속 상태를 보고 있어라!$"
+	// アオギリ『どうした……?ｐ
+	// ふうむ……ｎ
+	// おおあめが ふっている……ｐ
+	// そうだろう…… それこそがｎ
+	// われわれ アクアだんの もくてきｌ
+	// うみを ふやすために カイオ-ガをｌ
+	// めざめさせた りゆう なのだからなｐ
+	// なんだと!ｐ
+	// よそう いじょうの あめでｎ
+	// このままでは われわれも キケンだと?ｐ
+	// そんな ばかな……ｎ
+	// とにかく ようすを みているんだ!
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
-	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
-	.string "and control KYOGRE…\p"
-	.string "But… Why?\n"
-	.string "Why did KYOGRE disappear?\p"
-	.string "Why?!$"
+	.string "아강: 이상해...\p"
+	.string "주홍구슬로 가이오가가 눈을 뜨고\n"
+	.string "그리고 컨트롤할 수 있었을 텐데...\p"
+	.string "그런데... 어째서...\n"
+	.string "가이오가는 여기서 없어졌다?!\p"
+	.string "어째서지?!$"
+	// アオギリ『おかしい……ｐ
+	// べにいろのたまで カイオ-ガが めざめるｎ
+	// そして コントロ-ル できるはず……ｐ
+	// なのに…… どうして……ｎ
+	// カイオ-ガは いなくなった!?ｐ
+	// なぜなんだ!?
 
 SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought: @ 82354F0
-	.string "MAXIE: What have you wrought?\p"
-	.string "ARCHIE… You've finally awoken KYOGRE,\n"
-	.string "haven't you?\p"
-	.string "What will happen to the world if this\n"
-	.string "downpour continues for all eternity?\p"
-	.string "The world's landmass will drown in\n"
-	.string "the deepening sea…$"
+	.string "마적: 무슨 일이란 말인가...\p"
+	.string "아강... 너도 결국\n"
+	.string "가이오가를 눈 뜨게 해버린 건가!\p"
+	.string "이대로 영원히\n"
+	.string "폭우가 쏟아져 내린다면\l"
+	.string "세계는 대체 어떻게 되겠는가!\p"
+	.string "모든 대지가\n"
+	.string "물 깊숙히 가라앉게 되는 거다...$"
+	// マツブサ『なんてことだ……ｐ
+	// アオギリよ…… おまえらもｎ
+	// カイオ-ガを めざめさせて しまったな!ｐ
+	// このまま えいえんにｎ
+	// おおあめが ふりつづけたらｌ
+	// せかいは いったい どうなる!ｐ
+	// すべての だいちはｎ
+	// みずの そこに しずむぞ……
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty: @ 82355C2
-	.string "ARCHIE: W-what?!\n"
-	.string "Don't get all high and mighty with me!\p"
-	.string "Wasn't it you, TEAM MAGMA, that\n"
-	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
-	.string "I should be able to control KYOGRE…\p"
-	.string "I should be able to control it…$"
+	.string "아강: 뭐 뭐라고?!\n"
+	.string "멋대로 말하지 마라!\p"
+	.string "너희 마그마단이야말로 그란돈을\n"
+	.string "깨워버리지 않았는가!\p"
+	.string "난 이 주홍구슬이 있으면\n"
+	.string "가이오가를 컨트롤할 수...\p"
+	.string "할 수 있을 거라고 생각했는데...$"
+	// アオギリ『な なんだと!?ｎ
+	// かってな ことを いわないでくれ!ｐ
+	// おまえら マグマだんこそ グラ-ドンをｎ
+	// おこらせて しまった じゃないか!ｐ
+	// おれは この べにいろのたまさえ あればｎ
+	// カイオ-ガを コントロ-ル できるはず……ｐ
+	// できる はず なんだ……
 
 SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue: @ 8235692
-	.string "MAXIE: We don't have the time to\n"
-	.string "argue about it here!\p"
-	.string "Get outside and see for yourself!\p"
-	.string "See if what you've wrought is the\n"
-	.string "world that we desired!$"
+	.string "마적: 어쨌든 지금은 여기서\n"
+	.string "말다툼하고 있을 때가 아니다!\p"
+	.string "밖으로 나가서 확인하도록 해라!\n"
+	.string "눈앞에 펼쳐진 게\l"
+	.string "우리가 원하던 세계인지 아닌지를$"
+	// マツブサ『とにかく いまは ここでｎ
+	// いいあらそいを している ひまはない!ｐ
+	// そとに でて たしかめると いい!ｎ
+	// めのまえに ひろがっているのがｌ
+	// われわれの のぞんだ せかいか どうか!
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer: @ 8235723
-	.string "MAXIE: {PLAYER}, come on, you have\n"
-	.string "to get out of here, too!$"
+	.string "마적: {PLAYER}... 너도\n"
+	.string "서둘러 밖으로 나가거라!$"
+	// マツブサ『§あ…… おまえもｎ
+	// はやく そとに でるんだ!

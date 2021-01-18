@@ -66,30 +66,46 @@ SeafloorCavern_Entrance_EventScript_GruntFacePlayerNorth:: @ 8234539
 	return
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep: @ 8234544
-	.string "Hey!\n"
-	.string "I remember your face!\p"
-	.string "If you're here, it must mean that\n"
-	.string "you're about to mess with us again!\p"
-	.string "A punk like you, do you really think\n"
-	.string "you can take on TEAM AQUA?\p"
-	.string "I'd say you're too early by about\n"
-	.string "a trillion years!\p"
-	.string "You're a perfect fit for the likes of\n"
-	.string "TEAM MAGMA!\p"
-	.string "Speaking of TEAM MAGMA, I hear they\n"
-	.string "were spotted near MOSSDEEP.\p"
-	.string "That bunch of goons, they sure don't\n"
-	.string "look good near the sea!$"
+	.string "아-----앗!\n"
+	.string "본 적 있는 얼굴!\p"
+	.string "이런 곳까지 왔다는 건\n"
+	.string "또 우리들을 방해하려고?!\p"
+	.string "너같은 녀석이 아쿠아단에게\n"
+	.string "반항하다니\l"
+	.string "100억만 년은 빠르다고!\p"
+	.string "너에겐 마그마단이 어울려!\p"
+	.string "...그러고 보니 이끼시티에\n"
+	.string "마그마단이 나타났다는데\p"
+	.string "녀석들...\n"
+	.string "정-말 바다하고 안 어울려!$"
+	// あ-----っ!ｎ
+	// みおぼえの ある そのかおは!ｐ
+	// こんな ところまで きたって ことはｎ
+	// また オレたちの ジャマをしに!?ｐ
+	// おまえ ごときが アクアだんにｎ
+	// はむかおう だなんてｌ
+	// 100おくまんねん はえ-んだよ!ｐ
+	// おまえにゃ マグマだんが おにあいさ!ｐ
+	// ……そういえば トクサネの ちかくでｎ
+	// マグマだんを みかけたっけなｐ
+	// あいつら……ｎ
+	// ほんっと--に うみが にあわねえぜ!
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort: @ 82346C8
-	.string "A punk like you, do you really think\n"
-	.string "you can take on TEAM AQUA?\p"
-	.string "I'd say you're too early by about\n"
-	.string "a trillion years!\p"
-	.string "You're a perfect fit for the likes of\n"
-	.string "TEAM MAGMA!\p"
-	.string "Speaking of TEAM MAGMA, I hear they\n"
-	.string "were spotted near MOSSDEEP.\p"
-	.string "That bunch of goons, they sure don't\n"
-	.string "look good near the sea!$"
+	.string "너같은 녀석이 아쿠아단에게\n"
+	.string "반항하다니\l"
+	.string "100억만 년은 빠르다고!\p"
+	.string "너에겐 마그마단이 어울려!\p"
+	.string "...그러고 보니 이끼시티에\n"
+	.string "마그마단이 나타났다는데\p"
+	.string "녀석들...\n"
+	.string "정-말 바다하고 안 어울려!$"
+	// おまえ ごときが アクアだんにｎ
+	// はむかおう だなんてｌ
+	// 100おくまんねん はえ-んだよ!ｐ
+	// おまえにゃ マグマだんが おにあいさ!ｐ
+	// ……そういえば トクサネの ちかくでｎ
+	// マグマだんを みかけたっけなｐ
+	// あいつら……ｎ
+	// ほんっと--に うみが にあわねえぜ!
 

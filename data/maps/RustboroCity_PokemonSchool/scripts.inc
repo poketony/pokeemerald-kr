@@ -312,50 +312,84 @@ RustboroCity_PokemonSchool_Text_StudentsNotes: @ 82147A2
 	.string "목표라고 할 수 있다$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut: @ 82148C0
-	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
-	.string "Let me introduce myself.\n"
-	.string "My name's SCOTT.\p"
-	.string "I've been traveling everywhere in\n"
-	.string "search of outstanding TRAINERS.\p"
-	.string "More specifically, I'm looking for\n"
-	.string "POKéMON battle experts.\p"
-	.string "So, what brings you to this SCHOOL?\n"
-	.string "Are you a TRAINER, too?\p"
-	.string "The first thing you should do is to\n"
-	.string "have a POKéMON learn the move CUT.\p"
-	.string "If I remember correctly, someone in\n"
-	.string "this town has CUT.$"
+	.string "응? 너하고는 확실히\n"
+	.string "등화도시에서 만났었던가\p"
+	.string "내 이름은 금작화\p"
+	.string "포켓몬 승부의 재능을 가진\n"
+	.string "우수한 인재를 찾아\l"
+	.string "각지를 여행하고 있지\p"
+	.string "스쿨에 견학하러 왔다는 건\n"
+	.string "너도 트레이너인 거지?\p"
+	.string "그렇다면 일단 풀베기를\n"
+	.string "포켓몬에게 가르쳐야겠네!\p"
+	.string "풀베기는 분명 이 마을의\n"
+	.string "누군가가 가지고 있었지$"
+	// おや? きみとは たしかｎ
+	// トウカシティで あった きがするねｐ
+	// わたしの なまえは エニシダｐ
+	// ポケモンしょうぶの さいのうを もったｎ
+	// ゆうしゅうな じんざいを もとめてｌ
+	// かくちを たびして いるのさｐ
+	// スク-ルを のぞきにきた ということはｎ
+	// きみも トレ-ナ-?ｐ
+	// ならば まずは いあいぎりをｎ
+	// ポケモンに おぼえさせると いいね!ｐ
+	// いあいぎりは たしか このまちのｎ
+	// だれかが もっていた はずだよ
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown: @ 8214A5F
-	.string "SCOTT: Hmm…\p"
-	.string "The talent levels of the students here\n"
-	.string "are unknown. The potential's there.$"
+	.string "금작화: 으-음 여기에 있는\p"
+	.string "학생들의 재능은\n"
+	.string "아직 알 수 없어! 이제부터 시작이지!$"
+	// エニシダ『う-ん ここに いるｎ
+	// せいとさん たちの さいのうはｌ
+	// まだまだ みちすう! これから だな!
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge: @ 8214AB6
-	.string "SCOTT: Oh, what's that?\p"
-	.string "It's a STONE BADGE, isn't it?\n"
-	.string "That's pretty impressive, I'd say.\p"
-	.string "But, you know, I would've loved to see\n"
-	.string "you in battle.\p"
-	.string "It's hard to tell what you're like as\n"
-	.string "a TRAINER from a LEAGUE BADGE.$"
+	.string "금작화: 음 그건...\n"
+	.string "스톤배지구나\l"
+	.string "꽤 실력이 좋은데!\p"
+	.string "하지만 되도록이면\n"
+	.string "싸우는 모습을 보고 싶었어\l"
+	.string "리그배지만으로는 네가\l"
+	.string "어떤 트레이너인지\l"
+	.string "잘 모르니까 말야$"
+	// エニシダ『ん それは……ｎ
+	// スト-ンバッジ だねｌ
+	// なかなか やるじゃ ないか!ｐ
+	// だけど できればｎ
+	// たたかっている ところを みたかったなｌ
+	// リ-グバッジ だけでは きみがｌ
+	// どんな トレ-ナ- なのかはｌ
+	// よく わからない からね
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge: @ 8214B8A
-	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
-	.string "Let me introduce myself.\n"
-	.string "My name's SCOTT.\p"
-	.string "I've been traveling everywhere in\n"
-	.string "search of outstanding TRAINERS.\p"
-	.string "More specifically, I'm looking for\n"
-	.string "POKéMON battle experts.\p"
-	.string "Oh, what's that?\n"
-	.string "It's a STONE BADGE, isn't it?\p"
-	.string "That's pretty impressive, I'd say, for\n"
-	.string "a starting TRAINER like yourself.\p"
-	.string "But, you know, I would've loved to see\n"
-	.string "you in battle.\p"
-	.string "It's hard to tell what you're like as\n"
-	.string "a TRAINER from a LEAGUE BADGE.$"
+	.string "응? 너하고는 확실히\n"
+	.string "등화도시에서 만났었던가\p"
+	.string "내 이름은 금작화\p"
+	.string "포켓몬 승부의 재능을 가진\n"
+	.string "우수한 인재를 찾아\l"
+	.string "각지를 여행하고 있지\p"
+	.string "네가 가진 그건...\n"
+	.string "스톤배지구나\l"
+	.string "신참 트레이너치고는 실력이 좋네\p"
+	.string "하지만 되도록이면\n"
+	.string "싸우는 모습을 보고 싶었어\l"
+	.string "리그배지만으로는 네가\l"
+	.string "어떤 트레이너인지\l"
+	.string "잘 모르니까 말야$"
+	// おや? きみとは たしかｎ
+	// トウカシティで あった きがするねｐ
+	// わたしの なまえは エニシダｐ
+	// ポケモンしょうぶの さいのうを もったｎ
+	// ゆうしゅうな じんざいを もとめてｌ
+	// かくちを たびして いるのさｐ
+	// きみの それは……ｎ
+	// スト-ンバッジ だねｌ
+	// トレ-ナ-に なりたてに しては やるねｐ
+	// だけど できればｎ
+	// たたかっている ところを みたかったなｌ
+	// リ-グバッジ だけでは きみがｌ
+	// どんな トレ-ナ- なのかはｌ
+	// よく わからない からね
 

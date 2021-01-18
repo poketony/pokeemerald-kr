@@ -294,55 +294,56 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard:: @ 8270F63
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting: @ 8270F6C
-	.string "I'm the DIVING TREASURE HUNTER!\p"
-	.string "I'm the awesome dude who makes\n"
-	.string "deep-sea dives to gather treasures\l"
-	.string "resting at the bottom.$"
+	.string "난 다이빙 트레져헌터!\p"
+	.string "깊은 바닷속으로 잠수해서\n"
+	.string "해저에 잠들어 있는 보물을 모으는\l"
+	.string "대단한 녀석이야!$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards: @ 8270FE5
-	.string "Tell me, have you seen any SHARDS of\n"
-	.string "tools made in ancient times?$"
+	.string "머나먼 옛날에 만들어졌다고 하는\n"
+	.string "다양한 조각 발견했어?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards: @ 8271027
-	.string "You haven't got any treasures\n"
-	.string "for me…\p"
-	.string "If you see any SHARDS, like the RED\n"
-	.string "SHARD, you've got to trade it with me!$"
+	.string "너 보물 안 가지고 있구나...\p"
+	.string "빨강조각이라든가\n"
+	.string "다양한 조각 발견하면\l"
+	.string "교환해 줘!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou: @ 8271098
-	.string "Oh, hey! That…\n"
-	.string "That's a SHARD! I'm looking for those!\p"
-	.string "Oh, man, you've got to trade that\n"
-	.string "with me! I'll give you something good!$"
+	.string "오오! 이건!\n"
+	.string "내가 찾고 있던 조각!!\p"
+	.string "저기 말이야!\n"
+	.string "네가 가지고 있는 보물이랑\l"
+	.string "내 보물이랑 교환해 줘!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade: @ 8271117
-	.string "What do you want to trade?$"
+	.string "어떤 거랑 교환해 줄 거야?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone: @ 8271132
-	.string "You'll trade your {STR_VAR_1} for\n"
-	.string "my {STR_VAR_2}, then?$"
+	.string "{STR_VAR_1}을 {STR_VAR_2}이랑\n"
+	.string "교환하는 거지?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal: @ 8271158
-	.string "It's a done deal!\n"
-	.string "Use that wisely!$"
+	.string "교환 성립!\n"
+	.string "소중하게 써 줘!$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse: @ 827117B
-	.string "Do you want to trade something else?$"
+	.string "또 교환할래?$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull: @ 82711A0
-	.string "Whoops, your BAG's full.\n"
-	.string "Get rid of some items, friend!$"
+	.string "잠깐 가지고 있는 게 너무 많아\n"
+	.string "도구를 좀 줄이고 와 줘$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind: @ 82711D8
-	.string "No? That's a downer.\n"
-	.string "Well, if you change your mind, come back.$"
+	.string "그거 실망인데\n"
+	.string "마음이 바뀌면 다시 와 줘!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard: @ 8271217
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x06}YELLOW SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}THUNDERSTONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0c}BLUE SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}WATER STONE{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+	.string "{CLEAR_TO 0x0a}원하는 것{CLEAR_TO 0x7c}교환할 것\n"
+	.string "{CLEAR_TO 0x0f}빨강조각{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}불꽃의돌{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}원하는 것{CLEAR_TO 0x7c}교환할 것\n"
+	.string "{CLEAR_TO 0x06}노랑조각{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}천둥의돌{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}원하는 것{CLEAR_TO 0x7c}교환할 것\n"
+	.string "{CLEAR_TO 0x0c}파랑조각{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}물의돌{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}원하는 것{CLEAR_TO 0x7c}교환할 것\n"
+	.string "{CLEAR_TO 0x08}초록조각{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}리프의돌$"

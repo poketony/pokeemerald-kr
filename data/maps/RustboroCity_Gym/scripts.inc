@@ -167,19 +167,24 @@ RustboroCity_Gym_Text_TommyPostBattle: @ 82134E6
 	.string "방심하지 않는 게 좋을 거야!$"
 
 RustboroCity_Gym_Text_MarcIntro: @ 8213533
-	.string "We might be in the middle of town,\n"
-	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
-	.string "rampage!$"
+	.string "이런 마을에서도\n"
+	.string "바위타입은 대활약한다고!$"
+	// こんな まちなか でもｎ
+	// いわタイプで おおあばれだ!
 
 RustboroCity_Gym_Text_MarcDefeat: @ 8213589
-	.string "Oh, man oh man!\n"
-	.string "Our challenger is one feisty customer!$"
+	.string "오옷-!\n"
+	.string "기세 좋은 도전자구만!$"
+	// おお-っ!ｎ
+	// いきの いい ちょうせんしゃ だな!
 
 RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
-	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "젊은데도 바위타입을\n"
+	.string "고르다니\l"
+	.string "우리 체육관 관장은 감이 좋아!$"
+	// わかくして いわタイプにｎ
+	// めを つける なんてｌ
+	// うちの ジムリ-ダ-は センスが いいぜ!
 
 RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "어머 안녕하세요\p"
@@ -245,21 +250,20 @@ RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
-	.string "This is ROXANNE of RUSTBORO CITY.\p"
-	.string "I heard from BRAWLY that you're\n"
-	.string "moving up through the ranks of\l"
-	.string "TRAINERS at an incredible clip.\p"
-	.string "Well, I'd rather not think that\n"
-	.string "I can't beat you.\p"
-	.string "I promise, I will shape up my GYM\n"
-	.string "so that you may challenge us again.\p"
-	.string "I hope you'll be looking forward to\n"
-	.string "that occasion as much as me!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...삑!\p"
+	.string "원규: 앗 {PLAYER}씨인가요?\n"
+	.string "저 금탄도시의 원규예요!\p"
+	.string "종길씨한테서 들었습니다\n"
+	.string "당신 굉장한 기세로\l"
+	.string "이겨나가고 있던데요!\p"
+	.string "이쪽도 진 채로 있을 수 없죠\n"
+	.string "다시 한 번 체육관을 정비하고\l"
+	.string "언젠가 다시 도전을 받겠습니다!\p"
+	.string "부디 그 날을\n"
+	.string "기대해 주세요!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...딸깍-$"
 	// …… …… ……ｎ
 	// …… …… …… ピッ!ｐ
 	// ツツジ『あっ §あさん ですか?ｎ
@@ -280,31 +284,51 @@ RustboroCity_Gym_Text_RegisteredRoxanne: @ 8213C01
 	.string "포켓내비에 등록했다!$"
 
 RustboroCity_Gym_Text_RoxannePreRematch: @ 8213C2F
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become. Let us battle!$"
+	.string "원규: 다시 뵙게 되었군요\n"
+	.string "체육관 관장 원규입니다\p"
+	.string "그로부터 서로\n"
+	.string "수많은 승부를 경험하고\p"
+	.string "얼마나 강해졌는지...\n"
+	.string "자 승부하도록 하죠!$"
+	// ツツジ『また おめにかかれましたねｎ
+	// ジムリ-ダ-の ツツジ ですｐ
+	// あれから おたがいにｎ
+	// いくつもの しょうぶを けいけんしｌ
+	// どれほど つよく なれたのか……ｐ
+	// さあ おてあわせ ねがいます!
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat: @ 8213CF9
-	.string "Grr…\n"
-	.string "Again, I have lost…$"
+	.string "으으으...\n"
+	.string "또 저의 패배인가요....$"
+	// くうぅ……ｎ
+	// またしても わたくしの まけ……
 
 RustboroCity_Gym_Text_RoxannePostRematch: @ 8213D12
-	.string "ROXANNE: I still have much to learn\n"
-	.string "when it comes to battling POKéMON.\p"
-	.string "That awareness makes me love battling\n"
-	.string "all that much more!$"
+	.string "원규: 아직 포켓몬 승부에는\n"
+	.string "배울 것이 잔뜩 있군요\p"
+	.string "저... 포켓몬 승부가\n"
+	.string "더 좋아졌어요!$"
+	// ツツジ『まだまだ ポケモン しょうぶはｎ
+	// まなぶことが たくさん あるのですねｐ
+	// わたくし…… ポケモン しょうぶがｎ
+	// ますます すきに なりましたよ!
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons: @ 8213D93
-	.string "ROXANNE: I'm so glad to see you again.\n"
-	.string "I'm ROXANNE, the GYM LEADER here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become…\p"
-	.string "Oh, no…\n"
-	.string "You only have one POKéMON with you?\p"
-	.string "Please return with at least one more\n"
-	.string "POKéMON.$"
+	.string "원규: 다시 뵙게 되었군요\n"
+	.string "체육관 관장 원규입니다\p"
+	.string "그로부터 서로\n"
+	.string "수많은 승부를 경험하고\l"
+	.string "얼마나 강해졌는지...\p"
+	.string "...어라? 싸울 수 있는 포켓몬이\n"
+	.string "한 마리밖에 없군요\p"
+	.string "부디 두 마리 이상\n"
+	.string "포켓몬을 데리고 와주세요$"
+	// ツツジ『また おめにかかれましたねｎ
+	// ジムリ-ダ-の ツツジ ですｐ
+	// あれから おたがいにｎ
+	// いくつもの しょうぶを けいけんしｌ
+	// どれほど つよく なれたのか……ｐ
+	// ……あら? たたかえる ポケモンをｎ
+	// 1ひきしか もっていませんねｐ
+	// どうぞ 2ひき いじょうのｎ
+	// ポケモンを もって きてください

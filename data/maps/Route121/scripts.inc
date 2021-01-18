@@ -176,20 +176,20 @@ Route121_EventScript_RematchCristin:: @ 81F6043
 	end
 
 Route121_Text_OkayMoveOutToMtPyre: @ 81F605A
-	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
+	.string "좋아!\n"
+	.string "우리들도 송화산으로 간다!$"
 
 Route121_Text_AheadLoomsMtPyre: @ 81F607F
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
+	.string "이 앞은 송화산...\p"
+	.string "수명이 다한 포켓몬의\n"
+	.string "영혼을 추모하는 곳...$"
 
 Route121_Text_MtPyrePierSign: @ 81F60D3
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string "송화산 잔교\p"
+	.string "...오랜 시간 사용되지 않았는지\n"
+	.string "글자가 거의 보이지 않는다$"
 
 Route121_Text_SafariZoneSign: @ 81F611E
-	.string "“Filled with rare POKéMON!”\n"
-	.string "SAFARI ZONE$"
+	.string "희귀한 포켓몬이 잔뜩!\n"
+	.string "“사파리존”$"
 

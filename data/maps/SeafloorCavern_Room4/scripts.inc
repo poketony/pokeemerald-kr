@@ -12,25 +12,32 @@ SeafloorCavern_Room4_EventScript_Grunt4:: @ 8234CB3
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro: @ 8234CCA
-	.string "Who are you?\n"
-	.string "Where did you come in from?$"
+	.string "누구지 너는?\n"
+	.string "어디로 들어온 거지?$"
 
 SeafloorCavern_Room4_Text_Grunt3Defeat: @ 8234CF3
-	.string "Lost it…$"
+	.string "졌다...!$"
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle: @ 8234CFC
-	.string "I can't find the way out!\p"
-	.string "I'm not afraid. Don't get me wrong!$"
+	.string "어떡하지? 출구를 찾을 수가 없어\p"
+	.string "절대 무서운 게 아니야!\n"
+	.string "착각하지 말라고!$"
 
 SeafloorCavern_Room4_Text_Grunt4Intro: @ 8234D3A
-	.string "Who are you?\n"
-	.string "Where do you think you're going?$"
+	.string "너 누구?\n"
+	.string "어디 가는 거야?!$"
+	// あなた だれ?ｎ
+	// どこへ いこうってのよ!?
 
 SeafloorCavern_Room4_Text_Grunt4Defeat: @ 8234D68
-	.string "I failed to win!$"
+	.string "이길 수 없었어...!$"
+	// かてなかった……!
 
 SeafloorCavern_Room4_Text_Grunt4PostBattle: @ 8234D79
-	.string "My partner forgot the map in that\n"
-	.string "submarine!\p"
-	.string "How's that for being useless?$"
+	.string "파트너가 잠수정에\n"
+	.string "지도를 놔두고 왔대!\p"
+	.string "정말 도움이 안된다니까!$"
+	// このひとったら せんすいていにｎ
+	// ちずを わすれて きちゃったの!ｐ
+	// まったく たよりに なんないんだから!
 

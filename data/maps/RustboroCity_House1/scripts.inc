@@ -53,28 +53,44 @@ RustboroCity_House1_EventScript_Hiker:: @ 82159DF
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
-	.string "Huh? My POKéMON is cute?\n"
-	.string "Sure, I knew that.\p"
-	.string "But if you really want, I'm willing\n"
-	.string "to trade it to you.\p"
-	.string "I'll trade you my {STR_VAR_2} for\n"
-	.string "a {STR_VAR_1} if you want.$"
+	.string "뭐?\n"
+	.string "내 포켓몬이 귀엽다고?\l"
+	.string "응 알고 있어-\p"
+	.string "앗 정말로 원한다면\n"
+	.string "교환해 줄 수 있어\p"
+	.string "그럼 내 {STR_VAR_2}{K_EULREUL}\n"
+	.string "{STR_VAR_1}{K_WAGWA} 교환해 줄게$"
+	// いいえ?ｎ
+	// ぼくの ポケモンが かわいい?ｌ
+	// ウン しってるよ-ｐ
+	// あっ どうしても って いうならｎ
+	// こうかん して あげても いいよｐ
+	// じゃあ ぼくの §うｎ
+	// §い となら こうかん するよ
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon: @ 8215A77
-	.string "Eheheh…\n"
-	.string "Please be good to my POKéMON.$"
+	.string "에헤헤...\n"
+	.string "제대로 귀여워해줘$"
+	// えへへ……ｎ
+	// ちゃんと かわいがってね
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe: @ 8215A9D
-	.string "Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.$"
+	.string "뭐- 아무리 봐도 {STR_VAR_1}{K_EU}로는\n"
+	.string "안 보이는데...$"
+	// え- どうみても §いにｎ
+	// みえないんだけど……
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay: @ 8215ACE
-	.string "Oh, if you don't want to, that's okay.\n"
-	.string "But my POKéMON is cute, you know…$"
+	.string "아니 싫으면 됐어...\n"
+	.string "귀여운 포켓몬인데...$"
+	// あ いやなら いいけど……ｎ
+	// せっかく かわいい ポケモンなのに
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute: @ 8215B17
-	.string "Any POKéMON can be cute if you raise\n"
-	.string "it with care and kindness.$"
+	.string "소중히 키운다면\n"
+	.string "어떤 포켓몬도 엄청 귀엽지-$"
+	// だいじに そだてるとｎ
+	// どんな ポケモンも すごく かわいいよね-
 
 RustboroCity_House1_Text_AllSortsOfPlaces: @ 8215B57
 	.string "다양한 장소에\n"
@@ -82,4 +98,9 @@ RustboroCity_House1_Text_AllSortsOfPlaces: @ 8215B57
 	.string "다양한 사람들도 있어\p"
 	.string "그게 좋아서 나도\n"
 	.string "다양한 곳으로 가는 거야!$"
+	// いろんな ばしょにｎ
+	// いろんな ポケモンが いるｌ
+	// いろんな ひとも いるｐ
+	// それが たのしみで わしもｎ
+	// いろんな ところに でかけるのさ!
 

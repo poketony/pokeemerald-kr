@@ -93,93 +93,160 @@ RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard: @ 821524F
 	.string "매일매일 먹을 반찬거리를\p"
 	.string "매일매일 고민해야 되니\n"
 	.string "이만저만 큰일이 아니라구!$"
+	// もうね たいへん なのよ!ｐ
+	// なにが たいへんってｎ
+	// そんなの きまってるでしょ!ｐ
+	// まいにちの おこんだて よッ!ｐ
+	// まいにち まいにち かんがえるのってｎ
+	// ほんとうに たいへん なんだからッ!
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase: @ 82152FA
-	.string "Oh, hello!\n"
-	.string "Welcome to the PEPPER household.\p"
-	.string "I have a question for you.\n"
-	.string "Have you ever baby-sat?\p"
-	.string "You see, I'm a new father, so raising\n"
-	.string "a child is all new to me.\p"
-	.string "And I have a problem. My daughter\n"
-	.string "WALDA doesn't laugh enough.\p"
-	.string "I think she'd laugh for me if I told\n"
-	.string "her something funny.\p"
-	.string "Do you know of a funny word or\n"
-	.string "phrase you can tell me?$"
+	.string "여어 어서 와\n"
+	.string "벽지 가문의 집에!\p"
+	.string "하나 물어보고 싶은 게 있는데\n"
+	.string "너 아이를 돌본 적이 있어?\p"
+	.string "아저씨 처음으로\n"
+	.string "육아를 하고 있는데 말야\p"
+	.string "우리 채령이가\n"
+	.string "좀처럼 웃질 않아서\p"
+	.string "재밌는 말로\n"
+	.string "웃길 수 있지 않을까\l"
+	.string "생각하고 있었거든\l"
+	.string "재밌는 말을 알려주지 않을래?$"
+	// やあ いらっしゃいｎ
+	// ハコガミけ へ ようこそ!ｐ
+	// ちょっと しつもんが あるんだけどｎ
+	// きみ こもり したこと ある?ｐ
+	// おじさん はじめてｎ
+	// いくじ してるんだけどさｐ
+	// うちの アヤノｎ
+	// なかなか わらって くれないんだよねｐ
+	// おもしろ-い ことば でｎ
+	// わらって くれないかな-ってｌ
+	// おもうんだけどｌ
+	// おもしろ-い ことば おしえて くれない?
 
 RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase: @ 8215448
-	.string "I've been saying “{STR_VAR_1}”\n"
-	.string "to amuse her lately.\p"
-	.string "Do you know of a better word or\n"
-	.string "a phrase that might work?$"
+	.string "지금은 “{STR_VAR_1}”{K_I}라는\n"
+	.string "말을 들려주고 있는데\p"
+	.string "재밌을 것 같은 말\n"
+	.string "알아봐 준 거니?$"
+	// いまは §い ってｎ
+	// ことばを つかってるんだけどｐ
+	// おもしろそうな ことばｎ
+	// みつけて きたの?
 
 RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion: @ 82154AD
-	.string "Oh, that's wonderful.\n"
-	.string "So, let's hear it, your suggestion.$"
+	.string "그런가 그런가\n"
+	.string "그럼 바로 알려줘$"
+	// そうか そうかｎ
+	// じゃあ さっそく おしえて くれよ
 
 RustboroCity_Flat1_2F_Text_OhIsThatRight: @ 82154E7
-	.string "Oh, is that right?\p"
-	.string "Well, if you come up with a good\n"
-	.string "suggestion, I'm all ears.$"
+	.string "그런가 그런가\p"
+	.string "재밌을 것 같을 말을\n"
+	.string "알게 된다면 알려줘$"
+	// そうか そうかｎ
+	// なにか おもしろそうな ことばをｌ
+	// みつけたら おしえて くれよ
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry2: @ 8215535
-	.string "Ah, I see.\n"
-	.string "Well, let's give it a try, shall we?$"
+	.string "과연-\n"
+	.string "그럼 한번 해볼게$"
+	// なるほど-ｎ
+	// じゃあ ためして みようかな
 
 RustboroCity_Flat1_2F_Text_OhShesLaughing: @ 8215565
-	.string "{STR_VAR_1}.\n"
-	.string "{STR_VAR_1}.\p"
-	.string "Oh, yes! She's laughing!\n"
-	.string "Oh, I am as delighted as she!$"
+	.string "{STR_VAR_1}\n"
+	.string "{STR_VAR_1}\p"
+	.string "웃는다 웃는다!\n"
+	.string "뭔가 기쁘다$"
+	// §いｎ
+	// §いｐ
+	// わらってる わらってる!ｎ
+	// なんだか うれしいなあ
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry: @ 82155A4
 	.string "Ah, I see.\n"
 	.string "Well, let's give it a try, shall we?$"
+	// なるほど-ｎ
+	// じゃあ ためして みようかな
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll: @ 82155D4
-	.string "{STR_VAR_1}.\n"
-	.string "{STR_VAR_1}.\p"
-	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe WALDA is one serious child…$"
+	.string "{STR_VAR_1}\n"
+	.string "{STR_VAR_1}\p"
+	.string "으-음 웃질 않네\n"
+	.string "이 애 쿨한가봐$"
+	// §いｎ
+	// §いｐ
+	// う-ん わらわないなあｎ
+	// このこ ク-ル なのかな
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase: @ 821561E
-	.string "Oh, so you don't know any good words.\n"
-	.string "I'd better think for myself, then.\p"
-	.string "Hmm…\n"
-	.string "How about “{STR_VAR_1}”?\l"
-	.string "Let's see if that will work.$"
+	.string "좋은 말을 모르는구나-\n"
+	.string "그럼 혼자서 생각해야겠네-\p"
+	.string "으-음\n"
+	.string "“{STR_VAR_1}”{K_I}라면 어떨까\l"
+	.string "좋아! 한번 해봐야지$"
+	// いい ことば しらないか-ｎ
+	// じゃあ じぶんで かんがえるか-ｐ
+	// う-んｎ
+	// §い とか どうかなｌ
+	// よし! ためしてみよう
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2: @ 8215699
-	.string "{STR_VAR_1}.\n"
-	.string "{STR_VAR_1}.\p"
-	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe WALDA is one serious child…$"
+	.string "{STR_VAR_1}\n"
+	.string "{STR_VAR_1}\p"
+	.string "으-음 웃질 않네\n"
+	.string "이 애 쿨한가봐$"
+	// §いｎ
+	// §いｐ
+	// う-ん わらわないなあｎ
+	// このこ ク-ル なのかな
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny: @ 82156E3
-	.string "Oh, so you don't know any good words.\n"
-	.string "I guess I'll try to amuse her with\l"
-	.string "the saying I used before.\p"
-	.string "Anyways, if you have a good suggestion,\n"
-	.string "don't hesitate in telling me, okay?$"
+	.string "좋은 말을 모르는구나-\n"
+	.string "그럼 지난번의 말로\l"
+	.string "웃겨 봐야겠네-\p"
+	.string "재밌을 거 같은 말을 찾는다면\n"
+	.string "아저씨한테 알려주렴$"
+	// いい ことば しらないか-ｎ
+	// じゃあ まえの ことばでｌ
+	// がんばって あやすか-ｐ
+	// おもしろそうな ことば みつけたらｎ
+	// おじさんに おしえてね
 
 RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper: @ 8215792
-	.string "Thank you!\p"
-	.string "Thanks to you, my darling WALDA\n"
-	.string "laughed for me!\p"
-	.string "Actually, I may not look all that\n"
-	.string "special, but I'm one of DEVON\l"
-	.string "CORPORATION's top researchers.\p"
-	.string "So, how about I do something in return\n"
-	.string "for you?\p"
-	.string "I know, I'll add some new wallpaper\n"
-	.string "patterns for the BOXES in the PC\l"
-	.string "POKéMON Storage System.\p"
-	.string "In the wallpaper pattern menu,\n"
-	.string "select “FRIENDS.”\p"
-	.string "That will give you access to the new\n"
-	.string "wallpaper patterns.$"
+	.string "고마워!\p"
+	.string "네 덕분에 채령이가\n"
+	.string "웃어줬어!\p"
+	.string "사실 아저씨\n"
+	.string "이래 봬도\p"
+	.string "데봉 코포레이션의\n"
+	.string "굉장한 연구원이거든\p"
+	.string "그래! 그럼 답례로\n"
+	.string "네가 포켓몬을 맡기는\l"
+	.string "박스의 벽지를\l"
+	.string "늘려줄게!\p"
+	.string "벽지 중에서\n"
+	.string "“애호가”를 선택하면\l"
+	.string "새로운 벽지가 나올 거야!$"
+	// ありがとう!ｐ
+	// きみの おかげで アヤノがｎ
+	// わらって くれたよ!ｐ
+	// じつは おじさんｎ
+	// こう みえてもｐ
+	// デボンコ-ポレ-ションのｎ
+	// すごうで けんきゅういん なんだよｐ
+	// そうだな- じゃあ おれいにｎ
+	// きみが ポケモンを あずけているｌ
+	// ボックスの かべがみをｌ
+	// ふやして あげよう!ｐ
+	// かべがみの なかからｎ
+	// 「だいすき」って いうのを えらぶとｌ
+	// あたらしい かべがみが えらべるよ!
 
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll: @ 8215923
-	.string "It's a POKéMON plush DOLL!$"
+	.string "포켓몬 봉제인형이다!$"
+	// ポケモンの ぬいぐるみ だ!
 

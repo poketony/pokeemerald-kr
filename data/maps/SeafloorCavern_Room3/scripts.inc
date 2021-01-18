@@ -12,47 +12,78 @@ SeafloorCavern_Room3_EventScript_Grunt5:: @ 823494F
 	end
 
 SeafloorCavern_Room3_Text_ShellyIntro: @ 8234966
-	.string "Ahahahaha!\p"
-	.string "How did you manage to get here without\n"
-	.string "a submarine?\l"
-	.string "What an impressive child!\p"
-	.string "But… It won't do to have you\n"
-	.string "meddling about here.\p"
-	.string "And, I do want payback for what\n"
-	.string "happened at the WEATHER INSTITUTE…\p"
-	.string "I'm going to give you a little taste\n"
-	.string "of pain! Resign yourself to it!$"
+	.string "오호호!\p"
+	.string "잠수정도 없는데\n"
+	.string "잘도 여기까지 쫓아왔네!\l"
+	.string "대단한 꼬맹이네!\p"
+	.string "하지만 말야...\n"
+	.string "방해받는 건 싫단 말이지\p"
+	.string "날씨 연구소에서의\n"
+	.string "빚도 갚아주고 싶고...\p"
+	.string "조금 아픈 기억이 될 테니까\n"
+	.string "각오하라고-!!$"
+	// オ-ッホッホ!ｐ
+	// せんすいていも ないのにｎ
+	// よく ここまで おいかけて きたわね!ｌ
+	// たいした おこさま だわ!ｐ
+	// でもね……ｎ
+	// ジャマされると めんどう なのよねｐ
+	// てんき けんきゅうじょ でのｎ
+	// かりも かえしたいし……ｐ
+	// ちょっと いたい おもい させちゃうからｎ
+	// かくご しなさ-い!!
 
 SeafloorCavern_Room3_Text_ShellyDefeat: @ 8234A79
-	.string "Ahahahaha!\p"
-	.string "Ouch!$"
+	.string "오호호!\p"
+	.string "아파!$"
+	// オ-ッホッホ!ｐ
+	// いった-い!
 
 SeafloorCavern_Room3_Text_ShellyPostBattle: @ 8234A8A
-	.string "Ahahahaha!\n"
-	.string "You're so darn strong.\p"
-	.string "It's terribly disappointing that you're\n"
-	.string "not a TEAM AQUA member.\p"
-	.string "You could have enjoyed the fabulous\n"
-	.string "world our BOSS has promised as\l"
-	.string "one of us…$"
+	.string "오호호!\p"
+	.string "너 그렇게 강한데\n"
+	.string "아쿠아단의 동료가 아니라서\n"
+	.string "무척 유감이야\p"
+	.string "리더가 실현해줄\n"
+	.string "멋진 세계를\l"
+	.string "같이 즐길 수 있었을 텐데$"
+	// オ-ッホッホ!ｐ
+	// あなた そんなに つよいんだものｎ
+	// アクアだんの なかま じゃなくてｌ
+	// とっても ざんねんだわｐ
+	// リ-ダ-が じつげん してくれるｎ
+	// すばらしい せかいをｌ
+	// いっしょに たのしむことが できたのに
 
 SeafloorCavern_Room3_Text_Grunt5Intro: @ 8234B3A
-	.string "For our dream to become real, we need\n"
-	.string "the power of POKéMON.\p"
-	.string "But meddlers like you use the power of\n"
-	.string "POKéMON to mess with us even at\l"
-	.string "a place like this!\p"
-	.string "Life just doesn't work the way we\n"
-	.string "need it to!$"
+	.string "우리들의 야망을 위해서는\n"
+	.string "포켓몬이 필요한데\p"
+	.string "포켓몬의 힘을 빌리는\n"
+	.string "너같은 녀석이\l"
+	.string "이런 곳까지 방해하러 오다니!\p"
+	.string "잘되는 일이 없구만!$"
+	// オレたちの やぼうの ためにｎ
+	// ポケモンは ひつような ものだがｐ
+	// ポケモンの ちからを かりてｎ
+	// おまえの ような やつがｌ
+	// こんな ところまで ジャマしに くる!ｐ
+	// よのなか うまく いかない もんだ!
 
 SeafloorCavern_Room3_Text_Grunt5Defeat: @ 8234BFE
-	.string "Gwah!$"
+	.string "크악!$"
+	// ぐはっ!
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle: @ 8234C04
-	.string "You know, we don't dare question\n"
-	.string "the motives of our leader.\p"
-	.string "But here you are, just some punk,\n"
-	.string "going up against our BOSS.\p"
-	.string "Maybe…\n"
-	.string "You must be something…$"
+	.string "우리들의 머리로는 알 수 없는\n"
+	.string "그 리더에게\p"
+	.string "잘도 너같은\n"
+	.string "꼬맹이가 거스르는구만!\p"
+	.string "혹시 너\n"
+	.string "엄청난 녀석... 인 거냐?$"
+	// オレたちが あたまの あがらないｎ
+	// あの リ-ダ-にｐ
+	// よくも まあ おまえの ようなｎ
+	// こどもが さからえる もんだよな!ｐ
+	// もしかして おまえってｎ
+	// とんでもないやつ…… なのか?
 

@@ -248,61 +248,110 @@ Route128_EventScript_Carlee:: @ 81F6DDE
 	end
 
 Route128_Text_ArchieWhatHappened: @ 81F6DF5
-	.string "ARCHIE: What happened…\n"
-	.string "What is this wretched scene…\p"
-	.string "Did I…make a horrible mistake?$"
+	.string "아강: 뭐야...\n"
+	.string "이 끔찍한 광경은...?\p"
+	.string "나는...\n"
+	.string "터무니없는 잘못을...$"
+	// アオギリ『なんだ……ｎ
+	// この ひどい ありさまは……?ｐ
+	// おれは……ｎ
+	// とんでもない まちがいを……
 
 Route128_Text_ArchieIOnlyWanted: @ 81F6E48
-	.string "I…\n"
-	.string "I only wanted…$"
+	.string "나는...\n"
+	.string "그저...$"
+	// おれは……ｎ
+	// ただ……
 
 Route128_Text_MaxieDoYouUnderstandNow: @ 81F6E5A
-	.string "MAXIE: Do you understand now,\n"
-	.string "ARCHIE?\p"
-	.string "Do you finally see how disastrous\n"
-	.string "your dream turned out to be?\p"
-	.string "We have to hurry! We have to do\n"
-	.string "something before the situation goes\l"
-	.string "completely out of control!$"
+	.string "마적: 알겠나 아강!\p"
+	.string "네가...\n"
+	.string "아니 우리가 한 일이\l"
+	.string "얼마나 어리석은 것인지를...\p"
+	.string "어쨌든 서두르자!\n"
+	.string "이 이상 심각해지기 전에\l"
+	.string "뭐라도 하지 않으면 안되니까!$"
+	// マツブサ『わかったか アオギリ!ｐ
+	// おまえの……ｎ
+	// いや われわれの したことがｌ
+	// どれほど おろか だったのか……ｐ
+	// とにかく いそぐんだ!ｎ
+	// これいじょう ひどく ならぬうちにｌ
+	// なんとか しないとな!
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe: @ 81F6F1E
-	.string "MAXIE: {PLAYER}, don't say anything.\p"
-	.string "I know that I have no right to be\n"
-	.string "critical of ARCHIE…\p"
-	.string "But the way things are now, I doubt\n"
-	.string "that we humans will be capable of\l"
-	.string "doing anything about it.\p"
-	.string "But neither can we stand by and\n"
-	.string "just watch helplessly.\p"
-	.string "The responsibility for putting an end\n"
-	.string "to this falls to ARCHIE and me…$"
+	.string "마적: {PLAYER} 아무 말도 하지 마라\p"
+	.string "나에게 아강을 꾸짖을\n"
+	.string "자격이 없는 건 알고 있다...\p"
+	.string "일이 이렇게 된 이상\n"
+	.string "이제 인간의 힘으로는\l"
+	.string "아무것도 할 수 없을 테지\p"
+	.string "하지만 그렇다고 해서\n"
+	.string "잠자코 보고 있을 수도 없다\p"
+	.string "이 일의 뒤처리를 하는 건\n"
+	.string "나와 아강의 책임이니... 까...$"
+	// マツブサ『§あ なにも いうなｐ
+	// わたしに アオギリを せめるｎ
+	// しかくが ないことは わかっている……ｐ
+	// こんな ことに なった いじょうｎ
+	// もう にんげんの ちからではｌ
+	// どうする ことも できない だろうｐ
+	// しかし だから といってｎ
+	// だまって みている わけにも いかないｐ
+	// この あとしまつを つけるのはｎ
+	// わたしと アオギリの やくめ…… か……
 
 Route128_Text_MaxieThisDefiesBelief: @ 81F704F
-	.string "MAXIE: This defies belief…\p"
-	.string "Those super-ancient POKéMON…\p"
-	.string "Their power is unbelievable.\n"
-	.string "They've upset the balance of nature…$"
+	.string "마적: 그건 그렇고...\p"
+	.string "초 고대포켓몬...\n"
+	.string "엄청난 파워다\l"
+	.string "모든 균형이 무너졌어...$"
+	// マツブサ『それにしても……ｐ
+	// ちょう こだいポケモン……ｎ
+	// なんという パワ-だｌ
+	// すべての バランスが くずれたぞ……
 
 Route128_Text_StevenWhatIsHappening: @ 81F70C9
-	.string "STEVEN: {PLAYER}{KUN}!\n"
-	.string "What is happening?$"
+	.string "성호: {PLAYER}!\n"
+	.string "이건 대체...?$"
+	// ダイゴ『§あ§お!ｎ
+	// これは いったい……?
 
 Route128_Text_StevenWholeWorldWillDrown: @ 81F70EA
-	.string "This is terrible…\p"
-	.string "After the scorching heat wave ended,\n"
-	.string "this deluge began.\p"
-	.string "If this doesn't stop, all of HOENN…\n"
-	.string "No, the whole world will drown.\p"
-	.string "This huge rain cloud is spreading\n"
-	.string "from above SOOTOPOLIS…\p"
-	.string "What in the world is taking place there?\p"
-	.string "There's no point arguing here…\n"
-	.string "SOOTOPOLIS might provide answers…$"
+	.string "...이건 좀 심한걸\p"
+	.string "아까는 엄청난 가뭄이었는데\n"
+	.string "지금은 폭우가 내리기 시작했어\p"
+	.string "이대로라면 호연지방...\n"
+	.string "아니 전 세계가 잠길 거야!\p"
+	.string "이 비를 내리게 하고 있는 구름은\n"
+	.string "루네시티의 상공을 중심으로\l"
+	.string "퍼져 있는 건가...\p"
+	.string "대체 저기서\n"
+	.string "뭐가 일어나는 거지?!\p"
+	.string "여기서 이것저것 생각할 게 아니고\n"
+	.string "루네시티로 직접 가면 알겠네...$"
+	// ……ひどいなｐ
+	// さっきは はげしい ひでり だったのにｎ
+	// また おおあめが ふりはじめているｐ
+	// このまま では ホウエンちほう……ｎ
+	// いや せかいじゅうが しずむ!ｐ
+	// この あめを ふらせている くもはｎ
+	// ルネの じょうくうを ちゅうしんにｌ
+	// ひろがって いるのか……ｐ
+	// いったい あそこでｎ
+	// なにが おきている!?ｐ
+	// ここで あれこれ かんがえるよりｎ
+	// ルネに いけば わかるか……
 
 Route128_Text_StevenImGoingToSootopolis: @ 81F721B
-	.string "{PLAYER}{KUN}…\n"
-	.string "I don't know what you intend to do,\l"
-	.string "but don't do anything reckless.\p"
-	.string "Okay.\n"
-	.string "I'm going to SOOTOPOLIS.$"
+	.string "{PLAYER}...\n"
+	.string "네가 뭘 할 생각인지는\l"
+	.string "모르겠지만 무리만은 하지 마\p"
+	.string "...그럼\n"
+	.string "나는 루네시티로 갈게$"
+	// §あ§お……ｎ
+	// きみが なにを する つもりかｌ
+	// わからないけど ムリだけは するなよｐ
+	// ……じゃあｎ
+	// ボクは ルネに いくから
 
