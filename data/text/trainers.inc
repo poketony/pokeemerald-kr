@@ -4384,7 +4384,7 @@ Route131_Text_HermanDefeat:
 
 Route131_Text_HermanPostBattle:
 	.string "바다에 질려도\n"
-	.string "속 헤엄칠 수밖에 없는 건가...\p"
+	.string "계속 헤엄칠 수밖에 없는 건가...\p"
 	.string "그게 내 운명이겠지...$"
 
 Route131_Text_SusieIntro:

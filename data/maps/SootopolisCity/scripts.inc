@@ -1754,10 +1754,10 @@ SootopolisCity_Text_WeatherWentWild: @ 81E71A1
 	.string "그런데 갑자기...\p"
 	.string "갑자기 구름이 드리우고\n"
 	.string "강한 비가 내리기 시작하더니\l"
-	.string "번개도 우르르 치고l"
+	.string "번개도 우르르 치고\l"
 	.string "날씨가 엉망진창이 됐어\p"
 	.string "저것도 이것도 전부\n"
-	.string "그 포켓몬 때문일까...?$"
+	.string "저 포켓몬 때문일까...?$"
 	// きょうの あさは いいてんき だったのよｎ
 	// それが……ｐ
 	// とつぜん くもり はじめたと おもったらｎ

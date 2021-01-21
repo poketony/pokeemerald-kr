@@ -3,4 +3,4 @@ EventScript_RepelWoreOff:: @ 82A4B2A
 	end
 
 Text_RepelWoreOff: @ 82A4B33
-	.string "REPEL's effect wore off…$"
+	.string "스프레이의 효과가 사라졌다$"

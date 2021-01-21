@@ -48,16 +48,17 @@ EventScript_CancelCut:: @ 829072B
 	end
 
 Text_WantToCut: @ 829072E
-	.string "This tree looks like it can be\n"
-	.string "CUT down!\p"
-	.string "Would you like to CUT it?$"
+	.string "...이 나무는 왠지\n"
+	.string "자를 수 있을 것 같다!\p"
+	.string "풀베기로 자르겠습니까?$"
 
 Text_MonUsedFieldMove: @ 8290771
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
+	.string "{STR_VAR_2}{K_EULREUL} 썼다!$"
 
 Text_CantCut: @ 829077D
-	.string "This tree looks like it can be\n"
-	.string "CUT down!$"
+	.string "이 나무는 왠지\n"
+	.string "자를 수 있을 것 같다!$"
 
 @ Interact with smashable rock
 EventScript_RockSmash:: @ 82907A6
@@ -120,12 +121,13 @@ EventScript_CancelSmash:: @ 8290837
 	end
 
 Text_WantToSmash: @ 829083A
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "포켓몬 기술로\n"
+	.string "깨뜨릴 수 있을 것 같다!\l"
+	.string "...바위깨기를 쓰겠습니까?$"
 
 Text_CantSmash: @ 829087F
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "단단해 보이는 바위지만...\n"
+	.string "포켓몬 기술로 깰 수 있을지도?$"
 
 EventScript_StrengthBoulder:: @ 82908BA
 	lockall
@@ -173,22 +175,23 @@ EventScript_CancelStrength:: @ 8290929
 	end
 
 Text_WantToStrength: @ 829092C
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "큰 바위이지만...\n"
+	.string "포켓몬 기술로 밀 수 있을지도?\p"
+	.string "괴력을 쓰겠습니까?$"
 
 Text_MonUsedStrength: @ 829098C
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
+	.string "괴력을 발휘했다!\p"
+	.string "{STR_VAR_1}의 괴력 덕분에\n"
+	.string "바위를 밀 수 있게 되었다!$"
 
 Text_CantStrength: @ 82909D6
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "큰 바위이지만...\n"
+	.string "포켓몬 기술로 밀 수 있을지도?$"
 
 Text_StrengthActivated: @ 8290A16
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "괴력 덕분에\n"
+	.string "바위를 밀어 움직일 수 있다!$"
 
 EventScript_UseWaterfall:: @ 8290A49
 	lockall
@@ -215,15 +218,15 @@ EventScript_EndWaterfall:: @ 8290A8C
 	end
 
 Text_CantWaterfall: @ 8290A8E
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "큰 소리를 내며\n"
+	.string "물이 흘러 떨어진다!$"
 
 Text_WantToWaterfall: @ 8290AC3
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "큰 폭포다!\n"
+	.string "...폭포오르기를 쓰겠습니까?$"
 
 Text_MonUsedWaterfall: @ 8290AFC
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 폭포오르기를 썼다!$"
 
 EventScript_UseDive:: @ 8290B0F
 	lockall
@@ -277,27 +280,28 @@ EventScript_EndSurface:: @ 8290BA8
 	end
 
 Text_CantDive: @ 8290BAA
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "깊은 바다다!\n"
+	.string "포켓몬 기술로 잠수할 수 있을지도?$"
 
 Text_WantToDive: @ 8290BE8
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "깊은 바다다!\n"
+	.string "다이빙을 쓰겠습니까?$"
 
 Text_MonUsedDive: @ 8290C1A
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 다이빙을 썼다!$"
 
 Text_CantSurface: @ 8290C28
-	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "위에서 빛이 들어오고 있다!\n"
+	.string "포켓몬 기술로 올라갈 수 있을지도?$"
 
 Text_WantToSurface: @ 8290C6E
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "위에서 빛이 들어오고 있다!\n"
+	.string "다이빙을 쓰겠습니까?$"
 
 EventScript_FailSweetScent:: @ 8290CAE
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent: @ 8290CB7
-	.string "Looks like there's nothing here…$"
+	.string "여기에는\n"
+	.string "아무것도 없는 것 같다...$"
