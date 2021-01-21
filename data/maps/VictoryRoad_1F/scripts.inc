@@ -124,100 +124,116 @@ VictoryRoad_1F_EventScript_Katelynn:: @ 8235ECF
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore: @ 8235EE6
-	.string "WALLY: Hi! {PLAYER}!\p"
-	.string "I bet you're surprised to see me here!\p"
-	.string "I made it all the way here, and it's\n"
-	.string "all thanks to you!\p"
-	.string "{PLAYER}, losing to you that time\n"
-	.string "made me stronger!\p"
-	.string "But I'm not going to lose anymore!\p"
-	.string "I'm going to win! For the POKéMON who\n"
-	.string "gave me courage and strength!\p"
-	.string "Okay… Here I come!$"
+	.string "민진: 앗! {PLAYER}님!\p"
+	.string "제가 이런 곳에 있으니까\n"
+	.string "놀랐죠!\p"
+	.string "그때의 약속...\n"
+	.string "제대로 지켜줘서 고마워요!\p"
+	.string "제가 여기까지 올 수 있었던 건\n"
+	.string "{PLAYER}님 덕분이에요!\p"
+	.string "...그치만!\n"
+	.string "전 이제 지지 않아요\p"
+	.string "저에게 힘과 용기를 준\n"
+	.string "포켓몬을 위해서라도 이기겠어요!\p"
+	.string "그럼... 갑니다!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
-	.string "Wow!\n"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "우와!\n"
+	.string "역시 {PLAYER}님은 강하네요!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
-	.string "WALLY: I couldn't beat you today,\n"
-	.string "{PLAYER}, but one of these days, I'll\l"
-	.string "catch up to you!$"
+	.string "민진: ...이번에는\n"
+	.string "{PLAYER}님한테 이기지 못했지만\l"
+	.string "언젠가 반드시 뒤쫓아 갈 거예요!$"
 
 VictoryRoad_1F_Text_WallyIntro: @ 8236073
-	.string "WALLY: Hi! {PLAYER}!\p"
-	.string "I've gotten stronger since that last\n"
-	.string "time! I wanted to show you, {PLAYER}!\p"
-	.string "Okay… Here I come!$"
+	.string "민진: 앗! {PLAYER}님!\p"
+	.string "저 그때보다 강해졌어요!\n"
+	.string "그걸 {PLAYER}님에게\l"
+	.string "보여주고 싶어요!\p"
+	.string "그럼... 갑니다!$"
 
 VictoryRoad_1F_Text_WallyDefeat: @ 82360DA
-	.string "Wow!\n"
-	.string "{PLAYER}, you are strong, after all!$"
+	.string "우와!\n"
+	.string "역시 {PLAYER}님은 강하네요!$"
 
 VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
-	.string "WALLY: I couldn't beat you this time,\n"
-	.string "too… But one of these days, {PLAYER},\l"
-	.string "I'm going to catch up to you…\p"
-	.string "And challenge the POKéMON LEAGUE!$"
+	.string "민진: ...이번에는\n"
+	.string "{PLAYER}님한테 이기지 못했지만\l"
+	.string "언젠가 반드시 뒤쫓아 가서...\p"
+	.string "포켓몬리그에 도전할 거예요!$"
 
 VictoryRoad_1F_Text_EdgarIntro: @ 8236184
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "여기까지는 어떻게든\n"
+	.string "올 수 있었겠지만\l"
+	.string "앞으로가 엄청 멀어...$"
 
 VictoryRoad_1F_Text_EdgarDefeat: @ 82361CB
-	.string "My dream ends here again…$"
+	.string "여기서 끝난 건가...$"
 
 VictoryRoad_1F_Text_EdgarPostBattle: @ 82361E5
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
+	.string "여기까지 왔으면\n"
+	.string "기세를 몰아서 챔피언이 되라고!\l"
+	.string "너라면 할 수 있을 거야!$"
 
 VictoryRoad_1F_Text_AlbertIntro: @ 8236248
-	.string "I didn't come all this way to lose now.\n"
-	.string "That possibility doesn't exist!$"
+	.string "여기까지 왔는데\n"
+	.string "이제 와서 진다는 건 말이 안 되지!$"
 
 VictoryRoad_1F_Text_AlbertDefeat: @ 8236290
-	.string "Impossible…\n"
-	.string "I lost?$"
+	.string "설마...\n"
+	.string "진 건가...?$"
 
 VictoryRoad_1F_Text_AlbertPostBattle: @ 82362A4
-	.string "I lost here…\p"
-	.string "That means I lack the qualifications\n"
-	.string "to become the CHAMPION…$"
+	.string "여기서 졌다...\p"
+	.string "졌다는 것은 아직 챔피언이 될\n"
+	.string "자격이 없다는 건가...$"
 
 VictoryRoad_1F_Text_HopeIntro: @ 82362EE
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of VICTORY.$"
+	.string "이 끝없이 험한 길이야말로\n"
+	.string "바로 챔피언으로 향하는 길인 거야!$"
 
 VictoryRoad_1F_Text_HopeDefeat: @ 8236336
-	.string "Your battle style is fantastic…$"
+	.string "멋진 실력이야...$"
 
 VictoryRoad_1F_Text_HopePostBattle: @ 8236356
-	.string "You seem to have the potential for\n"
-	.string "becoming the CHAMPION.$"
+	.string "너에겐 챔피언이 될 가능성이\n"
+	.string "있는 것 같구나$"
 
 VictoryRoad_1F_Text_QuincyIntro: @ 8236390
-	.string "What is the VICTORY ROAD?\n"
-	.string "I'll tell you if you win!$"
+	.string "챔피언로드란 뭘까?\n"
+	.string "이기면 알려주도록 하지!$"
+	// チャンピオンロ-ド とは なにか?ｎ
+	// かてたら おしえてやろう!
 
 VictoryRoad_1F_Text_QuincyDefeat: @ 82363C4
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "음 좋아!$"
+	// うん いいだろう!
 
 VictoryRoad_1F_Text_QuincyPostBattle: @ 82363D5
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
-	.string "to become the POKéMON CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "여기를 무사히 빠져나가는 것이\n"
+	.string "포켓몬 챔피언을 노리는 자들의\l"
+	.string "마지막 시련인 거야!\p"
+	.string "그게 챔피언로드라고\n"
+	.string "불리는 이유인 거고$"
+	// ここを ぶじに ぬけきるって ことがｎ
+	// ポケモンチャンピオンを めざす やつのｌ
+	// さいごの しれん なんだ!ｐ
+	// だから チャンピオンロ-ドとｎ
+	// よばれて いるのさ
 
 VictoryRoad_1F_Text_KatelynnIntro: @ 8236468
-	.string "I have nothing to say to anyone\n"
-	.string "that's come this far. Come on!$"
+	.string "여기까지 온 사람에게\n"
+	.string "아무것도 할 말은 없어... 간다!$"
+	// ここまで きた ひとにｎ
+	// なにも いうことは ない…… いくわよ!
 
 VictoryRoad_1F_Text_KatelynnDefeat: @ 82364A7
-	.string "This is a disgrace…$"
+	.string "분해...!$"
+	// くやしいわ……!
 
 VictoryRoad_1F_Text_KatelynnPostBattle: @ 82364BB
-	.string "Humph, go right on ahead.\n"
-	.string "See if I care.$"
+	.string "흥... 좋아\n"
+	.string "너부터 먼저 가도록 해$"
+	// ふん…… いいわよｎ
+	// あなた から さきに いきなさいよ

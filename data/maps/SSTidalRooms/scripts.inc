@@ -64,113 +64,117 @@ SSTidalRooms_EventScript_Naomi:: @ 823CADB
 	end
 
 SSTidalRooms_Text_TakeRestOnBed: @ 823CAF2
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string "침대가 있다...\n"
+	.string "조금 쉬었다 가자$"
 
 SSTidalRooms_Text_ColtonIntro: @ 823CB14
-	.string "I often sail to LILYCOVE CITY.\p"
-	.string "I enjoy attending CONTESTS,\n"
-	.string "you see.$"
+	.string "해안시티와 잿빛도시를\n"
+	.string "왔다 갔다 하면서...\p"
+	.string "콘테스트를 보는 게\n"
+	.string "내 취미야$"
 
 SSTidalRooms_Text_ColtonDefeat: @ 823CB58
-	.string "That was an enjoyable match!$"
+	.string "즐거운 승부였어$"
 
 SSTidalRooms_Text_ColtonPostBattle: @ 823CB75
-	.string "I get so excited imagining what kinds\n"
-	.string "of POKéMON I'll get to see in the next\l"
-	.string "CONTEST. The anticipation of it thrills!$"
+	.string "다음 콘테스트에는\n"
+	.string "어떤 포켓몬이 등장할지\l"
+	.string "너무 기대돼서 참을 수가 없어$"
 
 SSTidalRooms_Text_MicahIntro: @ 823CBEB
-	.string "Are your friends strong?$"
+	.string "자네의 친구들은 강한가?$"
 
 SSTidalRooms_Text_MicahDefeat: @ 823CC04
-	.string "Your friends are, indeed, strong.$"
+	.string "강한 친구들이군!$"
 
 SSTidalRooms_Text_MicahPostBattle: @ 823CC26
-	.string "Friends need not be human.\n"
-	.string "For me, POKéMON are treasured friends!$"
+	.string "사람만이 친구가\n"
+	.string "될 수 있는 건 아니지\p"
+	.string "나에게는 포켓몬이\n"
+	.string "너무나도 소중한 친구라네!$"
 
 SSTidalRooms_Text_ThomasIntro: @ 823CC68
-	.string "Child…\n"
-	.string "Did you knock on the door?$"
+	.string "이보시게\n"
+	.string "노크는 하셨는가?$"
 
 SSTidalRooms_Text_ThomasDefeat: @ 823CC8A
-	.string "A loss is to be accepted without haste\n"
-	.string "or panic.$"
+	.string "패배해도\n"
+	.string "침착하게 의연하게$"
 
 SSTidalRooms_Text_ThomasPostBattle: @ 823CCBB
-	.string "To be never ruffled in any situation is\n"
-	.string "the GENTLEMAN's code of conduct.$"
+	.string "어떤 일이 있더라도 평정심을\n"
+	.string "잃지 않는 것이 신사의 마음가짐이지$"
 
 SSTidalRooms_Text_JedIntro: @ 823CD04
-	.string "JED: I feel a little shy about this, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "진: 좀 부끄럽지만\n"
+	.string "우리들의 러브러브파워를 보여줄까?$"
 
 SSTidalRooms_Text_JedDefeat: @ 823CD54
-	.string "JED: Sigh…$"
+	.string "진: 하아...$"
 
 SSTidalRooms_Text_JedPostBattle: @ 823CD5F
-	.string "JED: It's the first time that our lovey-\n"
-	.string "dovey power couldn't prevail!\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "진: 우리들의 러브러브파워로도\n"
+	.string "이길 수 없었던 건 처음이야!\l"
+	.string "정말 대단한 트레이너구나 너는?!$"
 
 SSTidalRooms_Text_JedNotEnoughMons: @ 823CDC6
-	.string "JED: You only have one POKéMON?\n"
-	.string "Isn't that just too lonesome?$"
+	.string "진: 포켓몬이 한 마리라고?\n"
+	.string "그럼 너무 외롭지 않나?$"
 
 SSTidalRooms_Text_LeaIntro: @ 823CE04
-	.string "LEA: I feel a little silly, but…\n"
-	.string "We'll show you our lovey-dovey power!$"
+	.string "가애: 좀 부끄럽지만\n"
+	.string "둘만의 러브러브파워를 보여주겠어!$"
 
 SSTidalRooms_Text_LeaDefeat: @ 823CE4B
-	.string "LEA: Oh, boo!$"
+	.string "가애: 으앙!$"
 
 SSTidalRooms_Text_LeaPostBattle: @ 823CE59
-	.string "LEA: I can't believe it!\n"
-	.string "Our lovey-dovey power failed…\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "가애: 우리들의 러브러브파워로도\n"
+	.string "이길 수 없다니\l"
+	.string "넌 정말 대단한 트레이너구나!$"
 
 SSTidalRooms_Text_LeaNotEnoughMons: @ 823CEB0
-	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two POKéMON…$"
+	.string "가애: 승부하고 싶었는데...\n"
+	.string "포켓몬이 한 마리밖에 없구나...$"
 
 SSTidalRooms_Text_GarretIntro: @ 823CEEE
-	.string "Ah, you've come just in time.\p"
-	.string "I'm bored, you see.\n"
-	.string "You may entertain me.$"
+	.string "마침 잘 왔어!\p"
+	.string "난 지금 심심해서 못 참겠거든\n"
+	.string "잠깐만 승부를 즐기게 해줘$"
 
 SSTidalRooms_Text_GarretDefeat: @ 823CF36
-	.string "…That will do.$"
+	.string "...이제 됐어$"
 
 SSTidalRooms_Text_GarretPostBattle: @ 823CF45
-	.string "Perhaps I shall get Father to acquire\n"
-	.string "a yacht for me.\l"
-	.string "A yacht for me and POKéMON!$"
+	.string "아빠한테 말해서 내 전용\n"
+	.string "요트를 사달라고 할까?\p"
+	.string "포켓몬이랑 같이\n"
+	.string "탈 수 있는 요트를 말이야!$"
 
 SSTidalRooms_Text_NaomiIntro: @ 823CF97
-	.string "Oh, you're such an adorable TRAINER.\n"
-	.string "Would you like to have tea?\l"
-	.string "Or would you rather battle?$"
+	.string "어머 귀여운 트레이너님\n"
+	.string "차라도 한잔하시겠어요?\l"
+	.string "아니면 승부?$"
 
 SSTidalRooms_Text_NaomiDefeat: @ 823CFF4
-	.string "I see.\n"
-	.string "You're the active sort.$"
+	.string "참 활발하신 분이군요$"
 
 SSTidalRooms_Text_NaomiPostBattle: @ 823D013
-	.string "A world cruise on a luxury liner has its\n"
-	.string "charms, I must say…\p"
-	.string "But, I will admit there is an appealing\n"
-	.string "side to touring HOENN by ferry.$"
+	.string "우아한 호화 여객선으로\n"
+	.string "세계를 일주하는 것도 좋지만...\p"
+	.string "연락선에서 느긋하게\n"
+	.string "호연지방을 지켜보는 것도\l"
+	.string "정말 멋져요$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis: @ 823D098
-	.string "Uh… Hi! I… I'm not acting suspicious!\n"
-	.string "Uh… You can have this! For free!\p"
-	.string "It… Honestly, I didn't SNATCH it from\n"
-	.string "someone! I'd never do such a thing!\l"
-	.string "It's clean! You can use it!$"
+	.string "전 이상한 사람 아닙니다!\n"
+	.string "그래서 이것을 당신에게 드릴게요!\p"
+	.string "누군가로부터\n"
+	.string "가로챈 건 아니에요!\l"
+	.string "안심하고 써주세요!$"
 
 SSTidalRooms_Text_ExplainSnatch: @ 823D145
-	.string "SNATCH steals the beneficial effects\n"
-	.string "of certain moves before they can be\l"
-	.string "used by a foe or ally.$"
+	.string "가로챔이라는 기술은\n"
+	.string "상대가 쓰려고 한 기술을\l"
+	.string "자신이 쓰게 만들어요!$"
 

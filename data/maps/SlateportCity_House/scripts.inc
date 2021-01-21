@@ -15,9 +15,17 @@ SlateportCity_House_Text_NatureToDoWithStatGains: @ 820D9C1
 	.string "스피드가 빠르더군\p"
 	.string "성격에 따라 오르기 쉬운 능력이\n"
 	.string "다른 건가?$"
+	// わたしの ポケモン せっかちでねｎ
+	// ほかの ポケモンと くらべるとｌ
+	// すばやさが たかいんだわｐ
+	// せいかくで そだちやすい のうりょくにｎ
+	// ちがいが あるのかもな?
 
 SlateportCity_House_Text_MustBeGoingToBattleTent: @ 820DA59
-	.string "You're a TRAINER, aren't you?\p"
-	.string "Since you came to SLATEPORT CITY,\n"
-	.string "you must be going to the BATTLE TENT.$"
+	.string "당신 포켓몬 트레이너구나\n"
+	.string "잿빛도시에 왔다는 건\l"
+	.string "당연히 배틀텐트에 가는 거겠지!$"
+	// あなた ポケモントレ-ナ-ねｎ
+	// カイナシティに きた っていうことはｌ
+	// とうぜん バトルテントに いくのね!
 

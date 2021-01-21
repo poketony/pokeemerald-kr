@@ -114,24 +114,43 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord:: @ 822735B
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot: @ 8227369
-	.string "Do you know the POKéMON SEEDOT?\n"
-	.string "It's hardly ever seen in SOOTOPOLIS.\p"
-	.string "Anyway, I love big SEEDOT.\n"
-	.string "The bigger the better.\p"
-	.string "But my younger brother, he says that\n"
-	.string "LOTAD is bigger.\p"
-	.string "That's silly.\n"
-	.string "SEEDOT has to be bigger than that!\p"
-	.string "Huh? Do you have a SEEDOT with you?\n"
-	.string "P-p-please, show me!$"
+	.string "너 도토링이라는 포켓몬 알아?\n"
+	.string "루네시티에서는 좀처럼\l"
+	.string "볼 수 없는 포켓몬인데\p"
+	.string "나 큰 도토링이\n"
+	.string "무지무지 좋아!\p"
+	.string "동생은 연꽃몬이 더\n"
+	.string "크다고 하는데 말야\p"
+	.string "당연히 도토링이 더\n"
+	.string "크지 않아?!\p"
+	.string "응? 너 도토링 가지고 있어?\n"
+	.string "자, 자, 잠깐...\l"
+	.string "아저씨한테 좀 보여줘!$"
+	// きみ タネボ-って ポケモン しってる?ｎ
+	// ルネでは めったに みられないん だけどねｐ
+	// わし おおきな タネボ-がｎ
+	// めちゃめちゃ だいすき なのよ!ｐ
+	// おとうとは ハスボ-の ほうがｎ
+	// おおきいって いうんだけどｐ
+	// タネボ-の ほうがｎ
+	// おおきいに きまってる よね!ｐ
+	// ん? きみ タネボ- もってるの?ｎ
+	// ちょ ちょ ちょっと……ｌ
+	// おじさんに みせて おくれ!
 
 SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad: @ 8227480
-	.string "{STR_VAR_2} inches!\n"
-	.string "Oh, my gosh, this is a big one!\p"
-	.string "It might even beat the big LOTAD\n"
-	.string "my younger brother saw!\p"
-	.string "Thanks for showing me.\n"
-	.string "This is my thanks!$"
+	.string "{STR_VAR_2}cm!\n"
+	.string "오오! 이 녀석 커!\p"
+	.string "동생이 본 큰 연꽃몬에\n"
+	.string "지지 않는 크기일지도 몰라!\p"
+	.string "보여줘서 고마워\n"
+	.string "보답으로 이걸 줄게!$"
+	// §うcm!!ｎ
+	// おお! こいつは でかい!ｐ
+	// おとうとが みた でかい ハスボ-にｎ
+	// まけない おおきさ かも!ｐ
+	// みせて くれて ありがとうｎ
+	// おれいに これを あげるよ!
 
 @ Unused
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1: @ 822750E

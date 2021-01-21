@@ -335,8 +335,8 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2: @ 81F8BBF
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor: @ 81F8BC5
 	.string "응? 누구지?\p"
-	.string "...... ...... ...... ......\n"
-	.string "...... ...... ...... ......\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
 	.string "아 그래 네가 옆집으로\n"
 	.string "이사 온 {PLAYER}{K_I}구나!\p"
 	.string "우리 집에도 너와 비슷한 또래의\n"

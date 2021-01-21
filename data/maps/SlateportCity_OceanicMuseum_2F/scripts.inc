@@ -332,31 +332,55 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong: @ 820BFF2
 	.string "방해받고 있었나?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning: @ 820C059
-	.string "We are TEAM AQUA,\n"
-	.string "and we love the sea!\p"
-	.string "And I am TEAM AQUA's leader,\n"
-	.string "ARCHIE!\p"
-	.string "What makes you interfere with us?\p"
-	.string "…No! You can't be!\n"
-	.string "You're not one of TEAM MAGMA?\p"
-	.string "Wait, that can't be right.\n"
-	.string "You're not dressed for the part.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "POKéMON, people… All life depends on\n"
-	.string "the sea.\p"
-	.string "So, TEAM AQUA is dedicated to\n"
-	.string "the expansion of the sea.\p"
-	.string "Don't you agree? What we are doing\n"
-	.string "is a magnificent undertaking.\p"
-	.string "Ah, fine…\n"
-	.string "You're still too young to understand\l"
-	.string "our noble objective.\p"
-	.string "But, I warn you, don't even consider\n"
-	.string "interfering with our plans again.\p"
-	.string "The consequences will cost you\n"
-	.string "dearly!\p"
-	.string "And don't you forget it!$"
+	.string "우리들은\n"
+	.string "바다를 사랑하는 아쿠아단!\p"
+	.string "그리고 나는\n"
+	.string "아쿠아단의 리더 아강이다\p"
+	.string "우리들을 방해하는 너는...\n"
+	.string "서 설마!\l"
+	.string "마그마단의 동료인 거냐?!\p"
+	.string "아니 그렇다 치더라도\n"
+	.string "입고 있는 옷이 다르군\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "포켓몬도 사람도 모든 생명은\n"
+	.string "바다에서 태어났다...\p"
+	.string "그래서 아쿠아단은\n"
+	.string "바다를 넓히려고 하고 있다\p"
+	.string "어때?\n"
+	.string "엄청 대단한 일이지?\p"
+	.string "뭐 됐다...\n"
+	.string "넌 아직 어리니까\p"
+	.string "우리의 이상을\n"
+	.string "이해하지 못해도 어쩔 수 없지...\p"
+	.string "하지만 앞으로도 우리들의\n"
+	.string "활동을 방해할 생각이라면\l"
+	.string "그냥은 두지 않을 거다!\p"
+	.string "그것만은 기억해둬라!$"
+	// われわれはｎ
+	// うみを あいする アクアだん!ｐ
+	// そして おれはｎ
+	// アクアだんの リ-ダ- アオギリだｐ
+	// われわれの じゃまをする おまえは……ｎ
+	// ま まさか!ｌ
+	// マグマだんの なかま なのか!?ｐ
+	// いや それにしてはｎ
+	// みにつけている ふくが ちがうなｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// ポケモンも ひとも すべての いのちはｎ
+	// うみから うまれた……ｐ
+	// だから アクアだんはｎ
+	// うみを ふやそうと しているのだよｐ
+	// どうだい?ｎ
+	// とても すばらしい ことだろう?ｐ
+	// まあ いい……ｎ
+	// まだ わかい おまえにｌ
+	// われわれの りそうなど わかるまい……ｐ
+	// だが このさきも われわれのｎ
+	// かつどうを じゃまする つもりならｌ
+	// ただでは すまさない からな!ｐ
+	// それだけは おぼえて おくのだ!
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs: @ 820C2BE
 	.string "해양: 넌...\n"
@@ -368,14 +392,20 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs: @ 820C2BE
 	.string "가져온 걸 깜빡했구나!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo: @ 820C36C
-	.string "CAPT. STERN: Whoops!\n"
-	.string "There's no time to lose!\p"
-	.string "We have to set out on our ocean-floor\n"
-	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
-	.string "to go!\p"
-	.string "Feel free to wander around and check\n"
-	.string "out our facilities, though.$"
+	.string "해양: 어이쿠!\n"
+	.string "이러고 있을 때가 아니지!\p"
+	.string "슬슬 해저 조사로\n"
+	.string "출발할 시간이군!\p"
+	.string "나는 이만 실례하겠지만\n"
+	.string "너는 차분히 안을\l"
+	.string "견학해도 좋아!$"
+	// クスノキ『おっと!ｎ
+	// こうしちゃ いられない!ｐ
+	// そろそろ かいてい ちょうさにｎ
+	// しゅっぱつ する じかんだ!ｐ
+	// わたしは これで しつれい するけどｎ
+	// きみは ゆっくり かんないをｌ
+	// けんぶつ していって くれたまえ!
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip: @ 820C43F
 	.string "이 모형 배를 보고 있자니\p"
@@ -391,16 +421,25 @@ SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine: @ 820C4C2
 	.string "나도 타고 싶어-!$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1: @ 820C4F9
-	.string "“WATER QUALITY SAMPLE 1,” the\n"
-	.string "label says.\p"
-	.string "The sea is all connected, but the\n"
-	.string "water seems to differ by region.$"
+	.string "“수질 샘플 1”\n"
+	.string "이라고 적힌 라벨이 붙어 있다!\p"
+	.string "바다는 모두 연결되어 있는데도\n"
+	.string "지역에 따라\l"
+	.string "조금 차이가 있는 듯하다$"
+	// 「すいしつ サンプル 1」ｎ
+	// と かかれた ラベルが はってある!ｐ
+	// うみは みんな つながって いるのにｎ
+	// ちいきに よって すこし ちがうらしい
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2: @ 820C566
-	.string "“WATER QUALITY SAMPLE 2,” the\n"
-	.string "label says.\p"
-	.string "Does the saltiness of seawater differ\n"
-	.string "by region, too?$"
+	.string "“수질 샘플 2”\n"
+	.string "라고 적힌 라벨이 붙어 있다!\p"
+	.string "지역이 다르면 바닷물의\n"
+	.string "짠맛도 달라지는 걸까?$"
+	// 「すいしつ サンプル 2」ｎ
+	// と かかれた ラベルが はってある!ｐ
+	// ちいきが ちがえば うみの みずのｎ
+	// しょっぱさも ちがったり するのかな?
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment: @ 820C5C6
 	.string "고무로 만들어진 볼이\n"

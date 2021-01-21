@@ -41,10 +41,10 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub:: @ 82343DC
 	end
 
 Underwater_SeafloorCavern_Text_SubExplorer1: @ 82343E5
-	.string "“SUBMARINE EXPLORER 1” is painted\n"
-	.string "on the hull.\p"
-	.string "This is the submarine TEAM AQUA\n"
-	.string "stole in SLATEPORT!\p"
-	.string "TEAM AQUA must have gone\n"
-	.string "ashore here.$"
+	.string "잠수정에는\n"
+	.string "“해연 1호”라고 적혀 있다\p"
+	.string "아쿠아단이 잿빛도시 조선소에서\n"
+	.string "빼앗아 온 잠수정이다!\p"
+	.string "아쿠아단은\n"
+	.string "여기 위로 올라간 것 같다$"
 

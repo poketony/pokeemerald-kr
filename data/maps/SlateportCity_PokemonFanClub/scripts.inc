@@ -267,44 +267,82 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill:: @ 820A220
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman: @ 820A233
-	.string "Er-hem! I am the CHAIRMAN of the\n"
-	.string "POKéMON FAN CLUB!\p"
-	.string "Being the CHAIRMAN, I am naturally\n"
-	.string "the most important!\p"
-	.string "No one can best me when it comes\n"
-	.string "to raising POKéMON. No one!\p"
-	.string "Well, let me tell you about\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "They're events where one can show off\n"
-	.string "POKéMON for the world to see!\p"
-	.string "However, they're held in far-off towns,\n"
-	.string "so I cannot participate often enough.\p"
-	.string "That is why we gather here to show\n"
-	.string "off our POKéMON, and have others\l"
-	.string "show us theirs.$"
+	.string "으흠!\p"
+	.string "내가 바로 포켓몬 애호가클럽에서\n"
+	.string "가장 대단한 회장이랍니다!\p"
+	.string "뭐니 뭐니 해도 회장이니까요\n"
+	.string "포켓몬 키우기로\l"
+	.string "나를 따라올 수 있는 사람은 없죠!\p"
+	.string "그렇게 키운 포켓몬을 자랑할 수 있는\n"
+	.string "포켓몬 콘테스트라고 하는\l"
+	.string "행사가 있습니다만...\p"
+	.string "아무래도 먼 마을에서 열기\n"
+	.string "때문에 참가하기가 어렵단 말이죠\p"
+	.string "그래서 지금은 여기서\n"
+	.string "자신의 포켓몬을 자랑하거나\l"
+	.string "다른 사람의 포켓몬을\l"
+	.string "보고 있습니다$"
+	// ウォッホン!!ｐ
+	// わしが ポケモン だいすきクラブでｎ
+	// いちば-ん えらい かいちょう ですぞ!ｐ
+	// なんたって かいちょう ですからなｎ
+	// ポケモンを そだてさせたらｌ
+	// みぎに でるもの なし!ｐ
+	// そんな ポケモンを じまんできるｎ
+	// ポケモンコンテストというｌ
+	// もよおしが あるの ですが…ｐ
+	// なにしろ とおくの まちで やっているのでｎ
+	// あまり さんか できんのですよｐ
+	// ですから いまは ここでｎ
+	// じぶんの ポケモンを じまんしたりｌ
+	// みなさんの ポケモンをｌ
+	// みせて いただくだけに しておるのです
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon: @ 820A3EE
-	.string "The POKéMON of a TRAINER who has\n"
-	.string "entered a POKéMON CONTEST…\l"
-	.string "That, I would like to see.$"
+	.string "포켓몬 콘테스트에 나간 적 있는\n"
+	.string "트레이너의 포켓몬...\l"
+	.string "부디 보고 싶군요$"
+	// ポケモンコンテストに でた ことがｎ
+	// ある トレ-ナ-の ポケモン…ｌ
+	// ぜひとも みて みたい ものですな
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon: @ 820A445
-	.string "Er-hem! I see you've participated in\n"
-	.string "a POKéMON CONTEST!\p"
-	.string "Please! Allow me to examine how you\n"
-	.string "have raised your POKéMON.\p"
-	.string "It delights me no end to see POKéMON\n"
-	.string "raised by other TRAINERS.\p"
-	.string "The happy expressions of POKéMON\n"
-	.string "raised with proper care…\p"
-	.string "The kindly eyes of the TRAINER that\n"
-	.string "nurtured and raised the POKéMON…\p"
-	.string "The very thought fills my heart to\n"
-	.string "overwhelming with joy.\p"
-	.string "Oh! I do beg your pardon!\n"
-	.string "Forgive me for prattling on so!\p"
-	.string "Please! Allow me to examine how much\n"
-	.string "your POKéMON has grown!$"
+	.string "으흠!\n"
+	.string "오오 포켓몬 콘테스트에 나갔군요!\p"
+	.string "어디 당신의 포켓몬이\n"
+	.string "어떻게 자라고 있는지 볼까요?\p"
+	.string "이야- 사람이 키운 포켓몬을\n"
+	.string "보는 건 즐겁군요!\p"
+	.string "이야- 다른 사람이 키운 포켓몬을\n"
+	.string "보는 건 정말 즐거워요!\p"
+	.string "제대로 키운 포켓몬의\n"
+	.string "그 행복해 보이는 얼굴...\p"
+	.string "그걸 바라보고 있는 트레이너의\n"
+	.string "상냥한 눈동자...\p"
+	.string "이야- 정말 행복함으로\n"
+	.string "가슴이 벅차올라요...\p"
+	.string "오오 실례!\n"
+	.string "저도 모르게 얘기가 길어졌네요\p"
+	.string "그럼 바로 그대의 포켓몬이\n"
+	.string "얼마나 성장했는지\l"
+	.string "한번 봐 볼게요!$"
+	// ウォッホン!!ｎ
+	// おっ コンテストに でられましたな!ｐ
+	// どれ あなたは ポケモンをｎ
+	// どんな ふうに そだてられて いるのかな?ｐ
+	// いや- ひとの そだてた ポケモンをｎ
+	// はいけん するのは たのしい ですぞ!ｐ
+	// きちんと そだてられた ポケモンのｎ
+	// しあわせそうな かお……ｐ
+	// それを みつめる トレ-ナ-のｎ
+	// やさしげな ひとみ……ｐ
+	// いや- しあわせでｎ
+	// むねが いっぱいに なりますな……ｐ
+	// おっと しつれい! ついついｎ
+	// はなしが ながくなって しまいましたなｐ
+	// では さっそく きみの ポケモンがｎ
+	// どれほど そだっているのかｌ
+	// はいけん させて もらいますかな!
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing: @ 820A62A
 	.string "그대의 포켓몬은 잘 자라고 있나요?\n"

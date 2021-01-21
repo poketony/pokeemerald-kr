@@ -27,65 +27,73 @@ VictoryRoad_B1F_EventScript_Halle:: @ 8236541
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
-	.string "The thought that I'm getting closer to\n"
-	.string "the POKéMON LEAGUE…\p"
-	.string "I'm getting stage fright…$"
+	.string "포켓몬리그에\n"
+	.string "가까워지고 있다고 생각하니\l"
+	.string "왠지 가슴이 두근거리기 시작했어...$"
 
 VictoryRoad_B1F_Text_SamuelDefeat: @ 82365AD
-	.string "I couldn't do a thing…$"
+	.string "아무것도 할 수 없었어...$"
 
 VictoryRoad_B1F_Text_SamuelPostBattle: @ 82365C4
-	.string "The POKéMON LEAGUE became distant\n"
-	.string "again… What a letdown…$"
+	.string "포켓몬리그가 멀어졌어...\n"
+	.string "완전 김빠진다...$"
 
 VictoryRoad_B1F_Text_ShannonIntro: @ 82365FD
-	.string "To win your way through the POKéMON\n"
-	.string "LEAGUE, you need the trust of your\l"
-	.string "POKéMON.$"
+	.string "포켓몬리그를 이겨나가기 위해서는\n"
+	.string "포켓몬을 향한 신뢰가 필요해$"
 
 VictoryRoad_B1F_Text_ShannonDefeat: @ 823664D
-	.string "Your relationship is based on\n"
-	.string "solid trust.$"
+	.string "아주 돈독한 신뢰 관계구나!$"
 
 VictoryRoad_B1F_Text_ShannonPostBattle: @ 8236678
-	.string "By being together all the time, trust\n"
-	.string "grows between POKéMON and TRAINERS.$"
+	.string "언제나 함께 있는 걸로\n"
+	.string "포켓몬과 트레이너 사이에\l"
+	.string "신뢰 관계가 형성되는 거야$"
 
 VictoryRoad_B1F_Text_MichelleIntro: @ 82366C2
-	.string "This isn't the goal. It's only a place\n"
-	.string "on the way to the POKéMON LEAGUE.$"
+	.string "여기는 골인 지점이 아니야\n"
+	.string "포켓몬리그로 가는 중간 지점이지!$"
 
 VictoryRoad_B1F_Text_MichelleDefeat: @ 823670B
-	.string "That's the way!$"
+	.string "그래! 바로 그거야!$"
 
 VictoryRoad_B1F_Text_MichellePostBattle: @ 823671B
-	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "너라면 분명히 괜찮을 거야!\n"
+	.string "포켓몬도 의욕이 넘치니까!$"
 
 VictoryRoad_B1F_Text_MitchellIntro: @ 8236757
-	.string "My POKéMON are cosmically\n"
-	.string "awe inspiring!$"
+	.string "제 포켓몬은 굉장하다고요!$"
+	// わたしの ポケモンは すばらしいですよ!
 
 VictoryRoad_B1F_Text_MitchellDefeat: @ 8236780
-	.string "I've never met anyone like you before.$"
+	.string "당신 같은 사람\n"
+	.string "처음이에요$"
+	// あなた みたいな かたｎ
+	// はじめて です
 
 VictoryRoad_B1F_Text_MitchellPostBattle: @ 82367A7
-	.string "Even outside of battle, I sense\n"
-	.string "incredible power emanating from you\l"
-	.string "and your POKéMON.$"
+	.string "당신과 당신의 포켓몬이\n"
+	.string "같이 있는 것만으로도\l"
+	.string "굉장한 파워가 느껴져요$"
+	// あなたと あなたの ポケモンがｎ
+	// いっしょに いるだけでｌ
+	// すごい パワ-を かんじます
 
 VictoryRoad_B1F_Text_HalleIntro: @ 82367FD
-	.string "Okay, no need to get your back up!\n"
-	.string "Relax, let's take it easy!$"
+	.string "오케이 그렇게 보채지 말라고!\n"
+	.string "릴랙스하고 상대해 줄 테니까!$"
+	// オ-ケイ そんなに かまえないで!ｎ
+	// リラックス して いきましょ!
 
 VictoryRoad_B1F_Text_HalleDefeat: @ 823683B
-	.string "Whoa!\n"
-	.string "Wonderful!$"
+	.string "원더풀!$"
+	// ワンダフル!
 
 VictoryRoad_B1F_Text_HallePostBattle: @ 823684C
-	.string "Sure, this is VICTORY ROAD.\p"
-	.string "But it's not all that different from\n"
-	.string "the path you've taken so far.\p"
-	.string "Try to enjoy things the rest of\n"
-	.string "the way!$"
+	.string "챔피언로드라지만\n"
+	.string "지금까지와 별다른 건 없어\l"
+	.string "남은 길을 인조이하라고!$"
+	// チャンピオンロ-ド だってｎ
+	// いままでの みちのりと かわらないわｌ
+	// のこりも エンジョイしてね
 

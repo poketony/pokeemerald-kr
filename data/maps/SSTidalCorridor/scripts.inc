@@ -260,87 +260,101 @@ SSTidalCorridor_Movement_SailorReturn: @ 823C28B
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite: @ 823C28F
-	.string "SCOTT: Well, hi, hi!\n"
-	.string "{PLAYER}{KUN}, {PLAYER}{KUN}!\p"
-	.string "Something's come up, so I have to\n"
-	.string "disembark, but am I glad to see you!\p"
-	.string "Congratulations, LEAGUE CHAMPION!\p"
-	.string "There's a place I'd like to invite\n"
-	.string "someone like you.\p"
-	.string "It's the…\n"
-	.string "BATTLE FRONTIER!\p"
-	.string "What's the place like?\n"
-	.string "You'll understand when you see it!\p"
-	.string "I've spoken with the ship's CAPTAIN\n"
-	.string "about this.\p"
-	.string "The next time you take a ferry,\n"
-	.string "you should be able to sail to\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "Okay, {PLAYER}{KUN}, I'll be waiting for you\n"
-	.string "at the BATTLE FRONTIER!$"
+	.string "금작화: 여어\n"
+	.string "{PLAYER}!\p"
+	.string "나는 볼일이 있어서\n"
+	.string "이제 배에서 내려야겠지만\l"
+	.string "그래도 만나서 다행이네!\p"
+	.string "리그 챔피언 축하해!\n"
+	.string "그런 너를\l"
+	.string "초대하고 싶은 곳이 있어!\p"
+	.string "바로... 배틀프런티어야!\p"
+	.string "어떤 곳이냐고?\n"
+	.string "일단 가보면 알 거야\p"
+	.string "이 배의 선장한테는\n"
+	.string "이미 얘기를 해뒀으니까...\l"
+	.string "다음부터 배에 탈 때는\l"
+	.string "배틀프런티어에 갈 수 있을 거야!\p"
+	.string "그럼 {PLAYER}\n"
+	.string "배틀프런티어에서 기다릴게!$"
+	// エニシダ『やあ やあ やあｎ
+	// §あ§お §あ§お!ｐ
+	// わたしは ようじが あってｎ
+	// もう ふねを おりるんだけどｌ
+	// あえて よかったよ!ｐ
+	// リ-グチャンピオン おめでとう!ｎ
+	// そんな きみを しょうたい したいｌ
+	// ところが ある!ｐ
+	// それは…… バトルフロンティア だ!ｐ
+	// どんな ところかって?ｎ
+	// とにかく きてみれば わかるよｐ
+	// このふねの せんちょうにはｎ
+	// はなしを しておいた から……ｌ
+	// つぎから ふねに のるときはｌ
+	// バトルフロンティアに いける はずだよ!ｐ
+	// じゃあね §あ§おｎ
+	// バトルフロンティアで まっているよ!
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage: @ 823C462
-	.string "This ferry is built to plow through\n"
-	.string "fast-running currents.\p"
-	.string "We hope you enjoy your voyage with us.\n"
-	.string "Feel free to explore the ship.$"
+	.string "해류에 꿈쩍도 하지 않고 나아가는\n"
+	.string "연락선을 봐 주세요$"
+	// かいりゅうを ものともせず すすむｎ
+	// れんらくせんを どうぞ ごらんください
 
 SSTidal_Text_HopeYouEnjoyVoyage: @ 823C4E3
-	.string "We hope you enjoy your voyage on\n"
-	.string "our ferry.$"
+	.string "그럼 연락선을 이용한\n"
+	.string "즐거운 배 여행을 만끽해 주세요$"
 
 SSTidal_Text_MadeLandInSlateport: @ 823C50F
-	.string "We have made land in SLATEPORT CITY.\n"
-	.string "Thank you for sailing with us.$"
+	.string "수고하셨습니다 지금 막\n"
+	.string "잿빛도시에 도착했습니다$"
 
 SSTidal_Text_MadeLandInLilycove: @ 823C553
-	.string "We have made land in LILYCOVE CITY.\n"
-	.string "Thank you for sailing with us.$"
+	.string "수고하셨습니다 지금 막\n"
+	.string "해안시티에 도착했습니다$"
 
 SSTidalCorridor_Text_CanRestInCabin2: @ 823C596
-	.string "It'll be some time before we make land,\n"
-	.string "I reckon.\p"
-	.string "You can rest up in your cabin if you'd\n"
-	.string "like. Your cabin's No. 2.\p"
-	.string "The bed in there is soft and plushy.\n"
-	.string "I can attest to how comfy it is!$"
+	.string "도착하려면 아직 멀었어\p"
+	.string "자기 방에 돌아가서 쉬고 있어\n"
+	.string "분명 네 방은\l"
+	.string "2호실이었지\p"
+	.string "그 방 침대는\n"
+	.string "푹신푹신해서 정말 편하단다!$"
 
 SSTidalCorridor_Text_WeveArrived: @ 823C64F
-	.string "We've arrived!$"
+	.string "도착했어!$"
 
 SSTidalCorridor_Text_VisitOtherCabins: @ 823C65E
-	.string "Go visit other cabins.\n"
-	.string "TRAINERS bored of the boat trip will\l"
-	.string "be itching to battle.$"
+	.string "배 여행에 질려버려서\n"
+	.string "객실에서 포켓몬 승부를\l"
+	.string "하고 싶어 하는 트레이너도 있어!$"
 
 SSTidalCorridor_Text_EnjoyYourCruise: @ 823C6B0
-	.string "Enjoy your cruise!$"
+	.string "즐거운 배 여행을 만끽해 줘$"
 
 SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole: @ 823C6C3
-	.string "The horizon spreads beyond\n"
-	.string "the porthole.$"
+	.string "창문 저편에\n"
+	.string "수평선이 펼쳐져 있다!$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard: @ 823C6EC
-	.string "MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p"
-	.string "They made me honorary captain of\n"
-	.string "the S.S. TIDAL!\p"
-	.string "You can call me CAPTAIN BRINEY now!\p"
-	.string "You know, I retired once before,\n"
-	.string "but when I saw this majestic ship…\p"
-	.string "Let me just say, it stirred my sleeping\n"
-	.string "soul as a sailor!$"
+	.string "하기: 어서 오너라! {PLAYER}!\p"
+	.string "내가 이 타이드립호의\n"
+	.string "명예 선장인 하기다!\p"
+	.string "이야 한 번은 은퇴한 몸이지만\n"
+	.string "이런 엄청난 배를 봐 버리면\l"
+	.string "선원으로서의 피가 들끓어서 말이지!!$"
 
 SSTidalCorridor_Text_Peeko: @ 823C7E1
-	.string "PEEKO: Pihyo pihyohyo…$"
+	.string "피코: 피요 피요요요...!$"
 
 SSTidalCorridor_Text_Cabin1: @ 823C7F8
-	.string "Cabin 1$"
+	.string "1호실$"
 
 SSTidalCorridor_Text_Cabin2: @ 823C800
-	.string "Cabin 2$"
+	.string "2호실$"
 
 SSTidalCorridor_Text_Cabin3: @ 823C808
-	.string "Cabin 3$"
+	.string "3호실$"
 
 SSTidalCorridor_Text_Cabin4: @ 823C810
-	.string "Cabin 4$"
+	.string "4호실$"

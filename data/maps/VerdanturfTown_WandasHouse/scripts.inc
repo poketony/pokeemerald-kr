@@ -113,11 +113,10 @@ VerdanturfTown_WandasHouse_Text_WallySlippedOff: @ 8202C20
 	.string "어느샌가 사라져버렸어...$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar: @ 8202C4E
-	.string "UNCLE: Is that right?\n"
-	.string "WALLY's gone away that far all by\l"
-	.string "himself…\p"
-	.string "Well, I have to give him credit--he is\n"
-	.string "my little brother's son.$"
+	.string "작은아버지: 그렇구나...\n"
+	.string "그 민진이\l"
+	.string "혼자서 그렇게 멀리까지...\p"
+	.string "역시 우리 형님의 아들이야!$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda: @ 8202CCF
 	.string "미진: 당신은...?\n"

@@ -942,7 +942,7 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational: @ 81FB16D
 	.string "풍부한 자연으로 둘러싸여\l"
 	.string "있다는 거겠지!\p"
 	.string "그런 이유로 너희들의 도감을\n"
-	.string "전국도감으로 버전업\l"
+	.string "전국도감으로 버전 업\l"
 	.string "시켜 줄 테니까!\p"
 	.string "자 도감을 줘 보렴!$"
 	// オダマキ『……さてｐ
@@ -989,7 +989,7 @@ LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone: @ 81FB419
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational: @ 81FB436
 	.string "{PLAYER}의 포켓몬 도감이\n"
-	.string "전국도감으로 버전업했다!$"
+	.string "전국도감으로 버전 업했다!$"
 	// §あの ポケモンずかんがｎ
 	// ぜんこくばんに バ-ジョンアップ した!
 

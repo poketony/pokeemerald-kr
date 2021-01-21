@@ -59,20 +59,31 @@ SootopolisCity_Mart_Text_PPUpIsGreat: @ 8226816
 	.string "포인트업은 정말 대단해!\p"
 	.string "왜냐하면 포켓몬의\n"
 	.string "파워포인트를 늘려주니까!$"
+	// ポイントアップは すごいぞ!ｐ
+	// なんたって ポケモンのｎ
+	// パワ-ポイントを ふやせるからな!
 
 SootopolisCity_Mart_Text_TooScaryOutside: @ 822685D
-	.string "What…\n"
-	.string "What is happening?\p"
-	.string "I really want to know, but it's too\n"
-	.string "scary to go outside.$"
+	.string "대체 뭐가 일어나고 있는 거지?!\p"
+	.string "엄청 신경 쓰이지만\n"
+	.string "무서워서 밖으로 나갈 수가 없어!$"
+	// いったい なにが おこってるんだ!?ｐ
+	// ものすごく きになる けどｎ
+	// こわくて そとに でられないよ!
 
 SootopolisCity_Mart_Text_FullRestoreItemOfDreams: @ 82268AF
 	.string "“회복약”이라고 알고 있나요?\p"
 	.string "포켓몬의 체력이 완쾌!\n"
 	.string "상태 이상도 모두 회복!\p"
 	.string "정말 꿈만 같은 도구랍니다$"
+	// かいふくのくすり ごぞんじ ですか?ｐ
+	// ポケモンの たいりょく ぜんかい!ｎ
+	// じょうたい いじょうも すべて かいふく!ｌ
+	// まさに ゆめのような どうぐ なのです
 
 SootopolisCity_Mart_Text_DidSomethingAwaken: @ 8226928
 	.string "이 날씨...\n"
 	.string "무언가가 눈을 뜬 징조인가...?$"
+	// この てんき……ｎ
+	// なにかが めざめたのか……?
 

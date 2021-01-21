@@ -45,15 +45,27 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial: @ 82025D5
 	.string "스페셜업은 빠질 수 없지!\p"
 	.string "배틀 때만이라고는 해도\n"
 	.string "기술의 위력이 올라간다고!$"
+	// ポケモン しょうぶにｎ
+	// スペシャルアップは かかせない!ｐ
+	// たたかいの ときだけ とはいえｎ
+	// わざの いりょくが あがるんだからな!
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
-	.string "They don't seem to sell any winning\n"
-	.string "strategy guides for the BATTLE TENT…\p"
-	.string "It seems one must rely on one's\n"
-	.string "own wits after all…$"
+	.string "배틀텐트 필승\n"
+	.string "공략본 같은 건\l"
+	.string "팔지 않는 건가요...\p"
+	.string "역시 직접 힘내서\n"
+	.string "해내지 않으면 안 되겠네요$"
+	// バトルテント ひっしょうｎ
+	// こうりゃくぼん というのはｌ
+	// うってない ですねえ……ｐ
+	// やはり じぶんでｎ
+	// がんばらないと ダメなんですねえ
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon: @ 82026C9
 	.string "잔디마을에서밖에 살 수 없는\n"
 	.string "네스트볼은\l"
 	.string "약한 포켓몬일수록 잡기 쉬워져$"
+	// シダケでしか かえない ネストボ-ルｎ
+	// よわい ポケモンほど つかまえ やすくなるの
 

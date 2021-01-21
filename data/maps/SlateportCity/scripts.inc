@@ -1042,6 +1042,12 @@ SlateportCity_Text_BushedHikingFromMauville: @ 81DDA9A
 	.string "이 마을 무지 넓네...\p"
 	.string "이럴 줄 알았으면\n"
 	.string "자전거 타고 올 걸 그랬어!$"
+	// ふぅ ふぅ……ｐ
+	// おれは キンセツシティ からｎ
+	// あるいて ここまで きたんだけどｌ
+	// この まちって ひろいなぁ……ｐ
+	// こんな ことなら じてんしゃにｎ
+	// のって くれば よかったよ!
 
 SlateportCity_Text_EveryoneCallsHimCaptStern: @ 81DDB21
 	.string "이 박물관을 만든\n"
@@ -1050,114 +1056,180 @@ SlateportCity_Text_EveryoneCallsHimCaptStern: @ 81DDB21
 	.string "리더이기도 해!\p"
 	.string "아무튼 사람들은 그를\n"
 	.string "해양관장이라고 부르고 있어!$"
+	// この はくぶつかんを つくったのはｎ
+	// クスノキさん といってｐ
+	// かいていを たんさくする せんすいていのｎ
+	// かんちょう でも あるんだ!ｐ
+	// せんすいていの かんちょうでｎ
+	// はくぶつかんの かんちょう……ｐ
+	// まあ どっちにせよｎ
+	// クスノキかんちょう と よんでおけばｌ
+	// まちがい ないよな!
 
 SlateportCity_Text_WhatsLongLineOverThere: @ 81DDBAC
 	.string "뭐지 저 줄은\n"
 	.string "뭔 일 있나?$"
+	// なんなのかしらｎ
+	// あの ぎょうれつ?
 
 SlateportCity_Text_VisitedMuseumOften: @ 81DDBD5
 	.string "이 박물관에는\n"
 	.string "나도 어렸을 때 많이 왔어요\p"
 	.string "여기 전시된 전시품을 보고\n"
 	.string "바다의 신비를 동경했었죠$"
+	// この はくぶつかん にはｎ
+	// こどもの ころ わたしも よく きましたｐ
+	// かんないの てんじひんを みてｎ
+	// うみの しんぴに あこがれた ものです
 
 SlateportCity_Text_QuitPushing: @ 81DDC4F
 	.string "잠깐 너! 밀지 마!\n"
 	.string "순서 지켜야지!$"
+	// ちょっと あんた! おさないでよ!ｎ
+	// じゅんばん なんだから!
 
 SlateportCity_Text_AquaHasPolicy: @ 81DDC8A
 	.string "우리 아쿠아단의 기본 방침은\n"
 	.string "“현지 집합” 그리고\l"
 	.string "“현지 해산”이다!$"
+	// おれたち アクアだんの ポリシ-はｎ
+	// 「げんち しゅうごう」 そしてｌ
+	// 「げんち かいさん」 なんだぜ!
 
 SlateportCity_Text_BossIsBrilliant: @ 81DDCD5
 	.string "리더같이 똑똑하신 분이\n"
 	.string "이제 와서 박물관에는\l"
 	.string "무슨 볼일이지...?$"
+	// リ-ダ-ほど あたまの いい ひとがｎ
+	// いまさら はくぶつかんにｌ
+	// なんの ようじが あるんだ……?
 
 SlateportCity_Text_WhatsNewSchemeIWonder: @ 81DDD18
 	.string "이번 작전은 뭐지?\p"
 	.string "리더를 화나게 만들면 무서우니까\n"
 	.string "절대 실패하고 싶지 않아...$"
+	// こんどの さくせんは なんだろう?ｐ
+	// リ-ダ-を おこらせると こわいからｎ
+	// しっぱい したくないぜ……
 
 SlateportCity_Text_ShouldTakeItAll: @ 81DDD7D
 	.string "박물관 안에 갖고 싶은 게 있으면\n"
 	.string "아예 통째로 뺏어버리면 될 텐데...$"
+	// はくぶつかんに ほしいもの あるならｎ
+	// まるごと うばっちゃえば いいのに……
 
 SlateportCity_Text_DontButtIn: @ 81DDDC0
 	.string "어이 거기!\n"
 	.string "순서 지켜라!$"
+	// おい こら!ｎ
+	// じゅんばん ぬかすなよ!
 
 SlateportCity_Text_RemindsMeOfLongLineForGames: @ 81DDDDF
 	.string "이런 줄을 보면\p"
 	.string "엄청난 인기였던 게임을 샀을 때를\n"
 	.string "떠올리게 되네...$"
+	// ぎょうれつ というとｎ
+	// だいにんきの ゲ-ムを かったときをｌ
+	// おもいだすなあ……
 
 SlateportCity_Text_WhyAreWeLiningUp: @ 81DDE2F
 	.string "착실하게 돈 내지 말고\n"
 	.string "억지로 그냥 들어가면 될 텐데!$"
+	// まじめに おかね はらわずにｎ
+	// むりやり はいれば いいのによ!
 
 SlateportCity_Text_WhatDoYouWant: @ 81DDE6E
-	.string "What?\n"
-	.string "What do you want?$"
+	.string "뭐야 뭐야?!$"
+	// なんだ なんだ!?
 
 SlateportCity_Text_IllReadSignForYou: @ 81DDE86
-	.string "You want to read this sign?\n"
-	.string "I'll read it for you!$"
+	.string "너 이 간판이 읽고 싶은 거야?\n"
+	.string "그럼 내가 대신 읽어줄게!$"
+	// おまえ このカンバンが よみたいのか?ｎ
+	// なら オレが かわりに よんでやらぁ!
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless: @ 81DDEB8
-	.string "Let's see…\p"
-	.string "Um… I think it says something like\n"
-	.string "“the life in the sea is endless.”\p"
-	.string "Yup, I'm pretty sure that's what\n"
-	.string "it says.$"
+	.string "음- 어디 보자...\p"
+	.string "“없는 그것은 의 근”\p"
+	.string "...이라고 적혀 있어!$"
+	// え-と……ｐ
+	// 『てしない それは の の』ｐ
+	// ……って かいて あるぜ!
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy: @ 81DDF32
-	.string "Grumble…\p"
-	.string "I should've brought my Game Boy\n"
-	.string "Advance so I wouldn't get bored in line…\p"
-	.string "Grumble…$"
+	.string "중얼중얼...\p"
+	.string "게임보이가 있었으면\n"
+	.string "긴 줄도 지루하지 않아\p"
+	.string "중얼중얼...$"
+	// ぶつぶつぶつ……ｐ
+	// ゲ-ムボ-イが あればｎ
+	// ぎょうれつも たいくつ しないぜｐ
+	// ぶつぶつぶつ……
 
 SlateportCity_Text_HotSpringsAfterOperation: @ 81DDF8D
-	.string "When this operation's over, I'll take\n"
-	.string "you to a hot spring spa!\p"
-	.string "That's what our leader said.\n"
-	.string "I can't wait!$"
+	.string "이 작전이 끝나면\n"
+	.string "온천에 데려가 주마!\p"
+	.string "라고 리더가 말했어\n"
+	.string "좋을 거야...$"
+	// このさくせんが おわったらｎ
+	// おんせんに つれていって やる!ｐ
+	// って リ-ダ-が いってたんだｎ
+	// たのしみ だなぁ……
 
 SlateportCity_Text_SeaIsSoWet: @ 81DDFF7
 	.string "바다는 정말 넓어...\p"
 	.string "혹시 바다는\n"
 	.string "포켓몬이 흘린 눈물로\l"
 	.string "되어 있는 걸까....$"
+	// うみって おおきいなあ……ｐ
+	// ひょっとして うみってｎ
+	// ポケモンが ながした なみだでｌ
+	// できてるのかなあ……
 
 SlateportCity_Text_SinkOldBoats: @ 81DE04B
 	.string "오래 되서 탈 수 없게 된 배가\n"
 	.string "어떻게 되는지 알고 있나?\p"
 	.string "바닷속에 가라앉혀서\n"
 	.string "포켓몬의 거처가 되도록 하는 거야!$"
+	// ふるく なって のれない ふねはｎ
+	// どうするか しって いるかね?ｐ
+	// うみの そこに しずめてｎ
+	// ポケモンの すみかに してやるのだよ!
 
 SlateportCity_Text_BuyTooMuch: @ 81DE0D2
 	.string "여기 오면 너무 좋아서\n"
 	.string "나도 모르게 많이 사 버려!$"
+	// ここに くると うれしくてｎ
+	// つい たくさん かいもの しちゃう!
 
 SlateportCity_Text_GetNameRaterToHelpYou: @ 81DE10E
 	.string "포켓몬의 닉네임을 바꾸고 싶다면\n"
 	.string "이 마을에 살고 있는\l"
 	.string "이름 감정사한테 부탁하면 돼!$"
+	// ポケモンの ニックネ-ムを かえたいならｎ
+	// せいめい はんだんしに たのむんだね!
 
 SlateportCity_Text_CantChangeTradeMonName: @ 81DE16C
 	.string "다른 사람이랑 교환한 포켓몬은\n"
 	.string "닉네임을 바꿀 수 없어!\p"
 	.string "왜냐하면 닉네임은 지어준 사람의\n"
 	.string "마음이 담겨 있으니까!$"
+	// ひとと こうかんした ポケモンはｎ
+	// ニックネ-ムを かえられないわよ!ｐ
+	// だって つけた ひとの きもちがｎ
+	// こめられて いるんですもの!
 
 SlateportCity_Text_BattleTentBuiltRecently: @ 81DE1EC
-	.string "Recently, a BATTLE TENT was built\n"
-	.string "in SLATEPORT.\p"
-	.string "GYMS are fun, but the BATTLE TENT's\n"
-	.string "awesome in its own way.\p"
-	.string "You should go find tough POKéMON\n"
-	.string "for the BATTLE TENT!$"
+	.string "최근 잿빛도시에서\n"
+	.string "배틀텐트가 생겼어\l"
+	.string "체육관도 좋지만 배틀텐트도 좋지!\p"
+	.string "너도 강한 포켓몬을 찾으러\n"
+	.string "한번 가 봐!$"
+	// さいきん カイナにはｎ
+	// バトルテントが できたんだｌ
+	// ジムも いいけど バトルテントも いいぜ!ｐ
+	// おまえも つよい ポケモン さがしにｎ
+	// いって みなよ!
 
 SlateportCity_Text_CaptSternBeingInterviewed: @ 81DE28E
 	.string "유명한 스타가\n"
@@ -1165,42 +1237,66 @@ SlateportCity_Text_CaptSternBeingInterviewed: @ 81DE28E
 	.string "사인 받으려고 했는데\p"
 	.string "인터뷰하고 있는 사람\n"
 	.string "어라...? 해양관장 아냐?$"
+	// ゆうめいな スタ-が きていたらｎ
+	// サインを もらうつもり だったのにｐ
+	// インタビュ- されてるのはｎ
+	// あれ…… クスノキさん でないかい?
 
 SlateportCity_Text_InterviewerSoCool: @ 81DE30C
 	.string "저 인터뷰어 언니\n"
 	.string "미인에다가 멋있기까지 해!\p"
 	.string "나도 크면\n"
 	.string "국제 저널리스트가 될 거야!$"
+	// あの インタビュア-の おねえさんｎ
+	// かっこよくて びじん!ｐ
+	// あたしも おおきく なったらｎ
+	// こくさい ジャ-ナリストに なるわ!
 
 SlateportCity_Text_SternSaysDiscoveredSomething: @ 81DE376
 	.string "해양관장이 바닷속에서\n"
 	.string "무언가를 발견했다나 봐!\p"
 	.string "그게 뭘까? 뭘까?$"
+	// クスノキかんちょうは うみの そこでｎ
+	// なにかを はっけん したんだって!ｐ
+	// なんだろな-? なんだろな-?
 
 SlateportCity_Text_CaptainComeBackWithBigFish: @ 81DE3E2
 	.string "뭐야 뭐야!?\p"
 	.string "관장이 바다에서\n"
 	.string "대물이라도 낚아 올린 거야?$"
+	// なんだ なんだ!?ｐ
+	// かんちょうは うみの そこからｎ
+	// おおもの でも つりあげたのか?
 
 SlateportCity_Text_AmIOnTV: @ 81DE43D
 	.string "얘들아-! 보고 있어-?\n"
 	.string "나 TV에 잘 나오고 있니-?$"
+	// みんな-! みてるか-!ｎ
+	// おれも テレビに うつってるか-?
 
 SlateportCity_Text_CaptainsACelebrity: @ 81DE460
 	.string "방송국에서 취재하러 오다니\n"
 	.string "관장도 유명인이 다 됐네!$"
+	// テレビが しゅざいに くる なんてｎ
+	// かんちょうも ゆうめいじん ですなあ!
 
 SlateportCity_Text_BigSmileForCamera: @ 81DE491
 	.string "다이: 자 해양씨\n"
 	.string "거기서 웃으세요!$"
+	// ダイ『はい クスノキさんｎ
+	// そこで えがお!
 
 SlateportCity_Text_MostInvaluableExperience: @ 81DE4C4
 	.string "마리: 아... 그렇군요...\n"
 	.string "참 귀중한 경험을 하셨네요...$"
+	// マリ『なるほど なるほど それはｎ
+	// きちょうな たいけんを なさいましたね……
 
 SlateportCity_Text_SternMoveAheadWithExploration: @ 81DE502
 	.string "해양: ...그럼 앞으로도\n"
 	.string "조사는 계속해 나갈게요!$"
+	// クスノキ『……というわけで こんごもｎ
+	// ちょうさは つづけて いきますよ!
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview: @ 81DE54A
 	.string "마리: 그렇군요 아 그럼 해양씨!\n"
@@ -1208,11 +1304,19 @@ SlateportCity_Text_GabbyWonderfulThanksForInterview: @ 81DE54A
 	.string "정말 감사합니다!\p"
 	.string "또 뭔가 발견하시면\n"
 	.string "다시 취재하러 오겠습니다!$"
+	// マリ『そうですか いやあ クスノキさん!ｎ
+	// きょうは おいそがしい ところｌ
+	// どうも ありがとう ございました!ｐ
+	// また なにか はっけんが ありましたらｎ
+	// ぜひ しゅざい させて くださいね!
 
 SlateportCity_Text_SternWhewFirstInterview: @ 81DE5F7
 	.string "해양: 후우...\p"
 	.string "방송국 카메라에 찍히는 건\n"
 	.string "태어나서 처음이라 긴장했어!$"
+	// クスノキ『ふう……ｐ
+	// テレビカメラに うつされる なんてｎ
+	// はじめて だったから きんちょう したよ!
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	.string "오! {PLAYER}{K_I}인가!\n"
@@ -1224,9 +1328,17 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	.string "발견했어!\p"
 	.string "128번수로 심해에 있는\n"
 	.string "해저동굴에 있더라고$"
+	// おっ! §あ§おｎ
+	// げんきそう だね!ｐ
+	// こんかいの かいてい ちょうさでｎ
+	// すごい はっけんを したんだよ!ｐ
+	// 128ばん すいどうでｎ
+	// おおむかしに ぜつめつ したと いわれるｌ
+	// ポケモンの すみかと おもわれるｌ
+	// かいてい どうくつを みつけた……
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
-	.string "후후후...\p"
+	.string "“후후후...\p"
 	.string "들리고 있나?\l"
 	.string "해양관장이여...\p"
 	.string "네놈의 잠수정은\n"
@@ -1235,17 +1347,31 @@ SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
 	.string "발명품은 잘 쓰도록 하마!\p"
 	.string "하하하...!\n"
 	.string "우리 아쿠아단의 계획을\l"
-	.string "똑똑히 지켜보도록 해라!$"
+	.string "똑똑히 지켜보도록 해라!”$"
+	// 『フフフ……ｎ
+	// クスノキかんちょう とやらｐ
+	// きみの せんすいていはｎ
+	// われわれ アクアだんが いただく!ｐ
+	// きみたちは われわれに だまってｎ
+	// きょうりょく すれば いいのだよ!ｐ
+	// フフフ……ｎ
+	// これから アクアだんが なにを するかｌ
+	// たのしみに していたまえ!』
 
 SlateportCity_Text_SternWhatWasAllThat: @ 81DE7F7
 	.string "해양: 방금 목소리는...?\p"
 	.string "누가 확성기를 써서...\n"
 	.string "어디서 말하고 있는 거지...?$"
+	// クスノキ『いまの こえは……?ｐ
+	// だれかが かくせいきを つかって……ｐ
+	// どこから はなしてるんだ……?
 
 SlateportCity_Text_FromHarborTryingToTakeSub: @ 81DE860
 	.string "선착장 안이야!\p"
 	.string "잠수정을...\n"
 	.string "빼앗으려고 하고 있어...?$"
+	// ふねのりばの なか!ｐ
+	// せんすいていが…… うばわれる……?
 
 SlateportCity_Text_PleaseComeWithMe: @ 81DE8A0
 	.string "{PLAYER}!\n"
@@ -1263,28 +1389,44 @@ SlateportCity_Text_SternsShipyardWantedSign: @ 81DE8F8
 	.string "“해양조선소”\p"
 	.string "파도를 자유자재로 조종하는 선원\n"
 	.string "모집 중!$"
+	// 「クスノキ ぞうせんじょ」ｐ
+	// なみを じざいに あやつる ふなのりｎ
+	// だいぼしゅう してます!
 
 SlateportCity_Text_SternsShipyardNearsCompletion: @ 81DE940
 	.string "“해양조선소”\p"
 	.string "잿빛도시와 해안시티를 연결하는\n"
 	.string "연락선 타이드립호는\l"
 	.string "완성이 이제 눈앞에!$"
+	// 「クスノキ ぞうせんじょ」ｐ
+	// カイナと ミナモを むすぶｎ
+	// れんらくせん タイドリップごうはｌ
+	// かんせい まで あと わずか!
 
 SlateportCity_Text_SternsShipyardFerryComplete: @ 81DE9AA
 	.string "“해양조선소”\p"
 	.string "연락선 타이드립호에\n"
 	.string "승선을 희망하는 분은\l"
 	.string "배 타는 곳의 접수처로 오세요!$"
+	// 「クスノキ ぞうせんじょ」ｐ
+	// れんらくせん タイドリップごうにｎ
+	// じょうせんを きぼう される かたはｌ
+	// ふねのりば うけつけ まで どうぞ!
 
 SlateportCity_Text_PokemonFanClubSign: @ 81DEA0B
 	.string "“포켓몬 애호가클럽”\p"
 	.string "포켓몬을 좋아하는 사람\n"
 	.string "모두 모여라!$"
+	// 「ポケモン だいすきクラブ」ｎ
+	// ポケモンが すきなひと みんな あつまれ!
 
 SlateportCity_Text_OceanicMuseumSign: @ 81DEA3B
 	.string "끝없는 바다...\n"
 	.string "그것은 생명의 근원...\p"
 	.string "“바다의 과학박물관”$"
+	// はてしない うみ……ｎ
+	// それは いのちの みなもと……ｐ
+	// 「うみの かがく はくぶつかん」
 
 SlateportCity_Text_CitySign: @ 81DEA6F
 	.string "여기는 잿빛도시\n"
@@ -1296,119 +1438,201 @@ SlateportCity_Text_MarketSign: @ 81DEAAF
 	.string "“잿빛시장”\p"
 	.string "여기서밖에\n"
 	.string "구할 수 없는 물건 한가득!$"
+	// 「カイナ いちば」ｎ
+	// ここでしか かえない もの たくさん!
 
 SlateportCity_Text_HarborFerryUnderConstruction: @ 81DEAE3
 	.string "“잿빛도시 배 타는 곳”\p"
 	.string "연락선 타이드립호는\n"
 	.string "조선소에서 건조 중!\p"
 	.string "조금만 더 기다려 주세요!$"
+	// 「カイナ シティ ふねのりば」ｐ
+	// れんらくせん タイドリップごう はｎ
+	// ぞうせんじょ にて けんぞう ちゅう!ｐ
+	// もう しばらく おまちください!
 
 SlateportCity_Text_HarborSign: @ 81DEB5A
 	.string "“잿빛도시 배 타는 곳”\p"
 	.string "연락선 타이드립호로\n"
 	.string "신나는 배여행을 즐겨 주세요!$"
+	// 「カイナ シティ ふねのりば」ｐ
+	// れんらくせん タイドリップごうでｎ
+	// ふねの たびを おたのしみ ください!
 
 SlateportCity_Text_NameRatersHouseSign: @ 81DEBA0
 	.string "“이름 감정사의 집”\n"
 	.string "포켓몬의 이름을 점칩니다$"
+	// 「せいめい はんだんし の いえ」ｎ
+	// ポケモンの なまえ うらないます
 
 SlateportCity_Text_ExplainBerries: @ 81DEBCE
-	.string "If a wild POKéMON gets hurt, it heals\n"
-	.string "itself by chewing on BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "Somebody saw that and got the idea\n"
-	.string "of making medicine from BERRIES.\p"
-	.string "Did you know that?\p"
-	.string "To turn BERRIES into medicine,\n"
-	.string "they must be crushed into powder.\p"
-	.string "Did you know that?\p"
-	.string "You seem to have an interest\n"
-	.string "in BERRIES!\p"
-	.string "I've got something good for someone\n"
-	.string "like you.$"
+	.string "상처 입은 야생의 포켓몬은\n"
+	.string "나무열매를 먹어서 부상을 치료해\p"
+	.string "알고 있었어?\p"
+	.string "그걸 목격한 누군가가\n"
+	.string "나무열매로 약을\l"
+	.string "만들자는 생각을 했지\p"
+	.string "알고 있었어?\p"
+	.string "나무열매를 약으로 바꾸려면\n"
+	.string "산산조각으로 부숴\l"
+	.string "가루로 만든다는 걸\p"
+	.string "알고 있었어?\p"
+	.string "당신...\n"
+	.string "나무열매에 흥미가 있구나!\p"
+	.string "좋은 걸 줄게$"
+	// きずついた やせいの ポケモンはｎ
+	// きのみを かじって けがを なおすのｐ
+	// しってた?ｐ
+	// それを もくげきした だれかがｎ
+	// きのみから くすりを つくることをｌ
+	// おもいついたのｐ
+	// しってた?ｐ
+	// きのみを くすりに するためにはｎ
+	// こなごなに くだいて こなにするのｐ
+	// しってた?ｐ
+	// あなた……ｎ
+	// きのみに きょうみが ありそうね!ｐ
+	// いいものを あげるわ
 
 SlateportCity_Text_ExplainBerryPowder: @ 81DED27
-	.string "I recently had machines installed at\n"
-	.string "POKéMON CENTERS for crushing BERRIES.\p"
-	.string "The BERRY CRUSH machines are at\n"
-	.string "the DIRECT CORNER upstairs.\p"
-	.string "Did you know?\p"
-	.string "Could you make BERRY POWDER for\n"
-	.string "me using those machines?\p"
-	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.$"
+	.string "최근 포켓몬센터의 2층에\n"
+	.string "다이렉트 코너라는 곳에\l"
+	.string "나무열매를 부수는 기계를\l"
+	.string "설치해 놨어\p"
+	.string "알고 있었어?\p"
+	.string "그곳에서 나무열매 가루를\n"
+	.string "만들 수 있어!\p"
+	.string "나무열매 가루를\n"
+	.string "잔뜩 만들어 오면\l"
+	.string "여러 약을 줄게$"
+	// さいきん ポケモンセンタ-の 2かいのｎ
+	// ダイレクト コ-ナ- というところにｌ
+	// きのみを つぶす きかいをｌ
+	// おいて もらったのｐ
+	// しってた?ｐ
+	// そこで きのみの こなを つくってきて!ｐ
+	// きのみの こなをｎ
+	// たくさん つくって きてくれたらｌ
+	// いろいろな くすりを あげるわ
 
 SlateportCity_Text_BroughtMeSomeBerryPowder: @ 81DEE40
-	.string "Have you brought me some\n"
-	.string "BERRY POWDER?$"
+	.string "나무열매 가루를 가져왔어?$"
+	// きのみの こなを もってきたの?
 
 SlateportCity_Text_ExchangeWhatWithIt: @ 81DEE67
-	.string "What would you like to exchange\n"
-	.string "it with?$"
+	.string "뭐하고 교환할래?$"
+	// なにと こうかん しましょ?
 
 SlateportCity_Text_ExchangeBerryPowderForItem: @ 81DEE90
-	.string "Okay, you want to exchange your\n"
-	.string "BERRY POWDER for one {STR_VAR_1}?$"
+	.string "{STR_VAR_1}{K_WAGWA}\n"
+	.string "교환할래?$"
+	// §い とｎ
+	// こうかん するのね?
 
 SlateportCity_Text_DontHaveEnoughBerryPowder: @ 81DEEC9
-	.string "Oh, dear. You don't have enough\n"
-	.string "BERRY POWDER.$"
+	.string "어라라?!\n"
+	.string "가루가 부족한 거 아냐?!$"
+	// あれま!?ｎ
+	// こなが たりない じゃないの!
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse: @ 81DEEF7
-	.string "This is fine BERRY POWDER.\n"
-	.string "It will make excellent medicine.\p"
-	.string "Would you like to trade more of your\n"
-	.string "BERRY POWDER for something else?$"
+	.string "꽤 괜찮은 가루네!\p"
+	.string "당신이 준 가루로\n"
+	.string "또 좋은 약을 만들 수 있겠어!\p"
+	.string "또 교환할 거 있어?$"
+	// まあ いいこな だこと!ｐ
+	// あなたが くれた こなでｎ
+	// また いいくすりを つくれるわ!ｐ
+	// ほかにも なにか こうかんする?
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe: @ 81DEF79
-	.string "Okay! When you get some more\n"
-	.string "BERRY POWDER, bring it to me, please!$"
+	.string "그래\n"
+	.string "가루가 생기면 다시 잘 부탁할게!$"
+	// そうｎ
+	// こなが できたら また よろしくね!
 
 SlateportCity_Text_ComeBackToTradeBerryPowder: @ 81DEFBC
-	.string "Come back if you'd like to trade your\n"
-	.string "BERRY POWDER for some medicine.\p"
-	.string "I'm always running a bazaar here.\p"
-	.string "Did you know?$"
+	.string "약과 교환하고 싶으면\n"
+	.string "다시 여기로 와\p"
+	.string "나는 언제나\n"
+	.string "가게를 열고 있으니까\p"
+	.string "알고 있었어?$"
+	// くすりと こうかん したくなったらｎ
+	// また ここに くるのよｐ
+	// わたしが いつもｎ
+	// おみせ だしてるから ねｐ
+	// しってた?
 
 SlateportCity_Text_YouDroveTeamAquaAway: @ 81DF032
-	.string "SCOTT: Huh?\n"
-	.string "I'm sure I met you somewhere before.\p"
-	.string "Have I introduced myself to you?\n"
-	.string "If not, my name's SCOTT.\p"
-	.string "I just saw TEAM AQUA run away from\n"
-	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?$"
+	.string "금작화: ...어라?\n"
+	.string "너하고는 전에 어딘가에서 만났지\p"
+	.string "자기소개를 했었던가?\n"
+	.string "나는 금작화라고 해\p"
+	.string "지금 여기서 아쿠아단이\n"
+	.string "도망치는 걸 봤는데\p"
+	.string "혹시 네가 해치운 거야?$"
+	// エニシダ『……あれ?ｎ
+	// きみとは まえに どこかで あったよねｐ
+	// じこしょうかい したっけ?ｎ
+	// わたしは エニシダ って いうんだｐ
+	// いま ここから アクアだんがｎ
+	// にげだして いったけどｌ
+	// もしかして きみが やっつけたの かい?
 
 SlateportCity_Text_MaybeThisTrainer: @ 81DF0FE
-	.string "SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…$"
+	.string "금작화: 으-음 이건\n"
+	.string "설마 설마...$"
+	// エニシダ『う-む これはｎ
+	// ひょっとして ひょっとすると……
 
 SlateportCity_Text_LetsRegisterEachOther: @ 81DF12B
-	.string "SCOTT: All right! I think you're going\n"
-	.string "to become a good friend.\p"
-	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
-	.string "… … … … … …$"
+	.string "금작화: ...좋아!\n"
+	.string "너하고는 친해지고 싶으니까\l"
+	.string "서로 포켓내비에\l"
+	.string "이름을 등록해 두자!\p"
+	.string "...... ...... ......$"
+	// エニシダ『……よっし!ｎ
+	// きみとは なかよく なれそう だからｌ
+	// おたがい ポケナビにｌ
+	// なまえを とうろく しておこう!ｐ
+	// …… …… ……
 
 SlateportCity_Text_RegisteredScott: @ 81DF1A6
-	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
+	.string "금작화라고 하는 사람을\n"
+	.string "포켓내비에 등록했다!$"
+	// エニシダ という ひとをｎ
+	// ポケナビに とうろく した!
 
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou: @ 81DF1D3
-	.string "SCOTT: What I'd like to do is tag along\n"
-	.string "with you, but I do want to keep an eye\l"
-	.string "on the talents of other people, too.\p"
-	.string "So, I'll be off to roam other towns\n"
-	.string "a bit more.\p"
-	.string "Be seeing you, {PLAYER}{KUN}!$"
+	.string "금작화: 사실은 너에 대해서\n"
+	.string "자세히 알고 싶지만\l"
+	.string "다른 사람의 재능도 신경 쓰이고\p"
+	.string "조금 더 여러 마을을\n"
+	.string "방문해 보려고!\p"
+	.string "그럼 안녕 {PLAYER}!$"
+	// エニシダ『ホントは きみにｎ
+	// くっついて いきたい ところ だけどｌ
+	// ほかのひとの さいのうも きになるしｐ
+	// もうすこし いろんな まちをｎ
+	// たずね あるいて みるよ!ｐ
+	// じゃあね §あ§お!
 
 SlateportCity_Text_TakingBattleTentChallenge: @ 81DF28C
-	.string "SCOTT: Oh, hey!\n"
-	.string "If it isn't {PLAYER}{KUN}!\p"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
-	.string "to take the BATTLE TENT challenge?\p"
-	.string "Yeah! That's a good idea!\n"
-	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
-	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!$"
+	.string "금작화: 오 이런\n"
+	.string "{PLAYER}{K_I}구나!\p"
+	.string "...혹시 {PLAYER}\n"
+	.string "배틀텐트에 도전할 생각이야?\p"
+	.string "음! 그거 좋지!\n"
+	.string "엄청 좋은 생각이야!\l"
+	.string "배틀텐트에는 강한 트레이너가\l"
+	.string "어울리니까!\p"
+	.string "그럼 힘내!$"
+	// エニシダ『お おおっとｎ
+	// §あ§おか!ｐ
+	// ……もしかして §あ§おｎ
+	// バトルテントに ちょうせん するのかい?ｐ
+	// うん! それは いいことだな!ｎ
+	// ものすごく いいことだ!ｌ
+	// バトルテントには つよい トレ-ナ-がｌ
+	// とっても ふさわしい からねｐ
+	// じゃ がんばってね!

@@ -308,14 +308,18 @@ SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis: @ 820B3AB
 	.string "이거 줄 테니까 봐줘!$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain: @ 820B449
-	.string "That TM, it suits you more than it\n"
-	.string "does me.\p"
-	.string "Hope I never see you again!\n"
-	.string "Wahahaha!$"
+	.string "그 기술머신\n"
+	.string "나보다 네가 가지는 게 어울려!\p"
+	.string "그럼 나중에 보자 으하하하-!$"
+	// その わざマシンｎ
+	// おれより おまえのほうが にあうぜ!ｐ
+	// じゃあな わははは-!
 
 SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis: @ 820B49B
-	.string "칫! 가방이 가득 차면\n"
-	.string "주고 도망가 버릴 수 없잖아$"
+	.string "부탁이니까\n"
+	.string "어떻게든 받아줘!$"
+	// たのむからｎ
+	// なんとかして うけとってくれよ!
 
 SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment: @ 820B4CF
 	.string "유리 안에서 파란 물이\n"

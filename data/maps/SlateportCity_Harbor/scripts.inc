@@ -446,14 +446,22 @@ SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday: @ 820D01C
 	.string "나도 언젠가 들어가 보고 싶어!$"
 
 SlateportCity_Harbor_Text_AbnormalWeather: @ 820D08E
-	.string "For a ship to sail safely, we need to\n"
-	.string "know about the weather!\p"
-	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
-	.string "He was saying abnormal weather has\n"
-	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
-	.string "and ask around!$"
+	.string "배로 안전하게 항해하려면\n"
+	.string "날씨를 이해할 필요가 있지!\p"
+	.string "그러고 보니 날씨 연구소에서 일하는\n"
+	.string "사람이 말했는데\p"
+	.string "최근 각지에서 이상 기후가\n"
+	.string "관측되고 있대!\p"
+	.string "너도 연구소에 가서\n"
+	.string "얘기를 들어보도록 해!$"
+	// ふねを あんぜんに すすめる ためにはｎ
+	// てんきを りかいする ひつようが ある!ｐ
+	// そういえば てんきけんきゅうじょのｎ
+	// ひとが いってたけどｐ
+	// さいきん かくちで いじょうきしょうがｎ
+	// かんそく されている らしいな!ｐ
+	// きみも けんきゅうじょに いってｎ
+	// はなしを きいてみると いいぞ!
 
 SlateportCity_Harbor_Text_SubTooSmallForMe: @ 820D194
 	.string "나도 해양관장과 같이\n"
@@ -468,24 +476,40 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum: @ 820D232
 	.string "데봉화물을 빼앗아 가려고 했던...$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove: @ 820D291
-	.string "ARCHIE: Oh?\n"
-	.string "Not you again…\p"
-	.string "You are tenacious to track us here,\n"
-	.string "that much I will give you.\p"
-	.string "But now…\n"
-	.string "No one can stop us! No one!\p"
-	.string "Or, will you follow us back to our\n"
-	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…$"
+	.string "아강: 또 네 녀석인가...\p"
+	.string "일부러 여기까지 오다니\n"
+	.string "꽤나 고생했겠군...\p"
+	.string "하지만 더 이상 누구도\n"
+	.string "우리를 막을 수 없다\p"
+	.string "막을 수 있다고 생각한다면\n"
+	.string "해안시티의 아지트까지 와봐라\l"
+	.string "후후후...$"
+	// アオギリ『おや? また きみか……ｐ
+	// わざわざ ここまで おいかけて くるとはｎ
+	// ごくろうな ことだな……ｐ
+	// だが もう だれにもｎ
+	// われわれを とめられないｐ
+	// とめられると おもうならｎ
+	// ミナモの アジトまで くるかね?ｌ
+	// フフフ……
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
-	.string "CAPT. STERN: Why…\p"
-	.string "Why would TEAM AQUA steal my\n"
-	.string "SUBMARINE EXPLORER 1?\p"
-	.string "They can't be after the slumbering\n"
-	.string "POKéMON at the bottom of the sea…\p"
-	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
+	.string "해양: 어째서...\p"
+	.string "아쿠아단이\n"
+	.string "내 잠수정\l"
+	.string "“해연 1호”를 빼앗은 거지?\p"
+	.string "설마 그 녀석들도\n"
+	.string "해저에 잠들어 있는 포켓몬을...\p"
+	.string "하지만 나는 쫓아가도\n"
+	.string "그 녀석들을 상대할 수 없을 텐데...$"
+	// クスノキ『なぜ……ｐ
+	// アクアだんの れんちゅうがｎ
+	// わたしの せんすいていｌ
+	// 「かいえん 1ごう」を うばうのだろう?ｐ
+	// まさか かれらもｎ
+	// かいていに ねむる ポケモンを……ｐ
+	// だが わたしが おいかけてもｎ
+	// あんな れんちゅうに かてる わけない……
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "해양: 아아 {PLAYER}{K_AYA}...\p"
