@@ -1245,7 +1245,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 	.string "어디까지 이겨 나갈 생각인가?\n"
-	.string "권위 충분!$"
+	.string "관록은 충분!$"
 	// どこまで かちつづける つもり なのか?ｎ
 	// かんろく じゅうぶん!
 
@@ -1284,7 +1284,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	// てらさなければ いけないっ!!
 
 BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
-	.string "자아! 내 모든 걸!\n"
+	.string "자! 내 모든 걸!\n"
 	.string "여기에 내보이겠어!!$"
 	// さあっ! わたしの すべてっ!ｎ
 	// ここに ひろう するよっ!!

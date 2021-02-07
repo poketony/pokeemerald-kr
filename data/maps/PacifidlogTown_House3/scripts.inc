@@ -88,9 +88,9 @@ PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon: @ 8203DDE
 	// ひきうけられないね!
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything: @ 8203E12
-	.string "흐-음 관두는 거구가...\p"
+	.string "흐-음 관두는 거구나...\p"
 	.string "뭐 나도\n"
-	.string "꼭 해야만 하는 건 아니니까$"
+	.string "꼭 하고 싶은 건 아니니까$"
 	// ふ-ん やめるのか……ｐ
 	// まっ おれのほうもｎ
 	// どうしても って わけじゃ ないしね

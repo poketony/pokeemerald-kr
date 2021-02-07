@@ -1,341 +1,455 @@
 BattleDome_Text_Potential1::
-	.string "The best candidate to be a champ!$"
+	.string "이번 대회의 우승 후보 넘버원!$"
+	// こんたいかいの ゆうしょうこうほ ナンバ-1!
 
 BattleDome_Text_Potential2::
-	.string "A sure-finalist team.$"
+	.string "결승 진출이 확실한 팀.$"
+	// けっしょうまでは かくじつと いわれる チ-ム。
 
 BattleDome_Text_Potential3::
-	.string "A likely top-three finisher.$"
+	.string "베스트 3에 들 정도의 팀.$"
+	// ベスト3に はいる ちからを もった チ-ム。
 
 BattleDome_Text_Potential4::
-	.string "A candidate to finish first.$"
+	.string "이번 대회의 우승 후보 1팀.$"
+	// こんたいかい ゆうしょうこうほの 1チ-ム。
 
 BattleDome_Text_Potential5::
-	.string "A team with top-class potential.$"
+	.string "톱클래스의 힘을 갖춘 팀.$"
+	// トップクラスの ちからを そなえた チ-ム。
 
 BattleDome_Text_Potential6::
-	.string "The dark horse team this tournament.$"
+	.string "이번 대회의 주목 받는 다크호스!$"
+	// こんたいかい ちゅうもくの ダ-クホ-ス!
 
 BattleDome_Text_Potential7::
-	.string "A better-than-average team.$"
+	.string "평균 이상의 힘을 지닌 팀.$"
+	// へいきんより すこし ちからが うえの チ-ム。
 
 BattleDome_Text_Potential8::
-	.string "This tournament's average team.$"
+	.string "이번 대회의 평범한 팀.$"
+	// こんたいかいの へいきんてきな チ-ム。
 
 BattleDome_Text_Potential9::
-	.string "A team with average potential.$"
+	.string "평균 레벨의 힘을 지닌 팀.$"
+	// へいきん レベルの ちからを もった チ-ム。
 
 BattleDome_Text_Potential10::
-	.string "A weaker-than-average team.$"
+	.string "평균보다 약한 힘을 지닌 팀.$"
+	// へいきんより やや ちからが おちる チ-ム。
 
 BattleDome_Text_Potential11::
-	.string "A team looking for its first win.$"
+	.string "일단 1승이 목표인 팀.$"
+	// まず 1しょうが もくひょうと なる チ-ム。
 
 BattleDome_Text_Potential12::
-	.string "One win will make this team proud.$"
+	.string "1승을 거두는 게 신기한 팀.$"
+	// 1しょう できれば じょうじょうの チ-ム。
 
 BattleDome_Text_Potential13::
-	.string "Overall, a weak team.$"
+	.string "전체적으로 낮은 레벨의 팀.$"
+	// ぜんたいの なかで したの レベルの チ-ム。
 
 BattleDome_Text_Potential14::
-	.string "A team with very low potential.$"
+	.string "실력이 상당히 낮은 팀.$"
+	// じつりょくは かなり したの レベルの チ-ム。
 
 BattleDome_Text_Potential15::
-	.string "A team unlikely to win the tournament.$"
+	.string "우승이 상당히 어려운 팀.$"
+	// ゆうしょうは かなり むずかしい チ-ム。
 
 BattleDome_Text_Potential16::
-	.string "The team most unlikely to win.$"
+	.string "우승에서 가장 먼 팀.$"
+	// ゆうしょうから もっとも とおい チ-ム。
 
 BattleDome_Text_PotentialDomeAceTucker::
-	.string "The perfect, invincible superstar!$"
+	.string "완전 무적의 슈퍼스타!!$"
+	// かんぜん むてきの ス-パ-スタ-!!
 
 BattleDome_Text_StyleRiskDisaster::
-	.string "Willing to risk total disaster at times.$"
+	.string "때로는 쓰러질 각오로 배틀을 한다.$"
+	// ときには はめつ かくごで たたかいを いどむ。
 
 BattleDome_Text_StyleEndureLongBattles::
-	.string "Skilled at enduring long battles.$"
+	.string "장기전과 끈기가 매우 특기.$"
+	// ちょうきせんでの ねばりが とても とくい。
 
 BattleDome_Text_StyleVariesTactics::
-	.string "Varies tactics to suit the opponent.$"
+	.string "상대에 맞춰 다채로운 기술로 싸운다.$"
+	// あいてに おうじて たさいな わざで たたかう。
 
 BattleDome_Text_StyleToughWinningPattern::
-	.string "Has a tough winning pattern.$"
+	.string "승리 패턴에 말려들면 강하다.$"
+	// かちパタ-ンを もっていて はまると つよい。
 
 BattleDome_Text_StyleUsesVeryRareMove::
-	.string "Occasionally uses a very rare move.$"
+	.string "매우 희귀한 기술을 가끔씩 쓴다.$"
+	// とても めずらしい わざを ときどき つかう。
 
 BattleDome_Text_StyleUsesStartlingMoves::
-	.string "Uses startling and disruptive moves.$"
+	.string "뜻밖의 기술로 배틀을 어지럽힌다.$"
+	// いひょうを つく わざで たたかいを みだす。
 
 BattleDome_Text_StyleConstantlyWatchesHP::
-	.string "Constantly watches HP in battle.$"
+	.string "항상 체력에 주의하며 싸운다.$"
+	// つねに たいりょくに きを くばって たたかう。
 
 BattleDome_Text_StyleStoresAndLoosesPower::
-	.string "Good at storing then loosing power.$"
+	.string "힘을 모아서 한 번에 공격한다.$"
+	// ちからを ためて いっきに せめるのが とくい。
 
 BattleDome_Text_StyleEnfeeblesFoes::
-	.string "Skilled at enfeebling foes.$"
+	.string "상대의 힘을 떨어뜨린다.$"
+	// あいての ちからを おとすのが とくい。
 
 BattleDome_Text_StylePrefersLuckTactics::
-	.string "Prefers tactics that rely on luck.$"
+	.string "운에 맡기는 배틀을 즐긴다.$"
+	// うんに まかせた たたかいかたを このむ。
 
 BattleDome_Text_StyleRegalAtmosphere::
-	.string "Attacks with a regal atmosphere.$"
+	.string "왕자의 품격을 갖춘 공격을 한다.$"
+	// おうじゃの ふうかく ただよう せめを する。
 
 BattleDome_Text_StylePowerfulLowPPMoves::
-	.string "Attacks with powerful, low-PP moves.$"
+	.string "PP가 적고 강한 기술로 승부한다.$"
+	// PPの すくない おおわざで しょうぶする。
 
 BattleDome_Text_StyleEnfeebleThenAttack::
-	.string "Skilled at enfeebling, then attacking.$"
+	.string "약하게 만든 후 공격한다.$"
+	// よわらせてから こうげきを するのが とくい。
 
 BattleDome_Text_StyleBattlesWhileEnduring::
-	.string "Battles while enduring all attacks.$"
+	.string "온갖 공격에도 버텨가며 싸운다.$"
+	// あらゆる こうげきに たえながら たたかう。
 
 BattleDome_Text_StyleUpsetsFoesEmotionally::
-	.string "Skilled at upsetting foes emotionally.$"
+	.string "상대의 마음을 어지럽게 한다.$"
+	// あいての こころを かきみだすのが とくい。
 
 BattleDome_Text_StyleStrongAndStraightforward::
-	.string "Uses strong and straightforward moves.$"
+	.string "강하고 쉬운 기술을 쓴다.$"
+	// つよくて あつかいやすい わざを つかう。
 
 BattleDome_Text_StyleAggressivelyStrongMoves::
-	.string "Aggressively uses strong moves.$"
+	.string "강력한 기술로 점점 밀어붙인다.$"
+	// きょうりょくな わざで どんどん おしまくる。
 
 BattleDome_Text_StyleCleverlyDodgesAttacks::
-	.string "Battles while cleverly dodging attacks.$"
+	.string "공격을 잘 피해가면서 싸운다.$"
+	// こうげきを うまく かわしながら たたかう。
 
 BattleDome_Text_StyleUsesUpsettingMoves::
-	.string "Skilled at using upsetting attacks.$"
+	.string "상대가 싫어하는 배틀을 한다.$"
+	// あいてが いやがる たたかいが とくい。
 
 BattleDome_Text_StyleUsesPopularMoves::
-	.string "Uses many popular moves.$"
+	.string "인기 있는 기술을 잔뜩 쓴다.$"
+	// にんきの ある わざを たくさん つかう。
 
 BattleDome_Text_StyleHasPowerfulComboMoves::
-	.string "Has moves for powerful combinations.$"
+	.string "강력한 콤보가 되는 기술을 지녔다.$"
+	// きょうりょくな コンボになる わざを もつ。
 
 BattleDome_Text_StyleUsesHighProbabilityMoves::
-	.string "Uses high-probability attacks.$"
+	.string "명중이 높은 기술로 공격한다.$"
+	// てがたい わざで きっちりと こうげきする。
 
 BattleDome_Text_StyleAggressivelySpectacularMoves::
-	.string "Aggressively uses spectacular moves.$"
+	.string "화려한 기술로 점점 밀어붙인다.$"
+	// はでな わざを つかって どんどん せめる。
 
 BattleDome_Text_StyleEmphasizesOffenseOverDefense::
-	.string "Emphasizes offense over defense.$"
+	.string "방어보다 공격을 중시한다.$"
+	// まもりより とにかく せめを だいじに する。
 
 BattleDome_Text_StyleEmphasizesDefenseOverOffense::
-	.string "Emphasizes defense over offense.$"
+	.string "공격보다 방어를 중시한다.$"
+	// せめるより まもりを だいじに する。
 
 BattleDome_Text_StyleAttacksQuicklyStrongMoves::
-	.string "Attacks quickly with strong moves.$"
+	.string "강한 기술로 빠르게 승부를 본다.$"
+	// つよいわざで しょうぶの しかけが はやい。
 
 BattleDome_Text_StyleUsesAddedEffectMoves::
-	.string "Often uses moves with added effects.$"
+	.string "추가 효과가 있는 기술을 쓴다.$"
+	// ついかこうかが ある わざを よく つかう。
 
 BattleDome_Text_StyleUsesBalancedMixOfMoves::
-	.string "Uses a well-balanced mix of moves.$"
+	.string "밸런스 좋게 여러 기술로 싸운다.$"
+	// バランスよく いろいろな わざで たちむかう。
 
 BattleDome_Text_StyleSampleMessage1::
-	.string "This is sample message 1.$"
+	.string "더미 메시지 1입니다.$"
+	// ダミ-メッセ-ジ1です。
 
 BattleDome_Text_StyleSampleMessage2::
-	.string "This is sample message 2.$"
+	.string "더미 메시지 2입니다.$"
+	// ダミ-メッセ-ジ2です。
 
 BattleDome_Text_StyleSampleMessage3::
-	.string "This is sample message 3.$"
+	.string "더미 메시지 3입니다.$"
+	// ダミ-メッセ-ジ3です。
 
 BattleDome_Text_StyleSampleMessage4::
-	.string "This is sample message 4.$"
+	.string "더미 메시지 4입니다.$"
+	// ダミ-メッセ-ジ4です。
 
 BattleDome_Text_EmphasizesHPAndAtk::
-	.string "Emphasizes HP and ATTACK.$"
+	.string "HP와 공격에 신경을 쓴다.$"
+	// HPと こうげきに ちからを いれている。
 
 BattleDome_Text_EmphasizesHPAndDef::
-	.string "Emphasizes HP and DEFENSE.$"
+	.string "HP와 방어에 신경을 쓴다.$"
+	// HPと ぼうぎょに ちからを いれている。
 
 BattleDome_Text_EmphasizesHPAndSpeed::
-	.string "Emphasizes HP and SPEED.$"
+	.string "HP와 스피드에 신경을 쓴다.$"
+	// HPと すばやさに ちからを いれている。
 
 BattleDome_Text_EmphasizesHPAndSpAtk::
-	.string "Emphasizes HP and SP. ATTACK.$"
+	.string "HP와 특수공격에 신경을 쓴다.$"
+	// HPと とくこうに ちからを いれている。
 
 BattleDome_Text_EmphasizesHPAndSpDef::
-	.string "Emphasizes HP and SP. DEFENSE.$"
+	.string "HP와 특수방어에 신경을 쓴다.$"
+	// HPと とくぼうに ちからを いれている。
 
 BattleDome_Text_EmphasizesAtkAndDef::
-	.string "Emphasizes ATTACK and DEFENSE.$"
+	.string "공격과 방어에 신경을 쓴다.$"
+	// こうげきと ぼうぎょに ちからを いれている。
 
 BattleDome_Text_EmphasizesAtkAndSpeed::
-	.string "Emphasizes ATTACK and SPEED.$"
+	.string "공격과 스피드에 신경을 쓴다.$"
+	// こうげきと すばやさに ちからを いれている。
 
 BattleDome_Text_EmphasizesAtkAndSpAtk::
-	.string "Emphasizes ATTACK and SP. ATTACK.$"
+	.string "공격과 특수공격에 신경을 쓴다.$"
+	// こうげきと とくこうに ちからを いれている。
 
 BattleDome_Text_EmphasizesAtkAndSpDef::
-	.string "Emphasizes ATTACK and SP. DEFENSE.$"
+	.string "공격과 특수방어에 신경을 쓴다.$"
+	// こうげきと とくぼうに ちからを いれている。
 
 BattleDome_Text_EmphasizesDefAndSpeed::
-	.string "Emphasizes DEFENSE and SPEED.$"
+	.string "방어와 스피드에 신경을 쓴다.$"
+	// ぼうぎょと すばやさに ちからを いれている。
 
 BattleDome_Text_EmphasizesDefAndSpAtk::
-	.string "Emphasizes DEFENSE and SP. ATTACK.$"
+	.string "방어와 특수공격에 신경을 쓴다.$"
+	// ぼうぎょと とくこうに ちからを いれている。
 
 BattleDome_Text_EmphasizesDefAndSpDef::
-	.string "Emphasizes DEFENSE and SP. DEFENSE.$"
+	.string "방어와 특수방어에 신경을 쓴다.$"
+	// ぼうぎょと とくぼうに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpeedAndSpAtk::
-	.string "Emphasizes SPEED and SP. ATTACK.$"
+	.string "스피드와 특수공격에 신경을 쓴다.$"
+	// すばやさと とくこうに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpeedAndSpDef::
-	.string "Emphasizes SPEED and SP. DEFENSE.$"
+	.string "스피드와 특수방어에 신경을 쓴다.$"
+	// すばやさと とくぼうに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpAtkAndSpDef::
-	.string "Emphasizes SP. ATTACK and SP. DEFENSE.$"
+	.string "특수공격과 특수방어에 신경을 쓴다.$"
+	// とくこうと とくぼうに ちからを いれている。
 
 BattleDome_Text_EmphasizesHP::
-	.string "Emphasizes HP.$"
+	.string "HP에 신경을 쓴다.$"
+	// HPに ちからを いれている。
 
 BattleDome_Text_EmphasizesAtk::
-	.string "Emphasizes ATTACK.$"
+	.string "공격에 신경을 쓴다.$"
+	// こうげきに ちからを いれている。
 
 BattleDome_Text_EmphasizesDef::
-	.string "Emphasizes DEFENSE.$"
+	.string "방어에 신경을 쓴다.$"
+	// ぼうぎょに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpeed::
-	.string "Emphasizes SPEED.$"
+	.string "스피드에 신경을 쓴다.$"
+	// すばやさに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpAtk::
-	.string "Emphasizes SP. ATTACK.$"
+	.string "특수공격에 신경을 쓴다.$"
+	// とくこうに ちからを いれている。
 
 BattleDome_Text_EmphasizesSpDef::
-	.string "Emphasizes SP. DEFENSE.$"
+	.string "특수방어에 신경을 쓴다.$"
+	// とくぼうに ちからを いれている。
 
 BattleDome_Text_NeglectsHPAndAtk::
-	.string "Neglects HP and ATTACK.$"
+	.string "HP와 공격에 부주의하다!$"
+	// HPと こうげきに ちからを いれていない!
 
 BattleDome_Text_NeglectsHPAndDef::
-	.string "Neglects HP and DEFENSE.$"
+	.string "HP와 방어에 부주의하다!$"
+	// HPと ぼうぎょに ちからを いれていない!
 
 BattleDome_Text_NeglectsHPAndSpeed::
-	.string "Neglects HP and SPEED.$"
+	.string "HP와 스피드에 부주의하다!$"
+	// HPと すばやさに ちからを いれていない!
 
 BattleDome_Text_NeglectsHPAndSpAtk::
-	.string "Neglects HP and SP. ATTACK.$"
+	.string "HP와 특수공격에 부주의하다!$"
+	// HPと とくこうに ちからを いれていない!
 
 BattleDome_Text_NeglectsHPAndSpDef::
-	.string "Neglects HP and SP. DEFENSE.$"
+	.string "HP와 특수방어에 부주의하다!$"
+	// HPと とくぼうに ちからを いれていない!
 
 BattleDome_Text_NeglectsAtkAndDef::
-	.string "Neglects ATTACK and DEFENSE.$"
+	.string "공격과 방어에 부주의하다!$"
+	// こうげきと ぼうぎょに ちからを いれていない!
 
 BattleDome_Text_NeglectsAtkAndSpeed::
-	.string "Neglects ATTACK and SPEED.$"
+	.string "공격과 스피드에 부주의하다!$"
+	// こうげきと すばやさに ちからを いれていない!
 
 BattleDome_Text_NeglectsAtkAndSpAtk::
-	.string "Neglects ATTACK and SP. ATTACK.$"
+	.string "공격과 특수공격에 부주의하다!$"
+	// こうげきと とくこうに ちからを いれていない!
 
 BattleDome_Text_NeglectsAtkAndSpDef::
-	.string "Neglects ATTACK and SP. DEFENSE.$"
+	.string "공격과 특수방어에 부주의하다!$"
+	// こうげきと とくぼうに ちからを いれていない!
 
 BattleDome_Text_NeglectsDefAndSpeed::
-	.string "Neglects DEFENSE and SPEED.$"
+	.string "방어와 스피드에 부주의하다!$"
+	// ぼうぎょと すばやさに ちからを いれていない!
 
 BattleDome_Text_NeglectsDefAndSpAtk::
-	.string "Neglects DEFENSE and SP. ATTACK.$"
+	.string "방어와 특수공격에 부주의하다!$"
+	// ぼうぎょと とくこうに ちからを いれていない!
 
 BattleDome_Text_NeglectsDefAndSpDef::
-	.string "Neglects DEFENSE and SP. DEFENSE.$"
+	.string "방어와 특수방어에 부주의하다!$"
+	// ぼうぎょと とくぼうに ちからを いれていない!
 
 BattleDome_Text_NeglectsSpeedAndSpAtk::
-	.string "Neglects SPEED and SP. ATTACK.$"
+	.string "스피드와 특수공격에 부주의하다!$"
+	// すばやさと とくこうに ちからを いれていない!
 
 BattleDome_Text_NeglectsSpeedAndSpDef::
-	.string "Neglects SPEED and SP. DEFENSE.$"
+	.string "스피드와 특수방어에 부주의하다!$"
+	// すばやさと とくぼうに ちからを いれていない!
 
 BattleDome_Text_NeglectsSpAtkAndSpDef::
-	.string "Neglects SP. ATTACK and SP. DEFENSE.$"
+	.string "특수공격과 특수방어에 부주의하다!$"
+	// とくこうと とくぼうに ちからを いれていない!
 
 BattleDome_Text_NeglectsHP::
-	.string "Neglects HP.$"
+	.string "HP에 부주의하다!$"
+	// HPには ちからを いれていない!
 
 BattleDome_Text_NeglectsAtk::
-	.string "Neglects ATTACK.$"
+	.string "공격에 부주의하다!$"
+	// こうげきには ちからを いれていない!
 
 BattleDome_Text_NeglectsDef::
-	.string "Neglects DEFENSE.$"
+	.string "방어에 부주의하다!$"
+	// ぼうぎょには ちからを いれていない!
 
 BattleDome_Text_NeglectsSpeed::
-	.string "Neglects SPEED.$"
+	.string "스피드에 부주의하다!$"
+	// すばやさには ちからを いれていない!
 
 BattleDome_Text_NeglectsSpAtk::
-	.string "Neglects SP. ATTACK.$"
+	.string "특수공격에 부주의하다!$"
+	// とくこうには ちからを いれていない!
 
 BattleDome_Text_NeglectsSpDef::
-	.string "Neglects SP. DEFENSE.$"
+	.string "특수방어에 부주의하다!$"
+	// とくぼうには ちからを いれていない!
 
 BattleDome_Text_RaisesMonsWellBalanced::
-	.string "Raises POKéMON in a well-balanced way.$"
+	.string "밸런스 좋게 포켓몬을 키우고 있다.$"
+	// バランスよく ポケモンを そだてている。
 
 BattleDome_Text_LetTheBattleBegin::
-	.string "Let the battle begin!$"
+	.string "지금부터 대결 시작!$"
+	// これより たいけつ!
 
 BattleDome_Text_TrainerWonUsingMove::
-	.string "{STR_VAR_1} won using {STR_VAR_2}!$"
+	.string "{STR_VAR_2}{K_EU}로 {STR_VAR_1}의 승리!$"
+	// §う などで §いが しょうり!
 
 BattleDome_Text_TrainerBecameChamp::
-	.string "{STR_VAR_1} became the champ!$"
+	.string "{STR_VAR_2}{K_EU}로 {STR_VAR_1}의 우승!$"
+	// §う などで §い ゆうしょう!
 
 BattleDome_Text_TrainerWonByDefault::
-	.string "{STR_VAR_1} won by default!$"
+	.string "상대의 기권으로 {STR_VAR_1}의 승리!$"
+	// あいての リタイアで §いが しょうり!
 
 BattleDome_Text_TrainerWonOutrightByDefault::
-	.string "{STR_VAR_1} won outright by default!$"
+	.string "상대의 기권으로 {STR_VAR_1}의 우승!$"
+	// あいての リタイアで §い ゆうしょう!
 
 BattleDome_Text_TrainerWonNoMoves::
-	.string "{STR_VAR_1} won without using a move!$"
+	.string "기술을 쓰지 않고 {STR_VAR_1}의 승리!$"
+	// わざを つかわずに §いが しょうり!
 
 BattleDome_Text_TrainerWonOutrightNoMoves::
-	.string "{STR_VAR_1} won outright with no moves!$"
+	.string "기술을 쓰지 않고 {STR_VAR_1}의 우승!$"
+	// わざを つかわずに §い ゆうしょう!
 
 BattleDome_Text_Round1Match1::
-	.string "Round 1, Match 1$"
+	.string " 1회전 제1시합$"
+	//  1かいせん だい1しあい
 
 BattleDome_Text_Round1Match2::
-	.string "Round 1, Match 2$"
+	.string " 1회전 제2시합$"
+	//  1かいせん だい2しあい
 
 BattleDome_Text_Round1Match3::
-	.string "Round 1, Match 3$"
+	.string " 1회전 제3시합$"
+	//  1かいせん だい3しあい
 
 BattleDome_Text_Round1Match4::
-	.string "Round 1, Match 4$"
+	.string " 1회전 제4시합$"
+	//  1かいせん だい4しあい
 
 BattleDome_Text_Round1Match5::
-	.string "Round 1, Match 5$"
+	.string " 1회전 제5시합$"
+	//  1かいせん だい5しあい
 
 BattleDome_Text_Round1Match6::
-	.string "Round 1, Match 6$"
+	.string " 1회전 제6시합$"
+	//  1かいせん だい6しあい
 
 BattleDome_Text_Round1Match7::
-	.string "Round 1, Match 7$"
+	.string " 1회전 제7시합$"
+	//  1かいせん だい7しあい
 
 BattleDome_Text_Round1Match8::
-	.string "Round 1, Match 8$"
+	.string " 1회전 제8시합$"
+	//  1かいせん だい8しあい
 
 BattleDome_Text_Round2Match1::
-	.string "Round 2, Match 1$"
+	.string " 2회전 제1시합$"
+	//  2かいせん だい1しあい
 
 BattleDome_Text_Round2Match2::
-	.string "Round 2, Match 2$"
+	.string " 2회전 제2시합$"
+	//  2かいせん だい2しあい
 
 BattleDome_Text_Round2Match3::
-	.string "Round 2, Match 3$"
+	.string " 2회전 제3시합$"
+	//  2かいせん だい3しあい
 
 BattleDome_Text_Round2Match4::
-	.string "Round 2, Match 4$"
+	.string " 2회전 제4시합$"
+	//  2かいせん だい4しあい
 
 BattleDome_Text_SemifinalMatch1::
-	.string "Semifinal Match 1$"
+	.string "준결승 제1시합$"
+	// じゅんけっしょう だい1しあい
 
 BattleDome_Text_SemifinalMatch2::
-	.string "Semifinal Match 2$"
+	.string "준결승 제2시합$"
+	// じゅんけっしょう だい2しあい
 
 BattleDome_Text_FinalMatch::
-	.string "Final Match$"
+	.string "  결승전$"
+	//     けっしょうせん
