@@ -4,7 +4,7 @@ gTest_MissedTurn:: @ 827E8CE
 	.string "Missed turn$"
 
 gText_LinkStandby4:: @ 827E8DA
-	.string "Link standby!$"
+	.string "통신 대기 증!$"
 
 gText_WinnerIsPlayersMonCongrats:: @ 827E8E8
 	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!\n"

@@ -94,12 +94,7 @@ FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50: @ 82C4BFA
 	.string "3마리는 필요합니다!\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구로 해주십시오!\p"
-	.string "그리고 알, 뮤,\n"
-	.string "뮤츠, 칠색조,\l"
-	.string "루기아, 세레비,\l"
-	.string "가이오가, 그란돈,\l"
-	.string "레쿠쟈, 지라치,\l"
-	.string "테오키스는\l"
+	.string "그리고 알{STR_VAR_1}"
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
@@ -121,12 +116,7 @@ FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen: @ 82C4CC0
 	.string "3마리 준비해 주십시오!\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구로 해주십시오!\p"
-	.string "그리고 알, 뮤,\n"
-	.string "뮤츠, 칠색조,\l"
-	.string "루기아, 세레비,\l"
-	.string "가이오가, 그란돈,\l"
-	.string "레쿠쟈, 지라치,\l"
-	.string "테오키스는\l"
+	.string "그리고 알{STR_VAR_1}"
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
@@ -302,12 +292,7 @@ VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50: @ 82C543D
 	.string "3마리 준비해 주게\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구여야 하네\p"
-	.string "그리고 알, 뮤,\n"
-	.string "뮤츠, 칠색조,\l"
-	.string "루기아, 세레비,\l"
-	.string "가이오가, 그란돈,\l"
-	.string "레쿠쟈, 지라치,\l"
-	.string "테오키스는\l"
+	.string "그리고 알{STR_VAR_1}"
 	.string "참가시킬 수 없네!\p"
 	.string "준비되면 다시 와 주게나$"
 	// おぬし……ｐ
@@ -345,85 +330,88 @@ VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen: @ 82C5538
 	// じゅんびを ととえてから また きなさい
 
 VerdanturfTown_BattleTentLobby_Text_SelectThreeMons: @ 82C5633
-	.string "Good. Now, you must select your\n"
-	.string "three POKéMON.$"
+	.string "그럼 도전할 포켓몬을\n"
+	.string "3마리 고르게나$"
 	// では ちょうせんする ポケモンをｎ
 	// 3ひき えらんでくれ
 
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge: @ 82C5662
-	.string "I must save before I show you to\n"
-	.string "the BATTLE TENT. Is that okay?$"
+	.string "배틀텐트로 가기 전에\n"
+	.string "리포트를 작성할 건데 괜찮겠는가?$"
 	// バトルテントへ むかうまえにｎ
 	// レポ-トを かくが よろしいか?
 
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe: @ 82C56A2
-	.string "Good.\n"
-	.string "Now, follow me.$"
+	.string "그럼\n"
+	.string "나를 따라오게...$"
 	// それではｎ
 	// わしに ついてこい……
 
 VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded: @ 82C56B8
-	.string "I feel privileged for having seen\n"
-	.string "your POKéMON's exploits.\p"
-	.string "The results will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "좋은 구경을 했네\p"
+	.string "그럼 성적을 리포트에 작성하지...\n"
+	.string "잠시 기다려 주게...$"
 	// よいものを みせて もらったｐ
 	// それでは レポ-トを かこう……ｎ
 	// しばし またれよ……
 
 VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak: @ 82C5731
-	.string "To achieve a 3-win streak…\p"
-	.string "The bonds that bind your heart with\n"
-	.string "your POKéMON seem firm and true.$"
+	.string "3연승 달성이라니...\p"
+	.string "자네와 포켓몬의 마음속 유대감은\n"
+	.string "진짜로구먼...$"
 	// 3にんぬき たっせい とは……ｐ
 	// おぬしと ポケモンの こころの きずなはｎ
 	// まことの ようじゃな……
 
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded: @ 82C5791
-	.string "Your feat will be recorded.\n"
-	.string "I must ask you to briefly wait.$"
+	.string "성적을 리포트에 작성할 테니\n"
+	.string "잠시 기다려 주게...$"
 	// レポ-トに かくぞｎ
 	// しばし またれよ……
 
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize: @ 82C57CD
-	.string "For the feat of your 3-win streak,\n"
-	.string "we present you with this prize.$"
+	.string "7연승을 거둔 증거로\n"
+    .string "배틀포인트를 주겠네...$"
 	// 3にんぬきの あかしにｎ
 	// こちらを さしあげよう……
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent: @ 82C5810
-	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Tournament.$"
+	.string "배틀텐트 잿빛회장에\n"
+	.string "어서 오세요!\p"
+	.string "배틀트레이드의\n"
+	.string "안내를 하고 있습니다!$"
 	// バトルテント カイナかいじょうへｎ
 	// ようこそ!ｐ
 	// バトルトレ-ドのｎ
 	// ごあんないは こちらです!
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge: @ 82C586A
-	.string "Would you like to take the Battle\n"
-	.string "Swap challenge?$"
+	.string "배틀트레이드에\n"
+	.string "도전하겠습니까?$"
 	// バトルトレ-ドにｎ
 	// ちょうせん しますか?
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent: @ 82C589C
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
-	.string "we hold Battle Swap events\l"
-	.string "using rental POKéMON.\p"
-	.string "First, you will be loaned three\n"
-	.string "POKéMON specifically for this event.\p"
-	.string "Using the supplied rental POKéMON,\n"
-	.string "you must conduct a SINGLE BATTLE.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental POKéMON.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win three times in\l"
-	.string "a row, you will earn a fine prize.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "배틀텐트 잿빛회장에서는\n"
+	.string "대여 포켓몬을 빌려서\l"
+	.string "배틀트레이드라는 이벤트를\l"
+	.string "열고 있습니다!\p"
+	.string "우선 배틀트레이드 전용의\n"
+	.string "포켓몬 3마리를 빌려드립니다!\p"
+	.string "다음은 그 포켓몬을\n"
+	.string "써서 싱글배틀을\l"
+	.string "치루시면 됩니다!\p"
+	.string "훌륭히 배틀에서 승리하면\n"
+	.string "싸웠던 트레이너와 포켓몬을\l"
+	.string "트레이드할 수 있습니다!\p"
+	.string "트레이드와 배틀을 반복해서\n"
+	.string "멋지게 3연승을 하시면\l"
+	.string "근사한 상품을 드립니다!\p"
+	.string "또한 도중에 도전을\n"
+	.string "중단하고 싶을 경우에는\l"
+	.string "제대로 리포트를 작성하지 않으면\l"
+	.string "계속해서 도전할 수 없습니다!\p"
+	.string "아무쪼록 주의를 부탁드립니다!$"
 	// バトルテント カイナかいじょうではｎ
 	// レンタルポケモンを つかったｌ
 	// バトルトレ-ド という イベントをｌ
@@ -446,39 +434,42 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent: @ 82C589C
 	// くれぐれも きをつけて くださいね!
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit: @ 82C5AA5
-	.string "We look forward to your next visit.$"
+	.string "다음에 또 이용해 주세요\n"
+	.string "기다리고 있겠습니다!$"
 	// またの ごりようを おまちしていますよ!
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_WhichLevelMode: @ 82C5AC9
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Level 100?$"
+	.string "레벨 50과 오픈 레벨의 이벤트\n"
+	.string "어느 쪽에 도전하겠습니까?$"
 	// レベル50と レベル100の イベントｎ
 	// どちらに ちょうせん しますか?
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge: @ 82C5B06
-	.string "Before you begin your challenge,\n"
-	.string "I need to save data. Is that okay?$"
+	.string "그럼 도전을 시작하기 전에\n"
+	.string "리포트를 작성합니다만\l"
+	.string "괜찮겠습니까?$"
 	// では ちょうせんを はじめる まえにｎ
 	// レポ-トを かきますが よろしいですか?
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping: @ 82C5B4A
-	.string "Okay, I will hold your POKéMON for\n"
-	.string "safekeeping while you compete.$"
+	.string "그럼 포켓몬을\n"
+	.string "맡아두겠습니다!$"
 	// それでは ポケモンをｎ
 	// おあずかり します!
 
 SlateportCity_BattleTentLobby_Text_StepThisWay: @ 82C5B8C
-	.string "Please step this way.$"
+	.string "자 자 이쪽으로 와 주세요!$"
 	// さあさあ こちらに どうぞ!
 
 SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults: @ 82C5BA2
-	.string "Thank you for participating!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "수고하셨습니다!\p"
+	.string "대여 포켓몬과\n"
+	.string "맡아두고 있던 포켓몬을\l"
+	.string "교환합니다!\p"
+	.string "성적을 리포트에 작성하므로\n"
+	.string "잠시 기다려 주십시오!$"
 	// おつかれさまでした!ｐ
 	// レンタルポケモンとｎ
 	// おあずかり していた ポケモンをｌ
@@ -488,19 +479,20 @@ SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults: @ 82C5BA2
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals: @ 82C5C30
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.$"
+	.string "대여 포켓몬과\n"
+	.string "맡아두고 있던 포켓몬을\l"
+	.string "교환합니다!$"
 	// レンタルポケモンとｎ
 	// おあずかり していた ポケモンをｌ
 	// こうかん します!
 
 SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons: @ 82C5C6F
-	.string "Congratulations!\n"
-	.string "You've won three straight matches!\p"
-	.string "I will return your POKéMON in exchange\n"
-	.string "for our rental POKéMON.\p"
-	.string "I must also save your event results.\n"
-	.string "Please wait.$"
+	.string "3연승 축하합니다!\n"
+	.string "대여 포켓몬과\n"
+	.string "맡아두고 있던 포켓몬을\l"
+	.string "교환합니다!\p"
+	.string "리포트를 작성하므로\n"
+	.string "잠시 기다려 주십시오!$"
 	// 3れんしょう おめでとう ございます!ｐ
 	// レンタルポケモンとｎ
 	// おあずかり していた ポケモンをｌ
@@ -509,34 +501,35 @@ SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons: @ 82C5C6F
 	// しょうしょう おまちください!
 
 SlateportCity_BattleTentLobby_Text_AwardYouThisPrize: @ 82C5D14
-	.string "In recognition of your 3-win streak,\n"
-	.string "we award you this prize.$"
+	.string "3연승을 기념하여\n"
+	.string "상품을 선물합니다!$"
 	// 3れんしょうを きねんしてｎ
 	// こちらを さしあげます!
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom: @ 82C5D52
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "어라?\n"
+	.string "도구가 가득찬 모양이군요\p"
+	.string "도구를 정리하고 나서\n"
+	.string "다시 와주세요!$"
 	// おやや?ｎ
 	// どうぐが いっぱい ですね-ｐ
 	// どうぐを せいり してからｎ
 	// また きてください!
 
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou: @ 82C5DA7
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "기다리고 있었습니다!\p"
+	.string "도전을 재개하기 전에\n"
+	.string "리포트를 작성합니다!$"
 	// おまちして おりましたよ!ｐ
 	// ちょうせんを さいかいする まえにｎ
 	// レポ-トを かきます!
 
 SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting: @ 82C5DFA
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "손님-!!\p"
+	.string "지난번에 종료하기 전에 리포트를\n"
+	.string "제대로 작성하지 않으셨죠!\p"
+	.string "죄송합니다만\n"
+	.string "도전이 무효가 됩니다!$"
 	// おきゃくさま-!!ｐ
 	// ぜんかい ちゃんと レポ-トを かいてｎ
 	// しゅうりょう しませんでしたね!ｐ
@@ -545,33 +538,35 @@ SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting: @ 82C5DFA
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons: @ 82C5E85
-	.string "We'll return your personal POKéMON.$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
 	// おきゃくさまの ポケモンをｎ
 	// おかえしします!
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReceivedPrize: @ 82C5EA9
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
 	// §あはｎ
 	// §いを もらった!
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_RulesAreListed: @ 82C5EC3
-	.string "The Battle Swap rules are listed.$"
+	.string "배틀트레이드의 규칙이 적혀 있다!$"
 	// バトルトレ-ドの ル-ルが かかれてる!
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReadWhichHeading: @ 82C5EE5
-	.string "Which heading do you want to read?$"
+	.string "어느 설명을 읽겠습니까?$"
 	// どの せつめいを よみますか?
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules: @ 82C5F08
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three POKéMON.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same POKéMON.$"
+	.string "배틀트레이드에서 사용할 수 있는\n"
+	.string "포켓몬을 3마리까지입니다\p"
+	.string "대여할 때 트레이드할 때\n"
+	.string "어느 때라도\l"
+	.string "같은 종류의 포켓몬을\l"
+	.string "2마리 이상 지닐 수는 없습니다$"
 	// バトルトレ-ドで つかうことの できるｎ
 	// ポケモンは 3ひき まで ですｐ
 	// レンタルするとき トレ-ドするときｎ
@@ -580,10 +575,11 @@ SlateportCity_BattleTentLobby_Text_ExplainBasicRules: @ 82C5F08
 	// 2ひき いじょう もつことは できません
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules: @ 82C5F9D
-	.string "You may swap POKéMON only with\n"
-	.string "the TRAINER you have just defeated.\p"
-	.string "You may swap for only those POKéMON\n"
-	.string "used by the beaten TRAINER.$"
+	.string "트레이드할 수 있는 상대는\n"
+	.string "당신이 배틀에서\l"
+	.string "쓰러뜨린 트레이너입니다\p"
+	.string "트레이드로 받을 수 있는 건\n"
+	.string "트레이너가 사용하던 포켓몬입니다$"
 	// トレ-ドが できる あいてはｎ
 	// あなたが たたかいでｌ
 	// たおした トレ-ナ-ですｐ
@@ -591,11 +587,12 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules: @ 82C5F9D
 	// トレ-ナ-が つかっていた ポケモンです
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules: @ 82C6020
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's POKéMON.\p"
-	.string "You will not be able to swap POKéMON\n"
-	.string "with the third TRAINER in the event.$"
+	.string "한 번 배틀에서 이길 때마다\n"
+	.string "1회에 1마리만 포켓몬을\l"
+	.string "트레이드할 수 있습니다\p"
+	.string "1회의 도전으로\n"
+	.string "트레이드할 수 있는 건\l"
+	.string "2번째의 트레이너까지입니다$"
 	// いちど たたかいに かつ たびにｎ
 	// 1かい 1ひき だけ ポケモンをｌ
 	// トレ-ド することが できますｐ
@@ -604,16 +601,15 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules: @ 82C6020
 	// 2にんめの トレ-ナ-まで です
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes: @ 82C60C0
-	.string "There are two key points to be aware\n"
-	.string "of when swapping POKéMON.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the POKéMON you are\l"
-	.string "about to receive.\p"
-	.string "Second, the POKéMON on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "트레이드를 할 때에는\n"
+	.string "2개 주의할 사항이 있습니다\p"
+	.string "1번째 트레이드를 할 때는\n"
+	.string "상대로부터 받는 포켓몬의\l"
+	.string "능력치를 확인할 수 없습니다\p"
+	.string "2번째 도전을 시작했을 때에\n"
+	.string "빌린 대여 포켓몬의 순서가\l"
+	.string "트레이드 이후의 배틀에도\l"
+	.string "이어지게 됩니다$"
 	// トレ-ドを おこなう ときにはｎ
 	// 2つ ちゅういする ことが ありますｐ
 	// その1 トレ-ドを おこなう ときはｎ
@@ -625,10 +621,10 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNotes: @ 82C60C0
 	// ひきつがれます
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules: @ 82C61FE
-	.string "The POKéMON of the SLATEPORT\n"
-	.string "BATTLE TENT are all rentals.\p"
-	.string "All rental POKéMON are kept at\n"
-	.string "Level 30.$"
+	.string "배틀텐트 잿빛회장의 포켓몬은\n"
+	.string "모두 대여 포켓몬입니다\p"
+	.string "대여 포켓몬의 레벨은\n"
+	.string "모두 30입니다$"
 	// バトルテント カイナの ポケモンはｎ
 	// すべて レンタルポケモン ですｐ
 	// レンタルポケモンの レベルはｎ
@@ -636,24 +632,25 @@ SlateportCity_BattleTentLobby_Text_ExplainMonRules: @ 82C61FE
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2: @ 82C6261
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "배틀텐트 잔디회장의\n"
+	.string "규칙이 적혀 있다!$"
 	// バトルテント シダケ かいじょうのｎ
 	// ル-ルが かかれてる!
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading: @ 82C628E
-	.string "Which heading do you want to read?$"
+	.string "어느 설명을 읽겠습니까?$"
 	// どの せつめいを よみますか?
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules: @ 82C62B1
-	.string "Here at the VERDANTURF BATTLE TENT,\n"
-	.string "POKéMON are required to think and\l"
-	.string "battle by themselves.\p"
-	.string "Unlike in the wild, POKéMON that live\n"
-	.string "with people behave differently\l"
-	.string "depending on their nature.$"
+	.string "배틀텐트 잔디회장에서는\n"
+	.string "포켓몬들이 스스로\l"
+	.string "생각해서 배틀합니다\p"
+	.string "순수한 야생과는 달리\n"
+	.string "사람과 살아온 포켓몬은\l"
+	.string "성격에 따라 어떤 행동을\l"
+	.string "할지가 결정됩니다$"
 	// バトルテント シダケかいじょう ではｎ
 	// ポケモンたちが じぶんでｌ
 	// かんがえ たたかいますｐ
@@ -664,17 +661,15 @@ VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules: @ 82C62B1
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules: @ 82C636D
-	.string "Depending on its nature, a POKéMON\n"
-	.string "may prefer to attack no matter what.\p"
-	.string "Another POKéMON may prefer to protect\n"
-	.string "itself from any harm.\p"
-	.string "Yet another may enjoy vexing or\n"
-	.string "confounding its foes.\p"
-	.string "Depending on its nature, a POKéMON\n"
-	.string "will have favorite moves that it is good\l"
-	.string "at using.\p"
-	.string "It may also dislike certain moves that\n"
-	.string "it has trouble using.$"
+	.string "아무튼 공격하는 것을\n"
+	.string "선호하는 성격\p"
+	.string "자신의 몸을 지키는 것을\n"
+	.string "선호하는 성격\p"
+	.string "상대를 난처하게\n"
+	.string "만드는 것을 선호하는 성격\p"
+	.string "포켓몬은 성격에 따라\n"
+	.string "좋아하고 능숙한 기술과\l"
+	.string "싫어하고 서투른 기술이 다릅니다$"
 	// とにかく こうげきがｎ
 	// すきな せいかくｐ
 	// じぶんの みを まもることがｎ
@@ -687,17 +682,17 @@ VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules: @ 82C636D
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules: @ 82C64BA
-	.string "There are offensive moves that inflict\n"
-	.string "direct damage on the foe.\p"
-	.string "There are defensive moves that are\n"
-	.string "used to prepare for enemy attacks or\l"
-	.string "used to heal HP and so on.\p"
-	.string "There are also other somewhat-odd\n"
-	.string "moves that may enfeeble the foes with\l"
-	.string "stat problems including poison and \l"
-	.string "paralysis.\p"
-	.string "POKéMON will consider using moves in\n"
-	.string "these three categories.$"
+	.string "상대를 향해서 자신이\n"
+	.string "직접 데미지를 주는\l"
+	.string "공격 기술\p"
+	.string "배틀의 준비나 상처입은 몸을\n"
+	.string "회복하는 방어 기술\p"
+	.string "상대의 능력을 내리거나\n"
+	.string "독이나 마비를 거는 등의\l"
+	.string "조금 변화를 주는 기술\p"
+	.string "포켓몬은 모든 기술은\n"
+	.string "크게 3개의 종류로 나눠서\l"
+	.string "어떤 기술을 쓸지 생각합니다$"
 	// あいてに むかって じぶんからｎ
 	// ちょくせつ ダメ-ジを あたえるｌ
 	// こうげきの わざｐ
@@ -712,14 +707,15 @@ VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules: @ 82C64BA
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules: @ 82C6612
-	.string "When not under command by its TRAINER,\n"
-	.string "a POKéMON may be unable to effectively\l"
-	.string "use certain moves.\p"
-	.string "A POKéMON is not good at using any\n"
-	.string "move that it dislikes.\p"
-	.string "If a POKéMON only knows moves that\n"
-	.string "do not match its nature, it will often\l"
-	.string "be unable to live up to its potential.$"
+	.string "트레이너의 명령을 받지 않는\n"
+	.string "포켓몬은 기술을 잘\l"
+	.string "쓸 수 없을 때가 있습니다\p"
+	.string "포켓몬은 싫어하는 기술을\n"
+	.string "쓰는 것에 서투릅니다\p"
+	.string "성격에 맞지 않는 기술만을\n"
+	.string "배우고 있다면 배틀에서\l"
+	.string "포켓몬이 자신의 힘을 발휘할\l"
+	.string "수 없을 확률이 큽니다$"
 	// トレ-ナ-の めいれいを うけて いないｎ
 	// ポケモンは うまく わざをｌ
 	// だせない ことが ありますｐ
@@ -732,11 +728,14 @@ VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules: @ 82C6612
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules: @ 82C671E
-	.string "Depending on its nature, a POKéMON may\n"
-	.string "start using moves that don't match its\l"
-	.string "nature when it is in trouble.\p"
-	.string "If a POKéMON begins behaving oddly\n"
-	.string "in a pinch, watch it carefully.$"
+	.string "포켓몬의 성격 중에서는\n"
+	.string "위기에 몰리면 원래\l"
+	.string "성격과는 다른 종류의\l"
+	.string "기술을 쓰는\l"
+	.string "경우가 있습니다\p"
+	.string "위기에 몰렸을 때 조금\n"
+	.string "다른 행동을 시작한 포켓몬은\l"
+	.string "주의하도록 합시다$"
 	// ポケモンの せいかくの なかにはｎ
 	// ピンチに なることで もともとのｌ
 	// せいかくとは ちがう タイプのｌ
@@ -747,11 +746,13 @@ VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules: @ 82C671E
 	// じゅうぶん ちゅうい しましょう
 
 BattleTentLobby_Text_ExplainLevelRules: @ 82C67CD
-	.string "At this BATTLE TENT, the levels of\n"
-	.string "your opponents will be adjusted to\l"
-	.string "match the levels of your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 30.$"
+	.string "배틀텐트에서는\n"
+	.string "당신의 포켓몬의 레벨에 맞춰서\l"
+	.string "대전하는 트레이너의 포켓몬의\l"
+	.string "레벨도 바뀝니다\p"
+	.string "하지만 레벨 30보다 낮은 레벨의\n"
+	.string "포켓몬을 지닌 트레이너가\l"
+	.string "나타날 일은 없습니다$"
 	// バトルテントではｎ
 	// あなたの ポケモンの レベルに あわせてｌ
 	// たいせんする トレ-ナ-の ポケモンのｌ
@@ -761,7 +762,7 @@ BattleTentLobby_Text_ExplainLevelRules: @ 82C67CD
 	// とうじょう することは ありません
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed: @ 82C6878
-	.string "The VERDANTURF BATTLE TENT\n"
-	.string "rules are listed.$"
+	.string "배틀텐트 잔디회장의\n"
+	.string "규칙이 적혀 있다!$"
 	// バトルテント シダケかいじょうのｎ
 	// ル-ルが かかれている!
