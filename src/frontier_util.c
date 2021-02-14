@@ -1944,23 +1944,15 @@ static u8 AppendCaughtBannedMonSpeciesName(u16 species, u8 count, s32 numBannedM
         case 7:
         case 9:
         case 11:
-            if (numBannedMonsCaught == count)
-                StringAppend(gStringVar1, gText_SpaceAndSpace);
-            else if (numBannedMonsCaught > count)
+            if (numBannedMonsCaught > count)
                 StringAppend(gStringVar1, gText_CommaSpace);
             break;
         case 2:
-            if (count == numBannedMonsCaught)
-                StringAppend(gStringVar1, gText_SpaceAndSpace);
-            else
                 StringAppend(gStringVar1, gText_CommaSpace);
             StringAppend(gStringVar1, gText_NewLine);
             break;
         default:
-            if (count == numBannedMonsCaught)
-                StringAppend(gStringVar1, gText_SpaceAndSpace);
-            else
-                StringAppend(gStringVar1, gText_CommaSpace);
+            StringAppend(gStringVar1, gText_CommaSpace);
             StringAppend(gStringVar1, gText_LineBreak);
             break;
         }
@@ -2008,6 +2000,10 @@ static void AppendIfValid(u16 species, u16 heldItem, u16 hp, u8 lvlMode, u8 monL
 // The names of ineligible pokemon that have been caught are also buffered to print
 static void CheckPartyIneligibility(void)
 {
+    const u8 textSpace[] = _(" ");
+    const u8 textLineBreak[] = _("\l");
+    const u8 textAre[] = _("{K_EUNNEUN} ");
+
     u16 speciesArray[PARTY_SIZE];
     u16 itemArray[PARTY_SIZE];
     s32 monId = 0;
@@ -2015,6 +2011,8 @@ static void CheckPartyIneligibility(void)
     u8 count = 0;
     s32 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
     s32 monIdLooper;
+    u16 prevChar;
+    u8 buffer[0x100];
 
     // count is re-used, define for clarity
     #define numEligibleMons count
@@ -2082,17 +2080,16 @@ static void CheckPartyIneligibility(void)
 
         if (count == 0)
         {
-            StringAppend(gStringVar1, gText_Space2);
-            StringAppend(gStringVar1, gText_Are);
+            StringAppend(gStringVar1, textAre);
         }
         else
         {
             if (count & 1)
-                StringAppend(gStringVar1, gText_LineBreak);
-            else
-                StringAppend(gStringVar1, gText_Space2);
-            StringAppend(gStringVar1, gText_Are2);
+                StringAppend(gStringVar1, textLineBreak);
+            StringAppend(gStringVar1, textAre);
         }
+        StringExpandPlaceholders(buffer, gStringVar1);
+        StringCopy(gStringVar1, buffer);
     }
     else
     {
