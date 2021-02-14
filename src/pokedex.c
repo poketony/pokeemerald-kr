@@ -268,6 +268,7 @@ static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite);
 static void PrintMonInfo(u32 num, u32, u32 owned, u32 newEntry);
 static void PrintMonHeight(u16 height, u8 left, u8 top);
 static void PrintMonWeight(u16 weight, u8 left, u8 top);
+static void PrintMonSize(u16 a, u8 left, u8 top);
 static void ResetOtherVideoRegisters(u16);
 static u8 PrintCryScreenSpeciesName(u8, u16, u8, u8);
 static void PrintFootprint(u8 windowId, u16 dexNum);
@@ -2322,7 +2323,7 @@ static void PrintMonDexNumAndName(u8 windowId, u8 fontId, const u8* str, u8 left
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GREY;
-    AddTextPrinterParameterized4(windowId, fontId, left * 8, (top * 8) + 1, 0, 0, color, -1, str);
+    AddTextPrinterParameterized4(windowId, fontId, left, top + 1, 0, 0, color, -1, str);
 }
 
 // u16 ignored is passed but never used
@@ -2350,13 +2351,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
                 {
                     CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
                     CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, i * 2, ignored);
-                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, i * 2);
+                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, i * 2 * 8);
                 }
                 else
                 {
                     CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
                     CreateCaughtBall(FALSE, 0x11, i * 2, ignored);
-                    CreateMonName(0, 0x16, i * 2);
+                    CreateMonName(0, 172, i * 2 * 8);
                 }
             }
             entryNum++;
@@ -2375,13 +2376,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             {
                 CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
                 CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, sPokedexView->listVOffset * 2);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, sPokedexView->listVOffset * 2 * 8);
             }
             else
             {
                 CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
                 CreateCaughtBall(FALSE, 17, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(0, 0x16, sPokedexView->listVOffset * 2);
+                CreateMonName(0, 172, sPokedexView->listVOffset * 2 * 8);
             }
         }
         break;
@@ -2399,13 +2400,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             {
                 CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
                 CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, vOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 0x16, vOffset * 2);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, vOffset * 2 * 8);
             }
             else
             {
                 CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
                 CreateCaughtBall(FALSE, 0x11, vOffset * 2, ignored);
-                CreateMonName(0, 0x16, vOffset * 2);
+                CreateMonName(0, 172, vOffset * 2 * 8);
             }
         }
         break;
@@ -2425,7 +2426,7 @@ static void CreateMonDexNum(u16 entryNum, u8 left, u8 top, u16 unused)
     text[2] = CHAR_0 + dexNum / 100;
     text[3] = CHAR_0 + (dexNum % 100) / 10;
     text[4] = CHAR_0 + (dexNum % 100) % 10;
-    PrintMonDexNumAndName(0, 7, text, left, top);
+    PrintMonDexNumAndName(0, 7, text, left * 8, top * 8);
 }
 
 static void CreateCaughtBall(bool16 owned, u8 x, u8 y, u16 unused)
@@ -2445,7 +2446,7 @@ static u8 CreateMonName(u16 num, u8 left, u8 top)
         str = gSpeciesNames[num];
     else
         str = sText_TenDashes;
-    PrintMonDexNumAndName(0, 7, str, left, top);
+    PrintMonDexNumAndName(0, 1, str, left, top);
     return StringLength(str);
 }
 
@@ -4124,8 +4125,10 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     PrintInfoScreenText(gText_WTWeight, 0x60, 0x49);
     if (owned)
     {
-        PrintMonHeight(gPokedexEntries[num].height, 0x81, 0x39);
-        PrintMonWeight(gPokedexEntries[num].weight, 0x81, 0x49);
+        PrintInfoScreenText(gText_EmptyHeight, 0x81, 0x39);
+        PrintInfoScreenText(gText_EmptyWeight, 0x81, 0x49);
+        PrintMonSize(gPokedexEntries[num].height, 0x81, 0x39);
+        PrintMonSize(gPokedexEntries[num].weight, 0x81, 0x49);
     }
     else
     {
@@ -4139,95 +4142,45 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     PrintInfoScreenText(description, GetStringCenterAlignXOffset(1, description, 0xF0), 0x67);
 }
 
-static void PrintMonHeight(u16 height, u8 left, u8 top)
+static void PrintMonSize(u16 a, u8 left, u8 top)
 {
-    u8 buffer[16];
-    u32 inches, feet;
-    u8 i = 0;
+    u8 str[6];
+    bool8 outputted = FALSE;
+    u8 result;
+    u8 *strPtr = str;
+    u8 leftSpaceOffset;
 
-    inches = (height * 10000) / 254;
-    if (inches % 10 >= 5)
-        inches += 10;
-    feet = inches / 120;
-    inches = (inches - (feet * 120)) / 10;
-
-    buffer[i++] = EXT_CTRL_CODE_BEGIN;
-    buffer[i++] = EXT_CTRL_CODE_CLEAR_TO;
-    if (feet / 10 == 0)
+    result = a / 1000;
+    if (result == 0)
     {
-        buffer[i++] = 18;
-        buffer[i++] = feet + CHAR_0;
+        *(strPtr++) = CHAR_SPACE;
+        outputted = FALSE;
     }
     else
     {
-        buffer[i++] = 12;
-        buffer[i++] = feet / 10 + CHAR_0;
-        buffer[i++] = (feet % 10) + CHAR_0;
+        *(strPtr++) = CHAR_0 + result;
+        outputted = TRUE;
     }
-    buffer[i++] = CHAR_SGL_QUOT_RIGHT;
-    buffer[i++] = (inches / 10) + CHAR_0;
-    buffer[i++] = (inches % 10) + CHAR_0;
-    buffer[i++] = CHAR_DBL_QUOT_RIGHT;
-    buffer[i++] = EOS;
-    PrintInfoScreenText(buffer, left, top);
-}
 
-static void PrintMonWeight(u16 weight, u8 left, u8 top)
-{
-    u8 buffer[16];
-    bool8 output;
-    u8 i;
-    u32 lbs = (weight * 100000) / 4536;
-
-    if (lbs % 10u >= 5)
-        lbs += 10;
-    i = 0;
-    output = FALSE;
-
-    if ((buffer[i] = (lbs / 100000) + CHAR_0) == CHAR_0 && !output)
+    result = (a % 1000) / 100;
+    if (result == 0 && !outputted)
     {
-        buffer[i++] = 0x77;
+        *(strPtr++) = CHAR_SPACE;
+        outputted = FALSE;
     }
     else
     {
-        output = TRUE;
-        i++;
+        *(strPtr++) = CHAR_0 + result;
+        outputted = TRUE;
     }
 
-    lbs %= 100000;
-    if ((buffer[i] = (lbs / 10000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = 0x77;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
+    *(strPtr++) = CHAR_0 + ((a % 1000) % 100) / 10;
+    *(strPtr++) = CHAR_PERIOD;
+    *(strPtr++) = CHAR_0 + ((a % 1000) % 100) % 10;
+    *(strPtr++) = EOS;
 
-    lbs %= 10000;
-    if ((buffer[i] = (lbs / 1000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = 0x77;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
-
-    lbs %= 1000;
-    buffer[i++] = (lbs / 100) + CHAR_0;
-    lbs %= 100;
-    buffer[i++] = CHAR_PERIOD;
-    buffer[i++] = (lbs / 10) + CHAR_0;
-    buffer[i++] = CHAR_SPACE;
-    buffer[i++] = CHAR_l;
-    buffer[i++] = CHAR_b;
-    buffer[i++] = CHAR_s;
-    buffer[i++] = CHAR_PERIOD;
-    buffer[i++] = EOS;
-    PrintInfoScreenText(buffer, left, top);
+    leftSpaceOffset = GetStringRightAlignXOffset(1, str, 40);
+    PrintInfoScreenText(str, left + leftSpaceOffset, top);
 }
 
 const u8 *GetPokedexCategoryName(u16 dexNum) // unused
