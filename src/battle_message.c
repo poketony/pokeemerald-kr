@@ -422,7 +422,7 @@ static const u8 sText_FoePkmnPrefix3[] = _("상대");
 static const u8 sText_AllyPkmnPrefix2[] = _("우리 편");
 static const u8 sText_FoePkmnPrefix4[] = _("상대");
 static const u8 sText_AllyPkmnPrefix3[] = _("우리 편");
-static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX}{B_TXT_EUNNEUN}\n{B_BUFF2}"); // fixme {B_BUFF1}를 사용하면 (의) 출력이 가능하나 "를 썼다!"라고 출력되는 기술 사용 시 멈춤 현상이 일어남.
+static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX}{B_BUFF1}\n{B_BUFF2}");
 static const u8 sText_ExclamationMark[] = _("{B_TXT_EULREUL} 썼다!");
 static const u8 sText_ExclamationMark2[] = _("{B_TXT_EULREUL} 썼다!");
 static const u8 sText_ExclamationMark3[] = _("{B_TXT_EULREUL} 썼다!");
@@ -2177,7 +2177,7 @@ void BufferStringBattle(u16 stringID)
         }
         break;
     case STRINGID_USEDMOVE: // pokemon used a move msg
-        ChooseMoveUsedParticle(gBattleTextBuff1); // buff1 doesn't appear in the string, leftover from japanese move names
+        ChooseMoveUsedParticle(gBattleTextBuff1);
 
         if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
             StringCopy(gBattleTextBuff2, sATypeMove_Table[*(&gBattleStruct->stringMoveType)]);
@@ -2833,6 +2833,55 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
     {
         switch (src[srcID])
         {
+        case B_TXT_EUNNEUN:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_Eun);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Neun);
+            srcID += 1;
+            break;
+        case B_TXT_IGA:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_I);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Ga);
+            srcID += 1;
+            break;
+        case B_TXT_EULREUL:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_Eul);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Reul);
+            srcID += 1;
+            break;
+        case B_TXT_EU:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_Eu);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Empty);
+            srcID += 1;
+            break;
+        case B_TXT_I:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_I);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Empty);
+            srcID += 1;
+            break;
+        case B_TXT_WAGWA:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_Gwa);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Wa);
+            srcID += 1;
+            break;
+        case B_TXT_AYA:
+            if (sHasJongSeong)
+                StringAppend(dst, gText_ExpandedPlaceholder_A);
+            else
+                StringAppend(dst, gText_ExpandedPlaceholder_Ya);
+            srcID += 1;
+            break;
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcID + 1]);
             StringAppend(dst, gBattleStringsTable[hword - BATTLESTRINGS_ID_ADDER]);
