@@ -413,7 +413,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge: @ 824DE17
 	.string "방이 여러 개 준비되어 있네\p"
 	.string "이곳의 배틀에서는\n"
 	.string "반드시 지켜야만 하는\l"
-	.string "하나의 규칙이 있다네\p"
+	.string "하나의 규칙이 있지\p"
 	.string "여기서는 포켓몬에게\n"
 	.string "교체만 명령할 수 있고\p"
 	.string "그 외의 명령은\n"
