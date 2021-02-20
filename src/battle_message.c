@@ -2370,7 +2370,10 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gStringVar2;
                 }
                 else
-                    toCpy = gBattleTextBuff2;
+                {
+                    BattleStringExpandPlaceholders(gBattleTextBuff2, gStringVar2);
+                    toCpy = gStringVar2;
+                }
                 break;
             case B_TXT_BUFF3:
                 if (gBattleTextBuff3[0] == B_BUFF_PLACEHOLDER_BEGIN)

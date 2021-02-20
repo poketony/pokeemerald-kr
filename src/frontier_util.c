@@ -2011,7 +2011,6 @@ static void CheckPartyIneligibility(void)
     u8 count = 0;
     s32 battleMode = VarGet(VAR_FRONTIER_BATTLE_MODE);
     s32 monIdLooper;
-    u16 prevChar;
     u8 buffer[0x100];
 
     // count is re-used, define for clarity
