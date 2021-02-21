@@ -413,16 +413,14 @@ static void PrintBerrySize(void)
     AddTextPrinterParameterized(WIN_SIZE_FIRM, 1, gText_SizeSlash, 0, 1, TEXT_SPEED_FF, NULL);
     if (berry->size != 0)
     {
-        u32 inches, fraction;
+        u32 cm, mm;
 
-        inches = 1000 * berry->size / 254;
-        if (inches % 10 > 4)
-            inches += 10;
-        fraction = (inches % 100) / 10;
-        inches /= 100;
+        cm = berry->size;
+        mm = (cm % 10);
+        cm /= 10;
 
-        ConvertIntToDecimalStringN(gStringVar1, inches, STR_CONV_MODE_LEFT_ALIGN, 2);
-        ConvertIntToDecimalStringN(gStringVar2, fraction, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar1, cm, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar2, mm, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringExpandPlaceholders(gStringVar4, gText_Var1DotVar2);
         AddTextPrinterParameterized(WIN_SIZE_FIRM, 1, gStringVar4, 0x28, 1, 0, NULL);
     }
