@@ -1836,71 +1836,86 @@ static void DeleteTextCharacter(void)
 {
     u8 index;
     u8 keyRole, ch;
-    u8 state;
     u16 korean;
-    
-    state = sNamingScreen->koreanState;
-    
-    // 마지막으로 입력된 인덱스
+
+    // 마지막으로 입력된 인덱스, 문자
     index = GetPreviousTextCaretPosition();
+    korean = (sNamingScreen->textBuffer[index] << 8) | sNamingScreen->textBuffer[index + 1];
 
-    // 문자 가져오기
-    korean = (sNamingScreen->textBuffer[index] << 8) |
-              sNamingScreen->textBuffer[index + 1];
-
-    switch (state)
+    switch (sNamingScreen->koreanState)
     {
-    // 0 - STATE_NONE : 초기상태 (그냥 한 글자 제거)
+    // 0 - STATE_NONE : 초기상태
     // 1 - STATE_JAUM : 자음입력상태
+    // 한 글자 제거
     case STATE_NONE:
     case STATE_JAUM:
+        sNamingScreen->koreanState = STATE_NONE;
         sNamingScreen->textBuffer[index] = EOS;
         sNamingScreen->textBuffer[index + 1] = EOS;
         break;
 
-    // 2, 3 - STATE_MOUM_MERGEABLE, STATE_MOUM : 자음+모음 입력상태 (모음만 제거하기)
-    case STATE_MOUM_MERGEABLE:
+    // 2, 3 - STATE_MOUM_MERGEABLE, STATE_MOUM : 자음+모음 입력상태
+    // 모음 제거 및 분리
     case STATE_MOUM:
-        state = STATE_JAUM;
-        sNamingScreen->textBuffer[index] = 0x41;
-        sNamingScreen->textBuffer[index + 1] = ConvertToCho(korean);
+    case STATE_MOUM_MERGEABLE:
+        ch = DecomposeToJung(korean);
+        if (ch == 0x1d || ch == 0x1e || ch == 0x1f 
+            || ch == 0x22 || ch == 0x23 || ch == 0x24 
+            || ch == 0x27)
+        {
+            sNamingScreen->koreanState = STATE_MOUM_MERGEABLE;
+
+            korean = ComposeKorean(
+                GetCho(DecomposeToCho(korean)),
+                SplitJung(GetJung(DecomposeToJung(korean)), 0),
+                0);
+
+            sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
+            sNamingScreen->textBuffer[index + 1] = korean & 0x00FF;
+        }
+        else
+        {
+            sNamingScreen->koreanState = STATE_JAUM;
+            sNamingScreen->textBuffer[index] = 0x41;
+            sNamingScreen->textBuffer[index + 1] = DecomposeToCho(korean);
+        }
         break;
 
-    // 4, 5 - STATE_JAUM_2_MERGEABLE, STATE_JAUM_2 : 자음+모음+자음 입력상태 (자음만 제거)
+    // 4, 5 - STATE_JAUM_2_MERGEABLE, STATE_JAUM_2 : 자음+모음+자음 입력상태
+    // 자음 제거
     case STATE_JAUM_2_MERGEABLE:
     case STATE_JAUM_2:
-        ch = ConvertToJung(korean);
-        if (ch == 0x1c || ch == 0x21 || ch == 0x26)
-            state = STATE_MOUM_MERGEABLE;
+        ch = DecomposeToJung(korean);
+        if (ch == 0x1d || ch == 0x1e || ch == 0x1f 
+            || ch == 0x22 || ch == 0x23 || ch == 0x24 
+            || ch == 0x27)
+            sNamingScreen->koreanState = STATE_MOUM;
         else
-            state = STATE_MOUM;
+            sNamingScreen->koreanState = STATE_MOUM_MERGEABLE;
 
-        korean = GetKorean(
-                     GetCho(ConvertToCho(korean)),
-                     GetJung(ConvertToJung(korean)),
-                     0);
-        korean = ConvertUnicodeToKorean(korean);
+        korean = ComposeKorean(
+            GetCho(DecomposeToCho(korean)),
+            GetJung(DecomposeToJung(korean)),
+            0);
 
         sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
         sNamingScreen->textBuffer[index + 1] = korean & 0x00FF;
         break;
 
-    // 6 - STATE_MERGED_JAUM : 이중자음 입력상태 (분리시키기)
+    // 6 - STATE_MERGED_JAUM : 이중자음 입력상태
+    // 이중 자음 분리
     case STATE_MERGED_JAUM:
-        state = STATE_JAUM_2_MERGEABLE;
+        sNamingScreen->koreanState = STATE_JAUM_2_MERGEABLE;
 
-        korean = GetKorean(
-                     GetCho(ConvertToCho(korean)),
-                     GetJung(ConvertToJung(korean)),
-                     SplitJong(ConvertToJongIndex(korean), 0));
-        korean = ConvertUnicodeToKorean(korean);
+        korean = ComposeKorean(
+            GetCho(DecomposeToCho(korean)),
+            GetJung(DecomposeToJung(korean)),
+            SplitJong(DecomposeToJongIndex(korean), 0));
 
         sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
         sNamingScreen->textBuffer[index + 1] = korean & 0x00FF;
         break;
     }
-
-    sNamingScreen->koreanState = state;
 
     DrawTextEntry();
     keyRole = GetKeyRoleAtCursorPos();
@@ -1931,8 +1946,7 @@ static void BufferCharacter(u8 ch)
 {
     u8 index = GetTextEntryPosition();
     u8 state = sNamingScreen->koreanState;
-    u16 koreanChar;
-    u16 prevChar;
+    u16 koreanChar, prevChar;
 
     // 이전에 입력한 글자 불러오기
     if (index >= 2)
@@ -1963,25 +1977,26 @@ static void BufferCharacter(u8 ch)
             sNamingScreen->textBuffer[index++] = 0x41;
             sNamingScreen->textBuffer[index] = ch;
 
-            if (CheckJaum(ch))
+            if (IsJaum(ch))
                 state = STATE_JAUM;
             break;
         }
         // 자음 입력 상태
         case STATE_JAUM:
         {
-            if (CheckMoum(ch))
+            if (IsMoum(ch))
             {
-                koreanChar = GetKorean(GetCho(prevChar & 0xff), GetJung(ch), 0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(prevChar & 0xff),
+                    GetJung(ch),
+                    0);
 
                 if (koreanChar == 0xffff)
                 {
-                    state = STATE_NONE;
-
                     if (index == sNamingScreen->template->maxChars * 2)
                         return;
 
+                    state = STATE_NONE;
                     sNamingScreen->textBuffer[index++] = 0x41;
                     sNamingScreen->textBuffer[index] = ch;
                 }
@@ -2010,9 +2025,9 @@ static void BufferCharacter(u8 ch)
         // 모음 입력 상태(모음 조합가능)
         case STATE_MOUM_MERGEABLE:
         {
-            if (CheckMoum(ch))
+            if (IsMoum(ch))
             {
-                if (MergeMoum(ConvertToJung(prevChar), ch) == 0)
+                if (!ComposeMoum(DecomposeToJung(prevChar), ch))
                 {
                     state = STATE_NONE;
 
@@ -2024,19 +2039,17 @@ static void BufferCharacter(u8 ch)
                 }
                 else
                 {
-                    koreanChar = GetKorean(
-                                    GetCho(ConvertToCho(prevChar)), 
-                                    MergeMoum(ConvertToJung(prevChar), ch), 
-                                    0);
-                    koreanChar = ConvertUnicodeToKorean(koreanChar);
+                    koreanChar = ComposeKorean(
+                        GetCho(DecomposeToCho(prevChar)), 
+                        GetJung(ComposeMoum(DecomposeToJung(prevChar), ch)), 
+                        0);
 
                     if (koreanChar == 0xffff)
                     {
-                        state = STATE_NONE;
-
                         if (index == sNamingScreen->template->maxChars * 2)
                             return;
 
+                        state = STATE_NONE;
                         sNamingScreen->textBuffer[index++] = 0x41;
                         sNamingScreen->textBuffer[index] = ch;
                     }
@@ -2051,19 +2064,17 @@ static void BufferCharacter(u8 ch)
             }
             else
             {
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ConvertToJung(prevChar)), 
-                                GetJong(ch));
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToCho(prevChar)), 
+                    GetJung(DecomposeToJung(prevChar)), 
+                    GetJong(ch));
 
                 if (koreanChar == 0xffff || GetJong(ch) == 0xff)
                 {
-                    state = STATE_JAUM;
-
                     if (index == sNamingScreen->template->maxChars * 2)
                         return;
 
+                    state = STATE_JAUM;
                     sNamingScreen->textBuffer[index++] = 0x41;
                     sNamingScreen->textBuffer[index] = ch;
                 }
@@ -2080,29 +2091,28 @@ static void BufferCharacter(u8 ch)
         // 모음 입력 상태
         case STATE_MOUM:
         {
-            if (CheckMoum(ch))
+            if (IsMoum(ch))
             {
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
+                state = STATE_NONE;
                 sNamingScreen->textBuffer[index++] = 0x41;
                 sNamingScreen->textBuffer[index] = ch;
             }
             else
             {
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ConvertToJung(prevChar)), 
-                                GetJong(ch));
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToCho(prevChar)), 
+                    GetJung(DecomposeToJung(prevChar)), 
+                    GetJong(ch));
 
-                if (koreanChar == 0xffff || GetJong(ch) == 0xff)
+                if (koreanChar == 0xffff || GetJong(ch) == 0x00 || GetJong(ch) == 0xff)
                 {
-                    state = STATE_JAUM;
-
                     if (index == sNamingScreen->template->maxChars * 2)
                         return;
 
+                    state = STATE_JAUM;
                     sNamingScreen->textBuffer[index++] = 0x41;
                     sNamingScreen->textBuffer[index] = ch;
                 }
@@ -2123,29 +2133,27 @@ static void BufferCharacter(u8 ch)
         // 4 - STATE_JAUM_2_MERGEABLE : 자음 입력 상태(자음 조합가능)
         case STATE_JAUM_2_MERGEABLE:
         {
-            if (CheckJaum(ch))
+            if (IsJaum(ch))
             {
-                if (MergeJaum(ConvertToJong(prevChar), ch) == FALSE)
+                if (!ComposeJaum(DecomposeToJong(prevChar), ch))
                 {
-                    state = STATE_JAUM;
-
                     if (index == sNamingScreen->template->maxChars * 2)
                         return;
 
+                    state = STATE_JAUM;
                     sNamingScreen->textBuffer[index++] = 0x41;
                     sNamingScreen->textBuffer[index] = ch;
                 }
                 else
                 {
-                    koreanChar = GetKorean(
-                                    GetCho(ConvertToCho(prevChar)), 
-                                    GetJung(ConvertToJung(prevChar)), 
-                                    MergeJaum(ConvertToJong(prevChar), ch));
-                    koreanChar = ConvertUnicodeToKorean(koreanChar);
+                    koreanChar = ComposeKorean(
+                        GetCho(DecomposeToCho(prevChar)), 
+                        GetJung(DecomposeToJung(prevChar)), 
+                        ComposeJaum(DecomposeToJong(prevChar), ch));
 
                     if (koreanChar == 0xffff)
                     {
-                        state = STATE_NONE;
+                        state = STATE_JAUM;
 
                         if (index == sNamingScreen->template->maxChars * 2)
                             return;
@@ -2167,21 +2175,19 @@ static void BufferCharacter(u8 ch)
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ConvertToJung(prevChar)), 
-                                0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToCho(prevChar)), 
+                    GetJung(DecomposeToJung(prevChar)), 
+                    0);
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
 
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ch), 
-                                0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToJong(prevChar)), 
+                    GetJung(ch), 
+                    0);
 
                 if (koreanChar == 0xffff)
                 {
@@ -2205,13 +2211,12 @@ static void BufferCharacter(u8 ch)
         // 5 - STATE_JAUM_2 : 자음 입력 상태(모음 조합 가능)
         case STATE_JAUM_2:
         {
-            if (CheckJaum(ch))
+            if (IsJaum(ch))
             {
-                state = STATE_JAUM;
-
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
+                state = STATE_JAUM;
                 sNamingScreen->textBuffer[index++] = 0x41;
                 sNamingScreen->textBuffer[index] = ch;
             }
@@ -2220,21 +2225,19 @@ static void BufferCharacter(u8 ch)
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ConvertToJung(prevChar)), 
-                                0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToCho(prevChar)), 
+                    GetJung(DecomposeToJung(prevChar)), 
+                    0);
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
 
-                koreanChar = GetKorean(
-                                GetCho(ConvertToJong(prevChar)), 
-                                GetJung(ch), 
-                                0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToJong(prevChar)), 
+                    GetJung(ch), 
+                    0);
 
                 if (koreanChar == 0xffff)
                 {
@@ -2258,12 +2261,12 @@ static void BufferCharacter(u8 ch)
         // 6 - STATE_MERGED_JAUM : 이중 자음 입력상태
         case STATE_MERGED_JAUM:
         {
-            if (CheckJaum(ch))
+            if (IsJaum(ch))
             {
-                state = STATE_JAUM;
-
                 if (index == sNamingScreen->template->maxChars * 2)
+                    return;
 
+                state = STATE_JAUM;
                 sNamingScreen->textBuffer[index++] = 0x41;
                 sNamingScreen->textBuffer[index] = ch;
             }
@@ -2271,24 +2274,22 @@ static void BufferCharacter(u8 ch)
             {
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
-                
+
                 // 이전 글자에서 종성만 제거
-                koreanChar = GetKorean(
-                                GetCho(ConvertToCho(prevChar)), 
-                                GetJung(ConvertToJung(prevChar)), 
-                                SplitJong(ConvertToJongIndex(prevChar), 0));
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(DecomposeToCho(prevChar)), 
+                    GetJung(DecomposeToJung(prevChar)), 
+                    SplitJong(DecomposeToJongIndex(prevChar), 0));
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
                 
                 // 새 글자
-                koreanChar = GetKorean(
-                                GetCho(ConvertJongToCho(SplitJong(ConvertToJongIndex(prevChar), 1))), 
-                                GetJung(ch), 
-                                0);
-                koreanChar = ConvertUnicodeToKorean(koreanChar);
+                koreanChar = ComposeKorean(
+                    GetCho(ConvertJongToCho(SplitJong(DecomposeToJongIndex(prevChar), 1))), 
+                    GetJung(ch), 
+                    0);
 
                 if (koreanChar == 0xffff)
                 {
@@ -2383,7 +2384,7 @@ static void DrawTextEntry(void)
     u8 i;
     u8 temp[3];
     u8 maxChars = sNamingScreen->template->maxChars;
-    u16 unk = sNamingScreen->inputCharBaseXPos - 0x40;
+    u16 x = sNamingScreen->inputCharBaseXPos - 0x40;
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY], PIXEL_FILL(1));
 
@@ -2402,7 +2403,7 @@ static void DrawTextEntry(void)
 			temp[2] = gText_ExpandedPlaceholder_Empty[0];
 		}
 
-        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], 7, temp, i * 4 + unk, 1, 0xFF, NULL);
+        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], 7, temp, i * 4 + x, 1, 0xFF, NULL);
     }
 
     TryDrawGenderIcon();

@@ -54,7 +54,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst);
 // EWRAM vars
 static EWRAM_DATA u8 sBattlerAbilities[MAX_BATTLERS_COUNT] = {0};
 EWRAM_DATA struct BattleMsgData *gBattleMsgDataPtr = NULL;
-static EWRAM_DATA bool8 sHasJongSeong = FALSE;
+static EWRAM_DATA bool8 sHasJong = FALSE;
 
 // const rom data
 // todo: make some of those names less vague: attacker/target vs pkmn, etc.
@@ -2385,43 +2385,43 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     toCpy = gBattleTextBuff3;
                 break;
             case B_TXT_EUNNEUN:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_Eun;
                 else
                     toCpy = gText_ExpandedPlaceholder_Neun;
                 break;
             case B_TXT_IGA:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_I;
                 else
                     toCpy = gText_ExpandedPlaceholder_Ga;
                 break;
             case B_TXT_EULREUL:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_Eul;
                 else
                     toCpy = gText_ExpandedPlaceholder_Reul;
                 break;
             case B_TXT_EU:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_Eu;
                 else
                     toCpy = gText_ExpandedPlaceholder_Empty;
                 break;
             case B_TXT_I:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_I;
                 else
                     toCpy = gText_ExpandedPlaceholder_Empty;
                 break;
             case B_TXT_WAGWA:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_Gwa;
                 else
                     toCpy = gText_ExpandedPlaceholder_Wa;
                 break;
             case B_TXT_AYA:
-                if (sHasJongSeong)
+                if (sHasJong)
                     toCpy = gText_ExpandedPlaceholder_A;
                 else
                     toCpy = gText_ExpandedPlaceholder_Ya;
@@ -2815,7 +2815,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 
         // 종성유무 체크
         prevChar = (dst[dstID - 2] << 8) | dst[dstID - 1];
-        sHasJongSeong = CheckHasJongSeong(prevChar);
+        sHasJong = HasJong(prevChar);
     }
 
     dst[dstID] = *src;
@@ -2837,49 +2837,49 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         switch (src[srcID])
         {
         case B_TXT_EUNNEUN:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_Eun);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Neun);
             srcID += 1;
             break;
         case B_TXT_IGA:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_I);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Ga);
             srcID += 1;
             break;
         case B_TXT_EULREUL:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_Eul);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Reul);
             srcID += 1;
             break;
         case B_TXT_EU:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_Eu);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Empty);
             srcID += 1;
             break;
         case B_TXT_I:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_I);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Empty);
             srcID += 1;
             break;
         case B_TXT_WAGWA:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_Gwa);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Wa);
             srcID += 1;
             break;
         case B_TXT_AYA:
-            if (sHasJongSeong)
+            if (sHasJong)
                 StringAppend(dst, gText_ExpandedPlaceholder_A);
             else
                 StringAppend(dst, gText_ExpandedPlaceholder_Ya);

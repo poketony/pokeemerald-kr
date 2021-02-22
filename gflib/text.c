@@ -1391,7 +1391,7 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
             glyphWidth = func(*str, isJapanese);
 
             // 한글 문자일 경우 1바이트 건너뛰기
-            if (CheckKoreanGlyph(*str))
+            if (IsKoreanGlyph(*str))
                 str++;
 
             if (minGlyphWidth > 0)
@@ -1648,13 +1648,11 @@ void DecompressGlyphFont0(u16 glyphId, bool32 isJapanese)
 
 u32 GetGlyphWidthFont0(u16 glyphId, bool32 isJapanese)
 {
-    if (CheckKoreanGlyph(glyphId))
+    if (IsKoreanGlyph(glyphId))
         return 8;
-
     if (isJapanese == TRUE)
         return 8;
-    else
-        return gFont0LatinGlyphWidths[glyphId];
+    return gFont0LatinGlyphWidths[glyphId];
 }
 
 void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
@@ -1706,13 +1704,11 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
 
 u32 GetGlyphWidthFont7(u16 glyphId, bool32 isJapanese)
 {
-    if (CheckKoreanGlyph(glyphId))
+    if (IsKoreanGlyph(glyphId))
         return 8;
-
     if (isJapanese == TRUE)
         return 8;
-    else
-        return gFont7LatinGlyphWidths[glyphId];
+    return gFont7LatinGlyphWidths[glyphId];
 }
 
 void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
@@ -1763,13 +1759,11 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
 
 u32 GetGlyphWidthFont8(u16 glyphId, bool32 isJapanese)
 {
-    if (CheckKoreanGlyph(glyphId))
+    if (IsKoreanGlyph(glyphId))
         return 8;
-
     if (isJapanese == TRUE)
         return 8;
-    else
-        return gFont8LatinGlyphWidths[glyphId];
+    return gFont8LatinGlyphWidths[glyphId];
 }
 
 void DecompressGlyphFont2(u16 glyphId, bool32 isJapanese)
@@ -1824,13 +1818,11 @@ void DecompressGlyphFont2(u16 glyphId, bool32 isJapanese)
 
 u32 GetGlyphWidthFont2(u16 glyphId, bool32 isJapanese)
 {
-    if (CheckKoreanGlyph(glyphId))
+    if (IsKoreanGlyph(glyphId))
         return 11;
-
     if (isJapanese == TRUE)
         return gFont2JapaneseGlyphWidths[glyphId];
-    else
-        return gFont2LatinGlyphWidths[glyphId];
+    return gFont2LatinGlyphWidths[glyphId];
 }
 
 void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
@@ -1884,17 +1876,11 @@ void DecompressGlyphFont1(u16 glyphId, bool32 isJapanese)
 
 u32 GetGlyphWidthFont1(u16 glyphId, bool32 isJapanese)
 {
-    if (CheckKoreanGlyph(glyphId))
+    if (IsKoreanGlyph(glyphId))
         return 11;
-
     if (isJapanese == TRUE)
-    {
         return 8;
-    }
-    else
-    {
-        return gFont1LatinGlyphWidths[glyphId];
-    }
+    return gFont1LatinGlyphWidths[glyphId];
 }
 
 void DecompressGlyphFont9(u16 glyphId)
