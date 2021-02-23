@@ -82,15 +82,13 @@ enum
 
 enum
 {
-    NAME_ABC = 1,
-    NAME_DEF,
-    NAME_GHI,
-    NAME_JKL,
-    NAME_MNO,
-    NAME_PQR,
-    NAME_STU,
-    NAME_VWX,
-    NAME_YZ,
+    NAME_1 = 1,
+    NAME_2,
+    NAME_3,
+    NAME_4,
+    NAME_5,
+    NAME_6,
+    NAME_7,
 };
 
 // For scrolling search parameter
@@ -989,28 +987,17 @@ static const u8 sText_TenDashes2[] = _("----------");
 
 #include "data/pokemon_graphics/footprint_table.h"
 
-// First character in range followed by number of characters in range for upper and lowercase
-static const u8 sLetterSearchRanges[][4] =
+static const u8 sLetterSearchRanges[][5] =
 {
-    {}, // Name not specified, shouldn't be reached
-    [NAME_ABC] = {CHAR_A, 3, CHAR_a, 3},
-    [NAME_DEF] = {CHAR_D, 3, CHAR_d, 3},
-    [NAME_GHI] = {CHAR_G, 3, CHAR_g, 3},
-    [NAME_JKL] = {CHAR_J, 3, CHAR_j, 3},
-    [NAME_MNO] = {CHAR_M, 3, CHAR_m, 3},
-    [NAME_PQR] = {CHAR_P, 3, CHAR_p, 3},
-    [NAME_STU] = {CHAR_S, 3, CHAR_s, 3},
-    [NAME_VWX] = {CHAR_V, 3, CHAR_v, 3},
-    [NAME_YZ]  = {CHAR_Y, 2, CHAR_y, 2},
+    {},
+    [NAME_1] = _("가닢"),
+    [NAME_2] = _("다링"),
+    [NAME_3] = _("마삥"),
+    [NAME_4] = _("사잎"),
+    [NAME_5] = _("자칭"),
+    [NAME_6] = _("카팅"),
+    [NAME_7] = _("파힝"),
 };
-
-#define LETTER_IN_RANGE_UPPER(letter, range) \
-    ((letter) >= sLetterSearchRanges[range][0]                                  \
-  && (letter) < sLetterSearchRanges[range][0] + sLetterSearchRanges[range][1])  \
-
-#define LETTER_IN_RANGE_LOWER(letter, range) \
-    ((letter) >= sLetterSearchRanges[range][2]                                  \
-  && (letter) < sLetterSearchRanges[range][2] + sLetterSearchRanges[range][3])  \
 
 static const struct SearchMenuTopBarItem sSearchMenuTopBarItems[SEARCH_TOPBAR_COUNT] =
 {
@@ -1346,15 +1333,13 @@ static const struct SearchOptionText sDexOrderOptions[] =
 static const struct SearchOptionText sDexSearchNameOptions[] =
 {
     {gText_DexEmptyString, gText_DexSearchDontSpecify},
-    [NAME_ABC] = {gText_DexEmptyString, gText_DexSearchAlphaABC},
-    [NAME_DEF] = {gText_DexEmptyString, gText_DexSearchAlphaDEF},
-    [NAME_GHI] = {gText_DexEmptyString, gText_DexSearchAlphaGHI},
-    [NAME_JKL] = {gText_DexEmptyString, gText_DexSearchAlphaJKL},
-    [NAME_MNO] = {gText_DexEmptyString, gText_DexSearchAlphaMNO},
-    [NAME_PQR] = {gText_DexEmptyString, gText_DexSearchAlphaPQR},
-    [NAME_STU] = {gText_DexEmptyString, gText_DexSearchAlphaSTU},
-    [NAME_VWX] = {gText_DexEmptyString, gText_DexSearchAlphaVWX},
-    [NAME_YZ]  = {gText_DexEmptyString, gText_DexSearchAlphaYZ},
+    [NAME_1] = {gText_DexEmptyString, gText_DexSearchAlpha1},
+    [NAME_2] = {gText_DexEmptyString, gText_DexSearchAlpha2},
+    [NAME_3] = {gText_DexEmptyString, gText_DexSearchAlpha3},
+    [NAME_4] = {gText_DexEmptyString, gText_DexSearchAlpha4},
+    [NAME_5] = {gText_DexEmptyString, gText_DexSearchAlpha5},
+    [NAME_6] = {gText_DexEmptyString, gText_DexSearchAlpha6},
+    [NAME_7] = {gText_DexEmptyString, gText_DexSearchAlpha7},
     {},
 };
 
@@ -4647,11 +4632,13 @@ static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 t
     {
         for (i = 0, resultsCount = 0; i < sPokedexView->pokemonListCount; i++)
         {
-            u8 firstLetter;
+            u16 firstLetter;
+            u16 upperLetter = sLetterSearchRanges[abcGroup][0] << 8 | sLetterSearchRanges[abcGroup][1];
+            u16 lowerLetter = sLetterSearchRanges[abcGroup][2] << 8 | sLetterSearchRanges[abcGroup][3];
 
             species = NationalPokedexNumToSpecies(sPokedexView->pokedexList[i].dexNum);
-            firstLetter = gSpeciesNames[species][0];
-            if (LETTER_IN_RANGE_UPPER(firstLetter, abcGroup) || LETTER_IN_RANGE_LOWER(firstLetter, abcGroup))
+            firstLetter = gSpeciesNames[species][0] << 8 | gSpeciesNames[species][1];
+            if (firstLetter >= upperLetter && firstLetter <= lowerLetter)
             {
                 sPokedexView->pokedexList[resultsCount] = sPokedexView->pokedexList[i];
                 resultsCount++;
