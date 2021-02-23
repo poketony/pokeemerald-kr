@@ -538,7 +538,8 @@ extern const u8 gText_Dash[];
 extern const u8 gText_Plus[];
 
 //pokedex text
-extern const u8 gText_CryOf[];
+extern const u8 gText_CryOf1[];
+extern const u8 gText_CryOf2[];
 extern const u8 gText_SizeComparedTo[];
 extern const u8 gText_PokedexRegistration[];
 extern const u8 gText_NumberClear01[];

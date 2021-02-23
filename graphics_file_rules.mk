@@ -331,6 +331,9 @@ $(FONTGFXDIR)/font2kr.latfont: $(FONTGFXDIR)/font2_korean.png
 $(FONTGFXDIR)/font7kr.latfont: $(FONTGFXDIR)/font7_korean.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/font8kr.latfont: $(FONTGFXDIR)/font8_korean.png
+	$(GFX) $< $@
+
 $(FONTGFXDIR)/unused_frlg_male.fwjpnfont: $(FONTGFXDIR)/unused_japanese_frlg_male_font.png
 	$(GFX) $< $@
 

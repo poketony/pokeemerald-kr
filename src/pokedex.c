@@ -3168,14 +3168,14 @@ static void SpriteCB_DexListStartMenuCursor(struct Sprite *sprite)
     }
 }
 
-static void PrintInfoScreenText(const u8* str, u8 left, u8 top)
+static void PrintInfoScreenText(u8 fontId, const u8* str, u8 left, u8 top)
 {
     u8 color[3];
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GREY;
 
-    AddTextPrinterParameterized4(0, 1, left, top, 0, 0, color, -1, str);
+    AddTextPrinterParameterized4(0, fontId, left, top, 0, 0, color, -1, str);
 }
 
 #define tMonSpriteId data[4]
@@ -3562,8 +3562,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintInfoScreenText(gText_CryOf, 82, 33);
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 49);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 33);
+        PrintInfoScreenText(8, gText_CryOf2, 82, 49);
         gMain.state++;
         break;
     case 5:
@@ -3752,10 +3752,26 @@ static void Task_LoadSizeScreen(u8 taskId)
     case 3:
         {
             u8 string[64];
+            u8 i;
+            u8 num = sPokedexListItem->dexNum;
 
+            for (i = 0; i < 16; i++)
+                gStringVar2[i] = EOS;
+            num = NationalPokedexNumToSpecies(num);
+            switch (num)
+            {
+            default:
+                for (i = 0; gSpeciesNames[num][i] != EOS && i < POKEMON_NAME_LENGTH; i++)
+                    gStringVar2[i] = gSpeciesNames[num][i];
+                break;
+            case 0:
+                for (i = 0; i < 5; i++)
+                    gStringVar2[i] = CHAR_HYPHEN;
+                break;
+            }
             StringCopy(string, gText_SizeComparedTo);
-            StringAppend(string, gSaveBlock2Ptr->playerName);
-            PrintInfoScreenText(string, GetStringCenterAlignXOffset(1, string, 0xF0), 0x79);
+            StringExpandPlaceholders(gStringVar1, string);
+            PrintInfoScreenText(1, gStringVar1, GetStringCenterAlignXOffset(1, gStringVar1, 0xF0), 0x79);
             gMain.state++;
         }
         break;
@@ -4098,19 +4114,19 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     const u8 *description;
 
     if (newEntry)
-        PrintInfoScreenText(gText_PokedexRegistration, GetStringCenterAlignXOffset(1, gText_PokedexRegistration, 0xF0), 0);
+        PrintInfoScreenText(1, gText_PokedexRegistration, GetStringCenterAlignXOffset(1, gText_PokedexRegistration, 0xF0), 0);
     if (value == 0)
         value = NationalToHoennOrder(num);
     else
         value = num;
     ConvertIntToDecimalStringN(StringCopy(str, gText_NumberClear01), value, STR_CONV_MODE_LEADING_ZEROS, 3);
-    PrintInfoScreenText(str, 0x60, 0x19);
+    PrintInfoScreenText(1, str, 0x60, 0x19);
     natNum = NationalPokedexNumToSpecies(num);
     if (natNum)
         name = gSpeciesNames[natNum];
     else
         name = sText_TenDashes2;
-    PrintInfoScreenText(name, 0x84, 0x19);
+    PrintInfoScreenText(1, name, 0x84, 0x19);
     if (owned)
     {
         CopyMonCategoryText(num, str2);
@@ -4120,26 +4136,26 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     {
         category = gText_5MarksPokemon;
     }
-    PrintInfoScreenText(category, 0x64, 0x29);
-    PrintInfoScreenText(gText_HTHeight, 0x60, 0x39);
-    PrintInfoScreenText(gText_WTWeight, 0x60, 0x49);
+    PrintInfoScreenText(1, category, 0x64, 0x29);
+    PrintInfoScreenText(1, gText_HTHeight, 0x60, 0x39);
+    PrintInfoScreenText(1, gText_WTWeight, 0x60, 0x49);
     if (owned)
     {
-        PrintInfoScreenText(gText_EmptyHeight, 0x81, 0x39);
-        PrintInfoScreenText(gText_EmptyWeight, 0x81, 0x49);
+        PrintInfoScreenText(1, gText_EmptyHeight, 0x81, 0x39);
+        PrintInfoScreenText(1, gText_EmptyWeight, 0x81, 0x49);
         PrintMonSize(gPokedexEntries[num].height, 0x81, 0x39);
         PrintMonSize(gPokedexEntries[num].weight, 0x81, 0x49);
     }
     else
     {
-        PrintInfoScreenText(gText_UnkHeight, 0x81, 0x39);
-        PrintInfoScreenText(gText_UnkWeight, 0x81, 0x49);
+        PrintInfoScreenText(1, gText_UnkHeight, 0x81, 0x39);
+        PrintInfoScreenText(1, gText_UnkWeight, 0x81, 0x49);
     }
     if (owned)
         description = gPokedexEntries[num].description;
     else
         description = gExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(description, GetStringCenterAlignXOffset(1, description, 0xF0), 0x67);
+    PrintInfoScreenText(8, description, GetStringCenterAlignXOffset(8, description, 0xF0), 0x67);
 }
 
 static void PrintMonSize(u16 a, u8 left, u8 top)
@@ -4180,7 +4196,7 @@ static void PrintMonSize(u16 a, u8 left, u8 top)
     *(strPtr++) = EOS;
 
     leftSpaceOffset = GetStringRightAlignXOffset(1, str, 40);
-    PrintInfoScreenText(str, left + leftSpaceOffset, top);
+    PrintInfoScreenText(1, str, left + leftSpaceOffset, top);
 }
 
 const u8 *GetPokedexCategoryName(u16 dexNum) // unused
@@ -4417,14 +4433,14 @@ static void ResetOtherVideoRegisters(u16 a)
     }
 }
 
-static void PrintInfoSubMenuText(u8 windowId, const u8 *str, u8 left, u8 top)
+static void PrintInfoSubMenuText(u8 windowId, u8 fontId, const u8 *str, u8 left, u8 top)
 {
     u8 color[3];
     color[0] = TEXT_COLOR_TRANSPARENT;
     color[1] = TEXT_DYNAMIC_COLOR_6;
     color[2] = TEXT_COLOR_LIGHT_GREY;
 
-    AddTextPrinterParameterized4(windowId, 1, left, top, 0, 0, color, -1, str);
+    AddTextPrinterParameterized4(windowId, fontId, left, top, 0, 0, color, -1, str);
 }
 
 static void UnusedPrintNum(u8 windowId, u16 num, u8 left, u8 top)
@@ -4435,7 +4451,7 @@ static void UnusedPrintNum(u8 windowId, u16 num, u8 left, u8 top)
     str[1] = CHAR_0 + (num % 100) / 10;
     str[2] = CHAR_0 + (num % 100) % 10;
     str[3] = EOS;
-    PrintInfoSubMenuText(windowId, str, left, top);
+    PrintInfoSubMenuText(windowId, 1, str, left, top);
 }
 
 static u8 PrintCryScreenSpeciesName(u8 windowId, u16 num, u8 left, u8 top)
@@ -4457,7 +4473,8 @@ static u8 PrintCryScreenSpeciesName(u8 windowId, u16 num, u8 left, u8 top)
             str[i] = CHAR_HYPHEN;
         break;
     }
-    PrintInfoSubMenuText(windowId, str, left, top);
+    StringAppend(str, gText_CryOf1);
+    PrintInfoSubMenuText(windowId, 8, str, left, top);
     return i;
 }
 
@@ -4478,7 +4495,7 @@ static void UnusedPrintMonName(u8 windowId, const u8* name, u8 left, u8 top)
 #else
     str[ARRAY_COUNT(str)] = EOS;
 #endif
-    PrintInfoSubMenuText(windowId, str, left, top);
+    PrintInfoSubMenuText(windowId, 1, str, left, top);
 }
 
 static void UnusedPrintDecimalNum(u8 windowId, u16 b, u8 left, u8 top)
@@ -4515,7 +4532,7 @@ static void UnusedPrintDecimalNum(u8 windowId, u16 b, u8 left, u8 top)
     str[3] = CHAR_PERIOD;
     str[4] = CHAR_0 + ((b % 1000) % 100) % 10;
     str[5] = EOS;
-    PrintInfoSubMenuText(windowId, str, left, top);
+    PrintInfoSubMenuText(windowId, 1, str, left, top);
 }
 
 static void PrintFootprint(u8 windowId, u16 dexNum)

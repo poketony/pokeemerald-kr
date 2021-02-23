@@ -95,7 +95,7 @@ const struct FontInfo gFontInfos[] =
     { Font5Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
     { Font6Func, 0x8, 0x10, 0x0, 0x8, 0x0, 0x2, 0x1, 0x3 },
     { Font7Func, 0x5, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
-    { Font8Func, 0x5,  0x8, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
+    { Font8Func, 0x5, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
     { NULL,      0x8,  0x8, 0x0, 0x0, 0x0, 0x1, 0x2, 0xF }
 };
 
@@ -133,6 +133,7 @@ extern const u16 gFont0KoreanGlyphs[];
 extern const u16 gFont1KoreanGlyphs[];
 extern const u16 gFont2KoreanGlyphs[];
 extern const u16 gFont7KoreanGlyphs[];
+extern const u16 gFont8KoreanGlyphs[];
 
 void SetFontsPointer(const struct FontInfo *fonts)
 {
@@ -1728,10 +1729,12 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
         if (glyphId >= 0x3700)
         {
             u16 index = glyphId - 0x3700;
-            glyphs = gFont0KoreanGlyphs + (0x20 * index);
+            glyphs = gFont8KoreanGlyphs + (0x20 * index);
             DecompressGlyphTile(glyphs, gUnknown_03002F90.unk0);
+            DecompressGlyphTile(glyphs + 0x8, gUnknown_03002F90.unk20);
             DecompressGlyphTile(glyphs + 0x10, gUnknown_03002F90.unk40);
-            gUnknown_03002F90.width = 8;
+            DecompressGlyphTile(glyphs + 0x18, gUnknown_03002F90.unk60);
+            gUnknown_03002F90.width = 9;
             gUnknown_03002F90.height = 13;
         }
         else
@@ -1760,7 +1763,7 @@ void DecompressGlyphFont8(u16 glyphId, bool32 isJapanese)
 u32 GetGlyphWidthFont8(u16 glyphId, bool32 isJapanese)
 {
     if (IsKoreanGlyph(glyphId))
-        return 8;
+        return 9;
     if (isJapanese == TRUE)
         return 8;
     return gFont8LatinGlyphWidths[glyphId];

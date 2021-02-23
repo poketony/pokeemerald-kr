@@ -90,3 +90,7 @@ gFont2KoreanGlyphs::
 	.align 2
 gFont7KoreanGlyphs::
 	.incbin "graphics/fonts/font7kr.latfont"
+
+	.align 2
+gFont8KoreanGlyphs::
+	.incbin "graphics/fonts/font8kr.latfont"
