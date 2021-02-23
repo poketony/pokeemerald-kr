@@ -632,9 +632,9 @@ static const struct WindowTemplate sPageSkillsTemplate[] =
     },
     [PSS_DATA_WINDOW_EXP] = {
         .bg = 0,
-        .tilemapLeft = 24,
+        .tilemapLeft = 21,
         .tilemapTop = 14,
-        .width = 6,
+        .width = 9,
         .height = 4,
         .paletteNum = 6,
         .baseBlock = 543,
@@ -3392,8 +3392,10 @@ static void PrintExpPointsNextLevel(void)
     u32 expToNextLevel;
 
     ConvertIntToDecimalStringN(gStringVar1, sum->exp, STR_CONV_MODE_RIGHT_ALIGN, 7);
-    x = GetStringRightAlignXOffset(1, gStringVar1, 42) + 2;
+    x = GetStringRightAlignXOffset(1, gStringVar1, 66) + 2;
     PrintTextOnWindow(windowId, 1, gStringVar1, x, 1, 0, 0);
+
+    PrintTextOnWindow(windowId, 7, gText_UntilNextLv, 0, 17, 0, 0);
 
     if (sum->level < MAX_LEVEL)
         expToNextLevel = gExperienceTables[gBaseStats[sum->species].growthRate][sum->level + 1] - sum->exp;
@@ -3401,7 +3403,7 @@ static void PrintExpPointsNextLevel(void)
         expToNextLevel = 0;
 
     ConvertIntToDecimalStringN(gStringVar1, expToNextLevel, STR_CONV_MODE_RIGHT_ALIGN, 6);
-    x = GetStringRightAlignXOffset(1, gStringVar1, 42) + 2;
+    x = GetStringRightAlignXOffset(1, gStringVar1, 66) + 2;
     PrintTextOnWindow(windowId, 1, gStringVar1, x, 17, 0, 0);
 }
 
