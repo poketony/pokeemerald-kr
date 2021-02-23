@@ -973,6 +973,7 @@ extern const u8 gText_SpDef4[];
 extern const u8 gText_Speed2[];
 extern const u8 gText_ExpPoints[];
 extern const u8 gText_NextLv[];
+extern const u8 gText_UntilNextLv[];
 extern const u8 gText_Status[];
 extern const u8 gText_Power[];
 extern const u8 gText_Accuracy2[];
