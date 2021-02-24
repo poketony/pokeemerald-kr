@@ -3738,23 +3738,9 @@ static void Task_LoadSizeScreen(u8 taskId)
         {
             u8 string[64];
             u8 i;
-            u8 num = sPokedexListItem->dexNum;
 
-            for (i = 0; i < 16; i++)
-                gStringVar2[i] = EOS;
-            num = NationalPokedexNumToSpecies(num);
-            switch (num)
-            {
-            default:
-                for (i = 0; gSpeciesNames[num][i] != EOS && i < POKEMON_NAME_LENGTH; i++)
-                    gStringVar2[i] = gSpeciesNames[num][i];
-                break;
-            case 0:
-                for (i = 0; i < 5; i++)
-                    gStringVar2[i] = CHAR_HYPHEN;
-                break;
-            }
-            StringCopy(string, gText_SizeComparedTo);
+            StringCopy(string, gSpeciesNames[NationalPokedexNumToSpecies(sPokedexListItem->dexNum)]);
+            StringAppend(string, gText_SizeComparedTo);
             StringExpandPlaceholders(gStringVar1, string);
             PrintInfoScreenText(1, gStringVar1, GetStringCenterAlignXOffset(1, gStringVar1, 0xF0), 0x79);
             gMain.state++;
