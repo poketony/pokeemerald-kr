@@ -816,7 +816,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer: @ 825DDFE
 	// トレ-ナ-と たたかって いただきます……
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth: @ 825DE3F
-	.string "대단하군요…\p"
+	.string "대단하군요...\p"
 	.string "손님의 승리를 기리며\n"
 	.string "포켓몬을 회복시켜 드리겠습니다...$"
 	// ……すばらしい……ｐ

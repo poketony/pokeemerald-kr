@@ -350,7 +350,7 @@ BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack: @ 825CE36
 	// ひきかえすことは できない……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose: @ 825CE69
-	.string "... 손님...\p"
+	.string "손님...\p"
 	.string "실례지만 어느 길로 갈지\n"
 	.string "고민하고 계신가요...?$"
 	// …… おきゃくさま……ｐ
