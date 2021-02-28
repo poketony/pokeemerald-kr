@@ -952,58 +952,54 @@ MauvilleCity_PokemonCenter_1F_EventScript_ToldEnoughTales:: @ 8290384
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong: @ 829038E
-	.string "Hi, I'm the BARD.\n"
-	.string "Would you like to hear my song?$"
+	.string "난 싱어송아저씨\n"
+	.string "내 노래 한번 들어볼래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1: @ 82903C0
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "그래...\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers: @ 82903E6
-	.string "Oh, what a moving song…\n"
-	.string "I wish I could play it for others…$"
+	.string "아아 좋은 노래구나...\n"
+	.string "다른 사람들에게도 들려주고 싶다$"
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics: @ 8290421
-	.string "So?\n"
-	.string "How do you like my song?\p"
-	.string "But I'm none too happy about\n"
-	.string "the lyrics.\p"
-	.string "How would you like to write some\n"
-	.string "new lyrics for me?$"
+	.string "내 노래 어때?\p"
+	.string "근데 좀 가사가\n"
+	.string "마음에 안 든단 말이지\p"
+	.string "그래서 너 잠깐 가사 좀 써줄래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2: @ 829049B
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "그래...\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_LetMeSingItForYou: @ 82904C1
-	.string "Thank you kindly!\n"
-	.string "Let me sing it for you.$"
+	.string "고마워!\n"
+	.string "자 그럼 부른다!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatHowYouWantedSongToGo: @ 82904EB
-	.string "Was that how you wanted your song\n"
-	.string "to go?$"
+	.string "이런 느낌이면 되나?$"
 
 MauvilleCity_PokemonCenter_1F_Text_IllSingThisSongForAWhile: @ 8290514
-	.string "Okay! That's it, then.\n"
-	.string "I'll sing this song for a while.$"
+	.string "좋아 알았어!\n"
+	.string "당분간 이 노래를 불러 볼게!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TeachWhatsHipAndHappening: @ 829054C
-	.string "Hey, yo! They call me the HIPSTER.\n"
-	.string "I'll teach you what's hip and happening.$"
+	.string "난 지금유행아저씨\n"
+	.string "요즘 유행하는 유행어를 알려줄게$"
 
 MauvilleCity_PokemonCenter_1F_Text_IAlreadyTaughtYou: @ 8290598
-	.string "But, hey, I taught you what's hip and\n"
-	.string "happening already.\p"
-	.string "I'd like to spread the good word to\n"
-	.string "other folks.$"
+	.string "하지만 너에게 이전에 알려줬는걸\p"
+	.string "이번에는 다른 사람에게도\n"
+	.string "알려주고 싶어$"
 
 MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach: @ 8290602
-	.string "But, hey, you already know a lot about\n"
-	.string "what's hip and happening.\p"
-	.string "I've got nothing new to teach you!$"
+	.string "근데 너 이미\n"
+	.string "유행어 많이 알고 있는걸\p"
+	.string "알려줄 건 이제 전혀 없어$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfPhrase: @ 8290666
-	.string "Hey, have you heard about\n"
-	.string "“{STR_VAR_1}”?\p"
-	.string "What's it mean? Well…\n"
-	.string "Ask your daddy or mommy, okay?$"
+	.string "너 “{STR_VAR_1}”라는\n"
+	.string "말 알고 있어?\p"
+	.string "의미? 그건 말이지...\n"
+	.string "아빠나 엄마한테 한번 물어봐$"

@@ -656,7 +656,7 @@ BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls: @ 825FF5D
 	.string "귀여운 쿠션-\l"
 	.string "큰 봉제인형-\l"
 	.string "작은 봉제인형-\l"
-	.string "모두 가지고 싶다-!$"
+	.string "모두 가지고 싶다아-$"
 	// いいなぁ- ほしいなぁ-ｎ
 	// かわいい クッション-ｌ
 	// おおきい ぬいぐるみ-ｌ
@@ -664,7 +664,7 @@ BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls: @ 825FF5D
 	// みんな みんな ほっしい なぁ-
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant: @ 825FFD0
-	.string "맡겨두라니까!\p"
+	.string "맡겨 두라니까!\p"
 	.string "네가 원하는 거라면\n"
 	.string "뭐든지 사줄게!!$"
 	// まかせといてって!ｐ

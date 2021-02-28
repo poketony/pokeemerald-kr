@@ -485,11 +485,11 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon: @ 8278E60
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
 	.string "“미니 포켓몬 점프”에\n"
 	.string "참가할 수 있는 포켓몬은\l"
-	.string "높이 70cm 정도까지야\p"
+	.string "높이 70cm 정도까지란다\p"
 	.string "땅에 박혀 있거나\n"
 	.string "떠 있는 포켓몬은\l"
 	.string "점프할 수 없으니까\l"
-	.string "나갈 수 없어$"
+	.string "나갈 수 없다네$"
 	// 「ミニポケモンでジャンプ」にｎ
 	// さんか できる ポケモンはｌ
 	// たかさ 70センチくらい までだよｐ

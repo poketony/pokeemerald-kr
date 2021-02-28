@@ -415,7 +415,7 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo: @ 8266A34
 	.string "우측 하단에 있는 붉은 건물입니다\p"
 	.string "이쪽의 건물에서는\n"
 	.string "싱글 더블 2개의\l"
-	.string "배틀홀로의 도전이 가능합니다$"
+	.string "배틀홀 도전이 가능합니다$"
 	// バトルパレスは バトルフロンティアのｎ
 	// みぎはじに ある あかい たてものですｐ
 	// こちらの たてもの ではｎ
