@@ -1679,7 +1679,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave: @ 81E6DFE
 	.string "지식과 경험...\p"
 	.string "그런 인물이 찾아온다면\n"
 	.string "이 사당으로 안내하라고\l"
-	.string "윤진에게 들었습니다$"
+	.string "윤진님께 들었습니다$"
 	// つよい いしと すぐれた さいのうｐ
 	// そして たくさんの ポケモンを みてきたｎ
 	// ちしきと けいけん……ｐ
@@ -1891,8 +1891,8 @@ SootopolisCity_Text_HereWereAreHelpWallace: @ 81E77F0
 	.string "성호: 자 도착했어!\p"
 	.string "이 안에 윤진이라고 하는\n"
 	.string "사람이 있어\p"
-	.string "너하면 그의 힘이\n"
-	.string "되어줄 수 있라고 생각해...$"
+	.string "너라면 그의 힘이\n"
+	.string "되어줄 수 있다고 생각해...$"
 	// ダイゴ『さあ ついた!ｐ
 	// このおくに ミクリさん というｎ
 	// ひとが いるんだｐ

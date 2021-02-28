@@ -98,8 +98,8 @@ PacifidlogTown_House3_Text_NotDesperateOrAnything: @ 8203E12
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
 	.string "스스로 찾아도 되지만...\p"
 	.string "다른 트레이너가 잡은\n"
-	.string "아공이란 녀석을\l"
-	.string "어떻게든 갖고 싶단 말이지$"
+	.string "아공이라는 녀석을\l"
+	.string "정말 갖고 싶었어$"
 	// じぶんで さがしても いいんだけど……ｐ
 	// ほかの トレ-ナ-が つかまえたｎ
 	// タツベイ って いうのがｌ

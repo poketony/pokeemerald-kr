@@ -813,7 +813,7 @@ Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse: @ 826A78C
 	.string "어때 내 말이 맞나?\l"
 	.string "좋아 도전을 받아주지!\p"
 	.string "저기 있는 족자로 들어가서\n"
-	.string "도전하도록!\l"
+	.string "도전하도록!\p"
 	.string "이 몸은\n"
 	.string "제일 안쪽 방에서 기다리겠다!$"
 

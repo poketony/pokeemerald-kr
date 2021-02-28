@@ -511,7 +511,7 @@ MtPyre_Summit_Text_Grunt3Defeat: @ 8232678
 	// じゃまを するなら マグマだんに しろ……
 
 MtPyre_Summit_Text_Grunt3PostBattle: @ 82326B3
-	.string "뭐 됐어 시간은 벌었다!\n"
+	.string "뭐 됐어 시간은 벌었다!\p"
 	.string "지금쯤 리더가 원하는 걸\n"
 	.string "빼앗았을 거다!$"
 	// まあいいさ じかんは かせげた!ｐ

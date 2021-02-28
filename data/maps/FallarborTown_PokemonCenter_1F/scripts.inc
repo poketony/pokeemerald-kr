@@ -94,7 +94,7 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting: @ 8200C6B
 	.string "PC 앞에 있는 나한테\l"
 	.string "말을 걸었을 거 아니에요\l"
 	.string "간단한 추리예요\p"
-	.string "아 전 보은이라고 해요\p"
+	.string "아 전 유미라고 해요\p"
 	.string "보관 시스템을 사용하고 있는\n"
 	.string "트레이너를 만나 너무 기뻐요\p"
 	.string "괜찮으시다면 저희 집에도\n"

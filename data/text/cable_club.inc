@@ -430,9 +430,9 @@ MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay: @ 8278CAC
 	// おとなりの おじいさんに いってね
 
 MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait: @ 8278CEB
-	.string "여어 어서 와\n"
+	.string "이야 어서 오렴\n"
 	.string "무선 통신 게임하러 온 거지?\l"
-	.string "잠깐만 기다려 줘$"
+	.string "잠깐만 기다려 주게나$"
 	// やあ いらっしゃいｎ
 	// ワイヤレスつうしんの ゲ-ムかな?ｌ
 	// ちょっと まってね

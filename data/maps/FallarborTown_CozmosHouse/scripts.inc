@@ -83,7 +83,7 @@ FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt: @ 82010A2
 	.string "마그마단이 유성의 폭포에서\n"
 	.string "가져갔었던 운석인가...!?\p"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜로 말하지는 않으마\n"
+	.string "공짜라고 말하지는 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 
@@ -103,7 +103,7 @@ FallarborTown_CozmosHouse_Text_CrushedWithDisappointment: @ 8201212
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite: @ 8201249
 	.string "공석박사: 그 운석...\n"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜로 말하지는 않으마\n"
+	.string "공짜라고 말하지는 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 

@@ -151,7 +151,7 @@ LilycoveCity_House3_Text_ExplainPokeblocks: @ 821F0F8
 LilycoveCity_House3_Text_HappyToHaveQuadruplets: @ 821F430
 	.string "네쌍둥이가 태어났을 때는\n"
 	.string "정말 놀랐는데 모두 사이좋게\l"
-	.string "놀고 있는 모습을 보고 있으면\n"
+	.string "놀고 있는 모습을 보고 있으면\l"
 	.string "정말 행복한 기분이 들어!$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles: @ 821F4A7

@@ -229,7 +229,7 @@ Route103_Text_RhettDefeated:
 	.string "꼬맹이가 끝내주네!$"
 
 Route103_Text_RhettPostBattle:
-	.string "이렇게 좋은 장소가\n"
+	.string "이렇게 좁은 장소가\n"
 	.string "맘에 들어?$"
 
 Route103_Text_MarcosIntro:
@@ -355,7 +355,7 @@ Route104_Text_WinstonDefeat:
 
 Route104_Text_WinstonPostBattle:
 	.string "돈으로 이길 수 없는 것도 있다더니...\n"
-	.string "그게 바로 포켓몬이구나...$"
+	.string "그게 바로 포켓몬 승부구나...$"
 
 Route104_Text_WinstonRegister1:
 	.string "응?\n"
@@ -1604,7 +1604,7 @@ Route112_Text_BryantPostBattle:
 	.string "그것도 재능이겠지$"
 
 Route112_Text_ShaylaIntro:
-	.string "매력 있으신 트레이너 시네요!\n"
+	.string "매력 있는 트레이너시네요!\n"
 	.string "저에게 로맨틱한 승부를\l"
 	.string "보여주시겠어요?$"
 
@@ -2309,24 +2309,33 @@ Route116_Text_DawsonIntro:
 	.string "너는 무력해질걸!$"
 
 Route116_Text_DawsonDefeat:
-	.string "아니라고?!$"
+	.string "이건 아니지 베이비$"
 
 Route116_Text_DawsonPostBattle:
-	.string "안돼 안돼 안돼!\n"
-	.string "당신이 내 포켓몬의 털을 망쳤어!\l"
-	.string "그리고 내 머리도!\l"
-	.string "내 스타일리스트에게 전화해야겠어!$"
+	.string "아앗\n"
+	.string "포켓몬의 털과\l"
+	.string "내 머리가 엉망이야!\l"
+	.string "스타일리스트에게 전화해야겠어!$"
+	// ああっｎ
+	// ポケモンの けなみとｌ
+	// ぼくの ヘア-が みだれた!ｌ
+	// びよういん よやく しなきゃ
 
 Route116_Text_DevanIntro:
-	.string "우리의 락을 들어라!$"
+	.string "쾅 하고 가볼까!$"
+	// ガツンと いってみようかあ!
 
 Route116_Text_DevanDefeat:
-	.string "이야호!\n"
-	.string "공연이다!$"
+	.string "아아아\n"
+	.string "이거 상대가 안되는구만$"
+	// あああｎ
+	// しょうぶに ならんな こりゃ
 
 Route116_Text_DevanPostBattle:
-	.string "아무래도\n"
-	.string "다른 타입 포켓몬도 잡아야겠다$"
+	.string "가끔은 다른 타입\n"
+	.string "포켓몬도 잡아볼까?$"
+	// たまには ほかの タイプのｎ
+	// ポケモンも つかって みるかなあ?
 
 Route116_Text_JohnsonIntro:
 	.string "여기는 막다른 골목인데\n"
@@ -3333,7 +3342,7 @@ Route121_Text_PatPostBattle:
 Route121_Text_MarcelIntro:
 	.string "내 포켓몬들은 진 적이 없어!\n"
 	.string "너를 이기고\l"
-	.string "콘테스트에 참여해야지!$"
+	.string "콘테스트에 참가해야지!$"
 
 Route121_Text_MarcelDefeat:
 	.string "무슨 일이 일어난 거지?$"
@@ -4098,7 +4107,7 @@ Route127_Text_AidanDefeat:
 
 Route127_Text_AidanPostBattle:
 	.string "이 주변엔\n"
-	.string "이 주변엔 잠수할 수 있을 것 같은 곳이\l"
+	.string "잠수할 수 있을 것 같은 곳이\l"
 	.string "굉장히 많군!\p"
 	.string "하늘에서 보면\n"
 	.string "바다의 색이 달라서 잘 보인다!$"

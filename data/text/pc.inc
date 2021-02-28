@@ -19,5 +19,5 @@ gText_AccessedPlayersPC:: @ 82726C2
 	.string "PC에 접속했다!$"
 
 gText_AccessedLanettesPC:: @ 82726D4
-	.string "보은의\n"
+	.string "유미의\n"
 	.string "PC에 접속했다!$"

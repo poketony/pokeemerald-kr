@@ -208,7 +208,7 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "좋아 너의\n"
 	.string "트레이너카드를 보도록!\p"
 	.string "모든 배지가 모였다면\n"
-	.string "이제 드디어\n"
+	.string "이제 드디어\l"
 	.string "포켓몬리그에 도전할 수 있다!$"
 	// ホウエンで いちばん つよいと いわれるｎ
 	// アダンに かったのかあ!!ｐ

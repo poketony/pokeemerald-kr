@@ -102,7 +102,7 @@ FortreeCity_House1_Text_YouWontTradeMe: @ 821649F
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong: @ 82164DB
 	.string "좋아 지금부터\n"
 	.string "볼비트를 강하게 키우겠어-!\l"
-	.string "플러시도 강하게 키울 거야-!$"
+	.string "플러시도 강하게 키워줘-!$"
 	// よし いまからｎ
 	// バルビ-トを つよく するぞ-!ｌ
 	// プラスルも つよく してやってよ!

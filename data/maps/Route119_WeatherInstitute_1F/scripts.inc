@@ -74,7 +74,7 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4:: @ 826FB40
 	end
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro: @ 826FB57
-	.string "리더가 여기서의 연구에\n"
+	.string "리더가 이곳의 연구에\n"
 	.string "흥미가 있으셔서\l"
 	.string "우리들을 보낸 거다! 방해하지 마!$"
 	// リ-ダ-が ここでの けんきゅうにｎ
@@ -83,7 +83,7 @@ Route119_WeatherInstitute_1F_Text_Grunt1Intro: @ 826FB57
 
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat: @ 826FBBB
 	.string "젠장-\n"
-	.string "어린애에게 졌다...$"
+	.string "어린애한테 졌다...$"
 	// くそ-ｎ
 	// こどもに まけた……
 

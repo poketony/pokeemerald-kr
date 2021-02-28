@@ -53,9 +53,9 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial: @ 82025D5
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
 	.string "배틀텐트 필승\n"
 	.string "공략본 같은 건\l"
-	.string "팔지 않는 건가요...\p"
+	.string "팔지 않는 건가...\p"
 	.string "역시 직접 힘내서\n"
-	.string "해내지 않으면 안 되겠네요$"
+	.string "해내지 않으면 안 되겠구먼$"
 	// バトルテント ひっしょうｎ
 	// こうりゃくぼん というのはｌ
 	// うってない ですねえ……ｐ

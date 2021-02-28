@@ -126,7 +126,7 @@ AquaHideout_1F_Text_BossIsInSlateportCity: @ 8233884
 	.string "우리 아쿠아단한테 무슨 볼일이야!\p"
 	.string "리더라면 지금 잿빛도시로\n"
 	.string "가고 있어서 여기엔 없어!\p"
-	.string "... ...뭐 하러 갔냐고?\n"
+	.string "...뭐 하러 갔냐고?\p"
 	.string "아하하하! 그런 중요한 정보를\n"
 	.string "내가 알려줄 거 같으냐!$"
 

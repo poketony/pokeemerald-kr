@@ -207,5 +207,5 @@ Route114_Text_FossilManiacsHouseSign: @ 81F28DB
 	.string "희귀한 화석이 있으면 주세요!$"
 
 Route114_Text_LanettesHouse: @ 81F2910
-	.string "“보은의 집”$"
+	.string "“유미의 집”$"
 

@@ -1187,7 +1187,7 @@ SlateportCity_Text_SeaIsSoWet: @ 81DDFF7
 	// できてるのかなあ……
 
 SlateportCity_Text_SinkOldBoats: @ 81DE04B
-	.string "오래 되서 탈 수 없게 된 배가\n"
+	.string "오래 돼서 탈 수 없게 된 배가\n"
 	.string "어떻게 되는지 알고 있나?\p"
 	.string "바닷속에 가라앉혀서\n"
 	.string "포켓몬의 거처가 되도록 하는 거야!$"
@@ -1220,7 +1220,7 @@ SlateportCity_Text_CantChangeTradeMonName: @ 81DE16C
 	// こめられて いるんですもの!
 
 SlateportCity_Text_BattleTentBuiltRecently: @ 81DE1EC
-	.string "최근 잿빛도시에서\n"
+	.string "최근 잿빛도시에\n"
 	.string "배틀텐트가 생겼어\l"
 	.string "체육관도 좋지만 배틀텐트도 좋지!\p"
 	.string "너도 강한 포켓몬을 찾으러\n"

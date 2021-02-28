@@ -195,7 +195,7 @@ SootopolisCity_Gym_B1F_Text_TiffanyPostBattle: @ 8226286
 
 SootopolisCity_Gym_B1F_Text_BethanyIntro: @ 82262F3
 	.string "포켓몬과 함께 있으면\n"
-	.string "시간이 눈 깜짝할 사이에 지나가!"
+	.string "시간이 눈 깜짝할 사이에 지나가!$"
 	// ポケモンと いっしょに いるとｎ
 	// じかんが あっ というまに すぎるのよ!
 

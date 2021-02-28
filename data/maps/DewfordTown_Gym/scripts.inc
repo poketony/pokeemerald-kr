@@ -450,7 +450,7 @@ DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
 	.string "벌크업은 일시적으로 포켓몬의\n"
 	.string "근육 파워를 올려줘!\p"
 	.string "공격과 방어를\n"
-	.string "끝내주게 올려주지!p"
+	.string "끝내주게 올려주지!\p"
 	.string "...... ...... ......$"
 
 DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0

@@ -1031,8 +1031,9 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase: @ 821AD10
 	// ポロック いれる ケ-ス もらった!
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
-	.string "포켓몬스넥 만들고 넣어!\p"
-	.string "하지만 포켓몬스넥 만들 때는\n"
+	.string "포켓몬스넥케이스에\n"
+	.string "포켓몬스넥을 만들고 넣어!\p"
+	.string "하지만 포켓몬스넥을 만들 때는\n"
 	.string "모두 다른 나무열매로\l"
 	.string "만들지 않으면 안 돼!$"
 	// ポロック つくって いれて!ｐ

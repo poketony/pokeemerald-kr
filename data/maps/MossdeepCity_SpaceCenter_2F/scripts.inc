@@ -408,7 +408,7 @@ MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace: @ 8224342
 	.string "우주에 갈 수 있게 되면 좋겠다...$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
-	.string "마그마단...\n"
+	.string "마그마단도...\n"
 	.string "우주에 가고 싶어하는 걸까?$"
 	// マグマだんも……ｎ
 	// うちゅうに いきたいの かな?
@@ -488,7 +488,7 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou: @ 82245D9
 	// いっしょに かたづけて やろうか!
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere: @ 822467B
-	.string "마적! 에-잇 거기를 비켜라!\n"
+	.string "마적: 에-잇 거기서 비켜라!\n"
 	.string "우리들을 방해하지 말란 말이다!$"
 	// マツブサ『え-い そこをどけ!ｎ
 	// われわれの ジャマを するんじゃない!
