@@ -271,7 +271,7 @@ static const struct WindowTemplate gStandardBattleWindowTemplates[] =
     },
     {
         .bg = 0,
-        .tilemapLeft = 26,
+        .tilemapLeft = 25,
         .tilemapTop = 9,
         .width = 3,
         .height = 4,

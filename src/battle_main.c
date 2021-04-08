@@ -2479,7 +2479,7 @@ static void sub_803939C(void)
     case 4:
         if (!IsTextPrinterActive(0))
         {
-            HandleBattleWindow(0x18, 8, 0x1D, 0xD, 0);
+            HandleBattleWindow(0x17, 8, 0x1D, 0xD, 0);
             BattlePutTextOnWindow(gText_BattleYesNoChoice, 0xC);
             gBattleCommunication[CURSOR_POSITION] = 1;
             BattleCreateYesNoCursorAt(1);
@@ -2512,7 +2512,7 @@ static void sub_803939C(void)
             PlaySE(SE_SELECT);
             if (gBattleCommunication[CURSOR_POSITION] == 0)
             {
-                HandleBattleWindow(0x18, 8, 0x1D, 0xD, WINDOW_CLEAR);
+                HandleBattleWindow(0x17, 8, 0x1D, 0xD, WINDOW_CLEAR);
                 gBattleCommunication[1] = MoveRecordedBattleToSaveData();
                 gBattleCommunication[MULTIUSE_STATE] = 10;
             }
@@ -2530,7 +2530,7 @@ static void sub_803939C(void)
     case 6:
         if (IsLinkTaskFinished() == TRUE)
         {
-            HandleBattleWindow(0x18, 8, 0x1D, 0xD, WINDOW_CLEAR);
+            HandleBattleWindow(0x17, 8, 0x1D, 0xD, WINDOW_CLEAR);
             if (gMain.field_439_x4)
             {
                 SetLinkStandbyCallback();
