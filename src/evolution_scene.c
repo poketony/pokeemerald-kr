@@ -850,7 +850,7 @@ static void Task_EvolutionScene(u8 taskID)
         case 3:
             if (!IsTextPrinterActive(0) && !IsSEPlaying())
             {
-                HandleBattleWindow(0x18, 8, 0x1D, 0xD, 0);
+                HandleBattleWindow(0x17, 8, 0x1D, 0xD, 0);
                 BattlePutTextOnWindow(gText_BattleYesNoChoice, 0xC);
                 gTasks[taskID].tLearnMoveState++;
                 sEvoCursorPos = 0;
@@ -874,7 +874,7 @@ static void Task_EvolutionScene(u8 taskID)
             }
             if (JOY_NEW(A_BUTTON))
             {
-                HandleBattleWindow(0x18, 8, 0x1D, 0xD, WINDOW_CLEAR);
+                HandleBattleWindow(0x17, 8, 0x1D, 0xD, WINDOW_CLEAR);
                 PlaySE(SE_SELECT);
 
                 if (sEvoCursorPos != 0)
@@ -890,7 +890,7 @@ static void Task_EvolutionScene(u8 taskID)
             }
             if (JOY_NEW(B_BUTTON))
             {
-                HandleBattleWindow(0x18, 8, 0x1D, 0xD, WINDOW_CLEAR);
+                HandleBattleWindow(0x17, 8, 0x1D, 0xD, WINDOW_CLEAR);
                 PlaySE(SE_SELECT);
                 gTasks[taskID].tLearnMoveState = gTasks[taskID].tData8;
             }
