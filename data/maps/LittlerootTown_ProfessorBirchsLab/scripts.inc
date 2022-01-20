@@ -1103,8 +1103,8 @@ LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable: @ 81FB959
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon: @ 81FB9A8
-	.string "PROF. BIRCH: I see!\n"
-	.string "You picked a fine POKéMON!$"
+	.string "털보박사: 과연!\n"
+	.string "좋은 포켓몬을 골랐구나!$"
 	// オダマキ『なるほど!ｎ
 	// いい ポケモンを えらんだね!
 
