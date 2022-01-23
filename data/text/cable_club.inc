@@ -40,8 +40,8 @@ CableClub_Text_NeedTwoMonsForDoubleBattle: @ 8277FEE
 	// ポケモンが ひつようです
 
 CableClub_Text_NeedTwoMonsToTrade: @ 8278027
-	.string "교환을 하기 위해서는\n"
-	.string "포켓몬 2마리 필요합니다$"
+	.string "교환을 하기 위해서는 2마리 이상의\n"
+	.string "포켓몬을 지니고 있어야 합니다$"
 	// こうかんでは 2ひき いじょうのｎ
 	// てもちが ひつようです
 
@@ -149,8 +149,8 @@ CableClub_Text_PleaseConfirmNumberAndRestart: @ 8278372
 	// はじめから やりなおして ください
 
 Text_TerminateLinkConfirmation: @ 82783A8
-	.string "방에서 나가면 통신이 종료\n"
-	.string "됩니다만 괜찮겠습니까?$"
+	.string "방에서 나가면 통신이\n"
+	.string "종료됩니다만 괜찮겠습니까?$"
 	// へやからでると つうしんがｎ
 	// おわりますが よろしいですか?
 
@@ -223,7 +223,7 @@ CableClub_Text_OtherTrainerNotReady: @ 82785C9
 	// できていません
 
 CableClub_Text_YouHaveAMonThatCantBeTaken: @ 82785E9
-	.string "데려갈 수 없는\n"
+	.string "지닌 포켓몬에 데려갈 수 없는\n"
 	.string "포켓몬이 있습니다$"
 	// てもちに つれていけないｎ
 	// ポケモンが います
@@ -318,14 +318,14 @@ CableClub_Text_ReturnsToPreviousStep: @ 82788DE
 
 CableClub_Text_NeedBerryForBerryCrush: @ 82788FC
 	.string "나무열매를 지니고 있지 않으면\n"
-	.string "나무열매크래시는 할 수 없습니다$"
+	.string "나무열매크러시는 할 수 없습니다$"
 	// きのみを もって いないとｎ
 	// きのみクラッシュは できません
 
 CableClub_Text_NeedTwoMonsForUnionRoom: @ 827893E
 	.string "유니언 룸에 들어가려면\n"
 	.string "2마리 이상의 포켓몬을\l"
-	.string "지니고 와주십시오$$"
+	.string "지니고 와주십시오$"
 	// ユニオンル-ムに はいるにはｎ
 	// 2ひき いじょうの ポケモンをｌ
 	// もって おこしください
@@ -404,11 +404,11 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo: @ 8278ACB
 	// よいことが ありますよ!
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo: @ 8278BF1
-	.string "“두트리오 나무열매 잡기”는\n"
+	.string "“두트리오 나무열매 먹기”는\n"
 	.string "두트리오의 머리 3개에\l"
 	.string "명령해서 위에서 떨어지는\l"
 	.string "나무열매가 땅에 닿지 않도록\l"
-	.string "계속 잡는 게임입니다\p"
+	.string "계속 먹는 게임입니다\p"
 	.string "십자 버튼의\n"
 	.string "위 오른쪽 왼쪽을 사용합니다\p"
 	.string "이 게임을 하기 위해서는\n"
@@ -485,7 +485,7 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon: @ 8278E60
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
 	.string "“미니 포켓몬 점프”에\n"
 	.string "참가할 수 있는 포켓몬은\l"
-	.string "높이 70cm 정도까지란다\p"
+	.string "키 70cm 정도까지란다\p"
 	.string "땅에 박혀 있거나\n"
 	.string "떠 있는 포켓몬은\l"
 	.string "점프할 수 없으니까\l"
@@ -499,8 +499,8 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
 	// でられないんだよ
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed: @ 8278FA4
-	.string "“두트리오 나무열매 잡기”는\n"
-	.string "두트리오만이\l"
+	.string "“두트리오 나무열매 먹기”는\n"
+	.string "두트리오만\l"
 	.string "참가할 수 있는 게임이야$"
 	// 「ド-ドリオのきのみどり」はｎ
 	// ド-ドリオ だけがｌ
