@@ -661,9 +661,9 @@ static const struct WindowTemplate sWindowTemplates[] =
 {
     {
         .bg = 0, 
-        .tilemapLeft = 2, 
+        .tilemapLeft = 4, 
         .tilemapTop = 15, 
-        .width = 27, 
+        .width = 23, 
         .height = 4, 
         .paletteNum = 15, 
         .baseBlock = 0x194

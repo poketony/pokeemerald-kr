@@ -379,9 +379,9 @@ const struct WindowTemplate sDefaultBagWindows[] =
     },
     { // Field message box
         .bg = 1,
-        .tilemapLeft = 2,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 27,
+        .width = 23,
         .height = 4,
         .paletteNum = 15,
         .baseBlock = 0x1B1,
@@ -429,9 +429,9 @@ const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     {
         .bg = 1,
-        .tilemapLeft = 2,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 27,
+        .width = 23,
         .height = 4,
         .paletteNum = 15,
         .baseBlock = 0x1B1,

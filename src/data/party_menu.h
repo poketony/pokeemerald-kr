@@ -546,9 +546,9 @@ static const struct WindowTemplate sLevelUpStatsWindowTemplate =
 static const struct WindowTemplate sUnusedWindowTemplate_08615978 =
 {
     .bg = 2,
-    .tilemapLeft = 2,
+    .tilemapLeft = 4,
     .tilemapTop = 15,
-    .width = 27,
+    .width = 23,
     .height = 4,
     .paletteNum = 14,
     .baseBlock = 0x1DF,
