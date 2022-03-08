@@ -895,25 +895,37 @@ static void BufferArenaOpponentName(void)
 
 void DrawArenaRefereeTextBox(void)
 {
-    u8 width = 27;
+    u8 width = 22;
     u8 palNum = 7;
 
-    FillBgTilemapBufferRect(0, 0,    254, 14, 1,  6, palNum);
-    FillBgTilemapBufferRect(0, 0,    32,  14, 1,  6, palNum);
-    FillBgTilemapBufferRect(0, 0x31, 0,   14, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x33, 1,   14, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x34, 2,   14, width, 1, palNum);
-    width++;
-    FillBgTilemapBufferRect(0, 0x35, 28,  14, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x36, 29,  14, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x37, 0,   15, 1,  5, palNum);
-    FillBgTilemapBufferRect(0, 0x39, 1,   15, width, 5, palNum);
-    FillBgTilemapBufferRect(0, 0x3A, 29,  15, 1,  5, palNum);
-    FillBgTilemapBufferRect(0, 0x831, 0,  19, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x833, 1,  19, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x834, 2,  19, width - 2, 1, palNum);
-    FillBgTilemapBufferRect(0, 0x835, 28, 19, 1,  1, palNum);
-    FillBgTilemapBufferRect(0, 0x836, 29, 19, 1,  1, palNum);
+    FillBgTilemapBufferRect(0, 0, 0, 14,  8 + width,  6, palNum);
+
+    FillBgTilemapBufferRect(0, 49, 1, 14, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, 50, 2, 14, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, 51, 3, 14, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, 52, 4, 14, width, 1, palNum);
+    FillBgTilemapBufferRect(0, 53, 4 + width, 14, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, 50, 5 + width, 14, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, 54, 6 + width, 14, 1, 1, palNum);
+
+    FillBgTilemapBufferRect(0, 55, 1, 15, 1, 4, palNum);
+    FillBgTilemapBufferRect(0, 56, 2, 15, 1, 4, palNum);
+    FillBgTilemapBufferRect(0, 57, 3, 15, 2 + width, 4, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_H_FLIP(56), 5 + width, 15, 1, 4, palNum);
+    FillBgTilemapBufferRect(0, 58, 6 + width, 15, 1, 4, palNum);
+
+    FillBgTilemapBufferRect(0, 61, 2, 15, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_H_FLIP(61), 5 + width, 15, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(61), 2, 18, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_H_FLIP(BG_TILE_V_FLIP(61)), 5 + width, 18, 1, 1, palNum);
+
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(49), 1, 19, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(50), 2, 19, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(51), 3, 19, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(52), 4, 19, width, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(53), 4 + width, 19, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(50), 5 + width, 19, 1, 1, palNum);
+    FillBgTilemapBufferRect(0, BG_TILE_V_FLIP(54), 6 + width, 19, 1, 1, palNum);
 }
 
 void RemoveArenaRefereeTextBox(void)

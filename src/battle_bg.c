@@ -582,9 +582,9 @@ static const struct WindowTemplate gBattleArenaWindowTemplates[] =
     },
     {
         .bg = 0,
-        .tilemapLeft = 2,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 26,
+        .width = 23,
         .height = 4,
         .paletteNum = 7,
         .baseBlock = 0x0090,
