@@ -1099,39 +1099,32 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
     u8 text[16];
-    u32 xPos, var1;
+    u8 i, spaceTileLength, numberTileIndex;
     void *objVram;
 
-    text[0] = 0xF9;
-    text[1] = 5;
+    text[0] = EXT_CTRL_CODE_BEGIN;
+    text[1] = EXT_CTRL_CODE_JPN;
 
-    xPos = (u32) ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-    // Alright, that part was unmatchable. It's basically doing:
-    // xPos = 5 * (3 - (u32)(&text[2]));
-    xPos--;
-    xPos--;
-    xPos -= ((u32)(text));
-    var1 = (3 - xPos);
-    xPos = 4 * var1;
-    xPos += var1;
-
-    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, xPos, 3, 2, &windowId);
+    spaceTileLength = 3 - ((u32) ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3) - (u32)(&text[2]));
+    numberTileIndex = lvl == 100 ? 0 : 1 * TILE_SIZE_4BPP;
+    windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 0, 4, 2, &windowId);
     spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
     if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER)
     {
-        objVram = (void*)(OBJ_VRAM0);
-        if (!IsDoubleBattle())
-            objVram += spriteTileNum + 0x820;
-        else
-            objVram += spriteTileNum + 0x420;
+        objVram = (void*)(OBJ_VRAM0) + spriteTileNum + (!IsDoubleBattle() ? 0x820 : 0x420);
     }
     else
     {
-        objVram = (void*)(OBJ_VRAM0);
-        objVram += spriteTileNum + 0x400;
+        objVram = (void*)(OBJ_VRAM0) + spriteTileNum + 0x400;
     }
-    TextIntoHealthboxObject(objVram, windowTileData, 3);
+
+    for (i = 0; i < 3; i++)
+    {
+        CpuCopy32((void *)gHealthboxLevelPlaceholderGfx + (i * TILE_SIZE_4BPP), objVram + (i * TILE_SIZE_4BPP) + 256, TILE_SIZE_4BPP);
+    }
+
+    TextIntoHealthboxObject(objVram + numberTileIndex, windowTileData, 3 - spaceTileLength);
     RemoveWindowOnHealthbox(windowId);
 }
 
@@ -1139,35 +1132,32 @@ void UpdateHpTextInHealthbox(u8 healthboxSpriteId, s16 value, u8 maxOrCurrent)
 {
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
-    u8 text[32];
+    u8 text[32], *replaceBuf;
     void *objVram;
 
     if (GetBattlerSide(gSprites[healthboxSpriteId].hMain_Battler) == B_SIDE_PLAYER && !IsDoubleBattle())
     {
         spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
-        if (maxOrCurrent != HP_CURRENT) // singles, max
+
+        text[0] = EXT_CTRL_CODE_BEGIN;
+        text[1] = EXT_CTRL_CODE_JPN;
+
+        ConvertIntToDecimalStringN(text + 2, value, STR_CONV_MODE_RIGHT_ALIGN, 3);
+
+        replaceBuf = &text[2];
+        while (*replaceBuf != EOS)
         {
-            ConvertIntToDecimalStringN(text, value, STR_CONV_MODE_RIGHT_ALIGN, 3);
-            windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 0, 5, 2, &windowId);
-            objVram = (void*)(OBJ_VRAM0);
-            objVram += spriteTileNum + 0xB40;
-            HpTextIntoHealthboxObject(objVram, windowTileData, 2);
-            RemoveWindowOnHealthbox(windowId);
+            if (*replaceBuf == 0x77)
+                *replaceBuf = 0x00;
+            replaceBuf++;
         }
-        else // singles, current
-        {
-            ConvertIntToDecimalStringN(text, value, STR_CONV_MODE_RIGHT_ALIGN, 3);
-            text[3] = CHAR_SLASH;
-            text[4] = EOS;
-            windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 4, 5, 2, &windowId);
-            objVram = (void*)(OBJ_VRAM0);
-            objVram += spriteTileNum + 0x3E0;
-            HpTextIntoHealthboxObject(objVram, windowTileData, 1);
-            objVram = (void*)(OBJ_VRAM0);
-            objVram += spriteTileNum + 0xB00;
-            HpTextIntoHealthboxObject(objVram, windowTileData + 0x20, 2);
-            RemoveWindowOnHealthbox(windowId);
-        }
+
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, 0, 4, 2, &windowId);
+        objVram = (void*)(OBJ_VRAM0);
+        objVram += spriteTileNum + (maxOrCurrent != HP_CURRENT ? 0xB20 : 0x3A0);
+
+        HpTextIntoHealthboxObject(objVram, windowTileData, 3);
+        RemoveWindowOnHealthbox(windowId);
     }
     else
     {
@@ -1920,15 +1910,15 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     {
     default:
         StringCopy(ptr, gText_DynColor2);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 4, 2, &windowId);
         break;
     case MON_MALE:
         StringCopy(ptr, gText_DynColor2Male);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 4, 2, &windowId);
         break;
     case MON_FEMALE:
         StringCopy(ptr, gText_DynColor1Female);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 4, 2, &windowId);
         break;
     }
 
@@ -1937,16 +1927,10 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     if (GetBattlerSide(gSprites[healthboxSpriteId].data[6]) == B_SIDE_PLAYER)
     {
         TextIntoHealthboxObject((void*)(VRAM + 0x10040 + spriteTileNum), windowTileData, 6);
-        ptr = (void*)(OBJ_VRAM0);
-        if (!IsDoubleBattle())
-            ptr += spriteTileNum + 0x800;
-        else
-            ptr += spriteTileNum + 0x400;
-        TextIntoHealthboxObject(ptr, windowTileData + 0xC0, 1);
     }
     else
     {
-        TextIntoHealthboxObject((void*)(VRAM + 0x10020 + spriteTileNum), windowTileData, 7);
+        TextIntoHealthboxObject((void*)(VRAM + 0x10020 + spriteTileNum), windowTileData, 6);
     }
 
     RemoveWindowOnHealthbox(windowId);
