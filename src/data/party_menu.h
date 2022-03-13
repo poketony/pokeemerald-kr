@@ -42,28 +42,28 @@ static const struct PartyMenuBoxInfoRects sPartyBoxInfoRects[] =
         BlitBitmapToPartyWindow_LeftColumn, 
         {
             //The below are the x, y, width, and height for each of the following info
-            24, 11, 40, 13, // Nickname
+            32, 11, 40, 12, // Nickname
             32, 20, 32,  8, // Level
             64, 20,  8,  8, // Gender
-            38, 37, 24,  8, // HP
-            53, 37, 24,  8, // Max HP
+            16, 36, 24,  8, // HP
+            40, 36, 24,  8, // Max HP
             24, 35, 48,  3  // HP bar
         }, 
-        12, 34, 64, 16      // Description text (e.g. NO USE)
+        16, 34, 64, 16      // Description text (e.g. NO USE)
     },
     [PARTY_BOX_RIGHT_COLUMN] = 
     {
         BlitBitmapToPartyWindow_RightColumn, 
         {
-             // See above comment
-             22,  3, 40, 13, // Nickname
-             30, 12, 32,  8, // Level
-             62, 12,  8,  8, // Gender
-            102, 12, 24,  8, // HP
-            117, 12, 24,  8, // Max HP
-             88, 10, 48,  3  // HP bar
+            // See above comment
+            32,  3, 40, 12, // Nickname
+            32, 11, 32,  8, // Level
+            64, 11,  8,  8, // Gender
+            80, 11, 24,  8, // HP
+            104, 11, 24,  8, // Max HP
+            88, 10, 48,  3  // HP bar
         }, 
-        77, 4, 64, 16        // Description text
+        80, 4, 64, 16        // Description text
     },
 };
 
@@ -75,39 +75,39 @@ static const u8 sPartyMenuSpriteCoords[PARTY_LAYOUT_COUNT][PARTY_SIZE][4 * 2] =
 {
     [PARTY_LAYOUT_SINGLE] = 
     {
-        { 16,  40,  20,  50,  50,  52,  16,  34},
-        {104,  18, 108,  28, 136,  27, 102,  25},
-        {104,  42, 108,  52, 136,  51, 102,  49},
-        {104,  66, 108,  76, 136,  75, 102,  73},
-        {104,  90, 108, 100, 136,  99, 102,  97},
-        {104, 114, 108, 124, 136, 123, 102, 121},
+        { 24, 40, 28, 50, 56, 52, 16, 34, },
+        { 112, 18, 116, 28, 144, 27, 102, 25, },
+        { 112, 42, 116, 52, 144, 51, 102, 49, },
+        { 112, 66, 116, 76, 144, 75, 102, 73, },
+        { 112, 90, 116, 100, 144, 99, 102, 97, },
+        { 112, 114, 116, 124, 144, 123, 102, 121, },
     },
     [PARTY_LAYOUT_DOUBLE] = 
     {
-        {16, 24, 20, 34, 50, 36, 16, 18},
-        {16, 80, 20, 90, 50, 92, 16, 74},
-        {104, 18, 108, 28, 136, 27, 102, 25},
-        {104, 50, 108, 60, 136, 59, 102, 57},
-        {104, 82, 108, 92, 136, 91, 102, 89},
-        {104, 114, 108, 124, 136, 123, 102, 121},
+        { 24, 24, 28, 34, 56, 36, 16, 18, },
+        { 24, 80, 28, 90, 56, 92, 16, 74, },
+        { 112, 18, 116, 28, 144, 27, 102, 25, },
+        { 112, 50, 116, 60, 144, 59, 102, 57, },
+        { 112, 82, 116, 92, 144, 91, 102, 89, },
+        { 112, 114, 116, 124, 144, 123, 102, 121, },
     },
     [PARTY_LAYOUT_MULTI] = 
     {
-        {16, 24, 20, 34, 50, 36, 16, 18},
-        {16, 80, 20, 90, 50, 92, 16, 74},
-        {104, 26, 106, 36, 136, 35, 102, 33},
-        {104, 50, 106, 60, 136, 59, 102, 57},
-        {104, 82, 106, 92, 136, 91, 102, 89},
-        {104, 106, 106, 116, 136, 115, 102, 113},
+        { 24, 24, 28, 34, 56, 36, 16, 18, },
+        { 24, 80, 28, 90, 56, 92, 16, 74, },
+        { 112, 26, 114, 36, 144, 35, 102, 33, },
+        { 112, 50, 114, 60, 144, 59, 102, 57, },
+        { 112, 82, 114, 92, 144, 91, 102, 89, },
+        { 112, 106, 114, 116, 144, 115, 102, 113, },
     },
     [PARTY_LAYOUT_MULTI_SHOWCASE] = 
     {
-        {16, 32, 20, 42, 50, 44, 16, 26},
-        {104, 34, 106, 44, 136, 43, 102, 41},
-        {104, 58, 106, 68, 136, 67, 102, 65},
-        {16, 104, 20, 114, 50, 116, 16, 98},
-        {104, 106, 106, 116, 136, 115, 102, 113},
-        {104, 130, 106, 140, 136, 139, 102, 137},
+        { 24, 32, 28, 42, 56, 44, 16, 26, },
+        { 112, 34, 114, 44, 144, 43, 102, 41, },
+        { 112, 58, 114, 68, 144, 67, 102, 65, },
+        { 24, 104, 28, 114, 56, 116, 16, 98, },
+        { 112, 106, 114, 116, 144, 115, 102, 113, },
+        { 112, 130, 114, 140, 144, 139, 102, 137, },
     },
 };
 
@@ -184,9 +184,9 @@ static const struct WindowTemplate sSinglePartyMenuWindowTemplate[] =
     },
     {
         .bg = 2,
-        .tilemapLeft = 1,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 28,
+        .width = 22,
         .height = 4,
         .paletteNum = 14,
         .baseBlock = 0x1DF,
@@ -252,9 +252,9 @@ static const struct WindowTemplate sDoublePartyMenuWindowTemplate[] =
     },
     {
         .bg = 2,
-        .tilemapLeft = 1,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 28,
+        .width = 22,
         .height = 4,
         .paletteNum = 14,
         .baseBlock = 0x1DF,
@@ -320,9 +320,9 @@ static const struct WindowTemplate sMultiPartyMenuWindowTemplate[] =
     },
     {
         .bg = 2,
-        .tilemapLeft = 1,
+        .tilemapLeft = 4,
         .tilemapTop = 15,
-        .width = 28,
+        .width = 22,
         .height = 4,
         .paletteNum = 14,
         .baseBlock = 0x1DF,

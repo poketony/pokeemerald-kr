@@ -2036,7 +2036,7 @@ static void CreateCancelConfirmWindows(bool8 chooseHalf)
             confirmWindowId = AddWindow(&sConfirmButtonWindowTemplate);
             FillWindowPixelBuffer(confirmWindowId, PIXEL_FILL(0));
             mainOffset = GetStringCenterAlignXOffset(0, gMenuText_Confirm, 48);
-            AddTextPrinterParameterized4(confirmWindowId, 0, mainOffset, 1, 0, 0, sFontColorTable[0], -1, gMenuText_Confirm);
+            AddTextPrinterParameterized4(confirmWindowId, 7, mainOffset, 1, 0, 0, sFontColorTable[0], -1, gMenuText_Confirm);
             PutWindowTilemap(confirmWindowId);
             CopyWindowToVram(confirmWindowId, 2);
             cancelWindowId = AddWindow(&sMultiCancelButtonWindowTemplate);
@@ -2053,12 +2053,12 @@ static void CreateCancelConfirmWindows(bool8 chooseHalf)
         if (gPartyMenu.menuType != PARTY_MENU_TYPE_SPIN_TRADE)
         {
             mainOffset = GetStringCenterAlignXOffset(0, gText_Cancel, 48);
-            AddTextPrinterParameterized3(cancelWindowId, 0, mainOffset + offset, 1, sFontColorTable[0], -1, gText_Cancel);
+            AddTextPrinterParameterized3(cancelWindowId, 7, mainOffset + offset, 1, sFontColorTable[0], -1, gText_Cancel);
         }
         else
         {
             mainOffset = GetStringCenterAlignXOffset(0, gText_Cancel2, 48);
-            AddTextPrinterParameterized3(cancelWindowId, 0, mainOffset + offset, 1, sFontColorTable[0], -1, gText_Cancel2);
+            AddTextPrinterParameterized3(cancelWindowId, 7, mainOffset + offset, 1, sFontColorTable[0], -1, gText_Cancel2);
         }
         PutWindowTilemap(cancelWindowId);
         CopyWindowToVram(cancelWindowId, 2);
@@ -2238,8 +2238,9 @@ static void DisplayPartyPokemonLevelCheck(struct Pokemon *mon, struct PartyMenuB
 
 static void DisplayPartyPokemonLevel(u8 level, struct PartyMenuBox *menuBox)
 {
+    const u8 levelSymbol[] = _("{JPN}{LV_2}");
     ConvertIntToDecimalStringN(gStringVar2, level, STR_CONV_MODE_LEFT_ALIGN, 3);
-    StringCopy(gStringVar1, gText_LevelSymbol);
+    StringCopy(gStringVar1, levelSymbol);
     StringAppend(gStringVar1, gStringVar2);
     DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[4]);
 }
@@ -2256,6 +2257,8 @@ static void DisplayPartyPokemonGenderNidoranCheck(struct Pokemon *mon, struct Pa
 
 static void DisplayPartyPokemonGender(u8 gender, u16 species, u8 *nickname, struct PartyMenuBox *menuBox)
 {
+    const u8 maleSymbol[] = _("{JPN}♂");
+    const u8 femaleSymbol[] = _("{JPN}♀");
     u8 palNum = GetWindowAttribute(menuBox->windowId, WINDOW_PALETTE_NUM) * 16;
 
     if (species == SPECIES_NONE)
@@ -2267,12 +2270,12 @@ static void DisplayPartyPokemonGender(u8 gender, u16 species, u8 *nickname, stru
     case MON_MALE:
         LoadPalette(GetPartyMenuPalBufferPtr(sGenderMalePalIds[0]), sGenderPalOffsets[0] + palNum, 2);
         LoadPalette(GetPartyMenuPalBufferPtr(sGenderMalePalIds[1]), sGenderPalOffsets[1] + palNum, 2);
-        DisplayPartyPokemonBarDetail(menuBox->windowId, gText_MaleSymbol, 2, &menuBox->infoRects->dimensions[8]);
+        DisplayPartyPokemonBarDetail(menuBox->windowId, maleSymbol, 2, &menuBox->infoRects->dimensions[8]);
         break;
     case MON_FEMALE:
         LoadPalette(GetPartyMenuPalBufferPtr(sGenderFemalePalIds[0]), sGenderPalOffsets[0] + palNum, 2);
         LoadPalette(GetPartyMenuPalBufferPtr(sGenderFemalePalIds[1]), sGenderPalOffsets[1] + palNum, 2);
-        DisplayPartyPokemonBarDetail(menuBox->windowId, gText_FemaleSymbol, 2, &menuBox->infoRects->dimensions[8]);
+        DisplayPartyPokemonBarDetail(menuBox->windowId, femaleSymbol, 2, &menuBox->infoRects->dimensions[8]);
         break;
     }
 }
@@ -2290,10 +2293,19 @@ static void DisplayPartyPokemonHPCheck(struct Pokemon *mon, struct PartyMenuBox 
 
 static void DisplayPartyPokemonHP(u16 hp, struct PartyMenuBox *menuBox)
 {
-    u8 *strOut = ConvertIntToDecimalStringN(gStringVar1, hp, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    const u8 text[] = _("{JPN}");
+    u8 *buf = gStringVar1;
 
-    strOut[0] = CHAR_SLASH;
-    strOut[1] = EOS;
+    StringCopy(gStringVar1, text);
+    ConvertIntToDecimalStringN(gStringVar2, hp, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    StringAppend(gStringVar1, gStringVar2);
+
+    while (*buf != EOS)
+    {
+        if (*buf == 0x77)
+            *buf = 0x00;
+        buf++;
+    }
 
     DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[12]);
 }
@@ -2311,9 +2323,20 @@ static void DisplayPartyPokemonMaxHPCheck(struct Pokemon *mon, struct PartyMenuB
 
 static void DisplayPartyPokemonMaxHP(u16 maxhp, struct PartyMenuBox *menuBox)
 {
+    const u8 text[] = _("{JPN}/");
+    u8 *buf = gStringVar1;
+
+    StringCopy(gStringVar1, text);
     ConvertIntToDecimalStringN(gStringVar2, maxhp, STR_CONV_MODE_RIGHT_ALIGN, 3);
-    StringCopy(gStringVar1, gText_Slash);
     StringAppend(gStringVar1, gStringVar2);
+
+    while (*buf != EOS)
+    {
+        if (*buf == 0x77)
+            *buf = 0x00;
+        buf++;
+    }
+
     DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[16]);
 }
 
@@ -3905,7 +3928,7 @@ static void AnimateSelectedPartyIcon(u8 spriteId, u8 animNum)
     gSprites[spriteId].data[0] = 0;
     if (animNum == 0)
     {
-        if (gSprites[spriteId].pos1.x == 16)
+        if (gSprites[spriteId].pos1.x == 24)
         {
             gSprites[spriteId].pos2.x = 0;
             gSprites[spriteId].pos2.y = -4;
