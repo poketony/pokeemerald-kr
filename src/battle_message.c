@@ -1198,8 +1198,8 @@ const u8 gText_WhatWillPkmnDo[] = _("{B_ACTIVE_NAME_WITH_PREFIX}{B_TXT_EUNNEUN}\
 const u8 gText_WhatWillPkmnDo2[] = _("{B_PLAYER_NAME}{B_TXT_EUNNEUN}\n무엇을 할까?");
 const u8 gText_WhatWillWallyDo[] = _("민진은\n무엇을 할까?");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}통신 대기 중...");
-const u8 gText_BattleMenu[] = _("{SIZE 7}싸운다{CLEAR_TO 56}가방\n포켓몬{CLEAR_TO 56}도망간다");
-const u8 gText_SafariZoneMenu[] = _("{SIZE 7}볼{CLEAR_TO 56}포켓몬스넥\n다가간다{CLEAR_TO 56}도망간다");
+const u8 gText_BattleMenu[] = _("{SIZE 7}싸운다{CLEAR_TO 48}가방\n포켓몬{CLEAR_TO 48}도망간다");
+const u8 gText_SafariZoneMenu[] = _("{SIZE 7}볼{CLEAR_TO 48}포켓몬스넥\n다가간다{CLEAR_TO 48}도망간다");
 const u8 gText_MoveInterfacePP[] = _("PP ");
 const u8 gText_MoveInterfaceType[] = _("타입/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\n타입/");
@@ -1488,7 +1488,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
     },
     { // 7 "PP"
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = 7,
+        .fontId = 1,
         .x = 0,
         .y = 1,
         .letterSpacing = 0,
@@ -1780,7 +1780,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
     },
     { // 7
         .fillValue = PIXEL_FILL(0xE),
-        .fontId = 7,
+        .fontId = 1,
         .x = 0,
         .y = 1,
         .letterSpacing = 0,
