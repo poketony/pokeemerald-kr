@@ -983,7 +983,7 @@ static const struct WindowTemplate sNewEntryInfoScreen_WindowTemplates[] =
     DUMMY_WIN_TEMPLATE
 };
 
-static const u8 sText_TenDashes2[] = _("----------");
+static const u8 sText_TenDashes2[] = _("-----");
 
 #include "data/pokemon_graphics/footprint_table.h"
 
@@ -3547,8 +3547,8 @@ static void Task_LoadCryScreen(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 82, 33);
-        PrintInfoScreenText(8, gText_CryOf2, 82, 49);
+        PrintCryScreenSpeciesName(0, sPokedexListItem->dexNum, 88, 33);
+        PrintInfoScreenText(7, gText_CryOf2, 88, 49);
         gMain.state++;
         break;
     case 5:
@@ -4126,7 +4126,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         description = gPokedexEntries[num].description;
     else
         description = gExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(8, description, GetStringCenterAlignXOffset(8, description, 0xF0), 0x67);
+    PrintInfoScreenText(8, description, GetStringCenterAlignXOffset(8, description, 0xF0), 0x69);
 }
 
 static void PrintMonSize(u16 a, u8 left, u8 top)
@@ -4445,7 +4445,7 @@ static u8 PrintCryScreenSpeciesName(u8 windowId, u16 num, u8 left, u8 top)
         break;
     }
     StringAppend(str, gText_CryOf1);
-    PrintInfoSubMenuText(windowId, 8, str, left, top);
+    PrintInfoSubMenuText(windowId, 7, str, left, top);
     return i;
 }
 
