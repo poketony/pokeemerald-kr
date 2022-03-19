@@ -4394,7 +4394,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CLAMPERL] =
     {
-        .categoryName = _("두조개"),
+        .categoryName = _("쌍각"),
         .height = 4,
         .weight = 525,
         .description = gClamperlPokedexText,

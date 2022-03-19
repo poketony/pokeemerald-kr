@@ -339,7 +339,7 @@ TrainerHill_Entrance_Text_TrainersInEveryRoom: @ 826859E
 	.string "지금 모여 있는\n"
 	.string "트레이너는...\p"
 	.string "모든 방에 트레이너가\n"
-	.string "모여 있는 것 같습니다$"
+	.string "모여 있는 것 같습니다!$"
 	// ただいま あつまっているｎ
 	// トレ-ナ-さんは ……ｐ
 	// すべての へやに トレ-ナ-さんがｎ
@@ -352,9 +352,9 @@ TrainerHill_Entrance_Text_LikeToChallengeTrainers: @ 82685F8
 	// しょうぶ しますか?
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo: @ 826862A
-	.string "그럼 시간을 재므로\n"
-	.string "힘내 주세요!\p"
-	.string "자리에 서시고.........\p"
+	.string "그럼 시간을 잴 테니\n"
+	.string "열심히 해주세요!\p"
+	.string "자리에 서서.........\p"
 	.string "준비...\p"
 	.string "땅!!$"
 	// それでは じかんを はかりますのでｎ
@@ -369,16 +369,16 @@ TrainerHill_Entrance_Text_PleaseVisitUsAgain: @ 826866F
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort: @ 8268689
 	.string "아쉽게 됐군요!\p"
-	.string "엄청 좋은\n"
-	.string "승부였다고 생각합니다\p"
-	.string "다음번 방문을 기다리고 있겠습니다!$"
+	.string "정말 좋은 승부였다고\n"
+	.string "생각합니다\p"
+	.string "또 와주세요!$"
 	// ざんねん でしたね!ｐ
 	// とっても いい しょうぶｎ
 	// だったと おもいますｐ
 	// また きてくださいね!
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest: @ 82686F4
-	.string "힘내 주세요!$"
+	.string "열심히 해주세요!$"
 	// がんばってくださいね!
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch: @ 8268712
@@ -403,7 +403,7 @@ TrainerHill_Entrance_Text_ExplainTrainerHill: @ 82687C3
 	.string "이뤄지고 있습니다\p"
 	.string "빠른 시간은 타임보드에\n"
 	.string "적히므로 친구와 시간을\l"
-	.string "비교해보는 것도 좋습니다\p"
+	.string "비교해보세요\p"
 	.string "접수처부터 옥상에 있는\n"
 	.string "오너에게 말을 걸 때까지의\l"
 	.string "시간이 측정됩니다\p"
@@ -480,7 +480,7 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly: @ 8268B43
 	.string "오-! 설마 이렇게 빨리\n"
 	.string "여기까지 올 줄이야-?!\p"
 	.string "이 몸을 만나기 위해 그렇게\n"
-	.string "힘내 주다니-!\p"
+	.string "열심히 해주다니-!\p"
 	.string "기쁘니 접수처의\n"
 	.string "타임보드에 기록해두겠네!$"
 	// オ-! もしかして すごく はやくｎ

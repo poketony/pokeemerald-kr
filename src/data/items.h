@@ -4773,7 +4773,7 @@ const struct Item gItems[] =
 
     [ITEM_TEA] =
     {
-        .name = _("녹차"),
+        .name = _("차"),
         .itemId = ITEM_TEA,
         .price = 0,
         .description = sTeaDesc,
@@ -4815,7 +4815,7 @@ const struct Item gItems[] =
 
     [ITEM_POWDER_JAR] =
     {
-        .name = _("가루병"),
+        .name = _("가루넣는병"),
         .itemId = ITEM_POWDER_JAR,
         .price = 0,
         .description = sPowderJarDesc,
