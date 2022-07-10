@@ -17,8 +17,8 @@ ALIGNED(4) const u8 sJPText_DistWonderCard[] = _("이상한 카드를 나눠준�
 ALIGNED(4) const u8 sJPText_DistWonderNews[] = _("이상한 뉴스를 나눠준다");
 ALIGNED(4) const u8 sJPText_DistMysteryEvent[] = _("이상한 사건을 개최한다"); // Unused
 ALIGNED(4) const u8 sJPText_HoldPokemonJump[] = _("줄넘기를 개최한다");
-ALIGNED(4) const u8 sJPText_HoldBerryCrush[] = _("나무열매매셔를 개최한다");
-ALIGNED(4) const u8 sJPText_HoldBerryPicking[] = _("나무열매 잡기를 개최한다");
+ALIGNED(4) const u8 sJPText_HoldBerryCrush[] = _("나무열매크러시를 개최한다");
+ALIGNED(4) const u8 sJPText_HoldBerryPicking[] = _("나무열매먹기를 개최한다");
 ALIGNED(4) const u8 sJPText_HoldSpinTrade[] = _("빙글빙글 교환을 개최한다");
 ALIGNED(4) const u8 sJPText_HoldSpinShop[] = _("빙글빙글 숍을 개최한다");
 

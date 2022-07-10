@@ -305,7 +305,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad: @ 81EA897
 	.string "봄이: 그 고고고글이 있으면\n"
-	.string "111번도로에 있는 사막에도\l"
+	.string "111번 도로에 있는 사막에도\l"
 	.string "갈 수 있게 돼!\p"
 	.string "그건 그렇고 {PLAYER}\n"
 	.string "포켓몬체육관에 도전이라니...\p"
@@ -325,7 +325,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad: @ 81EAA2E
 	.string "휘웅: 그걸 가지고 있으면\n"
-	.string "111번도로에 있는 사막에도\l"
+	.string "111번 도로에 있는 사막에도\l"
 	.string "들어갈 수 있어\p"
 	.string "사막에서밖에 만날 수 없는\n"
 	.string "포켓몬도 있을 테니까\l"

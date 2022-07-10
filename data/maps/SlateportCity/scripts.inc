@@ -1326,7 +1326,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	.string "아주 먼 옛날에 멸종된 걸로 알려진\n"
 	.string "포켓몬의 둥지를 말이야!\l"
 	.string "발견했어!\p"
-	.string "128번수로 심해에 있는\n"
+	.string "128번 수로 심해에 있는\n"
 	.string "해저동굴에 있더라고$"
 	// おっ! §あ§おｎ
 	// げんきそう だね!ｐ

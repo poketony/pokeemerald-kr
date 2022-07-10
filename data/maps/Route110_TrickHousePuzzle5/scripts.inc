@@ -990,7 +990,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro: @ 826D6CE
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1: @ 826D757
 	.string "꼭두각시인형 1호 퀴즈!\p"
-	.string "이 중에 110번도로에\n"
+	.string "이 중에 110번 도로에\n"
 	.string "없는 포켓몬은 뭘까?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2: @ 826D7AA

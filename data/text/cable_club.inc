@@ -404,7 +404,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo: @ 8278ACB
 	// よいことが ありますよ!
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo: @ 8278BF1
-	.string "“두트리오 나무열매 먹기”는\n"
+	.string "“두트리오 나무열매먹기”는\n"
 	.string "두트리오의 머리 3개에\l"
 	.string "명령해서 위에서 떨어지는\l"
 	.string "나무열매가 땅에 닿지 않도록\l"
@@ -499,7 +499,7 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
 	// でられないんだよ
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed: @ 8278FA4
-	.string "“두트리오 나무열매 먹기”는\n"
+	.string "“두트리오 나무열매먹기”는\n"
 	.string "두트리오만\l"
 	.string "참가할 수 있는 게임이야$"
 	// 「ド-ドリオのきのみどり」はｎ

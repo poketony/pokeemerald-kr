@@ -465,7 +465,7 @@ Route116_Text_NotWhatImLookingFor: @ 81F375E
 	.string "내가 찾는 게 아니야...$"
 
 Route116_Text_RouteSignRustboro: @ 81F379D
-	.string "여기는 116번도로\n"
+	.string "여기는 116번 도로\n"
 	.string "{LEFT_ARROW} 금탄도시$"
 
 Route116_Text_RusturfTunnelSign: @ 81F37B7

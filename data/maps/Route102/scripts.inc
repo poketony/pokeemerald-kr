@@ -102,9 +102,9 @@ Route102_Text_CatchWholeBunchOfPokemon: @ 81EC32E
 	.string "포켓몬 많이 많이 잡아야지-!$"
 
 Route102_Text_RouteSignOldale: @ 81EC35B
-	.string "여기는 102번도로\n"
+	.string "여기는 102번 도로\n"
 	.string "{RIGHT_ARROW} 고도마을$"
 
 Route102_Text_RouteSignPetalburg: @ 81EC373
-	.string "여기는 102번도로\n"
+	.string "여기는 102번 도로\n"
 	.string "{LEFT_ARROW} 등화도시$"

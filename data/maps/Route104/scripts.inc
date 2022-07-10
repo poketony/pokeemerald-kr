@@ -1081,11 +1081,11 @@ Route104_Text_MrBrineysCottage: @ 81EDA8C
 	.string "“하기노인의 작은 집”$"
 
 Route104_Text_RouteSignPetalburg: @ 81EDAA1
-	.string "여기는 104번도로\n"
+	.string "여기는 104번 도로\n"
 	.string "{RIGHT_ARROW} 등화도시$"
 
 Route104_Text_RouteSignRustboro: @ 81EDABC
-	.string "여기는 104번도로\n"
+	.string "여기는 104번 도로\n"
 	.string "{UP_ARROW} 금탄도시$"
 
 Route104_Text_PrettyPetalFlowShop: @ 81EDAD6

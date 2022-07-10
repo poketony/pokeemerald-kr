@@ -307,10 +307,10 @@ Route118_Text_CanCrossRiversWithSurf: @ 81F4367
 	.string "포켓몬은 정말 믿음직스러운 거 같아!$"
 
 Route118_Text_RouteSignMauville: @ 81F43F4
-	.string "여기는 118번도로\n"
+	.string "여기는 118번 도로\n"
 	.string "{LEFT_ARROW} 보라시티$"
 
 Route118_Text_RouteSign119: @ 81F440E
-	.string "여기는 118번도로\n"
-	.string "{UP_ARROW} 119번도로$"
+	.string "여기는 118번 도로\n"
+	.string "{UP_ARROW} 119번 도로$"
 

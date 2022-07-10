@@ -376,7 +376,7 @@ RivalsHouse_1F_Text_TooBusyToNoticeVisit: @ 81F8D37
 
 RivalsHouse_1F_Text_WentOutToRoute103: @ 81F8D93
 	.string "어머 {RIVAL}{K_I}라면\n"
-	.string "지금 막 103번도로 쪽으로\l"
+	.string "지금 막 103번 도로 쪽으로\l"
 	.string "나간다고 했어!\p"
 	.string "정말 아빠를 닮아서 그런지\n"
 	.string "집에서 가만히 있지를 못한다니까$"

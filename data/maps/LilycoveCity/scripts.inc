@@ -455,7 +455,7 @@ LilycoveCity_Text_MayWontBeBeaten: @ 81E3234
 
 LilycoveCity_Text_MayDefeat: @ 81E3275
 	.string "...... ...... ...... ......\p"
-	.string "103번도로에서\n"
+	.string "103번 도로에서\n"
 	.string "{PLAYER}{K_WAGWA} 승부한 게\l"
 	.string "떠올랐어!\p"
 	.string "그 승부가 덕분에\n"
@@ -784,7 +784,7 @@ LilycoveCity_Text_HeardTowerCalledSkyPillar: @ 81E48A5
 	// たってる らしいぜ
 
 LilycoveCity_Text_SawTallTowerOnRoute131: @ 81E4902
-	.string "나 말야 131번수로 근처에서\n"
+	.string "나 말야 131번 수로 근처에서\n"
 	.string "엄청 큰 탑을 봤는데\l"
 	.string "설마 그거...?$"
 	// オレな 131ばん すいどうの あたりでｎ

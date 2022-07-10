@@ -202,11 +202,11 @@ Route117_Text_AirIsTastyHere: @ 81F3D41
 	.string "공기가 마시쪄-!$"
 
 Route117_Text_RouteSignVerdanturf: @ 81F3D58
-	.string "여기는 117번도로\n"
+	.string "여기는 117번 도로\n"
 	.string "{LEFT_ARROW} 잔디마을$"
 
 Route117_Text_RouteSignMauville: @ 81F3D74
-	.string "여기는 117번도로\n"
+	.string "여기는 117번 도로\n"
 	.string "{RIGHT_ARROW} 보라시티$"
 
 Route117_Text_DayCareSign: @ 81F3D8E

@@ -93,7 +93,7 @@ FortreeCity_Text_SawGiganticPokemonInSky: @ 81E2676
 	.string "아무도 믿어주질 않는데\n"
 	.string "거대한 포켓몬이 몸을 비튼 채\l"
 	.string "하늘을 날고 있는 걸 봤어...\p"
-	.string "그 녀석은 131번수로 쪽으로\n"
+	.string "그 녀석은 131번 수로 쪽으로\n"
 	.string "날아갔지...\p"
 	.string "...그런데\n"
 	.string "왠지 너 탄내가 나\p"
@@ -110,7 +110,7 @@ FortreeCity_Text_SawGiganticPokemonInSky: @ 81E2676
 FortreeCity_Text_SomethingBlockingGym: @ 81E2738
 	.string "포켓몬체육관에 가고 싶은데\n"
 	.string "뭔가가 길을 막고 있어!\p"
-	.string "모처럼 120번도로에서\n"
+	.string "모처럼 120번 도로에서\n"
 	.string "포켓몬을 키우고 왔는데!$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona: @ 81E27B6

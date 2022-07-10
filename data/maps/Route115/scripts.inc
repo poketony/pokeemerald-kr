@@ -144,7 +144,7 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear: @ 81F2B55
 	.string "모르니까 조마조마해$"
 
 Route115_Text_RouteSignRustboro: @ 81F2BC9
-	.string "여기는 115번도로\n"
+	.string "여기는 115번 도로\n"
 	.string "{DOWN_ARROW} 금탄도시$"
 
 Route115_Text_MeteorFallsSign: @ 81F2BE3

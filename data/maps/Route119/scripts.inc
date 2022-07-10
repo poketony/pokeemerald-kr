@@ -649,7 +649,7 @@ Route119_Text_CanYourMonMakeSecretBase: @ 81F52B9
 	.string "비밀기지를 만들 수 있어?$"
 
 Route119_Text_RouteSignFortree: @ 81F530E
-	.string "여기는 119번도로\n"
+	.string "여기는 119번 도로\n"
 	.string "{RIGHT_ARROW} 검방울시티$"
 
 Route119_Text_WeatherInstitute: @ 81F5327

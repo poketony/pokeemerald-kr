@@ -454,9 +454,9 @@ Kecleon_Text_UseDevonScopeMonAttacked: @ 81F5D63
 	.string "놀라서 덤벼들었다!$"
 
 Route120_Text_RouteSignFortree: @ 81F5DCB
-	.string "여기는 120번도로\n"
+	.string "여기는 120번 도로\n"
 	.string "{LEFT_ARROW} 검방울시티$"
 
 Route120_Text_RouteSign121: @ 81F5DE4
-	.string "{RIGHT_ARROW} 121번도로\n"
-	.string "{LEFT_ARROW} 120번도로$"
+	.string "{RIGHT_ARROW} 121번 도로\n"
+	.string "{LEFT_ARROW} 120번 도로$"

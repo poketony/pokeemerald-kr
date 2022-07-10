@@ -110,7 +110,7 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite: @ 8201249
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls: @ 82012BC
 	.string "공석박사님은\n"
 	.string "마그마단의 사람들과 같이\l"
-	.string "114번도로에 있는\l"
+	.string "114번 도로에 있는\l"
 	.string "유성의 폭포에 가셨어요$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo: @ 8201310

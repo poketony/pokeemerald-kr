@@ -149,11 +149,11 @@ Route113_Text_FunWalkingThroughAsh: @ 81F23CA
 	.string "재밌어지게 돼!$"
 
 Route113_Text_RouteSign111: @ 81F2440
-	.string "여기는 113번도로\n"
-	.string "{RIGHT_ARROW} 111번도로$"
+	.string "여기는 113번 도로\n"
+	.string "{RIGHT_ARROW} 111번 도로$"
 
 Route113_Text_RouteSignFallarbor: @ 81F2456
-	.string "여기는 113번도로\n"
+	.string "여기는 113번 도로\n"
 	.string "{LEFT_ARROW} 단풍마을$"
 
 Route113_Text_TrainerTipsRegisterKeyItems: @ 81F2471

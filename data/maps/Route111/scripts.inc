@@ -673,7 +673,7 @@ Route111_Text_WinstrateFamilyDestroyedMe: @ 81F186E
 	.string "정말 힘들더라... 완패하고 말았어$"
 
 Route111_Text_RouteSignMauville: @ 81F18CE
-	.string "여기는 111번도로\n"
+	.string "여기는 111번 도로\n"
 	.string "{DOWN_ARROW} 보라시티$"
 
 Route111_Text_WinstrateHouseSign: @ 81F18E8
@@ -681,12 +681,12 @@ Route111_Text_WinstrateHouseSign: @ 81F18E8
 	.string "“연승가족의 집”$"
 
 Route111_Text_RouteSign112: @ 81F1921
-	.string "여기는 111번도로\n"
-	.string "{LEFT_ARROW} 112번도로$"
+	.string "여기는 111번 도로\n"
+	.string "{LEFT_ARROW} 112번 도로$"
 
 Route111_Text_RouteSign113: @ 81F1937
-	.string "여기는 111번도로\n"
-	.string "{LEFT_ARROW} 113번도로$"
+	.string "여기는 111번 도로\n"
+	.string "{LEFT_ARROW} 113번 도로$"
 
 Route111_Text_OldLadysRestStopSign: @ 81F194D
 	.string "“건강할머니의 집”\n"
@@ -764,7 +764,7 @@ Route111_Text_RootFossilDisappeared: @ 81F1C9F
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash: @ 81F1CCA
 	.string "아 이런!\p"
-	.string "111번도로에 가면\n"
+	.string "111번 도로에 가면\n"
 	.string "바위깨기를 가져가라고\l"
 	.string "보라시티의 삼촌이 말했었는데!\p"
 	.string "삼촌? 사이클숍의\n"

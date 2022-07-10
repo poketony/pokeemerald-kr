@@ -194,8 +194,8 @@ Route123_Text_CheckTreesWithMyGrassMon: @ 81F64CF
 	.string "이름 붙이자면 나무 의사 같은 거지$"
 
 Route123_Text_RouteSign: @ 81F6511
-	.string "{RIGHT_ARROW} 123번도로\n"
-	.string "{LEFT_ARROW} 118번도로$"
+	.string "{RIGHT_ARROW} 123번 도로\n"
+	.string "{LEFT_ARROW} 118번 도로$"
 
 Route123_Text_RouteSignMtPyre: @ 81F6529
 	.string "{UP_ARROW}...송화산\n"

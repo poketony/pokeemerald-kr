@@ -150,6 +150,6 @@ Route112_Text_MtChimneySign: @ 81F20ED
 	.string "케이블카를 이용해 주십시오$"
 
 Route112_Text_RouteSignLavaridge: @ 81F2138
-	.string "여기는 112번도로\n"
+	.string "여기는 112번 도로\n"
 	.string "{LEFT_ARROW} 용암마을$"
 

@@ -946,7 +946,7 @@ Route110_Text_AcroBikesDoNotQualify: @ 81F0755
 	.string "기록을 잴 수 없어!$"
 
 Route110_Text_SlateportCitySign: @ 81F0812
-	.string "여기는 110번도로\n"
+	.string "여기는 110번 도로\n"
 	.string "{DOWN_ARROW} 잿빛도시$"
 
 Route110_Text_CyclingRoadSign: @ 81F082D
@@ -965,14 +965,14 @@ Route110_Text_AquaWasHere: @ 81F0842
 	// ……と かかれている
 
 Route110_Text_Route103Sign: @ 81F08CD
-	.string "여기는 110번도로\n"
-	.string "{LEFT_ARROW} 103번도로$"
+	.string "여기는 110번 도로\n"
+	.string "{LEFT_ARROW} 103번 도로$"
 
 Route110_Text_SeasideParkingSign: @ 81F08E3
 	.string "“시사이드 주차장”$"
 
 Route110_Text_MauvilleCitySign: @ 81F08F3
-	.string "여기는 110번도로\n"
+	.string "여기는 110번 도로\n"
 	.string "{UP_ARROW} 보라시티$"
 
 Route110_Text_TrainerTipsPrlzSleep: @ 81F090D

@@ -302,6 +302,6 @@ Route101_Text_WildPokemonInTallGrass: @ 81EC04A
 	.string "잡고 싶은 포켓몬을 찾으면 돼!$"
 
 Route101_Text_RouteSign: @ 81EC0C8
-	.string "여기는 101번도로\n"
+	.string "여기는 101번 도로\n"
 	.string "{UP_ARROW} 고도마을$"
 

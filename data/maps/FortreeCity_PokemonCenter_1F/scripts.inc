@@ -32,7 +32,7 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy:: @ 8217407
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone: @ 8217410
 	.string "너\n"
 	.string "포켓몬 도감을 만들고 있나?\p"
-	.string "흠 121번도로의\n"
+	.string "흠 121번 도로의\n"
 	.string "사파리존에 가보는 건 어떤가?$"
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat: @ 821746D

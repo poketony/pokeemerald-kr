@@ -294,7 +294,7 @@ Route103_EventScript_Isabelle:: @ 81EC78F
 	end
 
 Route103_Text_MayRoute103Pokemon: @ 81EC7A6
-	.string "봄이: 음- 103번도로에 있는\n"
+	.string "봄이: 음- 103번 도로에 있는\n"
 	.string "포켓몬이 저 아이랑 저 아이고...$"
 
 Route103_Text_MayLetsBattle: @ 81EC7DE
@@ -324,7 +324,7 @@ Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 
 Route103_Text_BrendanRoute103Pokemon: @ 81EC989
 	.string "휘웅: 아하 얘랑 얘가\n"
-	.string "103번도로에 있는 포켓몬이구나...$"
+	.string "103번 도로에 있는 포켓몬이구나...$"
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE
 	.string "응? 아 {PLAYER}{K_AYA}!\p"
@@ -361,6 +361,6 @@ Route103_Text_ShortcutToOldale: @ 81ECBB5
 	.string "후후후 꽤 쓸만한 정보지?$"
 
 Route103_Text_RouteSign: @ 81ECC1A
-	.string "여기는 103번도로\n"
+	.string "여기는 103번 도로\n"
 	.string "{DOWN_ARROW} 고도마을$"
 
