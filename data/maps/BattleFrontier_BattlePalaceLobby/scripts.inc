@@ -579,7 +579,7 @@ BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge: @ 824E5F6
 	// レポ-トを かくぞ……
 
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge: @ 824E636
-	.string "자네…\p"
+	.string "자네...\p"
 	.string "지난번 종료하기 전에\n"
 	.string "리포트를 제대로\l"
 	.string "작성하지 않았지?\p"
@@ -625,7 +625,7 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink: @ 824E6E3
 	// …… ん なんスか? そのめは?
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere: @ 824E851
-	.string "으-음…\p"
+	.string "으-음...\p"
 	.string "아무래도 여기서는 포켓몬의 성격과\n"
 	.string "배운 기술의 상성이\l"
 	.string "배틀의 열쇠를 쥐고 있는 것 같아\p"

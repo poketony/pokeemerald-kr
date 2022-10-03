@@ -206,7 +206,7 @@ MagmaHideout_4F_Text_TabithaIntro: @ 823A8E1
 	// ウヒョ! ウヒョヒョ!
 
 MagmaHideout_4F_Text_TabithaDefeat: @ 823A994
-	.string "당했다… 우효$"
+	.string "당했다... 우효$"
 	// やられちまったい…… ウヒョ
 
 MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
