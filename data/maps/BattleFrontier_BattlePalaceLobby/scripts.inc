@@ -468,7 +468,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge: @ 824E119
 	// あるが どちらに ちょうせん するのだ?
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50: @ 824E173
-	.string "자네…\p"
+	.string "자네...\p"
 	.string "도전할 수 있는 포켓몬이\n"
 	.string "3마리는 필요하다네!\p"
 	.string "도전하려면 레벨 50 이하의\n"
@@ -491,7 +491,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50: @ 824E173
 	// じゅんびを ととのえてから また きなさい
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen: @ 824E29E
-	.string "자네…\p"
+	.string "자네...\p"
 	.string "도전할 수 있는 포켓몬이\n"
 	.string "3마리는 필요하다네!\p"
 	.string "도전하려면\n"
