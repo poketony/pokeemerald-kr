@@ -1674,12 +1674,10 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
         if (glyphId >= 0x3700)
         {
             u16 index = glyphId - 0x3700;
-            glyphs = gFont2KoreanGlyphs + (0x20 * index);
+            glyphs = gFont7KoreanGlyphs + (0x20 * index);
             DecompressGlyphTile(glyphs, gUnknown_03002F90.unk0);
-            DecompressGlyphTile(glyphs + 0x8, gUnknown_03002F90.unk20);
             DecompressGlyphTile(glyphs + 0x10, gUnknown_03002F90.unk40);
-            DecompressGlyphTile(glyphs + 0x18, gUnknown_03002F90.unk60);
-            gUnknown_03002F90.width = 11;
+            gUnknown_03002F90.width = 8;
             gUnknown_03002F90.height = 15;
         }
         else
@@ -1708,7 +1706,7 @@ void DecompressGlyphFont7(u16 glyphId, bool32 isJapanese)
 u32 GetGlyphWidthFont7(u16 glyphId, bool32 isJapanese)
 {
     if (IsKoreanGlyph(glyphId))
-        return 11;
+        return 8;
     if (isJapanese == TRUE)
         return 8;
     return gFont7LatinGlyphWidths[glyphId];
