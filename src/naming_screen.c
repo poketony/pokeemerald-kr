@@ -156,7 +156,7 @@ struct NamingScreenTemplate
     u8 maxChars;
     u8 iconFunction;
     u8 addGenderIcon;
-    u8 initialPage;
+    bool8 koreanEnabled;
     u8 unused;
     const u8 *title;
 };
@@ -166,8 +166,8 @@ struct NamingScreenData
     u8 tilemapBuffer1[0x800];
     u8 tilemapBuffer2[0x800];
     u8 tilemapBuffer3[0x800];
-    u8 textBuffer[32];
-    u8 backupBuffer[32];
+    u8 textBuffer[40];
+    u8 backupBuffer[40];
     u8 tileBuffer[0x600];
     u8 state;
     u8 koreanState;
@@ -299,13 +299,13 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 
 static const u8 sKeyboardChars[][4][20] =
 {
-    [0] = {
+    [KBPAGE_SYMBOLS] = {
         _("1234567890"),
         _("abcdefghij"),
         _("klmnopqrst"),
         _("uvwxyz♂♀-·"),
     },
-    [1] = {
+    [KBPAGE_LETTERS_UPPER] = {
         /* ㅃㅉㄸㄲㅆ!?-ㅒㅖ */
         { 0x09, 0x0E, 0x05, 0x02, 0x0B, 0xAB, 0xAC, 0xAE, 0x17, 0x1B },
         /* ㅂㅈㄷㄱㅅㅛㅕㅑㅐㅔ */
@@ -315,7 +315,7 @@ static const u8 sKeyboardChars[][4][20] =
         /* ㅋㅌㅊㅍ ㅠㅜㅡ,. */
         { 0x10, 0x11, 0x0F, 0x12, 0x00, 0x25, 0x21, 0x26, 0xB8, 0xAD },
     },
-    [2] = {
+    [KBPAGE_LETTERS_LOWER] = {
         _("1234567890"),
         _("ABCDEFGHIJ"),
         _("KLMNOPQRST"),
@@ -406,7 +406,6 @@ static void LoadGfx(void);
 static void CreateHelperTasks(void);
 static void LoadPalettes(void);
 static void DrawBgTilemap(u8, const void *);
-static void NamingScreen_Dummy(u8, u8);
 static void DrawTextEntry(void);
 static void PrintKeyboardKeys(u8, u8);
 static void DrawKeyboardPageOnDeck(void);
@@ -488,6 +487,26 @@ static void CB2_LoadNamingScreen(void)
     }
 }
 
+static u8 *NamingScreen_StringCopyMultibyte(u8 *dest, const u8 *src)
+{
+    while (*src != EOS)
+    {
+        if (IsKoreanGlyph(*src))
+        {
+            *dest++ = *src++;
+            *dest++ = *src++;
+        }
+        else
+        {
+            *dest++ = 0;
+            *dest++ = *src++;
+        }
+    }
+
+    *dest = EOS;
+    return dest;
+}
+
 static void NamingScreen_Init(void)
 {
     sNamingScreen->state = STATE_FADE_IN;
@@ -499,15 +518,15 @@ static void NamingScreen_Init(void)
     sNamingScreen->bgToReveal = 0;
     sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
-    sNamingScreen->currentPage = sNamingScreen->template->initialPage;
+    sNamingScreen->currentPage = sNamingScreen->template->koreanEnabled ? KBPAGE_LETTERS_UPPER : KBPAGE_LETTERS_LOWER;
     sNamingScreen->inputCharBaseXPos = (240 - sNamingScreen->template->maxChars * 8) / 2 + 6;
     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
         sNamingScreen->inputCharBaseXPos += 11;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
-        StringCopy(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
-    StringCopy(sNamingScreen->backupBuffer, sNamingScreen->destBuffer);
+        NamingScreen_StringCopyMultibyte(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
+    NamingScreen_StringCopyMultibyte(sNamingScreen->backupBuffer, sNamingScreen->destBuffer);
     gKeyRepeatStartDelay = 16;
 }
 
@@ -616,10 +635,22 @@ static const u8 sPageToNextGfxId[KBPAGE_COUNT] =
     [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS 
 };
 
+static const u8 sPageToNextGfxIdWithoutKorean[KBPAGE_COUNT] = 
+{ 
+    [KBPAGE_SYMBOLS]       = PAGE_SWAP_LOWER, 
+    [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS 
+};
+
 static const u8 sPageToNextKeyboardId[KBPAGE_COUNT] = 
 { 
     [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_UPPER, 
     [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_LOWER, 
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS 
+};
+
+static const u8 sPageToNextKeyboardIdWithoutKorean[KBPAGE_COUNT] = 
+{ 
+    [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_LOWER, 
     [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS 
 };
 
@@ -632,12 +663,16 @@ static const u8 sPageToKeyboardId[KBPAGE_COUNT] =
 
 static u8 PageToNextGfxId(u8 page)
 {
-    return sPageToNextGfxId[page];
+    if (sNamingScreen->template->koreanEnabled)
+        return sPageToNextGfxId[page];
+    return sPageToNextGfxIdWithoutKorean[page];
 }
 
 static u8 CurrentPageToNextKeyboardId(void)
 {
-    return sPageToNextKeyboardId[sNamingScreen->currentPage];
+    if (sNamingScreen->template->koreanEnabled)
+        return sPageToNextKeyboardId[sNamingScreen->currentPage];
+    return sPageToNextKeyboardIdWithoutKorean[sNamingScreen->currentPage];
 }
 
 static u8 CurrentPageToKeyboardId(void)
@@ -648,13 +683,24 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DrawBgTilemap(3, gNamingScreenBackground_Tilemap);
-    sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
-    DrawBgTilemap(2, gNamingScreenKeyboardLower_Tilemap);
-    DrawBgTilemap(1, gNamingScreenKeyboardUpper_Tilemap);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
-    NamingScreen_Dummy(2, KEYBOARD_LETTERS_LOWER);
-    NamingScreen_Dummy(1, KEYBOARD_LETTERS_UPPER);
+
+    if (sNamingScreen->template->koreanEnabled)
+    {
+        DrawBgTilemap(2, gNamingScreenKeyboardLower_Tilemap);
+        DrawBgTilemap(1, gNamingScreenKeyboardUpper_Tilemap);
+        sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
+        PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
+        PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
+    }
+    else
+    {
+        DrawBgTilemap(2, gNamingScreenKeyboardSymbols_Tilemap);
+        DrawBgTilemap(1, gNamingScreenKeyboardLower_Tilemap);
+        sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
+        PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_SYMBOLS);
+        PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
+    }
+
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
@@ -791,13 +837,15 @@ static bool8 MainState_WaitPageSwap(void)
 
     if (IsPageSwapAnimNotInProgress())
     {
-
         GetCursorPos(&cursorX, &cursorY);
         onLastColumn = (cursorX == GetCurrentPageColumnCount());
 
         sNamingScreen->state = STATE_HANDLE_INPUT;
         sNamingScreen->currentPage++;
         sNamingScreen->currentPage %= KBPAGE_COUNT;
+
+        if (!sNamingScreen->template->koreanEnabled && sNamingScreen->currentPage == KBPAGE_LETTERS_UPPER)
+            sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
 
         if (onLastColumn)
         {
@@ -1316,7 +1364,16 @@ static bool8 PageSwapSprite_SlideOff(struct Sprite *sprite)
         sprite->sState++;
         text->pos2.y = -4;
         text->invisible = TRUE;
-        SetPageSwapButtonGfx(PageToNextGfxId(((u8)sprite->sPage + 1) % KBPAGE_COUNT), text, button);
+
+        if (sNamingScreen->template->koreanEnabled)
+            SetPageSwapButtonGfx(PageToNextGfxId(((u8)sprite->sPage + 1) % KBPAGE_COUNT), text, button);
+        else
+        {
+            if (sprite->sPage == KBPAGE_LETTERS_LOWER)
+                SetPageSwapButtonGfx(PageToNextGfxId(KBPAGE_SYMBOLS), text, button);
+            else
+                SetPageSwapButtonGfx(PageToNextGfxId(KBPAGE_LETTERS_LOWER), text, button);
+        }
     }
     return FALSE;
 }
@@ -2374,11 +2431,6 @@ static void DrawBgTilemap(u8 bg, const void *src)
     CopyToBgTilemapBuffer(bg, src, 0, 0);
 }
 
-static void NamingScreen_Dummy(u8 bg, u8 page)
-{
-
-}
-
 static void DrawTextEntry(void)
 {
     u8 i;
@@ -2456,8 +2508,14 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 static const u8 *const sNextKeyboardPageTilemaps[] =
 {
     [KBPAGE_SYMBOLS] = gNamingScreenKeyboardUpper_Tilemap,
-    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap, // lower
-    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap  // symbols
+    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap,
+    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap
+};
+
+static const u8 *const sNextKeyboardPageTilemapsWithoutKorean[] =
+{
+    [KBPAGE_SYMBOLS] = gNamingScreenKeyboardLower_Tilemap,
+    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap
 };
 
 // There are always 2 keyboard pages drawn, the current page and the one that will shown next if the player swaps
@@ -2483,9 +2541,11 @@ static void DrawKeyboardPageOnDeck(void)
         windowId = sNamingScreen->windows[WIN_KB_PAGE_2];
     }
 
-    DrawBgTilemap(bg, sNextKeyboardPageTilemaps[sNamingScreen->currentPage]);
+    if (sNamingScreen->template->koreanEnabled)
+        DrawBgTilemap(bg, sNextKeyboardPageTilemaps[sNamingScreen->currentPage]);
+    else
+        DrawBgTilemap(bg, sNextKeyboardPageTilemapsWithoutKorean[sNamingScreen->currentPage]);
     PrintKeyboardKeys(windowId, CurrentPageToNextKeyboardId());
-    NamingScreen_Dummy(bg, CurrentPageToNextKeyboardId());
     CopyBgTilemapBufferToVram(bg_);
 }
 
@@ -2584,7 +2644,7 @@ static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
     .maxChars = 3,
     .iconFunction = 1,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .koreanEnabled = TRUE,
     .unused = 35,
     .title = gText_YourName,
 };
@@ -2595,7 +2655,7 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
     .maxChars = 8,
     .iconFunction = 2,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .koreanEnabled = TRUE,
     .unused = 19,
     .title = gText_BoxName,
 };
@@ -2606,7 +2666,7 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
     .maxChars = 5,
     .iconFunction = 3,
     .addGenderIcon = TRUE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .koreanEnabled = TRUE,
     .unused = 35,
     .title = gText_PkmnsNickname,
 };
@@ -2614,10 +2674,10 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
 static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
 {
     .copyExistingString = TRUE,
-    .maxChars = 8,
+    .maxChars = 16,
     .iconFunction = 4,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .koreanEnabled = FALSE,
     .unused = 11,
     .title = gText_TellHimTheWords,
 };
