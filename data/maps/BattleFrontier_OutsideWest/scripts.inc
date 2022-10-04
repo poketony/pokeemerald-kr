@@ -585,7 +585,7 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike: @ 823E154
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet: @ 823E273
 	.string "뭐?!\n"
-	.string "너 뭘 말하는 거야?\p"
+	.string "너 무슨 소릴 하는 거야?\p"
 	.string "나 왠지\n"
 	.string "지난번에 응원하고 있을 때\l"
 	.string "찌-릿하고 눈이 맞았다니까!$"

@@ -828,8 +828,8 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered: @ 824F2E8
 	.string "쓰는 것에 서투릅니다\p"
 	.string "성격에 맞지 않는 기술만을\n"
 	.string "배우고 있다면 배틀에서\l"
-	.string "포켓몬이 자신의 힘을 발휘할\l"
-	.string "수 없을 확률이 큽니다$"
+	.string "포켓몬이 자신의 힘을 발휘하지\l"
+	.string "못할 확률이 큽니다$"
 	// トレ-ナ-の めいれいを うけて いないｎ
 	// ポケモンは うまく わざをｌ
 	// だせない ことが ありますｐ

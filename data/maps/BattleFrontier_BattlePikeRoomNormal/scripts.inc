@@ -776,28 +776,28 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough: @ 825DCAF
 	// ええいっ! いいかげんに しないかっ!!
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia: @ 825DCCF
-	.string "정말 미안해...\p"
+	.string "정말 미안하구나...\p"
 	.string "내 킬리아는 겁쟁이라서...$"
 	// もうしわけない……ｐ
 	// わたしの キルリアは おくびょう でな……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops: @ 825DD06
-	.string "정말 미안해...\p"
+	.string "정말 미안하구나...\p"
 	.string "내 미라몽은 겁쟁이라서...$"
 	// もうしわけない ……ｐ
 	// わたしの サマヨ-ルは おくびょう でな……
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled: @ 825DD3F
 	.string "갑자기 사람을 보면 놀라서\n"
-	.string "습격해 버려...\p"
-	.string "너와 네 포켓몬은 괜찮아?$"
+	.string "습격해 버리거든...\p"
+	.string "너와 네 포켓몬은 괜찮니?$"
 	// きゅうに ひとを みると おどろいてｎ
 	// おそいかかって しまうのだ……ｐ
 	// きみも ポケモンも だいじょうぶか?
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine: @ 825DDA3
-	.string "미안해...\n"
-	.string "네 포켓몬은 괜찮아?$"
+	.string "미안하구나...\n"
+	.string "네 포켓몬은 괜찮니?$"
 	// すまなかったな……ｎ
 	// きみの ポケモンは ぶじか?
 

@@ -285,7 +285,7 @@ BattleFrontier_Lounge5_Text_NatureGirlEgg:: @ 8264EEE
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon:: @ 8264F22
 	.string "포켓몬의 기분을 안다니\n"
-	.string "저 소녀 분 꽤나\l"
+	.string "저 소녀분 꽤나\l"
 	.string "재치가 있군요!$"
 	// ポケモンの きもちが わかるとはｎ
 	// あの おじょうちゃん なかなかｌ
