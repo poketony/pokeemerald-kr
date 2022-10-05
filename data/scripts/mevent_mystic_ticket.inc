@@ -38,23 +38,25 @@ MysticTicket_Obtained: @ 8675578
 	end
 
 sText_MysticTicketForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "이상한 소포를 이용해\n"
+	.string "주셔서 감사합니다!\l"
+	.string "{PLAYER}님이시군요\p"
+	.string "손님 앞으로\n"
+	.string "이 티켓이\l"
+	.string "도착했습니다$"
 
 sText_MysticTicketUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "해안시티의 선착장에서\n"
+	.string "쓸 수 있는 모양이군요\p"
+	.string "한번 이용해 보시는 게\n"
+	.string "어떻겠습니까?$"
 
 sText_MysticTicketThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "이상한 소포를 이용해\n"
+	.string "주셔서 감사합니다$"
 
 sText_MysticTicketBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "하지만 {PLAYER}님!\n"
+	.string "중요한 물건이 가득하군요\p"
+	.string "PC에 맡기고 나서\n"
+	.string "다시 와주십시오$"

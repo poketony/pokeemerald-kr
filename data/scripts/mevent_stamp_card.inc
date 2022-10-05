@@ -15,7 +15,11 @@ MysteryEventScript_StampCard:: @ 8674CB0
 	end
 
 sText_MysteryGiftStampCard:
-	.string "Thank you for using the STAMP CARD\n"
-	.string "System.\p"
-	.string "You have {STR_VAR_1} more to collect to\n"
-	.string "fill your STAMP CARD.$"
+	.string "스탬프 카드를 이용해주셔서\n"
+	.string "감사합니다\p"
+	.string "앞으로 남은 {STR_VAR_1}개도\n"
+	.string "힘내서 모아주세요!$"
+	// スタンプカ-ドの ごりようｎ
+	// ありがとう ございますｐ
+	// のこり あと §いつｎ
+	// がんばって あつめて ください!

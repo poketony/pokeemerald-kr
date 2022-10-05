@@ -328,16 +328,16 @@ Route117_Text_IllKeepIt: @ 8292149
 	.string "고맙구먼$"
 
 Route117_Text_YouHaveNoRoomForIt: @ 829216A
-	.string "포켓몬이 가득이구먼...\n"
+	.string "포켓몬이 가득하구먼...\n"
 	.string "지닌 포켓몬을 정리하고\l"
-	.string "다시 와 주게나$"
+	.string "다시 오게나$"
 
 Route117_Text_ReceivedEgg: @ 82921A4
 	.string "{PLAYER}{K_EUNNEUN} 키우미집 할아버지에게서\n"
 	.string "알을 받았다!$"
 
 Route117_Text_TakeGoodCareOfIt: @ 82921CF
-	.string "소중하게 키우게!$"
+	.string "소중히 키우게!$"
 
 Route117_Text_FriendlyWithOtherTrainersMon: @ 82921E5
 	.string "그런데 자네의 {STR_VAR_1}{K_IGA}\p"
@@ -376,7 +376,7 @@ Route117_PokemonDayCare_Text_WhichMonShouldWeRaise: @ 8292349
 
 Route117_PokemonDayCare_Text_WellRaiseYourMon: @ 8292370
 	.string "그럼 {STR_VAR_1}{K_EULREUL}\n"
-	.string "당분간 맡아주지\p"
+	.string "당분간 맡아주겠네\p"
 	.string "적당히 시간이\n"
 	.string "지나면 다시 오게나$"
 

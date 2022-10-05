@@ -65,14 +65,27 @@ SurfPichu_Slot5: @ 8674DD8
 	return
 
 sText_MysteryGiftEgg:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "From the POKéMON CENTER we\n"
-	.string "have a gift--a POKéMON EGG!\p"
-	.string "Please raise it with love and\n"
-	.string "kindness.$"
+	.string "이상한 소포를 이용해\n"
+	.string "주셔서 감사합니다!\p"
+	.string "받으세요 포켓몬센터에서\n"
+	.string "이 포켓몬의 알을\l"
+	.string "선물합니다!\p"
+	.string "소중하게\n"
+	.string "키워주세요!$"
+	// ふしぎなおくりもの を ごりようｎ
+	// いただき ありがとう ございます!ｐ
+	// どうぞ ポケモンセンタ- からｎ
+	// この ポケモンの たまごをｌ
+	// プレゼント いたします!ｐ
+	// だいじに そだててｎ
+	// ください!
 
 sText_FullParty:
-	.string "Oh, your party appears to be full.\p"
-	.string "Please come see me after storing\n"
-	.string "a POKéMON on a PC.$"
+	.string "이런 지닌 포켓몬이\n"
+	.string "가득한 모양이군요\p"
+	.string "포켓몬을 PC에 맡기고 나서\n"
+	.string "다시 와주십시오$"
+	// おや てもちがｎ
+	// いっぱいの ようですねｐ
+	// ポケモンを パソコンに あずけてからｎ
+	// もういちど おこしください

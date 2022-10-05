@@ -14,11 +14,19 @@ MysteryEventScript_AlteringCave_: @ 86756FD
 	end
 
 sText_MysteryGiftAlteringCave::
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "There appears to be a rumor about\n"
-	.string "rare POKéMON sightings.\p"
-	.string "The sightings reportedly came from\n"
-	.string "the ALTERING CAVE on ROUTE 103.\p"
-	.string "Perhaps it would be worthwhile for\n"
-	.string "you to investigate this rumor.$"
+	.string "이상한 소포를 이용해\n"
+	.string "주셔서 감사합니다!\p"
+	.string "최근 103번 도로에 있는\n"
+	.string "변형동굴에\p"
+	.string "희귀한 포켓몬이 있다는\n"
+	.string "소문이 돌고 있는 모양입니다\p"
+	.string "한번 가서 확인해 보시는 게\n"
+	.string "어떻겠습니까?$"
+	// ふしぎなおくりもの を ごりようｎ
+	// いただき ありがとう ございます!ｐ
+	// さいきん 103ばんどうろ にあるｎ
+	// へんげのどうくつ でｐ
+	// めずらしい ポケモンが でる というｎ
+	// うわさが ながれてる ようですｐ
+	// ぜひ いって たしかめて みてはｎ
+	// いかがで しょうか?

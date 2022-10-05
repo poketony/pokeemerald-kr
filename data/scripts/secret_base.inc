@@ -1,26 +1,26 @@
 SecretBase_Text_TreeCanBeClimbed: @ 8274746
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "덩굴이 떨어진다면 위로\n"
+	.string "올라갈 수 있을 것 같다$"
 
 SecretBase_Text_TreeUseSecretPower: @ 8274779
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the SECRET POWER?$"
+	.string "덩굴이 떨어진다면 위로\n"
+	.string "올라갈 수 있을 것 같다\p"
+	.string "비밀의힘을 사용하겠습니까?$"
 
 SecretBase_Text_VineDroppedDown: @ 82747C2
-	.string "A thick vine dropped down!$"
+	.string "굵은 덩굴이 내려왔다!$"
 
 SecretBase_Text_ClumpOfGrass: @ 82747DD
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "풀 덩어리를 치운다면\n"
+	.string "안으로 들어갈 수 있을 것 같다$"
 
 SecretBase_Text_ClumpUseSecretPower: @ 8274825
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the SECRET POWER?$"
+	.string "풀 덩어리를 치운다면\n"
+	.string "안으로 들어갈 수 있을 것 같다\p"
+	.string "비밀의힘을 사용하겠습니까?$"
 
 SecretBase_Text_DiscoveredSmallEntrance: @ 8274883
-	.string "Discovered a small entrance!$"
+	.string "작은 입구를 발견!$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -748,66 +748,68 @@ SecretBase_EventScript_CushionInteract:: @ 82766A6
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned: @ 82766AA
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "비밀기지의 굿즈는 모두\n"
+	.string "PC로 돌아갑니다\p"
+	.string "그래도 괜찮겠습니까?$"
 
 SecretBase_Text_WantToRegisterSecretBase: @ 8276707
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE?$"
+	.string "{STR_VAR_1}의 비밀기지를\n"
+	.string "등록하겠습니까?$"
 
 SecretBase_Text_AlreadyRegisteredDelete: @ 8276731
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "이미 등록되어 있습니다\n"
+	.string "등록을 해제하겠습니까?$"
 
 SecretBase_Text_TooManyBasesDeleteSome: @ 827676F
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "등록할 수 있는 수는\n"
+	.string "10곳까지입니다\p"
+	.string "어느 장소가 해제되면\n"
+	.string "등록할 수 있습니다$"
 
 SecretBase_Text_RegistrationCompleted: @ 82767D1
-	.string "Registration completed.$"
+	.string "등록했습니다!$"
 
 SecretBase_Text_DataUnregistered: @ 82767E9
-	.string "Data has been unregistered.$"
+	.string "등록을 해제했습니다!$"
 
 SecretBase_Text_BootUpPC: @ 8276805
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string	"PC 전원을 켰다!$"
 
 SecretBase_Text_WhatWouldYouLikeToDo: @ 827681A
-	.string "What would you like to do?$"
+	.string "무엇을 하겠습니까?$"
 
 SecretBase_Text_RegistryInfo: @ 8276835
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
+	.string "등록한 비밀기지는\n"
+	.string "상대가 이사를 하지 않는 한\l"
+	.string "사라지는 일은 없습니다\p"
+	.string "등록 리스트에서 삭제하면\n"
+	.string "다른 비밀기지로\l"
+	.string "바뀌는 일도 있습니다\p"
+	.string "등록은 10곳까지 할 수 있습니다$"
 
 SecretBase_Text_BattleTowerShield: @ 827692B
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
+	.string "배틀타워에서 {STR_VAR_1}명 연승한\n"
+	.string "기념의 {STR_VAR_2} 상패$"
 
 SecretBase_Text_ToyTV: @ 8276974
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "진짜와 꼭 닮게 만들어진 장난감 TV\n"
+	.string "모르는 사람이 보면 착각할지도?!$"
 
 SecretBase_Text_SeedotTV: @ 82769B8
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "도토링을 닮은 장난감 TV\n"
+	.string "왠지 굴러다닐 것 같다?!$"
 
 SecretBase_Text_SkittyTV: @ 82769FF
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
+	.string "에나비를 닮은 장난감 TV\n"
+	.string "왠지 걸어다닐 것 같다?!$"
 
 SecretBase_Text_WouldYouLikeToMoveBases: @ 8276A3D
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
+	.string "비밀기지는 하나밖에\n"
+	.string "만들 수 없습니다!\p"
+	.string "{STR_VAR_1}에 있는\n"
+	.string "비밀기지를 이사하겠습니까?$"
 
 SecretBase_Text_MovingCompletedUseSecretPower: @ 8276A95
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "이사 완료!\p"
+	.string "비밀의힘을 사용하겠습니까?$"

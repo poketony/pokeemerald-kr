@@ -74,222 +74,266 @@ SafariZone_EventScript_PokeblockPresent:: @ 82A4BEB
 	end
 
 SafariZone_Text_WouldYouLikeToExit: @ 82A4BF4
-	.string "Would you like to exit the SAFARI\n"
-	.string "ZONE right now?$"
+	.string "사파리존을\n"
+	.string "이대로 종료하시겠습니까?$"
 
 SafariZone_Text_TimesUp: @ 82A4C26
-	.string "Ding-dong! Time's up!\n"
-	.string "Your SAFARI Game is over.$"
+	.string "딩동! 시간이 다 되었습니다!\n"
+	.string "사파리게임을 종료합니다$"
 
 SafariZone_Text_OutOfBalls: @ 82A4C56
-	.string "You've run out of SAFARI BALLS.\n"
-	.string "Your SAFARI Game is over.$"
+	.string "사파리볼이 다 떨어졌으므로\n"
+	.string "사파리게임을 종료합니다$"
 
 SafariZone_Text_PlacePokeblockOnFeeder: @ 82A4C90
-	.string "Would you like to place a {POKEBLOCK}\n"
-	.string "on the {POKEBLOCK} FEEDER?$"
+	.string "포켓몬스넥먹이통에\n"
+	.string "포켓몬스넥을 놓겠습니까?$"
 
 SafariZone_Text_PokeblockStillHere: @ 82A4CC5
-	.string "The {STR_VAR_1} you left\n"
-	.string "before is still here.$"
+	.string "아직 {STR_VAR_1}이\n"
+	.string "남아있습니다$"
 
 SafariZone_Text_PokeblockWasPlaced: @ 82A4CEB
-	.string "The {STR_VAR_1} was placed\n"
-	.string "on the {POKEBLOCK} FEEDER.$"
+	.string "{STR_VAR_1}을\n"
+	.string "놓았습니다!$"
 
 Route121_SafariZoneEntrance_Text_WelcomeToSafariZone: @ 82A4D12
-	.string "Welcome to the SAFARI ZONE!\p"
-	.string "Here, you may witness many kinds of\n"
-	.string "POKéMON rarely seen in HOENN.\p"
-	.string "And, you'll see them in their wild,\n"
-	.string "untamed state in natural habitats.\p"
-	.string "What's more, we've thrown open the\n"
-	.string "gates to POKéMON TRAINERS.\p"
-	.string "You're encouraged to catch POKéMON\n"
-	.string "for keeps!\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "어서 오세요! 사파리존입니다\p"
+	.string "여기에서는 호연지방에서는 좀처럼\n"
+	.string "볼 수 없는 포켓몬을\p"
+	.string "자연의 모습 그대로\n"
+	.string "볼 수 있습니다\p"
+	.string "게다가 트레이너의\n"
+	.string "요구를 반영해서\p"
+	.string "포켓몬을\n"
+	.string "잡을 수 있게 되었습니다!\p"
+	.string "사파리존을 즐겨주세요!$"
 
 Route121_SafariZoneEntrance_Text_WelcomeFirstTime: @ 82A4E46
-	.string "Welcome to the SAFARI ZONE!\n"
-	.string "Is it your first time here?$"
+	.string "어서 오세요! 사파리존입니다\n"
+	.string "사파리존은 처음입니까?$"
 
 Route121_SafariZoneEntrance_Text_ComeInAndEnjoy: @ 82A4E7E
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "사파리존을 즐겨주세요!$"
 
 Route121_SafariZoneEntrance_Text_FirstTimeInfo: @ 82A4EA1
-	.string "When you enter the SAFARI ZONE, you\n"
-	.string "start with 30 SAFARI BALLS for\l"
-	.string "catching POKéMON.\p"
-	.string "The SAFARI Game is over when you run\n"
-	.string "out of SAFARI BALLS, or when you've\l"
-	.string "walked 500 steps.\p"
-	.string "Come in and enjoy the SAFARI ZONE!$"
+	.string "사파리존에서는\n"
+	.string "30개의 사파리볼을 사용해서\l"
+	.string "포켓몬을 잡을 수 있습니다\p"
+	.string "사파리볼을 다 쓰거나\n"
+	.string "500걸음 걸으면\l"
+	.string "게임은 종료됩니다\p"
+	.string "사파리존을 즐겨주세요!$"
 
 Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay: @ 82A4F74
-	.string "Welcome to the SAFARI ZONE!\p"
-	.string "All you can catch for just ¥500!\n"
-	.string "Would you like to play a SAFARI Game?$"
+	.string "어서 오세요! 사파리존입니다\p"
+	.string "500원으로 포켓몬 무제한 잡기\n"
+	.string "사파리게임에 참가하시겠습니까?$"
 
 Route121_SafariZoneEntrance_Text_PlayAnotherTime: @ 82A4FD7
-	.string "Okay.\n"
-	.string "Please play another time!$"
+	.string "그렇군요\n"
+	.string "다음번에는 꼭 참가해주십시오!$"
 
 Route121_SafariZoneEntrance_Text_NotEnoughMoney: @ 82A4FF7
-	.string "You don't have enough money.\n"
-	.string "Sorry.$"
+	.string "돈이 부족합니다!$"
 
 Route121_SafariZoneEntrance_Text_ThatWillBe500Please: @ 82A501B
-	.string "That will be ¥500, please.$"
+	.string "그럼 500원 받겠습니다$"
 
 Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls: @ 82A5036
-	.string "Here are your SAFARI BALLS.$"
+	.string "여기 사파리볼입니다!$"
 
 Route121_SafariZoneEntrance_Text_Received30SafariBalls: @ 82A5052
-	.string "{PLAYER} received 30 SAFARI BALLS.$"
+	.string "{PLAYER}{K_EUNNEUN} 사파리볼을\n"
+	.string "30개 받았다!$"
 
 Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself: @ 82A506F
-	.string "We'll let you know when your game\n"
-	.string "is over.\p"
-	.string "So, until then, enjoy yourself, please!\n"
-	.string "Off you go on your wild excursion!$"
+	.string "시간이 다 되면\n"
+	.string "이쪽에서 알려드리므로\p"
+	.string "충분히 즐겨 주십시오!\n"
+	.string "그럼 다녀오세요!$"
 
 Route121_SafariZoneEntrance_Text_PCIsFull: @ 82A50E5
-	.string "Excuse me!\n"
-	.string "Your PC BOX is full.$"
+	.string "손님!\n"
+	.string "박스가 가득합니다!$"
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase: @ 82A5105
-	.string "Excuse me!\n"
-	.string "You seem to be without a {POKEBLOCK} CASE.\p"
-	.string "Your SAFARI Game will be much more\n"
-	.string "fruitful if you use {POKEBLOCK}S.\p"
-	.string "Please come back with a {POKEBLOCK} CASE.\p"
-	.string "You may obtain a {POKEBLOCK} CASE from\n"
-	.string "the LILYCOVE CONTEST HALL.$"
+	.string "아! 손님\n"
+	.string "포켓몬스넥케이스를\l"
+	.string "가지고 있지 않으시군요?\p"
+	.string "사파리존은 포켓몬스넥을 쓰면\n"
+	.string "보다 재밌게 즐길 수 있으니\p"
+	.string "꼭 포켓몬스넥케이스를\n"
+	.string "가지고 와주십시오\p"
+	.string "포켓몬스넥케이스는\n"
+	.string "해안시티의 콘테스트 회장에서\l"
+	.string "받을 수 있답니다$"
+	// あ! おきゃくさんｎ
+	// ポロックケ-スを おもちで ないですね?ｐ
+	// サファリゾ-ンは ポロックを つかうとｎ
+	// より おたのしみ いただけますのでｐ
+	// ぜひ ポロックケ-スをｎ
+	// おもちに なって おこし くださいｐ
+	// ポロックケ-スはｎ
+	// ミナモシティの コンテストかいじょうでｌ
+	// うけとることが できますよ
 
 SafariZone_South_Text_StillHaveTimeExit: @ 82A51D4
-	.string "You still have time left. Would you like\n"
-	.string "to exit the SAFARI ZONE now?$"
+	.string "아직 시간이 남아 있습니다만\n"
+	.string "사파리존을 그만두시겠습니까?$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure: @ 82A521A
-	.string "Please enjoy the rest of your wild\n"
-	.string "adventure!$"
+	.string "그럼 계속해서 즐겨주세요!$"
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying: @ 82A5248
-	.string "Okay.\p"
-	.string "I'll take back your remaining SAFARI\n"
-	.string "BALLS.\p"
-	.string "Thank you for playing.\n"
-	.string "We hope to see you again.$"
+	.string "알겠습니다\p"
+	.string "그럼 남은 사파리볼은\n"
+	.string "이쪽으로 주세요\p"
+	.string "수고하셨습니다\n"
+	.string "또 이용해 주세요$"
 
 SafariZone_South_Text_GoodLuck: @ 82A52AB
-	.string "Good luck!\p"
-	.string "If you need anything, don't hesitate\n"
-	.string "to tell me, please!$"
+	.string "그럼 다녀오세요!\p"
+	.string "뭔가 있으면\n"
+	.string "저에게 말을 걸어 주세요!$"
 
 SafariZone_South_Text_Boy: @ 82A52EF
-	.string "Did you know?\p"
-	.string "If you put a {POKEBLOCK} in that square box,\n"
-	.string "POKéMON gather around.$"
+	.string "알고 있었어?\p"
+	.string "저 네모난 상자에\n"
+	.string "포켓몬스넥을 놓으면\l"
+	.string "포켓몬이 모여들어!$"
 
 SafariZone_South_Text_Man: @ 82A533B
-	.string "I want to keep going deeper, but I\n"
-	.string "forgot to bring a BIKE.\p"
-	.string "Something tells me that rare POKéMON\n"
-	.string "live in the outlying areas.$"
+	.string "이 앞으로 가고 싶지만\n"
+	.string "자전거 갖고 오는 걸 까먹었어...\p"
+	.string "깊숙한 곳에 희귀한 포켓몬이\n"
+	.string "있을 것 같은데 말이지!$"
 
 SafariZone_Southwest_Text_Woman: @ 82A53B7
-	.string "Sometimes, when I toss a {POKEBLOCK} at \n"
-	.string "POKéMON, it gets ignored.\p"
-	.string "Do POKéMON have likes and dislikes\n"
-	.string "about what they eat?$"
+	.string "포켓몬에게 포켓몬스넥을 던지면\n"
+	.string "무시당할 때도 있어\p"
+	.string "포켓몬에게도 좋아하는 것과\n"
+	.string "싫어하는 것이 있는 걸까?$"
 
 SafariZone_Northwest_Text_Man: @ 82A542C
-	.string "Gasp… Gasp…\n"
-	.string "I…made it out here…but…\p"
-	.string "I'm exhausted… I don't have the\n"
-	.string "energy to catch POKéMON…$"
+	.string "허억... 허억...\n"
+	.string "드디어 여기까지 왔지만...\p"
+	.string "지쳐버려서 포켓몬을 잡을\n"
+	.string "기운이 없어...$"
 
 SafariZone_North_Text_Fisherman: @ 82A5489
-	.string "I'm on a mission to find WATER POKéMON\n"
-	.string "you don't see in HOENN.\p"
-	.string "Do you have any idea where the lake is?$"
+	.string "호연에는 없는 물포켓몬을\n"
+	.string "찾으러 왔는데...\p"
+	.string "호수가 어디에 있는지\n"
+	.string "너 알고 있니?$"
 
 SafariZone_North_Text_Man: @ 82A54F0
-	.string "I'm going to catch a lot of rare POKéMON\n"
-	.string "here and trade them with my friends!$"
+	.string "여기서 희귀한 포켓몬을\n"
+	.string "잔뜩 잡아서\l"
+	.string "친구와 교환할 거야!$"
 
 SafariZone_South_Text_Youngster: @ 82A553E
-	.string "I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\n"
-	.string "But it seems to have disappeared.\p"
-	.string "I guess POKéMON must have eaten it\n"
-	.string "without me noticing.$"
+	.string "포켓몬스넥먹이통에 놓은\n"
+	.string "포켓몬스넥은\l"
+	.string "어느새 없어져 있었다...\p"
+	.string "모르는 사이에\n"
+	.string "포켓몬이 먹어버린 걸까?$"
 
 Route121_SafariZoneEntrance_Text_TrainerTip: @ 82A55BB
-	.string "SAFARI ZONE TRAINER TIP!\p"
-	.string "Throw {POKEBLOCK}S at wild POKéMON to make\n"
-	.string "them less likely to flee.$"
+	.string "사파리존 정보 나눔!\p"
+	.string "마주친 포켓몬에게\n"
+	.string "포켓몬스넥을 던지면\l"
+	.string "도망가기 어려워집니다!$"
 
 SafariZone_Southwest_Text_RestHouseSign: @ 82A5613
-	.string "“Relieve your tired feet.”\n"
-	.string "REST HOUSE$"
+	.string "걷느라 지쳤다면 잠시 한숨 돌리자!\n"
+	.string "“모두의 휴게소”$"
 
 SafariZone_RestHouse_Text_Youngster: @ 82A5639
-	.string "I don't have any {POKEBLOCK}S, but I caught\n"
-	.string "a good number of POKéMON.\p"
-	.string "You can improve your chances of making\n"
-	.string "a catch by getting closer to them\l"
-	.string "before throwing a SAFARI BALL.$"
+	.string "난 포켓몬스넥을 가지고 있지 않지만\n"
+	.string "포켓몬을 잔뜩 잡았어\p"
+	.string "가까이 다가가서 볼을 던졌을 뿐인데\n"
+	.string "제법 잡을 수 있었단 말이지!$"
 
 SafariZone_RestHouse_Text_PsychicM: @ 82A56E1
-	.string "If you use {POKEBLOCK}S, wild POKéMON won't\n"
-	.string "be so quick to run away.\p"
-	.string "It's not much use to give {POKEBLOCK}S to\n"
-	.string "POKéMON that don't flee easily.$"
+	.string "포켓몬스넥을 쓰면 여느 때보다\n"
+	.string "잘 도망치지 않게 되는 것 같아\p"
+	.string "그러니까 잘 도망치지 않는\n"
+	.string "포켓몬에게 써도\l"
+	.string "그다지 의미는 없을지도 몰라$"
 
 SafariZone_RestHouse_Text_FatMan: @ 82A5764
-	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
-	.string "POKéMON are attracted to it.\p"
-	.string "I think POKéMON with the same sort of\n"
-	.string "nature are drawn by a certain {POKEBLOCK}.$"
+	.string "포켓몬스넥먹이통에 포켓몬스넥을\n"
+	.string "놓고 포켓몬을 잡으면\p"
+	.string "같은 성격의 포켓몬이\n"
+	.string "잡히는 것 같은 기분이 들어$"
 
 SafariZone_South_Text_AreaOffLimits1: @ 82A57EE
-	.string "This area is still under construction.\n"
-	.string "It's off-limits, sorry!$"
+	.string "이 앞은 지금 공사 중이라\n"
+	.string "출입이 금지되어 있습니다$"
+	// このさきは ただいま こうじちゅう のためｎ
+	// たちいり きんしに なっています
 
 SafariZone_Southeast_Text_ExpansionIsFinished: @ 82A582D
-	.string "The SAFARI ZONE's expansion project\n"
-	.string "is finished now.\p"
-	.string "We hope you will enjoy the new area.$"
+	.string "사파리존의 확장 공사가\n"
+	.string "종료되었습니다\p"
+	.string "새로운 에리어도\n"
+	.string "즐겨주세요!$"
+	// サファリゾ-ンの かくちょう こうじがｎ
+	// しゅうりょう しましたｐ
+	// あたらしい エリアもｎ
+	// たのしんで くださいね!
 
 SafariZone_South_Text_AreaOffLimits2: @ 82A5887
-	.string "This area is still under construction.\n"
-	.string "It's off-limits, sorry!$"
+	.string "이 앞은 지금 공사 중이라\n"
+	.string "출입이 금지되어 있습니다$"
+	// このさきは ただいま こうじちゅう のためｎ
+	// たちいり きんしに なっています
 
 SafariZone_Southeast_Text_LittleGirl: @ 82A58C6
-	.string "Wow! Whee! I haven't seen any of\n"
-	.string "these POKéMON before!$"
+	.string "와아-! 와아-!\n"
+	.string "처음 보는 포켓몬이 잔뜩 있어!$"
+	// わ-い わ-い!ｎ
+	// はじめて みる ポケモンが いっぱい!
 
 SafariZone_Southeast_Text_FatMan: @ 82A58FD
-	.string "The POKéMON in this area are all\n"
-	.string "new to me.\p"
-	.string "And I'm allowed to catch these rare\n"
-	.string "POKéMON! Too cool!$"
+	.string "이 주변에 있는 포켓몬은\n"
+	.string "처음 보는 녀석들뿐이야!\p"
+	.string "이런 희귀한 포켓몬을\n"
+	.string "잡을 수 있다니 굉장한걸-!$"
+	// このへんに いる ポケモンはｎ
+	// はじめて みるやつ ばっかりだ!ｐ
+	// そんな めずらしい ポケモンがｎ
+	// つかまえ ほうだい だなんて すげ-!
 
 SafariZone_Southeast_Text_RichBoy: @ 82A5960
-	.string "The POKéMON around here seem to be\n"
-	.string "from somewhere other than HOENN.$"
+	.string "이 주변에 있는 포켓몬은\n"
+	.string "호연지방 밖에 있는 땅에서\l"
+	.string "살고 있는 포켓몬이래$"
+	// このへんに いる ポケモンはｎ
+	// ホウエンちほう いがいの とちにｌ
+	// すんでる ポケモン らしいぜ
 
 SafariZone_Northeast_Text_Boy: @ 82A59A4
-	.string "I only have a couple SAFARI BALLS left.\p"
-	.string "I'm having a hard time trying to\n"
-	.string "decide what I should catch.$"
+	.string "사파리볼이 이제 조금밖에\n"
+	.string "안 남았어\l"
+	.string "뭘 잡을지 고민되네$"
+	// サファリボ-ルが あと すこししかｎ
+	// のこって ないんだよｌ
+	// なにを つかまえるか まよっちゃうなあ
 
 SafariZone_Northeast_Text_Woman: @ 82A5A09
-	.string "I heard that you can see PIKACHU here.\n"
-	.string "Where might one be?$"
+	.string "피카츄를 여기서 봤다고\n"
+	.string "들었는데 어디 있는 걸까$"
+	// ピカチュウが ここで みられるってｎ
+	// きいたんだけど どこに いるのかしら
 
 SafariZone_Northeast_Text_Girl: @ 82A5A44
-	.string "Oh, boo!\n"
-	.string "I can't seem to catch anything!\p"
-	.string "I'll end up wasting the admission\n"
-	.string "price if I don't catch something!$"
+	.string "아-앙 포켓몬이\n"
+	.string "좀처럼 잡히질 않아!\p"
+	.string "이대로는 입장료가\n"
+	.string "아까워질 거라구!$"
+	// あ-ん ポケモンがｎ
+	// なかなか つかまらないわっ!ｐ
+	// このままじゃ にゅうじょうりょうのｎ
+	// モトが とれないわっ!

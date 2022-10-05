@@ -96,63 +96,63 @@ MauvilleCity_PokemonCenter_1F_EventScript_TeachWord:: @ 828E1A4
 
 @ Trader
 MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor: @ 828E1B1
-	.string "Hi, I'm the TRADER.\n"
-	.string "Want to trade decorations with me?$"
+	.string "난 굿즈교환아저씨\n"
+	.string "나랑 굿즈 교환하지 않을래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues: @ 828E1E8
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "그래...\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeveAlreadyTraded: @ 828E20E
-	.string "But we've traded decorations already,\n"
-	.string "you and I.$"
+	.string "하지만 너하고는 이미\n"
+	.string "굿즈를 교환했는걸$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickADecorItem: @ 828E23F
-	.string "If you see any decorative item that\n"
-	.string "you want of mine, speak up.$"
+	.string "이거 내가 가지고 있는 굿즈인데\n"
+	.string "가지고 싶은 거 있으면 말해$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantAnything: @ 828E27F
-	.string "You don't want anything?\n"
-	.string "I feel unwanted…$"
+	.string "갖고 싶은 굿즈 없어?\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_OnceBelongedToPlayerDoYouWantIt: @ 828E2A9
-	.string "That decorative item once belonged\n"
-	.string "to {STR_VAR_1}.\p"
-	.string "Do you want it?$"
+	.string "그건 {STR_VAR_1}{K_IGA}\n"
+	.string "썼었던 굿즈야\p"
+	.string "이걸로 할래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontHaveAnyDecor: @ 828E2E3
-	.string "Uh… Wait a second. You don't have a\n"
-	.string "single piece of decoration!$"
+	.string "...엣 너 굿즈\n"
+	.string "하나도 가지고 있지 않잖아!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PickTheDecorToTrade: @ 828E323
-	.string "Okay, pick the decoration that you'll\n"
-	.string "trade to me.$"
+	.string "자 교환에 내놓을\n"
+	.string "굿즈를 골라줘!$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDontWantToTrade: @ 828E356
-	.string "You won't trade with me?\n"
-	.string "I feel unwanted…$"
+	.string "갖고 싶은 굿즈 없어?\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouveNoRoomForThis: @ 828E380
-	.string "You've got all the {STR_VAR_2}S that can\n"
-	.string "be stored. You've no room for this.$"
+	.string "너 {STR_VAR_2}{K_IGA} 가득해서\n"
+	.string "더 이상 지닐 수 없어$"
 
 MauvilleCity_PokemonCenter_1F_Text_SoWellTradeTheseDecor: @ 828E3C4
-	.string "Okay, so we'll trade my {STR_VAR_3}\n"
-	.string "for your {STR_VAR_2}?$"
+	.string "자 그럼 내 {STR_VAR_3}{K_WAGWA}\n"
+	.string "너의 {STR_VAR_2}{K_EULREUL} 교환할래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_ThatDecorIsInUse: @ 828E3EC
-	.string "That piece of decoration is in use.\n"
-	.string "You can't trade it.$"
+	.string "그 굿즈는 지금 장식되어 있네\n"
+	.string "장식한 굿즈는 교환할 수 없어$"
 
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC: @ 828E424
-	.string "Then we'll trade!\n"
-	.string "I'll send my decoration to your PC.$"
+	.string "자 그럼 교환하자!\n"
+	.string "네 PC에 전송했어!$"
 
 MauvilleCity_PokemonCenter_1F_Text_CantTradeThatOne: @ 828E45A
-	.string "Oops! Sorry! That's a really rare\n"
-	.string "piece of decoration.\l"
-	.string "I can't trade that one away!\p"
-	.string "Can I interest you in something else?$"
+	.string "앗! 미안!\n"
+	.string "그거 굉장히 희귀한 굿즈라서\l"
+	.string "교환할 수 없어!\p"
+	.string "그 밖에 원하는 굿즈 없어?$"
 
 MauvilleCity_PokemonCenter_1F_EventScript_Trader:: @ 828E4D4
 	lock
@@ -882,21 +882,21 @@ MauvilleCity_PokemonCenter_1F_EventScript_StorytellerEnd:: @ 829022D
 
 @ Giddy
 MauvilleCity_PokemonCenter_1F_Text_HearMyStory: @ 829022F
-	.string "I'm GIDDY!\n"
-	.string "I have a scintillating story for you!\p"
-	.string "Would you like to hear my story?$"
+	.string "난 메르헨아저씨\n"
+	.string "아주 재밌는 이야기를 해줄 수 있어\p"
+	.string "내 얘기 한번 들어볼래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues: @ 8290281
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "그래...\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_AlsoIWasThinking: @ 82902A7
-	.string "Also, I was thinking…$"
+	.string "그리고 생각해 봤는데...$"
 
 MauvilleCity_PokemonCenter_1F_Text_WeShouldChatAgain: @ 82902BD
-	.string "That's about it, I think…\p"
-	.string "We should chat again!\n"
-	.string "Bye-bye!$"
+	.string "이 정도려나...\p"
+	.string "들어줘서 고마워!\n"
+	.string "그럼 안녕!$"
 
 MauvilleCity_PokemonCenter_1F_EventScript_Giddy:: @ 82902F6
 	lock

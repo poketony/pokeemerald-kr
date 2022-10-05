@@ -1,43 +1,77 @@
 Mevent_Text_FillOutQuestionnaire:: @ 827339F
-	.string "There is a questionnaire.\n"
-	.string "Would you like to fill it out?$"
+	.string "설문용 메모 용지가 있다\n"
+	.string "설문 용지에 뭔가를 적겠습니까?$"
+	// アンケ-トようの メモようしが あるｎ
+	// アンケ-トに なにか かきますか?
 
 Mevent_Text_QuestionnaireThankYou:: @ 82733D8
-	.string "Thank you for taking the time to\n"
-	.string "fill out our questionnaire.\p"
-	.string "Your feedback will be used for\n"
-	.string "future reference.$"
+	.string "설문에 협력해 주셔서\n"
+	.string "감사합니다!\p"
+	.string "이 답변은 앞으로\n"
+	.string "참고하도록 하겠습니다!$"
+	// アンケ-トに ごきょうりょくｎ
+	// いただき ありがとう ございます!ｐ
+	// この アンケ-トは こんごのｎ
+	// さんこうに させて いただきます!
 
 Mevent_Text_YouKnowThoseWordsGift:: @ 8273446
-	.string "Oh, hello!\n"
-	.string "You know those words?\p"
-	.string "That means you must know about\n"
-	.string "the MYSTERY GIFT.\p"
-	.string "From now on, you should be\n"
-	.string "receiving MYSTERY GIFTS!$"
+	.string "...손님!\n"
+	.string "그 말을 알고 계시는 건가요!\p"
+	.string "그렇다면 이상한 소포를\n"
+	.string "알고 계신 거군요!\p"
+	.string "앞으로 당신에게도\n"
+	.string "이상한 소포가\l"
+	.string "오게 될 겁니다!$"
+	// …… おきゃくさま!ｎ
+	// そのことばを しってるの ですか!ｐ
+	// ということは ふしぎなおくりもの をｎ
+	// しって いらっしゃるの ですね!ｐ
+	// これからは あなたにもｎ
+	// ふしぎなおくりもの がｌ
+	// とどくように なるでしょう!
 
 Mevent_Text_YouCanAccessMysteryGift:: @ 82734CC
-	.string "Once you save your game, you can\n"
-	.string "access the MYSTERY GIFT.$"
+	.string "리포트를 작성하면 이상한 소포를\n"
+	.string "사용할 수 있게 됩니다$"
+	// レポ-トをかくと ふしぎなおくりもの がｎ
+	// つかえるように なります
 
 Mevent_Text_YouKnowThoseWordsEvent:: @ 8273506
-	.string "Oh, hello!\n"
-	.string "You know those words?\p"
-	.string "That means you must know about\n"
-	.string "the MYSTERY EVENT.$"
+	.string "...손님!\n"
+	.string "그 말을 알고 계시는 건가요!\p"
+	.string "그렇다면 이상한 사건을\n"
+	.string "알고 계신 거군요!$"
+	// …… おきゃくさま!ｎ
+	// そのことばを しってるの ですか!ｐ
+	// ということは ふしぎなできごと をｎ
+	// しって いらっしゃるの ですね!
 
 Mevent_Text_YouCanAccessMysteryEvent:: @ 8273559
-	.string "Once you save your game, you can\n"
-	.string "access the MYSTERY EVENT.$"
+	.string "리포트를 작성하면 이상한 사건을\n"
+	.string "사용할 수 있게 됩니다$"
+	// レポ-トをかくと ふしぎなできごと がｎ
+	// つかえるように なります
 
 Mevent_Text_TheresATicketForYou:: @ 8273594
-	.string "Thank you for using the MYSTERY\n"
-	.string "EVENT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "이상한 소포를 이용해 주셔서\n"
+	.string "감사합니다!\l"
+	.string "{PLAYER}님이시군요\p" 
+	.string "손님 앞으로\n"
+	.string "이 티켓이\l"
+	.string "도착했습니다$"
+	// ふしぎなできごと を ごりようｎ
+	// いただき ありがとう ございます!ｌ
+	// §あさま ですねｐ
+	// あなたさま あてにｎ
+	// この チケットがｌ
+	// おくられて きました
 
 Mevent_Text_TryUsingItAtLilycovePort:: @ 82735F2
-	.string "It appears to be for use at\n"
-	.string "the LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "해안시티의 선착장에서\n"
+	.string "쓸 수 있는 모양이군요\p"
+	.string "한번 이용해 보시는 게\n"
+	.string "어떻겠습니까?$"
+	// ミナモシティの ふなつきば でｎ
+	// つかえる ようですねｐ
+	// ぜひ ごりよう してみてはｎ
+	// いかがでしょうか?

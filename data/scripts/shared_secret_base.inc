@@ -211,14 +211,14 @@ SecretBase_EventScript_SkittyTV:: @ 823B6D7
     end
 
 SecretBase_Text_SmallIndentInWall:: @ 823B6E0
-    .string "There's a small indent in the wall.$"
+    .string "벽에 작은 홈이 있다$"
 
 SecretBase_Text_IndentUseSecretPower:: @ 823B704
-    .string "There's a small indent in the wall.\p"
-    .string "Use the SECRET POWER?$"
+    .string "벽에 작은 홈이 있다\p"
+	.string "비밀의힘을 사용하겠습니까?$"
 
 SecretBase_Text_DiscoveredSmallCavern:: @ 823B73E
-    .string "Discovered a small cavern!$"
+    .string "작은 동굴을 발견했다!$"
 
 SecretBase_Text_WantToMakeYourSecretBaseHere: @ 823B759
-    .string "Want to make your SECRET BASE here?$"
+    .string "여기에 비밀기지를 만들겠습니까?$"

@@ -180,7 +180,7 @@ FallarborTown_BattleTentLobby_Text_ReceivedPrize: @ 82C4F69
 	// §いを もらった!
 
 FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize: @ 82C4F83
-	.string "..오옷!\n"
+	.string "...오옷!\n"
 	.string "도구가 가득하시군요!\p"
 	.string "도구를 정리하고 나서\n"
 	.string "다시 와주십시오!$"
@@ -284,7 +284,7 @@ VerdanturfTown_BattleTentLobby_Text_WhichLevelMode: @ 82C53DB
 	// あるが どちらに ちょうせん するのだ?
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50: @ 82C543D
-	.string "자네…\p"
+	.string "자네...\p"
 	.string "도전할 수 있는 포켓몬이\n"
 	.string "3마리는 필요하다네!\p"
 	.string "도전하려면\n"

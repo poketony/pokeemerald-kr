@@ -36,7 +36,7 @@ gText_WelcomeCutShort::
 	.string "포켓몬센터입니다\p"
 	.string "여기에서는 포켓몬의\n"
 	.string "HP를 회복시켜 드립니다\p"
-	.string "당신의 포켓몬을……$"
+	.string "당신의 포켓몬을...$"
 	// おつかれさまです!ｎ
 	// ポケモン センタ- ですｐ
 	// ここでは ポケモンのｎ
@@ -44,9 +44,9 @@ gText_WelcomeCutShort::
 	// あなたの ポケモンを……$
 
 gText_NoticesGoldCard::
-	.string "그 그건……\n"
+	.string "그 그건...\n"
 	.string "설마 골드 카드!?\p"
-	.string "아아…… 눈부신 금색이에요!\n"
+	.string "아아... 눈부신 금색이에요!\n"
 	.string "4개의 별이 빛나는 것 같아요!\p"
 	.string "저도 지금까지\n"
 	.string "실버 카드의 트레이너라면\l"
