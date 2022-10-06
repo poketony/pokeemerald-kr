@@ -252,560 +252,578 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor:: @ 828E5EC
 
 @ Storyteller
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale: @ 828E5F6
-	.string "I'm the STORYTELLER.\n"
-	.string "I'll tell you tales of legendary\l"
-	.string "TRAINERS.\p"
-	.string "Will you hear my tale?$"
+	.string "난 전설아저씨\n"
+	.string "전설의 트레이너에 대한 이야기를\l"
+	.string "해줄 수 있어\p"
+	.string "내 얘기 한번 들어볼래?$"
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues: @ 828E64D
-	.string "Oh…\n"
-	.string "You've left me feeling the blues…$"
+	.string "그래...\n"
+	.string "아쉽네...$"
 
 MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell: @ 828E673
-	.string "I know of these legends.\n"
-	.string "Which tale will you have me tell?$"
+	.string "난 이런 전설들을 알고 있어\n"
+	.string "어느 전설을 듣고 싶어?$"
 
 MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales: @ 828E6AE
-	.string "But, I know of no legendary TRAINERS.\n"
-	.string "Hence, I know no tales.\p"
-	.string "Where does one find a TRAINER worthy\n"
-	.string "of a legendary tale?$"
+	.string "그렇지만 난...\n"
+	.string "전설의 트레이너에 대한 이야기를\l"
+	.string "하나도 알고 있지 않아\p"
+	.string "어딘가 전설에 남을 만한\n"
+	.string "트레이너는 없는 걸까...$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes: @ 828E726
-	.string "What's that?!\n"
-	.string "You… You…\p"
-	.string "{STR_VAR_2}\n"
-	.string "{STR_VAR_1} time(s)?!\p"
-	.string "That is indeed magnificent!\n"
-	.string "It's the birth of a new legend!$"
+	.string "뭐라고!!!\p"
+	.string "너...\n"
+	.string "{STR_VAR_1}번이나\n"
+	.string "{STR_VAR_2}고!?\p"
+	.string "으음 그거 대단한데!\n"
+	.string "새로운 전설의 시작이야!$"
+	// ……え!!!ｐ
+	// きみ §いかい もｎ
+	// §う の!?ｐ
+	// ……ううむ それは すごい!ｎ
+	// あたらしい でんせつの はじまりだ!
 
 MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends: @ 828E78A
-	.string "It gets me thinking, could there be\n"
-	.string "other TRAINERS with more impressive\l"
-	.string "legends awaiting discovery?$"
+	.string "이것보다 좀 더 대단한\n"
+	.string "전설을 가진 트레이너\l"
+	.string "어딘가에 없을라나...$"
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales: @ 828E7EE
-	.string "Are you a TRAINER?\p"
-	.string "Then tell me, have you any tales that\n"
-	.string "are even remotely legendary?$"
+	.string "너 트레이너야?\p"
+	.string "그럼 뭔가 전설 같은 이야기\n"
+	.string "나한테 좀 들려줘!$"
 
 @ Unused
 MauvilleCity_PokemonCenter_1F_Text_HearAnotherLegendaryTale: @ 828E844
-	.string "Incidentally… Would you care to hear\n"
-	.string "another legendary tale?$"
+	.string "그런데...\n"
+	.string "또 다른 전설 듣고 싶어?$"
 
 MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend: @ 828E881
-	.string "Hmm…\n"
-	.string "I'm not satisfied…\p"
-	.string "I wish you would bring me news worthy\n"
-	.string "of being called a legend.$"
+	.string "음 어딘가 부족한걸\p"
+	.string "좀 더 재미있는 이야기를\n"
+	.string "들려줬으면 좋겠는데$"
 
 MauvilleCity_PokemonCenter_1F_Text_IWishMorePeopleWereInterested: @ 828E8D9
-	.string "I wish more people would be interested\n"
-	.string "in hearing my epic tales of legendary\l"
-	.string "TRAINERS.$"
+	.string "좀 더 많은 사람들이\n"
+	.string "전설의 트레이너의 이야기\l"
+	.string "들어주면 좋을 텐데$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle:: @ 828E930
-	.string "The Save-Happy TRAINER$"
+	.string "리포트를 많이 작성한 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction:: @ 828E947
-	.string "Saved the game$"
+	.string "리포트를 작성했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory:: @ 828E956
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER saved the game\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "A more cautious TRAINER than\n"
-	.string "{STR_VAR_3} one will never find!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "{STR_VAR_1}번이나\n"
+	.string "리포트를 작성했다더라고!\l"
+	.string "{STR_VAR_3}{K_I}만큼이나 조심성 있는\l"
+	.string "트레이너는 없을 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedTitle:: @ 828E9D7
-	.string "The Trendsetter TRAINER$"
+	.string "유행 발신 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedAction:: @ 828E9EF
-	.string "Started trends$"
+	.string "유행을 만들었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory:: @ 828E9FE
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER started new trends\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is setting trends for all\n"
-	.string "the HOENN region!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "{STR_VAR_1}번이나\n"
+	.string "유행을 새로 만든 모양이야!\l"
+	.string "{STR_VAR_3}{K_I}야말로 계속해서\l"
+	.string "호연의 유행을 새로 만들고 있어!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle:: @ 828EA7D
-    .string "The BERRY-Planting TRAINER$"
+    .string "나무열매를 많이 심은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedAction:: @ 828EA98
-	.string "Planted BERRIES$"
+	.string "나무열매를 심었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedStory:: @ 828EAA8
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER planted BERRIES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a legendary lover of\n"
-	.string "BERRIES!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "나무열매를 심은 것 같아!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 전설의\n"
+	.string "나무열매 애호가일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesTitle:: @ 828EB19
-	.string "The BIKE-Loving TRAINER$"
+	.string "자전거 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesAction:: @ 828EB31
-	.string "Traded BIKES$"
+	.string "자전거를 교환했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesStory:: @ 828EB3E
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER swapped BIKES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love BIKES deeply\n"
-	.string "and passionately!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "자전거를 교환한 것 같아!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 정말\n"
+	.string "자전거를 좋아하는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsTitle:: @ 828EBB5
-	.string "The Interviewed TRAINER$"
+	.string "인터뷰에 많이 응한 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsAction:: @ 828EBCD
-	.string "Got interviewed$"
+	.string "인터뷰에 응했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsStory:: @ 828EBDD
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got interviewed\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who's\n"
-	.string "attracting much attention!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "인터뷰에 응한 것 같아!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 정말\n"
+	.string "주목받는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle:: @ 828EC60
-	.string "The Battle-Happy TRAINER$"
+	.string "승부 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction:: @ 828EC79
-	.string "Battled$"
+	.string "승부했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory:: @ 828EC81
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER battled {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who can\n"
-	.string "never refuse a chance to battle!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "포켓몬 승부를 했다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 트레이너를 보면\n"
+	.string "승부를 하지 않으면 못 지나가는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle:: @ 828ED04
-	.string "The POKéMON-Catching TRAINER$"
+	.string "많이 잡은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction:: @ 828ED21
-	.string "Caught POKéMON$"
+	.string "포켓몬을 잡았다$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory:: @ 828ED30
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} POKéMON!\p"
-	.string "{STR_VAR_3} is a legendary catcher of\n"
-	.string "wild POKéMON!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}마리씩이나\n"
+	.string "포켓몬을 잡은 것 같아!\p"
+	.string "{STR_VAR_3}{K_I}야말로 전설의\n"
+	.string "포켓몬 잡기 달인일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle:: @ 828EDA1
-	.string "The Fishing TRAINER$"
+	.string "많이 낚은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction:: @ 828EDB5
-	.string "Caught POKéMON with a ROD$"
+	.string "포켓몬을 낚았다$"
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory:: @ 828EDCF
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
-	.string "{STR_VAR_1} POKéMON while fishing!\p"
-	.string "{STR_VAR_3} is a legendary fishing\n"
-	.string "expert!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "포켓몬을 낚은 모양이야!\p"
+	.string "{STR_VAR_3}{K_I}야말로 전설의\n"
+	.string "낚시 명인일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle:: @ 828EE45
-	.string "The EGG-Warming TRAINER$"
+	.string "많이 알을 품은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction:: @ 828EE5D
-	.string "Hatched EGGS$"
+	.string "알을 부화시켰다$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory:: @ 828EE6A
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER hatched {STR_VAR_1} POKéMON\n"
-	.string "from EGGS!\p"
-	.string "{STR_VAR_3} is a legendary warmer\n"
-	.string "of EGGS!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "{STR_VAR_1}개나 되는 알을\n"
+	.string "부화시켰다고 하더라고!\p"
+	.string "{STR_VAR_3}{K_I}야말로 전설의\n"
+	.string "알품기 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle:: @ 828EEDD
-	.string "The Evolver TRAINER$"
+	.string "진화를 많이 시킨 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction:: @ 828EEF1
-	.string "Evolved POKéMON$"
+	.string "포켓몬을 진화시켰다$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory:: @ 828EF01
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {STR_VAR_1} POKéMON\n"
-	.string "evolve!\p"
-	.string "{STR_VAR_3} is the ultimate evolver\n"
-	.string "of POKéMON!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "무려 {STR_VAR_1}마리의\n"
+	.string "포켓몬을 진화시킨 모양이야!\p"
+	.string "{STR_VAR_3}{K_I}야말로 최고의\n"
+	.string "포켓몬 진화 마스터일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle:: @ 828EF73
-	.string "The POKéMON CENTER-Loving TRAINER$"
+	.string "포켓몬센터 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction:: @ 828EF95
-	.string "Used POKéMON CENTERS$"
+	.string "포켓몬센터에서 회복했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory:: @ 828EFAA
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed POKéMON\n"
-	.string "{STR_VAR_1} times at POKéMON CENTERS!\p"
-	.string "There could be no greater lover of\n"
-	.string "POKéMON CENTERS than {STR_VAR_3}!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "포켓몬센터에서 회복했다더라고!\p"
+	.string "{STR_VAR_3}만큼 포켓몬센터가\n"
+	.string "마음에 드는 트레이너는\l"
+	.string "없을 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle:: @ 828F045
-	.string "The Homebody TRAINER$"
+	.string "집 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction:: @ 828F05A
-	.string "Rested POKéMON at home$"
+	.string "자신의 집에서 회복했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory:: @ 828F071
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed POKéMON\n"
-	.string "{STR_VAR_1} times at home!\p"
-	.string "There could be no more of a homebody\n"
-	.string "than {STR_VAR_3}!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "자신의 집에서\l"
+	.string "포켓몬들을 회복시켰다는 거야!\p"
+	.string "{STR_VAR_3}만큼\n"
+	.string "집으로 돌아가는 걸 좋아하는\l"
+	.string "트레이너는 없을 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesTitle:: @ 828F0F3
-	.string "The SAFARI-Loving TRAINER$"
+	.string "사파리존에 자주 가는 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesAction:: @ 828F10D
-	.string "Entered the SAFARI ZONE$"
+	.string "사파리존에 들어갔다$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory:: @ 828F125
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER went into the SAFARI ZONE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER whose wild side\n"
-	.string "must come out in the SAFARI ZONE!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "사파리존에 들어간 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 사파리존에서라면\n"
+	.string "피가 끓는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle:: @ 828F1BE
-	.string "The CUT-Frenzy TRAINER$"
+	.string "풀베기를 많이 쓴 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutAction:: @ 828F1D5
-	.string "Used CUT$"
+	.string "풀베기를 썼다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory:: @ 828F1DE
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used CUT\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who just must\n"
-	.string "love to CUT!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "풀베기를 썼다고 하더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 풀베기가 좋아서\n"
+	.string "어쩔 수 없는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle:: @ 828F24F
-	.string "The ROCK-SMASHING TRAINER$"
+	.string "바위를 많이 깬 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction:: @ 828F269
-	.string "Smashed rocks$"
+	.string "바위깨기를 썼다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory:: @ 828F277
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used ROCK SMASH\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
-	.string "can't leave a stone unsmashed!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "바위깨기를 썼다고 하더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 바위를 봐도\n"
+	.string "꺾이지 않는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesTitle:: @ 828F2FC
-	.string "The Move-Loving TRAINER$"
+	.string "이사를 많이 한 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesAction:: @ 828F314
-	.string "Moved the SECRET BASE$"
+	.string "이사를 했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesStory:: @ 828F32A
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER moved the SECRET BASE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who loves\n"
-	.string "to move houses often!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "비밀기지를 이사했다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 이사를 무척\n"
+	.string "좋아하는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle:: @ 828F3AD
-	.string "The SPLASH-Happy TRAINER$"
+	.string "튀어오르기를 많이 쓴 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashAction:: @ 828F3C6
-	.string "Used SPLASH$"
+	.string "튀어오르기를 썼다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory:: @ 828F3D2
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used SPLASH\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who must love\n"
-	.string "SPLASHING around!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "튀어오르기를 썼다는 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 튀어오르는 것이\n"
+	.string "무척 즐거운 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleTitle:: @ 828F44B
-	.string "The Tenacious TRAINER$"
+	.string "포기하지 않는 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction:: @ 828F461
-	.string "Resorted to using STRUGGLE$"
+	.string "발버둥을 썼다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory:: @ 828F47C
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER had to rely on STRUGGLE\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a tenacious TRAINER\n"
-	.string "who never gives in to adversity!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "발버둥을 쓴 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 어떠한 상황에서라도\n"
+	.string "결코 포기하지 않는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle:: @ 828F50C
-	.string "The SLOT Champ$"
+	.string "슬롯의 명인$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsAction:: @ 828F51B
-	.string "Won the jackpot on the SLOTS$"
+	.string "슬롯에서 대당첨되었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory:: @ 828F538
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won the jackpot on\n"
-	.string "the SLOTS {STR_VAR_1} times.\p"
-	.string "{STR_VAR_3} is a TRAINER who was lucky\n"
-	.string "on the SLOTS!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "슬롯에서 대당첨됐다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 슬롯을\n"
+	.string "잘 알고 있는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle:: @ 828F5BE
-	.string "The ROULETTE Champ$"
+	.string "룰렛의 명인$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction:: @ 828F5D1
-	.string "Had consecutive ROULETTE wins of$"
+	.string "룰렛을 연속으로 맞혔다$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory:: @ 828F5F2
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won in ROULETTE\n"
-	.string "{STR_VAR_1} times in a row.\p"
-	.string "{STR_VAR_3} was lucky when the ball\n"
-	.string "bounced in ROULETTE!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "룰렛에서 연속으로 맞혔다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 확실히 보고\n"
+	.string "룰렛에 거는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle:: @ 828F678
-	.string "The BATTLE TOWER Challenger$"
+	.string "배틀타워의 도전자$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction:: @ 828F694
-	.string "Took the BATTLE TOWER challenge$"
+	.string "배틀타워에 도전했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory:: @ 828F6B4
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER took the BATTLE TOWER\n"
-	.string "challenge {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who aspires\n"
-	.string "for excellence in the BATTLE TOWER!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "배틀타워에 도전했다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 배틀타워에\n"
+	.string "전력을 쏟는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle:: @ 828F751
-	.string "The Blend-Loving TRAINER$"
+	.string "블렌드 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction:: @ 828F76A
-	.string "Made {POKEBLOCK}S$"
+	.string "포켓몬스넥을 만들었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory:: @ 828F776
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {POKEBLOCK}S\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "There is none better at using a BERRY\n"
-	.string "BLENDER than {STR_VAR_3}!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "포켓몬스넥을 만든 모양이야!\p"
+	.string "{STR_VAR_3}만큼 나무열매블렌더를\n"
+	.string "잘 쓰는 사람은 없을 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle:: @ 828F7F6
-	.string "The CONTEST-Loving TRAINER$"
+	.string "콘테스트 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction:: @ 828F811
-	.string "Entered CONTESTS$"
+	.string "콘테스트에 참가했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory:: @ 828F822
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER entered CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love showing off\n"
-	.string "POKéMON to others!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "{STR_VAR_1}번이나\n"
+	.string "콘테스트에 참가했다더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 자신의 포켓몬을\n"
+	.string "사람들에게 보여주고 싶어하는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle:: @ 828F89C
-	.string "The CONTEST Master$"
+	.string "콘테스트의 달인$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction:: @ 828F8AF
-	.string "Won CONTESTS$"
+	.string "콘테스트에서 우승했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory:: @ 828F8BC
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won CONTESTS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be an incredible\n"
-	.string "CONTEST master!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "콘테스트에서 우승했다더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 엄청난\n"
+	.string "콘테스트 마스터일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle:: @ 828F92F
-	.string "The Happy Shopper$"
+	.string "쇼핑 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedAction:: @ 828F941
-	.string "Shopped$"
+	.string "쇼핑을 했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory:: @ 828F949
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bought items in shops\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be one of those\n"
-	.string "people who are born to shop.$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "가게에서 쇼핑을 한 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 가게에 들어가면\n"
+	.string "계속 사는 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle:: @ 828F9D1
-	.string "The Item-Finding TRAINER$"
+	.string "다우징 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction:: @ 828F9EA
-	.string "Used an ITEMFINDER$"
+	.string "다우징머신을 사용했다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory:: @ 828F9FD
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used an ITEMFINDER\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must enjoy scouring the\n"
-	.string "ground for hidden items!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "다우징머신을 사용했던 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 도구 찾기를\n"
+	.string "정말 좋아하는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedTitle:: @ 828FA81
-	.string "The Rain-Soaked TRAINER$"
+	.string "비에 젖은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction:: @ 828FA99
-	.string "Got rained on$"
+	.string "비에 젖었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory:: @ 828FAA7
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got soaked by rain\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3}'s charisma must even\n"
-	.string "attract rain!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "비에 흠뻑 젖은 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 비도 끌리게 하는\n"
+	.string "매력적인 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle:: @ 828FB1D
-	.string "The Avid POKéDEX Reader$"
+	.string "도감을 많이 본 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction:: @ 828FB35
-	.string "Checked a POKéDEX$"
+	.string "도감을 봤다$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory:: @ 828FB47
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked a POKéDEX\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love inspecting\n"
-	.string "POKéMON in a POKéDEX!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "도감을 본 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 도감으로\n"
+	.string "포켓몬을 조사하는 것을 좋아하는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle:: @ 828FBC4
-	.string "The RIBBON Collector$"
+	.string "리본을 잔뜩 모은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction:: @ 828FBD9
-	.string "Received RIBBONS$"
+	.string "리본을 받았다$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory:: @ 828FBEA
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER received RIBBONS\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
-	.string "loves to collect RIBBONS!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "리본을 받은 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 리본을 모으는 걸\n"
+	.string "무척 좋아하는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle:: @ 828FC6B
-	.string "The Ledge-Jumping TRAINER$"
+	.string "언덕을 많이 뛰어넘은 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction:: @ 828FC85
-	.string "Jumped down ledges$"
+	.string "언덕을 뛰어넘었다$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory:: @ 828FC98
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER jumped down ledges\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "If there's a ledge to be jumped,\n"
-	.string "{STR_VAR_3} can't ignore it!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "언덕을 뛰어넘었다더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 언덕을 보면\n"
+	.string "뛰어넘지 않으면 못 지나가는\l"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle:: @ 828FD1D
-	.string "The Legendary TV Viewer$"
+	.string "전설의 TV 시청자$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction:: @ 828FD35
-	.string "Watched TV$"
+	.string "TV를 봤다$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory:: @ 828FD40
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER watched TV\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must love watching TV!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "TV를 봤다는 거야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} TV 애호가인\n"
+	.string "트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle:: @ 828FDA2
-	.string "The Time-Conscious TRAINER$"
+	.string "시간을 신경 쓰는 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction:: @ 828FDBD
-	.string "Checked the time$"
+	.string "시계를 봤다$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory:: @ 828FDCE
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked the time\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a punctual TRAINER\n"
-	.string "who's conscious of the time.$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "시계를 본 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 시간을 신경 쓰는\n"
+	.string "꼼꼼한 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle:: @ 828FE57
-	.string "The POKéMON LOTTERY Wizard$"
+	.string "포켓몬 추첨에 당첨된 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction:: @ 828FE72
-	.string "Won POKéMON LOTTERIES$"
+	.string "포켓몬 추첨에 당첨됐다$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory:: @ 828FE88
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won POKéMON LOTTERIES\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must have many friends\n"
-	.string "to trade POKéMON with!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "포켓몬 추첨에서 당첨됐다더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 포켓몬을 교환할\n"
+	.string "친구가 많은 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle:: @ 828FF0C
-	.string "The DAY CARE-Using Trainer$"
+	.string "키우미집 단골 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction:: @ 828FF27
-	.string "Left POKéMON at the DAY CARE$"
+	.string "키우미집에 포켓몬을 맡겼다$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory:: @ 828FF44
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left POKéMON with the\n"
-	.string "DAY CARE {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a real go-getter\n"
-	.string "who raises POKéMON aggressively!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "키우미집에 맡겼다더라고!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 어쨌든 키우고 보는\n"
+	.string "맹렬한 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle:: @ 828FFDD
-	.string "The CABLE CAR-Loving TRAINER$"
+	.string "케이블카 애호가 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction:: @ 828FFFA
-	.string "Rode the CABLE CAR$"
+	.string "케이블카에 탔다$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory:: @ 829000D
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER rode the CABLE CAR\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a busy TRAINER\n"
-	.string "who's up and down all the time!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "케이블카를 탔던 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 아래위로 왔다 갔다 하는\n"
+	.string "매우 바쁜 트레이너일 거야 분명!$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsTitle:: @ 8290097
-	.string "The Hot Spring-Loving TRAINER$"
+	.string "온천에 자주 다니는 트레이너$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsAction:: @ 82900B5
-	.string "Bathed in hot springs$"
+	.string "온천에 들어갔다$"
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsStory:: @ 82900CB
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bathed in hot springs\n"
-	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER with\n"
-	.string "baby-smooth skin!$"
+	.string "{STR_VAR_3}{K_I}라고 하는\n"
+	.string "트레이너의 이야기야...\p"
+	.string "놀랍게도 {STR_VAR_1}번이나\n"
+	.string "온천에 들어간 모양이야!\p"
+	.string "{STR_VAR_3}{K_EUNNEUN} 피부가 매끈매끈한\n"
+	.string "트레이너일 거야 분명!$"
 
 
 MauvilleCity_PokemonCenter_1F_EventScript_Storyteller:: @ 829014A
