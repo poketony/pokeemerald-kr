@@ -336,7 +336,7 @@ const u8 gText_MatchCallTheBigHit_Brawly_Intro2[] = _("나를 부른다!"); // �
 const u8 gText_MatchCallSwellShock_Wattson_Strategy[] = _("찌릿찌릿 감전시킨다"); // ビリビリ しびれ させる
 const u8 gText_MatchCallSwellShock_Wattson_Pokemon[] = _("전기 파워를 받아라!"); // でんきの パワ-を くらえ!
 const u8 gText_MatchCallSwellShock_Wattson_Intro1[] = _("도중에 그만두면"); // とちゅうで なげだしたら
-const u8 gText_MatchCallSwellShock_Wattson_Intro2[] = _("안된다...나도 말이지"); // いかんぞ ……ワシもな
+const u8 gText_MatchCallSwellShock_Wattson_Intro2[] = _("안된다 ...나도 말이지"); // いかんぞ ……ワシもな
 
 const u8 gText_MatchCallPassionBurn_Flannery_Strategy[] = _("단숨에 공격한다"); // つよきに せめる
 const u8 gText_MatchCallPassionBurn_Flannery_Pokemon[] = _("불타는 정열의 불꽃!"); // もえろ じょうねつの ほのお!
