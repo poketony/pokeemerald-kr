@@ -36,16 +36,16 @@ static void berry_fix_bg_hide(void);
 
 // .rodata
 
-static const u8 sText_BerryProgramUpdate[] = _("Berry Program Update");
-static const u8 sText_RubySapphire[] = _("Ruby/Sapphire");
-static const u8 sText_Emerald[] = _("Emerald");
+static const u8 sText_BerryProgramUpdate[] = _("나무열매 문제 수리 프로그램");
+static const u8 sText_RubySapphire[] = _("루비·사파이어");
+static const u8 sText_Emerald[] = _("에메랄드");
 
-static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("The Berry Program on your POKéMON\nRuby/Sapphire Game Pak will be updated.\n{COLOR RED}{SHADOW LIGHT_RED}Press the A Button.");
-static const u8 sText_EnsureGBAConnectionMatches[] = _("Please ensure the connection of your\nGame Boy Advance system matches this.\n{COLOR RED}{SHADOW LIGHT_RED}YES: Press the A Button.\nNO: Turn off the power and try again.");
-static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("Please turn on the power of POKéMON\nRuby/Sapphire while holding START and\nSELECT simultaneously. Then, ensure\nthe picture above appears.");
-static const u8 sText_TransmittingPleaseWait[] = _("Transmitting. Please wait.\n{COLOR RED}{SHADOW LIGHT_RED}Please do not turn off the power or\nunplug the Game Boy Advance Game\nLink Cable.");
-static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Please follow the instructions on your\nPOKéMON Ruby/Sapphire screen.");
-static const u8 sText_TransmissionFailureTryAgain[] = _("Transmission failure.\n{COLOR RED}{SHADOW LIGHT_RED}Please try again.");
+static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("포켓몬스터 루비·사파이어의\n나무열매 문제 수리 프로그램을 시작합니다\n{COLOR RED}{SHADOW LIGHT_RED}A 버튼을 눌러주십시오");
+static const u8 sText_EnsureGBAConnectionMatches[] = _("게임보이 어드밴스가 위와 같이\n연결되었는지 확인해 주십시오\n{COLOR RED}{SHADOW LIGHT_RED}맞다 ▶ A 버튼\n아니다 ▶ 전원을 끄고 다시");
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("START 버튼과 SELECT 버튼을 누르면서\n루비·사파이어의 전원을 켜주십시오\n그 후 위와 같은 화면이 나타나는지\n확인해 주십시오");
+static const u8 sText_TransmittingPleaseWait[] = _("전송 중이니 기다려 주십시오\n{COLOR RED}{SHADOW LIGHT_RED}게임보이 어드밴스의 전원을 끄거나\n통신케이블을 뽑지 말아 주십시오");
+static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("포켓몬스터 루비·사파이어 화면의\n설명에 따라 주십시오");
+static const u8 sText_TransmissionFailureTryAgain[] = _("전송에 실패했습니다\n{COLOR RED}{SHADOW LIGHT_RED}다시 한 번 시도해 주십시오");
 
 static const struct BgTemplate sBerryFixBgTemplates[] = {
     {

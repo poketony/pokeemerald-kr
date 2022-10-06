@@ -9,238 +9,314 @@
 .set NUM_OPPONENTS, VAR_0x8009
 
 BerryBlender_Text_WantToMakePokeblocks: @ 8292DEE
-	.string "Oh? Did you want to make some {POKEBLOCK}S\n"
-	.string "with this old-timer?$"
+	.string "오! 할아버지랑 같이\n"
+	.string "포켓몬스넥을 만들고 싶은 거니?$"
 
 BerryBlender_Text_Excellent: @ 8292E28
-	.string "Excellent!$"
+	.string "그렇구나!$"
 
 BerryBlender_Text_MadeOldTimerSad: @ 8292E33
-	.string "Oh…\n"
-	.string "You've made this old-timer sad…$"
+	.string "그렇구나...\n"
+	.string "할아버지 외로워...$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks: @ 8292E57
-	.string "Do you know how to make a {POKEBLOCK}?$"
+	.string "그럼 포켓몬스넥을 만드는 방법은\n"
+	.string "이미 알고 있니?$"
 
 BerryBlender_Text_LetsBerryBlender: @ 8292E78
-	.string "Let's get started, then!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "그럼 시작한다!\p"
+	.string "렛츠 나무열매블렌더!!$"
 
 BerryBlender_Text_ExplainBerryBlending: @ 8292EA6
-	.string "Okay, a little explanation, then.\p"
-	.string "Oh, don't worry, it's quite simple.\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\n"
-	.string "You'll see how easy it is when you try.$"
+	.string "좋아 설명할게!\p"
+	.string "뭐 간단한 거야!\p"
+	.string "나무열매블렌더의 마크가\n"
+	.string "자기 쪽으로 온다면\l"
+	.string "버튼을 누르기만 하면 돼!\p"
+	.string "뭐 실제로 해보면\n"
+	.string "금방 알게 돼!$"
 
 BerryBlender_Text_DontHaveAnyBerries: @ 8292F77
-	.string "Oh?\n"
-	.string "You don't have any BERRIES?\p"
-	.string "If you don't have any BERRIES,\n"
-	.string "you can't make any {POKEBLOCK}S.$"
+	.string "어라? 근데 나무열매를\n"
+	.string "가지고 있지 않은 모양이네\p"
+	.string "나무열매가 없으면 포켓몬스넥은\n"
+	.string "만들 수가 없어$"
 
 BerryBlender_Text_CanHaveOneOfMyBerries: @ 8292FD1
-	.string "Well, that won't do at all now, will it?\p"
-	.string "If you don't mind leftovers, you can\n"
-	.string "have one of my BERRIES.\p"
-	.string "That way, we could make some {POKEBLOCK}S\n"
-	.string "together using the BERRY BLENDER.$"
+	.string "뭐 어쩔 수 없지\p"
+	.string "할아버지의 남은 나무열매라도\n"
+	.string "괜찮다면 주마!\p"
+	.string "이걸로 같이 나무열매블렌더로\n"
+	.string "포켓몬스넥을 만들자꾸나!$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare: @ 829307D
-	.string "If I had some BERRIES left over,\n"
-	.string "I'd gladly give you one…\p"
-	.string "But, I don't have any to spare today.\n"
-	.string "We'll have to do this another time.$"
+	.string "할아버지의 남은 나무열매가 있으면\n"
+	.string "줄 수 있을 텐데...\p"
+	.string "오늘은 더 이상 남아있지 않아\n"
+	.string "다음에 같이 하자꾸나$"
 
 BerryBlender_Text_PokeblockCaseIsFull: @ 8293101
-	.string "But your {POKEBLOCK} CASE is full.\p"
-	.string "You should use some {POKEBLOCK}S before\n"
-	.string "you come see me again.$"
+	.string "근데 포켓몬스넥케이스가\n"
+	.string "가득 찬 것 같구먼\p"
+	.string "포켓몬스넥을 줄이고 나서\n"
+	.string "다시 오게나$"
 
 BerryBlender_Text_DontHavePokeblockCase: @ 8293157
-	.string "But you don't have a {POKEBLOCK} CASE.\p"
-	.string "You should get a {POKEBLOCK} CASE and then\n"
-	.string "come see me.$"
+	.string "근데 포켓몬스넥케이스를\n"
+	.string "아직 가지고 있지 않나 보구나\p"
+	.string "포켓몬스넥케이스를\n"
+	.string "받고 나서 다시 오게나$"
 
 BerryBlender_Text_LetsGetBlendingAlready: @ 82931AA
-	.string "Let's get blending already!$"
+	.string "빨리 섞어 보자꾸나!!$"
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet: @ 82931C6
-	.string "I wonder what kind of {POKEBLOCK} I'll get?\n"
-	.string "This is so exciting!$"
+	.string "어떤 포켓몬스넥이 완성될까?\n"
+	.string "두근두근거리네!$"
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs: @ 8293201
-	.string "Hi, there! Did you want to blend some\n"
-	.string "{POKEBLOCK}S with us?$"
+	.string "좋았어! 형네랑 같이\n"
+	.string "포켓몬스넥을 만들고 싶은 거구나!$"
+	// よっしっ! おにいさん たちと いっしょにｎ
+	// ポロックを つくりたいんだね!
 
 BerryBlender_Text_Okay: @ 8293237
-	.string "Okay!$"
+	.string "좋았어!$"
+	// よっしっ!
 
 BerryBlender_Text_ThatsTooBad: @ 829323D
-	.string "That's too bad…\p"
-	.string "But we'll always be around whenever\n"
-	.string "you get the urge to blend!$"
+	.string "아쉽네...\p"
+	.string "하지만 형네는\n"
+	.string "언제나 너를 기다리고 있단다!$"
+	// ざんねんだよ……ｐ
+	// でも おにいさん たちはｎ
+	// いつでも きみを まってる からね!
 
 BerryBlender_Text_KnowHowToMakePokeblocks2: @ 829328C
-	.string "Of course, you do know how to\n"
-	.string "blend {POKEBLOCK}S, don't you?$"
+	.string "물론 포켓몬스넥을 만드는 방법은\n"
+	.string "알고 있겠지?$"
+	// もちろん ポロックの つくりかたはｎ
+	// しっているよね?
 
 BerryBlender_Text_LetsBerryBlender2: @ 82932C3
-	.string "Let's get started, then!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "좋았어! 그럼 시작할게!\p"
+	.string "렛츠 나무열매블렌더!!$"
+	// よっしっ! じゃあ はじめるよ!ｐ
+	// レッツ きのみブレンダ-!!
 
 BerryBlender_Text_ExplainBerryBlending2: @ 82932F1
-	.string "Okay!\n"
-	.string "Let me explain it to you!\p"
-	.string "When the spinning BLENDER's arrow\n"
-	.string "reaches your marker, just press\l"
-	.string "the A Button.\p"
-	.string "That's all it takes.\n"
-	.string "Pretty easy, don't you think?$"
+	.string "좋았어!\n"
+	.string "형이 설명해 줄게!\p"
+	.string "나무열매블렌더의 마크가\n"
+	.string "자기가 있는 곳에 오면\l"
+	.string "버튼을 누르면 돼!\p"
+	.string "엄청\n"
+	.string "간단하지?$"
+	// よっしっ!ｎ
+	// おにいさんが せつめいして あげよう!ｐ
+	// きのみブレンダ-の マ-クがｎ
+	// じぶんの ところに きたらｌ
+	// ボタンを おすんだよ!ｐ
+	// とってもｎ
+	// かんたんな ことだろう?
 
 BerryBlender_Text_DontHaveAnyBerries2: @ 8293394
-	.string "Oh, but wait a second here…\n"
-	.string "You don't have any BERRIES.\p"
-	.string "You can't make any {POKEBLOCK}S without\n"
-	.string "BERRIES…\p"
-	.string "We'll always be around whenever you\n"
-	.string "get hold of some BERRIES to blend.$"
+	.string "...라고 생각했는데\n"
+	.string "넌 나무열매가 없는 모양이구나\p"
+	.string "나무열매가 없으면 포켓몬스넥은\n"
+	.string "만들 수 없어...\p"
+	.string "형네는\n"
+	.string "언제나 여기에 있을 테니까\l"
+	.string "나무열매를 찾으면 다시 하자!$"
+	// ……と おもったらｎ
+	// きみ きのみを もっていない みたいだねｐ
+	// きのみが ないと ポロックはｎ
+	// つくれないんだよ……ｐ
+	// おにいさん たちはｎ
+	// いつも ここに いるからｌ
+	// きのみを みつけたら また やろうね!
 
 BerryBlender_Text_PokeblockCaseIsFull2: @ 829343E
-	.string "Oh, but wait a second here…\n"
-	.string "Your {POKEBLOCK} CASE is full.\p"
-	.string "You should use some {POKEBLOCK}S and\n"
-	.string "then come back.$"
+	.string "...라고 생각했는데\n"
+	.string "포켓몬스넥케이스가 가득한 모양이구나\p"
+	.string "포켓몬스넥을 줄이고 나서\n"
+	.string "다시 오렴$"
+	// ……と おもったらｎ
+	// ポロックケ-スが いっぱいの ようだねｐ
+	// ポロックを へらしてからｎ
+	// また きてね
 
 BerryBlender_Text_DontHavePokeblockCase2: @ 82934A2
-	.string "Oh, but wait a second here…\n"
-	.string "You don't have a {POKEBLOCK} CASE.\p"
-	.string "You should get a {POKEBLOCK} CASE and\n"
-	.string "then come back.$"
+	.string "...라고 생각했는데\n"
+	.string "넌 포켓몬스넥케이스를\l"
+	.string "갖고 있지 않은 모양이구나\p"
+	.string "포켓몬스넥케이스를\n"
+	.string "받고 나서 다시 오렴$"
+	// ……と おもったらｎ
+	// きみ ポロックケ-スをｌ
+	// まだ もって ないようだねｐ
+	// ポロックケ-スをｎ
+	// もらってから また きてね
 
 @ Unused
 BerryBlender_Text_MakePokeblocksWithOurGroup: @ 829350B
-	.string "Oh, hello! Did you want to make some\n"
-	.string "{POKEBLOCK}S with our little group?$"
+	.string "어머어머! 아주머니네랑 같이\n"
+	.string "포켓몬스넥을 만들고 싶은 거니?$"
+	// あらあら! おばさん たちと いっしょにｎ
+	// ポロックを つくりたいのかしら?
 
 BerryBlender_Text_OhDear: @ 829354E
-	.string "Oh, dear!$"
+	.string "어머어머!$"
 
 BerryBlender_Text_LeftUsInShock: @ 8293558
-	.string "Oh, dear me…\p"
-	.string "You've left us in shock!$"
+	.string "어머어머...\p"
+	.string "아주머니네는 엄청 쇼크야!$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3: @ 829357E
-	.string "Naturally, you know how to make\n"
-	.string "{POKEBLOCK}S, don't you?$"
+	.string "그럼 물론 포켓몬스넥을 만드는 방법은\n"
+	.string "알고 있겠지?$"
 
 BerryBlender_Text_LetsBerryBlender3: @ 82935B1
-	.string "Okay, dear!\n"
-	.string "Let's get started!\p"
-	.string "Let's BERRY BLENDER!$"
+	.string "어머어머!\n"
+	.string "그럼 시작할게!\p"
+	.string "렛츠 나무열매블렌더!!$"
 
 BerryBlender_Text_ExplainBerryBlending3: @ 82935E5
-	.string "Oh, dear!\p"
-	.string "Then, I'll explain it to you nicely.\p"
-	.string "When the BLENDER's arrow spins to\n"
-	.string "your marker, press the A Button.\p"
-	.string "That's all it takes.\n"
-	.string "Isn't it simple?$"
+	.string "어머어머!\p"
+	.string "그럼 아주머니가\n"
+	.string "친절하게 설명해 줄게!\p"
+	.string "나무열매블렌더의 마크가\n"
+	.string "자기가 있는 곳에 오면\l"
+	.string "버튼을 파박 누르면 돼!\l"
+	.string "간단하지-!$"
+	// あらあら!ｐ
+	// じゃあ おばさんがｎ
+	// やさしく せつめいして あげるわね!ｐ
+	// きのみブレンダ-の マ-クがｎ
+	// じぶんの ところに きたらｌ
+	// ボタンを バシッと おすだけで いいのよ!ｌ
+	// かんたん ね-!
 
 BerryBlender_Text_DontHaveAnyBerries3: @ 829367D
-	.string "You don't have any BERRIES,\n"
-	.string "do you?\p"
-	.string "If you don't have any BERRIES,\n"
-	.string "you can't make any {POKEBLOCK}S.\p"
-	.string "We'll always be making {POKEBLOCK}S here,\n"
-	.string "so let's make some together when\l"
-	.string "you get a BERRY or two.$"
+	.string "너 나무열매가 없구나\p"
+	.string "나무열매가 없으면 포켓몬스넥은\n"
+	.string "만들 수 없어...\p"
+	.string "아주머니네는 언제나 여기서\n"
+	.string "포켓몬스넥을 만들고 있을 테니까\l"
+	.string "나무열매를 찾으면 다시 하자!$"
+	// あなた きのみを もってないわねｐ
+	// きのみが ないと ポロックはｎ
+	// つくれないのよ……ｐ
+	// おばさん たち いつでも ここでｎ
+	// ポロックを つくっているからｌ
+	// きのみを みつけたら また やろうね!
 
 BerryBlender_Text_PokeblockCaseIsFull3: @ 8293738
-	.string "Your {POKEBLOCK} CASE is full,\n"
-	.string "it looks like.\p"
-	.string "You should use some {POKEBLOCK}S up\n"
-	.string "and then come back.$"
+	.string "포켓몬스넥케이스가\n"
+	.string "가득한 모양이구나\p"
+	.string "포켓몬스넥을 줄이고 나서\n"
+	.string "다시 오렴$"
+	// ポロックケ-スがｎ
+	// いっぱいの ようねｐ
+	// ポロックを へらしてからｎ
+	// また きてね
 
 BerryBlender_Text_DontHavePokeblockCase3: @ 8293792
-	.string "You haven't gotten a {POKEBLOCK} CASE\n"
-	.string "yet, it looks like.\p"
-	.string "You need to get a {POKEBLOCK} CASE before\n"
-	.string "you come back.$"
+	.string "포켓몬스넥케이스를\n"
+	.string "아직 갖고 있지 않나 보구나\p"
+	.string "포켓몬스넥케이스를\n"
+	.string "받고 나서 다시 오렴$"
+	// ポロックケ-スをｎ
+	// まだ もって ないようねｐ
+	// ポロックケ-スをｎ
+	// もらってから また きてね
 
 BerryBlender_Text_SetNewBlenderRecord: @ 82937F9
-	.string "Okay! Today's going to be the day that\n"
-	.string "I set a new BLENDER speed record!$"
+	.string "좋았어! 오늘이야말로\n"
+	.string "블렌더의 최고 속도를 낼 거야!$"
+	// よっしっ! きょうこそｎ
+	// ブレンダ-の さいこうそくどを だすぞ!
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs: @ 8293842
-	.string "Oh, dear!\n"
-	.string "You look as if you're good at blending.\l"
-	.string "Would you like to join us?$"
+	.string "어머어머!\n"
+	.string "너 잘 섞는구나!\l"
+	.string "같이 하지 않을래?$"
+	// あらあら!ｎ
+	// あなた まぜるの うまそうね!ｌ
+	// いっしょに やらない?
 
 BerryBlender_Text_MakeDeliciousPokeblocks: @ 829388F
-	.string "I'm going to make delicious {POKEBLOCK}S\n"
-	.string "and make my POKéMON cuter.$"
+	.string "맛있는 포켓몬스넥을 만들어서\n"
+	.string "내 포켓몬을\l"
+	.string "더 더 귀엽게 만들 거야-$"
+	// おいしい ポロックを つくってｎ
+	// わたしの ポケモンをｌ
+	// もっと もっと かわいく するの-
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink: @ 82938CD
-	.string "{POKEBLOCK}S will be made with your friends \n"
-	.string "from BERRIES in the BERRY BLENDER.\p"
-	.string "Is it okay to save the game before\n"
-	.string "linking with your friends?$"
+	.string "나무열매블렌더로 친구와 함께\n"
+	.string "나무열매로부터\l"
+	.string "포켓몬스넥을 만듭니다\p"
+	.string "통신하기 전에\n"
+	.string "리포트를 써도 괜찮겠습니까?$"
 
 BerryBlender_Text_SearchingForFriends: @ 8293955
-	.string "Searching for your friends…\n"
-	.string "… … B Button: Cancel$"
+	.string "친구를 찾고 있습니다\n"
+	.string "...B 버튼으로 취소$"
 
 BerryBlender_Text_Player1Arrived: @ 8293986
-	.string "{STR_VAR_1} arrived.$"
+	.string "{STR_VAR_1}님이 왔습니다$"
 
 BerryBlender_Text_Player1And2Arrived: @ 8293992
-	.string "{STR_VAR_1} and {STR_VAR_2} arrived.$"
+	.string "{STR_VAR_1}님과 {STR_VAR_2}님이\n"
+	.string	"왔습니다$"
 
 BerryBlender_Text_AllPlayersArrived: @ 82939A5
-	.string "{STR_VAR_1}, {STR_VAR_2}, and\n"
-	.string "{STR_VAR_3} arrived.$"
+	.string "{STR_VAR_1}님과 {STR_VAR_2}님\n"
+	.string "{STR_VAR_3}님이 왔습니다$"
 
 BerryBlender_Text_NoBerriesLink: @ 82939BD
-	.string "You have no BERRIES.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "나무열매가 없어서\n"
+	.string "나무열매블렌더는 쓸 수 없습니다$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink: @ 82939F3
-	.string "Your {POKEBLOCK} CASE is full.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "포켓몬스넥케이스가 가득해서\n"
+	.string "나무열매블렌더는 쓸 수 없습니다$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink: @ 8293A2D
-	.string "You don't have a {POKEBLOCK} CASE.\n"
-	.string "The BERRY BLENDER can't be used.$"
+	.string "포켓몬스넥케이스가 없어서\n"
+	.string "나무열매블렌더는 쓸 수 없습니다$"
 
 BerryBlender_Text_LoveMakingPokeblocks: @ 8293A6B
-	.string "I love making {POKEBLOCK}S.\p"
-	.string "I always have some BERRIES with me.$"
+	.string "나는 포켓몬스넥을\n"
+	.string "만드는 게 너무 좋아서\p"
+	.string "언제나 나무열매를\n"
+	.string "갖고 오지$"
 
 BerryBlender_Text_MakePokeblocksUsingBerryBlender: @ 8293AA5
-	.string "If you'd like, we could make some\n"
-	.string "{POKEBLOCK}S together using the\l"
-	.string "BERRY BLENDER.$"
+	.string "만약 괜찮다면\n"
+	.string "같이 나무열매블렌더로\l"
+	.string "포켓몬스넥을 만들자고$"
 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne: @ 8293AF0
-	.string "Oh?\n"
-	.string "You don't have any BERRIES?\p"
-	.string "Well, that won't do at all now, will it?\p"
-	.string "If you don't mind leftovers, you can\n"
-	.string "have one of my BERRIES.$"
+	.string "어라?\n"
+	.string "나무열매를 가지고 있지 않니?\p"
+	.string "어쩔 수 없지 뭐\p"
+	.string "뭐 어쩔 수 없지\p"
+	.string "아저씨의 남은 나무열매라도\n"
+	.string "괜찮다면 줄게!$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether: @ 8293B76
-	.string "We'll use it to make {POKEBLOCK}S together\n"
-	.string "using the BERRY BLENDER.$"
+	.string "이걸로 같이 나무열매블렌더로\n"
+	.string "포켓몬스넥을 만들자!$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare: @ 8293BB4
-	.string "Oh?\n"
-	.string "You don't have any BERRIES?\p"
-	.string "If I had some left over, I'd gladly\n"
-	.string "give you one…\p"
-	.string "But, I don't have any to spare today.\n"
-	.string "Sorry about that.$"
+	.string "어라?\n"
+	.string "나무열매를 가지고 있지 않니?\p"
+	.string "아저씨 여분이 있다면\n"
+	.string "줄 수 있을 텐데...\p"
+	.string "오늘은 더 이상 남아있지\n"
+	.string "않아 미안해$"
 
 BerryBlender_EventScript_BerryBlender1:: @ 8293C3E
 	lockall

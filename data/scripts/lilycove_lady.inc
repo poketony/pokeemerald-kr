@@ -599,261 +599,385 @@ LilycoveCity_PokemonCenter_1F_EventScript_Pikachu:: @ 82A8A56
     end
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady: @ 82A8A69
-    .string "I'm the FAVOR LADY…$"
+    .string "난 조르기아가씨야...$"
+	// わたし おねだり おねえさん……
 
 LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing: @ 82A8A7D
-    .string "I've recently developed an obsession\n"
-    .string "for {STR_VAR_1} things…$"
+    .string "난 최근\n"
+    .string "{STR_VAR_1}한 것들에 관심이 많아...$"
+	// わたし さいきんｎ
+	// §いした ものに むちゅうなの……
 
 LilycoveCity_PokemonCenter_1F_Text_ThankYouForLastTime: @ 82A8AB1
-    .string "Oh…\n"
-    .string "Thank you for last time…$"
+    .string "어머...\n"
+    .string "지난번에 고마웠어...$"
+	// あら……ｎ
+	// このまえは どうも……
 
 LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeBadThing: @ 82A8ACE
-    .string "Before, I think it was {STR_VAR_3}…\p"
-    .string "{STR_VAR_3} gave me one {STR_VAR_2},\n"
-    .string "saying it was {STR_VAR_1}.\p"
-    .string "But it wasn't {STR_VAR_1}.\n"
-    .string "Not in the least bit.$"
+    .string "전에 말이지...\n"
+    .string "{STR_VAR_3}씨라고 했었나...\p"
+    .string "{STR_VAR_1}하다면서\n"
+    .string "{STR_VAR_2}{K_EULREUL} 줬었거든\p"
+	.string "하지만 전혀\n"
+    .string "{STR_VAR_1}하지 않았어!$"
+	// まえにね……ｎ
+	// §えさん だった かしら……ｐ
+	// §い だからってｎ
+	// §うを くれたのよｐ
+	// だけど ちっともｎ
+	// §いじゃ なかったのよ!
 
 LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeGreatThing: @ 82A8B36
-    .string "Before, {STR_VAR_3} gave me a very\n"
-    .string "{STR_VAR_1} {STR_VAR_2}.\p"
-    .string "I cherish it now.$"
+    .string "전에 말이지 {STR_VAR_3}씨가\n"
+    .string "엄청 {STR_VAR_1}한 {STR_VAR_2}{K_EULREUL}\l"
+    .string "나한테 줬었어\p"
+    .string "엄청 소중히 하고 있지$"
+	// まえにね §えさんがｎ
+	// とても §いな §うをｌ
+	// わたしに くれたのｐ
+	// すごく たいせつに してるのよ
 
 LilycoveCity_PokemonCenter_1F_Text_WillYouShareThing: @ 82A8B69
-    .string "Listen, if you have anything that\n"
-    .string "is {STR_VAR_1}, will you share it\l"
-    .string "with me?$"
+    .string "있지... 만약 괜찮다면\n"
+    .string "네가 가지고 있는 {STR_VAR_1}한 걸\l"
+    .string "나한테 나눠주지 않을래?$"
+	// ねえ…… もし よかったらｎ
+	// あなたの もってる §いな ものｌ
+	// わたしに わけて くれない かしら?
 
 LilycoveCity_PokemonCenter_1F_Text_WhatWillYouGiveMe: @ 82A8BAD
-    .string "…Really?\n"
-    .string "What will you give me?$"
+    .string "...정말? 뭘 줄 거야?$"
+	// ……ほんと? なにを いただけるの?
 
 LilycoveCity_PokemonCenter_1F_Text_IsThatSoGoodbye: @ 82A8BCD
-    .string "Is that so?\n"
-    .string "Then, it's good-bye…$"
+    .string "앗 그래...\n"
+    .string "그럼 안녕...$"
+	// あっ そう……ｎ
+	// じゃあ さよならね……
 
 LilycoveCity_PokemonCenter_1F_Text_NotWillingToShare: @ 82A8BEE
-    .string "Oh…\n"
-    .string "You're not willing to share?$"
+    .string "어라... 안 줄 거야?$"
+	// あら…… いただけないの?
 
 LilycoveCity_PokemonCenter_1F_Text_IllTryToCherishIt: @ 82A8C0F
-    .string "Oh?\n"
-    .string "That {STR_VAR_2} is {STR_VAR_1}?\p"
-    .string "…Oh, is that right?\p"
-    .string "Well, I owe you a thanks anyway.\n"
-    .string "I'll try to cherish it…$"
+    .string "엣...\n"
+    .string "{STR_VAR_2}{K_IGA} {STR_VAR_1}하다고?\p"
+    .string "...헤에에 그런가...\p"
+    .string "일단 고마워...\n"
+    .string "꼭 소중히 할게...$"
+	// えっ……ｎ
+	// §うって §い?ｐ
+	// ……へえぇ そうなの かしらねぇ……ｐ
+	// とりあえず ありがとう……ｎ
+	// きっと たいせつに するわね……
 
 LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis: @ 82A8C6F
-    .string "Oh…\p"
-    .string "That's a quite {STR_VAR_1}\n"
-    .string "{STR_VAR_2}…\p"
-    .string "Isn't it nice?\n"
-    .string "It's so dreamy…\p"
-    .string "Thank you…\n"
-    .string "I will cherish this…$"
+    .string "어머...\p"
+    .string "제법 {STR_VAR_1}한 {STR_VAR_2}{K_I}네\n"
+    .string "멋지다... 황홀해...\p"
+    .string "고마워...\n"
+    .string "소중히 할게...$"
+	// まぁ……ｐ
+	// なかなか §いな §うねｎ
+	// すてき じゃない…… うっとり するわ……ｐ
+	// ありがとう……ｎ
+	// たいせつに するわね……
 
 LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis: @ 82A8CC8
-    .string "…Oh, oh, oh…\p"
-    .string "This is amazing!\n"
-    .string "This really is {STR_VAR_1}!\p"
-    .string "I never knew that one {STR_VAR_2}\n"
-    .string "could be this {STR_VAR_1}!\p"
-    .string "Thank you!\p"
-    .string "I will treasure this for the rest\n"
-    .string "of my life!$"
+    .string "...괴 괴 괴\p"
+    .string "굉장해-!\n"
+    .string "엄청 {STR_VAR_1}해! {STR_VAR_1}하다고!\p"
+    .string "이렇게까지 {STR_VAR_1}한 {STR_VAR_2}{K_IGA}\n"
+    .string "세상에 있을 줄은 몰랐어!\p"
+    .string "고마워!\p"
+    .string "평생 내\n"
+    .string "보물처럼 여길게!$"
+	// ……す す すっｐ
+	// すっご-いっ!ｎ
+	// なんて §い! §いなのっ!ｐ
+	// ここまで §いな §うがｎ
+	// よのなかに あるなんて!ｐ
+	// ありがとう!ｐ
+	// いっしょう わたしのｎ
+	// たからものに するわ!
 
 LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn: @ 82A8D5D
-    .string "I'll give you this wonderful item in\n"
-    .string "return for your fabulous gift.\p"
-    .string "I hope you will cherish it…$"
+    .string "멋진 걸 준 답례로\n"
+    .string "엄청난 선물을 주.울.게!\p"
+    .string "소중히 해줘...$"
+	// すてきな ものを くれた おれいにｎ
+	// とっておきの プレゼントを あ®げ®る!ｌ
+	// だいじにして ちょうだいね……
 
 LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt: @ 82A8DBD
-    .string "Oh, you can't have it if you don't have\n"
-    .string "the space for it.\p"
-    .string "Please come see me when you get\n"
-    .string "your BAG organized…$"
+    .string "어머 이미 가득하네...\p"
+    .string "도구를 정리하고 나서\n"
+    .string "또 오렴...$"
+	// あら もちきれない じゃないの……ｐ
+	// どうぐを せいり してからｎ
+	// また いらっしゃい……
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady: @ 82A8E2B
-    .string "I'm the QUIZ LADY!\n"
-    .string "I love quizzes!$"
+    .string "난 퀴즈아가씨!\n"
+    .string "퀴즈가 너-무 좋아!$"
+	// あたし クイズ おねえさん!ｎ
+	// クイズ だ-いすき!
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz: @ 82A8E4E
-    .string "Oh?\p"
-    .string "I'm waiting for a challenger to answer\n"
-    .string "the quiz you made.\p"
-    .string "We can chat another time, okay?$"
+    .string "어라?\p"
+    .string "지금은 네가 생각한 퀴즈에\n"
+    .string "도전할 사람을 찾고 있어!\l"
+    .string "그러니까 다음에 얘기하자!$"
+	// あれっ?ｐ
+	// いまは あなたの かんがえた クイズにｎ
+	// チャレンジする ひとを さがしてるの!ｌ
+	// だから また こんどね!
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger: @ 82A8EAC
-    .string "I'm waiting for someone to challenge\n"
-    .string "a quiz this {STR_VAR_1} thought up!$"
+    .string "지금 {STR_VAR_1}씨가 생각한 퀴즈에\n"
+    .string "대답해줄 사람을 찾고 있어!$"
+	// いま §いさんの かんがえた クイズにｎ
+	// こたえて くれる ひとを さがしてるの!
 
 LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge: @ 82A8EEC
-    .string "If you answer correctly, you can win\n"
-    .string "fabulous prizes!\p"
-    .string "Would you like to take the quiz\n"
-    .string "challenge?$"
+    .string "정답을 맞추면\n"
+    .string "상품을 줄게!\l"
+    .string "너 도전해보지 않을래?$"
+	// せいかい したらｎ
+	// しょうひんも あるよ-!ｌ
+	// あなた チャレンジ して みない?
 
 LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer: @ 82A8F4D
-    .string "… … … … … …\n"
-    .string "… … … … … …$"
+    .string "... ... ... ...\n"
+    .string "... ... ... ...$"
+	// …… …… …… ……ｎ
+	// …… …… …… ……
 
 LilycoveCity_PokemonCenter_1F_Text_HowBoringBye: @ 82A8F65
-    .string "Oh, how boring!\n"
-    .string "Bye-bye!$"
+    .string "재미없게! 바이바이!$"
+	// つまんないの! バイバイ!
 
 LilycoveCity_PokemonCenter_1F_Text_YoureGoingToQuit: @ 82A8F7E
-    .string "Awww!\n"
-    .string "You're going to quit?$"
+    .string "엣-! 포기하려고?$"
+	// えっ-! あきらめちゃうの?
 
 LilycoveCity_PokemonCenter_1F_Text_TakeTheQuizAnotherTime: @ 82A8F9A
-    .string "Please take the quiz challenge\n"
-    .string "another time!$"
+    .string "다음에 도전해줘!$"
+	// また チャレンジ してね-!
 
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRight: @ 82A8FC7
-    .string "You're amazing! You've got it right!\n"
-    .string "You're one sharp customer!$"
+    .string "굉장해! 정답이야!\n"
+    .string "꺄-! 너 센스 있구나-!$"
+	// すっごい! せいかい!ｎ
+	// きゃ-! あなたって センス あるね-!
 
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize: @ 82A9007
-    .string "Congratulations!\n"
-    .string "You've got the quiz right!\p"
-    .string "You've won a prize provided by\n"
-    .string "{STR_VAR_1}!$"
+    .string "퀴즈를 맞춘 걸 축하해-!\n"
+    .string "{STR_VAR_1}씨로부터의\l"
+    .string "보상이 있어-!$"
+	// クイズ せいかい おめでと-!ｎ
+	// §いさん からのｌ
+	// ごほうびが ありま-す!
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY: @ 82A9056
-    .string "{STR_VAR_1} received\n"
-    .string "one {STR_VAR_2}!$"
+    .string "{STR_VAR_1}{K_EUNNEUN}\n"
+    .string "{STR_VAR_2}{K_EULREUL} 받았다!$"
+	// §いはｎ
+	// §うを もらった!
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp: @ 82A906A
-    .string "Oh? Your BAG is filled up!\n"
-    .string "Come see me when you have room.$"
+    .string "어라-? 도구가 가득한 모양이네!\n"
+    .string "가방을 정리하고 나서 다시 와줘!$"
+	// あれ-? どうぐが いっぱい みたいだよ!ｎ
+	// バッグを せいり してから また きてね!
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs: @ 82A90A5
-    .string "Hmm… Wrong!\n"
-    .string "The correct answer is “{STR_VAR_3}”!$"
+    .string "으-음… 틀.렸.어!\n"
+    .string "정답은 “{STR_VAR_3}”{K_I}야!$"
+	// う-ん…… は®ず®れ!ｎ
+	// せいかいは §えでした!
 
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize: @ 82A90CD
-    .string "Too bad!\p"
-    .string "I get to keep the quiz prize\n"
-    .string "{STR_VAR_1} now!$"
+    .string "아깝네-!\p"
+    .string "퀴즈를 맞춘 보상인\n"
+	.string "{STR_VAR_1}{K_EUNNEUN}\l"
+    .string "내가 가져갈게-!$"
+	// ざんねん でした-!ｐ
+	// クイズ せいかいの しょうひんのｎ
+	// §いはｌ
+	// おねえさんが もらっちゃいま-す!
 
 LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz: @ 82A90FB
-    .string "Listen, listen!\n"
-    .string "Would you like to make your own quiz?$"
+    .string "있지! 있지!\n"
+    .string "퀴즈 만들어보지 않을래?$"
+	// ねえ! ねえ! あなたもｎ
+	// クイズ つくって みない?
 
 LilycoveCity_PokemonCenter_1F_Text_MaybeNextTime: @ 82A9131
-    .string "Oh, I see…\n"
-    .string "Well, maybe next time!$"
+    .string "그렇구나...\n"
+    .string "그럼 다음에 보자!$"
+	// そっか……ｎ
+	// じゃあ- また こんどね!
 
 LilycoveCity_PokemonCenter_1F_Text_PickYourPrize: @ 82A9153
-    .string "Okay, the first thing you have to do\n"
-    .string "is pick the prize for the person that\l"
-    .string "answers your quiz correctly.\p"
-    .string "But beware, if the person taking\n"
-    .string "the quiz can't get it right, I get to\l"
-    .string "keep the prize!$"
+    .string "그럼- 우선\n"
+    .string "퀴즈를 맞춘 사람에게\l"
+    .string "줄 상품을 정해줘!\p"
+    .string "단 퀴즈에 도전한 사람이\n"
+    .string "답을 못 맞췄을 때는\l"
+	.string "내가 가져갈 거야!\l"
+    .string "주의해줘!$"
+	// じゃあ- まずｎ
+	// クイズに せいかいした ひとにｌ
+	// あげる しょうひんを きめてね!ｐ
+	// ただし クイズに チャレンジした ひとがｎ
+	// こたえを はずしちゃった ときはｌ
+	// おねえさんが しょうひん もらっちゃうよ!ｌ
+	// ちゅうい してね!
 
 LilycoveCity_PokemonCenter_1F_Text_QuitChoosingPrize: @ 82A9212
-    .string "If you don't choose a prize,\n"
-    .string "your quiz can't be made.\p"
-    .string "Are you going to quit making\n"
-    .string "your quiz?$"
+    .string "상품을 정하지 않으면\n"
+    .string "퀴즈는 만들 수 없어!\l"
+    .string "그만 만들래?$"
+	// しょうひんを きめないとｎ
+	// クイズは できないよ!ｌ
+	// つくるの やめちゃうの?
 
 LilycoveCity_PokemonCenter_1F_Text_WriteYourQuiz: @ 82A9270
-    .string "Oh, how nice!\n"
-    .string "That's a wonderful prize!\p"
-    .string "Next, you need to write your quiz\n"
-    .string "question and its answer.$"
+    .string "근사한 상품이네!\p"
+    .string "그럼 다음으로 퀴즈의\n"
+    .string "내용과 답을 생각해줘!$"
+	// すてきな しょうひんだね!ｐ
+	// じゃあ つぎに クイズのｎ
+	// もんだいと こたえを かんがえてね!
 
 LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizQuestion: @ 82A92D3
-    .string "Are you going to quit writing\n"
-    .string "your quiz question?$"
+    .string "퀴즈의 내용을 안 만들 거야?$"
+	// クイズの もんだい つくるの やめる?
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizAnswer: @ 82A9305
-    .string "Are you going to quit choosing\n"
-    .string "your quiz answer?$"
+    .string "퀴즈의 답을 안 정할 거야?$"
+	// クイズの こたえ きめるの やめる?
 
 LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger: @ 82A9336
-    .string "Thank you!\n"
-    .string "You've put together a nice quiz.\p"
-    .string "I'll go look for someone who'll take\n"
-    .string "your quiz challenge right away.$"
+    .string "수고했어-!\p"
+	.string "근사한 퀴즈가 완성됐네!\p"
+    .string "바로 도전할 사람을\n"
+    .string "찾으러 갔다 올게!$"
+	// おつかれさま-!ｐ
+	// すてきな クイズが できたね!ｐ
+	// さっそく チャレンジ してくれる ひとをｎ
+	// さがしに いって くるね!
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady: @ 82A93A7
-    .string "I'm the CONTEST LADY!\n"
-    .string "I sure do love CONTESTS!$"
+    .string "난 콘테스트아가씨!\n"
+    .string "콘테스트가 너무 좋아-!$"
+	// あたし コンテスト おねえさん!ｎ
+	// コンテスト だいすき-!
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock: @ 82A93D6
-    .string "Thanks for your {POKEBLOCK} before!$"
+    .string "지난번 포켓몬스넥 고마웠어-!$"
+	// このまえは ポロック ありがと-!
 
 LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality: @ 82A93F4
-    .string "This is my friend {STR_VAR_1}!\n"
-    .string "It's the epitome of {STR_VAR_2}!\p"
-    .string "But I think that it will display\n"
-    .string "even more {STR_VAR_2}!$"
+    .string "이쪽은 친구인 {STR_VAR_1}{K_I}야!\n"
+    .string "엄-청 {STR_VAR_2}{K_IGA} 넘치지!\p"
+    .string "하지만- 좀 더 좀 더\n"
+    .string "{STR_VAR_2}{K_EULREUL} 가지고 싶대-!$"
+	// こっちは おともだちの §いだよ!ｎ
+	// と-っても §うい のよ!ｐ
+	// でもね- もっと もっとｎ
+	// §うく なると おもうんだ-!
 
 LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase: @ 82A9451
-    .string "So, I need your help!\p"
-    .string "Please, may I have one {POKEBLOCK}?\n"
-    .string "All I'm asking for is one!\p"
-    .string "…Oh, but…\n"
-    .string "Don't you have a {POKEBLOCK} CASE?\l"
-    .string "That's no good. Next time, then!$"
+    .string "그러니까 부탁이야-!\p"
+    .string "네 포켓몬스넥을 하나라도 좋으니까\n"
+    .string "나한테 줘!\p"
+    .string "...아니 잠깐만?\n"
+    .string "너 포켓몬스넥케이스 없어?\l"
+    .string "어쩔 수 없지- 그럼 다음에 봐-!$"
+	// だから おねがい-!ｐ
+	// あなたの ポロック- ひとつで いいからｎ
+	// あたしたちに ちょうだい!ｐ
+	// …… って あれ-?ｎ
+	// あなた ポロックケ-ス もってないじゃん?ｌ
+	// しかたないな- じゃあ また こんどね-!
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock: @ 82A94E8
-    .string "So, I need your help!\p"
-    .string "Please, may I have one {POKEBLOCK}?\n"
-    .string "All I'm asking for is one!$"
+    .string "그러니까 부탁이야-!\p"
+    .string "네 포켓몬스넥을 하나라도 좋으니까\n"
+    .string "나한테 줘!$"
+	// だから おねがい!ｐ
+	// あなたの ポロック ひとつで いいからｎ
+	// あたしたちに ちょうだい!
 
 LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock: @ 82A9537
-    .string "Awww!\n"
-    .string "I can't have one {POKEBLOCK}?!$"
+    .string "에-! 포켓몬스넥 안 줄 거야?$"
+	// え-! ポロック くれないの?
 
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate: @ 82A9556
-    .string "Sheesh!\n"
-    .string "What a cheapskate!$"
+    .string "쳇! 이 구두쇠-!$"
+	// ちぇっ! けち-!
 
 LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock: @ 82A9571
-    .string "Yay!\n"
-    .string "Thank you!\p"
-    .string "I'll feed my POKéMON your {POKEBLOCK}\n"
-    .string "right away.$"
+    .string "와-아! 해냈다!\p"
+    .string "바로 먹여봐야지-!$"
+	// わ-い! やった-!ｐ
+	// さっそく たべさせて みよ-っと!
 
 LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks: @ 82A95AD
-    .string "…It doesn't seem to have changed\n"
-    .string "in any way at all…\p"
-    .string "Hmm…\p"
-    .string "Oh, well!\n"
-    .string "Thank you very much!$"
+    .string "...왠지 전혀\n"
+    .string "바뀌지 않은 것 같은데...\p"
+    .string "으-음...\p"
+    .string "뭐 상관없지!\n"
+    .string "정말 고마워-$"
+	// ……なんか ぜんぜんｎ
+	// かわってない ような……ｐ
+	// う-ん……ｐ
+	// まあ いっか!ｎ
+	// どうも ありがと-
 
 LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks: @ 82A9605
-    .string "Oh, yay!\n"
-    .string "It's really delighted!\p"
-    .string "I think it really improved {STR_VAR_1}'s\n"
-    .string "{STR_VAR_2} quality, too.\p"
-    .string "Thank you so much!$"
+    .string "와-아! 엄청 기뻐하고 있어-!\p"
+    .string "게다가 {STR_VAR_1}의 {STR_VAR_2}이\n"
+    .string "더욱 갈고닦아진 것 같아!\l"
+    .string "정말 고마워-!$"
+	// わ-っ! すっごく よろこんでるよ-!ｐ
+	// それに §いの §うさにｎ
+	// みがきが かかった みたい!ｌ
+	// どうも ありがと-!
 
 LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests: @ 82A9669
-    .string "Hmm…\p"
-    .string "I think we may be ready to enter\n"
-    .string "some CONTESTS.\p"
-    .string "If you see us in one somewhere,\n"
-    .string "I hope you'll cheer for us.$"
+    .string "으-음...\p"
+    .string "슬슬 콘테스트에\n"
+    .string "참가해볼까-?\p"
+    .string "만약 어딘가에서 우리를\n"
+    .string "본다면 꼭 응원해줘-!$"
+	// う-ん……ｐ
+	// そろそろ コンテストにｎ
+	// さんかして みようかな-?ｐ
+	// もしも どこかで あたし たちをｎ
+	// みかけたら ぜったい おうえん してね-!
 
 LilycoveCity_PokemonCenter_1F_Text_Zigzagoon: @ 82A96DA
-    .string "{STR_VAR_1}: Guguuh!$"
+    .string "{STR_VAR_1}: 구우구우!$"
+	// §い『ぐうぐぅ!
 
 LilycoveCity_PokemonCenter_1F_Text_Kecleon: @ 82A96E6
-    .string "{STR_VAR_1}: Igigigiiih!$"
+    .string "{STR_VAR_1}: 이기기기이!$"
+	// $§い『いぎぎぎぃ!!
 
 LilycoveCity_PokemonCenter_1F_Text_Poochyena: @ 82A96F6
-    .string "{STR_VAR_1}: Baaarun…$"
+    .string "{STR_VAR_1}: 바아-앙$"
+	// §い『バア-ゥン ……
 
 LilycoveCity_PokemonCenter_1F_Text_Pikachu: @ 82A9703
-    .string "{STR_VAR_1}: Pikka!$"
+    .string "{STR_VAR_1}: 피카!$"
+	// §い『ぴっか!
 
 LilycoveCity_PokemonCenter_1F_Text_Skitty: @ 82A970E
-    .string "{STR_VAR_1}: Umyaaaan!$"
+    .string "{STR_VAR_1}: 우뮤아아앙!$"
+	// §い『うみゅぁぁぁん!!

@@ -26,98 +26,98 @@ static u8 GetBerryCountByBerryTreeId(u8 id);
 static u16 GetStageDurationByBerryType(u8);
 
 //.rodata
-static const u8 sBerryDescriptionPart1_Cheri[] = _("Blooms with delicate pretty flowers.");
-static const u8 sBerryDescriptionPart2_Cheri[] = _("The bright red BERRY is very spicy.");
-static const u8 sBerryDescriptionPart1_Chesto[] = _("The BERRY's thick skin and fruit are");
-static const u8 sBerryDescriptionPart2_Chesto[] = _("very tough. It is dry-tasting all over.");
-static const u8 sBerryDescriptionPart1_Pecha[] = _("Very sweet and delicious.");
-static const u8 sBerryDescriptionPart2_Pecha[] = _("Also very tender - handle with care.");
-static const u8 sBerryDescriptionPart1_Rawst[] = _("If the leaves grow long and curly,");
-static const u8 sBerryDescriptionPart2_Rawst[] = _("the BERRY seems to grow very bitter.");
-static const u8 sBerryDescriptionPart1_Aspear[] = _("The hard BERRY is dense with a rich");
-static const u8 sBerryDescriptionPart2_Aspear[] = _("juice. It is quite sour.");
-static const u8 sBerryDescriptionPart1_Leppa[] = _("Grows slower than CHERI and others.");
-static const u8 sBerryDescriptionPart2_Leppa[] = _("The smaller the BERRY, the tastier.");
-static const u8 sBerryDescriptionPart1_Oran[] = _("A peculiar BERRY with a mix of flavors.");
-static const u8 sBerryDescriptionPart2_Oran[] = _("BERRIES grow in half a day.");
-static const u8 sBerryDescriptionPart1_Persim[] = _("Loves sunlight. The BERRY's color");
-static const u8 sBerryDescriptionPart2_Persim[] = _("grows vivid when exposed to the sun.");
-static const u8 sBerryDescriptionPart1_Lum[] = _("Slow to grow. If raised with loving");
-static const u8 sBerryDescriptionPart2_Lum[] = _("care, it may grow two BERRIES.");
-static const u8 sBerryDescriptionPart1_Sitrus[] = _("Closely related to ORAN. The large");
-static const u8 sBerryDescriptionPart2_Sitrus[] = _("BERRY has a well-rounded flavor.");
-static const u8 sBerryDescriptionPart1_Figy[] = _("The BERRY, which looks chewed up,");
-static const u8 sBerryDescriptionPart2_Figy[] = _("brims with spicy substances.");
-static const u8 sBerryDescriptionPart1_Wiki[] = _("The BERRY is said to have grown lumpy");
-static const u8 sBerryDescriptionPart2_Wiki[] = _("to help POKéMON grip it.");
-static const u8 sBerryDescriptionPart1_Mago[] = _("The BERRY turns curvy as it grows.");
-static const u8 sBerryDescriptionPart2_Mago[] = _("The curvier, the sweeter and tastier.");
-static const u8 sBerryDescriptionPart1_Aguav[] = _("The flower is dainty. It is rare in its");
-static const u8 sBerryDescriptionPart2_Aguav[] = _("ability to grow without light.");
-static const u8 sBerryDescriptionPart1_Iapapa[] = _("The BERRY is very big and sour.");
-static const u8 sBerryDescriptionPart2_Iapapa[] = _("It takes at least a day to grow.");
-static const u8 sBerryDescriptionPart1_Razz[] = _("The red BERRY tastes slightly spicy.");
-static const u8 sBerryDescriptionPart2_Razz[] = _("It grows quickly in just four hours.");
-static const u8 sBerryDescriptionPart1_Bluk[] = _("The BERRY is blue on the outside, but");
-static const u8 sBerryDescriptionPart2_Bluk[] = _("it blackens the mouth when eaten.");
-static const u8 sBerryDescriptionPart1_Nanab[] = _("This BERRY was the seventh");
-static const u8 sBerryDescriptionPart2_Nanab[] = _("discovered in the world. It is sweet.");
-static const u8 sBerryDescriptionPart1_Wepear[] = _("The flower is small and white. It has a");
-static const u8 sBerryDescriptionPart2_Wepear[] = _("delicate balance of bitter and sour.");
-static const u8 sBerryDescriptionPart1_Pinap[] = _("Weak against wind and cold.");
-static const u8 sBerryDescriptionPart2_Pinap[] = _("The fruit is spicy and the skin, sour.");
-static const u8 sBerryDescriptionPart1_Pomeg[] = _("However much it is watered,");
-static const u8 sBerryDescriptionPart2_Pomeg[] = _("it only grows up to six BERRIES.");
-static const u8 sBerryDescriptionPart1_Kelpsy[] = _("A rare variety shaped like a root.");
-static const u8 sBerryDescriptionPart2_Kelpsy[] = _("Grows a very large flower.");
-static const u8 sBerryDescriptionPart1_Qualot[] = _("Loves water. Grows strong even in");
-static const u8 sBerryDescriptionPart2_Qualot[] = _("locations with constant rainfall.");
-static const u8 sBerryDescriptionPart1_Hondew[] = _("A BERRY that is very valuable and");
-static const u8 sBerryDescriptionPart2_Hondew[] = _("rarely seen. It is very delicious.");
-static const u8 sBerryDescriptionPart1_Grepa[] = _("Despite its tenderness and round");
-static const u8 sBerryDescriptionPart2_Grepa[] = _("shape, the BERRY is unimaginably sour.");
-static const u8 sBerryDescriptionPart1_Tamato[] = _("The BERRY is lip-bendingly spicy.");
-static const u8 sBerryDescriptionPart2_Tamato[] = _("It takes time to grow.");
-static const u8 sBerryDescriptionPart1_Cornn[] = _("A BERRY from an ancient era. May not");
-static const u8 sBerryDescriptionPart2_Cornn[] = _("grow unless planted in quantity.");
-static const u8 sBerryDescriptionPart1_Magost[] = _("A BERRY that is widely said to have");
-static const u8 sBerryDescriptionPart2_Magost[] = _("a finely balanced flavor.");
-static const u8 sBerryDescriptionPart1_Rabuta[] = _("A rare variety that is overgrown with");
-static const u8 sBerryDescriptionPart2_Rabuta[] = _("hair. It is quite bitter.");
-static const u8 sBerryDescriptionPart1_Nomel[] = _("Quite sour. Just one bite makes it");
-static const u8 sBerryDescriptionPart2_Nomel[] = _("impossible to taste for three days.");
-static const u8 sBerryDescriptionPart1_Spelon[] = _("The vividly red BERRY is very spicy.");
-static const u8 sBerryDescriptionPart2_Spelon[] = _("Its warts secrete a spicy substance.");
-static const u8 sBerryDescriptionPart1_Pamtre[] = _("Drifts on the sea from somewhere.");
-static const u8 sBerryDescriptionPart2_Pamtre[] = _("It is thought to grow elsewhere.");
-static const u8 sBerryDescriptionPart1_Watmel[] = _("A huge BERRY, with some over 20");
-static const u8 sBerryDescriptionPart2_Watmel[] = _("inches discovered. Exceedingly sweet.");
-static const u8 sBerryDescriptionPart1_Durin[] = _("Bitter to even look at. It is so");
-static const u8 sBerryDescriptionPart2_Durin[] = _("bitter, no one has ever eaten it as is.");
-static const u8 sBerryDescriptionPart1_Belue[] = _("It is glossy and looks delicious, but");
-static const u8 sBerryDescriptionPart2_Belue[] = _("it is awfully sour. Takes time to grow.");
-static const u8 sBerryDescriptionPart1_Liechi[] = _("A mysterious BERRY. It is rumored to");
-static const u8 sBerryDescriptionPart2_Liechi[] = _("contain the power of the sea.");
-static const u8 sBerryDescriptionPart1_Ganlon[] = _("A mysterious BERRY. It is rumored to");
-static const u8 sBerryDescriptionPart2_Ganlon[] = _("contain the power of the land.");
-static const u8 sBerryDescriptionPart1_Salac[] = _("A mysterious BERRY. It is rumored to");
-static const u8 sBerryDescriptionPart2_Salac[] = _("contain the power of the sky.");
-static const u8 sBerryDescriptionPart1_Petaya[] = _("A mysterious BERRY. It is rumored to");
-static const u8 sBerryDescriptionPart2_Petaya[] = _("contain the power of all living things.");
-static const u8 sBerryDescriptionPart1_Apicot[] = _("A very mystifying BERRY. No telling");
-static const u8 sBerryDescriptionPart2_Apicot[] = _("what may happen or how it can be used.");
-static const u8 sBerryDescriptionPart1_Lansat[] = _("Said to be a legendary BERRY.");
-static const u8 sBerryDescriptionPart2_Lansat[] = _("Holding it supposedly brings joy.");
-static const u8 sBerryDescriptionPart1_Starf[] = _("So strong, it was abandoned at the");
-static const u8 sBerryDescriptionPart2_Starf[] = _("world's edge. Considered a mirage.");
-static const u8 sBerryDescriptionPart1_Enigma[] = _("A completely enigmatic BERRY.");
-static const u8 sBerryDescriptionPart2_Enigma[] = _("Appears to have the power of stars.");
+static const u8 sBerryDescriptionPart1_Cheri[] = _("매우 귀여운 꽃이 핀다.");
+static const u8 sBerryDescriptionPart2_Cheri[] = _("새빨간 열매는 아주 맵다.");
+static const u8 sBerryDescriptionPart1_Chesto[] = _("겉 부분과 속 모두");
+static const u8 sBerryDescriptionPart2_Chesto[] = _("딱딱하다. 어느 부분을 먹어도 떫다.");
+static const u8 sBerryDescriptionPart1_Pecha[] = _("매우 달고 맛있다.");
+static const u8 sBerryDescriptionPart2_Pecha[] = _("부드러워서 운반할 때는 주의.");
+static const u8 sBerryDescriptionPart1_Rawst[] = _("잎사귀의 부분이 길고 둥글게");
+static const u8 sBerryDescriptionPart2_Rawst[] = _("말려 있으면 아주 쓴 듯하다.");
+static const u8 sBerryDescriptionPart1_Aspear[] = _("딱딱한 열매 속에는 수분이 매우");
+static const u8 sBerryDescriptionPart2_Aspear[] = _("많이 들어 있다. 꽤 시다.");
+static const u8 sBerryDescriptionPart1_Leppa[] = _("버치 등과 비교해 느리게");
+static const u8 sBerryDescriptionPart2_Leppa[] = _("자란다. 열매가 작은 것일수록 맛있다.");
+static const u8 sBerryDescriptionPart1_Oran[] = _("여러 가지 맛이 섞인 신기한 열매.");
+static const u8 sBerryDescriptionPart2_Oran[] = _("열매를 키우는 데 반나절이 걸린다.");
+static const u8 sBerryDescriptionPart1_Persim[] = _("태양을 좋아한다. 햇빛을 받으면");
+static const u8 sBerryDescriptionPart2_Persim[] = _("점점 색이 선명해진다.");
+static const u8 sBerryDescriptionPart1_Lum[] = _("자라는 데 시간이 걸리지만 소중하게");
+static const u8 sBerryDescriptionPart2_Lum[] = _("키우면 열매가 2개 자라기도 한다.");
+static const u8 sBerryDescriptionPart1_Sitrus[] = _("오랭과는 형제 같은 존재.");
+static const u8 sBerryDescriptionPart2_Sitrus[] = _("크고 맛도 고르다.");
+static const u8 sBerryDescriptionPart1_Figy[] = _("먹힌 듯한 모양 속에는");
+static const u8 sBerryDescriptionPart2_Figy[] = _("매운 성분이 가득 차 있다.");
+static const u8 sBerryDescriptionPart1_Wiki[] = _("주위에 붙어 있는 돌기는 포켓몬이");
+static const u8 sBerryDescriptionPart2_Wiki[] = _("지니기 쉽게 하기 위해서라고 한다.");
+static const u8 sBerryDescriptionPart1_Mago[] = _("크게 자랄수록 열매가 구부러진다.");
+static const u8 sBerryDescriptionPart2_Mago[] = _("구부러질수록 달고 맛있다.");
+static const u8 sBerryDescriptionPart1_Aguav[] = _("작은 크기의 꽃으로 그것도 빛을");
+static const u8 sBerryDescriptionPart2_Aguav[] = _("필요로 하지 않는 희귀한 나무열매다.");
+static const u8 sBerryDescriptionPart1_Iapapa[] = _("매우 크고 신 나무열매다.");
+static const u8 sBerryDescriptionPart2_Iapapa[] = _("키우는 데는 적어도 1일이 걸린다.");
+static const u8 sBerryDescriptionPart1_Razz[] = _("빨간 열매는 먹으면 약간 맵고");
+static const u8 sBerryDescriptionPart2_Razz[] = _("빠르게 자라서 4시간이면 열매가 열린다.");
+static const u8 sBerryDescriptionPart1_Bluk[] = _("겉 부분은 파란색이지만 먹으면");
+static const u8 sBerryDescriptionPart2_Bluk[] = _("입속이 새까맣게 된다.");
+static const u8 sBerryDescriptionPart1_Nanab[] = _("세상에서 7번째로 발견된 것이");
+static const u8 sBerryDescriptionPart2_Nanab[] = _("이름의 유래라는 설이 유력하다. 달다.");
+static const u8 sBerryDescriptionPart1_Wepear[] = _("작고 하얀 꽃이 핀다. 쓴맛과");
+static const u8 sBerryDescriptionPart2_Wepear[] = _("신맛이 섞여 있는 미묘한 맛이다.");
+static const u8 sBerryDescriptionPart1_Pinap[] = _("바람에 약하고 추위에도 약하다.");
+static const u8 sBerryDescriptionPart2_Pinap[] = _("열매의 속이 맵고 겉 부분은 시다.");
+static const u8 sBerryDescriptionPart1_Pomeg[] = _("아무리 비가 내려도 영양이");
+static const u8 sBerryDescriptionPart2_Pomeg[] = _("있어도 6개의 열매밖에 자라지 않는다.");
+static const u8 sBerryDescriptionPart1_Kelpsy[] = _("뿌리 같은 모양의 희귀한");
+static const u8 sBerryDescriptionPart2_Kelpsy[] = _("종류이다. 매우 큰 꽃이 핀다.");
+static const u8 sBerryDescriptionPart1_Qualot[] = _("물을 좋아한다. 계속 비가 내리는");
+static const u8 sBerryDescriptionPart2_Qualot[] = _("장소라도 쑥쑥 잘 자란다.");
+static const u8 sBerryDescriptionPart1_Hondew[] = _("매우 비싸서 좀처럼 눈으로");
+static const u8 sBerryDescriptionPart2_Hondew[] = _("보기 힘든 나무열매. 아주 맛있다.");
+static const u8 sBerryDescriptionPart1_Grepa[] = _("부드러움과 둥근 모양으로는");
+static const u8 sBerryDescriptionPart2_Grepa[] = _("상상할 수 없을 정도로 시다.");
+static const u8 sBerryDescriptionPart1_Tamato[] = _("입술이 새빨개질 정도로 맵다.");
+static const u8 sBerryDescriptionPart2_Tamato[] = _("키우는 데에도 시간이 걸린다.");
+static const u8 sBerryDescriptionPart1_Cornn[] = _("옛날부터 자라왔다. 많이 심지");
+static const u8 sBerryDescriptionPart2_Cornn[] = _("않으면 열매가 열리지 않을 때도 있다.");
+static const u8 sBerryDescriptionPart1_Magost[] = _("매우 맛의 균형이 좋다고");
+static const u8 sBerryDescriptionPart2_Magost[] = _("평판이 자자한 나무열매다.");
+static const u8 sBerryDescriptionPart1_Rabuta[] = _("많은 털이 자라있는 희귀한");
+static const u8 sBerryDescriptionPart2_Rabuta[] = _("종류이다. 꽤 쓰다.");
+static const u8 sBerryDescriptionPart1_Nomel[] = _("꽤 시다. 한입 먹으면");
+static const u8 sBerryDescriptionPart2_Nomel[] = _("3일간 다른 맛이 나지 않게 된다.");
+static const u8 sBerryDescriptionPart1_Spelon[] = _("새빨개진 열매는 말도 못하게 맵다.");
+static const u8 sBerryDescriptionPart2_Spelon[] = _("돌기로부터도 매운 성분이 나오고 있다.");
+static const u8 sBerryDescriptionPart1_Pamtre[] = _("어딘가에서 난데없이 떠내려온다.");
+static const u8 sBerryDescriptionPart2_Pamtre[] = _("세상 어딘가에서 키워지고 있는 듯하다.");
+static const u8 sBerryDescriptionPart1_Watmel[] = _("매우 커서 50cm를 넘는 것도");
+static const u8 sBerryDescriptionPart2_Watmel[] = _("발견되었다. 굉장히 달다");
+static const u8 sBerryDescriptionPart1_Durin[] = _("보기만 해도 쓰다. 너무나도 써서");
+static const u8 sBerryDescriptionPart2_Durin[] = _("그대로 먹은 사람은 아무도 없다.");
+static const u8 sBerryDescriptionPart1_Belue[] = _("매끈해서 맛있어 보이지만 말도 못하게");
+static const u8 sBerryDescriptionPart2_Belue[] = _("시다. 키우는 데에도 시간이 걸린다.");
+static const u8 sBerryDescriptionPart1_Liechi[] = _("수수께끼의 씨앗. 치리열매에는");
+static const u8 sBerryDescriptionPart2_Liechi[] = _("바다의 힘이 깃들어 있다는 소문이 있다.");
+static const u8 sBerryDescriptionPart1_Ganlon[] = _("수수께끼의 씨앗. 용아열매에는");
+static const u8 sBerryDescriptionPart2_Ganlon[] = _("육지의 힘이 깃들어 있다는 소문이 있다.");
+static const u8 sBerryDescriptionPart1_Salac[] = _("수수께끼의 씨앗. 캄라열매에는");
+static const u8 sBerryDescriptionPart2_Salac[] = _("하늘의 힘이 깃들어 있다는 소문이 있다.");
+static const u8 sBerryDescriptionPart1_Petaya[] = _("수수께끼의 씨앗. 야타비열매에는 모든");
+static const u8 sBerryDescriptionPart2_Petaya[] = _("생명체의 힘이 깃들어 있다고 전해진다.");
+static const u8 sBerryDescriptionPart1_Apicot[] = _("이상하고 이상한 나무열매다. 무엇이");
+static const u8 sBerryDescriptionPart2_Apicot[] = _("일어날지 무엇이 생길지 알 수 없다.");
+static const u8 sBerryDescriptionPart1_Lansat[] = _("전설의 열매라고 전해진다. 이 열매를");
+static const u8 sBerryDescriptionPart2_Lansat[] = _("가지고 있으면 매우 행복해지는 듯하다.");
+static const u8 sBerryDescriptionPart1_Starf[] = _("너무나도 힘이 강하기 때문에");
+static const u8 sBerryDescriptionPart2_Starf[] = _("세상의 끝에 버려진 나무열매다.");
+static const u8 sBerryDescriptionPart1_Enigma[] = _("정체불명의 나무열매다.");
+static const u8 sBerryDescriptionPart2_Enigma[] = _("별의 힘을 지니고 있는 듯하다.");
 
 const struct Berry gBerries[] =
 {
     [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CHERI"),
+        .name = _("버치"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 20,
         .maxYield = 3,
@@ -135,7 +135,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CHESTO"),
+        .name = _("유루"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 80,
         .maxYield = 3,
@@ -153,7 +153,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PECHA"),
+        .name = _("복슝"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 40,
         .maxYield = 3,
@@ -171,7 +171,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RAWST"),
+        .name = _("복분"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 32,
         .maxYield = 3,
@@ -189,7 +189,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ASPEAR"),
+        .name = _("배리"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 50,
         .maxYield = 3,
@@ -207,7 +207,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LEPPA"),
+        .name = _("과사"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 28,
         .maxYield = 3,
@@ -225,7 +225,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ORAN"),
+        .name = _("오랭"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 35,
         .maxYield = 3,
@@ -243,7 +243,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PERSIM"),
+        .name = _("시몬"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 47,
         .maxYield = 3,
@@ -261,7 +261,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LUM"),
+        .name = _("리샘"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 34,
         .maxYield = 2,
@@ -279,7 +279,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SITRUS"),
+        .name = _("자뭉"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 3,
@@ -297,7 +297,7 @@ const struct Berry gBerries[] =
 
     [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("FIGY"),
+        .name = _("무화"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 100,
         .maxYield = 3,
@@ -315,7 +315,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WIKI"),
+        .name = _("위키"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 115,
         .maxYield = 3,
@@ -333,7 +333,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("MAGO"),
+        .name = _("마고"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 126,
         .maxYield = 3,
@@ -351,7 +351,7 @@ const struct Berry gBerries[] =
 
     [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("AGUAV"),
+        .name = _("아바"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 64,
         .maxYield = 3,
@@ -369,7 +369,7 @@ const struct Berry gBerries[] =
 
     [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("IAPAPA"),
+        .name = _("파야"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 223,
         .maxYield = 3,
@@ -387,7 +387,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RAZZ"),
+        .name = _("라즈"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 120,
         .maxYield = 6,
@@ -405,7 +405,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("BLUK"),
+        .name = _("블리"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 108,
         .maxYield = 6,
@@ -423,7 +423,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("NANAB"),
+        .name = _("나나"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 77,
         .maxYield = 6,
@@ -441,7 +441,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WEPEAR"),
+        .name = _("서배"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 74,
         .maxYield = 6,
@@ -459,7 +459,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PINAP"),
+        .name = _("파인"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 80,
         .maxYield = 6,
@@ -477,7 +477,7 @@ const struct Berry gBerries[] =
 
     [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("POMEG"),
+        .name = _("유석"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 135,
         .maxYield = 6,
@@ -495,7 +495,7 @@ const struct Berry gBerries[] =
 
     [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("KELPSY"),
+        .name = _("시마"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 150,
         .maxYield = 6,
@@ -513,7 +513,7 @@ const struct Berry gBerries[] =
 
     [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("QUALOT"),
+        .name = _("파비"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 110,
         .maxYield = 6,
@@ -531,7 +531,7 @@ const struct Berry gBerries[] =
 
     [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("HONDEW"),
+        .name = _("로매"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 162,
         .maxYield = 6,
@@ -549,7 +549,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("GREPA"),
+        .name = _("또뽀"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 149,
         .maxYield = 6,
@@ -567,7 +567,7 @@ const struct Berry gBerries[] =
 
     [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("TAMATO"),
+        .name = _("토망"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 200,
         .maxYield = 4,
@@ -585,7 +585,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CORNN"),
+        .name = _("수숙"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 4,
@@ -603,7 +603,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("MAGOST"),
+        .name = _("고스티"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 140,
         .maxYield = 4,
@@ -621,7 +621,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RABUTA"),
+        .name = _("라부탐"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 226,
         .maxYield = 4,
@@ -639,7 +639,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("NOMEL"),
+        .name = _("노멜"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 285,
         .maxYield = 4,
@@ -657,7 +657,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SPELON"),
+        .name = _("메호키"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 133,
         .maxYield = 2,
@@ -675,7 +675,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PAMTRE"),
+        .name = _("자야"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 244,
         .maxYield = 2,
@@ -693,7 +693,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WATMEL"),
+        .name = _("슈박"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 250,
         .maxYield = 2,
@@ -711,7 +711,7 @@ const struct Berry gBerries[] =
 
     [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("DURIN"),
+        .name = _("듀리"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 280,
         .maxYield = 2,
@@ -729,7 +729,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("BELUE"),
+        .name = _("루베"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 300,
         .maxYield = 2,
@@ -747,7 +747,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LIECHI"),
+        .name = _("치리"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 111,
         .maxYield = 2,
@@ -765,7 +765,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("GANLON"),
+        .name = _("용아"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 33,
         .maxYield = 2,
@@ -783,7 +783,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SALAC"),
+        .name = _("캄라"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 2,
@@ -801,7 +801,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PETAYA"),
+        .name = _("야타비"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 237,
         .maxYield = 2,
@@ -819,7 +819,7 @@ const struct Berry gBerries[] =
 
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("APICOT"),
+        .name = _("규살"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 2,
@@ -837,7 +837,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LANSAT"),
+        .name = _("랑사"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 97,
         .maxYield = 2,
@@ -855,7 +855,7 @@ const struct Berry gBerries[] =
 
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("STARF"),
+        .name = _("스타"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 153,
         .maxYield = 2,
@@ -873,7 +873,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ENIGMA"),
+        .name = _("의문"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .size = 0,
         .maxYield = 2,

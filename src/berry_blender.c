@@ -250,21 +250,21 @@ static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapa
 static const u16 sEmpty_Pal[16 * 14] = {0};
 
 // unused text
-static const u8 sUnusedText_YesNo[] = _("YES\nNO");
+static const u8 sUnusedText_YesNo[] = _("예\n아니오");
 static const u8 sUnusedText_2[] = _("▶");
 static const u8 sUnusedText_Space[] = _(" ");
-static const u8 sUnusedText_Terminating[] = _("Terminating.");
-static const u8 sUnusedText_LinkPartnerNotFound[] = _("Link partner(s) not found.\nPlease try again.\p");
+static const u8 sUnusedText_Terminating[] = _("종료 중입니다");
+static const u8 sUnusedText_LinkPartnerNotFound[] = _("상대를 찾을 수 없습니다\n다시 한 번 시도해 주십시오\p");
 
-static const u8 sText_BerryBlenderStart[] = _("Starting up the BERRY BLENDER.\pPlease select a BERRY from your BAG\nto put in the BERRY BLENDER.\p");
+static const u8 sText_BerryBlenderStart[] = _("나무열매블렌더를 작동시킵니다\p가방에서 나무열매블렌더에 넣을\n나무열매를 선택해 주십시오\p");
 static const u8 sText_NewParagraph[] = _("\p");
-static const u8 sText_WasMade[] = _(" was made!");
-static const u8 sText_Mister[] = _("MISTER");
-static const u8 sText_Laddie[] = _("LADDIE");
-static const u8 sText_Lassie[] = _("LASSIE");
-static const u8 sText_Master[] = _("MASTER");
-static const u8 sText_Dude[] = _("DUDE");
-static const u8 sText_Miss[] = _("MISS");
+static const u8 sText_WasMade[] = _("{K_IGA} 만들어졌다!");
+static const u8 sText_Mister[] = _("할아버지");
+static const u8 sText_Laddie[] = _("남자아이");
+static const u8 sText_Lassie[] = _("여자아이");
+static const u8 sText_Master[] = _("명인");
+static const u8 sText_Dude[] = _("형");
+static const u8 sText_Miss[] = _("아주머니");
 
 static const u8* const sBlenderOpponentsNames[] =
 {
@@ -276,29 +276,29 @@ static const u8* const sBlenderOpponentsNames[] =
     [BLENDER_MISS]   = sText_Miss
 };
 
-static const u8 sText_PressAToStart[] = _("Press the A Button to start.");
-static const u8 sText_PleaseWaitAWhile[] = _("Please wait a while.");
-static const u8 sText_CommunicationStandby[] = _("Communication standby…");
-static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another BERRY?");
-static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of BERRIES for\nblending in the BERRY BLENDER.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} CASE is full.\p");
-static const u8 sText_HasNoBerriesToPut[] = _(" has no BERRIES to put in\nthe BERRY BLENDER.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} CASE is full.\p");
-static const u8 sText_BlendingResults[] = _("RESULTS OF BLENDING");
-static const u8 sText_BerryUsed[] = _("BERRY USED");
-static const u8 sText_SpaceBerry[] = _(" BERRY");
-static const u8 sText_Time[] = _("Time:");
-static const u8 sText_Min[] = _(" min. ");
-static const u8 sText_Sec[] = _(" sec.");
-static const u8 sText_MaximumSpeed[] = _("MAXIMUM SPEED");
-static const u8 sText_RPM[] = _(" RPM");
+static const u8 sText_PressAToStart[] = _("A 버튼으로 시작합니다");
+static const u8 sText_PleaseWaitAWhile[] = _("잠시 기다려 주십시오");
+static const u8 sText_CommunicationStandby[] = _("통신 대기 중입니다");
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("한 번 더 나무열매를 섞으시겠습니까?");
+static const u8 sText_RunOutOfBerriesForBlending[] = _("나무열매블렌더에 넣을 나무열매가\n없으므로 더 이상 할 수 없습니다\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("포켓몬스넥케이스가\n가득 찬 것 같습니다\p");
+static const u8 sText_HasNoBerriesToPut[] = _("{K_EUNNEUN} 나무열매블렌더에\n넣을 나무열매가 없는 것 같습니다");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("{K_EUNNEUN} 포켓몬스넥케이스가\n가득 찬 것 같습니다\p");
+static const u8 sText_BlendingResults[] = _("섞은 결과");
+static const u8 sText_BerryUsed[] = _("넣은 열매");
+static const u8 sText_SpaceBerry[] = _("열매");
+static const u8 sText_Time[] = _("시간");
+static const u8 sText_Min[] = _("분 "); // ex. 20 min. 30 sec.
+static const u8 sText_Sec[] = _("초"); //  ex. 20분 30초
+static const u8 sText_MaximumSpeed[] = _("최고 속도");
+static const u8 sText_RPM[] = _(" rpm");
 static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Space[] = _(" ");
-static const u8 sText_Ranking[] = _("RANKING");
-static const u8 sText_TheLevelIs[] = _("The level is ");
-static const u8 sText_TheFeelIs[] = _(", and the feel is ");
-static const u8 sText_Dot2[] = _(".");
+static const u8 sText_Ranking[] = _("랭킹");
+static const u8 sText_TheLevelIs[] = _("레벨은 "); // The level is 49, and the feel is 37
+static const u8 sText_TheFeelIs[] = _("이고 경도는 ");
+static const u8 sText_Dot2[] = _("이다");
 
 static const struct BgTemplate sBgTemplates[3] =
 {

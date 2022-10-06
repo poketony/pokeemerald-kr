@@ -195,69 +195,71 @@ BerryTree_EventScript_PlantBerry:: @ 82744DD
 	return
 
 BerryTree_Text_ItsSoftLoamySoil: @ 82744F0
-	.string "It's soft, loamy soil.$"
+	.string "푹신푹신한 흙이다$"
 
 BerryTree_Text_WantToPlant: @ 8274507
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a BERRY?$"
+	.string "푹신푹신한 흙이다\n"
+	.string "나무열매를 심겠습니까?$"
 
 BerryTree_Text_PlantedOneBerry: @ 8274535
-	.string "{PLAYER} planted one {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{PLAYER}{K_EUNNEUN} 푹신푹신한 흙에\n"
+	.string "{STR_VAR_1}열매를 심었다!$"
 
 BerryTree_Text_BerryGrowthStage1: @ 8274560
-	.string "One {STR_VAR_1} was planted here.$"
+	.string "{STR_VAR_1}열매 하나를 심은 장소다!$"
 
 BerryTree_Text_BerryGrowthStage2: @ 8274579
-	.string "{STR_VAR_1} has sprouted.$"
+	.string "{STR_VAR_1}열매의 싹이 나왔다!$"
 
 BerryTree_Text_BerryGrowthStage3: @ 827458A
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string "{STR_VAR_1}열매의 줄기가\n"
+	.string "커다랗게 자랐다!$"
 
 BerryTree_Text_BerryGrowthStage4: @ 82745AB
-	.string "These {STR_VAR_1} flowers are blooming\n"
-	.string "{STR_VAR_2}.$"
+	.string "{STR_VAR_1}열매의 꽃들이\n"
+	.string "{STR_VAR_2} 피어있다!$"
 
 BerryTree_Text_CareAdverbGreat: @ 82745CD
-	.string "very beautifully$"
+	.string "매우 아름답게$"
 
 BerryTree_Text_CareAdverbPoor: @ 82745DE
-	.string "cutely$"
+	.string "아기자기하게$"
 
 BerryTree_Text_CareAdverbGood: @ 82745E5
-	.string "prettily$"
+	.string "예쁘게$"
 
 BerryTree_Text_WantToPick: @ 82745EE
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
-	.string "{STR_VAR_1}?$"
+	.string "{STR_VAR_1}열매가 {STR_VAR_2}개 열려있다!\n"
+	.string "{STR_VAR_1}열매를 따겠습니까?$"
 
 BerryTree_Text_PickedTheBerry: @ 827461B
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}열매를 {STR_VAR_2}개 땄다!$"
 
 BerryTree_Text_PutAwayBerry: @ 8274630
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.\p"
-	.string "The soil returned to its soft and\n"
-	.string "loamy state.$"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
+	.string "나무열매 포켓에 넣었다!\p"
+	.string "푹신푹신한 흙으로 되돌아갔다$"
 
 BerryTree_Text_BerryPocketFull: @ 827468F
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "가방의 나무열매 포켓이 가득 찼다\n"
+	.string "{STR_VAR_1}열매를 포기했다$"
 
 BerryTree_Text_BerryLeftUnpicked: @ 82746CB
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
+	.string "그대로 뒀다$"
 
 BerryTree_Text_WantToWater: @ 82746E4
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "고래왕자물뿌리개로 {STR_VAR_1}열매에\n"
+	.string "물을 주겠습니까?$"
 
 BerryTree_Text_WateredTheBerry: @ 8274710
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}열매에 물을 주었다$"
 
 BerryTree_Text_PlantIsDelighted: @ 8274723
-	.string "The plant seems to be delighted.$"
+	.string "식물은\n"
+	.string "매우 기뻐하는 듯하다!$"
 
 BerryTree_Text_ExclamationPoint: @ 8274744
 	.string "!$"
