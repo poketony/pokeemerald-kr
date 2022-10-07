@@ -1297,17 +1297,17 @@ const u8 gText_Mind[] = _("마음");
 const u8 gText_Skill[] = _("기술");
 const u8 gText_Body[] = _("몸");
 const u8 gText_Judgement[] = _("{B_BUFF1}{CLEAR 13}판정{CLEAR 13}{B_BUFF2}");
-static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent\nout {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent\nout {B_OPPONENT_MON2_NAME}!");
-static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent\nout {B_BUFF1}!");
-static const u8 sText_TwoTrainersWantToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} and\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lwant to battle!\p");
-static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_CLASS} {B_PARTNER_NAME} sent\nout {B_PLAYER_MON2_NAME}!\lGo, {B_PLAYER_MON1_NAME}!");
-static const u8 sText_TwoInGameTrainersDefeated[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} and\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lwere defeated!\p");
+static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_EUNNEUN}\n{B_OPPONENT_MON1_NAME}{B_TXT_EULREUL} 내보냈다!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME}{B_TXT_EUNNEUN}\n{B_OPPONENT_MON2_NAME}{B_TXT_EULREUL} 내보냈다!");
+static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_CLASS} {B_TRAINER2_NAME}{B_TXT_EUNNEUN}\n{B_BUFF1}{B_TXT_EULREUL} 내보냈다!");
+static const u8 sText_TwoTrainersWantToBattle[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_WAGWA}\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}{B_TXT_IGA}\l승부를 걸어왔다!\p");
+static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_CLASS} {B_PARTNER_NAME}{B_TXT_EUNNEUN}\n{B_PLAYER_MON2_NAME}{B_TXT_EULREUL} 내보냈다!\l가랏! {B_PLAYER_MON1_NAME}!");
+static const u8 sText_TwoInGameTrainersDefeated[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_WAGWA}\n{B_TRAINER2_CLASS} {B_TRAINER2_NAME}{B_TXT_WAGWA}의\l승부에서 이겼다!\p");
 static const u8 sText_Trainer2LoseText[] = _("{B_TRAINER2_LOSE_TEXT}");
-static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX} appears incapable\nof using its power!");
-static const u8 sText_GlintAppearsInEye[] = _("A glint appears in\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s eyes!");
-static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is getting into\nposition!");
-static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} began growling deeply!");
-static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is eager for more!");
+static const u8 sText_PkmnIncapableOfPower[] = _("{B_ATK_NAME_WITH_PREFIX}{B_TXT_EUNNEUN}\n자신의 힘을 발휘할 수 없는 것 같다!");
+static const u8 sText_GlintAppearsInEye[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}의 눈빛이 바뀌었다!");
+static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}{B_TXT_EUNNEUN} 태세를 가다듬었다!");
+static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}{B_TXT_EUNNEUN} 낮게 으르렁거리기 시작했다!");
+static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}{B_TXT_EUNNEUN} 아직도 의욕이 넘친다!");
 
 const u16 gBattlePalaceFlavorTextTable[] =
 {
@@ -1317,18 +1317,18 @@ const u16 gBattlePalaceFlavorTextTable[] =
     STRINGID_PKMNEAGERFORMORE
 };
 
-static const u8 sText_RefIfNothingIsDecided[] = _("심판: If nothing is decided in\n3 turns, we will go to judging!");
-static const u8 sText_RefThatsIt[] = _("REFEREE: That's it! We will now go to\njudging to determine the winner!");
-static const u8 sText_RefJudgeMind[] = _("REFEREE: Judging category 1, Mind!\nThe POKéMON showing the most guts!\p");
-static const u8 sText_RefJudgeSkill[] = _("REFEREE: Judging category 2, Skill!\nThe POKéMON using moves the best!\p");
-static const u8 sText_RefJudgeBody[] = _("REFEREE: Judging category 3, Body!\nThe POKéMON with the most vitality!\p");
-static const u8 sText_RefJudgement1[] = _("REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_PLAYER_NAME}'s {B_PLAYER_MON1_NAME}!\p");
-static const u8 sText_RefJudgement2[] = _("REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME}!\p");
-static const u8 sText_RefJudgement3[] = _("REFEREE: Judgment: 3 to 3!\nWe have a draw!\p");
-static const u8 sText_DefeatedOpponentByReferee[] = _("{B_PLAYER_MON1_NAME} defeated the opponent\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!");
-static const u8 sText_LostToOpponentByReferee[] = _("{B_PLAYER_MON1_NAME} lost to the opponent\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!");
-static const u8 sText_TiedOpponentByReferee[] = _("{B_PLAYER_MON1_NAME} tied the opponent\n{B_OPPONENT_MON1_NAME} in a REFEREE's decision!");
-static const u8 sText_RefCommenceBattle[] = _("REFEREE: {B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}!\nCommence battling!");
+static const u8 sText_RefIfNothingIsDecided[] = _("심판: 앞으로 3턴 뒤에 결착이\n나지 않으면 판정을 하게 됩니다!"); // しんぱん『あと 3タ-ンで けっちゃくがｎつかないと はんていに なります!
+static const u8 sText_RefThatsIt[] = _("심판: 거기까지---!\n이 대결은 판정을 하겠습니다!"); // しんぱん『そこまで---!ｎこの たいけつは はんていに なります!
+static const u8 sText_RefJudgeMind[] = _("심판: 첫 번째 판정! “마음”!\n공격할 마음을 보여주었는가!\p"); // しんぱん『はんてい その1! 「こころ」!ｎせめる きもちを みせたもの!ｐ
+static const u8 sText_RefJudgeSkill[] = _("심판: 두 번째 판정! “기술”!\n제대로 기술을 썼는가!\p"); // しんぱん『はんてい その2! 「わざ」!ｎてきかくに わざを くりだしたもの!ｐ
+static const u8 sText_RefJudgeBody[] = _("심판: 세 번째 판정! “몸”!\n넘치는 체력을 가졌는가!\p"); // しんぱん『はんてい その3! 「からだ」!ｎあふれる たいりょくを もちえるもの!ｐ
+static const u8 sText_RefJudgement1[] = _("심판: 판정 {B_BUFF1} 대 {B_BUFF2}\n승자! {B_PLAYER_NAME}의 {B_PLAYER_MON1_NAME}!\p"); // しんぱん『はんてい §  たい §あｎしょうしゃ! §もの §お!ｐ
+static const u8 sText_RefJudgement2[] = _("심판: 판정 {B_BUFF1} 대 {B_BUFF2}\n승자! {B_TRAINER1_NAME}의 {B_OPPONENT_MON1_NAME}!\p"); // しんぱん『はんてい §  たい §あｎしょうしゃ! §への §か!ｐ
+static const u8 sText_RefJudgement3[] = _("심판: 판정 3 대 3!\n무승부---!\p"); // しんぱん『はんてい 3 たい 3ｎひきわけ---!ｐ
+static const u8 sText_DefeatedOpponentByReferee[] = _("{B_PLAYER_MON1_NAME}{B_TXT_EUNNEUN} 판정으로\n상대 {B_OPPONENT_MON1_NAME}{B_TXT_EULREUL} 이겼다!"); // §おは はんていでｎあいての §かに かった!
+static const u8 sText_LostToOpponentByReferee[] = _("{B_PLAYER_MON1_NAME}{B_TXT_EUNNEUN} 판정으로\n상대 {B_OPPONENT_MON1_NAME}에게 졌다!"); // §おは はんていでｎあいての §かに まけた!
+static const u8 sText_TiedOpponentByReferee[] = _("{B_PLAYER_MON1_NAME}{B_TXT_EUNNEUN} 판정으로\n상대 {B_OPPONENT_MON1_NAME}{B_TXT_WAGWA} 비겼다!"); // おは はんていでｎあいての §かと ひきわけた!
+static const u8 sText_RefCommenceBattle[] = _("심판: {B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}\n승부! 시작---!!"); // しんぱん『§お VS §かｎしょうぶ! はじめ---!!
 
 const u8 * const gRefereeStringsTable[] =
 {
@@ -1343,17 +1343,17 @@ const u8 * const gRefereeStringsTable[] =
     sText_RefCommenceBattle,
 };
 
-static const u8 sText_QuestionForfeitMatch[] = _("Would you like to forfeit the match\nand quit now?");
-static const u8 sText_ForfeitedMatch[] = _("{B_PLAYER_NAME} forfeited the match!");
-static const u8 sText_Trainer1WinText[] = _("{B_TRAINER1_WIN_TEXT}");
-static const u8 sText_Trainer2WinText[] = _("{B_TRAINER2_WIN_TEXT}");
-static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME} fled!");
-static const u8 sText_PlayerLostAgainstTrainer1[] = _("Player lost against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");
-static const u8 sText_PlayerBattledToDrawTrainer1[] = _("Player battled to a draw against\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");
-const u8 gText_RecordBattleToPass[] = _("Would you like to record your battle\non your FRONTIER PASS?");
-const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}'s battle result was recorded\non the FRONTIER PASS.");
-static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}\nwants to battle!{PAUSE 49}");
-static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\nwant to battle!{PAUSE 49}");
+static const u8 sText_QuestionForfeitMatch[] = _("승부를 포기하고\n해산하겠습니까?"); // しょうぶを あきらめてｎこうさん しますか?
+static const u8 sText_ForfeitedMatch[] = _("{B_PLAYER_NAME}{B_TXT_EUNNEUN}\n승부를 포기했다!"); // §もはｎしょうぶを あきらめた!
+static const u8 sText_Trainer1WinText[] = _("{B_TRAINER1_WIN_TEXT}"); // §ゆ
+static const u8 sText_Trainer2WinText[] = _("{B_TRAINER2_WIN_TEXT}"); // §ぅ
+static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_EUNNEUN}\n도망쳤다!"); // ©たち §ふの §へはｎにげだした!
+static const u8 sText_PlayerLostAgainstTrainer1[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_WAGWA}의\n승부에서 졌다!"); // §ふの §へｎとの しょうぶに まけた!
+static const u8 sText_PlayerBattledToDrawTrainer1[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}{B_TXT_WAGWA}의\n승부에서 비겼다!"); // §ふの §へｎとの しょうぶに ひきわけた!
+const u8 gText_RecordBattleToPass[] = _("지금의 배틀을 프런티어패스에\n기록하겠습니까?"); // いまの たたかいを フロンティアパスにｎきろく しますか?
+const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}의 배틀이\n프런티어패스에 기록되었다!"); // §もの たたかいがｎフロンティアパスに きろく された!
+static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}{B_TXT_IGA}\n승부를 걸어왔다!{PAUSE 49}"); // §みがｎしょうぶを しかけてきた!©くぅ
+static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}{B_TXT_WAGWA} {B_LINK_OPPONENT2_NAME}{B_TXT_IGA}\n승부를 걸어왔다!{PAUSE 49}"); // §みと §むがｎしょうぶを しかけてきた!©くぅ
 
 // This is four lists of moves which use a different attack string in Japanese
 // to the default. See the documentation for ChooseTypeOfMoveUsedString for more detail.
