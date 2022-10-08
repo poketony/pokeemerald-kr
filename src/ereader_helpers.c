@@ -77,7 +77,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x80,
-                .nickname = __("マルノーム$$$$$$"),
+                .nickname = __("꿀꺽몬$$$$$$"),
                 .friendship = 255
             },
             [4] = {
@@ -101,7 +101,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x6,
-                .nickname = __("ドクケイル$$$$$$"),
+                .nickname = __("독케일$$$$$$"),
                 .friendship = 255
             },
             [5] = {
@@ -125,7 +125,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x2f,
-                .nickname = __("ジーランス$$$$$$"),
+                .nickname = __("시라칸$$$$$$"),
                 .friendship = 255
             },
         }
@@ -163,7 +163,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x8c,
-                .nickname = __("ノクタス$$$$$$$"),
+                .nickname = __("밤선인$$$$$$$"),
                 .friendship = 255
             },
             [4] = {
@@ -187,7 +187,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x80,
-                .nickname = __("オオスバメ$$$$$$"),
+                .nickname = __("스왈로$$$$$$"),
                 .friendship = 255
             },
             [5] = {
@@ -211,7 +211,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x0,
-                .nickname = __("ナマズン$$$$$$$"),
+                .nickname = __("메깅$$$$$$$"),
                 .friendship = 255
             },
         }
@@ -249,7 +249,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x3,
-                .nickname = __("エネコロロ$$$$$$"),
+                .nickname = __("델케티$$$$$$"),
                 .friendship = 255
             },
             [4] = {
@@ -273,7 +273,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x6,
-                .nickname = __("ロゼリア$$$$$$$"),
+                .nickname = __("로젤리아$$$$$$$"),
                 .friendship = 255
             },
             [5] = {
@@ -297,7 +297,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x6,
-                .nickname = __("アゲハント$$$$$$"),
+                .nickname = __("뷰티플라이$$$$$$"),
                 .friendship = 255
             },
         }
@@ -335,7 +335,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 1,
                 .personality = 0x0,
-                .nickname = __("クチート$$$$$$$"),
+                .nickname = __("입치트$$$$$$$"),
                 .friendship = 255
             },
             [4] = {
@@ -359,7 +359,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x96,
-                .nickname = __("サメハダー$$$$$$"),
+                .nickname = __("샤크니아$$$$$$"),
                 .friendship = 255
             },
             [5] = {
@@ -383,7 +383,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .spDefenseIV = 5,
                 .abilityNum = 0,
                 .personality = 0x96,
-                .nickname = __("ジュペッタ$$$$$$"),
+                .nickname = __("다크펫$$$$$$"),
                 .friendship = 255
             },
         }
