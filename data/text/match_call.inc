@@ -1,256 +1,454 @@
 MatchCall_WildBattleText1:: @ 82A971C
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I saw this {STR_VAR_2} a while back\n"
-	.string "but I couldn't catch it.\p"
-	.string "It was so close, too!\n"
-	.string "Well, see you again!$"
+	.string "아! {PLAYER} 안녕!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "지난번에 {STR_VAR_2}{K_EULREUL} 발견했는데\n"
+	.string "잡지 못했어\p"
+	.string "너무 아까운 거 있지-\n"
+	.string "그럼 또 봐!$"
+	// あ! §あ§お こんにちは!ｎ
+	// §い ですｐ
+	// このまえ §うを みつけたんだけどｎ
+	// つかまえられなかったよｐ
+	// おしかったな-ｎ
+	// じゃあ またね!
 
 MatchCall_WildBattleText2:: @ 82A9798
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "I tried to catch a nice {STR_VAR_2}\n"
-	.string "a little while ago.\p"
-	.string "But, it got away.\n"
-	.string "I was sure disappointed!\p"
-	.string "Okay, bye!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "지난번에 {STR_VAR_2}{K_EULREUL}\n"
+	.string "잡으려고 했는데\p"
+	.string "도망쳐버렸어\n"
+	.string "안타깝네\p"
+	.string "그럼 또 봐!$"
+	// こんにちは §あ§お!ｎ
+	// §い ですｐ
+	// このまえ §う をｎ
+	// つかまえようと したんだけどｐ
+	// にげられちゃったのｎ
+	// ざんねん だったなあｐ
+	// じゃあ またね!
 
 MatchCall_WildBattleText3:: @ 82A9813
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I just took a shot at catching\n"
-	.string "this {STR_VAR_2}, but it took off.\p"
-	.string "I came oh so close, too!\p"
-	.string "It spoiled my day…\n"
-	.string "All right, see you!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "지난번에 {STR_VAR_2}{K_EULREUL}\n"
+	.string "잡으려고 했는데\l"
+	.string "거의 다 된 상태에서 도망쳐버렸어!\p"
+	.string "엄청 분했지...\n"
+	.string "그럼 나중에 또 보자-$"
+	// お-っす §あ!ｎ
+	// §い だ!ｐ
+	// このまえ §う をｎ
+	// つかまえようと したんだけどｌ
+	// あとすこしの ところで にげられたんだ!ｐ
+	// くやしかった なあ®®®ｎ
+	// じゃあ またな-
 
 MatchCall_WildBattleText4:: @ 82A98A8
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "You know the POKéMON {STR_VAR_2}?\n"
-	.string "I came close to getting one.\p"
-	.string "It was just a while back.\n"
-	.string "I thought I had it but it escaped.\p"
-	.string "If I see it again, I'll get it for\n"
-	.string "sure, though.\p"
-	.string "Okay, catch you later.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "{STR_VAR_2}{K_I}라는 포켓몬 알아?\n"
+	.string "지난번에 조금만 더 했으면\p"
+	.string "잡을 것 같았는데\n"
+	.string "도망쳐버렸어\p"
+	.string "다음번에 발견하면 반드시\n"
+	.string "잡을 거야\p"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// §うって ポケモン しってるかい?ｎ
+	// このまえ あとすこしでｐ
+	// つかまえられそう だったんだけどｎ
+	// にげられて しまったよｐ
+	// こんど みつけたら ぜったいｎ
+	// つかまえて みせるよｐ
+	// じゃあ またな
 
 MatchCall_WildBattleText5:: @ 82A9977
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\l"
-	.string "Catching any POKéMON lately?\p"
-	.string "A little while ago I came close to\n"
-	.string "nabbing one, but it got loose.\p"
-	.string "Right, take care!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "포켓몬 잡고 있어?\p"
+	.string "나도 지난번에 조금만 더 하면\n"
+	.string "잡을 것 같았는데\p"
+	.string "도망쳐버렸지 뭐야\n"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あ§おｎ
+	// §い だけどｌ
+	// ポケモン つかまえてる?ｐ
+	// おれも このまえ もうすこしでｎ
+	// つかまえられそう だったけどｐ
+	// にげられちゃったよｎ
+	// じゃあ またな
 
 MatchCall_WildBattleText6:: @ 82A99FD
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "Caught any POKéMON lately?\p"
-	.string "I nearly nabbed one the other day.\n"
-	.string "But it evaded me somehow.\p"
-	.string "You take care.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "포켓몬 잡고 있어?\p"
+	.string "난 지난번에 조금만 더 하면\n"
+	.string "잡을 것 같았는데\p"
+	.string "도망쳐버렸어\n"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あ§おｎ
+	// §い だけどｌ
+	// ポケモン つかまえてる?ｐ
+	// おれも このまえ もうすこしでｎ
+	// つかまえられそう だったけどｐ
+	// にげられちゃったよｎ
+	// じゃあ またな
 
 MatchCall_WildBattleText7:: @ 82A9A78
-	.string "…Uh, {PLAYER}{KUN}?\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "Oh, wait! Wait!\n"
-	.string "I can catch this {STR_VAR_2}…\p"
-	.string "Aaarrrgh! It bolted loose!\n"
-	.string "That wasn't just close!$"
+	.string "...아 {PLAYER}?\n"
+	.string "{STR_VAR_1}인데...\p"
+	.string "아 잠깐 기다려!\n"
+	.string "지금 {STR_VAR_2}{K_EULREUL} 잡으려고...\p"
+	.string "아아아아 도망쳐버렸어-!\n"
+	.string "거의 다 됐었는데!$"
+	// ®®®あ §あ§お?ｎ
+	// §い だけど®®®ｐ
+	// あ ちょっと まって!ｎ
+	// いま §うを つかまえ®®®ｐ
+	// ああああ にげられた-!ｎ
+	// もうすこし だったのに!
 
 MatchCall_WildBattleText8:: @ 82A9AE8
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "Have you had success catching\n"
-	.string "POKéMON lately?\p"
-	.string "I came very close a little while\n"
-	.string "ago, but my target got free.\p"
-	.string "I need to try harder!\n"
-	.string "See you again!$"
+	.string "아 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "그때 이후로 포켓몬 잡았어?\n"
+	.string "난 지난번에 조금만 더 하면\p"
+	.string "잡을 것 같았는데\n"
+	.string "도망쳐버렸지 뭐야\p"
+	.string "좀 더 힘내야지!\n"
+	.string "그럼 또 봐$"
+	// あ §あ§お こんにちはｎ
+	// §い ですｐ
+	// あれから ポケモン つかまえた?ｎ
+	// わたし このまえ もうすこしでｐ
+	// つかまえられそう だったのにｎ
+	// にげられちゃったｐ
+	// もっと がんばらなきゃ!ｎ
+	// じゃあ またね
 
 MatchCall_WildBattleText9:: @ 82A9BA7
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "So? Are you getting more POKéMON\n"
-	.string "together?\p"
-	.string "I'm having a rotten time of it!\n"
-	.string "They all get away from me!\p"
-	.string "See you!$"
+	.string "아 {PLAYER} 안녕-!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "어때? 포켓몬 모으고 있어?\n"
+	.string "나는 자꾸 도망쳐서\p"
+	.string "전혀 못 잡고 있어\n"
+	.string "그럼 또 봐!$"
+	// あ §あ§お こんにちは-!ｎ
+	// §い です!ｐ
+	// どう? ポケモン あつまってる?ｎ
+	// わたしは にげられて ばっかりでｐ
+	// ぜんぜん うまく いかないのｎ
+	// じゃあ またね!
 
 MatchCall_WildBattleText10:: @ 82A9C36
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Listen, I came within a whisker of\n"
-	.string "catching this {STR_VAR_2}…\p"
-	.string "But, it gave me the slip…\p"
-	.string "I need to try harder.\n"
-	.string "See you around.$"
+	.string "아 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "조금만 더 하면 {STR_VAR_2}{K_EULREUL}\n"
+	.string "잡을 뻔했는데\l"
+	.string "도망쳐버렸어\p"
+	.string "좀 더 힘내야지!\n"
+	.string "그럼 또 봐$"
+	// あ §あ§お こんにちはｎ
+	// §い よｐ
+	// もうすこしで §う をｎ
+	// つかまえられそう だったのにｌ
+	// にげられちゃったｐ
+	// もっと がんばらなきゃ!ｎ
+	// じゃあ またね
 
 MatchCall_WildBattleText11:: @ 82A9CC8
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "How are things with you?\p"
-	.string "I tried to catch a wild {STR_VAR_2}\n"
-	.string "earlier, but it managed to flee.\p"
-	.string "I feel defeated…$"
+	.string "아아 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "잘 지내니?\p"
+	.string "난 저번에 {STR_VAR_2}{K_EULREUL}\n"
+	.string "잡으려고 했는데\p"
+	.string "도망쳐버렸어\n"
+	.string "후우$"
+	// ああ §あ§おｎ
+	// §いだけどｌ
+	// ちょうしは どうだい?ｐ
+	// おれは このまえ §う をｎ
+	// つかまえようと したんだけどｐ
+	// にげられちゃったよｎ
+	// がっくり
 
 MatchCall_WildBattleText12:: @ 82A9D44
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you still catching POKéMON?\p"
-	.string "I've been trying to catch them\n"
-	.string "myself, but it's not so easy.\p"
-	.string "The way of POKéMON is deep!$"
-
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "포켓몬은 잡고 있나?\p"
+	.string "나도 잡으려고 하는데\n"
+	.string "좀처럼 잘 안 되네\p"
+	.string "포켓몬의 길은\n"
+	.string "심오하구먼$"
+	// やあ §あ§おｎ
+	// §い じゃがｌ
+	// ポケモン つかまえとるかな?ｐ
+	// わしも つかまえようと おもったがｎ
+	// なかなか うまくいかんｐ
+	// ポケモンの みちはｎ
+	// おくが ふかいのう
+	
 MatchCall_WildBattleText13:: @ 82A9DD7
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\l"
-	.string "Have you been catching POKéMON?\p"
-	.string "I've been trying to catch them\n"
-	.string "myself, but with little success.\p"
-	.string "The way of POKéMON is deep!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "포켓몬은 잡고 있나?\p"
+	.string "나도 잡으려고 하는데\n"
+	.string "좀처럼 잘 안 되네\p"
+	.string "포켓몬의 길은\n"
+	.string "심오하구먼$"
+	// やあ §あ§おｎ
+	// §い じゃがｌ
+	// ポケモン つかまえとるかな?ｐ
+	// わしも つかまえようと おもったがｎ
+	// なかなか うまくいかんｐ
+	// ポケモンの みちはｎ
+	// おくが ふかいのう
 
 MatchCall_WildBattleText14:: @ 82A9E70
-	.string "Oh, hi, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Just now, I tried to catch a cute\n"
-	.string "{STR_VAR_2}.\p"
-	.string "It got away, though!\n"
-	.string "Oh, you bet I was disappointed!\p"
-	.string "Bye-bye!$"
+	.string "어머 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "아까 {STR_VAR_2}{K_EULREUL}\n"
+	.string "잡으려고 했는데\p"
+	.string "도망쳐버렸어 아깝지!\n"
+	.string "그럼 또 봐$"
+	// あら §あ§お こんにちはｎ
+	// §い よｐ
+	// さっき §うちゃんをｎ
+	// つかまえようと したんだけどｐ
+	// にげられちゃったのよ ざんねん!ｎ
+	// じゃあ またね
 
 MatchCall_WildBattleText15:: @ 82A9EFD
-	.string "Hey, {PLAYER}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I've been thinking about trying\n"
-	.string "to catch me some POKéMON.\p"
-	.string "But I can't seem to find any.\n"
-	.string "It's a real puzzler for me!\p"
-	.string "I'm at my wit's end!\n"
-	.string "See you around!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "포켓몬을 잡으려고\n"
+	.string "하는 중인데\l"
+	.string "하나도 안 나와서 말이지-\l"
+	.string "아저씨는 고생하는 중이란다\p"
+	.string "곤란하네 정말-\n"
+	.string "그럼 나중에 또 보자-$"
+	// お-っす §あ!ｎ
+	// §い だ!ｐ
+	// ポケモンを つかまえようとｎ
+	// おもってるんだがｌ
+	// みつからなくてさ-ｌ
+	// おじさん こまってる とこなのよｐ
+	// まいったな-ｎ
+	// じゃあ またな-
 
 MatchCall_NegativeBattleText1:: @ 82A9FAB
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I tried battling another TRAINER,\n"
-	.string "but I lost.\p"
-	.string "It was really disappointing.\n"
-	.string "Well, see you again!$"
+	.string "{PLAYER} 안녕!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "다른 사람이랑 승부를 했는데\n"
+	.string "져버렸어 후우\p"
+	.string "그럼 또 봐$"
+	// §あ§お こんにちは!ｎ
+	// §い です!ｐ
+	// ほかのひとと しょうぶ したんだけどｎ
+	// まけちゃったよ がっくしｐ
+	// じゃあ またね
 
 MatchCall_NegativeBattleText2:: @ 82AA028
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "I challenged someone else after\n"
-	.string "we battled.\p"
-	.string "I came close, but I ended up\n"
-	.string "losing. Oh, well!$"
+	.string "{PLAYER} 안녕!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "나 있지\n"
+	.string "그때 이후로 승부해 봤어\p"
+	.string "하지만 아깝게\n"
+	.string "저버렸지 아-아$"
+	// §あ§お こんにちは!ｎ
+	// §いよ!ｐ
+	// わたし ねｎ
+	// あれから また しょうぶ してみたのｐ
+	// でも あとちょっとの ところでｎ
+	// まけちゃった あ-あ
 
 MatchCall_NegativeBattleText3:: @ 82AA099
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I just got cleaned in a battle.\p"
-	.string "I guess I need to raise my team\n"
-	.string "some more!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "승부에서 졌어-\n"
+	.string "좀 더 키워야 하는 걸까-$"
+	// お-っす §あ!ｎ
+	// §い だ!ｐ
+	// しょうぶ に まけたよ-ｎ
+	// もっと そだてないと だめだな-
 
 MatchCall_NegativeBattleText4:: @ 82AA100
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "I tried another battle yesterday,\n"
-	.string "but I couldn't pull out the win.\p"
-	.string "My team needs more raising.\n"
-	.string "Okay, catch you later.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "어제 또 승부해 봤는데\n"
+	.string "역시 이기지 못했어\p"
+	.string "좀 더 키울 필요가 있는 걸까\n"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あｎ
+	// §い だｐ
+	// きのう また しょうぶ してみたんだｎ
+	// でも かてなかったよｐ
+	// もっと そだてが ひつようだなｎ
+	// じゃあ またな
 
 MatchCall_NegativeBattleText5:: @ 82AA188
-	.string "Hiya, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "How are things with you?\p"
-	.string "I've been battling on,\n"
-	.string "but I haven't won very often.\p"
-	.string "I can't get it together.\n"
-	.string "Right, take care!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내?\n"
+	.string "난 승부를 해도\l"
+	.string "잘 이기지 못하고 있어\p"
+	.string "상태가 나쁜 것 같아\n"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あｎ
+	// §い だよｐ
+	// ちょうしは どうだい?ｎ
+	// おれは しょうぶ してもｌ
+	// あまり かてないんだよｐ
+	// ちょうし わるいなあｎ
+	// じゃあ またな
 
 MatchCall_NegativeBattleText6:: @ 82AA214
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "How's it going for you?\p"
-	.string "I've been battling hard lately,\n"
-	.string "but to little success.\p"
-	.string "I can't get into the groove.\n"
-	.string "You take care.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내니?\n"
+	.string "난 승부를 해도\l"
+	.string "잘 이기지 못하고 있어\p"
+	.string "상태가 나쁜가봐\n"
+	.string "그럼 나중에 또 보자$"
+	// やあ §あｎ
+	// §い だよｐ
+	// ちょうしは どうだい?ｎ
+	// おれは しょうぶ してもｌ
+	// あまり かてないんだよｐ
+	// ちょうし わるいなあｎ
+	// じゃあ またな
 
 MatchCall_NegativeBattleText7:: @ 82AA2A1
-	.string "{STR_VAR_1} here.\n"
-	.string "How's it going lately?\p"
-	.string "I lost a battle yesterday,\n"
-	.string "and it's filled my thoughts.\p"
-	.string "I have to devise a plan…\n"
-	.string "See you.$"
+	.string "{STR_VAR_1}인데-\n"
+	.string "요즘 어때?\p"
+	.string "난 어제 승부에서 져서\n"
+	.string "그것 때문에 머리가 꽉 찼어\p"
+	.string "대책을 생각해야 하는데...\n"
+	.string "그럼 또 보자$"
+	// §い だけど-ｎ
+	// さいきん どう?ｐ
+	// きのう しょうぶに まけてさｎ
+	// そのことで あたまが いっぱいなんだｐ
+	// たいさく かんがえないと®®®ｎ
+	// じゃあ また
 
 MatchCall_NegativeBattleText8:: @ 82AA31B
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "How are your POKéMON doing?\n"
-	.string "I lost a match the other day.\p"
-	.string "I need to try harder!\n"
-	.string "See you again!$"
+	.string "아 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "포켓몬의 상태는 어때?\n"
+	.string "나는 지난번에 승부에서\l"
+	.string "져버렸어\p"
+	.string "좀 더 힘내야지!\n"
+	.string "그럼 또 봐$"
+	// あ §あ§お こんにちはｎ
+	// §い ですｐ
+	// ポケモンの ちょうしは どう?ｎ
+	// わたしは このまえの しょうぶでｌ
+	// まけちゃったｐ
+	// もっと がんばらなきゃ!ｎ
+	// じゃあ またね
 
 MatchCall_NegativeBattleText9:: @ 82AA3A8
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "Listen, listen, you have to hear\n"
-	.string "this!\p"
-	.string "I had a POKéMON battle earlier,\n"
-	.string "but I lost at the last second.\p"
-	.string "Oh, it burns me up!$"
+	.string "아 {PLAYER} 안녕-!\n"
+	.string "{STR_VAR_1}{K_I}야-\p"
+	.string "있지- 들어봐 들어봐!\n"
+	.string "저번에 포켓몬 승부를 했는데\p"
+	.string "거의 다 됐는데 아깝게\n"
+	.string "져버렸어-! 분해!$"
+	// あ §あ§お こんにちは-!ｎ
+	// §い で-すｐ
+	// ね- きいて きいて!ｎ
+	// このまえ ポケモン しょうぶ したんだけどｐ
+	// あとちょっとの ところでｎ
+	// まけちゃったのよ-! くやしい!
 
 MatchCall_NegativeBattleText10:: @ 82AA442
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "A little earlier, I was in a battle.\n"
-	.string "I lost, though.\p"
-	.string "I need to raise my POKéMON more.\n"
-	.string "See you around.$"
+	.string "어머 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "방금 승부를 했는데\n"
+	.string "져버렸지 뭐야\p"
+	.string "좀 더 포켓몬을 키워야겠어\n"
+	.string "그럼 또 봐$"
+	// あら §あ§おｎ
+	// §い ですｐ
+	// さっき しょうぶ したんだけどｎ
+	// まけちゃったｐ
+	// もっと ポケモン そだてないと だめねｎ
+	// じゃあ またね
 
 MatchCall_NegativeBattleText11:: @ 82AA4C5
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\l"
-	.string "How are your POKéMON?\p"
-	.string "I just lost yet another battle.\p"
-	.string "Well, see you!$"
+	.string "여어 {PLAYER} 잘 지내?\n"
+	.string "{STR_VAR_1}{K_I}야\l"
+	.string "포켓몬의 상태는 어때?\p"
+	.string "이쪽은 또 승부에서\n"
+	.string "져버렸어\p"
+	.string "그럼 또 보자$"
+	// やあ §あ§お げんきかい?ｎ
+	// §い だよｌ
+	// ポケモンの ちょうしは どう?ｐ
+	// こっちは また しょうぶにｎ
+	// まけちゃったよｐ
+	// じゃあ また
 
 MatchCall_NegativeBattleText12:: @ 82AA520
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you still battling hard?\p"
-	.string "As for me, I lost recently, so I've\n"
-	.string "been training my team all over.\p"
-	.string "Let's meet again.$"
+	.string "여어여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\l"
+	.string "승부는 하고 있느냐?\p"
+	.string "나는 지난번에 져버려서\n"
+	.string "또 포켓몬을\l"
+	.string "키우고 있다네\p"
+	.string "그럼 나중에 보세$"
+	// やあやあ §あ§おｎ
+	// §い じゃがｌ
+	// しょうぶ しておるのかな?ｐ
+	// わしのほうは このまえ まけてしまってｎ
+	// また ポケモンをｌ
+	// そだてておる ところじゃよｐ
+	// では またな
 
 MatchCall_NegativeBattleText13:: @ 82AA5AD
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\p"
-	.string "I was in a battle just a little\n"
-	.string "while before this.\p"
-	.string "{PLAYER}{KUN}, try to be active like me.\n"
-	.string "See you again!$"
+	.string "오오 {PLAYER}\n"
+	.string "{STR_VAR_1}일세\p"
+	.string "잘 지내는가?\n"
+	.string "방금 전까지 포켓몬 승부를\l"
+	.string "하고 있었다네\p"
+	.string "{PLAYER}도 힘내게나\n"
+	.string "그럼 또 보세$"
+	// おお §あ§おｎ
+	// §い じゃｐ
+	// げんき かのう?ｎ
+	// さっきまで ポケモン しょうぶをｌ
+	// しておったよｐ
+	// §あ§おも がんばるんじゃぞｎ
+	// では またの
 
 MatchCall_NegativeBattleText14:: @ 82AA64D
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Are you doing good?\p"
-	.string "You should go home every so often,\n"
-	.string "though.\p"
-	.string "Bye-bye!$"
+	.string "어머 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내니?\n"
+	.string "가끔은 집에 돌아가보도록 해\l"
+	.string "그럼 또 봐$"
+	// あら §あ§おｎ
+	// §い よｐ
+	// ちょうしは どうなの?ｎ
+	// たまには いえに かえらないと だめよｌ
+	// じゃあ またね
 
 MatchCall_PositiveBattleText1:: @ 82AA6AF
-	.string "Hi! {PLAYER}{KUN}, hello!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I battled another TRAINER earlier.\n"
-	.string "I won! I won!\p"
-	.string "My {STR_VAR_2} really worked hard\n"
-	.string "for me. This is so great!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "아까 승부를 했었는데\n"
+	.string "이겼어! 이겼다고!\p"
+	.string "내 {STR_VAR_2}{K_IGA}\n"
+	.string "엄청 열심히 해줬어! 기쁘다-$"
+	// こんにちは §あ§お!ｎ
+	// §い です!ｐ
+	// さっき しょうぶ したんだけどｎ
+	// かったよ! かったよ!ｐ
+	// ぼくの §う がｎ
+	// すごく がんばったんだ! うれしいな-
 
 MatchCall_PositiveBattleText2:: @ 82AA730
 	.string "Hello, {PLAYER}{KUN}!\n"
@@ -2819,17 +3017,24 @@ MatchCall_Text_Steven5:: @ 82B5E26
 	.string "and do what's right.$"
 
 MatchCall_Text_Steven6:: @ 82B5EA2
-	.string "… … … … … …\p"
-	.string "STEVEN appears not to be getting\n"
-	.string "the call…$"
+	.string "... ... ...\p"
+	.string "성호에게는 호출이\n"
+	.string "닿지 않는 것 같다...$"
+	// …… …… ……ｐ
+	// ダイゴには よびだしがｎ
+	// つうじていない ようだ……
 
 MatchCall_Text_Steven7:: @ 82B5ED9
-	.string "STEVEN: {PLAYER}{KUN}… Congratulations\n"
-	.string "for entering the HALL OF FAME.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I hope we can meet again\n"
-	.string "somewhere!$"
+	.string "성호: {PLAYER}...\n"
+	.string "전당등록 축하해\p"
+	.string "... ... ...\n"
+	.string "... ... ...\p"
+	.string "또 언젠가 만나면 좋겠다!$"
+	// ダイゴ『§あ§お……ｎ
+	// でんどういり おめでとうｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// また いつか あえると いいね!
 
 MatchCall_Text_BirchRegisterCall: @ 82B5F52
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
