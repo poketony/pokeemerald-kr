@@ -307,7 +307,7 @@ MoveTutor_Text_DoubleEdgeTeach: @ 82C7B8E
 	.string "루네시티의 체육관 관장은\l"
 	.string "엄청 멋지니까\l"
 	.string "라이벌이 많단 말이지-\p"
-	.string "이 내가 이판사판으로 부딫혀\n"
+	.string "이 내가 이판사판으로 부딪혀\n"
 	.string "봤는데도 실패였어!\p"
 	.string "저기 너!\n"
 	.string "모처럼이니까 이 나의\l"
