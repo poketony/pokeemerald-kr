@@ -376,7 +376,7 @@ BattleFrontier_Lounge7_Text_RightTutorIntro: @ 8265A6C
 	.string "꽤 강한 트레이너였다네-\p"
 	.string "무적의 비키니 누님으로서\n"
 	.string "인기가 굉장했었지!\p"
-	.string "...... ... ...응?\p"
+	.string "...... ...... ...응?\p"
 	.string "뭔가 자네 못 믿는 겐가?!\p"
 	.string "난 저쪽의 입만 산 할멈과는\n"
 	.string "다르게 실력이 있다네!\p"

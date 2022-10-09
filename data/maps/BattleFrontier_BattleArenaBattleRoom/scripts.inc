@@ -701,7 +701,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
 	// たのしみに してたん だからね-っ!!
 
 BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
-	.string "...... ...... ...... ...... 그러니까 준비됐어?$"
+	.string "... ... ... ... 그러니까 알겠지?$"
 	// …… …… …… …… だから い-い?
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:

@@ -84,7 +84,7 @@ Route105_EventScript_AndresRematch:: @ 81EE31F
 
 Route104_Text_DadPokenavCall: @ 81EE336
 	.string "...... ...... ......\n"
-	.string "...... ...... ...삑!\p"
+	.string "...... ...... ...... 삑!\p"
 	.string "아빠: 오오 {PLAYER}이구나!\p"
 	.string "...... ...... ......\p"
 	.string "지금 어디에 있는 거니?\n"
@@ -95,7 +95,7 @@ Route104_Text_DadPokenavCall: @ 81EE336
 	.string "건강하게 모험 중이라면 그걸로 됐어!\n"
 	.string "그럼 조심하려무나!\p"
 	.string "...... ...... ......\n"
-	.string "...... ...... ...딸깍-$"
+	.string "...... ...... ...... 딸깍-$"
 	// …… …… ……ｎ
 	// …… …… …… ピッ!ｐ
 	// パパ『おお §あか!ｐ

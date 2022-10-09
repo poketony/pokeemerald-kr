@@ -451,117 +451,198 @@ MatchCall_PositiveBattleText1:: @ 82AA6AF
 	// すごく がんばったんだ! うれしいな-
 
 MatchCall_PositiveBattleText2:: @ 82AA730
-	.string "Hello, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}!\p"
-	.string "I had a battle yesterday and\n"
-	.string "I won! It's fantastic!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "어제 승부를 했는데\n"
+	.string "이겼어! 기뻐-!$"
+	// こんにちは §あ§お!ｎ
+	// §い です!ｐ
+	// きのう しょうぶ したんだけどｎ
+	// かったのよ! うれしい-!
 
 MatchCall_PositiveBattleText3:: @ 82AA77A
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}!\l"
-	.string "How's your battling?\p"
-	.string "Me, I had a battle the other day,\n"
-	.string "and my {STR_VAR_2} came up huge!\p"
-	.string "The next time I battle you,\n"
-	.string "{PLAYER}, it won't be me losing!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}라고\p"
+	.string "상태는 어때?\n"
+	.string "난 지난번에 승부를 했는데\l"
+	.string "내 {STR_VAR_2}{K_IGA} 엄청 활약했어!\p"
+	.string "다음에 {PLAYER}{K_WAGWA} 승부할 때는\n"
+	.string "절대로 지지 않을 거야-!$"
+	// お-っす §あ!ｎ
+	// §い だぞｐ
+	// ちょうしは どうだ?ｎ
+	// おれも このまえ しょうぶ したんだけどｌ
+	// おれの §うが だいかつやく さ!ｐ
+	// つぎ §あと しょうぶ するときはｎ
+	// ぜったい まけない からな-!
 
 MatchCall_PositiveBattleText4:: @ 82AA81C
-	.string "Hey, {PLAYER}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "I had a match earlier.\n"
-	.string "I managed to win, but it was close.\p"
-	.string "My {STR_VAR_2} put on one\n"
-	.string "inspired showing.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "아까 승부했는데\n"
+	.string "어떻게든 이길 수 있었어\p"
+	.string "내 {STR_VAR_2}{K_IGA}\n"
+	.string "엄청 열심히 해줬지$"
+	// やあ §あｎ
+	// §い だｐ
+	// さっき しょうぶ したんだけどｎ
+	// なんとか かつ ことが できたよｐ
+	// ぼくの §うがｎ
+	// すごく がんばったんだ
 
 MatchCall_PositiveBattleText5:: @ 82AA88C
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "How are things with you?\n"
-	.string "Battling much?\p"
-	.string "I just won a while back!\n"
-	.string "My {STR_VAR_2} was brilliant!\p"
-	.string "You wait. I'm going to beat you\n"
-	.string "next time! Right, take care!$"
+	.string "여어 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "상태는 어때?\n"
+	.string "승부는 하고 있어?\p"
+	.string "난 지난번에 이겼어!\n"
+	.string "{STR_VAR_2}{K_IGA} 엄청 활약했거든!\p"
+	.string "다음엔 너한테 이길 거야!\n"
+	.string "그럼 또 봐$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// ちょうしは どうだい?ｎ
+	// しょうぶ してる?ｐ
+	// おれ このまえ かったよ!ｎ
+	// §うが だいかつやく さ!ｐ
+	// つぎこそ きみに かつからね!ｎ
+	// じゃあ またね
 
 MatchCall_PositiveBattleText6:: @ 82AA934
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "How's it going for you?\p"
-	.string "I've been riding a hot streak.\n"
-	.string "Why, I just won a battle.\p"
-	.string "When we have our next battle,\n"
-	.string "I'm sure not going to lose!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내지?\n"
+	.string "난 최근 상태가 좋아서\l"
+	.string "아까도 승부에서 이겼어\p"
+	.string "다음에 너하고 승부할 때는\n"
+	.string "절대로 지지 않을 거야$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// げんき かい?ｎ
+	// おれは さいきん ちょうしが よくてｌ
+	// さっきも しょうぶに かったところだｐ
+	// つぎに きみと しょうぶ するときはｎ
+	// ぜったいに まけないからな
 
 MatchCall_PositiveBattleText7:: @ 82AA9D3
-	.string "{PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "My {STR_VAR_2} is a force!\n"
-	.string "It won me another battle just now!\p"
-	.string "I can't wait to have a rematch\n"
-	.string "with you.$"
+	.string "{PLAYER}?\n"
+	.string "{STR_VAR_1}인데\p"
+	.string "내 {STR_VAR_2} 강한가봐!\n"
+	.string "아까도 승부에서 이겼거든!\p"
+	.string "다음에 너하고 승부할 때가\n"
+	.string "기대된다$"
+	// §あ§お?ｎ
+	// §い だけどｐ
+	// ぼくの §う つよいわけよ!ｎ
+	// さっきも しょうぶで かったわけよ!ｐ
+	// つぎに きみと しょうぶ するのがｎ
+	// たのしみだなあ
 
 MatchCall_PositiveBattleText8:: @ 82AAA40
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "I hope you've been well.\n"
-	.string "I wanted to tell you I just won.\p"
-	.string "My {STR_VAR_2} worked especially\n"
-	.string "hard to get the win.\p"
-	.string "See you again!$"
+	.string "어머 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내니?\n"
+	.string "난 방금 승부에서 이겼어\p"
+	.string "{STR_VAR_2}{K_IGA} 엄청 열심히 했지\n"
+	.string "그럼 또 봐$"
+	// あら §あ§お こんにちはｎ
+	// §い よｐ
+	// げんき かしら?ｎ
+	// わたしね さっき しょうぶ して かったのｐ
+	// §う が とっても がんばったのよｎ
+	// じゃあ またね
 
 MatchCall_PositiveBattleText9:: @ 82AAAE4
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "How are your POKéMON holding up?\n"
-	.string "Mine just won a battle!\p"
-	.string "My {STR_VAR_2} was spectacular,\n"
-	.string "I must say!\p"
-	.string "I wish I could've shown you!\n"
-	.string "See you again!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "포켓몬의 상태는 어때?\n"
+	.string "내 쪽은 방금 승부해서\l"
+	.string "막 이긴 참이야!\p"
+	.string "내 {STR_VAR_2}{K_IGA}\n"
+	.string "굉장한 활약을 했었지\p"
+	.string "보여주고 싶었는데-\n"
+	.string "그럼 또 봐!$"
+	// こんにちは §あ§お!ｎ
+	// §い で-す!ｐ
+	// ポケモンの ちょうしは どう?ｎ
+	// わたしのほうは さっき しょうぶしてｌ
+	// かった ところよ!ｐ
+	// わたしの §う がｎ
+	// すごい かつやく だったのよｐ
+	// みせたかったな-ｎ
+	// じゃあ またね!
 
 MatchCall_PositiveBattleText10:: @ 82AAB8C
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "How has life been treating you?\p"
-	.string "My POKéMON appear to be charged\n"
-	.string "with energy.\p"
-	.string "I just won a battle with them.\n"
-	.string "See you around.$"
+	.string "어머 안녕 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "상태는 어때?\n"
+	.string "내 포켓몬은 상태가 좋은 것 같아\p"
+	.string "아까도 승부에서 이겼거든\n"
+	.string "그럼 또 봐$"
+	// あら こんにちは §あ§おｎ
+	// §い よｐ
+	// ちょうしは どうかしら?ｎ
+	// わたしの ポケモン ちょうし いいみたいｐ
+	// さっきも しょうぶで かてたのよｎ
+	// じゃあ またね
 
 MatchCall_PositiveBattleText11:: @ 82AAC25
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Been in any battles lately?\n"
-	.string "I just won another one today!\p"
-	.string "I'm on a roll! Gahahaha!\n"
-	.string "Well, see you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "포켓몬 승부는 하고 있니?\n"
+	.string "아저씨는 오늘도 승부에서 이겼단다-\p"
+	.string "상태가 너무 좋아 으하하하\n"
+	.string "그럼 또 봐$"
+	// やあ §あ§おｎ
+	// §い だよｐ
+	// ポケモン しょうぶ してるかい?ｎ
+	// おじさん きょうも しょうぶに かってね-ｐ
+	// ちょうし いいんだよ がはははｎ
+	// じゃあ またね
 
 MatchCall_PositiveBattleText12:: @ 82AAC9D
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I trust you've been well?\n"
-	.string "I'm still bursting with life!\p"
-	.string "Why, just now, I won another match.\n"
-	.string "I'm not stepping aside to you\l"
-	.string "youngsters yet!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}라네\p"
+	.string "잘 지내고 있나?\n"
+	.string "난 잘 지내고 있다네\p"
+	.string "방금도 승부에서 이겼거든\n"
+	.string "젊은 것들에게 아직 질 수는 없지!$"
+	// やあ §あ§おｎ
+	// §い じゃよｐ
+	// げんきに してるかのう?ｎ
+	// わしは げんき じゃぞｐ
+	// さっきも しょうぶに かった ところじゃｎ
+	// わかいもんには まだまだ まけんぞ
 
 MatchCall_PositiveBattleText13:: @ 82AAD41
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\n"
-	.string "I still have a bounce in my step!\p"
-	.string "Why, I just won a battle yet again.\n"
-	.string "Oh, I won't lose to young people\l"
-	.string "quite yet!\p"
-	.string "See you again!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}라네\p"
+	.string "잘 지내고 있나?\n"
+	.string "난 잘 지내고 있다네\p"
+	.string "방금도 승부에서 이겼거든\n"
+	.string "젊은 것들에게 아직 질 수는 없지\p"
+	.string "그럼 또 보세$"
+	// やあ §あ§おｎ
+	// §い じゃよｐ
+	// げんきに してるかのう?ｎ
+	// わしは げんき じゃぞｐ
+	// さっきも しょうぶに かった ところじゃｎ
+	// わかいもんには まだまだ まけんぞｐ
+	// じゃあ またのう
 
 MatchCall_PositiveBattleText14:: @ 82AAE00
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I was in a battle recently, and my\n"
-	.string "{STR_VAR_2} was exceptional!\p"
-	.string "I wish you could have seen it,\n"
-	.string "{PLAYER}{KUN}. Bye-bye!$"
+	.string "{PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "저번에 승부를 했는데\n"
+	.string "내 {STR_VAR_2}{K_IGA} 대활약했어!\p"
+	.string "{PLAYER}에게도 보여주고 싶었는데\n"
+	.string "그럼 또 보자$"
+	// §あ§お こんにちはｎ
+	// §い よｐ
+	// このまえ しょうぶ したんだけどｎ
+	// わたしの §うが だいかつやく!ｐ
+	// §あ§おにも みせたかったなｎ
+	// じゃあ また
 
 MatchCall_SameRouteBattleRequestText1:: @ 82AAE7F
 	.string "Hi! {PLAYER}, hello!\n"
@@ -2972,52 +3053,73 @@ MatchCall_Text_Norman9:: @ 82B5B5E
 	.string "How much higher will you soar?$"
 
 MatchCall_Text_Steven1:: @ 82B5B95
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "Have you been to MAUVILLE\n"
-	.string "already?\p"
-	.string "You should visit the BIKE SHOP\n"
-	.string "and get a MACH BIKE.\p"
-	.string "Then, try exploring the GRANITE\n"
-	.string "CAVE thoroughly.\p"
-	.string "You may make a new discovery\n"
-	.string "there.$"
+	.string "성호: 여어 {PLAYER}!\p"
+	.string "보라시티에는 벌써 가봤어?\p"
+	.string "마을에 있는 사이클숍에서\n"
+	.string "마하자전거를 얻었다면\p"
+	.string "한 번 더 바위 동굴 안쪽에\n"
+	.string "가보도록 해!\p"
+	.string "뭔가 새로운 발견이\n"
+	.string "있을지도 몰라!$"
+	// ダイゴ『やあ §あ§お!ｐ
+	// もう キンセツシティには いったかな?ｐ
+	// まちの サイクルショップでｎ
+	// マッハじてんしゃを てにいれたらｐ
+	// もういちど いしのどうくつの おくにｎ
+	// いってみるのも いいね!ｐ
+	// なにか あたらしい はっけんがｎ
+	// あるかも しれないよ!
 
 MatchCall_Text_Steven2:: @ 82B5C53
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "I've met a lot of different\n"
-	.string "TRAINERS so far.\p"
-	.string "But you're one of a kind.\n"
-	.string "You're not like anyone else.$"
+	.string "성호: 여어 {PLAYER}!\p"
+	.string "난 여태까지 꽤나 다양한\n"
+	.string "트레이너를 봐왔지만\p"
+	.string "넌 누구와도 닮지 않은\n"
+	.string "처음으로 보는 타입의 사람이야!$"
+	// ダイゴ『やあ §あ§お!ｐ
+	// ボクは これまでに ずいぶん いろいろなｎ
+	// トレ-ナ-を みてきた けれどｐ
+	// キミは だれにも にていないｎ
+	// はじめて みる タイプの ひとだよ!
 
 MatchCall_Text_Steven3:: @ 82B5CC9
-	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
-	.string "When you're on an adventure with\n"
-	.string "your POKéMON, what do you think?\p"
-	.string "Do you consider them to be strong\n"
-	.string "partners?\p"
-	.string "Do you think of them as fun\n"
-	.string "companions?\p"
-	.string "Depending on how you think, your\n"
-	.string "adventure's significance changes.$"
+	.string "성호: 여어 {PLAYER}!\p"
+	.string "너는 포켓몬과 모험하면서\n"
+	.string "어떤 기분을 느끼고 있니?\p"
+	.string "강한 아군이라고 생각하니?\n"
+	.string "재밌는 동료라고 생각하니?\p"
+	.string "네가 어떻게 생각하느냐에 따라\n"
+	.string "그 모험의 의미가 바뀔 거야!$"
+	// ダイゴ『やあ §あ§お!ｐ
+	// キミは ポケモンと ぼうけんを していてｎ
+	// どんな きぶんに なる?ｐ
+	// つよいみかた だと おもうかい?ｎ
+	// たのしいなかま だと おもうかい?ｐ
+	// キミが どう かんじるかに よってｎ
+	// その ぼうけんの いみは かわるんだ!
 
 MatchCall_Text_Steven4:: @ 82B5DB4
-	.string "STEVEN: Hello?\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "I'm involved in a spot of trouble\n"
-	.string "at the SPACE CENTER.\p"
-	.string "I'm sorry, but I can't talk now.\n"
-	.string "Bye!$"
+	.string "성호: 아아 {PLAYER}{K_I}니?\p"
+	.string "지금 막 우주센터에서\n"
+	.string "성가신 일이 일어났어\p"
+	.string "미안하지만 나중에 보자!$"
+	// ダイゴ『ああ §あ§お かい?ｐ
+	// ちょっと いま うちゅうセンタ-でｎ
+	// めんどうな ことが おきてるんだｐ
+	// わるいけど また あとでね!
 
 MatchCall_Text_Steven5:: @ 82B5E26
-	.string "STEVEN: Oh!\n"
-	.string "{PLAYER}{KUN}!\p"
-	.string "There's no need to talk.\n"
-	.string "It's past time for talking.\p"
-	.string "You have to believe in yourself\n"
-	.string "and do what's right.$"
+	.string "성호: 앗 {PLAYER}!\p"
+	.string "아무 말 안 해도 돼!\n"
+	.string "아무튼 지금은...\p"
+	.string "네가 생각하는 대로 나아가!$"
+	// ダイゴ『あっ §あ§お!ｐ
+	// なにも いわなくて いいよ!ｎ
+	// とにかく いまは……ｐ
+	// キミが おもうように すすむんだ!
 
 MatchCall_Text_Steven6:: @ 82B5EA2
-	.string "... ... ...\p"
+	.string "...... ...... ......\p"
 	.string "성호에게는 호출이\n"
 	.string "닿지 않는 것 같다...$"
 	// …… …… ……ｐ
@@ -3027,8 +3129,8 @@ MatchCall_Text_Steven6:: @ 82B5EA2
 MatchCall_Text_Steven7:: @ 82B5ED9
 	.string "성호: {PLAYER}...\n"
 	.string "전당등록 축하해\p"
-	.string "... ... ...\n"
-	.string "... ... ...\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
 	.string "또 언젠가 만나면 좋겠다!$"
 	// ダイゴ『§あ§お……ｎ
 	// でんどういり おめでとうｐ
@@ -3037,123 +3139,207 @@ MatchCall_Text_Steven7:: @ 82B5ED9
 	// また いつか あえると いいね!
 
 MatchCall_Text_BirchRegisterCall: @ 82B5F52
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
-	.string "I've already heard about you!\p"
-	.string "It seems your POKéNAV's been\n"
-	.string "upgraded with MATCH CALL.\p"
-	.string "Well, I should register, too!\p"
-	.string "That way, I'd be able to examine\n"
-	.string "your POKéDEX even while you're\l"
-	.string "out in the field.\p"
-	.string "… … … … … …$"
+	.string "털보박사: 오오 {PLAYER}{K_AYA}!\n"
+	.string "얘기는 이미 들었단다!\p"
+	.string "네 포켓내비에 엔트리콜이\n"
+	.string "장착되었다고 하더구나!\p"
+	.string "그렇다면 나도 등록해 두렴!\p"
+	.string "이걸로 너와 떨어져 있어도\n"
+	.string "바로 포켓몬 도감의 평가를\l"
+	.string "해줄 수 있겠구나!\p"
+	.string "...... ...... ......$"
+	// オダマキ『おお §あ§お!ｎ
+	// はなしは すでに きいて いるよ!ｐ
+	// きみの ポケナビに エントリ-コ-ルがｎ
+	// セットされた らしいな!ｐ
+	// ならば わたしも とうろく しておこう!ｐ
+	// これで きみと はなれていてもｎ
+	// すぐに ポケモンずかんの ひょうかをｌ
+	// してあげられる からね!ｐ
+	// …… …… ……
 
 MatchCall_Text_RegisteredBirch: @ 82B603A
-	.string "Registered PROF. BIRCH\n"
-	.string "in the POKéNAV.$"
+	.string "털보박사를\n"
+	.string "포켓내비에 등록했다!$"
 
 MatchCall_Text_UnusedProfBirch:
-	.string "PROF. BIRCH: When one has both\n"
-	.string "the POKéDEX and POKéNAV, studying\l"
-	.string "POKéMON becomes more fun, eh?$"
+	.string "털보박사: 도감과 포켓내비가 있으면\n"
+	.string "포켓몬 조사도\l"
+	.string "더욱 즐거워지겠구나!$"
+	// オダマキ『ずかんと ポケナビが あればｎ
+	// ポケモンの ちょうさもｌ
+	// より いっそう たのしくなるな!
 
 MatchCall_Text_MrStone1:: @ 82B60C0
-	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
-	.string "Since you called me, the POKéNAV\n"
-	.string "must be working properly!\p"
-	.string "Other people will be registered,\n"
-	.string "so try calling them up, too!\p"
-	.string "Good! Good!\n"
-	.string "You seem to be quite happy!\p"
-	.string "Hm…\n"
-	.string "How could I know that?\p"
-	.string "It's because I'm looking down at\n"
-	.string "you from my office window!\p"
-	.string "Wahahaha!\n"
-	.string "See you again!$"
+	.string "나발명: 오! {PLAYER}인가?\p"
+	.string "이렇게 나를 호출했다는 건\n"
+	.string "포켓내비가 잘 작동한다는 뜻이구나!\p"
+	.string "나 말고도 다양한 사람들이\n"
+	.string "등록되어 갈 테니까 계속\l"
+	.string "호출해서 얘기해 보거라!\p"
+	.string "좋아 좋아!\n"
+	.string "기분이 좋아 보이는구나!\p"
+	.string "...응? 어떻게 아냐고?\p"
+	.string "그건... 사장실 창문에서\n"
+	.string "자네를 내려다보고 있으니까지!\p"
+	.string "와하하하! 그럼 나중에 보자꾸나!$"
+	// ツワブキ『おっ! §あ§おか?ｐ
+	// こうして わしを よびだした ってことはｎ
+	// ポケナビの ちょうしは よさそうだな!ｐ
+	// わしの ほかにも いろんな ひとがｎ
+	// とうろく されて いくから どんどんｌ
+	// よびだして はなしを すると いいぞ!ｐ
+	// けっこう! けっこう!ｎ
+	// うれしそうに しとる ようだな!ｐ
+	// ……ん? なんで わかるのかって?ｐ
+	// それは…… しゃちょうしつの まどからｎ
+	// きみを みおろして いるからだよ!ｐ
+	// わははは! じゃあ またな!
 
 MatchCall_Text_MrStone2:: @ 82B61E6
-	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
-	.string "What's wrong? Have you forgotten\n"
-	.string "about that little errand of mine?\p"
-	.string "I need you to deliver my letter\n"
-	.string "to STEVEN in DEWFORD.\p"
-	.string "After that, deliver our parcel to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "You remember, don't you?\p"
-	.string "Now, since I am a busy PRESIDENT,\n"
-	.string "I have to go! Bye-bye!$"
+	.string "나발명: 오! {PLAYER}인가?\p"
+	.string "왜 그러냐! 내가 부탁한 일이\n"
+	.string "뭐였는지 까먹은 건가?\p"
+	.string "우선 무로마을에서 성호에게\n"
+	.string "편지를 전해주게나!\p"
+	.string "그 후 잿빛도시의 해양관장에게\n"
+	.string "우리 회사의 화물을 전달하면 된단다!\p"
+	.string "자 기억했니?\n"
+	.string "난 바쁜 사장이니\l"
+	.string "이만 실례하마!$"
+	// ツワブキ『おっ! §あ§おか?ｐ
+	// どうした! わしが たのんだ しごとｎ
+	// わすれちゃったの かな?ｐ
+	// まずは ムロタウンで ダイゴにｎ
+	// てがみを わたしてくれ!ｐ
+	// そのあと カイナシティの クスノキくんにｎ
+	// わがしゃの にもつを とどけるんだ!ｐ
+	// な? おぼえたかな?ｎ
+	// わしは いそがしい しゃちょう だからねｌ
+	// これで しつれい するよ!
 
 MatchCall_Text_MrStone3:: @ 82B6302
-	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
-	.string "Ah, so you've met STEVEN!\n"
-	.string "I'd better reward you, then!\p"
-	.string "When you visit RUSTBORO again,\n"
-	.string "come see me at my office.\p"
-	.string "I'll be waiting for you!$"
+	.string "나발명: 오! {PLAYER}!\p"
+	.string "그런가 성호에게 전해줬구나!\n"
+	.string "좋-아 답례로 선물을 주마!\p"
+	.string "금탄도시에 올 일이 있다면\n"
+	.string "내 방에 찾아오거라!\p"
+	.string "그럼 기다리고 있으마!$"
+	// ツワブキ『おっ! §あ§お!ｐ
+	// そうか ダイゴに あえたのか!ｎ
+	// よ-し おれいに プレゼントを やろう!ｐ
+	// カナズミに くることが あったらｎ
+	// わしの へやに よっていって おくれ!ｐ
+	// じゃあな まっとるぞ!
 
 MatchCall_Text_MrStone4:: @ 82B63A0
-	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
-	.string "Did you know that DEVON was\n"
-	.string "digging the RUSTURF TUNNEL?\p"
-	.string "But we shut down the operation to\n"
-	.string "protect the POKéMON in the area.\p"
-	.string "It's a no-brainer, really.\p"
-	.string "It's more important to let POKéMON\n"
-	.string "live in peace than worry about our\l"
-	.string "own convenience.$"
+	.string "나발명: 오오! {PLAYER}!\p"
+	.string "그래그래 금잔터널은\n"
+	.string "우리 회사가 파고 있었는데\p"
+	.string "그 주변에 서식하고 있는\n"
+	.string "포켓몬을 보호하기 위해서\l"
+	.string "공사를 중지했었단다\p"
+	.string "뭐 인간의 편리함보다는\n"
+	.string "포켓몬이 조용하게 사는 게\l"
+	.string "중요하니까 말이지!$"
+	// ツワブキ『おお! §あ§お!ｐ
+	// そうそう カナシダトンネルはｎ
+	// わがしゃが ほって いたんだけどねｐ
+	// あの あたりに せいそく しているｎ
+	// ポケモンを ほご するためにｌ
+	// こうじは ちゅうし したんだよｐ
+	// まあ にんげんの べんりさ よりはｎ
+	// ポケモンが しずかに くらせるｌ
+	// そのほうが だいじな ことだからね!
 
 MatchCall_Text_MrStone5:: @ 82B64A2
-	.string "MR. STONE: Hello, hello, {PLAYER}{KUN}!\p"
-	.string "I heard from someone in PETALBURG\n"
-	.string "that you're NORMAN's child!\p"
-	.string "No wonder you're such a capable\n"
-	.string "being!$"
+	.string "나발명: 여어여어 {PLAYER}!\p"
+	.string "등화도시의 사람한테서 들었는데\n"
+	.string "자네가 종길씨의 자식이었군\p"
+	.string "어쩐지 믿음직스럽다 했어!$"
+	// ツワブキ『やあやあ §あ§お!ｐ
+	// トウカシティの ひとから きいたんだけどｎ
+	// きみは センリさんの こども なんだねｐ
+	// どうりで たのもしいと おもったよ!
 
 MatchCall_Text_MrStone6:: @ 82B6526
-	.string "MR. STONE: What's that?\p"
-	.string "You battled your own father and\n"
-	.string "defeated him?\p"
-	.string "That's astounding!\p"
-	.string "I had no idea that I befriended\n"
-	.string "someone so special! Wahaha!$"
+	.string "나발명: 에엑!\n"
+	.string "자네가 자신의 아버지와\l"
+	.string "포켓몬 승부를 해서 이겼다고?\p"
+	.string "이거 놀랍군!\n"
+	.string "나는 굉장한 사람과 친구가\l"
+	.string "됐어! 와하하!$"
+	// ツワブキ『ええっ!ｎ
+	// きみは じぶんの おとうさんとｌ
+	// ポケモンしょうぶを して かったのかい?ｐ
+	// こりゃ びっくりだ!ｎ
+	// わしは すごい ひとと ともだちにｌ
+	// なっちゃったんだなあ! わはは!
 
 MatchCall_Text_MrStone7:: @ 82B65BB
-	.string "Hello!\n"
-	.string "This is DEVON CORPORATI…\l"
-	.string "Oh, hello, {PLAYER}!\p"
-	.string "Our PRESIDENT was here a little\n"
-	.string "while ago, but he's gone out.\p"
-	.string "Our PRESIDENT is busy, but you\n"
-	.string "seem to be just as busy, {PLAYER}.$"
+	.string "여보세요!\n"
+	.string "데봉 코포레이션입니...\l"
+	.string "아아 {PLAYER}씨였군요!\p"
+	.string "사장님은 방금까지 계셨는데\n"
+	.string "지금은 부재중이십니다!\p"
+	.string "저희 사장님도 바쁘시지만\n"
+	.string "{PLAYER}씨도 바쁜 것 같네요!$"
+	// もしもし!ｎ
+	// デボンコ-ポレ-ションで ございま……ｌ
+	// ああ §あさん ですね!ｐ
+	// しゃちょうは さっきまで いたんですけどｎ
+	// いまは るすに してるんですよ!ｐ
+	// うちの しゃちょうも いそがしいけどｎ
+	// §あさんも いそがしそう ですね!
 
 MatchCall_Text_MrStone8:: @ 82B6664
-	.string "…Huh? …What's that?\p"
-	.string "GROU… Yes? …DON?\p"
-	.string "You're breaking up…\n"
-	.string "…can't hear…\p"
-	.string "BZZZZ…$"
+	.string "...에 ...무슨 일인가?\p"
+	.string "그란... 뭐? ...돈?\p"
+	.string "왠지 잘... 안 들리...\p"
+	.string "지지지지직...... ...... ......$"
+	// ……え ……なにかね?ｐ
+	// グラ…… はい? ……ドン?ｐ
+	// なんだか…… きこえな……ｐ
+	// ザザザザザ…… …… ……
 
 MatchCall_Text_MrStone9:: @ 82B66B1
-	.string "…Huh? …What's that?\p"
-	.string "Seaflo… Yes? …Caver…?\p"
-	.string "You're breaking up…\n"
-	.string "…can't hear…\p"
-	.string "BZZZZ…$"
+	.string "...에 ...무슨 일인가?\p"
+	.string "해저... 뭐? ...동굴?\p"
+	.string "왠지 잘... 안 들리...\p"
+	.string "지지지지직...... ...... ......$"
+	// ……え ……なにかね?ｐ
+	// かいて…… はい? ……どうくつ?ｐ
+	// なんだか…… きこえな……ｐ
+	// ザザザザザ…… …… ……
 
 MatchCall_Text_MrStone10:: @ 82B6703
-	.string "MR. STONE: {PLAYER}{KUN}! It's me!\p"
-	.string "You were apparently involved in all\n"
-	.string "sorts of things, but I, being busy,\l"
-	.string "haven't a clue exactly what!\p"
-	.string "However, I urge you to take\n"
-	.string "the road you believe in and walk it.\p"
-	.string "I'll always be in your corner!\n"
-	.string "Take care!$"
+	.string "나발명: {PLAYER}! 나일세!\p"
+	.string "왠지 여러 일이 있었던 것 같지만\n"
+	.string "바쁜 나는 무슨 일이\l"
+	.string "일어난 건지 전혀 모르겠네!\p"
+	.string "아무튼 자네는 자신이 믿은\n"
+	.string "길을 걸어나가게나!\p"
+	.string "나도 뒤에서나마 응원할 테니!\n"
+	.string "그럼 이만!$"
+	// ツワブキ『§あ§お! わしだ!ｐ
+	// なんだか いろいろ あった らしいがｎ
+	// いそがしい わしにはｌ
+	// なんの ことだか サッパリ わからん!ｐ
+	// とにかく キミは じぶんの しんじたｎ
+	// みちを あゆんで いきたまえ!ｐ
+	// わしも カゲながら おうえん しとるぞ!ｎ
+	// じゃあな!
 
 MatchCall_Text_MrStone11:: @ 82B67ED
-	.string "MR. STONE: … … … … … …\n"
-	.string "Is this maybe {PLAYER}{KUN}?\p"
-	.string "Your voice is so full of confidence,\n"
-	.string "I didn't recognize you right off!\p"
-	.string "Hm! You must come visit us at DEVON\n"
-	.string "sometime!$"
+	.string "나발명: ...... ...... ......\n"
+	.string "혹시 {PLAYER}인가?\p"
+	.string "목소리에 자신감이 넘쳐서\n"
+	.string "순간 다른 사람인 줄 알았네!\p"
+	.string "그래! 가끔은 우리 회사에도\n"
+	.string "놀러오게나!$"
+	// ツワブキ『…… …… ……ｎ
+	// もしかして §あ§お か?ｐ
+	// こえに じしんが みなぎっていてｎ
+	// いっしゅん ちがうひとかと おもったぞ!ｐ
+	// うむ! たまには わがしゃにもｎ
+	// あそびに きておくれ!

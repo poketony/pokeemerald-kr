@@ -749,8 +749,8 @@ LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge: @ 82A8EEC
 	// あなた チャレンジ して みない?
 
 LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer: @ 82A8F4D
-    .string "... ... ... ...\n"
-    .string "... ... ... ...$"
+    .string "...... ...... ...... ......\n"
+    .string "...... ...... ...... ......$"
 	// …… …… …… ……ｎ
 	// …… …… …… ……
 

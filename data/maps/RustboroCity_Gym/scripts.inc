@@ -251,7 +251,7 @@ RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
 
 RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
 	.string "...... ...... ......\n"
-	.string "...... ...... ...삑!\p"
+	.string "...... ...... ...... 삑!\p"
 	.string "원규: 앗 {PLAYER}씨인가요?\n"
 	.string "저 금탄도시의 원규예요!\p"
 	.string "종길씨한테서 들었습니다\n"
@@ -263,7 +263,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
 	.string "부디 그 날을\n"
 	.string "기대해 주세요!\p"
 	.string "...... ...... ......\n"
-	.string "...... ...... ...딸깍-$"
+	.string "...... ...... ...... 딸깍-$"
 	// …… …… ……ｎ
 	// …… …… …… ピッ!ｐ
 	// ツツジ『あっ §あさん ですか?ｎ

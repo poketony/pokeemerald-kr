@@ -603,7 +603,7 @@ Route119_Text_ScottYouWonAtFortreeGym: @ 81F4FBA
 	.string "멀리서나마 응원하고 있을게!\l"
 	.string "그럼 힘내라고!\p"
 	.string "...... ...... ......\n"
-	.string "...... ...... ...딸깍-$"
+	.string "...... ...... ...... 딸깍-$"
 	// …… …… ……ｎ
 	// …… …… …… ピッ!ｐ
 	// エニシダ『やあどうもｎ

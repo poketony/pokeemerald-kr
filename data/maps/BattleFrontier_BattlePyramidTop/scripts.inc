@@ -350,6 +350,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned: @ 8255951
 	.string "모험을 사랑하고 있는 것 같군...\p"
 	.string "그래... 마치 젊은 날의\n"
 	.string "나와 닮았어...\p"
+	.string "... ... ... 오오...\p"
 	.string "뜨겁고!!\p"
 	.string "위험하고!!\p"
 	.string "괴로운!!\p"

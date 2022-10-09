@@ -875,7 +875,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain: @ 825E02C
 	.string "그래그래 같은 상대에게\n"
 	.string "져 줄 필요는 없지...\l"
 	.string "...... ...... ...... ...... 좋아...\l"
-	.string "해주겠어.... ...... ...... ......$"
+	.string "해주겠어... ...... ...... ......$"
 	// アザミ『…… また あんたか……ｐ
 	// …… …… …… ……ｐ
 	// …… …… はなも あらしも ふみこえてｎ
