@@ -472,12 +472,12 @@ MauvilleCity_EventScript_RegisterWallyCall:: @ 81DF7BA
 
 MauvilleCity_Text_UncleHesTooPeppy: @ 81DF7DC
 	.string "작은아버지: 이 애는 포켓몬 덕분에\n"
-	.string "건강해진 것 같지만\l"
-	.string "너무 건강해졌는지도 모르겠어...$"
+	.string "건강해진 듯하지만\l"
+	.string "너무 건강해진걸지도 몰라...$"
 
 MauvilleCity_Text_WallyWantToChallengeGym: @ 81DF845
 	.string "민진: 작은아버지 부탁이에요!\p"
-	.string "내가 얼마나 강해졌는지\n"
+	.string "제가 얼마나 강해졌는지\n"
 	.string "이 체육관에서 확인하고 싶어요!\p"
 	.string "네 네 괜찮죠!?$"
 
@@ -485,14 +485,14 @@ MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "작은아버지: 이것 참 민진아!\p"
 	.string "확실히 포켓몬과 같이\n"
 	.string "살게 되면서\l"
-	.string "너는 꽤 건강해졌어!\p"
+	.string "너는 꽤나 건강해졌어!\p"
 	.string "그렇다고 갑자기 포켓몬체육관에\n"
-	.string "도전이라니 무리하는 거 아니냐?$"
+	.string "도전하는 건 무리 아니냐?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone: @ 81DF963
-	.string "민진: 무리하는 거 아니에요\p"
-	.string "나와 랄토스가 힘을 합치면\n"
-	.string "누구에게라도 이길 수 있어요!$"
+	.string "민진: 무리가 아니에요\p"
+	.string "저와 랄토스가 힘을 합치면\n"
+	.string "누구든지 이길 수 있다구요!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 	.string "민진: 앗! {PLAYER}님!\p"
@@ -506,16 +506,16 @@ MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
 	.string "민진: {PLAYER}님이\n"
 	.string "저와 승부해주지 않으면...\p"
-	.string "작은아버지는 제가 강해졌다는 것을\n"
-	.string "알아주지 않을 거예요...$"
+	.string "작은아버지는 제가 강해졌다는 걸\n"
+	.string "알아주지 않을 거라구요...$"
 
 MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 	.string "작은아버지: 너...\n"
-	.string "{PLAYER}{K_I}라고 했나?\p"
+	.string "{PLAYER}{K_I}라고 했니?\p"
 	.string "미안하지만 민진과\n"
 	.string "승부해주지 않을래?\p"
 	.string "이대로라면 무슨 말을 해도\n"
-	.string "들어주지 않을 것 같아...$"
+	.string "안 들을 것 같아...$"
 
 MauvilleCity_Text_WallyPleaseBattleMe: @ 81DFB42
 	.string "민진: {PLAYER}님 부탁입니다!\n"
@@ -532,21 +532,21 @@ MauvilleCity_Text_WallyDefeat: @ 81DFB96
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
 	.string "민진: 작은아버지...\n"
-	.string "저 잔디마을에 돌아가겠어요$"
+	.string "저 잔디마을로 돌아갈게요$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
 	.string "{PLAYER}님 고맙습니다\n"
 	.string "역시 트레이너란 대단하네요\p"
-	.string "단지 포켓몬과 같이 배틀하는\n"
-	.string "것만으로는 안 되는구나...\p"
+	.string "단지 포켓몬과 같이 배틀하는 걸로는\n"
+	.string "안 되는군요...\p"
 	.string "진정한 의미의 트레이너는\n"
-	.string "될 수 없나 봐...$"
+	.string "될 수 없는 걸까요...$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown: @ 81DFC8A
 	.string "작은아버지: 민진아\n"
 	.string "그렇게 기죽을 필요는 없단다\p"
-	.string "이제부터 더욱더\n"
-	.string "강해지면 되지!\p"
+	.string "앞으로 더욱더\n"
+	.string "강해지면 되잖니!\p"
 	.string "자 집으로 가자\n"
 	.string "다들 기다리고 있어$"
 
@@ -557,13 +557,13 @@ MauvilleCity_Text_UncleVisitUsSometime: @ 81DFD34
 	.string "{PLAYER}!\n"
 	.string "너였구나\p"
 	.string "시간이 나면 잔디마을에 있는\n"
-	.string "우리 집에 놀러 와줬으면 좋겠어\l"
-	.string "민진도 반드시 기뻐할 거야$"
+	.string "우리 집에 놀러와줬으면 좋겠어\l"
+	.string "민진이도 반드시 기뻐할 거야$"
 
 MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 	.string "...... ...... ......\n"
 	.string "...... ...... ...... 삑!\p"
-	.string "민진: 앗 {PLAYER}!\n"
+	.string "민진: 앗 {PLAYER}님!\n"
 	.string "있죠 작은아버지 저를 위해서\l"
 	.string "포켓내비를 손에 넣어주셨어요!\p"
 	.string "이걸로 언제든지 {PLAYER}님과\n"
@@ -591,8 +591,8 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "지금의 승부 보고 있었어!\p"
 	.string "너는 그 민진이라고 하는\n"
 	.string "소년과 친구인 거지?\p"
-	.string "그런데도 적당히 하지 않게\n"
-	.string "싸워 멋지게 해냈다...\p"
+	.string "그런데도 봐주지 않고 싸워\n"
+	.string "훌륭하게 완승하다니...\p"
 	.string "음! 그래야말로 진정한\n"
 	.string "포켓몬 승부라고 할 수 있지!\p"
 	.string "나는 그런 트레이너가\n"
@@ -615,61 +615,61 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 MauvilleCity_Text_WattsonNeedFavorTakeKey: @ 81DFFE4
 	.string "암페어: 오오 {PLAYER}!\n"
 	.string "건강해 보이는구나!\l"
-	.string "와하하하핫! 좋다!\p"
+	.string "와하하하핫! 좋은데!\p"
 	.string "좋아! 결정했다!\n"
-	.string "{PLAYER}에게 부탁이 있다!\p"
+	.string "{PLAYER}에게 부탁을 하마!\p"
 	.string "사실 이 보라시티에는\n"
-	.string "뉴보라라고 하는 지하 도시가 있다\p"
+	.string "뉴보라라고 하는 지하 도시가 있단다\p"
 	.string "그래서 {PLAYER}에게는\n"
 	.string "그곳의 발전 장치의 스위치를\l"
 	.string "꺼주었으면 한다!\p"
-	.string "최근 발전 장치가\n"
+	.string "요즘 발전 장치가\n"
 	.string "폭주해서 위험하니까 말이다\p"
 	.string "여기 뉴보라의\n"
-	.string "문을 여는 열쇠다!$"
+	.string "문을 여는 열쇠를 주마!$"
 
 MauvilleCity_Text_WattsonWontBeChallenge: @ 81E0154
 	.string "암페어: 음?\n"
-	.string "자네라면 괜찮을 터다!\p"
+	.string "자네라면 괜찮을 거다!\p"
 	.string "참고로 뉴보라의 입구는\n"
 	.string "110번 도로에서 파도타기로\l"
-	.string "금방 갈 수 있다\p"
-	.string "그럼 잘 부탁한다!\n"
+	.string "금방 갈 수 있단다\p"
+	.string "그럼 잘 부탁하마!\n"
 	.string "와하하하핫!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM: @ 81E020E
 	.string "암페어: 와하하하핫!\p"
 	.string "역시 {PLAYER}! 자네에게\n"
-	.string "부탁한게 정답이었다!\p"
-	.string "이건 답례로 주마\n"
+	.string "부탁한게 정답이었어!\p"
+	.string "이건 답례라네\n"
 	.string "기술머신 10만볼트다\p"
-	.string "사양하지 말고 가져가게나!$"
+	.string "사양 말고 가져가게나!$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge: @ 81E02AA
 	.string "암페어: 와하하하핫!\p"
 	.string "젊은이들의 모습을 보는 건\n"
-	.string "즐겁군!$"
+	.string "즐거운걸!$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth: @ 81E0301
 	.string "포켓몬 승부도 좋지만\p"
-	.string "만약 자신의 포켓몬이\n"
+	.string "만약 자기 포켓몬이\n"
 	.string "배틀에서 다쳤다면\l"
 	.string "상냥하게 돌봐줘야지!$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough: @ 81E037C
 	.string "이 마을은 동서남북으로\n"
 	.string "길이 뻗어 있어서\l"
-	.string "다양한 사람이 찾아옵니다!$"
+	.string "다양한 사람이 찾아오죠!$"
 
 MauvilleCity_Text_RydelVeryGenerous: @ 81E03FB
 	.string "너 사이클숍에는\n"
 	.string "벌써 가봤니?\p"
-	.string "거기 주인인 카제노님은\n"
-	.string "정말 인심이 좋다고!$"
+	.string "그곳의 주인인 카제노님은\n"
+	.string "정말 인심이 좋단다!$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike: @ 81E044A
 	.string "자전거에 타고 있어도\n"
-	.string "야생 포켓몬은 튀어나와!$"
+	.string "야생 포켓몬은 튀어나오지!$"
 
 MauvilleCity_Text_CitySign: @ 81E0485
 	.string "여기는 보라시티\n"
@@ -690,18 +690,18 @@ MauvilleCity_Text_GameCornerSign: @ 81E053C
 
 MauvilleCity_Text_ExplainTV: @ 81E056A
 	.string "있지 너\n"
-	.string "TV 체크하고 있니?\p"
+	.string "TV 확인하고 있니?\p"
 	.string "최근 재미있는\n"
 	.string "방송이 갑자기 늘어났어!\p"
 	.string "TV는 좋은 것 같아!\p"
 	.string "갑자기 친구가\n"
 	.string "소개되거나\p"
-	.string "모르는 새 자신이\n"
+	.string "모르는 새 자기가\n"
 	.string "방송에 나오기도 해\p"
 	.string "언젠가 나도\n"
-	.string "방송에 나가 보고 싶다-\p"
-	.string "너도 자주 체크하도록 해!$"
+	.string "방송에 나가 보고 싶어-\p"
+	.string "너도 자주 확인하도록 해!$"
 
 MauvilleCity_Text_BeenCheckingOutTV: @ 81E0699
 	.string "안녕!\n"
-	.string "TV 제대로 체크하고 있니?$"
+	.string "TV 제대로 확인하고 있니?$"
