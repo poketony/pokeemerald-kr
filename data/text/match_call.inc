@@ -645,165 +645,248 @@ MatchCall_PositiveBattleText14:: @ 82AAE00
 	// じゃあ また
 
 MatchCall_SameRouteBattleRequestText1:: @ 82AAE7F
-	.string "Hi! {PLAYER}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Huh? Wait, you're near\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Oh, wow, we have to battle, then!\n"
-	.string "I'll be waiting! See you!$"
+	.string "{PLAYER}씨 안녕!\n"
+	.string "{STR_VAR_1}{K_I}라구\p"
+	.string "에! 지금 {STR_VAR_2}에 있는 거야?\n"
+	.string "그럼 지금부터 승부하자!\l"
+	.string "기다릴게! 그럼 안녕!$"
+	// §あさん こんにちは!ｎ
+	// §い だよｐ
+	// え! いま §う に いるの?ｎ
+	// じゃあ いまから しょうぶ しようよ!ｌ
+	// まってるよ! じゃあね!
 
 MatchCall_SameRouteBattleRequestText2:: @ 82AAEF1
-	.string "Hello, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "Oh? You happen to be around\n"
-	.string "{STR_VAR_2} right now?\p"
-	.string "Would you like to battle now?\n"
-	.string "I'll wait for you! See you!$"
+	.string "{PLAYER}씨 안녕!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "에! 지금 {STR_VAR_2}에 있는 거야?\n"
+	.string "그럼 지금부터 승부하지 않을래?\l"
+	.string "기다릴게! 그럼 안녕!$"
+	// §あさん こんにちは!ｎ
+	// §い で-すｐ
+	// え! いま §う に いるの?ｎ
+	// じゃあ いまから しょうぶ しない?ｌ
+	// まってるわよ! じゃあね!
 
 MatchCall_SameRouteBattleRequestText3:: @ 82AAF69
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "Oh, hey, are you near\n"
-	.string "{STR_VAR_2} right now?\p"
-	.string "How would you like to battle with\n"
-	.string "me right now?\p"
-	.string "I'm not losing again!\n"
-	.string "I'll be waiting! Catch you soon!$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "오 지금 {STR_VAR_2}에 있다고?\n"
+	.string "그럼 지금부터 승부하지 않을래?\p"
+	.string "이번에야말로 지지 않을 거야!\n"
+	.string "기다릴게- 그럼 안녕$"
+	// お-っす §あ!ｎ
+	// §い だ!ｐ
+	// お いま §うにいるのか?ｎ
+	// じゃあ これから しょうぶ しないか?ｐ
+	// こんどこそ まけない からな!ｎ
+	// まってるぞ- じゃあな
 
 MatchCall_SameRouteBattleRequestText4:: @ 82AB010
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\p"
-	.string "Whereabouts are you now?\n"
-	.string "Huh? {STR_VAR_2}?\p"
-	.string "Want to battle now?\n"
-	.string "I'll wait for you. See you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "지금 어디 있어?\n"
+	.string "뭐? {STR_VAR_2}?\p"
+	.string "그럼 지금부터 승부하지 않을래?\n"
+	.string "기다릴게 그럼 안녕$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// いま どこに いるんだい?ｎ
+	// え §う?ｐ
+	// じゃあ これから しょうぶ しないか?ｎ
+	// まってるよ じゃあね
 
 MatchCall_SameRouteBattleRequestText5:: @ 82AB076
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\l"
-	.string "How are things with you?\p"
-	.string "You're where now?\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, how about we have a quick\n"
-	.string "rematch right away?\p"
-	.string "I'll keep an eye out for you.\n"
-	.string "See you soon!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}라구\p"
+	.string "상태는 어때?\n"
+	.string "뭐? 지금 {STR_VAR_2}에 있다고?\p"
+	.string "그렇다면 지금부터 나하고\n"
+	.string "승부해보지 않을래?\p"
+	.string "기다릴게 그럼 안녕$"
+	// やあ §あ§おｎ
+	// §い だよｐ
+	// ちょうしは どうだい?ｎ
+	// え? いま §うに いるの?ｐ
+	// それなら これから おれとｎ
+	// しょうぶ してみないかい?ｐ
+	// まってるよ じゃあね
 
 MatchCall_SameRouteBattleRequestText6:: @ 82AB11A
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here.\l"
-	.string "How are your POKéMON keeping?\p"
-	.string "Oh, is that right? You're around\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, then, we'd better have\n"
-	.string "a rematch.\p"
-	.string "I can wait, sure.\n"
-	.string "See you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "포켓몬의 상태는 어때?\n"
+	.string "헤에 지금 {STR_VAR_2}에 있구나\p"
+	.string "그럼 지금부터 나하고\n"
+	.string "승부하자\p"
+	.string "기다릴게 그럼 안녕$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// ポケモンの ちょうしは どうだい?ｎ
+	// へえ いま §うに いるのかｐ
+	// じゃあ これから おれとｎ
+	// しょうぶ しようｐ
+	// まってるよ じゃあね
 
 MatchCall_SameRouteBattleRequestText7:: @ 82AB1B4
-	.string "…Er, {PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here…\p"
-	.string "Oh, you happen to be around\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Then, let's battle.\n"
-	.string "Right away, I mean.\p"
-	.string "I'll show you my POKéMON.\n"
-	.string "I'll wait for you.$"
+	.string "...아 {PLAYER}?\n"
+	.string "{STR_VAR_1}인데...\p"
+	.string "헤에- 지금 {STR_VAR_2}에 있다고?\n"
+	.string "그럼 승부하자 지금부터\p"
+	.string "내 포켓몬을 보여줄게\n"
+	.string "그럼 기다리고 있는다$"
+	// ®®®あ §あ§お?ｎ
+	// §い だけど®®®ｐ
+	// へ- いま §うに いるの?ｎ
+	// じゃあ しょうぶ しよう これからｐ
+	// おれの ポケモンを みせてあげるよｎ
+	// じゃあ まってるよ
 
 MatchCall_SameRouteBattleRequestText8:: @ 82AB23D
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\p"
-	.string "I hope you're doing well.\n"
-	.string "Oh, you're near {STR_VAR_2}.\p"
-	.string "Would you like to have a battle\n"
-	.string "with me, then?\p"
-	.string "I'll wait for you.\n"
-	.string "See you soon!$"
+	.string "아 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내고 있니?\n"
+	.string "어머 지금 {STR_VAR_2}에 있는 거구나\p"
+	.string "그럼 지금부터\n"
+	.string "나하고 승부하지 않을래?\p"
+	.string "기다릴게 그럼 안녕!$"
+	// あ §あ§お こんにちはｎ
+	// §い ですｐ
+	// げんき ですか?ｎ
+	// あら いま §うに いるのねｐ
+	// じゃあ これからｎ
+	// わたしと しょうぶ しない?ｐ
+	// まってるわよ じゃあね!
 
 MatchCall_SameRouteBattleRequestText9:: @ 82AB2E9
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "Are you keeping up?\n"
-	.string "Oh, you're near {STR_VAR_2}?\p"
-	.string "Oh, well, then don't you think we\n"
-	.string "should battle?\p"
-	.string "Don't keep me waiting too long!$"
+	.string "아 {PLAYER} 안녕-!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "잘 지내고 있어?\n"
+	.string "어머 지금 {STR_VAR_2}에 있다고?\p"
+	.string "그렇구나- 그럼 지금부터\n"
+	.string "나하고 승부해보지 않을래?\p"
+	.string "그럼 안녕 기다릴게$"
+	// あ §あ§お こんにちは-!ｎ
+	// §い です!ｐ
+	// げんきに してる?ｎ
+	// あら いま §うに いるの?ｐ
+	// そっか- じゃあ これからｎ
+	// わたしと しょうぶ してみない?ｐ
+	// じゃあね まってるわよ
 
 MatchCall_SameRouteBattleRequestText10:: @ 82AB382
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "How are things with you?\n"
-	.string "Oh, you're near {STR_VAR_2}.\p"
-	.string "We should have a battle now, then.\p"
-	.string "I'm ready and waiting.\n"
-	.string "Be quick!$"
+	.string "아 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "잘 지내고 있어?\n"
+	.string "어머 지금 {STR_VAR_2}에 있다고\p"
+	.string "그럼 지금부터\n"
+	.string "나랑 승부하지 않을래?\p"
+	.string "기다릴게 그럼 안녕!$"
+	// あ §あ§お こんにちはｎ
+	// §い ですｐ
+	// げんき ですか?ｎ
+	// あら いま §うに いるのねｐ
+	// じゃあ これからｎ
+	// わたしと しょうぶ しない?ｐ
+	// まってるわよ じゃあね!
 
 MatchCall_SameRouteBattleRequestText11:: @ 82AB410
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Ah, so where you are now is\n"
-	.string "{STR_VAR_2}?\p"
-	.string "Well, then, we just have to have\n"
-	.string "a battle, don't you think?\p"
-	.string "I'll wait around for you!\n"
-	.string "See you real quick!$"
+	.string "아아 {PLAYER}\n"
+	.string "{STR_VAR_1}인데\p"
+	.string "호오\n"
+	.string "지금 {STR_VAR_2}에 있다고?\p"
+	.string "그럼 지금부터 아저씨하고\n"
+	.string "포켓몬 승부하지 않을래?\p"
+	.string "기다릴게 그럼 안녕$"
+	// ああ §あ§おｎ
+	// §いだけどｐ
+	// ほほうｎ
+	// いま §うに いるんだって?ｐ
+	// じゃあ これから おじさんとｎ
+	// ポケモン しょうぶ しないかい?ｐ
+	// まってるよ じゃあね
 
 MatchCall_SameRouteBattleRequestText12:: @ 82AB4B0
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Where might you be now?\p"
-	.string "{STR_VAR_2}?\n"
-	.string "That's quite close by!\p"
-	.string "What do you say we have a battle\n"
-	.string "now?\p"
-	.string "I can wait.\n"
-	.string "See you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}라네\l"
+	.string "지금 어디에 있는가?\p"
+	.string "{STR_VAR_2}{K_I}라고! 가까이에 있구먼\n"
+	.string "지금부터 나하고 승부하지 않겠나?\p"
+	.string "기다리고 있겠네 그럼 이만$"
+	// やあ §あ§おｎ
+	// §い じゃがｌ
+	// いま どこに いるのかな?ｐ
+	// §う か! すぐ ちかく じゃなｎ
+	// これから わしと しょうぶ せんか?ｐ
+	// まっておるぞ じゃあの
 
 MatchCall_SameRouteBattleRequestText13:: @ 82AB538
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I hope you've been keeping well.\n"
-	.string "Oh, you're near {STR_VAR_2}?\p"
-	.string "Since that's not very far away,\n"
-	.string "come see me for a battle.\p"
-	.string "I'll wait for you.\n"
-	.string "Bye for now.$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데 잘 지내나?\p"
+	.string "호오호오 지금 {STR_VAR_2}에 있는 겐가\n"
+	.string "멀지도 않으니 이쪽에 와서\p"
+	.string "한번 승부하지 않겠나?\n"
+	.string "기다리고 있겠네 그럼 이만$"
+	// やあ §あ§おｎ
+	// §い じゃが げんきかのう?ｐ
+	// ほうほう いまは §うに おるのかｎ
+	// ちかいから こっちへ よってｐ
+	// いちど しょうぶ して いかんかの?ｎ
+	// まっておるぞ じゃあの
 
 MatchCall_SameRouteBattleRequestText14:: @ 82AB5E4
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "You're what? …{STR_VAR_2}?\n"
-	.string "That's very close.\p"
-	.string "Don't you think we ought to have\n"
-	.string "a battle?\p"
-	.string "I'll be looking for you!\n"
-	.string "Bye-bye!$"
+	.string "어머 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "어머 지금 {STR_VAR_2}에 있는 거야?\n"
+	.string "엄청 가까이에 있네\p"
+	.string "그럼 지금부터 아주머니랑\n"
+	.string "포켓몬 승부해보지 않을래?\p"
+	.string "기다리고 있을게 그럼 안녕$"
+	// あら §あ§お こんにちはｎ
+	// §い よｐ
+	// あら いま §うに いるの?ｎ
+	// すぐちかくに いるのねｐ
+	// じゃあ これから おばさんとｎ
+	// ポケモンしょうぶ してみない?ｐ
+	// まってるわよ じゃあね
 
 MatchCall_DifferentRouteBattleRequestText1:: @ 82AB670
-	.string "Hi! {PLAYER}, hello!\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "Want to have a battle with me?\p"
-	.string "I'll be waiting for you around\n"
-	.string "{STR_VAR_2}!$"
+	.string "아! {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "지금부터 나하고 승부할래?\n"
+	.string "{STR_VAR_2}에서 기다리고 있을게!$"
+	// あ! §あ§お!ｎ
+	// §い ですｐ
+	// これから ぼくと しょうぶ しない?ｎ
+	// §う で まってるよ!
 
 MatchCall_DifferentRouteBattleRequestText2:: @ 82AB6CD
-	.string "Hello, {PLAYER}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "Would you like to have a battle\n"
-	.string "with me again?\p"
-	.string "You can find me around\n"
-	.string "{STR_VAR_2}. I'll be waiting!$"
+	.string "아! {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "지금부터 나하고 승부해보지 않을래?\n"
+	.string "{STR_VAR_2}에서 기다릴게!$"
+	// あ! §あ§お!ｎ
+	// §い ですｐ
+	// これから わたしと しょうぶ してみない?ｎ
+	// §う で まってるよ!
 
 MatchCall_DifferentRouteBattleRequestText3:: @ 82AB73C
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "My POKéMON have grown a lot\n"
-	.string "tougher since last time.\p"
-	.string "I want to see how strong they've\n"
-	.string "become with your POKéMON, {PLAYER}.\p"
-	.string "So, let's have a battle!\p"
-	.string "I'll be waiting for you around\n"
-	.string "{STR_VAR_2}.$"
+	.string "안녕 {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "그때 이후로 내 포켓몬도\n"
+	.string "믿음직해졌어!\p"
+	.string "{PLAYER}의 포켓몬으로\n"
+	.string "실력을 시험해보고 싶으니까\p"
+	.string "승부해보지 않을래?\n"
+	.string "{STR_VAR_2}에서 기다릴게$"
+	// お-っす §あ!ｎ
+	// §い だ!ｐ
+	// あれから おれの ポケモンもｎ
+	// たくましく なったぞ!ｐ
+	// §あの ポケモンでｎ
+	// うでだめし したいからｐ
+	// しょうぶ してみないか?ｎ
+	// §う で まってるぞ
 
 MatchCall_DifferentRouteBattleRequestText4:: @ 82AB808
 	.string "Hey, {PLAYER}{KUN}.\n"
@@ -815,6 +898,14 @@ MatchCall_DifferentRouteBattleRequestText4:: @ 82AB808
 	.string "another battle with me?\p"
 	.string "Let's meet up around\n"
 	.string "{STR_VAR_2}, okay?$"
+	// やあ §あ§おｎ
+	// §い だｐ
+	// ちょうしは どうだい?ｎ
+	// おれの ポケモンもｌ
+	// ずいぶん つよく なったよｐ
+	// そうだ また おれとｎ
+	// しょうぶ しないかい?ｐ
+	// じゃあ §うで あおう
 
 MatchCall_DifferentRouteBattleRequestText5:: @ 82AB8B7
 	.string "Hiya, {PLAYER}{KUN}!\n"
@@ -825,6 +916,14 @@ MatchCall_DifferentRouteBattleRequestText5:: @ 82AB8B7
 	.string "battle with you.\p"
 	.string "I'll keep an eye out for you around\n"
 	.string "{STR_VAR_2}. See you soon!$"
+	// やあ §あ§おｎ
+	// §い だけどｐ
+	// おれの ポケモンｎ
+	// けっこう いいかんじに そだってきたよｐ
+	// きみと もういちどｎ
+	// しょうぶ してみたいなあｐ
+	// §う で まってるよｎ
+	// じゃあね
 
 MatchCall_DifferentRouteBattleRequestText6:: @ 82AB95D
 	.string "Hey, {PLAYER}{KUN}.\n"

@@ -1559,7 +1559,7 @@ const u8 gText_PokemonOnHook[] = _("포켓몬을 낚았다!{PAUSE_UNTIL_PRESS}")
 const u8 gText_NotEvenANibble[] = _("잡히지 않네...{PAUSE_UNTIL_PRESS}");
 const u8 gText_ItGotAway[] = _("도망가버렸다...{PAUSE_UNTIL_PRESS}");
 const u8 gText_XWillBeSentToY[] = _("{STR_VAR_2}{K_EULREUL} {STR_VAR_1}에게 보냅니다!"); // §いに §うを おくります!
-const u8 gText_ByeByeVar1[] = _("바이바이! {STR_VAR_2}!"); // ばいばい §う!
+const u8 gText_ByeByeVar1[] = _("바이바이 {STR_VAR_2}!"); // ばいばい §う!
 const u8 gText_XSentOverY[] = _("{STR_VAR_1}{K_EU}로부터 {STR_VAR_3}{K_IGA} 전송됐다!"); // §いから §えが おくられてきた!
 const u8 gText_TakeGoodCareOfX[] = _("{STR_VAR_3}{K_EULREUL} 귀여워해 줘!"); // §えを かわいがって あげてね!
 
