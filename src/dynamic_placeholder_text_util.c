@@ -2,8 +2,10 @@
 #include "text.h"
 #include "dynamic_placeholder_text_util.h"
 #include "string_util.h"
+#include "korean.h"
 
 static EWRAM_DATA const u8 *sStringPointers[8] = {};
+static EWRAM_DATA bool8 sHasJong = FALSE;
 
 void DynamicPlaceholderTextUtil_Reset(void)
 {
@@ -32,6 +34,21 @@ u8 *DynamicPlaceholderTextUtil_ExpandPlaceholders(u8 *dest, const u8 *src)
 {
     while (*src != EOS)
     {
+        u8 placeholderId;
+        u16 prevChar;
+        const u8 *expandedString;
+
+        if (*src == PLACEHOLDER_BEGIN)
+        {
+            prevChar = (*(dest - 2) << 8) | *(dest - 1);
+            sHasJong = HasJong(prevChar);
+            placeholderId = *++src;
+            src++;
+            expandedString = GetExpandedPlaceholder(placeholderId);
+            dest = StringExpandPlaceholders(dest, expandedString);
+            continue;
+        }
+
         if (*src != CHAR_DYNAMIC)
         {
             *dest++ = *src++;
