@@ -1580,17 +1580,16 @@ MatchCall_PersonalizedText25:: @ 82AD44E
 	// じゃ またね!
 
 MatchCall_PersonalizedText26:: @ 82AD53A
-	.string "It's {STR_VAR_1}!\p"
-	.string "ROXANNE let me battle with her\n"
-	.string "yesterday.\p"
-	.string "The results…\n"
-	.string "Terrible, like you needed to ask.\p"
-	.string "But I was delighted that ROXANNE\n"
-	.string "would even let me challenge her!\p"
-	.string "You wouldn't believe how much\n"
-	.string "more I admire her!\p"
-	.string "I'm going to really focus and work!\n"
-	.string "I'd better go!$"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "어제 원규님하고\n"
+	.string "승부했어!\p"
+	.string "결과는 참담했지만...\n"
+	.string "원규님이 내 상대를\l"
+	.string "해주겠다고 하신 게\l"
+	.string "무척 기뻤어!\l"
+	.string "더욱더 동경하게 돼!\p"
+	.string "지금부터 다시 공부할 거야!\n"
+	.string "그러니까 안녕!$"
 	// い です!ｐ
 	// きのう ツツジさまにｎ
 	// しょうぶ してもらったの!ｐ
@@ -1603,91 +1602,166 @@ MatchCall_PersonalizedText26:: @ 82AD53A
 	// だから さよなら!
 
 MatchCall_PersonalizedText27:: @ 82AD642
-	.string "Hi, it's ANNA! I'm with my junior\n"
-	.string "partner MEG again today.\p"
-	.string "I really love caring for MEG and\n"
-	.string "POKéMON. They're so cute!\p"
-	.string "I wish I could look after them\n"
-	.string "as if they were my siblings!\p"
-	.string "Oh, hi, MEG!\n"
-	.string "Did you get the buns?\p"
-	.string "Huh? No, no, I'm not treating you\n"
-	.string "like my personal slave!\p"
-	.string "You lost the match, so you have\n"
-	.string "to go buy the bread as punishment!\p"
-	.string "I wouldn't treat you like a slave,\n"
-	.string "MEG! You're too special to me!\p"
-	.string "I have to go now.\n"
-	.string "It's time for our snack!$"
+	.string "미호야-!\n"
+	.string "오늘도 후배인 리코하고 같이 있어\p"
+	.string "정말! 리코도 포켓몬도\n"
+	.string "귀여워서 어쩔 수 없다니까\l"
+	.string "남동생이나 여동생처럼\l"
+	.string "쭈-욱 돌봐주고 싶어!\p"
+	.string "아 리코!\n"
+	.string "빵 사온 거야?\p"
+	.string "에? 뭐 뭐야\n"
+	.string "심부름꾼처럼 부린 적 없어!\l"
+	.string "포켓몬 승부에서 졌으니까\l"
+	.string "벌칙으로 갔다 오기로 한 거잖아!\p"
+	.string "귀여운 리코를\n"
+	.string "내가 왜 부려먹겠어!\l"
+	.string "그럼 지금부터 간식 먹을 거니까 끊을게!$"
+	// ミホで-す!ｎ
+	// きょうも こうはいの リコと いっしょだよｐ
+	// もうね! リコも ポケモンもｎ
+	// かわいくて しかたないのｌ
+	// おとうとや いもうと みたいにｌ
+	// ず-っと めんどう みて あげたいな!ｐ
+	// あ リコ!ｎ
+	// パン かってきて くれた?ｐ
+	// え? な なによｎ
+	// つかいっぱしり なんて させてないわよ!ｌ
+	// ポケモン しょうぶで まけたからｌ
+	// これは ばつゲ-ムなの!ｐ
+	// かわいい リコをｎ
+	// こきつかうわけ ないでしょ!ｌ
+	// じゃ これから おやつだから バイバイ!
 
 MatchCall_PersonalizedText28:: @ 82AD801
-	.string "I love POKéMON!\n"
-	.string "It's {STR_VAR_1} from the FAN CLUB!\p"
-	.string "You have to hear this!\n"
-	.string "My sweet POKéMON…\p"
-	.string "Snort! Wahaha!\n"
-	.string "I can't say any more! It's a secret!\l"
-	.string "It's just too cute for words!\p"
-	.string "Oh, my sweet {STR_VAR_2} is begging\n"
-	.string "for a {POKEBLOCK}!\p"
-	.string "It's the picture of cuteness!\p"
-	.string "Sorry, but I can't talk now!\n"
-	.string "You'll have to hear this next time!$"
+	.string "포켓몬 너무 좋아!\n"
+	.string "애호가클럽의 {STR_VAR_1}{K_I}라네!\p"
+	.string "드 들어보게나!\n"
+	.string "내 포켓몬이 무려...!\l"
+	.string "후훗 후후후훗\l"
+	.string "이 이상은 비밀이라네!\l"
+	.string "아- 너무 귀여워서 말로는 못 하겠군!\p"
+	.string "아앗 {STR_VAR_2}{K_IGA}\n"
+	.string "포켓몬스넥을 달라고 하잖아-!\l"
+	.string "귀여워---!\p"
+	.string "미안하지만 자네하고\n"
+	.string "얘기하고 있을 때가 아니야!\l"
+	.string "다음에 또 이어서 들어주게!$"
+	// ポケモン だいすき!ｎ
+	// だいすきクラブの §いです!ｐ
+	// きっ きいて くださいよ!ｎ
+	// わたしの ポケモンちゃんが なんと……!ｌ
+	// ぐふ ぐふふふｌ
+	// これいじょうは ひみつ!ｌ
+	// も- かわいすぎて くちに できない!ｐ
+	// ああっ §うちゃんがｎ
+	// ポロックを おねだりしてる-!ｌ
+	// かわいいぞ---っ!ｐ
+	// わるいけど きみとｎ
+	// はなしている ばあいじゃ ないぞ!ｌ
+	// また こんど つづきを きいてくれ
 
 MatchCall_PersonalizedText29:: @ 82AD92E
-	.string "Ohoho!\p"
-	.string "This is {STR_VAR_1}! I can't wait to\n"
-	.string "tell you about my darling POKéMON!\p"
-	.string "Please, you must listen to this.\n"
-	.string "It's about my darling {STR_VAR_2}.\p"
-	.string "Whenever anyone picks it up,\n"
-	.string "it leaps straight into my arms!\p"
-	.string "Oh… Oh… Could there be anything\n"
-	.string "more blissful?\p"
-	.string "Oh, it feels so heavenly!\p"
-	.string "I'm so glad I could share some of\n"
-	.string "my happiness with you.\p"
-	.string "Well, I must be going.\n"
-	.string "Bye, now!$"
+	.string "오호호!\p"
+	.string "포켓몬을 자랑하고 싶어서 참을 수 없는\n"
+	.string "{STR_VAR_1}{K_I}랍니다!\p"
+	.string "당신 들어주세요\n"
+	.string "제 {STR_VAR_2}...\l"
+	.string "다른 사람이 안으면\l"
+	.string "뿅 하고 도망쳐서\l"
+	.string "제 품으로 뛰어든답니다!\p"
+	.string "정말... 정말!\n"
+	.string "이런 행복이 또 있을까요!\p"
+	.string "아아 행복해요\n"
+	.string "당신에게도 행복을\l"
+	.string "나눠줄 수 있어서 다행이에요!\l"
+	.string "그럼 실례할게요$"
+	// おほほ!ｐ
+	// ポケモンを じまん したくて しかたないｎ
+	// §い ですわ!ｐ
+	// あなた おききに なってｎ
+	// あたくしの §うちゃん……ｌ
+	// ほかの ひとに だっこされるとｌ
+	// ピョンと にげだしてｌ
+	// あたくしの むねに とびこんでくるの!ｐ
+	// もう…… もう!ｎ
+	// こんな しあわせって ほかに あるかしら!ｐ
+	// ああ しあわせだわｎ
+	// あなたにも しあわせを わけて あげられてｌ
+	// よかったわ!ｌ
+	// では しつれい するわね
 
 MatchCall_PersonalizedText30:: @ 82ADA8F
-	.string "I am… {STR_VAR_1}.\n"
-	.string "People call me an EXPERT.\p"
-	.string "But there is one thing I know.\n"
-	.string "I could not be an EXPERT on my own\l"
-	.string "power.\p"
-	.string "Only with the help of POKéMON can\n"
-	.string "a TRAINER become an EXPERT.\p"
-	.string "Humph! I believe I may have said\n"
-	.string "something deep and profound!\p"
-	.string "I shall leave you in good spirits!$"
+	.string "난... {STR_VAR_1}{K_I}라네\p"
+	.string "사람은 날 달인이라고 부르지\n"
+	.string "하지만 난 알고 있네\l"
+	.string "내 힘만으로는\l"
+	.string "달인이 될 수 없다는 것을\p"
+	.string "포켓몬의 힘이 있어야\n"
+	.string "트레이너는 달인이 될 수 있어!\p"
+	.string "음...! 나는 지금\n"
+	.string "굉장히 좋은 말을 한 것 같군!\l"
+	.string "기분이 좋으니 이대로 끊겠네!$"
+	// わたしは…… §いだｐ
+	// ひとは わたしを たつじんと よぶｎ
+	// だが わたしは わかっているｌ
+	// わたしだけの ちから ではｌ
+	// たつじん には なれない ことをｐ
+	// ポケモンの ちからが あってこそｎ
+	// トレ-ナ-は たつじんに なれる!ｐ
+	// うむ……! わたしは いまｎ
+	// すごく いいことを いった きがする!ｌ
+	// きもちがよい ままに わかれよう!
 
 MatchCall_PersonalizedText31:: @ 82ADB9B
-	.string "It's {STR_VAR_1}.\n"
-	.string "I'm glad to chat with you!\p"
-	.string "I am feeling alive and refreshed\n"
-	.string "soaking in this hot-spring tub.\p"
-	.string "I've been battling young TRAINERS\n"
-	.string "since we met, but you're still\l"
-	.string "the best of the lot.\p"
-	.string "I imagine you'll become an EXPERT\n"
-	.string "in your old age! Ohohoho…$"
+	.string "{STR_VAR_1}{K_I}라네\n"
+	.string "온천에 들어가서 기분이 좋구먼\l"
+	.string "이렇게 얘기할 수 있어서 기쁘다네!\p"
+	.string "그때 이후로 몇 명 정도\n"
+	.string "젊은 트레이너와 배틀해봤지만\l"
+	.string "자네가 제일 강했구먼!\p"
+	.string "분명 나이를 먹는다면\n"
+	.string "달인이 될 게야!\l"
+	.string "오호호호...$"
+	// §い じゃよｎ
+	// おんせんに つかって ごきげんだからねぇｌ
+	// こうして おはなし できて うれしいよ!ｐ
+	// あれから なんにんかｎ
+	// わかい トレ-ナ-さんと たたかったがｌ
+	// おまえさんが いちばん つよかったよ!ｐ
+	// きっと としを とったらｎ
+	// たつじんに なるじゃろうな!ｌ
+	// おっほっほっほ……
 
 MatchCall_PersonalizedText32:: @ 82ADC92
-	.string "Yay! This is {STR_VAR_1}!\n"
-	.string "What's up?\p"
-	.string "I might be imagining this, but when\n"
-	.string "I win battles, my shorts seem to\l"
-	.string "feel, like, better. Materially.\p"
-	.string "What do I mean by that?\n"
-	.string "It's kind of hard to explain, but…\l"
-	.string "How would I say this now…\l"
-	.string "My shorts feel silkier!\p"
-	.string "And when I battled you, {PLAYER}{KUN},\n"
-	.string "my shorts felt icky and coarse.\p"
-	.string "… … … … … …\n"
-	.string "You didn't really believe that?\l"
-	.string "Ehehehe, that's all! Bye now!$"
+	.string "와아-! {STR_VAR_1}입니다-!\n"
+	.string "잘 지내고 있어-?\p"
+	.string "내가 포켓몬 승부에서 이겼을 때\n"
+	.string "기분 탓일지도 모르지만\l"
+	.string "반바지의 상태가 좋아!\p"
+	.string "에 무슨 말이냐고?\n"
+	.string "으-음 잘 설명은 못 하겠지만\l"
+	.string "뭐라고 해야 할까...\l"
+	.string "느낌이 보송보송해져!\p"
+	.string "그리고 {PLAYER}하고 승부할 때는\n"
+	.string "끈적끈적해진단 말이지...\p"
+	.string "...... ...... ......\n"
+	.string "내 얘길 믿은 거야?\l"
+	.string "에헤헤헤 그럼 바이바이-!$"
+	// わ-い! §いで-す!ｎ
+	// げんき-?ｐ
+	// ボクが ポケモン かてる ときってｎ
+	// きのせいかも しれないけどｌ
+	// たんパンの ちょうしが いいんだ!ｐ
+	// え どういうこと かって?ｎ
+	// う-ん うまく せつめい できないけどｌ
+	// なんていう のかな……ｌ
+	// はき ごこちが サラっと してるんだ!ｐ
+	// で §あ§おと しょうぶの ときはｎ
+	// だいたい ベタっと してるんだよね……ｐ
+	// …… …… ……ｎ
+	// ボクの はなし しんじた?ｌ
+	// えへへへ じゃあね バイバ-イ!
 
 MatchCall_PersonalizedText33:: @ 82ADE08
 	.string "Ahoy!\n"
@@ -1702,6 +1776,17 @@ MatchCall_PersonalizedText33:: @ 82ADE08
 	.string "My line's tangled up!\p"
 	.string "Gotta go!\n"
 	.string "Find me some new fishing spots!$"
+	// うお-い!ｎ
+	// §いだぞ-っ!ｌ
+	// きょうも ごうかいにｌ
+	// つりを たのしんで いるぞ-っ!ｐ
+	// うみ か かわ いがいにｎ
+	// つりが できる ばしょって ないか-っ?ｌ
+	// どこでも つりが したくってｌ
+	// うずうずするんだ-っ!ｐ
+	// おっと つりいとが からまった!ｎ
+	// じゃ つりが できるところｌ
+	// さがしといてくれ-っ! またな-っ!
 
 MatchCall_PersonalizedText34:: @ 82ADF07
 	.string "Hey, there! It's {STR_VAR_1}.\n"
@@ -1720,6 +1805,21 @@ MatchCall_PersonalizedText34:: @ 82ADF07
 	.string "or maybe an artist. Cool, huh?\p"
 	.string "But, hey, be cool. Take it casual.\n"
 	.string "See you around.$"
+	// やあ! §い だけどｎ
+	// どう のんびり やっている かい?ｐ
+	// ボクはさ むかしからｎ
+	// あせったり いそいだり するのがｌ
+	// にがて なんだよねｌ
+	// それでも なぜか いまはｌ
+	// トライアスリ-トを やっている……ｐ
+	// じんせい なにが おこるかｎ
+	// わからないって ヤツだな! ははｐ
+	// キミも いまは トレ-ナ-だけどｎ
+	// しょうらいは せんせい とか えかき とかｌ
+	// よそうも つかない ことをｌ
+	// やって いるの かもな!ｐ
+	// ま- のんびり やれよ!ｎ
+	// じゃあな-
 
 MatchCall_PersonalizedText35:: @ 82AE0D9
 	.string "This is {STR_VAR_1}!\n"
@@ -1734,6 +1834,17 @@ MatchCall_PersonalizedText35:: @ 82AE0D9
 	.string "CYCLING ROAD record!\p"
 	.string "You should make the challenge, too!\n"
 	.string "See you!$"
+	// §いよ!ｎ
+	// いま じてんしゃに のっているわ!ｐ
+	// わたし すいえいも はしるのも すきだけどｎ
+	// じてんしゃが いちばん すきなの!ｌ
+	// だって からだに かぜをｌ
+	// たくさん かんじる ことが できるでしょ?ｌ
+	// そらをとぶ みたいで きもちいいのよ!ｐ
+	// よ-し きょうこそ サイクリングロ-ドでｎ
+	// しんきろくを だすわっ!ｌ
+	// あなたも ちょうせん しに きなさいよ!ｌ
+	// じゃあね-っ
 
 MatchCall_PersonalizedText36:: @ 82AE1FD
 	.string "Yo, this is {STR_VAR_1}! I'm smack\n"
@@ -1748,6 +1859,17 @@ MatchCall_PersonalizedText36:: @ 82AE1FD
 	.string "Gasp… Chatting while running…\n"
 	.string "I'm getting run down…\l"
 	.string "Gasp… Have…to…go…$"
+	// よお! トライアスロンの まっさいちゅうのｎ
+	// §いだけどｌ
+	// さくっと せけんばなし でも どうだい!ｐ
+	// ポケモンと いっしょに あせを ながすとｎ
+	// すごく きもちいいぜ!ｌ
+	// ことばに ださなくったってｌ
+	// ふたりの こころが つうじあうんだｌ
+	// あれは ちょっと かんどう するなあ!ｐ
+	// はあはあ… はしりながら はなしてたらｎ
+	// たいりょくが なくなった!ｌ
+	// はあはあ わるいけど こんどな!
 
 MatchCall_PersonalizedText37:: @ 82AE327
 	.string "Hi, it's {STR_VAR_1}.\n"
@@ -1757,6 +1879,14 @@ MatchCall_PersonalizedText37:: @ 82AE327
 	.string "You'll be gasping in no time!\p"
 	.string "I'm getting oxygen starved, too!\n"
 	.string "See you!$"
+	// こんにちは §いよｎ
+	// じきゅうりょく を つけるにはｌ
+	// やっぱり たかい ところが いいわね!ｐ
+	// やまの てっぺん とかでｎ
+	// はしり まわるとｌ
+	// すぐに いきが きれるのよ!ｐ
+	// ああ わたしも いきが きれそうｎ
+	// じゃあ またね!
 
 MatchCall_PersonalizedText38:: @ 82AE3DA
 	.string "Oh, it's {STR_VAR_1}, hello.\p"
@@ -1766,6 +1896,14 @@ MatchCall_PersonalizedText38:: @ 82AE3DA
 	.string "No, no, that can't be possible.\n"
 	.string "Wahahaha.\l"
 	.string "Take care!$"
+	// ああ §い ですｎ
+	// あれから だいぶ およいだけどｌ
+	// サイユウシティには まだ つかないのかなあｐ
+	// もしかして おなじ ところをｎ
+	// ぐるぐる まわってるだけ だったりしてｐ
+	// いや まさか そんなこと ないよなｎ
+	// わははははｌ
+	// じゃあ また!
 
 MatchCall_PersonalizedText39:: @ 82AE489
 	.string "Hey, it's {STR_VAR_1}…\n"
@@ -1782,6 +1920,19 @@ MatchCall_PersonalizedText39:: @ 82AE489
 	.string "tough. It survived that dunking!\p"
 	.string "Anyways, I'm busy sunbathing,\n"
 	.string "so let's chat another time.$"
+	// ああ §い ですけ……ｐ
+	// ボチャンｐ
+	// ブクブクブク………ｐ
+	// ザバ-ｐ
+	// ブンブンｐ
+	// ……ごッ ごめん!ｎ
+	// いま オイルを ぬった てでｌ
+	// ポケナビを もってたらｌ
+	// うみに おとして しまったんだ!ｐ
+	// うみに おとしても こわれないなんてｎ
+	// デボンの ポケナビって すげ-な!ｌ
+	// じゃ にっこうよくの つづきを するんでｌ
+	// またこんど はなそうぜ!
 
 MatchCall_PersonalizedText40:: @ 82AE5CD
 	.string "Hello, this is {STR_VAR_1}.\p"
@@ -1791,6 +1942,14 @@ MatchCall_PersonalizedText40:: @ 82AE5CD
 	.string "won't I get all prune-like?\p"
 	.string "Ooh, triathlon is such a grueling\n"
 	.string "test of human endurance! Bye!$"
+	// トライアスロンの なかでもｎ
+	// すいえいが だいすきな §い ですｐ
+	// でも あんまり ながいことｎ
+	// うみに いるとｌ
+	// からだが ふやけちゃわないかなあｐ
+	// やっぱり トライアスロンはｎ
+	// かこくな レ-スよね!ｌ
+	// じゃ またね!
 
 MatchCall_PersonalizedText41:: @ 82AE698
 	.string "Hello, {PLAYER}{KUN}.\n"
