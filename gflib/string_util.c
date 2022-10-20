@@ -607,9 +607,16 @@ const u8 *GetExpandedPlaceholder(u32 id)
     };
 
     if (id >= ARRAY_COUNT(funcs))
+    {
+        // 배틀화면 전용 제어코드 호환용 예외처리
+        if (id >= 0x35 && id <= 0x3b)
+            return funcs[id - 0x25]();
         return gText_ExpandedPlaceholder_Empty;
+    }
     else
+    {
         return funcs[id]();
+    }
 }
 
 u8 *StringFill(u8 *dest, u8 c, u16 n)
