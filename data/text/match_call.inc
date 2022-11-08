@@ -2040,6 +2040,17 @@ MatchCall_PersonalizedText46:: @ 82AE998
 	.string "off too far out.\p"
 	.string "…Where am I, anyway?\n"
 	.string "I'd better go!$"
+	// §い で-すｐ
+	// ねえねえ!ｎ
+	// うみって プ-ルと くらべてｌ
+	// うかびやすいって しってた?ｐ
+	// こうやって からだを よこに すればｌ
+	// かってに うくのよｐ
+	// でも あんまり ながく うかんでるとｎ
+	// おきに ながされるからｌ
+	// きを つけないと だめよｐ
+	// ……あれ? ここ どこかしら……ｎ
+	// じゃ じゃあ またね!
 
 MatchCall_PersonalizedText47:: @ 82AEA8F
 	.string "Oh, {PLAYER}{KUN}, hello!\n"
