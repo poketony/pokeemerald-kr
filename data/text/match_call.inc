@@ -2452,130 +2452,215 @@ MatchCall_PersonalizedText64:: @ 82AFB26
 	// じゃあね バイ!
 
 MatchCall_BattleFrontierStreakText1:: @ 82AFC07
-	.string "Hi! This is {STR_VAR_1}.\n"
-	.string "I heard the news!\p"
-	.string "They say you did excellent at\n"
-	.string "the {STR_VAR_2}.\p"
-	.string "It's awesome, {STR_VAR_3} straight wins?\n"
-	.string "See you!$"
+	.string "안녕 {STR_VAR_1}{K_I}야!\n"
+	.string "들었어!\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "굉장한 활약을 했다면서?\p"
+	.string "{STR_VAR_3}연승이라니 굉장한걸\n"
+	.string "그럼 또 봐!$"
+	// こんにちは §い です!ｎ
+	// きいたよ!ｐ
+	// §う でｎ
+	// すごい かつやく したんだって?ｐ
+	// §えれんしょう って すごいなあｎ
+	// じゃあ またね!
 
 MatchCall_BattleFrontierStreakText2:: @ 82AFC78
-	.string "Hello, it's {STR_VAR_1}!\n"
-	.string "I heard about you!\p"
-	.string "They said you won {STR_VAR_3} straight\n"
-	.string "battles at the {STR_VAR_2}.\p"
-	.string "That's special! I should try\n"
-	.string "harder, too! See you!$"
+	.string "안녕 {STR_VAR_1}{K_I}야\n"
+	.string "{STR_VAR_2}에서\l"
+	.string "{STR_VAR_3}연승을 했다고 들었어!\p"
+	.string "굉장하다-! 나도 힘내야지!\n"
+	.string "그럼 또 보자!$"
+	// こんにちは §い で-すｎ
+	// §う でｌ
+	// §えれんしょう したって きいたわよ!ｐ
+	// すっご-い! わたしも がんばろうっと!ｎ
+	// じゃあ またね!
 
 MatchCall_BattleFrontierStreakText3:: @ 82AFCFF
-	.string "Hey there, {PLAYER}!\n"
-	.string "It's me, {STR_VAR_1}.\p"
-	.string "I heard you went on a tear at\n"
-	.string "the {STR_VAR_2}!\p"
-	.string "A big {STR_VAR_3}-win streak…\n"
-	.string "That is a big record, isn't it?\p"
-	.string "I'd better get it together, too!\n"
-	.string "Catch you soon!$"
+	.string "오우! {PLAYER}!\n"
+	.string "{STR_VAR_1}{K_I}야!\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "크게 날뛴 것 같던데!\p"
+	.string "{STR_VAR_3}연승이라니\n"
+	.string "굉장한 기록이잖아?\p"
+	.string "나도 질 수 없지-!\n"
+	.string "그럼 또 보자!$"
+	// おう! §あ!ｎ
+	// §いだぞ!ｐ
+	// §う でｎ
+	// おおあばれ したらしいな!ｐ
+	// §えれんしょう ってｎ
+	// すごい きろく なんだろ?ｐ
+	// おれも まけられね-な!ｎ
+	// じゃ またな!
 
 MatchCall_BattleFrontierStreakText4:: @ 82AFDA7
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here. What's up?\p"
-	.string "There's a rumor going around that\n"
-	.string "you strung together {STR_VAR_3} straight\l"
-	.string "wins at the {STR_VAR_2}.\p"
-	.string "I'd better step it up, too.\n"
-	.string "See you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데 잘 지내?\p"
+	.string "소문을 들었는데\n"
+	.string "너 {STR_VAR_2}에서\l"
+	.string "{STR_VAR_3}연승을 했다면서?\p"
+	.string "나도 힘내야겠다\n"
+	.string "그럼 또 봐$"
+	// やあ §あ§おｎ
+	// §い だけど げんき かい?ｐ
+	// うわさで きいたんだけどｎ
+	// きみ §うでｌ
+	// §えれんしょうも したんだって?ｐ
+	// ぼくも がんばらなきゃなｎ
+	// じゃあ また
 
 MatchCall_BattleFrontierStreakText5:: @ 82AFE3D
-	.string "Hiya, {PLAYER}{KUN}!\n"
-	.string "It's {STR_VAR_1}.\p"
-	.string "You were at the {STR_VAR_2}\n"
-	.string "and won {STR_VAR_3} battles in a row?\l"
-	.string "Isn't that something!\p"
-	.string "I'd better work on my POKéMON more.\n"
-	.string "See you soon!$"
+	.string "{PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "{STR_VAR_3}연승이나 했다며!\l"
+	.string "굉장한걸\p"
+	.string "나도 포켓몬 키워야지\n"
+	.string "그럼 나중에 봐$"
+	// §あ§お こんにちはｎ
+	// §い だよｐ
+	// §うでｎ
+	// §えれんしょうも したんだってね!ｌ
+	// すごいなあｐ
+	// ぼくも ポケモン そだてなきゃｎ
+	// じゃあ また
 
 MatchCall_BattleFrontierStreakText6:: @ 82AFECA
-	.string "Hey, {PLAYER}{KUN}.\n"
-	.string "{STR_VAR_1} here. How are you?\p"
-	.string "By the way, I heard you pulled off\n"
-	.string "the feat of {STR_VAR_3} straight wins at\l"
-	.string "the {STR_VAR_2}.\p"
-	.string "That inspires me to focus on\n"
-	.string "raising my team.$"
+	.string "{PLAYER}{K_I}니?\n"
+	.string "안녕 {STR_VAR_1}{K_I}야\p"
+	.string "그러고 보니 너\n"
+	.string "{STR_VAR_2}에서\l"
+	.string "{STR_VAR_3}연승이나 했다면서\p"
+	.string "나도 힘내서\n"
+	.string "포켓몬 키워야지$"
+	// §あ§お かい?ｎ
+	// こんにちは §い だｐ
+	// そういえば きみｎ
+	// §うでｌ
+	// §えれんしょうも したんだってねｐ
+	// おれも がんばってｎ
+	// ポケモンを そだてるよ
 
 MatchCall_BattleFrontierStreakText7:: @ 82AFF64
-	.string "…Er, {PLAYER}{KUN}?\n"
-	.string "{STR_VAR_1} here…\p"
-	.string "Oh, yeah, you were over at\n"
-	.string "the {STR_VAR_2}, right?\p"
-	.string "And you won {STR_VAR_3} battles in a row.\p"
-	.string "Oh, there goes a rare POKéMON!\n"
-	.string "I have to go!$"
+	.string "으-음 아 {PLAYER}?\n"
+	.string "{STR_VAR_1}{K_I}야...\p"
+	.string "그러고 보니 {STR_VAR_2}에서\n"
+	.string "{STR_VAR_3}연승을 했다면서\p"
+	.string "아! 지금 희귀한 포켓몬을\n"
+	.string "찾았으니까 나중에 보자!$"
+	// え-と あ §あ§お?ｎ
+	// §い だ®®®ｐ
+	// そういえば §う でｎ
+	// §えれんしょう したんだってねｐ
+	// あ! いま めずらしい ポケモンをｎ
+	// みつけたから じゃあ また!
 
 MatchCall_BattleFrontierStreakText8:: @ 82AFFF0
-	.string "Oh, {PLAYER}{KUN}, how do you do?\n"
-	.string "This is {STR_VAR_1} speaking.\l"
-	.string "I hope you're doing well.\p"
-	.string "Oh, but, you are. I've heard that\n"
-	.string "you won {STR_VAR_3} matches in a row at\l"
-	.string "the {STR_VAR_2}.\p"
-	.string "That's very impressive!\n"
-	.string "I hope you stay successful.$"
+	.string "{PLAYER}씨 안녕하세요\n"
+	.string "{STR_VAR_1}입니다\p"
+	.string "상태는 어떤가요?\n"
+	.string "그러고 보니 {STR_VAR_2}에서\l"
+	.string "{STR_VAR_3}연승이나 했다면서요?\p"
+	.string "굉장한데요!\n"
+	.string "다음번에도 힘내세요$"
+	// §あ§お こんにちはｎ
+	// §い ですｐ
+	// ちょうしは どうですか?ｎ
+	// そういえば §うでｌ
+	// §えれんしょうも したんですって?ｐ
+	// すごいですね!ｎ
+	// つぎも がんばってね
 
 MatchCall_BattleFrontierStreakText9:: @ 82B00B5
-	.string "Oh, {PLAYER}{KUN}, hi there!\n"
-	.string "This is {STR_VAR_1}!\p"
-	.string "I heard! Your {STR_VAR_3}-win streak at\n"
-	.string "the {STR_VAR_2}!\p"
-	.string "That is so cool!\n"
-	.string "I'd better try harder, too!$"
+	.string "어머 {PLAYER}!\n"
+	.string "안녕 {STR_VAR_1}{K_I}야!\p"
+	.string "들었어! {STR_VAR_2}에서\n"
+	.string "{STR_VAR_3}연승을 했다며!\p"
+	.string "굉장하다-\n"
+	.string "나도 힘내야겠어$"
+	// あら §あ§お!ｎ
+	// こんにちは §いです!ｐ
+	// きいたわよ! §うでｎ
+	// §えれんしょうも したって!ｐ
+	// すっごいね-ｎ
+	// わたしも がんばらなくちゃ
 
 MatchCall_BattleFrontierStreakText10:: @ 82B0129
-	.string "Oh, {PLAYER}{KUN}, hello…\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "You won {STR_VAR_3} straight battles at\n"
-	.string "the {STR_VAR_2}?\p"
-	.string "That's quite the accomplishment.\n"
-	.string "I need to work harder.$"
+	.string "{PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "{STR_VAR_3}연승을 했다면서?\p"
+	.string "굉장한걸\n"
+	.string "나도 힘내야겠다$"
+	// §あ§お こんにちはｎ
+	// §い ですｐ
+	// §うでｎ
+	// §えれんしょうも したんですって?ｐ
+	// すごいわねえｎ
+	// わたしも がんばらなくちゃ
 
 MatchCall_BattleFrontierStreakText11:: @ 82B01A5
-	.string "Ah, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I hear you're the terror of\n"
-	.string "the {STR_VAR_2}?\p"
-	.string "You won, what, {STR_VAR_3} matches in\n"
-	.string "a row?\p"
-	.string "You're good, you.\n"
-	.string "I wonder how many I can win?$"
+	.string "여어여어 {PLAYER}\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "대활약하고 있는 거 같던데\l"
+	.string "{STR_VAR_3}연승이나 했다면서?\p"
+	.string "굉장한걸 나는\n"
+	.string "몇 연승까지 가능하려나$"
+	// やあやあ §あ§おｎ
+	// §いだｐ
+	// §うで だいかつやく らしいなあｎ
+	// §えれんしょう したんだって?ｐ
+	// すげえなあ おれだったらｎ
+	// なんれんしょう できるのかな
 
 MatchCall_BattleFrontierStreakText12:: @ 82B0232
-	.string "Hello, {PLAYER}{KUN}.\n"
-	.string "It's me, {STR_VAR_1}.\l"
-	.string "Are you keeping well?\p"
-	.string "Someone passed on word about you.\n"
-	.string "How you won {STR_VAR_3} straight battles\l"
-	.string "at a place named {STR_VAR_2}?\p"
-	.string "That's quite the tale.\n"
-	.string "See you!$"
+	.string "여어 {PLAYER}\n"
+	.string "{STR_VAR_1}인데 잘 지내는가?\p"
+	.string "소문으로 들었는데\n"
+	.string "{STR_VAR_2}{K_I}라는 곳에서\l"
+	.string "{STR_VAR_3}연승이나 했지?\p"
+	.string "굉장한 얘기로구먼\n"
+	.string "그럼 또 보세!$"
+	// やあ §あ§おｎ
+	// §い じゃが げんきかの?ｐ
+	// ひとづてに きいたのじゃがｎ
+	// §う とかいう ところでｌ
+	// §えれんしょうも したらしいのう?ｐ
+	// すごい はなし だのうｎ
+	// では またの
 
 MatchCall_BattleFrontierStreakText13:: @ 82B02D9
-	.string "Ah, hello, {PLAYER}{KUN}!\n"
-	.string "This is {STR_VAR_1}!\l"
-	.string "I hope you've been keeping well.\p"
-	.string "They say you won {STR_VAR_3} straight\n"
-	.string "battles at the {STR_VAR_2}.\p"
-	.string "I admire your energy!\n"
-	.string "Bye now.$"
+	.string "{PLAYER}{K_I}니?\n"
+	.string "{STR_VAR_1}인데 잘 지내는가?\p"
+	.string "{STR_VAR_2}에서\n"
+	.string "{STR_VAR_3}연승이나 한 모양이던데\p"
+	.string "건강해서 다행이구먼\n"
+	.string "그럼 또 보세$"
+	// §あ§お かい?ｎ
+	// §い じゃが げんきかの?ｐ
+	// §うでｎ
+	// §えれんしょうも したそうじゃのうｐ
+	// げんきで いいことじゃｎ
+	// では またのう
 
 MatchCall_BattleFrontierStreakText14:: @ 82B0366
-	.string "Oh, hi, {PLAYER}{KUN}.\n"
-	.string "This is {STR_VAR_1}.\p"
-	.string "I heard about you!\n"
-	.string "Didn't you just win {STR_VAR_3} battles in\l"
-	.string "a row at the {STR_VAR_2}?\p"
-	.string "You're an inspiration!\n"
-	.string "Bye-bye!$"
+	.string "어머 {PLAYER} 안녕\n"
+	.string "{STR_VAR_1}{K_I}야\p"
+	.string "들었어!\n"
+	.string "{STR_VAR_2}에서\l"
+	.string "{STR_VAR_3}연승이나 했다면서?\p"
+	.string "굉장하다 나도 해봐야지!\n"
+	.string "그럼 나중에 보자$"
+	// あら §あ§お こんにちはｎ
+	// §い よｐ
+	// きいたわよ!ｎ
+	// §うでｌ
+	// §えれんしょうも したんですって?ｐ
+	// すごいわねえ かんしん しちゃうわ!ｎ
+	// じゃあ またね
 
 MatchCall_BattleFrontierRecordStreakText1:: @ 82B03E6
 	.string "Hi! This is {STR_VAR_1}.\n"
