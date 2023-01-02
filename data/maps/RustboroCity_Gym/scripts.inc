@@ -252,7 +252,7 @@ RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
 RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
 	.string "...... ...... ......\n"
 	.string "...... ...... ...... 삑!\p"
-	.string "원규: 앗 {PLAYER}씨인가요?\n"
+	.string "원규: 앗 {PLAYER}님인가요?\n"
 	.string "저 금탄도시의 원규예요!\p"
 	.string "종길씨한테서 들었습니다\n"
 	.string "당신 굉장한 기세로\l"

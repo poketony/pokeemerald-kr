@@ -3558,171 +3558,288 @@ MatchCall_Text_Mom1:: @ 82B227B
 	// してくれる ポケモンが すきだわ
 
 MatchCall_Text_Mom2:: @ 82B2310
-	.string "MOM: Hi, {PLAYER}!\n"
-	.string "Your father keeps himself locked\l"
-	.string "away in the PETALBURG GYM.\p"
-	.string "He comes home every so often.\n"
-	.string "But he goes back to the GYM when\l"
-	.string "he's eaten everything he can.\p"
-	.string "I'm guessing that losing to you\n"
-	.string "was a big blow to his pride!$"
+	.string "엄마: 어머 {PLAYER}!\n"
+	.string "아빠라면 매일 등화도시의\l"
+	.string "체육관에 틀어박혀 있어!\p"
+	.string "가끔씩 집에 돌아오지만\n"
+	.string "잔뜩 밥을 먹고 나서\l"
+	.string "다시 출근한단다!\p"
+	.string "너한테 진 게\n"
+	.string "어지간히도 분했나봐!$"
+	// ママ『あら §あｎ
+	// パパなら まいにち トウカシティのｌ
+	// ジムに こもってるわよ!ｐ
+	// ときどき うちに かえってきてはｎ
+	// たくさん ごはんを たべてｌ
+	// また でかけて いくの!ｐ
+	// あなたに まけたのがｎ
+	// よっぽど くやしかった みたいね!
 
 MatchCall_Text_Mom3:: @ 82B23F3
-	.string "MOM: {PLAYER}…\n"
-	.string "Don't worry about me or the house.\p"
-	.string "Wear those RUNNING SHOES until\n"
-	.string "they fall apart, honey!$"
+	.string "엄마: {PLAYER}...\p"
+	.string "집은 걱정하지 않아도 되니까\n"
+	.string "엄마가 준 러닝슈즈가\l"
+	.string "너덜너덜해질 때까지 돌아다녀봐!$"
+	// ママ『§あ……ｐ
+	// おうちの ことなら きにしなくて いいからｎ
+	// ママが あげた ランニングシュ-ズｌ
+	// ボロボロに なるまで はいてちょうだいね!
 
 MatchCall_Text_Roxanne1:: @ 82B2456
-	.string "ROXANNE: Oh, hello, {PLAYER}!\p"
-	.string "I've been hard at work retraining\n"
-	.string "since we met.\p"
-	.string "I will still need some more time\n"
-	.string "before I can reopen the GYM.\p"
-	.string "But when I do, please visit my GYM\n"
-	.string "for a rematch!$"
+	.string "원규: 어머 {PLAYER}님!\p"
+	.string "그때 이후로 다시 트레이닝 방식을\n"
+	.string "고치고 있어요!\p"
+	.string "체육관을 다시 열려면\n"
+	.string "조금 더 시간이 걸리겠지만\p"
+	.string "만약 체육관이 다시 열린다면\n"
+	.string "부디 도전해 주세요...$"
+	// ツツジ『あら §あさん!ｐ
+	// あれから また トレ-ニングをｎ
+	// やりなおして いるところ なんですよ!ｐ
+	// また ジムを さいかい するためにはｎ
+	// もうすこし じかんが かかりますがｐ
+	// もし ジムを さいかい できたらｎ
+	// ぜひまた ちょうせん してくださいね……
 
 MatchCall_Text_Roxanne2:: @ 82B250E
-	.string "ROXANNE: Is this {PLAYER}?\n"
-	.string "Congratulations!\l"
-	.string "I've been hearing about you!\p"
-	.string "As for me, I need some more time\n"
-	.string "before I can reopen the GYM.\p"
-	.string "But when I do, please visit my GYM\n"
-	.string "for a rematch!$"
+	.string "원규: {PLAYER}님 축하해요!\n"
+	.string "소문으로 들었습니다!\p"
+	.string "이쪽은 체육관을 다시 열려면\n"
+	.string "조금 더 시간이 걸리겠지만\p"
+	.string "만약 체육관이 다시 열린다면\n"
+	.string "부디 도전해 주세요...$"
+	// ツツジ『§あさん おめでとう!ｎ
+	// うわさは ききましたよ!ｐ
+	// こちらは ジムを さいかい するためにはｎ
+	// もうすこし じかんが かかりますがｐ
+	// もし ジムを さいかい できたらｎ
+	// ぜひまた ちょうせん してくださいね……
 
 MatchCall_Text_Roxanne3:: @ 82B25C1
-	.string "ROXANNE: {PLAYER}!\n"
-	.string "My GYM is ready!\p"
-	.string "Please visit RUSTBORO whenever\n"
-	.string "you can!$"
+	.string "원규: {PLAYER}님!\n"
+	.string "체육관 준비가 끝났습니다!\p"
+	.string "언제든지 금탄도시를\n"
+	.string "방문해 주세요!$"
+	// ツツジ『§あさん!ｎ
+	// ジムの じゅんびが できました!ｐ
+	// いつでも カナズミ シティまでｎ
+	// きてくださいな!
 
 MatchCall_Text_Roxanne4:: @ 82B2607
-	.string "ROXANNE: At the RUSTBORO GYM,\n"
-	.string "the fact that we battled, {PLAYER},\l"
-	.string "is a matter of pride.$"
+	.string "원규: {PLAYER}님과\n"
+	.string "승부한 건\l"
+	.string "금탄체육관의 자랑이에요!$"
+	// ツツジ『§あさんとｎ
+	// しょうぶ できたことはｌ
+	// カナズミ ジムの ほこりですよ!
 
 MatchCall_Text_Brawly1:: @ 82B2659
-	.string "BRAWLY: Hey, there, {PLAYER}{KUN}!\p"
-	.string "I learned a lot from the battle we\n"
-	.string "had together.\p"
-	.string "I intend to do my training over,\n"
-	.string "then reopen the GYM.\p"
-	.string "It's going to take some time before\n"
-	.string "I'm ready to run the GYM again.\p"
-	.string "But if I can reopen the GYM,\n"
-	.string "I want you to challenge us again.$"
+	.string "철구: 안녕 {PLAYER}!\p"
+	.string "너와의 승부에서\n"
+	.string "정말 여러 가지를 배웠어!\p"
+	.string "또 수행을 해서\n"
+	.string "체육관을 다시 열 생각이야!\p"
+	.string "체육관의 준비가 끝날 때까진\n"
+	.string "조금 시간이 걸릴 것 같지만\p"
+	.string "만약 체육관을 다시 연다면\n"
+	.string "꼭 다시 도전하러 와줘...$"
+	// トウキ『やあ §あ§お!ｐ
+	// キミとの しょうぶでは いろんなことをｎ
+	// まなばせて もらったよ!ｐ
+	// また しゅぎょう しなおしてｎ
+	// ジムを さいかいする つもりさ!ｐ
+	// ジムの じゅんびが できるまではｎ
+	// まだ じかんが かかりそう だけどｐ
+	// もし ジムを さいかい できたらｎ
+	// ぜひまた ちょうせん してくれよ……
 
 MatchCall_Text_Brawly2:: @ 82B275D
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
-	.string "Congratulations!\p"
-	.string "Word about your exploits arrived\n"
-	.string "on tidal winds!\p"
-	.string "It appears as if I need to work on\n"
-	.string "my training some more.\p"
-	.string "It's going to take some time before\n"
-	.string "I'm ready to run the GYM again.\p"
-	.string "But if I can reopen the GYM,\n"
-	.string "I want you to challenge us again.$"
+	.string "철구: 안녕 {PLAYER}!\p"
+	.string "네 소문은 바닷바람을 타고\n"
+	.string "이 마을에까지 오고 있어!\p"
+	.string "나는 아직 좀 더 수행을\n"
+	.string "할 필요가 있을 거 같아\p"
+	.string "체육관의 준비가 끝날 때까진\n"
+	.string "조금 시간이 걸릴 것 같지만\p"
+	.string "만약 체육관을 다시 연다면\n"
+	.string "꼭 다시 도전하러 와줘...$"
+	// トウキ『§あ§お おめでとう!ｐ
+	// キミの うわさは しおかぜに のってｎ
+	// このまちにも とどいて いるよ!ｐ
+	// ボクのほうは まだまだ しゅぎょうをｎ
+	// やりなおす ひつようが ありそうだｐ
+	// ジムの じゅんびが できるまではｎ
+	// まだ じかんが かかりそう だけどｐ
+	// もし ジムを さいかい できたらｎ
+	// ぜひまた ちょうせん してくれよ……
 
 MatchCall_Text_Brawly3:: @ 82B286F
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
-	.string "My GYM's ready for action!\p"
-	.string "Come back to DEWFORD anytime\n"
-	.string "for another challenge!$"
+	.string "철구: 안녕 {PLAYER}!\n"
+	.string "체육관의 준비가 끝났어!\p"
+	.string "언제든지 무로마을에\n"
+	.string "도전하러 와!$"
+	// トウキ『§あ§お!ｎ
+	// ジムの じゅんびが できたよ!ｐ
+	// いつでも ムロ タウンまでｎ
+	// ちょうせんしに きてくれよな!
 
 MatchCall_Text_Brawly4:: @ 82B28D1
-	.string "BRAWLY: {PLAYER}{KUN}, I don't think\n"
-	.string "I'll ever get bored of battling you!$"
+	.string "철구: {PLAYER} 너하곤\n"
+	.string "아무리 승부를 해도 안 질려!$"
+	// トウキ『§あ§お とはｎ
+	// なんど しょうぶ しても あきないよ!
 
 MatchCall_Text_Wattson1:: @ 82B2912
-	.string "WATTSON: Oh, it's you!\p"
-	.string "After you left, I've been redoing\n"
-	.string "my training from scratch.\p"
-	.string "I'd say I could use a wee bit more\n"
-	.string "time to reopen my GYM.\p"
-	.string "You'll have to wait till then!\n"
-	.string "Wahahahaha!$"
+	.string "암페어: 오오 너였구나!\p"
+	.string "난 그때 이후로 다시\n"
+	.string "트레이닝을 하고 있단다!\p"
+	.string "내 체육관을 다시 열려면\n"
+	.string "조-금 시간이 걸릴 것 같거든!\p"
+	.string "그때까지 기다리거라!\n"
+	.string "와하하하핫!$"
+	// テッセン『おう おまえさんか!ｐ
+	// わしは あれから また トレ-ニングをｎ
+	// やりなおして いるところ じゃよ!ｐ
+	// わしの ジムを さいかいするにはｎ
+	// まだ ち-と じかんが かかりそうじゃな!ｐ
+	// それまで まっていて おくれ!ｎ
+	// わっはははは!
 
 MatchCall_Text_Wattson2:: @ 82B29CA
-	.string "WATTSON: Wahahahaha!\p"
-	.string "You've really done it, haven't you?\n"
-	.string "I've been getting word about you!\p"
-	.string "It seems I need to retrain some\n"
-	.string "more still.\p"
-	.string "I'd say I could use a wee bit more\n"
-	.string "time to reopen my GYM.\p"
-	.string "You'll have to wait till then!\n"
-	.string "Wahahahaha!$"
+	.string "암페어: 와하하하핫!\p"
+	.string "너 드디어 해냈구나!\n"
+	.string "나도 소문을 들었단다!\p"
+	.string "이쪽은 아직 좀 더 수행을\n"
+	.string "할 필요가 있을 것 같구나\p"
+	.string "내 체육관을 다시 열려면\n"
+	.string "조-금 시간이 걸릴 것 같거든!\p"
+	.string "그때까지 기다리거라!\n"
+	.string "와하하하핫!$"
+	// テッセン『わっははは!ｐ
+	// おまえさん とうとう やったな!ｎ
+	// うわさは わしの みみにも とどいとる!ｐ
+	// こちらは まだまだ しゅぎょうをｎ
+	// やりなおす ひつようが ありそうじゃｐ
+	// わしの ジムを さいかいするにはｎ
+	// まだ ち-と じかんが かかりそうじゃな!ｐ
+	// それまで まっていて おくれ!ｎ
+	// わっはははは!
 
 MatchCall_Text_Wattson3:: @ 82B2AB6
-	.string "WATTSON: Oh, it's you!\n"
-	.string "My GYM's ready!\p"
-	.string "Visit MAUVILLE anytime!\n"
-	.string "Wahahahaha!$"
+	.string "암페어: 오오 너였구나!\n"
+	.string "체육관의 준비가 끝났단다!\p"
+	.string "언제든지 보라시티에\n"
+	.string "오려무나! 와하하핫!$"
+	// テッセン『おう おまえさんか!ｎ
+	// ジムの じゅんびが できたぞい!ｐ
+	// いつでも キンセツ シティまでｎ
+	// くるがいいぞ! わっははは!
 
 MatchCall_Text_Wattson4:: @ 82B2B01
-	.string "WATTSON: Wahahaha!\p"
-	.string "A battle with you is always charged\n"
-	.string "with shocking power!$"
+	.string "암페어: 와하하핫!\p"
+	.string "너하고 한 포켓몬 승부는\n"
+	.string "찌리릿하구나!$"
+	// テッセン『わっははは!ｐ
+	// おまえさんとの ポケモン しょうぶはｎ
+	// ビリビリと しげきてきじゃな!
 
 MatchCall_Text_Flannery1:: @ 82B2B4D
-	.string "FLANNERY: {PLAYER}…\p"
-	.string "When we battled, I learned exactly\n"
-	.string "how immature I was.\p"
-	.string "But I'm not done yet!\p"
-	.string "I'm going to redo my training and\n"
-	.string "reopen the GYM.\p"
-	.string "When the time comes, {PLAYER},\n"
-	.string "please challenge us again.$"
+	.string "민지: {PLAYER}...\p"
+	.string "당신과의 승부에서 자신의\n"
+	.string "미숙함을 배웠지만\l"
+	.string "난 이렇게 끝나지 않을 거야!\p"
+	.string "한 번 더 수행을 해서\n"
+	.string "다시 체육관을 열겠어!\p"
+	.string "그때가 온다면 {PLAYER}\n"
+	.string "꼭 도전하러 와줘!$"
+	// アスナ『§あさん……ｐ
+	// あなたとの しょうぶで じぶんのｎ
+	// みじゅくさを おもいしらされた けどｌ
+	// わたしは これで おわったり しないよ!ｐ
+	// もういちど しゅぎょうを しなおしてｎ
+	// また ジムを さいかい するんだ!ｐ
+	// そのときには §あさんｎ
+	// ぜったい ちょうせんしに きてよね!
 
 MatchCall_Text_Flannery2:: @ 82B2C0E
-	.string "FLANNERY: Hello, {PLAYER}?\n"
-	.string "Congratulations!\p"
-	.string "Word of your success has reached\n"
-	.string "us like the heat of a volcano!\p"
-	.string "Our training is coming along very\n"
-	.string "well here.\p"
-	.string "When the GYM's ready, a mark will\n"
-	.string "appear beside my name in the\l"
-	.string "MATCH CALL list.$"
+	.string "민지: {PLAYER} 축하해!\p"
+	.string "당신의 소문은 화산의 열처럼\n"
+	.string "나한테도 전해져오고 있어!\p"
+	.string "이쪽도 순조롭게\n"
+	.string "트레이닝이 진행되고 있지!\p"
+	.string "체육관의 준비가 끝나면\n"
+	.string "엔트리콜에서 이름이 있는 곳에\l"
+	.string "표시가 나타날 거야!$"
+	// アスナ『§あさん おめでとう!ｐ
+	// あなたの うわさは かざんの ねつのようにｎ
+	// わたしにも つたわって きてるよ!ｐ
+	// こちらも じゅんちょうにｎ
+	// トレ-ニングが すすんでるんだ!ｐ
+	// ジムの じゅんびが できたらｎ
+	// エントリ-コ-ルの なまえの ところにｌ
+	// しるしが つくからね!
 
 MatchCall_Text_Flannery3:: @ 82B2CF1
-	.string "FLANNERY: Oh, {PLAYER}?\n"
-	.string "Our GYM's ready!\p"
-	.string "Come to LAVARIDGE for a soak\n"
-	.string "in the hot spring and a challenge!$"
+	.string "민지: 앗 {PLAYER}?\n"
+	.string "체육관 준비는 이미 끝났어!\p"
+	.string "온천에 들어가는 김에\n"
+	.string "용암마을에 놀러와!$"
+	// アスナ『あっ §あさん?ｎ
+	// ジムの じゅんびは もうできてます!ｐ
+	// おんせんに はいる ついでにｎ
+	// フエン タウンまで きてくださいね!
 
 MatchCall_Text_Flannery4:: @ 82B2D54
-	.string "FLANNERY: {PLAYER}…\n"
-	.string "I'm positive that you keep getting\l"
-	.string "better at training every time.$"
+	.string "민지: {PLAYER}...\n"
+	.string "포켓몬을 다루는 방식이\l"
+	.string "점점 좋아지고 있는 것 같아!$"
+	// アスナ『§あさん……ｎ
+	// ポケモンの あつかいかたがｌ
+	// どんどん うまくなってる きがするよ!
 
 MatchCall_Text_Winona1:: @ 82B2DA4
-	.string "WINONA: Hello, {PLAYER}!\p"
-	.string "Thanks to our battle, I've come\n"
-	.string "to understand my weak points!\p"
-	.string "When I reopen the GYM, I won't go\n"
-	.string "down in defeat again!$"
+	.string "은송: 안녕하세요 {PLAYER}님!\p"
+	.string "당신과 승부했던 덕분에\n"
+	.string "자신의 약점을 알 수 있었어요!\p"
+	.string "언젠가 다시 체육관을 열 때는\n"
+	.string "지지 않을 거예요!$"
+	// ナギ『こんにちは §あさん!ｐ
+	// あなたと しょうぶを したおかげでｎ
+	// じぶんの じゃくてんが よくわかったわ!ｐ
+	// いつか また ジムを さいかい できたらｎ
+	// そのときは もう まけませんよ!
 
 MatchCall_Text_Winona2:: @ 82B2E2B
-	.string "WINONA: You've done it, {PLAYER}!\p"
-	.string "News about the new CHAMPION\n"
-	.string "has reached us in FORTREE!\p"
-	.string "But… The next time we battle,\n"
-	.string "it's not going to end the same way.$"
+	.string "은송: 해냈군요 {PLAYER}!\p"
+	.string "새로운 챔피언이 탄생했다는 소문은\n"
+	.string "검방울시티에도 돌고 있답니다!\p"
+	.string "하지만... 다음에 승부할 때는\n"
+	.string "지난번처럼은 안 될 거예요!$"
+	// ナギ『やりましたね §あさん!ｐ
+	// しんチャンピオン たんじょうの うわさはｎ
+	// ヒワマキにも とどいて いますよ!ｐ
+	// でも…… つぎに しょうぶ するときはｎ
+	// このまえの ようには いきませんからね!
 
 MatchCall_Text_Winona3:: @ 82B2EC2
-	.string "WINONA: Is this {PLAYER}?\n"
-	.string "Our GYM is back in operation!\p"
-	.string "We're waiting for you in FORTREE!$"
+	.string "은송: 저기 {PLAYER}님?\n"
+	.string "체육관의 준비가 끝났어요!\p"
+	.string "검방울시티에서 기다릴게요!$"
+	// ナギ『ええと §あさん?ｎ
+	// ジムの じゅんびが できましたよ!ｐ
+	// ヒワマキ タウンで まってます!
 
 MatchCall_Text_Winona4:: @ 82B2F16
-	.string "WINONA: {PLAYER}…\n"
-	.string "Though I have lost, my wings will\l"
-	.string "never break.\p"
-	.string "Yes, in exactly the same way that\n"
-	.string "you never lost sight of your dream.$"
+	.string "은송: {PLAYER}님...\n"
+	.string "승부에서 져도 제 날개는\l"
+	.string "절대로 꺾이지 않아요!\p"
+	.string "그래요 {PLAYER}님이\n"
+	.string "꿈을 포기하지 않았던 것처럼!$"
+	// ナギ『§あさん……ｎ
+	// しょうぶに まけても わたしの つばさはｌ
+	// けっして おれることは ないのです!ｐ
+	// そう §あさんがｎ
+	// ゆめを あきらめなかった ように!
 
 MatchCall_Text_TateLiza1:: @ 82B2F97
 	.string "TATE: Oh! You're…\n"
