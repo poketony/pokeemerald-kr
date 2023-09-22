@@ -115,12 +115,12 @@ FortreeCity_Text_SomethingBlockingGym: @ 81E2738
 
 FortreeCity_Text_ThisTimeIllBeatWinona: @ 81E27B6
 	.string "내가 자랑하는 포켓몬으로\n"
-	.string "이번에야말로 은송님에게 이겨보겠어!$"
+	.string "이번에야말로 은송님을 이겨보겠어!$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater: @ 81E27FE
 	.string "비가 땅에 스며들고\n"
 	.string "그 물을 빨아들여 나무가 자란다...\p"
-	.string "물과 땅 양쪽이 있으니까\n"
+	.string "물과 땅 둘 다 있으니까\n"
 	.string "이 검방울시티도 있는 거야$"
 
 FortreeCity_Text_EveryoneHealthyAndLively: @ 81E2880

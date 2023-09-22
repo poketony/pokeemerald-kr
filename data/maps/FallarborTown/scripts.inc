@@ -58,15 +58,15 @@ FallarborTown_Text_ShadyCharactersCozmosHome: @ 81EB26B
 
 FallarborTown_Text_RegionKnownForMeteors: @ 81EB2DE
 	.string "여기 일대는\n"
-	.string "옛날부터 운석이 많아서 말이야\p"
+	.string "옛날부터 운석이 많아\p"
 	.string "유성의 폭포도 운석이 떨어져서\n"
-	.string "만들어졌다나 그렇게 전해지고 있어$"
+	.string "만들어졌다고 전해지고 있어$"
 
 FallarborTown_Text_MyPreciousAzurill: @ 81EB35F
 	.string "자! 이것 봐!\n"
 	.string "내 소중한 루리리!\p"
-	.string "매끈매끈이라\n"
-	.string "쓰다듬으면 푹신푹신이라고!$"
+	.string "매끈매끈하고\n"
+	.string "쓰다듬으면 푹신푹신하다고!$"
 
 FallarborTown_Text_Azurill: @ 81EB3B5
 	.string "루리리: 루-릴-$"
@@ -75,8 +75,8 @@ FallarborTown_Text_HaveYouChallengedFlannery: @ 81EB3CA
 	.string "용암마을의 체육관 관장\n"
 	.string "민지하고 배틀했니?\p"
 	.string "그 아이의 할아버지는 굉장했어\n"
-	.string "뭐라더라 포켓몬리그의\l"
-	.string "사천왕이었다고 하더라고\p"
+	.string "뭐였더라 포켓몬리그의\l"
+	.string "사천왕이라고 했었나\p"
 	.string "아마 민지도 이제부터\n"
 	.string "훌륭한 트레이너가 되겠지$"
 

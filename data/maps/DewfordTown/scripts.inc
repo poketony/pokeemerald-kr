@@ -649,9 +649,9 @@ DewfordTown_EventScript_PhraseNotTrendyEnough:: @ 81E999E
 	end
 
 DewfordTown_Text_TinyIslandCommunity: @ 81E99A8
-	.string "무로마을은 작은 섬이어서\n"
+	.string "무로마을은 작은 섬이라\n"
 	.string "뭔가 하나라도 유행하기 시작하면\l"
-	.string "금세 다들 그걸 따라 하려고 해$"
+	.string "금방 다들 그걸 따라하려고 해$"
 
 DewfordTown_Text_TownSign: @ 81E9A0F
 	.string "여기는 무로마을\n"
@@ -673,22 +673,22 @@ Route104_Text_LandedInDewfordDeliverLetter: @ 81E9AAF
 
 DewfordTown_Text_SetSailBackToPetalburg: @ 81E9B24
 	.string "하기: 편지는 잘 전달했나?\p"
-	.string "아니면 등화도시로 돌아갈 겐가?$"
+	.string "아니면 등화도시로 돌아갈 텐가?$"
 
 DewfordTown_Text_PetalburgWereSettingSail2: @ 81E9B7F
 	.string "하기: 그럼 등화도시로\n"
-	.string "돌아가도록 하마!\p"
+	.string "돌아가도록 하겠네!\p"
 	.string "좋다! 가자 피코!$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting: @ 81E9BD9
 	.string "하기: 그럼 편지를\n"
-	.string "전달하고 오너라\p"
-	.string "나는 여기서 기다리마$"
+	.string "전달하고 오게나\p"
+	.string "나는 여기서 기다리겠네$"
 
 DewfordTown_Text_BrineyLandedInDewford: @ 81E9C1D
 	.string "하기: 호이! 무로마을에 도착!\p"
 	.string "배를 타고 싶어지면\n"
-	.string "언제든 나한테 말해 주게나!$"
+	.string "언제든 나한테 말하게나!$"
 
 DewfordTown_Text_WhereAreWeBound: @ 81E9C8A
 	.string "하기: 여어! 자네가 원한다면\n"
@@ -705,7 +705,7 @@ DewfordTown_Text_SlateportWereSettingSail: @ 81E9D3A
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail: @ 81E9D8F
 	.string "하기: 배를 타야 할 때는\n"
-	.string "언제든지 말해 주게나$"
+	.string "언제든지 말하게나$"
 
 DewfordTown_Text_GettingItchToFish: @ 81E9DD1
 	.string "요 근처는 낚시의 명소야\n"
@@ -722,9 +722,9 @@ DewfordTown_Text_ThrowInFishingAdvice: @ 81E9E65
 	.string "낚싯대를 던져!\l"
 	.string "그리고 정신을 집중하다가...\p"
 	.string "물었다 물었어!!\n"
-	.string "짠! 하는 느낌이 오면 재빠르게\l"
+	.string "짠! 하는 느낌이 오면 빠르게\l"
 	.string "낚싯대를 잡아당기는 거야!\p"
-	.string "바로 잡아당기게 되는 때도 있지만\n"
+	.string "바로 잡아당기면 될 때도 있지만\n"
 	.string "엄청난 놈은 몇 번이나 타이밍을\l"
 	.string "맞출 필요가 있어!$"
 
@@ -734,7 +734,7 @@ DewfordTown_Text_ThatsTooBadThen: @ 81E9F92
 
 DewfordTown_Text_HowsYourFishing: @ 81E9FB8
 	.string "어때!\n"
-	.string "낚시는 잘되고 있어?$"
+	.string "낚시는 잘하고 있어?$"
 
 DewfordTown_Text_GreatHaulInSomeBigOnes: @ 81E9FD0
 	.string "그래? 그거 대단한데!\n"
@@ -747,9 +747,9 @@ DewfordTown_Text_FishingAdvice: @ 81EA004
 	.string "낚싯대를 던져!\l"
 	.string "그리고 정신을 집중하다가...\p"
 	.string "물었다 물었어!!\n"
-	.string "짠! 하는 느낌이 오면 재빠르게\l"
+	.string "짠! 하는 느낌이 오면 빠르게\l"
 	.string "낚싯대를 잡아당기는 거야!\p"
-	.string "바로 잡아당기게 되는 때도 있지만\n"
+	.string "바로 잡아당기면 될 때도 있지만\n"
 	.string "엄청난 놈은 몇 번이나 타이밍을\l"
 	.string "맞출 필요가 있어!$"
 
@@ -759,7 +759,7 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight: @ 81EA136
 	.string "혹시 “{STR_VAR_1}”{K_I}라고\n"
 	.string "들어본 적 있어?\p"
 	.string "당연히 들어본 적 있겠지!\p"
-	.string "왜냐하면 요즘\n"
+	.string "왜냐면 요즘\n"
 	.string "“{STR_VAR_1}”{K_IGA}\l"
 	.string "완전 붐이잖아!\p"
 	.string "네 주변에서도\n"

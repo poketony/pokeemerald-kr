@@ -22,7 +22,7 @@ DewfordTown_House1_EventScript_Zigzagoon:: @ 81FC3E0
 DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland: @ 81FC3F3
 	.string "이런 작은 섬에서 포켓몬,\n"
 	.string "가족과 함께 사이좋게 사는 것도\l"
-	.string "꽤 행복하답니다$"
+	.string "제법 행복하답니다$"
 
 DewfordTown_House1_Text_LifeGoesSlowlyOnIsland: @ 81FC45B
 	.string "저는 잿빛도시라고 하는\n"

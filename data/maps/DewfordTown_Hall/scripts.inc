@@ -274,14 +274,14 @@ DewfordTown_Hall_EventScript_ReceivedSludgeBomb:: @ 81FD80E
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend: @ 81FD818
 	.string "요즘 유행하는 게 뭐냐고 하면\n"
 	.string "당연히\l"
-	.string "“{STR_VAR_1}”이지!\p"
-	.string "“{STR_VAR_1}”이 없는\n"
+	.string "“{STR_VAR_1}”{K_I}지!\p"
+	.string "“{STR_VAR_1}”{K_IGA} 없는\n"
 	.string "생활은 상상이 안 돼!$"
 
 DewfordTown_Hall_Text_GettingBoredOfTrend: @ 81FD877
 	.string "요즘 유행하는 게 뭐냐고 하면\n"
 	.string "당연히\l"
-	.string "“{STR_VAR_1}”이지!\p"
+	.string "“{STR_VAR_1}”{K_I}지!\p"
 	.string "근데 요즘엔 조금 지루해졌서...\p"
 	.string "더 파격적인 걸 찾아봐야겠어$"
 
@@ -357,9 +357,9 @@ DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
 	.string "라는 제목이다!$"
 
 DewfordTown_Hall_Text_LastTrend: @ 81FDC3C
-	.string "“최후의\n"
-	.string " ‘{STR_VAR_1}'”\p"
-	.string "{K_I}라는 제목이다!$"
+	.string "“‘{STR_VAR_1}'의\n"
+	.string " 최후”\p"
+	.string "라는 제목이다!$"
 
 DewfordTown_Hall_Text_BirthOfTrend: @ 81FDC57
 	.string "“‘{STR_VAR_1}'의\n"

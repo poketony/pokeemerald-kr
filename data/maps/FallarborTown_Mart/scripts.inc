@@ -50,7 +50,7 @@ FallarborTown_Mart_EventScript_Skitty:: @ 81FFD06
 FallarborTown_Mart_Text_DecidingSkittyEvolve: @ 81FFD19
 	.string "내 에나비한테\n"
 	.string "달의돌을 써서...\p"
-	.string "진화시킬까 말까\n"
+	.string "진화시킬지 말지\n"
 	.string "엄청 고민하고 있어\p"
 	.string "진화시키면 강해지지만\n"
 	.string "모습이 달라져 버리잖아...$"
@@ -61,5 +61,5 @@ FallarborTown_Mart_Text_Skitty: @ 81FFDFA
 FallarborTown_Mart_Text_SellNuggetIFound: @ 81FFE09
 	.string "금구슬을 주웠는데...\n"
 	.string "역시 팔아야겠지...?\l"
-	.string "달리 쓸 곳도 없으니까...$"
+	.string "달리 쓸 데도 없으니까...$"
 

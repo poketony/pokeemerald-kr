@@ -29,15 +29,15 @@ DewfordTown_House2_EventScript_Boy:: @ 81FE271
 
 DewfordTown_House2_Text_WantYouToHaveSilkScarf: @ 81FE27A
 	.string "이게 바로!\p"
-	.string "요즘 가장 유행하는 실크스카프!\n"
+	.string "요즘 가장 유행하는 실크스카프야!\n"
 	.string "어때? 정말 멋지지?!\p"
-	.string "오! 흥미가 생긴 모양이지?\n"
-	.string "내 센스를 알아주는구나 너는!\p"
+	.string "오! 흥미가 생긴 모양인데?\n"
+	.string "넌 내 센스를 알아주는구나!\p"
 	.string "정말 고마워!\n"
 	.string "이건 선물로 줄게!$"
 
 DewfordTown_House2_Text_NoRoom: @ 81FE356
-	.string "오, 가방이 가득 찼구나!\p"
+	.string "이런 가방이 가득 찼구나!\p"
 	.string "이 실크스카프는 필수 구매\n"
 	.string "아이템이라고! 다른 물건을\l"
 	.string "팔아서라도\l"
@@ -50,8 +50,8 @@ DewfordTown_House2_Text_ExplainSilkScarf: @ 81FE3D1
 	.string "멋진 스카프야!$"
 
 DewfordTown_House2_Text_BrawlySoCool: @ 81FE444
-	.string "우와! 일부러 바다를 건너서\n"
-	.string "무로마을가지 왔구나!\p"
+	.string "우와! 일부러 바다를 건너\n"
+	.string "무로마을까지 왔구나!\p"
 	.string "혹시 철구님의 소문을 듣고\n"
 	.string "만나러 온 거야?\p"
 	.string "철구님은 정말 멋있어서\n"

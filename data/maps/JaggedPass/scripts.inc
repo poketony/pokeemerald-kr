@@ -156,13 +156,13 @@ JaggedPass_EventScript_Autumn:: @ 8230871
 	end
 
 JaggedPass_Text_EricIntro: @ 8230888
-	.string "굴뚝산에 있는 울퉁불퉁 산길은\n"
+	.string "굴뚝산의 울퉁불퉁 산길은\n"
 	.string "완벽하게 내가 꿈에 그리던 산이야!\l"
 	.string "울퉁불퉁! 너무 좋아서\l"
 	.string "참을 수가 없어!$"
 
 JaggedPass_Text_EricDefeat: @ 82308FF
-	.string "져버려서 분하다!$"
+	.string "져버려서 분해!$"
 
 JaggedPass_Text_EricPostBattle: @ 8230916
 	.string "포켓몬 승부에서는 졌다...\p"
@@ -172,7 +172,7 @@ JaggedPass_Text_EricPostBattle: @ 8230916
 JaggedPass_Text_DianaIntro: @ 8230974
 	.string "여긴 가벼운 마음으로\n"
 	.string "오르면 안 되겠어\l"
-	.string "피크닉엔 좀 어울리지 않아$"
+	.string "피크닉엔 좀 안 어울려$"
 
 JaggedPass_Text_DianaDefeat: @ 82309B5
 	.string "아-잉! 정말!\n"
@@ -185,7 +185,7 @@ JaggedPass_Text_DianaPostBattle: @ 82309D8
 
 JaggedPass_Text_DianaRegister: @ 8230A2C
 	.string "또 여기에 오려나?\n"
-	.string "만약 그렇게 되면 나하고 승부해줘!$"
+	.string "만약 그렇게 되면 나와 승부해줘!$"
 	// また ここに くることって あるかな?ｎ
 	// そしたら わたしと しょうぶしてね!
 
@@ -199,7 +199,7 @@ JaggedPass_Text_DianaRematchDefeat: @ 8230AAA
 
 JaggedPass_Text_DianaPostRematch: @ 8230AD7
 	.string "져버린 건 후딱 잊어버리고\n"
-	.string "이 울퉁불퉁한 길을 마음껏 즐겨야지!$"
+	.string "이 울퉁불퉁한 길을 실컷 즐겨야지!$"
 
 JaggedPass_Text_EthanIntro: @ 8230B10
 	.string "이 울퉁불퉁 산길은\n"
@@ -208,8 +208,8 @@ JaggedPass_Text_EthanIntro: @ 8230B10
 	.string "딱 좋은 곳이다!$"
 
 JaggedPass_Text_EthanDefeat: @ 8230B50
-	.string "발밑을 신경 쓰고 있는 사이에\n"
-	.string "끝나버린 것 같군...$"
+	.string "발밑을 신경 쓰는 사이에\n"
+	.string "끝나버린 듯하군...$"
 
 JaggedPass_Text_EthanPostBattle: @ 8230B93
 	.string "나도 더트자전거가 있으면\n"
@@ -241,7 +241,7 @@ JaggedPass_Text_GruntIntro: @ 8230CCB
 	.string "내가\n"
 	.string "  이런\l"
 	.string "    곳에서\l"
-	.string "뭘하고\l"
+	.string "뭘 하고\l"
 	.string "  있는지\l"
 	.string "    같은 건\l"
 	.string "너하고는 하나도\l"
@@ -271,7 +271,7 @@ JaggedPass_Text_GruntDefeat: @ 8230D2D
 JaggedPass_Text_GoWhereverYouWant: @ 8230D65
 	.string "알았어 알았어!\n"
 	.string "네가 강한 건 충분히 알았으니까!\p"
-	.string "나에 대한 건 신경 쓰지 말고\n"
+	.string "난 신경 쓰지 말고\n"
 	.string "가고 싶은 곳이나 가라고!$"
 	// わかった わかった!ｎ
 	// キミが つよいのは みとめて やるよ!ｐ
@@ -281,7 +281,7 @@ JaggedPass_Text_GoWhereverYouWant: @ 8230D65
 JaggedPass_Text_BoulderShakingInResponseToEmblem: @ 8230DBA
 	.string "앗! 마그마의증표에 반응해서...\n"
 	.string "커다란 바위가...\l"
-	.string "부들부들 진동하고 있어!$"
+	.string "부들부들 진동하고 있다!$"
 	// あ! マグマのしるしに はんのうして……ｎ
 	// おおきな いわが……ｌ
 	// ブルブルと しんどう している!

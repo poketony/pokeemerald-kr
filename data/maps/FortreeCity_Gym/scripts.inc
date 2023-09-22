@@ -158,13 +158,13 @@ FortreeCity_Gym_Text_JaredDefeat: @ 82168D3
 
 FortreeCity_Gym_Text_JaredPostBattle: @ 82168E7
 	.string "트레이너는 머리 회전도\n"
-	.string "빠르지 않으면 안 된다!\p"
-	.string "너는 체육관 관장이 있는 곳까지\n"
+	.string "빨라야 한다!\p"
+	.string "너는 체육관 관장이 있는 데까지\n"
 	.string "무사히 도착할 수 있을까?$"
 
 FortreeCity_Gym_Text_EdwardoIntro: @ 821695A
 	.string "새포켓몬을 사랑하는 사람은\n"
-	.string "이 체육관을 목표로 삼고 있지!\p"
+	.string "이 체육관을 목표로 하고 있지!\p"
 	.string "검방울체육관의 일원으로서\n"
 	.string "패배할 수는 없다!$"
 
@@ -175,7 +175,7 @@ FortreeCity_Gym_Text_EdwardoPostBattle: @ 82169F1
 	.string "세계는 넓고\n"
 	.string "강한 트레이너도 넘쳐나지\p"
 	.string "나도 여기서 계속 수행해서\n"
-	.string "강해지겠다!$"
+	.string "강해질 거다!$"
 
 FortreeCity_Gym_Text_FlintIntro: @ 8216A66
 	.string "체육관 관장인 은송님이\n"
@@ -186,13 +186,13 @@ FortreeCity_Gym_Text_FlintDefeat: @ 8216AC4
 	.string "은송님...! 제가 져버렸습니다...!$"
 
 FortreeCity_Gym_Text_FlintPostBattle: @ 8216AD7
-	.string "은송님은 귀여운 데다가 강하시다...\n"
+	.string "은송님은 귀여운 데다 강하시다...\n"
 	.string "정말 최고의 관장이지!\p"
-	.string "...좀 부끄럽군$"
+	.string "...조금 부끄럽군$"
 
 FortreeCity_Gym_Text_AshleyIntro: @ 8216B1A
 	.string "은송님의 가르침을 받은 나를!\n"
-	.string "그렇게 간단히 쓰러뜨릴 수는 없을걸?$"
+	.string "그렇게 간단히 쓰러뜨릴 순 없을걸?$"
 
 FortreeCity_Gym_Text_AshleyDefeat: @ 8216B51
 	.string "쓰러졌다...$"
@@ -248,11 +248,11 @@ FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "저는 이 검방울시티 체육관에서\n"
 	.string "관장을 맡고 있는 은송...\p"
 	.string "새포켓몬과 마음을 나누며\n"
-	.string "같이 드넓은 하늘을 날아...\p"
-	.string "어떠한 괴로운 승부에서도\n"
+	.string "같이 넓은 하늘을 날아...\p"
+	.string "어떠한 힘든 승부에서도\n"
 	.string "우아하게 이겨 보이죠...\p"
 	.string "자 저와 포켓몬이 만들어내는\n"
-	.string "화려한 춤을 보세요!$"
+	.string "화려한 춤을 보시죠!$"
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	.string "저보다 화려하게\n"
@@ -267,13 +267,13 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
 	.string "깃털배지를 달고 있으면\n"
-	.string "다른 사람에게 받은 포켓몬일지라도\l"
+	.string "다른 사람에게 받은 포켓몬이라도\l"
 	.string "레벨 70까지의 포켓몬이라면\l"
 	.string "명령에 잘 따라줍니다!\p"
 	.string "비전기술 공중날기도\n"
-	.string "사용할 수 있게 됩니다!\p"
+	.string "사용할 수 있게 되죠!\p"
 	.string "그리고 이걸\n"
-	.string "당신에게 선물하죠$"
+	.string "당신에게 선물하겠어요$"
 
 FortreeCity_Gym_Text_ExplainAerialAce: @ 8216FEC
 	.string "기술머신40의 내용물은\n"
@@ -288,7 +288,7 @@ FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
 	.string "포켓내비에 등록했다!$"
 
 FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
-	.string "당신에게는 져버렸지만\p"
+	.string "당신에게는 졌지만\p"
 	.string "저는 앞으로도\n"
 	.string "새포켓몬만을 사용할 거예요$"
 
@@ -307,7 +307,7 @@ FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100
 	.string "하늘을 날 수 있게 되지요\p"
 	.string "챔피언까지 오른\n"
 	.string "당신의 실력\l"
-	.string "다시 한 번 보도록 하겠습니다!$"
+	.string "다시 한번 보도록 하겠습니다!$"
 	// ナギ『ひとは ちじょうに いる かぎりｎ
 	// いんりょくから のがれることは できないｐ
 	// でも ぜんりょくで はばたけばｎ
@@ -317,12 +317,12 @@ FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100
 	// もういちど みせて いただきますわ!
 
 FortreeCity_Gym_Text_WinonaRematchDefeat: @ 82171E6
-	.string "역시 닿지 않았나요...$"
+	.string "역시 닿지 않았군요...$"
 	// やはり とどかなかった……
 
 FortreeCity_Gym_Text_WinonaPostRematch: @ 821720B
-	.string "은송: 비록 승부에서 졌지만\n"
-	.string "마음의 강함이 꺾이지 않았다면\l"
+	.string "은송: 비록 승부에선 졌지만\n"
+	.string "마음의 강함이 꺾이지 않는다면\l"
 	.string "몇 번이고 날 수 있어요...\p"
 	.string "저는 그렇게 믿고 있습니다!$"
 	// ナギ『たとえ しょうぶに まけてもｎ
@@ -337,7 +337,7 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
 	.string "하늘을 날 수 있게 되지요\p"
 	.string "챔피언까지 오른\n"
 	.string "당신의 실력\l"
-	.string "다시 한 번 보도록 하겠습니다!\p"
+	.string "다시 한번 보도록 하겠습니다!\p"
 	.string "...어라? 싸울 수 있는 포켓몬을\n"
 	.string "1마리밖에 데리고 있지 않군요\p"
 	.string "적어도 2마리 이상\n"

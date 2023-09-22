@@ -470,16 +470,16 @@ LilycoveCity_Text_MayGoingBackToLittleroot: @ 81E32FB
 	.string "이제 아빠한테 보여줘야지!$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges: @ 81E3398
-	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떡할 거야?\p"
 	.string "이곳저곳의 체육관 배지를 모아서\n"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "그럼 나는 {PLAYER}{K_IGA}\n"
 	.string "배지 모으고 있는 사이에\l"
-	.string "포켓몬 도감을 완성시켜놔야지!\p"
+	.string "포켓몬 도감을 완성시켜 놔야지!\p"
 	.string "그럼 안녕!$"
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
-	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떡할 거야?\p"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "아니면 포켓몬 도감\l"
 	.string "완성시킬 거야?\p"
@@ -489,7 +489,7 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague: @ 81E346D
 	.string "그럼 안녕!$"
 
 LilycoveCity_Text_MayYouGoingToBattleFrontier: @ 81E353A
-	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 이제부터 어떡할 거야?\p"
 	.string "배틀프런티어에 도전할 거야?\p"
 	.string "아니면 포켓몬 도감\n"
 	.string "완성시킬 거야?\p"
@@ -543,7 +543,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot: @ 81E37D7
 	.string "아빠한테 한번 보여드리려고$"
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges: @ 81E3876
-	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떡할 거야?\p"
 	.string "역시 모든 배지를 모아서\n"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "나도 그렇게 할까나\p"
@@ -551,7 +551,7 @@ LilycoveCity_Text_BrendanYouGoingToCollectBadges: @ 81E3876
 	.string "어쨌든 힘내!$"
 
 LilycoveCity_Text_BrendanYouGoingToPokemonLeague: @ 81E390C
-	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떡할 거야?\p"
 	.string "그렇게 강하니까\n"
 	.string "포켓몬리그에 도전할 거야?\p"
 	.string "나도 좀 더\n"
@@ -561,7 +561,7 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague: @ 81E390C
 	.string "어쨌든 힘내!$"
 
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier: @ 81E39E3
-	.string "{PLAYER}{K_EUNNEUN} 어떻게 할 거야?\p"
+	.string "{PLAYER}{K_EUNNEUN} 어떡할 거야?\p"
 	.string "배틀프런티어에 도전할 거야?\n"
 	.string "아니면 도감을 완성시킬 거야?\p"
 	.string "그렇게 강하니까\n"
@@ -587,7 +587,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier: @ 81E39E3
 LilycoveCity_Text_MovedLootIntoHideoutToday: @ 81E3B2C
 	.string "후후후...\p"
 	.string "오늘도 무사히 빼앗은 물건을\n"
-	.string "아지트에 옮겼다...\p"
+	.string "아지트로 옮겼다...\p"
 	.string "뭐 뭐야 넌!\n"
 	.string "바 방금 건 혼잣말이야!$"
 
@@ -595,13 +595,13 @@ LilycoveCity_Text_ChanceToDoBigThings: @ 81E3B95
 	.string "리더가 무슨 생각을 하시는지\n"
 	.string "조무래기는 전혀 상상도 안 가지만\p"
 	.string "아쿠아단에 있으면\n"
-	.string "엄청난 일을 할 수 있을 거 같거든!\p"
+	.string "엄청난 일을 할 수 있을 거 같아!\p"
 	.string "뭐 뭐야 넌!\n"
 	.string "바 방금 건 혼잣말이야!$"
 
 LilycoveCity_Text_DontGoNearCaveInCove: @ 81E3C46
 	.string "잠깐 너!\p"
-	.string "저기 후미진 곳에 있는\n"
+	.string "저기 구석진 곳에 있는\n"
 	.string "동굴에는 접근하지 마!\p"
 	.string "왜냐고?\n"
 	.string "이유는 뭐든 상관없잖아!\p"
@@ -629,15 +629,15 @@ LilycoveCity_Text_ContestHallInTown: @ 81E3D9E
 	.string "이 몸의 심장도 두근두근거리지!$"
 
 LilycoveCity_Text_StrangeCaveInCove: @ 81E3E3C
-	.string "마을 변두리에 있는 후미진 곳에\n"
+	.string "마을 변두리에 있는 구석진 곳에\n"
 	.string "이상한 동굴 있는 거 봤어?$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs: @ 81E3E7D
 	.string "나 포켓몬\n"
 	.string "콘테스트를 위해서 새로운 기술을\l"
 	.string "배우게 할 거야!\p"
-	.string "그래서 있잖아\n"
-	.string "기술잊기 할아버지에게 부탁해서\l"
+	.string "그래서 있지\n"
+	.string "기술잊기 할아버지한테 부탁해서\l"
 	.string "비전기술을 잊게 할 거야!$"
 
 LilycoveCity_Text_ImFromKanto: @ 81E3F05
@@ -650,7 +650,7 @@ LilycoveCity_Text_ImFromKanto: @ 81E3F05
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer: @ 81E3FAB
 	.string "아쿠아단 녀석들이\n"
-	.string "저기 후미진 곳에서 고래왕자를\l"
+	.string "저기 구석진 곳에서 고래왕자를\l"
 	.string "트레이닝시키고 있더라고!\p"
 	.string "이대로는 우리 선원들이\n"
 	.string "바다에 나갈 수가 없어!$"
@@ -660,7 +660,7 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut: @ 81E4020
 	.string "누군지는 모르겠는데 아쿠아단을\n"
 	.string "혼쭐을 내줬다고 하더라고!\p"
 	.string "덕분에 고래왕자가 없어져서\n"
-	.string "바다에 나갈 수 있게 됐어!$"
+	.string "바다로 나갈 수 있게 됐어!$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon: @ 81E40AD
 	.string "해변에 있는 숙소에서 파도 소리를\n"
@@ -680,12 +680,12 @@ LilycoveCity_Text_ImArtDealer: @ 81E417B
 	.string "가치 있는 그림을 사고팔고 하는\l"
 	.string "직업의 이름이에요!\p"
 	.string "이 마을 미술관에 정말 멋진\n"
-	.string "명화가 있다고 들었습니다만...$"
+	.string "명화가 있다고 들었는데...$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung: @ 81E420B
-	.string "우리들이 아무리 쭈글쭈글이 되어도\n"
+	.string "우리가 아무리 쭈글쭈글해져도\n"
 	.string "이 바다는 늘 변함없이 싱그럽고\l"
-	.string "생명의 반짝임으로 가득 차 있구려\p"
+	.string "생명의 반짝임으로 가득하구려\p"
 	.string "우하하 우하하하하...$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed: @ 81E4283
@@ -695,7 +695,7 @@ LilycoveCity_Text_SixtyYearsAgoHusbandProposed: @ 81E4283
 	.string "오호호 오호호호호...$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern: @ 81E42FC
-	.string "여기 후미진 곳에\n"
+	.string "여기 구석진 곳에\n"
 	.string "이상한 동굴의 입구가 있지?\p"
 	.string "예전에는 천연동굴이었는데\n"
 	.string "아쿠아단이라고 하는 녀석들이\l"
@@ -706,7 +706,7 @@ LilycoveCity_Text_TeamAquaRenovatedCavern: @ 81E42FC
 	.string "다르지 않은가!$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood: @ 81E43FF
-	.string "후미진 곳에 있는 동굴...\n"
+	.string "구석진 곳에 있는 동굴...\n"
 	.string "어느샌가 입구가 없어져서\l"
 	.string "안에 들어갈 수 없게 됐어!\p"
 	.string "분명 아쿠아단이라고 하는 녀석들\n"

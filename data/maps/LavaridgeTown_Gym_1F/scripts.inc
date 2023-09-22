@@ -196,7 +196,7 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice: @ 81FE9BF
 	.string "용암마을 체육관 관장 민지는\n"
 	.string "불꽃타입 포켓몬 사용자다!\p"
 	.string "포켓몬에 대한 정열은\n"
-	.string "화산보다 격렬하고 뜨겁다!\p"
+	.string "화산보다 격렬하고 뜨겁지!\p"
 	.string "잘못해서 가까이라도 가면\n"
 	.string "화상 입으니 물로 식히면서\l"
 	.string "힘내라-구!!$"
@@ -209,7 +209,7 @@ LavaridgeTown_Gym_1F_Text_ColeIntro: @ 81FEADE
 	.string "으아-! 뜨거웠어-!$"
 
 LavaridgeTown_Gym_1F_Text_ColeDefeat: @ 81FEAFB
-	.string "눈에 땀방울이 들어갔어...$"
+	.string "눈에 땀이 들어갔어...$"
 
 LavaridgeTown_Gym_1F_Text_ColePostBattle: @ 81FEB1C
 	.string "목욕은 혈액순환을 도우니까\n"
@@ -244,7 +244,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle: @ 81FED02
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro: @ 81FED72
 	.string "너의 포켓몬은\n"
-	.string "200도의 열기를 이겨낼 수 있는가?!$"
+	.string "200도의 열기를 이겨낼 수 있나?!$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat: @ 81FED9E
 	.string "다 태워버렸어야 했거늘...$"
@@ -324,7 +324,7 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
 	.string "어서 오세요 ...가 아니라\p"
-	.string "여기까지 잘도 왔구나!\p"
+	.string "여기까지 잘도 왔군!\p"
 	.string "전 여기 체육관 관장을\n"
 	.string "맡게 된 ...이 아니라\p"
 	.string "체육관 관장을 맡은 민지다!\p"
@@ -337,12 +337,12 @@ LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat: @ 81FF233
 	.string "크윽...\n"
-	.string "어깨에 힘이 들어가고 말았어...\p"
+	.string "어깨에 힘이 들어가고 말았네...\p"
 	.string "나...\n"
 	.string "체육관 관장 된 지 얼마 안 됐다고\l"
 	.string "좀 무리한 걸까...\p"
 	.string "역시 나는 나답게 싸워야지\n"
-	.string "그게 아니라면 함께 싸워주는\l"
+	.string "그게 아니라면 같이 싸워주는\l"
 	.string "포켓몬도 힘들 거야!\p"
 	.string "그걸 가르쳐준\n"
 	.string "당신에게 이걸 줄게!$"
@@ -357,18 +357,18 @@ LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis: @ 81FF359
 	.string "레벨 50까지는\l"
 	.string "말을 잘 들어줘!\p"
 	.string "그리고 비전기술 괴력을\n"
-	.string "사용할 수 있게 돼!\p"
-	.string "이건 감사의 마음\n"
+	.string "사용할 수 있게 되지!\p"
+	.string "이건 감사의 마음이야\n"
 	.string "사양하지 말고 받아줘!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat: @ 81FF45C
 	.string "기술머신50에는\n"
 	.string "오버히트가 들어 있어!\p"
 	.string "그 기술은 상대에게\n"
-	.string "큰 데미지를 줘!\p"
+	.string "큰 데미지를 주지!\p"
 	.string "하지만 특수공격이\n"
 	.string "크게 떨어지니까\l"
-	.string "긴 승부에는 안 맞을지도...\p"
+	.string "장기전엔 안 맞을지도...\p"
 	.string "...... ...... ......$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery: @ 81FF517
@@ -429,7 +429,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
 	.string "왜냐하면 나는 포켓몬을 좋아하고\n"
 	.string "승부하는 게 좋고\l"
 	.string "그리고... 이 체육관이 좋으니까!\p"
-	.string "자 다시 한 번\n"
+	.string "자 다시 한번\n"
 	.string "핫한 기술을 부딪쳐 보자!\p"
 	.string "...어라? 싸울 수 있는 포켓몬이\n"
 	.string "한 마리밖에 없구나\p"

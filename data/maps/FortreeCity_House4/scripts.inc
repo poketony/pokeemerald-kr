@@ -67,7 +67,7 @@ FortreeCity_House4_EventScript_Wingull:: @ 8217D20
 
 FortreeCity_House4_Text_BringsWorldCloserTogether: @ 8217D33
 	.string "포켓몬과 함께 있으면\n"
-	.string "친한 친구들이 점점 늘어나게 돼...\p"
+	.string "친한 친구들이 점점 늘어나...\p"
 	.string "이렇게 전 세계는\n"
 	.string "하나로 뭉쳐지는 거구나!\l"
 	.string "너무 멋진 거 같아!$"

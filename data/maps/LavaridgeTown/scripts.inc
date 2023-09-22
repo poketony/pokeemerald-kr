@@ -298,7 +298,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
 	.string "들어간 사이에\l"
 	.string "용암마을의 체육관 배지를\l"
 	.string "손에 넣었구나!\p"
-	.string "꽤 포켓몬을 모으고 있달까\n"
+	.string "꽤 포켓몬을 모으고\n"
 	.string "키우고 있구나!\p"
 	.string "그럼 이걸 줘도\n"
 	.string "괜찮겠네$"
@@ -311,8 +311,8 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad: @ 81EA897
 	.string "포켓몬체육관에 도전이라니...\p"
 	.string "나한테 지고 싶지 않아서\n"
 	.string "열심히 하고 있구나!\p"
-	.string "그럼 나 등화도시에서 {PLAYER}의\n"
-	.string "아빠에게 도전해 볼까나?\p"
+	.string "그럼 난 등화도시에서 {PLAYER}의\n"
+	.string "아빠에게 도전해 볼까?\p"
 	.string "{PLAYER} 그럼 다음에 보자!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
@@ -321,7 +321,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
 	.string "음...\n"
 	.string "배지를 제법 모았구나\p"
 	.string "그럼\n"
-	.string "이걸 줄까나$"
+	.string "이걸 줄게$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad: @ 81EAA2E
 	.string "휘웅: 그걸 가지고 있으면\n"
@@ -332,7 +332,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad: @ 81EAA2E
 	.string "괜찮다면 가보지 그래...?\p"
 	.string "나는...\n"
 	.string "등화도시의 체육관 관장 종길님에게\l"
-	.string "도전해 볼까나...\p"
+	.string "도전해 볼까...\p"
 	.string "{PLAYER}의 아빠\n"
 	.string "{PLAYER}{K_WAGWA} 달리 강해 보이니까\p"
 	.string "그럼!$"
@@ -343,18 +343,18 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt: @ 81EAB80
 	.string "따뜻하게 해주고 있었는데\p"
 	.string "그것만으로는\n"
 	.string "안 되는 모양이더구먼...\p"
-	.string "뭔가 건강한 포켓몬이랑 같이\n"
-	.string "데리고 걸어 다니는 게\l"
+	.string "왠지 건강한 포켓몬이랑 같이\n"
+	.string "데리고 걸어다니는 게\l"
 	.string "좋다고 하던데...\p"
 	.string "자네 트레이너지?\n"
 	.string "게다가 건강한 포켓몬도\l"
-	.string "데리고 있어\p"
+	.string "데리고 있고\p"
 	.string "어떤가?\n"
 	.string "알을 부화시켜 보지 않겠나?$"
 
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg: @ 81EACC0
 	.string "알이랑 같이\n"
-	.string "많-이 걷고 와줘라!$"
+	.string "많-이 걷고 오게나!$"
 
 LavaridgeTown_Text_ReceivedTheEgg: @ 81EACF4
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -363,21 +363,21 @@ LavaridgeTown_Text_ReceivedTheEgg: @ 81EACF4
 LavaridgeTown_Text_NoRoomForThisEgg: @ 81EAD09
 	.string "어라? 포켓몬이 가득하구나\p"
 	.string "알을 데리고 갈 수 있게 되면\n"
-	.string "또 와주거라$"
+	.string "또 오거라$"
 
 LavaridgeTown_Text_AsYouWishThen: @ 81EAD44
-	.string "그러냐...\p"
+	.string "그런가...\p"
 	.string "뭐 알을 부화시키고 싶어지면\n"
 	.string "그때 또 와주거라$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare: @ 81EAD9E
 	.string "포켓몬알은\n"
-	.string "가끔 키우미집에서 발견된다고...\p"
-	.string "그런 소문을 들은 적이 있구나$"
+	.string "가끔 키우미집에서 발견된다...고\p"
+	.string "하는 소문을 들은 적이 있구나$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry: @ 81EAE03
 	.string "퍼도 퍼도 따뜻한 물이 나와\n"
-	.string "포트도 아니면서 따뜻한 물이 나와\p"
+	.string "주전자도 아니면서 따뜻한 물이 나와\p"
 	.string "...이거 참 신기하지 않나?\p"
 	.string "화산이 가까이 있는 곳에서는\n"
 	.string "용암의 열로 지하수가\l"

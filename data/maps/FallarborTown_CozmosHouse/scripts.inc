@@ -71,26 +71,26 @@ FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow: @ 8200FEE
 	.string "공석박사: 아아...\n"
 	.string "마그마단에게 속아서\l"
 	.string "운석을 손에 넣을 수 있는 장소를\l"
-	.string "알려 주고 말았구나...\p"
+	.string "알려주고 말았어...\p"
 	.string "유성의 폭포의 운석...\n"
-	.string "더는 내 것이 아니겠지...$"
+	.string "더 이상 내 것이 아니겠지...$"
 
 FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt: @ 82010A2
 	.string "오오!\n"
 	.string "에에?\p"
 	.string "그건...\p"
-	.string "설마 어쩌면..\p"
+	.string "혹시 설마..\p"
 	.string "마그마단이 유성의 폭포에서\n"
-	.string "가져갔었던 운석인가...!?\p"
+	.string "가져갔었던 운석이니...!?\p"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜라고 말하지는 않으마\n"
+	.string "공짜로 넘기라고 하진 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 
 FallarborTown_CozmosHouse_Text_PleaseUseThisTM: @ 8201159
 	.string "공석박사: 이 기술머신은\n"
-	.string "내 고마움의 표시야\l"
-	.string "꼭 사용해 보렴!$"
+	.string "내 고마움의 표시란다\l"
+	.string "꼭 써 보렴!$"
 
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch: @ 82011A5
 	.string "공석박사: 이야- 정말로 기쁘구나\n"
@@ -103,7 +103,7 @@ FallarborTown_CozmosHouse_Text_CrushedWithDisappointment: @ 8201212
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite: @ 8201249
 	.string "공석박사: 그 운석...\n"
 	.string "괜찮다면 내게 넘겨주렴!\p"
-	.string "공짜라고 말하지는 않으마\n"
+	.string "공짜로 넘기라고 하진 않으마\n"
 	.string "답례로 이 기술머신을\l"
 	.string "줄 테니까...$"
 

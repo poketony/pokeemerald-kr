@@ -42,11 +42,11 @@ FortreeCity_Mart_EventScript_Boy:: @ 82176AA
 FortreeCity_Mart_Text_SuperRepelBetter: @ 82176B3
 	.string "실버스프레이는\n"
 	.string "효과도 좋고 오래가!\p"
-	.string "그러니까 벌레회피스프레이보다\n"
+	.string "즉 벌레회피스프레이보다\n"
 	.string "굉장하다는 거지!$"
 
 FortreeCity_Mart_Text_StockUpOnItems: @ 8217715
-	.string "언제 무슨 일이 일어날지 모르니까\n"
+	.string "언제 무슨 일이 일어날지 모르니\n"
 	.string "도구는 항상 많이 사두곤 해$"
 
 FortreeCity_Mart_Text_RareCandyMakesMonGrow: @ 821778E

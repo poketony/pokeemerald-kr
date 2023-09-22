@@ -62,9 +62,9 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated:: @ 822849A
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech: @ 82284AC
 	.string "어서 오세요\n"
 	.string "사천왕 미혜입니다\p"
-	.string "얼음타입 기술을 갈고닦기 위해\n"
+	.string "얼음타입 기술을 갈고닦으려고\n"
 	.string "머나먼 호연지방까지 왔습니다\p"
-	.string "하지만 이곳에 도전하러 오는 건\n"
+	.string "하지만 이곳에 도전해오는 건\n"
 	.string "모두 어설픈\l"
 	.string "트레이너와 포켓몬뿐...\p"
 	.string "당신은 어떤가요?\p"

@@ -47,7 +47,7 @@ AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 	.string "문 옆에 계신 신사분...\p"
-	.string "견학하러 왔다고는 하는데\n"
+	.string "견학하러 왔다곤 하는데\n"
 	.string "아무래도 꿍꿍이가 있는 것 같아$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:

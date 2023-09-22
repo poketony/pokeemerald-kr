@@ -57,7 +57,7 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething: @ 823351D
 	.string "빼앗으러 가서 여기엔 없어!\p"
 	.string "...어디 갔냐고?\p"
 	.string "와하하하! 그런 중요한 정보를\n"
-	.string "내가 알려줄 거 같으냐!$"
+	.string "내가 알려줄 거 같냐!$"
 	//なんだ なんだ!ｎ
 	//おれたち アクアだんに なんの ようだ!ｐ
 	//リ-ダ-だったら いま だいじな ものをｎ
@@ -89,7 +89,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine: @ 823367D
 	.string "빼앗으러 가서 여기엔 없어!\p"
 	.string "...어디 갔냐고?\p"
 	.string "와하하하! 그런 중요한 정보를\n"
-	.string "내가 알려줄 거 같으냐!$"
+	.string "내가 알려줄 거 같냐!$"
 	//なんだ なんだ!ｎ
 	//おれたち アクアだんに なんの ようだ!ｐ
 	//リ-ダ-だったら いま せんすいていをｎ
@@ -105,7 +105,7 @@ AquaHideout_1F_Text_BossIsOnRoute122: @ 8233739
 	.string "송화산으로 가고 있어서 여긴 없어\p"
 	.string "...뭐 하러 갔냐고?\n"
 	.string "아하하하! 그런 중요한 정보를\n"
-	.string "내가 알려줄 거 같으냐!$"
+	.string "내가 알려줄 거 같냐!$"
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney: @ 82337FA
 	.string "뭐야 뭐야!\n"
@@ -128,7 +128,7 @@ AquaHideout_1F_Text_BossIsInSlateportCity: @ 8233884
 	.string "가고 있어서 여기엔 없어!\p"
 	.string "...뭐 하러 갔냐고?\p"
 	.string "아하하하! 그런 중요한 정보를\n"
-	.string "내가 알려줄 거 같으냐!$"
+	.string "내가 알려줄 거 같냐!$"
 
 AquaHideout_1F_Text_Grunt1Intro: @ 823393D
 	.string "야야얏!\n"
@@ -138,5 +138,5 @@ AquaHideout_1F_Text_Grunt1Defeat: @ 8233964
 	.string "으-음 져버렸군-!$"
 
 AquaHideout_1F_Text_Grunt1PostBattle: @ 8233977
-	.string "승부에서는 졌지만\n"
+	.string "승부는 졌지만\n"
 	.string "나는 임무를 달성했다...$"

@@ -110,8 +110,8 @@ FortreeCity_House1_Text_GoingToMakeVolbeatStrong: @ 82164DB
 FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
 	.string "다른 사람과 포켓몬을\n"
 	.string "교환하는 것...\p"
-	.string "그건 자신들의 추억을\n"
-	.string "교환하는 거나 마찬가지지$"
+	.string "그건 자기들의 추억을\n"
+	.string "교환하는 것이나 마찬가지지$"
 
 FortreeCity_House1_Text_Zigzagoon: @ 8216597
 	.string "지그제구리: 크옹?$"

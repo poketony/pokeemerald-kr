@@ -57,7 +57,7 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
 	.string "바다로 나갈 때\n"
 	.string "우리 선원들은\l"
-	.string "항상 포켓몬을 데리고 간다!\l"
+	.string "항상 포켓몬을 데리고 가지!\l"
 	.string "잠깐 승부해줘야겠어!$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
@@ -65,7 +65,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 	.string "배가 물속으로\n"
-	.string "가라앉아버렸어\p"
+	.string "가라앉아 버렸어\p"
 	.string "포켓몬이 물속에 잠수하는 기술을\n"
 	.string "쓸 수 있다면\l"
 	.string "일이 쉬워질 텐데...$"

@@ -18,13 +18,13 @@ GraniteCave_1F_EventScript_ReceivedFlash:: @ 822DA8A
 	end
 
 GraniteCave_1F_Text_GetsDarkAheadHereYouGo: @ 822DA94
-	.string "어이 거기 너\n"
+	.string "이봐 거기 너\n"
 	.string "이 앞은 어두워서\l"
 	.string "탐험하는 것도 힘들어!\p"
 	.string "방금 전에 여기 온 남자...\n"
 	.string "성호라고 했었나?\p"
-	.string "플래시의 사용법을 알고 있어서\n"
-	.string "괜찮을 거라고 생각해\p"
+	.string "플래시의 사용법을 알고 있으니\n"
+	.string "그 사람은 괜찮겠지\p"
 	.string "음! 등산가는 만난 사람에게\n"
 	.string "상냥하게 대하는 것이 신조!\p"
 	.string "이걸 너한테 줄게!$"

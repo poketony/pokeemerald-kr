@@ -304,9 +304,9 @@ DewfordTown_Gym_Text_GymGuideAdvice: @ 81FC9D6
 	.string "격투타입 포켓몬을 쓴다!\p"
 	.string "노말타입으로 도전하면 정말\n"
 	.string "뼈아픈 한 방을 맞게 될 테니까\l"
-	.string "조심하는 게 좋을 거야!\p"
+	.string "조심하는 게 좋겠지!\p"
 	.string "게다가 체육관도 바다 깊은 곳처럼\n"
-	.string "어두워서 스스로 길을 찾아야 하지!\p"
+	.string "어두워서 스스로 길을 찾아야 한다!\p"
 	.string "하지만 도중에 트레이너들을\n"
 	.string "쓰러뜨릴수록 체육관이\l"
 	.string "밝아지니까 괜찮을 거야!\p"
@@ -314,17 +314,17 @@ DewfordTown_Gym_Text_GymGuideAdvice: @ 81FC9D6
 
 DewfordTown_Gym_Text_GymGuidePostVictory: @ 81FCB5C
 	.string "오오! 꽤나 밝아졌구나!\p"
-	.string "네 미래도 밝을 거야!$"
+	.string "네 미래도 밝겠지!$"
 
 DewfordTown_Gym_Text_TakaoIntro: @ 81FCB9F
-	.string "힘이야말로 정의!\n"
+	.string "힘이야말로 정의다!\n"
 	.string "이야아아-압!!$"
 
 DewfordTown_Gym_Text_TakaoDefeat: @ 81FCBB8
-	.string "힘이 부족했다...!$"
+	.string "힘이 모자랐다...!$"
 
 DewfordTown_Gym_Text_TakaoPostBattle: @ 81FCBCA
-	.string "부드러운 것이 강한 것을 제압한다!\n"
+	.string "부드러움이 강함을 제압한다!\n"
 	.string "아주 멋진 승부였다!$"
 
 DewfordTown_Gym_Text_JocelynIntro: @ 81FCC0A
@@ -337,15 +337,15 @@ DewfordTown_Gym_Text_JocelynDefeat: @ 81FCC45
 	.string "이렇게 쉽게 당하다니...$"
 
 DewfordTown_Gym_Text_JocelynPostBattle: @ 81FCC6B
-	.string "이 패배가 헛되이 되지 않도록\n"
+	.string "이 패배가 헛되지 않도록\n"
 	.string "더욱 특훈하겠어!\p"
 	.string "그리고 언젠가는 체육관 관장...\p"
-	.string "아니지! 포켓몬리그의\n"
+	.string "아니! 포켓몬리그의\n"
 	.string "챔피언이 될 거야!$"
 
 DewfordTown_Gym_Text_LauraIntro: @ 81FCD01
 	.string "날 쉽게 보지 말라고!\n"
-	.string "질질 짜게 돼도 난 모르니까!$"
+	.string "질질 짜게 돼도 난 몰라!$"
 
 DewfordTown_Gym_Text_LauraDefeat: @ 81FCD3C
 	.string "으아---앙!\n"
@@ -355,7 +355,7 @@ DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
 	.string "정신을 단련하기 위해\n"
 	.string "어둠 속에서 승부하고 있어!\p"
 	.string "하지만 너무 어두워서\n"
-	.string "철구님의 얼굴이 보이지 않아...$"
+	.string "철구님의 얼굴이 안 보여...$"
 
 DewfordTown_Gym_Text_LilithIntro: @ 81FCDB8
 	.string "우후후...!\n"
@@ -370,20 +370,20 @@ DewfordTown_Gym_Text_LilithDefeat: @ 81FCDE5
 	// しらない!
 
 DewfordTown_Gym_Text_LilithPostBattle: @ 81FCE08
-	.string "당신 따위는 이대로 헤매서\n"
+	.string "너 같은 건 이대로 헤매서\n"
 	.string "입구로 돌아가 버리라고!$"
 	// あなた なんて このまま まよってｎ
 	// いりぐちに もどっちゃえば い-のよ!
 
 DewfordTown_Gym_Text_BrendenIntro: @ 81FCE48
-	.string "바다의 사나이의 의지를\n"
-	.string "보여주도록 하지!$"
+	.string "바다 사나이의 의지를\n"
+	.string "보여주마!$"
 	// うみの おとこの いじをｎ
 	// みせつけて やるぜぃ!
 
 DewfordTown_Gym_Text_BrendenDefeat: @ 81FCE75
 	.string "어떻게 된 거지!\n"
-	.string "내가 져버리다니...$"
+	.string "내가 지다니...$"
 	// どうしたぃ!ｎ
 	// おれと した ことが……
 
@@ -395,7 +395,7 @@ DewfordTown_Gym_Text_BrendenPostBattle: @ 81FCEAB
 
 DewfordTown_Gym_Text_CristianIntro: @ 81FCEDC
 	.string "여길 지나가려면\n"
-	.string "나를 쓰러뜨려라!$"
+	.string "날 쓰러뜨려라!$"
 	// ここを とおる ならｎ
 	// この わしを たおしてから じゃ!
 
@@ -415,13 +415,13 @@ DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
 	.string "난 무로마을 포켓몬체육관\n"
 	.string "관장 철구!\p"
 	.string "이 주변의\n"
-	.string "거친 파도에 버티면서...\p"
+	.string "거친 파도를 버티면서...\p"
 	.string "마을 외곽에 있는 동굴과\n"
-	.string "이 체육관의 설비를 사용해\l"
+	.string "이 체육관의 설비를 써서\l"
 	.string "전력을 다해 수행하고 있어!\p"
-	.string "나에게 도전하려고 하는\n"
+	.string "나에게 도전하려 하는\n"
 	.string "너의 실력...\p"
-	.string "어느 정도인지 시험해보겠어!$"
+	.string "어느 정도인지 시험해볼게!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
 	.string "으- 넌 예상보다\n"
@@ -475,9 +475,9 @@ DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 
 DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
 	.string "철구: 파도는 한 번 물러나도\n"
-	.string "언젠가 반드시 바닷가로 돌아오지\p"
-	.string "너 정도의 빅 웨이브야\n"
-	.string "분명 다시 올 거라고 생각했어!\p"
+	.string "언젠가 반드시 바닷가로 돌아와\p"
+	.string "넌 빅 웨이브니까\n"
+	.string "분명 다시 올 줄 알았어!\p"
 	.string "자 얼마나 강해졌는지\n"
 	.string "나한테 보여 봐!$"
 	// トウキ『なみというのは いちど ひいてもｎ
@@ -489,13 +489,13 @@ DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat: @ 81FD367
 	.string "와-우!\n"
-	.string "너한테 삼켜져버렸는걸!$"
+	.string "네게 삼켜져버렸는걸!$"
 	// わ-おっ!ｎ
 	// キミに のみこまれそうだ!
 
 DewfordTown_Gym_Text_BrawlyPostRematch: @ 81FD37B
 	.string "철구: 역시 포켓몬 승부는\n"
-	.string "끝을 알 수 없을 정도로 엄청 넓어!\l"
+	.string "끝을 알 수 없을 정도로 엄청 심오해!\l"
 	.string "마치 호연지방의 바다 같지!$"
 	// トウキ『やっぱり ポケモン しょうぶはｎ
 	// そこが みえないほど ふかく ひろい!ｌ
@@ -504,7 +504,7 @@ DewfordTown_Gym_Text_BrawlyPostRematch: @ 81FD37B
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
 	.string "철구: 파도는 한 번 물러나도\n"
 	.string "언젠가 반드시 바닷가로 돌아오지\p"
-	.string "너 정도의 빅 웨이브야\n"
+	.string "넌 빅 웨이브니까\n"
 	.string "분명 다시 올 거라고 생각했어!\p"
 	.string "...어라? 싸울 수 있는 포켓몬이\n"
 	.string "한 마리밖에 없구나\p"

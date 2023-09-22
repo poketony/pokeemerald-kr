@@ -114,7 +114,7 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-	.string "아지트의 비밀을 알고 싶으면\n"
+	.string "아지트의 비밀을 알고 싶다면\n"
 	.string "이 몸을 쓰려뜨려 보시지!$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
@@ -149,7 +149,7 @@ AquaHideout_B1F_Text_Grunt5Defeat:
 	.string "하-앙 져버렸어용-$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
-	.string "너무 종종걸음으로 돌아다니면\n"
+	.string "너무 빠르게 돌아다니면\n"
 	.string "다른 아쿠아단에게 당할지도 몰라용-$"
 
 AquaHideout_B1F_Text_Grunt7Intro:

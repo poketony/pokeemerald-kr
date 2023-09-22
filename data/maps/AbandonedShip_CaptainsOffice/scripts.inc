@@ -25,9 +25,9 @@ AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
 
 AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
 	.string "해양관장님의 부탁으로\n"
-	.string "이 배의 조사를 하고 있었어\p"
+	.string "이 배를 조사하고 있었어\p"
 	.string "조사하는 김에 탐지기를\n"
-	.string "찾아 달라고도 하셨는데\l"
+	.string "찾아 달라고 하셨는데\l"
 	.string "찾을 수가 없었어...$"
 
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
@@ -35,8 +35,8 @@ AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
 	.string "...괜찮으면 그거\n"
 	.string "해양관장님에게\l"
 	.string "전해 주지 않을래?\p"
-	.string "난 좀 더 여기를 조사하고 싶거든$"
+	.string "난 좀 더 여기를 조사하려고$"
 
 AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
 	.string "이 배는 캑터스호라고 불리고 있어\n"
-	.string "조금 오래전 배인 것 같아$"
+	.string "조금 오래된 배인 것 같아$"

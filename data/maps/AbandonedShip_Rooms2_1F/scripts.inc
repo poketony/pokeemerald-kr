@@ -77,8 +77,8 @@ AbandonedShip_Rooms2_1F_Text_KiraDefeat:
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
 	.string "소영: 이런 낡은 장소에 있는\n"
-	.string "보물이란 무엇일까?\l"
-	.string "뭐 어쨌든 뭘 살지를 정하고 있어$"
+	.string "보물이란 무엇일까요?\l"
+	.string "어쨌든 뭘 살지 정하고 있어요$"
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
 	.string "소영: 어머?\n"
@@ -86,15 +86,15 @@ AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
 	.string "그럼 승부는 다음에 해야겠네요!$"
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-	.string "소영: 당신, 사람 짜증 나게 하는데\n"
+	.string "소영: 당신, 사람 짜증나게 하는 데\n"
 	.string "재능이 있군요\p"
 	.string "그러니 절 포켓내비에\n"
-	.string "등록해 주셔야 겠어요$"
+	.string "등록해 주셔야겠어요$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
-	.string "중문: 계속 보물을 찾고 있다 보니\n"
+	.string "중문: 계속 보물을 찾다 보니\n"
 	.string "포켓몬도 강해졌다고-!\p"
-	.string "살짝 상대해 줘$"
+	.string "잠깐 상대해 줘$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
 	.string "중문: 변함없이 강하군!$"
@@ -104,7 +104,7 @@ AbandonedShip_Rooms2_1F_Text_DanPostRematch:
 	.string "포켓몬 승부도 져버렸으니\l"
 	.string "이제 집에 돌아가고 싶다\p"
 	.string "하지만 그런 말을 하면\n"
-	.string "그녀가 화를 내니까...$"
+	.string "여자친구가 화를 내니까...$"
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
 	.string "중문: 포켓몬 2마리가 없구나\n"
@@ -143,13 +143,13 @@ AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
 	.string "맨발로 돌아다니는 건 좀 그래$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-	.string "강인함과 상대에 대한 배려...\n"
-	.string "그것이 트레이너의 보물이다!$"
+	.string "강인함과 상대를 향한 배려...\n"
+	.string "그게 트레이너의 보물이다!$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
-	.string "너는 이미\n"
-	.string "알고 있는 것 같구나$"
+	.string "넌 이미\n"
+	.string "알고 있는 듯하구나$"
 
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
-	.string "이 배 한 선원실에서\n"
-	.string "반짝거리는 걸 본 것 같은데$"
+	.string "이 배의 한 선원실에서\n"
+	.string "반짝거리는 물건을 본 것 같은데$"

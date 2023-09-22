@@ -59,8 +59,8 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal: @ 81FE5EB
 	.string "높여 주거든!$"
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike: @ 81FE685
-	.string "한약의 효과는 굉장하지만\n"
+	.string "한약의 효과는 엄청나지만\n"
 	.string "포켓몬에게 마시게 하면\l"
 	.string "자네를 싫어하게 된다네\l"
-	.string "분명히 엄청 써서 그런 걸 게지!$"
+	.string "분명히 엄청 써서 그런 걸 테지!$"
 

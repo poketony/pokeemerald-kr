@@ -44,7 +44,7 @@ FortreeCity_House2_EventScript_WrongGuess:: @ 8217878
 
 FortreeCity_House2_Text_HiddenPowersArousedByNature: @ 8217882
 	.string "사람도 포켓몬도\n"
-	.string "자연 속에서 살아가는 것으로\l"
+	.string "자연 속에서 살아감으로써\l"
 	.string "본연의 힘이 깨어난다...$"
 
 FortreeCity_House2_Text_CoinInWhichHand: @ 82178D6
@@ -69,8 +69,8 @@ FortreeCity_House2_Text_CorrectTryAgainWhichHand2: @ 82179C9
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken: @ 8217A28
 	.string "오옷! 대단하군!\n"
 	.string "자네의 힘은 깨어 있어!\p"
-	.string "이것을 줄 테니\n"
-	.string "자네의 포켓몬이 가진 힘을\l"
+	.string "이걸 줄 테니\n"
+	.string "자네의 포켓몬이 지닌 힘을\l"
 	.string "깨우도록 하게!$"
 
 FortreeCity_House2_Text_ExplainHiddenPower: @ 8217A91

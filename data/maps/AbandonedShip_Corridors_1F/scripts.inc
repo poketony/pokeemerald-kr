@@ -15,12 +15,12 @@ AbandonedShip_Corridors_1F_Text_CharlieIntro:
 	.string "튜브를 끼는 게 뭐가 그렇게 웃겨?$"
 
 AbandonedShip_Corridors_1F_Text_CharlieDefeat:
-	.string "압도당했다...$"
+	.string "압도당했어...$"
 
 AbandonedShip_Corridors_1F_Text_CharliePostBattle:
 	.string "튜브를 끼고 있으면\n"
 	.string "몬스터볼을 던지기 어려워$"
 
 AbandonedShip_Corridors_1F_Text_IsntItFunHere:
-	.string "여긴 참 재미있구나!\n"
-	.string "여기에 있는 것만으로도 두근거려!$"
+	.string "여긴 참 재미있네!\n"
+	.string "여기 있는 것만으로도 두근거려!$"

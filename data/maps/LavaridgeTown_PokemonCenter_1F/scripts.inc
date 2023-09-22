@@ -33,13 +33,13 @@ LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman:: @ 81FFB2E
 LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether: @ 81FFB37
 	.string "포켓몬이랑 같이 걷다 보면\n"
 	.string "왠지 포켓몬이 더\l"
-	.string "잘 따라주는 것 같은\l"
+	.string "잘 따르는 것 같은\l"
 	.string "느낌이 든단 말이지$"
 
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate: @ 81FFBAD
 	.string "온천에 들어간 것만으로도\n"
 	.string "건강해진다니 신기해-!\l"
-	.string "포켓몬하고 같이 들어가고 싶다-$"
+	.string "포켓몬하고 같이 들어가고 싶어-$"
 	// おんせんに はいる だけでｎ
 	// げんきに なるなんて ふしぎだな-!ｌ
 	// ポケモンも いれて あげたいな-
