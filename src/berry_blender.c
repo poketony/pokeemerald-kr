@@ -258,7 +258,7 @@ static const u8 sUnusedText_LinkPartnerNotFound[] = _("상대를 찾을 수 없�
 
 static const u8 sText_BerryBlenderStart[] = _("나무열매블렌더를 작동시킵니다\p가방에서 나무열매블렌더에 넣을\n나무열매를 선택해 주십시오\p");
 static const u8 sText_NewParagraph[] = _("\p");
-static const u8 sText_WasMade[] = _("{K_IGA} 만들어졌다!");
+static const u8 sText_WasMade[] = _("이 만들어졌다!");
 static const u8 sText_Mister[] = _("할아버지");
 static const u8 sText_Laddie[] = _("남자아이");
 static const u8 sText_Lassie[] = _("여자아이");

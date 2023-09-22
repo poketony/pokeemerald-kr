@@ -1636,14 +1636,14 @@ LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater: @ 827B6E7
 
 ContestHall_Text_GettingStartedParticipantsAsFollows: @ 827B711
 	.string "사회자: 네! 이제부터 {STR_VAR_3}랭크\n"
-	.string "포켓몬 {STR_VAR_2}콘테스트를\l"
+	.string "포켓몬 {STR_VAR_2}를\l"
 	.string "시작하겠습니다!\p"
 	.string "참가한 트레이너와\n"
 	.string "포켓몬들은 모두 이쪽!$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink: @ 827B78F
 	.string "사회자: 네! 이제부터 친구 4인 통신\n"
-	.string "포켓몬 {STR_VAR_2}콘테스트를\l"
+	.string "포켓몬 {STR_VAR_2}를\l"
 	.string "시작하겠습니다!\p"
 	.string "참가한 트레이너와\n"
 	.string "포켓몬들은 모두 이쪽!$"
@@ -1987,7 +1987,7 @@ LilycoveCity_ContestLobby_Text_WhichContestMode: @ 827C8FD
 ContestHall_Text_GettingStartedWireless: @ 827C929
 	.string "사회자: 네! 이제부터\n"
 	.string "친구 4인 통신\l"
-	.string "포켓몬 {STR_VAR_2}콘테스트를\l"
+	.string "포켓몬 {STR_VAR_2}를\l"
 	.string "시작하겠습니다!$"
 	// しかい『はい! これよりｎ
 	// おともだち 4にん つうしんのｌ
