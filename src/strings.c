@@ -1832,5 +1832,5 @@ const u8 gText_Ok2[] = _("결정");
 const u8 gText_Quiz[] = _("퀴즈");
 const u8 gText_Answer[] = _("대답");
 const u8 gText_PokeBalls[] = _("몬스터볼");
-const u8 gText_Berry[] = _("나무열매");
-const u8 gText_Berries[] = _("나무열매");
+const u8 gText_Berry[] = _("열매");
+const u8 gText_Berries[] = _("열매");

@@ -277,7 +277,7 @@ Route101_Text_DontLeaveMe: @ 81EBEDF
 
 Route101_Text_YouSavedMe: @ 81EBF12
 	.string "털보박사: 헉 헉...\p"
-	.string "야생 포켓몬에 대해 조사하려고\n"
+	.string "야생 포켓몬을 조사하려고\n"
 	.string "풀숲에 들어갔더니\l"
 	.string "갑자기 포켓몬이 덮쳐 와서...\p"
 	.string "어쨌든 구해줘서 고마워!\p"

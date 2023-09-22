@@ -291,9 +291,9 @@ PlayersHouse_2F_Text_ClockIsStopped: @ 81F8668
 	.string "시간을 맞춰 놔야지!$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom: @ 81F869A
-	.string "엄마: {PLAYER}\n"
-	.string "새 방은 어떠니?\p"
-	.string "응! 깔끔하게 정리되어 있네!\n"
+	.string "엄마: {PLAYER}{K_AYA}\n"
+	.string "새 방은 어때?\p"
+	.string "응! 깔끔하게 정리되어 있구나!\n"
 	.string "아래 방도 이미 정리가 끝났단다\p"
 	.string "포켓몬들이 도와주니까\n"
 	.string "정말 편해!\p"

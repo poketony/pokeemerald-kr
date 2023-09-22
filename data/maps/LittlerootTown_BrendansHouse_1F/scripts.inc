@@ -322,8 +322,8 @@ PlayersHouse_1F_Text_GoSetTheClock: @ 81F7B67
 	.string "방 안에 있는 시계 좀 맞춰줄래?$"
 
 PlayersHouse_1F_Text_OhComeQuickly: @ 81F7B96
-	.string "엄마: ...아! {PLAYER}! {PLAYER}!\n"
-	.string "이리로 빨리 와보렴!$"
+	.string "엄마: ...아! {PLAYER}{K_AYA}! {PLAYER}{K_AYA}!\n"
+	.string "여기로 빨리 와보렴!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
 	.string "엄마: 등화도시 체육관이 나오고 있어\n"
@@ -332,7 +332,7 @@ PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
 PlayersHouse_1F_Text_ItsOverWeMissedHim: @ 81F7BF1
 	.string "엄마: 어머... 끝나버렸네\p"
 	.string "아빠가 나왔던 거 같은데\n"
-	.string "아쉽네$"
+	.string "아쉽다$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "...아 맞다 맞다! 이 마을에\n"

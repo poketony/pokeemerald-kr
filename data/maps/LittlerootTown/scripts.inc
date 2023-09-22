@@ -961,7 +961,7 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "엄마: {PLAYER} 고생했어!\p"
+	.string "엄마: {PLAYER}{K_AYA} 고생했어!\p"
 	.string "계속 트럭이 흔들려서\n"
 	.string "정신없었지?\p"
 	.string "여기가 미로마을이란다!\p"
@@ -988,7 +988,7 @@ LittlerootTown_Text_WaitPlayer:
 	// ママ『まって {PLAYER}!
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "엄마: {PLAYER}! {PLAYER}!\n"
+	.string "엄마: {PLAYER}{K_AYA}! {PLAYER}{K_AYA}!\n"
 	.string "털보박사님께는 인사했니?\p"
 	.string "어머! 귀여운 포켓몬!\n"
 	.string "털보박사님께 받았구나\p"
@@ -1018,7 +1018,7 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	// はきかえた!
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "엄마: {PLAYER}!\n"
+	.string "엄마: {PLAYER}{K_AYA}!\n"
 	.string "이게 설명서란다\p"
 	.string "“러닝슈즈는\n"
 	.string "  B 버튼을 누르면 지금보다\l"

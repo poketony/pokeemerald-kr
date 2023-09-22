@@ -356,7 +356,7 @@ RivalsHouse_2F_Text_MayWhoAreYou: @ 81F959C
 	.string "야생 포켓몬\l"
 	.string "잡으러 가려던 참이었어!\p"
 	.string "나갈 준비를 해야 하니까\n"
-	.string "{PLAYER} 그럼 나중에 또 보자!$"
+	.string "{PLAYER}{K_AYA} 그럼 나중에 또 보자!$"
 	// えっ……!?ｎ
 	// あなた だれ…… なの?ｐ
 	// …… …… ……ｎ
@@ -411,7 +411,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou: @ 81F97B4
 	.string "나 아빠 심부름으로\n"
 	.string "야생 포켓몬\l"
 	.string "잡으러 가려고 하던 중이었어\p"
-	.string "{PLAYER} 다음에 또 보자!$"
+	.string "{PLAYER}{K_AYA} 다음에 또 보자!$"
 	// おまえ……ｐ
 	// だれ?ｐ
 	// あっ おまえが となりにｎ

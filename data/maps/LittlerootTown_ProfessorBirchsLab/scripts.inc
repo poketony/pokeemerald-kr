@@ -738,7 +738,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
 	.string "도와주고 있답니다$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
-	.string "털보박사: ...자 그럼 {PLAYER}!\p"
+	.string "털보박사: ...자 그럼 {PLAYER}{K_AYA}!\p"
 	.string "너에 대한 얘기는 너희 아버지한테\n"
 	.string "항상 듣고 있단다!\p"
 	.string "넌 아직 자신의 포켓몬을\n"
