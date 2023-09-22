@@ -5332,7 +5332,7 @@ static void Task_ShowTourneyTree(u8 taskId)
         gTasks[taskId].tState++;
         break;
     case 4:
-        textPrinter.fontId = 2;
+        textPrinter.fontId = 10;
         textPrinter.currentChar = gText_BattleTourney;
         textPrinter.windowId = 2;
         textPrinter.x = 0;
