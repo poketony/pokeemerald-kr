@@ -429,7 +429,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons: @ 81FF75E
 	.string "왜냐하면 나는 포켓몬을 좋아하고\n"
 	.string "승부하는 게 좋고\l"
 	.string "그리고... 이 체육관이 좋으니까!\p"
-	.string "자 다시 한번\n"
+	.string "자 다시 한 번\n"
 	.string "핫한 기술을 부딪쳐 보자!\p"
 	.string "...어라? 싸울 수 있는 포켓몬이\n"
 	.string "한 마리밖에 없구나\p"

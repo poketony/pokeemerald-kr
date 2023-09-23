@@ -203,20 +203,20 @@ BerryTree_Text_WantToPlant: @ 8274507
 
 BerryTree_Text_PlantedOneBerry: @ 8274535
 	.string "{PLAYER}{K_EUNNEUN} 푹신푹신한 흙에\n"
-	.string "{STR_VAR_1}열매를 심었다!$"
+	.string "{STR_VAR_1}를 심었다!$"
 
 BerryTree_Text_BerryGrowthStage1: @ 8274560
-	.string "{STR_VAR_1}열매 하나를 심은 장소다!$"
+	.string "{STR_VAR_1} 하나를 심은 장소다!$"
 
 BerryTree_Text_BerryGrowthStage2: @ 8274579
-	.string "{STR_VAR_1}열매의 싹이 나왔다!$"
+	.string "{STR_VAR_1}의 싹이 나왔다!$"
 
 BerryTree_Text_BerryGrowthStage3: @ 827458A
-	.string "{STR_VAR_1}열매의 줄기가\n"
+	.string "{STR_VAR_1}의 줄기가\n"
 	.string "커다랗게 자랐다!$"
 
 BerryTree_Text_BerryGrowthStage4: @ 82745AB
-	.string "{STR_VAR_1}열매의 꽃들이\n"
+	.string "{STR_VAR_1}의 꽃들이\n"
 	.string "{STR_VAR_2} 피어있다!$"
 
 BerryTree_Text_CareAdverbGreat: @ 82745CD
@@ -229,33 +229,33 @@ BerryTree_Text_CareAdverbGood: @ 82745E5
 	.string "예쁘게$"
 
 BerryTree_Text_WantToPick: @ 82745EE
-	.string "{STR_VAR_1}열매가 {STR_VAR_2}개 열려있다!\n"
-	.string "{STR_VAR_1}열매를 따겠습니까?$"
+	.string "{STR_VAR_1}가 {STR_VAR_2}개 열려있다!\n"
+	.string "{STR_VAR_1}를 따겠습니까?$"
 
 BerryTree_Text_PickedTheBerry: @ 827461B
 	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "{STR_VAR_1}열매를 {STR_VAR_2}개 땄다!$"
+	.string "{STR_VAR_1}를 {STR_VAR_2}개 땄다!$"
 
 BerryTree_Text_PutAwayBerry: @ 8274630
-	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}를\n"
 	.string "나무열매 포켓에 넣었다!\p"
 	.string "푹신푹신한 흙으로 되돌아갔다$"
 
 BerryTree_Text_BerryPocketFull: @ 827468F
 	.string "가방의 나무열매 포켓이 가득 찼다\n"
-	.string "{STR_VAR_1}열매를 포기했다$"
+	.string "{STR_VAR_1}를 포기했다$"
 
 BerryTree_Text_BerryLeftUnpicked: @ 82746CB
-	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}열매를\n"
+	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}를\n"
 	.string "그대로 뒀다$"
 
 BerryTree_Text_WantToWater: @ 82746E4
-	.string "고래왕자물뿌리개로 {STR_VAR_1}열매에\n"
+	.string "고래왕자물뿌리개로 {STR_VAR_1}에\n"
 	.string "물을 주겠습니까?$"
 
 BerryTree_Text_WateredTheBerry: @ 8274710
 	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "{STR_VAR_1}열매에 물을 주었다$"
+	.string "{STR_VAR_1}에 물을 주었다$"
 
 BerryTree_Text_PlantIsDelighted: @ 8274723
 	.string "식물은\n"

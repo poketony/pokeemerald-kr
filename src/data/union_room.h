@@ -3,7 +3,7 @@
 ALIGNED(4) static const u8 sText_EmptyString[] = _("");
 ALIGNED(4) const u8 sText_Colon[] = _(":");
 ALIGNED(4) const u8 sText_ID[] = _("{ID}");
-ALIGNED(4) const u8 sText_PleaseStartOver[] = _("다시 한번 처음부터\n절차를 밟아 주십시오");
+ALIGNED(4) const u8 sText_PleaseStartOver[] = _("다시 한 번 처음부터\n절차를 밟아 주십시오");
 ALIGNED(4) const u8 sText_WirelessSearchCanceled[] = _("조이스폿의 검색을\n중지했습니다");
 ALIGNED(4) const u8 sText_AwaitingCommunucation2[] = _("친구로부터의 연락을\n기다리고 있습니다"); // Unused
 ALIGNED(4) const u8 sText_AwaitingCommunication[] = _("{STR_VAR_1}! 친구로부터의\n연락을 기다리고 있습니다");

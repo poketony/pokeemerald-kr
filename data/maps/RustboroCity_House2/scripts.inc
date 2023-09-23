@@ -15,7 +15,7 @@ RustboroCity_House2_Text_TrainerSchoolExcellent: @ 8215EC6
 	.string "체육관 관장도 될 수 있다니까?!$"
 
 RustboroCity_House2_Text_RoxanneKnowsALot: @ 8215F21
-	.string "체육관 관장인 원규언니는\n"
-	.string "포켓몬에 대해 정말 많이 알고\l"
-	.string "포켓몬 배틀도 엄청 강해$"
+	.string "체육관 관장인 원규 언니는\n"
+	.string "포켓몬을 정말 많이 알고\l"
+	.string "포켓몬 배틀에도 엄청 강해$"
 

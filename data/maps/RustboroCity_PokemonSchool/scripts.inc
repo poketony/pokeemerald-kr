@@ -254,8 +254,8 @@ RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw: @ 8214433
 	.string "내 손톱의 때를\l"
 	.string "달여서 마시게 하겠어!\p"
 	.string "네가 공부하는지 안 하는지는\n"
-	.string "이 도구를 능숙하게 다룰 수\l"
-	.string "있는지를 보면 알 수 있겠지!$"
+	.string "이 도구를 능숙하게\l"
+	.string "다룰 수 있는질 보면 알게 되겠지!$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw: @ 82144C8
 	.string "포켓몬에게 선제공격손톱을\n"

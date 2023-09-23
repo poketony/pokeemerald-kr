@@ -307,7 +307,7 @@ FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100
 	.string "하늘을 날 수 있게 되지요\p"
 	.string "챔피언까지 오른\n"
 	.string "당신의 실력\l"
-	.string "다시 한번 보도록 하겠습니다!$"
+	.string "다시 한 번 보도록 하겠습니다!$"
 	// ナギ『ひとは ちじょうに いる かぎりｎ
 	// いんりょくから のがれることは できないｐ
 	// でも ぜんりょくで はばたけばｎ
@@ -337,7 +337,7 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons: @ 8217292
 	.string "하늘을 날 수 있게 되지요\p"
 	.string "챔피언까지 오른\n"
 	.string "당신의 실력\l"
-	.string "다시 한번 보도록 하겠습니다!\p"
+	.string "다시 한 번 보도록 하겠습니다!\p"
 	.string "...어라? 싸울 수 있는 포켓몬을\n"
 	.string "1마리밖에 데리고 있지 않군요\p"
 	.string "적어도 2마리 이상\n"
