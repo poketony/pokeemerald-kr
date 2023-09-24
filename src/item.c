@@ -120,7 +120,6 @@ void GetBerryCountString(u8 *dst, const u8 *berryName, u32 quantity)
         berryString = gText_Berries;
 
     txtPtr = StringCopy(dst, berryName);
-    *txtPtr = CHAR_SPACE;
     StringCopy(txtPtr, berryString);
 }
 
