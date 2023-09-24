@@ -261,7 +261,7 @@ SSTidalCorridor_Movement_SailorReturn: @ 823C28B
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite: @ 823C28F
 	.string "금작화: 여어\n"
-	.string "{PLAYER}!\p"
+	.string "{PLAYER}{K_AYA}!\p"
 	.string "나는 볼일이 있어서\n"
 	.string "이제 배에서 내려야겠지만\l"
 	.string "그래도 만나서 다행이네!\p"

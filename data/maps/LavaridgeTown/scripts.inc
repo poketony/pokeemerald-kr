@@ -293,7 +293,7 @@ LavaridgeTown_EventScript_HerbShopSign:: @ 81EA7B7
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis: @ 81EA7C0
-	.string "봄이: {PLAYER}! 오랜만이야!\p"
+	.string "봄이: {PLAYER}{K_AYA}! 오랜만이야!\p"
 	.string "어라? 내가 온천에\n"
 	.string "들어간 사이에\l"
 	.string "용암마을의 체육관 배지를\l"
@@ -316,7 +316,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad: @ 81EA897
 	.string "{PLAYER} 그럼 다음에 보자!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis: @ 81EA9A2
-	.string "휘웅: {PLAYER} 오랜만이네\n"
+	.string "휘웅: {PLAYER}{K_AYA} 오랜만이네\n"
 	.string "상태는 어때?\p"
 	.string "음...\n"
 	.string "배지를 제법 모았구나\p"

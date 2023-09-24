@@ -4592,8 +4592,8 @@ MatchCall_Text_MrStone2:: @ 82B61E6
 	// これで しつれい するよ!
 
 MatchCall_Text_MrStone3:: @ 82B6302
-	.string "나발명: 오! {PLAYER}!\p"
-	.string "그런가 성호에게 전해줬구나!\n"
+	.string "나발명: 오! {PLAYER}{K_AYA}!\p"
+	.string "그래 성호에게 전해줬구나!\n"
 	.string "좋-아 답례로 선물을 주마!\p"
 	.string "금탄도시에 올 일이 있다면\n"
 	.string "내 방에 찾아오거라!\p"
@@ -4606,7 +4606,7 @@ MatchCall_Text_MrStone3:: @ 82B6302
 	// じゃあな まっとるぞ!
 
 MatchCall_Text_MrStone4:: @ 82B63A0
-	.string "나발명: 오오! {PLAYER}!\p"
+	.string "나발명: 오오! {PLAYER}{K_AYA}!\p"
 	.string "그래그래 금잔터널은\n"
 	.string "우리 회사가 파고 있었는데\p"
 	.string "그 주변에 서식하고 있는\n"
@@ -4626,9 +4626,9 @@ MatchCall_Text_MrStone4:: @ 82B63A0
 	// そのほうが だいじな ことだからね!
 
 MatchCall_Text_MrStone5:: @ 82B64A2
-	.string "나발명: 여어여어 {PLAYER}!\p"
+	.string "나발명: 여어여어 {PLAYER}{K_AYA}!\p"
 	.string "등화도시의 사람한테서 들었는데\n"
-	.string "자네가 종길씨의 자식이었군\p"
+	.string "자네가 종길씨의 자식이었구만\p"
 	.string "어쩐지 믿음직스럽다 했어!$"
 	// ツワブキ『やあやあ §あ§お!ｐ
 	// トウカシティの ひとから きいたんだけどｎ

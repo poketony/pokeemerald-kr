@@ -389,7 +389,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols: @ 8264216
 	.string "역시 너는 생각대로\l"
 	.string "굉장한 트레이너였어!\p"
 	.string "...... ...... ......\p"
-	.string "{PLAYER}! 부디 네게\n"
+	.string "{PLAYER}{K_AYA}! 부디 네게\n"
 	.string "이걸 선물하게 해줘!\p"
 	.string "너라면 이것의 가치를\n"
 	.string "알아줄 거라고 생각해!$"

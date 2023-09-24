@@ -1286,7 +1286,7 @@ PetalburgCity_Gym_Text_DadHmISee: @ 82059D8
 	// パパ『……ふむ なるほど
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally: @ 82059E8
-	.string "아빠: {PLAYER}!\n"
+	.string "아빠: {PLAYER}{K_AYA}!\n"
 	.string "얘기는 들었겠지?\p"
 	.string "민진군이 무사히\n"
 	.string "포켓몬을 잡을 수 있도록\l"
@@ -1360,7 +1360,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
 	
 PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 	.string "아빠: 그럼...\p"
-	.string "{PLAYER}! 포켓몬 트레이너로서\n"
+	.string "{PLAYER}{K_AYA}! 포켓몬 트레이너로서\n"
 	.string "강해지고 싶다면\l"
 	.string "내 어드바이스를 듣거라\p"
 	.string "먼저 이 앞에 있는\n"
@@ -1485,7 +1485,7 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer: @ 82063CA
 	// ちょっと おかりして いくよ!
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining: @ 8206417
-	.string "아빠: {PLAYER}! 가끔은 엄마를\n"
+	.string "아빠: {PLAYER}{K_AYA}! 가끔은 엄마를\n"
 	.string "만나러 가도록 해!\p"
 	.string "나는 여기서\n"
 	.string "스스로를 단련하겠다!\p"
@@ -1499,7 +1499,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining: @ 8206417
 	// トレ-ナ-として くやしすぎる からな
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough: @ 82064C3
-	.string "아빠: {PLAYER}!\n"
+	.string "아빠: {PLAYER}{K_AYA}!\n"
     .string "상태는 어때?\p"
 	.string "포켓몬은 심오하다!\n"
 	.string "나는 아무리 수행해도\l"

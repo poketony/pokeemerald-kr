@@ -1160,7 +1160,7 @@ RustboroCity_Text_PleaseComeWithMe: @ 81E1A21
 	.string "날 따라와 주세요!$"
 
 RustboroCity_Text_MayHiLetsRegister: @ 81E1A49
-	.string "봄이: 아 {PLAYER}!\p"
+	.string "봄이: 아 {PLAYER}{K_AYA}!\p"
 	.string "포켓내비에 엔트리콜을\n"
 	.string "장착받았구나!\p"
 	.string "그럼 우리\n"
@@ -1243,7 +1243,7 @@ RustboroCity_Text_MayMrBrineyHint: @ 81E1CE7
 	// むかしは すっごい ふなのり だったのよ!
 
 RustboroCity_Text_BrendanHiLetsRegister: @ 81E1D7D
-	.string "휘웅: 오 {PLAYER}!\p"
+	.string "휘웅: 오 {PLAYER}{K_AYA}!\p"
 	.string "포켓내비에 엔트리콜을\n"
 	.string "장착받았구나!\p"
 	.string "그럼 우리\n"
@@ -1265,7 +1265,7 @@ RustboroCity_Text_RegisteredBrendan: @ 81E1E11
 	// ポケナビに とうろく した!
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle: @ 81E1E34
-	.string "휘웅: 그러고 보니 {PLAYER}\p"
+	.string "휘웅: 그러고 보니 {PLAYER}{K_AYA}\p"
 	.string "방금 등화숲에서\n"
 	.string "하기노인과 스쳐 지나갔어\p"
 	.string "분명... 해변의 작은 집으로\n"

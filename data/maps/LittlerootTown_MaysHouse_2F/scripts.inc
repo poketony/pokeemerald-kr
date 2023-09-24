@@ -447,7 +447,7 @@ RivalsHouse_2F_Text_ItsRivalsPokeBall: @ 81F9991
 	// このままに しておこう……
 
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex: @ 81F99C9
-	.string "봄이: {PLAYER}!\p"
+	.string "봄이: {PLAYER}{K_AYA}!\p"
 	.string "나 지금\n" 
 	.string "포켓몬 도감 보고 있었어!\p"
 	.string "발견만 하고\n"

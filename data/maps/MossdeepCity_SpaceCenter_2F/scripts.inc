@@ -522,7 +522,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
 	// ズドド-ン とな!
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
-	.string "성호: {PLAYER}!\n"
+	.string "성호: {PLAYER}{K_AYA}!\n"
 	.string "힘을 빌려줄 수 있어?!\p"
 	.string "나와 함께 싸우자!\n"
 	.string "준비는 됐어?$"

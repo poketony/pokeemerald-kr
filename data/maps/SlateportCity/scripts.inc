@@ -1609,7 +1609,7 @@ SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou: @ 81DF1D3
 	.string "다른 사람의 재능도 신경 쓰이고\p"
 	.string "조금 더 여러 마을을\n"
 	.string "방문해 보려고!\p"
-	.string "그럼 안녕 {PLAYER}!$"
+	.string "그럼 안녕 {PLAYER}{K_AYA}!$"
 	// エニシダ『ホントは きみにｎ
 	// くっついて いきたい ところ だけどｌ
 	// ほかのひとの さいのうも きになるしｐ

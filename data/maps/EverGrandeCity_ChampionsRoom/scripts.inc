@@ -319,7 +319,7 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech: @ 8228F66
 	// ホウエンちほうの あたらしい……
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice: @ 82290CA
-	.string "봄이: {PLAYER}!\p"
+	.string "봄이: {PLAYER}{K_AYA}!\p"
 	.string "챔피언한테 도전하기 전에\n"
 	.string "어드바이스를...!$"
 	// ハルカ『§あ§お!ｐ
@@ -337,7 +337,7 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver: @ 822910B
 	// もう おわっちゃった……?
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice: @ 8229152
-	.string "휘웅: {PLAYER}!\p"
+	.string "휘웅: {PLAYER}{K_AYA}!\p"
 	.string "챔피언한테 도전하기 전에\n"
 	.string "내가 어드바이스를 해줄 테니까...$"
 	// ユウキ『§あ!ｐ
@@ -418,7 +418,7 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations: @ 8229479
 	.string "...... ...... ......\p"
 	.string "장난이야! 괜찮아 괜찮아!\n"
 	.string "그게 룰이니까 지켜야지!\p"
-	.string "{PLAYER}!\n"
+	.string "{PLAYER}{K_AYA}!\n"
 	.string "정말 축하해!!$"
 	// ハルカ『……が-ん!ｐ
 	// …… …… ……ｎ
@@ -434,7 +434,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations: @ 82294F5
 	.string "...... ...... ......\p"
 	.string "어쩔 수 없지\n"
 	.string "룰이 그런 거니까\p"
-	.string "{PLAYER}!\n"
+	.string "{PLAYER}{K_AYA}!\n"
 	.string "정말 축하해!!$"
 	// ユウキ『……え-っ!ｎ
 	// …… …… ……ｎ

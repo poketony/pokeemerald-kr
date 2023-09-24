@@ -400,7 +400,7 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut: @ 81F3166
 
 Route116_Text_GoonHightailedItOutOfTunnel: @ 81F32C1
 	.string "음-!\p"
-	.string "이상한 남자가 뛰쳐나갔어!\n"
+	.string "이상한 남자가 뛰쳐나왔어!\n"
 	.string "이제 다시 터널을 팔 수 있어!$"
 
 Route116_Text_ThankYouTokenOfAppreciation: @ 81F3317

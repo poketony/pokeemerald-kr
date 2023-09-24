@@ -388,7 +388,7 @@ OldaleTown_Text_FinishedSketchingFootprints: @ 81E93F8
 	.string "자세히 보니 내 발자국이었어...$"
 
 OldaleTown_Text_MayLetsGoBack: @ 81E9462
-	.string "봄이: {PLAYER}!\n"
+	.string "봄이: {PLAYER}{K_AYA}!\n"
 	.string "이쪽 이쪽!\l"
 	.string "빨리 돌아가자!$"
 

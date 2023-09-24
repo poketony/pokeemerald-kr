@@ -342,7 +342,7 @@ BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier: @ 82666C6
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame: @ 8266703
 	.string "???: 여어 와줬구나\n"
-	.string "{PLAYER}!$"
+	.string "{PLAYER}{K_AYA}!$"
 	// ???『やあ きて くれたんだねｎ
 	// §あ§お!
 

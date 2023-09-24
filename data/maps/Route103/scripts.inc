@@ -308,7 +308,7 @@ Route103_Text_MayLetsBattle: @ 81EC7DE
 
 Route103_Text_MayDefeated: @ 81EC881
 	.string "우와! 진짜 굉장해!\n"
-	.string "강하구나?! {PLAYER}!$"
+	.string "강하구나?! {PLAYER}{K_EUNNEUN}!$"
 
 Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "봄이: 나 왜 아빠가\n"

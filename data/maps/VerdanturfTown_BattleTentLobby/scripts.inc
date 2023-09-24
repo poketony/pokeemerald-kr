@@ -403,7 +403,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves: @ 8201EB1
 
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers: @ 8201F3F
 	.string "금작화: 이게 누구야!\n"
-	.string "예상대로 왔구나 {PLAYER}!\p"
+	.string "예상대로 왔구나 {PLAYER}{K_AYA}!\p"
 	.string "배틀텐트라고 하는 건 말이지!\n"
 	.string "어떤 규칙이든지\l"
 	.string "어떤 방식이든지 간에\l"

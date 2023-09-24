@@ -202,14 +202,14 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay:: @ 8212600
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor: @ 8212609
 	.string "내가 데봉 코포레이션\n"
 	.string "사장인 나발명이다!\p"
-	.string "너에 대한 얘기는 아까 들었다!\p"
+	.string "자네에 대한 얘기는 아까 들었지!\p"
 	.string "놀랍게도 우리 연구원을\n"
 	.string "두 번이나 구해줬다면서?\p"
 	.string "이렇게 대단한 사람을\n"
 	.string "만나다니 감사할 따름이군\p"
-	.string "네가 우리 회사의 화물을\n"
+	.string "자네가 우리 회사의 화물을\n"
 	.string "잿빛시티의\l"
-	.string "조선소까지 전달한다고 들었다\p"
+	.string "조선소까지 전달한다고 들었네\p"
 	.string "그런데 도중에\n"
 	.string "무로마을에 들러줄 수 있겠나?\p"
 	.string "무로마을에 있는\n"
@@ -218,10 +218,10 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor: @ 8212609
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis: @ 821277C
 	.string "나발명: 물론 나는\n"
-	.string "굉장-히 훌륭한 사장이니까!\p"
+	.string "굉-장히 훌륭한 사장이니까!\p"
 	.string "답례도 없이 부탁하는\n"
 	.string "인색한 짓은 하지 않는다!\p"
-	.string "그럼 이걸 너에게 주마!$"
+	.string "그럼 이걸 자네에게 주마!$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav: @ 8212820
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -238,7 +238,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	.string "위치도 간편히 확인할 수 있지!\p"
 	.string "...최근 아쿠안가 마그만가\n"
 	.string "라고 하는 수상한 녀석들이\l"
-	.string "여기저기서 못된 짓을 하는 것 같아\p"
+	.string "여기저기서 못된 짓을 하는 것 같더군\p"
 	.string "우선은 잠시 쉬고 가거라!$"
 	// ツワブキ『そいつは……ｐ
 	// ポケモン ナビゲ-タ-!ｎ
@@ -254,8 +254,8 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp: @ 8212837
 	// まずは ひとやすみ していきなさい!
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare: @ 82129D2
-	.string "나발명: 그러면 {PLAYER}\n"
-	.string "충분히 조심해서 가거라!$"
+	.string "나발명: 그러면 {PLAYER}{K_AYA}\n"
+	.string "조심해서 가거라!$"
 	// ツワブキ『それでは §あ§おｎ
 	// じゅうぶん きをつけて いくのだよ!
 
@@ -267,7 +267,7 @@ RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter: @ 8212A29
 	.string "나발명: 편지를 무사히 전달해주었군\n"
 	.string "정말로 고맙구나!\p"
 	.string "이건 내 감사의 표시다\n"
-	.string "트레이너인 네게 분명 도움이 될 거다$"
+	.string "트레이너인 자네에게 분명 도움이 될 거야$"
 	// ツワブキ『てがみを とどけて くれたんだねｎ
 	// いやいや ありがとう!ｐ
 	// こいつは おれい だよｎ

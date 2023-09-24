@@ -1026,7 +1026,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork: @ 81FB58A
 	// はかせの てつだいでも してるよ!
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon: @ 81FB5F9
-	.string "털보박사: 오오 {PLAYER}!\n"
+	.string "털보박사: 오오 {PLAYER}{K_AYA}!\n"
 	.string "잠깐 도감 좀 보여주려무나\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
@@ -1189,7 +1189,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier: @ 81F
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall: @ 81FBD1A
 	.string "...... ...... ......\n"
 	.string "...... ...... ...... 삑!\p"
-	.string "금작화: 여어 {PLAYER}!\n"
+	.string "금작화: 여어 {PLAYER}{K_AYA}!\n"
 	.string "나야 금작화!\p"
 	.string "지금 타이드립호에 타고 있는데\n"
 	.string "역시 바다는 기분 좋네-\p"

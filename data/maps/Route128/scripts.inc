@@ -312,7 +312,7 @@ Route128_Text_MaxieThisDefiesBelief: @ 81F704F
 	// すべての バランスが くずれたぞ……
 
 Route128_Text_StevenWhatIsHappening: @ 81F70C9
-	.string "성호: {PLAYER}!\n"
+	.string "성호: {PLAYER}{K_AYA}!\n"
 	.string "이건 대체...?$"
 	// ダイゴ『§あ§お!ｎ
 	// これは いったい……?

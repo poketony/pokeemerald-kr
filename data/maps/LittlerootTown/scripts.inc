@@ -984,7 +984,7 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	// さあ なかに はいりましょ!
 
 LittlerootTown_Text_WaitPlayer:
-	.string "엄마: 잠깐 기다리렴 {PLAYER}!$"
+	.string "엄마: 잠깐 기다리렴 {PLAYER}{K_AYA}!$"
 	// ママ『まって {PLAYER}!
 
 LittlerootTown_Text_WearTheseRunningShoes:

@@ -500,7 +500,7 @@ Route119_EventScript_ScottWonAtFortreeGymCall:: @ 81F49EC
 	end
 
 Route119_Text_MayIntro: @ 81F49FD
-	.string "봄이: {PLAYER}!\n"
+	.string "봄이: {PLAYER}{K_AYA}!\n"
 	.string "어디에 있었어? 찾았잖아!\p"
 	.string "얼마나 강해졌는지\n"
 	.string "잠깐 시험해 볼게!\p"
@@ -535,7 +535,7 @@ Route119_Text_MayExplainFly: @ 81F4B56
 	.string "또 어딘가에서 만나!$"
 
 Route119_Text_BrendanIntro: @ 81F4C9A
-	.string "휘웅: {PLAYER}!\n"
+	.string "휘웅: {PLAYER}{K_AYA}!\n"
 	.string "여기에서 포켓몬 찾고 있었어?\p"
 	.string "얼마나 강해졌는지\n"
 	.string "시험해 줄게\p"

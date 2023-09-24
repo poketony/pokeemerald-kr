@@ -2305,7 +2305,7 @@ Route116_Text_SarahPostBattle:
 	.string "그렇지 않더군요$"
 
 Route116_Text_DawsonIntro:
-	.string "내 화려한 포켓몬의 털을 보면\p"
+	.string "내 화려한 포켓몬의 털을 보면\n"
 	.string "너는 무력해질걸!$"
 
 Route116_Text_DawsonDefeat:

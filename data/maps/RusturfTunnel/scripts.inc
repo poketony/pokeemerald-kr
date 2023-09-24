@@ -466,11 +466,11 @@ RusturfTunnel_Text_GruntTakePackage: @ 822D2E1
 	.string "이딴 거 그냥 돌려주고 만다!$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe: @ 822D395
-	.string "피코! 무사해서 다행이다!$"
+	.string "피코! 무사해서 다행이구나!$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko: @ 822D3BA
 	.string "자넨 피코의\n"
-	.string "생명의 은인이다!\p"
+	.string "생명의 은인일세!\p"
 	.string "난 하기라고 하는데\n"
 	.string "자넨 이름이 뭔가...?\p"
 	.string "... ... ... ...\n"
@@ -480,7 +480,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko: @ 822D3BA
 	.string "앞으로 뭐 곤란한 거 있으면\n"
 	.string "사양 말고 나한테 말하게나!\p"
 	.string "평상시에는 등화숲 가까이에 있는\n"
-	.string "해변의 작은 집에 있으니깐!\p"
+	.string "해변의 작은 집에 있으니까!\p"
 	.string "자 피코\n"
 	.string "우린 그럼 집으로 돌아가자꾸나!\p"
 	.string "피코: 삐요요--!!$"

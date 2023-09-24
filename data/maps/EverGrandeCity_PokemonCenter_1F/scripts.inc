@@ -102,7 +102,7 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou: @ 8229BF1
 	.string "포켓몬 챔피언이 된다면...\l"
 	.string "그때는 다시 연락할게\p"
 	.string "그럼...\n"
-	.string "힘내 {PLAYER}!$"
+	.string "힘내 {PLAYER}{K_AYA}!$"
 	// エニシダ『§あ§おｎ
 	// ついに ポケモンリ-グだね!ｌ
 	// わたしも おうえん した かいがあったよ!ｐ
