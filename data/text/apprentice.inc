@@ -23,70 +23,110 @@ gText_ApprenticeChallenge3:: @ 82B6F4C
 	// あたし なんかが かてる かな……?
 
 gText_ApprenticeChallenge4:: @ 82B6F92
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "I'll let you challenge me!$"
+	.string "{STR_VAR_1}의 {STR_VAR_2}번째 제자야!\n"
+	.string "승부해 줄게!$"
+	// §いの §うばん でしなの!ｎ
+	// しょうぶ して あげるわ!
 
 gText_ApprenticeChallenge5:: @ 82B6FC9
-	.string "I'm horribly busy, but I also happen\n"
-	.string "to be {STR_VAR_1}'s no. {STR_VAR_2} apprentice.$"
+	.string "바쁘면서도 {STR_VAR_1}의\n"
+	.string "{STR_VAR_2}번째 제자를 하고 있는 접니다!$"
+	// いそがしい なか §いさんのｎ
+	// §うばんの でし やってる オレです!
 
 gText_ApprenticeChallenge6:: @ 82B700C
-	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Glad to meet you!$"
+	.string "{STR_VAR_1}님의 {STR_VAR_2}번째\n"
+	.string "제자 트레이너야 잘 부탁해!$"
+	// §いさんの §うばんのｎ
+	// でしトレ-ナ-よ よっろしくぅ!
 
 gText_ApprenticeChallenge7:: @ 82B703A
-	.string "I serve as {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "May I begin?$"
+	.string "전 {STR_VAR_1}님의 {STR_VAR_2}번째\n"
+	.string "제자입니다... 갈게요$"
+	// わたくし §いさまの §うばんのｎ
+	// でしで ございますの…… いきますわよ
 
 gText_ApprenticeChallenge8:: @ 82B706A
-	.string "Eek! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "I'll do my best!$"
+	.string "꺄-! {STR_VAR_1} 선생님의\n"
+	.string "{STR_VAR_2}번째 제자예요! 힘낼게요!$"
+	// キャ-! §いせんせいのｎ
+	// §うばん でし ですっ! がんばります!
 
 gText_ApprenticeChallenge9:: @ 82B709C
-	.string "Yeehaw! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Put 'em up!$"
+	.string "예-이! {STR_VAR_1}님의\n"
+	.string "{STR_VAR_2}번째 제자인 아저씨와 승부하자!$"
+	// いえ-い! §いさんのｎ
+	// §うばん でしの おじさんと しょうぶ!
 
 gText_ApprenticeChallenge10:: @ 82B70CC
-	.string "I'm {STR_VAR_1}'s 1,000th apprentice!\n"
-	.string "Actually, I'm no. {STR_VAR_2}! Here goes!$"
+	.string "{STR_VAR_1}의 1000번째 제자야!\n"
+	.string "거짓말이고 사실 {STR_VAR_2}번째지롱! 간다!$"
+	// §いの 1000ばんめの でしだ!ｎ
+	// うそ ほんとは §うばん! いくぞ!
 
 gText_ApprenticeChallenge11:: @ 82B710A
-	.string "Yeah, I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!\n"
-	.string "Let's get rockin' and a-rollin'!$"
+	.string "{STR_VAR_1}님의 {STR_VAR_2}번째\n"
+	.string "제자라고! 들썩들썩하게 가자고-!$"
+	// §いさんの §うばんのｎ
+	// でしだぜ! ノリノリで いってみようぜ-!
 
 gText_ApprenticeChallenge12:: @ 82B714D
-	.string "Yippee-yahoo! I'm what you call\n"
-	.string "{STR_VAR_1}'s no. {STR_VAR_2} apprentice!$"
+	.string "이야호! {STR_VAR_1}님의\n"
+	.string "{STR_VAR_2}번째 제자는 날 말하는 거라고!$"
+	// イヤハァ! §いさんのｎ
+	// §うばんの でしとは オレのことっ!
 
 gText_ApprenticeChallenge13:: @ 82B7185
-	.string "Cough! I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
-	.string "Good to meet you! Cough!$"
+	.string "...콜록 콜록 잘 부탁해!\n"
+	.string "{STR_VAR_1}님의 {STR_VAR_2}번째 제자야!$"
+	// ……ゴホっ ゴホっ よろしく!ｎ
+	// §いさんの §うばんでしだ!
 
 gText_ApprenticeChallenge14:: @ 82B71C1
-	.string "This is nerve-racking…\n"
-	.string "I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}.$"
+	.string "부 부끄럽지만 {STR_VAR_1}님의\n"
+	.string "{STR_VAR_2}번째 제자입니다...!$"
+	// て てれますが §いさんのｎ
+	// §うばんの でし やってます……!
 
 gText_ApprenticeChallenge15:: @ 82B71F9
-	.string "I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice,\n"
-	.string "and that's no lie.$"
+	.string "거짓말이 아냐! 난\n"
+	.string "{STR_VAR_1}님의 {STR_VAR_2}번째 제자라고$"
+	// うそじゃない! わたしはｎ
+	// §いさんの §うばんの でしだ
 
 gText_ApprenticePleaseTeach0:: @ 82B7229
-	.string "Are you… {PLAYER}?\n"
-	.string "Oh! Sniff…sob…\p"
-	.string "Oh! S-sorry…\n"
-	.string "I'm so nervous, I can't help crying…\p"
-	.string "I'm {STR_VAR_1}, and I really look up\n"
-	.string "to you, {PLAYER}.\p"
-	.string "I… I had this dream of one day meeting\n"
-	.string "you and asking you about POKéMON.\p"
-	.string "Please, please, {PLAYER}!\n"
-	.string "Please teach me about POKéMON!$"
+	.string "호 혹시 {PLAYER}님...?\n"
+	.string "아아! 훌쩍...\p"
+	.string "아... 죄송합니다!\n"
+	.string "긴장해서 눈물이 나와버렸어요...\p"
+	.string "저는 {STR_VAR_1}{K_I}라고 하고\n"
+	.string "{PLAYER}님을 동경하고 있습니다!\l"
+	.string "어 언젠가 {PLAYER}님을 만나서\l"
+	.string "포켓몬에 대해 배우고 싶다고\l"
+	.string "꿈꿔왔었어요...! 으흑...\p"
+	.string "저기 저기 {PLAYER}님!\n"
+	.string "괜찮다면... 포켓몬에 대해\l"
+	.string "알려주세요!$"
+	// も もしかして §あさん……?ｌ
+	// ああ! グスっ……ｐ
+	// あ…… ごめんなさい!ｎ
+	// きんちょう して なみだが でちゃった……ｐ
+	// ぼくは §い って いってｎ
+	// §あさんに あこがれて います!ｌ
+	// い いつか §あさんに あってｌ
+	// ポケモンのこと おしえて もらう ってｌ
+	// ゆめ みて いたんです……! うう……ｐ
+	// あのう あのう §あさん!ｎ
+	// できたら…… ポケモンのことｌ
+	// おしえて ください!
 
 gText_ApprenticeRejectTeaching0:: @ 82B731C
-	.string "Oh… B-but…\n"
-	.string "Snivel… Waaaaaaah!\p"
-	.string "Please!\n"
-	.string "I'm begging you, please!$"
+	.string "그... 그럴 수가...\n"
+	.string "으 으흑 으아앙-!\p"
+	.string "부탁이에요... 부탁이니까 제발...!$"
+	// そ そんな……ｎ
+	// う うう うわ-ん!ｐ
+	// おねがいです…… おねがい ですから……!
 
 gText_ApprenticeWhichLevelMode0:: @ 82B735B
 	.string "Oh, really? You will?\n"

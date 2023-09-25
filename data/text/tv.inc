@@ -1,17 +1,28 @@
 LilycoveCity_ContestLobby_Text_InterviewRequest: @ 827EF15
-	.string "Oh, hello! You were in a POKéMON\n"
-	.string "CONTEST, weren't you?\l"
-	.string "It's easy to tell from your POKéMON.\p"
-	.string "I'm a reporter. I'm working on a story\n"
-	.string "on POKéMON CONTESTS.\p"
-	.string "If I may, would you be willing to answer\n"
-	.string "a few questions?$"
+	.string "으음? 당신 포켓몬 콘테스트에\n"
+	.string "참가했었군요!\l"
+	.string "그 포켓몬을 보면 안다구요!\p"
+	.string "전 포켓몬 콘테스트에 대해\n"
+	.string "기사를 쓰고 있는데\p"
+	.string "괜찮다면 잠깐 감상을\n"
+	.string "들려주실 수 있을까요?$"
+	// おや? あなた ポケモンコンテストにｎ
+	// さんかして いましたね!ｌ
+	// その ポケモンを みれば わかりますよ!ｐ
+	// わたくし ポケモンコンテストに ついてｎ
+	// きじを かいて いるのですがｐ
+	// できれば すこし かんそうをｎ
+	// きかせて くれませんかね?
 
 LilycoveCity_ContestLobby_Text_DescribeContest: @ 827EFE7
-	.string "Oh, you will?\n"
-	.string "Thank you.\p"
-	.string "Briefly, how would you describe the\n"
-	.string "CONTEST you just entered?$"
+	.string "정말요!?\n"
+	.string "감사합니다\p"
+	.string "그럼 지금 했던 콘테스트에 대한 감상을\n"
+	.string "한마디로 부탁할게요!$"
+	// ほんとう ですか!ｎ
+	// ありがとう ございますｐ
+	// それでは いまの コンテストの かんそうをｎ
+	// ひとことで おねがいします!
 
 LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX: @ 827F03E
 	.string "Ah, I see.\n"
@@ -2691,8 +2702,19 @@ gTVPokemonBattleUpdateText07:: @ 0828AE26
 	.string "victory, {STR_VAR_1}!\p"
 	.string "As for the defeated {STR_VAR_2}'s team,\n"
 	.string "we hope for a better result next time!\p"
-	.string "This concludes this episode of\n"
-	.string "“POKéMON BATTLE UPDATE!”$"
+	.string "이상\n"
+	.string "“포켓몬 대전 속보!”였습니다$"
+	// §うさん チ-ムに とってはｎ
+	// §えが ブレ-キ だったのがｌ
+	// いたかった ようですｐ
+	// しょうりを おさめたｎ
+	// §いさん チ-ム!ｌ
+	// おめでとう ございました!ｐ
+	// やぶれて しまったｎ
+	// §うさん チ-ム!ｌ
+	// つぎこそ がんばって ください!ｐ
+	// いじょうｎ
+	// 『ポケモン たいせん そくほう!』 でした
 
 GabbyAndTy_Text_GabbyPreFirstBattle: @ 0828AF05
 	.string "마리: 오 이런 곳에서\n"
