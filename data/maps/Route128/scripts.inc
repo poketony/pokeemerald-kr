@@ -327,7 +327,7 @@ Route128_Text_StevenWholeWorldWillDrown: @ 81F70EA
 	.string "루네시티의 상공을 중심으로\l"
 	.string "퍼져 있는 건가...\p"
 	.string "대체 저기서\n"
-	.string "뭐가 일어나는 거지?!\p"
+	.string "무슨 일이 일어나는 거지!?\p"
 	.string "여기서 이것저것 생각할 게 아니고\n"
 	.string "루네시티로 직접 가면 알겠네...$"
 	// ……ひどいなｐ

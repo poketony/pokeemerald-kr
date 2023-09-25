@@ -20,5 +20,5 @@ PetalburgCity_House2_Text_BattledNormanOnce: @ 8207969
 	.string "역시 종길님은 진짜 강해!\p"
 	.string "뭐랄까 음...\p"
 	.string "“포켓몬을 위해 산다!”\n"
-	.string "는 느낌이 마구마구 느껴진다니까?!$"
+	.string "는 느낌이 마구마구 느껴진다니까!?$"
 

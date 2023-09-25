@@ -768,7 +768,7 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight: @ 81EA136
 
 DewfordTown_Text_TellMeWhatsNewAndIn: @ 81EA242
 	.string "뭐?\n"
-	.string "유행하지 않는다고?!\p"
+	.string "유행하지 않는다고!?\p"
 	.string "그럼 요즘 뭐가 유행하고 있는지\n"
 	.string "알려줘!$"
 

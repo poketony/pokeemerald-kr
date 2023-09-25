@@ -420,7 +420,7 @@ MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7
 	.string "암페어: 어이쿠 찾아온 건가!\n"
 	.string "알았네! 나하고 포켓몬\l"
-	.string "승부를 하고 싶은 게지?!\p"
+	.string "승부를 하고 싶은 게지!?\p"
 	.string "와하하하핫!\p"
 	.string "스파크로 찌릿찌릿하게\n"
 	.string "만들어 줄 테니 각오하게나!$"
@@ -448,7 +448,7 @@ MauvilleCity_Gym_Text_WattsonPostRematch: @ 820EA5E
 MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
 	.string "암페어: 어이쿠 찾아온 건가!\n"
 	.string "알았네! 나하고 포켓몬\l"
-	.string "승부를 하고 싶은 게지?!\p"
+	.string "승부를 하고 싶은 게지!?\p"
 	.string "와하하하핫!\p"
 	.string "...어라? 싸울 수 있는 포켓몬이\n"
 	.string "한 마리밖에 없는 겐가\p"

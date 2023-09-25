@@ -404,14 +404,14 @@ PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
 	.string "벌레포켓몬을 학교에 가지고 가면\n"
-	.string "완전 인기쟁이가 되겠지?!$"
+	.string "완전 인기쟁이가 되겠지!?$"
 
 PetalburgWoods_Text_CantBePopularIfILose: @ 822E86B
 	.string "져버리면 인기쟁이가 될 수 없어...$"
 
 PetalburgWoods_Text_PeopleRespectYou: @ 822E889
 	.string "큰 벌레포켓몬을 가지고 있기만 해도\n"
-	.string "존경받지 않을까?!$"
+	.string "존경받지 않을까!?$"
 
 PetalburgWoods_Text_IWantRematch1: @ 822E8C3
 	.string "벌레포켓몬이 자라면 다시 와!\n"

@@ -244,7 +244,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle: @ 81FED02
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro: @ 81FED72
 	.string "너의 포켓몬은\n"
-	.string "200도의 열기를 이겨낼 수 있나?!$"
+	.string "200도의 열기를 이겨낼 수 있나!?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat: @ 81FED9E
 	.string "다 태워버렸어야 했거늘...$"

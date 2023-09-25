@@ -130,7 +130,7 @@ AquaHideout_B2F_Text_MattPostBattle:
 AquaHideout_B2F_Text_Grunt4Intro:
 	.string "왓핫핫 기다리다\n"
 	.string "목이 빠지는 줄 알았다!\l"
-	.string "나랑도 승부해 주실까?!$"
+	.string "나랑도 승부해 주실까!?$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
 	.string "기다리다 너무 지쳐서\n"
@@ -138,18 +138,18 @@ AquaHideout_B2F_Text_Grunt4Defeat:
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
 	.string "리더...\n"
-	.string "이 정도면 된 건가요-?!$"
+	.string "이 정도면 된 건가요-!?$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
 	.string "우리 아지트의 명물인 워프패널!\p"
 	.string "지금 자신이 어디에 있는지\n"
-	.string "전혀 짐작도 안 가겠죠?!\p"
+	.string "전혀 짐작도 안 가겠죠!?\p"
 	.string "그렇게 상대를 지치게 해서\n"
 	.string "쓰러뜨리는 게 작전인 거예요!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
 	.string "뭐얏!\n"
-	.string "하나도 안 지쳐 있잖아?!$"
+	.string "하나도 안 지쳐 있잖아!?$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "그러고 보니... 마스터볼을\n"

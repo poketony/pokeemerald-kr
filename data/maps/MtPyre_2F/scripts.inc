@@ -53,7 +53,7 @@ MtPyre_2F_Text_TumbledFromFloorAbove: @ 82311E6
 
 MtPyre_2F_Text_MarkIntro: @ 8231258
 	.string "너도 포켓몬을 찾으러 온 건가?\n"
-	.string "나중에 온 주제에 건방지군?!$"
+	.string "나중에 온 주제에 건방지군!$"
 
 MtPyre_2F_Text_MarkDefeat: @ 82312A2
 	.string "흐이이이이이익!\n"
@@ -66,7 +66,7 @@ MtPyre_2F_Text_MarkPostBattle: @ 82312CB
 MtPyre_2F_Text_LukeIntro: @ 823130F
 	.string "테르: 좋아! 담력 훈련을 하는 거야!\n"
 	.string "멋진 내 모습을 보면\l"
-	.string "그녀가 나에게 더 반하겠지?!\p"
+	.string "그녀가 나에게 더 반하겠지!?\p"
 	.string "그래! 널 쓰러뜨리고\n"
 	.string "멋진 모습을 보여주겠어!$"
 

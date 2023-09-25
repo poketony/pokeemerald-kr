@@ -1139,7 +1139,7 @@ SlateportCity_Text_WhyAreWeLiningUp: @ 81DDE2F
 	// むりやり はいれば いいのによ!
 
 SlateportCity_Text_WhatDoYouWant: @ 81DDE6E
-	.string "뭐야 뭐야?!$"
+	.string "뭐야 뭐야!?$"
 	// なんだ なんだ!?
 
 SlateportCity_Text_IllReadSignForYou: @ 81DDE86
@@ -1530,8 +1530,8 @@ SlateportCity_Text_ExchangeBerryPowderForItem: @ 81DEE90
 	// こうかん するのね?
 
 SlateportCity_Text_DontHaveEnoughBerryPowder: @ 81DEEC9
-	.string "어라라?!\n"
-	.string "가루가 부족한 거 아냐?!$"
+	.string "어라라!?\n"
+	.string "가루가 부족한 거 아냐?$"
 	// あれま!?ｎ
 	// こなが たりない じゃないの!
 

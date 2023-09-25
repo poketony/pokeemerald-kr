@@ -34,7 +34,7 @@ SootopolisCity_House3_Text_JuanHasManyFansDoYou: @ 8226BA4
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong: @ 8226C20
 	.string "흐-응\n"
-	.string "그럼 꽤 강하신가 보군요?!$"
+	.string "그럼 꽤 강하신가 보군요!?$"
 	// へえ-ｎ
 	// じゃあ けっこう つよいのね!
 

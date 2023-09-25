@@ -680,7 +680,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher: @ 826002E
 	// もっと つよくなる! ん! まちがいない!
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll: @ 8260099
-	.string "아-앗?! 뭐야-앗?\p"
+	.string "아-앗!? 뭐야-앗?\p"
 	.string "내 봉제인형을 뭘 그렇게 보는 거야!\n"
 	.string "갖고 싶으면 직접 사라고!\p"
 	.string "그렇지 뽀뽀라?$"

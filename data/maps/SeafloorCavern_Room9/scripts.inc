@@ -261,8 +261,8 @@ SeafloorCavern_Room9_Text_ArchieYouMustDisappear: @ 823512C
 	// おまえには ここで きえてもらう!
 
 SeafloorCavern_Room9_Text_ArchieDefeat: @ 82351BC
-	.string "뭐라고?!\n"
-	.string "너같은 녀석한테 내가...?!$"
+	.string "뭐라고!?\n"
+	.string "너같은 녀석한테 내가...!?$"
 	// なにっ!?ｎ
 	// おまえ ごときに おれが……?
 
@@ -284,12 +284,12 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb: @ 82351E5
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself: @ 8235279
 	.string "주홍구슬이...\n"
-	.string "멋대로 빛나기 시작했다...?!$"
+	.string "멋대로 빛나기 시작했다...!?$"
 	// べにいろのたまが……ｎ
 	// かってに かがやき はじめた……!?
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
-	.string "아강: ..?!\p"
+	.string "아강: ..!?\p"
 	.string "나는 아무것도 하지 않았는데\n"
 	.string "어째서 주홍구슬이...?\p"
 	.string "가이오가는 어디로 사라졌지?$"
@@ -314,7 +314,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
 	.string "깨운 이유니까 말이다\p"
 	.string "뭐라고!\p"
 	.string "예상한 것 이상의 폭우로 이대로라면\n"
-	.string "우리들도 위험하다고?!\p"
+	.string "우리들도 위험하다고!?\p"
 	.string "설마 그럴 리가...\n"
 	.string "그럴 리가 없을 텐데...\p"
 	.string "어쨌든 계속 상태를 보고 있어라!$"
@@ -336,8 +336,8 @@ SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
 	.string "주홍구슬로 가이오가가 눈을 뜨고\n"
 	.string "그리고 컨트롤할 수 있었을 텐데...\p"
 	.string "그런데... 어째서...\n"
-	.string "가이오가는 여기서 없어졌다?!\p"
-	.string "어째서지?!$"
+	.string "가이오가는 여기서 없어졌다!?\p"
+	.string "어째서지!?$"
 	// アオギリ『おかしい……ｐ
 	// べにいろのたまで カイオ-ガが めざめるｎ
 	// そして コントロ-ル できるはず……ｐ
@@ -364,7 +364,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought: @ 82354F0
 	// みずの そこに しずむぞ……
 
 SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty: @ 82355C2
-	.string "아강: 뭐 뭐라고?!\n"
+	.string "아강: 뭐 뭐라고!?\n"
 	.string "멋대로 말하지 마라!\p"
 	.string "너희 마그마단이야말로 그란돈을\n"
 	.string "깨워버리지 않았는가!\p"

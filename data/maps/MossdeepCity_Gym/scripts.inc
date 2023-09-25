@@ -399,7 +399,7 @@ MossdeepCity_Gym_Text_PrestonPostBattle: @ 8220ED3
 	.string "내가 해주는 충고다!$"
 
 MossdeepCity_Gym_Text_VirgilIntro: @ 8220F02
-	.string "네 재능을 한번 볼까?!$"
+	.string "네 재능을 한번 볼까!?$"
 
 MossdeepCity_Gym_Text_VirgilDefeat: @ 8220F1A
 	.string "정말 훌륭한 재능을 지녔군!$"
@@ -636,7 +636,7 @@ MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
 	.string "너와 포켓몬의 유대감이\l"
 	.string "더 강했나봐...\p"
 	.string "란: 당신이라면 분명 강해질 수 있어!\n"
-	.string "배틀했으니까 우리라면 알 수 있어!$"
+	.string "배틀했으니까 우린 알 수 있어!$"
 	// フウ『きょうだいの きずな よりｎ
 	// きみと ポケモンとの きずなの ほうがｌ
 	// はるかに つよかった みたいだね……ｐ

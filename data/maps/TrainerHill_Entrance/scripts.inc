@@ -478,7 +478,7 @@ TrainerHill_Roof_Text_FullUpBeBackLaterForThis: @ 8268B07
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly: @ 8268B43
 	.string "오-! 설마 이렇게 빨리\n"
-	.string "여기까지 올 줄이야-?!\p"
+	.string "여기까지 올 줄이야-!?\p"
 	.string "이 몸을 만나기 위해 그렇게\n"
 	.string "열심히 해주다니-!\p"
 	.string "기쁘니 접수처의\n"

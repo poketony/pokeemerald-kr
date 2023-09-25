@@ -297,7 +297,7 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure: @ 8255669
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon: @ 825573E
 	.string "이거 정말 끝내주지 않나?\n"
-	.string "끝내주지! 안 그래?!\p"
+	.string "끝내주지! 안 그래!?\p"
 	.string "나는 기선!\p"
 	.string "이곳의 책임자인\n"
 	.string "피라미드킹이지만 모두에게는\l"

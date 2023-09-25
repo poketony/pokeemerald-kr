@@ -1055,7 +1055,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 	.string "한번에 우승까지\n"
-	.string "올라갈 수 있을 것인가?!\p"
+	.string "올라갈 수 있을 것인가!?\p"
 	.string "$"
 	// いっきに ゆうしょうまでｎ
 	// のぼりつめて しまうのでしょうか!?ｐ
@@ -1063,14 +1063,14 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
 	.string "첫 출전 첫 우승의\n"
-	.string "위업을 달성할 수 있을 것인가?!\p"
+	.string "위업을 달성할 수 있을 것인가!?\p"
 	.string "$"
 	// はつしゅつじょう はつゆうしょうのｎ
 	// いぎょう たっせい なるか!?ｐ
 	// 
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
-	.string "지난번의 리벤지를 할 수 있을까?!\p"
+	.string "지난번의 리벤지를 할 수 있을까!?\p"
 	.string "$"
 	// ぜんかいの リベンジなるか!?ｐ
 	// 
@@ -1092,7 +1092,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
 	// 
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-	.string "꿈꾸던 우승은 이루어질 것인가?!\p"
+	.string "꿈꾸던 우승은 이루어질 것인가!?\p"
 	.string "$"
 	// ひがんの はつゆうしょう なるか!?ｐ
 	// 
@@ -1105,7 +1105,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 	.string "이 사람을 이길 수 있는 트레이너는\n"
-	.string "정말로 있는 걸까요?!\p"
+	.string "정말로 있는 걸까요!?\p"
 	.string "$"
 	// この ひとに かてる トレ-ナ-はｎ
 	// はたして いるのでしょうか!?ｐ
@@ -1113,14 +1113,14 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 	.string "이 사람을 위해\n"
-	.string "이 대회가 있는 걸까요?!\p"
+	.string "이 대회가 있는 걸까요!?\p"
 	.string "$"
 	// この ひとの ためにｎ
 	// この たいかいは あるのでしょうか!?ｐ
 	// 
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-	.string "과연 연패가 될 것인가?!\p"
+	.string "과연 연패가 될 것인가!?\p"
 	.string "$"
 	// はたして れんぱ なるか!?ｐ
 
@@ -1139,7 +1139,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
 	.string "결승으로 향하는 건\n"
-	.string "역시 이 사람인 걸까요?!\p"
+	.string "역시 이 사람인 걸까요!?\p"
 	.string "$"
 	// けっしょうに すすむのはｎ
 	// やっぱり この ひと なんでしょうか!?ｐ
@@ -1147,7 +1147,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
 	.string "멋지게 부활해서 우승을\n"
-	.string "거머쥘 것인가?!\p"
+	.string "거머쥘 것인가!?\p"
 	.string "$"
 	// みごとに ふっかつ ゆうしょう なるか!?ｐ
 	// 

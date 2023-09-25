@@ -298,7 +298,7 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro: @ 82656ED
 	.string "최강의 누님으로서\n"
 	.string "엄청 활약했었지!\p"
 	.string "...... ... ...응?\p"
-	.string "뭔가 자네 못 믿는 겐가?!\p"
+	.string "뭔가 자네 못 믿는 겐가!?\p"
 	.string "난 저쪽의 입만 산 할멈과는\n"
 	.string "재능이 다르다네!\p"
 	.string "그 증거로 자네의 포켓몬에게\n"
@@ -327,7 +327,7 @@ BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack: @ 82658AB
 	.string "부하하핫!\p"
 	.string "나의\n"
 	.string "스페셜하고 큐트한 기술을\l"
-	.string "다시 배우러 온 겐가-?!$"
+	.string "다시 배우러 온 겐가-!?$"
 	// ぶはははっ!ｐ
 	// あたしゃのｎ
 	// すぺしゃる かつ きゅ-とな わざをｌ
@@ -340,7 +340,7 @@ BattleFrontier_Lounge7_Text_TeachWhichMove: @ 82658EF
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints: @ 8265921
 	.string "{STR_VAR_1}{K_IGA} 마음에 든 건가!\n"
-	.string "{STR_VAR_2}BP로 괜찮겠나?!$"
+	.string "{STR_VAR_2}BP로 괜찮겠나!?$"
 	// §い が ええのんか!ｎ
 	// §う BP じゃが ええんじゃの!?
 
@@ -377,7 +377,7 @@ BattleFrontier_Lounge7_Text_RightTutorIntro: @ 8265A6C
 	.string "무적의 비키니 누님으로서\n"
 	.string "인기가 굉장했었지!\p"
 	.string "...... ...... ...응?\p"
-	.string "뭔가 자네 못 믿는 겐가?!\p"
+	.string "뭔가 자네 못 믿는 겐가!?\p"
 	.string "난 저쪽의 입만 산 할멈과는\n"
 	.string "다르게 실력이 있다네!\p"
 	.string "그 증거로 자네의 포켓몬에게\n"
@@ -406,7 +406,7 @@ BattleFrontier_Lounge7_Text_RightTutorWelcomeBack: @ 8265C2C
 	.string "이히히힛!\p"
 	.string "나의\n"
 	.string "하드하고 프리티한 기술을\l"
-	.string "다시 배우러 온 겐가-?!$"
+	.string "다시 배우러 온 겐가-!?$"
 	// いひひひっ!ｐ
 	// あたしゃのｎ
 	// は-ど かつ ぷりてぃな わざをｌ

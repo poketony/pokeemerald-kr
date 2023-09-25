@@ -794,15 +794,15 @@ SecretBase_Text_BattleTowerShield: @ 827692B
 
 SecretBase_Text_ToyTV: @ 8276974
 	.string "진짜와 꼭 닮게 만들어진 장난감 TV\n"
-	.string "모르는 사람이 보면 착각할지도?!$"
+	.string "모르는 사람이 보면 착각할지도!?$"
 
 SecretBase_Text_SeedotTV: @ 82769B8
 	.string "도토링을 닮은 장난감 TV\n"
-	.string "왠지 굴러다닐 것 같다?!$"
+	.string "왠지 굴러다닐 것 같다!?$"
 
 SecretBase_Text_SkittyTV: @ 82769FF
 	.string "에나비를 닮은 장난감 TV\n"
-	.string "왠지 걸어다닐 것 같다?!$"
+	.string "왠지 걸어다닐 것 같다!?$"
 
 SecretBase_Text_WouldYouLikeToMoveBases: @ 8276A3D
 	.string "비밀기지는 하나밖에\n"

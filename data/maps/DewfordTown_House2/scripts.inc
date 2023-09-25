@@ -30,7 +30,7 @@ DewfordTown_House2_EventScript_Boy:: @ 81FE271
 DewfordTown_House2_Text_WantYouToHaveSilkScarf: @ 81FE27A
 	.string "이게 바로!\p"
 	.string "요즘 가장 유행하는 실크스카프야!\n"
-	.string "어때? 정말 멋지지?!\p"
+	.string "어때? 정말 멋지지!?\p"
 	.string "오! 흥미가 생긴 모양인데?\n"
 	.string "넌 내 센스를 알아주는구나!\p"
 	.string "정말 고마워!\n"

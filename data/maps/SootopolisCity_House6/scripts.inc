@@ -34,7 +34,7 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll:: @ 8226FAD
 	end
 
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll: @ 8226FC3
-	.string "와- 이게 얼마 만에 오신 손님이야?!\p"
+	.string "와- 이게 얼마 만에 오신 손님이야!?\p"
 	.string "너-무 기쁘니까\n"
 	.string "커다란 고래왕자인형을 줄게!$"
 

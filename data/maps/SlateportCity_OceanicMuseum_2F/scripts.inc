@@ -338,7 +338,7 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning: @ 820C059
 	.string "아쿠아단의 리더 아강이다\p"
 	.string "우리들을 방해하는 너는...\n"
 	.string "서 설마!\l"
-	.string "마그마단의 동료인 거냐?!\p"
+	.string "마그마단의 동료인 거냐!?\p"
 	.string "아니 그렇다 치더라도\n"
 	.string "입고 있는 옷이 다르군\p"
 	.string "...... ...... ......\n"

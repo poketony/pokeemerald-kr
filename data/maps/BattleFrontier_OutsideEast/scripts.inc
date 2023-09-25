@@ -426,7 +426,7 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere: @ 8243668
 	// じ-ちゃんが はいってくのよ!
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid: @ 82436F2
-	.string "넌 알고 있어?!\n"
+	.string "넌 알고 있어!?\n"
 	.string "배틀피라미드의 전설을!!\p"
 	.string "넘치는 용기를 가진 트레이너\n"
 	.string "금자탑의 정상을 향할 때\l"
@@ -452,7 +452,7 @@ BattleFrontier_OutsideEast_Text_GotWipedOut: @ 8243809
 	.string "지금까지 누구에게 한 번도\n"
 	.string "진 적이 없는 내가\l"
 	.string "손도 발도 못 쓰고\l"
-	.string "게다가 재능이 없다고?!\p"
+	.string "게다가 재능이 없다고!?\p"
 	.string "젠장! 젠장! 젠장!$"
 	// くそ-っ!ｐ
 	// いままで だれにも いちどもｎ

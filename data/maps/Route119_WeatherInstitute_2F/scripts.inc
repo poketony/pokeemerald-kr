@@ -227,7 +227,7 @@ Route119_WeatherInstitute_2F_Text_Grunt2Intro: @ 827019C
 	// きいたから いただきに きたのさ!
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat: @ 8270208
-	.string "이런 꼬맹이에게 방해당한 건가?!$"
+	.string "이런 꼬맹이에게 방해당한 건가!?$"
 	// こんな こどもに じゃま されるのか!?
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
@@ -280,8 +280,8 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle: @ 82703C0
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro: @ 8270409
 	.string "오-호호!\p"
-	.string "우리들 아쿠아단의\n"
-	.string "방해를 할 셈이야?!\p"
+	.string "우리 아쿠아단을\n"
+	.string "방해할 셈이야!?\p"
 	.string "정말 무서운 걸 모르는 건지\n"
 	.string "그냥 어리석은 건지...\p"
 	.string "너무 귀여워서 얄미워!\n"
@@ -321,7 +321,7 @@ Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy: @ 8270568
 	// むかって いきました!
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre: @ 82705DD
-	.string "뭐라고?!\p"
+	.string "뭐라고!?\p"
 	.string "이러고 있을 때가 아냐\n"
 	.string "우리들도 송화산으로 서둘러 가자!\p"
 	.string "오-호호!\n"

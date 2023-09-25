@@ -146,7 +146,7 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat: @ 8235BBF
 	// よく かんがえて くれないか……
 
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow: @ 8235C99
-	.string "윤진: 앗 기억나지 않는다고?!\n"
+	.string "윤진: 앗 기억나지 않는다고!?\n"
 	.string "으-음 그건 곤란한데...\p"
 	.string "어떻게든\n"
 	.string "떠올려 줄 수 없을까...$"

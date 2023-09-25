@@ -103,7 +103,7 @@ Route119_WeatherInstitute_1F_Text_Grunt4Intro: @ 826FC34
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat: @ 826FC52
 	.string "어머-\n"
-	.string "져버린 건가-?!$"
+	.string "져버린 건가-!?$"
 	// あら-ｎ
 	// まけちゃった-!?$
 

@@ -115,7 +115,7 @@ SSTidalRooms_Text_JedDefeat: @ 823CD54
 SSTidalRooms_Text_JedPostBattle: @ 823CD5F
 	.string "진: 우리들의 러브러브파워로도\n"
 	.string "이길 수 없었던 건 처음이야!\l"
-	.string "정말 대단한 트레이너구나 너는?!$"
+	.string "정말 대단한 트레이너구나 너는!?$"
 
 SSTidalRooms_Text_JedNotEnoughMons: @ 823CDC6
 	.string "진: 포켓몬이 한 마리라고?\n"

@@ -35,7 +35,7 @@ PacifidlogTown_Text_FastRunningCurrent: @ 81EBAE7
 	.string "떠내려가 버려$"
 
 PacifidlogTown_Text_NeatHousesOnWater: @ 81EBB6C
-	.string "어때?! 어때?! 굉장하지?!\n"
+	.string "어때!? 어때!? 굉장하지!?\n"
 	.string "물 위에 집이 있어!\p"
 	.string "난 여기서 태어났지롱!$"
 

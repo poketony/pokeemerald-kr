@@ -182,7 +182,7 @@ SootopolisCity_Gym_B1F_Text_TiffanyIntro: @ 82261F7
 	// エレガントに うつくしいのよ!
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat: @ 8226274
-	.string "잠깐-?!$"
+	.string "잠깐-!?$"
 	// ちょっと-!?
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle: @ 8226286

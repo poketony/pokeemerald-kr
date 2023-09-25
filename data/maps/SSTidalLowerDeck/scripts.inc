@@ -13,7 +13,7 @@ SSTidalLowerDeck_EventScript_Leonard:: @ 823C830
 
 SSTidalLowerDeck_Text_PhillipIntro: @ 823C847
 	.string "이렇게 넓은 곳을\n"
-	.string "언제 다 청소하지?! 이제 질렸어!\l"
+	.string "언제 다 청소하지!? 이제 질렸어!\l"
 	.string "잠깐 승부나 하자고!$"
 
 SSTidalLowerDeck_Text_PhillipDefeat: @ 823C8A0

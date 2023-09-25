@@ -1519,7 +1519,7 @@ SootopolisCity_Text_GiantPokemonSuddenlyAppeared: @ 81E6692
 
 SootopolisCity_Text_WhatIsThatGreenPokemon: @ 81E6750
 	.string "뭐야? 뭐야? 뭐야?\n"
-	.string "저 초록색 포켓몬은 뭐야-?!$"
+	.string "저 초록색 포켓몬은 뭐야-!?$"
 	// なに? なに? なに?ｎ
 	// あの みどりの ポケモン なに-!?
 
@@ -1770,7 +1770,7 @@ SootopolisCity_Text_WeatherWentWild: @ 81E71A1
 SootopolisCity_Text_YouBroughtFlyingMon: @ 81E728C
 	.string "뭐!\p"
 	.string "그 하늘로부터 내려온 포켓몬을\n"
-	.string "데리고 온 게 너라고?!\p"
+	.string "데리고 온 게 너라고!?\p"
 	.string "...흐음 제법인데!$"
 	// えっ!ｐ
 	// あの そらから おりてきた ポケモンをｎ
@@ -1810,7 +1810,7 @@ SootopolisCity_Text_AfterAllOurScheming: @ 81E737E
 	// ふ…… ふははは……
 
 SootopolisCity_Text_KyogreCalmDown: @ 81E7460
-	.string "아강: 가이오가! 어떻게 된 거야?!\n"
+	.string "아강: 가이오가! 어떻게 된 거야!?\n"
 	.string "이걸 봐라! 주홍구슬이다!\l"
 	.string "말을 듣는 거다! 가이오가!\p"
 	.string "...... ...... ......\n"

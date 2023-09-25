@@ -3842,401 +3842,685 @@ MatchCall_Text_Winona4:: @ 82B2F16
 	// ゆめを あきらめなかった ように!
 
 MatchCall_Text_TateLiza1:: @ 82B2F97
-	.string "TATE: Oh! You're…\n"
-	.string "LIZA: {PLAYER}!\p"
-	.string "TATE: We're in training again…\n"
-	.string "LIZA: So we can reopen our GYM!\p"
-	.string "TATE: When our GYM is ready…\n"
-	.string "LIZA: When our GYM is ready…\p"
-	.string "TATE: A mark'll appear by our name…\n"
-	.string "LIZA: On the MATCH CALL list.$"
+	.string "풍: 앗 너는\n"
+	.string "란: {PLAYER}{K_I}구나!\p"
+	.string "풍: 우린 체육관을 다시 열기 위해\n"
+	.string "란: 계속 수행하고 있어!\p"
+	.string "풍: 체육관의 준비가 끝나면\n"
+	.string "란: 체육관의 준비가 끝나면\p"
+	.string "풍: 엔트리콜의 이름에\n"
+	.string "란: 표시가 붙을 테니 참고해!$"
+	// フウ『あっ あなたはｎ
+	// ラン『§あさん ですね!ｐ
+	// フウ『ぼくたち ジムを さいかい するためｎ
+	// ラン『しゅぎょう しなおして いるんです!ｐ
+	// フウ『ジムの じゅんびが できたらｎ
+	// ラン『ジムの じゅんびが できたらｐ
+	// フウ『エントリ-コ-ルの なまえにｎ
+	// ラン『しるしが つくので わかるんです!
 
 MatchCall_Text_TateLiza2:: @ 82B306E
-	.string "TATE: {PLAYER}, congratulations!\n"
-	.string "LIZA: {PLAYER}, congratulations!\p"
-	.string "TATE: The two of us are…\n"
-	.string "LIZA: Still in training!\p"
-	.string "TATE: We need some more time, but…\n"
-	.string "LIZA: When our GYM is ready…\p"
-	.string "TATE: A mark'll appear by our name…\n"
-	.string "LIZA: On the MATCH CALL list.$"
+	.string "풍: {PLAYER} 축하해!\n"
+	.string "란: {PLAYER} 축하해!\p"
+	.string "풍: 우리 둘은\n"
+	.string "란: 아직 수행 중이야!\p"
+	.string "풍: 조금 더 시간이 걸리겠지만\n"
+	.string "란: 만약 체육관이 다시 열린다면\p"
+	.string "풍: 엔트리콜의 이름에\n"
+	.string "란: 표시가 붙을 테니 참고해!$"
+	// フウ『§あさん おめでとう!ｎ
+	// ラン『§あさん おめでとう!ｐ
+	// フウ『ぼくたち ふたりはｎ
+	// ラン『まだ しゅぎょうちゅう!ｐ
+	// フウ『もうすこし じかんが かかるけどｎ
+	// ラン『もし ジムを さいかい できたらｐ
+	// フウ『エントリ-コ-ルの なまえにｎ
+	// ラン『しるしが つくから わかりますよ!
 
 MatchCall_Text_TateLiza3:: @ 82B3158
-	.string "TATE: {PLAYER}!\n"
-	.string "LIZA: {PLAYER}!\p"
-	.string "TATE: Our GYM is ready!\n"
-	.string "LIZA: Our GYM is ready!\p"
-	.string "TATE: Please come visit…\n"
-	.string "LIZA: MOSSDEEP anytime!$"
+	.string "풍: {PLAYER}!\n"
+	.string "란: {PLAYER}!\p"
+	.string "풍: 체육관의 준비가 끝났어!\n"
+	.string "란: 체육관의 준비가 끝났어!\p"
+	.string "풍: 언제든지 이끼시티로\n"
+	.string "란: 찾아와줘!$"
+	// フウ『§あさん!ｎ
+	// ラン『§あさん!ｐ
+	// フウ『ジムの じゅんびが できました!ｎ
+	// ラン『ジムの じゅんびが できました!ｐ
+	// フウ『いつでも トクサネ シティまでｎ
+	// ラン『きてくださいね!
 
 MatchCall_Text_TateLiza4:: @ 82B31CD
-	.string "TATE: {PLAYER}, the battle we had…\n"
-	.string "LIZA: Is an invaluable experience.\p"
-	.string "TATE: It would be nice if…\n"
-	.string "LIZA: We could all battle again!$"
+	.string "풍: {PLAYER}{K_WAGWA}의 승부는\n"
+	.string "란: 우리에게 소중한 경험이야\p"
+	.string "풍: 언젠가 다시 세 명이서\n"
+	.string "란: 승부할 수 있으면 좋겠다$"
+	// フウ『§あさんとの しょうぶはｎ
+	// ラン『わたしたちの だいじな けいけんｐ
+	// フウ『いつか また 3にんでｎ
+	// ラン『しょうぶが できると いいですね
 
 MatchCall_Text_Juan1:: @ 82B3249
-	.string "JUAN: Hmm…\n"
-	.string "{PLAYER}{KUN}… Was it?\p"
-	.string "Our battle together--it brought\n"
-	.string "to me memories of when I first\l"
-	.string "encountered WALLACE.\p"
-	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass WALLACE!$"
+	.string "아단: 호오...\n"
+	.string "{PLAYER}{KUN}...이었군요\p"
+	.string "유와의 배틀은\n"
+	.string "처음으로 윤진과 만났을 때를\l"
+	.string "떠올리게 했습니다\p"
+	.string "어쩌면 유는\n"
+	.string "윤진을 넘어설 정도의 지니어스!\l"
+	.string "즉 천재일지도 모릅니다$"
+	// アダン『ほ……ｎ
+	// §あ§お…… でしたねｐ
+	// ユ-との たたかいはｎ
+	// はじめて ミクリと であったときをｌ
+	// おもいださせて くれましたよｐ
+	// もしかすると ユ-はｎ
+	// ミクリを こえるほどの ジ-ニアス!ｌ
+	// すなわち てんさい かもしれません
 
 MatchCall_Text_Juan2:: @ 82B32EC
-	.string "JUAN: Fufu… {PLAYER}{KUN}…\n"
-	.string "You've finally achieved your goal.\p"
-	.string "My eye for appraising talent wasn't\n"
-	.string "mistaken…\p"
-	.string "I wish for another chance to meet\n"
-	.string "you, for you have scaled the peak\l"
-	.string "of power and prestige.$"
+	.string "아단: 후... {PLAYER}{KUN}\n"
+	.string "마침내 해낸 모양이군요\p"
+	.string "역시 제 사람 보는 눈은\n"
+	.string "틀리지 않았습니다...\p"
+	.string "강함을 갈고닦은 유와\n"
+	.string "꼭 또 승부하고 싶군요$"
+	// アダン『ふ…… §あ§おｎ
+	// ついに やりとげた ようですねｐ
+	// やはり わたくしの ひとを みるめはｎ
+	// まちがって いなかった……ｐ
+	// つよさを きわめた ユ-とはｎ
+	// ぜひ また しょうぶ したい ものです
 
 MatchCall_Text_Juan3:: @ 82B33AA
-	.string "JUAN: Hoho… {PLAYER}{KUN}…\p"
-	.string "Our SOOTOPOLIS GYM has finally\n"
-	.string "reopened.\p"
-	.string "If you wish to see me, you are\n"
-	.string "welcome to visit anytime.$"
+	.string "아단: 후후... {PLAYER}{KUN}\p"
+	.string "제 루네시티 체육관이\n"
+	.string "다시 오픈했습니다\p"
+	.string "제 모습을 보고 싶다면\n"
+	.string "뭐 언제든지 오시지요$"
+	// アダン『ほっほ…… §あ§おｐ
+	// わが ルネシティ ジムがｎ
+	// ふたたび オ-プン したのですよｐ
+	// わたくしの すがたを みたくなったらｎ
+	// まあ いつでも おいでなさい
 
 MatchCall_Text_Juan4:: @ 82B341E
-	.string "JUAN: {PLAYER}{KUN}…\p"
-	.string "Like the finest music, the battles\n"
-	.string "we wage together strike chords\l"
-	.string "of inspiration in my heart…\p"
-	.string "When I close my eyes, I see visions\n"
-	.string "of you soaring with the melody…$"
+	.string "아단: {PLAYER}{KUN}...\p"
+	.string "유와 연주하는 포켓몬 승부는\n"
+	.string "세련된 음악과도 같아서\l"
+	.string "하트에 깊은 울림을 줍니다...\p"
+	.string "눈을 감으면 멜로디에 맞춰\n"
+	.string "우아하게 춤추는 유의 모습이...$"
+	// アダン『§あ§お……ｐ
+	// ユ-と かなでる ポケモン しょうぶはｎ
+	// せんれんされた おんがくにも にてｌ
+	// ハ-トに ふかく ひびいて きます……ｐ
+	// めを とじれば メロディ-に あわせてｎ
+	// ゆうがに まう ユ-の すがたが……
 
 MatchCall_Text_Sidney:: @ 82B34CC
-	.string "SIDNEY: Yo, {PLAYER}!\p"
-	.string "If you want to battle with me\n"
-	.string "again, you come on back whenever\l"
-	.string "you like to the POKéMON LEAGUE.\p"
-	.string "I'll always be here!\n"
-	.string "I'll be waiting!$"
+	.string "혁진: 여어 {PLAYER}!\p"
+	.string "나와 포켓몬 승부하고 싶다면\n"
+	.string "언제든지 포켓몬리그로 오라고!\p"
+	.string "난 항상 여기 있을 테니까\n"
+	.string "기다리고 있는다!$"
+	// カゲツ『よお §あ!ｐ
+	// おれと ポケモン しょうぶ したけりゃｎ
+	// いつでも ポケモン リ-グに おいで!ｐ
+	// おれは いつでも ここに いるからなｎ
+	// じゃあ まってるぜ!
 
 MatchCall_Text_Phoebe:: @ 82B3561
-	.string "PHOEBE: Hi, {PLAYER}!\p"
-	.string "How about coming back here again\n"
-	.string "sometime?\p"
-	.string "I'd like to see how much tighter\n"
-	.string "your bond has grown with your\l"
-	.string "POKéMON.$"
+	.string "회연: 안-녕 {PLAYER}!\p"
+	.string "너와 포켓몬의 유대감이\n"
+	.string "얼마나 깊어졌는지\l"
+	.string "가끔씩 여기로 보여주러 와!$"
+	// フヨウ『ハ-イ §あ!ｐ
+	// あなたと ポケモンの きずながｎ
+	// どれぐらい ふかく なったかｌ
+	// たまには ここまで みせに きてよね!
 
 MatchCall_Text_Glacia:: @ 82B35E4
-	.string "GLACIA: Hello, {PLAYER}.\p"
-	.string "I trust you haven't become\n"
-	.string "complacent with your power?\p"
-	.string "If you feel the need to cool your\n"
-	.string "hot emotions just a little, do come\l"
-	.string "to the POKéMON LEAGUE…$"
+	.string "미혜: 안녕하세요 {PLAYER}\p"
+	.string "당신은 그 강함에\n"
+	.string "도취해 있진 않겠지요\p"
+	.string "뜨거운 마음을 조금\n"
+	.string "식히고 싶다면\l"
+	.string "포켓몬리그로 오세요...$"
+	// プリム『こんにちは §あｐ
+	// あなたは その つよさにｎ
+	// おぼれたり していない でしょうねｐ
+	// あつい きもちを すこしだけｎ
+	// ひやしたいと おもったらｌ
+	// ポケモン リ-グに いらっしゃい……
 
 MatchCall_Text_Drake:: @ 82B368B
-	.string "DRAKE: That voice… {PLAYER}, is it?\n"
-	.string "You sound well…\p"
-	.string "I understand that there is now\n"
-	.string "a facility called the BATTLE\l"
-	.string "FRONTIER that tests the skills of\l"
-	.string "TRAINERS.\p"
-	.string "However, if you wish to have real\n"
-	.string "battles, there is no substitute for\l"
-	.string "the POKéMON LEAGUE!\p"
-	.string "Don't you agree, {PLAYER}?$"
+	.string "권수: 이 목소린 {PLAYER}{K_I}인가\n"
+	.string "건강한 모양이군...\p"
+	.string "최근 포켓몬리그와는 별개로\n"
+	.string "트레이너의 실력을 겨루는\l"
+	.string "배틀프런티어라고 하는 시설이\l"
+	.string "생긴 듯하지만...\p"
+	.string "진정한 승부를 하고 싶다면\n"
+	.string "역시 포켓몬리그가 최고지!\p"
+	.string "너도 그리 생각하지 않나 {PLAYER}?$"
+	// ゲンジ『そのこえは §あかｎ
+	// げんきそう だな……ｐ
+	// さいきん ポケモン リ-グとは べつにｎ
+	// トレ-ナ-の うでを きそわせるｌ
+	// バトル フロンティア とかいう しせつがｌ
+	// あるらしいが……ｐ
+	// ほんとうの しょうぶを したいのならｎ
+	// やはり ポケモン リ-グだ!ｐ
+	// なあ §あも そうおもう だろう?
 
 MatchCall_Text_Wallace:: @ 82B3790
-	.string "WALLACE: Hello, {PLAYER}{KUN}.\n"
-	.string "Have you met STEVEN?\p"
-	.string "He is…\n"
-	.string "Actually incredibly skilled.\p"
-	.string "However, he's an odd soul who\n"
-	.string "rarely battles.\p"
-	.string "Instead, he would rather look for\n"
-	.string "rare stones.\p"
-	.string "I'm sure he's digging in a cave or\n"
-	.string "a craggy mountain somewhere.\p"
-	.string "But what is a rare stone exactly?\n"
-	.string "All I can think of is a METEORITE…$"
+	.string "윤진: 안녕 {PLAYER}\n"
+	.string "성호는 만나봤어?\p"
+	.string "그는...\n"
+	.string "사실 엄청 강하면서\p"
+	.string "그다지 포켓몬 승부를 하지 않고\n"
+	.string "희귀한 돌만 찾아다니는\l"
+	.string "별난 사람이야\p"
+	.string "어딘가의 동굴이나 바위산에\n"
+	.string "틀어박혀 있는 게 아닐까\p"
+	.string "희귀한 돌이라고 하면\n"
+	.string "난 운석 정도밖에\l"
+	.string "안 떠오르니까 말이지...$"
+	// ミクリ『やあ §あ§おｎ
+	// きみは ダイゴには あったかな?ｐ
+	// かれって……ｎ
+	// ほんとうは ものすごく つよいのにｐ
+	// あまり ポケモン しょうぶを しないでｎ
+	// めずらしい いしを さがして ばかりいるｌ
+	// かわりもの なんだよｐ
+	// どこかの どうくつか いわやまにｎ
+	// もぐってるんじゃ ないかなｐ
+	// めずらしい いし なんてｎ
+	// わたしには いんせき ぐらいしかｌ
+	// おもい うかばないんだけど……
 
 MatchCall_Text_MayRayquazaCall: @ 82B38C1
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "I was just in PACIFIDLOG a little\n"
-	.string "while ago.\p"
-	.string "I saw a giant green POKéMON\n"
-	.string "flying high in the sky.\p"
-	.string "I…\n"
-	.string "I've never seen anything like it.\p"
-	.string "I wonder what it was.\n"
-	.string "Is this maybe a major discovery?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...... 삑!\p"
+	.string "봄이: 앗 {PLAYER}!?\p"
+	.string "나 있지 방금까지 황금마을에\n"
+	.string "있었는데\l"
+	.string "커다란 초록색 포켓몬이\l"
+	.string "하늘을 날아가는 걸 봤어!\p"
+	.string "나...\n"
+	.string "그런 포켓몬은 본 적 없어!\p"
+	.string "뭐였을까 혹시 이거\n"
+	.string "대발견 아냐!?\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...... 딸깍-$"
+	// …… …… ……ｎ
+	// …… …… …… ピッ!ｐ
+	// ハルカ『あっ §あ§お!?ｐ
+	// あたしね さっきまで キナギ タウンにｎ
+	// いってたんだけどｌ
+	// おおきな みどりいろの ポケモンがｌ
+	// そらを とんで いくのを みたの!ｐ
+	// あたし……ｎ
+	// あんな ポケモン みたこと ない!ｐ
+	// なんだろう もしかしたら これってｎ
+	// だいはっけん!?ｐ
+	// …… …… ……ｎ
+	// …… …… …… ツ-
 
 MatchCall_Text_BrendanRayquazaCall: @ 82B39C6
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "BRENDAN: Hey, {PLAYER}!\n"
-	.string "I was in PACIFIDLOG just now.\p"
-	.string "I saw this huge green POKéMON\n"
-	.string "flying across the sky.\p"
-	.string "I've never seen anything that\n"
-	.string "amazing before.\p"
-	.string "I wish you could've seen it,\n"
-	.string "{PLAYER}.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...... 삑!\p"
+	.string "휘웅: 오 {PLAYER}!?\p"
+	.string "나 방금까지 황금마을에\n"
+	.string "있었는데 말이지\l"
+	.string "거대한 초록색 포켓몬이\l"
+	.string "하늘을 날아가는 걸 봤어!\p"
+	.string "그런 굉장한 녀석 본 적 없어\n"
+	.string "{PLAYER}에게도 보여주고 싶었는데!\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ...... 딸깍-$"
+	// …… …… ……ｎ
+	// …… …… …… ピッ!ｐ
+	// ユウキ『おっ §あ!?ｐ
+	// オレ さっきまで キナギ タウンにｎ
+	// いってたんだけどさｌ
+	// でっかい みどりいろの ポケモンがｌ
+	// そらを とんで いくのを みたんだ!ｐ
+	// あんな すごいの みたこと ないよｎ
+	// §あにも みせたかったなあ!ｐ
+	// …… …… ……ｎ
+	// …… …… …… ツ-
 
 MatchCall_Text_May1:: @ 2B3AB3
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "MR. BRINEY retired as a SAILOR,\n"
-	.string "but I still see him out on the sea\l"
-	.string "with his pet PEEKO sometimes.\p"
-	.string "He must love the sea still.$"
+	.string "봄이: 앗 {PLAYER}{K_AYA}!\p"
+	.string "하기노인은\n"
+	.string "선원에서 은퇴했지만\p"
+	.string "가끔씩 피코와 함께\n"
+	.string "바다로 나가는 걸 봤어\p"
+	.string "분명 아직도 바다가 좋은 거겠지!$"
+	// ハルカ『あっ §あ§お!ｐ
+	// ハギろうじんはｎ
+	// ふなのりを いんたい したけどｐ
+	// ときどき ピ-コちゃんと いっしょにｎ
+	// うみに でてるのを みかけるよｐ
+	// きっと いまも うみが すきなんだね!
 
 MatchCall_Text_May2:: @ 2B3B3F
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "You know how little towns like\n"
-	.string "PETALBURG and DEWFORD have GYMS?\p"
-	.string "For some reason, the big port of\n"
-	.string "SLATEPORT doesn't have a GYM.\p"
-	.string "When they finally build a GYM there,\n"
-	.string "I should apply to be the LEADER.$"
+	.string "봄이: 있지 있지 {PLAYER}{K_AYA}!\p"
+	.string "등화나 무로같이\n"
+	.string "조그만 마을에도 체육관이 있는데\p"
+	.string "커다란 항구 도시인 잿빛에는\n"
+	.string "어째선지 체육관이 없단 말이지\p"
+	.string "언젠가 체육관이 생기면 나\n"
+	.string "체육관 관장에 입후보해 볼까-$"
+	// ハルカ『ねえねえ §あ§お!ｐ
+	// トウカや ムロみたいなｎ
+	// ちいさい まちに ジムが あるのにｐ
+	// おおきな みなとまちの カイナにはｎ
+	// なぜか ジムが ないのよねｐ
+	// いつか ジムが できたら あたしｎ
+	// ジムリ-ダ-に りっこうほ しよっかな-
 
 MatchCall_Text_May3:: @ 2B3C13
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "Do you remember a man named\n"
-	.string "the CUTTER in RUSTBORO?\l"
-	.string "He had a house there, remember?\p"
-	.string "Well, I found out his younger\n"
-	.string "brother lives in MAUVILLE.\p"
-	.string "Can you guess his name?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "The ROCK SMASH GUY!$"
+	.string "봄이: 앗 {PLAYER}{K_AYA}!\p"
+	.string "그러고 보니 금탄도시에\n"
+	.string "풀베기아저씨라는 사람의\l"
+	.string "집이 있었지?\p"
+	.string "보라시티에는\n"
+	.string "그 사람의 동생이 살고 있대!\p"
+	.string "이름은 뭐인 줄 알아?\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "바위깨기 아저씨라고 해!$"
+	// ハルカ『あっ §あ§お!ｐ
+	// そういえば カナズミシティにｎ
+	// いあいぎりオヤジ っていう ひとのｌ
+	// いえが あったでしょ?ｐ
+	// キンセツシティにはｎ
+	// その おとうとが すんでるんだって!ｐ
+	// どんな なまえだと おもう?ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// いわくだきオヤジ っていうの!
 
 MatchCall_Text_May4:: @ 2B3CF3
-	.string "MAY: {PLAYER}{KUN}?\p"
-	.string "RUSTURF TUNNEL…\n"
-	.string "They named it that because it\l"
-	.string "joins RUSTBORO and VERDANTURF.$"
+	.string "봄이: {PLAYER}{K_AYA}?\p"
+	.string "금잔터널은\n"
+	.string "금탄과 잔디를 이어주니까\l"
+	.string "금잔터널이라고 이름붙인 거구나!$"
+	// ハルカ『§あ§お?ｐ
+	// カナシダトンネル ってｎ
+	// カナズミと シダケを むすぶからｌ
+	// カナシダトンネル って いうのよね!
 
 MatchCall_Text_May5:: @ 2B3D4B
-	.string "MAY: {PLAYER}{KUN}, how are you?\p"
-	.string "I'm out on ROUTE 111 now.\p"
-	.string "I'm going to get a rest at an old\n"
-	.string "lady's house.\p"
-	.string "She lives just north of\n"
-	.string "the desert.$"
+	.string "봄이: {PLAYER}{K_AYA} 잘 지내-?\p"
+	.string "난 지금\n"
+	.string "111번 도로에 와 있어!\p"
+	.string "사막의 위쪽에 살고 있는\n"
+	.string "할머니의 집에서\l"
+	.string "하룻밤 자고 가려고!$"
+	// ハルカ『§あ§お げんき-?ｐ
+	// あたしは いまｎ
+	// 111ばんどうろに きているの!ｐ
+	// さばくの うえのほうに すんでるｎ
+	// おばあさんの ところでｌ
+	// ひとやすみ していく つもりよ!
 
 MatchCall_Text_May6:: @ 2B3DD1
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "Did you know about the MIRAGE\n"
-	.string "TOWER in the desert?\p"
-	.string "They say, like a mirage, it seems\n"
-	.string "to mysteriously come and go.\p"
-	.string "I wish I could see it.$"
+	.string "봄이: 앗 {PLAYER}{K_AYA}!\p"
+	.string "사막에 환영탑이라고 하는 건물이\n"
+	.string "서 있다는 거 알아?\p"
+	.string "신기루처럼\n"
+	.string "보였다 안 보였다 한대!\p"
+	.string "나도 한번 보고 싶다-$"
+	// ハルカ『あっ §あ§お!ｐ
+	// さばくに げんえいのとう っていうのがｎ
+	// たってるの しってる?ｐ
+	// しんきろう みたいにｎ
+	// みえたり みえなかったり するんだって!ｐ
+	// あたしも みてみたいな-
 
 MatchCall_Text_May7:: @ 2B3E69
-	.string "MAY: {PLAYER}{KUN}, yahoo!\n"
-	.string "I'm on ROUTE 119 now.\p"
-	.string "There's a big river here, and\n"
-	.string "it often rains.\p"
-	.string "I got soaked!$"
+	.string "봄이: {PLAYER}{K_AYA} 야호-!\p"
+	.string "나는 지금\n"
+	.string "119번 도로에 와 있어!\p"
+	.string "이 주변엔 커다란 강이 있고\n"
+	.string "비도 계속 내리니까\l"
+	.string "흠뻑 젖어버렸지 뭐야!$"
+	// ハルカ『§あ§お やっほ-!ｐ
+	// あたしは いまｎ
+	// 119ばんどうろに きているの!ｐ
+	// このあたりは おおきな かわが あるしｎ
+	// あめも しょっちゅう ふってるからｌ
+	// ずぶぬれに なっちゃったよ!
 
 MatchCall_Text_May8:: @ 2B3ECD
-	.string "MAY: {PLAYER}{KUN}, hi.\p"
-	.string "MT. PYRE is a memorial to POKéMON\n"
-	.string "whose lives have ended.\p"
-	.string "Maybe as a result, it's infested\n"
-	.string "with many GHOST-type POKéMON!$"
+	.string "봄이: {PLAYER}{K_AYA}!\p"
+	.string "송화산에는 수명이 다한\n"
+	.string "포켓몬들이 잠들어 있어!\p"
+	.string "그래서인지 출현하는 포켓몬도\n"
+	.string "고스트타입이 많아!$"
+	// ハルカ『§あ§お!ｐ
+	// おくりびやまには じゅみょうを おえたｎ
+	// ポケモンが まつられてるの!ｐ
+	// そのせいか しゅつげんする ポケモンもｎ
+	// ゴ-ストタイプが おおいのよ!
 
 MatchCall_Text_May9:: @ 2B3F2B
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "I was thinking of going to the hot\n"
-	.string "spring in LAVARIDGE.\p"
-	.string "But on the way, around JAGGED\n"
-	.string "PASS, I ran into some bad-looking\l"
-	.string "characters. The mood was ugly!$"
+	.string "봄이: 있지 있지 {PLAYER}{K_AYA}!\p"
+	.string "나 다시 용암마을의\n"
+	.string "온천에 가볼까 생각했는데\p"
+	.string "울퉁불퉁산길에\n"
+	.string "인상 나쁜 사람들이 바글바글해서\l"
+	.string "왠지 불길한 느낌이었어!$"
+	// ハルカ『ねえねえ §あ§お!ｐ
+	// あたし また フエンタウンのｎ
+	// おんせんに いこうと おもったんだけどｐ
+	// デコボコさんどうにｎ
+	// にんそうの わるいのが うろついていてｌ
+	// なんか いや-な かんじ だったわ!
 
 MatchCall_Text_May10:: @ 2B3FFB
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Did you see the news?\p"
-	.string "They say CAPT. STERN discovered\n"
-	.string "the SEAFLOOR CAVERN while on his\l"
-	.string "submarine expedition.$"
+	.string "봄이: 앗 {PLAYER}{K_AYA}!\p"
+	.string "해양관장이 잠수정으로\n"
+	.string "해저동굴을 발견했다고\l"
+	.string "뉴스에 나왔던데 봤어?$"
+	// ハルカ『あっ §あ§お!ｐ
+	// クスノキかんちょうが せんすいていでｎ
+	// かいていどうくつを はっけんした ってｌ
+	// ニュ-スで やってたけど みた?
 
 MatchCall_Text_May11:: @ 2B402B
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Don't you think it's neat?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "Did you know there's more?\p"
-	.string "There's a POKéMON move that lets\n"
-	.string "you go to the bottom of the sea.$"
+	.string "봄이: 있지 있지 {PLAYER}{K_AYA}!\p"
+	.string "배가 없어도 포켓몬의 기술로\n"
+	.string "바다 위를 건널 수 있다니\l"
+	.string "굉장하지!\p"
+	.string "하지만 그것뿐만이 아니라\n"
+	.string "포켓몬과 함께 해저로\l"
+	.string "잠수하는 기술도 있대!$"
+	// ハルカ『ねえねえ §あ§お!ｐ
+	// ふねが なくても ポケモンの わざでｎ
+	// うみのうえを わたって いけるってｌ
+	// すごいよね!ｐ
+	// でも それだけじゃなくてｎ
+	// ポケモンと いっしょに うみのそこにｌ
+	// もぐれちゃう わざも あるんだって!
 
 MatchCall_Text_May12:: @ 2B414B
-	.string "MAY: Hi, {PLAYER}{KUN}!\n"
-	.string "Hope things are okay!\p"
-	.string "Have you been on the sea and\n"
-	.string "found your way to the other side\l"
-	.string "blocked?\p"
-	.string "Try diving deep underwater and\n"
-	.string "following trenches.\p"
-	.string "When you get to the other side,\n"
-	.string "come up to the surface. Easy!$"
+	.string "봄이: {PLAYER}{K_AYA} 고생이 많겠네!\p"
+	.string "바다 위에선 보이는데 반대편으로\n"
+	.string "갈 수 없는 곳들은\p"
+	.string "어딘가에서 일단 잠수한 뒤\n"
+	.string "해저의 길로 빠져나가서\l"
+	.string "반대편의 수면으로 나오면 돼!$"
+	// ハルカ『§あ§お おつかれ!ｐ
+	// うみのうえで みえてるのに むこうがわへｎ
+	// いけない ところ なんかはｐ
+	// どこかから いったん もぐってｎ
+	// かいていの みちを とおりぬけてｌ
+	// むこうの すいめんに でれば いいの!
 
 MatchCall_Text_May13:: @ 2B4228
-	.string "MAY: Hi, {PLAYER}{KUN}!\p"
-	.string "How's it going?\n"
-	.string "Are you filling your POKéDEX?\p"
-	.string "I heard a rumor that there are\n"
-	.string "super-ancient POKéMON out there.\l"
-	.string "And there are three of them!\p"
-	.string "I would love to see even one…$"
+	.string "봄이: 안-녕 {PLAYER}{K_AYA}\p"
+	.string "어때? 도감은 순조롭게\n"
+	.string "채우고 있어?\p"
+	.string "있지 소문을 들었는데\n"
+	.string "어딘가에 초 고대포켓몬이라는 게\l"
+	.string "세 마리나 숨어있나 봐!\p"
+	.string "으-음 한 마리라도 좋으니까\n"
+	.string "한번 보고 싶다...$"
+	// ハルカ『は-い §あ§おｐ
+	// どう? ずかんは じゅんちょうにｎ
+	// うまっていってる?ｐ
+	// あのね うわさで きいたんだけどｎ
+	// どこかに ちょうこだいポケモン というのがｌ
+	// 3しゅるいも いるらしいの!ｐ
+	// う-ん 1しゅるい だけでも いいからｎ
+	// みてみたいなあ……
 
 MatchCall_Text_May14:: @ 2B42E0
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "I heard the rumors!\p"
-	.string "You beat the SOOTOPOLIS GYM\n"
-	.string "LEADER?\p"
-	.string "That means you don't have far\n"
-	.string "to go, do you?$"
+	.string "봄이: {PLAYER}{K_AYA}!\n"
+	.string "소문은 들었어!\p"
+	.string "루네의 체육관 관장도 이겼다면서?\n"
+	.string "그럼 이제 얼마 안 남았네!$"
+	// ハルカ『§あ§お!ｎ
+	// うわさは きいたよ!ｐ
+	// ルネの ジムリ-ダ-にも かったって?ｎ
+	// ということは もうひといき だね!
 
 MatchCall_Text_May15:: @ 2B4350
-	.string "MAY: There isn't a single TRAINER\n"
-	.string "left in HOENN who doesn't know who\l"
-	.string "you are, {PLAYER}{KUN}!\p"
-	.string "When I tell people that I'm friends\n"
-	.string "with you, {PLAYER}{KUN}, they're all\l"
-	.string "surprised!$"
+	.string "봄이: 이제 호연지방에서\n"
+	.string "{PLAYER}{K_EULREUL} 모르는\l"
+	.string "트레이너는 없어!\p"
+	.string "내가 {PLAYER}하고\n"
+	.string "친구라고 말하면\l"
+	.string "다들 깜짝 놀란다니까!$"
+	// ハルカ『もう ホウエンちほうでｎ
+	// §あ§おを しらないｌ
+	// トレ-ナ- なんて いないんだよ!ｐ
+	// あたしが §あ§おとｎ
+	// ともだちだ っていうとｌ
+	// みんな ビックリ するんだから!
 
 MatchCall_Text_Brendan1:: @ 2B43EF
-	.string "BRENDAN: Hey, {PLAYER}!\p"
-	.string "MR. BRINEY retired as a SAILOR,\n"
-	.string "but I still see him out on the sea\l"
-	.string "with his pet PEEKO sometimes.\p"
-	.string "I guess he must love\n"
-	.string "the sea still.$"
+	.string "휘웅: 오 {PLAYER}{K_AYA}!\p"
+	.string "하기노인은\n"
+	.string "선원에서 은퇴했지만\p"
+	.string "가끔씩 피코와 함께\n"
+	.string "바다로 나가는 걸 봤어\p"
+	.string "분명 아직도 바다가 좋은 거겠지!$"
+	// ユウキ『おっ §あ!ｐ
+	// ハギろうじんはｎ
+	// ふなのりを いんたい したけどｐ
+	// ときどき ピ-コちゃんと いっしょにｎ
+	// うみに でてるのを みかけるんだｐ
+	// きっと いまも うみが すきなんだろうな!
 
 MatchCall_Text_Brendan2:: @ 2B4486
-	.string "BRENDAN: Hey, {PLAYER}!\p"
-	.string "I don't get how little towns like\n"
-	.string "PETALBURG and DEWFORD have GYMS.\p"
-	.string "I mean, not when the big port of\n"
-	.string "SLATEPORT doesn't have a GYM.\p"
-	.string "When they finally build a GYM there,\n"
-	.string "I should apply to be the LEADER.$"
+	.string "휘웅: 안녕 {PLAYER}{K_AYA}!\p"
+	.string "등화나 무로같이\n"
+	.string "조그만 마을에도 체육관이 있는데\p"
+	.string "커다란 항구 도시인 잿빛에는\n"
+	.string "어째선지 체육관이 없단 말이지\p"
+	.string "언젠가 체육관이 생기면 나\n"
+	.string "체육관 관장에 입후보해 볼까$"
+	// ユウキ『やあ §あ!ｐ
+	// トウカや ムロみたいなｎ
+	// ちいさい まちに ジムが あるのにｐ
+	// おおきな みなとまちの カイナにはｎ
+	// なぜか ジムが ないんだよなｐ
+	// いつか ジムが できたら オレｎ
+	// ジムリ-ダ-に りっこうほ しようかな
 
 MatchCall_Text_Brendan3:: @ 2B4560
-	.string "BRENDAN: Yo, {PLAYER}!\p"
-	.string "Do you remember a guy named\n"
-	.string "the CUTTER in RUSTBORO?\l"
-	.string "He had a house there, right?\p"
-	.string "Well, it turns out his little\n"
-	.string "brother lives in MAUVILLE.\p"
-	.string "Can you guess his name?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "The ROCK SMASH GUY!$"
+	.string "휘웅: 오 {PLAYER}{K_AYA}!\p"
+	.string "그러고 보니 금탄도시에\n"
+	.string "풀베기아저씨라는 사람의\l"
+	.string "집이 있었잖아?\p"
+	.string "보라시티에는\n"
+	.string "그 사람의 동생이 살고 있대!\p"
+	.string "이름이 뭐인 줄 알아?\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "바위깨기 아저씨래!$"
+	// ユウキ『おっ §あ!ｐ
+	// そういえば カナズミシティにｎ
+	// いあいぎりオヤジ っていう ひとのｌ
+	// いえが あっただろう?ｐ
+	// キンセツシティにはｎ
+	// その おとうとが すんでるんだって!ｐ
+	// どんな なまえだと おもう?ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// いわくだきオヤジ だってさ!
 
 MatchCall_Text_Brendan4:: @ 2B463F
-	.string "BRENDAN: This voice… {PLAYER}?\p"
-	.string "They gave RUSTURF TUNNEL its name\n"
-	.string "because it joins RUSTBORO and\l"
-	.string "VERDANTURF.\p"
-	.string "Did you know that?$"
+	.string "휘웅: 이 목소린 {PLAYER}?\p"
+	.string "금잔터널은\n"
+	.string "금탄과 잔디를 이어주니까\l"
+	.string "금잔터널이라고 불리는 거야\p"
+	.string "너... 알고 있었어?$"
+	// ユウキ『そのこえは §あ?ｐ
+	// カナシダトンネル ってｎ
+	// カナズミと シダケを むすぶからｌ
+	// カナシダトンネル なんだよｐ
+	// おまえ…… しってたか?
 
 MatchCall_Text_Brendan5:: @ 2B46B7
-	.string "BRENDAN: {PLAYER}, what's up?\p"
-	.string "Hey, I'm out on ROUTE 111 now.\p"
-	.string "I'm going to rest up at an old\n"
-	.string "lady's house north of the desert.\p"
-	.string "If you're in the area, you should\n"
-	.string "visit her, too.$"
+	.string "휘웅: {PLAYER}{K_AYA} 잘 지내?\p"
+	.string "난 지금\n"
+	.string "111번 도로에 와 있어!\p"
+	.string "사막의 위쪽에 살고 있는\n"
+	.string "할머니의 집에서\l"
+	.string "하룻밤 자고 가려고!\p"
+	.string "너도 한번 찾아와봐!$"
+	// ユウキ『§あ げんきか?ｐ
+	// オレは いまｎ
+	// 111ばんどうろに きてるんだ!ｐ
+	// さばくの うえのほうに すんでるｎ
+	// ばあさんの ところでｌ
+	// ひとやすみ していく つもりさ!ｐ
+	// ちかくまで きたらｎ
+	// おまえも よっていくと いいよ!
 
 MatchCall_Text_Brendan6:: @ 2B4761
-	.string "BRENDAN: Hey, {PLAYER}!\p"
-	.string "Did you know about the MIRAGE\n"
-	.string "TOWER in the desert?\p"
-	.string "They say, like a mirage, it can be\n"
-	.string "seen only sometimes.\p"
-	.string "I'd like to see that!$"
+	.string "휘웅: 앗 {PLAYER}{K_AYA}!\p"
+	.string "사막에 환영탑이라는 건물이\n"
+	.string "서 있는 거 알아?\p"
+	.string "신기루처럼\n"
+	.string "보였다 안 보였다 한대!\p"
+	.string "나도 한번 보고 싶다-$"
+	// ユウキ『あっ §あ!ｐ
+	// さばくに げんえいのとう っていうのがｎ
+	// たってるの しってるか?ｐ
+	// しんきろう みたいにｎ
+	// みえたり みえなかったり するんだよ!ｐ
+	// オレも みてみたいな-
 
 MatchCall_Text_Brendan7:: @ 2B47F4
-	.string "BRENDAN: Who's this? Oh, {PLAYER}?\n"
-	.string "Guess what? I'm on ROUTE 119 now.\p"
-	.string "There's a big river here, and\n"
-	.string "it rains all the time.\p"
-	.string "I got soaked to the bone!$"
+	.string "휘웅: 누구? {PLAYER}{K_I}야?\p"
+	.string "난 지금\n"
+	.string "119번 도로에 와 있어!\p"
+	.string "이 주변은 커다란 강이 있고\n"
+	.string "항상 비가 오니까\l"
+	.string "흠뻑 젖어버렸어!$"
+	// ユウキ『だれ? §あか?ｐ
+	// オレは いまｎ
+	// 119ばんどうろに きてるんだ!ｐ
+	// このへんは でっかい かわが あるしｎ
+	// いっつも あめが ふってるからｌ
+	// ずぶぬれに なっちまったよ!
 
 MatchCall_Text_Brendan8:: @ 2B4882
-	.string "BRENDAN: {PLAYER}!\p"
-	.string "MT. PYRE is a memorial to POKéMON\n"
-	.string "whose lives have ended.\p"
-	.string "That's probably why it's infested\n"
-	.string "with many GHOST-type POKéMON!$"
+	.string "휘웅: {PLAYER}{K_AYA}!\p"
+	.string "송화산에는 수명이 다한\n"
+	.string "포켓몬들이 잠들어 있어!\p"
+	.string "그래서인지 출현하는 포켓몬도\n"
+	.string "고스트타입이 많단 말이지!$"
+	// ユウキ『§あ!ｐ
+	// おくりびやまには じゅみょうを おえたｎ
+	// ポケモンが まつられてるんだ!ｐ
+	// そのせいか しゅつげんする ポケモンもｎ
+	// ゴ-ストタイプが おおいんだよな!
 
 MatchCall_Text_Brendan9:: @ 2B4909
-	.string "BRENDAN: Hey there, {PLAYER}.\p"
-	.string "I was on my way back to the hot\n"
-	.string "spring in LAVARIDGE.\p"
-	.string "But around JAGGED PASS, I ran into\n"
-	.string "some nasty-looking characters.\p"
-	.string "Those creeps…\n"
-	.string "I think they were TEAM MAGMA.$"
+	.string "휘웅: 있지 있지 {PLAYER}{K_AYA}!\p"
+	.string "나 다시 용암마을의\n"
+	.string "온천에 가려고 했는데\p"
+	.string "울퉁불퉁산길을 지나는 도중에\n"
+	.string "인상 나쁜 사람들을 봤어!\p"
+	.string "그거 마그마단... 아니었을까!?$"
+	// ユウキ『なあなあ §あ!ｐ
+	// オレ また フエンタウンのｎ
+	// おんせんに いこうと おもったんだけどｐ
+	// デコボコさんどうの とちゅうにｎ
+	// にんそうの わるいのが いたんだよ!ｐ
+	// あれって マグマだん…… だよな!?
 
 MatchCall_Text_Brendan10:: @ 2B49C4
-	.string "BRENDAN: Hi, {PLAYER}!\n"
-	.string "Did you catch the news?\p"
-	.string "They say CAPT. STERN discovered\n"
-	.string "the SEAFLOOR CAVERN while on his\l"
-	.string "submarine expedition.$"
+	.string "휘웅: 오 {PLAYER}{K_AYA}!\p"
+	.string "해양관장이 잠수정으로\n"
+	.string "해저동굴을 발견했다고\l"
+	.string "뉴스에 나왔던데 봤어?$"
+	// ユウキ『おっ §あ!ｐ
+	// クスノキかんちょうが せんすいていでｎ
+	// かいていどうくつを はっけんした ってｌ
+	// ニュ-スで やってたけど みたか?
 
 MatchCall_Text_Brendan11:: @ 2B4A44
-	.string "BRENDAN: Hey there, {PLAYER}!\n"
-	.string "Don't you think it's awesome?\p"
-	.string "Even if you don't have a boat,\n"
-	.string "you can cross the sea using\l"
-	.string "a POKéMON's move.\p"
-	.string "And, there's a move that lets you\n"
-	.string "travel to the bottom of the sea.\p"
-	.string "Man, POKéMON can do anything!$"
+	.string "휘웅: 있지 있지 {PLAYER}{K_AYA}!\p"
+	.string "배가 없어도 포켓몬의 기술로\n"
+	.string "바다 위를 건널 수 있다니\l"
+	.string "왠지 굉장하지 않아!?\p"
+	.string "게다가 포켓몬과 함께\n"
+	.string "해저로 잠수할 수 있는 기술도 있대!\p"
+	.string "포켓몬은 뭐든지 할 수 있구나-!$"
+	// ユウキ『なあなあ §あ!ｐ
+	// ふねが なくても ポケモンの わざでｎ
+	// うみのうえを わたって いけるってｌ
+	// なんだか すごくないか!?ｐ
+	// しかも ポケモンと いっしょにｎ
+	// うみのそこに もぐれる わざも あるって!ｐ
+	// ポケモンって なんでも できるんだな-!
 
 MatchCall_Text_Brendan12:: @ 2B4B28
-	.string "BRENDAN: Howdy, {PLAYER}!\n"
-	.string "How are you holding up?\p"
-	.string "Ever found your way to the other\n"
-	.string "side blocked while on the sea?\p"
-	.string "Try diving deep underwater and\n"
-	.string "following trenches at the bottom.\p"
-	.string "When you get to the other side,\n"
-	.string "come up to the surface. Simple!$"
+	.string "휘웅: {PLAYER}{K_AYA} 고생이 많겠다!\p"
+	.string "바다 위에선 보이는데 반대편으로\n"
+	.string "갈 수 없는 곳들은\p"
+	.string "어딘가에서 일단 잠수한 뒤\n"
+	.string "해저의 길로 빠져나가서\l"
+	.string "반대편의 수면으로 나오면 돼!$"
+	// ユウキ『§あ おつかれ!ｐ
+	// うみのうえで みえてるのに むこうがわへｎ
+	// いけない ところ なんかはｐ
+	// どこかから いったん もぐってｎ
+	// かいていの みちを とおりぬけてｌ
+	// むこうの すいめんに でれば いいんだ!
 
 MatchCall_Text_Brendan13:: @ 2B4C15
-	.string "BRENDAN: Hey there, {PLAYER}!\p"
-	.string "How's it going? Filling up your\n"
-	.string "POKéDEX successfully?\p"
-	.string "I heard a rumor that there are\n"
-	.string "super-ancient POKéMON out there.\l"
-	.string "And not just one--three!\p"
-	.string "I'd love to catch even one…$"
+	.string "휘웅: 안-녕 {PLAYER}{K_AYA}!\p"
+	.string "어때? 도감은 순조롭게\n"
+	.string "채우고 있어?\p"
+	.string "있잖아 소문으로 들었는데\n"
+	.string "어딘가에 초 고대포켓몬이라는 게\l"
+	.string "세 마리나 숨어있나 봐!\p"
+	.string "으-음 한 마리라도 좋으니까\n"
+	.string "잡아보고 싶다...$"
+	// ユウキ『お-す §あ!ｐ
+	// どうだ? ずかんは じゅんちょうにｎ
+	// うまっていってるか?ｐ
+	// あのな うわさで きいたんだけどｎ
+	// どこかに ちょうこだいポケモン ってのがｌ
+	// 3しゅるいも いるらしいんだよ!ｐ
+	// う-ん 1しゅるい だけでも いいからｎ
+	// つかまえて みたいよなあ……
 
 MatchCall_Text_Brendan14:: @ 2B4CD8
-	.string "BRENDAN: {PLAYER}!\n"
-	.string "I heard the rumors!\p"
-	.string "You beat the SOOTOPOLIS GYM\n"
-	.string "LEADER? Awesome!\p"
-	.string "You're getting awful close now!$"
+	.string "휘웅: {PLAYER}{K_AYA}!\n"
+	.string "소문은 들었어!\p"
+	.string "루네의 체육관 관장을 이겼다면서?\n"
+	.string "굉장하다 이제 얼마 안 남았네!$"
+	// ユウキ『§あ!ｎ
+	// うわさは きいたよ!ｐ
+	// ルネの ジムリ-ダ-にも かったって?ｎ
+	// すげえなあ もうひといき だな!
 
 MatchCall_Text_Brendan15:: @ 2B4D46
-	.string "BRENDAN: There isn't a TRAINER in\n"
-	.string "all of HOENN who doesn't know who\l"
-	.string "you are, {PLAYER}!\p"
-	.string "When I tell people that I'm friends\n"
-	.string "with you, {PLAYER}, they get pretty\l"
-	.string "envious!$"
+	.string "휘웅: 이제 호연지방에\n"
+	.string "{PLAYER}{K_EULREUL} 모르는\l"
+	.string "트레이너는 없어!\p"
+	.string "내가 {PLAYER}하고\n"
+	.string "친구라고 말하면\l"
+	.string "다들 부러워한다고!$"
+	// ユウキ『もう ホウエンちほうでｎ
+	// §あのこと しらないｌ
+	// トレ-ナ- なんて いないんだ!ｐ
+	// オレが §あとｎ
+	// ともだちだ っていうとｌ
+	// みんな うらやましそうに するよ!
 
 MatchCall_Text_Wally1:: @ 2B4DE2
 	.string "WALLY: Oh, {PLAYER}!\p"

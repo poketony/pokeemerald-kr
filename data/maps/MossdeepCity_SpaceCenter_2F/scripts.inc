@@ -416,7 +416,7 @@ MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn: @ 82243A4
 	.string "뭐야 너!\p"
 	.string "우리 3명한테 둘러싸여 있으면서\n"
-	.string "해보자는 거냐?!$"
+	.string "해보자는 거냐!?$"
 	// なんだ おまえ!ｐ
 	// おれたち 3にんに かこまれてるのにｎ
 	// やろうってのか!?
@@ -523,7 +523,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
 	.string "성호: {PLAYER}{K_AYA}!\n"
-	.string "힘을 빌려줄 수 있어?!\p"
+	.string "힘을 빌려줄 수 있어!?\p"
 	.string "나와 함께 싸우자!\n"
 	.string "준비는 됐어?$"
 	// ダイゴ『§あ§お!ｎ

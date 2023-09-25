@@ -17,7 +17,7 @@ gText_AnabelDefeatGold:: @ 82C8480
 
 @ Battle Dome
 gText_TuckerWonSilver:: @ 82C848B
-	.string "아하하!! 부끄럽지 않아?!n"
+	.string "아하하!! 부끄럽지 않아!?\n"
 	.string "모두가 보고 있다고!!$"
 	// アッハッハッ!! はずかしく ないのっ!?ｎ
 	// みんなが みてるよっ!!
@@ -39,7 +39,7 @@ gText_TuckerDefeatGold:: @ 82C84F7
 @ Battle Factory
 gText_NolandWonSilver:: @ 82C8512
 	.string "수고했어!\n"
-	.string "좋은 수업이 되었지?$"
+	.string "좋은 수업이 됐지?$"
 	// おつかれさん!ｎ
 	// イイ べんきょうに なったろ?
 
@@ -93,7 +93,7 @@ gText_GretaWonGold:: @ 82C85F5
 	// ウィ-ッス! とうぜん!!
 
 gText_GretaDefeatGold:: @ 82C8611
-	.string "엇?! 진짜로?!$"
+	.string "엇!? 진짜로!?$"
 	// い-っ!? マジっ!?
 
 @ Battle Palace

@@ -1531,7 +1531,7 @@ PetalburgCity_Gym_Text_GymGuideAdvice: @ 8206542
 
 PetalburgCity_Gym_Text_GymGuidePostVictory: @ 82066F3
 	.string "{PLAYER}{K_EUNNEUN} 자신의 아버지마저\n"
-	.string "뛰어넘은 건가?!\p"
+	.string "뛰어넘은 건가!?\p"
 	.string "으아- 정말 기절초풍!!$"
 
 PetalburgCity_Gym_Text_RandallIntro: @ 820674F

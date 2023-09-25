@@ -1286,7 +1286,7 @@ const u8 *const gRoundsStringTable[DOME_ROUNDS_COUNT] =
 };
 
 const u8 gText_TheGreatNewHope[] = _("기대받는 대형 신인!\p");
-const u8 gText_WillChampionshipDreamComeTrue[] = _("꿈꾸던 우승은 이루어질 것인가?!\p");
+const u8 gText_WillChampionshipDreamComeTrue[] = _("꿈꾸던 우승은 이루어질 것인가!?\p");
 const u8 gText_AFormerChampion[] = _("전 챔피언!\p");
 const u8 gText_ThePreviousChampion[] = _("전회 챔피언!\p");
 const u8 gText_TheUnbeatenChampion[] = _("무적의 챔피언!\p");

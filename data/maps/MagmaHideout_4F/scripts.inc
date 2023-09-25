@@ -237,7 +237,7 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
 	.string "마적: ...그란돈!\n"
-	.string "대체 어떻게 된 거지?!\p"
+	.string "대체 어떻게 된 거지!?\p"
 	.string "쪽빛구슬로는 안되는 건가?\p"
 	.string "그란돈이여!\n"
 	.string "어디로 사라져 버린 거냐...$"

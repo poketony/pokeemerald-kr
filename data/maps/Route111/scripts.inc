@@ -616,7 +616,7 @@ Route111_Text_VictorPostBattle: @ 81F156F
 	.string "상당히 강한 트레이너가 있다-!$"
 
 Route111_Text_VictoriaIntro: @ 81F159D
-	.string "어머머! 생각보다 어리군요?!\p"
+	.string "어머머! 생각보다 어리군요!?\p"
 	.string "우리 남편을 이기다니\n"
 	.string "정말 굉장한 실력의\l"
 	.string "트레이너인가 보죠?\p"
@@ -624,7 +624,7 @@ Route111_Text_VictoriaIntro: @ 81F159D
 
 Route111_Text_VictoriaDefeat: @ 81F1616
 	.string "에구머니나!\n"
-	.string "어쩜 그렇게 강하신가요?!$"
+	.string "어쩜 그렇게 강하신가요!?$"
 
 Route111_Text_VictoriaPostBattle: @ 81F1645
 	.string "강해-!\n"
@@ -633,7 +633,7 @@ Route111_Text_VictoriaPostBattle: @ 81F1645
 Route111_Text_ViviIntro: @ 81F167E
 	.string "엄마보다 강하다니 굉장하다!\p"
 	.string "하지만 나도 꽤 강하다고!\n"
-	.string "진짜라니까?!$"
+	.string "진짜라니까!?$"
 
 Route111_Text_ViviDefeat: @ 81F16C6
 	.string "응? 서, 설마 져버린 건가...?$"

@@ -69,7 +69,7 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething: @ 823351D
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe: @ 82335E3
 	.string "뭐야 뭐야!\n"
-	.string "너 마그마단의 조무래기냐?!\p"
+	.string "너 마그마단의 조무래기냐!?\p"
 	.string "마그마단 놈들 아지트에서\n"
 	.string "굉장한 포켓몬을\l"
 	.string "눈뜨게 할 건가 봐!\p"
@@ -109,7 +109,7 @@ AquaHideout_1F_Text_BossIsOnRoute122: @ 8233739
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney: @ 82337FA
 	.string "뭐야 뭐야!\n"
-	.string "너 마그마단의 조무래기냐?!\p"
+	.string "너 마그마단의 조무래기냐!?\p"
 	.string "굴뚝산에는 마그마단이 노리는\n"
 	.string "굉장한 포켓몬이 있나 봐!\p"
 	.string "에-잇! 그건\n"

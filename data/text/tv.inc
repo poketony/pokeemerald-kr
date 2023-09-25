@@ -2695,140 +2695,234 @@ gTVPokemonBattleUpdateText07:: @ 0828AE26
 	.string "“POKéMON BATTLE UPDATE!”$"
 
 GabbyAndTy_Text_GabbyPreFirstBattle: @ 0828AF05
-	.string "GABBY: Oh! We've just spotted a tough-\n"
-	.string "looking TRAINER here of all places!\p"
-	.string "Okay, roll camera!\n"
-	.string "Let's get this interview.$"
+	.string "마리: 오 이런 곳에서\n"
+	.string "강해보이는 트레이너 발견!\p"
+	.string "좋-아 카메라 돌리고\n"
+	.string "인터뷰 시작이야!$"
+	// マリ『おっ こんなところにｎ
+	// つよそうな トレ-ナ- はっけん!ｐ
+	// よ-し カメラを まわしてｎ
+	// インタビュ- かいしよ!
 
 GabbyAndTy_Text_GabbyIntro: @ 0828AF7D
-	.string "GABBY: Oh! You're {PLAYER}! Hi!\n"
-	.string "Do you remember us from last time?\p"
-	.string "Can you show us how much stronger\n"
-	.string "you've become? Okay, cue interview!$"
+	.string "마리: 아! 당신은\n"
+	.string "지난번 배틀했던 {PLAYER}씨!\p"
+	.string "좋-아 얼마나 강해졌는지\n"
+	.string "바로 인터뷰 시작이야!$"
+	// マリ『あ! あなたはｎ
+	// このあいだの §あさん!ｐ
+	// よ-し どのくらい つよく なったかｎ
+	// さっそく インタビュ- かいしよ!
 
 GabbyAndTy_Text_GabbyDefeatFirstTime: @ 0828B000
-	.string "GABBY: My eyes didn't lie!\n"
-	.string "I did discover an astonishing TRAINER!$"
+	.string "마리: 내 눈은 틀리지 않았어\n"
+	.string "엄청난 트레이너를 발견한 거야!$"
+	// マリ『わたしの めに くるいはないわｎ
+	// すごい トレ-ナ-の はっけんよ!
 
 GabbyAndTy_Text_WhoAreYouInterview: @ 0828B042
-	.string "GABBY: Awesome! Awesome!\n"
-	.string "Who are you?!\p"
-	.string "I knew we were onto something wild\n"
-	.string "when we spotted you!\p"
-	.string "Oh, please let me explain. We travel\n"
-	.string "around everywhere interviewing all\l"
-	.string "sorts of TRAINERS.\p"
-	.string "So, would you give us a bit of your time\n"
-	.string "for an interview?$"
+	.string "마리: 굉장해! 정말 굉장해!\n"
+	.string "당신 대체 뭐 하는 사람이야?!\p"
+	.string "역시 우리가\n"
+	.string "눈독들일 만해!\p"
+	.string "...앗 사실 우린\n"
+	.string "다양한 장소의 다양한 트레이너를\l"
+	.string "인터뷰하면서 돌아다니고 있거든\p"
+	.string "그러니까 잠깐만\n"
+	.string "인터뷰에 응해줄 수 있을까?$"
+	// マリ『すごい! すごい!ｎ
+	// あなた いったい なにもの!?ｐ
+	// さすが わたしたちがｎ
+	// めを つけただけ あるわ!ｐ
+	// ……あっ じつは わたしたちｎ
+	// いろんな ばしょの いろんな トレ-ナ-をｌ
+	// インタビュ-して まわっているのよｐ
+	// だから すこしだけｎ
+	// インタビュ- させて もらえないかな?
 
 GabbyAndTy_Text_QuoteFromLastInterview: @ 0828B137
-	.string "GABBY: “{STR_VAR_1}!”\p"
-	.string "Remember? That's the quote you gave\n"
-	.string "us as the battle clincher last time.\p"
-	.string "I never, ever forget stuff like that!$"
+	.string "마리: “{STR_VAR_1}!”\p"
+	.string "기억나? 전에 배틀했을 때\n"
+	.string "당신이 말한 마무리 대사야\p"
+	.string "우린 제대로\n"
+	.string "기억하고 있다고!$"
+	// マリ『「§い!」ｐ
+	// おぼえてる? まえに たたかった ときｎ
+	// あなたが いった きめゼリフよｐ
+	// わたしたち ちゃ-んとｎ
+	// おぼえてるん だからね!
 
 GabbyAndTy_Text_YouStompedUsInterviewAgain: @ 0828B1B3
-	.string "The last time we battled, you stomped\n"
-	.string "us before we could brace ourselves…\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "맞아 맞아 전에 배틀했을 때는\n"
+	.string "손도 발도 못 썼었지...\p"
+	.string "그래서 어때?\n"
+	.string "또 인터뷰 받아볼래?$"
+	// そうそう まえに たたかった ときはｎ
+	// ても あしも でなかった のよねぇ……ｐ
+	// ところで どう?ｎ
+	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain: @ 0828B23D
-	.string "The last time we battled, didn't you\n"
-	.string "throw a POKé BALL at us?\p"
-	.string "We were shocked! So we told everyone,\n"
-	.string "just everyone, about it!\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "맞아 맞아 전에 배틀했을 때는\n"
+	.string "우리한테 몬스터볼을 던졌었지...\p"
+	.string "정말 깜짝 놀라서 다른 사람들한테\n"
+	.string "떠들고 다녔다니까!\p"
+	.string "그래서 어때?\n"
+	.string "또 인터뷰 받아볼래?$"
+	// そうそう まえに たたかった ときはｎ
+	// ボ-ルを なげられ たんだっけ……ｐ
+	// もう びっくりして みんなにｎ
+	// いいふらし ちゃったわよ!ｐ
+	// ところで どう?ｎ
+	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_CleverItemSkillsInterviewAgain: @ 0828B2FA
-	.string "The last time we battled, your item\n"
-	.string "skills cleverly did us in.\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "맞아 맞아 전에 배틀했을 때는\n"
+	.string "도구를 잘 써서\l"
+	.string "우리를 이겼었지\p"
+	.string "그래서 어때?\n"
+	.string "또 인터뷰 받아볼래?$"
+	// そうそう まえに たたかった ときはｎ
+	// どうぐを うまく つかわれてｌ
+	// まけちゃった のよねｐ
+	// ところで どう?ｎ
+	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_WeLookedRespectableInterviewAgain: @ 0828B379
-	.string "The last time we battled, we managed\n"
-	.string "to look respectable.\p"
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "맞아 맞아 전에 배틀했을 때는\n"
+	.string "제법 좋은 승부를 했었지...\p"
+	.string "그래서 어때?\n"
+	.string "또 인터뷰 받아볼래?$"
+	// そうそう まえに たたかった ときはｎ
+	// けっこう いいしょうぶ だったんだよね……ｐ
+	// ところで どう?ｎ
+	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_InterviewAgain: @ 0828B3F3
-	.string "Anyway, what do you think?\n"
-	.string "Do you want to be interviewed again?$"
+	.string "그래서 어때?\n"
+	.string "또 인터뷰 받아볼래?$"
+	// ところで どう?ｎ
+	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_DescribeYourFeelings: @ 0828B433
-	.string "You will?\n"
-	.string "Thank you!\p"
-	.string "Okay, I need you to describe your\n"
-	.string "feelings about our battle, but it\l"
-	.string "has to be short and sweet. Go!$"
+	.string "정말?!\n"
+	.string "고마워!\p"
+	.string "그럼 배틀한 뒤의\n"
+	.string "감상을 팍 하고 한마디로\l"
+	.string "말해줘!$"
+	// ほんと!?ｎ
+	// ありがとう!ｐ
+	// じゃあ たたかいの あとのｎ
+	// かんそうを ビシッと ひとことでｌ
+	// どうぞ!
 
 GabbyAndTy_Text_PerfectWellBeSeeingYou: @ 0828B4AB
-	.string "GABBY: Mmm, yeah!\n"
-	.string "That's the perfect clincher!\p"
-	.string "I get the feeling that this will make\n"
-	.string "a great TV show.\p"
-	.string "There's a chance that they'll air this\n"
-	.string "on TV, so make sure to look for us!\p"
-	.string "Okay!\n"
-	.string "We'll be seeing you!$"
+	.string "마리: 음-!\n"
+	.string "최고의 마무리 대사야\p"
+	.string "왠지 좋은 TV 방송이\n"
+	.string "될 것 같은 예감이 들어!\p"
+	.string "어쩌면 이 인터뷰를\n"
+	.string "TV로 방송하게 될지도 모르니까\l"
+	.string "TV 체크하는 거 잊지 마!\p"
+	.string "그럼\n"
+	.string "또 어딘가에서 보자!$"
+	// マリ『ん-!ｎ
+	// さいこうの きめゼリフねｐ
+	// なんか いいテレビばんぐみがｎ
+	// できそうな よかん!ｐ
+	// もしかしたら このことをｎ
+	// テレビで ほうそうするかも しれないからｌ
+	// テレビの チェックを わすれないでね!ｐ
+	// それじゃあｎ
+	// また どこかで!
 
 GabbyAndTy_Text_DontGiveUpKeepingEyeOut: @ 0828B577
-	.string "GABBY: Oh…\p"
-	.string "Okay, but don't give up!\n"
-	.string "We'll be keeping an eye out for you!$"
+	.string "마리: 그래...\p"
+	.string "그래도 앞으로도 힘내!\n"
+	.string "당신을 주목하고 있을 거야!$"
+	// マリ『そう……ｐ
+	// でも これからも がんばってね!ｎ
+	// あなたのこと ちゅうもく してるわ!
 
 GabbyAndTy_Text_KeepingAnEyeOutForYou: @ 0828B5C0
-	.string "GABBY: We'll be keeping an eye out\n"
-	.string "for you!$"
+	.string "마리: 당신을\n"
+	.string "주목하고 있을 거야!$"
+	// マリ『あなたの ことｎ
+	// ちゅうもく してるわ!
 
 GabbyAndTy_Text_GabbyNotEnoughMons: @ 0828B5EC
-	.string "GABBY: Is there a strong TRAINER\n"
-	.string "anywhere with a lot of POKéMON?$"
+	.string "마리: 포켓몬을 잔뜩 데리고 있는\n"
+	.string "강한 트레이너 어디 없을까?$"
+	// マリ『ポケモンを いっぱい つれてるｎ
+	// つよい トレ-ナ-って いない かしら?
 
 GabbyAndTy_Text_GiveUsAnInterviewThisTime: @ 0828B62D
-	.string "GABBY: Wow, you are something!\p"
-	.string "You've gotten a lot stronger--a lot--\n"
-	.string "since we last battled.\p"
-	.string "We were right about you when we\n"
-	.string "spotted you as a hot TRAINER.\p"
-	.string "So, anyway, what do you think?\n"
-	.string "Are you willing to give us an interview\l"
-	.string "this time?$"
+	.string "마리: 음- 역시나!\p"
+	.string "전에 배틀했을 때보다\n"
+	.string "훨씬 강해졌어!\p"
+	.string "역시 우리가 찾아낸\n"
+	.string "트레이너야!\p"
+	.string "그래서 어때?\n"
+	.string "이번에야말로 인터뷰를\l"
+	.string "받아보지 않을래?$"
+	// マリ『う-ん さすがね!ｐ
+	// まえに たたかった ときよりｎ
+	// ずっと つよく なってる!ｐ
+	// やっぱり わたしたちが みつけたｎ
+	// トレ-ナ- よね!ｐ
+	// ところで どう?ｎ
+	// こんどこそ インタビュ-をｌ
+	// うけて もらえないかな?
 
 GabbyAndTy_Text_GabbyDefeat: @ 0828B719
-	.string "GABBY: That was an intense battle!\n"
-	.string "Did you get all that on camera?$"
+	.string "마리: 굉장한 배틀이었어!\n"
+	.string "이봐 제대로 카메라에 담았지?!$"
+	// マリ『すごい たたかいだったわ!ｎ
+	// ほら ちゃんと カメラにとった!?
 
 GabbyAndTy_Text_TyPreFirstBattle: @ 0828B75C
-	.string "TY: Hey, lookie here! A tough-looking\n"
-	.string "TRAINER here, of all places!\l"
-	.string "Camera's rolling!$"
+	.string "다이: 오 이런 곳에서\n"
+	.string "강해보이는 트레이너 발견!\l"
+	.string "바로 녹화 개시다!$"
+	// ダイ『おっ こんなところにｎ
+	// つよそうな トレ-ナ- はっけん!ｌ
+	// さっそく ろくが かいしだ!
 
 GabbyAndTy_Text_TyIntro: @ 0828B7B1
-	.string "TY: Hey, lookie here!\n"
-	.string "I remember you!\p"
-	.string "I'll get this battle all on this\n"
-	.string "here camera!$"
+	.string "다이: 넌 지난번의 그 애잖아!\p"
+	.string "좋-아 이 배틀을\n"
+	.string "모두 카메라에 담아주겠어$"
+	// ダイ『きみは このあいだの!ｐ
+	// よ-し この たたかいをｎ
+	// すべて カメラに おさめてやる
 
 GabbyAndTy_Text_TyPostBattle: @ 0828B805
-	.string "TY: You're a natural!\n"
-	.string "Got me some prime footage right here!$"
+	.string "다이: 역시나!\n"
+	.string "좋은 영상을 얻을 수 있었어!$"
+	// ダイ『さすがだな!ｎ
+	// いい えいぞうを とることが できたよ!
 
 GabbyAndTy_Text_TyNotEnoughMons: @ 0828B841
-	.string "TY: Do you only have the one POKéMON\n"
-	.string "and that's it?\p"
-	.string "If you had more POKéMON, it'd make for\n"
-	.string "better footage, but…$"
+	.string "다이: 넌 1마리밖에 포켓몬을\n"
+	.string "안 데리고 다니는 거야?\p"
+	.string "포켓몬이 잔뜩 있어야\n"
+	.string "좋은 영상이 나올 텐데...$"
+	// ダイ『きみは 1ぴきしか ポケモンをｎ
+	// もって ないのかい?ｐ
+	// ポケモンが いっぱい いたほうがｎ
+	// いい えいぞうに なるんだが……
 
 GabbyAndTy_Text_TyDefeatFirstTime: @ 0828B8B1
-	.string "TY: Yep, we sure spotted a hot TRAINER.\n"
-	.string "This is a huge scoop for us!$"
+	.string "다이: 굉장한 트레이너를 발견했어\n"
+	.string "이건 대특종이야!$"
+	// ダイ『すごい トレ-ナ-の はっけんだｎ
+	// これは だいスク-プだぞ!
 
 GabbyAndTy_Text_TyDefeat: @ 0828B8F6
-	.string "TY: Yep, I got it all.\n"
-	.string "That whole battle's on camera.$"
+	.string "다이: 지금 한 배틀의 모든 게\n"
+	.string "이 카메라에 담겨 있어!$"
+	// ダイ『いまの たたかいの すべてがｎ
+	// この カメラのなかに!
 
 gTVInSearchOfTrainersText00:: @ 0828B92C
 	.string "IN SEARCH OF TRAINERS…\p"
@@ -2840,6 +2934,15 @@ gTVInSearchOfTrainersText00:: @ 0828B92C
 	.string "TRAINER {PLAYER}.\p"
 	.string "There's something about this TRAINER\n"
 	.string "that piqued our interest.$"
+	// 『トレ-ナ-を もとめて』ｐ
+	// マリ『は-い わたしは いまｎ
+	// §いに きています!ｐ
+	// きょうは ここで あたらしい さいのうをｎ
+	// はっくつ しようと おもいます!ｐ
+	// きょう わたしが ちゅうもく したｎ
+	// トレ-ナ-は §あさん!ｐ
+	// わたしは この トレ-ナ-にｎ
+	// なにかを かんじます!
 
 gTVInSearchOfTrainersText01:: @ 0828BA20
 	.string "We've battled {PLAYER} before, but we\n"

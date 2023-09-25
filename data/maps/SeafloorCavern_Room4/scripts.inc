@@ -25,7 +25,7 @@ SeafloorCavern_Room4_Text_Grunt3PostBattle: @ 8234CFC
 
 SeafloorCavern_Room4_Text_Grunt4Intro: @ 8234D3A
 	.string "너 누구?\n"
-	.string "어디 가는 거야?!$"
+	.string "어디 가는 거야!?$"
 	// あなた だれ?ｎ
 	// どこへ いこうってのよ!?
 

@@ -584,7 +584,7 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike: @ 823E154
 	// ぱく ぱく
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet: @ 823E273
-	.string "뭐?!\n"
+	.string "뭐!?\n"
 	.string "너 무슨 소릴 하는 거야?\p"
 	.string "나 왠지\n"
 	.string "지난번에 응원하고 있을 때\l"
@@ -596,7 +596,7 @@ BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet: @ 823E273
 	// ば---っちり めが あったんだからっ!
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering: @ 823E2E9
-	.string "뭐라고-?!\p"
+	.string "뭐라고-!?\p"
 	.string "그건 옆에 있었던 내가\n"
 	.string "있어서 그런 거잖아!\p"
 	.string "그 사람은 내 응원을\n"

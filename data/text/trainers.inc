@@ -1,7 +1,7 @@
 Route102_Text_CalvinIntro:
 	.string "포켓몬을 데리고 있다면\n"
 	.string "너도 이제 어엿한 포켓몬 트레이너!\l"
-	.string "내 도전을 받아 줄 거지?!$"
+	.string "내 도전을 받아 줄 거지!?$"
 
 Route102_Text_CalvinDefeated:
 	.string "으아 져버렸어...\n"
@@ -24,7 +24,7 @@ Route102_Text_CalvinRegisterShort:
 Route102_Text_CalvinRematchIntro:
 	.string "너한테 지고 나서 필사적으로\n"
 	.string "포켓몬을 키웠어!\l"
-	.string "당연히 내 도전을 받아주겠지?!$"
+	.string "당연히 내 도전을 받아주겠지!?$"
 
 Route102_Text_CalvinRematchDefeated:
 	.string "아아... 졌어...\n"
@@ -256,7 +256,7 @@ Route104_Text_GinaPostBattle:
 
 Route104_Text_GinaNotEnoughMons:
 	.string "치선: 어라? 포켓몬이\n"
-	.string "한 마리뿐이잖아요?!\l"
+	.string "한 마리뿐이잖아요!?\l"
 	.string "그럼 우리랑 승부할 수 없어요!\p"
 	.string "포켓몬이 한 마리뿐이면\n"
 	.string "포켓몬이 외롭잖아요! 너무 불쌍해요!$"
@@ -461,7 +461,7 @@ Route105_Text_DominikDefeated:
 	.string "마음에 시퍼런 멍이 들었어...$"
 
 Route105_Text_DominikPostBattle:
-	.string "바다가 파란 이유?!\p"
+	.string "바다가 파란 이유!?\p"
 	.string "잿빛도시에 있는 박물관에서\n"
 	.string "듣긴 들었는데\l"
 	.string "금방 잊어버렸다!$"
@@ -547,7 +547,7 @@ Route106_Text_ElliotDefeated:
 
 Route106_Text_ElliotPostBattle:
 	.string "바다든 강이든 낚시는 최고다!\n"
-	.string "너도 그렇게 생각하지 않나?!$"
+	.string "너도 그렇게 생각하지 않나!?$"
 
 Route106_Text_ElliotRegister:
 	.string "낚시도 좋고 승부도 좋다!\n"
@@ -562,7 +562,7 @@ Route106_Text_ElliotRematchDefeated:
 
 Route106_Text_ElliotRematchPostBattle:
 	.string "이기든 지든 포켓몬은 최고다!\n"
-	.string "너도 그렇게 생각하지 않나?!$"
+	.string "너도 그렇게 생각하지 않나!?$"
 
 Route106_Text_NedIntro:
 	.string "다들 화장실에 가고 싶을 때는\n"
@@ -642,7 +642,7 @@ Route107_Text_TonyRematchIntro:
 Route107_Text_TonyRematchDefeated:
 	.string "쇼크다!!\p"
 	.string "포켓몬은 강해졌지만\n"
-	.string "정작 트레이너인 난 약한 그대로인 건가?!$"
+	.string "정작 트레이너인 난 약한 그대로인 건가!?$"
 
 Route107_Text_TonyRematchPostBattle:
 	.string "배틀 속에서 익힌 모든 것들이\n"
@@ -1020,7 +1020,7 @@ Route109_Text_ElijahPostBattle:
 Route110_Text_JacobIntro:
 	.string "어이쿠 위험했다!\n"
 	.string "자전거 레이스에\l"
-	.string "익숙하지 않은 모양이군?!$"
+	.string "익숙하지 않은 모양이군!?$"
 
 Route110_Text_JacobDefeated:
 	.string "끼-익!\n"
@@ -1033,7 +1033,7 @@ Route110_Text_JacobPostBattle:
 
 Route110_Text_AnthonyIntro:
 	.string "헤이 유-!\n"
-	.string "내 스피드를 따라잡을 수 있을까?!$"
+	.string "내 스피드를 따라잡을 수 있을까!?$"
 
 Route110_Text_AnthonyDefeated:
 	.string "오 마이 갓-!$"
@@ -1358,7 +1358,7 @@ Route111_Text_IreneIntro:
 	.string "잠깐 승부하지 않을래?$"
 
 Route111_Text_IreneDefeat:
-	.string "얄미울 정도로 강하구나?!$"
+	.string "얄미울 정도로 강하구나!?$"
 
 Route111_Text_IrenePostBattle:
 	.string "굴뚝산에 가볼까 하고\n"
@@ -1889,7 +1889,7 @@ Route114_Text_BernieRegister:
 Route114_Text_BernieRematchIntro:
 	.string "캠프파이어나\n"
 	.string "불꽃놀이를 할 때\l"
-	.string "물을 준비하고 있겠지?!$"
+	.string "물을 준비하고 있겠지!?$"
 
 Route114_Text_BernieRematchDefeat:
 	.string "타오르기도 전에\n"
@@ -2651,7 +2651,7 @@ Route118_Text_BarnyPostBattle:
 	.string "낚시를 하면서\n"
 	.string "포켓몬을 키웠지만\l"
 	.string "이길 수 없었다...\p"
-	.string "둘 다 애매한 실력인 건가?!$"
+	.string "둘 다 애매한 실력인 건가!?$"
 
 Route118_Text_WadeIntro:
 	.string "낚시꾼에게\n"
@@ -2702,7 +2702,7 @@ Route118_Text_DeandreIntro:
 
 Route118_Text_DeandreDefeat:
 	.string "돌아와! 괜찮아?\n"
-	.string "포켓몬 1,2,3?!$"
+	.string "포켓몬 1,2,3!?$"
 
 Route118_Text_DeandrePostBattle:
 	.string "내 포켓몬 팀 멋지지 않니?\p"
@@ -2763,7 +2763,7 @@ Route119_Text_GregIntro:
 	.string "이렇게 승부하는 거겠지만!$"
 
 Route119_Text_GregDefeat:
-	.string "꽤 강하잖아?!$"
+	.string "꽤 강하잖아!?$"
 
 Route119_Text_GregPostBattle:
 	.string "네가 어딘가 다른 곳으로 갈 때까지\n"
@@ -2902,7 +2902,7 @@ Route119_Text_HideoPostBattle:
 
 Route119_Text_ChrisIntro:
 	.string "나한테 말을 걸었다는 건 즉...\n"
-	.string "나한테 승부를 걸겠다 이거지?!\p"
+	.string "나한테 승부를 걸겠다 이거지!?\p"
 	.string "좋았어! 파도타기 하면서\n"
 	.string "낚아 올린 포켓몬으로 승부하겠다!$"
 
@@ -3074,7 +3074,7 @@ Route120_Text_ChipIntro:
 	.string "뭐지 넌?\p"
 	.string "설마, 있을지도\n"
 	.string "모른다고 하는\l"
-	.string "고대의 유적을 찾으러 온 겐가?!$"
+	.string "고대의 유적을 찾으러 온 겐가!?$"
 
 Route120_Text_ChipDefeat:
 	.string "이거 참 큰일이군$"
@@ -3365,7 +3365,7 @@ Route123_Text_WendyPostBattle:
 
 Route123_Text_BraxtonIntro:
 	.string "체육관 배지를\n"
-	.string "많이 가지고 있나 보군?!\p"
+	.string "많이 가지고 있나 보군!?\p"
 	.string "정말 그만큼 강한지\n"
 	.string "확인해 주겠어!$"
 
@@ -3686,7 +3686,7 @@ Route124_Text_LilaIntro:
 	.string "모처럼 바다에 왔는데\n"
 	.string "동생이랑 같이 있다니...\p"
 	.string "너! 기분 전환할 겸\n"
-	.string "포켓몬 승부할래?!$"
+	.string "포켓몬 승부할래!?$"
 
 Route124_Text_LilaDefeat:
 	.string "나미: 홍이 때문에 졌잖아!\n"
@@ -3831,7 +3831,7 @@ Route125_Text_SharonDefeat:
 	.string "졌다...$"
 
 Route125_Text_SharonPostBattle:
-	.string "넌 진짜 강하구나?!\n"
+	.string "넌 진짜 강하구나!?\n"
 	.string "깜짝 놀랐어!$"
 
 Route125_Text_ErnestIntro:
@@ -3943,7 +3943,7 @@ Route126_Text_DeanIntro:
 	.string "바로 루네시티다-!$"
 
 Route126_Text_DeanDefeat:
-	.string "당한 건가?!$"
+	.string "당한 건가!?$"
 
 Route126_Text_DeanPostBattle:
 	.string "루네시티의 입구를 못 찾겠다!\n"
@@ -4075,7 +4075,7 @@ Route127_Text_JonahPostBattle:
 	.string "계속 낚싯줄을 드리우고 있는 겁니다...$"
 
 Route127_Text_HenryIntro:
-	.string "어이쿠?! 파도타기를 쓰고 있는\n"
+	.string "어이쿠!? 파도타기를 쓰고 있는\n"
 	.string "포켓몬을 낚아 올리고 말았나?$"
 
 Route127_Text_HenryDefeat:
@@ -4334,7 +4334,7 @@ Route129_Text_ClarencePostBattle:
 Route130_Text_RodneyIntro:
 	.string "바다 한가운데에서 트레이너를\n"
 	.string "만나다니 별일이 다 있군\l"
-	.string "승부나 한판 벌여볼까?!$"
+	.string "승부나 한판 벌여볼까!?$"
 
 Route130_Text_RodneyDefeat:
 	.string "이렇게 강한 어린애가 있다니...$"
@@ -4413,7 +4413,7 @@ Route131_Text_SusiePostBattle:
 
 Route131_Text_KaraIntro:
 	.string "왜 남자는\n"
-	.string "비키니를 좋아하는 걸까?!\p"
+	.string "비키니를 좋아하는 걸까!?\p"
 	.string "다들 나를\n"
 	.string "빤히 쳐다봐!$"
 
@@ -4426,7 +4426,7 @@ Route131_Text_KaraPostBattle:
 
 Route131_Text_ReliIntro:
 	.string "애미: 남매가 힘을 합쳐서\n"
-	.string "한번 열심히 해볼까?!$"
+	.string "한번 열심히 해볼까!?$"
 
 Route131_Text_ReliDefeat:
 	.string "애미: 남매가 힘을 합쳐도\n"
@@ -4527,7 +4527,7 @@ Route132_Text_RonaldPostBattle:
 
 Route132_Text_KiyoIntro:
 	.string "24시간 포켓몬만 생각하고 있는\n"
-	.string "이 몸을 이길 수 있을 것 같나?!$"
+	.string "이 몸을 이길 수 있을 것 같나!?$"
 
 Route132_Text_KiyoDefeat:
 	.string "졌다\n"
@@ -4645,11 +4645,11 @@ Route133_Text_BeckIntro:
 
 Route133_Text_BeckDefeat:
 	.string "너...\n"
-	.string "어떻게 그렇게 멋있을 수 있지?!$"
+	.string "어떻게 그렇게 멋있을 수 있지!?$"
 
 Route133_Text_BeckPostBattle:
 	.string "슬슬 검방울시티로 돌아가고 싶은데\n"
-	.string "여기가 마음에 들고 말았어! 왜지?!$"
+	.string "여기가 마음에 들고 말았어! 왜지!?$"
 
 Route133_Text_MollieIntro:
 	.string "하도 많이 승부하여서\n"

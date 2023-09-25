@@ -37,8 +37,8 @@ VictoryRoad_B2F_Text_VitoIntro: @ 823695F
 	.string "누구에게도 지지 않는다고!$"
 
 VictoryRoad_B2F_Text_VitoDefeat: @ 82369B3
-	.string "우리 가족보다 강하다고?!\n"
-	.string "그런 게 가능한 건가?!$"
+	.string "우리 가족보다 강하다고!?\n"
+	.string "그런 게 가능한 건가!?$"
 
 VictoryRoad_B2F_Text_VitoPostBattle: @ 82369DE
 	.string "가족 중에서 제일 강했던 내가...\n"

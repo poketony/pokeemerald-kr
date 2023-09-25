@@ -64,7 +64,7 @@ SootopolisCity_Mart_Text_PPUpIsGreat: @ 8226816
 	// パワ-ポイントを ふやせるからな!
 
 SootopolisCity_Mart_Text_TooScaryOutside: @ 822685D
-	.string "대체 뭐가 일어나고 있는 거지?!\p"
+	.string "대체 무슨 일이 일어나는 거지!?\p"
 	.string "엄청 신경 쓰이지만\n"
 	.string "무서워서 밖으로 나갈 수가 없어!$"
 	// いったい なにが おこってるんだ!?ｐ
