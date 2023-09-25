@@ -676,7 +676,7 @@ BattleFrontier_Lounge3_Text_NotInterested:: @ 826342D
 	// せちがれぇ おこさま だなぁ!!
 
 BattleFrontier_Lounge3_Text_Oh:: @ 826346B
-	.string "오옷…$"
+	.string "오옷...$"
 	// おっ……
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer:: @ 826346F

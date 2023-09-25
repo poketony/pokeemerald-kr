@@ -4523,191 +4523,317 @@ MatchCall_Text_Brendan15:: @ 2B4D46
 	// みんな うらやましそうに するよ!
 
 MatchCall_Text_Wally1:: @ 2B4DE2
-	.string "WALLY: Oh, {PLAYER}!\p"
-	.string "I've been getting healthier and\n"
-	.string "more physically fit.\p"
-	.string "I hope I can become a TRAINER like\n"
-	.string "you soon, {PLAYER}!$"
+	.string "민진: 앗 {PLAYER}님!\p"
+	.string "최근엔 몸 상태도\n"
+	.string "많이 좋아진 것 같아요\p"
+	.string "저도 빨리 {PLAYER}님 같은\n"
+	.string "트레이너가 되고 싶네요!$"
+	// ミツル『あっ §あさん!ｐ
+	// さいきんは からだの ぐあいもｎ
+	// ずいぶん よくなって きたしｐ
+	// ぼくも はやく §あさん みたいなｎ
+	// トレ-ナ-に なりたいな!
 
 MatchCall_Text_Wally2:: @ 2B4E57
-	.string "WALLY: {PLAYER}, hello!\p"
-	.string "After RUSTURF TUNNEL went\n"
-	.string "through, WANDA's been very happy!$"
+	.string "민진: {PLAYER}님 안녕하세요!\p"
+	.string "금잔터널이 개통돼서\n"
+	.string "미진 누나도\l"
+	.string "엄청 기뻐하는 것 같았어요!$"
+	// ミツル『§あさん こんにちは!ｐ
+	// カナシダトンネルが かいつう したせいでｎ
+	// ミチルおねえちゃんもｌ
+	// すっごく うれしそう ですよ!
 
 MatchCall_Text_Wally3:: @ 2B4EA5
-	.string "WALLY: Oh, {PLAYER}!\p"
-	.string "I… I left my uncle's place in\n"
-	.string "VERDANTURF without telling anyone.\p"
-	.string "I wonder if he's furious with me…\p"
-	.string "{PLAYER}, you understand how\n"
-	.string "I feel, don't you?$"
+	.string "민진: 앗 {PLAYER}님!\p"
+	.string "저... 잔디마을의 작은아버지께\n"
+	.string "아무 말도 없이 나왔는데\l"
+	.string "아무래도 화나셨겠죠...\p"
+	.string "{PLAYER}님이라면\n"
+	.string "제 기분 이해하시죠?$"
+	// ミツル『あっ §あさん!ｐ
+	// ぼく…… シダケの おじさんにｎ
+	// なにも いわずに でてきちゃった けどｌ
+	// おじさん おこってないかな……ｐ
+	// §あさん ならｎ
+	// ぼくの きもち わかって くれますよね?
 
 MatchCall_Text_Wally4:: @ 2B4F41
-	.string "WALLY: {PLAYER}?\n"
-	.string "It's me, WALLY!\p"
-	.string "The world of TRAINERS is amazing!\p"
-	.string "When I have my POKéMON with me,\n"
-	.string "all sorts of people say hi!\p"
-	.string "It's as if everyone's getting\n"
-	.string "connected through POKéMON!$"
+	.string "민진: {PLAYER}님?\n"
+	.string "저예요 민진입니다!\p"
+	.string "트레이너의 세계는 굉장하군요!\n"
+	.string "포켓몬을 데리고 걷다보면\l"
+	.string "다들 말을 걸어줘요!\p"
+	.string "마치 포켓몬을 통해서\n"
+	.string "모두가 연결되어 있는 것 같아요!$"
+	// ミツル『§あさん?ｎ
+	// ぼくです ミツルです!ｐ
+	// トレ-ナ-の せかいって すごいですね!ｎ
+	// ポケモンを つれて あるいているとｌ
+	// みんなが こえを かけて くれるんです!ｐ
+	// まるで ポケモンを つうじてｎ
+	// みんなが つながっている みたいに!
 
 MatchCall_Text_Wally5:: @ 2B4FF3
-	.string "WALLY: {PLAYER}? It's awesome!\n"
-	.string "That RALTS we caught together?\l"
-	.string "It evolved, {PLAYER}!\p"
-	.string "Maybe I'm talented…\p"
-	.string "Oh, but I shouldn't get a big head\n"
-	.string "like that!\p"
-	.string "After all, it's the POKéMON that\n"
-	.string "should be praised!$"
+	.string "민진: {PLAYER}님? 굉장해요!\n"
+	.string "{PLAYER}님과 함께 잡았던\l"
+	.string "랄토스가 진화했습니다!\p"
+	.string "저 재능 있는 걸까요...?\p"
+	.string "라면서 자만하면\n"
+	.string "안 되겠죠\p"
+	.string "대단한 건 포켓몬이니까요!$"
+	// ミツル『§あさん? すごいですよ!ｎ
+	// §あさんと いっしょに つかまえたｌ
+	// ラルトスが しんか したんです!ｐ
+	// ぼくって さいのう あるのかなあ……ｐ
+	// な-んて ちょうしに のったらｎ
+	// いけませんよねｐ
+	// えらいのは ポケモン ですもん!
 
 MatchCall_Text_Wally6:: @ 2B50B1
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "WALLY appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "민진은 포켓내비의 호출이\n"
+	.string "닿지 않는 곳에 있는 것 같다...$"
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// ミツルは ポケナビの よびだしがｎ
+	// とどかない ところに いるようだ……
 
 MatchCall_Text_Wally7:: @ 2B5100
-	.string "WALLY: Oh, {PLAYER}!\p"
-	.string "Before I met you, I hardly ever\n"
-	.string "left my house…\p"
-	.string "But now, I'm on an adventure with\n"
-	.string "my very own POKéMON…\p"
-	.string "{PLAYER}…\n"
-	.string "Thank you…$"
+	.string "민진: 앗 {PLAYER}님!\p"
+	.string "여태까지 거의 집에서\n"
+	.string "나와본 적이 없는 제가\p"
+	.string "이렇게 포켓몬과 함께\n"
+	.string "모험을 하고 있다니...\p"
+	.string "{PLAYER}님... 고맙습니다$"
+	// ミツル『あっ §あさん!ｐ
+	// いままで ほとんど いえからｎ
+	// でたことの ない ぼくがｐ
+	// こうして ポケモンと いっしょにｎ
+	// ぼうけんを している なんて……ｐ
+	// §あさん…… ありがとう
 
 MatchCall_Text_Scott1:: @ 2B5184
-	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
-	.string "You know how POKéMON can be found\n"
-	.string "everywhere?\p"
-	.string "Like in the mountains, in the sea,\n"
-	.string "in tall grass anywhere?\p"
-	.string "Just like POKéMON, you can find\n"
-	.string "TRAINERS everywhere, too.\p"
-	.string "As a result, I have to hurry\n"
-	.string "everywhere, too. Busy, busy!$"
+	.string "금작화: 안녕 안녕 {PLAYER}{K_AYA}\p"
+	.string "산 바다 풀숲\n"
+	.string "어디에나 포켓몬이 있듯이\l"
+	.string "트레이너도 어디에나 있는 법이지\p"
+	.string "덕분에 나도\n"
+	.string "이쪽저쪽 가보느라\l"
+	.string "바빠서 문제라니까!$"
+	// エニシダ『ど-も ど-も §あ§おｐ
+	// やまでも うみでも くさむらでもｎ
+	// どこにだって ポケモンが いるようにｌ
+	// トレ-ナ-さん というのもｌ
+	// いろんな ところに いるもんだねえｐ
+	// おかげで わたしもｎ
+	// アッチいったり コッチいったりｌ
+	// いそがしくて しょうがないよ!
 
 MatchCall_Text_Scott2:: @ 2B5275
-	.string "SCOTT: I'm on ROUTE 119 right now.\n"
-	.string "It's teeming with TRAINERS!\p"
-	.string "It's also overgrown with tall grass\n"
-	.string "everywhere, it seems.\p"
-	.string "Walking around in shorts here\n"
-	.string "makes me all ticklish!$"
+	.string "금작화: 난 지금\n"
+	.string "119번 도로에 와있는데\l"
+	.string "트레이너가 잔뜩 있네!\p"
+	.string "하지만 이 주변은 긴 풀이\n"
+	.string "잔뜩 자라있어서\p"
+	.string "반바지를 입고 다니면\n"
+	.string "다리가 간지러워서 곤란해!$"
+	// エニシダ『わたしは いまｎ
+	// 119ばん どうろに きてるんだけどｌ
+	// たくさんの トレ-ナ-が いるねえ!ｐ
+	// でも このあたりは せのたかい くさがｎ
+	// いっぱい はえてるからｐ
+	// はんズボンで あるきまわるとｎ
+	// あしが くすぐったくて こまるよ!
 
 MatchCall_Text_Scott3:: @ 2B5323
-	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
-	.string "Have you had the chance to climb\n"
-	.string "MT. PYRE?\p"
-	.string "The place is a memorial to POKéMON\n"
-	.string "that have passed away.\p"
-	.string "It's somewhere every TRAINER\n"
-	.string "should climb to the top of once.$"
+	.string "금작화: 여어 {PLAYER}{K_AYA}!\p"
+	.string "넌 송화산이라는 곳을\n"
+	.string "올라가본 적 있어?\p"
+	.string "그곳은 포켓몬의 영혼이\n"
+	.string "잠들어 있는 장소거든\p"
+	.string "트레이너라면 한 번쯤은\n"
+	.string "정상까지 가봐야 하지 않겠어?$"
+	// エニシダ『やあやあ §あ§お!ｐ
+	// きみは おくりびやま ってｎ
+	// のぼったこと ある?ｐ
+	// あそこは ポケモンの たましいがｎ
+	// まつられている ばしょ だからねえｐ
+	// トレ-ナ- ならば いちど ぐらいはｎ
+	// てっぺんまで のぼって みないとね!
 
 MatchCall_Text_Scott4:: @ 2B53DB
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\p"
-	.string "I've been hearing about these odd\n"
-	.string "gangs being a nuisance.\p"
-	.string "TEAM MAGMA and TEAM AQUA,\n"
-	.string "I think they were.\p"
-	.string "I would think there'd be some\n"
-	.string "skilled TRAINERS among them.\p"
-	.string "…But if they're thugs…$"
+	.string "금작화: 음- {PLAYER}{K_AYA}!\p"
+	.string "이거야 원 최근에\n"
+	.string "마그마단이라든가 아쿠아단이라든가\l"
+	.string "이상한 녀석들이 날뛰고 있지\p"
+	.string "그들 중에는\n"
+	.string "뛰어난 트레이너도 있는 것 같지만\l"
+	.string "나쁜 녀석들이니까...$"
+	// エニシダ『ん- §あ§お!ｐ
+	// どうも ちかごろはｎ
+	// マグマだん とか アクアだん とかｌ
+	// おかしな れんちゅうが あばれてるねｐ
+	// かれらの なかにはｎ
+	// すぐれた トレ-ナ-も いるんだろうけどｌ
+	// でも わるもの じゃあなあ……
 
 MatchCall_Text_Scott5:: @ 2B54A5
-	.string "SCOTT: Oh, hi, {PLAYER}{KUN}.\p"
-	.string "Might there be tough TRAINERS\n"
-	.string "at the bottom of the sea?\p"
-	.string "I can't go check for myself.\n"
-	.string "I can't swim, for one.\l"
-	.string "And I don't raise POKéMON…$"
+	.string "금작화: 오오- {PLAYER}{K_AYA}\p"
+	.string "있지 바다 저편에도 굉장한 실력의\n"
+	.string "트레이너가 있을까?\p"
+	.string "하지만 확인하러 가려 해도\n"
+	.string "난 수영 못 하고\l"
+	.string "포켓몬도 없어서...$"
+	// エニシダ『おお- §あ§おｐ
+	// あのね うみのそこにも すごうでのｎ
+	// トレ-ナ-が いたり するのかな?ｐ
+	// でも たしかめに いこうにもｎ
+	// わたしは およげないしｌ
+	// ポケモンも もってないし……
 
 MatchCall_Text_Scott6:: @ 2B5541
-	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
-	.string "You know that you can challenge\n"
-	.string "the POKéMON LEAGUE when you've\l"
-	.string "collected all the GYM BADGES?\p"
-	.string "With your talent, becoming the\n"
-	.string "CHAMPION isn't a pipe dream.\p"
-	.string "But did you know?\n"
-	.string "There's somewhere even better.\p"
-	.string "But, that's all I'm willing to say\n"
-	.string "for the time being.\p"
-	.string "It's something you can look\n"
-	.string "forward to.\p"
-	.string "When you've won your way through\n"
-	.string "the POKéMON LEAGUE into the HALL\l"
-	.string "OF FAME!$"
+	.string "금작화: 여어여어 {PLAYER}{K_AYA}!\p"
+	.string "모든 체육관 배지를 모으면\n"
+	.string "포켓몬리그에 도전할 수 있다는 거\l"
+	.string "알고 있지?\p"
+	.string "너 정도의 실력이 있다면\n"
+	.string "챔피언도 꿈이 아니겠지만...\l"
+	.string "실은 더 좋은 곳이 있어\p"
+	.string "뭐 지금은 더 이상\n"
+	.string "말하진 않을게\p"
+	.string "포켓몬리그를 제패해\n"
+	.string "전당등록하고 나서 즐기자고!$"
+	// エニシダ『やあやあ §あ§お!ｐ
+	// ぜんぶの ジムバッジを あつめたらｎ
+	// ポケモンリ-グに ちょうせん できるｌ
+	// というのは しってるよね?ｐ
+	// きみほどの じつりょくが あるならｎ
+	// チャンピオンも ゆめじゃない けど……ｌ
+	// じつは もっと いいところが あるんだよｐ
+	// まあ いまは それいじょうｎ
+	// いわないで おくよｐ
+	// ポケモンリ-グを かちぬいてｎ
+	// でんどういり してからの おたのしみだね!
 
 MatchCall_Text_Scott7:: @ 2B56CA
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "SCOTT appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
+	.string "금작화는 포켓내비의 호출이\n"
+	.string "닿지 않는 곳에 있는 것 같다...$"
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// エニシダは ポケナビの よびだしがｎ
+	// とどかない ところに いるようだ……
 
 MatchCall_Text_Norman1:: @ 82B5719
-	.string "DAD: In RUSTBORO, there's a man\n"
-	.string "that goes by the odd name of\l"
-	.string "the CUTTER.\p"
-	.string "If you're in the area, you should\n"
-	.string "pay him a visit.$"
+	.string "아빠: 금탄도시 안에는\n"
+	.string "풀베기아저씨라고 하는\l"
+	.string "별난 이름을 지닌 사람이 살고 있단다!\p"
+	.string "근처에 있다면\n"
+	.string "너도 찾아가보렴!$"
+	// パパ『カナズミの まちにはｎ
+	// いあいぎりおやじ というｌ
+	// かわった なまえの ひとが すんでいる!ｐ
+	// ちかくまで いったらｎ
+	// おまえも たずねて みると いいぞ!
 
 MatchCall_Text_Norman2:: @ 82B5795
-	.string "DAD: Hm… Little by little, but also\n"
-	.string "very surely, you're getting\l"
-	.string "tougher, {PLAYER}.\p"
-	.string "The stronger you get, the farther\n"
-	.string "and higher you soar from Mother\l"
-	.string "and me…\p"
-	.string "This feeling is hard to explain.$"
+	.string "아빠: 흠... {PLAYER}{K_EUNNEUN}\n"
+	.string "조금씩 하지만 확실하게\l"
+	.string "강해지고 있구나\p"
+	.string "네가 강해지면 강해질수록\n"
+	.string "나와 엄마의 곁에서\l"
+	.string "멀리 떨어져버리고 말지...\p"
+	.string "정말 복잡한 기분이야$"
+	// パパ『ふむ…… §あはｎ
+	// すこしずつ しかし かくじつにｌ
+	// つよく なっているなｐ
+	// おまえが つよくなれば なるほどｎ
+	// わたしや ママの もとからｌ
+	// とおくへ はなれて いってしまう……ｐ
+	// なんとも ふくざつな きぶんだよ
 
 MatchCall_Text_Norman3:: @ 82B584D
-	.string "DAD: I see…\n"
-	.string "You've collected four GYM BADGES…\p"
-	.string "There's no avoiding it now.\n"
-	.string "We will battle like I promised.\p"
-	.string "Come anytime.\n"
-	.string "We'll all be waiting for you!$"
+	.string "아빠: 그래...\n"
+	.string "체육관 배지를 4개 모았구나\p"
+	.string "그럼 약속대로\n"
+	.string "포켓몬 승부를 해야겠지...\p"
+	.string "언제든지 오렴 기다리고 있으마!$"
+	// パパ『そうか……ｎ
+	// ジムバッジを 4つ あつめたのかｐ
+	// では やくそく どおりｎ
+	// ポケモンしょうぶ だな……ｐ
+	// いつでも おいで まってるぞ!
 
 MatchCall_Text_Norman4:: @ 82B58E3
-	.string "DAD: {PLAYER}! You'd better go visit\n"
-	.string "Mother every so often.\p"
-	.string "I'm going to remain here and\n"
-	.string "redouble my training.\p"
-	.string "The way of battling is deep\n"
-	.string "and unforgiving!$"
+	.string "아빠: {PLAYER}{K_AYA}! 가끔은 엄마한테도\n"
+	.string "얼굴을 비추러 가렴!\p"
+	.string "나는 여기서\n"
+	.string "스스로를 갈고닦을 거란다!\p"
+	.string "포켓몬 승부의 길은\n"
+	.string "심오하니까 말이다!$"
+	// パパ『§あ! たまには ママにもｎ
+	// あいに いって あげるんだぞ!ｐ
+	// わたしは ここでｎ
+	// じぶんを きたえなおす!ｐ
+	// ポケモンしょうぶの みちはｎ
+	// おくが ふかい からな!
 
 MatchCall_Text_Norman5:: @ 82B5979
-	.string "DAD: Oh, hi, {PLAYER}!\p"
-	.string "What's that? MAGMA EMBLEM?\n"
-	.string "I don't know what that's about.\p"
-	.string "But with a name like that, it may\n"
-	.string "be somehow linked to a volcano!$"
+	.string "아빠: 오오 {PLAYER}{K_AYA}!\p"
+	.string "왜 그러니? 마그마의증표...?\n"
+	.string "그게 뭔지 나는 모르겠지만\p"
+	.string "마그마라고 하니까\n"
+	.string "왠지 화산과 관계있을 것 같구나!$"
+	// パパ『おお §あ!ｐ
+	// なになに? マグマのしるし……?ｎ
+	// なんのことか わたしには わからないがｐ
+	// マグマと いうぐらい だからｎ
+	// なにか かざんと かんけい ありそうだな!
 
 MatchCall_Text_Norman6:: @ 82B5A07
-	.string "DAD: Hiyah! Haah! Dwah!\p"
-	.string "…Oh? {PLAYER}!\p"
-	.string "You caught me right in the middle\n"
-	.string "of a POKéMON training session!$"
+	.string "아빠: 흐압! 하앗! 이얏-!\p"
+	.string "...오 {PLAYER}{K_I}구나!\p"
+	.string "난 지금 포켓몬과 함께\n"
+	.string "한창 트레이닝 중이란다!$"
+	// パパ『せや! うりゃ! どりゃ-!ｐ
+	// ……お §あか!ｐ
+	// わたしは いま ポケモンと いっしょにｎ
+	// トレ-ニングの まっさいちゅうだ!
 
 MatchCall_Text_Norman7:: @ 82B5A69
-	.string "DAD: {PLAYER}!\p"
-	.string "Who would've thought you'd become\n"
-	.string "the POKéMON LEAGUE CHAMPION…\p"
-	.string "Okay!\n"
-	.string "I won't be left behind!$"
+	.string "아빠: {PLAYER}{K_AYA}!\p"
+	.string "설마 네가 전당등록을\n"
+	.string "해낼 줄이야...\p"
+	.string "좋았어!\n"
+	.string "나도 지고 있을 순 없지!$"
+	// パパ『§あ!ｐ
+	// まさか おまえが でんどういりをｎ
+	// はたして しまうとは……ｐ
+	// よし!ｎ
+	// わたしも まけては いられないぞ!
 
 MatchCall_Text_Norman8:: @ 82B5ACF
-	.string "DAD: Hm? {PLAYER}?\n"
-	.string "What good timing!\p"
-	.string "This time, I'm going to challenge\n"
-	.string "you to battle.\p"
-	.string "I'm waiting in the PETALBURG GYM.\n"
-	.string "Accept my challenge anytime!$"
+	.string "아빠: ...음? {PLAYER}{K_I}니?\n"
+	.string "이거 마침 잘됐구나!\p"
+	.string "이번엔 아빠가 너한테\n"
+	.string "승부를 신청할 거란다\p"
+	.string "등화의 체육관에서 기다릴 테니\n"
+	.string "언제든지 도전하러 오렴!$"
+	// パパ『……ん? §あか?ｎ
+	// これは ちょうど よかった!ｐ
+	// こんどは パパから おまえにｎ
+	// しょうぶを もうしこんで やろうｐ
+	// トウカの ジムで まってるからｎ
+	// いつでも ちょうせんしに おいで!
 
 MatchCall_Text_Norman9:: @ 82B5B5E
-	.string "DAD: …You amaze me, {PLAYER}.\n"
-	.string "How much higher will you soar?$"
+	.string "아빠: ...굉장하구나 {PLAYER}{K_AYA}\n"
+	.string "어디까지 강해질지 궁금한걸$"
+	// パパ『……すごいなあ §あｎ
+	// どこまで つよく なっちゃうんだろう 
 
 MatchCall_Text_Steven1:: @ 82B5B95
 	.string "성호: 여어 {PLAYER}!\p"
