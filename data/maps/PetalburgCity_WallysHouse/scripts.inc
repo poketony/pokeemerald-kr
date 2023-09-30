@@ -68,14 +68,14 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHM03Surf:: @ 82042D5
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally: @ 82042DF
-	.string "너는...\n"
+	.string "넌...\n"
 	.string "아- {PLAYER}{K_I} 맞지?\p"
 	.string "아깐 민진이와 같이 놀아줘서\n"
 	.string "고맙구나...\p"
 	.string "그 애는 태어났을 때부터\n"
-	.string "몸이 그다지 좋지 않거든\p"
+	.string "몸이 별로 안 좋거든\p"
 	.string "그래서 잔디마을에 있는 친척 집에서\n"
-	.string "잠시 동안 신세 좀 지라고 했단다\p"
+	.string "잠시 신세 좀 지라고 했단다\p"
 	.string "거긴 여기보다 훨씬\n"
 	.string "공기가 깨끗한 곳이니깐!\p"
 	.string "...그래서 민진이 보러 온 거지?\p"
@@ -84,16 +84,16 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally: @ 82042DF
 	.string "지금이면 어디쯤 갔으려나...$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing: @ 820444D
-	.string "민진은 잘 있으려나...$"
+	.string "민진이는 잘 있으려나...$"
 
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
 	.string "안녕 {PLAYER}{K_AYA}!\p"
-	.string "우리 민진이가 잔디마을에 갔을\n"
-	.string "때보다 훨씬 건강해져서 말이야\p"
+	.string "우리 민진이가 잔디마을에 갔을 때보다\n"
+	.string "훨씬 건강해졌단다\p"
 	.string "너한테 신세 졌구나!\p"
 	.string "그날 네가 포켓몬 잡는 걸\n"
 	.string "도와준 덕분에 민진이가\l"
-	.string "이렇게 건강해질 수 있었단다\l"
+	.string "이렇게 건강해질 수 있었어\l"
 	.string "정말 고맙구나\p"
 	.string "우리 민진이한테 너 같은\n"
 	.string "상냥한 친구가 있어서\l"
@@ -110,19 +110,19 @@ PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces: @ 820461A
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon: @ 8204661
 	.string "민진이가\n" 
 	.string "곧 돌아온다고 했단다\p"
-	.string "빨리 돌아온다면 좋겠구나$"
+	.string "빨리 돌아오면 좋겠구나$"
 
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity: @ 8204698
 	.string "에엥!? 그랜드시티에서\n"
 	.string "민진이를 만났다고...?\p"
-	.string "에이 {PLAYER}\p"
+	.string "에이 {PLAYER}{K_AYA}\p"
 	.string "그 애가 아무리 건강해졌다고 해도\n"
 	.string "그렇게 먼 곳까지\l"
 	.string "혼자 갈 수 있을 리가 없잖니...$"
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy: @ 8204732
 	.string "민진이가 “포켓몬 잡았어!”라며\n"
-	.string "정말 기쁜듯이 얘기했단다\p"
+	.string "정말 기쁜 듯이 얘기했단다\p"
 	.string "그 애가 그렇게 기뻐하는 모습\n"
 	.string "오랜만에 봐$"
 
