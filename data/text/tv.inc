@@ -87,7 +87,7 @@ gTVBravoTrainerText00:: @ 0827F275
 	// §い1さんの ポケモン!
 
 gTVBravoTrainerText01:: @ 0827F304
-	.string "{STR_VAR_1}의 “{STR_VAR_2}”의\n"
+	.string "{STR_VAR_1} “{STR_VAR_2}”의\n"
 	.string "소개 시간이야-!\p"
 	.string "“{STR_VAR_2}”인가...\p"
 	.string "이미 닉네임부터\n"
@@ -609,24 +609,27 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2: @ 08280789
 	// バイバイ!
 
 gTVFanClubOpinionsText00:: @ 08280886
-	.string "WE ARE THE POKéMON FAN CLUB!\p"
-	.string "We're on the air!\p"
-	.string "On this program, we get your opinions,\n"
-	.string "and I shout them out on your behalf!\l"
-	.string "Isn't it a fantastic program concept?\p"
-	.string "Today, we bring you this report from\n"
-	.string "our reporter, who we sent out to the\l"
-	.string "POKéMON FAN CLUB.\p"
-	.string "So, just who is today's featured\n"
-	.string "POKéMON fan?\p"
-	.string "… … … … … … … …\p"
-	.string "{STR_VAR_1}!\p"
-	.string "So, let's hear what {STR_VAR_1} has to\n"
-	.string "say about {STR_VAR_3} the {STR_VAR_2}.\p"
-	.string "And, I will shout those words of love\n"
-	.string "out loud on TV!\p"
-	.string "Hoo-hah!\p"
-	.string "Let's shout!$"
+	.string "“우리들!\p"
+	.string "포켓몬 애호가클럽!”\p"
+	.string "네 시작했습니다!\p"
+	.string "이 방송은 여러분의\n"
+	.string "의견을 바로 제가\l"
+	.string "대신 외쳐드리는!\l"
+	.string "굉장한 방송이지요!!\p"
+	.string "자 오늘은 포켓몬 애호가클럽에\n"
+	.string "가서 여러 이야기를 들어본\l"
+	.string "리포터로부터 들어온 정보입니다!\p"
+	.string "자 그럼 오늘의\n"
+	.string "포켓몬 애호가는?\p"
+	.string "음-...\p"
+	.string "{STR_VAR_1}씨다-!!\p"
+	.string "그럼 자신의 포켓몬\p"
+	.string "{STR_VAR_2} “{STR_VAR_3}”에\n"
+	.string "대한 뜨거운 기분을\p"
+	.string "바로 제가 대신 TV를\n"
+	.string "통해 외쳐드리겠습니다!\p"
+	.string "우-!!\p"
+	.string "렛츠 샤우트!!$"
 	// 『ぼくたち!ｎ
 	// ポケモン だいすきクラブ!』ｐ
 	// はい はじまりました!ｐ
@@ -657,6 +660,14 @@ gTVFanClubOpinionsText01:: @ 08280A44
 	.string "Yeahah! That's a mighty fine shout!\p"
 	.string "Doesn't it bring back memories of those\n"
 	.string "days long gone by?$"
+	// さて §いさんが はじめてｎ
+	// §うと あったとき ちょっかんてきにｌ
+	// おもった ことは……ｌ
+	// ……ｐ
+	// 「§え!!」ｐ
+	// ん- いい さけびだ!ｐ
+	// まるで そのときの おもいでがｎ
+	// よみがえる ようだ-!!
 
 gTVFanClubOpinionsText02:: @ 08280AFC
 	.string "We asked {STR_VAR_1}, “If you were to\n"
