@@ -609,13 +609,13 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2: @ 08280789
 	// バイバイ!
 
 gTVFanClubOpinionsText00:: @ 08280886
-	.string "“우리들!\p"
+	.string "“우리들!\n"
 	.string "포켓몬 애호가클럽!”\p"
 	.string "네 시작했습니다!\p"
 	.string "이 방송은 여러분의\n"
 	.string "의견을 바로 제가\l"
 	.string "대신 외쳐드리는!\l"
-	.string "굉장한 방송이지요!!\p"
+	.string "굉장한 방송이죠!!\p"
 	.string "자 오늘은 포켓몬 애호가클럽에\n"
 	.string "가서 여러 이야기를 들어본\l"
 	.string "리포터로부터 들어온 정보입니다!\p"
@@ -653,13 +653,14 @@ gTVFanClubOpinionsText00:: @ 08280886
 	// レッツ シャウト!!!
 
 gTVFanClubOpinionsText01:: @ 08280A44
-	.string "We asked {STR_VAR_1}, “When you first\n"
-	.string "laid eyes on your {STR_VAR_2}, what was\l"
-	.string "your initial thought?”\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Yeahah! That's a mighty fine shout!\p"
-	.string "Doesn't it bring back memories of those\n"
-	.string "days long gone by?$"
+	.string "자 그럼 {STR_VAR_1}씨가 처음으로\n"
+	.string "{STR_VAR_2}{K_WAGWA} 만났을 때 직관적으로\l"
+	.string "생각한 것은...\l"
+	.string "......\p"
+	.string "“{STR_VAR_3}!!”\p"
+	.string "음- 좋은 외침입니다!\p"
+	.string "마치 그때의 추억이\n"
+	.string "되살아나는 듯하군요-!!$"
 	// さて §いさんが はじめてｎ
 	// §うと あったとき ちょっかんてきにｌ
 	// おもった ことは……ｌ
@@ -670,96 +671,167 @@ gTVFanClubOpinionsText01:: @ 08280A44
 	// よみがえる ようだ-!!
 
 gTVFanClubOpinionsText02:: @ 08280AFC
-	.string "We asked {STR_VAR_1}, “If you were to\n"
-	.string "liken your {STR_VAR_2} to something,\l"
-	.string "it would be…”\p"
-	.string "… … … … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Whoah-oh, now that's an original idea!\p"
-	.string "You sure can sense the intensity of\n"
-	.string "feeling the TRAINER has for\l"
-	.string "{STR_VAR_2}.$"
+	.string "자 그럼 {STR_VAR_1}씨가 매우 좋아하는\n"
+	.string "{STR_VAR_2}{K_EULREUL} 뭔가에 비유한다면\l"
+	.string "......\p"
+	.string "“{STR_VAR_3}!!”\p"
+	.string "음- 굉장한 발상이군요!!\p"
+	.string "격렬한 {STR_VAR_2}{K_EULREUL} 향한 생각이\n"
+	.string "느껴지네요-!$"
+	// さて §いさんの だいすきなｎ
+	// §うを なにかに たとえると したらｌ
+	// ……ｐ
+	// 「§え!!」ｐ
+	// ん- すごい はっそうだ!!ｐ
+	// はげしい §うへの おもいこみがｎ
+	// かんじられるね-!
 
 gTVFanClubOpinionsText03:: @ 08280BC4
-	.string "And let's see…\n"
-	.string "What was it about that {STR_VAR_2}\l"
-	.string "that so attracted {STR_VAR_1}?\p"
-	.string "… … … … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Whoa! Such a spectacular declaration!\p"
-	.string "The TRAINER's love for the {STR_VAR_2}\n"
-	.string "comes across loud and clear!$"
+	.string "자 그럼 {STR_VAR_1}씨가 {STR_VAR_2}에게\n"
+	.string "이끌린 이유는...\l"
+	.string "......\p"
+	.string "“{STR_VAR_3}!!”\p"
+	.string "오-!! 엄청난 의견이군요-!\p"
+	.string "{STR_VAR_2}{K_EULREUL} 얼마나 좋아하는지\n"
+	.string "팍팍 전해져 옵니다-!$"
+	// さて §いさんが §うにｎ
+	// ひかれた りゆうは……ｌ
+	// ……ｐ
+	// 「§え!!」ｐ
+	// お-!! すんばらしい いけんだ-!ｐ
+	// §うを どんなに すきかｎ
+	// ビンビン つたわって くるね-!
 
 gTVFanClubOpinionsText04:: @ 08280C7A
-	.string "Hm? Oh, there's still more.\n"
-	.string "Let's check it out!\p"
-	.string "Let me see, now…\p"
-	.string "We asked {STR_VAR_1}, “What do POKéMON\n"
-	.string "mean to you?”\p"
-	.string "… … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Bravo!\p"
-	.string "That's the best shout I've had all day!\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "It makes you want to shout it out loud\n"
-	.string "again and again!\p"
-	.string "Now that we've had a great shout, it's\n"
-	.string "time to say good-bye until next time!\p"
-	.string "So, let's all have one last shout!\n"
-	.string "All together now…\p"
-	.string "“{STR_VAR_3}!”$"
+	.string "음-? 아직 더 남아있네요-\n"
+	.string "불러봅시다!\p"
+	.string "으-음...\p"
+	.string "{STR_VAR_1}씨에게 있어 포켓몬을\n"
+	.string "한마디로 비유하자면 그것은!\l"
+	.string "......\p"
+	.string "“{STR_VAR_3}!!”\p"
+	.string "브라보!!\p"
+	.string "몇 번이고 외치고 싶어지는 말이군요-!\p"
+	.string "그럼 좋은 외침도 들었으니\n"
+	.string "다음에 또 봅시다!\p"
+	.string "마지막으로 한 번 더\n"
+	.string "다 같이 외쳐보죠!\p"
+	.string "“{STR_VAR_3}!!”$"
+	// ん-? まだ つづきが ありますね-ｎ
+	// よんで みましょう!ｐ
+	// え-と……ｐ
+	// §いさんに とって ポケモンをｎ
+	// ひとことで たとえると すれば それは!ｌ
+	// ……ｐ
+	// 「§え!!」ｐ
+	// ブラボ-!!ｐ
+	// いままでの なかで いちばんｎ
+	// いい さけび だった-!ｐ
+	// 「§え!!」ｐ
+	// なんども さけびたくなる ことばだね-!ｐ
+	// それでは いいさけびと であった ところでｎ
+	// また じかい おあいしましょう!ｐ
+	// さいごに もういちどｎ
+	// みんなで さけびましょう!ｐ
+	// 「§え!!」
 
 gTVFanClubText00:: @ 08280DEE
-	.string "WE ARE THE POKéMON FAN CLUB!\p"
-	.string "We're on the air!\p"
-	.string "Today, we'll get rolling with the\n"
-	.string "POKéMON SURVEY CORNER.\p"
-	.string "Out of all the tales woven by POKéMON\n"
-	.string "and TRAINERS, what startling new drama\l"
-	.string "will grab our attention today?\p"
-	.string "Let me see…\p"
-	.string "This one!\p"
-	.string "We'll start with this letter!\p"
-	.string "It's a letter from {STR_VAR_1} about a\n"
-	.string "beloved {STR_VAR_2}.\p"
-	.string "Let's see how passionately our writer\n"
-	.string "can express love for the {STR_VAR_2}!\l"
-	.string "Hmhm…$"
+	.string "“우리들!\n"
+	.string "포켓몬 애호가클럽!”\p"
+	.string "네 시작했습니다!\p"
+	.string "그럼 오늘은\n"
+	.string "포켓몬 설문 코너!\p"
+	.string "수많은 포켓몬과 트레이너의\n"
+	.string "사연 중에서\p"
+	.string "오늘은 어떤 이야기가\n"
+	.string "튀어나올까요!?\l"
+	.string "자 그럼 오늘의 사연은?\p"
+	.string "음-...\p"
+	.string "이거다!\p"
+	.string "그럼 편지의 내용을 소개하겠습니다!!\n"
+	.string "{STR_VAR_2}에게 보내는\n"
+	.string "{STR_VAR_1}씨의 편지네요-\p"
+	.string "그럼 얼마나 {STR_VAR_2}{K_EULREUL} 향한\n"
+	.string "뜨거운 마음이 담겨있는지\l"
+	.string "읽어보도록 합시다!\l"
+	.string "음 그럼-...$"
+	// 『ぼくたち!ｎ
+	// ポケモン だいすきクラブ!』ｐ
+	// はい はじまりました!ｐ
+	// じゃあ きょうは ポケモンアンケ-トのｎ
+	// コ-ナ-から!ｐ
+	// かずある ポケモンと トレ-ナ-のｎ
+	// はなしの なかからｐ
+	// きょうは どんな はなしがｎ
+	// とびだして くるのでしょうか!?ｌ
+	// さて きょうの はなしは?ｐ
+	// ん-……ｐ
+	// これだ!ｐ
+	// では てがみの しょうかい から!!ｐ
+	// §うの ことに ついてｎ
+	// §いさん からの おてがみだ-ｐ
+	// では どれだけ §うへのｎ
+	// あつい いけんが かいてあるかｌ
+	// よませて もらいましょう!ｌ
+	// え-と……
 
 gTVFanClubText01:: @ 08280F69
-	.string "Whoah!\n"
-	.string "What an amazing letter!$"
+	.string "오-!!\n"
+	.string "정말 굉장한 편지네요!$"
+	// お-!!ｎ
+	// なんて すばらしい てがみなんだ!!
 
 gTVFanClubText02:: @ 08280F88
-	.string "I loved it, so here it is again!$"
+	.string "마음에 들었으니 다시 한 번!$"
+	// きにいったから もういちど!
 
 gTVFanClubText03:: @ 08280FA9
-	.string "A great letter bears reading over\n"
-	.string "and over!$"
+	.string "좋은 편지는\n"
+	.string "몇 번이고 읽어도 좋네요-!!$"
+	// いい てがみはｎ
+	// なんど きいても いいね-!!
 
 gTVFanClubText04:: @ 08280FD5
-	.string "The bit “{STR_VAR_3},” that really\n"
-	.string "accentuates emotional impact!\p"
-	.string "It's a great letter that has real\n"
-	.string "heartfelt depth!$"
+	.string "“{STR_VAR_3}”{K_I}라는 말\n"
+	.string "덕분에 두근 하고 마음에 전해지는\l"
+	.string "좋은 편지군요-!!$"
+	// 「§え」 っていう ことばのｎ
+	// おかげで グッと こころに つたわってくるｌ
+	// いい てがみに なっているね-!!
 
 gTVFanClubText05:: @ 08281040
-	.string "Especially that “{STR_VAR_3}” bit!\p"
-	.string "I love how “{STR_VAR_3}” is used!$"
+	.string "특히 “{STR_VAR_3}” 여기 이 부분!\p"
+	.string "“{STR_VAR_3}”{K_I}라고 하는 부분이\n"
+	.string "마음에 든다구요-!$"
+	// とくに「§え」って ところ!ｐ
+	// 「§え」っていう ところがｎ
+	// きにいったぞ-!
 
 gTVFanClubText06:: @ 08281073
-	.string "By the way, and it's not important,\n"
-	.string "but “{STR_VAR_3}” is a great saying.\p"
-	.string "I've been using “{STR_VAR_3}” a lot\n"
-	.string "in conversations lately.$"
+	.string "그런데 딱히 상관은 없지만\n"
+	.string "“{STR_VAR_3}”{K_EUNNEUN} 참 좋은 말이죠\p"
+	.string "실은 저도 “{STR_VAR_3}”{K_I}라고\n"
+	.string "자주 말하고 다니거든요$"
+	// ところで あんまり かんけい ないけどｎ
+	// 「§え」って いいことば だよねｐ
+	// じつは おれも 「§え」ってｎ
+	// ことば さいきん よく つかうんだよね
 
 gTVFanClubText07:: @ 082810E7
-	.string "If I had to score this letter,\n"
-	.string "I'd give it {STR_VAR_3} points.\p"
-	.string "Next time, I'll be expecting an even\n"
-	.string "better letter, {STR_VAR_1}!\p"
-	.string "A-whoops, will you look at the time?\n"
-	.string "Time to say good-bye until next time!$"
+	.string "이 편지 저는\n"
+	.string "{STR_VAR_3}점을 주고 싶네요-!\p"
+	.string "다음은 좀 더 좋은 편지를\n"
+	.string "기대하고 있을게요! {STR_VAR_1}씨!\p"
+	.string "어이쿠 이제 시간이 다 됐군요!\n"
+	.string "그럼 또 모두\l"
+	.string "다음 방송에서 봅시다!!$"
+	// このてがみ じぶんてきにはｎ
+	// §えてん ていう かんじかな-!ｐ
+	// つぎは もっと いい てがみをｎ
+	// きたい してるよ! §いさん!!ｐ
+	// おっと もう こんなじかんだ!ｎ
+	// それでは また じかいｌ
+	// みなさま おあい しましょう!!
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest: @ 082811A0
 	.string "Oh?\n"
