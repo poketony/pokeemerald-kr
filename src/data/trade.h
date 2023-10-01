@@ -980,7 +980,7 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SEEDOT] = 
     {
-        .nickname = _("DOTS"), 
+        .nickname = _("세븐"), 
         .species = SPECIES_SEEDOT,
         .ivs = {5, 4, 5, 4, 4, 4},
         .abilityNum = 1, 
@@ -989,14 +989,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x84,
         .heldItem = ITEM_CHESTO_BERRY, 
         .mailNum = -1,
-        .otName = _("KOBE"), 
+        .otName = _("마준"), // マッチャン
         .otGender = MALE, 
         .sheen = 10,
         .requestedSpecies = SPECIES_RALTS
     }, 
     [INGAME_TRADE_PLUSLE] = 
     {
-        .nickname = _("PLUSES"), 
+        .nickname = _("플러플러"), // プラプラ
         .species = SPECIES_PLUSLE,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0, 
@@ -1005,14 +1005,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x6F,
         .heldItem = ITEM_WOOD_MAIL, 
         .mailNum = 0,
-        .otName = _("ROMAN"), 
+        .otName = _("아키"), // アッキ-
         .otGender = MALE, 
         .sheen = 10,
         .requestedSpecies = SPECIES_VOLBEAT
     }, 
     [INGAME_TRADE_HORSEA] = 
     {
-        .nickname = _("SEASOR"),
+        .nickname = _("고로"), // ゴロ-
         .species = SPECIES_HORSEA,
         .ivs = {5, 4, 4, 4, 5, 4},
         .abilityNum = 0, 
@@ -1021,14 +1021,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem = ITEM_WAVE_MAIL, 
         .mailNum = 1,
-        .otName = _("SKYLAR"), 
+        .otName = _("하늘이"), // ソガチン
         .otGender = MALE, 
         .sheen = 10,
         .requestedSpecies = SPECIES_BAGON
     }, 
     [INGAME_TRADE_MEOWTH] = 
     {
-        .nickname = _("MEOWOW"),
+        .nickname = _("냐"), // チ-
         .species = SPECIES_MEOWTH,
         .ivs = {4, 5, 4, 5, 4, 4},
         .abilityNum = 0, 
@@ -1037,7 +1037,7 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x8B,
         .heldItem = ITEM_RETRO_MAIL, 
         .mailNum = 2,
-        .otName = _("ISIS"), 
+        .otName = _("마리페"), // マリッペ
         .otGender = FEMALE, 
         .sheen = 10,
         .requestedSpecies = SPECIES_SKITTY
