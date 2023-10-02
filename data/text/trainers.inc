@@ -3428,7 +3428,7 @@ Route123_Text_JackiDefeat:
 
 Route123_Text_JackiPostBattle:
 	.string "누구라도 초능력을 가지고 있어\n"
-	.string "그냥 쓰는 법을 잊어버린 것 뿐이야$"
+	.string "그냥 쓰는 법을 잊어버린 것뿐이야$"
 
 Route123_Text_JackiRegister:
 	.string "다시 만났으면 좋겠다\n"

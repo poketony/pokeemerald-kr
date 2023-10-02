@@ -823,7 +823,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne: @ 821DB69
 	.string "좋은 트레이너라고 생각하는데\p"
 	.string "지금은 역시 {STR_VAR_1}{K_IGA}\n"
 	.string "제일이라고 생각해\p"
-	.string "뭐 내가 생각하는 것 뿐이니까\n"
+	.string "뭐 내가 생각하는 것뿐이니까\n"
 	.string "그렇게 신경 쓰지 않아도 돼$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer: @ 821DBFB

@@ -39,7 +39,7 @@ BerryBlender_Text_BlendMasterNoBerries: @ 82C439D
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks: @ 82C43FA
 	.string "그렇지!\n"
 	.string "그렇지!\p"
-	.string "그나저나 그대...\n"
+	.string "그나저나 자네...\n"
 	.string "당연히 포켓몬스넥을 만드는\l"
 	.string "방법은 알고 있겠지?$"
 	// そうじゃろう!ｎ
@@ -53,7 +53,7 @@ BerryBlender_Text_BlendMasterExplainBerryBlending: @ 82C444C
 	.string "뭐어 간단한 걸세!\p"
 	.string "나무열매블렌더의 마크가\n"
 	.string "자신이 있는 쪽으로 오면\l"
-	.string "버튼을 누르는 것 뿐이라네!\p"
+	.string "버튼을 누르는 것뿐이라네!\p"
 	.string "내 완벽한 손짓을 본다면\n"
 	.string "바로 알 수 있을 걸세!$"
 	// ふむむむっ!ｐ

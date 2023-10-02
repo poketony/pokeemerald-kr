@@ -834,179 +834,318 @@ gTVFanClubText07:: @ 082810E7
 	// みなさま おあい しましょう!!
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest: @ 082811A0
-	.string "Oh?\n"
-	.string "Do you perhaps like POKéMON?\p"
-	.string "I'm on assignment with the TV network.\p"
-	.string "I'm gathering stories on POKéMON and\n"
-	.string "TRAINERS that occurred recently.\p"
-	.string "If you don't mind, could you tell me\n"
-	.string "something about yourself?$"
+	.string "으음?\n"
+	.string "당신도 포켓몬을 좋아하시나요?\p"
+	.string "전 방송국 사람인데\n"
+	.string "최근 일어난\p"
+	.string "트레이너와 포켓몬의 사건을\n"
+	.string "들으면서 돌아다니고 있어요\p"
+	.string "만약 괜찮다면 뭔가\n"
+	.string "얘기를 들려주실 수 있나요?$"
+	// おや?ｎ
+	// あなたも ポケモンのことが おすきで?ｐ
+	// わたくし テレビきょくの ものでｎ
+	// さいきん おきたｐ
+	// トレ-ナ-と ポケモンの できごとをｎ
+	// きいて まわって いるのですｐ
+	// もし よければ なにかｎ
+	// はなしを きかせて くれませんかね?
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort: @ 0828126D
-	.string "I'm gathering stories on POKéMON and\n"
-	.string "TRAINERS that occurred recently.\p"
-	.string "If you don't mind, could you tell me\n"
-	.string "something about yourself?$"
+	.string "지금 최근 일어난\n"
+	.string "트레이너와 포켓몬의 사건을\l"
+	.string "들으면서 돌아다니고 있는데\p"
+	.string "만약 괜찮다면 뭔가\n"
+	.string "얘기를 들려주실 수 있을까요?$"
+	// いま さいきん おきたｎ
+	// トレ-ナ-と ポケモンの できごとをｌ
+	// きいて まわって いるのですがｐ
+	// もし よければ なにかｎ
+	// はなしを きかせて くれませんかね?
 
 SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon: @ 082812F2
-	.string "Oh, you will?\n"
-	.string "Thank you!\p"
-	.string "Then, please, tell me anything of\n"
-	.string "interest that you experienced recently\l"
-	.string "involving POKéMON.$"
+	.string "오오 들려주시는 거군요!\n"
+	.string "정말 감사합니다\p"
+	.string "그럼 최근 일어난 거라면\n"
+	.string "뭐든지 좋으니까\l"
+	.string "이야기를 들려주세요!$"
+	// おお きかせて くれますか!ｎ
+	// ありがとう ございますｐ
+	// では さいきん おきたこと ならｎ
+	// なんでも よいのでｌ
+	// はなしを きかせて ください!
 
 SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory: @ 08281367
-	.string "Oh, I see…\p"
-	.string "Well, if you do have an interesting\n"
-	.string "story to tell, please let me know.$"
+	.string "그렇습니까...\p"
+	.string "그럼 또 뭔가 재밌는 이야기가\n"
+	.string "있다면 들려주세요$"
+	// そうですか……ｐ
+	// では また なにか おもしろい はなしがｎ
+	// あったら きかせて くださいね
 
 SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview: @ 082813B9
-	.string "Oh, what an uplifting story!\p"
-	.string "I'll be sure to get your story told\n"
-	.string "on television.\p"
-	.string "It should be aired sometime, I think,\n"
-	.string "so please look forward to it.$"
+	.string "...오오\n"
+	.string "정말 좋은 이야기네요!\p"
+	.string "이 이야기는 TV 방송에서\n"
+	.string "쓰도록 하겠습니다!\p"
+	.string "언젠가 방송할지도 모르니\n"
+	.string "기대하면서 기다리고 있어주세요$"
+	// ……おおｎ
+	// なんて いいはなしだ!ｐ
+	// このはなし テレビでｎ
+	// つかわせて いただきます!ｐ
+	// いつか ほうそう するかも しれないのでｎ
+	// たのしみに まっていて くださいね
 
 SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory: @ 0828144D
-	.string "Hmmm…\n"
-	.string "I've got a good story for a TV program.\p"
-	.string "I'd better write it up in a hurry!$"
+	.string "으-음\n"
+	.string "좋은 TV 방송이 만들어질 것 같네요!\p"
+	.string "서둘러서 정리해야겠어요!$"
+	// う-んｎ
+	// いい テレビばんぐみが できそうだ!ｐ
+	// いそいで まとめないと!
 
 gTVRecentHappeningsText00:: @ 0828149E
-	.string "Hello, it's time for RECENT HAPPENINGS.\p"
-	.string "For POKéMON TRAINERS, every day\n"
-	.string "is a storybook tale.\p"
-	.string "What we want to do is to introduce you\n"
-	.string "to some of these POKéMON tales.\p"
-	.string "Today, we bring you the story\n"
-	.string "of the TRAINER {STR_VAR_1}.\p"
-	.string "What did {STR_VAR_1} experience recently?\n"
-	.string "Let's find out.\p"
-	.string "Let's see…$"
+	.string "“최근의 사건”\p"
+	.string "포켓몬 트레이너에겐\n"
+	.string "매일이 하나의 이야기입니다\l"
+	.string "그 이야기를 조금이라도\l"
+	.string "소개할 수 있다면 좋겠지요\p"
+	.string "자 그럼 오늘은 트레이너인\n"
+	.string "{STR_VAR_1}씨의 이야기입니다\p"
+	.string "{STR_VAR_1}씨 최근\n"
+	.string "어떤 일이 있었던 걸까요?\l"
+	.string "바로 봐보도록 합시다\p"
+	.string "으-음...$"
+	// 『さいきんの できごと』ｐ
+	// ポケモントレ-ナ-に とってｎ
+	// まいにちが ものがたりですｌ
+	// その ものがたりを すこしでもｌ
+	// しょうかい できたら うれしいですねｐ
+	// さて きょうは トレ-ナ-のｎ
+	// §いさんの おはなしですｐ
+	// §いさん さいきんｎ
+	// どんなことが あったんで しょうか?ｌ
+	// さっそく みてみることに しましょうｐ
+	// え-と……
 
 gTVRecentHappeningsText01:: @ 082815AF
-	.string "Wasn't that enlightening?\p"
-	.string "The story gives you a clear idea of what\n"
-	.string "{STR_VAR_1} has experienced recently.\l"
-	.string "It's as if we were there as witnesses!$"
+	.string "과연 그렇군요 {STR_VAR_1}씨의\n"
+	.string "주변에서 최근 일어나고 있는 일이\l"
+	.string "손에 잡히듯이 알 것 같습니다$"
+	// なるほど §いさんのｎ
+	// まわりで さいきん おきている ことがｌ
+	// てに とるように わかりますね
 
 gTVRecentHappeningsText02:: @ 08281636
-	.string "“{STR_VAR_3}.” That\n"
-	.string "accents the tale and gives it depth.$"
+	.string "“{STR_VAR_3}”{K_I}라는 말이\n"
+	.string "이야기에 재미를 더해주네요$"
+	// 「§え」という ことばがｎ
+	// おはなしに スト-リ-を かんじさせますね
 
 gTVRecentHappeningsText03:: @ 08281666
-	.string "“{STR_VAR_3}.”\n"
-	.string "That gives the tale a sense of place.\l"
-	.string "It lets us envision the tale's setting.$"
+	.string "“{STR_VAR_3}”{K_I}라는 말\n"
+	.string "덕분에 마치 광경이\l"
+	.string "떠오르는 듯합니다$"
+	// 「§え」という ことばのｎ
+	// おかげで まるで じょうけいがｌ
+	// うかんで くるようですね
 
 gTVRecentHappeningsText04:: @ 082816BA
-	.string "The “{STR_VAR_3}”\n"
-	.string "section of the tale is very expressive.$"
+	.string "이 이야기는 “{STR_VAR_3}”{K_I}라고 하는\n"
+	.string "부분이 무척 인상적이었네요$"
+	// このおはなしは 「§え」というｎ
+	// ぶぶんが とても いんしょうてき ですね
 
 gTVRecentHappeningsText05:: @ 082816EB
-	.string "{STR_VAR_1} has recounted a wonderful\n"
-	.string "tale involving POKéMON.\p"
-	.string "And now {STR_VAR_1}'s tale is indelibly\n"
-	.string "etched into your soul, too.\p"
-	.string "That's it for today.\n"
-	.string "Please tune in next time.$"
+	.string "{STR_VAR_1}씨는 정말 좋은\n"
+	.string "이야기를 들려주셨습니다\p"
+	.string "이걸로 당신의 마음에도\n"
+	.string "{STR_VAR_1}씨라고 하는 스토리가\l"
+	.string "새겨진 것이겠지요\p"
+	.string "그러면 이만\n"
+	.string "다음 방송에서 만납시다$"
+	// §いさんは とても いいｎ
+	// おはなしを きかせて くれましたねｐ
+	// これで あなたの こころにもｎ
+	// §いさん という スト-リ-がｌ
+	// きざみ こまれましたよｐ
+	// それでは また じかいのｎ
+	// ほうそうで おあいしましょう
 
 gTVMassOutbreakText00:: @ 0828178A
-	.string "Greetings!\n"
-	.string "It's time for POKéMON NEWS.\p"
-	.string "We've just received word of a very\n"
-	.string "rare occurrence.\p"
-	.string "There have been reports of a mass\n"
-	.string "outbreak of {STR_VAR_2} in the vicinity\l"
-	.string "of {STR_VAR_1}.\p"
-	.string "{STR_VAR_2}, as you're probably aware,\n"
-	.string "is known as a POKéMON that's rare\l"
-	.string "and hard to find.\p"
-	.string "It sounds like a rare opportunity to\n"
-	.string "see the mystifying outbreak of\l"
-	.string "{STR_VAR_2} in the wild.\p"
-	.string "That's the news on POKéMON NEWS.$"
+	.string "안녕하세요\n"
+	.string "“포켓몬 뉴스”의 시간입니다\p"
+	.string "보기 힘든 중요한 뉴스가\n"
+	.string "들어왔습니다\p"
+	.string "{STR_VAR_1}에서\n"
+	.string "{STR_VAR_2}{K_IGA} 대량발생했다는\l"
+	.string "보고가 있었습니다!\p"
+	.string "{STR_VAR_2}{K_I}라고 하면\n"
+	.string "제법 발견하기가 힘든\l"
+	.string "포켓몬으로 유명했지요\p"
+	.string "당신도 이 신비한\n"
+	.string "{STR_VAR_2}의 대량발생을\l"
+	.string "보고 오는 게 어떻겠습니까?\p"
+	.string "이상으로\n"
+	.string "“포켓몬 뉴스”였습니다$"
+	// こんにちはｎ
+	// 『ポケモン ニュ-ス』の じかんですｐ
+	// たいへん めずらしい ニュ-スがｎ
+	// はいって きましたｐ
+	// §いでｎ
+	// §うが たいりょうはっせい したｌ
+	// という ほうこくが ありました!ｐ
+	// §うと いえばｎ
+	// なかなか みつけることが むずかしいｌ
+	// ポケモンとしても ゆうめい ですねｐ
+	// あなたも このしんぴてきなｎ
+	// §うの たいりょうはっせいをｌ
+	// みにいっては いかが でしょうか?ｐ
+	// いじょうｎ
+	// 『ポケモン ニュ-ス』でした
 
 gTV3CheersForPokeblocksText00:: @ 082818F4
-	.string "MC: We hope you're in good cheer,\n"
-	.string "“3 CHEERS FOR {POKEBLOCK}S” is here!\p"
-	.string "Today, we examine the {POKEBLOCK} blended\n"
-	.string "by {STR_VAR_1} and associates.\p"
-	.string "Without any delay, let me feed it\n"
-	.string "to my gourmet POKéMON GULPIN.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "사회자: 잘 지내셨나요?\n"
+	.string "“포켓몬스넥 만세”의 시간입니다\p"
+	.string "오늘의 포켓몬스넥은\n"
+	.string "{STR_VAR_1}씨와 그 동료분들이\l"
+	.string "블렌드한 포켓몬스넥입니다\p"
+	.string "바로 제 미식가 포켓몬\n"
+	.string "꼴깍몬에게 먹여보도록 하죠!\p"
+	.string "...... ...... ...... ......\n"
+	.string "...... ...... ...... ......$"
+	// しかい『ごきげん いかがですか?ｎ
+	// 『ポロック バンザイ!』の おじかんですｐ
+	// きょうの ポロックはｎ
+	// §いさんと その おなかまがｌ
+	// ブレンドした ポロックですｐ
+	// さっそく わたしの グルメな ポケモンｎ
+	// ゴクリンちゃんに たべさせて みましょう!ｐ
+	// …… …… …… ……ｎ
+	// …… …… …… ……
 
 gTV3CheersForPokeblocksText01:: @ 082819C7
-	.string "GULPIN: Gubi! Gubii!\p"
-	.string "MC: And the verdict is very {STR_VAR_1}!\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
-	.string "Thank you so much, {STR_VAR_3}!$"
+	.string "꼴깍몬: 꼴깍! 꼴깍!\p"
+	.string "사회자: 오오! 무척 {STR_VAR_1}{K_I}라서\n"
+	.string "“{STR_VAR_2}!”{K_I}라고 말하고 있네요\p"
+	.string "분명 이건 {STR_VAR_3}씨가\n"
+	.string "힘내서 돌린 덕분이겠죠!\p"
+	.string "{STR_VAR_3}씨!\n"
+	.string "잘 먹었습니다!$"
+	// ゴクリン『グビィ! グビィ!ｐ
+	// しかい『おお! とっても §いくてｎ
+	// 「§う!」と いってますねｐ
+	// きっと これは §えさんがｎ
+	// がんばって まわした おかげですね!ｐ
+	// §えさん!ｎ
+	// ごちそうさま でした!
 
 gTV3CheersForPokeblocksText02:: @ 08281A2F
-	.string "{STR_VAR_1}'s blending performance\n"
-	.string "left something to be desired.\p"
-	.string "If this TRAINER could blend better,\n"
-	.string "the {POKEBLOCK} would be much tastier.$"
+	.string "다음엔 조금 아쉬웠던\n"
+	.string "{STR_VAR_1}씨가\l"
+	.string "좀 더 잘 돌리면\l"
+	.string "더욱 맛있어질지도 모르겠네요!$"
+	// こんかい いまいち だったｎ
+	// §いさんがｌ
+	// もっと じょうずに まわすことが できればｌ
+	// さらに おいしく なるかも しれませんよ!
 
 gTV3CheersForPokeblocksText03:: @ 08281AAC
-	.string "GULPIN: Gubi! Gubii!\p"
-	.string "MC: Hmm… It's too {STR_VAR_1}.\n"
-	.string "GULPIN says it tastes “{STR_VAR_2}!”\p"
-	.string "It looks like {STR_VAR_3}'s errors\n"
-	.string "hurt the blending quality…$"
+	.string "꼴깍몬: 꼴깍! 꼴깍!\p"
+	.string "사회자: 으-음... 조금 {STR_VAR_1}{K_I}라서\n"
+	.string "“{STR_VAR_2}!”{K_I}라고 말하고 있네요\p"
+	.string "역시 {STR_VAR_3}씨의 실패가\n"
+	.string "컸던 모양입니다...$"
+	// ゴクリン『グビィ! グビィ!ｐ
+	// しかい『う-ん…… ちょっと §いすぎてｎ
+	// 「§う!」と いってますね……ｐ
+	// やっぱり §えさんの しっぱいがｎ
+	// いたかった ですね……
 
 gTV3CheersForPokeblocksText04:: @ 08281B28
-	.string "It's too bad that {STR_VAR_1}'s\n"
-	.string "leading effort went to waste.\p"
-	.string "Let's hope {STR_VAR_2} can turn in\n"
-	.string "a better showing next time!$"
+	.string "이번에 가장 열심히 했던\n"
+	.string "{STR_VAR_1}씨가 불쌍하네요...\p"
+	.string "...{STR_VAR_2}씨!\n"
+	.string "다음엔 열심히 해주세요!$"
+	// こんかい いちばん がんばっていたｎ
+	// §いさんが かわいそうです……ｐ
+	// ……§うさん!ｎ
+	// つぎは がんばって ください!
 
 gTV3CheersForPokeblocksText05:: @ 08281B93
-	.string "Tune in next time!\n"
-	.string "Our slogan is “3 CHEERS FOR {POKEBLOCK}S!”$"
+	.string "그럼 또 봅시다!\n"
+	.string "표어는 “포켓몬스넥 만세!”$"
+	// では また おあいしましょう!ｎ
+	// あいことばは 『ポロック バンザイ!』
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer:: @ 8281BCB
-	.string "Hi, there!\p"
-	.string "I'm a big fan of {STR_VAR_1}.\n"
-	.string "What's your opinion of {STR_VAR_1}?$"
+	.string "여어!\p"
+	.string "나 {STR_VAR_1}의 팬인데\n"
+	.string "{STR_VAR_1}{K_EULREUL} 어떻게 생각해?$"
+	// やあ!ｐ
+	// ボク §いの ファン なんだけどｎ
+	// §い って どう おもう?
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink:: @ 8281C06
-	.string "I see, I see. That's what you think\n"
-	.string "about the TRAINER.$"
+	.string "과연-\n"
+	.string "그런 식으로 생각하고 있구나!$"
+	// なるほどね-ｎ
+	// そんな ふうに おもっているんだね!
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer:: @ 8281C3D
-	.string "Have you completely forgotten\n"
-	.string "about {STR_VAR_1}?$"
+	.string "{STR_VAR_1}{K_EULREUL}\n"
+	.string "잊어버린 거야...?$"
+	// §いの ことｎ
+	// わすれちゃったの……?
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2:: @ 8281C65
-	.string "I'm a big fan of {STR_VAR_1}.\n"
-	.string "What's your opinion of {STR_VAR_1}?$"
+	.string "나 {STR_VAR_1}의 팬인데\n"
+	.string "{STR_VAR_1}{K_EULREUL} 어떻게 생각해?$"
+	// ボク §いの ファン なんだけどｎ
+	// §い って どうおもう?
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer:: @ 8281C95
-	.string "How strong would you rate {STR_VAR_1}\n"
-	.string "on a scale of one hundred?$"
+	.string "자 다음은\n"
+	.string "{STR_VAR_1}의 강함을\l"
+	.string "점수로 평가해줄래?$"
+	// じゃあ こんどはｎ
+	// §いの つよさをｌ
+	// てんすうで おしえてくれる?
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2:: @ 8281CCD
-	.string "Have you completely forgotten\n"
-	.string "about {STR_VAR_1}?$"
+	.string "{STR_VAR_1}{K_EULREUL}\n"
+	.string "잊어버린 거야...?$"
+	// §いの ことｎ
+	// わすれちゃったの……?
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer:: @ 8281CF5
-	.string "Oh, I see!\n"
-	.string "You should meet {STR_VAR_1} sometime.\l"
-	.string "I'm sure you'll become a fan, too!$"
+	.string "그렇구나!\n"
+	.string "다음에 {STR_VAR_1}{K_EULREUL} 만나봐!\l"
+	.string "너도 분명 팬이 되어버릴걸!$"
+	// そっか!ｎ
+	// こんど §いに あってみてよ!ｌ
+	// きみも きっと ファンに なっちゃうよ!
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo:: @ 8281D40
-	.string "I see, I see.\p"
-	.string "Thank you!\n"
-	.string "That's very useful to know.\p"
-	.string "I'll share this information with other\n"
-	.string "{STR_VAR_1} fans and discuss it.$"
+	.string "그렇구나-!\p"
+	.string "고마워!\n"
+	.string "무척 참고가 됐어!\p"
+	.string "바로 {STR_VAR_1}의 팬끼리 함께\n"
+	.string "그거에 대해서 얘기해볼게!$"
+	// そうなんだ-!ｐ
+	// ありがとう!ｎ
+	// とっても さんこうに なったよ!ｐ
+	// さっそく §いの ファン みんなでｎ
+	// この ことに ついて はなしあって みるよ!
 
 LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial:: @ 8281DB4
-	.string "There's going to be a TV special on\n"
-	.string "{STR_VAR_1} very soon.\p"
-	.string "I hope you catch it!$"
+	.string "이제 곧 {STR_VAR_1}에 대한\n"
+	.string "TV 방송이 나올 거야!\p"
+	.string "너도 꼭 보도록 해!$"
+	// もうすぐ §いに ついてのｎ
+	// テレビ ばんぐみが ほうそう されるんだ!ｐ
+	// きみも ぜひ みてね!
 
 gTVTrainerFanClubSpecialText00:: @ 08281DFB
 	.string "TRAINER FAN CLUB\n"

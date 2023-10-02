@@ -1,6 +1,6 @@
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce: @ 82C6E05
 	.string "이 기술의 가르침을 받는 것은\n"
-	.string "한 번만입니다만 괜찮겠습니까?$"
+	.string "한 번뿐입니다만 괜찮겠습니까?$"
 	// この わざを おしえて もらえるのはｎ
 	// いちど だけですが いいですか?
 

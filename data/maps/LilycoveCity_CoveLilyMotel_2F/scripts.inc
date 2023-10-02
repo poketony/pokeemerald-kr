@@ -70,7 +70,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott:: @ 821876A
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex: @ 8218774
 	.string "저는 게임 디자이너입니다\p"
 	.string "헤에-\n"
-	.string "포켓몬 도감 채우고 계시는 군요?\p"
+	.string "포켓몬 도감 채우고 계시는군요?\p"
 	.string "전부 모으는 건\n"
 	.string "어렵겠지만 힘내세요!\p"
 	.string "혹시 전부 채우신다면 알려주세요!$"
