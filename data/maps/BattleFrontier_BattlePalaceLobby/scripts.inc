@@ -673,7 +673,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway: @ 824EA4B
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle: @ 824EB06
 	.string "트레이너의 마음을 시험하는 장소!\n"
 	.string "배틀팰리스에 어서 오게\p"
-	.string "여기서는 싱글 배틀홀로의\n"
+	.string "여기서는 더블 배틀홀로의\n"
 	.string "도전을 받고 있지...$"
 	// トレ-ナ-の こころを ためす ばしょｎ
 	// バトルパレスへ ようこそｐ

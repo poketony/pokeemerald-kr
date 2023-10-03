@@ -364,7 +364,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
 	.string "{PLAYER}님의\n"
-	.string "다음 상대는 이 분입니다$"
+	.string "다음 상대는 이분입니다$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
 	.string "현재 토너먼트는\n"
