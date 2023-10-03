@@ -1014,7 +1014,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	// しばらく おまちください……!
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "심판원으로부터\n"
+	.string "심판으로부터\n"
 	.string "판정 결과가 나왔습니다!\p"
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"
@@ -1028,7 +1028,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
 	// おめでとうございます!
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "심판원으로부터\n"
+	.string "심판으로부터\n"
 	.string "판정 결과가 나왔습니다!\p"
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"
@@ -1344,7 +1344,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	// ただいま より はじめます!
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "심판원으로부터\n"
+	.string "심판으로부터\n"
 	.string "판정 결과가 나왔습니다!\p"
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"

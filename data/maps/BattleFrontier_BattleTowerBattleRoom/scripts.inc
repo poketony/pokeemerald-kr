@@ -641,7 +641,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain: @ 824295D
 	.string "즐거웠어요...\p"
 	.string "포켓몬 배틀이 이렇게나\n"
 	.string "즐거운 건 처음이에요...\p"
-	.string "또 당신과 싸운게 되면 좋을 텐데...$"
+	.string "또 당신과 싸우게 되면 좋을 텐데...$"
 	// たのしかった……ｐ
 	// こんなに ポケモンバトルがｎ
 	// たのしい なんて はじめて……ｐ

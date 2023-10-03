@@ -307,16 +307,17 @@ VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50: @ 82C543D
 	// じゅんびを ととのえてから また きなさい
 
 VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen: @ 82C5538
-	.string "Sigh…\p"
-	.string "You do not have the three POKéMON\n"
-	.string "required for the challenge.\p"
-	.string "To enter, you must provide three\n"
-	.string "different kinds of POKéMON.\p"
-	.string "They also must not be holding\n"
-	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-	.string "Come back when you have made\n"
-	.string "your preparations.$"
+	.string "자네...\p"
+	.string "도전할 수 있는 포켓몬이\n"
+	.string "3마리는 필요하다네!\p"
+	.string "도전하려면\n"
+	.string "종류가 다른 포켓몬을\p"
+	.string "3마리 준비해 주게\p"
+	.string "또한 지니게 할 도구도\n"
+	.string "모두 다른 도구여야 하네\p"
+	.string "그리고 알{STR_VAR_1}"
+	.string "참가시킬 수 없네!\p"
+	.string "준비되면 다시 와 주게나$"
 	// おぬし……ｐ
 	// ちょうせん できる ポケモンがｎ
 	// 3ひき おらんぞ!ｐ

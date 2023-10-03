@@ -464,7 +464,7 @@ BattleFrontier_Lounge3_Text_HowMuchCanYouSpot:: @ 8262B42
 	// で? で? で? いくら かして くれます?
 
 BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints:: @ 8262B6E
-	.string "싫어싫어싫어-!!\p"
+	.string "싫어 싫어 싫어-!!\p"
 	.string "배틀포인트가 부족하잖아!\n"
 	.string "재미없는 농담은 그만두라고!$"
 	// いやいやいや-!!ｐ

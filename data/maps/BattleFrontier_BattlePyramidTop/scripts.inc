@@ -300,11 +300,11 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon: @ 825573E
 	.string "끝내주지! 안 그래!?\p"
 	.string "나는 기선!\p"
 	.string "이곳의 책임자인\n"
-	.string "피라미드킹이지만 모두에게는\l"
-	.string "대장이라고 불리고 있지!\p"
+	.string "피라미드킹이지만 모두에게\l"
+	.string "대장님이라고 불리고 있지!\p"
 	.string "너도 여기까지 왔다는 건\n"
 	.string "그만큼 자신이 있다는 거겠지?\l"
-	.string "하하하! 이거 정말 재밌는데!$"
+	.string "하하하! 이거 정말 재밌겠는데!$"
 	// いやぁ- じつに たまらない!ｎ
 	// たまらないじゃ ないか! なあっ!?ｐ
 	// わたしは ジンダイ!ｐ
@@ -317,14 +317,14 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon: @ 825573E
 
 BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle: @ 8255846
 	.string "자! 네 뜨거운 용기를\n"
-	.string "부딪쳐 보라고!$"
+	.string "부딪쳐 봐라!$"
 	// さあ! きみの あつい ゆうきをｎ
 	// ぶつけて きたまえ!
 
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease: @ 8255873
 	.string "기선: 하하하!\n"
 	.string "이거 정말 굉장하구만!\p"
-	.string "좋아! 너를 인정해 주지!!\n"
+	.string "좋아! 너를 인정해주지!!\n"
 	.string "프런티어패스를 줘봐!$"
 	// ジンダイ『はっはっは!ｎ
 	// いやぁ- じつに すばらしい!ｐ

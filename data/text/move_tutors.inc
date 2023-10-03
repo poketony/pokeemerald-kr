@@ -97,7 +97,7 @@ MoveTutor_Text_FuryCutterWhichMon: @ 82C7243
 	// じゃ おぼえさせる ポケモンを おしえてね
 
 MoveTutor_Text_FuryCutterTaught: @ 82C726E
-	.string "연속으로 맞힐지 아닐지\n"
+	.string "연속으로 맞힐지 못할지\n"
 	.string "스릴이 있어서 즐겁단 말이지$"
 	// れんぞくして あたるか どうかのｎ
 	// スリルが たのしいんだよねぇ
