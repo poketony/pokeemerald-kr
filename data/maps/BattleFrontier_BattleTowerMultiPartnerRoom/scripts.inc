@@ -1309,57 +1309,63 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject:: @ 82463FF
 	// べんきょう したかったです……
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro:: @ 8246449
-	.string "Yo! Let me tell you who I am!\n"
-	.string "I'm RICH BOY {STR_VAR_1}!$"
+	.string "여어!\p"
+	.string "난\n"
+	.string "도련님 {STR_VAR_1}{K_I}야!$"
 	// よう!ｐ
-	// オレｎおぼっちゃま §い!
+	// オレｎ
+	// おぼっちゃま §い!
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1:: @ 8246478
-	.string "Guess what I got!\n"
-	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
+	.string "나는\n"
+	.string "{STR_VAR_1}{K_EULREUL} 지닌 {STR_VAR_2}{K_WAGWA}...$"
 	// オレｎ
 	// §いを もつ §うと……
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask:: @ 824649D
-	.string "one {STR_VAR_2} with {STR_VAR_1}!\p"
-	.string "I'm willing to offer you the chance\n"
-	.string "to be in a tag team with me.$"
+	.string "{STR_VAR_1}{K_EULREUL} 지닌 {STR_VAR_2}{K_EULREUL}\n"
+	.string "가지고 있다고!\p"
+	.string "나랑 같이\n"
+	.string "태그를 맺는 걸 허락해줄까?$"
 	// §いを もつ §うをｎ
 	// もっているんだぜ!ｐ
 	// オレ いっしょにｎ
 	// タッグを くんでもいいぜ?
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept:: @ 82464EE
-	.string "Smart move!\p"
-	.string "I'll finish up the registration\n"
-	.string "process quick!$"
+	.string "좋아!\p"
+	.string "그럼 지금부터\n"
+	.string "접수처에 등록하고 온다!$"
 	// よし!ｐ
 	// じゃあ いまからｎ
 	// うけつけで とうろくを すませてくるぜ!
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject:: @ 8246529
-	.string "You'd turn me of all people down?\n"
-	.string "You'll regret that decision for sure!$"
+	.string "나와 태그를 맺지 않다니\n"
+	.string "분명 후회하게 될걸!$"
 	// オレと タッグを くまない なんてｎ
 	// きっと こうかい するぜ!
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro:: @ 8246571
-	.string "Hiyah!\n"
-	.string "I am BLACK BELT {STR_VAR_1}.$"
+	.string "안녕하십니까!\p"
+	.string "태권왕\n"
+	.string "{STR_VAR_1}{K_I}라고 합니다$"
 	// オッス!ｐ
-	// カラテおう §いｎと もうします
+	// カラテおう §いｎ
+	// と もうします
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1:: @ 824658C
-	.string "As my companions, I have\n"
-	.string "one {STR_VAR_2} using {STR_VAR_1}$"
+	.string "지금 전\n"
+	.string "{STR_VAR_1}{K_EULREUL} 지닌 {STR_VAR_2}{K_WAGWA}...$"
 	// いま わたくしｎ
 	// §いを もつ §うと……
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask:: @ 82465B5
-	.string "and one {STR_VAR_2} using\n"
-	.string "{STR_VAR_1}.\p"
-	.string "Please, grant me my wish!\n"
-	.string "Allow me to be your tag partner!$"
+	.string "{STR_VAR_1}{K_EULREUL} 지닌 {STR_VAR_2}{K_EULREUL}\n"
+	.string "데리고 있습니다!\p"
+	.string "부탁드립니다!\n"
+	.string "저와\n"
+	.string "태그를 맺어주시지 않겠습니까?$"
 	// §いを もつ §うをｎ
 	// つれております!ｐ
 	// おねがいします!ｐ
@@ -1367,15 +1373,17 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask:: @ 82465B5
 	// タッグを くんで くれませんか?
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept:: @ 8246605
-	.string "Hiyah!\n"
-	.string "I will go register forthwith!$"
+	.string "감사합니다!\p"
+	.string "바로\n"
+	.string "접수처에 등록하고 오겠습니다!$"
 	// オッス!ｐ
 	// さっそくｎ
 	// うけつけに とうろく してまいります!
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject:: @ 824662A
-	.string "I see… I hope for an opportunity\n"
-	.string "the next time we meet…$"
+	.string "그렇습니까...\p"
+	.string "다음 기회에는\n"
+	.string "꼭 태그를 맺어주십시오...$"
 	// オッス……ｐ
 	// つぎの きかいはｎ
 	// ぜひ タッグを くんでください……

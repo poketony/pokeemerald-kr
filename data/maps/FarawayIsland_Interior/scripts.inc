@@ -202,4 +202,4 @@ FarawayIsland_Interior_EventScript_HideMewWhenGrassCut:: @ 8267EDB
 	end
 
 FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded: @ 8267EF1
-	.string "The feeling of being watched faded…$"
+	.string "기척이 사라져버렸다...$"

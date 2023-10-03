@@ -1043,9 +1043,9 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "우승 축하해!\p"
-	.string "빨리 기념으로\n"
-	.string "너의 포켓몬의 그림을\l"
-	.string "그리고 싶은데...\p"
+	.string "서둘러서 기념으로\n"
+	.string "네 포켓몬의 그림을\l"
+	.string "그려 봤는데...\p"
 	.string "뭔가 네 포켓몬 어필이\n"
 	.string "정말 굉장해서\l"
 	.string "평소보다 잘 그렸어!\l"
@@ -1067,7 +1067,7 @@ LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 	.string "제목도 붙여 둘 테니까!\p"
 	.string "이게 마음에 들어\n"
 	.string "장식될지 어떨지\l"
-	.string "너도 다음에 보러 와 줘!\l"
+	.string "너도 다음에 보러 와줘!\l"
 	.string "그럼 고마워!$"
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting: @ 821B030
