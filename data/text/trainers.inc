@@ -1250,7 +1250,7 @@ Route110_Text_KalebDefeated:
 	.string "너는 피도 눈물도 없구나$"
 
 Route110_Text_KalebPostBattle:
-	.string "그래그래, 너희들은\n"
+	.string "그래그래 너희들은\n"
 	.string "최선을 다했어 귀염둥이들$"
 
 Route111_Text_DrewIntro:
