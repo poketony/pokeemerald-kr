@@ -238,8 +238,7 @@ SeafloorCavern_Room9_Text_ArchieSoItWasYou: @ 823507C
 SeafloorCavern_Room9_Text_ArchieBeholdKyogre: @ 82350A6
 	.string "아강: 어떠냐 봐라!\p"
 	.string "초 고대포켓몬 가이오가가\n"
-	.string "조용히 잠들어 있는\l"
-	.string "이 아름다운 모습을!\p"
+	.string "조용히 잠들어 있는 이 아름다운 모습을!\p"
 	.string "난 이 날이 오기만을\n"
 	.string "오랫동안 기다려왔다...$"
 	// アオギリ『どうだ みてみろ!ｐ
@@ -262,7 +261,7 @@ SeafloorCavern_Room9_Text_ArchieYouMustDisappear: @ 823512C
 
 SeafloorCavern_Room9_Text_ArchieDefeat: @ 82351BC
 	.string "뭐라고!?\n"
-	.string "너같은 녀석한테 내가...!?$"
+	.string "너 같은 녀석한테 내가...!?$"
 	// なにっ!?ｎ
 	// おまえ ごときに おれが……?
 
@@ -270,7 +269,7 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb: @ 82351E5
 	.string "아강: 후후후...\p"
 	.string "역시나라고 해야 하나...\n"
 	.string "너의 그 힘은 인정하마!\p"
-	.string "허나...!\n"
+	.string "하지만...!\n"
 	.string "내게는 이것이 있다!\p"
 	.string "이 주홍구슬이 있으면\n"
 	.string "가이오가를...$"
@@ -300,7 +299,7 @@ SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo: @ 82352A7
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside: @ 82352F6
 	.string "아강: 밖에 있는\n"
-	.string "단원한테로군$"
+	.string "단원한테서로군$"
 	// アオギリ『そとに いるｎ
 	// だんいん からの れんらくか
 
@@ -313,11 +312,10 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
 	.string "바다를 넓히기 위해 가이오가를\l"
 	.string "깨운 이유니까 말이다\p"
 	.string "뭐라고!\p"
-	.string "예상한 것 이상의 폭우로 이대로라면\n"
-	.string "우리들도 위험하다고!?\p"
-	.string "설마 그럴 리가...\n"
-	.string "그럴 리가 없을 텐데...\p"
-	.string "어쨌든 계속 상태를 보고 있어라!$"
+	.string "예상한 것 이상의 폭우라서\n"
+	.string "이대로라면 우리들도 위험하다고?\p"
+	.string "말도 안 돼...\n"
+	.string "어쨌든 상황을 보고 있어라!$"
 	// アオギリ『どうした……?ｐ
 	// ふうむ……ｎ
 	// おおあめが ふっている……ｐ
@@ -334,10 +332,10 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
 	.string "아강: 이상해...\p"
 	.string "주홍구슬로 가이오가가 눈을 뜨고\n"
-	.string "그리고 컨트롤할 수 있었을 텐데...\p"
+	.string "그리고 컨트롤할 수 있어야 할 텐데...\p"
 	.string "그런데... 어째서...\n"
-	.string "가이오가는 여기서 없어졌다!?\p"
-	.string "어째서지!?$"
+	.string "가이오가는 여기서 없어진 거지!?\p"
+	.string "어째서냐!?$"
 	// アオギリ『おかしい……ｐ
 	// べにいろのたまで カイオ-ガが めざめるｎ
 	// そして コントロ-ル できるはず……ｐ
@@ -384,7 +382,7 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue: @ 8235692
 	.string "말다툼하고 있을 때가 아니다!\p"
 	.string "밖으로 나가서 확인하도록 해라!\n"
 	.string "눈앞에 펼쳐진 게\l"
-	.string "우리가 원하던 세계인지 아닌지를$"
+	.string "우리가 원하던 세계인지 아닌지!$"
 	// マツブサ『とにかく いまは ここでｎ
 	// いいあらそいを している ひまはない!ｐ
 	// そとに でて たしかめると いい!ｎ

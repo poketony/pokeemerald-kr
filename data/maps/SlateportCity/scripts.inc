@@ -1158,7 +1158,7 @@ SlateportCity_Text_SaysSomethingLikeSeaIsEndless: @ 81DDEB8
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy: @ 81DDF32
 	.string "중얼중얼...\p"
-	.string "게임보이가 있었으면\n"
+	.string "게임보이가 있으면\n"
 	.string "긴 줄도 지루하지 않아\p"
 	.string "중얼중얼...$"
 	// ぶつぶつぶつ……ｐ
@@ -1232,8 +1232,7 @@ SlateportCity_Text_BattleTentBuiltRecently: @ 81DE1EC
 	// いって みなよ!
 
 SlateportCity_Text_CaptSternBeingInterviewed: @ 81DE28E
-	.string "유명한 스타가\n"
-	.string "온 줄 알고\l"
+	.string "유명한 스타가 온 줄 알고\n"
 	.string "사인 받으려고 했는데\p"
 	.string "인터뷰하고 있는 사람\n"
 	.string "어라...? 해양관장 아냐?$"
@@ -1319,15 +1318,14 @@ SlateportCity_Text_SternWhewFirstInterview: @ 81DE5F7
 	// はじめて だったから きんちょう したよ!
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
-	.string "오! {PLAYER}{K_I}인가!\n"
-	.string "좋아 보이는군\p"
+	.string "오! {PLAYER}!\n"
+	.string "잘 지내는 것 같네!\p"
 	.string "이번 해저 조사에서\n"
-	.string "정말 엄청난 걸 발견했어!\p"
-	.string "아주 먼 옛날에 멸종된 걸로 알려진\n"
-	.string "포켓몬의 둥지를 말이야!\l"
-	.string "발견했어!\p"
-	.string "128번 수로 심해에 있는\n"
-	.string "해저동굴에 있더라고$"
+	.string "엄청난 발견을 했어!\p"
+	.string "128번 수로에서\n"
+	.string "아주 먼 옛날에 멸종된 걸로 알려진\l"
+	.string "포켓몬의 둥지로 추정되는\l"
+	.string "해저동굴을 찾...$"
 	// おっ! §あ§おｎ
 	// げんきそう だね!ｐ
 	// こんかいの かいてい ちょうさでｎ
@@ -1338,16 +1336,15 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 	// かいてい どうくつを みつけた……
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
-	.string "“후후후...\p"
-	.string "들리고 있나?\l"
-	.string "해양관장이여...\p"
+	.string "“후후후...\n"
+	.string "해양관장이라는 자여\p"
 	.string "네놈의 잠수정은\n"
-	.string "우리 아쿠아단이 가져가겠다...!\p"
-	.string "계획이 헛수고가 되었군!\n"
-	.string "발명품은 잘 쓰도록 하마!\p"
-	.string "하하하...!\n"
-	.string "우리 아쿠아단의 계획을\l"
-	.string "똑똑히 지켜보도록 해라!”$"
+	.string "우리 아쿠아단이 가져가겠다!\p"
+	.string "너희들은 우리에게 잠자코\n"
+	.string "협력하면 되는 거다!\p"
+	.string "후후후...\n"
+	.string "지금부터 아쿠아단이 뭘 하는지\l"
+	.string "기대하고 있도록!”$"
 	// 『フフフ……ｎ
 	// クスノキかんちょう とやらｐ
 	// きみの せんすいていはｎ

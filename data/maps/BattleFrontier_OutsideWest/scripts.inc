@@ -609,7 +609,7 @@ BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering: @ 823E2E9
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine: @ 823E37E
 	.string "아아 시끄러워! 시끄러워!\p"
-	.string "너희같은 애들은\n"
+	.string "너희 같은 애들은\n"
 	.string "어딘가의 체육관 관장이나\l"
 	.string "응원하라고!!\p"
 	.string "돔슈퍼스타는 나만의!\n"

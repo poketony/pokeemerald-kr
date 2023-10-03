@@ -74,7 +74,7 @@ SootopolisCity_Mart_Text_TooScaryOutside: @ 822685D
 SootopolisCity_Mart_Text_FullRestoreItemOfDreams: @ 82268AF
 	.string "“회복약”이라고 알고 있나요?\p"
 	.string "포켓몬의 체력이 완쾌!\n"
-	.string "상태 이상도 모두 회복!\p"
+	.string "상태 이상도 모두 회복!\l"
 	.string "정말 꿈만 같은 도구랍니다$"
 	// かいふくのくすり ごぞんじ ですか?ｐ
 	// ポケモンの たいりょく ぜんかい!ｎ

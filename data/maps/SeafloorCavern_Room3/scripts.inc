@@ -59,7 +59,7 @@ SeafloorCavern_Room3_Text_Grunt5Intro: @ 8234B3A
 	.string "우리들의 야망을 위해서는\n"
 	.string "포켓몬이 필요한데\p"
 	.string "포켓몬의 힘을 빌리는\n"
-	.string "너같은 녀석이\l"
+	.string "너 같은 녀석이\l"
 	.string "이런 곳까지 방해하러 오다니!\p"
 	.string "잘되는 일이 없구만!$"
 	// オレたちの やぼうの ためにｎ
@@ -74,9 +74,9 @@ SeafloorCavern_Room3_Text_Grunt5Defeat: @ 8234BFE
 	// ぐはっ!
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle: @ 8234C04
-	.string "우리들의 머리로는 알 수 없는\n"
+	.string "우리 머리로는 이해할 수 없는\n"
 	.string "그 리더에게\p"
-	.string "잘도 너같은\n"
+	.string "잘도 너 같은\n"
 	.string "꼬맹이가 거스르는구만!\p"
 	.string "혹시 너\n"
 	.string "엄청난 녀석... 인 거냐?$"

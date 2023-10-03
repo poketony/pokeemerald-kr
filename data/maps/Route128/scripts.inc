@@ -270,7 +270,7 @@ Route128_Text_MaxieDoYouUnderstandNow: @ 81F6E5A
 	.string "얼마나 어리석은 것인지를...\p"
 	.string "어쨌든 서두르자!\n"
 	.string "이 이상 심각해지기 전에\l"
-	.string "뭐라도 하지 않으면 안되니까!$"
+	.string "뭐라도 하지 않으면 안 되니까!$"
 	// マツブサ『わかったか アオギリ!ｐ
 	// おまえの……ｎ
 	// いや われわれの したことがｌ
@@ -289,7 +289,7 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe: @ 81F6F1E
 	.string "하지만 그렇다고 해서\n"
 	.string "잠자코 보고 있을 수도 없다\p"
 	.string "이 일의 뒤처리를 하는 건\n"
-	.string "나와 아강의 책임이니... 까...$"
+	.string "나와 아강의 책임이니...까...$"
 	// マツブサ『§あ なにも いうなｐ
 	// わたしに アオギリを せめるｎ
 	// しかくが ないことは わかっている……ｐ

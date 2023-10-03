@@ -70,7 +70,7 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep: @ 8234544
 	.string "본 적 있는 얼굴!\p"
 	.string "이런 곳까지 왔다는 건\n"
 	.string "또 우리들을 방해하려고!?\p"
-	.string "너같은 녀석이 아쿠아단에게\n"
+	.string "너 같은 녀석이 아쿠아단에게\n"
 	.string "반항하다니\l"
 	.string "100억만 년은 빠르다고!\p"
 	.string "너에겐 마그마단이 어울려!\p"
@@ -92,7 +92,7 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep: @ 8234544
 	// ほんっと--に うみが にあわねえぜ!
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort: @ 82346C8
-	.string "너같은 녀석이 아쿠아단에게\n"
+	.string "너 같은 녀석이 아쿠아단에게\n"
 	.string "반항하다니\l"
 	.string "100억만 년은 빠르다고!\p"
 	.string "너에겐 마그마단이 어울려!\p"

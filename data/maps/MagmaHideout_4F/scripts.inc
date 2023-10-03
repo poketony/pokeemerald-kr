@@ -222,7 +222,7 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 	.string "뭘 해도 일어나지 않던 네가\l"
 	.string "원하는 건 쪽빛구슬...\p"
 	.string "그런 거겠지?\p"
-	.string "자아 가져왔다\n"
+	.string "자아 여기 가져왔다\n"
 	.string "이 빛으로 눈을 떠라!\p"
 	.string "그리고 진정한 힘을\n"
 	.string "나에게 보여다오!$"
@@ -238,7 +238,7 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
 	.string "마적: ...그란돈!\n"
 	.string "대체 어떻게 된 거지!?\p"
-	.string "쪽빛구슬로는 안되는 건가?\p"
+	.string "쪽빛구슬로는 안 되는 건가?\p"
 	.string "그란돈이여!\n"
 	.string "어디로 사라져 버린 거냐...$"
 	// マツブサ『……グラ-ドン!ｎ
@@ -274,9 +274,9 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
 	.string "흠...\n"
 	.string "그 정도는 나도 알고 있다\p"
 	.string "그란돈이 없어진 이상\n"
-	.string "이 산에는 더 이상 볼일이 없지\p"
-	.string "나는 그란돈을 쫓아가겠다\n"
-	.string "너하고는 여기서 작별이다!$"
+	.string "더는 이런 산에 볼일은 없어\p"
+	.string "나는 그란돈을 쫓아갈 테니\n"
+	.string "너하고는 여기서 작별이겠군!$"
 	// マツブサ『グラ-ドンが にげだしたの にはｎ
 	// なにか わけがある……ｌ
 	// そう いいたいの だろう?ｐ

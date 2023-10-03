@@ -1188,12 +1188,12 @@ static const u8 sTM23Desc[] = _(
 
 static const u8 sTM24Desc[] = _(
     "전자파를 날려\n"
-    "준 적을\n"
+    "맞힌 적을\n"
     "마비시키기도 한다");
 
 static const u8 sTM25Desc[] = _(
     "번개를 떨어뜨려\n"
-    "준 적을\n"
+    "맞힌 적을\n"
     "마비시키기도 한다");
 
 static const u8 sTM26Desc[] = _(

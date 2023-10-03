@@ -224,7 +224,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall: @ 8219A0D
 	.string "보시는 대로 아직\n"
 	.string "그림이 장식되어 있지 않습니다\p"
 	.string "여기에는 1층에 있는\n"
-	.string "소위 명화같은 것과는\l"
+	.string "소위 명화 같은 것과는\l"
 	.string "다른 그림을 장식하고 싶어요!\p"
 	.string "오래된 명화만이\n"
 	.string "예술인 것이 아니에요!\p"

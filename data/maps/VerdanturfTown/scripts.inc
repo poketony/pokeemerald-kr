@@ -64,10 +64,10 @@ VerdanturfTown_EventScript_RusturfTunnelSign:: @ 81EB5F4
 	end
 
 VerdanturfTown_Text_ManTryingToDigTunnel: @ 81EB5FD
-	.string "우리 아빠가 말씀하셨어\p"
-	.string "이 터널에는 큰- 소리에\n"
+	.string "우리 아빠가 말했어\p"
+	.string "이 터널에는 커-다란 소리에\n"
 	.string "반응해서 소란 피우는\l"
-	.string "겁쟁이 포켓몬이 가득하대!\p"
+	.string "겁쟁이 포켓몬이 잔뜩 있대!\p"
 	.string "그래서 개발 공사를 그만뒀는데\n"
 	.string "어떤 남자가 혼자서\l"
 	.string "터널을 파려고 한다나 봐!$"

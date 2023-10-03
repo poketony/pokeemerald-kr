@@ -1120,7 +1120,7 @@ RustboroCity_Text_TradePokemonGrowFast: @ 81E1789
 	.string "말을 듣지 않아$"
 
 RustboroCity_Text_OutOfTheWay: @ 81E17FE
-	.string "비켜-! 비켜비켜-!!$"
+	.string "비켜-! 비켜 비켜-!!$"
 
 RustboroCity_Text_WaitDontTakeMyGoods: @ 81E1817
 	.string "거기 서-!\p"

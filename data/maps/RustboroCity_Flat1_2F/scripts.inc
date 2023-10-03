@@ -104,7 +104,7 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase: @ 82152FA
 	.string "여어 어서 와\n"
 	.string "벽지 가문의 집에!\p"
 	.string "하나 물어보고 싶은 게 있는데\n"
-	.string "너 아이를 돌본 적이 있어?\p"
+	.string "너 아이를 돌본 적 있어?\p"
 	.string "아저씨 처음으로\n"
 	.string "육아를 하고 있는데 말야\p"
 	.string "우리 채령이가\n"
@@ -130,21 +130,21 @@ RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase: @ 8215448
 	.string "지금은 “{STR_VAR_1}”{K_I}라는\n"
 	.string "말을 들려주고 있는데\p"
 	.string "재밌을 것 같은 말\n"
-	.string "알아봐 준 거니?$"
+	.string "알아봐준 거니?$"
 	// いまは §い ってｎ
 	// ことばを つかってるんだけどｐ
 	// おもしろそうな ことばｎ
 	// みつけて きたの?
 
 RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion: @ 82154AD
-	.string "그런가 그런가\n"
+	.string "그렇구나 그렇구나\n"
 	.string "그럼 바로 알려줘$"
 	// そうか そうかｎ
 	// じゃあ さっそく おしえて くれよ
 
 RustboroCity_Flat1_2F_Text_OhIsThatRight: @ 82154E7
-	.string "그런가 그런가\p"
-	.string "재밌을 것 같을 말을\n"
+	.string "그렇구나 그렇구나\n"
+	.string "재밌을 것 같을 말을\l"
 	.string "알게 된다면 알려줘$"
 	// そうか そうかｎ
 	// なにか おもしろそうな ことばをｌ
@@ -152,7 +152,7 @@ RustboroCity_Flat1_2F_Text_OhIsThatRight: @ 82154E7
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry2: @ 8215535
 	.string "과연-\n"
-	.string "그럼 한번 해볼게$"
+	.string "그럼 시험해볼게$"
 	// なるほど-ｎ
 	// じゃあ ためして みようかな
 
@@ -160,15 +160,15 @@ RustboroCity_Flat1_2F_Text_OhShesLaughing: @ 8215565
 	.string "{STR_VAR_1}\n"
 	.string "{STR_VAR_1}\p"
 	.string "웃는다 웃는다!\n"
-	.string "뭔가 기쁘다$"
+	.string "왠지 기쁜걸$"
 	// §いｎ
 	// §いｐ
 	// わらってる わらってる!ｎ
 	// なんだか うれしいなあ
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry: @ 82155A4
-	.string "Ah, I see.\n"
-	.string "Well, let's give it a try, shall we?$"
+	.string "과연-\n"
+	.string "그럼 시험해볼게$"
 	// なるほど-ｎ
 	// じゃあ ためして みようかな
 
@@ -187,7 +187,7 @@ RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase: @ 821561E
 	.string "그럼 혼자서 생각해야겠네-\p"
 	.string "으-음\n"
 	.string "“{STR_VAR_1}”{K_I}라면 어떨까\l"
-	.string "좋아! 한번 해봐야지$"
+	.string "좋아! 시험해 봐야지$"
 	// いい ことば しらないか-ｎ
 	// じゃあ じぶんで かんがえるか-ｐ
 	// う-んｎ
@@ -207,7 +207,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2: @ 8215699
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny: @ 82156E3
 	.string "좋은 말을 모르는구나-\n"
 	.string "그럼 지난번의 말로\l"
-	.string "웃겨 봐야겠네-\p"
+	.string "웃겨봐야겠네-\p"
 	.string "재밌을 거 같은 말을 찾는다면\n"
 	.string "아저씨한테 알려주렴$"
 	// いい ことば しらないか-ｎ
@@ -224,7 +224,7 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper: @ 8215792
 	.string "이래 봬도\p"
 	.string "데봉 코포레이션의\n"
 	.string "굉장한 연구원이거든\p"
-	.string "그래! 그럼 답례로\n"
+	.string "그렇지- 그럼 답례로\n"
 	.string "네가 포켓몬을 맡기는\l"
 	.string "박스의 벽지를\l"
 	.string "늘려줄게!\p"

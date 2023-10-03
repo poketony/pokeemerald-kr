@@ -618,8 +618,7 @@ MtChimney_Text_MaxieDefeat: @ 822F5CF
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma: @ 822F5F7
 	.string "마적: 뭐 좋다\n"
-	.string "이 굴뚝산은 일단\l"
-	.string "포기하도록 하지...\p"
+	.string "이 굴뚝산은 일단 포기하도록 하지...\p"
 	.string "하지만 마그마단의 활동은\n"
 	.string "이걸로 끝난 게 아니다!\p"
 	.string "후후후...\p"

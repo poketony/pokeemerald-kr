@@ -68,6 +68,6 @@ Route110_TrickHousePuzzle8_Text_LeroyDefeat: @ 826EA14
 	.string "놀라운 센스로군요!$"
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle: @ 826EA3F
-	.string "당신같은 사람이 와 줘서\n"
+	.string "당신 같은 사람이 와 줘서\n"
 	.string "미궁대왕도 만족하시겠죠!$"
 

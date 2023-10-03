@@ -476,7 +476,7 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum: @ 820D232
 	.string "데봉화물을 빼앗아 가려고 했던...$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove: @ 820D291
-	.string "아강: 또 네 녀석인가...\p"
+	.string "아강: 으음? 또 네 녀석인가...\p"
 	.string "일부러 여기까지 오다니\n"
 	.string "꽤나 고생했겠군...\p"
 	.string "하지만 더 이상 누구도\n"
@@ -495,7 +495,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove: @ 820D291
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
 	.string "해양: 어째서...\p"
-	.string "아쿠아단이\n"
+	.string "아쿠아단 녀석들이\n"
 	.string "내 잠수정\l"
 	.string "“해연 1호”를 빼앗은 거지?\p"
 	.string "설마 그 녀석들도\n"
@@ -513,12 +513,12 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "해양: 아아 {PLAYER}{K_AYA}...\p"
-	.string "그런가... 아쿠아단은\n"
+	.string "그래... 아쿠아단은\n"
 	.string "이미 출발해버렸구나...\p"
 	.string "아니야 신경쓰지 않아도 돼\n"
 	.string "네 책임이 아니니까\p"
-	.string "잠수정을 따라간다는 거\n"
-	.string "자체가 보통 인간에게는\l"
+	.string "잠수정을 따라간다는 거 자체가\n"
+	.string "보통 인간에게는\l"
 	.string "말도 안되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
 	.string "바닷속으로 들어갈 수 있는 기술을\l"
@@ -529,8 +529,8 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "있을지도 모르겠다$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub: @ 820D58A
-	.string "해양: 잠수정을 따라간다는 거\n"
-	.string "자체가 보통 인간에게는\l"
+	.string "해양: 잠수정을 따라간다는 거 자체가\n"
+	.string "보통 인간에게는\l"
 	.string "말도 안되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
 	.string "바닷속으로 들어갈 수 있는 기술을\l"

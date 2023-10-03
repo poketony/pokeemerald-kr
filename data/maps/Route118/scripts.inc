@@ -276,7 +276,7 @@ Route118_Text_StevenQuestions: @ 81F40BE
 	.string "어떻게 생각해?\p"
 	.string "내가 신경 쓸 건 아니긴 한데\p"
 	.string "그럼\n"
-	.string "또 만날 수 있음 좋겠네$"
+	.string "또 만날 수 있으면 좋겠네$"
 
 Route118_Text_YouAgreeGoodRodIsGood: @ 81F427B
 	.string "음!\n"

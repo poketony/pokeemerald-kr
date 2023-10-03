@@ -515,7 +515,7 @@ Route109_Text_BrineyTellMeWhenYouNeedToSail: @ 81EEE72
 Route109_Text_ChillAtMyPapasSpot: @ 81EEEB4
 	.string "뜨거운 트레이너 분들! 그리고\n"
 	.string "뜨겁지 않은 트레이너 분들!\l"
-	.string "모두 저희 아빠 가게에 들러주세요-!$"
+	.string "모두 우리 아빠 가게에 들러주세요-!$"
 
 Route109_Text_LittleKidsDartAround: @ 81EEF08
 	.string "아이는 이곳저곳 돌아다니니까\n"

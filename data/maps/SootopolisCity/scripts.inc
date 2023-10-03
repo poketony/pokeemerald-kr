@@ -1537,7 +1537,7 @@ SootopolisCity_Text_TwoPokemonArentAngry: @ 81E67DC
 	.string "왠지 모르게 느껴져... 저 두 마리\n"
 	.string "화난 게 아닌가봐\p"
 	.string "아마... 자신의 힘을\n"
-	.string "컨트롤할 수 없는 거야...$"
+	.string "컨트롤할 수 없는 걸 거야...$"
 	// なんとなく かんじるよ…… あの2ひきｎ
 	// おこってる わけじゃ ないみたいｐ
 	// たぶん…… じぶんの ちからをｎ
@@ -1831,7 +1831,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 	.string "하하 하하하...\p"
 	.string "우리가 해왔던 건\n"
 	.string "포켓몬에게 있어서\l"
-	.string "정말 작은 거였어...$"
+	.string "정말 보잘것없는 거였어...$"
 	// アオギリ『カイオ-ガと グラ-ドンはｎ
 	// どこかへ とびさって しまったｐ
 	// そして ホウエンの てんきもｎ

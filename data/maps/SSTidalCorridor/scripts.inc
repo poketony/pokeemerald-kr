@@ -260,10 +260,10 @@ SSTidalCorridor_Movement_SailorReturn: @ 823C28B
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite: @ 823C28F
-	.string "금작화: 여어\n"
-	.string "{PLAYER}{K_AYA}!\p"
+	.string "금작화: 여어 여어 여어\n"
+	.string "{PLAYER}{K_AYA} {PLAYER}{K_AYA}!\p"
 	.string "나는 볼일이 있어서\n"
-	.string "이제 배에서 내려야겠지만\l"
+	.string "이제 배에서 내리겠지만\l"
 	.string "그래도 만나서 다행이네!\p"
 	.string "리그 챔피언 축하해!\n"
 	.string "그런 너를\l"
@@ -275,7 +275,7 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite: @ 823C28F
 	.string "이미 얘기를 해뒀으니까...\l"
 	.string "다음부터 배에 탈 때는\l"
 	.string "배틀프런티어에 갈 수 있을 거야!\p"
-	.string "그럼 {PLAYER}\n"
+	.string "그럼 {PLAYER}{K_AYA}\n"
 	.string "배틀프런티어에서 기다릴게!$"
 	// エニシダ『やあ やあ やあｎ
 	// §あ§お §あ§お!ｐ
