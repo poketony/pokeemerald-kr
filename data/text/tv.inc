@@ -1148,173 +1148,304 @@ LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial:: @ 8281DB4
 	// きみも ぜひ みてね!
 
 gTVTrainerFanClubSpecialText00:: @ 08281DFB
-	.string "TRAINER FAN CLUB\n"
-	.string "{STR_VAR_1} SPECIAL!\p"
-	.string "This is a special presentation for\n"
-	.string "the fans of {STR_VAR_1} all over HOENN!\p"
-	.string "Today, we ask the question, “What do\n"
-	.string "people think of {STR_VAR_1}?”\p"
-	.string "We posed the question to {STR_VAR_2}\n"
-	.string "as the TRAINER representative.\p"
-	.string "We asked, “In one word, how would\n"
-	.string "you describe {STR_VAR_1}?”\p"
-	.string "The reply: “{STR_VAR_3}.”\p"
-	.string "Kudos to {STR_VAR_2}!\n"
-	.string "What a perceptive opinion!\p"
-	.string "“{STR_VAR_3} {STR_VAR_1}.”\n"
-	.string "It has such a nice ring to it!\p"
-	.string "{STR_VAR_2} also scored {STR_VAR_1}'s\n"
-	.string "strength from 0 to 100.$"
+	.string "“트레이너 팬클럽\n"
+	.string "  {STR_VAR_1} 스페셜!”\p"
+	.string "호연 각지에 계신\n"
+	.string "{STR_VAR_1}팬 여러분\l"
+	.string "오래 기다리셨습니다!\p"
+	.string "오늘은 {STR_VAR_1}씨가\n"
+	.string "“사람들에게 어떻게 보이고 있는지”를\l"
+	.string "함께 생각해 봅시다!\p"
+	.string "다른 트레이너를 대표해서\n"
+	.string "{STR_VAR_2}씨로부터 의견을\l"
+	.string "받아봤습니다!\p"
+	.string "우선 {STR_VAR_1}씨를\n"
+	.string "한마디로 표현하자면...\p"
+	.string "“{STR_VAR_3}”\p"
+	.string "역시 {STR_VAR_2}씨!\n"
+	.string "정확한 말씀이군요!\p"
+	.string "“{STR_VAR_3} {STR_VAR_1}!”\n"
+	.string "좋네요-\p"
+	.string "계속해서 {STR_VAR_1}씨의 강함에\n"
+	.string "점수를 매기자면...$"
+	// 『トレ-ナ- ファンクラブｎ
+	//  §い スペシャル!』ｐ
+	// ホウエン かくちに いらっしゃるｎ
+	// §いファンの みなさまｌ
+	// おまたせしました!ｐ
+	// きょうは §いさんがｎ
+	// 「どのように おもわれているか?」をｌ
+	// いっしょに かんがえて いきましょう!ｐ
+	// ほかの トレ-ナ-さんを だいひょうしてｎ
+	// §うさん から ごいけんをｌ
+	// いただきました!ｐ
+	// まず §いさんをｎ
+	// ひとことで いい あらわすと……ｐ
+	// 「§え」ｐ
+	// さすが §うさん!ｎ
+	// よく みて いらっしゃいますね!ｐ
+	// 「§え §い!」ｎ
+	// いいですね-ｐ
+	// つづいて §いさんの つよさにｎ
+	// てんすうを つけると……
 
 gTVTrainerFanClubSpecialText01:: @ 08281F90
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is a very high score indeed!\p"
-	.string "{STR_VAR_2} must obviously hold\n"
-	.string "{STR_VAR_1} in very high esteem.$"
+	.string "“{STR_VAR_3}점!”\p"
+	.string "굉장히 높은 점수네요\n"
+	.string "{STR_VAR_2}씨는 {STR_VAR_1}씨를\l"
+	.string "무척 존경하고 있는 거군요$"
+	// 「§えてん!」ｐ
+	// すごい こうとくてん ですねｎ
+	// §うさんは §いさんをｌ
+	// とっても そんけい していますね
 
 gTVTrainerFanClubSpecialText02:: @ 08281FFA
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is quite a good score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a rival.$"
+	.string "“{STR_VAR_3}점!”\p"
+	.string "좋은 점수네요\n"
+	.string "{STR_VAR_2}씨는 {STR_VAR_1}씨를\l"
+	.string "라이벌로 여기고 있는 거군요$"
+	// 「§えてん!」ｐ
+	// いい てんすう ですねｎ
+	// §うさんは §いさんをｌ
+	// ライバル として みていますね
 
 gTVTrainerFanClubSpecialText03:: @ 08282052
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That's a rather weak score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a mere sidekick.$"
+	.string "“{STR_VAR_3}점!”\p"
+	.string "좀 별로인 점수네요\n"
+	.string "{STR_VAR_2}씨는 {STR_VAR_1}씨를\l"
+	.string "자기보다 아래라고 보고 있는 거군요$"
+	// 「§えてん!」ｐ
+	// ちょっと いまいち ですねｎ
+	// §うさんは §いさんをｌ
+	// じぶんの こぶん として みていますね
 
 gTVTrainerFanClubSpecialText04:: @ 082820B2
-	.string "The score was {STR_VAR_3} point(s)!\n"
-	.string "That's a terrible score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be an underling.$"
+	.string "“{STR_VAR_3}점!”\p"
+	.string "너무 짠 점수네요\n"
+	.string "{STR_VAR_2}씨는 {STR_VAR_1}씨를\l"
+	.string "조무래기로 보고 있는 거군요$"
+	// 「§えてん!」ｐ
+	// ひどい てんすう ですねｎ
+	// §うさんは §いさんをｌ
+	// したっぱ として みていますね
 
 gTVTrainerFanClubSpecialText05:: @ 0828210E
-	.string "There you have it, folks!\p"
-	.string "I think we all learned something\n"
-	.string "new about {STR_VAR_1}.\p"
-	.string "In closing, I'll leave you with\n"
-	.string "{STR_VAR_2}'s words.\p"
-	.string "{STR_VAR_3} {STR_VAR_1}!$"
+	.string "이야- 그렇군요!\p"
+	.string "{STR_VAR_1}씨에 대해\n"
+	.string "새로운 발견이 있었습니다!\p"
+	.string "그럼 마지막으로 {STR_VAR_2}씨의\n"
+	.string "말로 끝내보도록 하겠습니다!\p"
+	.string "{STR_VAR_1} {STR_VAR_3}!$"
+	// いや- なるほど!ｐ
+	// §いさんに ついてｎ
+	// あたらしい はっけんが ありましたね!ｐ
+	// では さいごに §うさんのｎ
+	// ことばで おわかれ しましょう!ｐ
+	// §い §え!
 
 gTVNameRaterText00:: @ 0828218A
-	.string "And now, it's time for…\n"
-	.string "THE NAME RATER SHOW.\p"
-	.string "I tell your POKéMON's fortune from\n"
-	.string "the nickname you've bestowed.\p"
-	.string "Advice is what I have to give, and it is\n"
-	.string "helpful advice that I offer.\p"
-	.string "Today, I shall do a reading of\n"
-	.string "the nickname {STR_VAR_3} of {STR_VAR_1}'s\l"
-	.string "POKéMON {STR_VAR_2}.\p"
-	.string "Hmhm…\p"
-	.string "Hmm…\n"
-	.string "This nickname is…$"
+	.string "“이름 평가”의\n"
+	.string "시간이 돌아왔습니다\p"
+	.string "당신이 붙인 닉네임에서\n"
+	.string "포켓몬의 미래를\l"
+	.string "점쳐 드립니다\p"
+	.string "조금이라도 어드바이스가\n"
+	.string "된다면 좋을 것 같군요\p"
+	.string "오늘은 {STR_VAR_1}씨의 포켓몬\n"
+	.string "{STR_VAR_2} “{STR_VAR_3}”의\l"
+	.string "닉네임을 점쳐 보겠습니다\p"
+	.string "흐음흐음...\p"
+	.string "흐-음\n"
+	.string "이 닉네임은...$"
+	// 『せいめい はんだん』のｎ
+	// じかんが やって まいりましたｐ
+	// あなたの つけた ニックネ-ムからｎ
+	// ポケモンの ことをｌ
+	// うらなって さしあげますｐ
+	// すこしでも アドバイスにｎ
+	// なれば よいと おもいますなｐ
+	// きょうは §いさんの ポケモンｎ
+	// §うの 「§え」のｌ
+	// ニックネ-ムを うらなって みますかなｐ
+	// ふむふむ……ｐ
+	// う-むｎ
+	// この ニックネ-ムは……
 
 gTVNameRaterText01:: @ 0828229E
-	.string "A nickname that hints at talent in many\n"
-	.string "different ways.\p"
-	.string "I urge this TRAINER to take courage\n"
-	.string "and take on many challenges.$"
+	.string "여러 가지 분야에서 재능을\n"
+	.string "발휘할 수 있는 닉네임이군요!\p"
+	.string "앞으로 여러 일에\n"
+	.string "도전하면 좋을 거라고 생각합니다$"
+	// いろいろな ところで さいのうをｎ
+	// はっき できる ニックネ-ム ですなぁ!ｐ
+	// こんご いろいろな ことにｎ
+	// チャレンジ すると よいと おもいますよ
 
 gTVNameRaterText02:: @ 08282317
-	.string "A nickname that perfectly complements\n"
-	.string "{STR_VAR_1}, the TRAINER's name.\p"
-	.string "It suggests that you will forge a fine\n"
-	.string "partnership with precise timing.$"
+	.string "{STR_VAR_1}씨와의 궁합이\n"
+	.string "무척 좋은 닉네임이군요!\p"
+	.string "서로 잘 맞는\n"
+	.string "좋은 콤비가 될 거라고 생각합니다$"
+	// §いさん との あいしょうがｎ
+	// とても よい ニックネ-ム ですなぁ!ｐ
+	// いきの ぴったり あったｎ
+	// よい コンビに なると おもいますよ
 
 gTVNameRaterText03:: @ 0828239D
-	.string "A nickname fit for a unique individual\n"
-	.string "of a POKéMON!\p"
-	.string "If raised properly, this POKéMON's\n"
-	.string "uniqueness will bloom excessively!$"
+	.string "무척 개성적인 포켓몬이\n"
+	.string "되는 닉네임이군요!\p"
+	.string "제대로 키운다면 그 개성이\n"
+	.string "커다란 꽃을 피울 거라고 생각합니다$"
+	// とても こせいてきな ポケモンにｎ
+	// なる ニックネ-ム ですなぁ!ｐ
+	// きちんと そだてて やれば その こせいがｎ
+	// おおきく はな ひらくと おもいますよ
 
 gTVNameRaterText04:: @ 08282418
-	.string "A nickname that will nurture the caring\n"
-	.string "and compassionate side of POKéMON.\p"
-	.string "If raised properly, this POKéMON will\n"
-	.string "come to exhibit real warmth!$"
+	.string "무척 배려심 있는\n"
+	.string "포켓몬이 되는 닉네임이군요!\p"
+	.string "제대로 키운다면\n"
+	.string "그에 응해줄 거라고 생각합니다$"
+	// とても おもいやりの あるｎ
+	// ポケモンに なる ニックネ-ム ですなぁ!ｐ
+	// きちんと そだてて やればｎ
+	// それに こたえて くれると おもいますよ
 
 gTVNameRaterText05:: @ 082824A6
-	.string "A very fine nickname that hints at\n"
-	.string "greatness to come.\p"
-	.string "I am intrigued about what the future\n"
-	.string "holds in store for this POKéMON.$"
+	.string "장래에 거물이 되는\n"
+	.string "무척 좋은 닉네임이군요!\p"
+	.string "장래가 매우\n"
+	.string "기대가 되는 포켓몬입니다$"
+	// しょうらい おおものに なるｎ
+	// とても よい ニックネ-ム ですなぁ!ｐ
+	// しょうらいが とてもｎ
+	// たのしみな ポケモン ですな
 
 gTVNameRaterText06:: @ 08282522
-	.string "A good nickname that should make the\n"
-	.string "POKéMON hale and hearty!\p"
-	.string "That POKéMON should remain fit and\n"
-	.string "robust for a long, long time.$"
+	.string "무척 건강한 포켓몬이\n"
+	.string "되는 닉네임이군요!\p"
+	.string "언제나 건강하게\n"
+	.string "있어줄 겁니다$"
+	// とても けんこうてきな ポケモンにｎ
+	// なる よい ニックネ-ム ですなぁ!ｐ
+	// いつまでも げんきでｎ
+	// いて くれる でしょう
 
 gTVNameRaterText07:: @ 082825A1
-	.string "A good nickname that should make the\n"
-	.string "POKéMON very active!\p"
-	.string "I should think that this POKéMON will be\n"
-	.string "a strong performer in battles.$"
+	.string "무척 활동적인 포켓몬이\n"
+	.string "되는 좋은 닉네임이군요!\p"
+	.string "포켓몬 승부에서\n"
+	.string "큰 활약을 할 거라고 생각합니다$"
+	// とても かつどうてきな ポケモンにｎ
+	// なる よい ニックネ-ム ですなぁ!ｐ
+	// ポケモンしょうぶ ではｎ
+	// おおいに かつやく すると おもいますよ
 
 gTVNameRaterText08:: @ 08282623
-	.string "An appealing nickname that should make\n"
-	.string "the POKéMON very charming!\p"
-	.string "I don't doubt that this POKéMON will be\n"
-	.string "quite the charmer in POKéMON CONTESTS.$"
+	.string "무척 애교가 많은\n"
+	.string "포켓몬이 되는 닉네임이군요!\p"
+	.string "포켓몬 콘테스트에서\n"
+	.string "매우 큰 활약을 할 거라고 생각합니다$"
+	// とても あいきょうの あるｎ
+	// ポケモンになる ニックネ-ム ですなぁ!ｐ
+	// ポケモンコンテスト ではｎ
+	// とても かつやく できると おもいますよ
 
 gTVNameRaterText09:: @ 082826B4
-	.string "The nickname {STR_VAR_1} is rooted by\n"
-	.string "the letter “{STR_VAR_3}.”\p"
-	.string "That letter is supported by the first\n"
-	.string "letter “{STR_VAR_2},” which gives it a solid sense\l"
-	.string "of presence as a nickname.$"
+	.string "이 “{STR_VAR_1}”{K_I}라는 닉네임은\n"
+	.string "“{STR_VAR_3}” 문자를 중심으로\l"
+	.string "여기에 “{STR_VAR_2}”{K_IGA} 붙어서\p"
+	.string "묵직한 느낌을 주는\n"
+	.string "좋은 닉네임이 되었군요$"
+	// この 「§い」という ニックネ-ムはｎ
+	// 「§え」の もじを ちゅうしん としてｌ
+	// これに 「§う」が つくことでｐ
+	// どっしり としたｎ
+	// よい ニックネ-ムに なっていますな
 
 gTVNameRaterText10:: @ 0828274D
-	.string "The nickname {STR_VAR_1} is very\n"
-	.string "shapely in a pleasing manner.\p"
-	.string "The presence of the letters “{STR_VAR_2}” and\n"
-	.string "“{STR_VAR_3}”--now that is remarkably good!$"
+	.string "이 “{STR_VAR_1}”{K_I}라는 닉네임은\n"
+	.string "매우 형태가 좋은\l"
+	.string "닉네임이군요\p"
+	.string "닉네임에 “{STR_VAR_2}”{K_WAGWA} “{STR_VAR_3}”{K_IGA}\n"
+	.string "들어가 있는 게 아주 좋습니다!$"
+	// この 「§い」という ニックネ-ムはｎ
+	// とても かたちの よいｌ
+	// ニックネ-ム ですなぁｐ
+	// ニックネ-ムに 「§う」と 「§え」がｎ
+	// はいって いるのが とても よい!
 
 gTVNameRaterText11:: @ 082827CB
-	.string "The nickname {STR_VAR_1}--it has a\n"
-	.string "sublime, flowing feel to it.\p"
-	.string "The flow from the initial letter “{STR_VAR_2}” to\n"
-	.string "“{STR_VAR_3}” is especially wonderful.$"
+	.string "이 “{STR_VAR_1}”{K_I}라는 닉네임은\n"
+	.string "무척 울림이 좋은\l"
+	.string "닉네임이군요\p"
+	.string "“{STR_VAR_2}”{K_I}라는 문자 뒤에\n"
+	.string "“{STR_VAR_3}”{K_IGA} 오는 게 아주 좋습니다!$"
+	// この 「§い」という ニックネ-ムはｎ
+	// とても ながれの よいｌ
+	// ニックネ-ム ですなぁｐ
+	// 「§う」の もじの あとにｎ
+	// 「§え」がくる ながれが とても よい!
 
 gTVNameRaterText12:: @ 08282849
-	.string "Let's examine other examples of fine\n"
-	.string "nicknames, shall we?$"
+	.string "...자 그럼 그 밖에\n"
+	.string "좋은 닉네임의 예시로서$"
+	// ……さて そのほかにｎ
+	// よい ニックネ-ムの れい として
 
 gTVNameRaterText13:: @ 08282883
-	.string "Try this example. Take a part of the\n"
-	.string "TRAINER name of {STR_VAR_1}, and end\l"
-	.string "up with the fine nickname {STR_VAR_2}{STR_VAR_3}.$"
+	.string "트레이너 {STR_VAR_1}씨의\n"
+	.string "이름을 따서\p"
+	.string "“{STR_VAR_2}{STR_VAR_3}”{K_I}라고 하는 것도\l"
+	.string "무척 좋은 닉네임이 되겠군요$"
+	// トレ-ナ-の §いさんのｎ
+	// なまえを もってきてｐ
+	// 「§う§え」と いうのもｎ
+	// とても よい ニックネ-ム ですなぁ
 
 gTVNameRaterText14:: @ 082828E4
-	.string "The nickname {STR_VAR_2}{STR_VAR_3} would also work\n"
-	.string "quite well.$"
+	.string "아니면 “{STR_VAR_2}{STR_VAR_3}”도\n"
+	.string "좋은 닉네임이 될 테고요$"
+	// もしくは 「§う§え」とｎ
+	// いうのも よい ニックネ-ム ですな
 
 gTVNameRaterText15:: @ 08282912
-	.string "The POKéMON's species name of\n"
-	.string "{STR_VAR_2} could be used as the basis\l"
-	.string "for making the nickname {STR_VAR_1}{STR_VAR_3}.$"
+	.string "원래 포켓몬의 이름인\n"
+	.string "{STR_VAR_2}에서 살짝 따와서\l"
+	.string "{STR_VAR_1}{STR_VAR_3}{K_I}나$"
+	// もとの ポケモンの なまえｎ
+	// §うから すこし もらってｐ
+	// 「§い§え」や
 
 gTVNameRaterText16:: @ 0828296C
-	.string "{STR_VAR_1}{STR_VAR_3} would also be an effective\n"
-	.string "nickname.$"
+	.string "“{STR_VAR_1}{STR_VAR_3}”도\n"
+	.string "좋은 닉네임이 되겠군요$"
+	// 「§い§え」と いうのもｎ
+	// よい ニックネ-ム ですなぁ
 
 gTVNameRaterText17:: @ 08282996
-	.string "What should always be avoided is using\n"
-	.string "another POKéMON species name.\p"
-	.string "For instance, avoid taking the name of\n"
-	.string "{STR_VAR_2} to make the nickname {STR_VAR_1}{STR_VAR_3}.\l"
-	.string "That is unacceptable.$"
+	.string "무슨 일이 있어도 다른 포켓몬의 이름\n"
+	.string "예를 들어 {STR_VAR_2}의 이름을 붙여\p"
+	.string "“{STR_VAR_1}{STR_VAR_3}” 같은\n"
+	.string "닉네임으로 지으면 안 됩니다$"
+	// まちがっても ほかの ポケモンの なまえｎ
+	// たとえば §うの なまえを つけてｐ
+	// 「§い§え」の ようなｎ
+	// ニックネ-ムに しては いけませんな
 
 gTVNameRaterText18:: @ 08282A36
-	.string "I must say that {STR_VAR_1} is quite\n"
-	.string "a good nickname.\p"
-	.string "I hope that the TRAINER will continue\n"
-	.string "to treat {STR_VAR_1} with love.\p"
-	.string "That's it for today's show.\n"
-	.string "May we meet again.$"
+	.string "으음 그건 그렇고 {STR_VAR_1}{K_EUNNEUN}\n"
+	.string "제법 좋은 닉네임이군요\p"
+	.string "앞으로도 “{STR_VAR_1}”{K_EULREUL}\n"
+	.string "소중하게 여겨주십시오\p"
+	.string "그럼 인연이 있으면\n"
+	.string "또 보지요$"
+	// うむ それにしても 「§い」はｎ
+	// なかなか よい ニックネ-ム ですなｐ
+	// これからも 「§い」の ことをｎ
+	// たいせつに して ほしい ものですなぁｐ
+	// それでは またｎ
+	// ごえんが あれば
 
 gTVPokemonAnglerText00:: @ 08282ACF
 	.string "{STR_VAR_2} ANGLER\p"

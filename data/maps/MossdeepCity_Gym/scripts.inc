@@ -710,7 +710,7 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
 	.string "풍: 에헤헤...체육관 관장이\p"
 	.string "란: 두 명이나 있어서 놀랐지?\p"
 	.string "풍: 어머? 싸울 수 있는 포켓몬이\n"
-	.string "란: 한 마리밖에 없네?p"
+	.string "란: 한 마리밖에 없네?\p"
 	.string "풍: 그럼 승부할 수 없어!\n"
 	.string "란: 승부를 즐기고 싶으면\l"
 	.string "포켓몬을 더 데리고 와!$"
