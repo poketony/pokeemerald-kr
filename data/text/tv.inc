@@ -1448,208 +1448,360 @@ gTVNameRaterText18:: @ 08282A36
 	// ごえんが あれば
 
 gTVPokemonAnglerText00:: @ 08282ACF
-	.string "{STR_VAR_2} ANGLER\p"
-	.string "ANNOUNCER: Hello! Today, we'll get tips\n"
-	.string "on fishing for {STR_VAR_2}.\p"
-	.string "GURU, what advice can you give for\n"
-	.string "catching {STR_VAR_2}?\p"
-	.string "GURU: Hm? Catching {STR_VAR_2}?\n"
-	.string "Well, let me tell you, be patient and\l"
-	.string "wait. That's the bottom line.\p"
-	.string "Do you see {STR_VAR_1} over there?\n"
-	.string "That TRAINER makes a good example.\p"
-	.string "That TRAINER's already had\n"
-	.string "{STR_VAR_3} POKéMON get away.\p"
-	.string "But there {STR_VAR_1} waits. No giving up.\n"
-	.string "That's the law for catching {STR_VAR_2}.\p"
-	.string "ANNOUNCER: I see…\p"
-	.string "Oh! {STR_VAR_1} has finally landed an\n"
-	.string "elusive {STR_VAR_2}!\p"
-	.string "The TRAINER appears close to tears\n"
-	.string "out of sheer joy!\p"
-	.string "Seeing that elated look, I'm getting\n"
-	.string "the itch to go fishing, too!\p"
-	.string "Viewers, why not take this as a cue to\n"
-	.string "try some {STR_VAR_2} fishing?\p"
-	.string "Until our next broadcast, farewell and\n"
-	.string "good fishing to you all!$"
+	.string "“{STR_VAR_2}{K_EULREUL} 낚다”\p"
+	.string "아나운서: 안녕하세요! 오늘은\n"
+	.string "{STR_VAR_2} 낚시를 배우러 왔습니다\p"
+	.string "그럼 선생님 {STR_VAR_2}{K_EULREUL} 낚는 데\n"
+	.string "필요한 요령이 있나요?\p"
+	.string "선생님: 음?\n"
+	.string "{STR_VAR_2}{K_EULREUL} 낚는 요령 말인가\l"
+	.string "그건 차분히 기다리는 것이라네\p"
+	.string "저기 있는 {STR_VAR_1}씨를 보게나\n"
+	.string "이 얼마나 훌륭한 모습인가?\p"
+	.string "이미 이것도 저것도...\n"
+	.string "{STR_VAR_3}번은 놓쳤지만\p"
+	.string "포기하지 않고 계속 기다리고 있네\n"
+	.string "저 모습이 {STR_VAR_2} 낚기의 극의인 게야\p"
+	.string "아나운서: 그렇군요...\p"
+	.string "아! {STR_VAR_1}씨\n"
+	.string "드디어 {STR_VAR_2}{K_EULREUL} 낚았습니다!\l"
+	.string "울 거 같은 표정으로 기뻐하고 있어요!\p"
+	.string "...저도 저런 기뻐하는 듯한\n"
+	.string "표정을 봤더니 낚시하고 싶어졌습니다!\p"
+	.string "여러분들도 이 방송을 계기로\n"
+	.string "{STR_VAR_2} 낚기를 해보면 어떨까요?\p"
+	.string "그럼 또 다음\n"
+	.string "방송에서 만납시다$"
+	// 『§うを つる』ｐ
+	// アナウンサ-「こんにちは! きょうはｎ
+	// §うつりを おそわりに きましたｐ
+	// さて せんせい §うを つるにはｎ
+	// どんな コツが いるのですか?ｐ
+	// せんせい「ん?ｎ
+	// §うを つる コツかいｌ
+	// それはね じ-っと まつことだねｐ
+	// ほら あそこにいる §いさんｎ
+	// なんて いい みほん じゃないか?ｐ
+	// もう かれこれ……ｎ
+	// §えかいは にげられて いるけどｐ
+	// あきらめず じ-っと まちつづけて いるよｎ
+	// あれが §うつりの ごくいだねｐ
+	// アナウンサ-「なるほど……ｐ
+	// あ! §いさんｎ
+	// やっと §うを つりました!ｌ
+	// なきそうな かおして よろこんで ますよ!ｐ
+	// …わたしも あんな うれしそうなｎ
+	// かおを みたら つりをしたく なりました!ｐ
+	// みなさんも これを きに §うつりをｎ
+	// してみては いかがですか?ｐ
+	// それでは また じかいのｎ
+	// ほうそうで あいましょう
 
 gTVPokemonAnglerText01:: @ 08282D7C
-	.string "{STR_VAR_2} ANGLER\p"
-	.string "ANNOUNCER: Hello! Today, we'll get tips\n"
-	.string "on fishing for {STR_VAR_2}.\p"
-	.string "GURU, what advice can you give for\n"
-	.string "catching {STR_VAR_2}?\p"
-	.string "GURU: Hm? Catching {STR_VAR_2}?\n"
-	.string "Well, let me tell you, use your fishing\l"
-	.string "ROD with vigor!\p"
-	.string "Do you see {STR_VAR_1} over there?\n"
-	.string "See how the ROD is handled?\p"
-	.string "That TRAINER's already caught\n"
-	.string "{STR_VAR_3} in a row.\p"
-	.string "ANNOUNCER: It's incredible!\n"
-	.string "It looks like a storm…\p"
-	.string "Seeing technique of that caliber, I'm\n"
-	.string "getting the itch to go fishing, too.\p"
-	.string "Viewers, why not take this as a cue to\n"
-	.string "try some {STR_VAR_2} fishing?\p"
-	.string "Until our next broadcast, farewell and\n"
-	.string "good fishing to you all!$"
+	.string "“{STR_VAR_2}{K_EULREUL} 낚다”\p"
+	.string "인터뷰어: 안녕하세요! 오늘은\n"
+	.string "{STR_VAR_2} 낚시를 배우러 왔습니다\p"
+	.string "그럼 선생님 {STR_VAR_2}{K_EULREUL} 낚는 데\n"
+	.string "필요한 요령이 있나요?\p"
+	.string "선생님: 음?\n"
+	.string "{STR_VAR_2}{K_EULREUL} 낚는 요령 말인가\l"
+	.string "그건 낚싯대를 폭풍같이\l"
+	.string "다루는 것이라네!\p"
+	.string "자 저기 있는 {STR_VAR_1}씨의\n"
+	.string "낚싯대 다루는 실력을 보게나!\p"
+	.string "벌써 {STR_VAR_3}마리를 연속으로\n"
+	.string "낚고 있다네!\p"
+	.string "인터뷰어: 괴 굉장해요!\n"
+	.string "그야말로 폭풍처럼...\p"
+	.string "...저렇게 굉장한 기술을 봤더니\n"
+	.string "저도 낚시하고 싶어졌습니다!\p"
+	.string "여러분들도 이 방송을 계기로\n"
+	.string "{STR_VAR_2} 낚기를 해보면 어떨까요?\p"
+	.string "그럼 또 다음\n"
+	.string "방송에서 만납시다$"
+	// 『§うを つる』ｐ
+	// インタビュア-『こんにちは! きょうはｎ
+	// §うつりを おそわりに きましたｐ
+	// さて せんせい §うを つるにはｎ
+	// どんな コツが いるのですか?ｐ
+	// せんせい『ん?ｎ
+	// §うを つる コツかいｌ
+	// それはね つりざおを あらしの ごとくｎ
+	// あつかう ことだね!ｐ
+	// ほら あそこにいる §いさんのｎ
+	// つりざお さばきを みてみなさい!ｐ
+	// もう §えひきは れんぞくでｎ
+	// つって いるぞ!ｐ
+	// インタビュア-『すっ すごい!ｎ
+	// まさに あらしの ようね……ｐ
+	// ……あんなに すごい わざを みたらｎ
+	// わたしも つりを したくなって きました!ｐ
+	// みなさんも これを きに §うつりをｎ
+	// してみては いかがですか?ｐ
+	// それでは また じかいのｎ
+	// ほうそうで あいましょう
 
 gTVPokemonTodayFailedText00:: @ 08282F9B
-	.string "Hello!\p"
-	.string "It's time for POKéMON TODAY!\p"
-	.string "BIG SIS: Hi! Is everyone peachy and\n"
-	.string "perky today?\p"
-	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "POKéMON {STR_VAR_2}!\p"
-	.string "BIG BRO: Yeah! That's what we're going\n"
-	.string "to do!$"
+	.string "안녕-!\p"
+	.string "“오늘의 포켓몬”의\n"
+	.string "시간이야-!!\p"
+	.string "누님: 안녕 다들 잘 지내지?\n"
+	.string "오늘은 {STR_VAR_1}씨의 포켓몬\l"
+	.string "{STR_VAR_2}{K_EULREUL} 소개할게!\p"
+	.string "형님: 소개할게-!$"
+	// こんにちは-!ｐ
+	// 『きょうの ポケモン』のｎ
+	// じかんだよ-!!ｐ
+	// おねえさん『こんにちは みんな げんき!ｎ
+	// きょうは §いさんの ポケモンｌ
+	// §うの しょうかいを するよ!ｐ
+	// おにいさん『するぞ-!
 
 gTVPokemonTodayFailedText01:: @ 0828304D
-	.string "Oh!\n"
-	.string "Speaking of {STR_VAR_1}…\p"
-	.string "BIG SIS, I saw the TRAINER with my very\n"
-	.string "own eyes!\p"
-	.string "BIG SIS: Oh, what did you see?\p"
-	.string "BIG BRO: Well, I had to go on a trip to\n"
-	.string "{STR_VAR_2}.\p"
-	.string "That's when I happened to come across\n"
-	.string "{STR_VAR_1}, who was trying to catch the\l"
-	.string "POKéMON {STR_VAR_3}, but…$"
+	.string "아!\n"
+	.string "{STR_VAR_1}씨라면...\p"
+	.string "누님 지난번에\n"
+	.string "나 봐버렸다고!!\p"
+	.string "누님: 봐버렸다니\n"
+	.string "뭘 봐버렸는데?\p"
+	.string "형님: 지난번에\n"
+	.string "{STR_VAR_2}에 갔을 때\l"
+	.string "{STR_VAR_1}씨를 봤거든\p"
+	.string "마침 {STR_VAR_3}{K_EULREUL}\n"
+	.string "잡는 중인 것 같았는데...$"
+	// あ!ｎ
+	// §いさん といえば……ｐ
+	// おねえさん このまえｎ
+	// ぼく みちゃった!!ｐ
+	// おねえさん『みちゃった ってｎ
+	// なにを みちゃったの?ｐ
+	// おにいさん『このまえｎ
+	// §うに でかけたときｌ
+	// §いさんを みかけたんだｐ
+	// ちょうど §えを つかまえてるｎ
+	// ところ だったん だけど……
 
 gTVPokemonTodayFailedText02:: @ 08283135
-	.string "The POKéMON managed to get away!\p"
-	.string "It ended up wasting this many\n"
-	.string "POKé BALLS: {STR_VAR_2}!\p"
-	.string "You should have seen the expression\n"
-	.string "of frustration on {STR_VAR_1}'s face when\l"
-	.string "the POKéMON took off!$"
+	.string "도중에 포켓몬이\n"
+	.string "도망쳐버렸어!!\p"
+	.string "몬스터볼을 {STR_VAR_2}개나 던졌는데도\n"
+	.string "소용없었지...\p"
+	.string "포켓몬이 도망쳤을 때\n"
+	.string "{STR_VAR_1}씨가 지은 분한 표정은\l"
+	.string "정말 엄청났어...$"
+	// とちゅうで ポケモンにｎ
+	// にげられ ちゃったんだよ!!ｐ
+	// ボ-ルを §うこも なげたのにｎ
+	// ぜんぶ むだ……ｐ
+	// ポケモンに にげられた ときのｎ
+	// §いさんの くやしがった かおｌ
+	// すごかったなぁ……
 
 gTVPokemonTodayFailedText03:: @ 082831DF
-	.string "But {STR_VAR_1} goofed and made the\n"
-	.string "POKéMON faint!\p"
-	.string "It ended up wasting this many\n"
-	.string "POKé BALLS: {STR_VAR_2}!\p"
-	.string "You should have seen the expression\n"
-	.string "of stunned dismay on {STR_VAR_1}'s face\l"
-	.string "when the POKéMON fainted!$"
+	.string "도중에 실수로 포켓몬을\n"
+	.string "쓰러뜨리고 말았어!!\p"
+	.string "몬스터볼을 {STR_VAR_2}개나 던졌는데도\n"
+	.string "소용없었지...\p"
+	.string "포켓몬을 쓰러뜨렸을 때의\n"
+	.string "{STR_VAR_1}씨가 아연실색한 표정은\l"
+	.string "정말 말할 수 없을 정도였지...$"
+	// とちゅうで まちがって ポケモンをｎ
+	// たおし ちゃったんだよ!!ｐ
+	// ボ-ルを §うこも なげたのにｎ
+	// ぜんぶ むだ……ｐ
+	// ポケモンを たおしちゃった ときのｎ
+	// §いさんの あぜんと した かおｌ
+	// なんとも いえなかったなぁ……
 
 gTVPokemonTodayFailedText04:: @ 08283294
-	.string "BIG SIS: Hey, there!\n"
-	.string "That's not nice!\p"
-	.string "You shouldn't be laughing at other\n"
-	.string "people's misfortune!\p"
-	.string "Oh, poor {STR_VAR_1}.\n"
-	.string "What a shame!\p"
-	.string "BIG BRO: That's true!\n"
-	.string "Sorry for laughing.$"
+	.string "누님: 야야!\n"
+	.string "남의 불행에 웃으면 안 되지\p"
+	.string "아아 {STR_VAR_1}씨\n"
+	.string "엄청 불쌍하다...\p"
+	.string "형님: 그러게!\n"
+	.string "웃어서 죄-송합니다$"
+	// おねえさん『こらこらっ!ｎ
+	// たにんの ふこうを わらっちゃ だめだよｐ
+	// あぁ §いさんｎ
+	// とっても かわいそう……ｐ
+	// おにいさん『は-い!ｎ
+	// わらって すいませ-ん
 
 gTVPokemonTodayFailedText05:: @ 08283337
-	.string "BIG SIS: Bufufu…\p"
-	.string "BIG BRO: Hey!\n"
-	.string "You just laughed, too!\p"
-	.string "BIG SIS: Huh?!\p"
-	.string "I didn't laugh!\n"
-	.string "Honestly, I didn't!\p"
-	.string "Oh, poor {STR_VAR_1}.\n"
-	.string "What a shame!\p"
-	.string "BIG BRO: …$"
+	.string "누님: 풉!\p"
+	.string "형님: 아! 지금\n"
+	.string "웃은 거지!?\p"
+	.string "누님: 뭐!?\p"
+	.string "안 웃었거든\n"
+	.string "안 웃었어!\p"
+	.string "아아 {STR_VAR_1}씨\n"
+	.string "정말 불쌍하다...\p"
+	.string "형님: ...$"
+	// おねえさん『プッ!ｐ
+	// おにいさん『あ! いまｎ
+	// わらったでしょ!?ｐ
+	// おねえさん『え!?ｐ
+	// わらってないｎ
+	// わらってないよ!ｐ
+	// あぁ §いさんｎ
+	// とっても かわいそう……ｐ
+	// おにいさん『……
 
 gTVPokemonTodayFailedText06:: @ 082833C6
-	.string "BIG SIS: That's enough silliness!\n"
-	.string "Let's look at today's POKéMON…\p"
-	.string "Huh?\n"
-	.string "We're out of time already?\p"
-	.string "Aww!\n"
-	.string "We couldn't profile a POKéMON today!\p"
-	.string "BIG BRO: See you again next time!\p"
-	.string "BIG SIS: Hey, don't end the show\n"
-	.string "without me!$"
+	.string "누님: 그럼 분위기를 전환해서\n"
+	.string "포켓몬을 소개...\p"
+	.string "어?\n"
+	.string "벌써 시간 다 됐어?\p"
+	.string "나 참! 포켓몬을\n"
+	.string "소개하지도 못했잖아!\p"
+	.string "형님: 다음 시간에 또 보자고!\p"
+	.string "누님: 멋대로 끝내지 마-!!$"
+	// おねえさん『じゃあ きを とりなおしてｎ
+	// ポケモンの しょうかいを……ｐ
+	// え?ｎ
+	// もう じかんが ない?ｐ
+	// もう! ポケモンの しょうかいがｎ
+	// できなかった じゃない!ｐ
+	// おにいさん『また じかい あおうぜ!ｐ
+	// おねえさん『かってに しめるな-!!
 
 gTVPokemonTodaySuccessfulText00:: @ 082834A0
-	.string "Hello!\p"
-	.string "It's time for POKéMON TODAY!\p"
-	.string "BIG SIS: Hi! Is everyone peachy and\n"
-	.string "perky today?\p"
-	.string "Today, we're going to look at {STR_VAR_1}'s\n"
-	.string "POKéMON {STR_VAR_2}!\p"
-	.string "BIG BRO: Yeah! That's what we're going\n"
-	.string "to do!$"
+	.string "안녕-!\p"
+	.string "“오늘의 포켓몬”의\n"
+	.string "시간이야-!!\p"
+	.string "누님: 안녕 다들 잘 지내지?\n"
+	.string "오늘은 {STR_VAR_1}씨의 포켓몬\l"
+	.string "{STR_VAR_2}{K_EULREUL} 소개할게!\p"
+	.string "형님: 소개할게-!$"
+	// こんにちは-!ｐ
+	// 『きょうの ポケモン』のｎ
+	// じかんだよ-!!ｐ
+	// おねえさん『こんにちは みんな げんき!ｎ
+	// きょうは §いさんの ポケモンｌ
+	// §うの しょうかいを するよ!ｐ
+	// おにいさん『するぞ-!
 
 gTVPokemonTodaySuccessfulText01:: @ 08283552
-	.string "BIG SIS: {STR_VAR_1} gave the nickname\n"
-	.string "{STR_VAR_3} to the {STR_VAR_2}!\p"
-	.string "It sounds like {STR_VAR_3} is getting\n"
-	.string "good, loving care!$"
+	.string "누님: {STR_VAR_1}씨는\n"
+	.string "{STR_VAR_2}에게 “{STR_VAR_3}”{K_I}라고\p"
+	.string "닉네임을 붙여서 소중하게\n"
+	.string "키우고 있대!$"
+	// おねえさん『§いさんはｎ
+	// §うに 「§え」ってｐ
+	// ニックネ-ムを つけて たいせつにｎ
+	// そだてて るんだって!
 
 gTVPokemonTodaySuccessfulText02:: @ 082835AE
-	.string "BIG BRO: The TRAINER had to throw this\n"
-	.string "many POKé BALLS to catch it: {STR_VAR_3}!\p"
-	.string "It finally took a single {STR_VAR_2}\n"
-	.string "to catch it!$"
+	.string "형님: 참고로\n"
+	.string "몬스터볼을 총 {STR_VAR_3}개 던져서\p"
+	.string "마지막에는 {STR_VAR_2}{K_EU}로\n"
+	.string "잡았다는 소문도 있어!$"
+	// おにいさん『ちなみにｎ
+	// ボ-ルを ぜんぶで §えこ なげてｐ
+	// さいごは §うでｎ
+	// つかまえたって うわさだよ!
 
 gTVPokemonTodaySuccessfulText03:: @ 0828361F
-	.string "BIG SIS: If it was that easy to catch,\n"
-	.string "it must have been destiny that brought\l"
-	.string "{STR_VAR_1} and the {STR_VAR_2} together!$"
+	.string "누님: 그렇게 간단하게\n"
+	.string "포획하다니\p"
+	.string "{STR_VAR_1}씨와 {STR_VAR_2}의\l"
+	.string "만남은 분명 운명적이었을 거야!$"
+	// おねえさん『そんなに かんたんにｎ
+	// つかまえる なんてｐ
+	// §いさんと §うのｎ
+	// であいは きっと うんめい だったのよ!
 
 gTVPokemonTodaySuccessfulText04:: @ 08283685
-	.string "BIG SIS: Wow! That's so neat!\p"
-	.string "But you know what they say, a POKéMON\n"
-	.string "that takes a lot of effort to catch\l"
-	.string "earns the love of its TRAINER!$"
+	.string "누님: 고생해서 겨우\n"
+	.string "잡은 포켓몬은\l"
+	.string "소중히 여기게 된다고도 하고!$"
+	// おねえさん『くろうして やっとｎ
+	// つかまえた ポケモンはｌ
+	// だいじに されるって いうしね!
 
 gTVPokemonTodaySuccessfulText05:: @ 0828370C
-	.string "BIG SIS: {STR_VAR_1}'s {STR_VAR_2} is a\n"
-	.string "memorable POKéMON because it took an\l"
-	.string "invaluable MASTER BALL to catch!\p"
-	.string "BIG BRO: Wow! That's mega-awesome!\p"
-	.string "BIG SIS: {STR_VAR_1} must have really\n"
-	.string "wanted that {STR_VAR_2}, for sure!$"
+	.string "누님: {STR_VAR_1}씨의\n"
+	.string "{STR_VAR_2}{K_EUNNEUN} 소중한 마스터볼을\p"
+	.string "써서 겨우 잡은\n"
+	.string "추억의 포켓몬이래!\p"
+	.string "형님: 오-! 굉장한걸-!\p"
+	.string "누님: {STR_VAR_1}씨 정말로\n"
+	.string "{STR_VAR_2}{K_EULREUL} 잡고 싶었구나!$"
+	// おねえさん『§いさんのｎ
+	// §うは だいじな マスタ-ボ-ルをｐ
+	// つかって やっと つかまえたｎ
+	// おもいでの ポケモン なんだって!ｐ
+	// おにいさん『え-! すごいね-!ｐ
+	// おねえさん『§いさん ほんとうにｎ
+	// §うを つかまえ たかったんだね!
 
 gTVPokemonTodaySuccessfulText06:: @ 082837C2
-	.string "BIG BRO: Then to give the nickname\n"
-	.string "{STR_VAR_3} to that {STR_VAR_2}…\p"
-	.string "You really get a good idea about\n"
-	.string "{STR_VAR_1}'s TRAINER sense.\p"
-	.string "BIG SIS: I second that notion!$"
+	.string "형님: 그럼 그\n"
+	.string "{STR_VAR_2}에게 “{STR_VAR_3}”{K_I}라는\p"
+	.string "닉네임을 붙여준\n"
+	.string "{STR_VAR_1}씨의 센스가 이해가 되네!\p"
+	.string "누님: 그렇네-$"
+	// おにいさん『でも そのｎ
+	// §うに 「§え」ってｐ
+	// ニックネ-ムを つけるあたりｎ
+	// §いさんの センスが わかるね!ｐ
+	// おねえさん『そうだね-
 
 gTVPokemonTodaySuccessfulText07:: @ 08283848
-	.string "If it were me, I'd give that nickname\n"
-	.string "to something like this {STR_VAR_3}!\p"
-	.string "BIG BRO: Whoa! That could be the start\n"
-	.string "of something new!$"
+	.string "나라면 {STR_VAR_3} 같은 거에\n"
+	.string "그 닉네임을 짓겠지만!\p"
+	.string "형님: 오-!\n"
+	.string "그건 또 새로운걸!$"
+	// わたしなら §え とかにｎ
+	// そのニックネ-ムを つけちゃう けどね!ｐ
+	// おにいさん『お-!ｎ
+	// それ なかなか あたらしいかも!
 
 gTVPokemonTodaySuccessfulText08:: @ 082838C2
-	.string "{STR_VAR_2} the {STR_VAR_1}?\n"
-	.string "Doesn't that sound perfect?\p"
-	.string "The letters and everything--they\n"
-	.string "sound just right for the POKéMON\l"
-	.string "{STR_VAR_1}!\p"
-	.string "BIG BRO: Yeah, true, that!$"
+	.string "“{STR_VAR_2}”{K_I}라-\n"
+	.string "정말 {STR_VAR_1}{K_I}라는 느낌이네!\p"
+	.string "봐봐! 문자의 분위기가 왠지 모르게\n"
+	.string "{STR_VAR_1} 같은 느낌이 나잖아!\p"
+	.string "형님: ...그렇네$"
+	// 「§う」か-ｎ
+	// まさに §いって かんじよね!ｐ
+	// ほら! もじの ふんいきとか なんとなくｎ
+	// §いって かんじが するもの!ｐ
+	// おにいさん『……そうだね
 
 gTVPokemonTodaySuccessfulText09:: @ 0828394A
-	.string "As far as I know, no TRAINER has ever\n"
-	.string "given the nickname {STR_VAR_2} to their\l"
-	.string "{STR_VAR_1}!\p"
-	.string "BIG BRO: That just goes to show what\n"
-	.string "great taste the TRAINER has in picking\l"
-	.string "nicknames!$"
+	.string "내가 아는 한 {STR_VAR_1}에게\n"
+	.string "“{STR_VAR_2}”{K_I}라는 닉네임을\l"
+	.string "지은 트레이너는 없어!\p"
+	.string "형님: 그만큼 닉네임을 짓는\n"
+	.string "센스가 좋다는 거겠지!$"
+	// わたしの しってるかぎり §いにｎ
+	// 「§う」って ニックネ-ムをｌ
+	// つけている トレ-ナ-なんて いないよ!ｐ
+	// おにいさん『それだけ ニックネ-ムをつけるｎ
+	// センスが いいって ことだよ!
 
 gTVPokemonTodaySuccessfulText10:: @ 082839EA
-	.string "The next time I catch a POKéMON,\n"
-	.string "I should give it the name {STR_VAR_2}.\p"
-	.string "BIG BRO: Huh? Me, too!\n"
-	.string "I'll use the nickname {STR_VAR_2}, too!$"
+	.string "나도 다음에 포켓몬을 잡으면\n"
+	.string "“{STR_VAR_2}”{K_I}라고 지어볼까?\p"
+	.string "형님: 뭐? 그럼 나도\n"
+	.string "“{STR_VAR_2}”{K_I}라고 지어야지-!$"
+	// わたしも こんど ポケモンを つかまえたらｎ
+	// 「§う」って つけて みようかな?ｐ
+	// おにいさん『え? じゃあ ぼくもｎ
+	// 「§う」って つけよ-!
 
 gTVPokemonTodaySuccessfulText11:: @ 08283A5F
-	.string "BIG SIS: Oh, no!\n"
-	.string "Look at the time!\p"
-	.string "Well, gang, this is it for today.\n"
-	.string "See you again next time!\p"
-	.string "BIG BRO: Remember, it could be your\n"
-	.string "POKéMON in the spotlight next time!$"
+	.string "누님: 아! 벌써 시간 다 됐네!\p"
+	.string "그럼 또 다음\n"
+	.string "방송에서 만나자\p"
+	.string "형님: 다음엔 당신의 포켓몬을\n"
+	.string "소개할지도 모른다고!$"
+	// おねえさん『あ! もう こんなじかん!ｐ
+	// それでは また じかいのｎ
+	// ほうそうで おあいしましょうｐ
+	// おにいさん『つぎは あなたの ポケモンをｎ
+	// しょうかい するかもよ!
 
 gTVTodaysSmartShopperText00:: @ 08283B05
 	.string "Hello!\p"
