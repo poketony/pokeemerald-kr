@@ -666,7 +666,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
 	.string "배틀트레이드에서 사용할 수 있는\n"
-	.string "포켓몬을 3마리까지입니다\p"
+	.string "포켓몬은 3마리까지입니다\p"
 	.string "대여할 때 트레이드할 때\n"
 	.string "어느 때라도\l"
 	.string "같은 종류의 포켓몬을\l"
@@ -707,10 +707,10 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "트레이드를 할 때에는\n"
 	.string "2개 주의할 사항이 있습니다\p"
-	.string "1번째 트레이드를 할 때는\n"
+	.string "1번째로 트레이드를 할 때는\n"
 	.string "상대로부터 받는 포켓몬의\l"
 	.string "능력치를 확인할 수 없습니다\p"
-	.string "2번째 도전을 시작했을 때에\n"
+	.string "2번째로 도전을 시작했을 때에\n"
 	.string "빌린 대여 포켓몬의 순서가\l"
 	.string "트레이드 이후의 배틀에도\l"
 	.string "이어지게 됩니다$"

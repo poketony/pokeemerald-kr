@@ -3509,7 +3509,7 @@ GabbyAndTy_Text_GabbyDefeatFirstTime: @ 0828B000
 
 GabbyAndTy_Text_WhoAreYouInterview: @ 0828B042
 	.string "마리: 굉장해! 정말 굉장해!\n"
-	.string "당신 대체 뭐 하는 사람이야?!\p"
+	.string "당신 대체 뭐 하는 사람이야!?\p"
 	.string "역시 우리가\n"
 	.string "눈독들일 만해!\p"
 	.string "...앗 사실 우린\n"
@@ -3592,7 +3592,7 @@ GabbyAndTy_Text_InterviewAgain: @ 0828B3F3
 	// また インタビュ- うけてみる?
 
 GabbyAndTy_Text_DescribeYourFeelings: @ 0828B433
-	.string "정말?!\n"
+	.string "정말!?\n"
 	.string "고마워!\p"
 	.string "그럼 배틀한 뒤의\n"
 	.string "감상을 팍 하고 한마디로\l"
@@ -3663,7 +3663,7 @@ GabbyAndTy_Text_GiveUsAnInterviewThisTime: @ 0828B62D
 
 GabbyAndTy_Text_GabbyDefeat: @ 0828B719
 	.string "마리: 굉장한 배틀이었어!\n"
-	.string "이봐 제대로 카메라에 담았지?!$"
+	.string "이봐 제대로 카메라에 담았지!?$"
 	// マリ『すごい たたかいだったわ!ｎ
 	// ほら ちゃんと カメラにとった!?
 

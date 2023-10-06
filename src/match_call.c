@@ -1127,7 +1127,7 @@ static const u8 sUnknown_0860EA6C[] = INCBIN_U8("graphics/interface/menu_border.
 static const u16 sPokeNavIconPalette[] = INCBIN_U16("graphics/pokenav/icon.gbapal");
 static const u32 sPokeNavIconGfx[] = INCBIN_U32("graphics/pokenav/icon.4bpp.lz");
 
-static const u8 sText_PokenavCallEllipsis[] = _("………………\p");
+static const u8 sText_PokenavCallEllipsis[] = _("............\p");
 
 static bool32 (*const sMatchCallTaskFuncs[])(u8) =
 {

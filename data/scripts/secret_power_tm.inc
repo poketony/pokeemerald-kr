@@ -21,7 +21,7 @@ Route111_Text_ExplainSecretPower: @ 827636E
 	.string "작게 움푹 패인 벽 같은 곳에도\n"
 	.string "비밀의힘을 써보도록 해!\p"
 	.string "나는 다른 장소를 찾아보도록 할게\n"
-	.string "그럼!$"
+	.string "그럼 이만!$"
 
 Route111_Text_DontWantThis: @ 827655C
 	.string "그래 필요 없구나...\n"

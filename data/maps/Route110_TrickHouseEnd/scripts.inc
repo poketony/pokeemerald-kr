@@ -265,7 +265,7 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise: @ 826B08B
 Route110_TrickHouseEnd_Text_YouveMadeItToMe: @ 826B08D
 	.string "앗!\n"
 	.string "자네 여기까지 온 건가!\l"
-	.string "음...대단한데!$"
+	.string "음... 대단한데!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees: @ 826B0BC
 	.string "밤을 새서 미로를 만들었는데...\p"

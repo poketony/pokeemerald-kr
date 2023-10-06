@@ -37,7 +37,7 @@ DewfordTown_House2_Text_WantYouToHaveSilkScarf: @ 81FE27A
 	.string "이건 선물로 줄게!$"
 
 DewfordTown_House2_Text_NoRoom: @ 81FE356
-	.string "이런 가방이 가득 찼구나!\p"
+	.string "이런, 가방이 가득 찼구나!\p"
 	.string "이 실크스카프는 필수 구매\n"
 	.string "아이템이라고! 다른 물건을\l"
 	.string "팔아서라도\l"

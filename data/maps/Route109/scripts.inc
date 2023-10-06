@@ -548,7 +548,7 @@ Route109_Text_ZigzagoonPicksUpLitter: @ 81EF080
 	.string "마시는 물이 되지...\p"
 	.string "결국 바다를 더럽히면\n"
 	.string "피해를 보는 건\l"
-	.string "자기 자신이란 소리야$"
+	.string "자기 자신이란 소리일세$"
 
 Route109_Text_ZigzagoonCry: @ 81EF173
 	.string "지그제구리: 구구?$"
