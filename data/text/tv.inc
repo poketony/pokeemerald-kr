@@ -1804,267 +1804,476 @@ gTVPokemonTodaySuccessfulText11:: @ 08283A5F
 	// しょうかい するかもよ!
 
 gTVTodaysSmartShopperText00:: @ 08283B05
-	.string "Hello!\p"
-	.string "It's time for TODAY'S SMART SHOPPER.\p"
-	.string "INTERVIEWER: How are you, viewers?\p"
-	.string "Today we're visiting a shop\n"
-	.string "in {STR_VAR_2}.\p"
-	.string "Let's check on what the hot sellers\n"
-	.string "have been recently.$"
+	.string "안녕하세요\p"
+	.string "“오늘의 쇼핑 전문가”의\n"
+	.string "시간입니다\p"
+	.string "인터뷰어: 여러분 잘 지내셨나요?\p"
+	.string "오늘은 {STR_VAR_2}의\n"
+	.string "가게에 와 있습니다\p"
+	.string "최근 무엇이 팔리고 있는지\n"
+	.string "체크해 봅시다!$"
+	// こんにちはｐ
+	// 『きょうの かいもの じょうず』のｎ
+	// じかん ですｐ
+	// インタビュア-『みなさん おげんきですか?ｐ
+	// きょうは §うのｎ
+	// おみせに きていますｐ
+	// さいきん なにが うれているのかｎ
+	// チェック してみましょう!
 
 gTVTodaysSmartShopperText01:: @ 08283BAF
-	.string "Let's interview the clerk to get the\n"
-	.string "lowdown.\p"
-	.string "Hi, how's your business?\p"
-	.string "CLERK: Oh, we're doing excellent.\p"
-	.string "Recently, {STR_VAR_2} has been\n"
-	.string "selling especially strongly.\p"
-	.string "Why, just the other day a TRAINER\n"
-	.string "named {STR_VAR_1} bought {STR_VAR_3}.$"
+	.string "그럼 점원씨를\n"
+	.string "인터뷰해 봅시다\l"
+	.string "어떻습니까 장사는 잘 되시나요?\p"
+	.string "점원: 네 덕분에요\p"
+	.string "특히 {STR_VAR_2}{K_IGA}\n"
+	.string "지금 잘 팔리고 있습니다\p"
+	.string "지난번에도 {STR_VAR_1}씨라는 분이\n"
+	.string "{STR_VAR_3}개나 사가셨지요$"
+	// それでは てんいんさんにｎ
+	// インタビュ- してみましょうｌ
+	// どうですか うれて いますか?ｐ
+	// てんいん『はい おかげさまでｐ
+	// とくに §うがｎ
+	// いま うれて いるんですよｐ
+	// このまえも §いさん というｎ
+	// かたが §えこも かって いかれました
 
 gTVTodaysSmartShopperText02:: @ 08283C81
-	.string "INTERVIEWER: The TRAINER bought\n"
-	.string "{STR_VAR_3} {STR_VAR_2}S? That's a haul!\p"
-	.string "If I may say so, {STR_VAR_1} must have\n"
-	.string "been stocking up for a long journey\l"
-	.string "to far-off places.\p"
-	.string "For traveling, {STR_VAR_2}S are so\n"
-	.string "important!$"
+	.string "인터뷰어: {STR_VAR_2}{K_EULREUL}\n"
+	.string "{STR_VAR_3}개나 사다니 굉장하군요!\p"
+	.string "어쩌면 {STR_VAR_1}씨는\n"
+	.string "앞으로 먼 곳까지 가기 위해서\l"
+	.string "여행 준비를 했던 걸지도 모르겠네요\p"
+	.string "역시 여행에는 {STR_VAR_2}{K_IGA} 최고죠!$"
+	// インタビュア-『§うをｎ
+	// §えこも かうなんて すごいですね!ｐ
+	// もしかしたら §いさんはｎ
+	// これから とおくまで いくためのｌ
+	// たびじたくを していたのかも しれませんねｐ
+	// やっぱり たびには §うですね!
 
 gTVTodaysSmartShopperText03:: @ 08283D32
-	.string "INTERVIEWER: Speaking of the item\n"
-	.string "{STR_VAR_2}, I just bought {STR_VAR_3} of\l"
-	.string "them recently.\p"
-	.string "After all, {STR_VAR_2}'s a great item!$"
+	.string "인터뷰어: {STR_VAR_2}{K_I}라고 하니\n"
+	.string "저 어째선지 지난번에\l"
+	.string "{STR_VAR_3}개나 사버렸어요!\p"
+	.string "{STR_VAR_2}{K_EUNNEUN} 좋으니까요-!$"
+	// インタビュア-『§う といえばｎ
+	// わたし なんか このまえｌ
+	// §えこも かいましたよ!ｐ
+	// §うって いいですからね-!
 
 gTVTodaysSmartShopperText04:: @ 08283D99
-	.string "INTERVIEWER: {STR_VAR_2}?!\n"
-	.string "But {STR_VAR_3} of them?!\p"
-	.string "I didn't think there would be anyone\n"
-	.string "buying that many.\p"
-	.string "My goodness, I can only afford one or\n"
-	.string "two at a time…$"
+	.string "인터뷰어: {STR_VAR_2}{K_EULREUL}!!\n"
+	.string "{STR_VAR_3}개나요!?\p"
+	.string "...그렇게 사는 사람이\n"
+	.string "있다니 몰랐어요\p"
+	.string "저는 한두 개 정도\n"
+	.string "사는 게 다인데...$"
+	// インタビュア-『§うを!!ｎ
+	// §えこも!?ｐ
+	// ……そんなに かうひとがｎ
+	// いるなんて しらなかったわｐ
+	// わたし なんか せいぜい 1こか 2こしかｎ
+	// かわないから……
 
 gTVTodaysSmartShopperText05:: @ 08283E28
-	.string "INTERVIEWER: One time, I bought\n"
-	.string "a whole lot of the item {STR_VAR_2}.\p"
-	.string "But it turned out to be too many.\n"
-	.string "I ended up regretting it…\p"
-	.string "Since then, I only buy strictly what\n"
-	.string "I absolutely need…\p"
-	.string "Oops!\p"
-	.string "There's no point talking about me!$"
+	.string "인터뷰어: 저도 옛날에\n"
+	.string "{STR_VAR_2}{K_EULREUL} 잔뜩 샀던 적이\l"
+	.string "있었지만\p"
+	.string "나중에 너무 남아서\n"
+	.string "후회했던 적이 있어요...\p"
+	.string "그 이후로는 딱\n"
+	.string "필요한 양만큼만 사고 있죠...\p"
+	.string "아차!\p"
+	.string "제 얘기를 할 때가\n"
+	.string "아닌데 말이죠!$"
+	// インタビュア-『わたしも むかしｎ
+	// §うを たくさん かったことがｌ
+	// あったん ですけどｐ
+	// あまって しまってｎ
+	// こうかい したわ……ｐ
+	// それからと いうもの ひつようなｎ
+	// ぶんだけ かうように してるの……ｐ
+	// おっと!ｐ
+	// わたしの ことを はなしてもｎ
+	// しょうがない ですね!
 
 gTVTodaysSmartShopperText06:: @ 08283F01
-	.string "CLERK: {STR_VAR_1} also bought the item\n"
-	.string "{STR_VAR_2} in bulk, taking {STR_VAR_3}.\p"
-	.string "INTERVIEWER: Oh, that's smart.\n"
-	.string "{STR_VAR_2}'s a very good item, too.$"
+	.string "점원: {STR_VAR_1}씨는 그 외에도\n"
+	.string "{STR_VAR_2} {STR_VAR_3}개를\l"
+	.string "한꺼번에 사가셨습니다\p"
+	.string "인터뷰어: 오- {STR_VAR_2}도\n"
+	.string "제법 좋은 물건이죠!$"
+	// てんいん『§いさんは そのほかにもｎ
+	// §うを §えこｌ
+	// まとめて かわれましたよｐ
+	// インタビュア-『お- §うもｎ
+	// なかなか よい ですもんね!
 
 gTVTodaysSmartShopperText07:: @ 08283F72
-	.string "CLERK: And, the TRAINER also bought\n"
-	.string "{STR_VAR_3} of the item {STR_VAR_2}.$"
+	.string "점원: 참고로 {STR_VAR_2}도\n"
+	.string "{STR_VAR_3}개 사갔어요$"
+	// てんいん『ついでに §うもｎ
+	// §えこ かわれて いきました
 
 gTVTodaysSmartShopperText08:: @ 08283FA9
-	.string "CLERK: Plus, it was during a big sale.\n"
-	.string "That's smart shopping.$"
+	.string "점원: 심지어 할인하고 있을 때였으니까\n"
+	.string "역시 굉장하죠!$"
+	// てんいん『しかも おおやすうりの ときｎ
+	// ですから さすが ですよね!
 
 gTVTodaysSmartShopperText09:: @ 08283FE7
-	.string "INTERVIEWER: Hmm… {STR_VAR_1} sounds like\n"
-	.string "quite the shrewd bargain hunter!\p"
-	.string "In total, {STR_VAR_1}'s purchases came to…\p"
-	.string "¥{STR_VAR_2}?!\n"
-	.string "What an amazing sum!\p"
-	.string "Oops! We're out of time!\n"
-	.string "See you on our next broadcast!$"
+	.string "인터뷰어: 으-음...\n"
+	.string "{STR_VAR_1}씨는 꽤나\l"
+	.string "알뜰하게 사는 타입일지도 모르겠네요!\p"
+	.string "이걸로 합계는...\p"
+	.string "{STR_VAR_2}원!?\n"
+	.string "정말 엄청나네요!\p"
+	.string "어이쿠 그럼 또 다음\n"
+	.string "방송에서 만나요!$"
+	// インタビュア-『う-ん……ｎ
+	// §いさんって かなりのｌ
+	// かいものじょうず なのかも しれませんね!ｐ
+	// これで ごうけいは……ｐ
+	// §うえん!?ｎ
+	// さすが ですね!ｐ
+	// おっと それでは またじかいのｎ
+	// ほうそうで おあい しましょう!
 
 gTVTodaysSmartShopperText10:: @ 0828409E
-	.string "CLERK: {STR_VAR_1} is a VIP customer,\n"
-	.string "no doubt about it.$"
+	.string "점원: {STR_VAR_1}씨는 정말로\n"
+	.string "소중한 고객님이라구요$"
+	// てんいん『§いさんは ほんとうにｎ
+	// だいじな おきゃくさま ですよ
 
 gTVTodaysSmartShopperText11:: @ 082840CE
-	.string "Let's interview the clerk to get the\n"
-	.string "lowdown.\p"
-	.string "Hi, how's your business?\p"
-	.string "CLERK: Oh, we're doing unbelievable\n"
-	.string "business. It's almost overwhelming.\p"
-	.string "Recently, a TRAINER named {STR_VAR_1}\n"
-	.string "bought the item {STR_VAR_2} in bulk.\p"
-	.string "The TRAINER almost cleared out our\n"
-	.string "entire stock of {STR_VAR_2}S.\p"
-	.string "I never dreamt that any customer\n"
-	.string "would ever need so many {STR_VAR_2}S.\l"
-	.string "It's just unheard of!\p"
-	.string "INTERVIEWER: So that would be like 100\n"
-	.string "or 200 sold?\p"
-	.string "CLERK: Oh, no, much more than that!\p"
-	.string "INTERVIEWER: Oh, my goodness!\n"
-	.string "{STR_VAR_1} must be a special shopper!\p"
-	.string "CLERK: {STR_VAR_1} is a VIP customer,\n"
-	.string "no doubt about it.$"
+	.string "그럼 점원씨를\n"
+	.string "인터뷰해 봅시다\l"
+	.string "어떻습니까 장사는 잘 되시나요?\p"
+	.string "점원: 네 덕분에요\n"
+	.string "너무 잘돼서 곤란할 정도라구요!\p"
+	.string "지난번에 {STR_VAR_1}씨라는 분이\n"
+	.string "{STR_VAR_2}{K_EULREUL} 잔뜩 사가셔서\p"
+	.string "가게 안에 {STR_VAR_2}{K_IGA}\n"
+	.string "없어질 뻔했다니까요!\p"
+	.string "저도 {STR_VAR_2}{K_EULREUL} 그렇게\n"
+	.string "많이 사는 고객님이 계실 줄은\l"
+	.string "꿈에도 상상 못 했습니다!\p"
+	.string "인터뷰어: 그러면...\n"
+	.string "100개나 200개 정도를 사가신 건가요?\p"
+	.string "점원: 아뇨 더 많았습니다!\p"
+	.string "인터뷰어: 우와-!\n"
+	.string "{STR_VAR_1}씨는 굉장하네요!\p"
+	.string "점원: {STR_VAR_1}씨는 정말로\n"
+	.string "소중한 고객님이라구요$"
+	// それでは てんいんさんにｎ
+	// インタビュ- して みましょうｌ
+	// どうですか うれて ますか?ｐ
+	// てんいん『はい おかげさまでｎ
+	// うれてうれて こまって ますよ!ｐ
+	// このまえ §いさん というかたがｎ
+	// §うを たくさん かわれましてｐ
+	// みせのなかに §うがｎ
+	// なくなって しまいそう だったんですよ!ｐ
+	// わたくしも §うを そんなにｎ
+	// かう おきゃくさまが いるなんてｌ
+	// ゆめにも おもいません でした からね!ｐ
+	// インタビュア-『と いうことは……ｎ
+	// 100こ とか 200こ とか ですか?ｐ
+	// てんいん『いや もっと でしたよ!ｐ
+	// インタビュア-『うひゃ-!ｎ
+	// §いさんって すごい ですね!ｐ
+	// てんいん『§いさんは ほんとうにｎ
+	// だいじな おきゃくさま ですよ
 
 gTVTodaysSmartShopperText12:: @ 082842E6
-	.string "INTERVIEWER: Hmm…\n"
-	.string "That is amazing.\p"
-	.string "But why would the TRAINER need to buy\n"
-	.string "so many?\p"
-	.string "… …\p"
-	.string "The mystery deepens, but this is all\n"
-	.string "the time we have today.\l"
-	.string "See you on our next broadcast!\p"
-	.string "Still, {STR_VAR_1} is certainly an enigma…$"
+	.string "인터뷰어: 으-음 굉장하네요\p"
+	.string "근데 왜 그렇게\n"
+	.string "많이 사간 걸까요?\p"
+	.string "...\p"
+	.string "수수께끼는 깊어져만 가지만\n"
+	.string "시간이 다 된 듯하니\l"
+	.string "또 다음 방송에서 만나요!\p"
+	.string "그건 그렇고\n"
+	.string "{STR_VAR_1}씨는 정말 신기하군요...$"
+	// インタビュア-『う-ん すごい ですねｐ
+	// でも なんで そんなにｎ
+	// いっぱい かったので しょう?ｐ
+	// ……ｐ
+	// なぞは ふかまる ばかりですがｎ
+	// じかんの ようなのでｌ
+	// またじかい おあい しましょう!ｐ
+	// それに してもｎ
+	// §いさんって なぞだわ……
 
 gTVWorldOfMastersText00:: @ 082843BA
-	.string "THE WORLD OF MASTERS\p"
-	.string "Hello, viewers.\p"
-	.string "Perhaps you are aware of a TRAINER\n"
-	.string "named {STR_VAR_1}.\p"
-	.string "{STR_VAR_1} is famous as a master at\n"
-	.string "catching POKéMON.\p"
-	.string "{STR_VAR_1}'s quest for POKéMON depends\n"
-	.string "entirely on a careful search on foot.\p"
-	.string "On one memorable day, the TRAINER\n"
-	.string "walked some {STR_VAR_2} steps.\p"
-	.string "The total number of POKéMON caught\n"
-	.string "that day reached an impressive {STR_VAR_3}!$"
+	.string "“명인의 세계”\p"
+	.string "여러분 안녕하십니까\p"
+	.string "여러분은 {STR_VAR_1}씨라는\n"
+	.string "트레이너를 알고 계신가요?\p"
+	.string "{STR_VAR_1}씨는 포켓몬 잡기의\n"
+	.string "명인으로 유명하답니다\p"
+	.string "{STR_VAR_1}씨의 포켓몬 찾기는\n"
+	.string "돌아다니는 것에서부터 시작됩니다\p"
+	.string "저번에는 포켓몬을 찾기 위해서\n"
+	.string "하루에 {STR_VAR_2}걸음 이상을 걸었고\p"
+	.string "잡은 포켓몬의 수는\n"
+	.string "무려 {STR_VAR_3}마리라고 하더군요!$"
+	// 『めいじんの せかい』ｐ
+	// みなさん こんにちはｐ
+	// みなさんは §いさん というｎ
+	// トレ-ナ-を しってますか?ｐ
+	// §いさんは ポケモンを つかまえるｎ
+	// めいじん として ゆうめい なんですｐ
+	// §いさんの ポケモンさがしはｎ
+	// あるきまわる ところから はじまりますｐ
+	// このまえは ポケモンを さがすためにｎ
+	// 1にちで §うほ いじょうも あるきｐ
+	// つかまえた ポケモンの かずはｎ
+	// なんと §え ひきにも なったとか!
 
 gTVWorldOfMastersText01:: @ 082844FD
-	.string "That remarkable feat must have been\n"
-	.string "possible because of the trust between\l"
-	.string "the TRAINER and {STR_VAR_1}.$"
+	.string "분명 파트너인 {STR_VAR_1}{K_WAGWA}\n"
+	.string "서로 신뢰하고 있기에\l"
+	.string "이런 대단한 일이 가능한 거겠죠$"
+	// きっと あいぼうの §いとｎ
+	// しんらい しあっている からこそｌ
+	// こんな すごいことが できるんですね
 
 gTVWorldOfMastersText02:: @ 0828455B
-	.string "The master caught the day's last\n"
-	.string "{STR_VAR_3} near {STR_VAR_2}.\p"
-	.string "That POKéMON apparently enjoys\n"
-	.string "a special status as a record holder.\p"
-	.string "Skilled TRAINERS should be encouraged\n"
-	.string "to challenge this fine record.\p"
-	.string "That's all for today.\n"
-	.string "Please tune in next time.$"
+	.string "명인은 마지막에\n"
+	.string "{STR_VAR_2}{K_EU}로\l" 
+	.string "{STR_VAR_3}{K_EULREUL} 잡아서\p"
+	.string "기념비적인 포켓몬으로 소중히\n"
+	.string "키우고 있는 모양입니다\p"
+	.string "자신 있는 트레이너는 이 기록에\n"
+	.string "도전해 보는 게 어떨까요?\p"
+	.string "그럼 또\n"
+	.string "다음에 만납시다$"
+	// めいじんは さいごにｎ
+	// §うでｌ
+	// §えを つかまえｐ
+	// きねんの ポケモンとして だいじにｎ
+	// している らしいですよｐ
+	// じしんのある トレ-ナ-は このきろくにｎ
+	// ちょうせんして みては いかがですか?ｐ
+	// それでは またｎ
+	// じかい おあいしましょう
 
 gTVTodaysRivalTrainerText00:: @ 08284641
-	.string "TODAY'S RIVAL TRAINER!\p"
-	.string "Hello, fellow POKéMON TRAINERS!\n"
-	.string "How are we all doing today?\p"
-	.string "Today, like every other day,\n"
-	.string "we'll examine one of our rivals!$"
+	.string "“오늘의 라이벌 트레이너”\p"
+	.string "포켓몬 트레이너 여러분!\n"
+	.string "잘 지내셨습니까?\p"
+	.string "오늘은 여러분의 라이벌들의\n"
+	.string "근황에 대해 전해 드리겠습니다!$"
+	// 『きょうの ライバル トレ-ナ-』ｐ
+	// ポケモン トレ-ナ-の みなさん!ｎ
+	// ごきげん いかがですか?ｐ
+	// きょうも みなさんの ライバルたちのｎ
+	// ようすに ついて おつたえします!
 
 gTVTodaysRivalTrainerText07:: @ 082846D2
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's around {STR_VAR_3} now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+	.string "이번 트레이너는\n"
+	.string "현재 {STR_VAR_3}에\l"
+	.string "있는 {STR_VAR_1}씨입니다!\p"
+	.string "{STR_VAR_1}씨는\n"
+	.string "포켓몬 도감에 {STR_VAR_2}마리를\l"
+	.string "등록시킨 상태군요-!$"
+	// こんかいの トレ-ナ-はｎ
+	// げんざい §えにｌ
+	// いらっしゃる §いさん です!ｐ
+	// §いさんはｎ
+	// ポケモン ずかんを §うひきｌ
+	// とうろく されていますね-!
 
 gTVTodaysRivalTrainerText08:: @ 08284738
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's in a SECRET BASE now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+	.string "이번 트레이너는\n"
+	.string "현재 비밀기지에\l"
+	.string "있는 {STR_VAR_1}씨입니다!\p"
+	.string "{STR_VAR_1}씨는\n"
+	.string "포켓몬 도감에 {STR_VAR_2}마리를\l"
+	.string "등록시킨 상태군요-!$"
+	// こんかいの トレ-ナ-はｎ
+	// げんざい ひみつきちにｌ
+	// いらっしゃる §いさん です!ｐ
+	// §いさんはｎ
+	// ポケモン ずかんを §うひきｌ
+	// とうろく されていますね-!
 
 gTVTodaysRivalTrainerText09:: @ 082847A5
-	.string "Today's rival TRAINER is {STR_VAR_1}.\p"
-	.string "So far, {STR_VAR_1} has registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+	.string "이번 트레이너는\n"
+	.string "{STR_VAR_1}씨입니다!\p"
+	.string "현재 {STR_VAR_1}씨는\n"
+	.string "포켓몬 도감에 {STR_VAR_2}마리를\l"
+	.string "등록시킨 상태군요-!$"
+	// こんかいの トレ-ナ-はｎ
+	// §いさん です!ｐ
+	// げんざい §いさんはｎ
+	// ポケモン ずかんを §うひきｌ
+	// とうろく されていますね-!
 
 gTVTodaysRivalTrainerText10:: @ 082847F7
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's on a ferry now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
-
-	.string "$"
+	.string "이번 트레이너는\n"
+	.string "현재 연락선에 타고 있는\l"
+	.string "{STR_VAR_1}씨입니다!\p"
+	.string "{STR_VAR_1}씨는\n"
+	.string "포켓몬 도감에 {STR_VAR_2}마리를\l"
+	.string "등록시킨 상태군요-!$"
+	// こんかいの トレ-ナ-はｎ
+	// げんざい れんらくせんに のっているｌ
+	// §いさん です!ｐ
+	// §いさんはｎ
+	// ポケモン ずかんを §うひきｌ
+	// とうろく されていますね-!
 
 gTVTodaysRivalTrainerText01:: @ 0828485F
-	.string "And how many BADGES does our rival\n"
-	.string "have? The number is {STR_VAR_1}!$"
+	.string "배지는 {STR_VAR_1}개\n"
+	.string "획득한 상태입니다-!$"
+	// バッジは §いこｎ
+	// かくとく されていますよ-!
 
 gTVTodaysRivalTrainerText02:: @ 0828489A
-	.string "But our rival hasn't obtained\n"
-	.string "a single BADGE yet!$"
+	.string "배지는 아직 1개도\n"
+	.string "획득하지 못한 상태입니다-!$"
+	// バッジは まだ 1こもｎ
+	// かくとく されていませんね-!
 
 gTVTodaysRivalTrainerText03:: @ 082848CC
-	.string "Our rival hasn't obtained a single\n"
-	.string "BATTLE FRONTIER Symbol yet.$"
+	.string "배틀프런티어의 심볼은\n"
+	.string "1개도 획득하지 못했습니다-!$"
+	// バトルフロンティアの シンボルはｎ
+	// 1こも かくとく されていませんね-!
 
 gTVTodaysRivalTrainerText04:: @ 0828490B
-	.string "Let's see how many BATTLE FRONTIER\n"
-	.string "Symbols our rival has.\p"
-	.string "Gold Symbols: {STR_VAR_1}!\n"
-	.string "Silver Symbols: {STR_VAR_2}!$"
+	.string "배틀프런티어의 심볼은\n"
+	.string "금심볼을 {STR_VAR_1}개\l"
+	.string "은심볼을 {STR_VAR_2}개\l"
+	.string "획득한 상태입니다-!$"
+	// バトルフロンティアの シンボルはｎ
+	// ゴ-ルドシンボルを §いこｌ
+	// シルバ-シンボルを §うこｌ
+	// かくとく されていますね-!
 
 gTVTodaysRivalTrainerText05:: @ 0828496B
-	.string "Our rival has collected {STR_VAR_1} Battle\n"
-	.string "Point(s) at the BATTLE FRONTIER.$"
+	.string "배틀프런티어에서의\n"
+	.string "배틀포인트는 현재\l"
+	.string "{STR_VAR_1}BP 모았네요-!$"
+	// バトルフロンティアでのｎ
+	// バトルポイントは げんざいｌ
+	// §い BP あつめていますね-!
 
 gTVTodaysRivalTrainerText06:: @ 082849AE
-	.string "So, how did you measure up in\n"
-	.string "comparison to {STR_VAR_1}?\p"
-	.string "The adventure rolls on!\p"
-	.string "Fellow TRAINERS!\p"
-	.string "Let's all keep moving forward\n"
-	.string "and ahead of our rivals!$"
+	.string "{STR_VAR_1}씨의 근황은\n"
+	.string "여러분과 비교해서 어땠나요?\p"
+	.string "아직도 모험은 계속된답니다\p"
+	.string "트레이너 여러분!\p"
+	.string "라이벌들한테 지지 않게\n"
+	.string "열심히 해주세요-!$"
+	// §いさんの ようすはｎ
+	// みなさんと くらべて いかが でしたか?ｐ
+	// まだまだ ぼうけんは つづきますｐ
+	// トレ-ナ-の みなさん!ｐ
+	// ライバルたちに まけずにｎ
+	// がんばって くださいね-!
 
 gTVDewfordTrendWatcherNetworkText00:: @ 08284A3E
-	.string "DEWFORD TREND-WATCHER NETWORK!\p"
-	.string "MC: Wassup?\n"
-	.string "We'll keep it real with the latest on\l"
-	.string "what's hip and happening in DEWFORD.\p"
-	.string "Our guest today is this old cat whose\n"
-	.string "claim to fame is being the authority\l"
-	.string "on all things in DEWFORD.\p"
-	.string "Old man: Glad to be here.\p"
-	.string "MC: Let's cut to the chase, right on.\p"
-	.string "What's your word on what's groovin'\n"
-	.string "the good folks of DEWFORD?\p"
-	.string "Old man: {STR_VAR_1} {STR_VAR_2}.\p"
-	.string "MC: {STR_VAR_1} {STR_VAR_2},\n"
-	.string "you say?\p"
-	.string "Old man: No.\p"
-	.string "{STR_VAR_1} {STR_VAR_2} never\n"
-	.string "did get popular at all.\p"
-	.string "Would you like to hear about it?\p"
-	.string "MC: Uh, no. What we want to know is\n"
-	.string "what's the in thing of the moment…$"
+	.string "“무로마을\n"
+	.string "  유행 정보국”\p"
+	.string "사회자: 자 오늘도 무로마을의\n"
+	.string "유행을 빠르게 전해 드리겠습니다\p"
+	.string "게스트는 무로마을에서 제일\n"
+	.string "박식하다고 하는 이 영감님입니다!\p"
+	.string "노인: ...흐음 잘 부탁하네\p"
+	.string "사회자: 갑작스럽지만 무로마을에서\n"
+	.string "지금 유행하고 있는 것에 대해...\p"
+	.string "노인: {STR_VAR_1} {STR_VAR_2}\p"
+	.string "사회자: {STR_VAR_1} {STR_VAR_2}\n"
+	.string "...인가요?\p"
+	.string "노인: ...아니!\n"
+	.string "{STR_VAR_1} {STR_VAR_2}{K_EUNNEUN}\l"
+	.string "전혀 유행하지 않고 있네...\l"
+	.string "이 이야기를 듣고 싶나...?\p"
+	.string "사회자: 아뇨 지금 유행하는 걸...$"
+	// 『ムロタウンｎ
+	//  りゅうこう じょうほうきょく』ｐ
+	// しかい『さあ きょうも ムロタウンのｎ
+	// りゅうこうを いちはやく おとどけしますｐ
+	// ゲストは ムロタウン いちｎ
+	// ものしり という この おじいさんです!ｐ
+	// ろうじん『……ふむ よろしくじゃｐ
+	// しかい『さっそく ですが ムロタウンでｎ
+	// いま はやっている ことと いえば……ｐ
+	// ろうじん『§い §うｐ
+	// しかい『§い §うｎ
+	// ……ですか?ｐ
+	// ろうじん『……いいや!ｎ
+	// §い §う はｌ
+	// まったく はやらんかった のじゃ……ｌ
+	// この はなし ききたいか のう……?ｐ
+	// しかい『いや いまの りゅうこうを……
 
 gTVDewfordTrendWatcherNetworkText01:: @ 08284C55
-	.string "Old man: {STR_VAR_1} {STR_VAR_2}\n"
-	.string "was what {STR_VAR_3} from LITTLEROOT\l"
-	.string "taught me as being trendy…$"
+	.string "노인: {STR_VAR_1} {STR_VAR_2}{K_EUNNEUN}\n"
+	.string "미로마을에서 온 {STR_VAR_3}군이\l"
+	.string "알려주었는데 말이지...$"
+	// ろうじん『§い §う はｎ
+	// ミシロから きた §えくんがｌ
+	// おしえて くれたの じゃがのう……
 
 gTVDewfordTrendWatcherNetworkText02:: @ 08284C9B
-	.string "Old man: {STR_VAR_1} {STR_VAR_2}\n"
-	.string "was what {STR_VAR_3} from LITTLEROOT\l"
-	.string "taught me as being trendy…$"
+	.string "노인: {STR_VAR_1} {STR_VAR_2}{K_EUNNEUN}\n"
+	.string "미로마을에서 온 {STR_VAR_3}양이\l"
+	.string "알려주었는데 말이지...$"
+	// ろうじん『§い §う はｎ
+	// ミシロから きた §えちゃんがｌ
+	// おしえて くれたの じゃがのう……
 
 gTVDewfordTrendWatcherNetworkText03:: @ 08284CE1
-	.string "But it was utterly hopeless.\p"
-	.string "{STR_VAR_1} {STR_VAR_2} festival!\p"
-	.string "{STR_VAR_1} {STR_VAR_2} contest!\p"
-	.string "I tried teaching everyone the best\n"
-	.string "I could, but…\p"
-	.string "Perhaps the {STR_VAR_1} part just\n"
-	.string "wasn't right…\p"
-	.string "MC: Uh, excuse me, compadre, I need\n"
-	.string "to hear about what's in now…$"
+	.string "완전 대실패였네...\p"
+	.string "{STR_VAR_1} {STR_VAR_2} 축제!\p"
+	.string "{STR_VAR_1} {STR_VAR_2} 대회!\p"
+	.string "나도 모두에게 열심히\n"
+	.string "알려주었지만...\p"
+	.string "“{STR_VAR_1}”{K_IGA} 싫었던 걸까...\p"
+	.string "사회자: ...죄송하지만\n"
+	.string "지금 유행을...$"
+	// まったく ダメ じゃった……ｐ
+	// §い §う まつり!ｐ
+	// §い §う たいかい!ｐ
+	// わしも みんなに いっしょうけんめいｎ
+	// おしえたの じゃがのう……ｐ
+	// 「§い」が わるかったのか のう……ｐ
+	// しかい『……すいませんがｎ
+	// いまの りゅうこうを……
 
 gTVDewfordTrendWatcherNetworkText04:: @ 08284DB6
-	.string "Old man: {STR_VAR_3}!\n"
-	.string "Please, tell me something bigger than\l"
-	.string "that {STR_VAR_1} {STR_VAR_2}!$"
+	.string "노인: {STR_VAR_3}군!\n"
+	.string "{STR_VAR_1} {STR_VAR_2}보다\l"
+	.string "대단한 말을 또 알려주게-$"
+	// ろうじん『§えくん!ｎ
+	// §い §う よりｌ
+	// すごい こと また おしえて おくれ-
 
 gTVDewfordTrendWatcherNetworkText05:: @ 08284DF5
-	.string "Old man: {STR_VAR_3}!\n"
-	.string "Please, tell me something bigger than\l"
-	.string "that {STR_VAR_1} {STR_VAR_2}!$"
+	.string "노인: {STR_VAR_3}양!\n"
+	.string "{STR_VAR_1} {STR_VAR_2}보다\l"
+	.string "대단한 말을 또 알려주게-$"
+	// ろうじん『§えちゃん!ｎ
+	// §い §う よりｌ
+	// すごい こと また おしえて おくれ-
 
 gTVDewfordTrendWatcherNetworkText06:: @ 08284E34
-	.string "MC: …Uh… So, there you have it,\n"
-	.string "all you trendy, hep cats out there!\p"
-	.string "{STR_VAR_1} {STR_VAR_2}…uh…\n"
-	.string "Didn't get hip or happening in DEWFORD!\p"
-	.string "My time is up. Catch you on the fly!\p"
-	.string "Old man: {STR_VAR_1} {STR_VAR_2}!$"
+	.string "사회자: ...으-음 ...네! 그럼\n"
+	.string "{STR_VAR_1} {STR_VAR_2}{K_EUNNEUN}...\l"
+	.string "무로마을에서 유행하지 못했단 거군요!\p"
+	.string "...이상이 전달드린 내용이었습니다\p"
+	.string "노인: {STR_VAR_1} {STR_VAR_2}$"
+	// しかい『……え-と ……はい! ということでｎ
+	// §い §う は……ｌ
+	// ムロタウンで はやらなかった!ｐ
+	// ……いじょうを おつたえしましたｐ
+	// ろうじん『§い §う
 
 gTVHoennTreasureInvestigatorsText00:: @ 08284EDF
 	.string "HOENN TREASURE INVESTIGATORS!\p"
@@ -2074,6 +2283,14 @@ gTVHoennTreasureInvestigatorsText00:: @ 08284EDF
 	.string "reports of secrets from all over!\p"
 	.string "Let's start with a letter.\n"
 	.string "It says, “{STR_VAR_1} discovered!”$"
+	// 『ホウエン おたから たんていだん!』ｐ
+	// みんな-!ｎ
+	// かくしアイテム みつけてる-!?ｐ
+	// きょうも かくちで もくげき されたｎ
+	// ひみつの じょうほうを しょうかい するよ!ｐ
+	// きょうの おてがみはｎ
+	// 「§い はっけん!」にｌ
+	// ついてだよ-!!
 
 gTVHoennTreasureInvestigatorsText01:: @ 08284FA1
 	.string "Wow, we'd better check this letter\n"
