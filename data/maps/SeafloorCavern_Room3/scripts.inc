@@ -20,8 +20,8 @@ SeafloorCavern_Room3_Text_ShellyIntro: @ 8234966
 	.string "방해받는 건 싫단 말이지\p"
 	.string "날씨 연구소에서의\n"
 	.string "빚도 갚아주고 싶고...\p"
-	.string "조금 아픈 기억이 될 테니까\n"
-	.string "각오하라고-!!$"
+	.string "살짝 괴로운 기분이 들 테니까\n"
+	.string "각오하도록 해-!!$"
 	// オ-ッホッホ!ｐ
 	// せんすいていも ないのにｎ
 	// よく ここまで おいかけて きたわね!ｌ
@@ -35,14 +35,14 @@ SeafloorCavern_Room3_Text_ShellyIntro: @ 8234966
 
 SeafloorCavern_Room3_Text_ShellyDefeat: @ 8234A79
 	.string "오호호!\p"
-	.string "아파!$"
+	.string "괴로워-!$"
 	// オ-ッホッホ!ｐ
 	// いった-い!
 
 SeafloorCavern_Room3_Text_ShellyPostBattle: @ 8234A8A
 	.string "오호호!\p"
 	.string "너 그렇게 강한데\n"
-	.string "아쿠아단의 동료가 아니라서\n"
+	.string "아쿠아단의 동료가 아니라서\l"
 	.string "무척 유감이야\p"
 	.string "리더가 실현해줄\n"
 	.string "멋진 세계를\l"

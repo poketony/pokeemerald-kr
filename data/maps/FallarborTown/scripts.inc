@@ -52,8 +52,8 @@ FallarborTown_EventScript_MoveTutorSign:: @ 81EB262
 	end
 
 FallarborTown_Text_ShadyCharactersCozmosHome: @ 81EB26B
-	.string "뭐야 뭐야!?\p"
-	.string "공석박사님의 연구소에\n"
+	.string "뭔가 뭔가!?\p"
+	.string "공석박사의 연구소에\n"
 	.string "수상한 사람들이 드나들던데!$"
 
 FallarborTown_Text_RegionKnownForMeteors: @ 81EB2DE

@@ -2276,13 +2276,14 @@ gTVDewfordTrendWatcherNetworkText06:: @ 08284E34
 	// ろうじん『§い §う
 
 gTVHoennTreasureInvestigatorsText00:: @ 08284EDF
-	.string "HOENN TREASURE INVESTIGATORS!\p"
-	.string "Hi, gang!\n"
-	.string "Score any secret items lately?\p"
-	.string "As always, we'll examine eyewitness\n"
-	.string "reports of secrets from all over!\p"
-	.string "Let's start with a letter.\n"
-	.string "It says, “{STR_VAR_1} discovered!”$"
+	.string "“호연 보물 탐정단!”\p"
+	.string "얘들아-!\n"
+	.string "숨겨진 아이템 찾고 있어-!?\p"
+	.string "오늘도 각지에서 목격된\n"
+	.string "비밀 정보를 소개할게!\p"
+	.string "오늘의 편지는\n"
+	.string "“{STR_VAR_1} 발견!”에\l"
+	.string "대해서야-!!$"
 	// 『ホウエン おたから たんていだん!』ｐ
 	// みんな-!ｎ
 	// かくしアイテム みつけてる-!?ｐ
@@ -2293,76 +2294,134 @@ gTVHoennTreasureInvestigatorsText00:: @ 08284EDF
 	// ついてだよ-!!
 
 gTVHoennTreasureInvestigatorsText01:: @ 08284FA1
-	.string "Wow, we'd better check this letter\n"
-	.string "out! Let me read it to you.\p"
-	.string "…Dear INVESTIGATORS,\n"
-	.string "I hope you are well.\p"
-	.string "I recently saw {STR_VAR_2} somewhere\n"
-	.string "around {STR_VAR_3}.\p"
-	.string "The TRAINER found the item\n"
-	.string "{STR_VAR_1}. It made me envious.\p"
-	.string "…Well, good going, {STR_VAR_2}!\p"
-	.string "Viewers, let that motivate you to\n"
-	.string "fire up your ITEMFINDERS and search!\p"
-	.string "I'll be waiting for exciting news\n"
-	.string "from all of you!$"
+	.string "바로 불러볼게-!\p"
+	.string "...탐정단 여러분 안녕\p"
+	.string "지난번에 {STR_VAR_2}씨가\n"
+	.string "“{STR_VAR_3}”에서 무려!\l"
+	.string "“{STR_VAR_2}”{K_EULREUL} 발견했어\l"
+	.string "정말 엄청나게 부러운걸\p"
+	.string "...해냈구나! {STR_VAR_2}씨!\p"
+	.string "TV 앞에 있는 여러분도 지지 말고\n"
+	.string "다우징머신을 써서 찾아봐!\p"
+	.string "너도 엄청난 보물을\n"
+	.string "찾아내길 기다릴게-!$"
+	// さっそく よんでみるね-!ｐ
+	// ……たんていだんの みなさん こんにちはｐ
+	// この あいだ §うさんがｎ
+	// 「§え」で なんと!ｌ
+	// 「§い」を みつけて いましたｌ
+	// もう とっても うらやましかったですｐ
+	// ……やったね! §うさん!ｐ
+	// テレビの まえの みんなも まけずにｎ
+	// ダウジングマシンを つかって さがしてね!ｐ
+	// きみの とっておきの じょうほうｎ
+	// まってるよ-!
 
 gTVHoennTreasureInvestigatorsText02:: @ 082850F5
-	.string "Wow, we'd better check this letter\n"
-	.string "out! Let me read it to you.\p"
-	.string "…Dear INVESTIGATORS,\n"
-	.string "I hope you are well.\p"
-	.string "I recently saw {STR_VAR_2} on a ferry.\p"
-	.string "The TRAINER found the item\n"
-	.string "{STR_VAR_1}. It made me envious.\p"
-	.string "…Well, good going, {STR_VAR_2}!\p"
-	.string "Viewers, let that motivate you to\n"
-	.string "fire up your ITEMFINDERS and search!\p"
-	.string "I'll be waiting for exciting news\n"
-	.string "from all of you!$"
+	.string "바로 불러볼게-!\p"
+	.string "...탐정단 여러분 안녕\p"
+	.string "지난번에 {STR_VAR_2}씨가\n"
+	.string "“연락선”에서 무려!\l"
+	.string "“{STR_VAR_2}”{K_EULREUL} 발견했어\l"
+	.string "정말 엄청나게 부러운걸\p"
+	.string "...해냈구나! {STR_VAR_2}씨!\p"
+	.string "TV 앞에 있는 여러분도 지지 말고\n"
+	.string "다우징머신을 써서 찾아봐!\p"
+	.string "너도 엄청난 보물을\n"
+	.string "찾아내길 기다릴게-!$"
+	// さっそく よんでみるね-!ｐ
+	// ……たんていだんの みなさん こんにちはｐ
+	// この あいだ §うさんがｎ
+	// 「れんらくせん」で なんと!ｌ
+	// 「§い」を みつけて いましたｌ
+	// もう とっても うらやましかったですｐ
+	// ……やったね! §うさん!ｐ
+	// テレビの まえの みんなも まけずにｎ
+	// ダウジングマシンを つかって さがしてね!ｐ
+	// きみの とっておきの じょうほうｎ
+	// まってるよ-!
 
 gTVFindThatGamerText00:: @ 08285240
-	.string "FIND THAT GAMER!\p"
-	.string "Hey, all you gamers!\n"
-	.string "How's your {STR_VAR_2} spinning?\p"
-	.string "Like always, we'll cast our spotlight\n"
-	.string "on a rare TRAINER who's visited the\l"
-	.string "GAME CORNER!\p"
-	.string "Today, our no. 1 gamer is…\n"
-	.string "{STR_VAR_1}!$"
+	.string "“갬블러를 찾아라-!”\p"
+	.string "여러분-!\n"
+	.string "{STR_VAR_2} 빙빙 돌리고 계신가요-?\p"
+	.string "자 오늘도 게임코너에서\n"
+	.string "굉장했던 트레이너님을\l"
+	.string "발표하도록 하겠습니다!\p"
+	.string "오늘의 넘버원 갬블러는...\n"
+	.string "{STR_VAR_1}님입니다!$"
+	// 『ギャンブラ-を さがせ-!』ｐ
+	// みなさ-ん!ｎ
+	// §う ガンガン まわしてますか-?ｐ
+	// さあ きょうも ゲ-ムコ-ナ-でｎ
+	// すごかった トレ-ナ-さんをｌ
+	// はっぴょう させて いただきますよ!ｐ
+	// きょうの ナンバ-1 ギャンブラ-は……ｌ
+	// §いさん です!
 
 gTVFindThatGamerText01:: @ 082852F4
-	.string "{STR_VAR_1} played the {STR_VAR_2} game\n"
-	.string "and won a rare {STR_VAR_3} COINS.\p"
-	.string "“When {STR_VAR_1} comes, we need to\n"
-	.string "make sure we have enough COINS.”\p"
-	.string "That's what the GAME CORNER clerks\n"
-	.string "mutter when our gamer is in play!\p"
-	.string "Viewers, it's best to watch your COINS\n"
-	.string "like {STR_VAR_1} if you visit the GAME\l"
-	.string "CORNER and play the {STR_VAR_2} game.\p"
-	.string "This is live from the GAME CORNER--\n"
-	.string "where you can feel the excitement!\p"
-	.string "That's all for today!$"
+	.string "{STR_VAR_1}씨는 {STR_VAR_2}{K_EU}로\n"
+	.string "무려 {STR_VAR_3}개나\l"
+	.string "코인을 얻은 모양입니다!\p"
+	.string "“{STR_VAR_1}씨가 오면\n"
+	.string "  적자를 각오해야 한다!”\p"
+	.string "...라는 말이 점원들 사이에서\n"
+	.string "떠도는 것 같습니다!\p"
+	.string "TV 앞의 여러분도\n"
+	.string "{STR_VAR_1}씨처럼 {STR_VAR_2}{K_EU}로\l"
+	.string "놀아보시는 건 어떤가요?\p"
+	.string "이상\n"
+	.string "호연 제일의 두근두근 스폿!\l"
+	.string "게임코너에서 전해 드렸습니다$"
+	// §いさんは §うでｎ
+	// なんと §えまいもｌ
+	// コインを だした そうです!ｐ
+	// 「§いさんが きたらｎ
+	//  あかじ かくご!」ｐ
+	// ……という ことばが てんいんたちのｎ
+	// あいだで ささやかれた そうです!ｐ
+	// テレビの まえの みなさんもｎ
+	// §いさんの ように §うでｌ
+	// あそんで みては いかがでしょうか?ｐ
+	// いじょうｎ
+	// ホウエン いち ドキドキの スポット!ｌ
+	// ゲ-ムコ-ナ- より おおくりしました
 
 gTVFindThatGamerText02:: @ 08285463
-	.string "{STR_VAR_1} played the {STR_VAR_2} game\n"
-	.string "and lost {STR_VAR_3} COINS.\p"
-	.string "“When {STR_VAR_1} comes, our COIN\n"
-	.string "sales seem to increase.”\p"
-	.string "That's what the GAME CORNER clerks\n"
-	.string "say when our gamer is in play!$"
+	.string "{STR_VAR_1}씨는 {STR_VAR_2}{K_EU}로\n"
+	.string "무려 {STR_VAR_3}개나\l"
+	.string "코인을 잃은 모양입니다!\p"
+	.string "“{STR_VAR_1}씨가 오면\n"
+	.string "  매출 2배!”\p"
+	.string "...라는 말이 점원들 사이에서\n"
+	.string "떠도는 것 같습니다$"
+	// §いさんは §うでｎ
+	// なんと §えまいもｌ
+	// まけてしまった そうです!ｐ
+	// 「§いさんが きたらｎ
+	//  うりあげ 2ばい!」ｐ
+	// ……という ことばが てんいんたちのｎ
+	// あいだで ささやかれた そうです
 
 gTVFindThatGamerText03:: @ 08285500
-	.string "Viewers, it's best to watch your COINS\n"
-	.string "like {STR_VAR_1} if you visit the GAME\l"
-	.string "CORNER and play the {STR_VAR_2} game.\p"
-	.string "This is live from the GAME CORNER--\n"
-	.string "where you can feel the excitement!\p"
-	.string "That's all for today!$"
+	.string "TV 앞의 여러분은\n"
+	.string "{STR_VAR_1}씨처럼 되지 않도록\l"
+	.string "{STR_VAR_2}{K_EU}로\l"
+	.string "놀아보시는 건 어떤가요?\p"
+	.string "이상\n"
+	.string "호연 제일의 두근두근 스폿!\l"
+	.string "게임코너에서 전해 드렸습니다$"
+	// テレビの まえの みなさんはｎ
+	// §いさん みたいに ならないようにｌ
+	// §うで あそんでみてはｌ
+	// いかがで しょうか?ｐ
+	// いじょうｎ
+	// ホウエン いち ドキドキの スポット!ｌ
+	// ゲ-ムコ-ナ- より おおくりしました
 
 gTVBreakingNewsText00:: @ 082855BF
-	.string "BREAKING NEWS TV!$"
+	.string "...긴급 스페셜 TV!!$"
+	// ……きんきゅう スペシャル テレビ!!
 
 gTVBreakingNewsText01:: @ 082855D1
 	.string "Rare {STR_VAR_2} caught by\n"
