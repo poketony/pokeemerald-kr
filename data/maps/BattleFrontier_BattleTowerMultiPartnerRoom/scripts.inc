@@ -283,13 +283,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8:: @ 8244049
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner: @ 8244056
 	.string "여기에 있는 트레이너 중에서\n"
-	.string "파트너를 찾으세요!$"
+	.string "파트너를 찾아주세요!$"
 	// こちらに いる トレ-ナ-の なかからｎ
 	// パ-トナ-を おさがしください!
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner: @ 8244094
-	.string "{PLAYER}님은 아직\n"
-	.string "파트너를 찾지 못했습니다!\p"
+	.string "{PLAYER}님은\n"
+	.string "아직 파트너를 찾지 못했습니다!\p"
 	.string "파트너 찾기를 중지하고\n"
 	.string "접수처로 되돌아갈까요?$"
 	// あさんはｎ
@@ -300,7 +300,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner: @ 8244094
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2: @ 824410C
 	.string "그럼\n"
 	.string "여기에 있는 트레이너 중에서\l"
-	.string "파트너를 찾으세요!$"
+	.string "파트너를 찾아주세요!$"
 	// それではｎ
 	// こちらに いる トレ-ナ-の なかからｌ
 	// パ-トナ-を おさがしください!
@@ -309,14 +309,14 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner:: @ 8
 	.string "파트너 찾기\n"
 	.string "수고하셨습니다!\p"
 	.string "그럼 멀티 배틀룸으로\n"
-	.string "안내하겠습니다!$"
+	.string "안내하겠습니다$"
 	// パ-トナ-さがしｎ
 	// おつかれさまでした!ｐ
 	// それでは マルチ バトルル-ムへｎ
 	// おつれいたします
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro:: @ 824419A
-	.string "저는\n"
+	.string "나는\n"
 	.string "{STR_VAR_1}님의 {STR_VAR_2}번째 제자\l"
 	.string "그 이름은 {STR_VAR_3}!$"
 	// ぼくはｎ
@@ -325,7 +325,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro:: @ 82441
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon1:: @ 82441CA
 	.string "{STR_VAR_1}의 어드바이스를 받아서\n"
-	.string "{STR_VAR_2}{K_EULREUL} 지닌 {STR_VAR_3}{K_WAGWA}$"
+	.string "{STR_VAR_2}{K_EULREUL} 지닌 {STR_VAR_3}{K_WAGWA}...$"
 	// いから アドバイスを うけてｎ
 	// うを もつ えと……
 

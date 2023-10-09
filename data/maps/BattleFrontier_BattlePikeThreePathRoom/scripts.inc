@@ -350,7 +350,7 @@ BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack: @ 825CE36
 	// ひきかえすことは できない……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose: @ 825CE69
-	.string "손님...\p"
+	.string "... 손님...\p"
 	.string "실례지만 어느 길로 갈지\n"
 	.string "고민하고 계신가요...?$"
 	// …… おきゃくさま……ｐ
@@ -365,45 +365,45 @@ BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence: @ 825CEBB
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath: @ 825CEE3
 	.string "그렇군요...\n"
-	.string "...저는 오른쪽 길에서...$"
+	.string "... 저는 오른쪽 길에서...$"
 	// そうですね……ｎ
 	// …… わたくしは みぎがわの みちから……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath: @ 825CF23
 	.string "그렇군요...\n"
-	.string "...저는 가운데 길에서...$"
+	.string "... 저는 가운데 길에서...$"
 	// そうですね……ｎ
 	// …… わたくしは まんなかの みちから……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath: @ 825CF64
 	.string "그렇군요...\n"
-	.string "...저는 왼쪽 길에서...$"
+	.string "... 저는 왼쪽 길에서...$"
 	// そうですね……ｎ
 	// …… わたくしは ひだりがわの みちから……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon: @ 825CFA3
 	.string "포켓몬의 냄새가\n"
 	.string "나는 듯한\l"
-	.string "기분이 듭니다...$"
+	.string "기분이 듭니다만...$"
 	// ポケモンの においがｎ
 	// ただよってくる ようなｌ
 	// きが するの ですが……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople: @ 825CFE5
 	.string "트레이너... 인가요...?\n"
-	.string "사람의 기척을 느꼈습니다...$"
+	.string "사람의 기척을 느꼈습니다만...$"
 	// トレ-ナ-…… でしょうか……?ｎ
 	// ひとの けはいを かんじるの ですが……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering: @ 825D017
-	.string "뭔가가 속삭이는 듯한\n"
-	.string "소리가 들렸습니다...$"
+	.string "뭔가가 속삭이는 듯한 소리가\n"
+	.string "들렸습니다만...$"
 	// なにかが ささやく ような ものおとがｎ
 	// きこえたの ですが……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga: @ 825D054
-	.string "왠지는 모르지만 그리운\n"
-	.string "분위기를 느낍니다...$"
+	.string "어째서인지 조금 그리운\n"
+	.string "분위기를 느낍니다만...$"
 	// なぜだか すこし だけ なつかしいｎ
 	// ふんいきを かんじるの ですが……
 
@@ -420,7 +420,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent: @ 825D094
 	// かくごして おいて ください……
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence: @ 825D125
-	.string "...어느 길에서나\n"
+	.string "... 어느 길에서나\n"
 	.string "무서운 기척이 느껴집니다...$"
 	// …… どの みちの さきからもｎ
 	// おそろしい けはいを かんじます……

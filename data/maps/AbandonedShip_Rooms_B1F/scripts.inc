@@ -11,7 +11,11 @@ AbandonedShip_Rooms_B1F_EventScript_FatMan::
 	end
 
 AbandonedShip_Rooms_B1F_Text_GettingQueasy:
-	.string "우우웁...\p"
-	.string "배 안에 있는 것만으로도\n"
+	.string "우웁...\p"
+	.string "어째선지 배 안에 있는 것만으로도\n"
 	.string "멀미를 해버려...\p"
-	.string "배는 움직이지도 않는데...$"
+	.string "배는 조금도 안 움직이는데...$"
+	// うぅ……ｐ
+	// なんだか ふねの なかに いるだけでｎ
+	// よってきちゃった……ｐ
+	// ふねは ちっとも うごいてないのに……

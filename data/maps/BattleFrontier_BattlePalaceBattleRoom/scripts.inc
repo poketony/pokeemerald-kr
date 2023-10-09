@@ -524,13 +524,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SavingData: @ 825007E
 	// しばし またれよ……
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch: @ 825009E
-	.string "지금의 승부를\n"
+	.string "지금의 배틀을\n"
 	.string "프런티어패스에 기록하겠나?$"
 	// さきほどの たたかいをｎ
 	// フロンティアパスに きろく するか?
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven: @ 82500DD
-	.string "그럼...\p"
+	.string "자 그럼...\p"
 	.string "지금까지 연승해 온 자네는\n"
 	.string "우리들의 주인 팰리스가디언께\l"
 	.string "도전할 자격을 얻었다네...$"
@@ -585,16 +585,16 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle: @ 82502FF
 	.string "우근: 크하하핫!\p"
 	.string "역시 허세는 안 통하는군!!\n"
 	.string "겁줘서 미안했네!!\p"
-	.string "이봐! 그걸!$"
+	.string "이봐! 그걸 가져오게!$"
 	// ウコン『ぐわはっはっ!ｐ
 	// やはり ハッタリ なんぞ きかんか!!ｎ
 	// おどしたり して わるかったのぅ!!ｐ
 	// お-い! あれを!
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass: @ 825036D
-	.string "이런이런 그대로 위엄을 유지해\n"
-	.string "주셨으면 좋았을 텐데...\p"
-	.string "이보게! 프런티어패스를 줘 보게나!$"
+	.string "이런이런 그대로 위엄을\n"
+	.string "유지해 주셨으면 좋았을 텐데...\p"
+	.string "이보게! 프런티어패스를 줘보게나!$"
 	// やれやれ あのまま いげんを たもってｎ
 	// おいて くだされば よい ものを……ｐ
 	// おい! フロンティアパスを かさんか!
@@ -620,8 +620,8 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack: @ 825048
 	.string "정말 좋은 관계를\l"
 	.string "맺은 것 같구먼!\p"
 	.string "음!\p"
-	.string "그렇다면 이번엔 나도\n"
-	.string "허세나 봐주는 건\l"
+	.string "그렇다면 이번엔 우리도\n"
+	.string "허세나 적당히 봐주는 건\l"
 	.string "전부 그만두도록 하지!\p"
 	.string "알았나? 각오하거라!!$"
 	// ウコン『ぐわはっはっ!ｎ
@@ -640,11 +640,11 @@ BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah: @ 8250572
 	// …… …… …… か-っ!!!
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable: @ 825057E
-	.string "우근: 정말 잘하는데!!\n"
+	.string "우근: 거 참 정말로 해냈구먼!!\n"
 	.string "전력을 다한 내 형제가\l"
-	.string "지다니 말야!\p"
-	.string "이야- 너희들은 정말 대단하군!\n"
-	.string "어-이! 빨리 그걸!$"
+	.string "지다니 말이야!\p"
+	.string "이야- 자네들은 정말 대단하군!\n"
+	.string "이보게-! 빨리 그걸 가져오게!$"
 	// ウコン『いやはや よう やったわ!!ｎ
 	// ぜんりょくの わが きょうだいがｌ
 	// はが たたん とは なぁ!ｐ
@@ -653,9 +653,9 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable: @ 825057E
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass: @ 8250629
 	.string "정말 이곳의 체면은\n"
-	.string "생각해 주시지 않는 겐가...\p"
+	.string "생각해 주지 않는 분이시군...\p"
 	.string "에잇! 자네!!\n"
-	.string "빨리 프런티어패스를 줘 보게!$"
+	.string "빨리 프런티어패스를 줘보게!$"
 	// ったく ここの イメ-ジと いうのをｎ
 	// かんがえて くれない おかた だ……ｐ
 	// ええい! おまえ!!ｎ

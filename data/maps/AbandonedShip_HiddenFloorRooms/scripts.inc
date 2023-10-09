@@ -120,5 +120,7 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 	end
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
-	.string "반짝거렸지만\n"
-	.string "그냥 쓰레기였다...$"
+	.string "반짝거렸을 뿐인\n"
+	.string "평범한 쓰레기였다...$"
+	// ひかっているだけのｎ
+	// ただの ゴミ だった……

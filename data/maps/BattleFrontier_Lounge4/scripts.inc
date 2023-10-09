@@ -29,7 +29,7 @@ BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles: @ 8263625
 	.string "휴우\p"
 	.string "배틀하는 도중에\n"
 	.string "잠깐 휴식 중...\p"
-	.string "라고 말해도\l"
+	.string "이라고 말해도\l"
 	.string "내 머릿속은\n"
 	.string "쉬지 않고 전략을 세우는 중이지!$"
 	// ふうｐ

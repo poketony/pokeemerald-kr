@@ -255,7 +255,7 @@ BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid: @ 82554E8
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere: @ 825551F
 	.string "도착하셨군요!\p"
-	.string "...... ...라고 말하려 했지만\n"
+	.string "...... ...... 라고 말하려 했지만\n"
 	.string "조금 늦으셨습니다!!\p"
 	.string "이미 저희 대장님께서\n"
 	.string "피라미드를 제패하셨습니다!!\p"
@@ -344,13 +344,13 @@ BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting: @ 825591D
 	// また あえる ときを まっているぞ!!
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned: @ 8255951
-	.string "기선: ...여기까지 온 건가\n"
+	.string "기선: ... 여기까지 온 건가\n"
 	.string "젊은 모험자여...\p"
 	.string "너는 정말 마음에서부터\n"
 	.string "모험을 사랑하고 있는 것 같군...\p"
 	.string "그래... 마치 젊은 날의\n"
 	.string "나와 닮았어...\p"
-	.string "... ... ... 오오...\p"
+	.string "...... ...... ...... 오오...\p"
 	.string "뜨겁고!!\p"
 	.string "위험하고!!\p"
 	.string "괴로운!!\p"
@@ -388,8 +388,8 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis: @ 8255ACD
 	.string "이거 정말 굉장하구만!\l"
 	.string "정말 최고야!!\p"
 	.string "젊은 모험자여!!\p"
-	.string "네게는 당해낼 수가 없구만!\n"
-	.string "자! 이걸 받아줘!$"
+	.string "네게는 당해낼 수가 없군!\n"
+	.string "자! 이걸 받아라!$"
 	// ジンダイ『はっはっはっ!ｎ
 	// いやぁ- じつに すばらしい!ｌ
 	// まったく さいこうじゃ ないか!!ｐ
@@ -404,8 +404,8 @@ BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine: @ 8255B59
 	// きんいろに かがやいた!
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow: @ 8255B82
-	.string "이거 정말 나도\n"
-	.string "아직 멀었다는 건가!!\p"
+	.string "하하- 나도\n"
+	.string "아직 부족한 것 같군!!\p"
 	.string "인연이 있으면 다시 만나자!\n"
 	.string "작별이다! 젊은 모험자여!!$"
 	// いやぁ- わたしもｎ

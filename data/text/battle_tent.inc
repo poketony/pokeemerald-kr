@@ -32,7 +32,7 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent: @ 82C48AC
 	.string "포켓몬을 내보내게 됩니다!\p"
 	.string "배틀에 한 번 내보낸 포켓몬은\n"
 	.string "결착이 날 때까지\l"
-	.string "교대할 수 없습니다!\p"
+	.string "교체할 수 없습니다!\p"
 	.string "게다가 3턴 이내에\n"
 	.string "배틀의 결착이 나지 않는다면\l"
 	.string "판정이 나게 됩니다!\p"
@@ -69,8 +69,7 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent: @ 82C48AC
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge: @ 82C4B35
 	.string "배틀텐트에 입장하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// バトルテントへ おつれする まえにｎ
 	// レポ-トを かきますが よろしいですかな?
 
@@ -271,8 +270,8 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent: @ 82C5163
 	// きを つけてくれ……
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified: @ 82C539A
-	.string "자신의 마음과 포켓몬을 단련하고\n"
-	.string "나서 다시 오게나...$"
+	.string "자신의 마음과 포켓몬을 단련하고 나서\n"
+	.string "다시 오도록 하게나...$"
 	// おのれの こころと ポケモンを きたえたらｎ
 	// また くるがよい……
 
@@ -691,7 +690,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules: @ 82C64BA
 	.string "상대의 능력을 내리거나\n"
 	.string "독이나 마비를 거는 등의\l"
 	.string "조금 변화를 주는 기술\p"
-	.string "포켓몬은 모든 기술은\n"
+	.string "포켓몬은 모든 기술을\n"
 	.string "크게 3개의 종류로 나눠서\l"
 	.string "어떤 기술을 쓸지 생각합니다$"
 	// あいてに むかって じぶんからｎ
@@ -734,8 +733,8 @@ VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules: @ 82C671E
 	.string "성격과는 다른 종류의\l"
 	.string "기술을 쓰는\l"
 	.string "경우가 있습니다\p"
-	.string "위기에 몰렸을 때 조금\n"
-	.string "다른 행동을 시작한 포켓몬은\l"
+	.string "위기에 몰렸을 때\n"
+	.string "별난 행동을 시작한 포켓몬은\l"
 	.string "주의하도록 합시다$"
 	// ポケモンの せいかくの なかにはｎ
 	// ピンチに なることで もともとのｌ

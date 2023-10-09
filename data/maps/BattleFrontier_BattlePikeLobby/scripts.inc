@@ -295,7 +295,7 @@ BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike: @ 825BBF5
 	.string "배틀튜브의 가장 안쪽에 있는\l"
 	.string "목표인 방을 향해\l"
 	.string "나아가기만 하면 됩니다\p"
-	.string "...단 선택한 길 앞에\n"
+	.string "... 단 선택한 길 앞에\n"
 	.string "뭐가 일어날지는 손님의\l"
 	.string "운에 달렸습니다...\p"
 	.string "만약 목표에 도달하게 된다면\n"
@@ -340,7 +340,7 @@ BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode: @ 825BE35
 	// どちらに ちょうせん しますか?
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50: @ 825BE8C
-	.string "...손님\p"
+	.string "... 손님\p"
 	.string "배틀게임에 참가할 수 있는\n"
 	.string "포켓몬 3마리가 없습니다...\p"
 	.string "참가하려면 레벨 50 이하의\n"
@@ -365,7 +365,7 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50: @ 825BE8C
 	// また おこしください……
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen: @ 825BF9A
-	.string "...손님\p"
+	.string "... 손님\p"
 	.string "배틀게임에 참가할 수 있는\n"
 	.string "포켓몬 3마리가 없습니다...\p"
 	.string "참가하려면 종류가 다른\n"
@@ -395,8 +395,7 @@ BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons: @ 825C094
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge: @ 825C0D8
 	.string "배틀게임을 시작하기 전에\n"
-	.string "리포트를 작성합니다...\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다... 괜찮겠습니까?$"
 	// バトルゲ-ムを かいしする まえにｎ
 	// レポ-トを かきます…… よろしいですか?
 
@@ -445,7 +444,7 @@ BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit: @ 825C26C
 	// また おこしください……
 
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting: @ 825C2E0
-	.string "...손님\p"
+	.string "손님...\p"
 	.string "성적을 제대로 리포트에 작성하지\n"
 	.string "않고 종료하셨군요...\p"
 	.string "죄송하지만 도전은\n"

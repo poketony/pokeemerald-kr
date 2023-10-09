@@ -216,7 +216,7 @@ BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere:: @ 8261FFE
 	// また こんどに してくれや!
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling:: @ 8262061
-	.string "...응?\n"
+	.string "... 응?\n"
 	.string "당신 강해 보이네...\p"
 	.string "헤헤... ......\n"
 	.string "잠깐 좋은 얘기가\l"
@@ -225,16 +225,16 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling:: @ 8262061
 	.string "배틀프런티어 안에서\l"
 	.string "게임을 하고 있거든...\p"
 	.string "규칙은 간단하지-\n"
-	.string "우선 매회 시설 중\l"
+	.string "우선 매번 시설 중\l"
 	.string "하나를 골라!\p"
 	.string "그리고 그곳에 도전하는\n"
 	.string "트레이너 중 한 명을 고르고\l"
 	.string "자신의 배틀포인트를 거는 거야!\p"
 	.string "그렇게 해서 가장 좋은 성적을\n"
 	.string "낸 트레이너에 건 녀석이\l"
-	.string "배틀포인트를 전부 가져가는 거야!\p"
+	.string "배틀포인트를 전부 가져가는 거지!\p"
 	.string "알겠어? 간단하지?\n"
-	.string "...그래서$"
+	.string "그래서...$"
 	// …… ん?ｎ
 	// あんた つよそうだねぇ……ｐ
 	// へっへ…… ……ｎ
@@ -478,7 +478,7 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo:: @ 8262BE0
 	// そんじゃ-
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle:: @ 8262C04
-	.string "그럼 제대로\n"
+	.string "그럼 빨리빨리\n"
 	.string "배틀타워 싱글 배틀룸에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -491,7 +491,7 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerSingle:: @ 8262C04
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble:: @ 8262C90
-	.string "그럼 제대로\n"
+	.string "그럼 빨리빨리\n"
 	.string "배틀타워 더블 배틀룸에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -504,7 +504,7 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerDouble:: @ 8262C90
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti:: @ 8262D1C
-	.string "그럼 제대로\n"
+	.string "그럼 빨리빨리\n"
 	.string "배틀타워 멀티 배틀룸에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -517,7 +517,7 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerMulti:: @ 8262D1C
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle:: @ 8262DA7
-	.string "그럼 제대로 배틀돔의\n"
+	.string "그럼 빨리빨리 배틀돔의\n"
 	.string "싱글 배틀토너먼트에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -530,7 +530,7 @@ BattleFrontier_Lounge3_Text_GetToBattleDomeSingle:: @ 8262DA7
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble:: @ 8262E34
-	.string "그럼 제대로 배틀돔의\n"
+	.string "그럼 빨리빨리 배틀돔의\n"
 	.string "더블 배틀토너먼트에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -543,7 +543,7 @@ BattleFrontier_Lounge3_Text_GetToBattleDomeDouble:: @ 8262E34
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle:: @ 8262EC1
-	.string "그럼 제대로 배틀팩토리의\n"
+	.string "그럼 빨리빨리 배틀팩토리의\n"
 	.string "배틀트레이드 싱글에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -556,7 +556,7 @@ BattleFrontier_Lounge3_Text_GetToBattleFactorySingle:: @ 8262EC1
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble:: @ 8262F56
-	.string "그럼 제대로 배틀팩토리의\n"
+	.string "그럼 빨리빨리 배틀팩토리의\n"
 	.string "배틀트레이드 더블에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -569,7 +569,7 @@ BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble:: @ 8262F56
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle:: @ 8262FEB
-	.string "그럼 제대로 배틀팰리스의\n"
+	.string "그럼 빨리빨리 배틀팰리스의\n"
 	.string "싱글 배틀홀에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -582,7 +582,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle:: @ 8262FEB
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble:: @ 8263078
-	.string "그럼 제대로 배틀팩토리의\n"
+	.string "그럼 빨리빨리 배틀팩토리의\n"
 	.string "더블 배틀홀에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -595,7 +595,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble:: @ 8263078
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattleArena:: @ 8263105
-	.string "그럼 제대로 배틀아레나의\n"
+	.string "그럼 빨리빨리 배틀아레나의\n"
 	.string "연승팀배틀에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -608,7 +608,7 @@ BattleFrontier_Lounge3_Text_GetToBattleArena:: @ 8263105
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattlePike:: @ 826318C
-	.string "그럼 제대로 배틀튜브의\n"
+	.string "그럼 빨리빨리 배틀튜브의\n"
 	.string "배틀게임에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -621,7 +621,7 @@ BattleFrontier_Lounge3_Text_GetToBattlePike:: @ 826318C
 	// おれと あんたの みらいの ためだかんな!
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid:: @ 8263211
-	.string "그럼 제대로 배틀피라미드의\n"
+	.string "그럼 빨리빨리 배틀피라미드의\n"
 	.string "배틀어드벤처에\p"
 	.string "다녀오도록 해!\n"
 	.string "져서 돌아오지 말라고!\l"
@@ -680,7 +680,7 @@ BattleFrontier_Lounge3_Text_Oh:: @ 826346B
 	// おっ……
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer:: @ 826346F
-	.string "또 빗나갔어?\p"
+	.string "또- 빗-나-갔-어?\p"
 	.string "나도 평범하게\n"
 	.string "배틀하는 편이 좋으려나...$"
 	// ま-た- は-ず-れ-?ｐ
@@ -704,7 +704,7 @@ BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne:: @ 826351D
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges:: @ 8263545
 	.string "저 녀석들 트레이너면서\n"
 	.string "도전하지 않고\l"
-	.string "뭐하고 있는 걸까?$"
+	.string "뭐 하고 있는 걸까?$"
 	// あいつら トレ-ナ-の くせにｎ
 	// ちょうせんも しないでｌ
 	// なに してるん だろうな?

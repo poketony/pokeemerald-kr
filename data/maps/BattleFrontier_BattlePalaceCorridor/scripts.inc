@@ -145,14 +145,14 @@ BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes: @ 824F65B
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered: @ 824F718
 	.string "성격이란 신기한 것이지...\p"
-	.string "궁지에 몰리는 것으로 갑자기\n"
+	.string "궁지에 몰림으로써 갑자기\n"
 	.string "행동이 바뀌기도 한다네$"
 	// せいかくとは ふしぎな ものだ……ｐ
 	// おいつめられる ことで ガラッとｎ
 	// こうどうが かわる ものも おる……
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature: @ 824F78C
-	.string "...슬슬 포켓몬의 성격을\n"
+	.string "... 슬슬 포켓몬의 성격을\n"
 	.string "지켜볼 수 있게 되었나?$"
 	// …… そろそろ ポケモンの せいかくをｎ
 	// みきわめられる ように なってきたか?

@@ -360,7 +360,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody: @ 8243363
 	.string "거기 너! 모자가 어긋나 있다고!\l"
 	.string "어이쿠 바닥에 쓰레기가 있군!\l"
 	.string "이런! 곧 밥 먹을 시간이다!\p"
-	.string "... ...배틀팰리스에서\n"
+	.string "...... ...배틀팰리스에서\n"
 	.string "승부를 그저 지켜보는 걸\l"
 	.string "내가 할 수 있을까...?$"
 	// お おれは でしゃばり だ!ｎ
@@ -373,7 +373,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody: @ 8243363
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader: @ 8243425
 	.string "이래 보여도 왕년엔\n"
-	.string "체육관 관장에게 이긴 적이 있단다\p"
+	.string "체육관 관장을 이긴 적이 있단다\p"
 	.string "이제 다시 왕년을 살아봐야겠어$"
 	// こう みえても むかしはｎ
 	// ジムリ-ダ-に かった ことも あるのよｐ
@@ -381,7 +381,7 @@ BattleFrontier_OutsideEast_Text_OnceBeatGymLeader: @ 8243425
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles: @ 82434A0
 	.string "자전거도 잘 타지만\n"
-	.string "포켓몬도 자신 있어!\p"
+	.string "포켓몬도 자신 있어!\l"
 	.string "눈 깜짝할 사이에 이겨버릴 거야!$"
 	// じてんしゃも はやいけどｎ
 	// ポケモン だって じしんあるわ!ｌ
@@ -389,7 +389,7 @@ BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles: @ 82434A0
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon: @ 8243504
 	.string "내가 아빠보다\n"
-	.string "포켓몬이 더 강해!$"
+	.string "포켓몬 승부를 더 잘해!$"
 	// わたしのほうがねえ- パパよりｎ
 	// ポケモン つよいんだよ!
 
@@ -465,9 +465,9 @@ BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower: @ 8243895
 	.string "이 사람 배틀타워에\n"
 	.string "도전하고 있을 때\l"
 	.string "엄청나게 강한 트레이너하고\l"
-	.string "배틀했었나 봐요...\p"
+	.string "배틀했었나 봐...\p"
 	.string "당신도 배틀타워에\n"
-	.string "도전할 때는 조심하세요$"
+	.string "도전할 때는 조심해...$"
 	// このひと バトルタワ-にｎ
 	// ちょうせん している ときにｌ
 	// おそろしく つよい トレ-ナ-とｌ
@@ -510,7 +510,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome: @ 8243A53
 	.string "배틀살롱에 같이 선다면\n"
 	.string "둘의 러브파워로\l"
 	.string "이놈이든 저놈이든 한 방이야!\l"
-	.string "빨리 가자- 달링!!$"
+	.string "그치- 달링!!$"
 	// ぁあん やっぱ ダ-リンは ス テ キ!ｐ
 	// …… ……あ-!ｎ
 	// も-! わたし たまんないっ!!ｐ

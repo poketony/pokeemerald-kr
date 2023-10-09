@@ -57,6 +57,6 @@ BattleFrontier_BattlePikeCorridor_Movement_AttendantEnterCorridor: @ 825C812
 	step_end
 
 BattleFrontier_BattlePikeCorridor_Text_YourChallengeHasBegun: @ 825C817
-	.string "...배틀게임을 시작하겠습니다!$"
+	.string "... 배틀게임을 시작하겠습니다!$"
 	// …… バトルゲ-ム スタ-トです!
 

@@ -28,32 +28,48 @@ DewfordTown_House2_EventScript_Boy:: @ 81FE271
 	end
 
 DewfordTown_House2_Text_WantYouToHaveSilkScarf: @ 81FE27A
-	.string "이게 바로!\p"
-	.string "요즘 가장 유행하는 실크스카프야!\n"
-	.string "어때? 정말 멋지지!?\p"
-	.string "오! 흥미가 생긴 모양인데?\n"
-	.string "넌 내 센스를 알아주는구나!\p"
-	.string "정말 고마워!\n"
-	.string "이건 선물로 줄게!$"
+	.string "어때! 요즘 가장 유행하는\n"
+	.string "이 실크스카프가 멋지지 않아!?\p"
+	.string "오 흥미가 생긴 모양이네!\n"
+	.string "내 센스를 알아주는구나 넌!\p"
+	.string "정말 기쁜걸!\n"
+	.string "이걸 선물할게!$"
+	// ほら! りゅうこう さいせんたんのｎ
+	// この シルクのスカ-フ ステキだろ!ｐ
+	// おっ めが かがやいてるね!ｎ
+	// オレの センスが わかるんだな きみは!ｐ
+	// うれしいね!ｎ
+	// これは プレゼント するよ!
 
 DewfordTown_House2_Text_NoRoom: @ 81FE356
-	.string "이런, 가방이 가득 찼구나!\p"
-	.string "이 실크스카프는 필수 구매\n"
-	.string "아이템이라고! 다른 물건을\l"
-	.string "팔아서라도\l"
-	.string "구매할 만큼 말야!$"
+	.string "엇 못 가진다고?\n"
+	.string "네 물건을 전부 팔아서라도\l"
+	.string "얻을 만큼 가치 있는 스카프라고 이건!$"
+	// え もてないの?ｎ
+	// きみの にもつを ぜんぶ うってでもｌ
+	// もつべき スカ-フだぜ これは!
 
 DewfordTown_House2_Text_ExplainSilkScarf: @ 81FE3D1
-	.string "실크스카프는 노말타입의 기술의\n"
-	.string "위력을 높여주지!\p"
+	.string "실크스카프는 노말타입\n"
+	.string "기술의 위력을 높여주지!\p"
 	.string "대부분의 포켓몬에게 어울리는\n"
 	.string "멋진 스카프야!$"
+	// シルクのスカ-フは ノ-マルタイプのｎ
+	// わざの いりょくを あげてくれる!ｐ
+	// ほとんどの ポケモンに にあうｎ
+	// すてきな スカ-フ ってことだぜ!
 
 DewfordTown_House2_Text_BrawlySoCool: @ 81FE444
-	.string "우와! 일부러 바다를 건너\n"
-	.string "무로마을까지 왔구나!\p"
+	.string "헤에! 바다를 건너\n"
+	.string "기어코 무로마을까지 왔구나!\p"
 	.string "혹시 철구님의 소문을 듣고\n"
 	.string "만나러 온 거야?\p"
 	.string "철구님은 정말 멋있어서\n"
 	.string "모두가 동경하잖아!$"
+	// へえ! きみ うみを こえてｎ
+	// わざわざ ムロまで きたの!ｐ
+	// もしかして トウキさんの うわさを きいてｎ
+	// あいに きたんじゃない?ｐ
+	// トウキさん かっこよくてｎ
+	// みんなが あこがれるもんな!
 

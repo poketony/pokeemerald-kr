@@ -396,7 +396,7 @@ BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo: @ 823D97A
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends: @ 823D99C
 	.string "나 친구들 중에서는\n"
 	.string "제일 강했는데\l"
-	.string "여기에 오니까 전혀 안되겠어!$"
+	.string "여기에 오니까 완전 안돼!$"
 	// ぼく ともだちの なかではｎ
 	// いちばん つよいのにｌ
 	// ここに きてみたら てんで ダメ!
@@ -480,7 +480,7 @@ BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors: @ 823DD3B
 	// …… …… ……
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge: @ 823DD7A
-	.string "와! 이겼다!\n"
+	.string "와아 이겼다!\n"
 	.string "좋아 배틀튜브에 도전해야지!$"
 	// わ-い かっちゃった!ｎ
 	// よし バトルチュ-ブに ちょうせん しよ!
@@ -497,8 +497,8 @@ BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling: @ 823DE15
 	.string "이 근처에서 어째선가 낚시를\n"
 	.string "하려고 하는 사람은\l"
 	.string "나밖에 없는 거겠지!\p"
-	.string "...... 에 아무것도 안 잡힌다고?\n"
-	.string "실망이네$"
+	.string "... 에 아무것도 안 잡힌다고?\n"
+	.string "실망이야$"
 	// この かいわいで なぜか つりをｎ
 	// たのしもうと して いるのはｌ
 	// おれ くらいの ものだろうな!ｐ
@@ -571,7 +571,7 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike: @ 823E154
 	.string "와구 와구\p"
 	.string "그러더니 “언제까지 먹을 거야!”라고\n"
 	.string "화내서 엉망진창으로 당해버렸어\p"
-	.string "이야 무서웠지\p"
+	.string "이야 무서웠지-\p"
 	.string "와구 와구$"
 	// ぱく ぱくｐ
 	// このまえ バトルチュ-ブでｎ
@@ -597,7 +597,7 @@ BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet: @ 823E273
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering: @ 823E2E9
 	.string "뭐라고-!?\p"
-	.string "그건 옆에 있었던 내가\n"
+	.string "그건 옆에 내가\n"
 	.string "있어서 그런 거잖아!\p"
 	.string "그 사람은 내 응원을\n"
 	.string "듣고 쳐다본 거라고-오!$"
@@ -613,7 +613,7 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine: @ 823E37E
 	.string "어딘가의 체육관 관장이나\l"
 	.string "응원하라고!!\p"
 	.string "돔슈퍼스타는 나만의!\n"
-	.string "나만의 아이돌이라고!!$"
+	.string "나만의 아이돌이란 말이다!!$"
 	// ああ うるさいっ! うるさいわっ!ｐ
 	// おみゃ-ら みたいな おこさまはｎ
 	// どこぞの ジムリ-ダ-でもｌ
@@ -625,7 +625,7 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers: @ 823E410
 	.string "저기서 싸우고 있는 사람들...\p"
 	.string "저래 봬도 원래는 엄청 강하고\n"
 	.string "유명한 트레이너였어\p"
-	.string "하지만 배틀돔에서\n"
+	.string "하지만 배틀토너먼트에서\n"
 	.string "어떤 트레이너에게 엉망으로 져서\l"
 	.string "모두 그 트레이너의\l"
 	.string "엄청난 팬이 되어버렸지\p"
@@ -646,7 +646,7 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier: @ 823E5A5
 	.string "엄청 꼬리가 긴 포켓몬을\l"
 	.string "봤다고 들었어-!\p"
 	.string "아아 귀여운 포켓몬일 거야 분명...\p"
-	.string "이젠 도전보다도\n"
+	.string "정말이지 도전보다도\n"
 	.string "그 애를 찾으러 가고 싶네-$"
 	// バトルフロンティアの どっかでｎ
 	// えらく しっぽの なが-い ポケモンをｌ

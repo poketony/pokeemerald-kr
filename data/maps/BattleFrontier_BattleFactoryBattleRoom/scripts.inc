@@ -267,7 +267,7 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle:: @ 825B
 	return
 
 BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn: @ 825B1E2
-	.string "자 자! 빨리 오라고!$"
+	.string "자자! 빨리 오라고!$"
 	// ほらほら! はやく きなっ!
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead: @ 825B1FB
@@ -278,10 +278,10 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead: @ 825B1FB
 	.string "데이터를 봤다고!\p"
 	.string "그럭저럭 잘하고 있지만\n"
 	.string "아직 애매해!\p"
-	.string "알겠어? 지식이라는 건\n"
+	.string "알겠어-? 지식이라는 건\n"
 	.string "단지 책을 읽거나\l"
 	.string "책상에 앉아 있는 것만으로는\l"
-	.string "아무 도움도 안 돼!\p"
+	.string "아-무런 도움도 안 돼!\p"
 	.string "자신의 몸과 마음으로 실제로\n"
 	.string "체험해야 하는 거야...\p"
 	.string "나도 너와 같은 조건!\n"
@@ -310,7 +310,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn: @ 825B3F
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass: @ 825B42D
 	.string "다투라: 좋아!\n"
-	.string "프런티어패스 줘 봐!$"
+	.string "프런티어패스 줘봐!$"
 	// ダツラ『イイぜ!ｎ
 	// フロンティアパス かしな!
 
@@ -331,13 +331,13 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred: @ 825B498
 	// しっかり べんきょう しとけよ!!
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime: @ 825B517
-	.string "다투라: 안녕! 상태는 어때?\n"
+	.string "다투라: 안녕! 상태는 어때-?\n"
 	.string "제대로 공부하고 있어?\p"
-	.string "...오?\p"
+	.string "... 오?\p"
 	.string "너 지난번에 봤을 때보다\n"
 	.string "좀 더 좋은 얼굴을 하고 있는데!\p"
 	.string "이거 기대되는걸-!\n"
-	.string "두근거리는데! 어이!$"
+	.string "두근거리기 시작했어! 어이!$"
 	// ダツラ『オ-ス! どうよ-? ちょうしは-?ｎ
 	// しっかり べんきょう してるか?ｐ
 	// …… お?ｐ

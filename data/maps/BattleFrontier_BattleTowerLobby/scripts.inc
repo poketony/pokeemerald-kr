@@ -1039,8 +1039,7 @@ BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou: @ 823F737
 
 BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved: @ 823F754
 	.string "배틀룸으로 안내하기 전에\n"
-	.string "리포트를 작성하므로\l"
-	.string "기다려 주십시오$"
+	.string "리포트를 작성하므로 기다려 주십시오$"
 	// バトルル-ムに ごあんないする まえにｎ
 	// レポ-トを かきますので おまちください
 
@@ -1058,8 +1057,7 @@ BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer: @ 823F79D
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons: @ 823F844
 	.string "강한 트레이너 7명에게\n"
-	.string "연승한 기념으로\l"
-	.string "리본을 드립니다!\p"
+	.string "연승한 기념으로 리본을 드립니다!\p"
 	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
 	// つよい トレ-ナ- 7にんをｎ
 	// かちぬいた きねんの リボンを どうぞ!ｐ
@@ -1114,8 +1112,8 @@ BattleFrontier_BattleTowerLobby_Text_ChangedYourMind: @ 823FA4F
 	// きみって きまぐれ なんだね
 
 BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel: @ 823FA83
-	.string "흐음 그런 기분인 건가!\n"
-	.string "좀 독특하구나...\p"
+	.string "흐음 그런 기분인 거구나!\n"
+	.string "좀 독특한걸...\p"
 	.string "정말 고마워!$"
 	// へえ そんな きぶんに なるんだ!ｎ
 	// なかなか こせいてき だね……ｐ
@@ -1125,7 +1123,7 @@ BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded: @ 823FAC0
 	.string "배틀에서 승리한 트레이너의 수가\n"
 	.string "기록되고 있어!\p"
 	.string "부끄럽지 않은 배틀을\n"
-	.string "해야 해...!$"
+	.string "해야 돼...!$"
 	// かちぬいた トレ-ナ-の にんずうはｎ
 	// きろく されて いるのよ!ｐ
 	// はずかしく ない たたかいをｎ
@@ -1188,8 +1186,7 @@ BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons: @ 823FD9A
 
 BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering: @ 823FDC7
 	.string "안내하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// ごあんないする まえにｎ
 	// レポ-トを かきますが よろしいですか?
 
@@ -1201,7 +1198,7 @@ BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom: @ 823FE11
 
 BattleFrontier_BattleTowerLobby_Text_RecordLastMatch: @ 823FE3C
 	.string "배틀타워에서\n"
-	.string "마지막으로 했던 승부를\l"
+	.string "마지막으로 했던 배틀을\l"
 	.string "프런티어패스에 기록하겠습니까?$"
 	// バトルタワ-でｎ
 	// さいごに おこなった たたかいをｌ
@@ -1567,7 +1564,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge: @ 8240B3E
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons: @ 8240DDB
 	.string "그럼 참가할 포켓몬을\n"
-	.string "2마리를 선택해 주십시오$"
+	.string "2마리 선택해 주십시오!$"
 	// では さんかする ポケモンをｎ
 	// 2ひき おえらび ください!
 
@@ -1632,7 +1629,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge: @ 8240ED2
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2: @ 824115E
 	.string "그럼 참가할 포켓몬을\n"
-	.string "2마리 선택해 주십시오$"
+	.string "2마리 선택해 주십시오!$"
 	// では さんかする ポケモンをｎ
 	// 2ひき おえらび ください!
 
@@ -1713,7 +1710,7 @@ BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode: @ 82413DE
 	// とうろくを やりなおして ください!
 
 BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn: @ 824144D
-	.string "안내하기 전에 리포트를 작성하므로\n"
+	.string "안내하기 전에 리포트를 작성합니다\n"
 	.string "잠시 기다려 주십시오!$"
 	// ごあんないする まえに レポ-トを かきますｎ
 	// しばらく おまちください!
@@ -1774,7 +1771,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules: @ 8241586
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules: @ 8241693
 	.string "도전할 배틀룸에 따라\n"
-	.string "데려갈 포켓몬의 수가 바뀝니다\p"
+	.string "데려가는 포켓몬의 수가 바뀝니다\p"
 	.string "싱글에서는 3마리\n"
 	.string "더블에서는 4마리\l"
 	.string "멀티에서는 2마리입니다$"

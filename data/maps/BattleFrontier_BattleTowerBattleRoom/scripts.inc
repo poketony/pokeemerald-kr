@@ -493,15 +493,15 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent: @ 8242371
 	// じゅんびは いいですか?
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle: @ 82423A3
-	.string "마지막 승부를\n"
+	.string "방금 전 배틀을\n"
 	.string "프런티어패스에 기록하겠습니까?$"
 	// さきほどの たたかいをｎ
 	// フロンティアパスに きろく しますか?
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass: @ 82423CD
-	.string "{PLAYER}의 승부가\n"
+	.string "{PLAYER}의 배틀이\n"
 	.string "프런티어패스에 기록되었다!$"
-	// あの たたかいがｎ
+	// §あの たたかいがｎ
 	// フロンティアパスに きろく された!
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame: @ 82423FC
@@ -531,7 +531,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay: @ 82424C2
 	.string "...손님\p"
 	.string "실은 저희의 주인이신\n"
 	.string "타워타이쿤께서\l"
-	.string "손님과의 대전을 위해 곧\p"
+	.string "손님과의 대전을 위해 곧\l"
 	.string "배틀룸에 오시는 것 같습니다$"
 	// …… おきゃくさまｐ
 	// じつは わたくしどもの しゅじんで あるｎ
@@ -546,15 +546,15 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden: @ 8242542
 	// かくごは よろしい ですか?
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel: @ 8242579
-	.string "처음 뵙겠습니다...\p"
-	.string "제 이름은 리라\n"
+	.string "반가워...\p"
+	.string "내 이름은 리라\n"
 	.string "배틀타워를 관리하는 자...\l"
-	.string "타워타이쿤이죠...\p"
-	.string "당신의 소문은\n"
-	.string "많이 들었습니다\p"
-	.string "솔직히 저는 매력을\n"
+	.string "타워타이쿤이야...\p"
+	.string "네 소문은\n"
+	.string "많이 들었어\p"
+	.string "솔직히 나는 매력을\n"
 	.string "느끼지 못하는 것들뿐이지만...\p"
-	.string "제가 당신을 만나러 온 이유...\n"
+	.string "내가 널 만나러 온 이유...\n"
 	.string "그건 단 한 가지...$"
 	// はじめまして……ｐ
 	// ぼくの なまえは リラｎ
@@ -568,15 +568,15 @@ BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel: @ 8242579
 	// それは ただ ひとつ……
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent: @ 824268C
-	.string "당신의 재능을\n"
-	.string "여기서 증명해 보시죠...$"
+	.string "너의 재능을\n"
+	.string "여기서 증명해 봐...$"
 	// あなたの さいのうをｎ
 	// ここに しめしなさい……
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized: @ 82426B4
-	.string "리라: 후후후 좋네요...\p"
+	.string "리라: 후후후 좋네...\p"
 	.string "그럼 프런티어패스를...\n"
-	.string "당신이 지닌 재능의 증거를 새깁시다$"
+	.string "네 재능의 증거를 새기자$"
 	// リラ『ふふふ いいね……ｐ
 	// では フロンティアパスを……ｎ
 	// あなたの さいのうの あかしを きざもう
@@ -589,12 +589,12 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol: @ 824270E
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime: @ 8242744
 	.string "...... ...... ......\p"
-	.string "당신도 포켓몬 배틀에\n"
-	.string "자신이 있죠?\p"
+	.string "너도 포켓몬 배틀에\n"
+	.string "자신이 있는 거지?\p"
 	.string "그렇다면 더욱더 싸워서\n"
-	.string "더욱더 이겨나가겠군요\p"
+	.string "더욱더 이겨나가겠구나\p"
 	.string "다시 만날 그때를\n"
-	.string "저는 기다리고 있겠습니다...$"
+	.string "나는 기다리고 있을게...$"
 	// …… …… ……ｐ
 	// あなたは ポケモンバトルにｎ
 	// じしんが あるのだろ?ｐ
@@ -604,12 +604,12 @@ BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime: @ 8242744
 	// ぼくは まってる から……
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack: @ 82427F9
-	.string "리라: 정말로 와주셨군요...\p"
+	.string "리라: 정말로 와주었구나...\p"
 	.string "...... ...... ...... ......\p"
-	.string "여기까지 이겨 온 당신...\n"
-	.string "...당신이 상대라면\l"
-	.string "저도 진심으로 싸울 수 있겠군요...\p"
-	.string "오랜만이에요...\p"
+	.string "여기까지 이겨 온 너...\n"
+	.string "... 네가 상대라면\l"
+	.string "나도 진심으로 싸울 수 있겠어...\p"
+	.string "오랜만이야...\p"
 	.string "아무것도 생각하지 않고\n"
 	.string "싸울 수 있는 건...$"
 	// リラ『ほんとに きて くれたんだね……ｐ
@@ -622,12 +622,12 @@ BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack: @ 82427F9
 	// たたかう ことが できる なんて……
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe: @ 82428E0
-	.string "자 시작하죠!$"
+	.string "자 시작하자!$"
 	// さあ はじめようよ!
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease: @ 82428F7
-	.string "리라: 후훗 축하해요...\n"
-	.string "자 프런티어패스를...$"
+	.string "리라: 후훗 축하해...\n"
+	.string "자 너의 프런티어패스를...$"
 	// リラ『ふふっ おめでとう……ｎ
 	// さあ あなたの フロンティアパスを……
 
@@ -638,10 +638,10 @@ BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine: @ 824293
 	// きんいろに かがやいた!
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain: @ 824295D
-	.string "즐거웠어요...\p"
+	.string "즐거웠어...\p"
 	.string "포켓몬 배틀이 이렇게나\n"
-	.string "즐거운 건 처음이에요...\p"
-	.string "또 당신과 싸우게 되면 좋을 텐데...$"
+	.string "즐거운 건 처음이야...\p"
+	.string "또 너와 배틀할 수 있으면 좋겠다...$"
 	// たのしかった……ｐ
 	// こんなに ポケモンバトルがｎ
 	// たのしい なんて はじめて……ｐ

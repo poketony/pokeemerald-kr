@@ -272,149 +272,250 @@ DewfordTown_Hall_EventScript_ReceivedSludgeBomb:: @ 81FD80E
 	end
 
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend: @ 81FD818
-	.string "요즘 유행하는 게 뭐냐고 하면\n"
-	.string "당연히\l"
+	.string "요즘 유행하는 게 뭐냐고 하면 역시\n"
 	.string "“{STR_VAR_1}”{K_I}지!\p"
 	.string "“{STR_VAR_1}”{K_IGA} 없는\n"
-	.string "생활은 상상이 안 돼!$"
+	.string "생활 같은 건 상상이 안 돼!$"
+	// いまの はやりって いったら やっぱりｎ
+	// 「§い」よね!ｐ
+	// 「§い」の ないｎ
+	// せいかつ なんか かんがえられない!
 
 DewfordTown_Hall_Text_GettingBoredOfTrend: @ 81FD877
-	.string "요즘 유행하는 게 뭐냐고 하면\n"
-	.string "당연히\l"
+	.string "요즘 유행하는 게 뭐냐고 하면 역시\n"
 	.string "“{STR_VAR_1}”{K_I}지!\p"
-	.string "근데 요즘엔 조금 지루해졌서...\p"
-	.string "더 파격적인 걸 찾아봐야겠어$"
+	.string "근데 이제 슬슬\n"
+	.string "지루해졌어-\p"
+	.string "새로운 유행이라도 찾아볼까-$"
+	// いまの はやりって いったら やっぱりｎ
+	// 「§い」よね!ｐ
+	// でも もう そろそろｎ
+	// あきてきたな-ｐ
+	// あたらしい はやりでも さがそっかな-
 
 DewfordTown_Hall_Text_TeachingMonAboutTrend: @ 81FD8ED
 	.string "난 포켓몬한테도\n"
 	.string "“{STR_VAR_1}”{K_EULREUL}\l"
 	.string "가르치고 있는데\p"
 	.string "이게 꽤나\n"
-	.string "힘들단 말이지$"
+	.string "힘들단 말이지-$"
+	// わたしは ポケモンにもｎ
+	// 「§い」をｌ
+	// おしえてるんだけどｐ
+	// これが なかなかｎ
+	// たいへん なのよね-
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY: @ 81FD948
 	.string "요즘 유행하는\n"
 	.string "“{STR_VAR_1}”에 대해서\l"
-	.string "알아보고 있는데\p"
+	.string "조사하고 있는데\p"
 	.string "“{STR_VAR_1}”{K_WAGWA}\n"
 	.string "“{STR_VAR_2}”에\p"
 	.string "깊은 관계가 있다는 건\n"
 	.string "정말이야?$"
+	// いま はやりのｎ
+	// 「§い」のことをｌ
+	// しらべてるんだけどｐ
+	// 「§い」とｎ
+	// 「§う」ってのはｐ
+	// ふかい かんけいが あるって いうのはｎ
+	// ほんとうの ことなのかい?
 
 DewfordTown_Hall_Text_MyHunchWasRight: @ 81FD9B3
 	.string "오!\n"
 	.string "역시 그랬군\p"
-	.string "이걸로 나도 요즘 유행에\n"
-	.string "조금은 가까워졌어!$"
+	.string "이걸로 아저씨도 한 걸음\n"
+	.string "유행에 가까워졌어!$"
+	// お!ｎ
+	// やっぱり そうなのかｐ
+	// これで おじさんも またいっぽｎ
+	// りゅうこうに ちかづいたぞ!
 
 DewfordTown_Hall_Text_NotEasyToKeepUp: @ 81FDA06
 	.string "뭐라고!?\n"
 	.string "그런 거야!?\p"
-	.string "아- 역시 아저씨가\n"
-	.string "유행을 따라가는 건 너무 힘들다!$"
+	.string "아- 아저씨가 유행을\n"
+	.string "따라가는 건 너무 힘들다!$"
+	// なに!?ｎ
+	// そうなのか!?ｐ
+	// いや- おじさんが りゅうこうにｎ
+	// ついて いくのは たいへんだ!
 
 DewfordTown_Hall_Text_TVShowAboutTrend: @ 81FDA5C
-	.string "“{STR_VAR_1}”에 대해\n"
-	.string "알려주는 방송\l"
+	.string "“{STR_VAR_1}” 관련\n"
+	.string "TV 방송 같은 건\l"
 	.string "어디 안 하려나...$"
+	// 「§い」のｎ
+	// テレビって いうのはｌ
+	// やってないのかのう……
 
 DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea: @ 81FDA99
-	.string "바다 건너편에는\n"
-	.string "“{STR_VAR_1}”{K_IGA}\p"
-	.string "여기보다 더\n"
+	.string "바다 건너편에선\p"
+	.string "좀 더 “{STR_VAR_1}”{K_IGA}\n"
 	.string "유행하고 있으려나?$"
+	// うみの むこうではｐ
+	// もっと 「§い」がｎ
+	// はやってるのかな?
 
 DewfordTown_Hall_Text_CollectTrendMerchandise: @ 81FDAC4
-	.string "난\n"
-	.string "“{STR_VAR_1}”{K_I}랑\l"
-	.string "관련된 굿즈를 많이 모으고 있어!\p"
+	.string "난 “{STR_VAR_1}”의\n"
+	.string "굿즈를 많이 모으고 있어!\p"
 	.string "“{STR_VAR_1}” 인형\n"
 	.string "이라든가\p"
 	.string "“{STR_VAR_1}” 옷\p"
 	.string "“{STR_VAR_1}” 그림책도\n"
 	.string "가지고 있어\p"
 	.string "부럽지-!\n"
-	.string "아무리 탐낸다 해도 안 줄 거야-$"
+	.string "탐낸다 해도 안 줄 거야-$"
+	// ぼくは 「§い」のｎ
+	// グッズを いっぱい あつめて いるんだ!ｐ
+	// 「§い」にんぎょうｎ
+	// とかｐ
+	// 「§い」ようふくｐ
+	// 「§い」の えほんｎ
+	// なんかも もってるよｐ
+	// いいだろ-!ｎ
+	// ほしくても あげないよ-
 
 DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 	.string "“좋은 ‘{STR_VAR_1}'{K_WAGWA}\n"
 	.string " 나쁜 ‘{STR_VAR_1}'”\p"
 	.string "“‘{STR_VAR_1}'{K_WAGWA}\n"
-	.string " 포켓몬과의 관계”\p"
+	.string " 포켓몬의 관계”\p"
 	.string "“도움이 되는\n"
 	.string " ‘{STR_VAR_1}'”\p"
 	.string "“{STR_VAR_1}”에 대한\n"
 	.string "책이 줄줄이 나열되어 있다!$"
+	// 『よい「§い」とｎ
+	//  わるい「§い」』ｐ
+	// 『「§い」とｎ
+	//  ポケモンの かんけい』ｐ
+	// 『やくにたつｎ
+	//  「§い」』ｐ
+	// 「§い」にｎ
+	// ついての ほんが ずらっと ならんでいる!
 
 DewfordTown_Hall_Text_TrendsScream: @ 81FDC05
 	.string "“‘{STR_VAR_1}'의\n"
 	.string " 외침”\p"
 	.string "이라는 제목이다!$"
+	// 『「§い」のｎ
+	//  さけび』ｐ
+	// という だいめい だ!
 
 DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
 	.string "“‘{STR_VAR_1}'의\n"
 	.string " 미소”\p"
 	.string "라는 제목이다!$"
+	// 『「§い」のｎ
+	//  ほほえみ』ｐ
+	// という だいめい だ!
 
 DewfordTown_Hall_Text_LastTrend: @ 81FDC3C
 	.string "“‘{STR_VAR_1}'의\n"
 	.string " 최후”\p"
 	.string "라는 제목이다!$"
+	// 『さいごのｎ
+	//  「§い」』ｐ
+	// という だいめい だ!
 
 DewfordTown_Hall_Text_BirthOfTrend: @ 81FDC57
 	.string "“‘{STR_VAR_1}'의\n"
 	.string " 탄생”\p"
 	.string "이라는 제목이다!$"
+	// 『「§い」のｎ
+	//  たんじょう』ｐ
+	// という だいめい だ!
 
 DewfordTown_Hall_Text_SawTrendCoolestThing: @ 81FDC76
-	.string "나 요즘 유행하고 있는\p"
+	.string "나 최근 유행하고 있는\p"
 	.string "“{STR_VAR_1}”{K_EULREUL}\n"
-	.string "직접 보고 왔어 부럽지!\p"
+	.string "봤어 부럽지!\p"
 	.string "정말 굉장했어\n"
 	.string "진짜는 역시 다르구나!$"
+	// ぼく さいきん はやりのｐ
+	// 「§い」をｎ
+	// みたんだ いいだろ!ｐ
+	// すごかったよｎ
+	// ほんもの だぜ!
 
 DewfordTown_Hall_Text_AllegedTrendNotAuthentic: @ 81FDCE2
 	.string "아니 네가 본\n"
 	.string "“{STR_VAR_1}”{K_EUNNEUN}\l"
-	.string "진짜 “{STR_VAR_1}”{K_IGA} 아니야!\p"
+	.string "진짜가 아니야!\p"
 	.string "진짜는 좀 더\n"
 	.string "정밀하다고 해야 하나\l"
 	.string "아름답다고 해야 하나...\p"
 	.string "뭐 어쨌든\n"
-	.string "훨씬 엄청나!$"
+	.string "훨씬 엄청나다고!$"
+	// いや きみの みたｎ
+	// 「§い」はｌ
+	// ほんもの じゃないね!ｐ
+	// ほんものは もっとｎ
+	// キレが あるというかｌ
+	// うつくしい というか……ｐ
+	// まあ とにかくｎ
+	// もっと すごいんだよ!
 
 DewfordTown_Hall_Text_ComposedTrendThemeSong: @ 81FDD95
-	.string "나 요즘 유행하고 있는\n"
+	.string "나 최근 유행하고 있는\n"
 	.string "“{STR_VAR_1}”의\l"
 	.string "테마송을 생각해 봤는데\l"
 	.string "한번 들어봐!\p"
 	.string "...\p"
-	.string "오예-!\n"
+	.string "오-!\n"
 	.string "{STR_VAR_1}-!\p"
 	.string "너무 멋져\n"
 	.string "{STR_VAR_1}--!!$"
+	// ぼく さいきん はやってるｎ
+	// 「§い」のｌ
+	// テ-マ きょくを かんがえたんだｌ
+	// きいてくれよ!ｐ
+	// ……ｐ
+	// お-!ｎ
+	// §い -!ｐ
+	// すばらしいｎ
+	// §い --!!
 
 DewfordTown_Hall_Text_WorkOnYourSinging: @ 81FDE0E
 	.string "...\p"
 	.string "넌\n"
-	.string "“{STR_VAR_1}”보다\l"
-	.string "노래 공부를 먼저 해야 할 것 같아$"
+	.string "“{STR_VAR_1}”보다\p"
+	.string "노래 공부를\n"
+	.string "해야 할 것 같아$"
+	// ……ｐ
+	// きみはｎ
+	// 「§い」 よりもｐ
+	// うたの べんきょうをｎ
+	// したほうが いいね
 
 DewfordTown_Hall_Text_OrganizeTrendParty: @ 81FDE77
 	.string "아까 얘기하면서\n"
 	.string "순간 떠올랐는데\p"
-	.string "이번에 이 섬에서\n"
+	.string "다음에 이 섬에서\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "파티 열자!$"
+	.string "파티를 열자!$"
+	// さっきの はなしｎ
+	// なんだけどさｐ
+	// こんど この しまでｎ
+	// 「§い」ｌ
+	// パ-ティ-を ひらこうぜ!
 
 DewfordTown_Hall_Text_BrilliantIndeed: @ 81FDED8
-	.string "오 그거 좋은데!!\p"
+	.string "오 좋은데!!\p"
 	.string "누가 제일\n"
 	.string "“{STR_VAR_1}”{K_EULREUL}\l"
 	.string "잘하는지 정하는 거지!\p"
-	.string "좋아 그럼 오늘부터 매일\n"
-	.string "“{STR_VAR_1}”\l"
-	.string "삼매경이야!$"
+	.string "좋아 그럼 오늘부터\p"
+	.string "“{STR_VAR_1}”\n"
+	.string "삼매경이다!$"
+	// お いいね!!ｐ
+	// だれが いちばんｎ
+	// 「§い」がｌ
+	// うまいかを きめるんだね!ｐ
+	// じゃあ きょうからｐ
+	// 「§い」ｎ
+	// ざんまいだ!
 
 DewfordTown_Hall_Text_TrendHasBecomePartOfLife: @ 81FDF72
 	.string "...그래\p"
@@ -422,6 +523,11 @@ DewfordTown_Hall_Text_TrendHasBecomePartOfLife: @ 81FDF72
 	.string "유행이라기보단\p"
 	.string "생활의 일부가\n"
 	.string "된 거 같다고 해야 할까?$"
+	// ……そうだなぁｐ
+	// 「§い」は もうｎ
+	// りゅうこう じゃなくてｐ
+	// せいかつの いちぶｎ
+	// という かんじかなぁ?
 
 DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind: @ 81FDFF1
 	.string "응?\n"
@@ -429,33 +535,57 @@ DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind: @ 81FDFF1
 	.string "뭐 넌 매일같이\n"
 	.string "“{STR_VAR_1}”만\l"
 	.string "생각하고 있으니까\p"
-	.string "이미 넌\n"
-	.string "“{STR_VAR_1} 박사”나\l"
-	.string "다름없어 정말이지$"
+	.string "“{STR_VAR_1} 박사”나\n"
+	.string "다름없단 말이지 나 참$"
+	// え?ｎ
+	// そんなに!?ｐ
+	// きみは ねても さめてもｎ
+	// 「§い」 のことｌ
+	// ばっかり かんがえてる からなｐ
+	// 「§い はかせ」ｎ
+	// だね まったく
 
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible: @ 81FE09A
 	.string "나랑 네가\n"
 	.string "콤비를 짜면\p"
 	.string "“{STR_VAR_1}”에서는\n"
 	.string "완전 무적일 거야!$"
+	// ぼくと きみがｎ
+	// コンビを くめばｐ
+	// 『§い』ではｎ
+	// もう むてきって ことだな!
 
 DewfordTown_Hall_Text_WellBeTrendDuo: @ 81FE0F2
 	.string "그야 그렇지!\p"
 	.string "“{STR_VAR_1}” 콤비\n"
 	.string "라고 부르면 되려나!\p"
 	.string "하하하!$"
+	// そのとおり!ｐ
+	// 「§い コンビ」ｎ
+	// っていう かんじだね!ｐ
+	// ハハハ!!
 
 DewfordTown_Hall_Text_GiveYouSludgeBomb: @ 81FE142
 	.string "요즘 나한테는\n"
 	.string "“오물폭탄”이 대세야!\p"
-	.string "으응? 너 설마\n"
+	.string "앗- 너\n"
 	.string "“오물폭탄” 몰라?\p"
-	.string "에고 불쌍해라\n"
+	.string "그건 불쌍한데\n"
 	.string "좋아! 그럼 내가 줄게!$"
+	// さいきん ぼくの なかではｎ
+	// 「ヘドロばくだん」が だいブ-ム なのさ!ｐ
+	// え- きみｎ
+	// 「ヘドロばくだん」 しらないの?ｐ
+	// それは かわいそうだなｎ
+	// よし! ぼくが あげるよ!
 
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo: @ 81FE1ED
 	.string "“오물폭탄”도 좋지만\n"
 	.string "“{STR_VAR_1}”{K_I}라는\l"
 	.string "기술을 쓸 수 있는\l"
 	.string "포켓몬도 좋지!$"
+	// 「ヘドロばくだん」も いいけどｎ
+	// 「§い」ってｌ
+	// わざを つかえるｌ
+	// ポケモンも いいよね!
 

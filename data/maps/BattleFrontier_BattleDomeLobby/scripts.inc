@@ -487,7 +487,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 	.string "시합에서는 3마리의 지닌 포켓몬에서\n"
 	.string "1마리를 대기시키고\l"
 	.string "2마리로 대전을 진행합니다\p"
-	.string "내보낸 포켓몬은 대전 상대의\n"
+	.string "내보낼 포켓몬은 대전 상대의\n"
 	.string "포켓몬을 잘 보고 선택해 주세요\p"
 	.string "토너먼트를 4회 연속으로 이기면\n"
 	.string "훌륭히 우승하게 됩니다\p"
@@ -520,8 +520,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
 	.string "배틀돔에 입장하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// バトルド-ムへ ごあんないする まえにｎ
 	// レポ-トを かきますが よろしいですか?
 
@@ -540,7 +539,7 @@ BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
 	// 3ひき おえらび ください
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "손님!!\p"
+	.string "손님!\p"
 	.string "참가할 수 있는 포켓몬이\n"
 	.string "3마리는 필요합니다!\p"
 	.string "또한 지니게 할 도구도\n"
@@ -615,6 +614,8 @@ BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
+	// §あはｎ
+	// §いを もらった!
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
@@ -627,6 +628,7 @@ BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
 	.string "수고하셨습니다!$"
+	// おつかれさまでした!
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
 	.string "성적을 리포트에 작성하므로\n"
@@ -651,10 +653,17 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
 	.string "이쪽에서는\n"
 	.string "더블 배틀토너먼트의\l"
 	.string "안내를 하고 있습니다$"
+	// トレ-ナ-の せんりゃくを ためす ばしょ!ｎ
+	// バトルド-ムへ ようこそ!ｐ
+	// こちらではｎ
+	// ダブル バトルト-ナメントのｌ
+	// ごあんないを しております
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 	.string "더블 배틀토너먼트에\n"
 	.string "도전하겠습니까?$"
+	// ダブル バトルト-ナメントにｎ
+	// ちょうせん しますか?
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "더블 배틀토너먼트는\n"
@@ -666,7 +675,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "1마리를 대기시키고\l"
 	.string "2마리로 더블배틀\l"
 	.string "대전을 진행합니다\p"
-	.string "내보낸 포켓몬은 대전 상대의\n"
+	.string "내보낼 포켓몬은 대전 상대의\n"
 	.string "포켓몬을 잘 보고 선택해 주세요\p"
 	.string "토너먼트를 4회 연속으로 이기면\n"
 	.string "훌륭히 우승하게 됩니다\p"
@@ -707,20 +716,26 @@ BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
 	.string "지난번에 치뤄진 레벨 50\n"
 	.string "더블 배틀토너먼트의 결과다!$"
+	// ぜんかい おこなわれた レベル50ｎ
+	// ダブル バトルト-ナメントの けっかだ!
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
 	.string "지난번에 치뤄진 오픈 레벨\n"
 	.string "싱글 배틀토너먼트의 결과다!$"
+	// ぜんかい おこなわれた オ-プンレベルｎ
+	// シングル バトルト-ナメントの けっかだ!
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
 	.string "지난번에 치뤄진 오픈 레벨\n"
 	.string "더블 배틀토너먼트의 결과다!$"
+	// ぜんかい おこなわれた オ-プンレベルｎ
+	// ダブル バトルト-ナメントの けっかだ!
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
 	.string "너 봤어?\n"
 	.string "지난번 배틀토너먼트!\p"
 	.string "우승한\n"
-	.string "{STR_VAR_1}{K_EUNNEUN} 정말 강했어\p"
+	.string "{STR_VAR_1}{K_EUNNEUN} 정말 강했지\p"
 	.string "PC 옆에 있는 모니터로\n"
 	.string "결과를 보고 오도록 해$"
 	// きみは みた?ｎ
@@ -739,10 +754,14 @@ BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
 	.string "여기는 배틀돔\n"
 	.string "노려라 무적의 슈퍼스타!$"
+	// ここは バトルド-ムｎ
+	// めざせ むてきの ス-パ-スタ-!
 
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
 	.string "여기는 ??????\n"
 	.string "지금은 건설 중!$"
+	// ここは ??????ｎ
+	// ただいま けんせつちゅう!
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
 	.string "배틀돔에서 연패를 계속하게 되면\n"
@@ -833,7 +852,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 	.string "“트레이너가 지니고 있는\n"
 	.string "  포켓몬의 정보”\p"
 	.string "“트레이너의 배틀 방식”\p"
-	.string "...등의 정보가 적혀 있으므로\l"
+	.string "...등의 정보가 적혀 있으므로\n"
 	.string "제대로 보도록 합시다$"
 	// ト-ナメントひょうはｎ
 	// しあいまえの ひかえしつでｌ

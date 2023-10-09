@@ -44,7 +44,7 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon: @ 8267944
 	.string "쓰는 사람이 있었어!\p"
 	.string "트레이너스쿨에서도\n"
 	.string "알려준 적이 없었는데\l"
-	.string "어디서 잡는 걸까나!$"
+	.string "어디서 잡은 걸까!$"
 	// みたこともない ポケモンをｎ
 	// つかってる ひとが いた!ｐ
 	// トレ-ナ-ズスク-ルでもｎ

@@ -958,15 +958,15 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit: @ 824C96B
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
-	.string "{PLAYER}의\n"
+	.string "{PLAYER}님의\n"
 	.string "입장입니다!$"
 	// {PLAYER}さんのｎ
 	// にゅうじょう です!$
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
 	.string "{STR_VAR_1}전!\p"
-	.string "{PLAYER} VS\n"
-	.string "{STR_VAR_2}\p"
+	.string "{PLAYER}님 VS\n"
+	.string "{STR_VAR_2}님\p"
 	.string "지금부터 시작하겠습니다!$"
 	// {STR_VAR_1}せん!ｐ
 	// {PLAYER}さん VSｎ
@@ -974,20 +974,20 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
 	// ただいま より はじめます!
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-	.string "{PLAYER}의 승리입니다!\n"
+	.string "{PLAYER}님의 승리입니다!\n"
 	.string "축하드립니다!$"
 	// {PLAYER}さんの かちですｎ
 	// おめでとう ございます!
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
-	.string "{STR_VAR_2}의 승리입니다!\n"
+	.string "{STR_VAR_2}님의 승리입니다!\n"
 	.string "축하드립니다!$"
 	// {STR_VAR_2}さんの かちですｎ
 	// おめでとう ございます!
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
 	.string "배틀토너먼트 레벨 50\n"
-	.string "우승자는 {PLAYER}입니다!\l"
+	.string "우승자는 {PLAYER}님입니다!\l"
 	.string "축하드립니다!$"
 	// バトルト-ナメント レベル50ｎ
 	// ゆうしょうは {PLAYER}さん です!ｌ
@@ -995,7 +995,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
 	.string "배틀토너먼트 오픈 레벨\n"
-	.string "우승자는 {PLAYER}입니다!\l"
+	.string "우승자는 {PLAYER}님입니다!\l"
 	.string "축하드립니다!$"
 	// バトルト-ナメント オ-プンレベルｎ
 	// ゆうしょうは {PLAYER}さん です!ｌ
@@ -1018,7 +1018,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
 	.string "판정 결과가 나왔습니다!\p"
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"
-	.string "{STR_VAR_1}입니다!\l"
+	.string "{STR_VAR_1}님입니다!\l"
 	.string "축하드립니다!$"
 	// しんぱんいん よりｎ
 	// はんていの けっかが でました!ｐ
@@ -1032,7 +1032,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
 	.string "판정 결과가 나왔습니다!\p"
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"
-	.string "{PLAYER}입니다!\l"
+	.string "{PLAYER}님입니다!\l"
 	.string "축하드립니다!$"
 	// しんぱんいん よりｎ
 	// はんていの けっかが でました!ｐ
@@ -1126,13 +1126,14 @@ BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
 	.string "돌아왔습니다!\n"
+	.string "전 챔피언!\p"
 	.string "$"
 	// かえってきました!ｎ
 	// もと チャンピオン!ｐ
 	// 
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-	.string "그 강함이 돌아왔다!\p"
+	.string "그 강함이 돌아왔습니다!\p"
 	.string "$"
 	// あの つよさが もどってきました!ｐ
 	// 
@@ -1158,12 +1159,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 	//
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "그리고... {PLAYER}의\n"
+	.string "그리고... {PLAYER}님의\n"
 	.string "기록을 막아설 트레이너는...\p"
-	.string "그렇다... 그 이름은!!\n"
-	.string "배틀돔의 위원이기도 한!!\l"
+	.string "그렇습니다... 그 이름은!!\n"
+	.string "배틀돔의 위원장이기도 한!!\l"
 	.string "우리들의 돔슈퍼스타!!\l"
-	.string "하인즈다아------!$"
+	.string "하인즈입니다아------!$"
 	// そして…… {PLAYER}さんのｎ
 	// きろくを はばむ トレ-ナ-は……ｐ
 	// そう…… そのなは!!ｎ
@@ -1179,13 +1180,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "하인즈: 아하하!!\p"
-	.string "들려? 이 커다란 함성!\n"
+	.string "들려? 이 커다란 함성이!\n"
 	.string "우리들의 시합을 눈앞에 두고\l"
 	.string "모두 들떠 있는 거야!!\p"
 	.string "아하하!!\p"
-	.string "너는 나와 싸울 생각에\n"
+	.string "너는 나와 배틀할 생각에\n"
 	.string "흥분하고 긴장해서\l"
-	.string "바르르 떨고 있구나!!\p"
+	.string "부들부들 떨고 있구나!!\p"
 	.string "하지만 괜찮아!!\p"
 	.string "배틀돔의 일등성!!\n"
 	.string "돔슈퍼스타 하인즈의 반짝임으로\l"
@@ -1204,13 +1205,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	// きみを てらして あげる からっ!!
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
-	.string "네 전략! 한번 보여줘!$"
+	.string "네 전략! 내게 보여줘!$"
 	// キミの せんりゃく! みせて ごらんっ!
 
 BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
-	.string "이럴 수가------! \n"
+	.string "이럴 수가------! 이럴 수가------앗!\n"
 	.string "배틀에서 이긴 사람은\l"
-	.string "{PLAYER}{K_I}다아---!$"
+	.string "{PLAYER}입니다아---!$"
 	// なんと---! なんと---っ!ｎ
 	// たたかいに かったのはｌ
 	// {PLAYER}さんだぁ---!
@@ -1225,7 +1226,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
 	.string "하인즈: 규칙은 규칙이니까!\n"
-	.string "네 프런티어패스를 빌려줘!$"
+	.string "네 프런티어패스를 빌려줘!!$"
 	// ヒ-ス『きまり だからねっ!ｎ
 	// キミの フロンティアパスを かしてっ!!
 
@@ -1252,10 +1253,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "... 그리고 여러부----운!!\p"
 	.string "드디어! 드디어 그 트레이너가\n"
-	.string "돌아왔다---!\p"
-	.string "그렇다... 그 트레이너의 이름은---\n"
-	.string "우리들의 돔슈퍼스타----!!\l"
-	.string "하인즈다아------!$"
+	.string "돌아왔습니다---!\p"
+	.string "그렇습니다... 그 트레이너의 이름은---\n"
+	.string "우리들의 돔슈퍼스타---!!\l"
+	.string "하인즈입니다아------!$"
 	// …… そして みなさ----ん!!ｐ
 	// ついに! ついに あのトレ-ナ-がｎ
 	// かえって きたぞ---!ｐ
@@ -1272,7 +1273,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "흘러 사라질 일은 없어...\p"
 	.string "더욱더 빛나고! 더욱더 반짝여서!\n"
 	.string "이곳에 찾아오는 모든 사람들을\l"
-	.string "비추지 않으면 안된다!!$"
+	.string "비추지 않으면 안 돼!!$"
 	// ヒ-ス『われるような かんせい……ｎ
 	// むせかえる ような ねっき……ｌ
 	// やっぱり ここは すばらしいよ……ｐ
@@ -1293,7 +1294,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
 	.string "하인즈: 정-말로 멋지군! 너는!!\p"
 	.string "모든 걸 쏟아부은 내가\n"
 	.string "이길 수 없다니 처음이야!!\p"
-	.string "자아! 네 프런티어패스를!!$"
+	.string "자아! 네 프런티어패스를 줘!!$"
 	// ヒ-ス『ほ-んと ステキっ! キミはっ!!ｐ
 	// すべてを だしきった わたしがｎ
 	// かなわない なんて はじめてっ!!ｐ
@@ -1307,7 +1308,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 	.string "강하고! 무엇보다도 귀여워 너!!\n"
-	.string "너에게는 나 같은\n"
+	.string "너에게서 나 같은\n"
 	.string "슈퍼스타가 될 수 있는\l"
 	.string "가능성을 느낄 수 있어!\l"
 	.string "다시 만날 때를 기대할게!!$"
@@ -1319,7 +1320,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
 	.string "배틀토너먼트 레벨 50\n"
-	.string "우승은 {PLAYER}!\p"
+	.string "우승은 {PLAYER}님!\p"
 	.string "축하드립니다!!$"
 	// バトルト-ナメント レベル50ｎ
 	// ゆうしょうは {PLAYER}さんっ!ｐ
@@ -1327,7 +1328,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
 	.string "배틀토너먼트 오픈 레벨\n"
-	.string "우승은 {PLAYER}!\p"
+	.string "우승은 {PLAYER}님!\p"
 	.string "축하드립니다!!$"
 	// バトルト-ナメント オ-プンレベルｎ
 	// ゆうしょうは {PLAYER}さんっ!ｐ
@@ -1335,7 +1336,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	.string "결승전!\p"
-	.string "{PLAYER} VS\n"
+	.string "{PLAYER}님 VS\n"
 	.string "돔슈퍼스타 하인즈\p"
 	.string "지금부터 시작하겠습니다!$"
 	// けっしょうせん!ｐ
@@ -1349,7 +1350,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 	.string "승자는\n"
 	.string "바로! 바로! 바로!\l"
 	.string "우리들의 슈퍼스타! 하인즈입니다!\p"
-	.string "축하해! 그리고 고마워!!\n"
+	.string "축하합니다! 그리고 고맙습니다!!\n"
 	.string "우리들의 돔슈퍼스타 하인즈!!$"
 	// しんぱんいん よりｎ
 	// はんていの けっかが でました!ｐ

@@ -111,7 +111,7 @@ CaveOfOrigin_B1F_Text_WhereIsRayquaza: @ 8235ACE
 	.string "윤진: {PLAYER} 혹시\n"
 	.string "너는 레쿠쟈가 어디에 있는지\l"
 	.string "알고 있니?\p"
-	.string "괜찮다면 알려주지 않겠어...$"
+	.string "괜찮다면 알려주지 않겠어...?$"
 	// ミクリ『{PLAYER}{KUN}ひょっとしてｎ
 	// きみは レックウザが どこに いるかｌ
 	// しっているのかい?ｐ
@@ -122,7 +122,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin: @ 8235B23
 	.string "이라니 그건 바로 이곳이잖아\n"
 	.string "부탁이야 제대로 해줘!\p"
 	.string "레쿠쟈가 어디에 있는지\n"
-	.string "다시 한 번 생각해줘...$"
+	.string "다시 한 번 생각해봐...$"
 	// ミクリ『めざめのほこらか……ｐ
 	// って それは ここのこと じゃないかｎ
 	// たのむよ しっかり してくれ!ｐ
@@ -133,8 +133,8 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat: @ 8235BBF
 	.string "윤진: 송화산인가...\p"
 	.string "하지만 이전에 할머니께\n"
 	.string "갔을 때는 아무 말도 안 하셨어\p"
-	.string "그분이 내게 거짓말을 하셨다고\n"
-	.string "생각할 수도 없고...\p"
+	.string "그분이 내게\n"
+	.string "거짓말을 하셨을 리는 없고...\p"
 	.string "{PLAYER} 다시 한 번\n"
 	.string "잘 생각해줘...$"
 	// ミクリ『おくりびやまか……ｐ

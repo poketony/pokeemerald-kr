@@ -89,3 +89,5 @@ BattleFrontier_BattleArenaCorridor_Movement_AttendantMoveOutOfWay:
 BattleFrontier_BattleArenaCorridor_Text_PleaseStepIn:
 	.string "이 앞이 대전의 방입니다!\n"
 	.string "부디 안으로 들어가 주십시오!$"
+	// このさきが たいせんの へやと なりますぞ!ｎ
+	// どうぞ おはいり くだされ!

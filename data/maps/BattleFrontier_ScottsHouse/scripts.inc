@@ -231,7 +231,7 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest:: @ 8263A34
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier: @ 8263A3F
 	.string "금작화: 아아 어서 와\n"
 	.string "헤헤... 좁은 곳이라서 미안해\p"
-	.string "그럼 다시 한 번 {PLAYER}\n"
+	.string "그럼 다시 한 번 {PLAYER}{K_AYA}\n"
 	.string "잘 왔어 배틀프런티어에!\p"
 	.string "여기는 내 꿈의 결정체!\n"
 	.string "몇 년씩이나 걸렸지만 겨우\l"
@@ -257,9 +257,9 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal: @ 8263B29
 	// どりょくと じかんが ひつようだったか……
 
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing: @ 8263BD4
-	.string "아니 이런 옛날 이야기로는\n"
-	.string "진행이 안 되지!\p"
-	.string "어쨌든 마음껏\n"
+	.string "아니 이런 옛날 이야기를\n"
+	.string "하고 있을 때가 아닌데 말이지!\p"
+	.string "어쨌든 마음 가는 대로\n"
 	.string "포켓몬 승부를 즐겨줘!\p"
 	.string "이건 나와 {PLAYER}{K_IGA}\n"
 	.string "여행하면서 몇 번이고 만났던\l"
@@ -342,11 +342,11 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain: @ 8263F12
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier: @ 8263FFE
 	.string "금작화: 너는 분명\n"
-	.string "승부만이 아니라\l"
+	.string "승부에서 그치지 않고\l"
 	.string "포켓몬 도감도 모으고 있었지!\p"
 	.string "어쩌면 배틀프런티어에도\n"
 	.string "포켓몬과 만날 수 있는 장소가\l"
-	.string "있을지도 모르지? 우후후...$"
+	.string "있을지도 모르겠다? 우후후...$"
 	// エニシダ『きみは たしかｎ
 	// しょうぶ だけでは なくてｌ
 	// ポケモンずかんも つくって いたね!ｐ
@@ -355,15 +355,15 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier: @ 8263FFE
 	// あるかも しれないよ? うふふ……
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols: @ 82640BC
-	.string "금작화: 배틀프런티어는\n"
-	.string "즐기고 있어?\p"
+	.string "금작화: 배틀프런티어를\n"
+	.string "잘 즐기고 있어?\p"
 	.string "...잠깐 오옷!\p"
 	.string "네 프런티어패스!\n"
 	.string "은심볼이 모두\l"
 	.string "모여 있잖아!\p"
 	.string "굉장하구나 너는 생각대로\n"
 	.string "강한 트레이너였어!\p"
-	.string "보통 이런 일은 안하지만\n"
+	.string "보통 이런 짓은 안하지만\n"
 	.string "부디 기념으로 이걸 받아줘!\l"
 	.string "너라면 잘 쓸 수 있을 거야...!$"
 	// エニシダ『バトルフロンティアをｎ
@@ -379,8 +379,8 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols: @ 82640BC
 	// きみなら つかいこなせる はずだよ……!
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols: @ 8264216
-	.string "금작화: 배틀프런티어는\n"
-	.string "즐기고 있어?\p"
+	.string "금작화: 배틀프런티어를\n"
+	.string "잘 즐기고 있어?\p"
 	.string "...잠깐 우와아아앗!\p"
 	.string "네 프런티어패스!\n"
 	.string "금심볼이 모두\l"
@@ -410,8 +410,8 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols: @ 8264216
 
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere: @ 8264373
 	.string "이야- 내가 생각해도\n"
-	.string "난 트레이너를 보는 눈이 있나 봐\l"
-	.string "너를 데리고 와서 정말 다행이야!\l"
+	.string "난 트레이너를 보는 눈이 있나 봐-\l"
+	.string "널 초대하길 정말 잘했어!\l"
 	.string "하하하$"
 	// いや- われながらｎ
 	// トレ-ナ-を みるめが さえてるな-ｌ
@@ -426,7 +426,7 @@ BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow: @ 8264412
 	.string "금작화: 오옷 들었어!\n"
 	.string "배틀타워에서 활약했다며!\l"
 	.string "50연승을 달성한 거지?\p"
-	.string "굉장하구만 기념으로\n"
+	.string "굉장한걸 기념으로\n"
 	.string "이걸 받아줘!$"
 	// エニシダ『おっ きいたよ!ｎ
 	// バトルタワ-での かつやく!ｌ

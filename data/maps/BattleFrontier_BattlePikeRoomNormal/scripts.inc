@@ -816,7 +816,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer: @ 825DDFE
 	// トレ-ナ-と たたかって いただきます……
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth: @ 825DE3F
-	.string "대단하군요...\p"
+	.string "...대단하군요...\p"
 	.string "손님의 승리를 기리며\n"
 	.string "포켓몬을 회복시켜 드리겠습니다...$"
 	// ……すばらしい……ｐ
@@ -832,10 +832,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2: @ 825DE94
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen: @ 825DED2
 	.string "나는 다슬...\n"
 	.string "이곳의 주인... 튜브퀸...\p"
-	.string "...뭐 알겠지만\n"
+	.string "... 뭐 알겠지만\n"
 	.string "나를 쓰러뜨리지 않으면\l"
 	.string "이 앞으로 갈 수 없어...\p"
-	.string "...수다 떨기 싫으니까\n"
+	.string "... 수다 떨기 싫으니까\n"
 	.string "빨리 덤벼...$"
 	// あたしは アザミ……ｎ
 	// ここの あるじ…… チュ-ブクイ-ン……ｐ
@@ -846,14 +846,14 @@ BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen: @ 825DED2
 	// さっさと かかっといで……
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck: @ 825DF71
-	.string "네 운…\n"
+	.string "네 운...\n"
 	.string "여기서 끝나지 않으면 좋겠지만...$"
 	// あんたの うん……ｎ
 	// ここで つきなきゃ いい けどね……
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass: @ 825DFA2
 	.string "다슬: ...... ...... ......\n"
-	.string "프런티어패스 줘 봐...$"
+	.string "프런티어패스 줘봐...$"
 	// アザミ『…… …… …… ……ｎ
 	// フロンティアパス よこしな……
 
@@ -868,10 +868,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear: @ 825E003
 	// …… ほら…… さっさと きえな………
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain: @ 825E02C
-	.string "다슬: ...또 너냐...\p"
+	.string "다슬: ... 또 너냐...\p"
 	.string "...... ...... ...... ......\p"
-	.string "...... ...산전수전 다 겪은\n"
-	.string "지금의 나... ......\p"
+	.string "...... ...... 산전수전 다 겪고\n"
+	.string "살아온 지금의 나... ......\p"
 	.string "그래그래 같은 상대에게\n"
 	.string "져 줄 필요는 없지...\l"
 	.string "...... ...... ...... ...... 좋아...\l"
@@ -964,7 +964,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster: @ 825E311
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons: @ 825E32E
 	.string "오오 넌 운이 좋구나!\p"
-	.string "지금 나는 기분이 좋으니!\n"
+	.string "지금 나는 기분이 좋거든!\n"
 	.string "네 포켓몬을 2마리\l"
 	.string "회복시켜 주겠다!!$"
 	// おお きみは ツイてるぞ!ｐ

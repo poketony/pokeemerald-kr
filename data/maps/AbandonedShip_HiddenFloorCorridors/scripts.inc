@@ -138,22 +138,33 @@ AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen::
 AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked:
 	.string "문이 잠겨 있다\p"
 	.string "문에는 1호실이라고 쓰여 있다$"
+	// カギが かかっているｐ
+	// とびらには 1ごうしつと かかれている
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked:
 	.string "문이 잠겨 있다\p"
 	.string "문에는 2호실이라고 쓰여 있다$"
+	// カギが かかっているｐ
+	// とびらには 2ごうしつと かかれている
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked:
 	.string "문이 잠겨 있다\p"
 	.string "문에는 4호실이라고 쓰여 있다$"
+	// カギが かかっているｐ
+	// とびらには 4ごうしつと かかれている
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
 	.string "문이 잠겨 있다\p"
 	.string "문에는 6호실이라고 쓰여 있다$"
+	// カギが かかっているｐ
+	// とびらには 6ごうしつと かかれている
 
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "열쇠를 썼다!\p"
-	.string "열쇠 구멍에 꽂은 열쇠는\n"
-	.string "빠지지 않게 되었지만\l"
+	.string "꽂은 열쇠는 빠지지 않게 되었지만\n"
 	.string "문은 열렸다!$"
+	// §あはｎ
+	// カギを つかった!ｐ
+	// さしこんだ カギは ぬけなくなったがｎ
+	// とびらは ひらいた!

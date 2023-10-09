@@ -658,8 +658,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50: @ 82513C1
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge: @ 82514E6
 	.string "배틀피라미드에 들어가기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// バトルピラミッドへ はいる まえにｎ
 	// レポ-トを かきますが よろしいですかな?
 
@@ -698,7 +697,7 @@ BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel: @ 8251647
 	.string "피라미드의 위층으로\l"
 	.string "나아갈 수 있습니다!\p"
 	.string "무사히 모험을 할 수 있기를\n"
-	.string "바라겠습니다!$"
+	.string "빌고 있겠습니다!$"
 	// こちらにある ゆかを ふんで いただくとｎ
 	// ピラミッドの うえの だんへとｌ
 	// すすむことが できますぞ!ｐ
@@ -874,7 +873,7 @@ BattleFrontier_BattlePyramidLobby_Text_Aah: @ 8251C8A
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis: @ 8251CB3
 	.string "전기가 튀고 있는 게 보입니다...\p"
 	.string "...그리고\n"
-	.string "마비로 생각대로 움직일 수 없는\l"
+	.string "마비 때문에 생각대로 움직일 수 없는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// でんきが とびちっています……ｐ
 	// ……そしてｎ
@@ -916,7 +915,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste: @ 8251D9C
 	// あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate: @ 8251E3D
-	.string "완만하게 부유하는...\n"
+	.string "천천히 부유하는\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
 	.string "땅 기술을 쓰지 못해 괴로워하는\l"
@@ -967,7 +966,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPsychic: @ 8251FC7
 	.string "에스퍼타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "에스퍼 기술로 괴로워하는\l"
+	.string "에스퍼 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// エスパ-タイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -979,7 +978,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintRock: @ 825201B
 	.string "바위타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "바위 기술로 괴로워하는\l"
+	.string "바위 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// いわタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -991,7 +990,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting: @ 8252068
 	.string "격투타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "격투 기술로 괴로워하는\l"
+	.string "격투 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// かくとうタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1019,7 +1018,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintBug: @ 8252158
 	.string "벌레타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "여러 공격으로 괴로워하는\l"
+	.string "다양한 공격으로 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// むしタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1031,7 +1030,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintDark: @ 82521B4
 	.string "악타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "악 기술로 괴로워하는\l"
+	.string "악 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// あく タイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1043,7 +1042,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintWater: @ 8252206
 	.string "물타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "물 기술로 괴로워하는\l"
+	.string "물 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// みずタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1055,7 +1054,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintGhost: @ 825225A
 	.string "고스트타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "고스트 기술로 괴로워하는\l"
+	.string "고스트 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// ゴ-ストタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1067,7 +1066,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintSteel: @ 82522AE
 	.string "강철타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "강한 기술로 괴로워하는\l"
+	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// はがねタイプのｎ
 	// ポケモンたちが みえます……ｐ
@@ -1079,7 +1078,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon: @ 825230B
 	.string "하늘을 나는\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "강한 기술로 괴로워하는\l"
+	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// そらをとぶｎ
 	// ポケモンたちが みえます……ｐ
@@ -1092,7 +1091,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve: @ 8252364
 	.string "진화한 자들이 보입니다...\p"
 	.string "...그리고\n"
 	.string "불꽃... 물... 전기...\p"
-	.string "3개의 힘으로 괴로워하는\n"
+	.string "3개의 힘에 괴로워하는\n"
 	.string "당신의 포켓몬의 모습도...$"
 	// いしの ちからによりｎ
 	// しんかした ものたちが みえます……ｐ
@@ -1105,7 +1104,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintNormal: @ 8252403
 	.string "노말타입의\n"
 	.string "포켓몬들이 보입니다...\p"
 	.string "...그리고\n"
-	.string "강한 기술로 괴로워하는\l"
+	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
 	// ノ-マルタイプのｎ
 	// ポケモンたちが みえます……ｐ

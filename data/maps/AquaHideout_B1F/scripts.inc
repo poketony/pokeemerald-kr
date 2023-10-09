@@ -116,46 +116,63 @@ AquaHideout_B1F_EventScript_Grunt7::
 AquaHideout_B1F_Text_Grunt2Intro:
 	.string "아지트의 비밀을 알고 싶다면\n"
 	.string "이 몸을 쓰려뜨려 보시지!$"
+	// アジトの ひみつを しりたけりゃｎ
+	// おれを たおす ことだな!
 
 AquaHideout_B1F_Text_Grunt2Defeat:
-	.string "절대 이길 수 없을 것 같습니다...!$"
+	.string "전혀 못 이기겠어...!$"
+	// ぜんぜん かてません……!
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
 	.string "아지트의 비밀?\p"
 	.string "그건 말이지... 가장 안쪽에\n"
 	.string "잠수정이 있다는 거야!\p"
-	.string "하지만 지금쯤...\n"
-	.string "이히히...!$"
+	.string "하지만 지금쯤 이히히히...!$"
+	// アジトの ひみつ?ｐ
+	// それはな…… いちばん おくにｎ
+	// せんすいていが あるって ことよ!ｐ
+	// だが いまごろは いひひひ……!
 
 AquaHideout_B1F_Text_Grunt3Intro:
 	.string "연료 보급 OK!\n"
 	.string "과자 보급도 OK!\p"
-	.string "남은 건\n"
-	.string "방해꾼을 처치하는 것뿐이군!$"
+	.string "남은 건 방해꾼을 처치하는 것뿐이군!$"
+	// ねんりょうの ほきゅう オッケイ!ｎ
+	// おやつも ほきゅう オッケイ!ｐ
+	// あとは ジャマものを ぶっとばす だけ!
 
 AquaHideout_B1F_Text_Grunt3Defeat:
 	.string "제대로 당했다-앗!$"
+	// こっぴどく やられた-っ!
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-	.string "흥! 이제 됐어!\p"
+	.string "흥! 이걸로 충분해\p"
 	.string "널 방해하는 게\n"
 	.string "내 임무였으니까$"
+	// ふん! これで いいんだｐ
+	// おまえの ジャマをする というのがｎ
+	// おれの にんむ だったのさ
 
 AquaHideout_B1F_Text_Grunt5Intro:
-	.string "하-앙 아지트를 지키고 있는 것도\n"
-	.string "너무 지루하니까 상대해줄게용-$"
+	.string "하-아 아지트를 지키는 것도\n"
+	.string "너무 지루하니까 상대해 줄게-$"
+	// は-あ アジトで るすばんもｎ
+	// たいくつ だから あいて してあげるわ-
 
 AquaHideout_B1F_Text_Grunt5Defeat:
-	.string "하-앙 져버렸어용-$"
+	.string "하-아 져버렸어-$"
+	// は-あ まけたわ-
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
 	.string "너무 빠르게 돌아다니면\n"
-	.string "다른 아쿠아단에게 당할지도 몰라용-$"
+	.string "다른 아쿠아단에게 당할지도 몰라-$"
+	// あんまり うろちょろ してるとｎ
+	// ほかの アクアだんに やられるかもよ-
 
 AquaHideout_B1F_Text_Grunt7Intro:
 	.string "잠깐 거기 당신!\p"
 	.string "아쿠아단과 마그마단의 유니폼\n"
-	.string "어느 쪽이 멋있다고 생각해?$"
+	.string "어느 쪽이 보기 좋다고 생각해?$"
 	// ちょっと そこの あんた!ｐ
 	// アクアだんと マグマだんの ユニフォ-ムｎ
 	// どっちが かっこいいと おもう?
@@ -165,7 +182,7 @@ AquaHideout_B1F_Text_Grunt7Defeat:
 	// かっこよく まけたわ……
 
 AquaHideout_B1F_Text_Grunt7PostBattle:
-	.string "유니폼이 멋있으면\n"
-	.string "승부에서 져도 보기 좋지 않아?$"
+	.string "유니폼이 보기 좋으면\n"
+	.string "승부에서 져도 멋지지 않아?$"
 	// ユニフォ-ムが かっこいいとｎ
 	// しょうぶに まけても えになる でしょ?

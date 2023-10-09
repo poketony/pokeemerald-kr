@@ -188,9 +188,9 @@ BattleFrontier_Lounge1_Text_PokemonBreederIntro: @ 825E95F
 	// ほれ! わしに ポケモンを みせて みいっ!
 
 BattleFrontier_Lounge1_Text_AverageAbility: @ 825EA92
-	.string "...음-\p"
+	.string "... 음-\p"
 	.string "이 포켓몬은 전체적으로\n"
-	.string "그럭저럭 능력을\l"
+	.string "그럭저럭인 능력을\l"
 	.string "가지고 있구먼...$"
 	// …… ん-ｐ
 	// こいつは ぜんたいてきに いうとｎ
@@ -198,7 +198,7 @@ BattleFrontier_Lounge1_Text_AverageAbility: @ 825EA92
 	// いう ところかの……
 
 BattleFrontier_Lounge1_Text_BetterThanAverageAbility: @ 825EAD9
-	.string "...음-\p"
+	.string "... 음-\p"
 	.string "이 포켓몬은 전체적으로\n"
 	.string "평균 이상의 능력을\l"
 	.string "가지고 있구먼...$"
@@ -208,7 +208,7 @@ BattleFrontier_Lounge1_Text_BetterThanAverageAbility: @ 825EAD9
 	// のうりょくを もっとるな……
 
 BattleFrontier_Lounge1_Text_ImpressiveAbility: @ 825EB2A
-	.string "...음-\p"
+	.string "... 음-\p"
 	.string "이 포켓몬은 전체적으로\n"
 	.string "상당히 우수한 능력을\l"
 	.string "가지고 있구먼...$"
@@ -218,7 +218,7 @@ BattleFrontier_Lounge1_Text_ImpressiveAbility: @ 825EB2A
 	// のうりょくを もっとるぞ!
 
 BattleFrontier_Lounge1_Text_OutstandingAbility: @ 825EB6F
-	.string "...음-\p"
+	.string "... 음-\p"
 	.string "이 포켓몬은 전체적으로\n"
 	.string "훌륭한 능력을\l"
 	.string "가지고 있구먼...$"
@@ -264,25 +264,25 @@ BattleFrontier_Lounge1_Text_BestAspectSpeed: @ 825ED0E
 
 BattleFrontier_Lounge1_Text_StatRelativelyGood: @ 825ED4E
 	.string "그럭저럭의 힘을 가지고 있다...\n"
-	.string "...흠 그렇게 느꼈다!$"
+	.string "...흠... 그렇게 느꼈다!$"
 	// まあまあの のうりょくを もっとるぞ……ｎ
 	// ……ふむ…… そんな かんじ かのう!
 
 BattleFrontier_Lounge1_Text_StatImpressive: @ 825ED87
 	.string "상당한 힘을 가지고 있다...\n"
-	.string "...흠 그렇게 느꼈다!$"
+	.string "...흠... 그렇게 느꼈다!$"
 	// かなりの ちからを もっとるな!ｎ
 	// ……ふむ…… そんな かんじ かのう!
 
 BattleFrontier_Lounge1_Text_StatOutstanding: @ 825EDC1
 	.string "훌륭한 힘을 가지고 있다...\n"
-	.string "...흠 그렇게 느꼈다!$"
+	.string "...흠... 그렇게 느꼈다!$"
 	// すばらしい ちからを もっとる!ｎ
 	// ……ふむ…… そんな かんじ かのう!
 
 BattleFrontier_Lounge1_Text_StatFlawless: @ 825EDF6
 	.string "최고의 힘을 가지고 있다...\n"
-	.string "...흠 그렇게 느꼈다!$"
+	.string "...흠... 그렇게 느꼈다!$"
 	// ばっちりっ! ぱ-ふぇくと じゃ!ｎ
 	// ……ふむ…… そんな かんじ かのう!
 
@@ -308,15 +308,15 @@ BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending: @ 825EEA6
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon: @ 825EEF6
 	.string "오오! 젊은이!\n"
 	.string "포켓몬의 능력이 궁금하지?\p"
-	.string "자 자!\n"
-	.string "내게 포켓몬은 보여주게나!$"
+	.string "자자!\n"
+	.string "내게 포켓몬을 보여주게나!$"
 	// おお! わかいの!ｎ
 	// ポケモンの のうりょくが きになるんか?ｐ
 	// ほれほれ!ｎ
 	// わしに ポケモンを みせて みい!
 
 BattleFrontier_Lounge1_Text_EvenICantTell: @ 825EF5E
-	.string "아무리 나라도 아직 태어나지도 않은\n"
+	.string "아무리 나라도 아직 태어나지 않은\n"
 	.string "포켓몬에 대해서는 알 수가 없네!\p"
 	.string "포켓몬을 보여주게! 포켓몬을!$"
 	// さすがの わしも まだ うまれても いないｎ
@@ -331,7 +331,7 @@ BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding: @ 825EFDD
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt: @ 825F020
 	.string "내 포켓몬이 훌륭하대!\n"
-	.string "별로 특별하게 키우진 않았는데...$"
+	.string "딱히 특별하게 키우진 않았는데...$"
 	// ぼくの ポケモン すばらしいって!ｎ
 	// べつに ふつうに そだてたん だけどな……
 

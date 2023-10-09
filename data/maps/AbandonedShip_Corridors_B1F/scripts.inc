@@ -55,34 +55,49 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 	end
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
-	.string "바다로 나갈 때\n"
-	.string "우리 선원들은\l"
-	.string "항상 포켓몬을 데리고 가지!\l"
-	.string "잠깐 승부해줘야겠어!$"
+	.string "선원은 배에 탈 때\n"
+	.string "반드시 포켓몬을 데리고 가지!\l"
+	.string "잠깐 승부해 줘야겠어!$"
+	// ふなのりは ふねに のるときｎ
+	// かならず ポケモンを もっている!ｌ
+	// ちょいと しょうぶ してくれ!
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
-	.string "이거 큰일인걸$"
+	.string "이거 곤란인걸$"
+	// こりゃ まいった
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
-	.string "배가 물속으로\n"
+	.string "뱃바닥이 물속으로\n"
 	.string "가라앉아 버렸어\p"
 	.string "포켓몬이 물속에 잠수하는 기술을\n"
-	.string "쓸 수 있다면\l"
-	.string "일이 쉬워질 텐데...$"
+	.string "쓴다면 앞으로 나아갈 수 있을 텐데...$"
+	// ふなぞこが みずの なかにｎ
+	// しずんで いるんだよｐ
+	// ポケモンが みずに もぐれる わざをｎ
+	// つかえたら さきに すすめるんだがな……
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
 	.string "와-!\n"
 	.string "배다-!$"
+	// わ-い!ｎ
+	// ふね だぞ-!
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 	.string "열쇠가 걸려 있다\p"
-	.string "문에는 “창고”라고 쓰여 있다$"
+	.string "문에는 창고라고 쓰여 있다$"
+	// カギが かかっているｐ
+	// とびらには そうこ と かかれている
 
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "창고열쇠를 사용했다!\p"
-	.string "넣은 열쇠는 뺄 수 없게 되었지만\n"
+	.string "창고열쇠를 썼다!\p"
+	.string "꽂은 열쇠는 빠지지 않게 되었지만\n"
 	.string "문은 열렸다!$"
+	// §あはｎ
+	// そうこのカギを つかった!ｐ
+	// さしこんだ カギは ぬけなくなったがｎ
+	// とびらは ひらいた!
 
 AbandonedShip_Text_TheDoorIsOpen:
-	.string "문이 열렸다!$"
+	.string "문은 열려 있다!$"
+	// とびらは あいている!

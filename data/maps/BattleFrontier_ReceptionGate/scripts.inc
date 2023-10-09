@@ -528,7 +528,7 @@ BattleFrontier_ReceptionGate_Text_Level50Info: @ 8266F69
 	.string "레벨 50의 코스에는 이름대로\n"
 	.string "레벨 50까지의 포켓몬으로\l"
 	.string "도전할 수 있습니다\p"
-	.string "다만 레벨 50보다 높은 레벨의\n"
+	.string "다만 레벨 50보다 낮은 레벨의\n"
 	.string "포켓몬을 지닌 트레이너가\l"
 	.string "등장하는 일은 없습니다\l"
 	.string "아무쪼록 주의해 주십시오\p"
@@ -554,8 +554,8 @@ BattleFrontier_ReceptionGate_Text_OpenLevelInfo: @ 8267080
 	.string "대전하는 트레이너의 포켓몬의\l"
 	.string "레벨이 바뀝니다\p"
 	.string "다만 레벨 60보다 낮은 레벨의\n"
-	.string "포켓몬을 데리고 있는 트레이너는\l"
-	.string "등장하지 않습니다$"
+	.string "포켓몬을 데리고 있는 트레이너가\l"
+	.string "등장하는 일은 없습니다$"
 	// オ-プンレベルの コ-スではｎ
 	// ちょうせんに さんかする ポケモンのｌ
 	// レベルに せいげんが ありませんｐ
@@ -576,7 +576,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo: @ 826716A
 	.string "다만 어느 시설에서도\n"
 	.string "같은 종류의 포켓몬을\l"
 	.string "2마리 이상 참가시킬 수는\l"
-	.string "없기에 주의해 주십시오$"
+	.string "없으므로 주의해 주십시오$"
 	// タマゴや いちぶの れいがいをｎ
 	// のぞいて ほとんどの ポケモンがｌ
 	// すべての しせつに ちょうせん できますｐ
@@ -592,7 +592,7 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo: @ 8267298
 	.string "배틀프런티어의 시설에\n"
 	.string "포켓몬을 참가시킬 때\p"
 	.string "각각의 포켓몬은\n"
-	.string "같은 아이템을 지닐 수 없습니다\p"
+	.string "같은 도구를 지닐 수 없습니다\p"
 	.string "참가시킬 포켓몬이\n"
 	.string "모두 다른 도구를\l"
 	.string "지니도록 해주십시오$"
@@ -638,7 +638,7 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo: @ 82674F3
 	.string "당신의 대전을 하나만\n"
 	.string "패스에 기록할 수 있습니다\p"
 	.string "친구와의 대전이나\n"
-	.string "배틀튜브 배틀팰리스 이외의\l"
+	.string "배틀튜브 배틀피라미드 이외의\l"
 	.string "배틀프런티어에서의\l"
 	.string "대전을 기록할 수 있습니다\p"
 	.string "대전이 끝났을 때\n"

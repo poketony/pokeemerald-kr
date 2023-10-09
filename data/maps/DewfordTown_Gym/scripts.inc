@@ -302,60 +302,94 @@ DewfordTown_Gym_Text_GymGuideAdvice: @ 81FC9D6
 	.string "챔피언을 노리는 {PLAYER}!!\p"
 	.string "무로마을 체육관 관장 철구는\n"
 	.string "격투타입 포켓몬을 쓴다!\p"
-	.string "노말타입으로 도전하면 정말\n"
-	.string "뼈아픈 한 방을 맞게 될 테니까\l"
+	.string "노말타입으로 도전하면\n"
+	.string "뼈아픈 일격을 맞을 테니까\l"
 	.string "조심하는 게 좋겠지!\p"
-	.string "게다가 체육관도 바다 깊은 곳처럼\n"
-	.string "어두워서 스스로 길을 찾아야 한다!\p"
-	.string "하지만 도중에 트레이너들을\n"
-	.string "쓰러뜨릴수록 체육관이\l"
-	.string "밝아지니까 괜찮을 거야!\p"
+	.string "게다가! 이 체육관 안은\n"
+	.string "바다 깊은 곳처럼 어둡다!\p"
+	.string "하지만! 트레이너를 한 명씩 쓰러뜨릴수록\n"
+	.string "점점 밝아지니까 괜찮을 거야!\p"
 	.string "그럼 힘내라고-!!$"
+	// げんき しとぉや!!ｎ
+	// チャンピオンを めざす §あ!!ｐ
+	// ムロタウン ジムの リ-ダ- トウキはｎ
+	// かくとうタイプ ポケモンの つかいてだ!ｐ
+	// ノ-マルタイプで むかうとｎ
+	// きびしぃ- いちげきを くらうからｌ
+	// きを つけたほうが いいぞ!ｐ
+	// しかも! この ジムの なかはｎ
+	// うみのそこ みたいに くらいんだ!ｐ
+	// でも! トレ-ナ-を ひとり たおすごとにｎ
+	// だんだん あかるく なって いくぞ!ｐ
+	// じゃ きばってこォ-!!
 
 DewfordTown_Gym_Text_GymGuidePostVictory: @ 81FCB5C
-	.string "오오! 꽤나 밝아졌구나!\p"
+	.string "오오! 제법 밝아졌구나!\p"
 	.string "네 미래도 밝겠지!$"
+	// うおォ! ずいぶん あかるく なったな!ｐ
+	// きみの みらいも あかるいぞ!
 
 DewfordTown_Gym_Text_TakaoIntro: @ 81FCB9F
 	.string "힘이야말로 정의다!\n"
 	.string "이야아아-압!!$"
+	// ちから こそ せいぎっ!ｎ
+	// ドリャ-ッ!!
 
 DewfordTown_Gym_Text_TakaoDefeat: @ 81FCBB8
-	.string "힘이 모자랐다...!$"
+	.string "힘이 부족했다...!$"
+	// ちからぶそく だった……!
 
 DewfordTown_Gym_Text_TakaoPostBattle: @ 81FCBCA
 	.string "부드러움이 강함을 제압한다!\n"
-	.string "아주 멋진 승부였다!$"
+	.string "훌륭한 배틀이었다!$"
+	// じゅう よく ごうを せいす!ｎ
+	// みごとな たたかいぶり だった!
 
 DewfordTown_Gym_Text_JocelynIntro: @ 81FCC0A
-	.string "철구님과 승부할 것까지도 없어!\n"
-	.string "내가 지금 여기서\p"
-	.string "쓰러뜨려 줄 테니까!$"
+	.string "철구님과 배틀할 것까지도 없어!\n"
+	.string "내가 널 쓰러뜨릴 거니까!$"
+	// トウキさまと たたかうまでも ないわ!ｎ
+	// わたしが たおして あげる!
 
 DewfordTown_Gym_Text_JocelynDefeat: @ 81FCC45
 	.string "이럴 수가...\n"
-	.string "이렇게 쉽게 당하다니...$"
+	.string "이렇게 간단히 당하다니$"
+	// まさか……ｎ
+	// こんなに かんたんに やられるなんて
 
 DewfordTown_Gym_Text_JocelynPostBattle: @ 81FCC6B
 	.string "이 패배가 헛되지 않도록\n"
 	.string "더욱 특훈하겠어!\p"
-	.string "그리고 언젠가는 체육관 관장...\p"
-	.string "아니! 포켓몬리그의\n"
+	.string "그리고 언젠가 체육관 관장이...\p"
+	.string "아니 포켓몬리그의\n"
 	.string "챔피언이 될 거야!$"
+	// この まけを むだに しないためｎ
+	// もっと とっくん する!ｐ
+	// そして いつかは ジムリ-ダ-に……ｐ
+	// いえ ポケモンリ-グのｎ
+	// チャンピオンに なるわよ!
 
 DewfordTown_Gym_Text_LauraIntro: @ 81FCD01
-	.string "날 쉽게 보지 말라고!\n"
-	.string "질질 짜게 돼도 난 몰라!$"
+	.string "날 쉽게 보지 마!\n"
+	.string "엉엉 울게 돼도 난 모른다!$"
+	// あたしを あまく みない ことね!ｎ
+	// ないても しらないわよ!
 
 DewfordTown_Gym_Text_LauraDefeat: @ 81FCD3C
 	.string "으아---앙!\n"
 	.string "져버렸어---엉!$"
+	// わぁ---ん!ｎ
+	// まけた---っ!
 
 DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
-	.string "정신을 단련하기 위해\n"
-	.string "어둠 속에서 승부하고 있어!\p"
+	.string "어둠 속에서 배틀함으로써\n"
+	.string "정신을 단련하고 있어\p"
 	.string "하지만 너무 어두워서\n"
-	.string "철구님의 얼굴이 안 보여...$"
+	.string "철구님의 얼굴을 못 봐...$"
+	// くらやみの なかで たたかうことでｎ
+	// こころを きたえるのｐ
+	// でも まっくら だからｎ
+	// トウキさまの おかおを みられない……
 
 DewfordTown_Gym_Text_LilithIntro: @ 81FCDB8
 	.string "우후후...!\n"
@@ -383,7 +417,7 @@ DewfordTown_Gym_Text_BrendenIntro: @ 81FCE48
 
 DewfordTown_Gym_Text_BrendenDefeat: @ 81FCE75
 	.string "어떻게 된 거지!\n"
-	.string "내가 지다니...$"
+	.string "딴 사람도 아닌 내가...$"
 	// どうしたぃ!ｎ
 	// おれと した ことが……
 
@@ -416,42 +450,66 @@ DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
 	.string "관장 철구!\p"
 	.string "이 주변의\n"
 	.string "거친 파도를 버티면서...\p"
-	.string "마을 외곽에 있는 동굴과\n"
-	.string "이 체육관의 설비를 써서\l"
-	.string "전력을 다해 수행하고 있어!\p"
-	.string "나에게 도전하려 하는\n"
-	.string "너의 실력...\p"
-	.string "어느 정도인지 시험해볼게!$"
+	.string "어두운 동굴에서\n"
+	.string "수행하고 있지!\p"
+	.string "나에게 도전하려고 하는\n"
+	.string "너의 실력...\l"
+	.string "어느 정도인지 보여줘야겠어!$"
+	// ボクは ムロ ポケモンジムｎ
+	// リ-ダ-の トウキ!ｐ
+	// この あたりのｎ
+	// はげしい なみに もまれ……ｐ
+	// くらい どうくつでｎ
+	// しゅぎょう して いるのさ!ｐ
+	// ボクに ちょうせん しよう というｎ
+	// キミの じつりょく……ｌ
+	// どれほどの ものか みせて もらうよ!
 
 DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
-	.string "으- 넌 예상보다\n"
-	.string "빅 웨이브!\p"
-	.string "날 이겼구나!\p"
-	.string "훌륭해!\n"
+	.string "으-음 예상했던 것보다\n"
+	.string "넌 빅 웨이브구나!\p"
+	.string "알았어!\n"
 	.string "이 배지를 가지고 가!$"
+	// うう-ん よそう していたよりｎ
+	// キミは ビッグウェ-ブ!ｐ
+	// わかった!ｎ
+	// この バッジを もっていきな!
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge: @ 81FD07D
 	.string "{PLAYER}{K_EUNNEUN} 철구에게\n"
 	.string "너클배지를 받았다!$"
+	// §あは トウキからｎ
+	// ナックルバッジを もらった!
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis: @ 81FD0A8
 	.string "너클배지에는\n"
 	.string "레벨 30까지의 포켓몬이라면\p"
 	.string "다른 사람에게 받은 포켓몬이라도\n"
 	.string "얌전하게 만드는 효과가 있어!\p"
-	.string "그리고 비전기술인 플래시를\n"
-	.string "사용할 수 있게 돼!\p"
-	.string "...음 그리고 괜찮으면\n"
-	.string "이 기술머신도 한번 써 봐$"
+	.string "그리고 배틀 외에서도\n"
+	.string "비전기술인 플래시를 쓸 수 있지!\p"
+	.string "이 기술머신\n"
+	.string "괜찮으면 써봐!$"
+	// ナックルバッジにはｎ
+	// レベル30までの ポケモンならｌ
+	// ひとから もらった ポケモンでもｌ
+	// すなおに する こうかが ある!ｐ
+	// それに たたかって いなくてもｎ
+	// ひでんわざの フラッシュを つかえる!ｐ
+	// この わざマシンｎ
+	// よかったら つかいな!
 
 DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
-	.string "기술머신08에는\n"
+	.string "그 기술머신08에는\n"
 	.string "벌크업이 들어 있어!\p"
-	.string "벌크업은 일시적으로 포켓몬의\n"
-	.string "근육 파워를 올려줘!\p"
-	.string "공격과 방어를\n"
-	.string "끝내주게 올려주지!\p"
+	.string "공격력과 방어력을\n"
+	.string "올려주는 기술이지!\p"
 	.string "...... ...... ......$"
+	// その わざマシン08 にはｎ
+	// ビルドアップが はいっている!ｐ
+	// こうげきりょくと ぼうぎょりょくをｎ
+	// あげる わざ なのさ!ｐ
+	// …… …… ……
 
 DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
 	.string "체육관 관장 철구를\n"
@@ -464,17 +522,25 @@ DewfordTown_Gym_Text_BrawlyPostBattle: @ 81FD20D
 	.string "언젠가 거대한 파도가 되어\p"
 	.string "포켓몬 트레이너들 사이에서\n"
 	.string "놀라움의 태풍을 불러일으키겠지!$"
+	// キミの さいのうはｎ
+	// いつのひか おおきな なみと なってｐ
+	// ポケモン トレ-ナ-たちの あいだにｎ
+	// おどろきの あらしを まきおこすだろう!
 
 DewfordTown_Gym_Text_GymStatue: @ 81FD272
 	.string "무로마을 포켓몬체육관$"
+	// ムロタウン ポケモンジム
 
 DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 	.string "무로마을 포켓몬체육관\p"
 	.string "철구 인정 트레이너!\n"
 	.string "{PLAYER}$"
+	// ムロタウン ポケモンジムｐ
+	// トウキ にんてい トレ-ナ-!ｎ
+	// §あ
 
 DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
-	.string "철구: 파도는 한 번 물러나도\n"
+	.string "철구: 파도는 한번 물러나도\n"
 	.string "언젠가 반드시 바닷가로 돌아와\p"
 	.string "넌 빅 웨이브니까\n"
 	.string "분명 다시 올 줄 알았어!\p"
@@ -489,23 +555,23 @@ DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat: @ 81FD367
 	.string "와-우!\n"
-	.string "네게 삼켜져버렸는걸!$"
+	.string "네게 삼켜져 버렸는걸!$"
 	// わ-おっ!ｎ
 	// キミに のみこまれそうだ!
 
 DewfordTown_Gym_Text_BrawlyPostRematch: @ 81FD37B
 	.string "철구: 역시 포켓몬 승부는\n"
-	.string "끝을 알 수 없을 정도로 엄청 심오해!\l"
+	.string "끝을 알 수 없을 정도로 심오해!\l"
 	.string "마치 호연지방의 바다 같지!$"
 	// トウキ『やっぱり ポケモン しょうぶはｎ
 	// そこが みえないほど ふかく ひろい!ｌ
 	// まるで ホウエンの うみの ようだね!
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
-	.string "철구: 파도는 한 번 물러나도\n"
+	.string "철구: 파도는 한번 물러나도\n"
 	.string "언젠가 반드시 바닷가로 돌아오지\p"
 	.string "넌 빅 웨이브니까\n"
-	.string "분명 다시 올 거라고 생각했어!\p"
+	.string "분명 다시 올 줄 알았어!\p"
 	.string "...어라? 싸울 수 있는 포켓몬이\n"
 	.string "한 마리밖에 없구나\p"
 	.string "미안하지만 두 마리 이상의\n"

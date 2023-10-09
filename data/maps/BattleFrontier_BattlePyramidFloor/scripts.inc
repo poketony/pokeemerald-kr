@@ -140,7 +140,7 @@ BattleFacility_TrainerBattle_PlaceholderText: @ 8252C8D
 
 gText_BattlePyramidConfirmRest:: @ 8252CA7
 	.string "배틀피라미드의 상황을\n"
-	.string "리포트에 작성하고 중단합니다만\l"
+	.string "리포트에 작성하고 중단합니다\l"
 	.string "괜찮겠습니까?$"
 	// バトルピラミッドの できごとをｎ
 	// レポ-トに かいて ちゅうだん しますｌ
@@ -971,63 +971,56 @@ BattlePyramid_Text_ZeroTrainersRemaining4:: @ 8254C3E
 
 BattlePyramid_Text_SevenTrainersRemaining5:: @ 8254C77
 	.string "너라면\n"
-	.string "앞으로 7명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 7명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 7にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_SixTrainersRemaining5:: @ 8254CC0
 	.string "너라면\n"
-	.string "앞으로 6명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 6명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 6にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_FiveTrainersRemaining5:: @ 8254D07
 	.string "너라면\n"
-	.string "앞으로 5명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 5명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 5にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_FourTrainersRemaining5:: @ 8254D4F
 	.string "너라면\n"
-	.string "앞으로 4명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 4명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 4にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_ThreeTrainersRemaining5:: @ 8254D97
 	.string "너라면\n"
-	.string "앞으로 3명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 3명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 3にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_TwoTrainersRemaining5:: @ 8254DE0
 	.string "너라면\n"
-	.string "앞으로 2명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 2명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 2にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
 
 BattlePyramid_Text_OneTrainersRemaining5:: @ 8254E27
 	.string "너라면\n"
-	.string "앞으로 1명 남은\l"
-	.string "실력 좋은 트레이너를\l"
-	.string "쓰러뜨릴지도$"
+	.string "앞으로 1명 남은 대단한 트레이너를\l"
+	.string "쓰러뜨릴지도 몰라$"
 	// きみならばｎ
 	// あと 1にん いる すごうで トレ-ナ-をｌ
 	// たおせるかも しれないな
@@ -1035,7 +1028,7 @@ BattlePyramid_Text_OneTrainersRemaining5:: @ 8254E27
 BattlePyramid_Text_ZeroTrainersRemaining5:: @ 8254E6E
 	.string "너는 정말로 강하구나\p"
 	.string "이제 여기에는 어디에도\n"
-	.string "너를 쓰러뜨릴 트레이너는 없어$"
+	.string "너를 쓰러뜨릴 트레이너가 없어$"
 	// きみは ほんとうに つよいｐ
 	// もう ここには どこにもｎ
 	// きみを たおせる トレ-ナ-は おらんよ

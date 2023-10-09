@@ -87,7 +87,7 @@ BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon: @ 826518D
 	// こうかん するつもり ないんで-
 
 BattleFrontier_Lounge6_Text_WellThatsFineToo: @ 82651CB
-	.string "아 안되는 건가요!\n"
+	.string "아 안 되는 거군요!\n"
 	.string "딱히 상관은 없지만\l"
 	.string "다음에 또 와주세요-$"
 	// あ やめますか!ｎ

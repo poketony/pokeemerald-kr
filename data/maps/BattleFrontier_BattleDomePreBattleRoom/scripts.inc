@@ -277,18 +277,26 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
 	.string "곧 1차전이 시작됩니다\n"
 	.string "준비는 다 되셨습니까?$"
+	// まもなく 1かいせんが はじまりますｎ
+	// じゅんびの ほうは いかがですか?
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
 	.string "곧 2차전이 시작됩니다\n"
 	.string "준비는 다 되셨습니까?$"
+	// まもなく 2かいせんが はじまりますｎ
+	// じゅんびの ほうは いかがですか?
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
 	.string "곧 준결승이 시작됩니다\n"
 	.string "준비는 다 되셨습니까?$"
+	// まもなく じゅんけっしょうが はじまりますｎ
+	// じゅんびの ほうは いかがですか?
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
 	.string "곧 결승전이 시작됩니다\n"
 	.string "준비는 다 되셨습니까?$"
+	// まもなく けっしょうせんが はじまりますｎ
+	// じゅんびの ほうは いかがですか?
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
 	.string "그럼 시합에 내보낼\n"
@@ -365,6 +373,8 @@ BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
 	.string "{PLAYER}님의\n"
 	.string "다음 상대는 이분입니다$"
+	// §あさんのｎ
+	// つぎの あいては このかた です
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
 	.string "현재 토너먼트는\n"

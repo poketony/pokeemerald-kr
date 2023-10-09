@@ -400,8 +400,7 @@ BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
 
 BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
 	.string "그럼 도전을 시작하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// では ちょうせんを はじめる まえにｎ
 	// レポ-トを かきますが よろしいですか?
 
@@ -412,7 +411,7 @@ BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
 	// おあずかり します!
 
 BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
-	.string "자 자 이쪽으로 와 주세요!$"
+	.string "자자 이쪽으로 와 주세요!$"
 	// さあさあ こちらに どうぞ!
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
@@ -584,8 +583,8 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "라고 생각하는 거 아냐?\p"
 	.string "여기는 포켓몬과 그 기술에\n"
 	.string "관한 지식이 없으면\l"
-	.string "이겨나가기 엄청나게 힘든\l"
-	.string "장소라고!!$"
+	.string "이겨나가기 엄-청나게\l"
+	.string "힘든 장소라고!!$"
 	// ちょっと! キミ!ｐ
 	// ポケモンを そだてなくてもｎ
 	// ちょうせん できる から らくしょう-!ｐ
@@ -628,18 +627,18 @@ BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
 	// ぜんぜん わからないんだ よう
 
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
-	.string "나 제법 강한데\n"
-	.string "엄청 지친다-\l"
-	.string "일단\l"
-	.string "모두 트레이드하면서\l"
-	.string "배틀하고 있었는데\l"
-	.string "그랬더니 말야\l"
-	.string "계속해서 배틀트레이드에\l"
-	.string "도전했을 때\l"
-	.string "대여해주는\l"
-	.string "포켓몬의\l"
-	.string "종류가\l"
-	.string "조금씩\l"
+	.string "나- 제법- 강한데-\n"
+	.string "엄청- 지친다-\l"
+	.string "일단-\l"
+	.string "모두 트레이드하면서-\l"
+	.string "배틀하고 있었는데-\l"
+	.string "그랬더니 말야-\l"
+	.string "계속해서 배틀트레이드에-\l"
+	.string "도전했을 때-\l"
+	.string "대여해주는-\l"
+	.string "포켓몬의-\l"
+	.string "종류가 말이지-\l"
+	.string "조금씩 말이지-\l"
 	.string "달랐던 것 같아-$"
 	// ぼくって- バッチリ- つよいけど-ｎ
 	// すっごく- あきっぽい からさ-ｌ

@@ -7,5 +7,8 @@ AbandonedShip_Rooms2_B1F_EventScript_Camper::
 
 AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring:
 	.string "탐험하기 딱 좋은 곳이라\n"
-	.string "두근거림이 멈추지 않아!\p"
-	.string "분명 엄청난 보물이 있겠지!$"
+	.string "왠지 두근거려!\l"
+	.string "분명 굉장한 보물이 있겠지!$"
+	// たんけんに ぴったりの ばしょだからｎ
+	// なんだか わくわく してくるよ!ｌ
+	// きっと すっごい たからものが あるぜ!

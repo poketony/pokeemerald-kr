@@ -477,7 +477,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl:: @ 825F7F1
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize: @ 825F7FA
 	.string "서비스 코너에\n"
 	.string "어서 오세요!\p"
-	.string "여기에서는 손님이 모으신\n"
+	.string "여기에서는 손님께서 모으신\n"
 	.string "배틀포인트와 멋진 경품을\l"
 	.string "교환해 드립니다!\p"
 	.string "그럼 경품을 선택해 주세요!$"
@@ -646,7 +646,7 @@ BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt: @ 825FEE3
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints: @ 825FF12
 	.string "감사합니다\p"
 	.string "배틀포인트를 모아서\n"
-	.string "또 방문해 주십시오!$"
+	.string "또 방문해 주십시오$"
 	// ありがとう ございましたｐ
 	// バトルポイントが たまりましたらｎ
 	// また おこしください
@@ -681,7 +681,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher: @ 826002E
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll: @ 8260099
 	.string "아-앗!? 뭐야-앗?\p"
-	.string "내 봉제인형을 뭘 그렇게 보는 거야!\n"
+	.string "왜 내 봉제인형을 보는 거야!\n"
 	.string "갖고 싶으면 직접 사라고!\p"
 	.string "그렇지 뽀뽀라?$"
 	// あ-っ!? なんだぁ-っ?ｐ
@@ -799,7 +799,7 @@ BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc:: @ 826047A
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc:: @ 82604AC
 	.string "포켓몬에게 지니게 하면 떨어진\n"
-	.string "능력을 원래대로 돌린다$"
+	.string "능력을 원래대로 되돌린다$"
 	// ポケモンに もたせると さがったｎ
 	// のうりょくを もとにもどす
 

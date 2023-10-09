@@ -392,7 +392,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules:: @ 824DD59
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle: @ 824DD5B
-	.string "트레이너의 마음을 시험하는 장소!\n"
+	.string "트레이너의 마음을 시험하는 장소\n"
 	.string "배틀팰리스에 어서 오게\p"
 	.string "여기서는 싱글 배틀홀로의\n"
 	.string "도전을 받고 있지...$"
@@ -456,8 +456,8 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge: @ 824DE17
 	// きを つけてくれ……
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified: @ 824E0D8
-	.string "자신의 마음과 포켓몬을 단련하고\n"
-	.string "나서 다시 오게나...$"
+	.string "자신의 마음과 포켓몬을 단련하고 나서\n"
+	.string "다시 오도록 하게나...$"
 	// おのれの こころと ポケモンを きたえたらｎ
 	// また くるがよい……
 
@@ -604,13 +604,13 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink: @ 824E6E3
 	.string "공격이야말로 최대의 방어!\n"
 	.string "팍팍 공격해서 최고임다!\p"
 	.string "그런데 잠깐 들어보십쇼\p"
-	.string "두근두근 여기에 엄청\n"
+	.string "가끔씩 여기에 엄청\n"
 	.string "귀여운 여자애가\l"
 	.string "놀러오는데요\l"
 	.string "그 애는 포켓몬의 생각을\l"
 	.string "알 수 있다고 합니다\p"
 	.string "이야- 정말 귀엽지 않습니까...\p"
-	.string "...응 뭡니까? 그 눈은?$"
+	.string "... 음 뭡니까? 그 눈은?$"
 	// ウス! ウス! がんばりやの わしにはｎ
 	// がんばりやの ポケモンが ぴったりっス!ｐ
 	// こうげき こそ さいだいの ぼうぎょ!ｎ
@@ -662,8 +662,8 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway: @ 824EA4B
 	.string "상대를 약하게 하거나...\n"
 	.string "천천히 몰아가는 건\l"
 	.string "어떤 성격일까...\p"
-	.string "...의외로 촐랑인가?\p"
-	.string "...에이 설마...$"
+	.string "... 의외로 촐랑인가?\p"
+	.string "... 에이 설마...$"
 	// あいてを よわらせたり……ｎ
 	// じわじわ せめて くれるのはｌ
 	// どんな せいかくかな……ｐ
@@ -671,7 +671,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway: @ 824EA4B
 	// …… まさかねぇ……
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle: @ 824EB06
-	.string "트레이너의 마음을 시험하는 장소!\n"
+	.string "트레이너의 마음을 시험하는 장소\n"
 	.string "배틀팰리스에 어서 오게\p"
 	.string "여기서는 더블 배틀홀로의\n"
 	.string "도전을 받고 있지...$"
@@ -805,7 +805,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves: @ 824F190
 	.string "상대의 능력을 내리거나\n"
 	.string "독이나 마비를 거는 등의\l"
 	.string "조금 변화를 주는 기술\p"
-	.string "포켓몬은 모든 기술은\n"
+	.string "포켓몬은 모든 기술을\n"
 	.string "크게 3개의 종류로 나눠서\l"
 	.string "어떤 기술을 쓸지 생각합니다$"
 	// あいてに むかって じぶんからｎ
@@ -846,8 +846,8 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger: @ 824F3F4
 	.string "성격과는 다른 종류의\l"
 	.string "기술을 쓰는\l"
 	.string "경우가 있습니다\p"
-	.string "위기에 몰렸을 때 조금\n"
-	.string "다른 행동을 시작한 포켓몬은\l"
+	.string "위기에 몰렸을 때\n"
+	.string "별난 행동을 시작한 포켓몬은\l"
 	.string "주의하도록 합시다$"
 	// ポケモンの せいかくの なかにはｎ
 	// ピンチに なることで もともとのｌ

@@ -91,11 +91,11 @@ AquaHideout_B2F_EventScript_Grunt8::
 
 AquaHideout_B2F_Text_MattIntro:
 	.string "우효효...\p"
-	.string "이미 여기까지 온 건가!\n"
-	.string "생각한 것보다 강한데!\p"
-	.string "하지만 여기까지다!\p"
-	.string "난 여태까지의 조무래기들과는\n"
-	.string "전혀 다르다!\p"
+	.string "벌써 여기까지 온 건가!\n"
+	.string "생각한 것보다 강하군!\p"
+	.string "하지만 여기까지다!\n"
+	.string "난 여태까지의 조무래기들과는\l"
+	.string "차원이 달라!\p"
 	.string "시간벌기 따윈 하지 않고\n"
 	.string "널 짓밟아 주지!$"
 	// ウヒョヒョ……ｐ
@@ -110,52 +110,82 @@ AquaHideout_B2F_Text_MattIntro:
 AquaHideout_B2F_Text_MattDefeat:
 	.string "우효효...\n"
 	.string "져버렸나...$"
+	// ウヒョヒョ……ｎ
+	// まけちまったか……
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "우효효!\p"
-	.string "나하고 승부하는 사이에\n"
-	.string "지금쯤 리더는\l"
-	.string "목적을 달성하셨을 거다!$"
+	.string "우효효...!\p"
+	.string "내가 너하고\n"
+	.string "놀아준 사이에\l"
+	.string "리더는 준비를 끝내셨을 거다!$"
+	// ウヒョヒョ……!ｐ
+	// おれが おまえとｎ
+	// あそんで やっている あいだにｌ
+	// リ-ダ-の じゅんびが ととのったぜ!
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "우효효!\p"
-	.string "리더는 이미 바닷속 깊은 곳의\n"
-	.string "동굴에 도착하셨을 거다!\p"
-	.string "리더를 쫓으려면\n"
-	.string "해안시티 너머의 그 넓은 바다를\l"
-	.string "돌아다녀야 할 걸?\p"
-	.string "리더를 찾을 수 있을까...\n"
+	.string "우효효...!\p"
+	.string "리더는 어딘가의 해저에 있는\n"
+	.string "동굴로 출발하셨을 거다!\p"
+	.string "쫓아가려면 해안시티 너머에\n"
+	.string "펼쳐진 거대한 바다를\l"
+	.string "마구 돌아다녀 보라고!\p"
+	.string "그렇게 해서 찾을 수 있다면 말이지...\n"
 	.string "우효효!$"
+	// ウヒョヒョ……!ｐ
+	// リ-ダ-は どこかの かいていにあるｎ
+	// どうくつへ しゅっぱつ したぜ!ｐ
+	// おいかける つもりなら ミナモの さきにｎ
+	// ひろがる でっかい うみをｌ
+	// さがしまわって みるが いいぜ!ｐ
+	// それで みつかれば いいけどな……ｎ
+	// ウヒョヒョヒョ!
 
 AquaHideout_B2F_Text_Grunt4Intro:
-	.string "왓핫핫 기다리다\n"
-	.string "목이 빠지는 줄 알았다!\l"
-	.string "나랑도 승부해 주실까!?$"
+	.string "왓핫핫 목이 빠지는 줄 알았다!\n"
+	.string "나랑도 승부해 주실까!$"
+	// わっはっは まちくたびれたぞ!ｎ
+	// おいらとも しょうぶ してもらおうか!
 
 AquaHideout_B2F_Text_Grunt4Defeat:
 	.string "기다리다 너무 지쳐서\n"
 	.string "져버렸다...$"
+	// まちくたびれてｎ
+	// まけて やぶれて……
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-	.string "리더...\n"
-	.string "이 정도면 된 건가요-!?$"
+	.string "리더어...\n"
+	.string "이 정도면 된 거겠죠-!$"
+	// リ-ダ-ぁ……ｎ
+	// こんなもんで どうでしょ-!
 
 AquaHideout_B2F_Text_Grunt6Intro:
-	.string "우리 아지트의 명물인 워프패널!\p"
+	.string "아지트의 명물인 워프패널!\p"
 	.string "지금 자신이 어디에 있는지\n"
-	.string "전혀 짐작도 안 가겠죠!?\p"
-	.string "그렇게 상대를 지치게 해서\n"
-	.string "쓰러뜨리는 게 작전인 거예요!$"
+	.string "하나도 모르겠지?\p"
+	.string "그렇게 지치게 만들어서 상대를\n"
+	.string "쓰러뜨리는 게 작전인 거야!$"
+	// アジト じまんの ワ-プパネル!ｐ
+	// いま じぶんが どこに いるのかｎ
+	// わかって ないでしょ!ｐ
+	// そうやって つかれはてた あいてをｎ
+	// たおすのが さくせん なのよ!
 
 AquaHideout_B2F_Text_Grunt6Defeat:
 	.string "뭐얏!\n"
-	.string "하나도 안 지쳐 있잖아!?$"
+	.string "하나도 안 지쳐 있잖아!$"
+	// なによっ!ｎ
+	// ちっとも つかれてない じゃない!
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "그러고 보니... 마스터볼을\n"
-	.string "어디에 뒀었는지 까먹었어\p"
+	.string "어디에 뒀었는지 잊어버렸어\p"
 	.string "그걸 지키고 있지 않으면\n"
-	.string "리더에게 혼이 난다구...$"
+	.string "리더에게 혼이 날 텐데...$"
+	// そういえば…… マスタ-ボ-ルをｎ
+	// どこに おいたのか わすれちゃったわｐ
+	// あれを まもっていないとｎ
+	// リ-ダ-に おこられるのよ……
 
 AquaHideout_B2F_Text_Grunt8Intro:
 	.string "내가 아쿠아단에 들어와서\n"
@@ -172,7 +202,7 @@ AquaHideout_B2F_Text_Grunt8Defeat:
 	// あたまが いっぱい だったから……
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
-	.string "이제부터는 포켓몬 승부의\n"
+	.string "이제부턴 포켓몬 승부의\n"
 	.string "요령도 배워둬야겠다...$"
 	// これからは ポケモンしょうぶのｎ
 	// コツも おぼえて おかないと なあ……

@@ -649,157 +649,253 @@ DewfordTown_EventScript_PhraseNotTrendyEnough:: @ 81E999E
 	end
 
 DewfordTown_Text_TinyIslandCommunity: @ 81E99A8
-	.string "무로마을은 작은 섬이라\n"
-	.string "뭔가 하나라도 유행하기 시작하면\l"
-	.string "금방 다들 그걸 따라하려고 해$"
+	.string "무로마을은 작은 섬이라서\n"
+	.string "뭔가가 유행하기 시작하면\l"
+	.string "다들 금방 그걸 따라하려고 해$"
+	// ムロタウンって ちいさな しま だからｎ
+	// なにかが はやりだすとｌ
+	// みんな すぐに まねを するのよね
 
 DewfordTown_Text_TownSign: @ 81E9A0F
 	.string "여기는 무로마을\n"
 	.string "푸른 바다에 떠 있는 작은 섬$"
+	// ここは ムロ タウンｎ
+	// あおい うみに うかぶ ちいさな しま
 
 DewfordTown_Text_GymSign: @ 81E9A3D
 	.string "무로마을 포켓몬체육관\n"
 	.string "관장 철구\l"
 	.string "격투의 빅 웨이브!$"
+	// ムロ タウン ポケモンジムｎ
+	// リ-ダ- トウキｌ
+	// かくとう ビッグウェ-ブ!
 
 DewfordTown_Text_HallSign: @ 81E9A7F
 	.string "“무로집회소”\n"
 	.string "모두의 정보교환 장소$"
+	// 「ムロの しゅうかいじょ」ｎ
+	// みんなの じょうほう こうかんの ばしょ
 
 Route104_Text_LandedInDewfordDeliverLetter: @ 81E9AAF
 	.string "하기: 호이! 무로마을에 도착!\p"
 	.string "분명 성호라는 남자한테\n"
 	.string "편지를 전해준다고 했었지!$"
+	// ハギ『ほい! ムロに とうちゃく!ｐ
+	// たしか ダイゴとやらにｎ
+	// てがみを とどけるんだったな!
 
 DewfordTown_Text_SetSailBackToPetalburg: @ 81E9B24
-	.string "하기: 편지는 잘 전달했나?\p"
-	.string "아니면 등화도시로 돌아갈 텐가?$"
+	.string "하기: 편지는 전달했나?\p"
+	.string "아니면 등화도시로 돌아갈 겐가?$"
+	// ハギ『てがみは とどけたのかい?ｐ
+	// それとも トウカに もどるのかね?
 
 DewfordTown_Text_PetalburgWereSettingSail2: @ 81E9B7F
-	.string "하기: 그럼 등화도시로\n"
-	.string "돌아가도록 하겠네!\p"
+	.string "하기: 그럼 등화도시로 돌아가겠네!\p"
 	.string "좋다! 가자 피코!$"
+	// ハギ『では トウカに もどると しよう!ｐ
+	// よっしゃ! いくぞ ピ-コちゃん!
 
 DewfordTown_Text_GoDeliverIllBeWaiting: @ 81E9BD9
-	.string "하기: 그럼 편지를\n"
-	.string "전달하고 오게나\p"
+	.string "하기: 그럼 편지를 전달하고 오게\n"
 	.string "나는 여기서 기다리겠네$"
+	// ハギ『では てがみを とどけておいでｎ
+	// わしは ここで まっておるから
 
 DewfordTown_Text_BrineyLandedInDewford: @ 81E9C1D
 	.string "하기: 호이! 무로마을에 도착!\p"
 	.string "배를 타고 싶어지면\n"
 	.string "언제든 나한테 말하게나!$"
+	// ハギ『ほい! ムロタウンに とうちゃく!ｐ
+	// ふねに のりたくなったらｎ
+	// また わしに こえを かけておくれ!
 
 DewfordTown_Text_WhereAreWeBound: @ 81E9C8A
 	.string "하기: 여어! 자네가 원한다면\n"
-	.string "언제든지 배를 준비시키지!\p"
-	.string "자네가 가고 싶은 곳은 어딘가?$"
+	.string "언제든지 배를 준비시키겠네!\p"
+	.string "자네가 가고 싶은 곳은 어디인가?$"
+	// ハギ『やあ! きみのため ならｎ
+	// いつでも ふねを だそう!ｐ
+	// きみが いきたいのは どこ かな?
 
 DewfordTown_Text_PetalburgWereSettingSail: @ 81E9CE5
 	.string "하기: 등화도시 말이지\p"
 	.string "좋다! 가자 피코!$"
+	// ハギ『トウカシティ かｐ
+	// よっしゃ! いくぞ ピ-コちゃん!
 
 DewfordTown_Text_SlateportWereSettingSail: @ 81E9D3A
 	.string "하기: 잿빛도시 말이지\p"
 	.string "좋다! 가자 피코!$"
+	// ハギ『カイナシティ かｐ
+	// よっしゃ! いくぞ ピ-コちゃん!
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail: @ 81E9D8F
 	.string "하기: 배를 타야 할 때는\n"
-	.string "언제든지 말하게나$"
+	.string "언제든지 말을 걸어주게나$"
+	// ハギ『ふねに のる ひつようが あるときはｎ
+	// いつでも こえを かけておくれ
 
 DewfordTown_Text_GettingItchToFish: @ 81E9DD1
 	.string "요 근처는 낚시의 명소야\n"
 	.string "너도 낚시하고 싶어졌지?$"
+	// このへんは つりの めいしょ なんだｎ
+	// きみも つりが したくなった?
 
 DewfordTown_Text_GiveYouOneOfMyRods: @ 81E9E14
-	.string "응응 좋아\n"
+	.string "응응 기쁜걸\n"
 	.string "나한테 있는 낚싯대 나눠줄게!$"
+	// うんうん うれしいなｎ
+	// わたしの つりざお わけてあげよう!
 
 DewfordTown_Text_ThrowInFishingAdvice: @ 81E9E65
-	.string "좋아 인심 쓴다!\n"
+	.string "좋-아 서비스로\n"
 	.string "낚시 잘하는 방법도 알려줄게!\p"
 	.string "먼저 수면을 향해\n"
-	.string "낚싯대를 던져!\l"
-	.string "그리고 정신을 집중하다가...\p"
-	.string "물었다 물었어!!\n"
-	.string "짠! 하는 느낌이 오면 빠르게\l"
-	.string "낚싯대를 잡아당기는 거야!\p"
+	.string "낚싯대를 써!\p"
+	.string "그리고 정신을 집중하다가...\n"
+	.string "물었다 물었어!! 하는 느낌이 오면\l"
+	.string "재빠르게 낚싯대를 잡아당기는 거야!\p"
 	.string "바로 잡아당기면 될 때도 있지만\n"
-	.string "엄청난 놈은 몇 번이나 타이밍을\l"
+	.string "월척은 몇 번이나 타이밍을\l"
 	.string "맞출 필요가 있어!$"
+	// よ-しっ だいサ-ビス!ｎ
+	// つりの コツも せつめい しておくよ!ｐ
+	// まずは すいめんに むかってｎ
+	// つりざおを つかう!ｐ
+	// そして きもちを しゅうちゅう させ……ｎ
+	// ひいてる ひいてる!! となったらｌ
+	// すばやく つりざおを ひくんだ!ｐ
+	// すぐに ひきあげられる ときも あるけどｎ
+	// おおものは なんども タイミングをｌ
+	// あわせる ひつようが あるんだよ!
 
 DewfordTown_Text_ThatsTooBadThen: @ 81E9F92
-	.string "그래...\n"
-	.string "안타깝네$"
+	.string "어라라...\n"
+	.string "그거 안타깝네$"
+	// あらら……ｎ
+	// それは ざんねん
 
 DewfordTown_Text_HowsYourFishing: @ 81E9FB8
 	.string "어때!\n"
 	.string "낚시는 잘하고 있어?$"
+	// よっ!ｎ
+	// つりの ちょうしは どう?
 
 DewfordTown_Text_GreatHaulInSomeBigOnes: @ 81E9FD0
-	.string "그래? 그거 대단한데!\n"
-	.string "엄청난 놈을 한번 잡아 줘!$"
+	.string "그렇구나! 그거 대단한데!\n"
+	.string "월척을 한번 잡아 보라고!$"
+	// そうか! そりゃ すごい!ｎ
+	// おおものを つりあげて くれよ!
 
 DewfordTown_Text_FishingAdvice: @ 81EA004
-	.string "너무 그렇게 실망하지 마!\n"
+	.string "뭐야 실망하지 마!\n"
 	.string "낚시 잘하는 방법을 알려줄 테니까!\p"
 	.string "먼저 수면을 향해\n"
-	.string "낚싯대를 던져!\l"
-	.string "그리고 정신을 집중하다가...\p"
-	.string "물었다 물었어!!\n"
-	.string "짠! 하는 느낌이 오면 빠르게\l"
-	.string "낚싯대를 잡아당기는 거야!\p"
+	.string "낚싯대를 써!\p"
+	.string "그리고 정신을 집중하다가...\n"
+	.string "물었다 물었어!! 하는 느낌이 오면\l"
+	.string "재빠르게 낚싯대를 잡아당기는 거야!\p"
 	.string "바로 잡아당기면 될 때도 있지만\n"
-	.string "엄청난 놈은 몇 번이나 타이밍을\l"
+	.string "월척은 몇 번이나 타이밍을\l"
 	.string "맞출 필요가 있어!$"
+	// なんだよ ガッカリ しないでよ!ｎ
+	// つりの コツを おしえて あげるから!ｐ
+	// まずは すいめんに むかってｎ
+	// つりざおを つかう!ｐ
+	// そして きもちを しゅうちゅう させ……ｎ
+	// ひいてる ひいてる!! となったらｌ
+	// すばやく つりざおを ひくんだ!ｐ
+	// すぐに ひきあげられる ときも あるけどｎ
+	// おおものは なんども タイミングをｌ
+	// あわせる ひつようが あるんだよ!
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight: @ 81EA136
-	.string "난 요즘 유행에 관심이 있어서\n"
+	.string "난 유행에 관심이 있어서\n"
 	.string "항상 체크하고 있어\p"
 	.string "혹시 “{STR_VAR_1}”{K_I}라고\n"
 	.string "들어본 적 있어?\p"
 	.string "당연히 들어본 적 있겠지!\p"
 	.string "왜냐면 요즘\n"
 	.string "“{STR_VAR_1}”{K_IGA}\l"
-	.string "완전 붐이잖아!\p"
+	.string "대유행하고 있잖아!\p"
 	.string "네 주변에서도\n"
 	.string "“{STR_VAR_1}”{K_IGA}\l"
 	.string "유행하고 있지?$"
+	// ぼく はやってる ものが すきでｎ
+	// いつも チェック してるんだｐ
+	// ねぇ 『§い』ってｎ
+	// しってるかい?ｐ
+	// もちろん しってるよね!ｐ
+	// だって いまｎ
+	// 『§い』がｌ
+	// だいりゅうこう してるからね!ｐ
+	// きみの まわりでもｎ
+	// 『§い』がｌ
+	// はやってる だろ?
 
 DewfordTown_Text_TellMeWhatsNewAndIn: @ 81EA242
 	.string "뭐?\n"
 	.string "유행하지 않는다고!?\p"
 	.string "그럼 요즘 뭐가 유행하고 있는지\n"
 	.string "알려줘!$"
+	// え?ｎ
+	// はやって ないの!?ｐ
+	// じゃあ いま なにが はやってるかｎ
+	// きかせてよ!
 
 DewfordTown_Text_OfCourseIKnowAboutThat: @ 81EA2AA
-	.string "응? “{STR_VAR_2}”?\p"
-	.string "...... ......\p"
-	.string "...아! 응응!\n"
-	.string "응 알아 알아!\p"
-	.string "무, 물론 알고 있지!\n"
-	.string "“{STR_VAR_2}”{K_I}잖아?\p"
+	.string "어? “{STR_VAR_2}”?\p"
+	.string "......\p"
+	.string "...아! 어어!\n"
+	.string "알지 알지!\p"
+	.string "다 당연히 알고 있다고!\n"
+	.string "“{STR_VAR_2}” 말이지?\p"
 	.string "그거 좋지!\n"
 	.string "“{STR_VAR_2}”!\p"
-	.string "지금 엄청 붐이잖아\n"
+	.string "지금 완전 유행 중이잖아\n"
 	.string "내가 그걸 모를 리가 있나!\p"
-	.string "“{STR_VAR_1}”{K_EUNNEUN}\n"
+	.string "“{STR_VAR_1}” 같은 건\n"
 	.string "이미 한물갔지\p"
 	.string "요즘은 “{STR_VAR_2}”의\n"
 	.string "시대야!$"
+	// え? 『§う』?ｐ
+	// ……ｐ
+	// …あ! あぁ!ｎ
+	// しってる しってるよ!ｐ
+	// もっ もちろん しってるさ!ｎ
+	// 『§う』 だろ?ｐ
+	// いいよね!ｎ
+	// 『§う』 って!ｐ
+	// いま すごく はやってる よねｎ
+	// ぼくが しらないはず ないじゃ ないか!ｐ
+	// 『§い』 なんてｎ
+	// もう じだいおくれｐ
+	// いまは 『§う』のｎ
+	// じだい だね!
 
 DewfordTown_Text_XHuhIThinkYIsCool: @ 81EA3FE
-	.string "음...\n"
-	.string "“{STR_VAR_2}”?\p"
-	.string "하지만 내 생각엔 역시\n"
-	.string "“{STR_VAR_1}”{K_IGA}\l"
-	.string "제일 멋지다고 생각해$"
+	.string "으-음...\n"
+	.string "“{STR_VAR_2}”인가...\p"
+	.string "하지만 난\n"
+	.string "“{STR_VAR_1}” 쪽이\l"
+	.string "멋지다고 생각해$"
+	// ふ-んｎ
+	// 『§う』 か…ｐ
+	// でも ぼくはｎ
+	// 『§い』 のほうがｌ
+	// いいと おもうけどね
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe: @ 81EA443
 	.string "새로운 유행을 알게 되면\n"
 	.string "나한테 꼭 알려줘!$"
+	// じゃあ あたらしい りゅうこうが あったらｎ
+	// また きかせて くれよ!
 
 DewfordTown_Text_YeahDefinitionOfInRightNow: @ 81EA491
 	.string "그치!\p"
-	.string "역시 요즘에는\n"
-	.string "“{STR_VAR_1}”{K_IGA} 대세야!$"
+	.string "역시 요즘은\n"
+	.string "“{STR_VAR_1}” 시대지!$"
+	// そうだろ!ｐ
+	// やっぱり いまはｎ
+	// 『§い』 だよね!

@@ -378,7 +378,7 @@ BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 	// ちょうせん されますかな?
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
-	.string "다음에 또 도전해 주세요\n"
+	.string "다음에 또 도전해 주시죠\n"
 	.string "기다리고 있겠습니다!$"
 	// またの ちょうせんをｎ
 	// おまちして おりますぞ!
@@ -392,9 +392,9 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "배틀하는 동안은\n"
 	.string "이 순서대로\l"
 	.string "포켓몬을 내보내게 됩니다!\p"
-	.string "배틀에 한 번 내보낸 포켓몬은\n"
+	.string "배틀에 한번 내보낸 포켓몬은\n"
 	.string "결착이 날 때까지\l"
-	.string "교대할 수 없습니다!\p"
+	.string "교체할 수 없습니다!\p"
 	.string "게다가 3턴 이내에\n"
 	.string "배틀의 결착이 나지 않는다면\l"
 	.string "판정이 나게 됩니다!\p"
@@ -429,8 +429,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 	.string "배틀아레나에 입장하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// バトルアリ-ナへ おつれする まえにｎ
 	// レポ-トを かきますが よろしいですかな?
 
@@ -444,7 +443,7 @@ BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
 	.string "그럼 참가할 포켓몬을\n"
-	.string "3마리 선택해 주십시오$"
+	.string "3마리 선택해 주십시오!$"
 	// では さんかする ポケモンをｎ
 	// 3ひき おえらび くだされ!
 
@@ -507,8 +506,7 @@ BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "손님!\p"
 	.string "지난번 종료하기 전에\n"
-	.string "리포트를 제대로\l"
-	.string "작성하지 않으셨죠?\p"
+	.string "리포트를 제대로 작성하지 않으셨죠?\p"
 	.string "유감이지만 이런 경우에는\n"
 	.string "도전이 무효가 됩니다!\p"
 	.string "다시 처음부터\n"
@@ -728,7 +726,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "아레나캡틴에게 승리!\n"
 	.string "그리고 7명을 돌파하셨군요!\l"
-	.string "정말 훌륭했었습니다!$"
+	.string "정말 훌륭했습니다!$"
 	// アリ-ナキャプテンからの きんぼし!ｎ
 	// ならびに 7にんぬき たっせい!ｌ
 	// まこと みごとで ございました!

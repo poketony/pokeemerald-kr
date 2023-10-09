@@ -53,8 +53,7 @@ BattleFrontier_Lounge5_Text_NatureGirlGreeting:: @ 8264632
 	// ね! ポケモン みちて! みちて!
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown:: @ 826467F
-	.string "흥!\n"
-	.string "너무해!!$"
+	.string "메롱-! 너무해!!$"
 	// ぷ-! けち!!
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy:: @ 826468D
@@ -299,7 +298,7 @@ BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound:: @ 8264F64
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot:: @ 8264FAB
 	.string "나 알고 있다고!\p"
-	.string "저 애가 빨간 집에\n"
+	.string "저 애가 빨간 저택에\n"
 	.string "자주 간다는 걸!$"
 	// ぼく ちってるぜ!ｐ
 	// あのこ あかい おうちでｎ

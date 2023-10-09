@@ -603,7 +603,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 	// しばし おまちくだされ!
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-	.string "지금의 승부를\n"
+	.string "지금의 배틀을\n"
 	.string "프런티어패스에 기록하겠습니까?$"
 	// さきほどの たたかいをｎ
 	// フロンティアパスに きろく されますかな?
@@ -635,8 +635,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
 	// ごにゅうじょう---!
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
-	.string "나리: 네엡! 잘 부탁해-!!\p"
-	.string "... 라니 당신이 도전자?$"
+	.string "나리: 안-녕! 잘 부탁해-!!\p"
+	.string "... 아니 당신이 도전자야?$"
 	// コゴミ『ウィ-ッス! よろしく-!!ｐ
 	// …… って あなたが ちょうせんしゃ?
 
@@ -649,9 +649,9 @@ BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
 	.string "은근 약할 것 같은 느낌인데-\l"
 	.string "나하고 배틀해도\l"
 	.string "괜찮으려나-?\p"
-	.string "으으-음...\n"
+	.string "으으-음...\p"
 	.string "뭐 좋아!\n"
-	.string "곧고 가볍게 솜씨 좀 봐야겠어!$"
+	.string "우선 가볍게 솜씨 좀 봐야겠어!$"
 	// なんて いうか- しょうじき いってｎ
 	// かなり よわっちい かんじ なんだけど-ｌ
 	// アタシと たたかってもｌ
@@ -668,8 +668,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
 	.string "나리: 어머 잠깐만-!\n"
-	.string "당신 엄청나게 강하잖아-!!\l"
-	.string "마음에 들었어! 프런티어패스 줘 봐!$"
+	.string "당신 엄청나게 강하잖아-!\l"
+	.string "마음에 들었어! 프런티어패스 줘봐!$"
 	// コゴミ『やだ ちょっと-!ｎ
 	// あなた ぜんぜん つよい じゃん-!ｌ
 	// きにいった! フロンティアパス かしてっ!
@@ -681,7 +681,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
 	// ガッツシンボルが きざまれた!
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
-	.string "으-음!\p"
+	.string "으으-음!\p"
 	.string "다음에 만날 때가\n"
 	.string "기대되기 시작했어-!$"
 	// ぅう-ん!ｐ
@@ -689,11 +689,11 @@ BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
 	// たのしみに なって きたな-!
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
-	.string "나리: 네-엡! 오랜만이네-!\n"
-	.string "드디어 여기까지 이겨 왔구나!\p"
+	.string "나리: 안-녕! 오랜만이네-!\n"
+	.string "드디어 여기까지 이겨왔구나!\p"
 	.string "늦어서 걱정했단 말야-!\n"
 	.string "당신과 만나는 걸 엄-청나게!\l"
-	.string "기대하고 있었으니까-!!$"
+	.string "기대하고 있었거든-!!$"
 	// コゴミ『ウィ-ッス! ごぶさた-!ｎ
 	// や-っと ここまで かちぬいて きたね!ｐ
 	// おそいから しんぱい しちゃったよ-っ!ｎ
@@ -705,7 +705,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
 	// …… …… …… …… だから い-い?
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
-	.string "어중간한 배틀은 용서하지 않을 거야\n"
+	.string "어중간한 배틀은 용서 안 할 거야!!\n"
 	.string "각오하고 있으라고!!$"
 	// はんぱな たたかいじゃ ゆるさないっ!!ｎ
 	// かくご しといてねっ!!
@@ -718,7 +718,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
 	.string "나리: 아---! 정말---!!\n"
-	.string "얼른 프런티어패스 줘 봐!$"
+	.string "얼른 프런티어패스 줘봐!$"
 	// コゴミ『あ---っ! も---っ!!ｎ
 	// さっさと フロンティアパス かしてよっ!
 

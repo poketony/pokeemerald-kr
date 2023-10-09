@@ -34,44 +34,74 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
 	.string "이런 장소는 희귀하니\n"
-	.string "견학을 하고 있다네\p"
+	.string "견학을 하고 있지요\p"
 	.string "흠흠...\n"
-	.string "다른 방도 있는 것 같군$"
+	.string "다른 방도 있는 것 같군요$"
+	// こういった ふねは めずらしいのでｎ
+	// けんがく しておるのですよｐ
+	// フムフム……ｎ
+	// ほかにも へやが ありそうですな
 
 AbandonedShip_Rooms_1F_Text_ThaliaIntro:
-	.string "여기서 뭐 하는 거지?\n"
-	.string "호기심이 많은 아이구나!$"
+	.string "어라 이런 곳까지 오다니\n"
+	.string "너는 참 호기심이 많구나!$"
+	// あら こんな ところまで きてｎ
+	// キミも ものずきね!
 
 AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
-	.string "호기심도 많고 강하잖아...$"
+	.string "호기심이 많을 뿐만 아니라\n"
+	.string "강하기까지 하네...$"
+	// ものずき だけじゃ なくてｎ
+	// つよいのか……
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
-	.string "문 옆에 계신 신사분...\p"
-	.string "견학하러 왔다곤 하는데\n"
-	.string "아무래도 꿍꿍이가 있는 것 같아$"
+	.string "옆 방에 있는 아저씨\n"
+	.string "견학하러 왔다는데 수상해\p"
+	.string "나한테 무슨 짓을 할 속셈인가?$"
+	// となりのへやの おじさんｎ
+	// けんがく だなんて あやしいわｐ
+	// わたしに きが あるんじゃない かしら
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
-	.string "넌 정말 강한 트레이너구나!\n"
-	.string "기념으로 등록해줘!$"
+	.string "강한 트레이너인 너를 만난\n"
+	.string "기념으로 등록하게 해줘!$"
+	// つよい トレ-ナ-の キミをｎ
+	// きねんに とうろく させて ちょうだいね!
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
-	.string "여기서 또 뭐 하는 거지?\n"
-	.string "여전히 호기심이 많은 아이구나!$"
+	.string "이런 곳까지 계속 오다니\n"
+	.string "정말로 호기심이 많구나 넌!$"
+	// こんな ところまで なんども きてｎ
+	// ほんとに ものずきね キミって!
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
-	.string "여전히 호기심도 많고 강하잖아$"
+	.string "잠깐만 너무 강한데?$"
+	// ちょっと つよすぎない?
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
-	.string "저 신사분 확실히 꿍꿍이가 있어!\n"
+	.string "저 아저씨 분명\n"
+	.string "날 보고 있는 걸 거야!\l"
 	.string "너무 수상하게 행동한다니까!$"
+	// あの おじさん ぜったいｎ
+	// わたしの ことを みているのよ!ｌ
+	// わざとらしすぎるわ!
 
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
-	.string "으악!\n"
-	.string "걸렸다! ...응?$"
+	.string "와-아!\n"
+	.string "찾았다... 아니 잠깐만?$"
+	// わ-っ!ｎ
+	// みつかった…… って あれ?
 
 AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
-	.string "우리 엄마가 아니잖아$"
+	.string "뭐야\n"
+	.string "엄마가 아니잖아$"
+	// なんだｎ
+	// かあちゃん じゃ なかったのか
 
 AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
-	.string "사고 쳐서 도망쳐온 거니까\n"
-	.string "우리 엄마한테는 비밀이야$"
+	.string "엄마한테 혼나서\n"
+	.string "여기까지 도망쳐온 거야\l"
+	.string "내가 여기 있는 건 비밀로 해줘!$"
+	// かあちゃんに しかられてｎ
+	// ここまで にげて きたんだｌ
+	// ボクが ここに いるのは ないしょだぞ!

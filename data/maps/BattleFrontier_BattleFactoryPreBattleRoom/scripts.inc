@@ -557,7 +557,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge: @ 825A37A
 	// ちゅうし されますか?
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent: @ 825A3B4
-	.string "자 자!\n"
+	.string "자자!\n"
 	.string "이번 대전 상대 말입니다만\l"
 	.string "저의 조사로는...$"
 	// さあさあ!ｎ
@@ -566,163 +566,163 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent: @ 8
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType: @ 825A3F8
 	.string "아무래도 노말타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら ノ-マルタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType: @ 825A43E
 	.string "아무래도 불꽃타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら ほのおタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType: @ 825A482
 	.string "아무래도 물타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら みずタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType: @ 825A4C7
 	.string "아무래도 전기타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら でんきタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType: @ 825A50F
 	.string "아무래도 풀타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら くさタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType: @ 825A554
 	.string "아무래도 얼음타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら こおりタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType: @ 825A597
 	.string "아무래도 격투타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら かくとうタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType: @ 825A5DF
 	.string "아무래도 독타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら どくタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType: @ 825A625
 	.string "아무래도 땅타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら じめんタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType: @ 825A66B
 	.string "아무래도 비행타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら ひこうタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType: @ 825A6B1
 	.string "아무래도 에스퍼타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら エスパ-タイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType: @ 825A6F8
 	.string "아무래도 벌레타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら むしタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType: @ 825A73B
 	.string "아무래도 바위타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら いわタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType: @ 825A77F
 	.string "아무래도 고스트타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら ゴ-ストタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType: @ 825A7C4
 	.string "아무래도 드래곤타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら ドラゴンタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType: @ 825A80A
 	.string "아무래도 악타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら あくタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType: @ 825A84E
 	.string "아무래도 강철타입을\n"
-	.string "가장 잘 다루는 듯합니다$"
+	.string "가장 잘 다루는 듯하고...$"
 	// どうやら はがねタイプをｎ
 	// とくいと して いて……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite: @ 825A893
 	.string "아무래도 포켓몬의 타입에는\n"
-	.string "구애를 받지 않는 듯합니다$"
+	.string "구애를 받지 않는 듯하고...$"
 	// どうやら ポケモンの タイプにはｎ
 	// とくに こだわりが ないようで……
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady: @ 825A8D9
 	.string "“차분하고 천천히” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『じっくり じわじわ』とした バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance: @ 825A912
 	.string "“지금부터 시작이야!” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『まだまだ これから!』な バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk: @ 825A94C
 	.string "“운에 맡기고 단판 승부” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『けんこん いってき』の バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow: @ 825A98C
-	.string "“되는 대로” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "“흘러가는 대로” 배틀을\n"
+	.string "하는 성격인 것 같습니다!$"
 	// 『くもゆき しだい』の バトルをｎ
 	// こころがけている かたの ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation: @ 825A9CE
 	.string "“준비가 완벽”한 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『じゅんび ばんたん』の バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe: @ 825AA16
-	.string "“우선은 약하게 하는” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "“우선은 약하게 만들자...” 배틀을\n"
+	.string "하는 성격인 것 같습니다!$"
 	// 『まずは よわらせて…』という バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible: @ 825AA5A
 	.string "“임기응변” 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『りんきおうへん』な バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict: @ 825AAA7
 	.string "“예측 불가능”한 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『よそく ふかのう』な バトルをｎ
 	// こころがけている ようですよ!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained: @ 825AAE6
 	.string "“자유분방”한 배틀을\n"
-	.string "하는 성격인 것 같습니다$"
+	.string "하는 성격인 것 같습니다!$"
 	// 『じゆう ほんぽう』な バトルをｎ
 	// こころがけている ようですよ!
 
@@ -749,7 +749,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait: @ 825ABAE
 	// しょうしょう おまちください
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle: @ 825ABD2
-	.string "지금의 승부를\n"
+	.string "지금의 배틀을\n"
 	.string "프런티어패스에 기록하겠습니까?$"
 	// さきほどの たたかいをｎ
 	// フロンティアパスに きろく しますか?
@@ -761,18 +761,18 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments: @ 825AC15
 	// しょうしょう おまちください!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo: @ 825AC58
-	.string "...음 ...? ...네!\n"
+	.string "... 엇 ... ? ...히익!\n"
 	.string "알겠습니다!! 확인했습니다!$"
 	// …… えっ …… ? ……ひぃっ!ｎ
 	// わっかりましたっ!! りょうかいです!
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow: @ 825AC89
 	.string "아하하... 기다리셨습니다!\p"
-	.string "이 시설의 소장인\n"
-	.string "팩토리책임자께서 연락이\l"
+	.string "이 시설의 소장이신\n"
+	.string "팩토리책임자로부터 연락이\l"
 	.string "왔으니 전하겠습니다!\p"
 	.string "“좋아! 지금 당장 와라!”\n"
-	.string "라고 말하셨습니다!$"
+	.string "라고 말씀하셨습니다!$"
 	// やはは…… おまたせ しました!ｐ
 	// このしせつの しょちょうで あるｎ
 	// ファクトリ-ヘッドからの でんごんがｌ

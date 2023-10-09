@@ -137,7 +137,7 @@ BattleFrontier_Lounge2_Text_FrontierManiacIntro:: @ 8260766
 	// ホットな じょうほうを おしえて あげるよ!
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord:: @ 8260857
-	.string "여어 또 내 정보를\n"
+	.string "이봐이봐 또 내 정보를\n"
 	.string "들으러 왔구나! 어쩔 수 없구만-!$"
 	// やあやあ また ぼくの じょうほうをｎ
 	// ききに きたんだね! しかたないな-!
@@ -154,7 +154,7 @@ BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight:: @ 82608A1
 BattleFrontier_Lounge2_Text_FacilityIsHottest:: @ 82608F2
 	.string "그렇군...\p"
 	.string "지금은 {STR_VAR_1}{K_IGA}\n"
-	.string "인기가 많은 거 같아!$"
+	.string "인기인 거 같아!$"
 	// そうだねぇ……ｐ
 	// いまは §いがｎ
 	// アッつい みたいだね!
@@ -162,7 +162,7 @@ BattleFrontier_Lounge2_Text_FacilityIsHottest:: @ 82608F2
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest:: @ 8260933
 	.string "그렇군...\p"
 	.string "지금은 배틀타워 {STR_VAR_1}{K_IGA}\n"
-	.string "인기가 많은 거 같아!$"
+	.string "인기인 거 같아!$"
 	// そうだねぇ……ｐ
 	// いまは バトルタワ-§いがｎ
 	// アッつい みたいだね!
@@ -188,7 +188,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons:: @ 8260A1E
 	.string "에스퍼의 초능력포켓몬!\l"
 	.string "불꽃의 화산포켓몬!\l"
 	.string "노말의 졸음포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは タワ-タイク-ンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつは あいての ちからを はかるときｎ
@@ -200,11 +200,11 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons:: @ 8260A1E
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons:: @ 8260AE7
 	.string "너는 진심인 타워타이쿤과\n"
 	.string "배틀한 적이 있어?\p"
-	.string "녀석은 진심으로 싸울 때\n"
-	.string "드래곤, 에스퍼의 무한포켓몬!\l"
+	.string "녀석은 진심으로 배틀할 때\n"
+	.string "드래곤과 에스퍼의 무한포켓몬!\l"
 	.string "전기의 우뢰포켓몬!\l"
 	.string "노말의 졸음포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの タワ-タイク-ンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつは ほんとの ちからで たたかうときｎ
@@ -231,10 +231,10 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons:: @ 8260C6D
 	.string "너는 돔슈퍼스타와\n"
 	.string "배틀한 적이 있어?\p"
 	.string "녀석은 상대의 힘을 얕볼 때\n"
-	.string "드래곤, 비행의 드래곤포켓몬!\l"
-	.string "물, 땅의 늪물고기포켓몬!\l"
-	.string "불, 비행의 화염포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "드래곤과 비행의 드래곤포켓몬!\l"
+	.string "물과 땅의 늪물고기포켓몬!\l"
+	.string "불과 비행의 화염포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ド-ムス-パ-スタ-とｎ
 	// たたかったこと あるかい?ｐ
 	// やつは あいての ちからを なめてるときｎ
@@ -247,10 +247,10 @@ BattleFrontier_Lounge2_Text_DomeAceGoldMons:: @ 8260D3A
 	.string "너는 진심인 돔슈퍼스타와\n"
 	.string "배틀한 적이 있어?\p"
 	.string "녀석은 전력으로 싸울 때\n"
-	.string "드래곤, 에스퍼의 무한포켓몬!\l"
-	.string "물, 땅의 늪물고기포켓몬!\l"
-	.string "강철, 에스퍼의 무쇠다리포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "드래곤과 에스퍼의 무한포켓몬!\l"
+	.string "물과 땅의 늪물고기포켓몬!\l"
+	.string "강철과 에스퍼의 무쇠다리포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの ド-ムス-パ-スタ-とｎ
 	// たたかったこと あるかい?ｐ
 	// やつは じぶんの せんりゃくを みせるときｎ
@@ -279,7 +279,7 @@ BattleFrontier_Lounge2_Text_FactoryHeadSilverMons:: @ 8260EC7
 	.string "녀석은 사용하는 포켓몬은\n"
 	.string "대여 포켓몬 중\l"
 	.string "랜덤으로 3마리!\l"
-	.string "너와 거의 같은 조건인 듯해!$"
+	.string "너와 거의 같은 조건인가 봐!$"
 	// きみは もう ファクトリ-ヘッドとｎ
 	// たたかったこと あるかい?ｐ
 	// あいつが つかう ポケモンはｎ
@@ -294,7 +294,7 @@ BattleFrontier_Lounge2_Text_FactoryHeadGoldMons:: @ 8260F74
 	.string "대여 포켓몬 중에서\l"
 	.string "랜덤으로 3마리!\l"
 	.string "너와 거의 같은 조건으로\n"
-	.string "싸우는 듯해!$"
+	.string "배틀하는 것 같아!$"
 	// きみは ほんきの ファクトリ-ヘッドとｎ
 	// たたかったこと あるかい?ｐ
 	// あいつは ほんきで たたかう ときでもｎ
@@ -324,7 +324,7 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons:: @ 82610CC
 	.string "독의 송곳뱀포켓몬!\l"
 	.string "벌레의 발효포켓몬!\l"
 	.string "물의 사랑포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは チュ-ブクイ-ンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつは きげんの いいときｎ
@@ -338,9 +338,9 @@ BattleFrontier_Lounge2_Text_PikeQueenGoldMons:: @ 8261194
 	.string "배틀한 적이 있어?\p"
 	.string "녀석은 정말로 화났을 때\n"
 	.string "독의 송곳뱀포켓몬!\l"
-	.string "강철, 땅의 철뱀포켓몬!\l"
-	.string "물, 비행의 흉악포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "강철과 땅의 철뱀포켓몬!\l"
+	.string "물과 비행의 흉악포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの チュ-ブクイ-ンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつは ほんきで おこったときｎ
@@ -367,10 +367,10 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons:: @ 8261329
 	.string "너는 이미 아레나캡틴과\n"
 	.string "배틀한 적이 있어?\p"
 	.string "그 애는 상대의 힘을 살필 때\n"
-	.string "벌레, 격투의 외뿔포켓몬!\l"
+	.string "벌레와 격투의 외뿔포켓몬!\l"
 	.string "악의 달빛포켓몬!\l"
-	.string "벌레, 고스트의 허물포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "벌레와 고스트의 허물포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは もう アリ-ナキャプテンとｎ
 	// たたかったこと あるかい?ｐ
 	// あのこは あいての ちからを うかがうときｎ
@@ -384,9 +384,9 @@ BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons:: @ 8261403
 	.string "배틀한 적이 있어?\p"
 	.string "그 애는 진심으로 싸울 때\n"
 	.string "악의 달빛포켓몬!\l"
-	.string "고스트, 독의 그림자포켓몬!\l"
-	.string "풀, 격투의 버섯포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "고스트와 독의 그림자포켓몬!\l"
+	.string "풀과 격투의 버섯포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの アリ-ナキャプテンとｎ
 	// たたかったこと あるかい?ｐ
 	// あのこは マジで たたかう ときｎ
@@ -412,10 +412,10 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons:: @ 8261591
 	.string "너는 팰리스가디언과\n"
 	.string "배틀한 적이 있어?\p"
 	.string "녀석은 상대의 마음을 시험할 때\n"
-	.string "독, 비행의 박쥐포켓몬!\l"
+	.string "독과 비행의 박쥐포켓몬!\l"
 	.string "노말의 나태함포켓몬!\l"
-	.string "물, 얼음의 탈것포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "물과 얼음의 탈것포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは パレスガ-ディアンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつは あいての こころを ためすときｎ
@@ -431,7 +431,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenGoldMons:: @ 826166F
 	.string "불꽃의 전설포켓몬!\l"
 	.string "노말의 나태함포켓몬!\l"
 	.string "물의 오로라포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの パレスガ-ディアンとｎ
 	// たたかったこと あるかい?ｐ
 	// やつが てかげんぬきで たたかうときはｎ
@@ -461,7 +461,7 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons:: @ 82617F9
 	.string "바위의 바위산포켓몬!\l"
 	.string "얼음의 빙산포켓몬!\l"
 	.string "강철의 쇠철포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは もう ピラミッドキングとｎ
 	// たたかったこと あるかい?ｐ
 	// かれは あいての ちからを ためすときｎ
@@ -474,10 +474,10 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons:: @ 82618C4
 	.string "너는 진심인 피라미드킹과\n"
 	.string "배틀한 적이 있어?\p"
 	.string "그는 뜨거운 힘이 끓어오를 때\n"
-	.string "얼음, 비행의 냉동포켓몬!\l"
-	.string "전기, 비행의 전기포켓몬!\l"
-	.string "불꽃, 비행의 화염포켓몬\l"
-	.string "3마리를 내보낸다는 것 같아!$"
+	.string "얼음과 비행의 냉동포켓몬!\l"
+	.string "전기와 비행의 전기포켓몬!\l"
+	.string "불꽃과 비행의 화염포켓몬\l"
+	.string "3마리를 내보내는 것 같아!$"
 	// きみは ほんきの ピラミッドキングとｎ
 	// たたかったこと あるかい?ｐ
 	// かれに あつい ちからが みなぎるときはｎ
@@ -509,7 +509,7 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice2:: @ 8261A91
 	// たたかう トレ-ナ-も いるみたいだぜ!
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3:: @ 8261B0C
-	.string "이곳의 배틀에서\n"
+	.string "이곳의 배틀로\n"
 	.string "더블배틀에 자신이 생겼다면\l"
 	.string "다른 더블배틀이 있는 장소에\l"
 	.string "도전하는 것도 좋을 거야!$"
@@ -535,7 +535,7 @@ BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice:: @ 8261C1A
 	.string "통신멀티 배틀룸!!\p"
 	.string "강한 친구와 같이 간다면\n"
 	.string "강한 트레이너들과의\l"
-	.string "배틀이 기다리고 있을 거야!!$"
+	.string "배틀이 기다리고 있을 거야!$"
 	// ともだちが あつまったらｎ
 	// つうしんマルチ バトルル-ム!!ｐ
 	// つよい ともだちと いっしょに あそべばｎ
