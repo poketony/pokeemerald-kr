@@ -63,27 +63,39 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated:: @ 8228724
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech: @ 822873E
-	.string "이 몸이 바로 포켓몬리그의\n"
+	.string "이 몸이 포켓몬리그의\n"
 	.string "마지막 사천왕인\l"
-	.string "드래곤 조련사 권수!\p"
+	.string "드래곤 조련사 권수다!\p"
 	.string "포켓몬은 본래\n"
-	.string "자유로운 야생의 생물이다\p"
-	.string "때론 인간을 곤란하게 하고\n"
-	.string "때론 인간을 도와주지\p"
-	.string "그런 포켓몬과 함께하는 승부에\n"
+	.string "자유로운 야생의 생물이지\p"
+	.string "때로는 인간을 곤란하게 하고\n"
+	.string "때로는 인간을 도와준다\p"
+	.string "그런 포켓몬과 함께하는 배틀에\n"
 	.string "뭐가 필요한지\l"
 	.string "넌 알고 있나?\p"
 	.string "그걸 모른다면\n"
-	.string "넌 이 몸을 이길 수 없다!$"
+	.string "이 몸을 이길 수 없다!$"
+	// わしが ポケモン リ-グｎ
+	// してんのう さいごの ひとりｌ
+	// ドラゴンつかいの ゲンジ!ｐ
+	// ポケモンは もともとｎ
+	// じゆうきままな やせいの いきものｐ
+	// ときとして ひとを こまらせｎ
+	// ときとして ひとを たすけるｐ
+	// そんな ポケモンと いっしょに たたかうのにｎ
+	// なにが ひつようかｌ
+	// おまえ わかって いるのか?ｐ
+	// わかって いなければｎ
+	// この わしに かつことなど できまい!
 
 EverGrandeCity_DrakesRoom_Text_Defeat: @ 8228895
 	.string "훌륭하다! 라고 할 만하군!$"
+	// みごと! というべきだな!
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech: @ 82288B0
 	.string "과연 여기까지\n"
-	.string "도달한 포켓몬 트레이너다\l"
-	.string "뭐가 필요한지\l"
-	.string "잘 알고 있는 것 같군\p"
+	.string "도달한 포켓몬 트레이너\l"
+	.string "뭐가 필요한지 잘 아는 것 같군\p"
 	.string "그래! 트레이너에게\n"
 	.string "필요한 것은 올바른 마음!\p"
 	.string "포켓몬은 트레이너의\n"
@@ -91,5 +103,16 @@ EverGrandeCity_DrakesRoom_Text_PostBattleSpeech: @ 82288B0
 	.string "사물의 선악을 판단해서\l"
 	.string "올바른 마음을 느껴 강해지는 거다!\p"
 	.string "자! 계속 나아가라!\n"
-	.string "챔피언이 기다리고 있다!$"
+	.string "챔피언이 기다리고 있다!!$"
+	// さすがは ここまでｎ
+	// やってきた ポケモン トレ-ナ-ｌ
+	// ひつような もの わかっている ようだなｐ
+	// そう! トレ-ナ-にｎ
+	// ひつよう なのは ただしい こころ!ｐ
+	// ポケモンは トレ-ナ-のｎ
+	// ただしい こころに ふれてｌ
+	// ものごとの ぜんあくを はんだんしｌ
+	// ただしい こころに ふれて つよくなる!ｐ
+	// さあ つぎに すすめ!ｎ
+	// チャンピオンが まって おるぞ!!
 

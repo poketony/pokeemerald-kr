@@ -32,9 +32,11 @@ LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman:: @ 81FFB2E
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether: @ 81FFB37
 	.string "포켓몬이랑 같이 걷다 보면\n"
-	.string "왠지 포켓몬이 더\l"
-	.string "잘 따르는 것 같은\l"
+	.string "왠지 포켓몬이 더 잘 따르는 듯한\l"
 	.string "느낌이 든단 말이지$"
+	// ポケモンと いっしょに あるいているとｎ
+	// なんだか ポケモンが なついてくれるようなｌ
+	// そんな きが するのよね
 
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate: @ 81FFBAD
 	.string "온천에 들어간 것만으로도\n"
@@ -49,4 +51,8 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo: @ 81FFC21
 	.string "여기서부터 온천에 갈 수 있단다!\p"
 	.string "포켓몬이 여기서 쉰다면\n"
 	.string "사람도 온천에서 푹 쉬어야지!$"
+	// ほっほっほ! おわかいのｎ
+	// ここから おんせんに いけますぞ!ｐ
+	// ポケモンが ここで やすむのならｎ
+	// ひとも おんせんで ゆっくり しませんと!
 

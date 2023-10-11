@@ -112,16 +112,26 @@ FortreeCity_Text_SomethingBlockingGym: @ 81E2738
 	.string "뭔가가 길을 막고 있어!\p"
 	.string "모처럼 120번 도로에서\n"
 	.string "포켓몬을 키우고 왔는데!$"
+	// ポケモンジムに いきたいのにｎ
+	// なにかが みちを ふさいでいるのよ!ｐ
+	// せっかく 120ばん どうろでｎ
+	// ポケモン そだてて きたのに!
 
 FortreeCity_Text_ThisTimeIllBeatWinona: @ 81E27B6
 	.string "내가 자랑하는 포켓몬으로\n"
 	.string "이번에야말로 은송님을 이겨보겠어!$"
+	// あたしの じまんの ポケモンでｎ
+	// こんどこそ ナギさんに かってみせるわ!
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater: @ 81E27FE
 	.string "비가 땅에 스며들고\n"
 	.string "그 물을 빨아들여 나무가 자란다...\p"
 	.string "물과 땅 둘 다 있으니까\n"
 	.string "이 검방울시티도 있는 거야$"
+	// あめが じめんに すいこまれてｎ
+	// その みずを すって きがそだつ……ｐ
+	// みずと つちが りょうほう あるからｎ
+	// この ヒワマキシティも あるのよね
 
 FortreeCity_Text_EveryoneHealthyAndLively: @ 81E2880
 	.string "이 마을은 나무 위에\n"
@@ -130,23 +140,38 @@ FortreeCity_Text_EveryoneHealthyAndLively: @ 81E2880
 	.string "활기가 넘치지\p"
 	.string "나도 이 마을에 오고 나서\n"
 	.string "30년 정도 젊어진 느낌이라네$"
+	// このまちは きのうえにｎ
+	// いえを たてて くらしている……ｐ
+	// そのせいか みんな げんきでｎ
+	// イキイキと している のですよｐ
+	// わしも このまちに きてからｎ
+	// 30ねんほど わかがえった きぶんです
 
 FortreeCity_Text_BugPokemonComeThroughWindow: @ 81E292E
 	.string "나무 위에서 산다는 건 좋지만\p"
 	.string "가끔 창문 밖에서\n"
 	.string "벌레포켓몬이 들어오기도 해서\l"
 	.string "깜짝 놀랄 때가 있어$"
+	// きのうえで くらすのは いいんだけどｐ
+	// ときどき まどの そとからｎ
+	// むしポケモンが はいって きたりしてｌ
+	// びっくり しちゃうんだよね
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded: @ 81E299D
-	.string "통신케이블을 지나는 것으로\n"
-	.string "진화하는 포켓몬도 있어$"
+	.string "친구와 교환하면\n"
+	.string "진화하는 포켓몬도 있어!$"
+	// ともだちと こうかんを するとｎ
+	// しんか する ポケモンが いるんだって!
 
 FortreeCity_Text_SomethingUnseeable: @ 81E29E5
 	.string "보이지 않는 무언가가 있는 것 같다$"
+	// みえない なにかが いるようだ
 
 FortreeCity_Text_UnseeableUseDevonScope: @ 81E2A08
 	.string "보이지 않는 무언가가 있는 것 같다\p"
 	.string "데봉스코프를 사용하겠습니까?$"
+	// みえない なにかが いるようだｐ
+	// デボンスコ-プを つかいますか?
 
 FortreeCity_Text_UsedDevonScopePokemonFled: @ 81E2A48
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -155,13 +180,24 @@ FortreeCity_Text_UsedDevonScopePokemonFled: @ 81E2A48
 	.string "포켓몬의 모습이 훤히 보이게 됐다!\p"
 	.string "포켓몬은\n"
 	.string "놀라서 도망쳤다!$"
+	// §あはｎ
+	// デボンスコ-プを つかった!ｐ
+	// とうめいに なっていたｎ
+	// ポケモンの すがたが まるわかりだ!ｐ
+	// ポケモンはｎ
+	// おどろいて にげだした!
 
 FortreeCity_Text_CitySign: @ 81E2AAC
 	.string "여기는 검방울시티\n"
 	.string "나무 위에서 자연과 어우러지는 마을$"
+	// ここは ヒワマキ シティｎ
+	// きの うえで しぜんと たわむれる まち
 
 FortreeCity_Text_GymSign: @ 81E2AE6
 	.string "검방울시티 포켓몬체육관\n"
 	.string "관장 은송\l"
-	.string "세상에 날갯짓하는 새 조련사$"
+	.string "세상에 날갯짓하는 새 조련사!$"
+	// ヒワマキ シティ ポケモンジムｎ
+	// リ-ダ- ナギｌ
+	// せかいに はばたく とりつかい!
 

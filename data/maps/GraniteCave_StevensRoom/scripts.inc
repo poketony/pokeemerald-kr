@@ -119,7 +119,7 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
 	.string "꽤 좋은 느낌이네\p"
 	.string "수행을 계속해 나가면\n"
 	.string "언젠가 포켓몬리그의\l"
-	.string "챔피언도 될 수 있을 거 같은\l"
+	.string "챔피언도 될 수 있을 거 같아\l"
 	.string "그런 생각이 드네 난\p"
 	.string "그래!\n"
 	.string "모처럼 너하고 만났으니까\l"

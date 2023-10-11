@@ -283,6 +283,7 @@ EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
 	.string "정말 원더풀하고\n"
 	.string "얄미울 정도로 엘레강트!\l" 
 	.string "하지만 매우 글로리어스!\p"
+	.string "역시 {PLAYER}!\p"
 	.string "너는 정말로 멋진\n"
 	.string "포켓몬 트레이너야!$"
 	// チャンピオンであるｎ
@@ -328,7 +329,7 @@ EverGrandeCity_ChampionsRoom_Text_MayAdvice: @ 82290CA
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver: @ 822910B
 	.string "봄이: 응? 으응??\p"
-	.string "{PLAYER}...\n"
+	.string "{PLAYER}{K_AYA}...\n"
 	.string "설마...\l"
 	.string "이미 끝난 거야...?$"
 	// ハルカ『あれ? あれれ?ｐ
@@ -345,7 +346,7 @@ EverGrandeCity_ChampionsRoom_Text_BrendanAdvice: @ 8229152
 	// オレが アドバイス してやろうか……
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon: @ 82291A2
-	.string "휘웅: {PLAYER}...\p"
+	.string "휘웅: {PLAYER}{K_AYA}...\p"
 	.string "너 설마\n"
 	.string "챔피언한테 이긴 거야?$"
 	// ユウキ『§あ……ｐ
@@ -357,10 +358,10 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex: @ 82291E6
 	.string "{PLAYER}{K_I}라면 걱정할 필요 없다고\n"
 	.string "내가 말하지 않았더냐!\p"
 	.string "...... ...... ......\n"
-	.string "{PLAYER} 드디어 해냈구나\p"
+	.string "{PLAYER}{K_AYA} 드디어 해냈구나\p"
 	.string "네가 등화체육관에 있는 아빠한테\n"
 	.string "이겼다고 들었을 때부터\l"
-	.string "혹시나...하는 생각은 있었다만\p"
+	.string "혹시나... 하는 생각은 있었지만\p"
 	.string "설마 진짜 챔피언이\n"
 	.string "될 줄이야!\p"
 	.string "...오오 맞다!\p"

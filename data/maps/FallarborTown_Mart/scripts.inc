@@ -48,18 +48,28 @@ FallarborTown_Mart_EventScript_Skitty:: @ 81FFD06
 	end
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve: @ 81FFD19
-	.string "내 에나비한테\n"
-	.string "달의돌을 써서...\p"
+	.string "내 에나비한테 말이지\n"
+	.string "달의돌을 써서 말이지...\p"
 	.string "진화시킬지 말지\n"
 	.string "엄청 고민하고 있어\p"
 	.string "진화시키면 강해지지만\n"
-	.string "모습이 달라져 버리잖아...$"
+	.string "모습이 달라져 버리니까...$"
+	// あたしの エネコにねｎ
+	// つきのいしを つかってね……ｐ
+	// しんか させるか どうかｎ
+	// すっごい まよってるのよぉｐ
+	// しんか させると つよくなるけどｎ
+	// すがたかたち かわっちゃうし……
 
 FallarborTown_Mart_Text_Skitty: @ 81FFDFA
 	.string "에나비: 냐-오?$"
+	// エネコ『みゃおう?
 
 FallarborTown_Mart_Text_SellNuggetIFound: @ 81FFE09
 	.string "금구슬을 주웠는데...\n"
 	.string "역시 팔아야겠지...?\l"
 	.string "달리 쓸 데도 없으니까...$"
+	// ひろった きんのたま……ｎ
+	// やっぱり うるしか ないのかなあ?ｌ
+	// ほかに つかいみちも ないからなあ……
 

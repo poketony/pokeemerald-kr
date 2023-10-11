@@ -25,12 +25,17 @@ EverGrandeCity_EventScript_SetVisitedEverGrande:: @ 81E7D46
 
 EverGrandeCity_Text_EnteringVictoryRoad: @ 81E7D4F
 	.string "이 앞은 챔피언로드$"
+	// これより チャンピオン ロ-ド
 
 EverGrandeCity_Text_EnteringPokemonLeague: @ 81E7D65
 	.string "이 앞은 포켓몬리그\n"
 	.string "정면 게이트$"
+	// これより ポケモン リ-グｎ
+	// しょうめん ゲ-ト
 
 EverGrandeCity_Text_CitySign: @ 81E7D89
 	.string "여기는 그랜드시티\n"
 	.string "꽃과 바다와 포켓몬의 낙원$"
+	// ここは サイユウ シティｎ
+	// はなと うみと ポケモンの らくえん
 

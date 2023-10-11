@@ -65,8 +65,8 @@ FortreeCity_House1_EventScript_Zigzagoon:: @ 8216368
 
 FortreeCity_House1_Text_YouWillTradeWontYou: @ 821637B
 	.string "우오-!\n"
-	.string "어떻게 해서든 {STR_VAR_1}{K_EULREUL}\l"
-	.string "가지고 싶어! ...이런\l"
+	.string "어떻게 해서든 {STR_VAR_1}{K_EULREUL} 가지고 싶어!\l"
+	.string "...이런\l"
 	.string "마음의 소리를 들켜버렸군!\p"
 	.string "들었다면\n"
 	.string "네 {STR_VAR_1}{K_WAGWA} {STR_VAR_2}{K_EULREUL}\l"
@@ -94,8 +94,8 @@ FortreeCity_House1_Text_ThisIsntAMon: @ 8216474
 	// §いじゃないでしょ
 
 FortreeCity_House1_Text_YouWontTradeMe: @ 821649F
-	.string "뭐 교환하지 않는 거야?\n"
-	.string "마음의 소리를 들었으면서...?$"
+	.string "뭐 교환하지 않는다고?\n"
+	.string "마음의 소리를 들었으면서...$"
 	// え こうかん しないの?ｎ
 	// こころの さけびを きいたくせに……
 
@@ -108,11 +108,14 @@ FortreeCity_House1_Text_GoingToMakeVolbeatStrong: @ 82164DB
 	// プラスルも つよく してやってよ!
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
-	.string "다른 사람과 포켓몬을\n"
-	.string "교환하는 것...\p"
+	.string "다른 사람과 포켓몬을 교환하는 것...\p"
 	.string "그건 자기들의 추억을\n"
 	.string "교환하는 것이나 마찬가지지$"
+	// ひとと ポケモンを こうかん する……ｐ
+	// つまりは それぞれのｎ
+	// おもいでを こうかん しているのじゃな
 
 FortreeCity_House1_Text_Zigzagoon: @ 8216597
 	.string "지그제구리: 크옹?$"
+	// ジグザグマ『グモモォ?
 

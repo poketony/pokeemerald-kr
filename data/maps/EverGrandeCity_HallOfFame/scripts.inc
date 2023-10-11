@@ -89,8 +89,8 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions: @ 822990E
 	.string "윤진: 이곳은...\p"
 	.string "격렬한 싸움을 이겨낸\n"
 	.string "포켓몬을 기록하는 곳이자\p"
-	.string "포켓몬리그 챔피언의\n"
-	.string "영광을 기리기 위한 장소!$"
+	.string "리그 챔피언의\n"
+	.string "영광을 기리기 위한 장소야!$"
 	// ミクリ『ここは……ｐ
 	// はげしい たたかいを かちぬいたｎ
 	// ポケモンを きろくする ばしょｐ
@@ -100,7 +100,7 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions: @ 822990E
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames: @ 82299A3
 	.string "윤진: 자! 포켓몬리그에서\n"
 	.string "승리를 쟁취한 네 이름과\p"
-	.string "너와 함께 싸운 파트너를\n"
+	.string "함께 싸운 너의 파트너를\n"
 	.string "이 머신에 기록하는 거야!$"
 	// ミクリ『さあ! ポケモン リ-グをｎ
 	// かちぬいた きみの なまえとｐ

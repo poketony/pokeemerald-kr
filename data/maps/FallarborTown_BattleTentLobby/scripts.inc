@@ -308,7 +308,7 @@ FallarborTown_BattleTentLobby_EventScript_ExitRules:: @ 8200302
 
 FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid: @ 8200304
 	.string "후후후후후후\p"
-	.string "단순한 어린애라고 생각하게 해서\n"
+	.string "평범한 어린애라고 생각하게 해서\n"
 	.string "모두를 방심시키고\l"
 	.string "내가 우승하는 거야!$"
 	// ふふふふふふｐ
@@ -318,10 +318,10 @@ FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid: @ 8200304
 
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite: @ 8200382
 	.string "배틀텐트는 마을에 따라\n"
-	.string "도전할 수 있는 게 다르지?\l"
+	.string "도전할 수 있는 종목이 다르지?\l"
 	.string "나는 당연히 단풍마을의\l"
 	.string "배틀텐트가 좋아!\p"
-	.string "믿고 있는 포켓몬들과 이겨나가다니\n"
+	.string "믿고 있는 포켓몬들과 이겨나간다니\n"
 	.string "엄청 멋지지 않아?$"
 	// バトルテントって まちに よってｎ
 	// ちょうせん できる ことが ちがうでしょ?ｌ
@@ -341,7 +341,7 @@ FallarborTown_BattleTentLobby_Text_CameToCampOut: @ 820045A
 	// よし ついでに ちょうせん してみるか?
 
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone: @ 8200501
-	.string "금작화: 여어 {PLAYER}\n"
+	.string "금작화: 여어 {PLAYER}{K_AYA}\n"
 	.string "왔구나 배틀텐트에!\p"
 	.string "정말 이 지방은\n"
 	.string "태평한 사람이 많구나\l"
@@ -349,7 +349,7 @@ FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone: @ 8200501
 	.string "이기고 싶은 파워가 넘쳐흐르는\l"
 	.string "사람을 원하는데 말이지!\l"
 	.string "그런 트레이너가 있다면 바로\p"
-	.string "...라니 아냐 아무것도\n"
+	.string "...아니 아냐 아무것도\n"
 	.string "그럼 힘내!$"
 	// エニシダ『やあ §あ§おｎ
 	// きたんだね バトルテントに!ｐ

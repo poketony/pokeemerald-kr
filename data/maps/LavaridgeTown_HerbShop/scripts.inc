@@ -45,11 +45,16 @@ LavaridgeTown_HerbShop_EventScript_ExplainCharcoal:: @ 81FE534
 LavaridgeTown_HerbShop_Text_WelcomeToHerbShop: @ 81FE53E
 	.string "어서 오세요!\n"
 	.string "싸고 효과 좋은 한방약국입니다$"
+	// どうも!ｎ
+	// やすくて よく きく かんぽうや です
 
 LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine: @ 81FE584
-	.string "용암마을의 한약을 보러 오다니\n"
-	.string "뭘 좀 아는구먼\p"
+	.string "용암마을의 한약을\n"
+	.string "보러 오다니 뭘 좀 아는구먼\p"
 	.string "마음에 들었네! 이걸 가져가게나!$"
+	// フエンの かんぽうやくをｎ
+	// みにくるとは なかなか しぶいのうｐ
+	// きにいった! これを もってけ!
 
 LavaridgeTown_HerbShop_Text_ExplainCharcoal: @ 81FE5EB
 	.string "자네에게 준 목탄은\n"
@@ -57,10 +62,17 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal: @ 81FE5EB
 	.string "포켓몬에게 지니게 해도 굉장하지!\p"
 	.string "불꽃타입 기술의 위력을\n"
 	.string "높여 주거든!$"
+	// おまえさんに あげた もくたんはｎ
+	// かんぽうやくを つくるのに つかうがｌ
+	// ポケモンに もたせても すごいぞ!ｐ
+	// ほのおタイプの わざの いりょくをｎ
+	// たかめて くれるのじゃよ!
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike: @ 81FE685
 	.string "한약의 효과는 엄청나지만\n"
-	.string "포켓몬에게 마시게 하면\l"
-	.string "자네를 싫어하게 된다네\l"
-	.string "분명히 엄청 써서 그런 걸 테지!$"
+	.string "포켓몬에게 마시게 하면 미움받는다네\l"
+	.string "분명 엄청 써서 그런 것일 테지!$"
+	// かんぽうやくの ききめは すごいがｎ
+	// ポケモンに のませると きらわれるぞよｌ
+	// きっと すっごく にがいんじゃろうな!
 

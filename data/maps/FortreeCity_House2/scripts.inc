@@ -46,6 +46,9 @@ FortreeCity_House2_Text_HiddenPowersArousedByNature: @ 8217882
 	.string "사람도 포켓몬도\n"
 	.string "자연 속에서 살아감으로써\l"
 	.string "본연의 힘이 깨어난다...$"
+	// ひとも ポケモンもｎ
+	// しぜんの なかで くらすことでｌ
+	// もともとの パワ-が めざめる……
 
 FortreeCity_House2_Text_CoinInWhichHand: @ 82178D6
 	.string "자네의 힘이 깨어 있는지\n"
@@ -53,18 +56,31 @@ FortreeCity_House2_Text_CoinInWhichHand: @ 82178D6
 	.string "어디 보자... 내 오른손과 왼손\n"
 	.string "어느 쪽에 코인이 있는지\l"
 	.string "직감으로 선택해봐$"
+	// おぬしの パワ-が めざめているかｎ
+	// たしかめると するかの……ｐ
+	// どれ…… わしの みぎてと ひだりてｎ
+	// どちらに コインが はいっておるかｌ
+	// ちょっかんで えらんで みなさい
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand: @ 821796A
 	.string "오오! 정답이다!\p"
 	.string "오른손과 왼손\n"
 	.string "어느 쪽에 코인이 있는지\l"
 	.string "직감으로 선택해봐$"
+	// おお! せいかい じゃ!ｐ
+	// つぎは みぎてと ひだりてｎ
+	// どちらに コインが はいっておるかｌ
+	// ちょっかんで えらんで みなさい
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2: @ 82179C9
 	.string "오오! 정답이다!\p"
 	.string "오른손과 왼손\n"
 	.string "어느 쪽에 코인이 있는지\l"
 	.string "직감으로 선택해봐$"
+	// おお! せいかい じゃ!ｐ
+	// つぎは みぎてと ひだりてｎ
+	// どちらに コインが はいっておるかｌ
+	// ちょっかんで えらんで みなさい
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken: @ 8217A28
 	.string "오옷! 대단하군!\n"
@@ -72,12 +88,21 @@ FortreeCity_House2_Text_YourHiddenPowerHasAwoken: @ 8217A28
 	.string "이걸 줄 테니\n"
 	.string "자네의 포켓몬이 지닌 힘을\l"
 	.string "깨우도록 하게!$"
+	// おお! みごと じゃ!ｎ
+	// おぬしの パワ-は めざめているの!ｐ
+	// これを あげるからｎ
+	// おぬしの ポケモンも パワ-をｌ
+	// めざめさせて やると ええぞ!
 
 FortreeCity_House2_Text_ExplainHiddenPower: @ 8217A91
 	.string "잠재파워는 포켓몬에 따라\n"
 	.string "위력이 달라지는 기술이라네!$"
-
+	// めざめるパワ-は ポケモンによってｎ
+	// いりょくが かわる わざ なんじゃよ!
+	
 FortreeCity_House2_Text_YouGuessedWrong: @ 8217AC7
-	.string "이런...\n"
+	.string "유감이구먼...\n"
 	.string "꽝이라네...$"
+	// ざんねん……ｎ
+	// はずれ じゃ……
 

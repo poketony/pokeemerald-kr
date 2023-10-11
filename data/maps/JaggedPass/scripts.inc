@@ -157,67 +157,89 @@ JaggedPass_EventScript_Autumn:: @ 8230871
 
 JaggedPass_Text_EricIntro: @ 8230888
 	.string "굴뚝산의 울퉁불퉁 산길은\n"
-	.string "완벽하게 내가 꿈에 그리던 산이야!\l"
-	.string "울퉁불퉁! 너무 좋아서\l"
-	.string "참을 수가 없어!$"
+	.string "그야말로 내가 꿈에 그리던 산이야!\l"
+	.string "이 울퉁불퉁함이 너무 좋아서 참을 수 없어!$"
+	// えんとつやまの デコボコさんどうｎ
+	// まさに わたしが もとめていた やま!ｌ
+	// この デコボコした ところが たまらん!
 
 JaggedPass_Text_EricDefeat: @ 82308FF
 	.string "져버려서 분해!$"
+	// まけて くやしいぞ!
 
 JaggedPass_Text_EricPostBattle: @ 8230916
-	.string "포켓몬 승부에서는 졌다...\p"
+	.string "확실히 포켓몬 승부에서는 졌다...\p"
 	.string "하지만 산을 사랑하는 마음만큼은\n"
-	.string "나의 승리다!$"
+	.string "나의 승리겠지!$"
+	// たしかに ポケモンでは まけた……ｐ
+	// だが やまを あいする きもちならｎ
+	// わたしの ほうが まさっているだろ!
 
 JaggedPass_Text_DianaIntro: @ 8230974
-	.string "여긴 가벼운 마음으로\n"
-	.string "오르면 안 되겠어\l"
+	.string "여긴 가벼운 마음으로 오르면 안 되겠다\n"
 	.string "피크닉엔 좀 안 어울려$"
+	// ここは きがるに のぼって いけないものｎ
+	// ちょっと ピクニックむき じゃないわ
 
 JaggedPass_Text_DianaDefeat: @ 82309B5
 	.string "아-잉! 정말!\n"
 	.string "발밑이 울퉁불퉁하니까...$"
+	// あ-ん もう!ｎ
+	// したが デコボコだから……
 
 JaggedPass_Text_DianaPostBattle: @ 82309D8
 	.string "이렇게 울퉁불퉁한 곳을\n"
 	.string "자전거로 잘 올라가는\l"
 	.string "사람도 있어!$"
+	// こんな デコボコしたところｎ
+	// じてんしゃで じょうずに のぼっていくｌ
+	// ひとも いるのよ!
 
 JaggedPass_Text_DianaRegister: @ 8230A2C
 	.string "또 여기에 오려나?\n"
-	.string "만약 그렇게 되면 나와 승부해줘!$"
+	.string "그렇게 되면 나와 승부해줘!$"
 	// また ここに くることって あるかな?ｎ
 	// そしたら わたしと しょうぶしてね!
 
 JaggedPass_Text_DianaRematchIntro: @ 8230A76
 	.string "어떤 길이라도 피크닉은 즐거워!\n"
 	.string "포켓몬도 같이 있고 말이야!$"
+	// どんな みちも ピクニックは たのしい!ｎ
+	// ポケモンも いっしょ だしね!
 
 JaggedPass_Text_DianaRematchDefeat: @ 8230AAA
 	.string "발밑이 울퉁불퉁해서\n"
 	.string "져버린 거야!$"
+	// まけたのはｎ
+	// したが デコボコだからよ!
 
 JaggedPass_Text_DianaPostRematch: @ 8230AD7
-	.string "져버린 건 후딱 잊어버리고\n"
+	.string "패배한 건 얼른 잊어버리고\n"
 	.string "이 울퉁불퉁한 길을 실컷 즐겨야지!$"
+	// まけたことは さっさと わすれてｎ
+	// この デコボコみちを たのしんじゃお!
 
 JaggedPass_Text_EthanIntro: @ 8230B10
-	.string "이 울퉁불퉁 산길은\n"
-	.string "걷기가 무척 힘들지!\p"
-	.string "포켓몬을 단련시키기에\n"
-	.string "딱 좋은 곳이다!$"
+	.string "이 울퉁불퉁 산길은 걷기가 무척 힘들지!\n"
+	.string "포켓몬을 단련시키기에 딱 좋은 곳이다!$"
+	// この デコボコさんどうは あるきにくい!ｎ
+	// ポケモンを きたえるのに むいてるよ!
 
 JaggedPass_Text_EthanDefeat: @ 8230B50
 	.string "발밑을 신경 쓰는 사이에\n"
-	.string "끝나버린 듯하군...$"
+	.string "끝나버린 모양이군...$"
+	// あしばを きにしてる うちにｎ
+	// おわっちゃった かんじだ……
 
 JaggedPass_Text_EthanPostBattle: @ 8230B93
 	.string "나도 더트자전거가 있으면\n"
-	.string "턱을 뛰어넘을 수 있을 텐데...$"
+	.string "턱을 뛰어넘을 수 있을 텐데$"
+	// ぼくも ダ-トじてんしゃ もっていればｎ
+	// だんさを とびこえて いけるのにな
 
 JaggedPass_Text_EthanRegister: @ 8230BC6
 	.string "좀 더 울퉁불퉁한 길에 익숙해지면\n"
-	.string "이번에야말로 이길 수 있어!\p"
+	.string "이번에야말로 이길 수 있어!\l"
 	.string "나를 포켓내비에 등록해둬$"
 	// もうちょっと デコボコに なれたらｎ
 	// こんどこそ かつぞ!ｌ
@@ -225,16 +247,21 @@ JaggedPass_Text_EthanRegister: @ 8230BC6
 
 JaggedPass_Text_EthanRematchIntro: @ 8230C28
 	.string "울퉁불퉁한 길에 익숙해져서\n"
-	.string "요즘엔 그냥 노래를 흥얼거리면서\l"
-	.string "올라갈 정도야!$"
+	.string "요즘엔 노래를 부르면서 올라갈 정도야!$"
+	// デコボコに なれちゃったからｎ
+	// ちかごろだと うたいながら のぼるのさ!
 
 JaggedPass_Text_EthanRematchDefeat: @ 8230C60
-	.string "울퉁불퉁하니까\n"
-	.string "역시 배틀하기 힘들다...$"
+	.string "역시 울퉁불퉁하니까\n"
+	.string "배틀하기 힘들어...$"
+	// やっぱり デコボコだとｎ
+	// たたかいにくいよ……
 
 JaggedPass_Text_EthanPostRematch: @ 8230C94
 	.string "나도 보라시티에 있는 카제노님에게\n"
-	.string "더트자전거를 달라고 해볼까?$"
+	.string "더트자전거를 달라고 해볼까$"
+	// ぼくも キンセツで カゼノさんからｎ
+	// ダ-トじてんしゃ もらおうかな
 
 JaggedPass_Text_GruntIntro: @ 8230CCB
 	.string "우왓!? ...뭐야 너!\p"
@@ -257,7 +284,7 @@ JaggedPass_Text_GruntIntro: @ 8230CCB
 	// な い だ ろ が!
 
 JaggedPass_Text_GruntDefeat: @ 8230D2D
-	.string "으구구...\p"
+	.string "으그극...\p"
 	.string "빨리\n"
 	.string "  아지트로\l"
 	.string "    도망쳐야\l"
@@ -270,7 +297,7 @@ JaggedPass_Text_GruntDefeat: @ 8230D2D
 
 JaggedPass_Text_GoWhereverYouWant: @ 8230D65
 	.string "알았어 알았어!\n"
-	.string "네가 강한 건 충분히 알았으니까!\p"
+	.string "네가 강한 건 인정해 줄게!\p"
 	.string "난 신경 쓰지 말고\n"
 	.string "가고 싶은 곳이나 가라고!$"
 	// わかった わかった!ｎ
@@ -304,7 +331,7 @@ JaggedPass_Text_JulioPostBattle: @ 8230E57
 
 JaggedPass_Text_AutumnIntro: @ 8230E8E
 	.string "매일 여기를 오르고 있어\n"
-	.string "힘에는 자신이 있으니까!$"
+	.string "힘에는 자신이 있거든!$"
 	// まいにち ここを のぼっているわｎ
 	// パワ-には じしん あるんだから!
 

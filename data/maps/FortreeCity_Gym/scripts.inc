@@ -145,73 +145,110 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 	.string "그녀는 새로운 도전자가\n"
 	.string "날아오르길 기다리고 있다!\p"
 	.string "그럼 힘내라고-!!$"
+	// げんき しとぉや!!ｎ
+	// チャンピオンを めざす §あ!!ｐ
+	// ヒワマキシティ ジムの リ-ダ- ナギはｎ
+	// ひこうタイプ ポケモンの つかいてだ!ｐ
+	// この かいてんとびら だらけのｎ
+	// ジムの おくでｐ
+	// かのじょは あらたな チャレンジャ-がｎ
+	// はばたこうと するのを まっている!ｐ
+	// じゃ きばってこォ-!!
 
 FortreeCity_Gym_Text_GymGuidePostVictory: @ 821687D
-	.string "해냈구나! 넌 날아올랐어!$"
+	.string "마침내 넌 날아올랐구나!$"
+	// えんやっと きみは はばたいたッ!
 
 FortreeCity_Gym_Text_JaredIntro: @ 82168A2
-	.string "화려한 새포켓몬의 승부를\n"
+	.string "화려한 새포켓몬의 배틀을\n"
 	.string "보여주마!$"
+	// かれいな とりポケモンの たたかいをｎ
+	// みせて やるぜっ!
 
 FortreeCity_Gym_Text_JaredDefeat: @ 82168D3
 	.string "너... 강하군...$"
+	// きみ…… つよいんだな……
 
 FortreeCity_Gym_Text_JaredPostBattle: @ 82168E7
 	.string "트레이너는 머리 회전도\n"
 	.string "빨라야 한다!\p"
-	.string "너는 체육관 관장이 있는 데까지\n"
+	.string "너는 관장이 있는 데까지\n"
 	.string "무사히 도착할 수 있을까?$"
+	// トレ-ナ-は あたまの かいてんもｎ
+	// はやく なければ つとまらないぜ!ｐ
+	// きみは リ-ダ-の ところまでｎ
+	// ちゃんと たどりつく ことが できるかい?
 
 FortreeCity_Gym_Text_EdwardoIntro: @ 821695A
 	.string "새포켓몬을 사랑하는 사람은\n"
 	.string "이 체육관을 목표로 하고 있지!\p"
 	.string "검방울체육관의 일원으로서\n"
 	.string "패배할 수는 없다!$"
+	// とりポケモンを あいする ものはｎ
+	// この ジムを もくひょうと している!ｐ
+	// ヒワマキ ジムの いちいん としてｎ
+	// まける わけには いかないんだ!
 
 FortreeCity_Gym_Text_EdwardoDefeat: @ 82169C7
 	.string "나에겐 너무 큰 짐이었나...!$"
+	// オレには にが おもすぎたか……!
 
 FortreeCity_Gym_Text_EdwardoPostBattle: @ 82169F1
 	.string "세계는 넓고\n"
 	.string "강한 트레이너도 넘쳐나지\p"
 	.string "나도 여기서 계속 수행해서\n"
 	.string "강해질 거다!$"
+	// せかいは ひろいｎ
+	// つよい トレ-ナ-は たくさん いるｐ
+	// オレも ここで しゅぎょうを つづけてｎ
+	// つよくなって みせるよ!
 
 FortreeCity_Gym_Text_FlintIntro: @ 8216A66
 	.string "체육관 관장인 은송님이\n"
 	.string "손쓰실 필요도 없어!\p"
 	.string "네 상대는 나로 충분하다!$"
+	// ジムリ-ダ-の ナギさんのｎ
+	// てを わずらわせるまでも ない!ｐ
+	// きみの あいては オレで じゅうぶん!
 
 FortreeCity_Gym_Text_FlintDefeat: @ 8216AC4
-	.string "은송님...! 제가 져버렸습니다...!$"
+	.string "은송님...! 져버렸습니다...!$"
+	// ナギさん…… まけました……!
 
 FortreeCity_Gym_Text_FlintPostBattle: @ 8216AD7
 	.string "은송님은 귀여운 데다 강하시다...\n"
 	.string "정말 최고의 관장이지!\p"
-	.string "...조금 부끄럽군$"
+	.string "...크흠$"
+	// ナギさんは かわいくて つよい……ｎ
+	// ほんと さいこうの リ-ダ-だよ!ｐ
+	// ……ポッ
 
 FortreeCity_Gym_Text_AshleyIntro: @ 8216B1A
 	.string "은송님의 가르침을 받은 나를!\n"
 	.string "그렇게 간단히 쓰러뜨릴 순 없을걸?$"
+	// ナギさんの おしえを うけた あたし!ｎ
+	// そう かんたんに たおされないわ!
 
 FortreeCity_Gym_Text_AshleyDefeat: @ 8216B51
 	.string "쓰러졌다...$"
+	// たおされ ちゃった……
 
 FortreeCity_Gym_Text_AshleyPostBattle: @ 8216B5F
-	.string "검방울시티 사람들은\n"
-	.string "은송님이 계셔서\l"
-	.string "안심하고 지낼 수 있어$"
+	.string "은송님이 계셔서\n"
+	.string "검방울시티 사람들은 안심하고 지낼 수 있어$"
+	// ナギさんが いてくれるからｎ
+	// ヒワマキの ひとは あんしんして くらせるの
 
 FortreeCity_Gym_Text_HumbertoIntro: @ 8216B9E
 	.string "은송님이 싸울 때의\n"
 	.string "그 늠름한 얼굴...\p"
-	.string "너 같은 녀석이 보게 할 수는 없지!$"
+	.string "너 같은 녀석이 보게 할 순 없지!$"
 	// ナギさまが たたかわれる ときのｎ
 	// あの りりしい おかお……ｐ
 	// おまえ なんかにゃ みせられないぜ!
 
 FortreeCity_Gym_Text_HumbertoDefeat: @ 8216C18
-	.string "우우!\n"
+	.string "으으!\n"
 	.string "나로서는 막을 수 없었어$"
 	// うう!ｎ
 	// おれでは とめられ なかった
@@ -226,20 +263,20 @@ FortreeCity_Gym_Text_HumbertoPostBattle: @ 8216C32
 
 FortreeCity_Gym_Text_DariusIntro: @ 8216C96
 	.string "비행타입이라곤 해도\n"
-	.string "여러 포켓몬이 있어!\p"
+	.string "여러 포켓몬이 있어!\l"
 	.string "넌 그걸 알고 있어?$"
 	// ひこうタイプ って いってもｎ
 	// いろんな ポケモンが いるんだぜ!ｌ
 	// おまえ それ わかってる?
 
 FortreeCity_Gym_Text_DariusDefeat: @ 8216CF2
-	.string "꽤 알고 있네!$"
+	.string "제법 알고 있네!$"
 	// なかなか わかってるな!
 
 FortreeCity_Gym_Text_DariusPostBattle: @ 8216D0F
 	.string "나는 져버렸지만\n"
-	.string "은송님의 포켓몬은\l"
-	.string "더 강하다고!$"
+	.string "은송 관장님의 포켓몬은\l"
+	.string "완전 강하다고!$"
 	// ぼくは まけたけどｎ
 	// ナギ リ-ダ-の ポケモンはｌ
 	// ほんと てごわいぞ!
@@ -253,6 +290,14 @@ FortreeCity_Gym_Text_WinonaIntro: @ 8216D75
 	.string "우아하게 이겨 보이죠...\p"
 	.string "자 저와 포켓몬이 만들어내는\n"
 	.string "화려한 춤을 보시죠!$"
+	// わたしは この ヒワマキ ジムでｎ
+	// リ-ダ-を している ナギ……ｐ
+	// とりポケモンと こころを かよわしｎ
+	// いっしょに おおぞらを まい……ｐ
+	// どんな くるしい しょうぶもｎ
+	// ゆうがに かってみせる……ｐ
+	// さあ わたしと ポケモンが おりなすｎ
+	// かれいな まいを みせましょう!
 
 FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	.string "저보다 화려하게\n"
@@ -260,10 +305,17 @@ FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	.string "처음 봤어요...\p"
 	.string "그 실력을 인정하여\n"
 	.string "이 체육관 배지를 드리겠습니다!$"
+	// わたしより かれいにｎ
+	// ポケモンを たたかわせる ひと……ｌ
+	// はじめて であいました……ｐ
+	// その じつりょくを みとめｎ
+	// この ジムバッジを おわたしします!
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
 	.string "{PLAYER}{K_EUNNEUN} 은송에게\n"
 	.string "깃털배지를 받았다!$"
+	// §あは ナギからｎ
+	// フェザ-バッジを もらった!
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
 	.string "깃털배지를 달고 있으면\n"
@@ -274,6 +326,14 @@ FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis: @ 8216F17
 	.string "사용할 수 있게 되죠!\p"
 	.string "그리고 이걸\n"
 	.string "당신에게 선물하겠어요$"
+	// フェザ-バッジを つけてるとｎ
+	// ひとから もらった ポケモンでもｌ
+	// レベル70までの ポケモンならｌ
+	// いうことを すなおに きいてくれます!ｐ
+	// ひでんわざの そらをとぶ をｎ
+	// つかえる ようにも なります!ｐ
+	// そして これをｎ
+	// あなたに プレゼント します
 
 FortreeCity_Gym_Text_ExplainAerialAce: @ 8216FEC
 	.string "기술머신40의 내용물은\n"
@@ -281,24 +341,39 @@ FortreeCity_Gym_Text_ExplainAerialAce: @ 8216FEC
 	.string "그 스피드는...\n"
 	.string "어떤 포켓몬도\l"
 	.string "피할 수 없겠지요!\p"
-	.string "... ... ...$"
+	.string "...... ...... ......$"
+	// わざマシン40の なかみはｎ
+	// つばめがえし!ｐ
+	// その すばやさ……ｎ
+	// どんな ポケモンでもｌ
+	// よけることは できないでしょう!ｐ
+	// …… …… ……
 
 FortreeCity_Gym_Text_RegisteredWinona: @ 8217044
 	.string "체육관 관장 은송을\n"
 	.string "포켓내비에 등록했다!$"
+	// ジムリ-ダ- ナギをｎ
+	// ポケナビに とうろく した!
 
 FortreeCity_Gym_Text_WinonaPostBattle: @ 8217071
 	.string "당신에게는 졌지만\p"
 	.string "저는 앞으로도\n"
 	.string "새포켓몬만을 사용할 거예요$"
+	// あなたには まけました けどｐ
+	// わたしは これからもｎ
+	// とりポケモンに こだわって いきます
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
 	.string "검방울시티 포켓몬체육관$"
+	// ヒワマキシティ ポケモンジム
 
 FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
 	.string "검방울시티 포켓몬체육관\p"
 	.string "은송 인정 트레이너!\n"
 	.string "{PLAYER}$"
+	// ヒワマキシティ ポケモンジムｐ
+	// ナギ にんてい トレ-ナ-!ｎ
+	// §あ
 
 FortreeCity_Gym_Text_WinonaPreRematch: @ 8217100
 	.string "은송: 사람은 땅에 있는 한\n"

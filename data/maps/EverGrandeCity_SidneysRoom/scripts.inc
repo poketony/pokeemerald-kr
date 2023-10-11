@@ -66,22 +66,36 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated:: @ 8227F95
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech: @ 8227FA7
-	.string "어서 오게 도전자여!\n"
-	.string "난 사천왕 혁진\p"
-	.string "음- 좋은 표정이야\n"
-	.string "꽤나 즐길 수 있겠는데!\l"
-	.string "좋아! 아주 좋아!\p"
-	.string "좋았어! 우리 함께\n"
+	.string "어서 오라고 도전자!\n"
+	.string "난 사천왕 혁진이다\p"
+	.string "으-음 좋은 표정인걸\n"
+	.string "제법 즐길 수 있겠는데!\l"
+	.string "좋아! 좋은 느낌이 들어!\p"
+	.string "좋았어! 나하고 너로\n"
 	.string "포켓몬리그에서만 맛볼 수 있는\l"
-	.string "배틀을 즐겨보도록 하자!!$"
+	.string "배틀을 즐겨보도록 하자고!!$"
+	// ようこそ チャレンジャ-!ｎ
+	// おれは してんのうの カゲツｐ
+	// う-ん いい かお してるなｎ
+	// なかなか たのしませて くれそうだぞ!ｌ
+	// いいぞ! いい かんじだぞ!ｐ
+	// よ-し! おれと おまえ とでｎ
+	// ポケモン リ-グでしか できないｌ
+	// たたかいを たのしむと しようぜ!!
 
 EverGrandeCity_SidneysRoom_Text_Defeat: @ 82280A2
-	.string "이런 이런 져버렸군\n"
-	.string "뭐 꽤 즐겼으니 상관없지만$"
+	.string "이런이런 져버렸군\n"
+	.string "뭐 즐겼으니 상관없지만$"
+	// おやおや まけちまったよｎ
+	// まっ たのしんだから いいんだけどよ
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech: @ 82280EC
 	.string "패배한 내가 한마디 하지\p"
 	.string "너라면 더 앞으로 나아갈 수 있어\n"
-	.string "자 그럼 다음 방으로 가서\l"
+	.string "자 다음 방으로 가서\l"
 	.string "배틀을 즐기고 와!$"
+	// まけた おれから ひとことｐ
+	// おまえなら もっと さきに すすめるぜｎ
+	// さあ つぎの へやに いってｌ
+	// たたかいを たのしんで きなよ!
 

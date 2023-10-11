@@ -35,13 +35,20 @@ LavaridgeTown_Mart_EventScript_OldWoman:: @ 81FFA07
 	end
 
 LavaridgeTown_Mart_Text_XSpeedFirstStrike: @ 81FFA10
-	.string "스피드업을 써서\n"
-	.string "포켓몬의 스피드를 올리는 거다!\p"
+	.string "스피드업을 사용해서\n"
+	.string "포켓몬의 스피드를 올리는 게야!\p"
 	.string "그러면 선제공격할 수 있어서\n"
-	.string "배틀에서 유리해지니까 말이다!$"
+	.string "배틀에서 유리해지거든!$"
+	// スピ-ダ- つかってｎ
+	// ポケモンの すばやさ あげるんじゃ!ｐ
+	// そうすりゃ せんせいこうげき できてｎ
+	// たたかいが ゆうりに なるからのう!
 
 LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney: @ 81FFA83
 	.string "굴뚝산의 정상에서만\n"
 	.string "살 수 있는 명물 과자는\l"
-	.string "포켓몬에게 주면 아주 좋아해!$"
+	.string "포켓몬에게 주면 아주 좋아한단다!$"
+	// えんとつやまの ちょうじょう だけでｎ
+	// かうことが できる おみやげはｌ
+	// ポケモンに あげると よろこぶよ!
 

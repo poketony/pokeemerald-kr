@@ -378,7 +378,7 @@ MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
 	.string "이 배지를 가져가도록 하게!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
-	.string "{PLAYER}{K_EUNNEUN} 암페어로부터\n"
+	.string "{PLAYER}{K_EUNNEUN} 암페어에게\n"
 	.string "다이나모배지를 받았다!$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
