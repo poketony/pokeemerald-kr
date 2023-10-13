@@ -61,18 +61,29 @@ LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon: @ 821FCD1
 	.string "쉽고 빠르게 포켓몬을 강하게 하려면\n"
 	.string "도구를 사용하는 게 최고다!\p"
 	.string "타우린은 공격이 오르고!\n"
-	.string "리보플라빈은\l"
-	.string "특수공격이 올라간다고!$"
+	.string "리보플라빈은 특수공격이 올라간다고!$"
+	// てっとりばやく ポケモンを つよくするならｎ
+	// どうぐを あたえるのが いちばん!ｐ
+	// タウリンなら こうげきりょく アップ!ｎ
+	// リゾチウムなら とくこう アップ だぜ!
 
 LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance: @ 821FD3B
 	.string "튼튼한 포켓몬으로\n"
 	.string "자라주었으면 하는데 말이지\p"
-	.string "사포닌으로 방어를 올릴지\n"
+	.string "사포닌으로 방어력을 올릴지\n"
 	.string "키토산으로 특수방어를 올릴지\l"
-	.string "고민하는 중이라네 지금$"
+	.string "지금 막 고민하는 중이라네$"
+	// じょうぶな ポケモンにｎ
+	// なって ほしいからねｐ
+	// ブロムヘキシンで ぼうぎょりょくを あげるかｎ
+	// キトサンで とくぼうを あげるかｌ
+	// いま かんがえている ところ なんだ
 
 LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon: @ 821FDB4
 	.string "포켓몬한테\n"
 	.string "알칼로이드를 사용했더니\l"
 	.string "스피드가 빨라졌어!$"
+	// ポケモンにねｎ
+	// インドメタシンを あげたらｌ
+	// すばやさが あがったの!
 

@@ -154,22 +154,30 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign:: @ 821F85D
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore: @ 821F866
 	.string "어서 오세요!\n"
 	.string "해안백화점입니다$"
+	// いらっしゃいませ!ｎ
+	// ミナモ デパ-ト です
 
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings: @ 821F88C
 	.string "백화점에 오면 즐거워서\n"
 	.string "여러 물건을 사게 돼$"
+	// デパ-トに くると たのしくなってｎ
+	// いろんな ものを かっちゃうのよ
 
 LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture: @ 821F8F5
 	.string "오늘은 엄마가\n"
 	.string "멋진 가구를 사 주신대$"
+	// きょうは すてきな かぐをｎ
+	// おかあさんに かって もらうの
 
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill: @ 821F92B
-	.string "콘테스트 라이브에서\n"
-	.string "우승해 준 선물로\l"
+	.string "콘테스트에서 우승한 기념으로\n"
 	.string "마릴리한테 뭔가 사줄 거야!$"
+	// コンテストで ゆうしょうした ごほうびにｎ
+	// マリルリに なにか かって あげるんだよ!
 
 LilycoveCity_DepartmentStore_1F_Text_Azumarill: @ 821F974
-	.string "마릴리: 마리리리-!$"
+	.string "마릴리: 마리리루-!$"
+	// マリルリ『まりりるぅ-!
 
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign: @ 821F98A
 	.string "1층 ... 서비스 카운터\n"
@@ -179,19 +187,37 @@ LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign: @ 821F98A
 	.string "4층 ... 기술머신코너\p"
 	.string "5층 ... 모양바꾸기 굿즈 플로어\p"
 	.string "옥상 ... 휴식의 장$"
+	// 1かい …… サ-ビス カウンタ-ｎ
+	//        ちゅうせん かいじょうｐ
+	// 2かい …… トレ-ナ-ズ ゾ-ンｐ
+	// 3かい …… バトル コレクションｐ
+	// 4かい …… わざマシン コ-ナ-ｐ
+	// 5かい …… ぬいぐるみ フロア-ｐ
+	// おくじょう …… いこいの ひろば
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun: @ 821FA13
-	.string "Wireless Communication is a\n"
-	.string "lot of fun, isn't it?\p"
-	.string "I think it lets you do things that\n"
-	.string "weren't possible before.\p"
-	.string "For instance, you can now trade\n"
-	.string "with people you couldn't before.\p"
-	.string "I think it's going to be exciting!$"
+	.string "무선 통신은\n"
+	.string "참 즐겁지!\p"
+	.string "여태까지 할 수 없었던 걸\n"
+	.string "할 수 있게 된 느낌이 들어!\p"
+	.string "무선으로 교환할 수 없었던\n"
+	.string "친구와도 팍 할 수 있게 됐고!\p"
+	.string "왠지 엄청\n"
+	.string "두근두근거려!$"
+	// むせん つうしん ってｎ
+	// たのしい よね!ｐ
+	// いままで できなかった ことがｎ
+	// できるようになる きが するの!ｐ
+	// むせんで こうかん できなかったｎ
+	// ともだちも ブ-ッと できたり!ｐ
+	// なんだか とってもｎ
+	// わくわく しちゃう!
 
 @ Unused
 LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm: @ 821FAE5
-	.string "I want to spread the word about how\n"
-	.string "fun Wireless Communication can be.$"
+	.string "무선 통신의 즐거움을\n"
+	.string "잔뜩 남에게 알려주고 싶어-$"
+	// むせん つうしんの たのしさをｎ
+	// たくさんの ひとに つたえたいな-
 

@@ -58,15 +58,27 @@ LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon: @ 821C61E
 	.string "언젠가 바다를 넘어서\n"
 	.string "먼 나라 사람과\l"
 	.string "포켓몬 교환하고 싶다!$"
+	// この せかいにはｎ
+	// どれだけの ポケモンが いるのかな?ｐ
+	// いつのひか うみを こえてｎ
+	// とおい くにの ひととｌ
+	// ポケモン こうかん したいなあ!
 
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels: @ 821C69D
 	.string "최근 사람들의 포켓몬을 뺏거나\n"
 	.string "운석을 훔치거나 하는\l"
 	.string "골치 아픈 놈들이 있다고 하더라고!$"
+	// ちかごろ ひとの ポケモンを うばったりｎ
+	// いんせきを よこどり したりするｌ
+	// ろくでもない やつらが いるらしいな!
 
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels: @ 821C6F6
 	.string "사람들의 포켓몬을 뺏거나\n"
 	.string "운석을 훔치거나 했던\l"
 	.string "골치 아픈 놈들...\p"
 	.string "요즘 안 보이더라$"
+	// ひとの ポケモンを うばったりｎ
+	// いんせきを よこどり していたｌ
+	// ろくでもない やつら……ｐ
+	// ちかごろ すがたを みなくなったよ
 

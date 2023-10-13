@@ -58,16 +58,26 @@ LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM: @ 821FE50
 	.string "공격의 기술인가...\n"
 	.string "방어의 기술인가...\p"
 	.string "어떤 기술머신을\n"
-	.string "포켓몬에게 배우게\l"
-	.string "할 건지 고민되는군...$"
+	.string "포켓몬에게 배우게 할지 고민되는군...$"
+	// むむ……ｐ
+	// こうげきの わざ か……ｎ
+	// まもりの わざ か……ｐ
+	// どの わざマシンをｎ
+	// ポケモンに おぼえさせるか なやむ……
 
 LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs: @ 821FEC7
-	.string "기술머신은 다양한 종류가 있구나!\p"
+	.string "기술머신이 잔뜩 있구나!\p"
 	.string "무언가의 카탈로그에는\n"
 	.string "전부 50종류라고\l"
 	.string "적혀 있었어$"
+	// わざマシンって たくさん あるのね!ｐ
+	// なにかの カタログにはｎ
+	// ぜんぶで 50しゅるい ってｌ
+	// かいて あったわ
 
 LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves: @ 821FF2D
 	.string "기술머신 전부 가지고 싶은데\n"
-	.string "포켓몬이 4개밖에 기술을 못 배워...$"
+	.string "포켓몬이 4개밖에 기술을 못 배워$"
+	// わざマシン ぜんぶ ほしいけどｎ
+	// ポケモン 4つしか わざ おぼえないもんな
 

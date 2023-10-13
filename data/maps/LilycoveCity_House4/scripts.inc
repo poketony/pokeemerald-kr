@@ -10,16 +10,22 @@ LilycoveCity_House4_EventScript_Man2:: @ 821F5BE
 	end
 
 LilycoveCity_House4_Text_MysteriesAtBottomOfSea: @ 821F5C7
-	.string "이 별 최대의 수수께끼!\n"
-	.string "그것은 바로\l"
-	.string "해저에 있다고 생각한다!\p"
-	.string "...라고\n"
-	.string "누군가가 말했었지$"
+	.string "이 별 최대의 수수께끼\n"
+	.string "그것은 바로 해저에 있다!\p"
+	.string "...라는 말은\n"
+	.string "누군가가 했었지$"
+	// この ほしの さいだいの なぞｎ
+	// それは かいていに あると おもうんだ!ｐ
+	// ……というのはｎ
+	// だれかが いってた ことなんだけど
 
 LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis: @ 821F62B
-	.string "그러고 보니 이끼시티와\n"
-	.string "루네시티 사이에는\l"
-	.string "엄청나게 깊고 깊은 해구가 있지\p"
-	.string "...라는 말도\n"
-	.string "누군가가 했던 말이지$"
+	.string "그러고 보니 이끼시티와 루네시티 사이엔\n"
+	.string "깊고 깊은 해구가 있다\p"
+	.string "...그런 말도\n"
+	.string "누군가가 했었지$"
+	// そういや トクサネと ルネの あいだにはｎ
+	// ふかい ふかい かいこうが あるｐ
+	// ……そんな はなしもｎ
+	// だれかが いってた ことなんだけど
 

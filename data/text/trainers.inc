@@ -115,7 +115,7 @@ Route103_Text_DaisyIntro:
 	// あなたも さそわれたのですね……
 
 Route103_Text_DaisyDefeated:
-	.string "제 향기에\n" 
+	.string "제 향기에\n"
 	.string "넘어가지 않은 거군요...$"
 	// わたくしの かおりにｎ
 	// まどわされませんでしたね……
@@ -2948,7 +2948,7 @@ Route114_Text_CharlotteIntro:
 	// かわいい だけじゃ ないんだから!
 
 Route114_Text_CharlotteDefeat:
-	.string 귀엽지 않아-앗!$"
+	.string "귀엽지 않아-앗!$"
 	// かわいく な-いっ!
 
 Route114_Text_CharlottePostBattle:

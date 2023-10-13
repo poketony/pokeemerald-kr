@@ -1033,7 +1033,7 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase: @ 821AD10
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
 	.string "포켓몬스넥케이스에\n"
 	.string "포켓몬스넥을 만들고 넣어!\p"
-	.string "하지만 포켓몬스넥을 만들 때는\n"
+	.string "근데 포켓몬스넥을 만들 때는\n"
 	.string "모두 다른 나무열매로\l"
 	.string "만들지 않으면 안 돼!$"
 	// ポロック つくって いれて!ｐ
@@ -1050,62 +1050,108 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "정말 굉장해서\l"
 	.string "평소보다 잘 그렸어!\l"
 	.string "자 이거!$"
+	// ゆうしょう おめでとう!ｐ
+	// さっそく きねんにｎ
+	// きみの ポケモンの えをｌ
+	// かきあげたんだけど……ｐ
+	// なんだか きみの ポケモンの アピ-ルがｎ
+	// あまり にも すばらしくてｌ
+	// いつもより うまく かけたんだ!ｌ
+	// ほらっ これ!
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum: @ 821AE78
 	.string "어때? 자신 있는 작품인데\n"
-	.string "마음에 들었지?\p"
-	.string "이 정도 된다면\n"
+	.string "마음에 들지?\p"
+	.string "이 정도 완성도라면\n"
 	.string "미술관에 장식되어 있어도\l"
 	.string "이상하지 않겠는걸!\p"
-	.string "...에 정말로 미술관에서\n"
+	.string "...엇 정말로 미술관에서\n"
 	.string "그림을 찾아보고 있다고?\l"
 	.string "그럼 이거 가져가 볼까?$"
+	// どうかな? じしんさく なんだけどｎ
+	// きにいったろ?ｐ
+	// これくらいの でき ならｎ
+	// びじゅつかんに かざられて いてもｌ
+	// ふしぎじゃ ないね!ｐ
+	// ……え ほんとに びじゅつかんでｎ
+	// えを さがして いるって?ｌ
+	// じゃあ これ もっていって みようかな?
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 	.string "그 그래!\n"
 	.string "그럼 지금 바로 가져가 볼게\l"
 	.string "제목도 붙여 둘 테니까!\p"
-	.string "이게 마음에 들어\n"
+	.string "이게 마음에 들어서\n"
 	.string "장식될지 어떨지\l"
 	.string "너도 다음에 보러 와줘!\l"
 	.string "그럼 고마워!$"
+	// そ そうか!ｎ
+	// じゃ いますぐ もっていって みるよｌ
+	// タイトルも つけて おくからね!ｐ
+	// これが きにいられてｎ
+	// かざって もらえて いるか どうかｌ
+	// きみも こんど みに いってね!ｌ
+	// じゃ ありがとう!
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting: @ 821B030
 	.string "...아 맞다\p"
 	.string "포켓몬을 그리게 해준 기념으로\n"
 	.string "이걸 받아줘!$"
+	// ……あ そうだｐ
+	// ポケモンを かかせて もらった きねんにｎ
+	// これを うけとってよ!
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon: @ 821B07E
 	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
+	// §あは リボンを もらった!
 
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon: @ 821B094
 	.string "{PLAYER}{K_EUNNEUN} 리본을\n"
-	.string "{STR_VAR_1}에게 달아줬다!$"
+	.string "{STR_VAR_1}에게 달아 줬다!$"
+	// §あは リボンをｎ
+	/// §いに つけて あげた!
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou: @ 821B0AD
 	.string "그럼 이만!$"
+	// それじゃね!
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum: @ 821B0BC
 	.string "음... 그럼 이건\n"
 	.string "내가 가지고 돌아갈까...\p"
 	.string "하지만 역시 가져가고 싶은데...\n"
 	.string "어떻게 생각해?$"
+	// う-ん…… じゃあ これはｎ
+	// ぼくが もってかえると するか……ｐ
+	// でも やっぱり もっていきたいな……ｎ
+	// いいだろ?
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs: @ 821B132
-	.string "그런가 어쩔 수 없지\n"
+	.string "그렇구나 어쩔 수 없지\n"
 	.string "그럼 이건 내\l"
 	.string "집에 장식할게\p"
 	.string "다음에 열심히 해야겠다...\n"
 	.string "그럼 안녕$"
+	// そっか しかたないねｎ
+	// それじゃ これは ぼくのｌ
+	// いえに かざりますｐ
+	// つぎ がんばると するか……ｎ
+	// じゃあな
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome: @ 821B1B1
-	.string "윽 드디어\n"
-	.string "콘테스트도 마스터랭크...\p"
+	.string "드 드디어\n"
+	.string "마스터랭크에 나간다...\p"
 	.string "내 포켓몬이\n"
 	.string "이 세상에서 가장\l"
 	.string "귀엽다는 걸\l"
 	.string "증명할 때가 온 거야...\l"
 	.string "우헤헤헤헤$"
+	// いっ いよいよｎ
+	// マスタ-ランクに でるぞ……ｐ
+	// おれの ポケモンちゃんがｎ
+	// このよで いちばんｌ
+	// かわいいって ことをｌ
+	// しょうめいする ときが きたんだ……ｌ
+	// うへへへへ
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere: @ 821B24D
 	.string "여기에 오면\n"
@@ -1128,18 +1174,30 @@ LilycoveCity_ContestLobby_Text_ToughContestIsExtreme: @ 821B334
 	.string "최고로군!\p"
 	.string "힘센 어필...\n"
 	.string "샘솟는 땀... 못 참겠어!$"
+	// たくましさコンテストってｎ
+	// さいこう だよな!ｐ
+	// ちからづよい アピ-ル……ｎ
+	// ほとばしる あせ…… たまらん!
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon: @ 821B392
 	.string "매일 소중히 소중히\n"
 	.string "키워온 내 포켓몬\l"
 	.string "컨디션은 완벽!\l"
 	.string "오늘은 이긴다아아아아아아아!$"
+	// まいにち だいじに だいじにｎ
+	// そだてあげた わしの ポケモンｌ
+	// コンディションは カンペキ!ｌ
+	// きょうは かつぞおおおおおうう!
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily: @ 821B3FC
 	.string "엄마하고 아빠하고 누나하고\n"
 	.string "4명이서 포켓몬스넥을 만들었더니\l"
-	.string "엄청 좋은 게 나왔어!\p"
+	.string "엄청 좋게 나왔어!\p"
 	.string "분명 여럿이서 만들면 만들수록\n"
-	.string "부드럽고 좋은 포켓몬스넥이\l"
-	.string "나오는 걸 거야$"
+	.string "부드럽고 좋은 포켓몬스넥이 나오는 걸 거야$"
+	// ママと パパと おねえちゃんとｎ
+	// 4にんで ポロックを つくったらｌ
+	// すごく いいやつが できたんだ!ｐ
+	// きっと おおぜいで つくれば つくるほどｎ
+	// なめらかで いい ポロックが できるんだよ!
 
