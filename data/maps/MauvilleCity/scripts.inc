@@ -472,14 +472,21 @@ MauvilleCity_EventScript_RegisterWallyCall:: @ 81DF7BA
 
 MauvilleCity_Text_UncleHesTooPeppy: @ 81DF7DC
 	.string "작은아버지: 이 애는 포켓몬 덕분에\n"
-	.string "건강해진 듯하지만\l"
-	.string "너무 건강해진걸지도 몰라...$"
+	.string "건강해진 모양이지만\l"
+	.string "너무 건강해진 걸지도 몰라...$"
+	// おじさん『このこは ポケモンの おかげでｎ
+	// げんきに なれたような もんだけどｌ
+	// ちょっと げんきに なりすぎ なんだ……
 
 MauvilleCity_Text_WallyWantToChallengeGym: @ 81DF845
 	.string "민진: 작은아버지 부탁이에요!\p"
 	.string "제가 얼마나 강해졌는지\n"
 	.string "이 체육관에서 확인하고 싶어요!\p"
 	.string "네 네 괜찮죠!?$"
+	// ミツル『おじさん おねがい だから!ｐ
+	// じぶんが どれくらい つよくなったかｎ
+	// このジムで ためして みたいんだ!ｐ
+	// ね ね いいでしょう!?
 
 MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "작은아버지: 이것 참 민진아!\p"
@@ -488,11 +495,20 @@ MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "너는 꽤나 건강해졌어!\p"
 	.string "그렇다고 갑자기 포켓몬체육관에\n"
 	.string "도전하는 건 무리 아니냐?$"
+	// おじさん『まあまあ ミツルくん!ｐ
+	// たしかに ポケモンと いっしょにｎ
+	// くらすように なってからｌ
+	// きみは ずいぶん げんきに なった!ｐ
+	// だからって いきなり ポケモンジムにｎ
+	// ちょうせん なんて むり してないかい?
 
 MauvilleCity_Text_WallyWeCanBeatAnyone: @ 81DF963
 	.string "민진: 무리가 아니에요\p"
 	.string "저와 랄토스가 힘을 합치면\n"
 	.string "누구든지 이길 수 있다구요!$"
+	// ミツル『むり なんか してませんｐ
+	// ぼくと ラルトスが ちからを あわせればｎ
+	// だれにだって かてる はずです!
 
 MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 	.string "민진: 앗! {PLAYER}님!\p"
@@ -502,12 +518,22 @@ MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 	.string "알아주셨으면 좋겠어요!\p"
 	.string "{PLAYER}님 부탁입니다!\n"
 	.string "저와 포켓몬 승부해주세요$"
+	// ミツル『あっ! §あさん!ｐ
+	// ぼく あれから つよくなったんだ!ｐ
+	// それを §あさんにもｎ
+	// おじさんにも わかって もらいたいんです!ｐ
+	// §あさん おねがいです!ｎ
+	// ぼくと しょうぶ してください
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
 	.string "민진: {PLAYER}님이\n"
 	.string "저와 승부해주지 않으면...\p"
 	.string "작은아버지는 제가 강해졌다는 걸\n"
 	.string "알아주지 않을 거라구요...$"
+	// ミツル『§あさんがｎ
+	// ぼくと しょうぶ してくれないと……ｐ
+	// おじさんに ぼくが つよくなったことｎ
+	// わかって もらえないよ……
 
 MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 	.string "작은아버지: 너...\n"
@@ -516,23 +542,37 @@ MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 	.string "승부해주지 않을래?\p"
 	.string "이대로라면 무슨 말을 해도\n"
 	.string "안 들을 것 같아...$"
+	// おじさん『§あ§おとやらｎ
+	// わるいけど ミツルくんとｌ
+	// しょうぶ してあげて くれないかな?ｐ
+	// このままだと なにを いってもｎ
+	// きいて もらえそうに ないよ
 
 MauvilleCity_Text_WallyPleaseBattleMe: @ 81DFB42
 	.string "민진: {PLAYER}님 부탁입니다!\n"
 	.string "저와 승부해주세요$"
+	// ミツル『§あさん おねがいです!ｎ
+	// ぼくと しょうぶ してください
 
 MauvilleCity_Text_WallyHereICome: @ 81DFB6D
 	.string "민진: 고맙습니다 {PLAYER}님\p"
 	.string "그럼... 시작할게요!$"
+	// ミツル『ありがとう §あさんｐ
+	// それでは…… いきますね!
 
 MauvilleCity_Text_WallyDefeat: @ 81DFB96
 	.string "민진: ...... ...... ...... ......\p"
 	.string "...... ...... ...... ......\p"
 	.string "제 패배입니다...$"
+	// ミツル『…… …… …… ……ｐ
+	// …… …… …… ……ｐ
+	// ぼくの まけ です……
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
 	.string "민진: 작은아버지...\n"
 	.string "저 잔디마을로 돌아갈게요$"
+	// ミツル『おじさん……ｎ
+	// ぼく シダケに もどります
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
 	.string "{PLAYER}님 고맙습니다\n"

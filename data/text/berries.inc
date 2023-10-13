@@ -91,7 +91,7 @@ LilycoveCity_Text_BerrySuitsYou:
 
 LilycoveCity_Text_BecauseYoureTrainer:
 	.string "그건 역시...\p"
-	.string "자네가 트레이너이니까!$"
+	.string "자네가 트레이너니까!$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon:
 	.string "역시\p"

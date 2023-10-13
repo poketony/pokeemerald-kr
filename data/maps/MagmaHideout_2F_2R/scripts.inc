@@ -44,7 +44,7 @@ MagmaHideout_2F_2R_Text_Grunt15PostBattle: @ 8239EBB
 MagmaHideout_2F_2R_Text_Grunt6Intro: @ 8239F31
 	.string "난 더위를 잘 타는데\n"
 	.string "어쩌면 아쿠아단에 들어가는 편이\l"
-	.string "더 나았으려나?$"
+	.string "좋았으려나?$"
 	// オレって あつがり なんだよｎ
 	// もしかして アクアだんに はいったほうがｌ
 	// よかったのかな?
@@ -100,7 +100,7 @@ MagmaHideout_2F_2R_Text_Grunt8Defeat: @ 823A14C
 	// う-ん なんて やつだ……
 
 MagmaHideout_2F_2R_Text_Grunt8PostBattle: @ 823A16F
-	.string "뭔가... 우리들의 계획이\n"
+	.string "왠지... 우리들의 계획이\n"
 	.string "실패할지도 모른다는 예감이 들어$"
 	// なんか…… オレたちの けいかくｎ
 	// しっぱい するような きが してきたよ

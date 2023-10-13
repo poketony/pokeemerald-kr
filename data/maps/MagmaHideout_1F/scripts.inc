@@ -21,8 +21,8 @@ MagmaHideout_1F_Text_Grunt1Intro: @ 82398BA
 	.string "빨리 줄을 선 순서대로\l"
 	.string "중요한 장소의\l"
 	.string "경비를 맡는다고!\p"
-	.string "내가 이런 후미진 곳에 있는 건\n"
-	.string "허구한 날 지각만 하기 때문이지!$"
+	.string "내가 이런 구석진 곳에 있는 건\n"
+	.string "맨날 지각하기 때문이지!$"
 	// マグマだんは ごうれいが かかったときｎ
 	// はやく せいれつした じゅんばんでｌ
 	// じゅうような ばしょのｌ
@@ -38,14 +38,14 @@ MagmaHideout_1F_Text_Grunt1Defeat: @ 8239964
 
 MagmaHideout_1F_Text_Grunt1PostBattle: @ 82399B1
 	.string "알았어 다음부터는 좀 더\n"
-	.string "힘내보도록 할게$"
+	.string "힘내보도록 할게...$"
 	// わかったよ こんどから もうすこしｎ
 	// がんばって みるよ……
 
 MagmaHideout_1F_Text_Grunt2Intro: @ 82399F5
 	.string "리더에게 들은 대로\n"
 	.string "굴뚝산을 점점 파고 들어갔더니\l"
-	.string "말도 안되는 게 나와버렸어!\p"
+	.string "말도 안 되는 게 나와버렸어!\p"
 	.string "뭐가 나왔냐고?\p"
 	.string "우하하하!\n"
 	.string "나를 쓰러뜨리면 알려줄게!$"
@@ -57,11 +57,11 @@ MagmaHideout_1F_Text_Grunt2Intro: @ 82399F5
 	// オレを たおせたら おしえて やるよ!
 
 MagmaHideout_1F_Text_Grunt2Defeat: @ 8239ABA
-	.string "으윽... 쓰러뜨려졌다!$"
+	.string "으윽... 날 쓰러뜨리다니!$"
 	// むぐぅ…… たおされちまった!
 
 MagmaHideout_1F_Text_Grunt2PostBattle: @ 8239ACD
-	.string "역시 알려주지 않을래!\n"
+	.string "역시 안 알려줄래!\n"
 	.string "어차피 안쪽까지 가면 알게 될걸!\p"
 	.string "너도 즐거움을 위해\n"
 	.string "그때 가서 보는 게 낫지 않겠어?$"

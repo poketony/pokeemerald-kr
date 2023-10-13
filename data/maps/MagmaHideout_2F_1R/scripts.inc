@@ -25,8 +25,8 @@ MagmaHideout_2F_1R_Text_Grunt14Intro: @ 8239BAD
 	.string "여기에 들어올 수 있는 건\n"
 	.string "마그마단의 멤버뿐!\p"
 	.string "하지만 너는\n"
-	.string "마그마단 복장을 안 입었는데...\p"
-	.string "에-이 수상한 녀석!\n"
+	.string "마그마단 옷을 안 입었는데...\p"
+	.string "에-잇 수상한 녀석!\n"
 	.string "나하고 승부해라!$"
 	// ここに はいって これるのはｎ
 	// マグマだんの メンバ- だけのはず!ｐ
@@ -37,7 +37,7 @@ MagmaHideout_2F_1R_Text_Grunt14Intro: @ 8239BAD
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat: @ 8239C4B
 	.string "어버버버...\n"
-	.string "마그마단의 프라이드가...$"
+	.string "마그마단의 자존심이...$"
 	// あわわわ……ｎ
 	// マグマだんの プライドが……
 
@@ -50,7 +50,7 @@ MagmaHideout_2F_1R_Text_Grunt14PostBattle: @ 8239C74
 MagmaHideout_2F_1R_Text_Grunt3Intro: @ 8239CAB
 	.string "이봐이봐!\p"
 	.string "내 눈에 보인 주제에\n"
-	.string "그대로 지나가려고 한 거냐!$"
+	.string "그대로 지나가려고 한 거냐-앗!$"
 	// こらこら!ｐ
 	// オレの めのまえを だまってｎ
 	// すどおり させる わけには いかね-ぞ!
@@ -76,7 +76,7 @@ MagmaHideout_2F_1R_Text_Grunt4Defeat: @ 8239D75
 MagmaHideout_2F_1R_Text_Grunt4PostBattle: @ 8239D7D
 	.string "승부에서 졌는데\n"
 	.string "계속 여기를 빙글빙글 돌\l"
-	.string "이유가 있을까?$"
+	.string "필요가 있을까?$"
 	// しょうぶに まけたのにｎ
 	// まだ ここを ぐるぐる まわるｌ
 	// ひつようが あるんだろうか?

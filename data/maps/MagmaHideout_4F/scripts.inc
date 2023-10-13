@@ -135,7 +135,7 @@ MagmaHideout_4F_EventScript_Tabitha:: @ 823A6D1
 
 MagmaHideout_4F_Text_Grunt11Intro: @ 823A6E8
 	.string "나도 그란돈을 보고 싶은데\n"
-	.string "꼬리도 보여주질 않아서\p"
+	.string "쥐꼬리도 보여주질 않아서\p"
 	.string "조바심이 나기 시작했어...\p"
 	.string "앗!\n"
 	.string "그란돈에 대해 말해버렸다!$"
@@ -146,20 +146,20 @@ MagmaHideout_4F_Text_Grunt11Intro: @ 823A6E8
 	// グラ-ドンのこと いっちゃった!
 
 MagmaHideout_4F_Text_Grunt11Defeat: @ 823A775
-	.string "역시 냉정함을\n"
+	.string "역시 냉정한 마음을\n"
 	.string "잃어버리면 이길 수 없어...$"
 	// やっぱり れいせいな きもちをｎ
 	// うしなって いたら かてないな……
 
 MagmaHideout_4F_Text_Grunt11PostBattle: @ 823A7B5
 	.string "그러고 보니 그란돈한테는\n"
-	.string "꼬리가 있을까...?$"
+	.string "꼬리 같은 게 있을까...?$"
 	// そういえば グラ-ドンにはｎ
 	// シッポなんて あるんだろうか……?
 
 MagmaHideout_4F_Text_Grunt12Intro: @ 823A7DA
-	.string "우하하 얼마 안 남았어!\n"
-	.string "우리들의 목적이 실현된다!$"
+	.string "우하하 곧이다! 이제 곧이다!\n"
+	.string "우리들의 목적이 실현될 거다!$"
 	// ふはは もうすぐ! もうすぐだ!ｎ
 	// オレたちの もくてきが じつげん する!
 
@@ -184,17 +184,17 @@ MagmaHideout_4F_Text_Grunt13Defeat: @ 823A8A7
 	// オレって たおすの かんたん だった?
 
 MagmaHideout_4F_Text_Grunt13PostBattle: @ 823A8C6
-	.string "하 한 승부 더... 털썩$"
+	.string "하 한 판 더... 털썩$"
 	// も もう ひとしょうぶ…… がくっ
 
 MagmaHideout_4F_Text_TabithaIntro: @ 823A8E1
 	.string "우효!\n"
-	.string "여기까지 왔으니 알려주마!\p"
+	.string "여기까지 왔으니 알려주마\p"
 	.string "그래 이 앞에는\n"
 	.string "그란돈이 잠들어 있다!\p"
 	.string "마적님은 지금 막\n"
-	.string "그란돈한테 가셨어!\p"
-	.string "곧 잠에서 깨어날 테지!\n"
+	.string "그란돈이 있는 곳으로 가셨지!\p"
+	.string "곧 잠에서 깨어날 거라고!\n"
 	.string "우효! 우효효!$"
 	// ウヒョ!ｎ
 	// ここまで きたんだから おしえて やろうｐ
@@ -211,7 +211,7 @@ MagmaHideout_4F_Text_TabithaDefeat: @ 823A994
 
 MagmaHideout_4F_Text_TabithaPostBattle: @ 823A9AC
 	.string "...이런 식으로 너하고\n"
-	.string "시간을 보내는 동안에\l"
+	.string "시간을 보내는 사이에\l"
 	.string "마적님이 그란돈을... 우효$"
 	// ……と こんな ぐあいに おまえとｎ
 	// あそんで やっている あいだにｌ
@@ -221,8 +221,8 @@ MagmaHideout_4F_Text_MaxieAwakenGroudon: @ 823A9F4
 	.string "마적: 마그마에 잠든 그란돈이여\n"
 	.string "뭘 해도 일어나지 않던 네가\l"
 	.string "원하는 건 쪽빛구슬...\p"
-	.string "그런 거겠지?\p"
-	.string "자아 여기 가져왔다\n"
+	.string "그렇겠지?\p"
+	.string "자 여기 가져왔다\n"
 	.string "이 빛으로 눈을 떠라!\p"
 	.string "그리고 진정한 힘을\n"
 	.string "나에게 보여다오!$"
@@ -250,9 +250,9 @@ MagmaHideout_4F_Text_MaxieGroudonWhatsWrong: @ 823AADA
 MagmaHideout_4F_Text_MaxieOhItWasYou: @ 823AB33
 	.string "마적: 네 녀석인가!\p"
 	.string "이곳저곳에서 잔뜩\n"
-	.string "서성거리고 다닌 모양인데\p"
-	.string "과연 네가 뭔가\n"
-	.string "잔꾀를 부린 거로군...!$"
+	.string "서성거리고 다닌 모양이던데\p"
+	.string "그렇군 네가 뭔가\n"
+	.string "잔꾀를 부린 건가...!$"
 	// マツブサ『おまえか!ｐ
 	// あっちでも こっちでも ちょこちょことｎ
 	// うろつき まわって いたようだがｐ
@@ -271,11 +271,11 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
 	.string "그렇게 말하고 싶은 건가?\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
-	.string "흠...\n"
+	.string "흥...\n"
 	.string "그 정도는 나도 알고 있다\p"
 	.string "그란돈이 없어진 이상\n"
 	.string "더는 이런 산에 볼일은 없어\p"
-	.string "나는 그란돈을 쫓아갈 테니\n"
+	.string "나는 그란돈을 쫓아갈 거니까\n"
 	.string "너하고는 여기서 작별이겠군!$"
 	// マツブサ『グラ-ドンが にげだしたの にはｎ
 	// なにか わけがある……ｌ

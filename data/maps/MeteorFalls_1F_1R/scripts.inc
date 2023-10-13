@@ -334,7 +334,7 @@ MeteorFalls_1F_1R_Text_ArchieFarewell: @ 822C2FC
 	// では さらばだ!
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
-	.string "난 공석...\p"
+	.string "난 공석박사...\p"
 	.string "마그마단에게 부탁받아서\n"
 	.string "여기까지 안내해줬는데\l"
 	.string "속아서 운석을\l"
@@ -360,7 +360,7 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo: @ 822C342
 	// なにする つもり なんだろう……?
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney: @ 822C47D
-	.string "공석: 그건 그렇고 마그마단은\n"
+	.string "공석박사: 그건 그렇고 마그마단은\n"
 	.string "운석 같은 걸 가지고\l"
 	.string "굴뚝산에서\l"
 	.string "뭘 하려는 걸까...?$"

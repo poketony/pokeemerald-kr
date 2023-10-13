@@ -717,25 +717,42 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall:: @ 81FA4D6
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork: @ 81FA4E2
 	.string "응? 털보박사님?\p"
 	.string "박사님이라면 필드워크하러\n"
-	.string "나가셔서 지금 안 계셔요\p"
+	.string "나가셔서 지금 안 계세요\p"
 	.string "...아 필드워크라는 건\p"
 	.string "실제로 산이나 들로 나가서\n"
-	.string "연구를 하는 걸 말하는 거예요!\p"
-	.string "박사님은 책상 위에서 연구하시는\n"
-	.string "것보다 실제 밖으로 나가서\l"
+	.string "연구를 하는 걸 말하는 겁니다!\p"
+	.string "박사님은 책상 위에서 연구하시기보단\n"
+	.string "실제로 밖으로 나가서\l"
 	.string "체험하는 타입의 사람이에요!$"
+	// え? オダマキはかせ?ｐ
+	// はかせ なら フィ-ルドワ-クにｎ
+	// でかけていて いませんよｐ
+	// ……あ フィ-ルドワ-クって いうのはｐ
+	// じっさいに のやまへ でかけていってｎ
+	// けんきゅうを すること ですね!ｐ
+	// はかせは つくえのうえで けんきゅうをｎ
+	// するよりも じっさいに そとへ とびだしてｌ
+	// たいけんする タイプのひと なんです!
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork: @ 81FA641
-	.string "박사님은 책상 위에서 연구하시는\n"
-	.string "것보다 실제 밖으로 나가서\l"
+	.string "박사님은 책상 위에서 연구하시기보단\n"
+	.string "실제로 밖으로 나가서\l"
 	.string "체험하는 타입의 사람이에요!$"
+	// はかせは つくえのうえで けんきゅうをｎ
+	// するよりも じっさいに そとへ とびだしてｌ
+	// たいけんする タイプのひと なんです!
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
 	.string "털보박사님은\n"
 	.string "포켓몬이 어디에 살고 있는가\l"
 	.string "분포를 조사하고 있어요\p"
-	.string "{RIVAL}{K_I}는 자기가 좋아하는 아빠를\n"
+	.string "{RIVAL}{K_I}는 좋아하는 아빠를\n"
 	.string "도와주고 있답니다$"
+	// オダマキはかせはｎ
+	// ポケモンが どこに すんでいるのかｌ
+	// ぶんぷの ちょうさを なさっていますｐ
+	// §かさんは すきな おとうさんのｎ
+	// おてつだいを なさって いるのですよ
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "털보박사: ...자 그럼 {PLAYER}{K_AYA}!\p"
@@ -743,29 +760,44 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
 	.string "항상 듣고 있단다!\p"
 	.string "넌 아직 자신의 포켓몬을\n"
 	.string "가져본 적이 없다고 하던데?\p"
-	.string "그런 거치고는 아까 전에 포켓몬을\n"
-	.string "다루는 실력은\l"
-	.string "꽤 괜찮았는데 말이지!\p"
+	.string "그런 거치고 방금 전의 배틀은\n"
+	.string "꽤 훌륭했는데 말이지!\p"
 	.string "역시 너한테는 아버지의\n"
 	.string "피가 흐르고 있나 보구나!\p"
-	.string "아 그래! 구해준 보답으로\n"
+	.string "그래그래! 구해준 보답으로\n"
 	.string "아까 고른 포켓몬을\l"
 	.string "너에게 선물하도록 하마!\p"
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
+	// オダマキ『……さて §あ§お!ｐ
+	// きみのことは おとうさん からｎ
+	// いつも きかされていたよ!ｐ
+	// きみは まだ じぶんの ポケモンをｎ
+	// もったことが ないんだって?ｐ
+	// それにしては さっきの たたかいぶりｎ
+	// なかなか みごと だったよ!ｐ
+	// やっぱり きみには おとうさんのｎ
+	// ちが ながれて いるんだな!ｐ
+	// そうそう! たすけてくれた おれいにｎ
+	// さっきの ポケモンは わたしからｌ
+	// きみへの プレゼントに しよう!ｐ
+	// §あはｎ
+	// §いを もらった!
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon: @ 81FA8B1
-	.string "털보박사: 모처럼 이렇게 된 거\n"
-	.string "{STR_VAR_1}에게\l"
-	.string "별명을 지어주는 건 어떠니?$"
+	.string "털보박사: 모처럼이니까 {STR_VAR_1}에게\n"
+	.string "닉네임을 지어주는 건 어떠니?$"
+	// オダマキ『せっかく だから §いにｎ
+	// ニックネ-ムを つけてみては どうだい?
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival: @ 81FA8F6
 	.string "털보박사: 앞으로 더욱더 많은\n"
 	.string "경험을 쌓아 가면\l"
-	.string "더 좋은 트레이너가 될 거 같구나!\p"
+	.string "좋은 트레이너가 될 거 같구나!\p"
 	.string "마침 우리 {RIVAL}{K_I}도\n"
 	.string "나를 도와주고 있으니까\l"
-	.string "포켓몬 조사를 하고 있거든\l"
+	.string "포켓몬 조사를 하고 있거든\p"
+	.string "{PLAYER}{K_AYA}\n"
 	.string "만나러 가면 어떻겠느냐?$"
 	// オダマキ『これから さらにｎ
 	// けいけんを つんで いけばｌ
@@ -778,9 +810,9 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival: @ 81FA8F6
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou: @ 81FA9D5
 	.string "털보박사: 그럴래!\n"
-	.string "그거 우리 {RIVAL}{K_I}도 좋아하겠구나!\p"
+	.string "그거 {RIVAL}{K_I}도 좋아하겠구나!\p"
 	.string "트레이너가 어떤 건지\n"
-	.string "배워 보는 것도 좋겠지!$"
+	.string "배워보는 것도 좋겠지!$"
 	// オダマキ『そうか!ｎ
 	// それは §かも よろこぶぞ!ｐ
 	// トレ-ナ-が どんな ものかｎ
@@ -789,14 +821,16 @@ LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou: @ 81FA9D5
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay: @ 81FAA35
 	.string "털보박사: 그러지 말고\n"
 	.string "만나러 가면 어떻겠느냐?$"
+	// オダマキ『そんなこと いわずにｎ
+	// あいに いったら どうだろう?
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome: @ 81FAA74
 	.string "털보박사: {RIVAL}{K_I}라면\n"
 	.string "집에 돌아가 있는 거 아니니?\p"
-	.string "아니면 또 어딘가 풀숲을\n"
+	.string "아니면 또 어딘가의 풀숲을\n"
 	.string "뒤지고 있을지도 모르겠구나...\p"
-	.string "그리고 포켓몬이 다쳤다면\n"
-	.string "너희 집에서 쉬었다가 움직이려무나!$"
+	.string "그리고 네 포켓몬이 다쳤다면\n"
+	.string "너희 집에서 쉬었다가 움직이렴!$"
 	// オダマキ『§か だったらｎ
 	// いえに かえってるんじゃ ないのか?ｐ
 	// それとも また どこかの くさむらにｎ
@@ -807,13 +841,13 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome: @ 81FAA74
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex: @ 81FAB22
 	.string "털보박사: 오 {PLAYER}{K_AYA}!\p"
 	.string "처음인데도 {RIVAL}{K_I}한테\n"
-	.string "이기다니 정말 대단하구나!\p"
+	.string "이기다니 대단하구나!\p"
 	.string "{RIVAL}{K_I}는 상당히 예전부터\n"
 	.string "내 연구를 도와주고 있어서\l"
 	.string "트레이너 경력은 꽤 긴데 말이지!\p"
-	.string "응! {PLAYER}한테도\n"
+	.string "그래! {PLAYER}한테도\n"
 	.string "연구를 위해 마련해 놓은\l"
-	.string "이 포켓몬 도감을 주도록 하지!$"
+	.string "이 포켓몬 도감을 주도록 하마!$"
 	// オダマキ『おっ §あ§お!ｐ
 	// はじめてで §かにｎ
 	// かつ だなんて すごいじゃないか!ｐ
@@ -827,11 +861,13 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex: @ 81FAB22
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex: @ 81FAC32
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "포켓몬 도감을 받았다!$"
+	// §あはｎ
+	// ポケモンずかんを もらった!
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex: @ 81FAC4B
-	.string "털보박사: 그 포켓몬 도감은 말이다\n"
-	.string "네가 만난 포켓몬을\l"
-	.string "자동으로 기록해주는\l"
+	.string "털보박사: 그 포켓몬 도감은\n"
+	.string "네가 만난 포켓몬을\p"
+	.string "자동으로 기록해주는\n"
 	.string "하이테크한 도구란다!\p"
 	.string "{RIVAL}{K_I}도 그 도감을 들고\n"
 	.string "이곳저곳 놀러 다니고 있지\p"
@@ -851,14 +887,18 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex: @ 81FAC4B
 	// さがしだしては みせて くれるんだよ!
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait: @ 81FAD6F
-	.string "털보박사: 수많은 포켓몬들이 너를\n"
-	.string "기다리고 있다!\p"
-	.string "...아-! 나도 빨리\n"
-	.string "필드워크하러 나가고 싶어졌다!$"
+	.string "털보박사: 너의 앞길에는\n"
+	.string "수많은 포켓몬이 기다리고 있단다!\p"
+	.string "아- 빨리 필드워크하러\n"
+	.string "나가고 싶어졌다!$"
+	// オダマキ『きみの ゆくてにはｎ
+	// たくさんの ポケモンが まっているよ!ｐ
+	// あ- はやく フィ-ルドワ-クにｎ
+	// いきたく なってきたぞ!
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese: @ 81FADD7
 	.string "봄이: {PLAYER}도\n"
-	.string "포켓몬 도감 받았구나!\p"
+	.string "포켓몬 도감을 받았구나!\p"
 	.string "잘됐다! 나랑 똑같네!\n"
 	.string "그럼 난 이걸 줄게!$"
 	// ハルカ『§あ§おもｎ
@@ -872,7 +912,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls: @ 81FAE40
 	.string "난 여러 포켓몬을 찾고 싶으니까\n"
 	.string "다양한 곳을 찾을 거야!\p"
 	.string "그리고 귀여운 포켓몬이 있으면\n"
-	.string "몬스터볼로 잡아버릴 거야!$"
+	.string "몬스터볼로 잡아버려야지!$"
 	// ハルカ『ポケモンがｎ
 	// たくさん いると たのしいよ!ｐ
 	// あたし いろんな ポケモン さがしたいからｎ
@@ -881,17 +921,22 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls: @ 81FAE40
 	// モンスタ-ボ-ルで つかまえちゃう!
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull: @ 81FAEF3
-	.string "음? 가방이 가득 찼구나$"
+	.string "어라? 가방이 가득 찼네$"
+	// あら? バッグ いっぱいだよ
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext: @ 81FAF08
 	.string "봄이: 이번엔 어디까지\n"
 	.string "포켓몬 찾으러 가볼까?$"
+	// ハルカ『こんどは どこまでｎ
+	// ポケモンを さがしに いこうかな?
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese: @ 81FAF3F
-	.string "휘웅: 흐응- {PLAYER}{K_I}도\n"
-	.string "포켓몬 도감 받았구나\p"
-	.string "그럼 난\n"
-	.string "이걸 줄게$"
+	.string "휘웅: 흐음 {PLAYER}도\n"
+	.string "포켓몬 도감을 받았구나\p"
+	.string "그럼 난 이걸 줄게$"
+	// ユウキ『ふうん §あもｎ
+	// ポケモンずかん もらったのかｐ
+	// じゃあ オレは これ やるよ
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls: @ 81FAF8E
 	.string "휘웅: 포켓몬이\n"
@@ -908,42 +953,52 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls: @ 81FAF8E
 	// モンスタ-ボ-ルで つかまえるんだ
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull: @ 81FB05D
-	.string "흐음- 가방이 가득 찼네$"
+	.string "어라? 가방이 가득 찼네$"
+	// おや? バッグ いっぱいだよ
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext: @ 81FB073
 	.string "휘웅: 이번엔 어디로\n"
-	.string "포켓몬 찾으러 가볼까나...$"
+	.string "포켓몬 찾으러 가볼까...$"
+	// ユウキ『こんどは どこにｎ
+	// ポケモン さがしに いこうかな……
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine: @ 81FB0A2
-	.string "무언가 엄청나 보이는 머신이다!\n"
+	.string "뭔가 엄청나 보이는 머신이다!\n"
 	.string "박사님이 연구에 사용하시는 걸까?$"
+	// なんか すごそうな マシンだ!ｎ
+	// はかせが けんきゅうに つかうのかな?
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch: @ 81FB0E7
 	.string "연구에 사용되고 있는 PC다!\n"
-	.string "...만지지는 말자$"
+	.string "... 만지지는 말자$"
+	// けんきゅうに つかわれている パソコンだ!ｎ
+	// …… さわるのは やめておこう
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon: @ 81FB124
-	.string "포켓몬에 관한 책들로\n"
-	.string "죽 진열되어 있다!$"
+	.string "포켓몬에 대해 적힌\n"
+	.string "책이 가득 있다!$"
+	// ポケモンに ついて かかれたｎ
+	// ほんが いっぱい ある!
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead: @ 81FB148
-	.string "읽기에는 너무 어려운 책이 있다!$"
+	.string "어려워 보이는 책이 놓여 있다!$"
+	// むずかしそうな ほんが おいてある!
 
 LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational: @ 81FB16D
-	.string "털보박사: ...그럼\p"
-	.string "{PLAYER}{K_WAGWA} {RIVAL}에게 포켓몬의\n"
+	.string "털보박사: ...자 그럼\p"
+	.string "{PLAYER}{K_WAGWA} {RIVAL}{K_I}에게 포켓몬의\n"
 	.string "조사를 부탁했었는데\p"
 	.string "너희들의 노력 덕분에\n"
 	.string "여러 가지를 알 수 있었단다!\p"
 	.string "아무래도 호연지방에는\n"
 	.string "다른 지방의 포켓몬도\l"
-	.string "서식하고 있는 듯해!\p"
+	.string "서식하고 있는 것 같아!\p"
 	.string "그만큼 호연지방이\n"
 	.string "풍부한 자연으로 둘러싸여\l"
 	.string "있다는 거겠지!\p"
 	.string "그런 이유로 너희들의 도감을\n"
-	.string "전국도감으로 버전 업\l"
-	.string "시켜 줄 테니까!\p"
+	.string "전국도감으로\l"
+	.string "버전 업시켜 주려고 한단다!\p"
 	.string "자 도감을 줘 보렴!$"
 	// オダマキ『……さてｐ
 	// §あ§おと §かに ポケモンのｎ
@@ -974,7 +1029,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool: @ 81FB30F
 	// しらべてくれた おかげだね!
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe: @ 81FB38E
-	.string "휘웅: 내가 힘내서 호연지방의\n"
+	.string "휘웅: 내가 열심히 호연지방의\n"
 	.string "포켓몬을 조사했으니까\p"
 	.string "{PLAYER}의 도감도 전국도감으로\n"
 	.string "해주신 거야 운이 좋구나!$"
@@ -1009,7 +1064,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork: @ 81FB528
 	.string "봄이: 그럼 필드워크는\n"
 	.string "조금 미뤄두고\p"
 	.string "당분간은 여기서\n"
-	.string "박사님을 도와드려야겠어-$"
+	.string "박사님을 도와드려야겠네-$"
 	// ハルカ『さ-て フィ-ルドワ-クはｎ
 	// ちょっとだけ おやすみしてｐ
 	// しばらくは ここでｎ
@@ -1036,10 +1091,10 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon: @ 81FB5F9
 	.string "이야- 대단하구나!\p"
 	.string "너의 그 굉장한 업적에\n"
 	.string "감사의 마음을 담아\l"
-	.string "내가 선물을 주도록 할게!\p"
+	.string "내가 선물을 주도록 하마!\p"
 	.string "그건...\p"
 	.string "다른 지방에서만 볼 수 있는\n"
-	.string "희귀한 포켓몬이야!\p"
+	.string "희귀한 포켓몬이란다!\p"
 	.string "3마리 중에서\n"
 	.string "마음에 드는 1마리를 줄게!$"
 	// オダマキ『おお §あ§お!ｎ
@@ -1061,7 +1116,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon: @ 81FB5F9
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon: @ 81FB787
 	.string "털보박사: 다른 지방에서만\n"
-	.string "볼 수 있는 희귀한 포켓몬이야!\p"
+	.string "볼 수 있는 희귀한 포켓몬이란다!\p"
 	.string "3마리 중에서\n"
 	.string "마음에 드는 1마리를 줄게!$"
 	// オダマキ『ほかの ちほうでしかｎ
@@ -1094,7 +1149,7 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita: @ 81FB8E0
 	// ならば チコリ-タで けっていだね?
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable: @ 81FB959
-	.string "털보박사: 차분히 생각해서\n"
+	.string "털보박사: 천천히 생각하고\n"
 	.string "고르도록 하렴\p"
 	.string "모두 귀중한 포켓몬이니까$"
 	// オダマキ『じっくり かんがえてｎ
@@ -1116,14 +1171,14 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter: @ 81FB9D7
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter: @ 81FB9FC
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_1} you received?$"
+	.string "받은 {STR_VAR_1}에게\n"
+	.string "닉네임을 붙이겠습니까?$"
 	// もらった §いにｎ
 	// ニックネ-ムを つけますか?
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting: @ 81FBA2C
 	.string "털보박사: {PLAYER}{K_AYA} 알겠니?\n"
-	.string "호연도감을 완성했다고 해서\l"
+	.string "호연도감을 완성했어도\l"
 	.string "포켓몬의 길은 끝난 게 아니란다\p"
 	.string "아직 발을 내딛지 않은 풀숲은\n"
 	.string "언제까지나 널 기다리고 있지!$"
@@ -1141,15 +1196,15 @@ LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone: @ 81FBAF8
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon: @ 81FBB3A
-	.string "Oh, you don't have any room for\n"
-	.string "this POKéMON.$"
+	.string "으음? 그 이상\n"
+	.string "포켓몬을 지닐 수가 없구나$"
 	// おや? それいじょうｎ
 	// ポケモンを もてない みたいだな
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere: @ 81FBB68
 	.string "봄이: {PLAYER}{K_EUNNEUN}\n"
 	.string "이제... 뭘 할 거야?\p"
-	.string "포켓몬 승부를 단련할 거야?\p"
+	.string "포켓몬 승부의 길을 나아갈 거야?\p"
 	.string "아니면 전국도감의\n"
 	.string "완성을 노릴 거야?\p"
 	.string "나는 여기서\n"
@@ -1165,7 +1220,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere: @ 81FBB68
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly: @ 81FBC2D
 	.string "휘웅: 나는 포켓몬을 모으는 것보다\n"
 	.string "이거다! 라는 생각이 드는 1마리를\l"
-	.string "차분히 키우고 싶어!$"
+	.string "차분히 키우는 게 좋아!$"
 	// ユウキ『オレは ポケモン あつめるよりｎ
 	// これは! と おもった 1ひきをｌ
 	// じっくり そだてるのが すきなのさ!
@@ -1192,13 +1247,13 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall: @ 81FBD1A
 	.string "금작화: 여어 {PLAYER}{K_AYA}!\n"
 	.string "나야 금작화!\p"
 	.string "지금 타이드립호에 타고 있는데\n"
-	.string "역시 바다는 기분 좋네-\p"
+	.string "역시 바다는 기분이 좋네-\p"
 	.string "그건 그렇고...\p"
 	.string "너를 초대하고 싶은 장소가\n"
 	.string "있는데 어때?\p"
 	.string "만약 흥미가 있다면\n"
-	.string "잿빛도시나 해안시티의\l"
-	.string "배 타는 곳에서 배에 타줘!\p"
+	.string "잿빛도시나 해안시티의 배 타는 곳에서\l"
+	.string "배에 타 줘!\p"
 	.string "자세한 건 만나고 나서 알려줄게\n"
 	.string "그럼 나중에 보자!\p"
 	.string "...... ...... ......\n"

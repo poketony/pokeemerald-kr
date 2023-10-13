@@ -14,7 +14,7 @@ MagmaHideout_3F_1R_EventScript_Grunt16:: @ 823A1CA
 MagmaHideout_3F_1R_Text_Grunt9Intro: @ 823A1E1
 	.string "왜 나는 이런 곳을\n"
 	.string "담당하게 된 거야!\p"
-	.string "왼쪽 귀가 뜨거워!$"
+	.string "왼쪽 귀가 뜨겁다고-!$"
 	// なんで オレは こんなところのｎ
 	// たんとう なんだよ!ｐ
 	// ひだりのみみ が あつい じゃね-か!
@@ -25,17 +25,17 @@ MagmaHideout_3F_1R_Text_Grunt9Defeat: @ 823A229
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle: @ 823A246
 	.string "이런 마그마투성이인 화산 안에서\n"
-	.string "후드를 쓴 우리들이 이상한 거지?$"
+	.string "후드를 쓴 우리들이 이상해?$"
 	// こんな マグマだらけの かざんの なかでｎ
 	// フ-ドを かぶってる オレたち へん?
 
 MagmaHideout_3F_1R_Text_Grunt16Intro: @ 823A293
-	.string "우리들은 리더가 노리고 있는\n"
+	.string "우리들은 리더가 추구하는\n"
 	.string "굉장한 목적을\l"
 	.string "실현하기 위해 모였지!\p"
-	.string "아쿠아단 따위나\n"
-	.string "지나가던 꼬마가\l"
-	.string "방해한다면 용서치 않겠어!$"
+	.string "아쿠아단이든\n"
+	.string "지나가던 꼬마든\l"
+	.string "방해한다면 용서하지 않겠어!$"
 	// アタシたちは リ-ダ-が めざしているｎ
 	// すばらしい もくてきをｌ
 	// じつげん するために あつまったの!ｐ
@@ -44,7 +44,7 @@ MagmaHideout_3F_1R_Text_Grunt16Intro: @ 823A293
 	// じゃまを するなら ゆるさないわ!
 
 MagmaHideout_3F_1R_Text_Grunt16Defeat: @ 823A353
-	.string "헤에- 강하구나!$"
+	.string "헤에- 얕볼 수 없겠는걸!$"
 	// ひえ- あなどれない ひと!
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle: @ 823A37C

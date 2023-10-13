@@ -965,12 +965,11 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "계속 트럭이 흔들려서\n"
 	.string "정신없었지?\p"
 	.string "여기가 미로마을이란다!\p"
-	.string "어떠니? 이게 우리 가족의\n"
+	.string "어때? 이게 우리 가족의\n"
 	.string "새로운 집이야!\p"
 	.string "살짝 고풍스러우면서도\n"
 	.string "살기 좋은 곳일 거 같지 않니?\p"
-	.string "이번에는 {PLAYER}\n" 
-	.string "네 방도 있단다!\p"
+	.string "이번에는 {PLAYER}의 방도 있단다!\n"
 	.string "자 그럼 안으로 들어가자!$"
 	// ママ『{PLAYER} おつかれさま!ｐ
 	// ながいあいだ トラックに ゆられてｎ
@@ -984,7 +983,7 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	// さあ なかに はいりましょ!
 
 LittlerootTown_Text_WaitPlayer:
-	.string "엄마: 잠깐 기다리렴 {PLAYER}{K_AYA}!$"
+	.string "엄마: 잠깐 {PLAYER}{K_AYA}!$"
 	// ママ『まって {PLAYER}!
 
 LittlerootTown_Text_WearTheseRunningShoes:
@@ -992,12 +991,12 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "털보박사님께는 인사했니?\p"
 	.string "어머! 귀여운 포켓몬!\n"
 	.string "털보박사님께 받았구나\p"
-	.string "역시 피는 못 속여...\n"
+	.string "역시 피는 못 속이는 거네...\n"
 	.string "포켓몬이랑 함께 있는 모습이\l"
 	.string "정말 그럴듯하구나!\p"
 	.string "자! 모험을 떠나려면\n"
 	.string "러닝슈즈를 신어야지!\p"
-	.string "여러 장소를\n"
+	.string "여러 장소에서\n"
 	.string "달릴 수 있게 될 거야!$"
 	// ママ『{PLAYER}! {PLAYER}!ｎ
 	// オダマキはかせに あいさつ した?ｐ
@@ -1040,41 +1039,59 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "가지게 될 줄이야...\l"
 	.string "아빠가 알면 정말 기뻐하시겠다!\p"
 	.string "...그치만 무리는 하지 마렴\n"
-	.string "무슨 일이 생기면\l"
-	.string "집으로 와도 되니까\p"
+	.string "무슨 일이 생기면 집에 와도 돼\p"
 	.string "그럼 힘내!$"
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// あなたが じぶんの ポケモンをｎ
+	// もつように なった だなんて……ｌ
+	// パパが しったら おおよろこび するわよ!ｐ
+	// ……でも むりは しないでねｎ
+	// なにか あれば かえって くればいいからｐ
+	// じゃあ がんばってね!
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "PC를 쓰면\n"
-	.string "아이템이나 포켓몬을\l"
-	.string "보관할 수 있다고 하더라고!\p"
+	.string "도구나 포켓몬을 보관할 수 있어!\p"
 	.string "과학의 힘은 정말 대단해!$"
+	// パソコンを つかえばｎ
+	// どうぐや ポケモンが ほぞん できるんだ!ｐ
+	// かがくの ちからって しびれる-っ!
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "계속 연구소에만 틀어박혀서\n"
-	.string "연구만 하고 있다고 생각했는데\p"
-	.string "또 갑자기\n"
-	.string "산이나 들로 뛰쳐나가니...\p"
-	.string "털보박사님은 도대체\n"
+	.string "계-속 연구소에만 틀어박혀서\n"
+	.string "연구만 하고 있다고 생각하면\l"
+	.string "갑자기 산이나 들로 뛰쳐나가시네...\p"
+	.string "털보박사님은 대체\n"
 	.string "언제 집에 가시는 걸까?$"
+	// ず-っと けんきゅうしつに こもってｎ
+	// しらべものを しているかと おもえばｌ
+	// とつぜん のやまに とびだしていく……ｐ
+	// オダマキはかせって いったいｎ
+	// いつ うちに かえっているんだろう?
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "있지-있지-있지-!\p"
+	.string "있지 있지 있지!\p"
 	.string "여기 앞에 있는 도로\n"
 	.string "풀숲으로 들어가면\l"
-	.string "야생 포켓몬이 나와버려!$"
+	.string "야생 포켓몬이 나와!$"
+	// あの あの あのね!ｐ
+	// ここから さきの どうろｎ
+	// くさむらに はいるとｌ
+	// やせいの ポケモンが でてくるの!
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "자기 포켓몬을 데리고 있지 않으면\n"
+	.string "자기 포켓몬을 가지고 있지 않으면\n"
 	.string "위험하게 돼!$"
+	// じぶんの ポケモンを もってないとｎ
+	// あぶないの!
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "있지-있지-!\p"
+	.string "있지 있지!\p"
 	.string "지금 마을 밖에서\n"
 	.string "무-서운 포켓몬의 소리가 들렸어!\p"
-	.string "뭐가 일어나고 있는지\n"
-	.string "보러 가고 싶은데\l"
-	.string "나 포켓몬을 데리고 있지 않아서...\p"
+	.string "무슨 일인지 보러 가고 싶은데\n"
+	.string "나 포켓몬을 가지고 있지 않아서...\p"
 	.string "{K_GIRL_CALL}\n"
 	.string "나 대신에 보고 와줄래?$"
 	// ねえ ねえ!ｐ
@@ -1087,30 +1104,39 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 
 LittlerootTown_Text_YouSavedBirch:
 	.string "{K_GIRL_CALL} 덕분에\n"
-	.string "박사님이 무사했어! 다행이다-$"
+	.string "박사님이 살았어! 다행이다-$"
+	// §いの おかげでｎ
+	// はかせ たすかった! よかった-
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "포켓몬 잡으러 가는 거야?\n"
 	.string "파이팅!$"
+	// ポケモンを つかまえに いくの?ｎ
+	// がんばってね!
 
 LittlerootTown_Text_TownSign:
 	.string "여기는 미로마을\n"
 	.string "어떤 색에도 물들지 않는 마을$"
+	// ここは ミシロ タウンｎ
+	// どんな いろにも そまらない まち
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "“털보박사 포켓몬 연구소”$"
+	// 「オダマキ ポケモン けんきゅうじょ」
 
 LittlerootTown_Text_PlayersHouse:
 	.string "“{PLAYER}의 집”$"
+	// 「§あの いえ」
 
 LittlerootTown_Text_ProfBirchsHouse:
 	.string "“털보박사의 집”$"
+	// 「オダマキ はかせの いえ」
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "털보박사: 이야- {PLAYER}{K_AYA}!\n"
 	.string "그건 그렇고 훌륭하구나\p"
 	.string "처음에 너를 봤을 때부터\n"
-	.string "보통이 아닐 거라고 생각했었는데\l"
+	.string "평범하지 않다고 생각했었는데\l"
 	.string "설마 이 정도일 줄이야\p"
 	.string "그래그래!\n"
 	.string "네게 주었던 포켓몬 도감\l"

@@ -334,15 +334,16 @@ LittlerootTown_MaysHouse_1F_Movement_MayGoUpstairs2: @ 81F8BBF
 	step_end
 
 RivalsHouse_1F_Text_OhYoureTheNewNeighbor: @ 81F8BC5
-	.string "응? 누구지?\p"
+	.string "으-음 누구니?\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
-	.string "아 그래 네가 옆집으로\n"
+	.string "그래 네가 옆집으로\n"
 	.string "이사 온 {PLAYER}{K_I}구나!\p"
 	.string "우리 집에도 너와 비슷한 또래의\n"
 	.string "{STR_VAR_1}이 있단다!\p"
-	.string "“새 친구가 생긴다!”\n"
-	.string "라면서 무척 좋아했었어\p"
+	.string "“새 친구가 생기겠네!”\n"
+	.string "라고 하면서\l"
+	.string "무척 기대하고 있었어!\p"
 	// え-と どなた かしら?ｐ
 	// …… …… ……ｎ
 	// …… …… ……ｐ
@@ -358,7 +359,7 @@ RivalsHouse_1F_Text_LikeChildLikeFather: @ 81F8CA5
 	.string "아빠도 그 애에게 지지 않도록\n"
 	.string "포켓몬에 열중하고 있단다\p"
 	.string "연구소에 없다면\n"
-	.string "분명 어딘가 풀숲이라도\l"
+	.string "분명 어딘가의 풀숲이라도\l"
 	.string "뒤지고 있는 거 아닐까...$"
 	// おとうさんも あのこに まけずｎ
 	// ポケモンに むちゅう なのよｐ
@@ -382,47 +383,53 @@ RivalsHouse_1F_Text_WentOutToRoute103: @ 81F8D93
 	.string "집에서 가만히 있지를 못한다니까$"
 	// あら §か だったらｎ
 	// ついさっき 103ばんどうろの ほうへｌ
-	//でかけて いったわよ!ｐ
+	// でかけて いったわよ!ｐ
 	// まったく おとうさんに にてｎ
 	// おうちで じっとして いられないのよね
 	
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften: @ 81F8E01
 	.string "포켓몬이랑 같이\n"
 	.string "모험하는 것도 좋지만\p"
-	.string "가끔은 집에 돌아와서\n"
-	.string "엄마한테 건강한 모습 좀\l"
-	.string "보여주고 그러렴!\p"
-	.string "분명 마음속에서는\n"
+	.string "가끔은 집에 돌아와서 엄마한테\n"
+	.string "건강한 모습 좀 보여주고 그러렴!\p"
+	.string "마음속으로는 분명\n"
 	.string "{PLAYER}{K_EULREUL}\l"
 	.string "걱정하고 있으실 테니까...$"
+	// ポケモンと いっしょにｎ
+	// ぼうけん するのも いいけどｐ
+	// たまには おうちに かえって おかあさんにｎ
+	// げんきな かおを みせてあげてね!ｐ
+	// こころの なかでは きっとｎ
+	// §あ§おの ことｌ
+	// しんぱい してる はずだから……
 
 RivalsHouse_1F_Text_MayWhoAreYou: @ 81F8EC6
 	.string "어라? 너... 누구야?\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
 	.string "네가 {PLAYER}...\n"
-	.string "아 오늘 이사 오는 거였구나...\p"
-	.string "아 난 봄이!\n"
-	.string "잘 부탁해\p"
+	.string "그래 오늘 이사 왔구나...\p"
+	.string "나 난 봄이야!\n"
+	.string "자 잘 부탁해\p"
 	.string "난...\n"
 	.string "온 세상 포켓몬들과\l"
 	.string "친구가 되는 게 꿈이야...\p"
-	.string "그래서\n"
+	.string "그 그래서\n"
 	.string "아빠... 털보박사님한테\l"
-	.string "{PLAYER} 얘기를 듣고\p"
-	.string "나 너랑도\n"
-	.string "친구가 됐음 좋겠다고...\l"
+	.string "{PLAYER}의 얘기를 듣고\p"
+	.string "나 {PLAYER}{K_I}랑도\n"
+	.string "친구가 됐으면 좋겠다고...\l"
 	.string "생각하고 있었어...\p"
-	.string "에고 나 참 {PLAYER}{K_I}랑\n"
-	.string "오늘 처음 만나서 얘기하는 건데\l"
+	.string "앗 나도 참 {PLAYER}{K_I}랑\n"
+	.string "처음 만나서 얘기하는 건데\l"
 	.string "무슨 얘길 하는 건지...\p"
 	.string "에헤헤...\p"
-	.string "아 맞다!\p"
+	.string "앗 이런!\p"
 	.string "나 아빠 심부름으로\n"
 	.string "야생 포켓몬\l"
 	.string "잡으러 가려던 참이었어!\p"
 	.string "나갈 준비를 해야 하니까\n"
-	.string "{PLAYER} 그럼 나중에 또 보자!$"
+	.string "{PLAYER}{K_AYA} 그럼 나중에 또 보자!$"
 	// あら? あなた……だれ?ｐ
 	// …… …… ……ｎ
 	// …… …… ……ｐ
@@ -453,26 +460,27 @@ RivalsHouse_1F_Text_MayWhoAreYou: @ 81F8EC6
 RivalsHouse_1F_Text_BrendanWhoAreYou: @ 81F90B4
 	.string "너...\p"
 	.string "누구야?\p"
-	.string "아 네가 옆으로\n"
+	.string "앗 네가 옆집에\n"
 	.string "이사 온 {PLAYER}{K_I}구나...\p"
-	.string "흠\n"
+	.string "흐음\n"
 	.string "여자애였구나...\p"
 	.string "아빠... 털보박사님한테\n"
 	.string "옆집으로 이사 오는 건\l"
-	.string "체육관 관장의 아이라고 들어서\p"
-	.string "내 마음대로\n"
-	.string "남자애라고 생각하고 있었어\p"
-	.string "난 휘웅\n"
+	.string "체육관 관장의 아이라고 들어서\l"
+	.string "멋대로 남자애라고 생각하고 있었어\p"
+	.string "난 휘웅이야\n"
 	.string "뭐 이웃이 됐으니\l"
-	.string "앞으로 잘 부탁해\p"
+	.string "앞으로 잘 부탁할게\p"
 	.string "응? {PLAYER} 너\n"
-	.string "아직 포켓몬 없어?\p"
-	.string "괜찮으면 내가 잡아줄까?\p"
-	.string "아 맞다 까먹고 있었다...\p"
+	.string "포켓몬 없어?\p"
+	.string "괜찮으면 내가\n"
+	.string "잡아줄까?\p"
+	.string "아 맞다 까먹고 있었네...\p"
 	.string "나 아빠 심부름으로\n"
 	.string "야생 포켓몬\l"
 	.string "잡으러 가려고 하던 중이었어\p"
-	.string "{PLAYER} 다음에 또 보자!$"
+	.string "나갈 준비를 해야 하니까\n"
+	.string "{PLAYER}{K_AYA} 다음에 또 보자!$"
 	// おまえ……ｐ
 	// だれ?ｐ
 	// あっ おまえが となりにｎ
@@ -500,7 +508,7 @@ RivalsHouse_1F_Text_BrendanWhoAreYou: @ 81F90B4
 RivalsHouse_1F_Text_DoYouHavePokemon: @ 81F9262
 	.string "와-아 이웃이다!\p"
 	.string "{K_BOY_CALL}{K_EUNNEUN} 벌써\n"
-	.string "자신의 포켓몬을 가지고 있어?$"
+	.string "자기 포켓몬을 가지고 있어?$"
 	// わ-い おとなりさんだ!ｐ
 	// §いは もうｎ
 	// じぶんの ポケモン もってるの?
