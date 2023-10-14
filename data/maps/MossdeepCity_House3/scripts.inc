@@ -26,27 +26,38 @@ MossdeepCity_House3_EventScript_DeclineSuperRod:: @ 822260C
 	end
 
 MossdeepCity_House3_Text_YouWantSuperRod: @ 8222616
-	.string "이봐-아! 거기 트레이너!\n"
-	.string "대단한낚싯대는 진짜 대단하다고\p"
-	.string "해저에 있는 포켓몬까지\n"
-	.string "낚아 올릴 수 있으니까 말이다!\p"
-	.string "어때? 갖고 싶나?$"
+	.string "이봐-! 거기 트레이너!\n"
+	.string "대단한낚싯대는 정말로 대단하다고\p"
+	.string "왜냐면 해저에 있는\n"
+	.string "포켓몬도 낚아 올릴 수 있거든!\p"
+	.string "어때? 갖고 싶어졌어?$"
+	// お-い! トレ-ナ-よお!ｎ
+	// すごいつりざおは ほんとうに すごいぞおｐ
+	// なんたって かいていに いるｎ
+	// ポケモンも つりあげられる からのお!ｐ
+	// どお? ほしく なった?
 
 MossdeepCity_House3_Text_SuperRodIsSuper: @ 82226B6
-	.string "암 그렇겠지 당연히 갖고 싶겠지!\n"
-	.string "대단한낚싯대는 진짜\l"
-	.string "대단하니까 말이다!$"
+	.string "그치 그치! 대단한낚싯대는\n"
+	.string "정말로 대단하니까 말이다!$"
+	// そうだろ そうだろ! すごいつりざおはｎ
+	// ほんとうに すごい からのお!
 
 MossdeepCity_House3_Text_TryDroppingRodInWater: @ 82226F0
-	.string "물이 있는 곳이라면 무조건\n"
-	.string "낚싯대를 써보는 게 좋을 거다!$"
+	.string "물이 있는 곳이라면\n"
+	.string "어디든 낚싯대를 써보도록 해!$"
+	// みずの ある ところならｎ
+	// どこでも つりざお つかうと いいぞお!
 
 MossdeepCity_House3_Text_DontYouLikeToFish: @ 8222733
-	.string "엉?\n"
-	.string "낚시는 싫은감?$"
+	.string "어라?\n"
+	.string "낚시는 싫은 거야?$"
+	// あら?ｎ
+	// つりは きらい なのかね?
 
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon: @ 8222751
 	.string "대단한낚싯대로\n"
-	.string "해저에 있는 포켓몬을\l"
-	.string "낚아 올려보라고!$"
+	.string "해저의 포켓몬도 낚아 올려봐!$"
+	// すごいつりざおでｎ
+	// かいていの ポケモンも つりあげろお!
 

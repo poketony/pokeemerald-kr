@@ -30,14 +30,14 @@ MeteorFalls_StevensCave_EventScript_Defeated:: @ 823B1CD
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst: @ 823B1E1
 	.string "성호: 호오 {PLAYER}\n"
-	.string "내가 여기 있는 걸 용케 알았네\p"
-	.string "설마 너... 나를 평범한\n"
-	.string "돌마니아라고 생각한 거야?\p"
+	.string "내가 여기 있는 걸 잘도 알았네\p"
+	.string "설마 너... 나를\n"
+	.string "평범한 돌마니아라고 생각하는 거야?\p"
 	.string "...아니 이끼시티의 우주센터에서\n"
 	.string "같이 싸웠었으니까\p"
 	.string "내가 얼마나 강한지는\n"
 	.string "너도 알고 있겠지\p"
-	.string "좋아 {PLAYER}\n"
+	.string "좋아 {PLAYER}\p"
 	.string "진심으로 승부할 거라면\n"
 	.string "각오하고 덤벼봐!$"
 	// ダイゴ『へぇ §あ§おｎ
@@ -65,7 +65,7 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue: @ 823B358
 	.string "언젠가 네가 챔피언이\n"
 	.string "될 거 같다는 느낌이 들었어\p"
 	.string "내 예상은\n"
-	.string "언제나 잘 맞거든\p"
+	.string "대체로 잘 맞거든\p"
 	.string "그럼...\n"
 	.string "다음으로 네가 향할 곳은...\p"
 	.string "...... ...... ......\n"

@@ -176,12 +176,11 @@ MossdeepCity_StevensHouse_Text_ExplainDive: @ 8222A0E
 	.string "성호: 파도타기를 하고 있으면\n"
 	.string "물의 색이 진한 곳이 있어\p"
 	.string "거기서 다이빙을 사용하면\n"
-	.string "바닷속 깊은 곳으로\l"
-	.string "잠수해서 들어갈 수 있어\p"
-	.string "다시 떠오르고 싶을 때는\n"
-	.string "다시 한 번 다이빙을 써\p"
+	.string "바다 깊은 곳으로 잠수할 수 있지\p"
+	.string "다시 올라오고 싶을 때는\n"
+	.string "다시 한 번 다이빙을 쓰면 돼\p"
 	.string "장소에 따라\n"
-	.string "떠오를 수 없는 경우도 있지만$"
+	.string "올라올 수 없는 경우도 있지만$"
 	// ダイゴ『なみのりを しているとｎ
 	// みずの いろが こい ばしょが あるｐ
 	// そこで ダイビングを つかうとｎ
@@ -193,7 +192,7 @@ MossdeepCity_StevensHouse_Text_ExplainDive: @ 8222A0E
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis: @ 8222B11
 	.string "성호: 이끼시티와 루네시티 사이에는\n"
-	.string "해저동굴이 있는 듯해\p"
+	.string "해저동굴이 있는 것 같아\p"
 	.string "왜 그... 해양관장이\n"
 	.string "발견한 그거 있잖아$"
 	// ダイゴ『トクサネと ルネの あいだにはｎ
@@ -204,39 +203,67 @@ MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis: @ 8222B
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum: @ 8222B9E
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "몬스터볼을 조사했다!\p"
-	.string "몬스터볼 안에는\n"
-	.string "포켓몬 메탕이 들어 있다!\p"
+	.string "안에는 포켓몬\n"
+	.string "메탕이 들어 있다!\p"
 	.string "몬스터볼을 가지고 가겠습니까?$"
+	// §あはｎ
+	// モンスタ-ボ-ルを しらべた!ｐ
+	// なかには ポケモンのｎ
+	// ダンバルが はいっている!ｐ
+	// モンスタ-ボ-ルを もって いきますか?
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum: @ 8222BED
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "메탕을 손에 넣었다!$"
+	// §あはｎ
+	// ダンバルを てにいれた!
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon: @ 8222C03
-	.string "이 이상 포켓몬을 들 수 없다!$"
+	.string "이 이상 포켓몬을 지닐 수 없다!$"
+	// これいじょう ポケモンを もてない!
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas: @ 8222C2A
 	.string "{PLAYER}{K_EUNNEUN} 몬스터볼을\n"
 	.string "그대로 놔두었다$"
+	// あは モンスタ-ボ-ルをｎ
+	// そのままに しておいた
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven: @ 8222C4E
 	.string "편지가 있다!\p"
-	.string "...... ...... ...... ......\p"
+	.string "...... ...... ......\n"
+	.string "...... ...... ......\p"
 	.string "{PLAYER}에게\p"
 	.string "난 생각할 게 좀 있어서\n"
 	.string "조만간 수행을 계속할 거야\l"
 	.string "당분간은 집에 돌아갈 생각이 없어\p"
 	.string "그래서 부탁 하나 할게\p"
 	.string "책상 위에 있는\n"
-	.string "몬스터볼을 받아 줬으면 해\p"
+	.string "몬스터볼을 받아줬으면 해\p"
 	.string "안에 들어 있는 건 메탕이라는\n"
-	.string "내가 좋아하는 포켓몬이니까\l"
-	.string "그 포켓몬을 잘 부탁해\p"
-	.string "그럼 또 어딘가에서 만나자!\p"
-	.string "나성호$"
+	.string "내가 좋아하는 포켓몬이니까\p"
+	.string "잘 부탁해\p"
+	.string "그럼 또 어딘가에서 만나자!\n"
+	.string "                           나성호가$"
+	// てがみが ある!ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// §あ§おへｐ
+	// ボクは おもうことが あってｎ
+	// しばらく しゅぎょうを つづけるｌ
+	// とうぶん いえに かえらないｐ
+	// そこで おねがいだｐ
+	// つくえの うえにあるｎ
+	// モンスタ-ボ-ルを うけとって ほしいｐ
+	// なかに いるのは ダンバルといってｎ
+	// ボクの おきにいりの ポケモンだからｐ
+	// よろしく たのむよｐ
+	// では また いつか あおう!ｎ
+	//       ツワブキ ダイゴより
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks: @ 8222D97
 	.string "성호가 모은\n"
 	.string "희귀한 돌이 장식되어 있다!$"
+	// ダイゴの あつめたｎ
+	// めずらしい いしが かざってある!
 

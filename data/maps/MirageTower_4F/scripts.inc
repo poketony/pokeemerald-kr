@@ -64,9 +64,9 @@ MirageTower_4F_EventScript_CollapseMirageTower:: @ 823ADCA
 
 MirageTower_4F_Text_TakeRootFossil: @ 823ADF9
 	.string "뿌리화석을 발견했다!\p"
-	.string "이 화석을 캐면\n"
+	.string "이 화석을 가져가면\n"
 	.string "발밑이 무너져버릴 것 같다...\p"
-	.string "뿌리화석을 캐겠습니까?$"
+	.string "뿌리화석을 가져가겠습니까?$"
 	// ねっこのカセキを みつけた!ｐ
 	// この カセキを とるとｎ
 	// あしもとが くずれて しまいそうだ……ｐ
@@ -80,9 +80,9 @@ MirageTower_4F_Text_LeftRootFossilAlone: @ 823AE79
 
 MirageTower_4F_Text_TakeClawFossil: @ 823AE98
 	.string "발톱화석을 발견했다!\p"
-	.string "이 화석을 캐면\n"
+	.string "이 화석을 가져가면\n"
 	.string "발밑이 무너져버릴 것 같다...\p"
-	.string "발톱화석을 캐겠습니까?$"
+	.string "발톱화석을 가져가겠습니까?$"
 	// ツメのカセキを みつけた!ｐ
 	// この カセキを とるとｎ
 	// あしもとが くずれて しまいそうだ……ｐ

@@ -316,23 +316,33 @@ MossdeepCity_Movement_ScottExitEast: @ 81E4CE2
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe: @ 81E4CED
 	.string "이거... 성호님한테 받은 건데\n"
-	.string "도무지 뭔지 잘 모르겠어!\p"
+	.string "뭔지 잘 모르겠어!\p"
 	.string "왕의징표석이라고 하는 거 같은데\n"
 	.string "너 가질래?$"
+	// これ…… ダイゴさんに もらったけどｎ
+	// なんだか よく わかんないや!ｐ
+	// おうじゃのしるし って いうらしいけどｎ
+	// おまえ ほしい?
 
 MossdeepCity_Text_YouCanKeepIt: @ 81E4D5B
 	.string "이걸 가지고 싶어 하다니\n"
 	.string "너도 참 별나구나!\p"
 	.string "줄 순 있는데 그 대신\n"
 	.string "성호님한테는 비밀이야!$"
+	// これが ほしいなんてｎ
+	// おまえも かわってるよな!ｐ
+	// やるけど そのかわりｎ
+	// ダイゴさんには ないしょ だぜ!
 
 MossdeepCity_Text_StevensHouseOverThere: @ 81E4DB3
 	.string "성호님의 집이라면 바로 저기야!$"
 	// ダイゴさんの いえなら すぐそこだよ!
 
 MossdeepCity_Text_WhatToDoWithWeirdRock: @ 81E4DD7
-	.string "너도 그렇지! 이런 이상한 돌을 받아도\n"
+	.string "그치! 이런 이상한 돌을 받아도\n"
 	.string "어떻게 해야 할지 모르겠다니까!$"
+	// そうだろ! へんてこな いしをｎ
+	// もらっても こまっちゃうよな!
 
 MossdeepCity_Text_WailmerWatching: @ 81E4E22
 	.string "이 이끼시티 주변에서는\n"
@@ -340,14 +350,20 @@ MossdeepCity_Text_WailmerWatching: @ 81E4E22
 	.string "그걸 음...\n"
 	.string "뭐라고 하더라...\p"
 	.string "고래 고래 고래...\p"
-	.string "그래! 고래왕자 워칭이라고 했었다!$"
+	.string "고래왕자 워칭이라고 했었어!$"
+	// この トクサネの しゅうへん ではｎ
+	// やせいの ホエルコが けんぶつ できるんだｐ
+	// そ-いうのを え-と……ｎ
+	// なんて いったっけ かな……ｐ
+	// ホエ ホエ ホエ……ｐ
+	// ホエルコ ウオッチング だ!
 
 MossdeepCity_Text_SpaceCenterReceivedLetter: @ 81E4E90
 	.string "섬의 우주센터에는\n"
 	.string "엄청난 로켓을 날리고 있는데...\p"
 	.string "최근 그곳에\n"
 	.string "이상한 편지가 도착해서\l"
-	.string "조금 소란이 났었대요 $"
+	.string "조금 소란이 났었대$"
 	// しまの うちゅうセンタ- ではｎ
 	// すんごい ロケット とばしとるけど……ｐ
 	// さいきん あそこにｎ
@@ -357,11 +373,13 @@ MossdeepCity_Text_SpaceCenterReceivedLetter: @ 81E4E90
 MossdeepCity_Text_SpaceCenterLaunchingRockets: @ 81E4F15
 	.string "섬에 있는 우주센터에서는\n"
 	.string "엄청난 로켓을 날리고 있어!$"
+	// しまの うちゅうセンタ- ではｎ
+	// すんごい ロケット とばしとるのよ!
 
 MossdeepCity_Text_MossdeepTargetedByMagma: @ 81E4F50
 	.string "선원인 동료로부터 들었는데\n"
-	.string "해안시티에 정착해 있던\l"
-	.string "아쿠아단을 누군가가 혼내줬나 봐!\p"
+	.string "해안시티에 정착해 있던 아쿠아단을\l"
+	.string "누군가가 혼내줬나 봐!\p"
 	.string "하지만 이쪽 이끼시티는\n"
 	.string "마그마단에게 노려지고 있어...\p"
 	.string "그 녀석들이 뭘 하려고 하는 건지는\n"
@@ -386,7 +404,7 @@ MossdeepCity_Text_FeelReliefOnLand: @ 81E5051
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers: @ 81E50D9
 	.string "전 세계가!\p"
-	.string "이 섬처럼 화초로\n"
+	.string "이 섬처럼 풀과 꽃으로\n"
 	.string "가득 차면 좋을 텐데!$"
 	// せかいじゅうの すべてが!ｐ
 	// このしま みたいに くさばなでｎ
@@ -395,11 +413,18 @@ MossdeepCity_Text_NiceIfWorldCoveredByFlowers: @ 81E50D9
 MossdeepCity_Text_LifeNeedsSeaToLive: @ 81E5135
 	.string "생명의 근원은 모두 바다에서 태어나\n"
 	.string "육지로 올라왔다\p"
-	.string "자기 역할을 다한 생명은\n"
-	.string "모두 흙이 되어 대지로 돌아가지\p"
+	.string "역할을 마친 생명은\n"
+	.string "흙이 되어 대지로 돌아가지\p"
 	.string "그리고 바다와 대지는\n"
-	.string "언제나 연결되어 있어...\p"
+	.string "언제나 이어져 있어...\p"
 	.string "그래 저 해안선처럼$"
+	// いのちの みなもとは うみから うまれてｎ
+	// りくに あがって きたｐ
+	// やくめを おえた いのちはｎ
+	// つち となって だいちに かえって いくｐ
+	// そして うみと だいちはｎ
+	// いつでも つながって いる……ｐ
+	// そう この かいがんせんの ようにな
 
 MossdeepCity_Text_SurfExhilarating: @ 81E5213
 	.string "배 여행도 좋지만 말이지\p"
@@ -407,38 +432,60 @@ MossdeepCity_Text_SurfExhilarating: @ 81E5213
 	.string "바다를 이동하면 말로 표현하기 힘든\l"
 	.string "상쾌함을 느낄 수 있다네...\p"
 	.string "그렇게 생각 안 하나? 젊은이$"
+	// ふねのたびも いいけどなｐ
+	// ポケモンと ともに なみのりでｎ
+	// うみを わたるのは なんとも いえないｌ
+	// きもちよさが あるよな……ｐ
+	// そう おもわないか? わかものよ
 
 MossdeepCity_Text_SpecialSpaceCenterRock: @ 81E529D
-	.string "이 바위는 말야\n"
-	.string "우주센터에 있는 모든 사람에게\l"
+	.string "이 바위는 있지\n"
+	.string "우주센터 사람들에게\l"
 	.string "정말 소중한 바위야\p"
 	.string "로켓이 무사히 날아가길 빌며\n"
-	.string "여기에 놓아 두었다더라고!\p"
+	.string "여기에 놓아두었대!\p"
 	.string "너는 소원을 이루고 싶을 때\n"
 	.string "어떻게 해?\l"
 	.string "별똥별을 보고 빌어?\p"
-	.string "나라면 역시 내가\n"
-	.string "제일 잘 볼 수 있는 곳에\l"
+	.string "나라면 역시 큰 종이에\n"
 	.string "소원을 적어 놓을 거 같아!$"
+	// この いわ ってｎ
+	// うちゅうセンタ-の みんなに とってｌ
+	// だいじな いわ なのｐ
+	// ロケットが ぶじに とぶように ねがってｎ
+	// ここに おいたんだって!ｐ
+	// あなたは ねがいごとを かなえたいときｎ
+	// どうするの?ｌ
+	// ながれぼしに ねがうの?ｐ
+	// あたしなら たんざくにｎ
+	// おねがいごとを かくかな やっぱ!
 
 MossdeepCity_Text_ItsAWhiteRock: @ 81E5396
 	.string "하얀 바위다!$"
+	// しろい いわ だ!
 
 MossdeepCity_Text_GymSign: @ 81E53A9
 	.string "이끼시티 포켓몬체육관\n"
 	.string "관장 풍 란\p"
 	.string "신비의 콤비네이션!!$"
+	// トクサネ シティ ポケモンジムｎ
+	// リ-ダ- フウ ランｌ
+	// しんぴの コンビネ-ション!!
 
 MossdeepCity_Text_CitySign: @ 81E53F2
 	.string "여기는 이끼시티\n"
 	.string "신조는 “포켓몬을 소중히!”$"
+	// ここは トクサネ シティｎ
+	// 「ポケモンを たいせつに!」が あいことば
 
 MossdeepCity_Text_SpaceCenterSign: @ 81E541F
 	.string "“이끼 우주센터”\n"
 	.string "우주와 가장 가까운 곳$"
+	// 「トクサネ うちゅうセンタ-」ｎ
+	// うちゅうに いちばん ちかい ばしょ
 
 MossdeepCity_Text_ScottSomethingWrongWithTown: @ 81E5453
-	.string "금작화: {PLAYER} 잘 지냈어?\n"
+	.string "금작화: {PLAYER}{K_AYA} 잘 지냈어?\n"
 	.string "나는 잘 지냈지!\p"
 	.string "이끼시티의 체육관 관장이\n"
 	.string "상당히 강하다고 들어서 말야\l"

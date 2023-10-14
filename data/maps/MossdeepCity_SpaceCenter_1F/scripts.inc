@@ -302,10 +302,13 @@ MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairs: @ 82232A2
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent: @ 82232A7
 	.string "이제 곧 로켓 발사할 거야!$"
+	// もうすぐ ロケットが はっしゃ するぞ!
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber: @ 82232C8
 	.string "로켓이 발사됐어!\n"
 	.string "이걸로 {STR_VAR_1}번 발사 성공이야!$"
+	// ロケットが はっしゃ したよ!ｎ
+	// これで §いかい うちあげ せいこうだ!
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent: @ 8223305
 	.string "이런 소란 중에도...\p"

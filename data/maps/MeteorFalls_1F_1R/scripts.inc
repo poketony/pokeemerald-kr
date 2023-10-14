@@ -313,7 +313,7 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore: @ 822C11C
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma: @ 822C268
 	.string "아강님\n"
-	.string "마그마단을 쫓아가야죠...$"
+	.string "마그마단을 쫓아가야 합니다...$"
 	// アオギリさまｎ
 	// マグマだんを おいかけないと……
 

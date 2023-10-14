@@ -193,7 +193,7 @@ MauvilleCity_BikeShop_Text_RydelGreeting: @ 820EE22
 	// この サイクルショップの オ-ナ-さ!
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway: @ 820EE99
-	.string "카제노: 네 러닝슈즈...\n"
+	.string "카제노: 네 러닝슈즈\n"
 	.string "굉장히 지저분한데\l"
 	.string "어디 멀리서 왔니?$"
 	// カゼノ『きみの ランニングシュ-ズｎ
@@ -284,24 +284,24 @@ MauvilleCity_BikeShop_Text_IllSwitchBikes: @ 820F22F
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro: @ 820F263
 	.string "{PLAYER}{K_EUNNEUN} 마하자전거를\n"
-	.string "더트자전거로 교환 받았다!$"
+	.string "더트자전거로 교환받았다!$"
 	// §あは マッハじてんしゃをｎ
 	// ダ-トじてんしゃに かえてもらった!
 
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach: @ 820F294
 	.string "{PLAYER}{K_EUNNEUN} 더트자전거를\n"
-	.string "마하자전거로 교환 받았다!$"
+	.string "마하자전거로 교환받았다!$"
 	// §あは ダ-トじてんしゃをｎ
 	// マッハじてんしゃに かえてもらった!
 
 MauvilleCity_BikeShop_Text_HappyYouLikeIt: @ 820F2C4
-	.string "카제노: 그래 그래!\n"
+	.string "카제노: 그래그래!\n"
 	.string "맘에 들어하니 기쁘구나!$"
 	// カゼノ『そうか そうか!ｎ
 	// きにいってくれて うれしいぞ!
 
 MauvilleCity_BikeShop_Text_OhYourBikeIsInPC: @ 820F2F3
-	.string "응?\n"
+	.string "...응?\n"
 	.string "너에게 주었던 자전거는 어쨌니?\p"
 	.string "그렇군 PC에 맡겨놓았구나\p"
 	.string "PC에서 꺼내서 가지고 오면\n"
@@ -340,8 +340,7 @@ MauvilleCity_BikeShop_Text_MachHandbookWhichPage: @ 820F445
 
 MauvilleCity_BikeShop_Text_HowToRideMachBike: @ 820F487
 	.string "자전거에 타서 십자 버튼을\n"
-	.string "조작하는 방향으로\l"
-	.string "자전거가 달립니다!\p"
+	.string "조작하는 방향으로 자전거가 달립니다!\p"
 	.string "달리는 동안에 조금씩\n"
 	.string "속도가 빨라질 겁니다!\p"
 	.string "멈추고 싶을 때는 십자 버튼에서\n"
@@ -361,11 +360,10 @@ MauvilleCity_BikeShop_Text_HowToTurnMachBike: @ 820F550
 	.string "마하자전거는 스피드가 빨라\n"
 	.string "갑자기 멈출 수는 없습니다\p"
 	.string "그래서 모퉁이를 돌기 위해서는\n"
-	.string "약간의 요령이 필요합니다\p"
+	.string "약간의 요령이 필요합니다!\p"
 	.string "돌고 싶은 모퉁이보다 조금 앞에서\n"
-	.string "십자 버튼에서 손을 떼서\l"
-	.string "속도를 떨어뜨려\l"
-	.string "돌 수 있을 겁니다!\p"
+	.string "십자 버튼에서 손을 떼면\l"
+	.string "속도를 떨어뜨려 돌 수 있을 겁니다!\p"
 	.string "...다른 페이지를 읽겠습니까?$"
 	// マッハじてんしゃは スピ-ドが はやくてｎ
 	// きゅうに とまることは できませんｐ
@@ -382,7 +380,7 @@ MauvilleCity_BikeShop_Text_SandySlopes: @ 820F61A
 	.string "그곳은 모래가 무너지기 쉬워서\n"
 	.string "일반적으로는 넘어갈 수 없지만\l"
 	.string "마하자전거를 타고 있으면\l"
-	.string "놀랍게도 넘어갈 수 있습니다!\p"
+	.string "넘어갈 수 있습니다!\p"
 	.string "...다른 페이지를 읽겠습니까?$"
 	// ホウエンちほうには ところどころにｎ
 	// ちいさな すなのさかが あります!ｐ
@@ -403,12 +401,10 @@ MauvilleCity_BikeShop_Text_AcroHandbookWhichPage: @ 820F6ED
 MauvilleCity_BikeShop_Text_Wheelies: @ 820F72F
 	.string "자전거를 타고 B 버튼을 누르면\n"
 	.string "그 장소에서 앞바퀴가 들립니다!\p"
-	.string "그 상태에서 십자 버튼을\n"
-	.string "조작하면\l"
+	.string "그 상태에서 십자 버튼을 조작하면\n"
 	.string "앞바퀴를 든 상태로\l"
 	.string "달릴 수 있습니다!\p"
-	.string "이것이 윌리라고\n"
-	.string "불리는 테크닉입니다!\p"
+	.string "이것이 윌리라고 불리는 테크닉입니다!\p"
 	.string "...다른 페이지를 읽겠습니까?$"
 	// じてんしゃに のって ビ-ボタンを おすとｎ
 	// そのばで ぜんりんが もちあがります!ｐ
@@ -421,11 +417,9 @@ MauvilleCity_BikeShop_Text_Wheelies: @ 820F72F
 MauvilleCity_BikeShop_Text_BunnyHops: @ 820F7F5
 	.string "B 버튼을 누른 채로 있으면\n"
 	.string "윌리를 하며 그 장소에서 뿅뿅\l"
-	.string "튀어 오를 수 있습니다!\p"
-	.string "이것이 다니엘이라\n"
-	.string "불리는 테크닉입니다!\p"
-	.string "다니엘 상태에서\n"
-	.string "달리는 것도 가능합니다!\p"
+	.string "튀어오를 수 있습니다!\p"
+	.string "이것이 다니엘이라 불리는 테크닉입니다!\p"
+	.string "다니엘 상태에서 달리는 것도 가능합니다!\p"
 	.string "...다른 페이지를 읽겠습니까?$"
 	// ビ-ボタンを おしたままに しているとｎ
 	// ウイリ-しながら そのばで ピョンピョンｌ
@@ -435,7 +429,7 @@ MauvilleCity_BikeShop_Text_BunnyHops: @ 820F7F5
 	// ……べつの ペ-ジを よみますか?
 
 MauvilleCity_BikeShop_Text_Jumps: @ 820F898
-	.string "더트자전거를 탔을 때\n"
+	.string "더트자전거에 탔을 때\n"
 	.string "B 버튼과 십자 버튼을\l"
 	.string "동시에 조작하면 점프합니다!\p"
 	.string "옆쪽으로 조작하면 옆으로 점프!\p"

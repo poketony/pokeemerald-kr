@@ -276,7 +276,7 @@ MauvilleCity_Gym_Text_GymGuideAdvice: @ 820E17F
 	.string "묘한 문의 장치를\l"
 	.string "체육관에 만들어버렸어!\p"
 	.string "그럼 힘내-!$"
-	// や!!ｎ
+	// げんき しとぉや!!ｎ
 	// チャンピオンを めざす §あ!!ｐ
 	// キンセツシティの ジムリ-ダ- テッセンはｎ
 	// でんきタイプ ポケモンの つかいてだ!ｐ
@@ -288,60 +288,85 @@ MauvilleCity_Gym_Text_GymGuideAdvice: @ 820E17F
 	// きばってこ- な!
 
 MauvilleCity_Gym_Text_GymGuidePostVictory: @ 820E283
-	.string "이럴 수가 깜짝 놀랐구나!\n"
+	.string "이거 깜짝 놀랐구나!\n"
 	.string "네 덕분에 문이 열렸어!$"
+	// こりゃ びっくり たまげたッ!ｎ
+	// きみの おかげで とびらは ひらかれた!
 
 MauvilleCity_Gym_Text_KirkIntro: @ 820E2BC
-	.string "짜릿한 My heart로\n"
-	.string "네 야망을 조각조각 내주마!$"
+	.string "짜릿한 내 하트로\n"
+	.string "네 야망을 산산조각 내주마!$"
+	// しびれる オレの ハ-トがｎ
+	// きみの やぼうを ふんさい するっ!
 
 MauvilleCity_Gym_Text_KirkDefeat: @ 820E2FC
 	.string "짜릿한 승부였다...$"
+	// しびれる たたかい だったぜ……
 
 MauvilleCity_Gym_Text_KirkPostBattle: @ 820E336
-	.string "포켓몬도 로큰롤도\n"
-	.string "heart가 everything! 예-!$"
+	.string "포켓몬도 록도 하트가 전부다\n"
+	.string "이예-이!$"
+	// ポケモンも ロックも ハ-トが すべてｎ
+	// いぇ-い!
 
 MauvilleCity_Gym_Text_ShawnIntro: @ 820E369
 	.string "암페어님 밑에서 수련한 이 몸을\n"
-	.string "간단히 쓰러뜨릴 수는 없을 거다!$"
+	.string "간단히 쓰러뜨릴 순 없을 거다!$"
+	// テッセンさんに きたえられた この オレがｎ
+	// そう かんたんに まける はずがねえ!
 
 MauvilleCity_Gym_Text_ShawnDefeat: @ 820E3A7
-	.string "기타나 쳐야지...$"
+	.string "징 징리징징지잉...$"
+	// キュ キュイィィィン……
 
 MauvilleCity_Gym_Text_ShawnPostBattle: @ 820E3C1
 	.string "이 체육관의 관장인 암페어님은\n"
 	.string "네 아버지가 태어나기도 전부터\l"
-	.string "포켓몬과 함께한\l"
-	.string "강자 중의 강자라고!$"
+	.string "포켓몬과 배틀해온 강자라고!$"
+	// このジムの リ-ダ- テッセンさんはｎ
+	// きみの おやじが うまれる まえからｌ
+	// ポケモンと たたかってきた つわものさ!
 
 MauvilleCity_Gym_Text_BenIntro: @ 820E443
-	.string "이 포켓몬체육관에는\n"
-	.string "참 재미있는 장치가 있구나!$"
+	.string "이 포켓몬체육관엔\n"
+	.string "장치가 있어서 재밌네!$"
+	// この ポケモンジムはｎ
+	// しかけが あって たのしいな!
 
 MauvilleCity_Gym_Text_BenDefeat: @ 820E469
 	.string "지는 건 재미없어$"
+	// まけると たのしくないよ
 
 MauvilleCity_Gym_Text_BenPostBattle: @ 820E47E
-	.string "암페어님은 스위치로\n"
-	.string "여러 가지 장치를 만드는 게 취미래!$"
+	.string "암페어님은 스위치를 이용한\n"
+	.string "장치를 만드는 게 취미래!$"
+	// テッセンさんは スイッチを つかったｎ
+	// しかけを つくるのが しゅみ なんだって!
 
 MauvilleCity_Gym_Text_VivianIntro: @ 820E4BB
-	.string "나의 매력과 포켓몬의 기술로\n"
-	.string "짜릿하게 만들어 줄게!$"
+	.string "나의 매력과\n"
+	.string "포켓몬의 기술로 짜릿하게 만들어 줄게!$"
+	// あたしの みりょくとｎ
+	// ポケモンの わざで しびれさせちゃう!
 
 MauvilleCity_Gym_Text_VivianDefeat: @ 820E4F4
-	.string "넌 정말 짜릿하게 강하구나!$"
+	.string "네 강함에 짜릿했어!$"
+	// あなたの つよさに しびれたわ!
 
 MauvilleCity_Gym_Text_VivianPostBattle: @ 820E50F
 	.string "이곳 보라시티는\n"
 	.string "암페어님이 만들었다고 해\p"
-	.string "우리가 태어나기도 전부터\n"
-	.string "트레이너였으니까\l"
-	.string "분명히 모르는 게 없을 거야$"
+	.string "너하고 내가\n"
+	.string "태어나기 전부터 트레이너셨으니까\l"
+	.string "분명 알고 계신 게 많겠지$"
+	// この キンセツシティはｎ
+	// テッセンさんが つくったって はなしｐ
+	// あなたや わたしがｎ
+	// うまれる まえからの トレ-ナ-だものｌ
+	// きっと いろんな ことを しってるわ
 
 MauvilleCity_Gym_Text_AngeloIntro: @ 820E593
-	.string "나 빛나는 거 엄청 좋아해!$"
+	.string "나 빛나는 거 엄-청 좋아해!$"
 	// ぼく ひかるもの だ-いすき なんだ!
 
 MauvilleCity_Gym_Text_AngeloDefeat: @ 820E5A8
@@ -357,72 +382,109 @@ MauvilleCity_Gym_Text_AngeloPostBattle: @ 820E5C2
 	// ピカピカ ひかってて うれしいな!
 
 MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
-	.string "마을을 개조하는 계획도\n"
-	.string "포기했으니\p"
+	.string "나는 마을을 개조하는 계획은\n"
+	.string "포기했지만\p"
 	.string "지금은 이 체육관의 문의 장치를\n"
 	.string "만드는 데 몰두하고 있지!\p"
 	.string "...어라? 너\n"
-	.string "왜 내 앞에 있지?\p"
+	.string "왜 내 앞에 있는 거냐?\p"
 	.string "뭐라-! 문의 장치를\n"
 	.string "통과해서 왔다는 건가!\p"
-	.string "와하하하핫!\n"
-	.string "재미있구만!\p"
-	.string "보라시티 체육관의 관장\n"
-	.string "이 암페어가 찌리릿\l"
-	.string "찌릿찌릿 전율하게 만들어주지$"
+	.string "와하하하핫! 이거 재밌구만!\p"
+	.string "보라시티 체육관의\n"
+	.string "관장 암페어가\l"
+	.string "포켓몬 승부로 찌릿찌릿하게 해주마!$"
+	// まちを かいぞうする けいかくはｎ
+	// あきらめた わし じゃがｐ
+	// いまは このジムの とびらの しかけをｎ
+	// つくることに うちこんで おるのじゃ!ｐ
+	// ……あれ? おまえさんｎ
+	// なんで わしの まえに いるんじゃ?ｐ
+	// なに-! とびらの しかけをｎ
+	// くぐりぬけて きたと いうのかっ!ｐ
+	// わっはははは! こりゃ おもしろい!ｐ
+	// ならば この キンセツ ポケモン ジムのｎ
+	// リ-ダ- テッセンがｌ
+	// ポケモンで しびれさせて やるぞい!
 
 MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
-	.string "와하하하핫!\n"
-	.string "내가 졌다!\p"
-	.string "너에게 내가 마비되었군\n"
-	.string "이 배지를 가져가도록 하게!$"
+	.string "와하하하핫! 내가 졌다!\n"
+	.string "너에게 내가 마비되었군\l"
+	.string "이 배지를 가져가도록 하게나!$"
+	// わっはははは! わしの まけじゃ!ｎ
+	// おまえさんには しびれた わいｌ
+	// この バッジ もっていくが いいぞ!
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "{PLAYER}{K_EUNNEUN} 암페어에게\n"
 	.string "다이나모배지를 받았다!$"
+	// §あは テッセンからｎ
+	// ダイナモバッジを もらった!
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
 	.string "다이나모배지를 가지고 있으면\n"
 	.string "비전기술인 바위깨기를\l"
 	.string "사용할 수 있게 된다네!\p"
-	.string "게다가 자네의 포켓몬의 스피드가\n"
+	.string "게다가 자네의 포켓몬이\n"
 	.string "조금 빨라질 거라네!\p"
 	.string "음...\n"
-	.string "이것도 가져가게!$"
+	.string "이것도 가져가면 좋을 걸세!$"
+	// ダイナモバッジを もっておるとｎ
+	// ひでんの いわくだきがｌ
+	// つかえるように なるんじゃ!ｐ
+	// それに おまえさんの ポケモンｎ
+	// いっそう すばやく なるぞい!ｐ
+	// うむ……ｎ
+	// これも もっていくが いいぞ!
 
 MauvilleCity_Gym_Text_ExplainShockWave: @ 820E844
 	.string "그 기술머신34에는\n"
-	.string "전격파가 들어 있다!\p"
+	.string "전격파가 들어 있지!\p"
 	.string "반드시 명중하는\n"
 	.string "믿음직한 기술이라고!\p"
 	.string "...... ...... ......$"
+	// その わざマシン34 にはｎ
+	// でんげきは が はいっておる!ｐ
+	// かならず めいちゅう するｎ
+	// たのもしい わざ なんじゃよ!ｐ
+	// …… …… ……
 
 MauvilleCity_Gym_Text_RegisteredWattson: @ 820E8B5
 	.string "체육관 관장 암페어를\n"
 	.string "포켓내비에 등록했다!$"
+	// ジムリ-ダ- テッセンをｎ
+	// ポケナビに とうろく した!
 
 MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3
 	.string "장래성이 있는 젊은이의 출현\n"
 	.string "정말로 기대가 되는군!$"
+	// みどころの ある わかものの しゅつげんｎ
+	// じつに たのもしい ことじゃ!
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor: @ 820E925
 	.string "와하하하하!\n"
-	.string "젊은이여 더욱 힘내거라!$"
+	.string "젊은이여 더욱더 힘내거라!$"
+	// わっはははは!ｎ
+	// わかものよ もっともっと がんばるんじゃ!
 
 MauvilleCity_Gym_Text_GymStatue: @ 820E952
 	.string "보라시티 포켓몬체육관$"
+	// キンセツシティ ポケモンジム
 
 MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 	.string "보라시티 포켓몬체육관\p"
 	.string "암페어 인정 트레이너!\n"
 	.string "{PLAYER}$"
+	// キンセツシティ ポケモンジムｐ
+	// テッセン にんてい トレ-ナ-!ｎ
+	// §あ
 
 MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7
 	.string "암페어: 어이쿠 찾아온 건가!\n"
 	.string "알았네! 나하고 포켓몬\l"
 	.string "승부를 하고 싶은 게지!?\p"
 	.string "와하하하핫!\p"
-	.string "스파크로 찌릿찌릿하게\n"
+	.string "스파크로 파지지직하게\n"
 	.string "만들어 줄 테니 각오하게나!$"
 	// テッセン『お-っと あらわれたな!ｎ
 	// わかっとる! わしと ポケモンのｌ
@@ -436,10 +498,10 @@ MauvilleCity_Gym_Text_WattsonRematchDefeat: @ 820EA42
 	// ふぅ バッテリ-ぎれ じゃ……
 
 MauvilleCity_Gym_Text_WattsonPostRematch: @ 820EA5E
-	.string "암페어: 나는 충전을 하고\p"
+	.string "암페어: 나는 재충전 중이라네\p"
 	.string "준비를 마치고 나서\n"
 	.string "다시 네 도전을 받을 테니\l"
-	.string "좀 나중에 와주게...$"
+	.string "시간이 지나면 와주게...$"
 	// テッセン『わしゃ じゅうでんの しなおしだｐ
 	// たいせいを たてなおしたらｎ
 	// また きみの ちょうせんを うけるからｌ
@@ -450,8 +512,8 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
 	.string "알았네! 나하고 포켓몬\l"
 	.string "승부를 하고 싶은 게지!?\p"
 	.string "와하하하핫!\p"
-	.string "...어라? 싸울 수 있는 포켓몬이\n"
-	.string "한 마리밖에 없는 겐가\p"
+	.string "...으음? 싸울 수 있는 포켓몬이\n"
+	.string "한 마리밖에 없는 모양이구먼\p"
 	.string "미안하지만 두 마리 이상\n"
 	.string "포켓몬을 데리고 와주게!$"
 	// テッセン『お-っと あらわれたな!ｎ

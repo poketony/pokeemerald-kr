@@ -41,24 +41,36 @@ MossdeepCity_House4_EventScript_Skitty:: @ 8222E1E
 	end
 
 MossdeepCity_House4_Text_BrotherLikesToFindBases: @ 8222E31
-	.string "내 동생 말이야\n"
+	.string "동생 말이야\n"
 	.string "사람들의 비밀기지를 찾아보는 게\l"
 	.string "즐겁대!$"
+	// おとうと ったらｎ
+	// ひとの ひみつきちを さがすのがｌ
+	// たのしみ なんだって!
 
 MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle: @ 8222E73
-	.string "내 동생 말이야\n"
+	.string "동생 말이야\n"
 	.string "친구들의 비밀기지에 가서\l"
 	.string "포켓몬 승부를 하는 게\l"
 	.string "즐겁대!$"
+	// おとうと ったらｎ
+	// ともだちの ひみつきちに いってｌ
+	// ポケモンしょうぶを するのがｌ
+	// たのしみ なんだって!
 
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX: @ 8222ECC
 	.string "혹시 {STR_VAR_1}에\n"
 	.string "비밀기지를 만든 사람이 너야?$"
+	// ひょっとして §い にｎ
+	// ひみつきち つくったの きみ?
 
 MossdeepCity_House4_Text_MakeSecretBase: @ 8222EF7
 	.string "너 어딘가에 비밀기지를 만들어 봐!\n"
 	.string "내가 찾아내 줄 테니까 말야$"
+	// きみ どこかに ひみつきち つくりなよ!ｎ
+	// ぼくが さがしだして みせるからさ
 
 MossdeepCity_House4_Text_Skitty: @ 8222F31
 	.string "델케티: 미양?$"
+	// エネコ『みゃあん?
 

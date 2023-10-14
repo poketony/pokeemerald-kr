@@ -492,9 +492,9 @@ MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "작은아버지: 이것 참 민진아!\p"
 	.string "확실히 포켓몬과 같이\n"
 	.string "살게 되면서\l"
-	.string "너는 꽤나 건강해졌어!\p"
+	.string "너는 많이 건강해졌어!\p"
 	.string "그렇다고 갑자기 포켓몬체육관에\n"
-	.string "도전하는 건 무리 아니냐?$"
+	.string "도전이라니 무리하는 거 아니냐?$"
 	// おじさん『まあまあ ミツルくん!ｐ
 	// たしかに ポケモンと いっしょにｎ
 	// くらすように なってからｌ
@@ -514,10 +514,9 @@ MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 	.string "민진: 앗! {PLAYER}님!\p"
 	.string "저 그때보다 강해졌어요!\p"
 	.string "그걸 {PLAYER}님도\n"
-	.string "작은아버지도\l"
-	.string "알아주셨으면 좋겠어요!\p"
+	.string "작은아버지도 알아주셨으면 좋겠어요!\p"
 	.string "{PLAYER}님 부탁입니다!\n"
-	.string "저와 포켓몬 승부해주세요$"
+	.string "저와 승부해 주세요$"
 	// ミツル『あっ! §あさん!ｐ
 	// ぼく あれから つよくなったんだ!ｐ
 	// それを §あさんにもｎ
@@ -527,7 +526,7 @@ MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
 	.string "민진: {PLAYER}님이\n"
-	.string "저와 승부해주지 않으면...\p"
+	.string "저와 승부해 주지 않으면...\p"
 	.string "작은아버지는 제가 강해졌다는 걸\n"
 	.string "알아주지 않을 거라구요...$"
 	// ミツル『§あさんがｎ
@@ -536,12 +535,11 @@ MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
 	// わかって もらえないよ……
 
 MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
-	.string "작은아버지: 너...\n"
-	.string "{PLAYER}{K_I}라고 했니?\p"
-	.string "미안하지만 민진과\n"
-	.string "승부해주지 않을래?\p"
+	.string "작은아버지: {PLAYER}{K_I}라고 했지\n"
+	.string "미안하지만 민진이와\l"
+	.string "승부해 주지 않을래?\p"
 	.string "이대로라면 무슨 말을 해도\n"
-	.string "안 들을 것 같아...$"
+	.string "안 들을 것 같아$"
 	// おじさん『§あ§おとやらｎ
 	// わるいけど ミツルくんとｌ
 	// しょうぶ してあげて くれないかな?ｐ
@@ -550,7 +548,7 @@ MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 
 MauvilleCity_Text_WallyPleaseBattleMe: @ 81DFB42
 	.string "민진: {PLAYER}님 부탁입니다!\n"
-	.string "저와 승부해주세요$"
+	.string "저와 승부해 주세요$"
 	// ミツル『§あさん おねがいです!ｎ
 	// ぼくと しょうぶ してください
 
@@ -577,35 +575,51 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
 	.string "{PLAYER}님 고맙습니다\n"
 	.string "역시 트레이너란 대단하네요\p"
-	.string "단지 포켓몬과 같이 배틀하는 걸로는\n"
-	.string "안 되는군요...\p"
-	.string "진정한 의미의 트레이너는\n"
-	.string "될 수 없는 걸까요...$"
+	.string "그저 포켓몬을 지니고\n"
+	.string "배틀하는 것만으로는 진정한 의미의\l"
+	.string "트레이너가 될 수 없는 걸까요...$"
+	// §あさん ありがとうｎ
+	// やっぱり トレ-ナ-って すごいんですねｐ
+	// ただ ポケモンを もっていてｎ
+	// たたかわせる だけじゃ ほんとうの いみでｌ
+	// トレ-ナ-には なれないんだ……
 
 MauvilleCity_Text_UncleNoNeedToBeDown: @ 81DFC8A
 	.string "작은아버지: 민진아\n"
-	.string "그렇게 기죽을 필요는 없단다\p"
+	.string "그렇게 기죽을 것 없단다\p"
 	.string "앞으로 더욱더\n"
 	.string "강해지면 되잖니!\p"
-	.string "자 집으로 가자\n"
+	.string "자 집으로 돌아가자\n"
 	.string "다들 기다리고 있어$"
+	// おじさん『ミツルくんｎ
+	// そんなに しょげることは ないよｐ
+	// これから もっともっとｎ
+	// つよくなれば いいじゃないか!ｐ
+	// さあ うちに かえろうｎ
+	// みんな まってるよ
 
 MauvilleCity_Text_UncleVisitUsSometime: @ 81DFD34
-	.string "작은아버지: 그렇군 민진이\n"
+	.string "작은아버지: 그렇군 민진이가\n"
 	.string "포켓몬을 잡는 걸\l"
-	.string "지켜봐 준 것은\p"
-	.string "{PLAYER}!\n"
+	.string "지켜봐 준 사람은 {PLAYER}!\l"
 	.string "너였구나\p"
-	.string "시간이 나면 잔디마을에 있는\n"
-	.string "우리 집에 놀러와줬으면 좋겠어\l"
-	.string "민진이도 반드시 기뻐할 거야$"
+	.string "괜찮다면 잔디마을로\n"
+	.string "놀러오는 건 어때?\l"
+	.string "민진이도 분명 기뻐할 거야$"
+	// おじさん『なるほど ミツルくんがｎ
+	// ポケモンを つかまえるのをｌ
+	// みまもって くれたのは §あ§お!ｌ
+	// きみ だったんだねｐ
+	// よかったら シダケにもｎ
+	// あそびに きてくれないか?ｌ
+	// ミツルくん きっと よろこぶから
 
 MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 	.string "...... ...... ......\n"
 	.string "...... ...... ...... 삑!\p"
 	.string "민진: 앗 {PLAYER}님!\n"
-	.string "있죠 작은아버지 저를 위해서\l"
-	.string "포켓내비를 손에 넣어주셨어요!\p"
+	.string "있죠 작은아버지가 저를 위해서\l"
+	.string "포켓내비를 사주셨어요!\p"
 	.string "이걸로 언제든지 {PLAYER}님과\n"
 	.string "연락할 수 있겠네요!\p"
 	.string "...... ...... ......\n"
@@ -633,7 +647,7 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "소년과 친구인 거지?\p"
 	.string "그런데도 봐주지 않고 싸워\n"
 	.string "훌륭하게 완승하다니...\p"
-	.string "음! 그래야말로 진정한\n"
+	.string "음! 그래야 진정한\n"
 	.string "포켓몬 승부라고 할 수 있지!\p"
 	.string "나는 그런 트레이너가\n"
 	.string "엄청 좋아-!\p"
@@ -653,95 +667,163 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	// これからも おうえん しているよ!
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey: @ 81DFFE4
-	.string "암페어: 오오 {PLAYER}!\n"
-	.string "건강해 보이는구나!\l"
+	.string "암페어: 오오 {PLAYER}\n"
+	.string "건강해 보이는구나\l"
 	.string "와하하하핫! 좋은데!\p"
 	.string "좋아! 결정했다!\n"
 	.string "{PLAYER}에게 부탁을 하마!\p"
 	.string "사실 이 보라시티에는\n"
-	.string "뉴보라라고 하는 지하 도시가 있단다\p"
+	.string "뉴보라라고 하는 지하도시가 있단다\p"
 	.string "그래서 {PLAYER}에게는\n"
 	.string "그곳의 발전 장치의 스위치를\l"
-	.string "꺼주었으면 한다!\p"
+	.string "꺼주었으면 좋겠구나!\p"
 	.string "요즘 발전 장치가\n"
 	.string "폭주해서 위험하니까 말이다\p"
-	.string "여기 뉴보라의\n"
+	.string "자 여기 뉴보라의\n"
 	.string "문을 여는 열쇠를 주마!$"
+	// テッセン『おお §あ§おｎ
+	// げんきそうに しておるのうｌ
+	// わっはははは! いいこと じゃよ!ｐ
+	// よしっ! きめた!ｎ
+	// §あ§おに おねがいを するぞい!ｐ
+	// じつは この キンセツにはｎ
+	// ニュ-キンセツ という ちかとしが あるｐ
+	// で §あ§お にはｎ
+	// そこの はつでんそうちの スイッチをｌ
+	// きってきて ほしいんじゃよ!ｐ
+	// さいきん はつでんそうちがｎ
+	// ぼうそうぎみで なにかと あぶないからのうｐ
+	// ほら これが ニュ-キンセツのｎ
+	// とびらを あける カギじゃ!
 
 MauvilleCity_Text_WattsonWontBeChallenge: @ 81E0154
-	.string "암페어: 음?\n"
-	.string "자네라면 괜찮을 거다!\p"
+	.string "암페어: 뭘 그러나\n"
+	.string "자네라면 잘할 걸세\p"
 	.string "참고로 뉴보라의 입구는\n"
 	.string "110번 도로에서 파도타기로\l"
 	.string "금방 갈 수 있단다\p"
 	.string "그럼 잘 부탁하마!\n"
 	.string "와하하하핫!$"
+	// テッセン『な-にｎ
+	// おまえさんなら だいじょうぶ じゃｐ
+	// ちなみに ニュ-キンセツの いりぐちはｎ
+	// 110ばんどうろで なみのりを してｌ
+	// すぐの ところに あるからのうｐ
+	// では よろしく たのんだぞ!ｎ
+	// わっはははは!
 
 MauvilleCity_Text_WattsonThanksTakeTM: @ 81E020E
 	.string "암페어: 와하하하핫!\p"
 	.string "역시 {PLAYER}! 자네에게\n"
-	.string "부탁한게 정답이었어!\p"
+	.string "부탁한 게 정답이었군!\p"
 	.string "이건 답례라네\n"
-	.string "기술머신 10만볼트다\p"
+	.string "10만볼트의 기술머신\l"
 	.string "사양 말고 가져가게나!$"
+	// テッセン『わっはははは!ｐ
+	// さすがは §あ§お! おまえさんにｎ
+	// たのんで せいかい じゃったよ!ｐ
+	// これは おれいじゃｎ
+	// 10まんボルトの わざマシンｌ
+	// えんりょせずに もっていくが いいぞ!
 
 MauvilleCity_Text_WattsonYoungTakeCharge: @ 81E02AA
 	.string "암페어: 와하하하핫!\p"
 	.string "젊은이들의 모습을 보는 건\n"
 	.string "즐거운걸!$"
+	// テッセン『わっはははは!ｐ
+	// わかものの たのもしい すがたを みるのはｎ
+	// よろこばしい こと じゃな!
 
 MauvilleCity_Text_NurseHurtMonBackToHealth: @ 81E0301
 	.string "포켓몬 승부도 좋지만\p"
 	.string "만약 자기 포켓몬이\n"
 	.string "배틀에서 다쳤다면\l"
 	.string "상냥하게 돌봐줘야지!$"
+	// ポケモンしょうぶを するのも いいけどｐ
+	// もしも じぶんの ポケモンがｎ
+	// たたかいで きずついたり したならｌ
+	// やさしく いたわって あげなきゃね!
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough: @ 81E037C
 	.string "이 마을은 동서남북으로\n"
 	.string "길이 뻗어 있어서\l"
 	.string "다양한 사람이 찾아오죠!$"
+	// この まちは とうざい なんぼく にｎ
+	// みちが つうじて いるからｌ
+	// いろんな ひとが やってきます!
 
 MauvilleCity_Text_RydelVeryGenerous: @ 81E03FB
 	.string "너 사이클숍에는\n"
 	.string "벌써 가봤니?\p"
 	.string "그곳의 주인인 카제노님은\n"
 	.string "정말 인심이 좋단다!$"
+	// あなた サイクルショップ にはｎ
+	// もう いってみた?ｐ
+	// あそこの ごしゅじんの カゼノさんはｎ
+	// すごく きまえが いいのよね!
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike: @ 81E044A
 	.string "자전거에 타고 있어도\n"
 	.string "야생 포켓몬은 튀어나오지!$"
+	// じてんしゃに のっていてもｎ
+	// やせいの ポケモンは とびだしてくるよ!
 
 MauvilleCity_Text_CitySign: @ 81E0485
 	.string "여기는 보라시티\n"
 	.string "밝게 빛나는 즐거운 마을$"
+	// ここは キンセツ シティｎ
+	// あかるく かがやく たのしい まち
 
 MauvilleCity_Text_GymSign: @ 81E04B7
 	.string "보라시티 포켓몬체육관\n"
 	.string "관장 암페어\l"
 	.string "밝은 전격 아저씨!$"
+	// キンセツ シティ ポケモンジムｎ
+	// リ-ダ- テッセンｌ
+	// あっかるい でんげき オヤジ!
 
 MauvilleCity_Text_BikeShopSign: @ 81E0504
 	.string "자갈길 달리면 마음도 즐거워진다!\n"
-	.string "“카제노 사이클숍”$"
+	.string "“사이클숍 카제노”$"
+	// じゃりみち はしれば こころも はずむ!ｎ
+	// 「サイクルショップ カゼノ」
 
 MauvilleCity_Text_GameCornerSign: @ 81E053C
 	.string "누구나 놀 수 있는 근사한 장소!\n"
 	.string "“보라시티 게임코너”$"
+	// だれもが あそべる すてきな スポット!ｎ
+	// 「キンセツ ゲ-ムコ-ナ-」
 
 MauvilleCity_Text_ExplainTV: @ 81E056A
 	.string "있지 너\n"
 	.string "TV 확인하고 있니?\p"
 	.string "최근 재미있는\n"
 	.string "방송이 갑자기 늘어났어!\p"
-	.string "TV는 좋은 것 같아!\p"
-	.string "갑자기 친구가\n"
+	.string "TV는 참 좋지\p"
+	.string "갑자기 친구가\l"
 	.string "소개되거나\p"
-	.string "모르는 새 자기가\n"
-	.string "방송에 나오기도 해\p"
-	.string "언젠가 나도\n"
-	.string "방송에 나가 보고 싶어-\p"
-	.string "너도 자주 확인하도록 해!$"
+	.string "모르는 새에 자기가\n"
+	.string "방송에 나오기도 한다고\p"
+	.string "언젠가 나도 TV에\n"
+	.string "나오면 좋겠다-\p"
+	.string "너도 다음부턴\n"
+	.string "제대로 확인해 보라구!$"
+	// ねえ きみｎ
+	// テレビって チェック してるかい?ｐ
+	// さいきんに なって おもしろいｎ
+	// ばんぐみが きゅうに ふえたんだぜ!ｐ
+	// いいよね テレビってｎ
+	// いきなり ともだちの ことがｌ
+	// しょうかい されたりｐ
+	// しらない うちに じぶんがｎ
+	// テレビに でていたり するんだよｐ
+	// こんど ぼくも テレビにｎ
+	// うつんない かな-ｐ
+	// きみも こんどからｎ
+	// ちゃんと チェックを してみなよ!
 
 MauvilleCity_Text_BeenCheckingOutTV: @ 81E0699
 	.string "안녕!\n"
 	.string "TV 제대로 확인하고 있니?$"
+	// やあ!ｎ
+	// テレビは ちゃんと チェック してる?
