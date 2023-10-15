@@ -306,7 +306,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent: @ 82232A7
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber: @ 82232C8
 	.string "로켓이 발사됐어!\n"
-	.string "이걸로 {STR_VAR_1}번 발사 성공이야!$"
+	.string "이걸로 {STR_VAR_1}번째 발사 성공이야!$"
 	// ロケットが はっしゃ したよ!ｎ
 	// これで §いかい うちあげ せいこうだ!
 
@@ -319,26 +319,33 @@ MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent: @ 8223305
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber: @ 822335E
 	.string "이런 소란 중에도...\p"
 	.string "로켓이 발사됐어!\n"
-	.string "이걸로 {STR_VAR_1}번 발사 성공이야!$"
+	.string "이걸로 {STR_VAR_1}번째 발사 성공이야!$"
 	// こんな さわぎの とちゅう だけど……ｐ
 	// ロケットが はっしゃ したよ!ｎ
 	// これで §いかい うちあげ せいこうだ!
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection: @ 82233D3
-	.string "로켓을 발사하기 위해서는\n"
-	.string "1퍼센트의 미스도 용납되지 않아\p"
+	.string "로켓을 발사하는 데에는\n"
+	.string "1퍼센트의 실수도 용납되지 않아\p"
 	.string "99퍼센트 문제가 없다고 해도\n"
-	.string "1퍼센트의 미스가 있다면 모든 게\l"
-	.string "실패하게 되는 혹독한 세계야\p"
-	.string "그래도 반드시 성공시키려고 하는 건\n"
-	.string "거기에 로망이 가득 차 있으니까$"
+	.string "1퍼센트의 실수로\l"
+	.string "모든 게 실패하게 되는 혹독한 세계지\p"
+	.string "그럼에도 반드시 성공시키려는 건\n"
+	.string "거기에 로망이 가득 차 있기 때문이야$"
+	// ロケットを はっしゃ するにはｎ
+	// 1パ-セントの ミスも ゆるされないｐ
+	// 99パ-セント だいじょうぶ でもｎ
+	// 1パ-セント ダメならｌ
+	// すべてが ダメになる きびしい ものだｐ
+	// それでも やりとげようと するのはｎ
+	// そこに ロマンが つまっている からだな
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter: @ 82234B7
-	.string "마그마단 녀석들\n"
+	.string "마그마단 녀석들이\n"
 	.string "이 우주센터를 노리고 있어\p"
-	.string "하지만 그렇다고 해서\n"
+	.string "하지만 그 정도 일로\n"
 	.string "로켓 발사를\l"
-	.string "멈출 생각은 없어!$"
+	.string "멈출 생각은 없다고!$"
 	// マグマだんの やつらがｎ
 	// この うちゅうセンタ-を ねらっているｐ
 	// だが そんなこと ぐらいでｎ
@@ -349,11 +356,17 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt: @ 8223540
 	.string "해안에서 산책하면서\n"
 	.string "이걸 발견했는데\l"
 	.string "난 필요 없으니까 너 줄게!$"
+	// かいがんを さんぽ していてｎ
+	// これを みつけたんだけどｌ
+	// ぼくは いらないから きみに あげる!
 
 MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers: @ 82235A6
 	.string "예로부터 호연지방은\n"
 	.string "운석이 많은 곳으로\l"
 	.string "유명했어$"
+	// むかしから ホウエンちほうはｎ
+	// いんせきの おおい ばしょ としてｌ
+	// ゆうめい なんだよね
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis: @ 82235F0
 	.string "마그마단에게 로켓연료를\n"
@@ -372,10 +385,12 @@ MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma: @ 8223664
 	// かいがんの さんぽ どころじゃないね!
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace: @ 82236A6
-	.string "사람에 따라\n"
-	.string "포켓몬은 우주에서 왔어!\l"
-	.string "라고 하는 사람도 있는데\l"
-	.string "이거 진짜일까?$"
+	.string "사람에 따라선\n"
+	.string "포켓몬은 우주에서 왔다!\l"
+	.string "라고도 하던데 진짜일까-?$"
+	// ひとに よってはｎ
+	// ポケモンは うちゅうから やってきた!ｌ
+	// って いうよね! ほんとう かな-?
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma: @ 82236E8
 	.string "마그마단 같은 건\n"
@@ -391,7 +406,11 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
 	.string "거대한 철 덩어리가\n"
 	.string "창공을 뚫고\l"
 	.string "우주까지 날아간다...\p"
-	.string "정말 대박인 거 같아$"
+	.string "정말 끝내주지$"
+	// でっかい てつの かたまりがｎ
+	// おおぞらを つきぬけｌ
+	// うちゅうまで とんで いく……ｐ
+	// たまげた もん だわい
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream: @ 82237B5
 	.string "거대한 철 덩어리가\n"
@@ -406,7 +425,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream: @ 82237B5
 	// マグマだんめ! ぬぬぬ ゆるさん!
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel: @ 8223849
-	.string "성호: {PLAYER} 거기에 있는\n"
+	.string "성호: {PLAYER}{K_AYA} 거기에 있는\n"
 	.string "예고장은 이미 읽었어?\p"
 	.string "마그마단은 이 섬에 있는\n"
 	.string "로켓연료를 빼앗으려고 해!\p"
@@ -437,7 +456,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat: @ 8223999
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle: @ 82239AA
 	.string "나한테 이긴 정도로\n"
-	.string "우쭐해지면 안된다고!$"
+	.string "우쭐해지면 안 된다고!$"
 	// わたしに かった ぐらいでｎ
 	// ちょうしに のってちゃ ダメよ!
 
@@ -469,7 +488,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro: @ 8223A8A
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat: @ 8223AFA
 	.string "컵이라도 좋으니까\n"
-	.string "연료를 가득 따라주면 안될까?$"
+	.string "연료를 주면 안 될까?$"
 	// コップいっぱいで いいからｎ
 	// ねんりょう くれない?
 
@@ -508,7 +527,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice: @ 8223C2C
 	.string "  곧 저희가 받아가겠습니다\l"
 	.string "  거절해도 어쩔 수 없답니다\p"
 	.string "  더 많은 땅을!\n"
-	.string "                            마그마단”$"
+	.string "                           마그마단”$"
 	// これは……ｎ
 	// はんこう よこくじょう?ｐ
 	// 「うちゅうセンタ-の みなさんｎ

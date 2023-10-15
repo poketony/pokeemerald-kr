@@ -24,20 +24,25 @@ MossdeepCity_House1_EventScript_Woman:: @ 8222006
 
 MossdeepCity_House1_Text_HmmYourPokemon: @ 822200F
 	.string "으음!\n"
-	.string "자네의 {STR_VAR_1}...$"
+	.string "너의 {STR_VAR_1}...$"
+	// ムムムッ!ｎ
+	// きみの §い……
 
 MossdeepCity_House1_Text_ItLikesXPokeblocks: @ 822201D
-	.string "{STR_VAR_1}{K_EULREUL}\n"
-	.string "좋아하는구먼!\p"
-	.string "아냐 틀림없이 {STR_VAR_1}{K_EULREUL}\n"
-	.string "좋아하는 거라네!$"
+	.string "{STR_VAR_1}{K_EULREUL} 좋아하는군!\p"
+	.string "아니 틀림없이 {STR_VAR_1}{K_EULREUL}\n"
+	.string "좋아하는 걸 거다!$"
+	// §い が すきだろう!ｐ
+	// いや まちがいなくｎ
+	// §い が すきだ!
 
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks: @ 8222068
-	.string "포켓몬스넥을 좋아하지도\n"
-	.string "싫어하지도 않는 것 같군$"
+	.string "포켓몬스넥에 대한 호불호는 없는 것 같군$"
+	// ポロックの すききらいは ないみたいだな
 
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes: @ 8222099
-	.string "우리 남편은 보는 것만으로\n"
-	.string "포켓몬이 좋아하는\l"
-	.string "포켓몬스넥을 알 수 있어$"
+	.string "우리 남편은 보는 것만으로도\n"
+	.string "포켓몬이 좋아하는 포켓몬스넥을 알 수 있어$"
+	// だんなったら みただけでｎ
+	// ポケモンが すきな ポロック わかるのよ
 

@@ -312,7 +312,7 @@ FortreeCity_Gym_Text_WinonaDefeat: @ 8216E60
 	// この ジムバッジを おわたしします!
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
-	.string "{PLAYER}{K_EUNNEUN} 은송에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 은송에게서\n"
 	.string "깃털배지를 받았다!$"
 	// §あは ナギからｎ
 	// フェザ-バッジを もらった!

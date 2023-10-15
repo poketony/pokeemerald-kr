@@ -378,10 +378,14 @@ MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall:: @ 822419A
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets: @ 82241A1
-	.string "이끼시티는 날씨가 좋은 날이 많고\n"
-	.string "바람의 방향도 안정적이지\p"
+	.string "이끼시티는 날씨 좋은 날이 많고\n"
+	.string "바람의 방향도 안정적이죠\p"
 	.string "로켓을 쏘아 올리기에\n"
-	.string "안성맞춤인 장소로군$"
+	.string "안성맞춤인 장소랍니다$"
+	// トクサネは てんきの よい ひが おおいｎ
+	// かぜの むきも あんてい しているｐ
+	// ロケットを うちあげる にはｎ
+	// もってこいの ばしょ なんですな
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel: @ 822420C
 	.string "로켓의 연료 같은 걸 빼앗아서\n"
@@ -394,18 +398,24 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
 	.string "우주 비행사를 꿈꿔 볼 텐데...\p"
 	.string "아니지 지금부터라도 늦지 않아!\n"
 	.string "좋-아 힘내자-!!$"
+	// わしも もうすこし わかければｎ
+	// うちゅう ひこうしに なりたかった……ｐ
+	// いや いまからでも おそくない!ｎ
+	// よ-し がんばるぞ-!!
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis: @ 82242C5
 	.string "마그마단한테 연료를 빼앗기면\n"
-	.string "내가 우주에 갈 수 없게 된다!\p"
+	.string "내가 우주에 갈 수 없게 돼!\p"
 	.string "그렇게 놔둘까 보냐-!$"
 	// マグマだんに ねんりょうを うばわれたらｎ
 	// わしが うちゅうに いけなくなる!ｐ
 	// そんなこと させて たまるか-!
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace: @ 8224342
-	.string "언젠가 평범한 사람들도\n"
-	.string "우주에 갈 수 있게 되면 좋겠다...$"
+	.string "언젠가 평범한 사람도\n"
+	.string "우주에 갈 수 있게 되면 좋을 텐데...$"
+	// いつか ふつ-の ひともｎ
+	// うちゅうに いけると いいのにな……
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
 	.string "마그마단도...\n"
@@ -438,7 +448,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat: @ 8224461
 	// オレは まけたが しかし!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro: @ 822446E
-	.string "아직 안심하긴 일러\n"
+	.string "아직 안심하긴 이르지\n"
 	.string "다음 상대는 나다!$"
 	// あんしん するのは まだ はやいｎ
 	// つぎは オレが あいてだ!
@@ -525,21 +535,21 @@ MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
 	.string "성호: {PLAYER}{K_AYA}!\n"
 	.string "힘을 빌려줄 수 있어!?\p"
 	.string "나와 함께 싸우자!\n"
-	.string "준비는 됐어?$"
+	.string "준비는 됐지?$"
 	// ダイゴ『§あ§お!ｎ
 	// ちからを かして くれるのかい!?ｐ
 	// ボクと いっしょに たたかおう!ｎ
 	// じゅんびは いいね?
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly: @ 8224854
-	.string "성호: 그럼 서둘러\n"
+	.string "성호: 그럼 서둘러서\n"
 	.string "준비를 해줘!$"
 	// ダイゴ『じゃあ いそいでｎ
 	// じゅんびを ととのえて くるんだ!
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand: @ 822487C
 	.string "나는 단지...\n"
-	.string "땅을 넓히고 싶을 뿐이었는데...$"
+	.string "땅을 넓히고 싶은 것뿐이었는데...$"
 	// わたしは ただ……ｎ
 	// りくちを ふやしたい だけなのに……
 
@@ -587,7 +597,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
 	.string "성호: 휴우 위험했어\n"
-	.string "고마워 {PLAYER}\p"
+	.string "고마워 {PLAYER}{K_AYA}\p"
 	.string "힘을 빌려준 보답으로\n"
 	.string "좋은 걸 선물할게\l"
 	.string "나중에 집으로 와줘\p"

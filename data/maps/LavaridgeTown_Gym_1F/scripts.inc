@@ -409,7 +409,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat: @ 81FF233
 	// あなたに これ あげる!
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
-	.string "{PLAYER}{K_EUNNEUN} 민지에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 민지에게서\n"
 	.string "히트배지를 받았다!$"
 	// §あは アスナからｎ
 	// ヒ-トバッジを もらった!

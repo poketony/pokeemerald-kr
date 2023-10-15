@@ -466,7 +466,7 @@ MossdeepCity_Text_ItsAWhiteRock: @ 81E5396
 
 MossdeepCity_Text_GymSign: @ 81E53A9
 	.string "이끼시티 포켓몬체육관\n"
-	.string "관장 풍 란\p"
+	.string "관장 풍 란\l"
 	.string "신비의 콤비네이션!!$"
 	// トクサネ シティ ポケモンジムｎ
 	// リ-ダ- フウ ランｌ

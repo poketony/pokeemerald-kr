@@ -545,13 +545,13 @@ MtChimney_EventScript_SawyerRematch:: @ 822F253
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano: @ 822F26A
-	.string "운석에 숨겨진 힘...\p"
+	.string "운석에 숨겨진 힘\p"
 	.string "이 장치로 증폭된다면\n"
 	.string "눈 깜짝할 사이에 굴뚝산의\l"
 	.string "화산 활동은 활발해진다...\p"
 	.string "그 에너지가\n"
 	.string "분화구에 깊은 곳까지 작용하고\l"
-	.string "그리고 후후후...$"
+	.string "그러면 후후후...$"
 	// いんせきに ひめられた ちからｐ
 	// この そうちで ぞうふく すればｎ
 	// たちまちの うちに えんとつやまのｌ
@@ -618,7 +618,7 @@ MtChimney_Text_MaxieDefeat: @ 822F5CF
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma: @ 822F5F7
 	.string "마적: 뭐 좋다\n"
-	.string "이 굴뚝산은 일단 포기하도록 하지...\p"
+	.string "여긴 일단 포기하도록 하지...\p"
 	.string "하지만 마그마단의 활동은\n"
 	.string "이걸로 끝난 게 아니다!\p"
 	.string "후후후...\p"
@@ -674,7 +674,7 @@ MtChimney_Text_Grunt2Intro: @ 822F7A2
 
 MtChimney_Text_Grunt2Defeat: @ 822F83A
 	.string "어라-?\n"
-	.string "나 진 건가-?$"
+	.string "나 진 거야-!?$"
 	// あれ-?ｎ
 	// オレ まけたの-!?
 
@@ -717,9 +717,9 @@ MtChimney_Text_MeteoritesPackAmazingPower: @ 822F9B2
 	// いんせきには すごい パワ-が あるのだ!
 
 MtChimney_Text_YouBetterNotMessWithUs: @ 822F9D1
-	.string "우리 방해하지 마라! 알겠어?\p"
+	.string "우릴 방해하지 마라!\p"
 	.string "그 녀석을 부활시키는 건\n"
-	.string "모두를 위한 거니까!$"
+	.string "모두를 위해서 하는 일이니까!$"
 	// オレたちの じゃまを するな!ｐ
 	// アイツを ふっかつ させるのはｎ
 	// みんなの ために やってること なんだ!
@@ -755,7 +755,7 @@ MtChimney_Text_ArchieGoStopTeamMagma: @ 822FAD2
 	.string "무슨 짓을 꾸미고 있는지!\p"
 	.string "녀석들은 빼앗은 운석의 파워를\n"
 	.string "화산에 흘려보내려고 하는 거다!\p"
-	.string "그런 짓을 했다가는\n"
+	.string "그런 짓을 했다간\n"
 	.string "화산이 대분화할 거라고!$"
 	// アオギリ『むむむ §あ!ｎ
 	// やっぱり ここにも あらわれたか!ｐ
@@ -770,7 +770,7 @@ MtChimney_Text_ArchieIHaveMyHandsFull: @ 822FBC7
 	.string "아강: 으-음 크으윽!\p"
 	.string "마적 녀석을 막으러 가고 싶지만\n"
 	.string "아무리 나라도\l"
-	.string "3명을 동시에 상대하다보니\l"
+	.string "3명을 동시에 상대하다 보니\l"
 	.string "서둘러 갈 수가 없다!$"
 	// アオギリ『う-む むむむ!ｐ
 	// マツブサの やつを とめに いきたいがｎ
@@ -809,7 +809,7 @@ MtChimney_Text_MagmaOutnumbersUs: @ 822FD1F
 MtChimney_Text_LessHabitatForWaterPokemon: @ 822FD5B
 	.string "대지를 늘려버리면\n"
 	.string "물포켓몬이 살 수 있는 곳이\l"
-	.string "적어지잖아!$"
+	.string "적어지잖아-!$"
 	// だいちを ふやしたらｎ
 	// みずポケモンが すむ ばしょがｌ
 	// へってしまう じゃね-か!
@@ -825,119 +825,174 @@ MtChimney_Text_MagmasNameSimilar: @ 822FDA1
 	// しゃくにさわる やつらだ!
 
 MtChimney_Text_Bushaa: @ 822FDFC
-	.string "후샤-!!$"
+	.string "푸샤-!!$"
 	// ぷしゃ-!!
 
 MtChimney_Text_LavaCookiesJust200: @ 822FE04
 	.string "굴뚝산 명물\n"
 	.string "용암전병이 하나에 200원!\l"
 	.string "하나 사가렴$"
+	// えんとつやま めいぶつｎ
+	// フエンせんべい ひとつ 200えん!ｌ
+	// かって おいきよ
 
 MtChimney_Text_ThankYouDear: @ 822FE4D
-	.string "고마워$"
+	.string "고맙구나$"
+	// どうも ありがとね
 
 MtChimney_Text_YouveNotGotTheMoney: @ 822FE5E
-	.string "어머 돈이 없으면\n"
-	.string "물건을 살 수 없어$"
+	.string "이런 돈이 없으면\n"
+	.string "물건을 살 수 없단다$"
+	// おやまあ おかねが なくちゃｎ
+	// ものは かえないよ
 
 MtChimney_Text_OhFineThen: @ 822FE9B
-	.string "어머 그래$"
+	.string "어머 그러니$"
+	// あら そうかい
 
 MtChimney_Text_MetoriteFittedOnMachine: @ 822FEAA
 	.string "수수께끼 장치에\n"
 	.string "운석이 박혀 있다...\p"
 	.string "뭔가의 에너지를\n"
 	.string "모으고 있는 듯하다$"
+	// なぞの そうちにｎ
+	// いんせきが はめられている……ｐ
+	// なにかの エネルギ-をｎ
+	// ためている さいちゅうの ようだ
 
 MtChimney_Text_RemoveTheMeteorite: @ 822FF12
 	.string "수수께끼 장치에\n"
 	.string "운석이 박혀 있다...\p"
 	.string "운석을 빼겠습니까?$"
+	// なぞの そうちにｎ
+	// いんせきが はめられている……ｐ
+	// いんせきを とりますか?
 
 MtChimney_Text_PlayerRemovedMeteorite: @ 822FF66
 	.string "{PLAYER}{K_EUNNEUN} 운석을\n"
 	.string "장치에서 빼냈다!$"
+	// §あは いんせきをｎ
+	// そうちから とりはずした!
 
 MtChimney_Text_PlayerLeftMeteorite: @ 822FF9C
 	.string "{PLAYER}{K_EUNNEUN} 운석을\n"
 	.string "그대로 두었다$"
+	// §あは いんせきをｎ
+	// そのままに しておいた
 
 MtChimney_Text_MachineMakesNoResponse: @ 822FFC0
 	.string "수수께끼 장치...\n"
 	.string "전혀 반응하지 않는다...$"
+	// なぞの そうち……ｎ
+	// まったく はんのう しない……
 
 MtChimney_Text_RouteSign: @ 822FFFA
 	.string "{DOWN_ARROW} 울퉁불퉁 산길\n"
 	.string "빠져나가면 용암마을$"
+	// ©しあ デコボコさんどうｎ
+	// とおりぬけると フエンタウン
 
 MtChimney_Text_ShelbyIntro: @ 823001D
 	.string "온천욕으로\n"
 	.string "리프레쉬하고 왔으니\l"
-	.string "나는 지금 누구에게도 지지 않는다네!$"
+	.string "지금의 난 강하다네!$"
+	// おんせんに つかってｎ
+	// リフレッシュ してきたからねえｌ
+	// いまの あたしゃあ つよいよ!
 
 MtChimney_Text_ShelbyDefeat: @ 8230076
-	.string "흠- 이건 뭐-\n"
-	.string "대단하구만-$"
+	.string "흐음 이런\n"
+	.string "대단하구만$"
+	// おんや まぁｎ
+	// たいした もんだよ
 
 MtChimney_Text_ShelbyPostBattle: @ 82300A2
-	.string "져버렸구먼... 이래서는\n"
-	.string "어디 가서 달인이라고 못 하겠어...$"
+	.string "져버렸으니 이제는\n"
+	.string "달인이라고 못 하겠구먼$"
+	// まけて しもうたらｎ
+	// たつじん とは いえないねえ
 
 MtChimney_Text_ShelbyRegister: @ 82300E3
-	.string "진심으로 싸워서 즐거웠다네\n"
-	.string "괜찮다면 다시 상대해 줄 수 있겠나!$"
+	.string "진심으로 배틀해서 즐거웠다네\n"
+	.string "괜찮다면 또 상대해 주게!$"
 	// マゴと たたかってる ようで たのしかったｎ
 	// よかったら また あいてを しておくれ!
 
 MtChimney_Text_ShelbyRematchIntro: @ 8230153
 	.string "포켓몬과 한마음이 된다면\n"
-	.string "아주 멋진 일을 할 수 있을 것 같군$"
+	.string "굉장한 일을 할 수 있을 것 같구먼$"
+	// ポケモンと こころを ひとつに できればｎ
+	// すばらしいことが できそうじゃの
 
 MtChimney_Text_ShelbyRematchDefeat: @ 82301BB
-	.string "흠냐- 이건 뭐-\n"
-	.string "대단하구만-$"
+	.string "흐음 이런\n"
+	.string "대단하구만$"
+	// おんや まぁｎ
+	// たいした もんだよ
 
 MtChimney_Text_ShelbyPostRematch: @ 82301E7
 	.string "자네와 포켓몬은\n"
-	.string "한마음인 것 같군$"
+	.string "한마음인 것 같구먼$"
+	// おまえさんの こころとｎ
+	// ポケモンの こころは ひとつ なのかもな
 
 MtChimney_Text_MelissaIntro: @ 823022A
 	.string "왠지 불타올라서\n"
-	.string "승부하고 싶어 참을 수 없어!$"
+	.string "배틀하고 싶어 참을 수 없어!$"
+	// なんだか もえあがってきてｎ
+	// たたかいたくて たまらないのっ!
 
 MtChimney_Text_MelissaDefeat: @ 823026D
-	.string "뜨거운 승부였어$"
+	.string "뜨거운 배틀이었어$"
+	// あつい たたかい だったわ
 
 MtChimney_Text_MelissaPostBattle: @ 8230292
 	.string "굴뚝산의 열기가\n"
 	.string "여자를 불태우지$"
+	// えんとつやまの あつさがｎ
+	// おんなを もえあがらせるの
 
 MtChimney_Text_SheilaIntro: @ 82302BD
 	.string "모처럼 굴뚝산에 왔으니\n"
 	.string "여기서도 포켓몬을 단련시키고 싶어!$"
+	// せっかく えんとつやまに きたんだからｎ
+	// ここでも ポケモンを たたかわせたいの!
 
 MtChimney_Text_SheilaDefeat: @ 8230304
-	.string "네 배틀 실력은\n"
+	.string "네가 배틀하는 모습은\n"
 	.string "마치 분화하는 굴뚝산 같아!$"
+	// その たたかいかたｎ
+	// まさに えんとつやま だいふんか!
 
 MtChimney_Text_SheilaPostBattle: @ 823033A
 	.string "모처럼 굴뚝산에 왔는데\n"
-	.string "관광만 하고 가기엔 너무 아까워\p"
-	.string "배틀도 즐기고 싶고\n"
-	.string "선물로 전병도 꼭 사 가야지!$"
+	.string "관광만 하고 가기에는 아까워\p"
+	.string "승부도 즐기고 싶고\n"
+	.string "선물로 전병도 사야지!$"
+	// せっかく えんとつやまに きたんだからｎ
+	// かんこう だけじゃ もったいないわｐ
+	// しょうぶも たのしみたいしｎ
+	// おみやげに せんべい かわなきゃ!
 
 MtChimney_Text_ShirleyIntro: @ 82303DF
-	.string "온천에 들어갔다 나왔더니\n"
-	.string "난 지금 완전 최고의 컨디션이야!\l"
-	.string "이길 확률 100%라니까!$"
+	.string "온천에 들어갔더니\n"
+	.string "상태가 완전 최고야!\l"
+	.string "틀림없이 이길 수 있어!$"
+	// おんせんに はいったらｎ
+	// ちょうし バッチリ なのよね!ｌ
+	// ぜったい かてるわ!
 
 MtChimney_Text_ShirleyDefeat: @ 8230436
-	.string "으-응? 벌써 몸이 식었나?$"
+	.string "으-음 벌써 몸이 식었네$"
+	// う-ん ゆざめ しちゃう
 
 MtChimney_Text_ShirleyPostBattle: @ 8230463
-	.string "한번 더 온천에 들어가야지!\n"
+	.string "한 번 더 온천에 들어가야지!\n"
 	.string "너도 같이 들어갈래?\p"
 	.string "농담이야!$"
+	// もういちど おんせんに はいらなきゃ!ｎ
+	// あなたも いっしょに はいる?ｐ
+	// なんてねっ!
 
 MtChimney_Text_SawyerIntro: @ 82304B3
 	.string "여기는 좋은 산이야!\n"
@@ -951,7 +1006,7 @@ MtChimney_Text_SawyerDefeat: @ 82304F7
 
 MtChimney_Text_SawyerPostBattle: @ 8230519
 	.string "지금부터 뜨거운 누님들을 데리고\n"
-	.string "용암온천에라도 가볼까 해$"
+	.string "용암온천에라도 가볼까$"
 	// いまから あつい おねいさんたちを つれてｎ
 	// フエンおんせん でも いこうかな
 
@@ -975,7 +1030,7 @@ MtChimney_Text_SawyerRematchDefeat: @ 82305E3
 
 MtChimney_Text_SawyerPostRematch: @ 8230614
 	.string "사실 정말로 뜨거워...\n"
-	.string "옷을 너무 많이 입고 왔나 봐$"
+	.string "옷을 너무 많이 입고 왔나$"
 	// しかし ほんとに あついや……ｎ
 	// ふく いっぱい きすぎちゃった かな
 

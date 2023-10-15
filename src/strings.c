@@ -307,8 +307,8 @@ const u8 *const gPocketNamesStringsTable[] =
 
 const u8 gText_NumberVar1Clear7Var2[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
 const u8 gText_ClearTo11Var1Clear5Var2[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_VAR_2}");
-const u8 gText_SizeSlash[] = _("크기 /");
-const u8 gText_FirmSlash[] = _("경도 /");
+const u8 gText_SizeSlash[] = _("크기");
+const u8 gText_FirmSlash[] = _("경도");
 const u8 gText_Var1DotVar2[] = _("{STR_VAR_1}.{STR_VAR_2}cm"); // 단위 계산 변경 필요한지 확인해 주세요
 
 // Berry firmness strings
@@ -329,7 +329,7 @@ const u8 gText_PurplePokeblock[] = _("보라포켓몬스넥");
 const u8 gText_IndigoPokeblock[] = _("남색포켓몬스넥");
 const u8 gText_BrownPokeblock[] = _("갈색포켓몬스넥");
 const u8 gText_LiteBluePokeblock[] = _("하늘색포켓몬스넥");
-const u8 gText_OlivePokeblock[] = _("황녹색포켓몬스넥");
+const u8 gText_OlivePokeblock[] = _("황록포켓몬스넥");
 const u8 gText_GrayPokeblock[] = _("회색포켓몬스넥");
 const u8 gText_BlackPokeblock[] = _("검정포켓몬스넥");
 const u8 gText_WhitePokeblock[] = _("하양포켓몬스넥");

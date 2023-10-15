@@ -416,7 +416,7 @@ MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
 	// この バッジ もっていくが いいぞ!
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
-	.string "{PLAYER}{K_EUNNEUN} 암페어에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 암페어에게서\n"
 	.string "다이나모배지를 받았다!$"
 	// §あは テッセンからｎ
 	// ダイナモバッジを もらった!

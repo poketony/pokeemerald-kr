@@ -297,7 +297,7 @@ static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Space[] = _(" ");
 static const u8 sText_Ranking[] = _("랭킹");
 static const u8 sText_TheLevelIs[] = _("레벨은 "); // The level is 49, and the feel is 37
-static const u8 sText_TheFeelIs[] = _("이고 경도는 ");
+static const u8 sText_TheFeelIs[] = _("이고 부드러움은 ");
 static const u8 sText_Dot2[] = _("이다");
 
 static const struct BgTemplate sBgTemplates[3] =

@@ -1441,7 +1441,7 @@ PetalburgCity_Gym_Text_NormanDefeat: @ 8206107
 	.string "이걸 주도록 하지$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge: @ 8206162
-	.string "{PLAYER}{K_EUNNEUN} 아빠에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 아빠에게서\n"
 	.string "밸런스배지를 받았다!!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis: @ 820618A

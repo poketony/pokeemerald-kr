@@ -44,12 +44,17 @@ MtPyre_2F_EventScript_Zander:: @ 823118C
 
 MtPyre_2F_Text_MemoriesOfSkitty: @ 82311A3
 	.string "귀여웠던 에나비와의 추억...\n"
-	.string "떠올리기만 해도 눈물이 자꾸 흘러...$"
+	.string "떠올리기만 해도 눈물이 흘러...$"
+	// かわいかった エネコとの おもいで……ｎ
+	// おもいだすだけで なみだが あふれる……
 
 MtPyre_2F_Text_TumbledFromFloorAbove: @ 82311E6
-	.string "아야야야얏... 바닥의 이곳저곳에\n"
-	.string "구멍이 뚫려 있는데 보질 못하고\l"
-	.string "아저씨 위에서부터 떨어지고 말았어$"
+	.string "아야야야야... 바닥의 여기저기에\n"
+	.string "구멍이 뚫려 있는데 못 봐서\l"
+	.string "아저씨 위에서 여기로 떨어져버렸어$"
+	// アイタタタ…… ゆかの そこかしこにｎ
+	// あなが あいているのに きづかないでｌ
+	// おじさん うえから おちてしまったよ
 
 MtPyre_2F_Text_MarkIntro: @ 8231258
 	.string "너도 포켓몬을 찾으러 온 건가?\n"

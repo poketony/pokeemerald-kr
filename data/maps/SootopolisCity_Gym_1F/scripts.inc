@@ -282,7 +282,7 @@ SootopolisCity_Gym_1F_Text_JuanDefeat: @ 8225432
 	// この レインバッジを さしあげましょう!
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge: @ 8225598
-	.string "{PLAYER}{K_EUNNEUN} 아단에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 아단에게서\n"
 	.string "레인배지를 받았다!$"
 	// §あは アダンからｎ
 	// レインバッジを もらった!

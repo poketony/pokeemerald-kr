@@ -476,7 +476,7 @@ DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
 	// この バッジを もっていきな!
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge: @ 81FD07D
-	.string "{PLAYER}{K_EUNNEUN} 철구에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 철구에게서\n"
 	.string "너클배지를 받았다!$"
 	// §あは トウキからｎ
 	// ナックルバッジを もらった!

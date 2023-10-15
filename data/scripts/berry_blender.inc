@@ -68,14 +68,17 @@ BerryBlender_Text_DontHavePokeblockCase: @ 8293157
 	.string "받고 나서 다시 오게나$"
 
 BerryBlender_Text_LetsGetBlendingAlready: @ 82931AA
-	.string "빨리 섞어 보자꾸나!!$"
+	.string "빨리 섞어 보자!!$"
+	// はやく まぜようぜ!!
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet: @ 82931C6
 	.string "어떤 포켓몬스넥이 완성될까?\n"
 	.string "두근두근거리네!$"
+	// どんな ポロックが できるのかしら?ｎ
+	// ドキドキ しちゃう!
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs: @ 8293201
-	.string "좋았어! 형네랑 같이\n"
+	.string "좋았어! 우리랑 같이\n"
 	.string "포켓몬스넥을 만들고 싶은 거구나!$"
 	// よっしっ! おにいさん たちと いっしょにｎ
 	// ポロックを つくりたいんだね!
@@ -86,7 +89,7 @@ BerryBlender_Text_Okay: @ 8293237
 
 BerryBlender_Text_ThatsTooBad: @ 829323D
 	.string "아쉽네...\p"
-	.string "하지만 형네는\n"
+	.string "하지만 우리는\n"
 	.string "언제나 너를 기다리고 있단다!$"
 	// ざんねんだよ……ｐ
 	// でも おにいさん たちはｎ

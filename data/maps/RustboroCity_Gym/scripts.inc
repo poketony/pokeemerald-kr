@@ -209,7 +209,7 @@ RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
 	.string "스톤배지를 받아 주세요$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
-	.string "{PLAYER}{K_EUNNEUN} 원규에게\n"
+	.string "{PLAYER}{K_EUNNEUN} 원규에게서\n"
 	.string "스톤배지를 받았다!$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
