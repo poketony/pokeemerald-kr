@@ -5,7 +5,6 @@
 #include "korean.h"
 
 static EWRAM_DATA const u8 *sStringPointers[8] = {};
-static EWRAM_DATA bool8 sHasJong = FALSE;
 
 void DynamicPlaceholderTextUtil_Reset(void)
 {

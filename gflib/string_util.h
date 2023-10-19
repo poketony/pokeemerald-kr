@@ -6,6 +6,8 @@ extern u8 gStringVar2[];
 extern u8 gStringVar3[];
 extern u8 gStringVar4[];
 
+extern bool8 sHasJong;
+
 enum StringConvertMode
 {
     STR_CONV_MODE_LEFT_ALIGN,

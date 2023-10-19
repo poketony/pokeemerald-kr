@@ -488,8 +488,8 @@ static void sub_8121B1C(void)
         AddTextPrinterParameterized3(0, 1, sMailRead->layout->var8[i].xOffset + sMailRead->layout->wordsYPos, y + sMailRead->layout->wordsXPos, sTextColors, 0, sMailRead->strbuf[i]);
         y += sMailRead->layout->var8[i].lineHeight;
     }
-    bufptr = StringCopy(strbuf, gText_FromSpace);
-    StringCopy(bufptr, sMailRead->playerName);
+    bufptr = StringCopy(strbuf, sMailRead->playerName);
+    StringCopy(bufptr, gText_FromSpace);
     box_x = GetStringCenterAlignXOffset(1, strbuf, sMailRead->signatureWidth) + 0x68;
     box_y = sMailRead->layout->signatureYPos + 0x58;
     AddTextPrinterParameterized3(0, 1, box_x, box_y, sTextColors, 0, strbuf);
