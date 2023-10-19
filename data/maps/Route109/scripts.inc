@@ -484,84 +484,128 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods: @ 81EEC1D
 	.string "하기: 호이! 잿빛도시에 도착!\p"
 	.string "분명 해양씨한테\n"
 	.string "데봉화물을 전달한다고 했었지!$"
+	// ハギ『ほい! カイナに とうちゃく!ｐ
+	// たしか クスノキさんにｎ
+	// デボンのにもつを とどけるんだったな!
 
 Route109_Text_BrineySailToDewfordQuestion: @ 81EEC96
-	.string "하기: 화물을 전달 안 하나?\p"
-	.string "그게 아니면\n"
-	.string "무로마을로 돌아가는 겐가?$"
+	.string "하기: 화물을 전달하지 않을 겐가?\p"
+	.string "아니면 무로마을로 돌아갈 텐가?$"
+	// ハギ『にもつを とどけないのかい?ｐ
+	// それとも ムロに もどるのかね?
 
 Route109_Text_BrineyDewfordItIs: @ 81EED06
 	.string "하기: 무로마을 말이지\p"
 	.string "좋다! 가자 피코!$"
+	// ハギ『ムロタウン かｐ
+	// よっしゃ! いくぞ ピ-コちゃん!
 
 Route109_Text_BrineyDeliverDevonGoods: @ 81EED5E
-	.string "하기: 그럼 화물을 전달하고 오게나\n"
-	.string "난 여기서 기다리고 있을 테니$"
+	.string "하기: 그럼 화물을 전달하고 오게\n"
+	.string "난 여기서 기다릴 테니$"
+	// ハギ『では にもつを とどけておいでｎ
+	// わしは ここに いるから
 
 DewfordTown_Text_BrineyLandedInSlateport: @ 81EEDA7
 	.string "하기: 호이! 잿빛도시에 도착!\p"
 	.string "배를 타고 싶어지면\n"
-	.string "언제든 나한테 말해 주게나!$"
+	.string "또 나한테 말을 걸어 주게나!$"
+	// ハギ『ほい! カイナに とうちゃく!ｐ
+	// ふねに のりたくなったらｎ
+	// また わしに こえを かけておくれ!
 
 Route109_Text_BrineyWhereAreWeBound: @ 81EEE17
-	.string "하기: 여어! 자네가 원한다면\n"
-	.string "언제든지 배를 준비시키지!\p"
-	.string "자네가 가고 싶은 곳은 어딘가?$"
+	.string "하기: 여어! 자네를 위해서라면\n"
+	.string "언제든지 배를 준비시키겠네!\p"
+	.string "자네가 가고 싶은 곳은 어디인가?$"
+	// ハギ『やあ! きみのため ならｎ
+	// いつでも ふねを だそう!ｐ
+	// きみが いきたいのは どこ かな?
 
 Route109_Text_BrineyTellMeWhenYouNeedToSail: @ 81EEE72
 	.string "하기: 배를 타야 할 때는\n"
 	.string "언제든지 말해 주게나$"
+	// ハギ『ふねに のる ひつようが あるときはｎ
+	// いつでも こえを かけておくれ
 
 Route109_Text_ChillAtMyPapasSpot: @ 81EEEB4
-	.string "뜨거운 트레이너 분들! 그리고\n"
-	.string "뜨겁지 않은 트레이너 분들!\l"
-	.string "모두 우리 아빠 가게에 들러주세요-!$"
+	.string "뜨거운 트레이너분들도\n"
+	.string "뜨겁지 않은 트레이너분들도\l"
+	.string "아빠의 가게에 들러주세요-!$"
+	// あつい トレ-ナ-さんもｎ
+	// あつくない トレ-ナ-さんもｌ
+	// おとうさんの おみせに よってって-!
 
 Route109_Text_LittleKidsDartAround: @ 81EEF08
 	.string "아이는 이곳저곳 돌아다니니까\n"
 	.string "걱정이 돼서 눈을 뗄 수가 없어!\p"
-	.string "그나마 포켓몬이 같이 있으니까\n"
+	.string "포켓몬이 같이 있으니까\n"
 	.string "괜찮을 거라고 생각하지만...$"
+	// こどもって あちこち うごきまわるからｎ
+	// めを はなせなくて たいへん!ｐ
+	// ポケモンが いっしょ だからｎ
+	// だいじょうぶ だと おもってるけど……
 
 Route109_Text_SandCastleTakingLongTime: @ 81EEFB0
-	.string "좀처럼 모래성이 완성이 안돼$"
+	.string "좀처럼 모래성이 완성이 안 돼$"
+	// なかなか すなの おしろ できないね
 
 Route109_Text_YouCanHaveThis: @ 81EEFDE
-	.string "{K_GIRL_CALL}!\n"
-	.string "이거 줄게!$"
+	.string "{K_GIRL_CALL}한테 이거 줄게!$"
+	// §い これ あげる!
 
 Route109_Text_WereGoingToMakeBigCastle: @ 81EEFF1
-	.string "모래사장에 있는 모래 전-부 모아서\n"
-	.string "커-다란 성을 만들 거야\p"
-	.string "그래서 우리는\n"
+	.string "모래사장의 모래를 전-부 모아서\n"
+	.string "커다란 성을 만들 거야\p"
+	.string "그리고 우리는\n"
 	.string "왕이랑 여왕이 될 거야\p"
-	.string "{K_GIRL_CALL}는 특별히\n"
-	.string "우리 신하 하게 해줄게$"
+	.string "{K_GIRL_CALL}는\n"
+	.string "신하 하게 해줄게$"
+	// すなはまの すなを ぜ-んぶ あつめてｎ
+	// おっきな おしろを つくるのｐ
+	// それで あたしたちｎ
+	// おうさまと おうじょさまに なるのｐ
+	// §いはｎ
+	// けらいに してあげるね
 
 Route109_Text_ZigzagoonPicksUpLitter: @ 81EF080
 	.string "이 주변 바다는 깨끗하긴 한데\p"
-	.string "그래도 가끔 이렇게 버려지는\n"
-	.string "쓰레기를 지그제구리가\l"
-	.string "모아주고 있단다\p"
+	.string "그래도 가끔씩 이렇게 버려지는\n"
+	.string "쓰레기를 지그제구리가 모아주고 있단다\p"
 	.string "더러워진 물은 비가 돼서\n"
-	.string "강으로 흘러 들어가\l"
-	.string "마시는 물이 되지...\p"
-	.string "결국 바다를 더럽히면\n"
-	.string "피해를 보는 건\l"
-	.string "자기 자신이란 소리일세$"
+	.string "강으로 흘러들어 마시는 물이 되지...\p"
+	.string "바다를 더럽히면\n"
+	.string "결국 피해를 보는 건 우리라는 소리란다$"
+	// この あたりの うみは きれいだがなｐ
+	// それでも たまに こうして すてられたｎ
+	// ゴミを ジグザグマに あつめてもらうよｐ
+	// よごれた みずは あめと なってｎ
+	// かわに ながれこみ のみみずと なる……ｐ
+	// うみを よごすとｎ
+	// けっきょく じぶんらが こまるからの
 
 Route109_Text_ZigzagoonCry: @ 81EF173
 	.string "지그제구리: 구구?$"
+	// ジグザグマ『ぐぐ?
 
 Route109_Text_SeashoreHouseSign: @ 81EF185
 	.string "“바다의 집”\p"
 	.string "모래사장 하면 또 포켓몬 승부지!\n"
 	.string "뜨거운 트레이너들은 여기 모여라!$"
+	// 「うみの いえ」ｐ
+	// すなはま といえば ポケモンしょうぶ!ｎ
+	// あつい トレ-ナ- ここに つどえ!
 
 Route109_Text_TrainerTipsSign: @ 81EF1D5
 	.string "정보 나눔 게시판!!\p"
 	.string "포켓몬의 레벨이 같아도\n"
-	.string "그 파워까지 같진 않아요!\p"
+	.string "강함까지 같지는 않습니다!\p"
 	.string "그리고 트레이너가 키운\n"
 	.string "포켓몬이 더 강해진다고\l"
 	.string "알려져 있지요!$"
+	// おとくな けいじばん!!ｐ
+	// ポケモンの レベルが おなじ でもｎ
+	// つよさまで おなじとは かぎりません!ｐ
+	// それに トレ-ナ-が そだてたｎ
+	// ポケモンの ほうが つよくなるとｌ
+	// いわれて います!

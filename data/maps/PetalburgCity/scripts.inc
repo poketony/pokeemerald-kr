@@ -721,26 +721,38 @@ PetalburgCity_EventScript_GymBoy:: @ 81DC82E
 	end
 
 PetalburgCity_Text_WhereIsWally: @ 81DC837
-	.string "우리 민진이는 대체 어디까지\n"
-	.string "놀러 간 걸까...?\p"
+	.string "우리 민진이는 어디까지\n"
+	.string "놀러 간 걸까...\p"
 	.string "이제 곧 잔디마을로\n"
 	.string "출발해야 할 시간인데...$"
+	// うちの ミツルは どこまでｎ
+	// あそびに いっちゃったの かしら……ｐ
+	// もう そろそろ シダケタウンにｎ
+	// でかける じかん だって いうのに……
 
 PetalburgCity_Text_AreYouRookieTrainer: @ 81DC881
 	.string "안녕! 혹시...\n"
 	.string "신참 트레이너야?\p"
-	.string "트레이너가 마을에 도착하면\n"
-	.string "가장 먼저 하는 일이 뭔지 알아?\p"
-	.string "바로 그 마을의 체육관을\n"
-	.string "확인하는 거야!$"
+	.string "우리들 포켓몬 트레이너는\n"
+	.string "새로운 마을에 도착하면\p"
+	.string "먼저 그 마을에 어떤 체육관이 있는지\n"
+	.string "확인하는 게 기본이라고!$"
+	// きみ! もしかして……ｎ
+	// トレ-ナ-に なりたて かい?ｐ
+	// ぼくら ポケモン トレ-ナ-はｎ
+	// あたらしい まちに とうちゃく したらｐ
+	// まずは そこに どんな ジムがあるのかｎ
+	// かくにん しておく ものなんだ!
 
 PetalburgCity_Text_ThisIsPetalburgGym: @ 81DC91B
-	.string "보이지? 여기가 바로\n"
-    .string "등화도시의 체육관이야$"
+	.string "자 여기가 등화도시의 체육관이야!$"
+	// ほら ここが トウカシティの ジムさ!
 
 PetalburgCity_Text_ThisIsGymSign: @ 81DC93E
-	.string "여기 있는 게 체육관의 간판!\n"
-	.string "체육관을 찾을 때 참고하도록 해$"
+	.string "이게 체육관의 간판이니까\n"
+	.string "모양을 잘 기억해 두면 좋겠지!$"
+	// これが ジムの かんばん だからｎ
+	// かたちを よく おぼえておくと いいね!
 
 PetalburgCity_Text_WaterReflection: @ 81DC985
 	.string "내 얼굴이 수면에 비치고 있어...\p"
@@ -749,24 +761,40 @@ PetalburgCity_Text_WaterReflection: @ 81DC985
 	.string "불안과 맞서 싸우는\n"
 	.string "조용한 침묵...\p"
 	.string "네 얼굴은 어떻게 비치고 있어?$"
+	// ぼくの かおが すいめんに うつってる……ｐ
+	// きぼうに あふれたｎ
+	// かがやく えがお……ｐ
+	// ふあんと たたかうｎ
+	// しずかな ちんもく……ｐ
+	// きみの かおは どんなふうに うつってる?
 
 PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
-	.string "이미 포켓몬을 6마리 데리고 있을 때\n"
+	.string "포켓몬을 이미 6마리 데리고 있을 때\n"
 	.string "새로운 포켓몬을 잡는다\p"
-	.string "그러면 PC의 네트워크를 통해서\n"
-	.string "자동으로 박스에 보내지게 돼!$"
+	.string "그러면 PC 통신에 의해 자동적으로\n"
+	.string "박스에 보내지게 되지!$"
+	// ポケモンを すでに 6ぴき もってるときにｎ
+	// あたらしく ポケモンを つかまえるｐ
+	// すると パソコン つうしんで じどうてきにｎ
+	// ボックスに おくられるのだよ!
 
 PetalburgCity_Text_GymSign: @ 81DCAAA
 	.string "등화도시 포켓몬체육관\n"
 	.string "관장 종길\l"
 	.string "강함을 추구하는 남자!$"
+	// トウカ シティ ポケモンジムｎ
+	// リ-ダ- センリｌ
+	// つよさを おいもとめる おとこ!
 
 PetalburgCity_Text_CitySign: @ 81DCAF1
 	.string "여기는 등화도시\n"
 	.string "자연과 사람이 어우러지는 마을$"
+	// ここは トウカ シティｎ
+	// しぜんと ひとが ふれあう まち
 
 PetalburgCity_Text_WallyHouseSign: @ 81DCB23
 	.string "“민진의 집”$"
+	// 「ミツルの いえ」
 
 PetalburgCity_Text_AreYouATrainer: @ 81DCB31
 	.string "너! 그 복장은...\n"
@@ -777,9 +805,9 @@ PetalburgCity_Text_AreYouATrainer: @ 81DCB31
 PetalburgCity_Text_WellMaybeNot: @ 81DCB82
 	.string "...... ...... ......\p"
 	.string "아니 그런 것 치고는\n"
-	.string "옷이 그다지 더럽혀지지 않았어...\p"
-	.string "갓 데뷔한 트레이너인가\n"
-	.string "아니면 그냥 아이...인가?$"
+	.string "옷이 별로 더럽지 않아...\p"
+	.string "이제 막 데뷔한 트레이너인가\n"
+	.string "아니면 그냥 꼬마...인가?$"
 	// …… …… ……ｐ
 	// いや それにしてはｎ
 	// ふくが あまり よごれて いない……ｐ
@@ -788,8 +816,8 @@ PetalburgCity_Text_WellMaybeNot: @ 81DCB82
 
 PetalburgCity_Text_ImLookingForTalentedTrainers: @ 81DCC09
 	.string "나는 재능 있는 트레이너를\n"
-	.string "찾아서 각지를\l"
-	.string "여행하고 있지\p"
+	.string "찾으러 다니면서\l"
+	.string "각지를 여행하고 있지\p"
 	.string "불러 세워서 미안했어$"
 	// わたしは さいのうある トレ-ナ-をｎ
 	// さがし もとめてｌ

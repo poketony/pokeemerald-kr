@@ -10,16 +10,25 @@ MtPyre_4F_EventScript_Tasha:: @ 8231C6E
 
 MtPyre_4F_Text_TashaIntro: @ 8231C85
 	.string "무서운 게 좋아서...\n"
-	.string "너무너무 좋아서 참을 수가 없어...\p"
+	.string "너무너무 좋아서 못 참겠어...\p"
 	.string "난 여기에 있으면\n"
 	.string "무서워서 떨려...$"
+	// こわいものが すきで……ｎ
+	// すきで すきで たまらない……ｐ
+	// あたし ここに いるとｎ
+	// こわくて ふるえるの……
 
 MtPyre_4F_Text_TashaDefeat: @ 8231CDB
 	.string "지는 건 싫어...$"
+	// まけるのは きらい……
 
 MtPyre_4F_Text_TashaPostBattle: @ 8231CEE
 	.string "무서운 걸 보고 싶어서\n"
 	.string "여기서 떠날 수 없어...\p"
 	.string "저기...\n"
 	.string "너도 같이 있을래...?$"
+	// こわいもの みたさでｎ
+	// ここから はなれられないの……ｐ
+	// ねえ……ｎ
+	// あなたも いっしょに いない……?
 

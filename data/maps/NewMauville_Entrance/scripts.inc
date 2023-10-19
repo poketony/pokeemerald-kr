@@ -51,12 +51,17 @@ NewMauville_Entrance_EventScript_DontOpenDoor:: @ 8237380
 
 NewMauville_Entrance_Text_DoorIsLocked: @ 8237382
 	.string "문이 닫혀 있다$"
+	// とびらは しまっている
 
 NewMauville_Entrance_Text_UseBasementKey: @ 8237396
 	.string "지하열쇠를 쓰겠습니까?$"
+	// ちかのカギを つかいますか?$
 
 NewMauville_Entrance_Text_UsedBasementKey: @ 82373AC
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "지하열쇠를 썼다!\p"
 	.string "문이 열렸다!$"
+	// あはｎ
+	// ちかのカギを つかった!ｐ
+	// とびらは ひらいた!
 

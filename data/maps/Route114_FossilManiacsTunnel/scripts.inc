@@ -79,10 +79,9 @@ Route114_FossilManiacsTunnel_Text_LookInDesertForFossils: @ 822AFD0
 
 Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils: @ 822B0D6
 	.string "너도 화석을 발견했구나...\n"
-	.string "멋져... 나도 모르게\l"
-	.string "멍하니 바라보게 돼...\p"
+	.string "멋져... 넋 놓고 바라보게 돼...\p"
 	.string "너 그 화석 어떻게 할 거니...?\p"
-	.string "내가 들은 이야기로는 데봉에서\n"
+	.string "소문으로는 데봉에서\n"
 	.string "화석을 포켓몬으로 부활시키는\l"
 	.string "연구를 하고 있대...\p"
 	.string "나는 화석이 더 좋으니까\n"
@@ -98,8 +97,7 @@ Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils: @ 822B0D6
 
 Route114_FossilManiacsTunnel_Text_FossilsAreWonderful: @ 822B1CC
 	.string "화석은...\n"
-	.string "정말 멋져...\l"
-	.string "넋을 놓고 바라보게 돼...$"
+	.string "멋져... 넋 놓고 바라보게 돼...$"
 	// カセキって……ｎ
 	// すてき…… うっとり しちゃうよ……
 

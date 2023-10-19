@@ -980,122 +980,195 @@ Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened: @ 826D660
 	.string "“미궁대왕님 천재”\p"
 	.string "...... ...... ......\p"
 	.string "문의 자물쇠가 풀렸다!$"
+	// §あは あいことばをｎ
+	// とびらに かきつけた!ｐ
+	// 「カラクリだいおう さま てんさい」ｐ
+	// …… …… ……ｐ
+	// かぎの はずれる おとがした!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro: @ 826D6CE
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 1호!\p"
 	.string "꼭두각시인형 5호가 있는 곳까지\n"
-	.string "연속해서 퀴즈를 맞추면\l"
+	.string "연속으로 퀴즈를 맞추면\l"
 	.string "암호를 알 수 있을 거야!$"
+	// カタカタ…ｎ
+	// ワガハイ ハ からくりニンギョウ 1ゴウ!ｐ
+	// からくりニンギョウ 5ゴウノ トコロマデｎ
+	// ツヅケテ くいずニ セイカイ スレバｌ
+	// あいことばニ タドリツケルゾ!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1: @ 826D757
 	.string "꼭두각시인형 1호 퀴즈!\p"
 	.string "이 중에 110번 도로에\n"
 	.string "없는 포켓몬은 뭘까?$"
+	// からくりニンギョウ 1ゴウ くいず!ｐ
+	// このなかで 110ばんどうろにｎ
+	// いない ポケモンは どれ?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2: @ 826D7AA
 	.string "꼭두각시인형 1호 퀴즈!\p"
 	.string "이 중에서 물타입이 아닌\n"
 	.string "포켓몬은 뭘까?$"
+	// からくりニンギョウ 1ゴウ くいず!ｐ
+	// このなかで みずタイプが はいってないｎ
+	// ポケモンは どれ?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3: @ 826D7FC
 	.string "꼭두각시인형 1호 퀴즈!\p"
 	.string "이 중에서 흡혈을\n"
 	.string "사용하지 못하는 포켓몬은 뭘까?$"
+	// からくりニンギョウ 1ゴウ くいず!ｐ
+	// このなかで きゅうけつをｎ
+	// つかえない ポケモンは どれ?
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough: @ 826D84D
 	.string "축하해 정답이야!\n"
 	.string "자 그럼 안으로 가!$"
+	// オメデトウ セイカイ デ-ス!ｎ
+	// サキヘ ドウゾ!
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError: @ 826D883
 	.string "땡!\n"
 	.string "틀렸어!$"
+	// ザンネン!ｎ
+	// マチガイ デ---ス!
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha: @ 826D8A1
 	.string "와하하하하! 와하하하하!\n"
 	.string "달그락달그락!$"
+	// ワハハハハ! ワハハハハ! カタカタ!
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge: @ 826D8C9
 	.string "재도전을 기다릴게-!$"
+	// マタノ ちゃれんじ オマチシテマ-ス!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro: @ 826D8EA
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 2호!\l"
 	.string "1호의 퀴즈는 너무 쉬워!$"
+	// カタカタ…ｎ
+	// ワガハイ ハ からくりニンギョウ 2ゴウ!ｌ
+	// 1ゴウノ くいずハ ヤサシスギルヨ!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1: @ 826D940
 	.string "꼭두각시인형 2호 퀴즈!\p"
-	.string "민진이 아빠한테서\n"
-	.string "빌린 포켓몬은 뭘까?$"
+	.string "민진이 아빠한테서 빌린\n"
+	.string "포켓몬은 뭐였을까?$"
+	// からくりニンギョウ 2ゴウ くいず!ｐ
+	// ミツルくんが パパから かしてもらったｎ
+	// ポケモンは なんだった?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2: @ 826D98C
 	.string "꼭두각시인형 2호 퀴즈!\p"
 	.string "털보박사를 뒤쫓고 있었던\n"
-	.string "포켓몬은 뭘까?$"
+	.string "포켓몬은 뭐였을까?$"
+	// からくりニンギョウ 2ゴウ くいず!ｐ
+	// オダマキはかせを おいかけていたｎ
+	// ポケモンは なんだった?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3: @ 826D9CE
 	.string "꼭두각시인형 2호 퀴즈!\p"
 	.string "등화숲에서 아쿠아단이\n"
-	.string "사용했던 포켓몬은 뭘까?$"
+	.string "사용했던 포켓몬은 뭐였을까?$"
+	// からくりニンギョウ 2ゴウ くいず!ｐ
+	// トウカのもりで アクアだんがｎ
+	// たたかわせた ポケモンは なんだった?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro: @ 826DA1E
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 3호!\l"
 	.string "돈에 대해서는 좀 까다로워$"
+	// カタカタ…ｎ
+	// ワガハイ ハ からくりニンギョウ 3ゴウ!ｌ
+	// オカネニハ ウルサイノダ!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1: @ 826DA64
 	.string "꼭두각시인형 3호 퀴즈!\p"
 	.string "항구메일 3개 사는 거랑\n"
 	.string "화상치료제 1개 사는 거랑\l"
 	.string "뭐가 더 비쌀까?$"
+	// からくりニンギョウ 3ゴウ くいず!ｐ
+	// ハ-バ-メ-ル 3つ かうのとｎ
+	// やけどなおし 1つ かうのとｌ
+	// どっちが たかい?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2: @ 826DAAD
 	.string "꼭두각시인형 3호 퀴즈!\p"
 	.string "수퍼볼을 팔아서\n"
 	.string "상처약을 사면 얼마 남을까?$"
+	// からくりニンギョウ 3ゴウ くいず!ｐ
+	// ス-パ-ボ-ルを うってｎ
+	// キズぐすりを かうと いくら のこる?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3: @ 826DAFF
 	.string "꼭두각시인형 3호 퀴즈!\p"
-	.string "벌레회피스프레이랑\n"
-	.string "미네랄사이다를 사면\l"
+	.string "벌레회피스프레이랑 미네랄사이다를 사면\n"
 	.string "좋은상처약보다 비싸질까?$"
+	// からくりニンギョウ 3ゴウ くいず!ｐ
+	// むしよけスプレ-と サイコソ-ダを かうとｎ
+	// いいキズぐすり より たかくなる?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro: @ 826DB4C
 	.string "달그락달그락...\n"
 	.string "난 꼭두각시인형 4호야!\l"
-	.string "아름다운 나의 퀴즈 한번 맞혀봐!$"
+	.string "아름다운 나의 퀴즈를 한번 맞혀봐!$"
+	// カタカタ…ｎ
+	// からくりニンギョウ 4ゴウ ヨ-ン!ｌ
+	// ウツクシイ ワタシノ くいず イクワヨ!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1: @ 826DB94
 	.string "꼭두각시인형 4호 퀴즈야!\p"
-	.string "바다의 집에는\n"
-	.string "남성과 여성 중 어느 쪽이 많을까?$"
+	.string "바다의 집에는 남성과 여성 중\n"
+	.string "어느 쪽이 많을까?$"
+	// からくりニンギョウ 4ゴウ くいずヨ!ｐ
+	// うみのいえには だんせいと じょせいｎ
+	// どちらが おおい?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2: @ 826DBD7
 	.string "꼭두각시인형 4호 퀴즈야!\p"
-	.string "용암마을에는 할아버지와\n"
-	.string "할머니 중 어느 쪽이 많을까?$"
+	.string "용암마을에는\n"
+	.string "할아버지와 할머니 중 어느 쪽이 많을까?$"
+	// からくりニンギョウ 4ゴウ くいずヨ!ｐ
+	// フエンタウンに いるｎ
+	// おじいさんと おばあさん どっちがおおい?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3: @ 826DC2A
 	.string "꼭두각시인형 4호 퀴즈야!\p"
-	.string "트레이너스쿨에는\n"
+	.string "포켓몬 트레이너스쿨에는\n"
 	.string "여학생이 몇 명 있을까?$"
+	// からくりニンギョウ 4ゴウ くいずヨ!ｐ
+	// ポケモン トレ-ナ-ズ スク-ルにｎ
+	// おんなのこの せいとは なんにん いた?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro: @ 826DC78
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 5호!\l"
 	.string "대왕의 최고 걸작!$"
+	// カタカタ…ｎ
+	// ワガハイ ハ からくりニンギョウ 5ゴウ!ｌ
+	// ダイオウノ サイコウ ケッサク!
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1: @ 826DCCB
 	.string "꼭두각시인형 5호 퀴즈!\p"
 	.string "잿빛도시의 애호가클럽에\n"
 	.string "있는 포켓몬은 몇 마리일까?$"
+	// からくりニンギョウ 5ゴウ くいず!ｐ
+	// カイナシティの だいすきクラブにｎ
+	// ポケモンは なんひき いた?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2: @ 826DD1B
 	.string "꼭두각시인형 5호 퀴즈!\p"
-	.string "검방울시티에는\n"
-	.string "나무로 된 집이 몇 채일까?$"
+	.string "검방울시티에 있는 트리하우스는\n"
+	.string "모두 몇 채일까?$"
+	// からくりニンギョウ 5ゴウ くいず!ｐ
+	// ヒワマキシティに ある ツリ-ハウスｎ
+	// ぜんぶで いくつ?
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3: @ 826DD5F
 	.string "꼭두각시인형 5호 퀴즈!\p"
-	.string "사이클링 로드에는\n"
-	.string "트라이애슬리트가 몇 명일까?$"
+	.string "사이클링 로드 위쪽에 있는\n"
+	.string "트라이애슬리트는 몇 명일까?$"
+	// からくりニンギョウ 5ゴウ くいず!ｐ
+	// サイクリングロ-ドの うえにｎ
+	// トライアスリ-トは なんにん いた?

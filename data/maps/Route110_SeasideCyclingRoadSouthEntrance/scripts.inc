@@ -59,12 +59,18 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad:: @ 826EC1
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad: @ 826EC23
 	.string "사이클링 로드에서는\n"
 	.string "마음껏 스피드를 낼 수 있어!\p"
-	.string "아무에게도 부딪히지 않고\n"
-	.string "달려 나가면\l"
-	.string "얼마나 기분이 좋은데!$"
+	.string "아무에게도 부딪히지 않고 달리면\n"
+	.string "엄청 기분이 좋아!$"
+	// サイクリング ロ-ドではｎ
+	// おもいっきり スピ-ドを だせるんだ!ｐ
+	// だれにも ぶつからずに かけぬけるとｎ
+	// すごく きもち いいよ!
 
 Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk: @ 826ECAA
 	.string "사이클링 로드를\n"
-	.string "걸어가는 건 위험해요!\p"
+	.string "걸어가는 건 위험해요!\l"
 	.string "자전거를 타고 와주세요$"
+	// サイクリング ロ-ドをｎ
+	// あるいて すすむのは あぶない です!ｌ
+	// じてんしゃに のって きてください
 

@@ -58,14 +58,22 @@ OldaleTown_Mart_EventScript_Boy:: @ 81FC2A9
 OldaleTown_Mart_Text_PokeBallsAreSoldOut: @ 81FC2B2
 	.string "물건들이 다 팔려서\n"
 	.string "몬스터볼을 살 수가 없어...$"
+	// なんでも うりきれ らしくてｎ
+	// モンスタ-ボ-ル かえないの……
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
-	.string "몬스터볼을 많이 사서\n"
-	.string "포켓몬을 많이 많이 잡을 거야!$"
+	.string "엄청 몬스터볼을 많이 사서\n"
+	.string "엄청 포켓몬을 많이 잡을 거야!$"
+	// どんどん モンスタ-ボ-ル かってｎ
+	// どんどん ポケモン つかまえちゃうわよ!
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
 	.string "포켓몬은 체력이 약해지면\n"
 	.string "싸울 힘도 없어져\p"
 	.string "그럴 때는 상처약을 써서\n"
 	.string "체력을 회복시켜줘야 돼!$"
+	// ポケモンは たいりょくが なくなるとｎ
+	// たたかう げんきも なくなるｐ
+	// そんな ときは キズぐすりを つかってｎ
+	// たいりょくを かいふく してあげるんだ!
 

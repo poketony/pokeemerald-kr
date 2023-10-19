@@ -58,7 +58,7 @@ PacifidlogTown_House3_Text_WillingToTradeIt: @ 8203CBE
 	.string "내가 어제 생일이었던\l"
 	.string "기념으로 잡은 {STR_VAR_2}{K_I}야!\p"
 	.string "오! 갖고 싶다는 얼굴인데?\n"
-	.string "뭐 소중한 {STR_VAR_2}{K_I}니까!\p"
+	.string "뭐 희귀한 {STR_VAR_2}{K_I}니까!\p"
 	.string "좋아! {STR_VAR_1}{K_I}라면\n"
 	.string "교환해 주도록 할게!$"
 	// みてくれよ この §う!ｎ
@@ -72,9 +72,9 @@ PacifidlogTown_House3_Text_WillingToTradeIt: @ 8203CBE
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou: @ 8203D87
 	.string "오옷 이게 {STR_VAR_1}{K_I}구나-!\n"
 	.string "역시 {STR_VAR_2}{K_WAGWA}는\l"
-	.string "여러 가지 닮았으면서도\l"
+	.string "여러 가지로 닮았으면서도\l"
 	.string "미묘하게 다르네!\p"
-	.string "고마워!$"
+	.string "땡큐!$"
 	// おっ これが §い かあ-!ｎ
 	// やっぱ §う とはｌ
 	// いろいろ にている ようでｌ
@@ -98,7 +98,7 @@ PacifidlogTown_House3_Text_NotDesperateOrAnything: @ 8203E12
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
 	.string "스스로 찾아도 되지만...\p"
 	.string "다른 트레이너가 잡은\n"
-	.string "아공이라는 녀석을\l"
+	.string "아공이를\l"
 	.string "정말 갖고 싶었어$"
 	// じぶんで さがしても いいんだけど……ｐ
 	// ほかの トレ-ナ-が つかまえたｎ
@@ -106,10 +106,10 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
 	// どうしても ほしかったんだよね
 
 PacifidlogTown_House3_Text_IsThatAPokedex: @ 8203EF1
-	.string "그거 포켓몬 도감이야?\p"
-	.string "그 말은 너 많은 포켓몬이랑\n"
+	.string "그거 포켓몬 도감이지?\p"
+	.string "그럼 너 많은 포켓몬이랑\n"
 	.string "만났다는 소리 아니야?\p"
-	.string "그거 정말 부러워!$"
+	.string "그거 정말 부러운걸!$"
 	// それって ポケモンずかん?ｐ
 	// それって あなた たくさんのｎ
 	// ポケモンと であった ってこと?ｐ

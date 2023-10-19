@@ -1021,93 +1021,139 @@ Route104_EventScript_Darian:: @ 81ED5D5
 Route104_Text_BrineyLivesInSeasideCottage: @ 81ED5EC
 	.string "저기 해변에 있는 작은 집에는\n"
 	.string "하기노인이라는 사람이 살고 있어!\p"
-	.string "옛날에는 아무리 거친 파도도\n"
-	.string "무서워하지 않는\l"
-	.string "실력 있는 선원이었대!$"
+	.string "옛날엔 어떤 파도도 무서워하지 않는\n"
+	.string "굉장한 실력의 선원이었다고 해!$"
+	// その はまべの こやにはｎ
+	// ハギろうじん という ひとが すんでるの!ｐ
+	// むかしは どんな あらなみも おそれないｎ
+	// すごうでの ふなのり だった らしいわ!
 
 Route104_Text_WhatsItLikeAtBottomOfSea: @ 81ED662
 	.string "바다라...\p"
-	.string "바다 깊은 곳은\n"
-	.string "과연 어떤 모습일까?$"
+	.string "바다 깊은 곳은 대체\n"
+	.string "어떤 모습을 하고 있을까?$"
+	// うみ かぁ……ｐ
+	// うみのそこ って いったいｎ
+	// どんな ふうに なってるのかな?
 
 Route104_Text_ThrowBallAtWeakenedPokemon: @ 81ED6A2
 	.string "몬스터볼을 던질 때\n"
 	.string "포켓몬의 기술로\l"
-	.string "독이나 화상 상태로 만들거나\p"
-	.string "잠들게 해 놓으면\n"
-	.string "훨씬 잡기 쉬워!$"
+	.string "독이나 화상 상태로 만들거나\l"
+	.string "잠들게 해 놓으면 훨씬 잡기가 쉬워!$"
+	// モンスタ-ボ-ルを なげるときはｎ
+	// ポケモンの わざでｌ
+	// どくや やけどに したりｌ
+	// ねむらせると つかまえ やすいよ!
 
 Route104_Text_OnlyThrowBallAtWildPokemon: @ 81ED735
-	.string "남의 포켓몬을 잡는 건 도둑이야\p"
+	.string "남의 포켓몬을 잡으면 도둑이야\p"
 	.string "몬스터볼은\n"
 	.string "야생 포켓몬에게만 던져야 돼!$"
+	// ひとの ポケモンを とったら どろぼうよｐ
+	// モンスタ-ボ-ルはｎ
+	// やせいの ポケモンにだけ なげましょうね!
 
 Route104_Text_ImNotATrainer: @ 81ED7A2
 	.string "난 트레이너가 아니야\p"
 	.string "그치만 트레이너끼리 눈이 마주치면\n"
 	.string "승부를 하자는 사인이지!\p"
-	.string "만약에 싸우고 싶지 않을 때는\n"
-	.string "눈을 마주치지 않으면 돼!$"
+	.string "만약 배틀하고 싶지 않을 때는\n"
+	.string "시선을 마주치지 않으면 돼!$"
+	// わたし トレ-ナ-じゃ ないわよｐ
+	// でも トレ-ナ-どうし しせんが あうのはｎ
+	// しょうぶしようって サイン なのよね!ｐ
+	// もし たたかいたく なかったらｎ
+	// しせんを あわさなければ いいのよね!
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis: @ 81ED838
-	.string "안녕! 씨앗으로 입안을 가득 채우고\n"
-	.string "빠르게 뱉는 게 상쾌해서 좋아!\p"
-	.string "너도 이거 줄 테니까 한번 써 봐!\p"
-	.string "포켓몬에게 쓰면 씨앗으로\n"
-	.string "공격하는 기술을 배울 거야!$"
+	.string "입안을 씨앗으로 가득 채우고\n"
+	.string "빠르게 푸푸풋! 뱉는 게 상쾌해서 좋아!\p"
+	.string "너도 이거 줄 테니까 써 봐!\p"
+	.string "포켓몬에게 쓰면\n"
+	.string "씨앗을 날리는 기술을 배울 거야!$"
+	// くちのなかに タネを いっぱい いれてｎ
+	// それを プププッ! とふきだすのが すき!ｐ
+	// おまえも これを やるから つかえよ!ｐ
+	// ポケモンに つかうとさｎ
+	// タネを とばす わざを おぼえるから!
 
 Route104_Text_TMsAreOneTimeUse: @ 81ED8E7
 	.string "하나 어드바이스 해줄게!\p"
-	.string "기술머신은 한 번 사용하면\n"
-	.string "사라지게 되어버려\p"
-	.string "그러니 사용할 때는 누구에게\n"
-	.string "가르칠지 신중하게 결정하도록 해!$"
+	.string "기술머신은 일회용이야!\n"
+	.string "쓰면 사라져 버리지\l"
+	.string "잘 생각하고 나서 써야 돼!$"
+	// ひとこと アドバイスな!ｐ
+	// わざマシンは つかいすて!ｎ
+	// つかうと なくなるからｌ
+	// よく かんがえてから つかえよな!
 
 Route104_Text_DontNeedThisTakeIt: @ 81ED96A
-	.string "요즘에 여기 꽃집\n"
+	.string "여기 플라워숍 요즘에\n"
 	.string "화분도 팔고 있어!\p"
-	.string "너무 기뻐서 많이 샀거든\n"
-	.string "그래서 내 하양허브는\l"
-	.string "이제 필요 없어\l"
+	.string "너무 기뻐서 잔뜩 사버리는 바람에\n"
+	.string "내 하양허브는 이제 필요가 없어\l"
 	.string "그러니까 네가 가져가!$"
+	// この フラワ-ショップ ちかごろｎ
+	// うえきも うって くれるのよ!ｐ
+	// うれしくて たくさん かっちゃったからｎ
+	// あたしの しろいハ-ブは もう いらないわｌ
+	// あなた もらってよ!
 
 Route104_Text_FlowerShopSellingSaplings: @ 81EDA0F
-	.string "요즘에 여기 꽃집\n"
+	.string "여기 플라워숍 요즘에\n"
 	.string "화분도 팔고 있어!\p"
-	.string "너무 기뻐서 많이 샀어!\n"
-	.string "이걸 어디다 장식할까?$"
+	.string "너무 기뻐서 잔뜩 사버렸지 뭐야!\n"
+	.string "어디에 장식할까?$"
+	// この フラワ-ショップ ちかごろｎ
+	// うえきも うって くれるのよ!ｐ
+	// うれしくて たくさん かっちゃった!ｎ
+	// どこに かざろうかしら?
 
 Route104_Text_MrBrineysCottage: @ 81EDA8C
 	.string "“하기노인의 작은 집”$"
+	// 「ハギろうじんの こや」
 
 Route104_Text_RouteSignPetalburg: @ 81EDAA1
 	.string "여기는 104번 도로\n"
 	.string "{RIGHT_ARROW} 등화도시$"
+	// ここは 104ばん どうろｎ
+	// ©しう トウカシティ
 
 Route104_Text_RouteSignRustboro: @ 81EDABC
 	.string "여기는 104번 도로\n"
 	.string "{UP_ARROW} 금탄도시$"
+	// ここは 104ばん どうろｎ
+	// ©し  カナズミシティ
 
 Route104_Text_PrettyPetalFlowShop: @ 81EDAD6
 	.string "“플라워숍 꽃잎 화원”$"
+	// 「フラワ-ショップ サン®トウカ」
 
 Route104_Text_TrainerTipsDoubleBattles: @ 81EDAEF
 	.string "정보 나눔 게시판!!\p"
-	.string "호연지방의 트레이너 중에는\n"
+	.string "호연지방에는\n"
 	.string "더블배틀이라고 해서 2대2로\l"
 	.string "포켓몬 승부를 걸어오는\l"
-	.string "사람들이 있습니다!\p"
-	.string "더블배틀에서는 포켓몬의 리스트\n"
-	.string "왼쪽 위와\l"
-	.string "오른쪽 위에 있는 포켓몬이\p"
-	.string "제일 먼저 나가서\n"
-	.string "배틀에 참가하기 때문에\l"
+	.string "트레이너가 있습니다!\p"
+	.string "더블배틀에서는 포켓몬 리스트의\n"
+	.string "왼쪽과 가장 위에 있는\l"
+	.string "포켓몬이 나가서 배틀을 하니\l"
 	.string "리스트 순서에 주의합시다!$"
+	// おとくな けいじばん!!ｐ
+	// ホウエンちほう にはｎ
+	// ダブルバトルと いって 2たい2のｌ
+	// ポケモンしょうぶを いどんでくるｌ
+	// トレ-ナ-が います!ｐ
+	// ダブルバトルでは ポケモンの リストのｎ
+	// ひだりと いちばん うえにいるｌ
+	// ポケモンが とびだして たたかうのでｌ
+	// リストの ならびには ようちゅうい!
 
 Route104_Text_MayWeShouldRegister: @ 81EDBFF
 	.string "봄이: 앗 {PLAYER}{K_AYA}!\p"
 	.string "데봉 코포레이션에서 포켓내비에\n"
-	.string "엔트리콜을 붙여줬구나!\p"
+	.string "엔트리콜을 장착받았구나!\p"
 	.string "그럼 우리도\n"
 	.string "서로 전화할 수 있게\l"
 	.string "이름을 등록해 놓자!$"
@@ -1132,7 +1178,7 @@ Route104_Text_MayHowsYourPokedex: @ 81EDCB1
 
 Route104_Text_MayMinesDecentLetsBattle: @ 81EDCED
 	.string "나는 꽤 좋은 느낌이야!\n"
-	.string "어때? 한번 승부해 보지 않을래?$"
+	.string "어때? 한번 승부해 볼래?$"
 	// あたしは かなり いい かんじ!ｎ
 	// どう? ちょっと しょうぶ してみる?
 
@@ -1150,7 +1196,7 @@ Route104_Text_MayHaventRaisedPokemon: @ 81EDD2A
 
 Route104_Text_MayLetsBattle: @ 81EDD9F
 	.string "봄이: 어때? 나하고 여기서\n"
-	.string "한번 승부해 보지 않을래?$"
+	.string "한번 승부해 볼래?$"
 	// ハルカ『どう? あたしと ここでｎ
 	// ちょっと しょうぶ してみる?
 
@@ -1183,7 +1229,7 @@ Route104_Text_MayPostBattle: @ 81EDE3E
 Route104_Text_BrendanWeShouldRegister: @ 81EDF04
 	.string "휘웅: 오 {PLAYER}{K_AYA}!\p"
 	.string "데봉 코포레이션에서 포켓내비에\n"
-	.string "엔트리콜을 붙여줬구나!\p"
+	.string "엔트리콜을 장착받았구나!\p"
 	.string "그럼 우리\n"
 	.string "서로 전화할 수 있게\l"
 	.string "이름을 등록해 놓자!$"
@@ -1211,20 +1257,20 @@ Route104_Text_BrendanHowsYourPokedex: @ 81EDFC6
 Route104_Text_BrendanDoingGreatLetsBattle: @ 81EE009
 	.string "나는 엄청 잘되고 있어!\n"
 	.string "어때 포켓몬 승부로\l"
-	.string "그 성과를 시험해 보지 않을래?$"
+	.string "그 성과를 시험해 볼래?$"
 	// オレは すごいよ!ｎ
 	// どうだ ポケモン しょうぶでｌ
 	// そのせいかを ためして やろうか?
 
 Route104_Text_BrendanNoConfidence: @ 81EE04D
 	.string "휘웅: 뭐야\n"
-	.string "지닌 포켓몬을 믿지 못하는 거구나?$"
+	.string "자기 포켓몬을 못 믿겠어?$"
 	// ユウキ『なんだよｎ
 	// もってる ポケモンに じしんが ないのか?
 
 Route104_Text_BrendanLetsBattle: @ 81EE094
 	.string "휘웅: 어때 나하고 여기서\n"
-	.string "승부해 보지 않을래?$"
+	.string "승부해 볼래?$"
 	// ユウキ『どうだい オレと ここでｎ
 	// しょうぶ してみるか?
 
@@ -1236,16 +1282,16 @@ Route104_Text_BrendanIntro: @ 81EE0C7
 
 Route104_Text_BrendanDefeat: @ 81EE107
 	.string "흐음...\n"
-	.string "꽤 강하잖아$"
+	.string "제법 하는걸$"
 	// へえ……ｎ
 	// なかなか やるじゃないか
 
 Route104_Text_BrendanPostBattle: @ 81EE120
 	.string "휘웅: 제법 포켓몬을\n"
 	.string "잘 다루기 시작했구나!\p"
-	.string "하지만 싸우는 것만이 아니라\n"
+	.string "하지만 배틀하는 것만이 아니라\n"
 	.string "그곳의 하기노인처럼\l"
-	.string "포켓몬과 사이좋게 지내는 것도\n"
+	.string "포켓몬과 사이좋게 지내는 것도\l"
 	.string "엄청 중요하다고!$"
 	// ユウキ『けっこう ポケモンの あつかいｎ
 	// うまく なってきたな!ｐ

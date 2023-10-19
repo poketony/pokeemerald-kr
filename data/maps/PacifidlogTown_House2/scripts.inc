@@ -110,7 +110,7 @@ PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation: @ 82038C7
 	// バカンスを たのしんで おるのですな!
 
 PacifidlogTown_House2_Text_AhYourPokemon: @ 820395B
-	.string "오호!\n"
+	.string "호오!\n"
 	.string "당신의 포켓몬...$"
 	// ほう!ｎ
 	// きみの ポケモン……
@@ -152,8 +152,8 @@ PacifidlogTown_House2_Text_ExplainReturnFrustration: @ 8203A85
 	// やつあたりの いりょくが つよまるんだよ!
 
 PacifidlogTown_House2_Text_GetGoodTMInXDays: @ 8203AF4
-	.string "그래그래 앞으로 {STR_VAR_1}일 지나면\n"
-	.string "좋은 기술머신이 손에 들어옵니다!\p"
+	.string "그래요 그래요 앞으로 {STR_VAR_1}일 지나면\n"
+	.string "좋은 기술머신이 손에 들어온답니다!\p"
 	.string "그때 다시 놀러오시지요!\n"
 	.string "당신의 포켓몬에게 맞는\l"
 	.string "근사한 기술머신을 드릴 테니까요$"
@@ -172,7 +172,7 @@ PacifidlogTown_House2_Text_VeryFriendlyWithTrainer: @ 8203B9D
 	// とっても なついて いるようだ
 
 PacifidlogTown_House2_Text_Rururi: @ 8203BCE
-	.string "루리리: 루리리!!$"
+	.string "루리리: 루리릿!!$"
 	// ルリリ『ルルリッ!!
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch: @ 8203BDF

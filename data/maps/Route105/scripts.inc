@@ -89,7 +89,7 @@ Route104_Text_DadPokenavCall: @ 81EE336
 	.string "...... ...... ......\p"
 	.string "지금 어디에 있는 거니?\n"
 	.string "제법 바람 소리가 강하구나\p"
-	.string "...그래그래 데봉의 나발명씨한테서\n"
+	.string "...그래그래 데봉의 나발명씨한테\n"
 	.string "포켓내비를 받았다고 들어서\l"
 	.string "한번 전화해 봤단다!\p"
 	.string "건강하게 모험 중이라면 그걸로 됐어!\n"

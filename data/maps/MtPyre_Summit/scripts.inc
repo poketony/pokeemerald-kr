@@ -459,21 +459,21 @@ MtPyre_Summit_Text_Grunt1Intro: @ 8232459
 	// オレたちだって まけちゃ いないぜ!
 
 MtPyre_Summit_Text_Grunt1Defeat: @ 82324A0
-	.string "너... 도망치고 있던\n"
-	.string "마그마단이라고 생각했는데$"
+	.string "너... 도망쳤던 마그마단이\n"
+	.string "돌아온 게 아닐까 하고 생각했는데$"
 	// おまえ…… にげていった マグマだんがｎ
 	// もどって きたのかと おもったんだよ
 
 MtPyre_Summit_Text_Grunt1PostBattle: @ 82324E0
-	.string "넌 확실히 강하군...\n"
-	.string "하지만 우리들은 아주 많다!$"
+	.string "넌 확실히 강한걸...\n"
+	.string "하지만 우리는 잔뜩 있다고!$"
 	// たしかに おまえは つよいな……ｎ
 	// だけど おれたちは たくさん いるんだぞ!
 
 MtPyre_Summit_Text_Grunt2Intro: @ 8232513
 	.string "앗 아쉽게 됐네!\p"
 	.string "조금만 더 빨리 여기에\n"
-	.string "왔다면 약해빠진 마그마단하고\l"
+	.string "왔더라면 약해빠진 마그마단하고\l"
 	.string "승부를 했을 텐데\p"
 	.string "지금 와버린 탓에\n"
 	.string "강한 우리들이 상대니까!$"
@@ -485,7 +485,7 @@ MtPyre_Summit_Text_Grunt2Intro: @ 8232513
 	// つよい オレたちが あいてだぜ!
 
 MtPyre_Summit_Text_Grunt2Defeat: @ 82325B0
-	.string "으-음 마그마단이\n"
+	.string "으-음... 마그마단이\n"
 	.string "상대가 되는 게 나았을지도...$"
 	// う-む…… マグマだんにｎ
 	// あいてを させれば よかった……
@@ -497,9 +497,9 @@ MtPyre_Summit_Text_Grunt2PostBattle: @ 82325E4
 	// オレたちの じゃまを するんじゃないぜ!
 
 MtPyre_Summit_Text_Grunt3Intro: @ 823261D
-	.string "너... 굴뚝산에서 만났던!\p"
+	.string "너... 굴뚝산에서 만났었지!\p"
 	.string "어느 쪽 단원도 아닌데\n"
-	.string "왜 여기에 있는 거야?$"
+	.string "왜 여기에 있는 거야!?$"
 	// おまえ…… えんとつやまで あったな!ｐ
 	// どっちの だんいん でもないのにｎ
 	// なぜ こんな ところに いるんだ!?
@@ -512,8 +512,8 @@ MtPyre_Summit_Text_Grunt3Defeat: @ 8232678
 
 MtPyre_Summit_Text_Grunt3PostBattle: @ 82326B3
 	.string "뭐 됐어 시간은 벌었다!\p"
-	.string "지금쯤 리더가 원하는 걸\n"
-	.string "빼앗았을 거다!$"
+	.string "리더가 노리시는 걸\n"
+	.string "빼앗았을 거라고!$"
 	// まあいいさ じかんは かせげた!ｐ
 	// リ-ダ-の もくてきの ものｎ
 	// うばえた はずだぜ!
@@ -523,7 +523,7 @@ MtPyre_Summit_Text_Grunt4Intro: @ 823271B
 	.string "너 마그마단에 들어가려고 했는데\l"
 	.string "거절당한 거지!\p"
 	.string "하! 우리 아쿠아단도\n"
-	.string "받아주지 않을 거거든!$"
+	.string "안 받아 줄 거거든!$"
 	// あっ わかった!ｎ
 	// あんた マグマだんに はいろうと したけどｌ
 	// いれて もらえなかったんでしょ!ｐ
@@ -567,25 +567,25 @@ MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo: @ 823281A
 	// ここは ひきあげるぞ!
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis: @ 823290E
-	.string "아아 이거 어쩌면 좋을꼬...!\p"
+	.string "아아 어쩌면 좋을꼬...!\p"
 	.string "쪽빛구슬뿐만이 아니라\n"
 	.string "주홍구슬까지\l"
-	.string "빼앗겨 버리다니...\p"
+	.string "빼앗겨 버릴 줄이야...\p"
 	.string "쪽빛구슬과 주홍구슬이\n"
 	.string "서로 떨어져 버리다니\l"
 	.string "결코 있어서는 안 될 일이거늘...\p"
 	.string "그 남자들은 두 구슬로\n"
-	.string "대체 뭘 하려는 건가...\p"
+	.string "대체 뭘 하려는 건지...\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
-	.string "그러고 보니 처음에 나타난\n"
-	.string "쪽빛구슬을 가져간\l"
-	.string "마그마단 녀석이\l"
+	.string "그러고 보니 처음에 나타나서\n"
+	.string "쪽빛구슬을 빼앗아 간\l"
+	.string "마그마단이라는 녀석들이\l"
 	.string "이런 걸 두고 갔었단다...\p"
-	.string "이게 뭔지는 나도 모르겠다만\p"
-	.string "너 괜찮다면 이걸\n"
-	.string "받도록 하거라...\p"
-	.string "혹시나 도움이 될 수도\n"
+	.string "이게 뭔지는 나도 모르겠지만\p"
+	.string "자네가 괜찮다면 이걸\n"
+	.string "받아 주게나...\p"
+	.string "어쩌면 도움이 될 수도\n"
 	.string "있으니까 말이지...!$"
 	// ああ なんという ことだ……!ｐ
 	// あいいろのたま だけではなくｎ
@@ -609,10 +609,10 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis: @ 823290E
 	// たつのでは ないだろうか……!
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken: @ 8232AD8
-	.string "수상한 두 남자가 가져간\n"
+	.string "수상한 두 남자가 빼앗아 간\n"
 	.string "쪽빛구슬과 주홍구슬...\p"
 	.string "따로 떨어져 있으면\n"
-	.string "분명 좋지 않은 일이 일어날 거야...$"
+	.string "분명 좋지 않은 일이 일어날 걸세...$"
 	// あやしげな ふたりの おとこに うばわれたｎ
 	// あいいろのたまと べにいろのたま……ｐ
 	// ふたつが はなればなれ ではｎ
@@ -621,16 +621,16 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken: @ 8232AD8
 MtPyre_Summit_Text_GroudonKyogreAwakened: @ 8232B4F
 	.string "뭐라고...\n"
 	.string "그란돈과 가이오가가\l"
-	.string "눈을 떠버렸다는 건가...\p"
+	.string "눈을 떠버렸다는 겐가...\p"
 	.string "일찍이 두 마리의 포켓몬의\n"
 	.string "분노를 잠재우는 것이\l"
 	.string "쪽빛구슬과 주홍구슬이라고\l"
 	.string "전해져 왔었지...\p"
 	.string "그리고 그 구슬의 진정한 주인이\n"
-	.string "어딘가에 있다는 것도...\p"
-	.string "그것이 사람인지\n"
+	.string "어딘가에 있다고 하지만...\p"
+	.string "그게 사람인지\n"
 	.string "아니면 포켓몬인지\p"
-	.string "이것만은\n"
+	.string "그것만큼은\n"
 	.string "그 누구도 알지 못한다네...$"
 	// なんと……ｎ
 	// グラ-ドンと カイオ-ガがｌ
@@ -662,9 +662,9 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs: @ 8232D1E
 	.string "정체라고 전해지고 있단다...\p"
 	.string "우리들 인간이나 포켓몬에게\n"
 	.string "생명이 있는 것처럼\l"
-	.string "이 대지 역시 살아있단다...\p"
-	.string "초 고대포켓몬은 우리들에게 그것을\n"
-	.string "알려주려 했던 거겠지...$"
+	.string "이 대지 역시 살아있는 게야...\p"
+	.string "초 고대포켓몬은 우리에게\n"
+	.string "그걸 알려주려 했던 거겠지...$"
 	// だいちと うみと おおぞらの けしん……ｐ
 	// それが ちょうこだいポケモンのｎ
 	// しょうたい とも いわれておる……ｐ
@@ -677,12 +677,12 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs: @ 8232D1E
 MtPyre_Summit_Text_WillYouHearOutMyTale: @ 8232E0C
 	.string "송화산은 포켓몬의 영혼을\n"
 	.string "위로하기 위한 곳...\p"
-	.string "여기는 높은 곳에 있기 때문에\n"
+	.string "여기는 높은 곳이라\n"
 	.string "호연지방을 한눈에 볼 수 있어서\l"
 	.string "포켓몬들의 영혼도\l"
 	.string "평온함을 느낄 수 있는 거겠지...\p"
 	.string "자네가 여기로 온 것도\n"
-	.string "하나의 인연...\p"
+	.string "뭔가의 인연...\p"
 	.string "호연지방에서 전해지고 있는\n"
 	.string "이야기를 듣고 가게나...$"
 	// おくりびやまは ポケモンの たましいをｎ
@@ -698,14 +698,14 @@ MtPyre_Summit_Text_WillYouHearOutMyTale: @ 8232E0C
 
 MtPyre_Summit_Text_GroudonKyogreTale: @ 8232F27
 	.string "멀고도 먼 옛날...\p"
-	.string "세계는 육지와 바다의 포켓몬이\n"
+	.string "세계에선 육지와 바다의 포켓몬이\n"
 	.string "격렬한 싸움을 벌이고 있었지\p"
 	.string "육지의 포켓몬은\n"
 	.string "대지를 일으켜 세워 땅을 넓히고\p"
 	.string "바다의 포켓몬은\n"
-	.string "거센 파도를 일으켜 바다를 넓혔지\p"
-	.string "두 마리의 싸움은 끝나지 않고\p"
-	.string "이 세계는 활활 타오르는 불꽃과\n"
+	.string "거센 파도를 일으켜 바다를 넓혔다\p"
+	.string "두 마리의 싸움은 끝나지 않고\n"
+	.string "이 세계는 활활 타오르는 불꽃과\l"
 	.string "휘몰아치는 폭풍으로 휩싸였지\p"
 	.string "그것을 잠재운 것이\n"
 	.string "주홍구슬과 쪽빛구슬...\p"
@@ -713,7 +713,7 @@ MtPyre_Summit_Text_GroudonKyogreTale: @ 8232F27
 	.string "두 마리의 분노를 잠재웠다\p"
 	.string "그리고 얌전해진 두 마리는\n"
 	.string "해저 깊은 곳으로 들어가\l"
-	.string "머지않아 그 모습을 감추었다는군....$"
+	.string "이윽고 그 모습을 감추었다는군....$"
 	// とおい とおい おおむかしの こと……ｐ
 	// せかいでは りくと うみの ポケモンがｎ
 	// はげしい たたかいを くりひろげていたｐ
@@ -733,7 +733,7 @@ MtPyre_Summit_Text_GroudonKyogreTale: @ 8232F27
 	// やがて そのすがたを けしたのじゃ……
 
 MtPyre_Summit_Text_WellThatTooIsFine: @ 8233162
-	.string "그러냐...\n"
+	.string "그런가...\n"
 	.string "뭐 그것도 좋겠지...$"
 	// そうかね……ｎ
 	// まあ それも よいじゃろう……
@@ -750,8 +750,7 @@ MtPyre_Summit_Text_HearTheNewLegendOfHoenn: @ 82331A6
 	.string "호연지방에 남겨진 전설을\n"
 	.string "전하는 것이 내 사명\p"
 	.string "그리고 지금\n"
-	.string "루네시티에서 일어난 사건은\l"
-	.string "막을 내리고\l"
+	.string "루네시티에서 일어난 사건은 막을 내리고\l"
 	.string "전설은 새롭게 다시 써졌다...\p"
 	.string "새로운 호연지방의 전설을\n"
 	.string "듣고 가게나...$"
@@ -770,17 +769,17 @@ MtPyre_Summit_Text_HoennTrioTale: @ 823325D
 	.string "육지의 포켓몬은\n"
 	.string "대지를 일으켜 세워 땅을 넓히고\p"
 	.string "바다의 포켓몬은\n"
-	.string "거센 파도를 일으켜 바다를 넓혔지\p"
-	.string "두 마리의 싸움은 끝나지 않고\p"
-	.string "이 세계는 활활 타오르는 불꽃과\n"
+	.string "거센 파도를 일으켜 바다를 넓혔다\p"
+	.string "두 마리의 싸움은 끝나지 않고\n"
+	.string "이 세계는 활활 타오르는 불꽃과\l"
 	.string "휘몰아치는 폭풍으로 휩싸였지\p"
 	.string "그때!\n"
 	.string "폭풍 속에서 내려온 것이\l"
 	.string "창공의 포켓몬...\p"
 	.string "그 초록색으로 빛나는 포켓몬은\n"
 	.string "두 마리의 분노를 잠재우고\l"
-	.string "또다시 어딘가로 날아가버렸다\p"
-	.string "어딘가 멀리 있는\l"
+	.string "다시 어딘가로 날아가 버렸다\p"
+	.string "어딘가 멀리 있는\n"
 	.string "하늘 저편으로...$"
 	// とおい とおい おおむかしの こと……ｐ
 	// せかいでは りくと うみの ポケモンがｎ

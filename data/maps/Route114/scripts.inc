@@ -188,24 +188,36 @@ Route114_EventScript_Kai:: @ 81F27F2
 Route114_Text_AllMyMonDoesIsRoarTakeThis: @ 81F2809
 	.string "내 포켓몬 매일 울부짖기만 해서\n"
 	.string "다들 도망가 버려요...\p"
-	.string "당신이 괜찮다면\n"
+	.string "당신 괜찮다면\n"
 	.string "이 기술머신 좀 가져가 주세요$"
+	// わたしの ポケモン ほえてばかりでｎ
+	// みんなが にげてしまって……ｐ
+	// あなた よかったらｎ
+	// この わざマシン もらってください
 
 Route114_Text_ExplainRoar: @ 81F2872
 	.string "기술머신05의 내용은 울부짖기예요\n"
 	.string "울부짖으면 포켓몬이 도망간답니다$"
+	// わざマシン05の なかみは ほえる ですｎ
+	// ほえると ポケモンも にげだすのです
 
 Route114_Text_Poochyena: @ 81F28A6
 	.string "포!! 포포!!$"
+	// ばうっ!! ばばうっ!!
 
 Route114_Text_MeteorFallsSign: @ 81F28B3
 	.string "여기는 유성의 폭포\n"
 	.string "여길 지나가면 금탄도시$"
+	// ここは りゅうせいのたきｎ
+	// とおりぬけると カナズミシティ
 
 Route114_Text_FossilManiacsHouseSign: @ 81F28DB
 	.string "“화석마니아의 집”\n"
 	.string "희귀한 화석이 있으면 주세요!$"
+	// 「かせきマニアの いえ」ｎ
+	// めずらしい かせき ください!
 
 Route114_Text_LanettesHouse: @ 81F2910
 	.string "“유미의 집”$"
+	// 「マユミの いえ」
 

@@ -265,71 +265,97 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise: @ 826B08B
 Route110_TrickHouseEnd_Text_YouveMadeItToMe: @ 826B08D
 	.string "앗!\n"
 	.string "자네 여기까지 온 건가!\l"
-	.string "음... 대단한데!$"
+	.string "으-음... 대단한데!$"
+	// あっ!ｎ
+	// あんた ここまで こられたのか!ｌ
+	// う-む…… できる!
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees: @ 826B0BC
-	.string "밤을 새서 미로를 만들었는데...\p"
-	.string "이 몸 다음 다음 다음\n"
-	.string "다음 다음 다음으로\l"
-	.string "대단하군!$"
+	.string "밤을 새서 나무를 심었는데...\p"
+	.string "이 몸 다음 다음 다음 다음\n"
+	.string "다음 다음으로 대단하군!$"
+	// てつやで きを うえたのに……ｐ
+	// わがはいの つぎの つぎの つぎの つぎのｎ
+	// つぎの つぎ くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze: @ 826B13B
-	.string "밤을 새서\n"
-	.string "바위를 옮겨 놓았는데....\p"
-	.string "이 몸 다음 다음 다음\n"
-	.string "다음 다음으로\l"
-	.string "대단하군!$"
+	.string "밤을 새서 미로를 만들었는데...\p"
+	.string "이 몸 다음 다음 다음 다음\n"
+	.string "다음으로 대단하군!$"
+	// てつやで めいろを つくったのに……ｐ
+	// わがはいの つぎの つぎの つぎの つぎのｎ
+	// つぎ くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels: @ 826B1AD
-	.string "밤을 새서 창문 막아\n"
-	.string "방 안을 어둡게 했는데...\p"
+	.string "밤을 새서 문을 갈아 끼웠는데...\p"
 	.string "이 몸 다음 다음 다음 다음으로\n"
 	.string "대단하군!$"
+	// てつやで ふすまを はりかえたのに……ｐ
+	// わがはいの つぎの つぎの つぎの つぎｎ
+	// くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders: @ 826B223
 	.string "밤을 새서 바위를 밀어 놨는데...\p"
 	.string "이 몸 다음 다음 다음으로\n"
 	.string "대단하군!$"
+	// てつやで いわを おして きたのに……ｐ
+	// わがはいの つぎの つぎの つぎｎ
+	// くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls: @ 826B293
-	.string "밤을 새서 인형 만들고\n"
-	.string "밤을 새서 퀴즈 생각했는데...\p"
+	.string "밤을 새서 인형을 만들고\n"
+	.string "밤을 새서 퀴즈도 생각했는데...\p"
 	.string "이 몸 다음 다음으로\n"
 	.string "대단하군!$"
+	// てつやで にんぎょう つくってｎ
+	// てつやで クイズも かんがえたのに……ｐ
+	// わがはいの つぎの つぎｎ
+	// くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors: @ 826B315
-	.string "밤을 새서 문을\n"
-	.string "설치해 놓았는데...\p"
+	.string "밤을 새서 문을 설치해 놓았는데...\p"
 	.string "이 몸 다음으로\n"
 	.string "대단하군!$"
+	// てつやで とびらを とりつけたのに……ｐ
+	// わがはいの つぎｎ
+	// くらいに すごい!
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows: @ 826B365
-	.string "밤을 새서 화살표 정렬해 놨는데...\p"
-	.string "이 몸과 비슷할 만큼 대단해!$"
+	.string "밤을 새서 화살표를 정렬해 놨는데...\p"
+	.string "이 몸과 동급으로 대단하군!$"
+	// てつやで やじるしを ならべたのに……ｐ
+	// わがはいと おなじ くらい すごい!
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors: @ 826B3AB
 	.string "밤을 새서 바닥을 닦아 놨는데...\p"
-	.string "이 몸보다 더 대단할지도...!$"
+	.string "이 몸보다 더 대단! 할지도...$"
+	// てつやで ゆかを みがいたのに……ｐ
+	// わがはい より すごい! のかも……
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry: @ 826B3FA
 	.string "어 어쩌지...\n"
 	.string "숨겨진 장치를 만들 만한\l"
-	.string "아이디어가 다 떨어져버렸어...\p"
-	.string "또 전국 각지를 돌면서\n"
-	.string "새로운 장치를 생각해와야겠다...$"
+	.string "아이디어가 다 떨어져버렸어...\l"
+	.string "또 전국 각지를 돌면서\l"
+	.string "새로운 장치를 생각해 와야겠다...$"
+	// ど どうしよう……ｎ
+	// もう カラクリの ネタがｌ
+	// つきて しまった……ｌ
+	// また ぜんこく かくちを まわってｌ
+	// しかけを いろいろ かんがえて くるか……
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent: @ 826B485
 	.string "인정하고 싶진 않지만\n"
-	.string "자네한테는 졌다...!\p"
-	.string "뭐 그렇게 몇 번이나 와준 걸 보면\n"
+	.string "자네한테 졌다...!\p"
+	.string "뭐 몇 번이나 와준 걸 보면\n"
 	.string "그만큼 이 몸이\l"
-	.string "매력 있었단 소리겠지만\p"
+	.string "매력 있었단 소리겠지만 말야\p"
 	.string "그거랑 이 몸이 진 거랑은\n"
-	.string "상관없어!\p"
-	.string "아 그래! 자네와의\n"
+	.string "관계없어!\p"
+	.string "아 그래! 자네와 이 몸의\n"
 	.string "우정을 기념해서\l"
 	.string "좋은 걸 주도록 하지!\p"
-	.string "“빨강텐트”와 “파랑텐트”\l"
+	.string "“빨강텐트”와 “파랑텐트”\n"
 	.string "둘 중에 어느 걸 가지고 싶어?$"
 	// みとめたくは ないんだがｎ
 	// あんたには まけた……!ｐ
@@ -346,40 +372,65 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent: @ 826B485
 
 Route110_TrickHouseEnd_Text_NoRoomInPC: @ 826B615
 	.string "뭐 PC에 들어가지 않는다고?\n"
-	.string "그런 거 내 알 바냐!\p"
+	.string "그런 건 내 알 바 아냐!\p"
 	.string "...라고 말하고 싶지만\n"
-	.string "이 몸은 상냥하니까\l"
-	.string "나중에 찾으러 오도록!$"
+	.string "이 몸은 착하니까 맡아주지!$"
+	// なに パソコンに はいりきらない?ｎ
+	// そんなの わがはいが しるか!ｐ
+	// ……と いいたい ところだけどｎ
+	// わがはいは やさしいので あとで やろう!
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney: @ 826B69A
 	.string "...... ...... ......\p"
 	.string "이 몸은 이제부터\n"
 	.string "새로운 아이디어를 찾으러\l"
-	.string "여행을 떠날까 해...\p"
-	.string "자네도 나중에 또\n"
-	.string "여기 와서 놀다 가도록 해!\p"
+	.string "여행을 떠날까 해...\l"
+	.string "자네도 언젠가 여기 와서\l"
+	.string "또 놀다 가도록 해!\p"
 	.string "그럼 안녕...!$"
+	// …… …… ……ｐ
+	// わがはいは これからｎ
+	// あらたな しかけを もとめてｌ
+	// たびに でる ことに する……ｌ
+	// あんたも いつか ここにきてｌ
+	// また あそんで いってくれ!ｐ
+	// それでは さらば…!
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward: @ 826B73D
 	.string "좋아 자네에게\n"
 	.string "선물을 주지!$"
+	// よしっ あんたにｎ
+	// ほうびを やろう!
 
 Route110_TrickHouseEnd_Text_NoRoomForThis: @ 826B760
-	.string "뭣 전부 들 수가 없다고?\n"
-	.string "뭘 그렇게 많이 들고 있는 건가?\l"
-	.string "뭐 그래도 여기까지 와주었고\l"
+	.string "뭣 지닐 수가 없다고?\n"
+	.string "뭘 그렇게 많이 들고 있길래?\l"
+	.string "뭐 그래도 여기까지 와주었으니까\l"
 	.string "상품은 다음에 주도록 하지!$"
+	// なにっ もちきれない?ｎ
+	// そんなに なにを もちあるいてるんだ?ｌ
+	// まあ せっかく ここまで こられたんだしｌ
+	// ほうびは あとで やろう!
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou: @ 826B7EF
-	.string "어쭈 뭘 그렇게 자신있어 해\n"
-	.string "이 몸한테 완전히 이기려면\l"
-	.string "아직 멀었어!\p"
-	.string "앞으로 또 새로운 장치를 만들 테니\n"
-	.string "그거나 돌파한 다음에 날 비웃어 봐!\p"
+	.string "뭘 그렇게 자신만만해\n"
+	.string "이 몸을 완전히 이기려면\l"
+	.string "아직 멀었다고!\l"
+	.string "앞으로 또 새로운 장치를 만들 테니\l"
+	.string "그거나 끝낸 다음에 날 비웃어 봐!\p"
 	.string "그럼 다음을 기대하도록!$"
+	// なんだ とくいそうな かお してからにｎ
+	// わがはいに かった きに なるのはｌ
+	// まだ はやいわ!ｌ
+	// このあとも また しかけを つくるからｌ
+	// それが おわってから わがはいを わらえ!ｐ
+	// それでは じかいを おたのしみに!
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe: @ 826B8BD
 	.string "어이어이\n"
-	.string "이 몸을 무시하는 거야!\l"
-	.string "그거 아주 서러운데$"
+	.string "이 몸을 무시하는 거냐고!\l"
+	.string "그것참 서러운걸$"
+	// おいおいｎ
+	// わがはいの ことは むし か!ｌ
+	// ずいぶん さみしい じゃないか
 

@@ -10,9 +10,12 @@ PetalburgCity_House1_EventScript_Woman:: @ 82077A3
 	end
 
 PetalburgCity_House1_Text_TravelingIsWonderful: @ 82077AC
-	.string "여행만큼 좋은 건 없지!\p"
+	.string "여행은 좋지!\p"
 	.string "이 몸도 젊은 시절엔 이곳저곳의\n"
 	.string "바다와 산을 떠돌아다녔었다!$"
+	// たびは いいぞ!ｐ
+	// わしも わかいときは あちこちのｎ
+	// うみや やまを わたりあるいた ものだ!
 
 PetalburgCity_House1_Text_GoOnAdventure: @ 82077FB
 	.string "아아...\p"
@@ -25,4 +28,14 @@ PetalburgCity_House1_Text_GoOnAdventure: @ 82077FB
 	.string "그리고 때때로\n"
 	.string "우리 집을 그리워하겠지...\p"
 	.string "여행이란 참 멋져!$"
+	// あぁ……ｐ
+	// わたしも ポケモンと いっしょにｎ
+	// ぼうけんの たびに でかけて みたい……ｐ
+	// しめった くさむらに もぐったりｎ
+	// ごつごつの いわやまを のぼったりｌ
+	// うみの あらなみを わたったりｌ
+	// まっくらな どうくつを さまよったり……ｐ
+	// それでいて ときには じぶんの おうちがｎ
+	// こいしく なったりして……ｐ
+	// たびって いいよね!
 

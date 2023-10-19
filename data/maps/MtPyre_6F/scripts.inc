@@ -30,39 +30,49 @@ MtPyre_6F_EventScript_Cedric:: @ 8231D9D
 
 MtPyre_6F_Text_ValerieIntro: @ 8231DB4
 	.string "여기에 있으면...\n"
-	.string "뭔지 모를 힘이 내 안으로 들어와...$"
+	.string "무언가의 힘이 흘러 들어와...$"
+	// ここに いると……ｎ
+	// なにかの ちからが はいってくるの……
 
 MtPyre_6F_Text_ValerieDefeat: @ 8231DE2
 	.string "힘이 빠져나간다...$"
+	// ちからが ぬけていく……
 
 MtPyre_6F_Text_ValeriePostBattle: @ 8231DFC
 	.string "여기에 잠들어 있는 포켓몬들의\n"
-	.string "힘이 들어오고 있는 걸까...?$"
+	.string "힘이 흘러 들어오는 걸까...?$"
+	// ここに ねむっている ポケモンたちのｎ
+	// ちからが はいって くるのかもよ……?
 
 MtPyre_6F_Text_ValerieRegister: @ 8231E43
 	.string "후후후후 승부에선 졌지만\n"
-	.string "나... 이런 것도 할 수 있어\p"
-	.string "당신의 포켓내비에\n"
-	.string "손을 대지 않아도... 하-압...!$"
+	.string "나... 이런 것도 할 수 있어...\p"
+	.string "너의 포켓내비에 전혀\n"
+	.string "손을 대지 않아도... 에-잇...!$"
 	// ふふふふ しょうぶには まけたけどｎ
 	// わたし…… こんな ことが できるの……ｐ
 	// あなたの ポケナビに いっさい てをｎ
 	// ふれなくても…… きえ-いっ……!
 
 MtPyre_6F_Text_ValerieRematchIntro: @ 8231EB3
-	.string "당신 뒤...\n"
+	.string "너의 뒤에...\n"
 	.string "뭐가 있는 거지...?$"
+	// あなたの うしろ……ｎ
+	// なにが いるの……?
 
 MtPyre_6F_Text_ValerieRematchDefeat: @ 8231ECB
 	.string "뭔가가 사라졌어...$"
+	// なにかが きえたわ……
 
 MtPyre_6F_Text_ValeriePostRematch: @ 8231EE1
 	.string "여기에 잠들어 있는 포켓몬들...\n"
 	.string "가끔 함께 놀고 있는 것 같아...$"
+	// ここに ねむっている ポケモンたち……ｎ
+	// ときどき あそんでいる みたいなの……
 
 MtPyre_6F_Text_CedricIntro: @ 8231F11
 	.string "너 길을 잃어버렸니?\n"
-	.string "내가 있으니까 괜찮아!$"
+	.string "내가 있으니까 안심해!$"
 	// きみ まいごなのか?ｎ
 	// おれが きた からには あんしんだ!
 

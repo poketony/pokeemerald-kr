@@ -260,18 +260,29 @@ NewMauville_Inside_EventScript_DefeatedVoltorb3:: @ 823788D
 	end
 
 NewMauville_Inside_Text_GeneratorRadiatingHeat: @ 8237896
-	.string "발전장치에 다가갔지만\n"
+	.string "발전장치에 다가간 것만으로도\n"
 	.string "열기가 전해져 온다!\p"
 	.string "빨리 멈추는 편이 좋을 것 같다$"
+	// はつでんそうちに ちかづいた だけでｎ
+	/// ねっきが つたわってくる!ｐ
+	// はやく とめたほうが よさそうだ
 
 NewMauville_Inside_Text_GeneratorQuietedDown: @ 8237916
-	.string "발전장치가 조용해 졌다$"
+	.string "발전장치가 조용해졌다$"
+	// はつでんそうちは しずかに なった
 
 NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped: @ 8237932
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "스위치를 밟았다!\p"
-	.string "...딸깍\p"
+	.string "...딸깍!\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
 	.string "발전장치는\n"
 	.string "멈춘 듯하다$"
+	// §あはｎ
+	// スイッチを ふんだ!ｐ
+	// ……ポチッとな!ｐ
+	// …… …… ……ｎ
+	// …… …… ……ｐ
+	// はつでんそうち はｎ
+	// とまった ようだ

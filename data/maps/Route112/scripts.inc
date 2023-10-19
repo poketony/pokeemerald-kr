@@ -123,7 +123,7 @@ Route112_Text_YeahWeNeedMeteorite: @ 81F1F7A
 	// いんせきが ひつよう なんだってよ
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor: @ 81F1FBA
-	.string "오호 그래서 방금\n"
+	.string "아하 그래서 방금\n"
 	.string "동료가 단풍마을로 간 거구만$"
 	// はは-ん それで さっきｎ
 	// なかまが ハジツゲに むかったのか
@@ -136,20 +136,30 @@ Route112_Text_CantLetAnyonePassUntilTheyreBack: @ 81F2003
 	// だれも ここを とおすな! ってよ
 
 Route112_Text_NotEasyToGetBackToLavaridge: @ 81F204E
-	.string "끄응... 보라시티로 가고 싶은데...\n"
+	.string "으-음... 보라시티로 가고 싶은데...\n"
 	.string "이 턱을 내려가면\l"
-	.string "용암마을로 돌아가는 게 어렵다고...$"
+	.string "용암마을로 돌아가기가 어렵다고...$"
+	// う-む…… キンセツに いきたいのだが……ｎ
+	// この だんさを おりてしまうとｌ
+	// フエンに もどるのは たいへん だよな……
 
 Route112_Text_MtChimneyCableCarSign: @ 81F20C1
 	.string "“굴뚝산 케이블카 승강장”\n"
 	.string "{UP_ARROW} 바로 이 앞!$"
+	// 「えんとつやま ロ-プウェイ のりば」ｎ
+	// ©し  このさき すぐ!
 
 Route112_Text_MtChimneySign: @ 81F20ED
 	.string "“굴뚝산”\p"
 	.string "용암마을이나 정상으로 가려면\n"
 	.string "케이블카를 이용해 주십시오$"
+	// 「えんとつやま」ｐ
+	// フエンタウンや ちょうじょう へはｎ
+	// ロ-プウェイを ごりよう ください
 
 Route112_Text_RouteSignLavaridge: @ 81F2138
 	.string "여기는 112번 도로\n"
 	.string "{LEFT_ARROW} 용암마을$"
+	// ここは 112ばん どうろｎ
+	// ©しい フエンタウン
 

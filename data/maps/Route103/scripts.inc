@@ -295,72 +295,117 @@ Route103_EventScript_Isabelle:: @ 81EC78F
 
 Route103_Text_MayRoute103Pokemon: @ 81EC7A6
 	.string "봄이: 음- 103번 도로에 있는\n"
-	.string "포켓몬이 저 아이랑 저 아이고...$"
+	.string "포켓몬은 저거랑 저거고...$"
+	// ハルカ『え-と 103ばん どうろに いるｎ
+	// ポケモンは あれと あれね……
 
 Route103_Text_MayLetsBattle: @ 81EC7DE
-	.string "어머 {PLAYER}{K_AYA}!\p"
-	.string "...아아! 아빠한테\n"
-	.string "포켓몬을 선물 받았구나!\p"
-	.string "모처럼 포켓몬도 받았으니까\n"
-	.string "포켓몬 승부 한번 해보자!\p"
+	.string "어라 {PLAYER}{K_AYA}!\p"
+	.string "...아! 아빠한테\n"
+	.string "포켓몬을 선물받은 거구나!\p"
+	.string "모처럼이니까 잠깐\n"
+	.string "포켓몬 승부를 해보자!\p"
 	.string "트레이너가 어떤 건지\n"
-	.string "내가 알려줄게!$"
+	.string "내가 알려 줄게!$"
+	// あら §あ§お!ｐ
+	// ……そうか! おとうさん からｎ
+	// ポケモンを プレゼントして もらったのね!ｐ
+	// せっかくだから ちょっとｎ
+	// ポケモンしょうぶ しようよ!ｐ
+	// トレ-ナ-って どんな ものかｎ
+	// あたしが おしえて あげるから!
 
 Route103_Text_MayDefeated: @ 81EC881
-	.string "우와! 진짜 굉장해!\n"
-	.string "강하구나!? {PLAYER}{K_EUNNEUN}!$"
+	.string "우와! 굉장해 굉장해!\n"
+	.string "{PLAYER}{K_EUNNEUN} 강하구나!$"
+	// うわっ! すごい すごい!ｎ
+	// §あ§お つよい じゃない!
 
 Route103_Text_MayTimeToHeadBack: @ 81EC8AE
 	.string "봄이: 나 왜 아빠가\n"
-	.string "그렇게 너를 주목하는지\l"
-	.string "왠지 알 거 같아!\p"
-	.string "왜냐면 선물 받은 지\n"
-	.string "얼마 되지도 않은 포켓몬이\l"
+	.string "너를 주목하는지\l"
+	.string "알 거 같은 기분이 들어!\p"
+	.string "왜냐하면 받은 지 얼마 안 된 포켓몬이\n"
 	.string "벌써 널 따르고 있잖아!\p"
 	.string "너라면 어떤 포켓몬이랑도\n"
-	.string "금방 친해질 수 있을 것 같아!\p"
-	.string "조사도 대충 끝났으니까\n"
+	.string "친해질 수 있을 것 같아!\p"
+	.string "그럼\n"
 	.string "연구소로 같이 돌아가자!$"
+	// ハルカ『あたし おとうさんがｎ
+	// あなたの ことを ちゅうもく するのもｌ
+	// わかるような きが する!ｐ
+	// だって もらって すぐの ポケモンがｎ
+	// もう あなたに なついているもの!ｐ
+	// あなたなら どんな ポケモンとでもｎ
+	// なかよく なれるかも!ｐ
+	// じゃあｎ
+	// けんきゅうじょに かえろっか!
 
 Route103_Text_BrendanRoute103Pokemon: @ 81EC989
-	.string "휘웅: 아하 얘랑 얘가\n"
-	.string "103번 도로에 있는 포켓몬이구나...$"
+	.string "휘웅: 그렇구나 쟤랑 쟤가\n"
+	.string "103번 도로에 있는 포켓몬이군...$"
+	// ユウキ『そうか あいつと あいつがｎ
+	// 103ばん どうろに いる ポケモンか……
 
 Route103_Text_BrendanLetsBattle: @ 81EC9CE
-	.string "응? 아 {PLAYER}{K_AYA}!\p"
-	.string "...아아 아빠한테서\n"
-	.string "포켓몬 받았구나\p"
-	.string "그럼 포켓몬도 생겼겠다\n"
-	.string "포켓몬 승부 한번 해볼까?\p"
+	.string "으응? {PLAYER}{K_AYA}!\p"
+	.string "...그렇구나 아빠한테서\n"
+	.string "포켓몬을 받았다고\p"
+	.string "그럼 마침 잘됐다\n"
+	.string "포켓몬 승부 한번 해볼래?\p"
 	.string "트레이너라는 게 어떤 건지\n"
-	.string "내가 알려줄게!$"
+	.string "내가 알려 줄게!$"
+	// おや? §あ!ｐ
+	// ……そうか とうさん からｎ
+	// ポケモンを もらったのかｐ
+	// じゃあ ついでだｎ
+	// ポケモンしょうぶ してやろうか?ｐ
+	// トレ-ナ-って どんな ものかｎ
+	// オレが おしえてやるよ!
 
 Route103_Text_BrendanDefeated: @ 81ECA59
-	.string "흐음...\n"
-	.string "{PLAYER} 너 꽤 강하구나$"
+	.string "흐음\n"
+	.string "{PLAYER}{K_EUNNEUN} 강하구나$"
+	// ふうんｎ
+	// §あって つよいんだね
 
 Route103_Text_BrendanTimeToHeadBack: @ 81ECA79
-	.string "휘웅: 아빠가 왜 {PLAYER}{K_EULREUL}\n"
-	.string "주목하고 있는지\l"
-	.string "왠지 알 거 같아...\p"
+	.string "휘웅: 아빠가 왜\n"
+	.string "{PLAYER}{K_EULREUL} 주목하는지\l"
+	.string "안 거 같은 기분이 들어...\p"
 	.string "받은 지 얼마 안 된 포켓몬이\n"
 	.string "벌써 이렇게 잘 따르고 있잖아\p"
 	.string "{PLAYER} 너라면 어떤 포켓몬이랑도\n"
-	.string "금세 친해질 수도 있겠다\p"
-	.string "...자 그럼\n" 
-	.string "조사도 일단락되었으니까\l"
+	.string "친해질 수 있겠다\p"
+	.string "자 그럼\n"
 	.string "연구소로 같이 돌아가자$"
+	// ユウキ『とうさんがｎ
+	// §あの ことを ちゅうもく するのもｌ
+	// わかったような きが する……ｐ
+	// もらって すぐの ポケモンがｎ
+	// もう なついているよｐ
+	// §あなら どんな ポケモンとでもｎ
+	// なかよく なれるかも しれないなｐ
+	// じゃｎ
+	// けんきゅうじょに もどろうか
 
 Route103_Text_ShouldHaveBroughtPotion: @ 81ECB73
-	.string "내 포켓몬이 쓰러지기 직전이야...\n"
+	.string "내 포켓몬 휘청휘청거려...\n"
 	.string "상처약 챙겨 올 걸 그랬어...$"
+	// ぼくの ポケモン もう へろへろ……ｎ
+	// キズぐすり もってくれば よかった……
 
 Route103_Text_ShortcutToOldale: @ 81ECBB5
 	.string "여기에서 바다를 건너면\n"
 	.string "고도마을까지 가는 지름길이야!\p"
 	.string "후후후 꽤 쓸만한 정보지?$"
+	// ここから うみを わたっていけばｎ
+	// コトキタウンまで ちかみちが できるぞ!ｐ
+	// ふふふ おとくな じょうほう だろ?
 
 Route103_Text_RouteSign: @ 81ECC1A
 	.string "여기는 103번 도로\n"
 	.string "{DOWN_ARROW} 고도마을$"
+	// ここは 103ばん どうろｎ
+	// ©しあ コトキタウン
 

@@ -104,61 +104,96 @@ Route104_MrBrineysHouse_EventScript_Peeko:: @ 8229E5D
 Route104_MrBrineysHouse_Text_WaitUpPeeko: @ 8229E70
 	.string "하기: 이 녀석!\n"
 	.string "거기 서라 피코!$"
+	// ハギ『こらこら!ｎ
+	// まて まて ピ-コちゃん!
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford: @ 8229E9B
-	.string "응? 자네는 저번에\n"
-	.string "피코를 구해준 {PLAYER} 아니더냐!\l"
-	.string "그때는 정말 신세 졌구먼!\p"
-	.string "...뭐라고?\n"
-	.string "배를 타고 싶다고?\p"
-	.string "흠?\p"
-	.string "무로마을까지 편지와\n"
-	.string "잿빛도시에 화물을\l"
-	.string "전달해야 한다고...\p"
-	.string "그 정도야 식은 죽 먹기다!\n"
+	.string "으응? 자네는 분명 피코를\n"
+	.string "구해 줬었던 {PLAYER} 아닌가!\l"
+	.string "그때는 정말 신세를 졌구먼!\p"
+	.string "...뭣이? 배를 타고 싶다고?\p"
+	.string "흐음흐음?\n"
+	.string "무로마을에 편지를 전달하고\l"
+	.string "잿빛도시에 화물을 갖다줄 거라고...\l"
+	.string "왠지 바쁘구먼 자네는\p"
+	.string "하지만 그 정도는 식은 죽 먹기지!\n"
 	.string "나에게 맡기게나!\l"
 	.string "그럼 바로 무로마을로 가볼까!$"
+	// おや? きみは たしか ピ-コちゃんをｎ
+	// たすけて くれた §あ§お!ｌ
+	// そのせつは せわに なったのう!ｐ
+	// ……なぬ? ふねに のりたい とな?ｐ
+	// ふむふむ?ｎ
+	// ムロに てがみを とどけてｌ
+	// カイナへ にもつを とどける……ｌ
+	// なんだか いそがしいのう きみはｐ
+	// じゃが それくらい おやすい ごようだ!ｎ
+	// わしに まかせて おきなさい!ｌ
+	// では まず ムロに むかうとするか!
 
 Route104_MrBrineysHouse_Text_SetSailForDewford: @ 8229FE9
 	.string "하기: 무로마을 말이지\p"
 	.string "좋아! 가자 피코!$"
+	// ハギ『ムロタウン かｐ
+	// よっしゃ! いくぞ ピ-コちゃん!
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail: @ 822A041
-	.string "하기: 그러냐\n"
+	.string "하기: 그렇군\n"
 	.string "부탁받은 일은 괜찮나?\p"
 	.string "뭐 배를 타야 할 때는\n"
-	.string "언제든지 사양 말고 말해 주게나!$"
+	.string "언제든지 사양 말고 말해주게나!$"
+	// ハギ『そうかねｎ
+	// たのまれごとは いいのかね?ｐ
+	// まあ ふねに のる ひつようが あるときはｎ
+	// いつでも えんりょなく いっておくれ!
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford: @ 822A0AD
-	.string "하기: 자네가 무슨 말을\n"
-	.string "하고 싶은지는 알고 있어!\p"
+	.string "하기: 자네가 하고 싶은 말은 알고 있네!\p"
 	.string "무로마을로 편지를 전달하고\n"
-	.string "잿빛도시에 화물을 갖다 줘야\l"
-	.string "하는 게지?\p"
-	.string "그 정도야 식은 죽 먹기다!\n"
-	.string "나에게 맡기게나!\p"
-	.string "우선 무로마을로 출발하자꾸나$"
+	.string "잿빛도시에 화물을 갖다줘야 하는 게지?\p"
+	.string "그 정도는 식은 죽 먹기라네!\n"
+	.string "나한테 맡기게나!\l"
+	.string "그럼 우선 무로마을로 출발하자꾸나!$"
+	// ハギ『きみの いいたいことは わかっとる!ｐ
+	// ムロに てがみを とどけてｎ
+	// カイナへ にもつを とどけるんだろうｐ
+	// それくらい おやすい ごようだ!ｎ
+	// わしに まかせて おきなさい!ｌ
+	// では まず ムロに むかうとするか!
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford: @ 822A18F
-	.string "하기: 자네가 무슨 말을\n"
-	.string "하고 싶은지는 알고 있어!\p"
+	.string "하기: 자네가 하고 싶은 말은 알고 있네!\p"
 	.string "잿빛도시에 있는 해양씨한테\n"
-	.string "화물을 전달해야 하는 게지?\p"
-	.string "그 정도야 식은 죽 먹기다!\n"
-	.string "나에게 맡기게나!\p"
-	.string "우선 무로마을로 출발하자꾸나$"
+	.string "화물을 갖다줘야 하는 게지?\p"
+	.string "그 정도는 식은 죽 먹기라네!\n"
+	.string "나한테 맡기게나!\l"
+	.string "그럼 우선 무로마을로 출발하자꾸나!$"
+	// ハギ『きみの いいたいことは わかっとる!ｐ
+	// カイナの クスノキさんにｎ
+	// にもつを とどけるんだろうｐ
+	// それくらい おやすい ごようだ!ｎ
+	// わしに まかせて おきなさい!ｌ
+	// では まず ムロに むかうとするか!
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound: @ 822A268
 	.string "하기: 여어! 자네가 원한다면\n"
 	.string "언제든지 배를 준비시키지!\p"
-	.string "자네가 가고 싶은 곳은 어딘가?$"
+	.string "자네가 가고 싶은 곳은 어디인가?$"
+	// ハギ『やあ! きみのため ならｎ
+	// いつでも ふねを だそう!ｐ
+	// きみが いきたいのは どこ かな?
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail: @ 822A2C3
-	.string "하기: 그런가... 자네는\n"
-	.string "피코의 생명의 은인이다\p"
+	.string "하기: 그렇군... 자넨\n"
+	.string "피코의 생명의 은인일세\p"
 	.string "배를 타야 할 때는\n"
-	.string "언제든지 사양 말고 말해 주게나!$"
+	.string "언제든지 사양 말고 말해주게나!$"
+	// ハギ『そうか…… きみはｎ
+	// ピ-コちゃんの いのちの おんじんだｐ
+	// ふねに のる ひつようが あるときはｎ
+	// いつでも えんりょなく いっておくれ!
 
 Route104_MrBrineysHouse_Text_Peeko: @ 822A337
-	.string "피코: 피- 피피-!$"
+	.string "피코: 피- 피뾰-!$"
+	// ピ-コちゃん『ピ- ピひょろ-!
 

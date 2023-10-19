@@ -264,44 +264,67 @@ Route101_Movement_BirchApproachPlayer: @ 81EBE8D
 
 Route101_Text_HelpMe: @ 81EBE8F
 	.string "사 살려줘-!!$"
+	// たっ たすけて くれ-っ!!
 
 Route101_Text_PleaseHelp: @ 81EBE9A
-	.string "어이-! 거기 자네!\n"
-	.string "나 좀 살려줘!!\p"
+	.string "어-이! 거기 자네!\n"
+	.string "제발 좀 살려줘!!\p"
 	.string "거기 있는 가방 안에\n"
 	.string "몬스터볼이 들어 있어!$"
+	// お-い! そこの きみ!ｎ
+	// たすけて おくれ-っ!!ｐ
+	// そこに ある カバンにｎ
+	// モンスタ-ボ-ルが はいってる!
 
 Route101_Text_DontLeaveMe: @ 81EBEDF
 	.string "어 어디 가는 거야!?\n"
 	.string "날 버리지 말아줘-!$"
+	// どっ どこへ いくんだ!?ｎ
+	// わたしを みすてないで おくれ-っ!
 
 Route101_Text_YouSavedMe: @ 81EBF12
-	.string "털보박사: 헉 헉...\p"
+	.string "털보박사: 하아 하아...\p"
 	.string "야생 포켓몬을 조사하려고\n"
 	.string "풀숲에 들어갔더니\l"
 	.string "갑자기 포켓몬이 덮쳐 와서...\p"
 	.string "어쨌든 구해줘서 고마워!\p"
-	.string "...응?\p"
-	.string "자넨 종길씨네\n"
-	.string "{PLAYER}{K_I}잖아!\l"
-	.string "이야 많이 컸는데!\p"
-	.string "...흠 이런 곳에 서서\n"
-	.string "얘기하기도 뭐하니까\l"
-	.string "잠깐 연구소에 좀 들러줘$"
+	.string "...으응?\p"
+	.string "자넨 종길씨네 {PLAYER}{K_I}잖아!\p"
+	.string "이런 곳에서 얘기하긴 뭐하니까\n"
+	.string "잠깐 연구소까지 와줘$"
+	// オダマキ『はあ はあ……ｐ
+	// やせいの ポケモンを ちょうさ しようとｎ
+	// くさむらに はいったらｌ
+	// とつぜん ポケモンに おそわれて……ｐ
+	// とにかく たすかったよ ありがとう!ｐ
+	// ……おや?ｐ
+	// きみは §あ§お じゃないか!ｐ
+	// こんな ところでは なんだからｎ
+	// ちょっと けんきゅうじょ まで きておくれ
 
 Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
 	.string "포켓몬이 약해지면\n"
 	.string "포켓몬센터로 가는 게 좋을 거야!\p"
 	.string "포켓몬센터는 근처에 있는\n"
 	.string "고도마을에 있어$"
+	// ポケモンが よわってきたらｎ
+	// ポケモンセンタ-に いくと いいよ!ｐ
+	// ポケモンセンタ-なら すぐ ちかくｎ
+	// コトキタウンに あるからね
 
 Route101_Text_WildPokemonInTallGrass: @ 81EC04A
 	.string "야생 포켓몬은\n"
 	.string "풀숲에서 튀어나오니까!\p"
 	.string "이렇게 풀숲으로 들어가서\n"
 	.string "잡고 싶은 포켓몬을 찾으면 돼!$"
+	// やせいの ポケモンはｎ
+	// くさむらから とびだしてくる からな!ｐ
+	// こうして くさむらの なかに はいってｎ
+	// つかまえたい ポケモンを さがすんだよ!
 
 Route101_Text_RouteSign: @ 81EC0C8
 	.string "여기는 101번 도로\n"
 	.string "{UP_ARROW} 고도마을$"
+	// ここは 101ばん どうろｎ
+	// ©し  コトキタウン
 

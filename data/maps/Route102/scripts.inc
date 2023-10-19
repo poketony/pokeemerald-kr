@@ -77,34 +77,54 @@ Route102_EventScript_Allen:: @ 81EC1E1
 
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 	.string "민진: {PLAYER}님...\n"
-	.string "포켓몬은 보통 이런 풀숲에\l"
-	.string "있지 않나요...?\p"
+	.string "포켓몬은 이런 풀숲에\l"
+	.string "잘 있지 않나요...?\p"
 	.string "제가 잘 잡는지\n"
-	.string "옆에서 한번 봐주세요...\p"
-	.string "...우와!!$"
+	.string "옆에서 지켜봐 주세요...\p"
+	.string "...우왓!!$"
+	// ミツル『§あさん……ｎ
+	// ポケモンって こういう くさむらにｌ
+	// いたり するんでしょ……?ｐ
+	// ぼくが じょうずに つかまえられるかｎ
+	// そこで みてて くださいね……ｐ
+	// ……うわっ!!
 
 Route102_Text_WallyIDidIt: @ 81EC271
-	.string "민진: 잡혔어...내...\n"
+	.string "민진: 해냈어... 내...\n"
 	.string "내 포켓몬이다...!!$"
+	// ミツル『やった…… ぼくの……ｎ
+	// ぼくの ポケモンだ……!!
 
 Route102_Text_LetsGoBack: @ 81EC297
-	.string "{PLAYER}님 고마워요!\n"
-	.string "체육관으로 같이 돌아가요!$"
+	.string "{PLAYER}님 감사합니다!\n"
+	.string "체육관으로 돌아가죠!$"
+	// §あさん ありがとう!ｎ
+	// ジムに もどろうよ!
 
 Route102_Text_ImNotVeryTall: @ 81EC2C0
 	.string "난... 키가 작아서\n"
-	.string "풀숲을 걸으면\p"
-	.string "풀잎이 코에 들어가\n"
-	.string "에 에 에...\p"
-	.string "엣치!$"
+	.string "풀숲을 걸으면 풀에 파묻히지\p"
+	.string "나뭇잎이 코에 들어가서\n"
+	.string "흐에 흐에 흐에 흐에...\p"
+	.string "흐엣취-!$"
+	// ぼく…… せが ひくいからｎ
+	// くさむらを あるくと もぐっちゃうんだｐ
+	// ハッパが はなの あなに はいってｎ
+	// ふぁ ふぁ ふぁ ふぁ……ｐ
+	// ぶわっくしょ-ん!
 
 Route102_Text_CatchWholeBunchOfPokemon: @ 81EC32E
-	.string "포켓몬 많이 많이 잡아야지-!$"
+	.string "포켓몬 잔뜩 잡아야-지!$"
+	// ポケモン たくさん つかまえよ-っと!
 
 Route102_Text_RouteSignOldale: @ 81EC35B
 	.string "여기는 102번 도로\n"
 	.string "{RIGHT_ARROW} 고도마을$"
+	// ここは 102ばん どうろｎ
+	// ©しう コトキタウン
 
 Route102_Text_RouteSignPetalburg: @ 81EC373
 	.string "여기는 102번 도로\n"
 	.string "{LEFT_ARROW} 등화도시$"
+	// ここは 102ばん どうろｎ
+	// ©しい トウカシティ
