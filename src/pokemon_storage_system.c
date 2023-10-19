@@ -1913,6 +1913,8 @@ void ResetPokemonStorageSystem(void)
 {
     u16 boxId, boxPosition;
 
+    gSaveBlock2Ptr->useNewBoxName = TRUE;
+
     SetCurrentBox(0);
     for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
     {
@@ -5518,7 +5520,7 @@ static void sub_80CCB50(u8 boxId)
     sPSSData->field_71E = 0x10e + 16 * tagIndex;
     sPSSData->field_738 |= 0x10000 << tagIndex;
 
-    StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 8);
+    StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 16);
     DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, 0, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     r6 = sub_80CD00C(GetBoxNamePtr(boxId));
@@ -5554,7 +5556,7 @@ static void sub_80CCCFC(u8 boxId, s8 direction)
         template.paletteTag = TAG_PAL_DAC9;
     }
 
-    StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 8);
+    StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 16);
     DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, 0, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     LoadPalette(gUnknown_08577574[GetBoxWallpaper(boxId)], r8, 4);
