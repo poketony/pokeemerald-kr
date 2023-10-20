@@ -4765,166 +4765,240 @@ Route121_Text_WalterPostRematch:
 Route121_Text_TammyIntro:
 	.string "세상에는 신비한 힘이\n"
 	.string "많이 있어...$"
+	// よの なかには ふしぎな ちからがｎ
+	// いっぱい あるの……
 
 Route121_Text_TammyDefeat:
-	.string "난 진 거구나...$"
+	.string "나 진 거구나...$"
+	// あたし まけたのね……
 
 Route121_Text_TammyPostBattle:
 	.string "송화산...\n"
 	.string "그곳에 신비한 힘이 있어...$"
+	// おくりびやま……ｎ
+	// あそこに ふしぎな ちからが あるの……
 
 Route121_Text_KateIntro:
-	.string "마나: 둘이 모이면 무서울 게 없다!\n"
-	.string "우리들의 힘을 보여주겠어!$"
+	.string "마나: 둘이 모이면 무서울 게 없지!\n"
+	.string "우리들의 강함을 보여 주겠어!$"
+	// マナ『ふたり そろえば こわいもの なし!ｎ
+	// あたしたちの つよさ みせつけちゃうから!
 
 Route121_Text_KateDefeat:
 	.string "마나: 후배 앞에서 이런 꼴을 당하다니...$"
+	// マナ『コウハイの まえで かっこわるいわ……
 
 Route121_Text_KatePostBattle:
-	.string "마나: 나는 누군가가 나한테 의지하면\n"
+	.string "마나: 나는 누군가가 의지하면\n"
 	.string "나도 모르게 내 멋진 모습을\l"
 	.string "더 보여주고 싶어져...$"
+	// マナ『あたしって たよられちゃうとｎ
+	// つい かっこいい ところｌ
+	// みせたく なっちゃうのよね……
 
 Route121_Text_KateNotEnoughMons:
 	.string "마나: 포켓몬이 한 마리밖에 없구나\n"
 	.string "그럼 승부할 수 없어!\p"
-	.string "약자를 괴롭힐 수는 없잖아?$"
+	.string "약자를 괴롭힐 수는 없으니까$"
+	// マナ『ポケモン 1ぴき しか いないのねｎ
+	// じゃあ しょうぶは できないわ!ｐ
+	// だって よわいもの いじめに なるもの
 
 Route121_Text_JoyIntro:
-	.string "유이: 둘이 모이면 무서울 게 없다!\n"
-	.string "우리들의 힘을 보여주겠어!$"
+	.string "유이: 둘이 모이면 무서울 게 없지!\n"
+	.string "우리들의 힘을 보여 주겠어!$"
+	// ユイ『ふたり そろえば こわいもの なし!ｎ
+	// あたしたちの つよさ みせつけちゃうから!
 
 Route121_Text_JoyDefeat:
-	.string "유이: 선배님 죄송합니다!$"
+	.string "유이: 선배님 죄송합니다-!$"
+	// ユイ『センパイ ごめんなさ-い
 
 Route121_Text_JoyPostBattle:
-	.string "유이: 에헤헤!\n"
+	.string "유이: 에헷!\n"
 	.string "또 선배님이랑 같이 특훈이다!$"
+	// ユイ『えへっ!ｎ
+	// また センパイと いっしょに とっくんね!
 
 Route121_Text_JoyNotEnoughMons:
 	.string "유이: 우리들에게 도전하려면\n"
-	.string "포켓몬이 2마리 필요하다고!$"
+	.string "포켓몬이 2마리는 필요하다고!$"
+	// ユイ『あたしたちに しょうぶを いどむならｎ
+	// ポケモン 2ひきは ひつよう だからね!
 
 Route121_Text_JessicaIntro:
 	.string "내 소중한 포켓몬을\n"
-	.string "좀 봐줘!$"
+	.string "좀 봐 줘!$"
+	// あたくしの だいじな ポケモンｎ
+	// ちょっと みなさいよ!
 
 Route121_Text_JessicaDefeat:
 	.string "흥흥!\n"
-	.string "뭐야- 좀 봐주란 말이야!$"
+	.string "뭐야 좀 봐주란 말이야!$"
+	// ぷんぷん!ｎ
+	// なによ ほんき だしちゃって!
 
 Route121_Text_JessicaPostBattle:
-	.string "사파리에서 새로운\n"
-	.string "포켓몬을 잡을까?$"
+	.string "사파리에서 새로운 포켓몬을\n"
+	.string "잡아볼까?$"
+	// サファリで あたらしい ポケモンｎ
+	// つかまえようかな?
 
 Route121_Text_JessicaRegister:
-	.string "이번에는 내가 봐준 거야!\n"
-	.string "다음에는 지지 않을 거야!$"
+	.string "오늘은 봐준 거야\n"
+	.string "다음에는 이렇게 안 될걸!$"
+	// きょうは てかげん してあげたのよｎ
+	// つぎは こうは いかないからね!
 
 Route121_Text_JessicaRematchIntro:
 	.string "내 소중한 포켓몬이 많이 성장했어!\n"
 	.string "좀 보고 가라고!$"
+	// だいじな ポケモン そだったのよ!ｎ
+	// ちょっと みていきなさいよ!
 
 Route121_Text_JessicaRematchDefeat:
-	.string "흥이다! 흥!\n"
+	.string "흥흥!\n"
 	.string "또 인정사정 안 봐주는구나!$"
+	// ぷんぷん!ｎ
+	// また てかげん してくれないのね!
 
 Route121_Text_JessicaPostRematch:
-	.string "사파리에서 새로운\n"
-	.string "포켓몬을 잡을까?$"
+	.string "사파리에서 새로운 포켓몬을\n"
+	.string "잡아볼까?$"
+	// サファリで あたらしい ポケモンｎ
+	// つかまえようかな?
 
 Route121_Text_CristinIntro:
-	.string "오늘의 목표\n"
-	.string "트레이너에게 5번 승리하기!\l"
-	.string "자! 네가 마지막이다!$"
+	.string "하루에 5명씩\n"
+	.string "쓰러뜨리는 게 일과야!\l"
+	.string "네가 그 마지막이지!$"
+	// 1にちに 5にんずつｎ
+	// たおす ことが にっかよ!ｌ
+	// あなたが その 5にんめ!
 
 Route121_Text_CristinDefeat:
-	.string "안돼!\n"
-	.string "넌 진짜 나빠!$"
+	.string "싫엇 너무해!$"
+	// いやっ ひどいわ!
 
 Route121_Text_CristinPostBattle:
 	.string "이렇게 쉽게 질 줄이야...\n"
-	.string "다음번에 꼭 이길 거야!$"
+	.string "다음엔 내가 이길 거야!$"
+	// こんなに あっさり まけるなんて……ｎ
+	// つぎは わたしが かつから!
 
 Route121_Text_CristinRegister:
-	.string "완전 굴욕적이야\n"
-	.string "널 항상 기억하겠어...\l"
+	.string "굴욕적이야\n"
+	.string "널 잊지 않도록...\l"
 	.string "포켓내비 줘봐!$"
+	// くつじょく てき だわ!ｎ
+	// あなたの こと わすれないんだから……ｌ
+	// ポケナビを かしなさい!
 
 Route121_Text_CristinRematchIntro:
-	.string "오늘의 목표\n"
-	.string "트레이너에게 10번 승리하기!\l"
-	.string "자! 네가 마지막이다!$"
+	.string "하루에 10명씩\n"
+	.string "쓰러뜨리는 게 일과야!\l"
+	.string "네가 그 마지막이지!$"
+	// 1にちに 10にんずつｎ
+	// たおす ことが にっかよ!ｌ
+	// あなたが その 10にんめ!
 
 Route121_Text_CristinRematchDefeat:
-	.string "진짜 못됐어!\n"
-	.string "재대결을 요구한다!$"
+	.string "아니 야...\n"
+	.string "너무해 다시 해 이거!$"
+	// ちょっ……ｎ
+	// ひどい やりなおしてよ!
 
 Route121_Text_CristinPostRematch:
-	.string "아니 이길 수 없을 거 같아...\n"
-	.string "훌쩍...\l"
-	.string "믿을 수가 없어...$"
+	.string "이 정도로 이기기 힘든 상대가 있다니...\n"
+	.string "훌쩍 믿을 수 없어$"
+	// こんなに かてない あいてが いるなんて……ｎ
+	// グスっ しんじられない
 
 Route121_Text_CaleIntro:
-	.string "물건이 너무 많아서\n"
-	.string "손이 부족한데\p"
-	.string "그래도 승부 하고 싶어?$"
+	.string "지금 물건이 너무 많단 말이지!\n"
+	.string "이런데도 배틀하고 싶어?$"
+	// いま にもつが いっぱい なんですけど!ｎ
+	// こんな じょうたいで たたかえと?
 
 Route121_Text_CaleDefeat:
-	.string "양손에 물건을 들고 있으니\n"
-	.string "질수밖에 없지!$"
+	.string "당연히 질 수밖에 없지\n"
+	.string "양손이 꽉 찼는데$"
+	// そりゃ まけますよｎ
+	// りょうてが ふさがってるんだもん
 
 Route121_Text_CalePostBattle:
-	.string "해안백화점에서\n"
-	.string "물건을 너무 많이 샀어\p"
-	.string "가방을 가져올걸...$"
+	.string "이 앞의 해안백화점에서\n"
+	.string "물건을 너무 많이 샀어!\l"
+	.string "너처럼 가방이 있으면 좋을 텐데$"
+	// この さきの ミナモデパ-トでｎ
+	// かいもの しすぎたんだ!ｌ
+	// きみの みたいな バッグが ほしいな
 
 Route121_Text_MylesIntro:
-	.string "다른 트레이너의 포켓몬의 상태를\n"
-	.string "확인하면 정말 행복합니다!$"
+	.string "다른 사람이 키운 포켓몬을\n"
+	.string "보고 싶어--엇!$"
+	// みんなの そだてた ポケモンがｎ
+	// みてみた--い!
 
 Route121_Text_MylesDefeat:
-	.string "정말 멋지십니다!$"
+	.string "굉--장해!$"
+	// すご--い!
 
 Route121_Text_MylesPostBattle:
-	.string "당신의 포켓몬 정말 엄청나군요!\n"
-	.string "어떻게 키우셨나요?$"
+	.string "너의 포켓몬! 좋은걸--!\n"
+	.string "어떻게 키우고 있는 거야?$"
+	// いいな--! きみの ポケモン!ｎ
+	// どうやって そだてているの?
 
 Route121_Text_PatIntro:
-	.string "모두에게 제가 키운 포켓몬을\n"
-	.string "보여드리고 싶어요!$"
+	.string "내가 키운 포켓몬들을\n"
+	.string "모두에게 보여 주고 싶어!$"
+	// わたしの そだてた ポケモンたちｎ
+	// みんなに みてほしいの!
 
 Route121_Text_PatDefeat:
-	.string "와우!\n"
-	.string "화려하군요!$"
+	.string "굉장하다아!$"
+	// すごいなァ!
 
 Route121_Text_PatPostBattle:
-	.string "저는 같은 사랑으로\n"
-	.string "포켓몬들을 키워요$"
+	.string "어떤 포켓몬이든 나는 똑같이\n"
+	.string "사랑으로 키워!$"
+	// どんな ポケモンでも おなじようにｎ
+	// かわいがって そだてているの!
 
 Route121_Text_MarcelIntro:
-	.string "내 포켓몬들은 진 적이 없어!\n"
-	.string "너를 이기고\l"
-	.string "콘테스트에 참가해야지!$"
+	.string "내 포켓몬은 진 적이 없어!\n"
+	.string "이번에도 이기면 다음은 콘테스트다!$"
+	// わたしの ポケモンは まけしらず!ｎ
+	// こんど かったら つぎは コンテストだ!
 
 Route121_Text_MarcelDefeat:
-	.string "무슨 일이 일어난 거지?$"
+	.string "앗 무슨 일이 일어난 거지?$"
+	// あっと どうしたことだ?
 
 Route121_Text_MarcelPostBattle:
 	.string "콘테스트에 참가하기 전에\n"
-	.string "포켓몬들을 훈련시켜야겠네$"
+	.string "좀 더 훈련시켜야겠네$"
+	// コンテストの まえにｎ
+	// もうすこし きたえないと ダメかな
 
 Route123_Text_WendyIntro:
 	.string "당신의 실력이\n"
 	.string "어느 정도인지...\l"
-	.string "내가 확인해 주겠어요!$"
+	.string "내가 확인해 줄게!$"
+	// あなたの じつりょくがｎ
+	// どれほどの ものか……ｌ
+	// わたしが たしかめて あげる!
 
 Route123_Text_WendyDefeat:
-	.string "훌륭해요...!$"
+	.string "훌륭해...!$"
+	// すばらしいわ……!
 
 Route123_Text_WendyPostBattle:
 	.string "날 이기다니...\n"
-	.string "당신의 실력도 상당하군요!$"
+	.string "당신의 실력도 상당하구나!$"
+	// わたしに かつなんて……ｎ
+	// あなたの じつりょくも そうとうな もの!
 
 Route123_Text_BraxtonIntro:
 	.string "체육관 배지를\n"
@@ -4968,7 +5042,7 @@ Route123_Text_CameronRegister:
 	.string "보인다...\n"
 	.string "우리가 다시 겨루는 미래가 보여...\l"
 	.string "이길 수 있을지는 모르겠지만\l"
-	.string "포켓내비좀 빌려줘$"
+	.string "포켓내비 좀 빌려줘$"
 
 Route123_Text_CameronRematchIntro:
 	.string "나는 이제 누구에게도 지지 않겠다고\n"

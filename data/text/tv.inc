@@ -2424,104 +2424,182 @@ gTVBreakingNewsText00:: @ 082855BF
 	// ……きんきゅう スペシャル テレビ!!
 
 gTVBreakingNewsText01:: @ 082855D1
-	.string "Rare {STR_VAR_2} caught by\n"
-	.string "{STR_VAR_1}!\p"
-	.string "We're live from the vicinity of\n"
-	.string "{STR_VAR_3}!\p"
-	.string "{STR_VAR_1} successfully captured\n"
-	.string "a rare {STR_VAR_2} earlier here!$"
+	.string "“{STR_VAR_1}씨 레어 {STR_VAR_2}{K_EULREUL}\n"
+	.string "  잡다---!!”\p"
+	.string "...네!\n"
+	.string "이쪽은 {STR_VAR_3}입니다!\p"
+	.string "방금 {STR_VAR_1}씨가\n"
+	.string "레어 {STR_VAR_2}{K_EULREUL} 잡는 데\l"
+	.string "성공했습니다!$"
+	// 『§いさん レア §うをｎ
+	//  つかまえる---!!』ｐ
+	// ……はい!ｎ
+	// こちら §え です!ｐ
+	// さきほど §いさんがｎ
+	// レア §うを つかまえる ことにｌ
+	// せいこう しました!
 
 gTVBreakingNewsText02:: @ 0828563C
-	.string "When {STR_VAR_1} encountered the rare\n"
-	.string "{STR_VAR_2}, the TRAINER sent out\l"
-	.string "the POKéMON {STR_VAR_3}.$"
+	.string "레어 {STR_VAR_2}{K_EULREUL} 만난\n"
+	.string "{STR_VAR_1}씨는\l"
+	.string "{STR_VAR_3}{K_EULREUL} 배틀에 내보냈습니다!\p"
+	.string "그리고...$"
+	// レア §うに であったｎ
+	// §いさんはｌ
+	// §えで たたかいを いどみました!ｐ
+	// そして……
 
 gTVBreakingNewsText03:: @ 08285682
-	.string "In the battle, the number of POKé\n"
-	.string "BALLS thrown by the TRAINER was {STR_VAR_1}.\p"
-	.string "Ultimately, the rare POKéMON was\n"
-	.string "caught by the {STR_VAR_2} used last.$"
+	.string "볼을 {STR_VAR_1}번 던져서\n"
+	.string "훌륭히 {STR_VAR_2} 안에\l"
+	.string "잡았습니다!$"
+	// ボ-ルを §いかい なげてｎ
+	// みごと §うの なかにｌ
+	// つかまえた のです!
 
 gTVBreakingNewsText04:: @ 08285705
-	.string "In that instant, {STR_VAR_2}\n"
-	.string "echoed with {STR_VAR_1}'s roars of\l"
-	.string "triumphant joy.\p"
-	.string "I must say I'm a little envious of\n"
-	.string "{STR_VAR_1}. I'd love to roar, too.\p"
-	.string "…That ends the live feed from\n"
-	.string "the happy scene!$"
+	.string "그 순간 {STR_VAR_2}에는\n"
+	.string "{STR_VAR_1}씨의 환호성이\l"
+	.string "울려 퍼진 모양입니다!\p"
+	.string "이야- {STR_VAR_1}씨!\n"
+	.string "정말 부럽네요!\l"
+	.string "저도 같이 환호하고 싶군요!\p"
+	.string "...이상\n"
+	.string "기쁨으로 가득한 현장에서\l"
+	.string "보내드렸습니다!$"
+	// その しゅんかん §うにはｎ
+	// §いさんの よろこびの おたけびがｌ
+	// ひびき わたった そうです!ｐ
+	// いや- §いさん!ｎ
+	// うらやましいです!ｌ
+	// わたしも いっしょに さけびたいです!ｐ
+	// ……いじょうｎ
+	// よろこび いっぱいの げんばよりｌ
+	// おつたえ しました!
 
 gTVBreakingNewsText05:: @ 082857B0
-	.string "{STR_VAR_1} fails to capture a rare\n"
-	.string "{STR_VAR_2}!\p"
-	.string "We're live from the vicinity of\n"
-	.string "{STR_VAR_3}!\p"
-	.string "It was here that {STR_VAR_1} failed\n"
-	.string "to capture a rare {STR_VAR_2}!$"
+	.string "“{STR_VAR_1}씨 레어 {STR_VAR_2}{K_EULREUL}\n"
+	.string "  놓치다---!!”\p"
+	.string "...네!\n"
+	.string "이쪽은 {STR_VAR_3}입니다!\p"
+	.string "방금 {STR_VAR_1}씨가\n"
+	.string "레어 {STR_VAR_2}{K_EULREUL} 잡는 데\l"
+	.string "실패했습니다!$"
+	// 『§いさん レア §うをｎ
+	//  とりにがす---!!』ｐ
+	// ……はい!ｎ
+	// こちら §えです!ｐ
+	// さきほど §いさんがｎ
+	// レア §うを つかまえることにｌ
+	// しっぱい しました!
 
 gTVBreakingNewsText06:: @ 08285824
-	.string "When {STR_VAR_1} encountered the rare\n"
-	.string "{STR_VAR_2}, the TRAINER sent out\l"
-	.string "the POKéMON {STR_VAR_3}.$"
+	.string "레어 {STR_VAR_2}{K_EULREUL} 만난\n"
+	.string "{STR_VAR_1}씨는\l"
+	.string "{STR_VAR_3}{K_EULREUL} 배틀에 내보냈습니다$"
+	// レア §うに であったｎ
+	// §いさんはｌ
+	// §えで たたかいを いどみました
 
 gTVBreakingNewsText07:: @ 0828586A
-	.string "The TRAINER made the {STR_VAR_2}\n"
-	.string "use the move {STR_VAR_1}.\p"
-	.string "Without meaning to, the TRAINER\n"
-	.string "made the rare POKéMON faint…$"
+	.string "그리고...\p"
+	.string "{STR_VAR_2}에게 {STR_VAR_1} 등을\n"
+	.string "명령하다 보니\l"
+	.string "어느새 쓰러뜨려 버린 겁니다...$"
+	// そして……ｐ
+	// §うに §い などをｎ
+	// めいれい している うちにｌ
+	// きが つくと たおしていた のです……
 
 gTVBreakingNewsText12:: @ 082858D0
-	.string "However, {STR_VAR_1} panicked at\n"
-	.string "the sight of the rare {STR_VAR_2}.\p"
-	.string "In confusion, the TRAINER ordered\n"
-	.string "{STR_VAR_3} to attack.\p"
-	.string "Without meaning to, the TRAINER\n"
-	.string "made the rare POKéMON faint.$"
+	.string "하지만...\p"
+	.string "레어 {STR_VAR_2}에 놀라서\n"
+	.string "혼란스러웠던 {STR_VAR_1}씨는\l"
+	.string "영문도 모른 채\l"
+	.string "{STR_VAR_3}에게 명령을 내려서\l"
+	.string "어느새 쓰러뜨려 버린 겁니다...$"
+	// しかし……ｐ
+	// レア §うに おどろいてｎ
+	// こんらんした §いさんはｌ
+	// わけも わからないままｌ
+	// §えに めいれいを してしまいｌ
+	// きが つくと たおしていた のです……
 
 gTVBreakingNewsText08:: @ 0828596F
-	.string "In that instant, {STR_VAR_2}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "그 순간 {STR_VAR_2}에는\n"
+	.string "{STR_VAR_1}씨의 절규가\l"
+	.string "울려 퍼진 모양입니다...$"
+	// その しゅんかん §うにはｎ
+	// §いさんの かなしみの さけびがｌ
+	// ひびき わたった そうです……
 
 gTVBreakingNewsText09:: @ 082859AC
-	.string "However, {STR_VAR_1} seemed to run\n"
-	.string "out of POKé BALLS.\p"
-	.string "The TRAINER had to break off\n"
-	.string "the battle with the rare {STR_VAR_2}.\p"
-	.string "In that instant, {STR_VAR_3}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "하지만...\p"
+	.string "볼이 없었던 건지 그 후에\n"
+	.string "{STR_VAR_2}한테서 도망쳐 버렸습니다\p"
+	.string "그 순간 {STR_VAR_3}에는\n"
+	.string "{STR_VAR_1}씨의 절규가\l"
+	.string "울려 퍼진 모양입니다...$"
+	// しかし……ｐ
+	// ボ-ルが なかったのか このあとｎ
+	// §うから にげてしまった のですｐ
+	// その しゅんかん §えにはｎ
+	// §いさんの かなしみの さけびがｌ
+	// ひびき わたった そうです……
 
 gTVBreakingNewsText10:: @ 08285A50
-	.string "However, the {STR_VAR_2} fled without\n"
-	.string "warning.\p"
-	.string "In that instant, {STR_VAR_3}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "하지만...\p"
+	.string "{STR_VAR_2}{K_EUNNEUN} 눈 깜짝할 사이에\n"
+	.string "도망쳐 버렸습니다\p"
+	.string "그 순간 {STR_VAR_3}에는\n"
+	.string "{STR_VAR_1}씨의 절규가\l"
+	.string "울려 퍼진 모양입니다...$"
+	// しかし……ｐ
+	// §うは あっというまにｎ
+	// にげてしまった のですｐ
+	// その しゅんかん §えにはｎ
+	// §いさんの かなしみの さけびがｌ
+	// ひびき わたった そうです……
 
 gTVBreakingNewsText11:: @ 08285AB3
-	.string "I must say I feel for {STR_VAR_1}.\n"
-	.string "Why, it makes me want to shriek, too.\p"
-	.string "…That ends the live feed from\n"
-	.string "the melancholy scene!$"
+	.string "이야- {STR_VAR_1}씨!\n"
+	.string "정말 안타깝네요...!\l"
+	.string "저도 함께 절규하고 싶군요\p"
+	.string "...이상\n"
+	.string "슬픔으로 가득한 현장에서\l"
+	.string "보내드렸습니다!$"
+	// いや- §いさん!ｎ
+	// ざんねん でした……ｌ
+	// わたしも いっしょに さけびたいですｐ
+	// ……いじょうｎ
+	// かなしみ いっぱいの げんばよりｌ
+	// おつたえ しました……!
 
 gTVSecretBaseVisitText00:: @ 08285B27
-	.string "Hello, folks!\n"
-	.string "It's time again for\l"
-	.string "a SECRET BASE VISIT.\p"
-	.string "Today, we visit the SECRET BASE\n"
-	.string "of {STR_VAR_1}.\p"
-	.string "How has {STR_VAR_1} personalized\n"
-	.string "the SECRET BASE?\p"
-	.string "Let's find out!\n"
-	.string "… … … … … …$"
+	.string "여러분 안녕하세요!\n"
+	.string "“비밀기지 방문!”의 시간입니다\p"
+	.string "오늘은 {STR_VAR_1}씨의 비밀기지에\n"
+	.string "찾아가 보도록 하겠습니다\p"
+	.string "{STR_VAR_1}씨의 기지는 어떤\n"
+	.string "모양을 하고 있을까요?\p"
+	.string "바로 들어가 봅시다!\n"
+	.string "......... ......... .........$"
+	// みなさん こんにちは!ｎ
+	// 『ひみつきち ほうもん!』の じかんですｐ
+	// きょうは §いさんの ひみつきちにｎ
+	// おじゃま させて いただきますｐ
+	// §いさんの きちは どんなｎ
+	// おへやに なっている のでしょうか?ｐ
+	// さっそく はいって みましょう!ｎ
+	// ……… ……… ……… ………
 
 gTVSecretBaseVisitText01:: @ 08285BCA
-	.string "Oh!\n"
-	.string "How marvelous!\p"
-	.string "This {STR_VAR_2}…\n"
-	.string "It's not what one would expect to\l"
-	.string "find here!$"
+	.string "오오-!\p"
+	.string "이런 곳에 “{STR_VAR_2}”{K_IGA}가!\n"
+	.string "굉장하네요-$"
+	// おお-!ｐ
+	// こんな ところに 「§う」が!ｎ
+	// すばらしい ですね-
 
 gTVSecretBaseVisitText02:: @ 08285C13
 	.string "Oh!\n"
