@@ -685,6 +685,8 @@ u32 StringLength_Multibyte(const u8 *str)
 
     while (*str != EOS)
     {
+        if (IsKoreanGlyph(*str))
+            str++;
         if (*str == CHAR_EXTRA_SYMBOL)
             str++;
         str++;

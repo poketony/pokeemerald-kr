@@ -7879,7 +7879,7 @@ static void SetMenuText(u8 textId)
 
         menu->text = gUnknown_0857BA80[textId];
         menu->textId = textId;
-        len = StringLength(menu->text);
+        len = StringLength_Multibyte(menu->text);
         if (len > sPSSData->menuWidth)
             sPSSData->menuWidth = len;
 
