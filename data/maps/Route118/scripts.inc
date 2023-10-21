@@ -257,60 +257,92 @@ Route118_EventScript_Deandre:: @ 81F40A7
 	end
 
 Route118_Text_StevenQuestions: @ 81F40BE
-	.string "성호: 안녕!\p"
-	.string "넌 무로마을에서 만났던\n"
-	.string "트레이너였지!\p"
-	.string "...... ...... ......\n"
-	.string "...... ...... ......\p"
-	.string "그래 {PLAYER}{K_I}라고 하는구나\n"
-	.string "기억해둘게\p"
-	.string "{PLAYER}\p"
+	.string "성호: 안녕 {PLAYER}{K_AYA}!\p"
+	.string "무로마을의 동굴에서 만났던\n"
+	.string "성호라고 해!\p"
+	.string "그 이후로 너는 얼마나\n"
+	.string "많은 포켓몬과 만났니?\p"
 	.string "이 넓은 세계에는\n"
-	.string "다양한 포켓몬이 있고\l"
-	.string "각자 여러 가지 타입을 가지고 있어\p"
-	.string "여러 가지 타입의\n"
-	.string "포켓몬을 키울 것인가\l"
-	.string "아니면 좋아하는 타입의\l"
-	.string "포켓몬만을 키울 것인가...\p"
+	.string "다양한 포켓몬이 있어\p"
+	.string "좋아하는 타입의 포켓몬만을\n"
+	.string "키우는 것도 좋겠지\p"
+	.string "아니면 다양한 타입의 포켓몬을\n"
+	.string "키우는 것도 즐거울 거고...\p"
 	.string "넌 포켓몬 트레이너로서\n"
 	.string "어떻게 생각해?\p"
-	.string "내가 신경 쓸 건 아니긴 한데\p"
+	.string "내가 신경 쓸 건 아니지만 말야\p"
 	.string "그럼\n"
 	.string "또 만날 수 있으면 좋겠네$"
+	// ダイゴ『やあ §あ§お!ｐ
+	// ムロタウンの どうくつで あったｎ
+	// ダイゴだよ!ｐ
+	// あれから きみは どれだけｎ
+	// たくさんの ポケモンに であったかな?ｐ
+	// この ひろい せかいにはｎ
+	// さまざまな ポケモンが いるんだｐ
+	// すきな タイプの ポケモン ばかりをｎ
+	// そだてるのも いいだろうｐ
+	// あるいは いろんな タイプの ポケモンをｎ
+	// そだてるのも たのしい だろう……ｐ
+	// きみは ポケモン トレ-ナ-としてｎ
+	// どう かんがえてる?ｐ
+	// ボクが きにする ことじゃない けどねｐ
+	// じゃあｎ
+	// また あえると いいね
 
 Route118_Text_YouAgreeGoodRodIsGood: @ 81F427B
 	.string "음!\n"
 	.string "좋은낚싯대는 정말 좋은 거 같아!\p"
 	.string "너도 그렇게 생각하지?$"
+	// うむ!ｎ
+	// いいつりざおは ほんとうに いいよ!ｐ
+	// きみも そう おもうでしょ?
 
 Route118_Text_IdenticalMindsTakeThis: @ 81F42AF
 	.string "음!\n"
 	.string "너랑은 죽이 맞는데!\p"
 	.string "음!\n"
 	.string "좋은낚싯대를 줄게!$"
+	// うむ!ｎ
+	// きみとは きが あうよ!ｐ
+	// うむ!ｎ
+	// いいつりざおを あげよう!
 
 Route118_Text_TryYourLuckFishing: @ 81F42E7
 	.string "물이 있는 곳이라면\n"
-	.string "어디서든 낚시를 하는 게 좋을 거야!$"
+	.string "어디서든 낚시를 해보라구!$"
+	// みずの ある ところならｎ
+	// どこでも つりを すると いいよ!
 
 Route118_Text_DontYouLikeToFish: @ 81F4319
 	.string "낚시 싫어하니?$"
+	// つりは きらい かい?
 
 Route118_Text_TryCatchingMonWithGoodRod: @ 81F4331
 	.string "좋은낚싯대로\n"
 	.string "다양한 포켓몬을 낚아 봐!$"
+	// いいつりざおでｎ
+	// いろんな ポケモンを つると いいよ!
 
 Route118_Text_CanCrossRiversWithSurf: @ 81F4367
 	.string "배를 안 가지고 있어도\n"
 	.string "파도타기를 배운 포켓몬이 있으면\l"
-	.string "바다든 강이든 건너갈 수 있어!\p"
-	.string "포켓몬은 정말 믿음직스러운 거 같아!$"
+	.string "바다든 강이든 건너갈 수 있지!\p"
+	.string "포켓몬은 정말 믿음직스러워-!$"
+	// ふねを もって いなくてもｎ
+	// なみのりを おぼえた ポケモンが いればｌ
+	// うみや かわを わたって いけちゃうの!ｐ
+	// ポケモンって たのもし-い!
 
 Route118_Text_RouteSignMauville: @ 81F43F4
 	.string "여기는 118번 도로\n"
 	.string "{LEFT_ARROW} 보라시티$"
+	// ここは 118ばん どうろｎ
+	// ©しい キンセツシティ
 
 Route118_Text_RouteSign119: @ 81F440E
 	.string "여기는 118번 도로\n"
 	.string "{UP_ARROW} 119번 도로$"
+	// ここは 118ばん どうろｎ
+	// ©し  119ばん どうろ
 

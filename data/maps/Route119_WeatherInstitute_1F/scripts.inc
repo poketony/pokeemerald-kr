@@ -88,9 +88,9 @@ Route119_WeatherInstitute_1F_Text_Grunt1Defeat: @ 826FBBB
 	// こどもに まけた……
 
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle: @ 826FBD7
-	.string "리더는 뭐든지 알고 있어\p"
-	.string "하지만 무엇을 생각하고 있는지\n"
-	.string "조무래기인 우리는 전혀 상상도 안 가$"
+	.string "리더는 뭐든지 알고 있어...\p"
+	.string "하지만 뭘 생각하고 있는 건지\n"
+	.string "조무래기인 우리한텐 상상도 안 가$"
 	// リ-ダ-は なんでも しっている……ｐ
 	// しかし なにを かんがえて いるのかｎ
 	// したっぱの おれらには さっぱりだ
@@ -102,15 +102,14 @@ Route119_WeatherInstitute_1F_Text_Grunt4Intro: @ 826FC34
 	// どうして ここに こどもが いるのかしら?
 
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat: @ 826FC52
-	.string "어머-\n"
+	.string "어라-\n"
 	.string "져버린 건가-!?$"
 	// あら-ｎ
 	// まけちゃった-!?$
 
 Route119_WeatherInstitute_1F_Text_Grunt4PostBattle: @ 826FC60
-	.string "어머머...\n"
-	.string "어린애한테 진 게 알려지면\l"
-	.string "혼이 날 거야...\p"
+	.string "어라라...\n"
+	.string "어린애한테 진 걸 들키면 혼날 거야...\p"
 	.string "침대에서 자는 척이라도 할까?$"
 	// あらら……ｎ
 	// こどもに まけたら おこられちゃう……ｐ
@@ -131,14 +130,13 @@ Route119_WeatherInstitute_1F_Text_WowYoureStrong: @ 826FCE5
 	// ポケモントレ-ナ-に なりたいや!
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain: @ 826FD2E
-	.string "박사님은 말이야\n"
-	.string "비를 정말 좋아해\p"
+	.string "박사님은 비를 정말 좋아해요\p"
 	.string "그렇지만 계속 비가 내리면\n"
-	.string "곤란해지는 사람도 있지\p"
+	.string "곤란해지는 사람도 있죠\p"
 	.string "그래서 박사님은\n"
 	.string "이 비를 무언가로\l"
 	.string "바꿔 쓸 수 없을까 하고\l"
-	.string "연구하고 있어$"
+	.string "연구하고 있어요$"
 	// はかせは あめが だいすき なのですｐ
 	// ですが あめが ふりつづくとｎ
 	// こまってしまう ひとも いるわけですｐ
@@ -161,11 +159,11 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather: @ 826FDE8
 	// かんそく されている ようですが……
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo: @ 826FE94
-	.string "안녕!\n"
-	.string "당신 덕분에 살았어요!\p"
-	.string "...그건 그렇고\n"
-	.string "아쿠아단 녀석들은\l"
-	.string "도대체 무얼 할 생각이었을까요?$"
+	.string "안녕하세요!\n"
+	.string "당신 덕분에 살았습니다!\l"
+	.string "그건 그렇고...\p"
+	.string "아쿠아단 녀석들은\n"
+	.string "무슨 짓을 하려고 했던 걸까요?$"
 	// やあ!ｎ
 	// あなたの おかげで たすかりましたよ!ｌ
 	// それにしても……ｐ
@@ -174,7 +172,7 @@ Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo: @ 826FE94
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed: @ 826FEFC
 	.string "침대가 있다...\n"
-	.string "좀 쉬었다 가자$"
+	.string "조금 쉬었다 가자$"
 	// ベッドが ある……ｎ
 	// やすんでいこう
 

@@ -178,18 +178,28 @@ Route121_EventScript_RematchCristin:: @ 81F6043
 Route121_Text_OkayMoveOutToMtPyre: @ 81F605A
 	.string "좋아!\n"
 	.string "우리들도 송화산으로 간다!$"
+	// よし!ｎ
+	// おれたちも おくりびやまに むかうぞ!
 
 Route121_Text_AheadLoomsMtPyre: @ 81F607F
-	.string "이 앞은 송화산...\p"
-	.string "수명이 다한 포켓몬의\n"
+	.string "이 앞에 있는 것은 송화산...\p"
+	.string "수명이 다한 포켓몬들의\n"
 	.string "영혼을 추모하는 곳...$"
+	// このさきに あるのは おくりびやま……ｐ
+	// じゅみょうを おえた ポケモンたちのｎ
+	// たましいが まつられる ところ……
 
 Route121_Text_MtPyrePierSign: @ 81F60D3
 	.string "송화산 잔교\p"
-	.string "...오랜 시간 사용되지 않았는지\n"
+	.string "...오랫동안 사용되지 않았는지\n"
 	.string "글자가 거의 보이지 않는다$"
+	// おくりびやま さんばしｐ
+	// ……ながい あいだ つかわれて いないのかｎ
+	// もじが きえそうに なっている
 
 Route121_Text_SafariZoneSign: @ 81F611E
 	.string "희귀한 포켓몬이 잔뜩!\n"
 	.string "“사파리존”$"
+	// めずらしい ポケモン たくさん!ｎ
+	// 「サファリゾ-ン」
 

@@ -5001,252 +5001,372 @@ Route123_Text_WendyPostBattle:
 	// あなたの じつりょくも そうとうな もの!
 
 Route123_Text_BraxtonIntro:
-	.string "체육관 배지를\n"
-	.string "많이 가지고 있나 보군!?\p"
-	.string "정말 그만큼 강한지\n"
+	.string "체육관의 배지를\n"
+	.string "잔뜩 가지고 있나 보네!\p"
+	.string "정말로 그만큼 강한지\n"
 	.string "확인해 주겠어!$"
+	// たくさん ジムの バッジをｎ
+	// もっている みたいだね!ｐ
+	// ほんとうに それだけの ちからが あるかｎ
+	// たしかめさせて もらうよ!
 
 Route123_Text_BraxtonDefeat:
 	.string "확실히 강하긴 강하군!$"
+	// たしかに ちからは ある!
 
 Route123_Text_BraxtonPostBattle:
-	.string "가진 체육관 배지가 부끄럽지 않은\n"
-	.string "좋은 승부였어!$"
+	.string "체육관 배지가 부끄럽지 않은\n"
+	.string "배틀이었어!$"
+	// ジムバッジに はじないｎ
+	// たたかい だったよ!
 
 Route123_Text_VioletIntro:
 	.string "즐거운 일이 있을 때는\n"
-	.string "좋은 향기로 가득 차$"
+	.string "좋은 냄새로 가득 차$"
+	// たのしい ことが あるとき ってｎ
+	// いい においで いっぱいに なってるのね
 
 Route123_Text_VioletDefeat:
-	.string "아...\n"
+	.string "아아\n"
 	.string "슬픈 냄새야...$"
+	// あぁｎ
+	// かなしみの におい だわ……
 
 Route123_Text_VioletPostBattle:
 	.string "나무열매 명인의 꽃밭은\n"
-	.string "엄-청나게 좋은 향기로 가득 차 있어!$"
+	.string "엄청나게 좋은 냄새로 가득해!$"
+	// きのみ めいじんの はなばたけｎ
+	// すっごく いいかんじの においで いっぱい!
 
 Route123_Text_CameronIntro:
 	.string "초능력은 마음의 힘...\p"
 	.string "그래 나는 누구에게도 지지 않겠다고\n"
 	.string "마음먹고 있으니까 강한 거야!$"
+	// サイキックとは きもちの つよさ……ｐ
+	// そう ぼくは だれにも まけないとｎ
+	// おもっているから つよいよ!
 
 Route123_Text_CameronDefeat:
 	.string "히잉...$"
+	// しょんぼり……
 
 Route123_Text_CameronPostBattle:
-	.string "초능력은 마음의 힘...\n"
-	.string "너에겐 지지 않겠다고\l"
-	.string "마음먹고 있었는데...$"
+	.string "초능력은 마음의 힘\n"
+	.string "네겐 지지 않겠다고 마음먹었는데...$"
+	// サイキックとは きもちの つよさｎ
+	// きみには まけないと おもっていたのに……
 
 Route123_Text_CameronRegister:
-	.string "보인다...\n"
-	.string "우리가 다시 겨루는 미래가 보여...\l"
-	.string "이길 수 있을지는 모르겠지만\l"
-	.string "포켓내비 좀 빌려줘$"
+	.string "난 알 수 있어!\n"
+	.string "난 너와 또 승부하게 돼!\l"
+	.string "이길 수 있을진 모르겠지만...\p"
+	.string "포켓내비 빌려줘!$"
+	// ぼくには わかる!ｎ
+	// ぼくと きみとは また しょうぶする!ｌ
+	// かてるか わかんない けど……ｐ
+	// ポケナビを だして!
 
 Route123_Text_CameronRematchIntro:
 	.string "나는 이제 누구에게도 지지 않겠다고\n"
 	.string "마음먹고 있으니까 강한 거야!!$"
+	// ぼくは もう だれにも まけないとｎ
+	// おもっているから つよいよ!!
 
 Route123_Text_CameronRematchDefeat:
 	.string "히잉...$"
+	// しょんぼり……
 
 Route123_Text_CameronPostRematch:
 	.string "송화산에서 수행이라도 할까\n"
-	.string "이대로라면 계속 너에게 이길 수 없어$"
+	.string "이대론 계속 널 이길 수 없어$"
+	// おくりびやまで しゅぎょうでも しようかなｎ
+	// このままじゃ ずっと きみに かてないよ
 
 Route123_Text_JackiIntro:
 	.string "포켓몬도 초능력도\n"
 	.string "쓸 수 있는 것만으로는 의미가 없어\l"
-	.string "단련해야 비로소 진짜가 되는 거야$"
+	.string "단련해야 진짜가 되는 거야$"
+	// ポケモンも ちょうのうりょくもｎ
+	// つかえるだけじゃ いみ ないわｌ
+	// きたえてこそ ほんものに なるのよ
 
 Route123_Text_JackiDefeat:
 	.string "굉장해!$"
+	// すごい!
 
 Route123_Text_JackiPostBattle:
-	.string "누구라도 초능력을 가지고 있어\n"
-	.string "그냥 쓰는 법을 잊어버린 것뿐이야$"
+	.string "누구나 초능력을 가지고 있어\n"
+	.string "그저 쓰는 법을 잊어버린 것뿐이야$"
+	// だれでも ちょうのうりょくを もっているのｎ
+	// ただ つかいかたを わすれている だけよ
 
 Route123_Text_JackiRegister:
-	.string "다시 만났으면 좋겠다\n"
+	.string "다시 만났으면 좋겠다!\n"
 	.string "너도 그렇지?$"
+	// もういちど しょうぶして みたいわ!ｎ
+	// いいでしょう?
 
 Route123_Text_JackiRematchIntro:
 	.string "어때? 당신 안의\n"
 	.string "초능력 눈떴어?$"
+	// どう? あなたの なかのｎ
+	// ちょうのうりょく めばえたり した?
 
 Route123_Text_JackiRematchDefeat:
 	.string "굉장해!$"
+	// すごいわ!
 
 Route123_Text_JackiPostRematch:
 	.string "당신의 강함\n"
 	.string "그것도 초능력일 수 있어$"
+	// あなたの つよさｎ
+	// それも ちょうのうりょく かもね
 
 Route123_Text_MiuIntro:
-	.string "아영: 트레이너님의 포켓몬들아!\n"
-	.string "져도 울지는 마-!$"
+	.string "아영: 트레이너님의 포켓몬들\n"
+	.string "져도 울지는 마세요!$"
+	// ミウ『トレ-ナ-さんの ポケモンｎ
+	// まけても なかないで くださいね!
 
 Route123_Text_MiuDefeat:
-	.string "아영: 져버렸어...$"
+	.string "아영: 져버렸네요...$"
+	// ミウ『まけちゃったね……
 
 Route123_Text_MiuPostBattle:
 	.string "아영: 트레이너님의 포켓몬들은\n"
 	.string "사이가 좋아서 강한 거군요!$"
+	// ミウ『トレ-ナ-さんの ポケモンｎ
+	// なかが いいから つよいんですね!
 
 Route123_Text_MiuNotEnoughMons:
 	.string "아영: 포켓몬이 두 마리는 있어야\n"
-	.string "승부를 해도 재미가 있지!$"
+	.string "배틀을 해도 재미가 있지!$"
+	// ミウ『ポケモンさん 2ひきは いないとｎ
+	// たたかっても つまらないもん!
 
 Route123_Text_YukiIntro:
-	.string "희아: 좋-아! 트레이너님의\n"
-	.string "포켓몬을 해치우겠어요!$"
+	.string "희아: 좋-았어!\n"
+	.string "트레이너님의 포켓몬을 해치우겠어요!$"
+	// ユキ『よ-し!ｎ
+	// トレ-ナ-さんの ポケモン やっつけます!
 
 Route123_Text_YukiDefeat:
-	.string "희아: 져버렸어...$"
+	.string "희아: 져버렸네요...$"
+	// ユキ『まけちゃったね……
 
 Route123_Text_YukiPostBattle:
 	.string "희아: 왜- 그렇게 강한 거예요?\n"
 	.string "우리들 승부에서 진 건 처음이에요!$"
+	// ユキ『ど-して そんなに つよいの?ｎ
+	// あたちたち たたかって まけたの はじめて!
 
 Route123_Text_YukiNotEnoughMons:
-	.string "희아: 포켓몬이 두 마리는 있어야지\n"
+	.string "희아: 포켓몬이 두 마리는 있어야\n"
 	.string "승부를 해도 재미가 있죠!$"
+	// ユキ『ポケモンさん 2ひきは いないとｎ
+	// たたかっても つまらないもん!
 
 Route123_Text_KindraIntro:
 	.string "송화산은...\n"
 	.string "포켓몬의 혼이 잠드는 곳...\l"
 	.string "당신의 포켓몬도 잠들래?$"
+	// おくりびやまは……ｎ
+	// ポケモンの たましいが ねむるところ……ｌ
+	// あなたの ポケモンも ねむる……?
 
 Route123_Text_KindraDefeat:
 	.string "아주 건강하네...$"
+	// げんき いっぱいね……
 
 Route123_Text_KindraPostBattle:
 	.string "송화산은...\n"
-	.string "포켓몬의 혼이 잠드는 곳...\p"
+	.string "포켓몬의 영혼이 잠드는 곳...\p"
 	.string "분명 영혼을 달래는\n"
-	.string "힘이 넘쳐흐르는 걸꺼야$"
+	.string "힘이 넘쳐흐르는 걸 거야...$"
+	// おくりびやまは……ｎ
+	// ポケモンの たましいが ねむるところ……ｐ
+	// きっと たましいを なぐさめるｎ
+	// ちからに あふれてるのよ……
 
 Route123_Text_FernandoIntro:
-	.string "기타를 연주하면서\n"
-	.string "너의 전율을 꺼주지!$"
+	.string "한 곡 연주하는 사이에\n"
+	.string "파바밧 쓰러뜨려 주지!$"
+	// いっきょく かなでる あいだにｎ
+	// パッと たおしちゃうゼ!
 
 Route123_Text_FernandoDefeat:
-	.string "이봐! 가만히 있어!\n"
-	.string "이제 막 시작한단 말이야!$"
+	.string "이봐이봐 이제 막 시작했다고!$"
+	// おいおい まだ イントロだゼ!
 
 Route123_Text_FernandoPostBattle:
-	.string "너에 관한 곡을 써야겠다!$"
+	.string "너 제법인걸\n"
+	.string "너에 대한 곡을 만들어보고 싶어$"
+	// きみ やるじゃんｎ
+	// きみの きょくを つくって みたいよ
 
 Route123_Text_FernandoRegister:
-	.string "다음에 오면은\n"
-	.string "완전한 곡을 들려주지!$"
+	.string "다음에 만났을 때에는\n"
+	.string "완전한 곡을 들어 줘!$"
+	// こんど あった ときにはｎ
+	// フルコ-ラス きいて くれヨ!
 
 Route123_Text_FernandoRematchIntro:
-	.string "드디어 오늘!\p"
-	.string "음악이 끝나기 전에\n"
-	.string "너의 전율을 꺼주지!$"
+	.string "좋았어 오늘은 반드시!\n"
+	.string "1절을 부르는 사이에\l"
+	.string "파밧 쓰러뜨려 주지!$"
+	// よし きょうこそ!ｎ
+	// 1ばんを うたっている あいだにｌ
+	// サッと たおしちゃうゼ!
 
 Route123_Text_FernandoRematchDefeat:
-	.string "이봐! 가만히 있어!\n"
-	.string "이제 후렴 부분이란 말이야!$"
+	.string "이봐이봐 아직 후렴도 못 갔다고!$"
+	// おいおい まだ サビまで いってないゼ!
 
 Route123_Text_FernandoPostRematch:
-	.string "내 곡이 맘에 들 줄 알았는데 \n"
-	.string "아니었나 봐$"
+	.string "내 곡에 홀려서\n"
+	.string "질 거라고 생각했는데$"
+	// オレの うたに ききほれてｎ
+	// まけちゃう って おもってたんだけど
 
 Route123_Text_DavisIntro:
-	.string "내 멋진 벌레 포켓몬!\n"
-	.string "형이 잡아줬어!$"
+	.string "내 형이 잡아준\n"
+	.string "자랑스러운 벌레포켓몬이야!$"
+	// ぼくの おにいちゃんに とってもらったｎ
+	// じまんの むしポケモンだよ!
 
 Route123_Text_DavisDefeat:
-	.string "와아!\n"
-	.string "너무 나빴어!$"
+	.string "으-앙 이 바보-!$"
+	// わ-ん バカ-っ!
 
 Route123_Text_DavisPostBattle:
-	.string "형한테 내가 졌다고 말하지 마!\n"
-	.string "비밀이야! 알겠지?$"
+	.string "진 거\n"
+	.string "우리 형한텐 비밀이야!$"
+	// まけちゃった ことｎ
+	// ぼくの おにいちゃんには ひみつ だよ!
 
 Route123_Text_JazmynIntro:
-	.string "강한 트레이너를 이겨서\n"
-	.string "자신감을 되찾자!$"
+	.string "딱 봐도 강한 트레이너인 당신을\n"
+	.string "쓰러뜨리면 자신감이 생기겠지!$"
+	// みるからに つよそうな あなたをｎ
+	// たおせば じしんが つくわね!
 
 Route123_Text_JazmynDefeat:
-	.string "자신감이 더 떨어졌어...$"
+	.string "자신감이 없어져버렸어...$"
+	// じしん なくしました……
 
 Route123_Text_JazmynPostBattle:
-	.string "사람을 외모로\n"
-	.string "판단하지 말라는데\p"
-	.string "외모는 거짓말을 안 해...$"
+	.string "사람을 외모로 판단하지 말라는데\n"
+	.string "생긴 대로 노는 사람도 제법 있어$"
+	// ヒトは みためには よらないと いうけどｎ
+	// けっこう みためどおりの ことも あるわね
 
 Route123_Text_FrederickIntro:
-	.string "안녕 꼬마야!\n"
-	.string "시간이 있니?$"
+	.string "안녕 꼬마야\n"
+	.string "할아버지랑 놀래?$"
+	// おい きみきみｎ
+	// じいちゃんと ちょっと あそぼうか
 
 Route123_Text_FrederickDefeat:
-	.string "꽤나 똑똑한 꼬마구나!\n"
-	.string "용돈 좀 주리?$"
+	.string "강한 꼬마구나\n"
+	.string "용돈 좀 줄까?$"
+	// つよいこ じゃなｎ
+	// こづかいを やるか
 
 Route123_Text_FrederickPostBattle:
-	.string "그 정도 용돈이면 충분하지?$"
+	.string "뭣 용돈 말이냐?\n"
+	.string "상금으로 충분하잖니!$"
+	// え こづかい?ｎ
+	// しょうきんを もらったから いいじゃろ!
 
 Route123_Text_AlbertoIntro:
-	.string "미리 말해두겠는데\n"
-	.string "난 비행타입 포켓몬밖에 없어!\p"
-	.string "비행타입 포켓몬은 멋져!\n"
-	.string "최고야!$"
+	.string "난 새포켓몬이 정말 좋아!\n"
+	.string "새 멋져! 새 최고!$"
+	// オレ マジ とりポケモンが すき!ｎ
+	// とりイカス! とりサイコ-!
 
 Route123_Text_AlbertoDefeat:
-	.string "졌지만 비행타입 포켓몬은 멋져!$"
+	.string "졌지만 새포켓몬은 멋져!$"
+	// まけた とりポケモンも イカス!
 
 Route123_Text_AlbertoPostBattle:
-	.string "전투 중에 떨어진 깃털로\n"
-	.string "모자를 만들어야지$"
+	.string "승부 중에 떨어진\n"
+	.string "새포켓몬의 깃털을 모아서\l"
+	.string "모자를 만들어야지!$"
+	// しょうぶの あいだに ちらばったｎ
+	// とりポケモンの ハネを あつめてｌ
+	// ぼうしを つくる つもりなんだ!
 
 Route123_Text_EdIntro:
-	.string "주변에 트레이너가 없으면\n"
-	.string "포켓몬들이 싸우게 내버려 둬\l"
-	.string "그걸 보고 있으면 정말 재밌어$"
+	.string "트레이너가 없을 때는\n"
+	.string "내 포켓몬들끼리\l"
+	.string "싸우는 걸 바라보고 있어$"
+	// トレ-ナ-が いない ときはｎ
+	// じぶんの ポケモンどうしをｌ
+	// たたかわせて ながめて いるぞぅ
 
 Route123_Text_EdDefeat:
-	.string "네 포켓몬이 맘에 들어$"
+	.string "네 포켓몬도 맘에 드네$"
+	// きみの ポケモンも いいねぃ
 
 Route123_Text_EdPostBattle:
-	.string "헤헤, 네 승부 방식을 따라 해야지!\n"
-	.string "그럼 더 강해지겠지?$"
+	.string "헤헤헤 네 승부 방식을\n"
+	.string "따라해야지!\l"
+	.string "강해질 수 있을 것 같아$"
+	// へへへ きみの たたかいかたのｎ
+	// アイディア いただき!ｌ
+	// つよく なれそう だよぅ
 
 Route123_Text_JonasIntro:
-	.string "당신은 소인의 함정에 빠졌소!$"
+	.string "숨어서 기다리고 있었더니\n"
+	.string "트레이너가 걸렸소!$"
+	// まちぶせ していたらｎ
+	// トレ-ナ-が かかったで ござる!
 
 Route123_Text_JonasDefeat:
-	.string "이것은 닌자 놀이가 아니오!$"
+	.string "져주지 않는다면\n"
+	.string "닌자놀이를 할 수가 없소$"
+	// まけて くれなきゃｎ
+	// ニンジャごっこ できないよ
 
 Route123_Text_JonasPostBattle:
 	.string "다음에는 더 약한 트레이너를\n"
-	.string "함정에 빠뜨려야겠소!$"
+	.string "숨어서 기다려야겠소$"
+	// つぎは もっと よわそうな トレ-ナ-をｎ
+	// まちぶせ してみるで ござるよ
 
 Route123_Text_KayleyIntro:
-	.string "방금 이 파라솔을 샀는데\n"
-	.string "내 귀여움이 더 올라가겠지?$"
+	.string "방금 막 구매한 이 파라솔로\n"
+	.string "내 귀여움이 3배는 올라갔겠지!$"
+	// かった ばかりの パラソルでｎ
+	// わたしも 3わりましで かわいい はず!
 
 Route123_Text_KayleyDefeat:
-	.string "나보다 5배나 귀엽잖아!$"
+	.string "나보다 5배는 귀엽잖아!$"
+	// わたしの 5ばい くらい つよいわね
 
 Route123_Text_KayleyPostBattle:
-	.string "액세서리를 잘 사용하면\n"
-	.string "귀여움도 올라갈 거야!$"
+	.string "도구 사용도 꾸미기의 비결이야!$"
+	// こもの づかいも おしゃれの ひけつよ!
 
 Route124_Text_SpencerIntro:
 	.string "오 길을 잃은 건가?\p"
 	.string "내 포켓몬을 이기면\n"
-	.string "물길을 안내해줄 수도 있는데!$"
+	.string "물길을 안내해줄 수도 있다고?$"
+	// おっと みちに まよったのか?ｐ
+	// わたしの ポケモンに かてたらｎ
+	// みずさき あんないにんに なってあげようか?
 
 Route124_Text_SpencerDefeat:
 	.string "싸우는 감각을 잃어버렸다...$"
+	// たたかいかたを まよってしまった……
 
 Route124_Text_SpencerPostBattle:
-	.string "바다에서 길을 잃는 사람들이 많지!\p"
+	.string "바다에서 길을 잃는 사람은 많지!\p"
 	.string "그런 사람은 포켓내비로\n"
 	.string "맵을 확인하면서 움직이는 편이 좋아!$"
+	// うみで まよってしまう ひとは おおい!ｐ
+	// そんな ひとは ポケナビでｎ
+	// マップを たしかめながら すすむと いい!
 
 Route124_Text_RolandIntro:
 	.string "흥! 스스로 헤엄치지 않고\n"

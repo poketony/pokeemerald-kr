@@ -220,20 +220,20 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist:: @ 827018B
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro: @ 827019C
 	.string "이 연구소에서 만들어진\n"
-	.string "포켓몬은 날씨와 관계가 있대서\l"
-	.string "받아 가려고 온 거야!$"
+	.string "포켓몬은 날씨와 관계가 있다고\l"
+	.string "들어서 받아 가려고 왔어!$"
 	// この けんきゅうじょで うみだされたｎ
 	// ポケモンは てんきと かんけいある ってｌ
 	// きいたから いただきに きたのさ!
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat: @ 8270208
-	.string "이런 꼬맹이에게 방해당한 건가!?$"
+	.string "이런 꼬맹이에게 방해당한다고!?$"
 	// こんな こどもに じゃま されるのか!?
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle: @ 827022B
 	.string "여기서 만들어진 포켓몬이\n"
-	.string "날씨를 자유롭게 조종할 수 있다면\l"
-	.string "아쿠아단에게 반드시 필요하다!$"
+	.string "만약 날씨를 자유롭게 조종할 수 있다면\l"
+	.string "아쿠아단에게는 반드시 필요하다고!$"
 	// ここで うみだされた ポケモンがｎ
 	// もし てんきを じゆうに あやつれるならｌ
 	// ぜったい アクアだんに ひつよう だぜ!
@@ -251,8 +251,8 @@ Route119_WeatherInstitute_2F_Text_Grunt3Defeat: @ 82702CE
 	// こいつは まいった!
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle: @ 82702DA
-	.string "아쿠아단의 이상도 모르면서\n"
-	.string "방해하지 말라고!$"
+	.string "아쿠아단의 이상도 모르는 주제에\n"
+	.string "방해하지 마!$"
 	// アクアだんの りそうを しらないくせにｎ
 	// じゃま するんじゃ ないよ!
 
@@ -296,7 +296,7 @@ Route119_WeatherInstitute_2F_Text_ShellyIntro: @ 8270409
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat: @ 82704BD
 	.string "오-호호!\n"
-	.string "너무 강해서 얄미운 걸!$"
+	.string "너무 강해서 얄미운걸!$"
 	// オ-ッホッホ!ｎ
 	// つよくて にくらしく なっちゃうわ!
 
@@ -311,8 +311,8 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle: @ 82704E4
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy: @ 8270568
 	.string "큰일입니다!\p"
 	.string "지금 막 마그마단 녀석들이\n"
-	.string "날씨 연구소를 지나\p"
-	.string "송화산 쪽으로\n"
+	.string "날씨 연구소를 지나\l"
+	.string "송화산 쪽으로\l"
 	.string "향하고 있습니다!$"
 	// たいへんです!ｐ
 	// たったいま マグマだんの れんちゅうがｎ
@@ -344,7 +344,7 @@ Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon: @ 8270650
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon: @ 82706B2
-	.string "그 이상\n"
+	.string "어라? 그 이상\n"
 	.string "포켓몬을 지닐 수 없나 보구나$"
 	// あら? それいじょうｎ
 	// ポケモンを もてないようだよ
@@ -369,7 +369,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous: @ 827077E
 	.string "나도 오랫동안\n"
 	.string "비를 연구하고 있지만\l"
 	.string "날씨를 자유자재로 바꾼다니\l"
-	.string "인간에게는 무리야$"
+	.string "인간에게는 불가능한 이야기야$"
 	// わたしも ながい あいだｎ
 	// あめの けんきゅうを してるがｌ
 	// てんきを じゆうじざいに かえるだなんてｌ

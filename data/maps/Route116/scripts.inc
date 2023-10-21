@@ -375,33 +375,56 @@ Route116_EventScript_Johnson:: @ 81F3086
 Route116_Text_ScoundrelMadeOffWithPeeko: @ 81F309D
 	.string "아아아 이거 어쩌지!\p"
 	.string "피코랑 같이 산책하고 있었는데\n"
-	.string "갑자기 별 이상한 녀석이 와서\p"
+	.string "갑자기 이상한 녀석이 와서\p"
 	.string "내 귀여운 피코를\n"
 	.string "뺏어 갔다네!\p"
-	.string "오오-! 피코야!$"
+	.string "오오-! 피코야-!$"
+	// あああ なんという ことだ!ｐ
+	// ピ-コちゃんと さんぽを していたらｎ
+	// いきなり おかしな やつが やってきてｐ
+	// わしの かわいい ピ-コちゃんがｎ
+	// うばわれて しまったのじゃ!ｐ
+	// うお-! ピ-コちゃ-ん!
 
 Route116_Text_WantToDigTunnel: @ 81F3140
-	.string "으음-!!\p"
+	.string "우오-!!\p"
 	.string "터널 파고 싶어-!!$"
+	// ぬぉ-!!ｐ
+	// トンネル ほりて-!!
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut: @ 81F3166
-	.string "으음-!!\n"
-	.string "뭐야!?\p"
+	.string "우오-!!\n"
+	.string "뭐가 어떻게 된 거지!?\p"
 	.string "도구고 뭐고 안 쓰고\n"
 	.string "터널을 파고 있었는데\l"
-	.string "별 이상한 남자한테 쫓겨났어!!\p"
+	.string "이상한 남자한테 쫓겨났어!\p"
 	.string "저 터널에는\n"
 	.string "큰 소리에 반응해서\l"
 	.string "동요하는 포켓몬이 있어\p"
 	.string "그래서 기계를 사용한\n"
 	.string "개발 공사도 중지했는데...\p"
-	.string "괜한 소란을 피우면\n"
+	.string "괜한 소란을 피워서\n"
 	.string "포켓몬이 겁먹지 않을까 걱정이야!$"
+	// ぬぉ-!!ｎ
+	// なんて ことだ!?ｐ
+	// どうぐも なにも つかわずにｎ
+	// トンネルを ほっていたのにｌ
+	// へんな おとこに おいだされた!ｐ
+	// あの トンネルにはｎ
+	// おおきな ものおとに はんのう してｌ
+	// さわぎだす ポケモンが いるｐ
+	// だから きかいを つかってのｎ
+	// かいはつ こうじを やめたのに……ｐ
+	// へんに さわぎを おこされるとｎ
+	// ポケモンが おびえないか しんぱいだ!
 
 Route116_Text_GoonHightailedItOutOfTunnel: @ 81F32C1
-	.string "음-!\p"
+	.string "우오-!!\p"
 	.string "이상한 남자가 뛰쳐나왔어!\n"
 	.string "이제 다시 터널을 팔 수 있어!$"
+	// ぬぉ-!!ｐ
+	// へんな おとこが とびだしていった!ｎ
+	// これで トンネルを ほれるよ!
 
 Route116_Text_ThankYouTokenOfAppreciation: @ 81F3317
 	.string "아앗!\n"
@@ -411,84 +434,143 @@ Route116_Text_ThankYouTokenOfAppreciation: @ 81F3317
 	.string "거기다가 잿빛도시로의 물건 배달도\l"
 	.string "흔쾌히 해준 사람!!\p"
 	.string "해양관장에게\n"
-	.string "“짐은 잘 도착했다”라고\l"
+	.string "“짐은 잘 도착했다”고\l"
 	.string "연락이 왔었어요!\p"
-	.string "정말 고마워요!\n"
+	.string "정말 감사합니다!\n"
 	.string "너무 감사해서 눈물이 날 정도예요\p"
 	.string "그런 멋진 트레이너님에게\n"
 	.string "아주 좋은 뉴스!\p"
 	.string "최근 저희 회사에서\n"
-	.string "새로운 몬스터볼\l"
+	.string "새로운 몬스터볼의\l"
 	.string "개발에 성공했어요!\p"
 	.string "감사의 마음을 담아서\n"
 	.string "트레이너님께도 선물할게요!$"
+	// ああっ!ｎ
+	// きみは!!ｐ
+	// トウカのもりで たすけてくれた だけでなくｎ
+	// ぬすまれた にもつを とりかえしｌ
+	// はたまた カイナへの とどけものをｌ
+	// こころよく ひきうけてくれた ひと!!ｐ
+	// クスノキかんちょう からｎ
+	// 「にもつが とどいた」とｌ
+	// れんらくが ありましたよ!ｐ
+	// どうも ありがとう なのです!ｎ
+	// かんしゃ かんげき あめ あられ なのですｐ
+	// そんな すてきな トレ-ナ-さんにｎ
+	// グッド ニュ-ス!ｐ
+	// さいきん わがしゃ ではｎ
+	// あたらしい モンスタ-ボ-ルのｌ
+	// かいはつに せいこう したのです!ｐ
+	// かんしゃの きもちとしてｎ
+	// トレ-ナ-さんにも プレゼント なのよね!
 
 Route116_Text_NewBallAvailableAtMart: @ 81F3521
 	.string "새로운 몬스터볼은\n"
 	.string "금탄도시의 프렌들리숍에서도\l"
-	.string "팔고 있으니까\p"
+	.string "팔고 있습니다!\p"
 	.string "부디 한번 사용해 보세요!\n"
-	.string "그럼...$"
+	.string "그럼 이만...$"
+	// あたらしい モンスタ-ボ-ルはｎ
+	// カナズミの フレンドリィ ショップでｌ
+	// うってますからね!ｐ
+	// ぜひ つかって みてください!ｎ
+	// ではでは……
 
 Route116_Text_BagIsJamPacked: @ 81F3593
-	.string "가방이 가득 찼군요...\n"
-	.string "이 리피드볼은 드릴 수 없겠네요$"
+	.string "가방이 가득 차서\n"
+	.string "리피드볼은 드릴 수 없겠네요$"
+	// どうぐ いっぱいでｎ
+	// リピ-トボ-ル あげられないね
 
 Route116_Text_TokenOfAppreciation: @ 81F35CE
-	.string "우리 회사의 화물을\n"
-	.string "전달해주신 감사의 표시로\l"
-	.string "대단한 트레이너님께\l"
-	.string "새로운 몬스터볼을 드릴게요!$"
+	.string "화물을 전달해주신 것에 대한\n"
+	.string "감사의 표시로\l"
+	.string "트레이너님께 새로운\l"
+	.string "몬스터볼을 선물할게요!$"
+	// にもつを とどけてくれた ことへのｎ
+	// かんしゃの きもちとしてｌ
+	// トレ-ナ-さん にも あたらしいｌ
+	// モンスタ-ボ-ルを プレゼント なのよね!
 
 Route116_Text_CanYouHelpMeFindGlasses: @ 81F3657
 	.string "안경을 떨어뜨렸어...\n"
 	.string "너도 찾는 것 좀 도와줘$"
+	// メガネを おとしたんだ……ｎ
+	// きみも さがすの てつだってよ
 
 Route116_Text_MayISeeThoseGlasses: @ 81F3688
 	.string "그 안경...?\n"
 	.string "잠깐 좀 보여줘 봐!$"
+	// その メガネ……?ｎ
+	// ちょっと みせてよ!
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere: @ 81F36B4
-	.string "음...\n"
+	.string "으-음...\n"
 	.string "이건 검은안경이네\l"
 	.string "내가 찾는 게 아니야...\p"
 	.string "여기엔 내 안경이 없는 걸까$"
+	// う-む……ｎ
+	// これは くろいメガネ だねｌ
+	// ぼくが さがしているのと ちがうなあ……ｐ
+	// ここには ぼくの メガネ ないのかなあ
 
 Route116_Text_CantFindGlassesNotHere: @ 81F3718
-	.string "음...\n"
-	.string "아무리 찾아도 안경을 못 찾겠어\l"
+	.string "으-음...\n"
+	.string "아무리 봐도 안경을 못 찾겠어\l"
 	.string "여기에는 내 안경이 없는 걸까$"
+	// う-む……ｎ
+	// どうにも メガネが みつからないんだｌ
+	// ここには ぼくの メガネ ないのかなあ
 
 Route116_Text_NotWhatImLookingFor: @ 81F375E
-	.string "음...\n"
+	.string "으-음...\n"
 	.string "이건 검은안경이네\l"
 	.string "내가 찾는 게 아니야...$"
+	// う-む……ｎ
+	// これは くろいメガネ だねｌ
+	// ぼくが さがしているのと ちがうなあ……
 
 Route116_Text_RouteSignRustboro: @ 81F379D
 	.string "여기는 116번 도로\n"
 	.string "{LEFT_ARROW} 금탄도시$"
+	// ここは 116ばん どうろｎ
+	// ©しい カナズミシティ
 
 Route116_Text_RusturfTunnelSign: @ 81F37B7
 	.string "금탄도시와 잔디마을을 연결하는\n"
 	.string "“금잔터널”\p"
 	.string "개통 공사는 중지되었습니다$"
+	// カナズミと シダケを むすぶｎ
+	// 「カナシダ トンネル」ｐ
+	// かいつう こうじは ちゅうしに なりました
 
 Route116_Text_TunnelersRestHouse: @ 81F380F
 	.string "터널공사 작업원 대기실$"
+	// トンネルこうじ さぎょういん つめしょ
 
 Route116_Text_TrainerTipsBToStopEvolution: @ 81F3825
 	.string "정보 나눔 게시판!!\p"
 	.string "포켓몬이 진화할 것 같을 때\n"
-	.string "B 버튼을 누르면 놀라서\l"
-	.string "진화를 멈춰버려요!\p"
-	.string "그걸 진화캔슬이라고 해요$"
+	.string "B 버튼을 누르면\l"
+	.string "놀라서 진화를 멈춰버려요!\p"
+	.string "이걸 진화캔슬이라고 해요$"
+	// おとくな けいじばん!ｐ
+	// ポケモンが しんか しそうなときｎ
+	// Bボタンを おすとｌ
+	// びっくりして しんかを やめます!ｐ
+	// これを しんかキャンセルと いいます
 
 Route116_Text_TrainerTipsBagHasPockets: @ 81F38D4
 	.string "정보 나눔 게시판!!\p"
-	.string "가방에는 몇 개의 포켓이 있어\n"
-	.string "도구를 넣으면 종류에 따라\l"
+	.string "가방에는 몇 개의 포켓이 있고\n"
+	.string "넣는 도구의 종류에 따라\l"
 	.string "각 포켓에\l"
 	.string "자동으로 분류됩니다\p"
-	.string "이건 정말 트레이너에게\n"
-	.string "있어 필수품이에요!$"
+	.string "정말 트레이너의 필수품이에요!$"
+	// おとくな けいじばん!!ｐ
+	// バッグには いくつかの ポケットが ありｎ
+	// いれる どうぐの しゅるい によってｌ
+	// それぞれの ポケットにｌ
+	// オ-トで ぶんるい されますｐ
+	// まさに トレ-ナ-の ひつじゅひん です!
 

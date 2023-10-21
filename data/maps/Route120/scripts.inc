@@ -396,29 +396,52 @@ Route120_Text_StevenGreeting: @ 81F5998
 	.string "아니지... 설명하는 것보다\n"
 	.string "실제로 써보는 편이 재미있겠어\p"
 	.string "{PLAYER} 너의 포켓몬\n"
-	.string "승부할 준비는 돼 있나?$"
+	.string "배틀할 준비는 되어 있어?$"
+	// ダイゴ『ん? §あ§おかｎ
+	// ひさしぶり だねｐ
+	// ここに みえない なにかが いるよね?ｐ
+	// で みえない なにかに むかってｎ
+	// この どうぐを つかうと……ｐ
+	// ちがうな…… せつめい するよりもｎ
+	// じっさいに つかった ほうが たのしそうだｐ
+	// §あ§お きみの ポケモンｎ
+	// たたかう じゅんびは できて いるのかい?
 
 Route120_Text_StevenIllWaitHere: @ 81F5AAC
 	.string "성호: 그래?\p"
 	.string "나는 여기서 기다리고 있을 테니\n"
 	.string "준비를 하도록 해$"
+	// ダイゴ『そう?ｐ
+	// ボクは ここで まっているからｎ
+	// じゅんびを すると いいよ
 
 Route120_Text_StevenReadyForBattle: @ 81F5ADE
 	.string "성호: {PLAYER} 너의 포켓몬\n"
-	.string "승부할 준비는 돼 있나?$"
+	.string "승부할 준비는 되어 있어?$"
+	// ダイゴ『§あ§お きみの ポケモンｎ
+	// たたかう じゅんびは できて いるのかい?
 
 Route120_Text_StevenShowMeYourPower: @ 81F5B0F
 	.string "성호: {PLAYER}\n"
 	.string "너의 트레이너로서의\l"
 	.string "실력을 보여줘!$"
+	// ダイゴ『§あ§おｎ
+	// きみの トレ-ナ- としてのｌ
+	// じつりょく みせてもらうよ!
 
 Route120_Text_StevenUsedDevonScope: @ 81F5B43
 	.string "성호는\n"
 	.string "데봉스코프를 사용했다!\p"
-	.string "투명했던 포켓몬의 모습이\n"
-	.string "훤히 보이게 됐다!\p"
+	.string "투명했던 포켓몬의\n"
+	.string "모습이 훤히 보이게 됐다!\p"
 	.string "포켓몬은\n"
 	.string "놀라서 덤벼들었다!$"
+	// ダイゴはｎ
+	// デボンスコ-プを つかった!ｐ
+	// とうめいに なっていたｎ
+	// ポケモンの すがたが まるわかりだ!ｐ
+	// ポケモンはｎ
+	// おどろいて おそいかかってきた!
 
 Route120_Text_StevenGiveDevonScope: @ 81F5BAF
 	.string "성호: 역시\n"
@@ -429,21 +452,38 @@ Route120_Text_StevenGiveDevonScope: @ 81F5BAF
 	.string "이 데봉스코프는 너에게 줄게\p"
 	.string "또 모습을 숨기고 있는\n"
 	.string "포켓몬이 있을지도 모르니까$"
+	// ダイゴ『なるほどｎ
+	// きみの たたかいかた おもしろいねｐ
+	// はじめて ムロで であった ときよりもｎ
+	// ポケモンも そだっているし……ｐ
+	// そうだねｎ
+	// この デボンスコ-プは きみに あげようｐ
+	// ほかにも すがたを かくしているｎ
+	// ポケモンは いるかも しれないから
 
 Route120_Text_StevenGoodbye: @ 81F5C7B
 	.string "성호: {PLAYER}\p"
 	.string "나는 열심히 하는\n"
-	.string "트레이너와 포켓몬을 좋아하지\p"
-	.string "그래서 너도 좋아해\p"
+	.string "트레이너와 포켓몬을 좋아해서\p"
+	.string "너도 좋게 생각하고 있어\p"
 	.string "그럼\n"
 	.string "다시 어딘가에서 만나자!$"
+	// ダイゴ『§あ§おｐ
+	// ボクは がんばっているｎ
+	// トレ-ナ-と ポケモンが すきだからｐ
+	// きみのこと いいと おもうよｐ
+	// じゃあｎ
+	// また どこかで あおう!
 
 Kecleon_Text_SomethingUnseeable: @ 81F5D00
 	.string "보이지 않는 무언가가 있는 것 같다$"
+	// みえない なにかが いるようだ
 
 Kecleon_Text_WantToUseDevonScope: @ 81F5D23
 	.string "보이지 않는 무언가가 있는 것 같다\p"
 	.string "데봉스코프를 사용하겠습니까?$"
+	// みえない なにかが いるようだｐ
+	// デボンスコ-プを つかいますか?
 
 Kecleon_Text_UseDevonScopeMonAttacked: @ 81F5D63
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -452,11 +492,21 @@ Kecleon_Text_UseDevonScopeMonAttacked: @ 81F5D63
 	.string "훤히 보이게 됐다!\p"
 	.string "포켓몬은\n"
 	.string "놀라서 덤벼들었다!$"
+	// §あはｎ
+	// デボンスコ-プを つかった!ｐ
+	// とうめいに なっていたｎ
+	// ポケモンの すがたが まるわかりだ!ｐ
+	// ポケモンはｎ
+	// おどろいて おそいかかってきた!
 
 Route120_Text_RouteSignFortree: @ 81F5DCB
 	.string "여기는 120번 도로\n"
 	.string "{LEFT_ARROW} 검방울시티$"
+	// ここは 120ばん どうろｎ
+	// ©しい ヒワマキシティ
 
 Route120_Text_RouteSign121: @ 81F5DE4
 	.string "{RIGHT_ARROW} 121번 도로\n"
 	.string "{LEFT_ARROW} 120번 도로$"
+	// ©しう 121ばん どうろｎ
+	// ©しい 120ばん どうろ
