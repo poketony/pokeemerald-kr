@@ -105,7 +105,7 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase: @ 82152FA
 	.string "벽지 가문의 집에!\p"
 	.string "하나 물어보고 싶은 게 있는데\n"
 	.string "너 아이를 돌본 적 있어?\p"
-	.string "아저씨 처음으로\n"
+	.string "아저씨가 처음으로\n"
 	.string "육아를 하고 있는데 말야\p"
 	.string "우리 채령이가\n"
 	.string "좀처럼 웃질 않아서\p"
@@ -152,7 +152,7 @@ RustboroCity_Flat1_2F_Text_OhIsThatRight: @ 82154E7
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry2: @ 8215535
 	.string "과연-\n"
-	.string "그럼 시험해볼게$"
+	.string "그럼 시험해 볼게$"
 	// なるほど-ｎ
 	// じゃあ ためして みようかな
 
@@ -168,7 +168,7 @@ RustboroCity_Flat1_2F_Text_OhShesLaughing: @ 8215565
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry: @ 82155A4
 	.string "과연-\n"
-	.string "그럼 시험해볼게$"
+	.string "그럼 시험해 볼게$"
 	// なるほど-ｎ
 	// じゃあ ためして みようかな
 
@@ -176,7 +176,7 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll: @ 82155D4
 	.string "{STR_VAR_1}\n"
 	.string "{STR_VAR_1}\p"
 	.string "으-음 웃질 않네\n"
-	.string "이 애 쿨한가봐$"
+	.string "이 애 쿨한가 봐$"
 	// §いｎ
 	// §いｐ
 	// う-ん わらわないなあｎ

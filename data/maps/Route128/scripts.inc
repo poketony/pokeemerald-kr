@@ -267,7 +267,7 @@ Route128_Text_MaxieDoYouUnderstandNow: @ 81F6E5A
 	.string "마적: 알겠나 아강!\p"
 	.string "네가...\n"
 	.string "아니 우리가 한 일이\l"
-	.string "얼마나 어리석은 것인지를...\p"
+	.string "얼마나 어리석은 것인지...\p"
 	.string "어쨌든 서두르자!\n"
 	.string "이 이상 심각해지기 전에\l"
 	.string "뭐라도 하지 않으면 안 되니까!$"

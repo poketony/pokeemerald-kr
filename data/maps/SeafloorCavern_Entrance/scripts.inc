@@ -72,12 +72,12 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep: @ 8234544
 	.string "또 우리들을 방해하려고!?\p"
 	.string "너 같은 녀석이 아쿠아단에게\n"
 	.string "반항하다니\l"
-	.string "100억만 년은 빠르다고!\p"
+	.string "100억만 년은 빠르다고-!\p"
 	.string "너에겐 마그마단이 어울려!\p"
-	.string "...그러고 보니 이끼시티에\n"
+	.string "...그러고 보니 이끼시티 근처에\n"
 	.string "마그마단이 나타났다는데\p"
-	.string "녀석들...\n"
-	.string "정-말 바다하고 안 어울려!$"
+	.string "그 녀석들...\n"
+	.string "정--말 바다하고 안 어울려!$"
 	// あ-----っ!ｎ
 	// みおぼえの ある そのかおは!ｐ
 	// こんな ところまで きたって ことはｎ
@@ -94,12 +94,12 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep: @ 8234544
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort: @ 82346C8
 	.string "너 같은 녀석이 아쿠아단에게\n"
 	.string "반항하다니\l"
-	.string "100억만 년은 빠르다고!\p"
+	.string "100억만 년은 빠르다고-!\p"
 	.string "너에겐 마그마단이 어울려!\p"
-	.string "...그러고 보니 이끼시티에\n"
+	.string "...그러고 보니 이끼시티 근처에\n"
 	.string "마그마단이 나타났다는데\p"
 	.string "녀석들...\n"
-	.string "정-말 바다하고 안 어울려!$"
+	.string "정--말 바다하고 안 어울려!$"
 	// おまえ ごときが アクアだんにｎ
 	// はむかおう だなんてｌ
 	// 100おくまんねん はえ-んだよ!ｐ

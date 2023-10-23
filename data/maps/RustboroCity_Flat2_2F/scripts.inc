@@ -25,14 +25,22 @@ RustboroCity_Flat2_2F_EventScript_GavePremierBall:: @ 8216010
 RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays: @ 821601A
 	.string "데봉도 말이지 옛날에는\n"
 	.string "작고 작은 회사였어$"
+	// デボンもな むかしはｎ
+	// ちいさな ちいさな かいしゃ だったわい
 
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt: @ 821605A
 	.string "아빠는 회사에서 일해!\p"
 	.string "이거 아빠가 만든 거야!\n"
 	.string "하지만 난 아직 쓸 수 없으니까 줄게$"
+	// おとうさんは かいしゃで おしごと!ｐ
+	// これ おとうさんが つくったんだぜ!ｎ
+	// でも ぼく まだ つかえないから あげるよ
 
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo: @ 82160BD
 	.string "아빠는 회사에서 일해!\p"
 	.string "나도 어른이 되면\n"
 	.string "데봉에서 일할 거야!$"
+	// おとうさんは かいしゃで おしごと!ｐ
+	// ぼくも おおきく なったらｎ
+	// デボンで はたらくんだ!
 

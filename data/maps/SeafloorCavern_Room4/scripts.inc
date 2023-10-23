@@ -12,16 +12,22 @@ SeafloorCavern_Room4_EventScript_Grunt4:: @ 8234CB3
 	end
 
 SeafloorCavern_Room4_Text_Grunt3Intro: @ 8234CCA
-	.string "누구지 너는?\n"
+	.string "누구냐 너는?\n"
 	.string "어디로 들어온 거지?$"
+	// だれだ おまえ?ｎ
+	// どこから はいってきた?
 
 SeafloorCavern_Room4_Text_Grunt3Defeat: @ 8234CF3
 	.string "졌다...!$"
+	// まけた……!
 
 SeafloorCavern_Room4_Text_Grunt3PostBattle: @ 8234CFC
-	.string "어떡하지? 출구를 찾을 수가 없어\p"
-	.string "절대 무서운 게 아니야!\n"
+	.string "출구를 못 찾겠어-\p"
+	.string "무서워한 적 없거든-\n"
 	.string "착각하지 말라고!$"
+	// でぐちが わかんね-んだよｐ
+	// こわがってる わけじゃ ね-ぞｎ
+	// かんちがい すんなよ!
 
 SeafloorCavern_Room4_Text_Grunt4Intro: @ 8234D3A
 	.string "너 누구?\n"
@@ -36,7 +42,7 @@ SeafloorCavern_Room4_Text_Grunt4Defeat: @ 8234D68
 SeafloorCavern_Room4_Text_Grunt4PostBattle: @ 8234D79
 	.string "파트너가 잠수정에\n"
 	.string "지도를 놔두고 왔대!\p"
-	.string "정말 도움이 안된다니까!$"
+	.string "정말 도움이 안 된다니까!$"
 	// このひとったら せんすいていにｎ
 	// ちずを わすれて きちゃったの!ｐ
 	// まったく たよりに なんないんだから!

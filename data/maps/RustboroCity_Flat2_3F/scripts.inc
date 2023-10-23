@@ -13,9 +13,15 @@ RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones: @ 8216129
 	.string "데봉의 사장님은\n"
 	.string "희귀한 돌을 모으는 게\l"
 	.string "취미시지$"
+	// デボンの しゃちょうはｎ
+	// めずらしい いしを あつめるのがｌ
+	// しゅみ なんだよ
 
 RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones: @ 8216159
 	.string "아마 아드님도\n"
 	.string "희귀한 돌을 모으는 게\l"
 	.string "취미였을걸...?$"
+	// たしか むすこさんもｎ
+	// めずらしい いしを あつめるのがｌ
+	// しゅみ だったっけ……?
 

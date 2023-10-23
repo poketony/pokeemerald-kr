@@ -70,19 +70,19 @@ RustboroCity_House1_Text_IllTradeIfYouWant: @ 82159E8
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon: @ 8215A77
 	.string "에헤헤...\n"
-	.string "제대로 귀여워해줘$"
+	.string "제대로 귀여워해 줘$"
 	// えへへ……ｎ
 	// ちゃんと かわいがってね
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe: @ 8215A9D
-	.string "뭐- 아무리 봐도 {STR_VAR_1}{K_EU}로는\n"
+	.string "어- 아무리 봐도 {STR_VAR_1}{K_EU}로는\n"
 	.string "안 보이는데...$"
 	// え- どうみても §いにｎ
 	// みえないんだけど……
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay: @ 8215ACE
-	.string "아니 싫으면 됐어...\n"
-	.string "귀여운 포켓몬인데...$"
+	.string "아 싫으면 됐어...\n"
+	.string "참 귀여운 포켓몬인데...$"
 	// あ いやなら いいけど……ｎ
 	// せっかく かわいい ポケモンなのに
 

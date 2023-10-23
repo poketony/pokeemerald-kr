@@ -296,77 +296,113 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext:: @ 8211BF1
 	end
 
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon: @ 8211BFB
-	.string "지금 포켓몬과\n"
-	.string "대화할 수 있게 해주는 도구를\l"
+	.string "포켓몬과 대화할 수 있게 해주는 도구를\n"
 	.string "개발하고 있는데...\p"
 	.string "이게 좀처럼 쉽지가 않네요$"
+	// ポケモンと はなせる どうぐをｎ
+	// かいはつ しているのですが……ｐ
+	// なかなか うまく いかないね
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls: @ 8211C50
 	.string "지금 신형 몬스터볼을\n"
 	.string "개발하고 있는데...\p"
 	.string "이게 좀처럼 쉽지가 않네요$"
+	// いま しんがたの モンスタ-ボ-ルをｎ
+	// かいはつ しているのですが……ｐ
+	// なかなか うまく いかないね
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls: @ 8211C99
 	.string "드디어 신형 몬스터볼\n"
 	.string "개발에 성공했어요!\p"
-	.string "예전에 잡았던 포켓몬에게\n"
-	.string "이 리피드볼을 사용하면\l"
+	.string "리피드볼을 쓰면\n"
+	.string "이미 잡았던 포켓몬을\l"
 	.string "더 쉽게 잡을 수 있어요!\p"
-	.string "그리고 이 타이마볼은 포켓몬과의\n"
+	.string "타이마볼은 포켓몬과의\n"
 	.string "배틀 시간이 길면 길어질수록\l"
 	.string "더 쉽게 잡을 수 있어요!\p"
-	.string "두 개 모두 저희 회사가\n"
-	.string "자랑하는 제품이니\l"
+	.string "둘 다 우리 회사의 야심작이니\n"
 	.string "많이 사용해 주세요!$"
+	// しんがたの モンスタ-ボ-ルがｎ
+	// ついに かんせい したのです!ｐ
+	// リピ-トボ-ルを つかうとｎ
+	// いちど つかまえた ポケモンがｌ
+	// つかまえやすく なります!ｐ
+	// タイマ-ボ-ルは ポケモンとのｎ
+	// たたかいが ながびけば ながびくほどｌ
+	// つかまえやすく なります!ｐ
+	// どちらも わがしゃの じしんさくｎ
+	// ぜひ つかって ください!
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav: @ 8211D9F
-	.string "제가 바로\n"
-	.string "그 포켓내비를 만든 사람이에요!\p"
-	.string "이야- 그런 엄청난 걸\n"
-	.string "개발하게 되다니\l"
-	.string "개발자인 제가 더 영광이죠!$"
+	.string "포켓내비를 만든 건 접니다!\p"
+	.string "이야- 그런 엄청난 걸 만들게 되다니\n"
+	.string "개발자로서 영광이라구요!$"
+	// ポケナビを つくったのは わたし!ｐ
+	// いや- あんな すごいモノを つくれるとｎ
+	// かいはつしゃ みょうりに つきますね!
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav: @ 8211DF3
-	.string "오오! 혹시 그건 포켓내비!\p"
-	.string "포켓몬의 기분을\n"
-	.string "알고 싶다는 사장님의 아이디어를\l"
+	.string "오오! 그건 포켓내비!\p"
+	.string "포켓몬의 기분을 알고 싶다는\n"
+	.string "사장님의 아이디어를\l"
 	.string "실현시킨 물건이에요!\p"
-	.string "좀 더 자세히 설명해 드릴까요?\p"
-	.string "...아니지\n"
-	.string "사용하시다 보면\l"
-	.string "저절로 알게 되실 거예요!\p"
-	.string "그러니\n"
+	.string "자세히 설명해 드릴까요?\p"
+	.string "... 아니지\n"
+	.string "쓰다 보면 알게 되실 거예요!\l"
 	.string "포켓내비를 많이 사용해 주세요!$"
+	// おお! それは ポケナビ!ｐ
+	// ポケモンの きもちを しりたいｎ
+	// という しゃちょうの アイデアをｌ
+	// じつげん したのです!ｐ
+	// くわしい せつめいを しましょうか?ｐ
+	// …… いやいやｎ
+	// そのうちに わかるでしょう!ｌ
+	// どんどん ポケナビを つかってくださいね!
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams: @ 8211EE0
-	.string "현재 포켓몬이 꾸고 있는\n"
+	.string "지금 포켓몬이 꾸고 있는\n"
 	.string "꿈을 볼 수 있게 해주는 도구를\l"
-	.string "개발하고 있습니다만...\p"
-	.string "아직까진 진척이 없네요$"
+	.string "개발하고 있는데...\p"
+	.string "이게 좀처럼 쉽지가 않네요$"
+	// いま ポケモンが みているｎ
+	// ゆめを うつしだす どうぐをｌ
+	// かいはつ しているのですが……ｐ
+	// なかなか うまく いかないね
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils: @ 8211F48
-	.string "포켓몬의 화석을 재생시키는\n"
-	.string "장치를 개발하고 있는데...\p"
+	.string "지금 포켓몬의 화석을\n"
+	.string "재생하는 장치를\l"
+	.string "개발하고 있는데...\p"
 	.string "그럭저럭 잘 되고 있어요!$"
+	// いま ポケモンの かせきをｎ
+	// さいせい する そうちをｌ
+	// かいはつ していたのですが……ｐ
+	// なかなか うまく いきましたよ!
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife: @ 8211FA6
-	.string "당신이 갖고 있는 그건 설마\n"
+	.string "당신이 갖고 있는 그건\n"
 	.string "포켓몬의 화석!?\p"
 	.string "괜찮으시면 제가 만든\n"
 	.string "화석 재생 머신으로\l"
 	.string "화석을 복원시켜도 될까요?$"
+	// きみの もっている それはｎ
+	// ポケモンの かせき!?ｐ
+	// よければ わたしが つくったｎ
+	// カセキ さいせい マシンでｌ
+	// いきかえらせて みましょうか?
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo: @ 8212046
-	.string "아 그렇군요...\p"
-	.string "데봉의 기술력은\n"
-	.string "정말 대단한데 말이죠$"
+	.string "아- 그렇군요\p"
+	.string "데봉의 기술력은 대단한데 말이죠...$"
+	// あ- そうですかｐ
+	// デボンの ぎじゅつは すごいのにな……
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne: @ 8212092
 	.string "이럴 수가!\n"
 	.string "화석을 두 개나 가지고 있으시군요!\p"
 	.string "하지만 제 머신으로는\n"
 	.string "하나씩밖에 재생할 수 없습니다\p"
-	.string "어느 화석을 빌려주시겠습니까?$"
+	.string "어느 화석을 빌려주실 건가요?$"
 	// なんとまあ!ｎ
 	// かせきを ふたつも もってるんですか!ｐ
 	// でも わたしの マシンではｎ
@@ -377,44 +413,61 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher: @ 8212153
 	.string "알겠습니다!\n"
 	.string "그럼 바로...\p"
 	.string "{PLAYER}{K_EUNNEUN} 데봉의 연구원에게\n"
-	.string "{STR_VAR_1}{K_EULREUL} 건넸다$"
+	.string "{STR_VAR_1}{K_EULREUL} 맡겼다!$"
+	// わかりました!ｎ
+	// では さっそく……ｐ
+	// §あは デボンの けんきゅういんにｎ
+	// §いを あずけた!
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime: @ 82121A2
 	.string "제가 만든\n"
 	.string "화석 재생 머신은 굉장하지만\l"
-	.string "시간이 조금 걸린답니다...\p"
+	.string "시간이 조금 걸리는 게 단점이죠...\p"
 	.string "잠깐 다른 곳을\n"
-	.string "견학하시는 건 어떨까요?$"
+	.string "견학하시는 게 어떨까요?$"
+	// わたしが つくったｎ
+	// カセキ さいせい マシンは すごいのですがｌ
+	// じかんが かかるのが けってん……ｐ
+	// すこし そこらへんをｎ
+	// けんがく なされては いかがですか?
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife: @ 8212251
 	.string "오래 기다리셨습니다!\n"
 	.string "화석이 되살아났습니다!\p"
 	.string "복원된 화석은 고대의 포켓몬\n"
 	.string "{STR_VAR_2}입니다!$"
+	// おまたせ しました!ｎ
+	// カセキが いきかえり ましたよ!ｐ
+	// カセキは おおむかしの ポケモンｎ
+	// §う でしたよ!
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher: @ 82122CB
 	.string "{PLAYER}{K_EUNNEUN} 데봉의 연구원에게\n"
 	.string "{STR_VAR_2}{K_EULREUL} 받았다!$"
+	// §あは デボンの けんきゅういんからｎ
+	// §うを うけとった!
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon: @ 82122F5
-	.string "앗! 포켓몬이 가득하군요\n"
-	.string "드릴 수 없겠네요$"
+	.string "앗! 포켓몬이 가득해서\n"
+	.string "드릴 수가 없군요$"
+	// あ- ポケモン いっぱいでｎ
+	// もてないですね
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature: @ 8212338
 	.string "지금 포켓내비에 추가할 기능을\n"
-	.string "개발하고 있습니다만...\p"
+	.string "개발하고 있는데...\p"
 	.string "이게 좀처럼 쉽지가 않네요$"
 	// いま ポケナビに ついかする きのうをｎ
 	// かいはつ しているのですが……ｐ
 	// なかなか うまく いかないね
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext: @ 8212386
-	.string "그-럼 다음은 어떤 장치를\n"
-	.string "개발해볼까나...\p"
+	.string "자- 그럼 다음엔 어떤 장치를\n"
+	.string "개발해 볼까...\p"
 	.string "우리 회사는 번뜩이는 아이디어를\n"
 	.string "점점 실현시켜 주니까\l"
-	.string "연구자로서는 더할 나위가 없죠$"
+	.string "연구자로서는 더할 나위가 없죠!$"
 	// さ-て つぎは どんな そうちをｎ
 	// かいはつ しようかな……ｐ
 	// うちの かいしゃは ひらめいた アイデアをｎ

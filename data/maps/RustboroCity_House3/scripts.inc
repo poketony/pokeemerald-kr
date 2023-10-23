@@ -22,18 +22,25 @@ RustboroCity_House3_EventScript_Pekachu:: @ 82161A3
 
 RustboroCity_House3_Text_IGivePerfectlySuitedNicknames: @ 82161B6
 	.string "자신의 포켓몬에게\n"
-	.string "딱 어울리는 별명을\l"
-	.string "지어주는 게다!\p"
-	.string "그게 바로 오리지널리티지!$"
+	.string "딱 어울리는 닉네임을 지어주게나\l"
+	.string "이른바 오리지널리티라는 게지!$"
+	// じぶんの ポケモンにはｎ
+	// ぴったりの ニックネ-ムを つけるんじゃｌ
+	// いわゆる おりじなりてぃ じゃ!
 
 RustboroCity_House3_Text_NamingPikachuPekachu: @ 821622A
 	.string "그렇다고 피카츄에게\n"
-	.string "“페카츄”라는 별명을 붙이는 건\l"
-	.string "조금...\p"
-	.string "뭐... 이해하기 쉬운\n"
-	.string "이름을 붙이는 것도\l"
-	.string "별명의 중요한 점이긴 하지만$"
+	.string "“페카츄”라는 이름을 붙여도\l"
+	.string "바뀐 게 거의 없는데 말이지...\p"
+	.string "뭐 이해하기 쉽게 짓는 것도\n"
+	.string "닉네임의 중요한 점이지만$"
+	// だからって ピカチュウにｎ
+	// 「ペカチュウ」って つけてもｌ
+	// ほとんど かわって ないでしょうに……ｐ
+	// まあ わかりやすいのもｎ
+	// ニックネ-ムには だいじ ですけどねぇ
 
 RustboroCity_House3_Text_Pekachu: @ 82162AB
-	.string "페카츄: 페카!$"
+	.string "페카츄: 페카-!$"
+	// ペカチュウ『ぺか-!
 

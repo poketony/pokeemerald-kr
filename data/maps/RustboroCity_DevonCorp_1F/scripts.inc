@@ -85,42 +85,64 @@ RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp: @ 821131B
 	.string "데봉 코포레이션입니다!\p"
 	.string "여러분의 생활에 도움이 되는\n"
 	.string "도구나 약을 만들고 있습니다!$"
+	// いらっしゃいませ!ｎ
+	// デボン コ-ポレ-ション です!ｐ
+	// みなさまの せいかつに やくだつｎ
+	// どうぐや くすりを おつくりしてます!
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed: @ 821138B
 	.string "얼빠진 연구원이\n"
 	.string "화물을 빼앗겨서...$"
+	// ドジな けんきゅういんがｎ
+	// にもつを とられちゃって……
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct: @ 82113D1
-	.string "오! 러닝슈즈!\n"
-	.string "우리 회사의 발명품이잖아!\p"
-	.string "우리 회사 제품을\n"
-	.string "실제로 사용하고 있는 사람을 보면\l"
+	.string "오! 러닝슈즈!\p"
+	.string "우리 회사의 상품을\n"
+	.string "실제로 쓰고 있는 사람을 보면\l"
 	.string "굉장히 기뻐지지!$"
+	// おっ! ランニングシュ-ズ!ｐ
+	// じぶんたちの かいしゃの しょうひんをｎ
+	// じっさいに つかっている ひとを みるとｌ
+	// すごく うれしくなるよね!
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright: @ 8211446
 	.string "확실히 그 화물은\n"
-	.string "소중한 물건이지만...\p"
-	.string "다른 사람이 훔쳐가도\n"
+	.string "소중한 물건이지만\l"
+	.string "다른 사람이 훔쳐가도\l"
 	.string "사용할 수 없을 거라 생각해\p"
-	.string "내 추측으로는 그 도둑\n"
-	.string "그리 똑똑해 보이진 않았거든$"
+	.string "내 추리로는 그 도둑...\n"
+	.string "그냥 멍청이 아니었을까?$"
+	// たしかに あの にもつはｎ
+	// だいじな もの だけどｌ
+	// ほかの ひとが ぬすんでいってもｌ
+	// つかえないと おもうんだよねｐ
+	// ぼくの すいりでは あの どろぼう……ｎ
+	// たんなる マヌケ なんじゃないかな?
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered: @ 82114DE
-	.string "듣자 하니 데봉화물은\n"
-	.string "다시 돌아왔다더군$"
+	.string "아무래도 데봉화물은\n"
+	.string "다시 돌아온 모양이야$"
+	// どうやら デボンのにもつはｎ
+	// もどってきた らしいね
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter: @ 821151B
 	.string "어이쿠 관계자가 아니신 분은\n"
-	.string "여기서부터\l"
-	.string "앞으로 가실 수 없습니다!$"
+	.string "여기서부터 앞으로 가실 수 없습니다!$"
+	// おっと かんけいしゃ いがいの かたはｎ
+	// ここから さきには はいれませんよ!
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed: @ 8211558
 	.string "도둑에게 화물을 빼앗기다니\n"
 	.string "왜 이렇게 얼빠진 거야...$"
+	// どろぼうに にもつを うばわれるなんてｎ
+	// なんて ドジなんだろう……
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere: @ 8211585
 	.string "오!\n"
 	.string "너라면 언제나 환영이지!$"
+	// やあ!ｎ
+	// きみなら いつでも だいかんげい だよ!
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay: @ 82115AC
 	.string "돌이나 금속 샘플이\n"
@@ -157,7 +179,7 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay: @ 8211722
 	.string "  공업 제품 외에도\l"
 	.string "  일용품이나 약 등\p"
 	.string "  사람들에게 도움이 되는 것들을\n"
-	.string "  개발하고 있습니다\p"
+	.string "  개발하고 있습니다”\p"
 	.string "“또 현재로서는 몬스터볼이나\n"
 	.string "  포켓내비 등의 트레이너 용품도\l"
 	.string "  다루게 되었습니다”$"
