@@ -4111,7 +4111,7 @@ Route119_Text_DougPostBattle:
 Route119_Text_GregIntro:
 	.string "내가 누군지 모르지?\p"
 	.string "...뭐 나도 네가 누군지 모르니까\n"
-	.string "이렇게 배틀하는 거겠지만!$"
+	.string "이렇게 배틀하는 거지만!$"
 	// ボクが だれなのか わからないだろう?ｐ
 	// ……まあ ボクも キミのこと しらないからｎ
 	// こうして たたかうんだけどね!
@@ -5370,252 +5370,381 @@ Route124_Text_SpencerPostBattle:
 
 Route124_Text_RolandIntro:
 	.string "흥! 스스로 헤엄치지 않고\n"
-	.string "포켓몬을 타고 있다니...\p"
-	.string "엄청 부럽군!$"
+	.string "포켓몬에 타고 있다니...\p"
+	.string "완전 부러운데!$"
+	// むっ! じぶんで およがずにｎ
+	// ポケモンに のっている……ｐ
+	// なんて うらやましいんだ!
 
 Route124_Text_RolandDefeat:
 	.string "아아!\n"
 	.string "틀렸어...!$"
+	// ああ!ｎ
+	// ダメだ……!
 
 Route124_Text_RolandPostBattle:
-	.string "오랫동안 물속에 있었더니\n"
-	.string "몸이 차가워지기 시작했어...\p"
-	.string "너처럼 포켓몬을 타고 싶어$"
+	.string "몸이 차가워지기 시작했어...\n"
+	.string "오랫동안 물속에 있어서 그런가\p"
+	.string "너처럼 포켓몬에 타고 싶다$"
+	// からだが ひえてきた……ｎ
+	// ながいこと みずの なかに いるからだｐ
+	// きみのように ポケモンに のりたいよ
 
 Route124_Text_JennyIntro:
 	.string "이렇게 바다에 떠 있으면\n"
 	.string "포켓몬들이 놀러 와!$"
+	// こうして うみに うかんでいるとｎ
+	// ポケモンたちが あそびに くるのよ!
 
 Route124_Text_JennyDefeat:
-	.string "아-\n"
+	.string "아-아\n"
 	.string "져버렸어...$"
+	// あ-あｎ
+	// まけちゃった……
 
 Route124_Text_JennyPostBattle:
 	.string "바다에서 헤엄치고 있으면\n"
-	.string "공격하는 포켓몬도 있고\l"
+	.string "습격해오는 포켓몬도 있고\l"
 	.string "그냥 보고만 있는 포켓몬도 있어\p"
 	.string "포켓몬에게도 개성이 있는 거지!$"
+	// うみを およいでいるとｎ
+	// おそってくる ポケモンとｌ
+	// ただ みているだけの ポケモンが いるのｐ
+	// ポケモンにも こせいが あるのね!
 
 Route124_Text_JennyRegister:
-	.string "갑자기 너를\n"
-	.string "포켓내비에 등록하고 싶어졌어$"
+	.string "왠지 모르겠지만\n"
+	.string "포켓내비에 등록해 주면 좋겠어...$"
+	// なんとなく だけどｎ
+	// ポケナビ とうろく してもらおうかな……
 
 Route124_Text_JennyRematchIntro:
 	.string "이렇게 바다에 떠 있으면\n"
 	.string "트레이너가 배틀을 걸어와!$"
+	// こうして うみに うかんでいるとｎ
+	// トレ-ナ-が いどんで くるのよね!
 
 Route124_Text_JennyRematchDefeat:
-	.string "이상하네-\n"
+	.string "이상하네\n"
 	.string "또 져버렸어...$"
+	// おかしいなあｎ
+	// また まけちゃった……
 
 Route124_Text_JennyPostRematch:
-	.string "왠지 모르겠지만 미궁의 대저택에\n"
-	.string "가봐야 할 것 같아...$"
+	.string "왠지 모르겠지만\n"
+	.string "미궁의 대저택에 가보는 게 좋겠어...$"
+	// なんとなく だけどｎ
+	// カラクリやしきに いってみようかな……
 
 Route124_Text_GraceIntro:
 	.string "수영도 슬슬 질렸으니...\n"
 	.string "나랑 승부하자!$"
+	// およぐのにも あきた ところだし……ｎ
+	// わたしと しょうぶ しようよ!
 
 Route124_Text_GraceDefeat:
 	.string "이렇게 강할 줄은\n"
 	.string "전혀 예상도 못 했어!$"
+	// こんなに つよいなんてｎ
+	// おもいも しなかったわ!
 
 Route124_Text_GracePostBattle:
-	.string "꾸준히 열심히 해온 나날들이\n"
-	.string "바로 너의 실력이 된 거구나...!$"
+	.string "꾸준히 열심히 해온 날들이\n"
+	.string "너의 실력이 된 거구나...!$"
+	// ずっと がんばって きたことがｎ
+	// あなたの つよさなのね……!
 
 Route124_Text_ChadIntro:
 	.string "우후후후\n"
 	.string "나는 잠수 전문 스위머다\l"
 	.string "잠수는 나의 특기 중의 특기지!$"
+	// うふふふふｎ
+	// オレは モグリの スイマ-ｌ
+	// もぐりは とくいちゅうの とくいだぜ!
 
 Route124_Text_ChadDefeat:
 	.string "꼬륵꼬륵꼬륵...\n"
 	.string "가라앉는다...$"
+	// ゴボゴボゴボ……ｎ
+	// しずんでいく……
 
 Route124_Text_ChadPostBattle:
 	.string "바닷속으로 잠수할 수 있는 포인트가\n"
 	.string "이 근처에 있는 것 같다!\l"
 	.string "잠수 전문가의 피가 끓어오르는군...$"
+	// うみの そこに もぐれる ポイントがｎ
+	// この あたりには あるらしいぜ!ｌ
+	// モグリの ちが さわぐなあ……
 
 Route124_Text_LilaIntro:
-	.string "나미: 어휴-\p"
+	.string "나미: 하-아\p"
 	.string "모처럼 바다에 왔는데\n"
 	.string "동생이랑 같이 있다니...\p"
-	.string "너! 기분 전환할 겸\n"
-	.string "포켓몬 승부할래!?$"
+	.string "너 기분 전환할 겸 포켓몬 승부할래!?$"
+	// カコ『は-あｐ
+	// せっかくの うみ なのにｎ
+	// いっしょに いるのが おとうと なんて……ｐ
+	// あなた きばらしに ポケモン しようか!?
 
 Route124_Text_LilaDefeat:
 	.string "나미: 홍이 때문에 졌잖아!\n"
-	.string "나중에 혼날 줄 알아!$"
+	.string "나중에 혼날 줄 알아!!$"
+	// カコ『コウの せいで まけたのよ!ｎ
+	// あとで おしおき だかんね!!
 
 Route124_Text_LilaPostBattle:
-	.string "나미: 어휴-\p"
+	.string "나미: 하-아\p"
 	.string "옆에 있는 게 동생이 아니라\n"
-	.string "멋진 남자 친구라면 좋을 텐데...$"
+	.string "멋진 남자친구라면 좋을 텐데...$"
+	// カコ『は-あｐ
+	// となりに いるのが おとうと じゃなくてｎ
+	// すてきな かれし だったら いいのに……
 
 Route124_Text_LilaNotEnoughMons:
 	.string "나미: 우리랑 승부할 거야?\n"
 	.string "포켓몬 2마리가 없으면 안 돼$"
+	// カコ『あたしたちと たたかう つもり?ｎ
+	// ポケモン 2ひき いないと ダメよ
 
 Route124_Text_RoyIntro:
 	.string "홍이: 우리 누나는\n"
 	.string "포켓몬 승부에 엄청 강해!\l"
-	.string "지고서 엉엉 울지 말라고!$"
+	.string "지고 나서 엉엉 울지 말라고!$"
+	// コウ『オレの ねえちゃんｎ
+	// ポケモン つよいぞ!ｌ
+	// まけて ないたり するなよ!
 
 Route124_Text_RoyDefeat:
-	.string "홍이: 흐윽...\n"
-	.string "미안해 누나...$"
+	.string "홍이: 으아앙...\n"
+	.string "나중에 누나한테 혼날 거야...$"
+	// コウ『うわぁ……ｎ
+	// あとで ねえちゃんに おこられる……
 
 Route124_Text_RoyPostBattle:
 	.string "홍이: 우리 누나는\n"
 	.string "화나면 엄청 무서워...\p"
-	.string "그래서 남자 친구가 없어...$"
+	.string "그래서 남자친구가 없어...$"
+	// コウ『オレの ねえちゃんｎ
+	// おこると むちゃくちゃ こわいんだ……ｐ
+	// だから こいびと いないんだぜ……
 
 Route124_Text_LilaRoyRegister:
-	.string "홍이: 다시 승부하려고?\n"
-	.string "그럼 나중에 다시 와$"
+	.string "홍이: 다음에 또 승부해 줘\n"
+	.string "...그때는 봐줘야 돼!$"
+	// コウ『また こんど しょうぶしてよｎ
+	// ……そのときは てかげんして くれよ!
 
 Route124_Text_RoyNotEnoughMons:
 	.string "홍이: 우리랑 승부하려고?\n"
 	.string "그럼 포켓몬을 2마리 데려와!$"
+	// コウ『オレらと たたかう つもり?ｎ
+	// ポケモン 2ひき つれてきなよ!
 
 Route124_Text_LilaRematchIntro:
-	.string "나미: 어휴-\p"
+	.string "나미: 하-아\p"
 	.string "모처럼 바다에 왔는데\n"
 	.string "동생이랑 같이 있다니...\p"
-	.string "...어머? 너 오랜만이구나?\n"
-	.string "기분 전환으로 포켓몬 승부할래?$"
+	.string "어머? 너 오랜만이다?\n"
+	.string "기분 전환으로 포켓몬 승부할래!?$"
+	// カコ『は-あｐ
+	// せっかくの うみ なのにｎ
+	// いっしょに いるのが おとうと なんて……ｐ
+	// あら あなた ひさしぶりねｎ
+	// きばらしに ポケモン しようか!?
 
 Route124_Text_LilaRematchDefeat:
 	.string "나미: 홍이 너!\n"
 	.string "너 때문에 또 졌잖아!\l"
 	.string "넌 오늘부터 특훈이야!!$"
+	// カコ『コウったら!ｎ
+	// あんたの せいで また まけたでしょ!ｌ
+	// あとで とっくん だかんね!!
 
 Route124_Text_LilaPostRematch:
 	.string "나미: 하-아\p"
-	.string "나한테 멋진\n"
-	.string "남자 친구가 있었으면...\p"
-	.string "호흡을 척척 맞춰서\n"
-	.string "상대가 누구든 간에\l"
-	.string "이길 수 있을 텐데$"
+	.string "나한테 멋진 남자친구가 있었으면\n"
+	.string "멋진 콤비네이션으로\l"
+	.string "어떤 상대라도 이길 수 있을 텐데$"
+	// カコ『は-あｐ
+	// あたしに すてきな かれしが いたらなぁｎ
+	// すてきな コンビネ-ションでｌ
+	// どんな あいてにでも かっちゃうのに
 
 Route124_Text_LilaRematchNotEnoughMons:
 	.string "나미: 우리랑 승부할 거야?\n"
 	.string "포켓몬 2마리가 없으면 안 돼$"
+	// カコ『あたしたちと たたかう つもり?ｎ
+	// ポケモン 2ひき いないと ダメよ
 
 Route124_Text_RoyRematchIntro:
 	.string "홍이: 지면 내가 혼나니까\n"
-	.string "진짜 젖 먹던 힘까지 다 내겠어!$"
+	.string "완전 진심으로 할 거야!$"
+	// コウ『まけたら オレが おこられるからｎ
+	// むちゃくちゃ ほんきで がんばるぞ!
 
 Route124_Text_RoyRematchDefeat:
-	.string "홍이: 흐앙-\n"
-	.string "제발 좀 봐줘 누나-$"
+	.string "홍이: 으아앙...\n"
+	.string "또 누나한테 혼날 거야...$"
+	// コウ『うわぁ……ｎ
+	// また ねえちゃんに おこられる……
 
 Route124_Text_RoyPostRematch:
 	.string "홍이: 우리 누나는\n"
 	.string "화나면 엄청 무서워...\p"
 	.string "이제 내일부터 나는 누나랑\n"
 	.string "포켓몬 맹훈련이야...$"
+	// コウ『オレの ねえちゃんｎ
+	// おこると むちゃくちゃ こわいんだ……ｐ
+	// あとで オレと ポケモンｎ
+	// もうとっくん だよ……
 
 Route124_Text_RoyRematchNotEnoughMons:
 	.string "홍이: 우리랑 승부하려고?\n"
 	.string "그럼 포켓몬을 2마리 데려와!$"
+	// コウ『オレらと たたかう つもり?ｎ
+	// ポケモン 2ひき つれてきなよ!
 
 Route124_Text_DeclanIntro:
-	.string "이렇게 넓고 아름다운 바다에서\n"
-	.string "홀로 수영하고 있다...\p"
-	.string "너무 외롭네...$"
+	.string "이렇게 예쁜 바다에서\n"
+	.string "홀로 수영하고 있는 나!\l"
+	.string "솔직히 너무 외로워!$"
+	// こんな きれいな うみでｎ
+	// ひとりで およいでいる オレ!ｌ
+	// はっきりいって かなしすぎます!
 
 Route124_Text_DeclanDefeat:
-	.string "하늘은 파랗고\n"
-	.string "나는 우울하네...$"
+	.string "슬프다\n"
+	.string "하늘이 파란 게 슬퍼$"
+	// かなしいｎ
+	// そらの あおさが かなしい
 
 Route124_Text_DeclanPostBattle:
-	.string "비키니 아가씨랑 이야기도 하고\n"
-	.string "같이 수영도 하고 싶다$"
+	.string "비키니 아가씨를 꼬셔서\n"
+	.string "수영하는 모습을 뽐내볼까?$"
+	// ビキニのおねえさんを さそってｎ
+	// えんえいと しゃれこんで みようかな?
 
 Route124_Text_IsabellaIntro:
-	.string "파도타기 트레이너에게 지지 않아$"
+	.string "파도타기 트레이너에겐 안 질 거야!$"
+	// なみのりトレ-ナ- なんかに まけないわ!
 
 Route124_Text_IsabellaDefeat:
-	.string "우는 게 아니라\n"
-	.string "땀이 눈에 들어간 거야!$"
+	.string "으흑 뚝뚝\n"
+	.string "이 이건 땀이야! 운 거 아니거든!$"
+	// ううっ ポタポタｎ
+	// こ これは すいてきよ! ないてないわよ!
 
 Route124_Text_IsabellaPostBattle:
-	.string "이 근처에서 이쁜 조각을\n"
-	.string "찾을 수 있을 거야$"
+	.string "색이 이쁜 조각을\n"
+	.string "이 주변에서 찾을 수 있을 거야$"
+	// きれいな いろの カケラがｎ
+	// この あたりで みつかることが あるわよ
 
 Route125_Text_NolenIntro:
 	.string "네가 오는 소리를 듣고\n"
 	.string "기다리고 있었어!$"
+	// キミが やってくる おとがｎ
+	// きこえて いたから まってたよ!
 
 Route125_Text_NolenDefeat:
-	.string "졌어요!$"
+	.string "내 패배야...!$"
+	// まいりました……!
 
 Route125_Text_NolenPostBattle:
 	.string "소리가 전달되는 속도는\n"
 	.string "공기 중에서보다\l"
 	.string "수중에서 더 빨라!$"
+	// くうきちゅう よりもｎ
+	// すいちゅうの ほうが おとの つたわるｌ
+	// スピ-ドが はやいんだよ!
 
 Route125_Text_StanIntro:
 	.string "이야-압!\n"
 	.string "내 귀여운 포켓몬이다-!!$"
+	// おら-っ!!ｎ
+	// おれの かわいい ポケモンだ-!!
 
 Route125_Text_StanDefeat:
-	.string "져버렸다...!$"
+	.string "큰일이군...!$"
+	// まいったぜ……!
 
 Route125_Text_StanPostBattle:
-	.string "쏘드라의 매력에 빠져버려서\n"
+	.string "쏘드라의 매력에 빠져서\n"
 	.string "나도 헤엄치게 되었다-!$"
+	// タッツ-の みりょくに まいってｎ
+	// おれも およぐように なったんだ-!
 
 Route125_Text_TanyaIntro:
 	.string "수영하다가 지쳐버렸어!\n"
-	.string "나랑 한번 승부해볼래?$"
+	.string "나랑 한번 승부 어때?$"
+	// およぎ つかれちゃった!ｎ
+	// わたしと ひとしょうぶ どう?
 
 Route125_Text_TanyaDefeat:
 	.string "넌 너무 강해!$"
+	// あんた つよすぎ!
 
 Route125_Text_TanyaPostBattle:
-	.string "허억... 허억...\n"
-	.string "이끼시티는 어느 쪽이더라?$"
+	.string "후우... 후우...\n"
+	.string "이끼시티는 어느 쪽이었지?$"
+	// ふう ふう……ｎ
+	// トクサネシティは どっち だったっけ?
 
 Route125_Text_SharonIntro:
 	.string "내가 키운 물포켓몬과\n"
 	.string "승부해 볼래?$"
+	// わたしの そだてた みずポケモンとｎ
+	// たたかって みない?
 
 Route125_Text_SharonDefeat:
 	.string "졌다...$"
+	// まけた……
 
 Route125_Text_SharonPostBattle:
-	.string "넌 진짜 강하구나!?\n"
+	.string "넌 진짜 강하구나!\n"
 	.string "깜짝 놀랐어!$"
+	// あなたの つよさは ホンモノね!ｎ
+	// おどろいたわ!
 
 Route125_Text_ErnestIntro:
 	.string "나는야 듬직한 선원!\n"
 	.string "전 세계의 바다를 건너는 남자지!$"
+	// オレさまは たくましい ふなのり!ｎ
+	// せかいの うみを わたりあるく おとこ!
 
 Route125_Text_ErnestDefeat:
 	.string "크아아악-!\n"
 	.string "이길 수 없다...!$"
+	// ぐおおお-っ!ｎ
+	// かてねえ……!
 
 Route125_Text_ErnestPostBattle:
 	.string "여울의 동굴은 시간에 따라\n"
 	.string "바닷물이 차고 빠지는 걸 반복한다!\p"
 	.string "참고로 밀물에서 썰물까지\n"
 	.string "약 6시간이 걸린다고! 알고 있었나?$"
+	// あさせのほらあな は じかんによってｎ
+	// しおが みちたり ひいたり するんだ!ｐ
+	// ちなみに みちしお から ひきしお までｎ
+	// およそ 6じかんだぞ! しっていたか?
 
 Route125_Text_ErnestRegister:
-	.string "포켓내비에 등록해주면\n"
-	.string "좋은 얘기해줄겠다!$"
+	.string "포켓내비에 등록해 주면\n"
+	.string "좋은 걸 가르쳐 주마!$"
+	// ポケナビ とうろく して くれたらｎ
+	// いいことを おしえて やるよ!
 
 Route125_Text_ErnestRematchIntro:
-	.string "오! 드디어 여기서 만났군\n"
+	.string "오! 여기서 100년을 기다렸다고!\n"
 	.string "일단 무조건 포켓몬 승부다!$"
+	// おっと ここで あったが 100ねんめ!ｎ
+	// とにかく ポケモンしょうぶ だっ!
 
 Route125_Text_ErnestRematchDefeat:
 	.string "이길 수 없어\n"
 	.string "절대 이길 수가 없다!$"
+	// かてねえｎ
+	// ちっとも かてねえよ!
 
 Route125_Text_ErnestRematchPostBattle:
 	.string "여울의 동굴...\p"
@@ -5624,65 +5753,102 @@ Route125_Text_ErnestRematchPostBattle:
 	.string "갈 수 없는 곳이 있다\p"
 	.string "참고로 밀물에서 썰물까지\n"
 	.string "약 6시간이 걸린다고! 기억해둬!$"
+	// あさせのほらあな……ｐ
+	// しおの みちひきに よってｎ
+	// いけたり いけなかったり するｌ
+	// ばしょが あるんだよなｐ
+	// ちなみに みちしお から ひきしお までｎ
+	// およそ 6じかんだぞ! おぼえておけよ!
 
 Route125_Text_KimIntro:
 	.string "매희: 여울의 동굴에\n"
 	.string "이상한 할아버지가 있대!\l"
 	.string "너도 만나러 가는 중이니?$"
+	// マホ『あさせのほらあなにｎ
+	// へんな じいさんが いるんだって!ｌ
+	// あなたも あいにいく とちゅう?
 
 Route125_Text_KimDefeat:
-	.string "매희: 이길 수 있다고 생각했는데...$"
+	.string "매희: 이길 수 있다고 생각했는데$"
+	// マホ『かてると おもったのに
 
 Route125_Text_KimPostBattle:
 	.string "매희: 여울의 동굴에\n"
-	.string "이상한 할아버지가 있는 거 맞지?\p"
-	.string "자, 나호야 빨리 만나러 가자!$"
+	.string "이상한 할아버지가 있는 거지?\p"
+	.string "자 나호야 빨리 만나러 가자!$"
+	// マホ『あさせのほらあなにｎ
+	// へんな じいさんが いるんでしょ?ｐ
+	// さっ ナホちゃん あいに いくよ!
 
 Route125_Text_KimNotEnoughMons:
 	.string "매희: 안 된다니까!\n"
 	.string "포켓몬이 2마리 없으면 안 된다고!$"
+	// マホ『ダメだって!ｎ
+	// ポケモン 2ひき いないと ダメだって!
 
 Route125_Text_IrisIntro:
 	.string "나호: 선배님\n"
 	.string "이런 곳에 뭐가 있다는 거죠?$"
+	// ナホ『センパイｎ
+	// こんな ところに なにが あるんですかぁ?
 
 Route125_Text_IrisDefeat:
-	.string "나호: 중간에 잠깐\n"
-	.string "이길 뻔했을 때도 있었는데...$"
+	.string "나호: 도중에 역전할 수 있었는데$"
+	// ナホ『とちゅう おしいところ あったのに
 
 Route125_Text_IrisPostBattle:
-	.string "나호: 선배... 진짜로 여울의 동굴에\n"
-	.string "들어가려고요?\l"
-	.string "옷이 다 젖어서 엉망이 될 텐데요?$"
+	.string "나호: 선배... 정말로\n"
+	.string "여울의 동굴에 들어가려고요?\l"
+	.string "옷이 다 젖을 텐데요?$"
+	// ナホ『センパイ…… ほんとにｎ
+	// あさせのほらあなに はいりますぅ?ｌ
+	// ぬれちゃいますよぉ?
 
 Route125_Text_IrisNotEnoughMons:
 	.string "나호: 2대 1로 승부하다니\n"
 	.string "우리들은 그런 짓 할 수 없어$"
+	// ナホ『2たい1で しょうぶ なんてｎ
+	// そんな まね あたしたちに できないわ
 
 Route125_Text_PresleyIntro:
-	.string "왜 새 조련사가 바다에 있냐고$"
+	.string "새 조련사인 내가\n"
+	.string "왜 바다에 있냐면...$"
+	// とりつかいの ボクがｎ
+	// なぜ うみにまで きているかと いうと……
 
 Route125_Text_PresleyDefeat:
-	.string "내가 여기에 왜 있냐면은$"
+	.string "알았어\n"
+	.string "왜 여기에 있는지 알려 줄게$"
+	// わかったｎ
+	// なんで ここに いるか おしえてやるよ
 
 Route125_Text_PresleyPostBattle:
-	.string "편지를 병에 넣어\n"
-	.string "바다에 던졌는데\p"
-	.string "그걸 비키니 걸이\n"
-	.string "발견한 거 같아!!$"
+	.string "편지를 병에 넣어서\n"
+	.string "방금 바다에 던졌거든!\p"
+	.string "분명 귀여운 비키니 걸이\n"
+	.string "주워줬을 거야!!$"
+	// あきビンに メ-ルを いれてｎ
+	// さっき うみに ながしたんだ!ｐ
+	// きっと かわいい ビキニの おんなのコがｎ
+	// ひろって くれるぜ!
 
 Route125_Text_AuronIntro:
-	.string "이봐!\n"
-	.string "바다에 쓰레기를 던진 게 자네인가?$"
+	.string "이보게-!\n"
+	.string "바다에 쓰레기를 버린 건 자네인가?$"
+	// こら-ッ! おぬしかッｎ
+	// うみに ゴミを すてたのは!
 
 Route125_Text_AuronDefeat:
-	.string "그렇군 자네가 아니라고...$"
+	.string "자네가 아니었던 건가$"
+	// おぬしでは なかったか
 
 Route125_Text_AuronPostBattle:
-	.string "파도에 밀려온 편지가 있는\n"
-	.string "병을 발견했단다\p"
-	.string "누군가 바다를 오염시키려고\n"
-	.string "버린 게 분명하다!$"
+	.string "방금 이 근처에서\n"
+	.string "더러운 병을 주웠다네!\l"
+	.string "바다에 쓰레기를 버리다니 괘씸한 것!$"
+	// さっき この あたりでｎ
+	// こきたない ビンを ひろったんじゃ!ｌ
+	// うみに ゴミを すてるとは なっとらん!
 
 Route126_Text_BarryIntro:
 	.string "수영은 전신 운동!\n"

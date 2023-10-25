@@ -29,14 +29,22 @@ SlateportCity_PokemonCenter_1F_EventScript_Woman:: @ 820DAEA
 SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon: @ 820DAF3
 	.string "승부의 요령이라...\p"
 	.string "다양한 포켓몬을\n"
-	.string "균형 있게 키우는 게 아닐까?\p"
-	.string "한 마리만 엄청 강하다 해도\n"
+	.string "균형 있게 키우는 거 아닐까?\p"
+	.string "한 마리만 강하다 해도\n"
 	.string "상성이 불리한 포켓몬과 만나면\l"
-	.string "어떻게 해볼 방법이\l"
-	.string "없을 테니까 말이야$"
+	.string "손발도 못 쓰고 질 수 있거든$"
+	// しょうぶの コツ……ｐ
+	// いろんな ポケモンをｎ
+	// バランスよく そだてることじゃ ないか?ｐ
+	// いっぴきだけ つよくてもｎ
+	// にがてな ポケモンに であってしまうとｌ
+	// ても あしも でなくなりそうだぜ
 
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend: @ 820DBBC
 	.string "친구랑 포켓몬 교환했을 때\p"
 	.string "포켓몬이 도구를 지니고 있으면\n"
 	.string "2배로 기뻐-!!$"
+	// ともだちと ポケモンこうかん するでしょｐ
+	// ポケモンが どうぐを もっているとｎ
+	// 2ばい うれしく なるよね-!!
 

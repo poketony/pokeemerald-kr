@@ -345,60 +345,90 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon: @ 820A445
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing: @ 820A62A
 	.string "그대의 포켓몬은 잘 자라고 있나요?\n"
 	.string "한번 봐 보도록 하죠!$"
+	// きみの ポケモン そだって ますかな?ｎ
+	// ちょっと はいけん させて もらいますぞ!
 
 SlateportCity_PokemonFanClub_Text_HmHmISee: @ 820A65F
 	.string "흠흠...\n"
-	.string "그렇군...$"
+	.string "과연...$"
+	// ふむふむ……ｎ
+	// なるほど……
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks: @ 820A66E
 	.string "흠...\n"
-	.string "나쁘진 않지만\l"
-	.string "그렇다고 좋지도 않고...\p"
-	.string "어버이 트레이너인 그대의 노력이\n"
-	.string "필요할 거 같네요!\p"
+	.string "나쁘진 않지만 좋지도 않군요...\p"
+	.string "어버이 트레이너인 그대의\n"
+	.string "노력이 필요할 거 같네요!\p"
 	.string "예를 들어 더 많이\n"
 	.string "포켓몬스넥을 주는 건 어떨까요?$"
+	// ふむう……ｎ
+	// わるくは ないんだが よくもない……ｐ
+	// おやの トレ-ナ-である きみのｎ
+	// どりょくが ひつよう ですな!ｐ
+	// たとえば もっと たくさんｎ
+	// ポロックを あげるのは どうですかな?
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward: @ 820A719
-	.string "오오...\p"
-	.string "그대의 포켓몬은\n"
-	.string "진짜 잘 성장했네요!\l"
-	.string "따라서 상을 드려야겠지만\p"
-	.string "아쉽게도 가방이\n"
-	.string "가득 차신 모양이군요$"
+	.string "이런...\p"
+	.string "제법 포켓몬을 잘 키우고 있으니\n"
+	.string "좋은 선물을 주려고 했는데\l"
+	.string "가방이 가득 차신 모양이군요$"
+	// あらら……ｐ
+	// けっこう ポケモンが そだっているのでｎ
+	// いいものを あげようと おもったのですがｌ
+	// もちものが いっぱい ですな
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis: @ 820A795
 	.string "그대의 {STR_VAR_1} 말인데요\n"
 	.string "진짜 잘 성장했네요!\l"
 	.string "이야- 정말 대단해요!\p"
 	.string "하지만 이 도구를 지니게 하면\n"
-	.string "더욱 매력이 올라갈 거예요\l"
-	.string "제가 보장합니다!$"
+	.string "더욱 잘 키울 수 있을 겁니다!$"
+	// きみの §い ですがｎ
+	// なかなか みごとに そだって おりますな!ｌ
+	// いや- たいした ものです!ｐ
+	// だが この どうぐを つかって あげたならｎ
+	// もっと そだつこと まちがいなし! ですぞ!
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf: @ 820A827
 	.string "그 빨강밴드를 지니게 하면\n"
 	.string "포켓몬의 근사함을\l"
 	.string "모두에게 인정받게 될 거예요!$"
+	// その あかいバンダナを もたせるとｎ
+	// ポケモンの かっこよさをｌ
+	// みんなに みとめさせることが できますぞ!
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf: @ 820A880
 	.string "그 파랑밴드를 지니게 하면\n"
 	.string "포켓몬의 아름다움을\l"
 	.string "지금보다 더 뽐낼 수 있게 될 거예요!$"
+	// その あおいバンダナを もたせるとｎ
+	// ポケモンの うつくしさをｌ
+	// いまより きわだたせることが できますぞ!
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf: @ 820A8D7
 	.string "그 분홍밴드를 지니게 하면\n"
 	.string "포켓몬의 귀여움을\l"
 	.string "더 이끌어 낼 수 있을 거예요!$"
+	// その ピンクのバンダナを もたせるとｎ
+	// ポケモンの かわいさをｌ
+	// もっと ひきだすことが できますぞ!
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf: @ 820A933
 	.string "그 초록밴드를 지니게 하면\n"
 	.string "포켓몬의 슬기로움을\l"
-	.string "더욱 성장시킬 수 있을 거예요!$"
+	.string "더욱 갈고닦을 수 있을 거예요!$"
+	// その みどりのバンダナを もたせるとｎ
+	// ポケモンの かしこさをｌ
+	// さらに みがくことが できますぞ!
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf: @ 820A984
 	.string "그 노랑밴드를 지니게 하면\n"
 	.string "포켓몬의 강인함을\l"
 	.string "더욱 어필할 수 있을 거예요!$"
+	// その きいろのバンダナを もたせるとｎ
+	// ポケモンの たくましさをｌ
+	// いっそう アピ-ル できますぞ!
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou: @ 820A9E1
 	.string "그대에게 줄 도구는\n"
@@ -406,53 +436,81 @@ SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou: @ 820A9E1
 	.string "왜냐하면 도구에 기대지 않아도\n"
 	.string "포켓몬을 키우는 그대의 능력은\l"
 	.string "환상적이니까요!$"
+	// きみに あげる どうぐはｎ
+	// もう なにも ないですぞ!ｐ
+	// なにしろ どうぐに たよらんでもｎ
+	//きみの ポケモンを そだてるｌ
+	// さいのうは バツグン ですからな!
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou: @ 820AA77
-	.string "난 포켓몬이\n"
-	.string "사람을 따르는 모습을\l"
+	.string "난 포켓몬이 사람을 따르는 모습을\n"
 	.string "보는 게 너무 좋아\p"
 	.string "포켓몬은 함께 있는\n"
 	.string "사람의 감정에 매우 민감해!\p"
 	.string "네가 포켓몬을 소중하게 여기면\n"
-	.string "포켓몬도 너를\l"
-	.string "금세 따르게 될 거야!\p"
-	.string "네 포켓몬이\n"
-	.string "너를 잘 따르기 시작하면\l"
+	.string "포켓몬도 너를 따르게 될 거야!\p"
+	.string "네 포켓몬이 너를 따르기 시작하면\n"
 	.string "나한테도 좀 보여줘$"
+	// わたし ポケモンが なついているｎ
+	// すがたを みるのが すきｐ
+	// ポケモンって いっしょに いるｎ
+	// ひとの きもちに すごく びんかん!ｐ
+	// あなたが ポケモンを だいじに すればｎ
+	// ポケモンも あなたに なついてくれるわ!ｐ
+	// あなたの ポケモンが あなたに なついたらｎ
+	// わたしにも みせてね
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou: @ 820AB63
 	.string "네 포켓몬\n"
 	.string "널 정말 잘 따르고 있구나\p"
 	.string "포켓몬에게 자상한 트레이너를 위한\n"
 	.string "애호가클럽의 선물이야$"
+	// あなたの ポケモンｎ
+	// あなたに なついているのねｐ
+	// ポケモンに やさしい トレ-ナ-さんにｎ
+	// だいすきクラブからの おくりもの よ
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove: @ 820ABC4
 	.string "포켓몬은 함께 있는\n"
 	.string "사람의 감정에 매우 민감해!\p"
 	.string "네가 포켓몬을 소중하게 여기면\n"
-	.string "포켓몬도 너를\l"
-	.string "금세 따르게 될 거야!$"
+	.string "포켓몬도 너를 따르게 될 거야!$"
+	// ポケモンって いっしょに いるｎ
+	// ひとの きもちに すごく びんかん!ｐ
+	// あなたが ポケモンを だいじに すればｎ
+	// ポケモンも あなたに なついてくれるわ!
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting: @ 820AC47
 	.string "포켓몬 승부에서 져서\n"
 	.string "기절을 많이 하게 되면\l"
 	.string "포켓몬이 점점 위축돼서\l"
 	.string "트레이너를 의심하기 시작해\p"
-	.string "다시 말해서\n"
-	.string "잘 따르지 않게 된다는 거야$"
+	.string "즉 잘 따르지 않게 된다는 거야$"
+	// ポケモンしょうぶに まけてｎ
+	// ひんしに させて ばかりだとｌ
+	// ポケモンが どんどん すさんでｌ
+	// トレ-ナ-のこと うたがう ようになるｐ
+	// つまり なついて くれなくなるよ
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein: @ 820ACF9
 	.string "포켓몬은 자기한테 도구를\n"
 	.string "써 주는 게 좋은 걸까?\p"
 	.string "왜냐면 타우린 같은 걸 주면\n"
 	.string "정말 기뻐하잖아!$"
+	// ポケモンって どうぐｎ
+	// つかってもらうのが すきなのかな?ｐ
+	// だって タウリンとか あげるとｎ
+	// すごく うれしそうに するのよ!
 
 SlateportCity_PokemonFanClub_Text_Skitty: @ 820AD5A
-	.string "에나비: 에냐-아$"
+	.string "에나비: 후냐-아$"
+	// エネコ『ふにゃあ-あ
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon: @ 820AD6E
-	.string "지그제구리: 지규....$"
+	.string "지그제구리: 지규우....$"
+	// ジグザグマ『キュウウ……
 
 SlateportCity_PokemonFanClub_Text_Azumarill: @ 820AD80
 	.string "마릴리: 마리 마리!?$"
+	// マリルリ『マリ マリ!?
 

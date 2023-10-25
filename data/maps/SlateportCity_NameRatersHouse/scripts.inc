@@ -77,31 +77,51 @@ SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname: @ 8209B8E
 	.string "이름으로 점을 보는 사람이지\p"
 	.string "자! 자네 포켓몬의\n"
 	.string "별명을 감정해 주겠네$"
+	// はい はい!ｎ
+	// わたしは せいめい はんだんしｌ
+	// いうなれば なまえの うらないですｐ
+	// はい あなたの ポケモンのｎ
+	// ニックネ-ムを うらなって あげるよ
 
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname: @ 8209BFF
 	.string "어떤 포켓몬의\n"
 	.string "별명을 감정하겠나?$"
+	// どの ポケモンのｎ
+	// ニックネ-ムを うらなうかね?
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne: @ 8209C2B
-	.string "음- {STR_VAR_1}{K_I}라...\p"
-	.string "꽤 좋은 닉네임을 지었군\p"
+	.string "음- {STR_VAR_1}{K_I}라...\n"
+	.string "꽤 좋은 별명을 지었군\p"
 	.string "그렇지만-\n"
 	.string "내가 조금 더 좋은 이름을\l"
-	.string "지어주고 싶은데, 어떤가?$"
+	.string "지어주고 싶은데 어떤가?$"
+	// う-む §いか……ｎ
+	// なかなか いい ニックネ-ムを つけたねｐ
+	// でもね-ｎ
+	// もう すこしだけ いい なまえをｌ
+	// わたしが つけて あげようか? どうかな?
 
 SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe: @ 8209CA4
 	.string "그래 그럼\n"
 	.string "어떤 별명으로 해줄까?$"
+	// そうか ではｎ
+	// どんな ニックネ-ムに しようかな
 
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName: @ 8209CD4
 	.string "좋아 이제부터\n"
 	.string "이 포켓몬은 {STR_VAR_1}{K_I}라네!\p"
 	.string "전보다 좋은 이름이지 않은가\n"
 	.string "잘됐군!$"
+	// よし これからｎ
+	// この ポケモンは §いだ!ｐ
+	// まえより いい なまえ じゃないかｎ
+	// よかったな!
 
 SlateportCity_NameRatersHouse_Text_DoVisitAgain: @ 8209D42
 	.string "알았네\n"
 	.string "그럼 또 오게나$"
+	// そうかｎ
+	// わかった また きなさいよ
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior: @ 8209D5E
 	.string "좋아 이제부터\n"
@@ -109,6 +129,11 @@ SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior: @ 8209D5E
 	.string "전과 같아 보이지만\n"
 	.string "이쪽이 당연히 더 좋다고!\l"
 	.string "잘됐군!$"
+	// よし これからｎ
+	// この ポケモンは §いだ!ｐ
+	// まえと おなじように みえるがｎ
+	// こっちの ほうが だんぜん いいぞ!ｌ
+	// よかったな!
 
 SlateportCity_NameRatersHouse_Text_MagnificentName: @ 8209DF0
 	.string "음- {STR_VAR_1}{K_I}라!\n"
@@ -116,8 +141,15 @@ SlateportCity_NameRatersHouse_Text_MagnificentName: @ 8209DF0
 	.string "흠잡을 데가 없어!\p"
 	.string "앞으로도 {STR_VAR_1}{K_EULREUL}\n"
 	.string "귀여워해 주게나!$"
+	// う-む §いか!ｎ
+	// これは すばらしい ニックネ-ムだ!ｌ
+	// けちの つけようもない!ｐ
+	// これからも §いをｎ
+	// かわいがって あげなさいよ!
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg: @ 8209E74
 	.string "이보게나...\n"
 	.string "그것은 알이지 않은가!$"
+	// おいおい……ｎ
+	// それは タマゴ じゃないか!
 

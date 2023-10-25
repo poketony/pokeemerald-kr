@@ -323,7 +323,7 @@ SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons: @ 8208DA6
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection: @ 8208DF1
 	.string "멋진 트레이너 오빠도\n"
-	.string "빌릴 수 있으면 좋을 텐데$"
+	.string "빌릴 수 있으면 좋겠다$"
 	// ステキな トレ-ナ-の おにいさんもｎ
 	// かしだして くれれば いいのにぃ
 

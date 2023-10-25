@@ -279,57 +279,78 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3:: @ 820BD76
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts: @ 820BD8D
-	.string "응?\n"
-	.string "해양관장은 나다만...?\p"
-	.string "오오! 그것은 데봉의\n"
-	.string "나발명사장에게\l"
+	.string "응? 해양관장은 나인데...?\p"
+	.string "오오! 그건 데봉의 나발명씨에게\n"
 	.string "부탁해둔 파츠구나!\p"
 	.string "이야- 정말 수고했다!\n"
 	.string "덕분에 출발할 수 있을 것 같군...$"
+	// はい? クスノキは わたし だが……?ｐ
+	// おお! それは デボンの ツワブキさんにｎ
+	// たのんで おいた パ-ツだね!ｐ
+	// いや- どうも ごくろうさま!ｎ
+	// おかげで しゅっぱつ できそうだ……
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts: @ 820BE40
-	.string "헤헤헤...\p"
-	.string "그 파츠\n"
-	.string "우리가 가져가겠어!$"
+	.string "헤헤헤 그 파츠는\n"
+	.string "우리가 접수하도록 하지!$"
+	// へへへ その パ-ツｎ
+	// おれたちが いただくぜ!
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou: @ 820BE69
-	.string "해양: 누... 누구냐!\n"
-	.string "너희는!?$"
+	.string "해양: 누... 누구냐 너희는!$"
+	// クスノキ『だ だれだ きみたちは!
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua: @ 820BE93
 	.string "우리는 아쿠아단!\p"
 	.string "리더가 그 파츠를 원하고 있다!\n"
 	.string "아무 말 말고 내놔!$"
+	// おれたち アクアだん!ｐ
+	// リ-ダ-が そのパ-ツを ほしがってるんだ!ｎ
+	// なにも いわずに よこせ!
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat: @ 820BEE2
-	.string "하으으으...\n"
+	.string "우와-!\n"
 	.string "어린애에게 당했다!$"
+	// うわ-!ｎ
+	// こどもに やられちまった!
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious: @ 820BEFA
-	.string "...큰일이다!\p"
-	.string "이대로라면\n"
+	.string "위험한데...\n"
 	.string "리더에게 혼나고 말 거야...$"
+	// やばい……ｎ
+	// リ-ダ-に おこられちまうぞ……
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis: @ 820BF35
 	.string "흥! 칠칠치 못한 녀석 같으니!\n"
-	.string "나에게 맡겨두라고!$"
+	.string "여기선 나한테 맡기라고!$"
+	// ふん! だらしない やつめ!ｎ
+	// ここは おれに まかせてもらうぜ!
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat: @ 820BF66
-	.string "뭐라고!\n"
+	.string "말도 안 돼!\n"
 	.string "나도 져버렸어!$"
+	// なんだと!ｎ
+	// おれも まけてしまった!
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid: @ 820BF7A
-	.string "어떡하지... 파츠를\n"
-	.string "뺏지 못하면 곤란하지 않나?\p"
-	.string "음...\p"
-	.string "설마 어린애에게 방해를 받다니\n"
-	.string "눈곱만큼도 생각 못했어$"
+	.string "어 어떡하지...\n"
+	.string "파츠를 뺏지 못하면 곤란하지 않나?\p"
+	.string "으음...\n"
+	.string "설마 어린애에게 방해받다니\l"
+	.string "눈곱만큼도 생각 못 했어$"
+	// ど どうしよう……ｎ
+	// パ-ツを うばえないと まずくないか?ｐ
+	// うむ……ｎ
+	// まさか こどもに じゃま されるなんてｌ
+	// これっぽっちも おもってなかったぜ
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong: @ 820BFF2
 	.string "파츠를 빼앗는데\n"
-	.string "언제까지 걸리나 했더니\p"
-	.string "이런 꼬마에게\n"
-	.string "방해받고 있었나?$"
+	.string "언제까지 걸리나 했더니\l"
+	.string "이런 꼬마에게 방해받고 있었나?$"
+	// パ-ツを うばうのにｎ
+	// いつまで かかっているのかと おもえばｌ
+	// こんな こどもに じゃま されていたのか?
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning: @ 820C059
 	.string "우리들은\n"
@@ -389,11 +410,18 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs: @ 820C2BE
 	.string "참 그렇지!\n"
 	.string "네가 데봉에 부탁해뒀던 파츠를\l"
 	.string "가져온 걸 깜빡했구나!$"
+	// クスノキ『きみは……ｎ
+	// そうか §あ§お というのか……ｐ
+	// いやあ あぶない ところ だった!ｎ
+	// たすけてくれて ありがとうよ!ｐ
+	// おっと そうだった!ｎ
+	// デボンに たのんでおいた パ-ツをｌ
+	// もってきて くれたの わすれていたよ!
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo: @ 820C36C
 	.string "해양: 어이쿠!\n"
 	.string "이러고 있을 때가 아니지!\p"
-	.string "슬슬 해저 조사로\n"
+	.string "슬슬 해저 조사하러\n"
 	.string "출발할 시간이군!\p"
 	.string "나는 이만 실례하겠지만\n"
 	.string "너는 차분히 안을\l"
@@ -407,24 +435,30 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo: @ 820C36C
 	// けんぶつ していって くれたまえ!
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip: @ 820C43F
-	.string "이 모형 배를 보고 있자니\p"
-	.string "무로마을 근처의\n"
+	.string "배 모형을 보고 있자니\n"
+	.string "무로마을 근처의\l"
 	.string "버려진 배가 생각나는구먼...$"
+	// ふねの もけいを みておるとｎ
+	// ムロの ちかくに あるｌ
+	// すてられぶねを おもいだすのう……
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum: @ 820C495
-	.string "박물관 안에서는\n"
+	.string "박물관 안에서\n"
 	.string "뛰어다니면 못써!$"
+	// はくぶつかんの なかをｎ
+	// はしり まわるんじゃ ありませんよッ!
 
 SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine: @ 820C4C2
 	.string "잠수정 멋있다-!\n"
 	.string "나도 타고 싶어-!$"
+	// せんすいてい かっこい-!ｎ
+	// おれも のりて-よ!
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1: @ 820C4F9
 	.string "“수질 샘플 1”\n"
 	.string "이라고 적힌 라벨이 붙어 있다!\p"
 	.string "바다는 모두 연결되어 있는데도\n"
-	.string "지역에 따라\l"
-	.string "조금 차이가 있는 듯하다$"
+	.string "지역에 따라 조금씩 차이가 있는 듯하다$"
 	// 「すいしつ サンプル 1」ｎ
 	// と かかれた ラベルが はってある!ｐ
 	// うみは みんな つながって いるのにｎ
@@ -444,45 +478,75 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment: @ 820C5C6
 	.string "고무로 만들어진 볼이\n"
 	.string "팽창과 수축을 반복하고 있다!\p"
 	.string "“바닷속에서는 수압이라는\n"
-	.string "  물 자체의 무게가 가해집니다\p"
-	.string "  얕은 곳에서는 수압이 약하고\n"
+	.string "  물 자체의 무게가 가해집니다”\p"
+	.string "“얕은 곳에서는 수압이 약하고\n"
 	.string "  깊은 곳에서는 몇만 톤에 달하는\l"
 	.string "  수압의 영향을 받게 됩니다”$"
+	// ゴムで できた ボ-ルがｎ
+	// ふくらんだり しぼんだり している!ｐ
+	// 「うみの そこには すいあつ といってｎ
+	//  みずじたいの おもさが かかります」ｐ
+	// 「あさい ところでは すいあつも かるくｎ
+	//  ふかい ところでは なんまんトン ものｌ
+	//  すいあつが かかるのです」
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel: @ 820C6C7
 	.string "“호연지방의 모형”\p"
-	.string "호연지방 전체를 축소한 모형이다!\p"
+	.string "호연지방 전체를 축소한 모형이다!\n"
 	.string "미로마을은 어디쯤일까?$"
+	// 「ホウエン ちほうの もけい」ｐ
+	// ホウエンちほう ぜんたいの ミニチュアだ!ｎ
+	// ミシロタウンは どのへん だろう?
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay: @ 820C72F
 	.string "해수의 흐름에 대한 전시물이다!\p"
 	.string "“바다의 바닥 가까운 곳에서는\n"
 	.string "  물 온도나 염분의 차이로\l"
 	.string "  바닷물이 흘러갑니다”$"
+	// かいすいの ながれに ついての てんじだ!ｐ
+	// 「うみの そこに ちかい ところ ではｎ
+	//  みずの おんどや えんぶんの ちがいでｌ
+	//  うみの みずが ながれて いきます」
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay: @ 820C7C1
 	.string "해수의 흐름에 대한 전시물이다!\p"
 	.string "“바다 표면 근처에서는\n"
 	.string "  바람의 힘에 의해\l"
 	.string "  바닷물이 흘러갑니다”$"
+	// かいすいの ながれに ついての てんじだ!ｐ
+	// 「うみの ひょうめん あたり ではｎ
+	//  かぜの ちからに よってｌ
+	//  うみの みずが ながれて いきます」
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica: @ 820C82F
 	.string "“연락선 타이드립호”\p"
 	.string "이것은 현재 해양조선소에서\n"
-	.string "만들어지는 배의 모형입니다!$"
+	.string "만들어지고 있는 배의 모형입니다!$"
+	// 「れんらくせん タイドリップごう」ｐ
+	// これは げんざい クスノキ ぞうせんじょでｎ
+	// つくられている ふねの もけい です!
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica: @ 820C88B
 	.string "“잠수정 해연 1호”\p"
 	.string "바다 밑을 조사하기 위한\n"
 	.string "고성능 잠수정의 모형입니다!$"
+	// 「せんすいてい かいえん 1ごう」ｐ
+	// うみの そこを ちょうさ するためのｎ
+	// こうせいのう せんすいていの もけい です!
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica: @ 820C8E8
 	.string "“잠수파드”\p"
 	.string "해저에서 작업하기 위한\n"
 	.string "무인 소형 파드의 모형입니다!$"
+	// 「せんすい ポッド」ｐ
+	// かいていで さぎょうを するためのｎ
+	// むじん こがたポッドの もけい です!
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica: @ 820C93A
 	.string "“상트앙느호”\p"
 	.string "세계를 일주하고 있는\n"
 	.string "호화 여객선의 모형입니다!$"
+	// 「サント®アンヌ ごう」ｐ
+	// せかいを いっしゅう しているｎ
+	// ごうか きゃくせんの もけい です!
 

@@ -1679,7 +1679,7 @@ ContestHall_Text_ThatsItForJudging: @ 827BA15
 	.string "사회자: 거기까지--!!$"
 
 ContestHall_Text_ThankYouForAppeals: @ 827BA30
-	.string "여러분들 대단한 어필이였습니다!\n"
+	.string "여러분들 대단한 어필이었습니다!\n"
 	.string "이것으로 모두 종료입니다!\l"
 	.string "수고하셨습니다!$"
 

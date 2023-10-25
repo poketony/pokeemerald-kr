@@ -350,7 +350,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon: @ 82706B2
 	// ポケモンを もてないようだよ
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform: @ 82706E8
-	.string "{PLAYER}{K_EUNNEUN}"
+	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "캐스퐁을 받았다!$"
 	// §あはｎ
 	// ポワルンを もらった!

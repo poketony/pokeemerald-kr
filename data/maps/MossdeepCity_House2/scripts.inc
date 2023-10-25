@@ -57,7 +57,7 @@ MossdeepCity_House2_Movement_WingullExitEast: @ 8222141
 
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree: @ 8222146
 	.string "내 여동생은 검방울시티에 사는\n"
-	.string "남자친구랑 편지를 주고받고 있는데\p"
+	.string "남자 친구랑 편지를 주고받고 있는데\p"
 	.string "난 조금도 부럽지 않아!$"
 	// おれの いもうとは ヒワマキのｎ
 	// ボ-イフレンドと ぶんつう してるｐ

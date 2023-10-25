@@ -407,10 +407,15 @@ SlateportCity_Harbor_Text_FerryServiceUnavailable: @ 820CE20
 	.string "에? 배 말입니까?\p"
 	.string "죄송합니다만 현재\n"
 	.string "연락선은 없습니다...$"
+	// えっ? ふね ですか?ｐ
+	// もうしわけ ございません げんざいｎ
+	// れんらくせんは ないんです……
 
 SlateportCity_Harbor_Text_MayISeeYourTicket: @ 820CE87
 	.string "연락선을 이용하시려는 거군요!\n"
 	.string "티켓은 가지고 계신가요?$"
+	// れんらくせんを ごりよう ですね!ｎ
+	// チケットは おもち でしょうか?
 
 SlateportCity_Harbor_Text_YouMustHaveTicket: @ 820CEC1
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -418,32 +423,49 @@ SlateportCity_Harbor_Text_YouMustHaveTicket: @ 820CEC1
 	.string "...죄송합니다!\p"
 	.string "배에는 티켓을 가진 분들만\n"
 	.string "탑승하실 수 있습니다$"
+	// §あはｎ
+	// チケットを もっていない!ｐ
+	// ……もうしわけ ありません!ｐ
+	// ふねに のれるのはｎ
+	// チケットの ある かた だけです
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo: @ 820CF1C
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "승선티켓을 보여줬다!\p"
 	.string "네! 확인했습니다!\p"
 	.string "어디로 가시겠어요?$"
+	// §あはｎ
+	// ふねのチケットを みせた!ｐ
+	// はい! けっこう です!ｐ
+	// いきさきは どちら でしょう?
 
 SlateportCity_Harbor_Text_SailAnotherTime: @ 820CF71
 	.string "또 이용해 주십시오!$"
+	// また ごりよう ください!
 
 SlateportCity_Harbor_Text_LilycoveItIs: @ 820CF93
 	.string "해안시티 말씀이시군요!$"
+	// ミナモシティ ですね!
 
 SlateportCity_Harbor_Text_BattleFrontierItIs: @ 820CFAE
 	.string "배틀프런티어 말씀이시군요!$"
+	// バトルフロンティア ですね!
 
 SlateportCity_Harbor_Text_PleaseBoardFerry: @ 820CFCB
 	.string "연락선에서 잠시 기다려 주십시오$"
+	// れんらくせんに のって おまちください
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo: @ 820CFFA
 	.string "어디로 가시겠어요?$"
+	// いきさきは どちら でしょう?
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday: @ 820D01C
 	.string "바닷속 깊은 곳이라...\n"
 	.string "과연 어떤 모습일까?\p"
 	.string "나도 언젠가 들어가 보고 싶어!$"
+	// うみの そこ かあ……ｎ
+	// いったい どんなふう なのかな?ｐ
+	// おれも いつか もぐってみたいぜ!
 
 SlateportCity_Harbor_Text_AbnormalWeather: @ 820D08E
 	.string "배로 안전하게 항해하려면\n"
@@ -469,11 +491,19 @@ SlateportCity_Harbor_Text_SubTooSmallForMe: @ 820D194
 	.string "그렇지만 잠수정 안은 좁으니까\n"
 	.string "내가 타 버리면 관장이\l"
 	.string "못 타게 될 거야...$"
+	// ぼくも クスノキ かんちょうと いっしょにｎ
+	// かいてい ちょうさに いきたかった!ｐ
+	// でも せんすいていの なかは せまいからｎ
+	// ぼくが のったら かんちょうがｌ
+	// のれなく なっちゃうんだよね……
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum: @ 820D232
 	.string "해양: 저 녀석들은...\p"
 	.string "예전에 박물관에서\n"
 	.string "데봉화물을 빼앗아 가려고 했던...$"
+	// クスノキ『あいつらは……ｐ
+	// いぜん はくぶつかんでｎ
+	// デボンのにもつを うばおうと していた……
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove: @ 820D291
 	.string "아강: 으음? 또 네 녀석인가...\p"
@@ -518,33 +548,52 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "아니야 신경쓰지 않아도 돼\n"
 	.string "네 책임이 아니니까\p"
 	.string "잠수정을 따라간다는 거 자체가\n"
-	.string "보통 인간에게는\l"
-	.string "말도 안되는 일이지\p"
+	.string "보통 인간에게는 말도 안되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
 	.string "바닷속으로 들어갈 수 있는 기술을\l"
 	.string "가르치면 또 모를까...\p"
 	.string "이끼시티에 가면\n"
-	.string "다이빙을 하는 사람이\l"
-	.string "많이 있으니까 가르쳐줄 사람이\l"
-	.string "있을지도 모르겠다$"
+	.string "다이빙을 하는 사람이 많으니까\l"
+	.string "가르쳐줄 사람이 있을지도 모르겠다$"
+	// クスノキ『ああ §あ§お……ｐ
+	// そうか…… アクアだんはｎ
+	// しゅっぱつ して しまったか……ｐ
+	// いや きにしなくて いいよｎ
+	// きみの せきにん では ないからねｐ
+	// せんすいていを おいかけるのはｎ
+	// ふつうの ひとには むりな はなし だよｐ
+	// ポケモンに ダイビング といってｎ
+	// うみに もぐれる わざを おしえないと……ｐ
+	// トクサネに いけばｎ
+	// ダイビングを する ひとが おおいからｌ
+	// おしえて もらえるかも しれないけどね
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub: @ 820D58A
 	.string "해양: 잠수정을 따라간다는 거 자체가\n"
-	.string "보통 인간에게는\l"
-	.string "말도 안되는 일이지\p"
+	.string "보통 인간에게는 말도 안되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
 	.string "바닷속으로 들어갈 수 있는 기술을\l"
 	.string "가르치면 또 모를까...\p"
 	.string "이끼시티에 가면\n"
-	.string "다이빙을 하는 사람이\l"
-	.string "많이 있으니까 가르쳐줄 사람이\n"
-	.string "있을지도 모르겠다$"
+	.string "다이빙을 하는 사람이 많으니까\l"
+	.string "가르쳐줄 사람이 있을지도 모르겠다$"
+	// クスノキ『せんすいていを おいかけるのはｎ
+	// ふつうの ひとには むりな はなし だよｐ
+	// ポケモンに ダイビング といってｎ
+	// うみに もぐれる わざを おしえないと……ｐ
+	// トクサネに いけばｎ
+	// ダイビングを する ひとが おおいからｌ
+	// おしえて もらえるかも しれないけどね
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry: @ 820D65C
 	.string "해양: 맞다! 하기노인이\n"
 	.string "조선소에 와 주었어!\p"
 	.string "좋-아! 이걸로 연락선이\n"
 	.string "완성되는 것도 얼마 안 남았어!$"
+	// クスノキ『そうだ! ハギろうじんがｎ
+	// ぞうせんじょに きてくれたんだ!ｐ
+	// よ-し! これで れんらくせんがｎ
+	// かんせい するのも もうすぐ だぞ!
 
 SlateportCity_Harbor_Text_FinishedMakingFerry: @ 820D6CB
 	.string "해양: {PLAYER}!\p"
@@ -552,17 +601,29 @@ SlateportCity_Harbor_Text_FinishedMakingFerry: @ 820D6CB
 	.string "드디어 완성됐어!\p"
 	.string "네 지인인 하기노인이\n"
 	.string "도와준 덕분이야\p"
-	.string "한번 타 보도록 해$"
+	.string "꼭 타보도록 해!$"
+	// クスノキ『§あ§お!ｐ
+	// れんらくせん タイドリップごうがｎ
+	// ついに かんせい したんだ!ｐ
+	// きみの しりあいの ハギろうじんがｎ
+	// てつだって くれたからだよｐ
+	// ぜひ のってみてよ!
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner: @ 820D76C
 	.string "해양: 으음?\n"
-	.string "{PLAYER}{K_I} 가지고 있는 그거...\p"
+	.string "{PLAYER}{K_I} 가지고 있는 그건...\p"
 	.string "탐지기잖아!\n"
-	.string "그게 있으면 조사가\l"
-	.string "더욱 진전될 것 같아\p"
+	.string "그게 있으면 조사가 더 진전될 거야\p"
 	.string "{PLAYER}! 내가 가지고 있는\n"
-	.string "심해의이빨과 심해의비늘 중\l"
-	.string "하나랑 탐지기를 교환하지 않을래?$"
+	.string "심해의이빨과 심해의비늘 중 하나랑\l"
+	.string "탐지기를 교환하지 않을래?$"
+	// クスノキ『おや?ｎ
+	// §あ§おが もってる それは……ｐ
+	// たんちき だね!ｎ
+	// それがあると ちょうさが はかどりそうだｐ
+	// §あ§お! ぼくの もってるｎ
+	// しんかいのキバか しんかいのウロコとｌ
+	// たんちきを こうかん してくれないかな?
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow: @ 820D841
 	.string "해양: 그래?\n"
@@ -571,20 +632,33 @@ SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow: @ 820D841
 	.string "뭐 괜찮아\n"
 	.string "탐지기를 교환하고 싶어지면\l"
 	.string "다시 또 말 걸어줘!$"
+	// クスノキ『そうかい?ｎ
+	// §あ§おが もっていてもｌ
+	// つかいみちが ないと おもうけどな……ｐ
+	// まあ いいやｎ
+	// たんちきを こうかん したくなったらｌ
+	// また はなしかけてよ!
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth: @ 820D8BC
-	.string "해양: 심해의이빨과 교환할 거지?$"
+	.string "해양: 심해의이빨과 교환할 거야?$"
+	// クスノキ『しんかいのキバが いいんだね?
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale: @ 820D8F1
-	.string "해양: 심해의비늘과 교환할 거지?$"
+	.string "해양: 심해의비늘과 교환할 거야?$"
+	// クスノキ『しんかいのウロコに するんだね?
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant: @ 820D926
 	.string "해양: 어느 쪽이랑 교환할래?$"
+	// クスノキ『どっちに するんだい?
 
 SlateportCity_Harbor_Text_HandedScannerToStern: @ 820D94A
 	.string "{PLAYER}{K_EUNNEUN} 해양관장에게\n"
 	.string "탐지기를 전달했다!$"
+	// §あは クスノキかんちょうにｎ
+	// たんちきを わたした!
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch: @ 820D970
 	.string "해양: 고마워 {PLAYER}!\n"
 	.string "이걸로 연구가 더 진전되겠어$"
+	// クスノキ『§あ§お ありがとう!ｎ
+	// これで けんきゅうが はかどるよ
