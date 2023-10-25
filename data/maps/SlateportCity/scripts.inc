@@ -1507,7 +1507,7 @@ SlateportCity_Text_ExplainBerries: @ 81DEBCE
 	.string "나무열매로 약을 만들려면\n"
 	.string "산산조각 내서 가루로 만든다는 걸\p"
 	.string "알고 있었어?\p"
-	.string "당신...\n"
+	.string "너...\n"
 	.string "나무열매에 흥미가 있나 보네!\p"
 	.string "좋은 걸 줄게$"
 	// きずついた やせいの ポケモンはｎ
@@ -1566,7 +1566,7 @@ SlateportCity_Text_DontHaveEnoughBerryPowder: @ 81DEEC9
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse: @ 81DEEF7
 	.string "어머 좋은 가루네!\p"
-	.string "당신이 준 가루로\n"
+	.string "네가 준 가루로\n"
 	.string "또 좋은 약을 만들 수 있겠어!\p"
 	.string "그 밖에 교환할 거 있어?$"
 	// まあ いいこな だこと!ｐ
