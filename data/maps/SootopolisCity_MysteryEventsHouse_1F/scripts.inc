@@ -199,7 +199,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked: @ 8227BDD
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer: @ 8227BFC
 	.string "지금 {STR_VAR_1}{K_I}라는 트레이너가\n"
-	.string "내 집에 와 있네!\p"
+	.string "우리 집에 와 있네!\p"
 	.string "{STR_VAR_1}{K_WAGWA} 승부하지 않겠나?$"
 	// いまは §い という トレ-ナ-がｎ
 	// わしの いえに きておる!ｐ
@@ -239,6 +239,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie: @ 8227D3D
 
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw: @ 8227D40
 	.string "승부는 무승부로 끝났다!$"
+	// しょうぶは ひきわけに おわった!
 
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff: @ 8227D5B
 	.string "무승부였나!\p"

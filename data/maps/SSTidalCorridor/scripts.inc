@@ -266,8 +266,8 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite: @ 823C28F
 	.string "이제 배에서 내리겠지만\l"
 	.string "그래도 만나서 다행이네!\p"
 	.string "리그 챔피언 축하해!\n"
-	.string "그런 너를\l"
-	.string "초대하고 싶은 곳이 있어!\p"
+	.string "그런 너를 초대하고 싶은\l"
+	.string "장소가 있어!\p"
 	.string "바로... 배틀프런티어야!\p"
 	.string "어떤 곳이냐고?\n"
 	.string "일단 가보면 알 거야\p"
@@ -304,37 +304,56 @@ SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage: @ 823C462
 SSTidal_Text_HopeYouEnjoyVoyage: @ 823C4E3
 	.string "그럼 연락선을 이용한\n"
 	.string "즐거운 배 여행을 만끽해 주세요$"
+	// それでは れんらくせんに よるｎ
+	// ふなたびを おたのしみ ください
 
 SSTidal_Text_MadeLandInSlateport: @ 823C50F
 	.string "수고하셨습니다 지금 막\n"
 	.string "잿빛도시에 도착했습니다$"
+	// おつかれさまです ただいまｎ
+	// カイナシティに とうちゃく しました
 
 SSTidal_Text_MadeLandInLilycove: @ 823C553
 	.string "수고하셨습니다 지금 막\n"
 	.string "해안시티에 도착했습니다$"
+	// おつかれさまです ただいまｎ
+	// ミナモシティに とうちゃく しました
 
 SSTidalCorridor_Text_CanRestInCabin2: @ 823C596
 	.string "도착하려면 아직 멀었어\p"
-	.string "자기 방에 돌아가서 쉬고 있어\n"
+	.string "자기 방에 돌아가서 쉬고 있으라고\n"
 	.string "분명 네 방은\l"
 	.string "2호실이었지\p"
 	.string "그 방 침대는\n"
 	.string "푹신푹신해서 정말 편하단다!$"
+	// とうちゃくまで まだまだ だなｐ
+	// じぶんの へやに もどって やすんでいなよｎ
+	// たしか きみの へやはｌ
+	// 2ごうしつ だったなｐ
+	// あの へやの ベッドはｎ
+	// ふかふか していて きもちいいぞ!
 
 SSTidalCorridor_Text_WeveArrived: @ 823C64F
 	.string "도착했어!$"
+	// とうちゃく したぞ!
 
 SSTidalCorridor_Text_VisitOtherCabins: @ 823C65E
 	.string "배 여행에 질려버려서\n"
 	.string "객실에서 포켓몬 승부를\l"
 	.string "하고 싶어 하는 트레이너도 있어!$"
+	// ふなたびに あきちゃってｎ
+	// きゃくしつで ポケモンで しょうぶをｌ
+	// したがっている トレ-ナ-も いるぞ!
 
 SSTidalCorridor_Text_EnjoyYourCruise: @ 823C6B0
 	.string "즐거운 배 여행을 만끽해 줘$"
+	// まっ ふなたびを たのしんでくれよ
 
 SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole: @ 823C6C3
 	.string "창문 저편에\n"
 	.string "수평선이 펼쳐져 있다!$"
+	// まどの むこうにｎ
+	// すいへいせんが ひろがっている!
 
 SSTidalCorridor_Text_BrineyWelcomeAboard: @ 823C6EC
 	.string "하기: 어서 오너라! {PLAYER}!\p"
@@ -342,19 +361,30 @@ SSTidalCorridor_Text_BrineyWelcomeAboard: @ 823C6EC
 	.string "명예 선장인 하기다!\p"
 	.string "이야 한 번은 은퇴한 몸이지만\n"
 	.string "이런 엄청난 배를 봐 버리면\l"
-	.string "선원으로서의 피가 들끓어서 말이지!!$"
+	.string "선원의 피가 들끓어서 말이지!!$"
+	// ハギ『ようこそ! §あ§お!ｐ
+	// わしが この タイドリップごうのｎ
+	// めいよ せんちょう ハギ じゃよ!ｐ
+	// いやぁ いちどは いんたい したがｎ
+	// こんな すごい ふねを みてしまうとｌ
+	// ふなのりの ちが さわぐのう!!
 
 SSTidalCorridor_Text_Peeko: @ 823C7E1
-	.string "피코: 피요 피요요요...!$"
+	.string "피코: 피효 피효효...!$"
+	// ピ-コ『ピひょ ピひょひょ……!
 
 SSTidalCorridor_Text_Cabin1: @ 823C7F8
 	.string "1호실$"
+	// 1ごうしつ
 
 SSTidalCorridor_Text_Cabin2: @ 823C800
 	.string "2호실$"
+	// 2ごうしつ
 
 SSTidalCorridor_Text_Cabin3: @ 823C808
 	.string "3호실$"
+	// 3ごうしつ
 
 SSTidalCorridor_Text_Cabin4: @ 823C810
 	.string "4호실$"
+	// 4ごうしつ

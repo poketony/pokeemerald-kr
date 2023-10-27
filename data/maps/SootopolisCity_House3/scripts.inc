@@ -21,11 +21,11 @@ SootopolisCity_House3_EventScript_Girl:: @ 8226B9B
 	end
 
 SootopolisCity_House3_Text_JuanHasManyFansDoYou: @ 8226BA4
-	.string "당신은 포켓몬 트레이너시군요?\p"
+	.string "너 포켓몬 트레이너야?\p"
 	.string "루네시티의 아단님은\n"
 	.string "제자인 윤진님보다\l"
 	.string "더 팬이 많아!\p"
-	.string "당신은 팬이 있나요?$"
+	.string "너한테는 팬이 있니?$"
 	// あなた ポケモン トレ-ナ-ね?ｐ
 	// ルネシティの アダンさまはｎ
 	// おでしさんの ミクリさま よりｌ
@@ -33,15 +33,15 @@ SootopolisCity_House3_Text_JuanHasManyFansDoYou: @ 8226BA4
 	// あなたに ファンは いるのかしら?
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong: @ 8226C20
-	.string "흐-응\n"
-	.string "그럼 꽤 강하신가 보군요!?$"
+	.string "헤에-\n"
+	.string "그럼 꽤 강한가 보네!$"
 	// へえ-ｎ
 	// じゃあ けっこう つよいのね!
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder: @ 8226C44
 	.string "어머머...\n"
-	.string "그건 좀 슬프네요\p"
-	.string "팬이 많이 생기도록 열심히 해보세요!$"
+	.string "그건 좀 슬프다\p"
+	.string "팬이 생기도록 열심히 해봐!$"
 	// あららん……ｎ
 	// それは ちょっと さみしいわねｐ
 	// ファンが できるよう がんばりなさいよ!

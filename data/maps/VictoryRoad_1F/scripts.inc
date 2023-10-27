@@ -125,95 +125,140 @@ VictoryRoad_1F_EventScript_Katelynn:: @ 8235ECF
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore: @ 8235EE6
 	.string "민진: 앗! {PLAYER}님!\p"
-	.string "제가 이런 곳에 있으니까\n"
-	.string "놀랐죠!\p"
-	.string "그때의 약속...\n"
-	.string "제대로 지켜줘서 고마워요!\p"
+	.string "제가 이런 곳에 있어서\n"
+	.string "놀라셨죠!\p"
 	.string "제가 여기까지 올 수 있었던 건\n"
 	.string "{PLAYER}님 덕분이에요!\p"
-	.string "...그치만!\n"
-	.string "전 이제 지지 않아요\p"
-	.string "저에게 힘과 용기를 준\n"
+	.string "그때 {PLAYER}님에게 져서\n"
+	.string "전 강해질 수 있었으니까요!\p"
+	.string "...하지만!\n"
+	.string "전 이제 안 질 거예요\p"
+	.string "제게 용기와 건강을 준\n"
 	.string "포켓몬을 위해서라도 이기겠어요!\p"
 	.string "그럼... 갑니다!$"
+	// ミツル『あっ! §あさん!ｐ
+	// ぼくが こんな ところに いるなんてｎ
+	// おどろいた でしょ!ｐ
+	// ぼくが ここまで これたのはｎ
+	// §あさんの おかげだよ!ｐ
+	// あのとき §あさんに まけたからｎ
+	// ぼくは つよく なれたんだ!ｐ
+	// ……だけど!ｎ
+	// ぼくは もう まけないｐ
+	// ぼくに ゆうきと げんきを くれたｎ
+	// ポケモンの ためにも かつんだ!ｐ
+	// それでは…… いきますよ!
 
 VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
-	.string "우와!\n"
+	.string "우와아!\n"
 	.string "역시 {PLAYER}님은 강하네요!$"
+	// うわぁ!ｎ
+	// やっぱり §あさんは つよいよ!
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
 	.string "민진: ...이번에는\n"
-	.string "{PLAYER}님한테 이기지 못했지만\l"
+	.string "{PLAYER}님을 이기지 못했지만\l"
 	.string "언젠가 반드시 뒤쫓아 갈 거예요!$"
+	// ミツル『…… こんかいはｎ
+	// §あさんに かてなかった けどｌ
+	// いつか きっと おいついて みせるからね!
 
 VictoryRoad_1F_Text_WallyIntro: @ 8236073
 	.string "민진: 앗! {PLAYER}님!\p"
 	.string "저 그때보다 강해졌어요!\n"
 	.string "그걸 {PLAYER}님에게\l"
-	.string "보여주고 싶어요!\p"
+	.string "보여 주고 싶어요!\p"
 	.string "그럼... 갑니다!$"
+	// ミツル『あっ! §あさん!ｐ
+	// ぼく あれから つよくなった はずだよ!ｎ
+	// それを §あさんにｌ
+	// みてもらいたいんだ!ｐ
+	// それでは…… いきますよ!
 
 VictoryRoad_1F_Text_WallyDefeat: @ 82360DA
-	.string "우와!\n"
+	.string "우와아!\n"
 	.string "역시 {PLAYER}님은 강하네요!$"
+	// うわぁ!ｎ
+	// やっぱり §あさんは つよいよ!
 
 VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
 	.string "민진: ...이번에는\n"
-	.string "{PLAYER}님한테 이기지 못했지만\l"
+	.string "{PLAYER}님을 이기지 못했지만\l"
 	.string "언젠가 반드시 뒤쫓아 가서...\p"
 	.string "포켓몬리그에 도전할 거예요!$"
+	// ミツル『…… こんかいもｎ
+	// §あさんに かてなかった けどｌ
+	// いつか きっと おいついて……ｐ
+	// ポケモンリ-グに ちょうせん するんだ!
 
 VictoryRoad_1F_Text_EdgarIntro: @ 8236184
-	.string "여기까지는 어떻게든\n"
-	.string "올 수 있었겠지만\l"
+	.string "여기까지는 어떻게든 왔지만\n"
 	.string "앞으로가 엄청 멀어...$"
+	// ここまでは なんとか これたがｎ
+	// あと すこしが とても とおいよ……
 
 VictoryRoad_1F_Text_EdgarDefeat: @ 82361CB
 	.string "여기서 끝난 건가...$"
+	// ここで おわったか……
 
 VictoryRoad_1F_Text_EdgarPostBattle: @ 82361E5
 	.string "여기까지 왔으면\n"
 	.string "기세를 몰아서 챔피언이 되라고!\l"
 	.string "너라면 할 수 있을 거야!$"
+	// ここまで きたならｎ
+	// いきおいで チャンピオンに なれよ!ｌ
+	// きみなら できるさ!
 
 VictoryRoad_1F_Text_AlbertIntro: @ 8236248
-	.string "여기까지 왔는데\n"
+	.string "모처럼 여기까지 왔는데\n"
 	.string "이제 와서 진다는 건 말이 안 되지!$"
+	// せっかく ここまで きたんだｎ
+	// いまさら まけるなんて ありえないよ!
 
 VictoryRoad_1F_Text_AlbertDefeat: @ 8236290
 	.string "설마...\n"
 	.string "진 건가...?$"
+	// まさか……ｎ
+	// まけたのか……?
 
 VictoryRoad_1F_Text_AlbertPostBattle: @ 82362A4
 	.string "여기서 졌다...\p"
 	.string "졌다는 것은 아직 챔피언이 될\n"
 	.string "자격이 없다는 건가...$"
+	// ここで まけた……ｐ
+	// ということは まだ チャンピオンに なるｎ
+	// しかくが なかったと いうことか……
 
 VictoryRoad_1F_Text_HopeIntro: @ 82362EE
 	.string "이 끝없이 험한 길이야말로\n"
 	.string "바로 챔피언으로 향하는 길인 거야!$"
+	// この はてしなく けわしい みち こそｎ
+	// まさに チャンピオンへの みち なのよ!
 
 VictoryRoad_1F_Text_HopeDefeat: @ 8236336
 	.string "멋진 실력이야...$"
+	// すばらしい たたかいかた ね……
 
 VictoryRoad_1F_Text_HopePostBattle: @ 8236356
-	.string "너에겐 챔피언이 될 가능성이\n"
-	.string "있는 것 같구나$"
+	.string "너에겐 챔피언이 될\n"
+	.string "가능성이 있는 것 같구나$"
+	// あなたには チャンピオンに なれるｎ
+	// かのうせいが あるみたいね
 
 VictoryRoad_1F_Text_QuincyIntro: @ 8236390
 	.string "챔피언로드란 뭘까?\n"
-	.string "이기면 알려주도록 하지!$"
+	.string "이기면 알려 주도록 하지!$"
 	// チャンピオンロ-ド とは なにか?ｎ
 	// かてたら おしえてやろう!
 
 VictoryRoad_1F_Text_QuincyDefeat: @ 82363C4
-	.string "음 좋아!$"
+	.string "음 좋다!$"
 	// うん いいだろう!
 
 VictoryRoad_1F_Text_QuincyPostBattle: @ 82363D5
 	.string "여기를 무사히 빠져나가는 것이\n"
 	.string "포켓몬 챔피언을 노리는 자들의\l"
-	.string "마지막 시련인 거야!\p"
+	.string "마지막 시련인 거다!\p"
 	.string "그게 챔피언로드라고\n"
 	.string "불리는 이유인 거고$"
 	// ここを ぶじに ぬけきるって ことがｎ

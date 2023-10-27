@@ -474,8 +474,7 @@ BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
 	// ちょうせん しますか?
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-	.string "다음에 또 이용해 주세요\n"
-	.string "기다리고 있겠습니다$"
+	.string "다음 이용을 기다리고 있겠습니다$"
 	// またの ごりようを おまちして おります
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:

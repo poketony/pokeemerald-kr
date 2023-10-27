@@ -115,8 +115,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord:: @ 822735B
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot: @ 8227369
 	.string "너 도토링이라는 포켓몬 알아?\n"
-	.string "루네시티에서는 좀처럼\l"
-	.string "볼 수 없는 포켓몬인데\p"
+	.string "루네시티에선 좀처럼 보기 힘들지만\p"
 	.string "나 큰 도토링이\n"
 	.string "무지무지 좋아!\p"
 	.string "동생은 연꽃몬이 더\n"
@@ -124,7 +123,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot: @ 8227369
 	.string "당연히 도토링이 더\n"
 	.string "크지 않아!?\p"
 	.string "응? 너 도토링 가지고 있어?\n"
-	.string "자, 자, 잠깐...\l"
+	.string "자 자 잠깐...\l"
 	.string "아저씨한테 좀 보여줘!$"
 	// きみ タネボ-って ポケモン しってる?ｎ
 	// ルネでは めったに みられないん だけどねｐ
@@ -143,8 +142,8 @@ SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad: @ 8227480
 	.string "오오! 이 녀석 커!\p"
 	.string "동생이 본 큰 연꽃몬에\n"
 	.string "지지 않는 크기일지도 몰라!\p"
-	.string "보여줘서 고마워\n"
-	.string "보답으로 이걸 줄게!$"
+	.string "보여 줘서 고마워\n"
+	.string "답례로 이걸 줄게!$"
 	// §うcm!!ｎ
 	// おお! こいつは でかい!ｐ
 	// おとうとが みた でかい ハスボ-にｎ
@@ -167,24 +166,23 @@ SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot: @ 8227544
 	.string "도토링을 본 적이 있어...$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot: @ 8227584
-	.string "오오 이 녀석 꽤...아니\n"
+	.string "오오 이 녀석 꽤... 아니\n"
 	.string "이거 도토링 아니잖아!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot: @ 82275BC
 	.string "큰 도토링 없어?\n"
 	.string "그거 안타깝네...\p"
-	.string "다음에 큰 도토링 보여줘$"
+	.string "다음에 큰 도토링 보여 줘$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory: @ 8227617
 	.string "사상 최대의 도토링!\n"
 	.string "{STR_VAR_2}의 {STR_VAR_3}cm인 녀석!\p"
 	.string "연꽃몬보다 큰 도토링\n"
-	.string "언제라도 모집 중!$"
+	.string "언제나 모집 중!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad: @ 8227676
 	.string "너 혹시 연꽃몬이라는 포켓몬 알아?\n"
-	.string "루네시티에서는 좀처럼\l"
-	.string "볼 수 없는 포켓몬인데\p"
+	.string "루네시티에서는 좀처럼 보기 힘들지만\p"
 	.string "나 큰 연꽃몬이\n"
 	.string "무지무지 좋아!\p"
 	.string "형은 도토링이 더\n"
@@ -192,7 +190,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad: @ 8227676
 	.string "당연히 연꽃몬이 더\n"
 	.string "크지 않아!?\p"
 	.string "응? 너 연꽃몬 가지고 있어?\n"
-	.string "자, 자, 잠깐...\l"
+	.string "자 자 잠깐...\l"
 	.string "아저씨한테 좀 보여줘!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot: @ 822776C
@@ -200,7 +198,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot: @ 822776C
 	.string "오오! 이 녀석 커!\p"
 	.string "형이 본 큰 도토링에\n"
 	.string "지지 않는 크기일지도 몰라!\p"
-	.string "보여줘서 고마워\n"
+	.string "보여 줘서 고마워\n"
 	.string "보답으로 이걸 줄게!$"
 
 @ Unused
@@ -218,17 +216,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad: @ 822782A
 	.string "연꽃몬을 본 적이 있어...$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad: @ 8227867
-	.string "오오 이 녀석 꽤...아니\n"
+	.string "오오 이 녀석 꽤... 아니\n"
 	.string "이거 연꽃몬이 아니잖아!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad: @ 8227896
 	.string "큰 연꽃몬 없어?\n"
 	.string "그거 안타깝네...\p"
-	.string "다음에 큰 연꽃몬 보여줘$"
+	.string "다음에 큰 연꽃몬 보여 줘$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory: @ 82278F2
 	.string "사상 최대의 연꽃몬!\n"
 	.string "{STR_VAR_2}의 {STR_VAR_3}cm인 녀석!\p"
 	.string "도토링보다 큰 연꽃몬\n"
-	.string "언제라도 모집 중!$"
+	.string "언제나 모집 중!$"
 

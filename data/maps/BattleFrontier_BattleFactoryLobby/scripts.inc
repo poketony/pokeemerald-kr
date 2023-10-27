@@ -388,8 +388,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 	// くれぐれも きをつけて くださいね!
 
 BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
-	.string "다음에 또 이용해 주세요\n"
-	.string "기다리고 있겠습니다!$"
+	.string "다음 이용을 기다리고 있겠습니다!$"
 	// またの ごりようを おまちしていますよ!
 
 BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
@@ -471,7 +470,7 @@ BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 	.string "지난번에 종료하기 전에 리포트를\n"
 	.string "제대로 작성하지 않으셨죠!\p"
 	.string "죄송합니다만\n"
-	.string "도전이 무효가 됩니다!$"
+	.string "도전은 무효가 됩니다!$"
 	// おきゃくさま-!!ｐ
 	// ぜんかい ちゃんと レポ-トを かいてｎ
 	// しゅうりょう しません でしたね!ｐ

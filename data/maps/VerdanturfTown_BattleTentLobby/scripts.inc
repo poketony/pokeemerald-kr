@@ -338,10 +338,10 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves: @ 8201BD4
 	.string "쓰고 싶지 않나봐\p"
 	.string "예를 들면 얌전한 성격의\n"
 	.string "포켓몬은 상대를 공격하는 걸\l"
-	.string "그다지 좋아하지 않아\p"
-	.string "자신의 힘을 발휘할 수\n"
-	.string "없다는 건 무리하게 싫어하는\l"
-	.string "기술을 쓰려다 실패했단 뜻이야$"
+	.string "그다지 좋아하지 않겠지\p"
+	.string "자신의 힘을 발휘할 수 없다는 건\n"
+	.string "무리하게 싫어하는 기술을\l"
+	.string "쓰려다 실패했단 뜻이야$"
 	// どんなに つよい ポケモンもｎ
 	// きらいな わざは できるだけｌ
 	// つかいたく ない みたいｐ
@@ -354,11 +354,11 @@ VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves: @ 8201BD4
 
 
 VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry: @ 8201D11
-	.string "그치만 내 누나는\n"
+	.string "그치만 우리 누나는\n"
 	.string "평소엔 엄청 얌전한데\l"
-	.string "화나면 엄-청 무서워!\p"
+	.string "화나면 엄-청 무서워-!\p"
 	.string "그러니까 얌전한 포켓몬이라도\n"
-	.string "화나면 분명 무서울 걸!!$"
+	.string "화나면 분명 무서울걸!!$"
 	// でもでも ぼくの おねえちゃん ってｎ
 	// ふだんは とっても おとなしい けどｌ
 	// おこると すっご---く こわ---いよ!ｐ
@@ -369,9 +369,9 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep: @ 8201D9E
 	.string "나의 포켓몬을 향한 마음...\n"
 	.string "그것이 바로 헤롱헤롱이야...\p"
 	.string "어머 이상한 모습을 들켰네\p"
-	.string "뭐 좋아\n"
+	.string "뭐 상관없어\n"
 	.string "네 포켓몬에게\l"
-	.string "이 기술머신은 어때?$"
+	.string "이 기술머신을 써보는 건 어때?$"
 	// あたしの ポケモンへの きもち……ｎ
 	// それは まさに メロメロなのよ……ｐ
 	// あら へんなところ みられちゃったｐ
@@ -404,7 +404,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves: @ 8201EB1
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers: @ 8201F3F
 	.string "금작화: 이게 누구야!\n"
 	.string "예상대로 왔구나 {PLAYER}{K_AYA}!\p"
-	.string "배틀텐트라고 하는 건 말이지!\n"
+	.string "배틀텐트라는 건 말이지!\n"
 	.string "어떤 규칙이든지\l"
 	.string "어떤 방식이든지 간에\l"
 	.string "관계없이 강한 트레이너와\l"

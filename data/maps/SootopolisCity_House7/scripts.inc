@@ -10,16 +10,22 @@ SootopolisCity_House7_EventScript_PokefanF:: @ 82270D5
 	end
 
 SootopolisCity_House7_Text_CityFromEruptedVolcano: @ 82270DE
-	.string "깊은 해저에 있던 화산이 분화해서\n"
-	.string "바다 위까지 올라오고\p"
+	.string "해저에 있던 화산이 분화해서\n"
+	.string "바다 위까지 올라왔지\p"
 	.string "그리고 분화구에 빗물이 차서\n"
-	.string "생긴 게 바로 이곳 루네시티야$"
+	.string "생긴 게 바로 여기 루네시티야$"
+	// かいていに あった かざんが ふんかしてｎ
+	// うみの うえまで もりあがるｐ
+	// そして ふんかこうに あめが たまってｎ
+	// できたのが この ルネシティ なんだよ
 
 SootopolisCity_House7_Text_CaveMadeToKeepSomething: @ 8227190
-	.string "루네시티와 바깥세상을\n"
-	.string "이어주는 동굴\p"
-	.string "마치 무언가를 이곳 밖으로\n"
-	.string "나가지 못하게 하려고\l"
-	.string "만들어진 것 같아...\p"
+	.string "루네시티와 바깥세상을 이어주는 동굴\p"
+	.string "마치 무언가가 이곳에서 못 나가게\n"
+	.string "하려고 만들어진 것 같아...\p"
 	.string "...너무 깊게 생각했나?$"
+	// ルネと そとのせかいを つなぐ どうくつｐ
+	// まるで なにかを ここから ださないようにｎ
+	// つくられた みたい だわ……ｐ
+	// ……かんがえすぎ かしら?
 

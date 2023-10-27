@@ -27,39 +27,54 @@ VictoryRoad_B1F_EventScript_Halle:: @ 8236541
 	end
 
 VictoryRoad_B1F_Text_SamuelIntro: @ 8236558
-	.string "포켓몬리그에\n"
-	.string "가까워지고 있다고 생각하니\l"
-	.string "왠지 가슴이 두근거리기 시작했어...$"
+	.string "포켓몬리그에 가까워지고 있다고 생각하니\n"
+	.string "왠지 두근두근거리기 시작했어...$"
+	// ポケモンリ-グに ちかづいていると おもうとｎ
+	// なんだか ドキドキ してきたよ……
 
 VictoryRoad_B1F_Text_SamuelDefeat: @ 82365AD
 	.string "아무것도 할 수 없었어...$"
+	// なにも できなかった……
 
 VictoryRoad_B1F_Text_SamuelPostBattle: @ 82365C4
 	.string "포켓몬리그가 멀어졌어...\n"
 	.string "완전 김빠진다...$"
+	// ポケモンリ-グが とおのいたよ……ｎ
+	// なんだか がっかり するな……
 
 VictoryRoad_B1F_Text_ShannonIntro: @ 82365FD
 	.string "포켓몬리그를 이겨나가기 위해서는\n"
 	.string "포켓몬을 향한 신뢰가 필요해$"
+	// ポケモンリ-グで かちぬくにはｎ
+	// ポケモンへの しんらいが ひつよう なの
 
 VictoryRoad_B1F_Text_ShannonDefeat: @ 823664D
 	.string "아주 돈독한 신뢰 관계구나!$"
+	// しんらい かんけい バッチリね!
 
 VictoryRoad_B1F_Text_ShannonPostBattle: @ 8236678
 	.string "언제나 함께 있는 걸로\n"
 	.string "포켓몬과 트레이너 사이에\l"
 	.string "신뢰 관계가 형성되는 거야$"
+	// いつも いっしょに いることでｎ
+	// ポケモンと トレ-ナ-との あいだにｌ
+	// しんらい かんけいが できるの
 
 VictoryRoad_B1F_Text_MichelleIntro: @ 82366C2
 	.string "여기는 골인 지점이 아니야\n"
 	.string "포켓몬리그로 가는 중간 지점이지!$"
+	// ここは ゴ-ル じゃないのｎ
+	// ポケモンリ-グへの つうかてん よ!
 
 VictoryRoad_B1F_Text_MichelleDefeat: @ 823670B
 	.string "그래! 바로 그거야!$"
+	// その ちょうし!
 
 VictoryRoad_B1F_Text_MichellePostBattle: @ 823671B
 	.string "너라면 분명히 괜찮을 거야!\n"
 	.string "포켓몬도 의욕이 넘치니까!$"
+	// あなたなら だいじょうぶよ きっと!ｎ
+	// ポケモンも やるき まんまん だしね!
 
 VictoryRoad_B1F_Text_MitchellIntro: @ 8236757
 	.string "제 포켓몬은 굉장하다고요!$"

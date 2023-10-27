@@ -50,7 +50,7 @@ EventTicket_Text_OddTicketGetOnBoard: @ 82C6A71
 
 FarawayIsland_Entrance_Text_SailorReturn: @ 82C6B42
     .string "정말 하기 선장의\n"
-    .string "변덕에도 기가 막히는군\p"
+    .string "변덕에 기가 막히는군...\p"
     .string "이제 해안시티로 돌아가지 않을래?$"
 	// まったく ハギ せんちょうのｎ
 	// きまぐれにも まいるよなあ……ｐ
@@ -68,9 +68,9 @@ EventTicket_Text_OddTicketsWhereTo: @ 82C6BD4
 	.string "...... ...... ......흐음\p"
 	.string "이것들로 갈 수 있는 곳은\n"
 	.string "모두 여기서 멀리 있는 섬\l"
-	.string "그곳은 뭐가 일어날지\l"
+	.string "그곳에서 뭐가 일어날지\l"
 	.string "뭐가 기다리고 있는지\l"
-	.string "아는 사람이 없어...\l"
+	.string "아는 사람은 없어...\l"
 	.string "으음 선원의 피가 들끓는구만!\p"
 	.string "자 어서 타!$"
     .string "우선 어디부터 가 볼래?$"
@@ -89,7 +89,7 @@ EventTicket_Text_OddTicketsWhereTo: @ 82C6BD4
 NavelRock_Harbor_Text_SailorReturn: @ 82C6CE6
     .string "뭐... 뭔가 안쪽 깊은 곳으로부터\n"
     .string "낮은 울음소리를 들은 거 같은...\p"
-    .string "괘 괜찮지?\n"
+    .string "괘 괜찮은 거지?\n"
     .string "이제 돌아가는 편이 좋지 않을까?$"
 	// な…… なんか おくふかくからｎ
 	// ひくい うなりが きこえたような……ｐ

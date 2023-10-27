@@ -53,7 +53,7 @@ BerryBlender_Text_BlendMasterExplainBerryBlending: @ 82C444C
 	.string "뭐어 간단한 걸세!\p"
 	.string "나무열매블렌더의 마크가\n"
 	.string "자신이 있는 쪽으로 오면\l"
-	.string "버튼을 누르는 것뿐이라네!\p"
+	.string "버튼을 누르는 게 다라네!\p"
 	.string "내 완벽한 손짓을 본다면\n"
 	.string "바로 알 수 있을 걸세!$"
 	// ふむむむっ!ｐ
@@ -111,7 +111,7 @@ BerryBlender_Text_WickedlyFast: @ 82C465A
 	// はぇ-!
 
 BerryBlender_Text_WhatAnExpert: @ 82C4669
-	.string "맛있어-!$"
+	.string "잘한다-!$"
 	// うめぇ-!
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster: @ 82C4679
@@ -139,7 +139,7 @@ BerryBlender_Text_MasterWorksOnSkillsInMountains: @ 82C4763
 	.string "수행을 하고 있는 것 같아\p"
 	.string "그리고 가끔씩\n"
 	.string "해안시티로 와서\l"
-	.string "나무열매블렌더를 1일 동안\l"
+	.string "나무열매블렌더를 하루 동안\l"
 	.string "한다고 들었어$"
 	// めいじんは どこかの やまおくでｎ
 	// しゅぎょう しているらしいのｐ

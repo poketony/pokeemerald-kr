@@ -22,9 +22,9 @@ VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague: @ 8203371
 	// すごうでの トレ-ナ- ばかり ですって!
 
 VerdanturfTown_House_Text_DefeatEliteFourInARow: @ 82033EE
-	.string "포켓몬리그는\n"
+	.string "포켓몬리그는 규칙상\n"
 	.string "사천왕 4명과 연달아서\l"
-	.string "승부해야 하는 룰이래!\p"
+	.string "승부해야 한다고 하더라!\p"
 	.string "중간에 져버리면 처음부터\n"
 	.string "다시 시작해야 한다니 정말 혹독하다!$"
 	// ポケモン リ-グはｎ

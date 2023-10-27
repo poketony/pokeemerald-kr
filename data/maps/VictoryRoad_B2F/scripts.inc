@@ -35,53 +35,77 @@ VictoryRoad_B2F_Text_VitoIntro: @ 823695F
 	.string "가족들끼리\n"
 	.string "포켓몬 수행을 했었어!\l"
 	.string "누구에게도 지지 않는다고!$"
+	// かぞく ぜんいんでｎ
+	// ポケモンの しゅぎょうを してたんだ!ｌ
+	// だれにも まけないぜ!
 
 VictoryRoad_B2F_Text_VitoDefeat: @ 82369B3
 	.string "우리 가족보다 강하다고!?\n"
 	.string "그런 게 가능한 건가!?$"
+	// おれの かぞく より つよい!?ｎ
+	// そんなことって あるのか!?
 
 VictoryRoad_B2F_Text_VitoPostBattle: @ 82369DE
 	.string "가족 중에서 제일 강했던 내가...\n"
-	.string "지금까지 누구에게도\l"
-	.string "지지 않았던 내가...\p"
+	.string "지금까지 누구에게도 지지 않았던 내가...\p"
 	.string "하지만 이제 자신이 없어졌어\n"
-	.string "집으로 돌아갈까...?$"
+	.string "집으로 돌아갈까$"
+	// かぞくの だれよりも つよかった おれ……ｎ
+	// いままで だれにも まけなかった おれ……ｐ
+	// だけど じしん なくしちゃったよｎ
+	// いえに かえろうかなあ
 
 VictoryRoad_B2F_Text_OwenIntro: @ 8236A4C
 	.string "강한 꼬맹이가 있다는 소문이 있더군!\n"
 	.string "그게 바로 넌가?$"
+	// つよい こどもが いるって ウワサだ!ｎ
+	// それって きみの ことかい?
 
 VictoryRoad_B2F_Text_OwenDefeat: @ 8236A92
 	.string "진짜로 강하군!$"
+	// たしかに つよい!
 
 VictoryRoad_B2F_Text_OwenPostBattle: @ 8236AAE
 	.string "내가 들은 소문에 의하면\n"
 	.string "그 강한 꼬맹이는\l"
-	.string "등화도시 출신이라고 하더군!$"
+	.string "등화도시 출신이라고 하던데!$"
+	// おれが きいた ウワサだとｎ
+	// その つよい こども ってのはｌ
+	// トウカ しゅっしん らしいな!
 
 VictoryRoad_B2F_Text_CarolineIntro: @ 8236AF0
 	.string "이제 슬슬 지치기 시작했겠지?$"
+	// そろそろ へばって きたかな?
 
 VictoryRoad_B2F_Text_CarolineDefeat: @ 8236B14
 	.string "하나도 안 지쳐 있잖아!$"
+	// ぜんぜん へばってないわ!
 
 VictoryRoad_B2F_Text_CarolinePostBattle: @ 8236B2F
 	.string "이 챔피언로드도\n"
 	.string "포켓몬리그도 아주 긴 여정이지!\l"
 	.string "체력에 주의해!$"
+	// この チャンピオンロ-ドもｎ
+	// ポケモンリ-グも ながちょうば!ｌ
+	// たいりょくには ちゅうい してね!
 
 VictoryRoad_B2F_Text_JulieIntro: @ 8236B88
 	.string "체육관 배지를 많이 가지고 있다고\n"
-	.string "방심하지 마 뛰는 사람 위에\l"
-	.string "나는 사람이 있으니까!$"
+	.string "방심하지 마\l"
+	.string "뛰는 사람 위에 나는 사람이 있으니까!$"
+	// ジムバッジを たくさん もってるからってｎ
+	// ゆだん しないでよｌ
+	// うえには うえが いるんだから!
 
 VictoryRoad_B2F_Text_JulieDefeat: @ 8236C0A
 	.string "바로 네가 나는 사람이었구나!$"
+	// あなたの ほうが うえね!
 
 VictoryRoad_B2F_Text_JuliePostBattle: @ 8236C21
 	.string "내가 모은 체육관 배지를 보면서\n"
-	.string "지금까지 승부했던\l"
-	.string "트레이너를 떠올려$"
+	.string "지금까지 승부했던 트레이너를 떠올리곤 해$"
+	// じぶんの あつめた ジムバッジを みてｎ
+	// いままでの トレ-ナ-を おもいだすのよ
 
 VictoryRoad_B2F_Text_FelixIntro: @ 8236C67
 	.string "여기까지 왔는데\n"
@@ -97,7 +121,7 @@ VictoryRoad_B2F_Text_FelixDefeat: @ 8236CAB
 
 VictoryRoad_B2F_Text_FelixPostBattle: @ 8236CBA
 	.string "곧 포켓몬리그라고 생각하니\n"
-	.string "긴장되기 시작했어요!\p"
+	.string "긴장되기 시작했어요!\l"
 	.string "괜찮은 척하는 것만으로도 지쳐요$"
 	// もうすぐ ポケモンリ-グと おもうとｎ
 	// きんちょう して きんちょう して!ｌ

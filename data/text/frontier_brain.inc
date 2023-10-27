@@ -78,8 +78,8 @@ gText_LucyDefeatGold:: @ 82C85AE
 
 @ Battle Arena
 gText_GretaWonSilver:: @ 82C85B4
-	.string "잠깐 잠깐-!\n"
-	.string "더 힘내도록 해-!!$"
+	.string "잠깐 잠깐만-!\n"
+	.string "더 힘내 보라구-!!$"
 	// ちょっと ちょっとぉ-!ｎ
 	// もっと がんばってよね-!!
 
@@ -122,24 +122,24 @@ gText_SpenserDefeatGold:: @ 82C86B3
 @ Battle Pyramid
 gText_BrandonWonSilver:: @ 82C86C3
 	.string "어이! 뭐하고 있는 거야!\n"
-	.string "좀 더 힘내 봐! 일어서는 거다!!$"
+	.string "좀 더 힘내 봐! 일어서라고!!$"
 	// おい! なにを やってるんだ!ｎ
 	// ほら がんばれ! たちあがるんだ!!
 
 gText_BrandonDefeatSilver:: @ 82C86FE
-	.string "좋아! 힘냈구나!\n"
-	.string "잘 버텼구나!!$"
+	.string "좋아! 열심히 했구나!\n"
+	.string "잘 버텼다!!$"
 	// よおしっ! がんばった!ｎ
 	// よく がんばったぞ!!
 
 gText_BrandonWonGold:: @ 82C8739
 	.string "어이! 포기하지 마라!\n"
-	.string "자아 일어서는 거다! 힘내는 거다!!$"
+	.string "자 일어서는 거다! 힘내라고!!$"
 	// おい! あきらめるんじゃ ない!ｎ
 	// さあ たつんだ! がんばるんだ!!
 
 gText_BrandonDefeatGold:: @ 82C877B
 	.string "좋아! 잘했구나!\n"
-	.string "힘냈구나! 열심히 했구나!!$"
+	.string "힘냈구나! 열심히 했어!!$"
 	// よおしっ! よく やったぞ!ｎ
 	// がんばった! がんばった じゃないか!!

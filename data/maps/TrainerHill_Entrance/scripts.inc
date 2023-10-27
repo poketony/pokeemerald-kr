@@ -301,7 +301,7 @@ TrainerHill_Entrance_Pokemart_Expanded: @ 8268414
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady: @ 8268430
-	.string "여기는 여러 트레이너와\n"
+	.string "여기는 여러 트레이너분들과\n"
 	.string "태그배틀을 즐길 수 있는\l"
 	.string "트레이너힐입니다!\p"
 	.string "현재 이곳은 공사 중입니다\n"
@@ -309,7 +309,7 @@ TrainerHill_Entrance_Text_StillGettingReady: @ 8268430
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill: @ 82684C6
 	.string "어서 오세요!\p"
-	.string "여기는 여러 트레이너와\n"
+	.string "여기는 여러 트레이너분들과\n"
 	.string "태그배틀을 즐길 수 있는\l"
 	.string "트레이너힐입니다!$"
 	// ようこそ いらっしゃいました!ｐ
@@ -319,8 +319,8 @@ TrainerHill_Entrance_Text_WelcomeToTrainerHill: @ 82684C6
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter: @ 826851C
 	.string "처음 방문하신\n"
-	.string "트레이너시군요\p"
-	.string "이용하기 전에 리포트를\n"
+	.string "트레이너님이시군요\p"
+	.string "이용하시기 전에 리포트를\n"
 	.string "작성하도록 하겠습니다$"
 	// はじめて ごりようになるｎ
 	// トレ-ナ-さん ですねｐ
@@ -329,7 +329,7 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter: @ 826851C
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX: @ 8268564
 	.string "지금 모여 있는\n"
-	.string "트레이너는...\p"
+	.string "트레이너님은...\p"
 	.string "{STR_VAR_1}층까지인 것 같습니다$"
 	// ただいま あつまっているｎ
 	// トレ-ナ-さんは ……ｐ
@@ -337,8 +337,8 @@ TrainerHill_Entrance_Text_TrainersUpToFloorX: @ 8268564
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom: @ 826859E
 	.string "지금 모여 있는\n"
-	.string "트레이너는...\p"
-	.string "모든 방에 트레이너가\n"
+	.string "트레이너님은 ......\p"
+	.string "모든 방에 트레이너님이\n"
 	.string "모여 있는 것 같습니다!$"
 	// ただいま あつまっているｎ
 	// トレ-ナ-さんは ……ｐ
@@ -346,7 +346,7 @@ TrainerHill_Entrance_Text_TrainersInEveryRoom: @ 826859E
 	// あつまっている みたいですね!
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers: @ 82685F8
-	.string "트레이너들과\n"
+	.string "트레이너님들과\n"
 	.string "승부하겠습니까?$"
 	// トレ-ナ-さんたちとｎ
 	// しょうぶ しますか?
@@ -382,7 +382,7 @@ TrainerHill_Entrance_Text_HopeYouGiveItYourBest: @ 82686F4
 	// がんばってくださいね!
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch: @ 8268712
-	.string "트레이너가 자리를 바꾸면\n"
+	.string "트레이너님이 자리를 바꾸면\n"
 	.string "위험하므로\p"
 	.string "이쪽으로 이동하게\n"
 	.string "되었습니다!\p"
@@ -400,7 +400,7 @@ TrainerHill_Entrance_Text_ThankYouForPlaying: @ 82687AC
 TrainerHill_Entrance_Text_ExplainTrainerHill: @ 82687C3
 	.string "이곳 트레이너힐에서는\n"
 	.string "타임어택이라고 하는 경기가\l"
-	.string "이뤄지고 있습니다\p"
+	.string "치뤄지고 있습니다\p"
 	.string "빠른 시간은 타임보드에\n"
 	.string "적히므로 친구와 시간을\l"
 	.string "비교해보세요\p"
@@ -443,7 +443,7 @@ TrainerHill_Roof_Text_YouFinallyCameBravo: @ 8268986
 	.string "혼자서 온 건지!\p"
 	.string "이곳의 오너인\n"
 	.string "이 몸과...\p"
-	.string "팀을 맺기 위해서지-!\n"
+	.string "태그를 맺기 위해서지-!\n"
 	.string "와우!\p"
 	.string "...아\n"
 	.string "아닌가?\p"
@@ -466,12 +466,12 @@ TrainerHill_Roof_Text_YouFinallyCameBravo: @ 8268986
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift: @ 8268AC5
 	.string "그런 굉장한 자네에게는\n"
-	.string "이것을 선물하지!$"
+	.string "이것을 선물하지-!$"
 	// そんな すばらしい キミにはｎ
 	// これを プレゼントだ-!
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis: @ 8268B07
-	.string "지닌 물건이 가득한 건가\n"
+	.string "지닌 물건이 가득한 건가-\n"
 	.string "나중에 가지러 오게-!$"
 	// もちものが いっぱいだね-ｎ
 	// あとで とりにきて-!
@@ -492,15 +492,15 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly: @ 8268B43
 
 TrainerHill_Roof_Text_YouWerentVeryQuick: @ 8268C03
 	.string "오-...\n"
-	.string "하지만 그렇게 빠르진 않았네$"
+	.string "하지만 그렇게 빠르진 않았네-$"
 	// オ-……ｎ
 	// でも あんまり はやく なかったね-
 
 TrainerHill_Roof_Text_ArriveZippierNextTime: @ 8268C31
-	.string "다은은 더 빨리 이 몸을\n"
+	.string "다음엔 더 빨리 이 몸을\n"
 	.string "만나러 와주면 좋겠어!\p"
 	.string "그러면 그때야말로\n"
-	.string "팀을 맺도록 하지!\p"
+	.string "태그를 맺도록 하지!\p"
 	.string "그럼 또 보세! 아미고!$"
 	// つぎは もっと はやく このわたくしにｎ
 	// あいにきてくれると いいかもね!ｐ
@@ -510,8 +510,8 @@ TrainerHill_Roof_Text_ArriveZippierNextTime: @ 8268C31
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner: @ 8268CC6
-	.string "이 나와 팀을 맺을\n"
-	.string "파트너를 찾기 위해!\p"
+	.string "이 나와 태그를 맺어줄\n"
+	.string "파트너를 찾기 위해\p"
 	.string "이 트레이너힐을\n"
 	.string "만들었다네!$"
 	// このわたくしと タッグを くんでくれるｎ

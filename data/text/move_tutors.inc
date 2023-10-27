@@ -133,7 +133,7 @@ MoveTutor_Text_MimicWhichMon: @ 82C73B1
 MoveTutor_Text_MimicTaught: @ 82C73F6
 	.string "흉내내기는 내 비장의 기술이지!\n"
 	.string "너... 아니 자네가 나처럼\l"
-	.string "잘 쓸 수 있을까...?$"
+	.string "잘 쓸 수 있을까?$"
 	// ものまねは おくの ふかい わざじゃ!ｎ
 	// ボ… わしの ようにｌ
 	// うまく できるかな?
@@ -349,7 +349,7 @@ MoveTutor_Text_ExplosionTeach: @ 82C7CFA
 	.string "언제까지고 살 생각은\l"
 	.string "전혀 없어-!\p"
 	.string "두고 봐 언젠가 도시로 나가서\n"
-	.string "콰광하고 크게 터뜨릴 테니까!\p"
+	.string "콰광 하고 크게 터뜨릴 테니까!\p"
 	.string "이봐! 너 들었다면\n"
 	.string "활기차게 대폭발을 알려줄게!$"
 	// ぼかぁ こんな イナカでｎ
@@ -367,7 +367,7 @@ MoveTutor_Text_ExplosionDeclined: @ 82C7E04
 	// イナカもん だからって ことわるなあ!
 
 MoveTutor_Text_ExplosionWhichMon: @ 82C7E40
-	.string "좋았어 콰광하고 알려주지!\n"
+	.string "좋았어 콰광 하고 알려주지!\n"
 	.string "어느 포켓몬한테 해줄까?$"
 	// ぃよ-し ドッカ-ンと おぼえさせるか!ｎ
 	// どの ポケモンが ぶちかますんか?

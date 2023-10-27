@@ -63,7 +63,7 @@ SootopolisCity_Gym_B1F_Text_AndreaDefeat: @ 8225DB6
 
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle: @ 8225DCF
 	.string "모든 바닥에 금이 가게 하면\n"
-	.string "뭔가가 일어나$"
+	.string "무슨 일이 일어날 거야$"
 	// すべての ゆかに ヒビを いれるとｎ
 	// なにかが おこるわよ
 
@@ -90,7 +90,7 @@ SootopolisCity_Gym_B1F_Text_CrissyPostBattle: @ 8225E90
 SootopolisCity_Gym_B1F_Text_DaphneIntro: @ 8225ED6
 	.string "아단님의 싸우는 모습...\p"
 	.string "그 아름다움에 마음을 빼앗겨\n"
-	.string "나도 포켓몬을 키우게 됐어$"
+	.string "나도 포켓몬 승부를 시작하게 됐어$"
 	// アダンさまの たたかう すがた……ｐ
 	// その うつくしさに こころ うばわれｎ
 	// わたくしも ポケモンを はじめましてよ
@@ -113,7 +113,7 @@ SootopolisCity_Gym_B1F_Text_DaphnePostBattle: @ 8225F67
 
 SootopolisCity_Gym_B1F_Text_ConnieIntro: @ 8225FBE
 	.string "내가 승부의 가혹함을\n"
-	.string "여러 가지 알려줄게$"
+	.string "잔뜩 알려 줄게$"
 	// おねえさんが しょうぶの きびしさｎ
 	// いろいろと おしえて あげちゃおっかな
 
@@ -124,10 +124,10 @@ SootopolisCity_Gym_B1F_Text_ConnieDefeat: @ 8225FEB
 	// つよいんだ
 
 SootopolisCity_Gym_B1F_Text_ConniePostBattle: @ 8225FFE
-	.string "좋은 걸 알려줄게\p"
+	.string "좋은 걸 알려 줄게\p"
 	.string "아단님을 만나고 싶다면\n"
 	.string "모든 바닥을 한 번씩만\l"
-	.string "밟고 가면 돼$"
+	.string "밟으면서 가면 돼$"
 	// いいこと おしえて あげるねｐ
 	// アダンさまに あいたいのならｎ
 	// すべての ゆかを 1かいずつｌ
@@ -136,7 +136,7 @@ SootopolisCity_Gym_B1F_Text_ConniePostBattle: @ 8225FFE
 SootopolisCity_Gym_B1F_Text_BridgetIntro: @ 8226061
 	.string "호연지방에서 가장\n"
 	.string "레벨이 높은 포켓몬체육관...\p"
-	.string "바로 여기 루네체육관이야!$"
+	.string "그게 바로 여기 루네체육관이야!$"
 	// ホウエンちほうで いちばんｎ
 	// レベルの たかい ポケモンジム……ｐ
 	// それが ここ ルネジムよ!
@@ -157,7 +157,7 @@ SootopolisCity_Gym_B1F_Text_BridgetPostBattle: @ 82260D1
 
 SootopolisCity_Gym_B1F_Text_OliviaIntro: @ 8226164
 	.string "아단님과 함께\n"
-	.string "포켓몬을 단련하고 있어\p"
+	.string "포켓몬을 단련시키고 있어\p"
 	.string "간단히 이기진 못할 거야$"
 	// アダンさまと いっしょにｎ
 	// ポケモンを きたえて いるのｐ
@@ -168,15 +168,15 @@ SootopolisCity_Gym_B1F_Text_OliviaDefeat: @ 82261A7
 	// たおされちゃった……
 
 SootopolisCity_Gym_B1F_Text_OliviaPostBattle: @ 82261B5
-	.string "당신 장래성이 있는 것 같은데\n"
-	.string "같이 여기서 포켓몬 단련할래?$"
+	.string "너 장래성이 있는 것 같은데\n"
+	.string "같이 여기서 포켓몬 단련시킬래?$"
 	// あなた みどころ あると おもうのｎ
 	// いっしょに ここで ポケモン きたえない?
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro: @ 82261F7
 	.string "얼음 위의 한붓그리기\p"
 	.string "그게 가능한 트레이너는\n"
-	.string "엘레강트하고 아름다워!$"
+	.string "엘레강트하고 아름답지!$"
 	// こおりの うえでの ひとふでがきｐ
 	// それが できる トレ-ナ-はｎ
 	// エレガントに うつくしいのよ!
@@ -235,7 +235,7 @@ SootopolisCity_Gym_B1F_Text_AnnikaPostBattle: @ 82263F4
 
 SootopolisCity_Gym_B1F_Text_BriannaIntro: @ 822646E
 	.string "우후후...\n"
-	.string "그 필사적인 얼굴이 멋져$"
+	.string "그 필사적인 얼굴 멋진걸$"
 	// うふふ……ｎ
 	// その ひっしな おかおが ステキよ
 

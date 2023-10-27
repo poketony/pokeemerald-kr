@@ -92,7 +92,7 @@ VerdanturfTown_Text_AirCleanHere: @ 81EB736
 	.string "화산재가 날아오지 않아!\p"
 	.string "공기가 맑은 이 마을에서 살면\n"
 	.string "몸이 튼튼하지 않은 사람도\l"
-	.string "반드시 건강해질 거야!$"
+	.string "분명 건강해질 거야!$"
 	// かざむきの かんけいで このまち にはｎ
 	// かざんばいが とんでくることは ない!ｐ
 	// くうきの おいしい このまちで くらせばｎ
@@ -102,7 +102,7 @@ VerdanturfTown_Text_AirCleanHere: @ 81EB736
 VerdanturfTown_Text_MakeBattleTentDebut: @ 81EB7E2
 	.string "나와 내 포켓몬\n"
 	.string "요즘 엄청 상태가 좋거든\p"
-	.string "배틀텐트에 데뷔하기로 결정해서\n"
+	.string "배틀텐트에 데뷔시키고 싶어서\n"
 	.string "이 마을에 온 거야!$"
 	// ぼくと ぼくの ポケモンｎ
 	// さいきん すごく ちょうしが よくてねｐ
@@ -127,7 +127,7 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave: @ 81EB854
 
 VerdanturfTown_Text_EasyToGetToRustboroNow: @ 81EB935
 	.string "프렌들리숍 옆의 동굴 말이야\n"
-	.string "지나갈 수 있게 되었지?\p"
+	.string "지나갈 수 있게 됐어!\p"
 	.string "금탄도시까지 데봉의 신제품을\n"
 	.string "사러 가기 쉬워져서 기뻐!$"
 	// フレンドリィ ショップの となりのｎ

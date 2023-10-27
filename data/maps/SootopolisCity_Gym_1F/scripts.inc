@@ -186,12 +186,11 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice: @ 8225093
 	.string "챔피언을 노리는 {PLAYER}!!\p"
 	.string "루네시티 체육관 관장 아단은\n"
 	.string "물타입 포켓몬을 사용한다!!\p"
-	.string "그리고 아단이 있는 장소까지\n"
-	.string "도달하기 위해서는 얼음 바닥을\l"
-	.string "요령껏 건널 필요가 있지...\p"
-	.string "미안해! 너에게 알려\n"
-	.string "줄 수 있는 건 여기까지야...!\p"
-	.string "나머지는 스스로 힘내보라고!$"
+	.string "그리고 아단이 있는 장소는\n"
+	.string "얼음 바닥에 의해 가로막혀 있지...\p"
+	.string "미안해! 너에게\n"
+	.string "알려 줄 수 있는 건 여기까지야...!\p"
+	.string "나머지는 스스로 힘내서 이겨내봐!$"
 	// げんき しとぉや!!ｎ
 	// チャンピオンを めざす §あ!!ｐ
 	// ルネシティの ジムリ-ダ- アダンはｎ
@@ -205,11 +204,10 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice: @ 8225093
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "호연에서 가장 강하다고 알려져 있는\n"
 	.string "아단까지 이겨버렸군!!\p"
-	.string "좋아 너의\n"
+	.string "좋아! 너의\n"
 	.string "트레이너카드를 보도록!\p"
 	.string "모든 배지가 모였다면\n"
-	.string "이제 드디어\l"
-	.string "포켓몬리그에 도전할 수 있다!$"
+	.string "드디어 포켓몬리그에 도전할 수 있다!$"
 	// ホウエンで いちばん つよいと いわれるｎ
 	// アダンに かったのかあ!!ｐ
 	// よし! きみのｎ
@@ -219,15 +217,15 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 
 SootopolisCity_Gym_1F_Text_JuanIntro: @ 8225268
 	.string "유는 알고 있습니까?\p"
-	.string "윤진에게 포켓몬을 알려준 건\n"
-	.string "무엇을 숨기리 이 아단...\l"
+	.string "윤진에게 포켓몬을 가르친 건\n"
+	.string "숨길 것도 없이 바로 아단...\l"
 	.string "즉 저라는 것을 말이죠\p"
-	.string "한 번 체육관 관장에서 벗어나\n"
+	.string "한 번 체육관 관장에서 물러나\n"
 	.string "이 체육관을 그에게 맡겼습니다만\l"
-	.string "조금 리즌이 있어서...\l"
+	.string "조금 리즌...\l"
 	.string "즉 이유가 생겨서 말이죠...\l"
 	.string "다시 한 번 컴백했습니다\p"
-	.string "...으음\n"
+	.string "...어이쿠\n"
 	.string "대화는 이 정도로 하고\l"
 	.string "슬슬 승부를 시작할까요\p"
 	.string "자 마음껏 보시죠\n"
@@ -258,7 +256,7 @@ SootopolisCity_Gym_1F_Text_JuanDefeat: @ 8225432
 	.string "즉 저의 패배군요\p"
 	.string "유에게서 누구에게도 지지 않는\n"
 	.string "재능의 반짝임이 느껴집니다!\p"
-	.string "하지만 저나 윤진에 비교하면\n"
+	.string "하지만 저나 윤진에 비하면\n"
 	.string "조금 화려함이 부족하군요!\p"
 	.string "제 옷이라도\n"
 	.string "빌려드릴까요?\p"
@@ -293,7 +291,7 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis: @ 82255BE
 	.string "유의 말을 잘 따르게 됩니다\p"
 	.string "세차게 흐르는 폭포도\n"
 	.string "비전기술 폭포오르기를 써서\l"
-	.string "올라갈 수 있게 해줍니다\p"
+	.string "올라갈 수 있게 해주지요\p"
 	.string "그리고 저와의 승부를\n"
 	.string "잊지 않도록 이걸...$"
 	// レインバッジを もっているとｎ
@@ -327,11 +325,10 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle: @ 8225778
 	.string "호연에서 모을 수 있는\n"
 	.string "모든 체육관 배지를 손에 넣은\l"
 	.string "트레이너가 가야 할 장소\p"
-	.string "그것이 바로 포켓몬리그\p"
+	.string "그것은 바로 포켓몬리그\p"
 	.string "포켓몬리그에 가려면\n"
 	.string "호연지방 끝에 있는\l"
-	.string "그랜드시티라고 불리는 섬으로\l"
-	.string "가면 될 겁니다$"
+	.string "그랜드시티라는 섬으로 가면 됩니다$"
 	// ホウエンで あつめられるｎ
 	// すべての ジムバッジを てにいれたｌ
 	// トレ-ナ-が いくべき ばしょｐ
@@ -358,11 +355,11 @@ SootopolisCity_Gym_1F_Text_GymStatue: @ 82258FA
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified: @ 8225916
 	.string "루네시티 포켓몬체육관\p"
-	.string "체육관 관장 아단\n"
-	.string "인정 트레이너!\l"
+	.string "아단 인정 트레이너!\n"
 	.string "{PLAYER}$"
 	// ルネシティ ポケモンジムｐ
-	// アダン にんてい トレ-ナ-!ｎ§あ
+	// アダン にんてい トレ-ナ-!ｎ
+	// §あ
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch: @ 8225950
 	.string "아단: 언제나의 사일런스...\n"
@@ -371,7 +368,7 @@ SootopolisCity_Gym_1F_Text_JuanPreRematch: @ 8225950
 	.string "실력을 시험하러 나타났군요!\p"
 	.string "물론 좋습니다!\p"
 	.string "몇 번이든 유의 상대를\n"
-	.string "해드리도록 하죠!$"
+	.string "해 드리도록 하죠!$"
 	// アダン『いつもの サイレンス……ｎ
 	// しずけさを とりもどした このジムにｐ
 	// またもや わかき タイフ-ンがｎ
@@ -382,14 +379,14 @@ SootopolisCity_Gym_1F_Text_JuanPreRematch: @ 8225950
 
 SootopolisCity_Gym_1F_Text_JuanRematchDefeat: @ 8225A2E
 	.string "앗하하하! 유 아 위너!\n"
-	.string "또 저의 패배군요$"
+	.string "또다시 저의 패배군요$"
 	// たははは! ユ- ア- ウィナ-!ｎ
 	// またしても わたくしの まけです
 
 SootopolisCity_Gym_1F_Text_JuanPostRematch: @ 8225A67
 	.string "아단: 저의 제자가 되어달라고 해도\n"
 	.string "분명 유는 거절할 테죠\p"
-	.string "적어도 제가 입고 있는 코트를\n"
+	.string "하다못해 제가 입고 있는 코트를\n"
 	.string "선물하고 싶지만...\l"
 	.string "아마 유는 받지 않을 겁니다\p"
 	.string "그것이 젠틀맨이니까요\n"

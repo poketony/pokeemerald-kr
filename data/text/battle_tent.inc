@@ -140,8 +140,7 @@ FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent: @ 82C4DC3
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting: @ 82C4DED
 	.string "손님!\p"
 	.string "지난번 종료하기 전에\n"
-	.string "리포트를 제대로\l"
-	.string "작성하지 않으셨죠?\p"
+	.string "리포트를 제대로 작성하지 않으셨죠?\p"
 	.string "유감이지만 이런 경우에는\n"
 	.string "도전이 무효가 됩니다!\p"
 	.string "다시 처음부터\n"
@@ -287,7 +286,7 @@ VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50: @ 82C543D
 	.string "도전할 수 있는 포켓몬이\n"
 	.string "3마리는 필요하다네!\p"
 	.string "도전하려면\n"
-	.string "종류가 다른 포켓몬을\p"
+	.string "종류가 다른 포켓몬을\l"
 	.string "3마리 준비해 주게\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구여야 하네\p"
@@ -310,7 +309,7 @@ VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen: @ 82C5538
 	.string "도전할 수 있는 포켓몬이\n"
 	.string "3마리는 필요하다네!\p"
 	.string "도전하려면\n"
-	.string "종류가 다른 포켓몬을\p"
+	.string "종류가 다른 포켓몬을\l"
 	.string "3마리 준비해 주게\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구여야 하네\p"
@@ -348,8 +347,8 @@ VerdanturfTown_BattleTentLobby_Text_NowFollowMe: @ 82C56A2
 	// わしに ついてこい……
 
 VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded: @ 82C56B8
-	.string "좋은 구경을 했네\p"
-	.string "그럼 성적을 리포트에 작성하지...\n"
+	.string "좋은 구경을 했구먼\p"
+	.string "그럼 성적을 리포트에 작성하겠네...\n"
 	.string "잠시 기다려 주게...$"
 	// よいものを みせて もらったｐ
 	// それでは レポ-トを かこう……ｎ
@@ -370,7 +369,7 @@ VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded: @ 82C5791
 	// しばし またれよ……
 
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize: @ 82C57CD
-	.string "7연승을 거둔 증거로\n"
+	.string "3연승을 거둔 증거로\n"
     .string "배틀포인트를 주겠네...$"
 	// 3にんぬきの あかしにｎ
 	// こちらを さしあげよう……
@@ -434,8 +433,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent: @ 82C589C
 	// くれぐれも きをつけて くださいね!
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit: @ 82C5AA5
-	.string "다음에 또 이용해 주세요\n"
-	.string "기다리고 있겠습니다!$"
+	.string "다음 이용을 기다리고 있겠습니다!$"
 	// またの ごりようを おまちしていますよ!
 
 @ Unused
@@ -447,8 +445,7 @@ SlateportCity_BattleTentLobby_Text_WhichLevelMode: @ 82C5AC9
 
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge: @ 82C5B06
 	.string "그럼 도전을 시작하기 전에\n"
-	.string "리포트를 작성합니다만\l"
-	.string "괜찮겠습니까?$"
+	.string "리포트를 작성합니다만 괜찮겠습니까?$"
 	// では ちょうせんを はじめる まえにｎ
 	// レポ-トを かきますが よろしいですか?
 
@@ -460,7 +457,7 @@ SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping: @ 82C5B4A
 	// おあずかり します!
 
 SlateportCity_BattleTentLobby_Text_StepThisWay: @ 82C5B8C
-	.string "자 자 이쪽으로 와 주세요!$"
+	.string "자자 이쪽으로 와 주세요!$"
 	// さあさあ こちらに どうぞ!
 
 SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults: @ 82C5BA2
@@ -508,9 +505,9 @@ SlateportCity_BattleTentLobby_Text_AwardYouThisPrize: @ 82C5D14
 
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom: @ 82C5D52
 	.string "어라?\n"
-	.string "도구가 가득찬 모양이군요\p"
+	.string "도구가 가득찬 모양이군요-\p"
 	.string "도구를 정리하고 나서\n"
-	.string "다시 와주세요!$"
+	.string "다시 와 주세요!$"
 	// おやや?ｎ
 	// どうぐが いっぱい ですね-ｐ
 	// どうぐを せいり してからｎ
@@ -529,7 +526,7 @@ SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting: @ 82C5DFA
 	.string "지난번에 종료하기 전에 리포트를\n"
 	.string "제대로 작성하지 않으셨죠!\p"
 	.string "죄송합니다만\n"
-	.string "도전이 무효가 됩니다!$"
+	.string "도전은 무효가 됩니다!$"
 	// おきゃくさま-!!ｐ
 	// ぜんかい ちゃんと レポ-トを かいてｎ
 	// しゅうりょう しませんでしたね!ｐ

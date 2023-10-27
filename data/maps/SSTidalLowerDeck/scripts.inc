@@ -13,27 +13,41 @@ SSTidalLowerDeck_EventScript_Leonard:: @ 823C830
 
 SSTidalLowerDeck_Text_PhillipIntro: @ 823C847
 	.string "이렇게 넓은 곳을\n"
-	.string "언제 다 청소하지!? 이제 질렸어!\l"
+	.string "청소하는 건 질렸어!\l"
 	.string "잠깐 승부나 하자고!$"
+	// こんなに でっかい ところｎ
+	// そうじ してるのも あきたぞ!ｌ
+	// ちょいと しょうぶ しようや!
 
 SSTidalLowerDeck_Text_PhillipDefeat: @ 823C8A0
 	.string "아우야! 져버렸다!$"
+	// おとうと まけちまったよ!
 
 SSTidalLowerDeck_Text_PhillipPostBattle: @ 823C8B4
 	.string "우리들은 청소브라더스!\p"
 	.string "형은 세제를 마구 뿌리고-\n"
 	.string "동생은 빡빡 닦는다-$"
+	// おれたち おそうじ ブラザ-ズ!ｐ
+	// あにきが せんざい ぶちまけて-ｎ
+	// おとうと せっせと みがくのさ-
 
 SSTidalLowerDeck_Text_LeonardIntro: @ 823C917
 	.string "이렇게 넓으니까\n"
 	.string "뱃바닥에서 포켓몬 승부를 해도\l"
 	.string "괜찮겠지?$"
+	// こんなに ひろいからｎ
+	// ふなぞこで ポケモンしょうぶ してもｌ
+	// だいじょうぶ だろ?
 
 SSTidalLowerDeck_Text_LeonardDefeat: @ 823C97D
 	.string "형님! 져버렸습니다!$"
+	// あにき まけちまったよ!
 
 SSTidalLowerDeck_Text_LeonardPostBattle: @ 823C98E
 	.string "우리들은 청소브라더스!\p"
 	.string "형은 세제를 마구 뿌리고-\n"
 	.string "동생은 빡빡 닦는다-$"
+	// おれたち おそうじ ブラザ-ズ!ｐ
+	// あにきが せんざい ぶちまけて-ｎ
+	// おとうと せっせと みがくのさ-
 

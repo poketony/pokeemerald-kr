@@ -52,7 +52,7 @@ SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn: @ 8226562
 	.string "호연지방에서도 제일 강하다고\l"
 	.string "여겨지는 실력자 윤진에게\p"
 	.string "포켓몬 승부의 첫걸음을\n"
-	.string "가르쳐 준 사람인가봐\p"
+	.string "가르쳐 준 사람이야\p"
 	.string "하지만 그런 윤진의 스승보다\n"
 	.string "더 강하다고 하는 사천왕...\l"
 	.string "그 강함은 도대체 어느 정도일까$"
@@ -69,7 +69,7 @@ SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge: @ 822664B
 	.string "이 마을에 사는 사람들이 모두\n"
 	.string "집에 틀어박혀서 나오질 않아요!\p"
 	.string "이렇게 말하는 저도\n"
-	.string "여기서 나가고 싶진 않아요...$"
+	.string "여기서 나가고 싶진 않지만요...$"
 	// この まちの みんなが みんなｎ
 	// いえに とじこもって でてこないんです!ｐ
 	// そう いってる わたしもｎ
@@ -79,7 +79,7 @@ SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon: @ 82266B9
 	.string "어떤 때라도\n"
 	.string "무슨 일이 있더라도\l"
 	.string "난 계속 포켓몬과 친구로 있을 거야\p"
-	.string "왜냐하면 포켓몬이랑 같이 있으면\n"
+	.string "왜냐면 포켓몬이랑 같이 있으면\n"
 	.string "엄청 즐거우니까!$"
 	// どんな ときでもｎ
 	// どんな ことが あってもｌ

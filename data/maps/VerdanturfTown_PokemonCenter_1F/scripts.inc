@@ -41,8 +41,8 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon: @ 820275A
 VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent: @ 820280B
 	.string "잔디마을에 온 이유는\n"
 	.string "역시 배틀텐트지?\p"
-	.string "아니면 누구 만나고 싶은\n"
-	.string "사람이라도 있는 건가?$"
+	.string "아니면 누구 만나고 싶은 사람이라도\n"
+	.string "있는 건가?$"
 	// シダケにくる りゆうと いえばｎ
 	// ずばり バトルテントじゃろ?ｐ
 	// それとも だれか あいたい ひとでもｎ

@@ -43,8 +43,14 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub:: @ 82343DC
 Underwater_SeafloorCavern_Text_SubExplorer1: @ 82343E5
 	.string "잠수정에는\n"
 	.string "“해연 1호”라고 적혀 있다\p"
-	.string "아쿠아단이 잿빛도시 조선소에서\n"
+	.string "아쿠아단이 잿빛도시에서\n"
 	.string "빼앗아 온 잠수정이다!\p"
 	.string "아쿠아단은\n"
 	.string "여기 위로 올라간 것 같다$"
+	// せんすいてい にはｎ
+	// 「かいえん 1ごう」と かかれているｐ
+	// アクアだんが カイナからｎ
+	// うばって いった せんすいてい だ!ｐ
+	// アクアだんはｎ
+	// ここから うえに あがったみたいだ
 
