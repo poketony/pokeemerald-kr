@@ -93,7 +93,7 @@ MtPyre_2F_Text_LukeDefeat: @ 82313A1
 MtPyre_2F_Text_LukePostBattle: @ 82313B1
 	.string "테르: 져버렸지만 괜찮아!\n"
 	.string "내가 있으니까\l"
-	.string "담력 훈련 같은 건 별것 아니라고!$"
+	.string "담력 훈련 같은 건 별거 아니라고!$"
 	// テル『まけちゃったけど だいじょうぶ!ｎ
 	// ぼくが いるからさｌ
 	// きもだめし なんて へっちゃら だよ!

@@ -638,7 +638,7 @@ Route119_Text_ScottYouWonAtFortreeGym: @ 81F4FBA
 	.string "너의 그 강함을 보니 어쩌면...\n"
 	.string "내가 찾고 있던 트레이너는\l"
 	.string "정말로 너일지도 모르겠어!\p"
-	.string "응 너에 대해서 앞으로도\n"
+	.string "응 앞으로도 너를\n"
 	.string "멀리서나마 응원하고 있을게!\l"
 	.string "그럼 힘내라고!\p"
 	.string "...... ...... ......\n"

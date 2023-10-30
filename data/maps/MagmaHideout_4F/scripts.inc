@@ -274,7 +274,7 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon: @ 823ABE2
 	.string "흥...\n"
 	.string "그 정도는 나도 알고 있다\p"
 	.string "그란돈이 없어진 이상\n"
-	.string "더는 이런 산에 볼일은 없어\p"
+	.string "더는 이런 산에 볼일은 없지\p"
 	.string "나는 그란돈을 쫓아갈 거니까\n"
 	.string "너하고는 여기서 작별이겠군!$"
 	// マツブサ『グラ-ドンが にげだしたの にはｎ

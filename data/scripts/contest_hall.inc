@@ -1552,7 +1552,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestTypes: @ 827B17D
 	.string "근사함, 아름다움, 귀여움\l"
 	.string "슬기로움, 그리고 강인함입니다!\p"
 	.string "참가할 포켓몬이 가장\n"
-	.string "자신있어할 만한 콘테스트를\l"
+	.string "자신 있어 할 만한 콘테스트를\l"
 	.string "선택해 주십시오$"
 
 LilycoveCity_ContestLobby_Text_ExplainContestRanks: @ 827B221

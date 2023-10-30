@@ -629,7 +629,7 @@ gTVFanClubOpinionsText00:: @ 08280886
 	.string "바로 제가 대신 TV를\n"
 	.string "통해 외쳐드리겠습니다!\p"
 	.string "우-!!\p"
-	.string "렛츠 샤우트!!$"
+	.string "렛츠 샤우트!!!$"
 	// 『ぼくたち!ｎ
 	// ポケモン だいすきクラブ!』ｐ
 	// はい はじまりました!ｐ
@@ -777,7 +777,7 @@ gTVFanClubText00:: @ 08280DEE
 
 gTVFanClubText01:: @ 08280F69
 	.string "오-!!\n"
-	.string "정말 굉장한 편지네요!$"
+	.string "정말 굉장한 편지네요!!$"
 	// お-!!ｎ
 	// なんて すばらしい てがみなんだ!!
 
@@ -1106,7 +1106,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2:: @ 8281C65
 	// §い って どうおもう?
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer:: @ 8281C95
-	.string "자 다음은\n"
+	.string "그럼 이번엔\n"
 	.string "{STR_VAR_1}의 강함을\l"
 	.string "점수로 평가해줄래?$"
 	// じゃあ こんどはｎ
@@ -2602,680 +2602,1144 @@ gTVSecretBaseVisitText01:: @ 08285BCA
 	// すばらしい ですね-
 
 gTVSecretBaseVisitText02:: @ 08285C13
-	.string "Oh!\n"
-	.string "How remarkable!\p"
-	.string "There isn't a single piece\n"
-	.string "of furniture or interior goods!\p"
-	.string "Mere mortals couldn't hope to\n"
-	.string "imitate this bold statement!\p"
-	.string "It's simple, but it bursts, yes,\n"
-	.string "bursts with wildness!\p"
-	.string "My hat's off to you, {STR_VAR_1}.\n"
-	.string "It had to be you!$"
+	.string "오오-!\p"
+	.string "이럴 수가!\n"
+	.string "아무런 굿즈도 없습니다!\p"
+	.string "평범한 사람은 흉내낼 수 없는\n"
+	.string "이 대담함!\p"
+	.string "심플하면서도\n"
+	.string "넘쳐흐르는 이 와일드함!\p"
+	.string "이야-\n"
+	.string "역시 {STR_VAR_1}씨네요-$"
+	// おお-!ｐ
+	// なんと!ｎ
+	// グッズが なにも ありません!ｐ
+	// ふつうの ひとには まね できないｎ
+	// この だいたんさ!ｐ
+	// シンプルで ありながらｎ
+	// あふれでる この ワイルドさ!ｐ
+	// いや-ｎ
+	// さすが §いさん ですね-
 
 gTVSecretBaseVisitText03:: @ 08285CFF
-	.string "Oh! I see!\n"
-	.string "With perfect clarity, I see it!\p"
-	.string "This {STR_VAR_2} being here…\n"
-	.string "It sends an effective message!$"
+	.string "아아-! 과연!\p"
+	.string "여기에 “{STR_VAR_2}”입니까!\n"
+	.string "이거 참 효과적이네요-$"
+	// ああ-! なるほど!ｐ
+	// ここに 「§う」 ですか!ｎ
+	// これは こうかてき ですね-
 
 gTVSecretBaseVisitText04:: @ 08285D5D
-	.string "Oh! I see!\n"
-	.string "With perfect clarity, I see it!\p"
-	.string "This space is kept deliberately\n"
-	.string "clear of interior items!\p"
-	.string "It sends an effective message!$"
+	.string "아아-! 과연!\p"
+	.string "여기에는 일부러 굿즈를 놓지 않고\n"
+	.string "열어둔 거군요-\p"
+	.string "이거 참 효과적이네요-$"
+	// ああ-! なるほど!ｐ
+	// ここには わざと グッズを おかずにｎ
+	// あけて いるのですね-ｐ
+	// これは こうかてき ですね-
 
 gTVSecretBaseVisitText05:: @ 08285DE0
-	.string "Wheeew!\p"
-	.string "The pairing of the {STR_VAR_2}\n"
-	.string "with the {STR_VAR_3}!\p"
-	.string "It's a dream combination if there\n"
-	.string "ever was one!$"
+	.string "우와-!\p"
+	.string "“{STR_VAR_2}”{K_WAGWA}\n"
+	.string "“{STR_VAR_3}”의 조합!\p"
+	.string "꿈에서만 그리던 합체군요-$"
+	// ふぇ-!ｐ
+	// 「§う」とｎ
+	// 「§え」の くみあわせ!ｐ
+	// ゆめの がったいに なっていますね-
 
 gTVSecretBaseVisitText06:: @ 08285E3B
-	.string "Wheeew!\p"
-	.string "The placement of this {STR_VAR_2}\n"
-	.string "right here…\p"
-	.string "It has a presence that fills\n"
-	.string "the entire SECRET BASE!$"
+	.string "우와-!\p"
+	.string "여기에 “{STR_VAR_2}” 입니까!\n"
+	.string "비밀기지 전체에 존재감이 퍼지네요-$"
+	// ふぇ-!ｐ
+	// ここに 「§う」ですか!ｎ
+	// ひみつきち ぜんたいに きいていますね-
 
 gTVSecretBaseVisitText07:: @ 08285E9D
-	.string "Wheeew!\p"
-	.string "There's nothing in place here.\p"
-	.string "This empty space has an effect on\n"
-	.string "the entire SECRET BASE.$"
+	.string "우와-!\p"
+	.string "여기에는 아무것도 안 놓여져 있군요\p"
+	.string "이야- 이 아무것도 없는 공간이\n"
+	.string "비밀기지 전체에 좋은 느낌을 주네요$"
+	// ふぇ-!ｐ
+	// ここには なにも おいていませんｐ
+	// いや- この なにもない スペ-スがｎ
+	// ひみつきち ぜんたいに きいてますね-
 
 gTVSecretBaseVisitText08:: @ 08285EFE
-	.string "Oh!\n"
-	.string "Here comes {STR_VAR_1}!\l"
-	.string "Let's challenge the TRAINER!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "앗!\n"
+	.string "{STR_VAR_1}씨가 있군요!\l"
+	.string "바로 대전해 보겠습니다!\p"
+	.string "...... ...... ...... ......\n"
+	.string "...... ...... ...... ......$"
+	// あっ!ｎ
+	// §いさんが いらっしゃいます!ｌ
+	// さっそく たいせん してみましょう!ｐ
+	// …… …… …… ……ｎ
+	// …… …… …… ……
 
 gTVSecretBaseVisitText09:: @ 08285F46
-	.string "Sigh…\n"
-	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's POKéMON were truly\n"
-	.string "worthy of the CHAMPION's title.\p"
-	.string "They gave ample proof of {STR_VAR_1}'s\n"
-	.string "toughness as a TRAINER.\p"
-	.string "That the {STR_VAR_2} knew the move\n"
-	.string "{STR_VAR_3}…\p"
-	.string "It shows you what sort of a TRAINER\n"
-	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "하아-!\n"
+	.string "역시 {STR_VAR_1}씨네요\p"
+	.string "챔피언이라 부르기에 걸맞은\n"
+	.string "강함을 지닌 포켓몬이었습니다\p"
+	.string "{STR_VAR_1}씨의 강함이\n"
+	.string "무척 잘 드러나더군요\p"
+	.string "특히 {STR_VAR_2}에\n"
+	.string "“{STR_VAR_3}” 조합이라니\l"
+	.string "{STR_VAR_1}씨다워요-\p"
+	.string "이야- 정말 공부가 됐습니다$"
+	// はぁ-!ｎ
+	// さすが §いさん ですｐ
+	// チャンピオンと よぶに ふさわしいｎ
+	// つよさの ポケモン でしたｐ
+	// §いさんの ちからづよさがｎ
+	// とっても でていましたよｐ
+	// とくに §うにｎ
+	// 「§え」 なんてｌ
+	// §いさん らしいですね-ｐ
+	// いや- べんきょう させて いただきました
 
 gTVSecretBaseVisitText10:: @ 08286049
-	.string "Aiyeeh!\n"
-	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's POKéMON were\n"
-	.string "monstrously tough!\p"
-	.string "They gave ample proof of {STR_VAR_1}'s\n"
-	.string "tenacity as a TRAINER.\p"
-	.string "That the {STR_VAR_2} knew the move\n"
-	.string "{STR_VAR_3}…\p"
-	.string "It shows you what sort of a TRAINER\n"
-	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "좋았어요-!\n"
+	.string "역시 {STR_VAR_1}씨군요\p"
+	.string "엄청나게 강한 포켓몬이었습니다\p"
+	.string "{STR_VAR_1}씨의 노력이\n"
+	.string "잘 드러나더군요\p"
+	.string "특히 {STR_VAR_2}에\n"
+	.string "“{STR_VAR_3}” 조합이라니\l"
+	.string "{STR_VAR_1}씨다워요-\p"
+	.string "이야- 정말 공부가 됐습니다$"
+	// ひぃ-!ｎ
+	// さすが §いさん ですｐ
+	// ものすごく つよい ポケモン でしたよｐ
+	// §いさんの がんばりやさんなｎ
+	// ところが でていましたよｐ
+	// とくに §うにｎ
+	// 「§え」 なんてｌ
+	// §いさん らしいですね-ｐ
+	// いや- べんきょう させて いただきました
 
 gTVSecretBaseVisitText11:: @ 0828613A
-	.string "Wheeew!\n"
-	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's POKéMON were clearly\n"
-	.string "raised in a well-balanced manner.\p"
-	.string "They gave ample proof of {STR_VAR_1}'s\n"
-	.string "thoughtfulness as a TRAINER.\p"
-	.string "That the {STR_VAR_2} knew the move\n"
-	.string "{STR_VAR_3}…\p"
-	.string "It shows you what sort of a TRAINER\n"
-	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "우와-!\n"
+	.string "역시 {STR_VAR_1}씨군요\p"
+	.string "밸런스 있게\n"
+	.string "육성된 포켓몬이었습니다\p"
+	.string "{STR_VAR_1}씨의 섬세함이\n"
+	.string "잘 드러나더군요\p"
+	.string "특히 {STR_VAR_2}에\n"
+	.string "“{STR_VAR_3}” 조합이라니\l"
+	.string "{STR_VAR_1}씨다워요-\p"
+	.string "이야- 정말 공부가 됐습니다$"
+	// ふぇ-!ｎ
+	// さすが §いさん ですｐ
+	// バランスよくｎ
+	// そだてられた ポケモン でしたよｐ
+	// §いさんの きくばり じょうずなｎ
+	// ところが でていましたよｐ
+	// とくに §うにｎ
+	// 「§え」 なんてｌ
+	// §いさん らしいですね-ｐ
+	// いや- べんきょう させて いただきました
 
 gTVSecretBaseVisitText12:: @ 08286248
-	.string "Well, well!\n"
-	.string "I've got to hand it to {STR_VAR_1}.\p"
-	.string "The TRAINER's POKéMON showed\n"
-	.string "great promise for future growth.\p"
-	.string "They represented {STR_VAR_1}'s\n"
-	.string "hopes and dreams.\p"
-	.string "That the {STR_VAR_2} knew the move\n"
-	.string "{STR_VAR_3}…\p"
-	.string "It shows you what sort of a TRAINER\n"
-	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "호오-!\n"
+	.string "역시 {STR_VAR_1}씨군요\p"
+	.string "이후의 성장이\n"
+	.string "기대되는 포켓몬이었습니다\p"
+	.string "{STR_VAR_1}씨의 꿈과 희망이\n"
+	.string "잘 드러나더군요\p"
+	.string "특히 {STR_VAR_2}에\n"
+	.string "“{STR_VAR_3}” 조합이라니\l"
+	.string "{STR_VAR_1}씨다워요-\p"
+	.string "이야-\n"
+	.string "정말 공부가 됐습니다$"
+	// ほぉ-!ｎ
+	// さすが §いさん ですｐ
+	// しょうらいの せいちょうがｎ
+	// たのしみな ポケモン でしたよｐ
+	// §いさんの ゆめと きぼうがｎ
+	// でていましたよｐ
+	// とくに §うにｎ
+	// 「§え」 なんてｌ
+	// §いさん らしいですね-ｐ
+	// いや-ｎ
+	// べんきょう させて いただきました
 
 gTVSecretBaseVisitText13:: @ 08286340
-	.string "I must say, what a superb SECRET BASE\n"
-	.string "it was!\p"
-	.string "Viewers, if you have the chance,\n"
-	.string "do visit {STR_VAR_1}'s SECRET BASE.\p"
-	.string "Until next time, I bid you adieu!$"
+	.string "이야-\n"
+	.string "굉장한 방이었습니다-\p"
+	.string "여러분도 한번 {STR_VAR_1}씨의\n"
+	.string "비밀기지를 방문해 보시는 건\l"
+	.string "어떤가요?\p"
+	.string "그럼 또 다음에 봅시다!\n"
+	.string "바이바이!$"
+	// いや-ｎ
+	// すばらしい おへや でしたね-ｐ
+	// みなさんも いちど §いさんのｎ
+	// ひみつきちを ごほうもん されてみてはｌ
+	// いかが でしょうか?ｐ
+	// では また じかい おあいしましょう!ｎ
+	// さようなら!
 
 gTVPokemonLotteryWinnerFlashReportText00:: @ 082863CC
-	.string "It's exciting!\n"
-	.string "It's dramatic!\p"
-	.string "It's the POKéMON LOTTERY\n"
-	.string "WINNER FLASH REPORT!\p"
-	.string "Hello! We're coming at you live from\n"
-	.string "the POKéMON LOTTERY CORNER on\l"
-	.string "the ground floor of the LILYCOVE\l"
-	.string "DEPARTMENT STORE!\p"
-	.string "Like it always happens, another\n"
-	.string "lucky TRAINER appeared today!\p"
-	.string "That TRAINER's name…\n"
-	.string "{STR_VAR_1}!\p"
-	.string "{STR_VAR_1} won the {STR_VAR_2} prize\n"
-	.string "and took home the {STR_VAR_3}!\p"
-	.string "{STR_VAR_1}!\n"
-	.string "Congratulations!\p"
-	.string "Viewers, don't just watch,\n"
-	.string "get in on the action!\p"
-	.string "All of us at the LILYCOVE DEPARTMENT\n"
-	.string "STORE look forward to your next visit!\p"
-	.string "This has been a live broadcast from\n"
-	.string "the LILYCOVE DEPARTMENT STORE,\l"
-	.string "offering you the greatest selection\l"
-	.string "in all HOENN!$"
+	.string "“두근두근! 쿵쾅쿵쾅!\n"
+	.string "  ID 추첨센터 당첨자 속보!”\p"
+	.string "안녕하세요!\n"
+	.string "이쪽은 해안백화점 1층\l"
+	.string "ID 추첨센터의 카운터입니다!\p"
+	.string "오늘도 한 명의 럭키 트레이너가\n"
+	.string "나타났습니다!\p"
+	.string "그 사람의 이름은...\n"
+	.string "{STR_VAR_1}씨입니다!\p"
+	.string "{STR_VAR_1}{K_EUNNEUN}\n"
+	.string "멋지게 {STR_VAR_2}등을 하여\l"
+	.string "{STR_VAR_3}{K_EULREUL} 획득했습니다!\p"
+	.string "{STR_VAR_1}씨!\n"
+	.string "정말 축하드립니다!\p"
+	.string "TV 앞에 계신 여러분도 꼭\n"
+	.string "해안백화점에 들러보세요!\l"
+	.string "저희 점원 일동이 기다리고 있습니다!\p"
+	.string "이상\n"
+	.string "호연지방 제일의 가게\l"
+	.string "해안백화점에서 전해드렸습니다!$"
+	// 『ドキドキ! ワクワク!ｎ
+	//  ポケモンくじ とうせんしゃ そくほう!』ｐ
+	// こんにちは!ｎ
+	// こちらは ミナモデパ-ト 1かいｌ
+	// ポケモンくじ うりば です!ｐ
+	// きょうも ひとりの ラッキ-トレ-ナ-がｎ
+	// あらわれました!ｐ
+	// その かたの おなまえは……ｌ
+	// §いさん です!ｐ
+	// §いさんはｎ
+	// みごと §うとうを あててｌ
+	// §えを かくとく しました!ｐ
+	// §いさん!ｎ
+	// おめでとう ございました!ｐ
+	// テレビの まえの みなさんも ぜひｎ
+	// ミナモデパ-トへ ごらいてん ください!ｌ
+	// てんいん いちどう おまち しております!ｐ
+	// いじょうｎ
+	// ホウエン いちの しなぞろえｌ
+	// ミナモデパ-ト より おおくり しました!
 
 gTVThePokemonBattleSeminarText00:: @ 08286616
-	.string "THE POKéMON BATTLE SEMINAR!\p"
-	.string "We examine battles to see what\n"
-	.string "lessons we may learn from others.\p"
-	.string "Today's case study is on {STR_VAR_1}'s\n"
-	.string "battle.\p"
-	.string "{STR_VAR_1}'s {STR_VAR_2} was\n"
-	.string "battling one {STR_VAR_3}…$"
+	.string "“포켓몬 배틀 강좌!”\p"
+	.string "오늘도 여러분과 함께\n"
+	.string "배틀을 공부하도록 하겠습니다\p"
+	.string "오늘의 문제는\n"
+	.string "{STR_VAR_1}씨의 배틀에 대해서입니다\p"
+	.string "{STR_VAR_1}씨는 {STR_VAR_2}{K_EU}로\n"
+	.string "{STR_VAR_3}{K_WAGWA} 배틀했습니다만...$"
+	// 『ポケモン バトル こうざ!』ｐ
+	// きょうも みなさんと ごいっしょにｎ
+	// バトルに ついて べんきょう しましょうｐ
+	// きょうの もんだいはｎ
+	// §いさんの バトルに ついてですｐ
+	// §いさんは §うでｎ
+	// §えと たたかったの ですが……
 
 gTVThePokemonBattleSeminarText01:: @ 082866B6
-	.string "And it used the move {STR_VAR_3}\n"
-	.string "on the {STR_VAR_2}…\p"
-	.string "Hmm… {STR_VAR_1}!\n"
-	.string "That's the wrong thing to do!$"
+	.string "{STR_VAR_2}에게\n"
+	.string "“{STR_VAR_3}”{K_EULREUL} 써버렸습니다...\p"
+	.string "으-음... {STR_VAR_1}씨!\n"
+	.string "이러시면 안 되죠...$"
+	// §うに たいしてｎ
+	// 「§え」を やってしまいました……ｐ
+	// う-ん…… §いさん!ｎ
+	// これは いけませんね……
 
 gTVThePokemonBattleSeminarText02:: @ 08286700
-	.string "In addition to the doomed move,\n"
-	.string "the TRAINER's {STR_VAR_1} also knew$"
+	.string "{STR_VAR_1}{K_EUNNEUN} 그 외에도...$"
+	// §いは そのほかに……
 
 gTVThePokemonBattleSeminarText03:: @ 0828673B
-	.string "the moves {STR_VAR_1}, {STR_VAR_2},\n"
-	.string "and {STR_VAR_3}.$"
+	.string "“{STR_VAR_1}” “{STR_VAR_2}”\n"
+	.string "“{STR_VAR_3}” ...같은 기술이 있었습니다$"
+	// 「§い」 「§う」ｎ
+	// 「§え」 ……を おぼえていました
 
 gTVThePokemonBattleSeminarText04:: @ 08286755
-	.string "the moves {STR_VAR_1} and\n"
-	.string "{STR_VAR_2}.$"
+	.string "“{STR_VAR_1}” “{STR_VAR_2}”\n"
+	.string "...같은 기술이 있었습니다$"
+	// 「§い」 「§う」ｎ
+	// ……を おぼえていました
 
 gTVThePokemonBattleSeminarText05:: @ 0828676A
-	.string "the move {STR_VAR_2}.$"
+	.string "“{STR_VAR_2}”\n"
+	.string "...같은 기술이 있었습니다$"
+	// 「§う」ｎ
+	// ……を おぼえていました
 
 gTVThePokemonBattleSeminarText06:: @ 08286777
-	.string "So, in this situation, what should\n"
-	.string "the TRAINER have used?\p"
-	.string "… … … … … …\n"
-	.string "The move {STR_VAR_1}!\p"
-	.string "The move {STR_VAR_1} would have been\n"
-	.string "absolutely better than {STR_VAR_2}.\p"
-	.string "Viewers, I urge you to learn from this\n"
-	.string "case and battle with intelligence!\p"
-	.string "Until next time, farewell!$"
+	.string "이 중에서 가장 좋은 것은\n"
+	.string "........................\p"
+	.string "바로 “{STR_VAR_1}”입니다!\p"
+	.string "“{STR_VAR_2}”보단\n"
+	.string "역시 “{STR_VAR_1}”{K_I}죠\p"
+	.string "TV 앞에 있는 여러분도\n"
+	.string "자-알 생각하고 배틀하도록 합시다!\p"
+	.string "그럼 안녕히!$"
+	// この なかで いちばん よいのはｎ
+	// …………………………………………ｐ
+	// 「§い」 ですね!ｐ
+	// 「§う」よりｎ
+	// ぜったい 「§い」ですｐ
+	// テレビの まえの みなさんもｎ
+	// よ-く かんがえて バトルを しましょう!ｐ
+	// それでは さようなら!
 
 gTVTrainerFanClubText00:: @ 08286866
-	.string "All together now!\n"
-	.string "TRAINER FAN CLUB!\p"
-	.string "MC: How's everyone groovin'?\n"
-	.string "Today, we've rounded up the fans of\l"
-	.string "the hyper-popular TRAINER {STR_VAR_1}!\p"
-	.string "FANS: Wrooooooaaaaah!\p"
-	.string "FANS: {STR_VAR_1}!\p"
-	.string "MC: Everyone!\n"
-	.string "How do you like {STR_VAR_1}?!\p"
-	.string "FANS: We love {STR_VAR_1}!\p"
-	.string "MC: What do you love about\n"
-	.string "{STR_VAR_1}?!$"
+	.string "하나 둘!\n"
+	.string "“트레이너 애호가클럽!!”\p"
+	.string "사회자: 다들 잘 지내셨어-!?\n"
+	.string "오늘은 지금 대인기인 트레이너\l"
+	.string "{STR_VAR_1}씨의 팬들을\l"
+	.string "모셔 봤다구!\p"
+	.string "팬: 와아아아아아아아아아---!\p"
+	.string "팬: {STR_VAR_1}님----!\p"
+	.string "사회자: 자 다들-!\n"
+	.string "{STR_VAR_1}씨를 좋아해-?\p"
+	.string "팬: 완전 좋아해-!!\p"
+	.string "사회자: 어떤 점이 좋길래-?$"
+	// せ-の!ｎ
+	// 『トレ-ナ- だいすき クラブ!!』ｐ
+	// しかい『みんな- げんきか-い!?ｎ
+	// きょうは いま だいにんきの トレ-ナ-ｌ
+	// §いさんの ファンにｌ
+	// あつまって もらったよ!ｐ
+	// ファン『ワアアアアアアアアア---!ｐ
+	// ファン『§いさま----!ｐ
+	// しかい『みんな-!ｎ
+	// §いさんの ことは すきかい-?ｐ
+	// ファン『だいすき-!!ｐ
+	// しかい『どんな ところが-?
 
 gTVTrainerFanClubText01:: @ 0828695E
-	.string "FANS: Their cool way of throwing\n"
-	.string "POKé BALLS!$"
+	.string "팬: 몬스터볼을 던지는 포즈가\n"
+	.string "멋진 거!!$"
+	// ファン『モンスタ-ボ-ルを なげる しぐさがｎ
+	// かっこいい ところ!!
 
 gTVTrainerFanClubText02:: @ 0828698B
-	.string "FANS: Their adorable way of running!$"
+	.string "팬: 달리는 모습이\n"
+	.string "귀여운 거!!$"
+	// ファン『はしる すがたがｎ
+	// かわいい ところ!!
 
 gTVTrainerFanClubText03:: @ 082869B0
-	.string "FANS: How the TRAINER turns tough\n"
-	.string "when the going gets tough!$"
+	.string "팬: 포켓몬 배틀을\n"
+	.string "엄청 잘하는 거!!$"
+	// ファン『ポケモンバトルでｎ
+	// ここ いちばんに つよい ところ!!
 
 gTVTrainerFanClubText04:: @ 082869ED
-	.string "FANS: The TRAINER's knowledge of\n"
-	.string "POKéMON!$"
+	.string "팬: 포켓몬에 대해서\n"
+	.string "잘 아는 거!!$"
+	// ファン『ポケモンの ことに ついてｎ
+	// くわしい ところ!!
 
 gTVTrainerFanClubText05:: @ 08286A17
-	.string "FANS: The TRAINER's kindness toward\n"
-	.string "all POKéMON!$"
+	.string "팬: 포켓몬에게\n"
+	.string "언제나 친절한 거!!$"
+	// ファン『ポケモンに たいしてｎ
+	// いつも やさしい ところ!!
 
 gTVTrainerFanClubText06:: @ 08286A48
-	.string "FANS: The TRAINER's amazing\n"
-	.string "BIKE-riding techniques!$"
+	.string "팬: 자전거를 다루는\n"
+	.string "테크닉이 굉장한 거!!$"
+	// ファン『じてんしゃを あやつるｎ
+	// テクニックが すごい ところ!!
 
 gTVTrainerFanClubText07:: @ 08286A7C
-	.string "FANS: The TRAINER's impressive\n"
-	.string "item-buying style!$"
+	.string "팬: 아이템을 사는 방식이\n"
+	.string "대담한 거!!$"
+	// ファン『アイテムの かいかたがｎ
+	// ごうかいな ところ!!
 
 gTVTrainerFanClubText08:: @ 08286AAE
-	.string "FANS: The TRAINER's charming way\n"
-	.string "of nicknaming POKéMON!$"
+	.string "팬: 포켓몬에게 붙이는 별명이\n"
+	.string "재치 있는 거!!$"
+	// ファン『ポケモンに つける ニックネ-ムがｎ
+	// おちゃめな ところ!!
 
 gTVTrainerFanClubText09:: @ 08286AE6
-	.string "FANS: The TRAINER's nifty style of\n"
-	.string "decorating a SECRET BASE!$"
+	.string "팬: 비밀기지를 꾸미는 센스가\n"
+	.string "좋은 거!!$"
+	// ファン『ひみつきちの センスがｎ
+	// いい ところ!!
 
 gTVTrainerFanClubText10:: @ 08286B23
-	.string "FANS: The TRAINER's bold ways of\n"
-	.string "using TMs!$"
+	.string "팬: 기술머신을 쓰는 방식이\n"
+	.string "대담한 거!!$"
+	// ファン『わざマシンの つかい かたがｎ
+	// だいたんな ところ!!
 
 gTVTrainerFanClubText11:: @ 08286B4F
-	.string "MC: As you've just seen, {STR_VAR_1}\n"
-	.string "is hot! Like, too hot to touch, yow!\p"
-	.string "Among {STR_VAR_1}'s FANS\n"
-	.string "there's a special slogan!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "MC: That's right, when someone says,\n"
-	.string "“{STR_VAR_1}”…\p"
-	.string "Come back with, “{STR_VAR_2}\n"
-	.string "{STR_VAR_3}!”\p"
-	.string "That has such a unique ring to it!\n"
-	.string "I can see why people become FANS\l"
-	.string "of {STR_VAR_1}!\p"
-	.string "Okay, you, in front of the TV, join us!\n"
-	.string "All together now!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "MC: Thanks for joining us, all you\n"
-	.string "wild FANS of {STR_VAR_1}!\l"
-	.string "That's the show! See you again!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!$"
+	.string "사회자: 그런 핫한\n"
+	.string "{STR_VAR_1}씨의 팬 사이에서는\l"
+	.string "특별한 암호가 있다고-!\p"
+	.string "사회자: {STR_VAR_1}{K_I}라고 하면...\p"
+	.string "사회자: {STR_VAR_2}!\p"
+	.string "팬: {STR_VAR_3}!\p"
+	.string "사회자: {STR_VAR_2}!\p"
+	.string "팬: {STR_VAR_3}!\p"
+	.string "사회자: {STR_VAR_1}{K_I}라고 하면...\n"
+	.string "{STR_VAR_2} {STR_VAR_3}\l"
+	.string "으-음! 좋은 울림인걸-!\p"
+	.string "{STR_VAR_1}씨의 팬이\n"
+	.string "되는 게 이해가 되네-!\p"
+	.string "좋-았어! TV 앞에 있는 모두도\n"
+	.string "같이 말해 보자-!!\p"
+	.string "사회자: {STR_VAR_1}{K_I}라고 하면...\p"
+	.string "사회자: {STR_VAR_2}!\p"
+	.string "팬: {STR_VAR_3}!\p"
+	.string "사회자: {STR_VAR_2}!\p"
+	.string "팬: {STR_VAR_3}!\p"
+	.string "사회자: {STR_VAR_1}씨의 팬들\n"
+	.string "모-두 고마워---!!\l"
+	.string "그-럼 다음에 봐-!!\p"
+	.string "사회자: {STR_VAR_1}{K_I}라고 하면...\p"
+	.string "사회자: {STR_VAR_2}!\p"
+	.string "팬: {STR_VAR_3}!$"
+	// しかい『そんな ホットなｎ
+	// §いさん ファンの あいだにはｌ
+	// とくべつな あいことばが あるんだよ-!ｐ
+	// しかい『§い といえば……ｐ
+	// しかい『§う!ｐ
+	// ファン『§え!ｐ
+	// しかい『§う!ｐ
+	// ファン『§え!ｐ
+	// しかい『§い といえば……ｎ
+	// §う §えｌ
+	// う-ん! いい ひびきだね-!ｐ
+	// §いさんの ファンにｎ
+	// なっちゃうのも わかる きが するよ-!ｐ
+	// よ-し! テレビの まえの みんなもｎ
+	// いっしょに いってみよ-!!ｐ
+	// しかい『§い といえば……ｐ
+	// しかい『§う!ｐ
+	// ファン『§え!ｐ
+	// しかい『§う!ｐ
+	// ファン『§え!ｐ
+	// しかい『§いさん ファンのｎ
+	// みんな- ありがと---!!ｌ
+	// それじゃ- またね-!!ｐ
+	// しかい『§い といえば……ｐ
+	// しかい『§う!ｐ
+	// ファン『§え!
 
 gTVCutiesText00:: @ 08286D8F
-	.string "SPOT THE CUTIES!\n"
-	.string "POKéMON IN RIBBONS!\p"
-	.string "Hello, my sweet viewers!\p"
-	.string "I just know you'll agree, but a POKéMON\n"
-	.string "wearing RIBBONS is simply divine!\p"
-	.string "Today, I want to share with you\n"
-	.string "a lovely POKéMON I spotted while\l"
-	.string "out on a stroll in town.\p"
-	.string "Today's featured pretty POKéMON\n"
-	.string "is {STR_VAR_1}'s {STR_VAR_2}.$"
+	.string "“멋진 발견!\n"
+	.string "  리본이 달린 포켓몬!!”\p"
+	.string "...하아-\p"
+	.string "포켓몬에게 리본이라니\n"
+	.string "정말 멋지단 말이죠-\p"
+	.string "오늘도 마을에서 본\n"
+	.string "멋진 포켓몬을\l"
+	.string "여러분께 소개하겠습니다\p"
+	.string "오늘의 포켓몬은\n"
+	.string "{STR_VAR_1}씨의 {STR_VAR_2}입니다$"
+	// 『ステキに はっけん!ｎ
+	//  リボンを つけた ポケモンちゃん!!』ｐ
+	// ……はぁ-ｐ
+	// ポケモンちゃんに リボンってｎ
+	// ほんと ステキ ざますね-ｐ
+	// きょうも まちで みかけたｎ
+	// ステキな ポケモンちゃんをｌ
+	// みなさまに ごしょうかい するざますｐ
+	// きょうの ポケモンちゃんはｎ
+	// §いさんの §う ざます
 
 gTVCutiesText01:: @ 08286E9D
-	.string "The number of RIBBONS that\n"
-	.string "{STR_VAR_2} wears is {STR_VAR_3}.\p"
-	.string "It says a lot about how much\n"
-	.string "{STR_VAR_1} adores the POKéMON.$"
+	.string "{STR_VAR_2}{K_EUNNEUN} 무려!\n"
+	.string "리본을 {STR_VAR_3}개 달고 있습니다\p"
+	.string "{STR_VAR_1}씨의 사랑이\n"
+	.string "느껴지네요-$"
+	// §うは なんと!ｎ
+	// リボンを §えこ つけている ざますよｐ
+	// §いさんの あいをｎ
+	// かんじる ざますね-
 
 gTVCutiesText02:: @ 08286EFC
-	.string "{STR_VAR_2} wears an amazing\n"
-	.string "{STR_VAR_3} RIBBONS!\p"
-	.string "It speaks volumes about {STR_VAR_1}'s\n"
-	.string "commitment to the POKéMON!$"
+	.string "{STR_VAR_2}{K_EUNNEUN} 놀랍게도!\n"
+	.string "리본을 {STR_VAR_3}개나 달고 있습니다\p"
+	.string "{STR_VAR_1}씨의 집념이\n"
+	.string "느껴지네요-$"
+	// §うは ビックリ ざます!ｎ
+	// リボンを §えこも つけている ざますよｐ
+	// §いさんの しゅうねんをｎ
+	// かんじる ざますね-
 
 gTVCutiesText03:: @ 08286F54
-	.string "{STR_VAR_2} wears an incredible\n"
-	.string "{STR_VAR_3} RIBBONS!\p"
-	.string "It shows you {STR_VAR_1}'s total\n"
-	.string "dedication as a collector!$"
+	.string "{STR_VAR_2}{K_EUNNEUN} 굉장하게도!\n"
+	.string "리본을 {STR_VAR_3}개나 달고 있습니다\p"
+	.string "{STR_VAR_1}씨의 수집가 정신이\n"
+	.string "느껴지네요-$"
+	// §うは すごい ざます!ｎ
+	// リボンを §えこも つけている ざますよｐ
+	// §いさんの コレクタ-だましいをｎ
+	// かんじる ざますね-
 
 gTVCutiesText04:: @ 08286FAA
-	.string "Let us take a closer look at the many\n"
-	.string "RIBBONS worn by {STR_VAR_2}.$"
+	.string "자 그럼 {STR_VAR_2}{K_IGA} 잔뜩\n"
+	.string "달고 있는 리본 중에서...$"
+	// さて §うに ついているｎ
+	// たくさんの リボン ざますが……
 
 gTVCutiesText05:: @ 08286FE4
-	.string "The CHAMPION RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it upon entering\n"
-	.string "the HALL OF FAME.\p"
-	.string "It verily draws out the bravery\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the CHAMP RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 전당등록 기념으로 받은\n"
+	.string "챔피언리본이 어울리네요\p"
+	.string "{STR_VAR_2}의 용감함이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 챔피언리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに でんどういりの きねんで もらったｎ
+	// チャンプリボンが おにあい ざますねｐ
+	// §うの ゆうかんさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに チャンプリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText06:: @ 082870A3
-	.string "The COOL RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for winning\n"
-	.string "a COOL CONTEST.\p"
-	.string "It verily draws out the coolness\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the COOL RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 근사함콘테스트에서 받은\n"
+	.string "쿨리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 근사함이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 쿨리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに かっこよさ コンテストで もらったｎ
+	// ク-ルリボンが おにあい ざますねｐ
+	// §うの かっこよさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに ク-ルリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText07:: @ 0828715A
-	.string "The BEAUTY RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for winning\n"
-	.string "a BEAUTY CONTEST.\p"
-	.string "It verily draws out the beauty\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the BEAUTY RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 아름다움콘테스트에서 받은\n"
+	.string "뷰티리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 아름다움이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 뷰티리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに うつくしさ コンテストで もらったｎ
+	// ビュ-ティリボンが おにあい ざますねｐ
+	// §うの うつくしさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに ビュ-ティリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText08:: @ 08287215
-	.string "The CUTE RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for winning\n"
-	.string "a CUTE CONTEST.\p"
-	.string "It verily draws out the cuteness\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the CUTE RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 귀여움콘테스트에서 받은\n"
+	.string "큐트리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 귀여움이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 큐트리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに かわいさ コンテストで もらったｎ
+	// キュ-トリボンが おにあい ざますねｐ
+	// §うの かわいさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに キュ-トリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText09:: @ 082872CC
-	.string "The SMART RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for winning\n"
-	.string "a SMART CONTEST.\p"
-	.string "It verily draws out the smartness\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the SMART RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 슬기로움콘테스트에서 받은\n"
+	.string "지니어스리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 슬기로움이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 지니어스리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに かしこさ コンテストで もらったｎ
+	// ジ-ニアスリボンが おにあい ざますねｐ
+	// §うの かしこさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに ジ-ニアスリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText10:: @ 08287387
-	.string "The TOUGH RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for winning\n"
-	.string "a TOUGH CONTEST.\p"
-	.string "It verily draws out the toughness\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the TOUGH RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 강인함콘테스트에서 받은\n"
+	.string "파워풀리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 강인함이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 파워풀리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに たくましさ コンテストで もらったｎ
+	// パワフルリボンが おにあい ざますねｐ
+	// §うの たくましさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに パワフルリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText11:: @ 08287442
-	.string "The WINNING RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for its feats\n"
-	.string "at the BATTLE TOWER.\p"
-	.string "It verily draws out the mightiness\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the WINNING RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 배틀타워에서 받은\n"
+	.string "위닝리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 강함이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 위닝리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに バトルタワ-で もらったｎ
+	// ウイニングリボンが おにあい ざますねｐ
+	// §うの つよさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに ウイニングリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText12:: @ 08287508
-	.string "The VICTORY RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for its feats\n"
-	.string "at the BATTLE TOWER.\p"
-	.string "It verily draws out the incredible\n"
-	.string "mightiness of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the VICTORY RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 배틀타워에서 받은\n"
+	.string "빅토리리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 강함이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 빅토리리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに バトルタワ-で もらったｎ
+	// ビクトリ-リボンが おにあい ざますねｐ
+	// §うの ものすごい つよさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに ビクトリ-リボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText13:: @ 082875D9
-	.string "The ARTIST RIBBON is especially\n"
-	.string "fetching.\p"
-	.string "{STR_VAR_2} received it for being\n"
-	.string "the model for an artist.\p"
-	.string "It verily draws out the pop-star charm\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the ARTIST RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 화가에게서 받은\n"
+	.string "브로마이드리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 아이돌스러움이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 브로마이드리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに えかきさん から もらったｎ
+	// プロマイドリボンが おにあい ざますねｐ
+	// §うの アイドルらしさをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに プロマイドリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText14:: @ 082876A1
-	.string "The Hard Worker RIBBON is\n"
-	.string "especially fetching.\p"
-	.string "{STR_VAR_2} received it for being\n"
-	.string "an especially dedicated worker.\p"
-	.string "It verily draws out the determination\n"
-	.string "of {STR_VAR_2}.\p"
-	.string "{STR_VAR_2} and the Hard Worker RIBBON!\n"
-	.string "The combination is super effective!$"
+	.string "특히 노력가에게서 받은\n"
+	.string "노력리본이 잘 어울리네요\p"
+	.string "{STR_VAR_2}의 노력이\n"
+	.string "무척 잘 드러납니다-\p"
+	.string "{STR_VAR_2}에게 노력리본!\n"
+	.string "효과가 굉장하네요!$"
+	// とくに がんばりやで もらったｎ
+	// がんばリボンが おにあい ざますねｐ
+	// §うの がんばりぶりをｎ
+	// とっても ひきたたせている ざますよ-ｐ
+	// §うに がんばリボン!ｎ
+	// こうかは ばつぐん ざます!
 
 gTVCutiesText15:: @ 08287779
-	.string "…Sigh…\p"
-	.string "RIBBONS and POKéMON…\n"
-	.string "They go so wonderfully together!\p"
-	.string "Before I swoon,\n"
-	.string "I bid you all farewell!$"
+	.string "...하아-\p"
+	.string "포켓몬에게 리본이라니...\n"
+	.string "정말로 좋네요!\p"
+	.string "벌써 시간이 이렇게 됐으니\n"
+	.string "다음 시간에 봐요-!$"
+	// ……はぁ-ｐ
+	// ポケモンに リボンって……ｎ
+	// ホントに いい ざますね!ｐ
+	// ウットリ したところでｎ
+	// さよなら ざます-!
 
 gTVPokemonNewsBattleFrontierText00:: @ 082877DE
-	.string "Greetings!\n"
-	.string "It's time for POKéMON NEWS.\p"
-	.string "We've got some uplifting news from\n"
-	.string "the BATTLE FRONTIER.$"
+	.string "안녕하세요!\n"
+	.string "“포켓몬 뉴스”의 시간입니다\p"
+	.string "배틀프런티어로부터\n"
+	.string "기쁜 뉴스가 들어왔습니다!$"
+	// こんにちは!ｎ
+	// 『ポケモン ニュ-ス』の じかんですｐ
+	// バトルフロンティアからｎ
+	// うれしい ニュ-スが はいって きました!
 
 gTVPokemonNewsBattleFrontierText01:: @ 0828783D
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's SINGLE BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀타워 싱글 배틀룸에\n"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルタワ- シングル バトルル-ムにｎ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText02:: @ 082878B3
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's DOUBLE BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀타워 더블 배틀룸에\n"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルタワ- ダブル バトルル-ムにｎ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText03:: @ 08287929
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's MULTI BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀타워 멀티 배틀룸에\n"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルタワ- マルチ バトルル-ムにｎ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText04:: @ 0828799E
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's LINK MULTI BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀타워\n"
+	.string "통신멀티 배틀룸에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルタワ-ｎ
+	// つうしん マルチ バトルル-ムにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText05:: @ 08287A18
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
-	.string "SINGLE BATTLE Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀돔\n"
+	.string "싱글 배틀토너먼트에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연패로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルド-ムｎ
+	// シングル バトルト-ナメントにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんぱでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText06:: @ 08287A97
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
-	.string "DOUBLE BATTLE Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀돔\n"
+	.string "더블 배틀토너먼트에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연패로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルド-ムｎ
+	// ダブル バトルト-ナメントにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんぱでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText07:: @ 08287B16
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE FACTORY's Battle\l"
-	.string "Swap Single challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀팩토리\n"
+	.string "배틀트레이드 싱글에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルファクトリ-ｎ
+	// バトルトレ-ド シングルにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText08:: @ 08287B8E
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE FACTORY's Battle\l"
-	.string "Swap Double challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀팩토리\n"
+	.string "배틀트레이드 더블에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルファクトリ-ｎ
+	// バトルトレ-ド ダブルにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText09:: @ 08287C06
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "record of clearing {STR_VAR_2} rooms\l"
-	.string "while on the BATTLE PIKE's Battle\l"
-	.string "Choice challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀튜브에서\n"
+	.string "배틀게임에 도전했던\l"
+	.string "{STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}개의 방을 돌파해서\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルチュ-ブでｎ
+	// バトルゲ-ムに ちょうせんしたｌ
+	// §いさんがｌ
+	// §う へや とっぱでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText10:: @ 08287C7D
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while\l"
-	.string "competing in the BATTLE ARENA's\l"
-	.string "Set KO Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀아레나에서\n"
+	.string "연승팀배틀에 도전했던\l"
+	.string "{STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}명을 이겨서\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルアリ-ナでｎ
+	// かちぬきチ-ムバトルに ちょうせんしたｌ
+	// §いさんがｌ
+	// §う にんぬきでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText11:: @ 08287CF3
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE PALACE's SINGLE BATTLE\l"
-	.string "HALL challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀팰리스\n"
+	.string "싱글 배틀홀에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルパレスｎ
+	// シングル バトルホ-ルにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText12:: @ 08287D6A
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE PALACE's DOUBLE BATTLE\l"
-	.string "HALL challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀팰리스\n"
+	.string "더블 배틀홀에\l"
+	.string "도전했던 {STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}연승으로\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルパレスｎ
+	// ダブル バトルホ-ルにｌ
+	// ちょうせんした §いさんがｌ
+	// §う れんしょうでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText13:: @ 08287DE1
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "record of clearing {STR_VAR_2} floors\l"
-	.string "while on the BATTLE PYRAMID's\l"
-	.string "Battle Quest challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+	.string "배틀피라미드에서\n"
+	.string "배틀어드벤처에 도전했던\l"
+	.string "{STR_VAR_1}씨가\l"
+	.string "{STR_VAR_2}단을 제패해서\l"
+	.string "기록을 경신했습니다!\p"
+	.string "...{STR_VAR_1}씨!$"
+	// バトルピラミッドでｎ
+	// バトルアドベンチャ-に ちょうせんしたｌ
+	// §いさんがｌ
+	// §う だん せいはでｌ
+	// きろくを こうしん しました!ｐ
+	// ……§いさん!
 
 gTVPokemonNewsBattleFrontierText14:: @ 08287E5B
-	.string "And to the three POKéMON, {STR_VAR_1},\n"
-	.string "{STR_VAR_2}, and {STR_VAR_3}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}{K_WAGWA}\n"
+	.string "{STR_VAR_3} 3마리의 포켓몬들!\p"
+	.string "기록 경신\n"
+	.string "축하합니다!!$"
+	// §いと §うとｎ
+	// §えの 3ひきの ポケモンたち!ｐ
+	// きろく こうしんｎ
+	// おめでとう ございました!!
 
 gTVPokemonNewsBattleFrontierText15:: @ 08287EBB
-	.string "And to the two POKéMON, {STR_VAR_1}\n"
-	.string "and {STR_VAR_2}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}\n"
+	.string "2마리의 포켓몬들!\p"
+	.string "기록 경신\n"
+	.string "축하합니다!!$"
+	// §いと §うのｎ
+	// 2ひきの ポケモンたち!ｐ
+	// きろく こうしんｎ
+	// おめでとう ございました!!
 
 gTVPokemonNewsBattleFrontierText16:: @ 08287F14
-	.string "And to the four POKéMON: {STR_VAR_1}!\p"
+	.string "{STR_VAR_1}!\p"
 	.string "{STR_VAR_2}!\p"
 	.string "{STR_VAR_3}!$"
+	// §い!ｐ
+	// §う!ｐ
+	// §え!
 
 gTVPokemonNewsBattleFrontierText17:: @ 08287F39
-	.string "And {STR_VAR_1}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+	.string "그리고 {STR_VAR_1}까지\n"
+	.string "4마리의 포켓몬들!\p"
+	.string "기록 경신\n"
+	.string "축하합니다!!$"
+	// そして §いのｎ
+	// 4ひきの ポケモンたち!ｐ
+	// きろく こうしんｎ
+	// おめでとう ございました!!
 
 gTVPokemonNewsBattleFrontierText18:: @ 08287F77
-	.string "Let's hope for more record-setting\n"
-	.string "feats from {STR_VAR_1} and the loyal\l"
-	.string "POKéMON!\p"
-	.string "That's the news on POKéMON NEWS!$"
+	.string "{STR_VAR_1}씨의 포켓몬들의\n"
+	.string "다음 도전을 기대하고 있겠습니다!\p"
+	.string "이상\n"
+	.string "“포켓몬 뉴스”였습니다!$"
+	// §いさんと ポケモンたちのｎ
+	// つぎの チャレンジに きたい しましょう!ｐ
+	// いじょうｎ
+	// 『ポケモン ニュ-ス』 でした!
 
 gTVWhatsNo1InHoennTodayText00:: @ 08287FE0
-	.string "WHAT'S NO. 1 IN HOENN TODAY?\n"
-	.string "Yes, it's that time again!\p"
-	.string "Hello, viewers! Are you giving your\n"
-	.string "best at whatever you do?\p"
-	.string "Let's have a look at the TRAINER\n"
-	.string "who did the very best today!\p"
-	.string "Today's no. 1 TRAINER is none other\n"
-	.string "than {STR_VAR_1}!$"
+	.string "“호연 오늘의\n"
+	.string "  뭐든지 넘버1!!”\p"
+	.string "TV 앞에 계신 여러분\n"
+	.string "잘 지내고 있으신가요-?\p"
+	.string "오늘도 하루를 가장 열심히 보낸\n"
+	.string "트레이너를 소개하겠습니다!\p"
+	.string "...자\n"
+	.string "오늘의 넘버1 트레이너는...\l"
+	.string "{STR_VAR_1}씨입니다!!$"
+	// 『ホウエン きょうのｎ
+	//  なんでも ナンバ-1!!』ｐ
+	// テレビの まえの みなさんｎ
+	// がんばってますか-?ｐ
+	// きょうも いちにちで いちばん がんばったｎ
+	// トレ-ナ-を しょうかい しますよ!ｐ
+	// ……さあｎ
+	// きょうの ナンバ-1 トレ-ナ-は……ｌ
+	// §いさんです!!
 
 gTVWhatsNo1InHoennTodayText01:: @ 082880C0
-	.string "In one day, {STR_VAR_1} spun the SLOTS\n"
-	.string "at the GAME CORNER {STR_VAR_2} times.\p"
-	.string "While playing, {STR_VAR_1} was heard\n"
-	.string "murmuring, “For me, the reels don't\l"
-	.string "even move…”\l"
-	.string "Isn't that interesting?$"
+	.string "{STR_VAR_1}씨는 게임코너의\n"
+	.string "슬롯을 하루에\l"
+	.string "{STR_VAR_2}번 돌렸습니다!\p"
+	.string "{STR_VAR_1}씨는 놀고 있을 때\n"
+	.string "“슬롯이 멈춘 것처럼 보인다...!”라고\l"
+	.string "왠지 무섭게\l"
+	.string "중얼거렸다고 합니다!$"
+	// §いさんは ゲ-ムコ-ナ-のｎ
+	// スロットを いちにちでｌ
+	// §う かい まわしました!ｐ
+	// §いさんは あそんで いるときにｎ
+	// 「スロットが とまって みえる……!」とｌ
+	// ブツブツ ぶきみにｌ
+	// つぶやいていた そうですよ!
 
 gTVWhatsNo1InHoennTodayText02:: @ 0828815F
-	.string "In one day, {STR_VAR_1} played\n"
-	.string "the ROULETTE game at the GAME\l"
-	.string "CORNER {STR_VAR_2} times.\p"
-	.string "While playing, {STR_VAR_1} shouted,\n"
-	.string "“Let the balls decide!”\p"
-	.string "The TRAINER's eyes were focused and\n"
-	.string "the face showed concentration.$"
+	.string "{STR_VAR_1}씨는 게임코너의\n"
+	.string "룰렛을 하루에\l"
+	.string "{STR_VAR_2}번 돌렸습니다!\p"
+	.string "{STR_VAR_1}씨는 놀고 있을 때\n"
+	.string "“공의 움직임이 보인다...!”라고\l"
+	.string "눈을 새빨갛게 물들이면서\l"
+	.string "굉장한 얼굴로\l"
+	.string "외쳤다고 합니다!$"
+	// §いさんは ゲ-ムコ-ナ-のｎ
+	// ル-レットを いちにちでｌ
+	// §う かい まわしました!ｐ
+	// §いさんは あそんで いるときｎ
+	// 「ボ-ルの うごきが よめた……!」とｌ
+	// めを まっかにしてｌ
+	// それは すごい かおでｌ
+	// さけんでいた そうですよ!
 
 gTVWhatsNo1InHoennTodayText03:: @ 0828821A
-	.string "In one day, {STR_VAR_1} battled\n"
-	.string "wild POKéMON {STR_VAR_2} times!\p"
-	.string "Apparently, {STR_VAR_1}'s POKéMON\n"
-	.string "have grown incomparably stronger.\p"
-	.string "They appear eager to battle anywhere,\n"
-	.string "anytime, and anyhow!$"
+	.string "{STR_VAR_1}씨는 야생 포켓몬과\n"
+	.string "하루에 {STR_VAR_2}번 싸웠습니다!\p"
+	.string "{STR_VAR_1}씨의 포켓몬들은\n"
+	.string "이전과 전혀 비교할 수 없을 정도로\l"
+	.string "강해진 것 같군요...\p"
+	.string "누군가와 포켓몬 승부를 하고 싶어서\n"
+	.string "참을 수 없는 것 같습니다!$"
+	// §いさんは やせい ポケモンとｎ
+	// いちにちで §う かい たたかいました!ｐ
+	// §いさんの ポケモンたちはｎ
+	// いぜんと くらべものに ならないほどｌ
+	// つよくなった らしく……ｐ
+	// だれかと ポケモンしょうぶが したくてｎ
+	// たまらない そうですよ!
 
 gTVWhatsNo1InHoennTodayText04:: @ 082882BE
-	.string "In just one day, {STR_VAR_1} spun\n"
-	.string "the BERRY BLENDER {STR_VAR_2} times!\p"
-	.string "Toward the end, even {STR_VAR_1}\n"
-	.string "seemed to get dizzy.\p"
-	.string "The TRAINER appeared to totter\n"
-	.string "around like a SPINDA!$"
+	.string "{STR_VAR_1}씨는 나무열매블렌더를\n"
+	.string "하루에 {STR_VAR_2}번 돌렸습니다!\p"
+	.string "역시 마지막에는\n"
+	.string "{STR_VAR_1}씨의 눈도\l"
+	.string "빙글빙글 돌아버려서\l"
+	.string "마치 얼루기처럼\l"
+	.string "되어버렸다고 합니다!$"
+	// §いさんは きのみブレンダ-をｎ
+	// いちにちで §う かい まわしました!ｐ
+	// さすがに さいごの ほうではｎ
+	// §いさんの めもｌ
+	// くるくる まわってしまいｌ
+	// まるで パッチ-ルの ようにｌ
+	// なってしまった そうですよ!
 
 gTVWhatsNo1InHoennTodayText05:: @ 08288355
-	.string "In just one day, {STR_VAR_1} planted\n"
-	.string "{STR_VAR_2} BERRIES!\p"
-	.string "As a result, {STR_VAR_1}'s clothes\n"
-	.string "became filthy with dirt.\p"
-	.string "Where the TRAINER planted, countless\n"
-	.string "flowers have burst into bloom.\p"
-	.string "The flowers are said to soothe\n"
-	.string "the emotions of people.$"
+	.string "{STR_VAR_1}씨는 나무열매를\n"
+	.string "하루에 {STR_VAR_2}개 심었습니다!\p"
+	.string "{STR_VAR_1}씨의\n"
+	.string "옷은 새까맣게 되어버렸지만...\p"
+	.string "나무열매를 심은 곳에는\n"
+	.string "예쁜 꽃이 잔뜩 피어나\l"
+	.string "보는 사람의 마음을\l"
+	.string "달래고 있다고 합니다!$"
+	// §いさんは きのみをｎ
+	// いちにちで §う こ うえました!ｐ
+	// §いさんのｎ
+	// ふくは まっくろに なりましたが……ｐ
+	// きのみを うえた ところにはｎ
+	// きれいな はなが たくさん さきほこりｌ
+	// みる ひとの こころをｌ
+	// なごませている そうですよ!
 
 gTVWhatsNo1InHoennTodayText06:: @ 0828842B
-	.string "In just one day, {STR_VAR_1} picked\n"
-	.string "{STR_VAR_2} BERRIES!\p"
-	.string "{STR_VAR_1}'s BAG became so filled\n"
-	.string "with BERRIES, the TRAINER had trouble\l"
-	.string "walking afterward!$"
+	.string "{STR_VAR_1}씨는 나무열매를 하루에\n"
+	.string "{STR_VAR_2}개 땄습니다\p"
+	.string "{STR_VAR_1}씨의 가방은\n"
+	.string "나무열매로 가득 차서\l"
+	.string "걷는 데 힘들었다고 합니다!$"
+	// §いさんは きのみを いちにちでｎ
+	// §う こ とりましたｐ
+	// §いさんの バックはｎ
+	// きのみで いっぱいに なりｌ
+	// あるくのも たいへんだった そうですよ!
 
 gTVWhatsNo1InHoennTodayText07:: @ 082884A5
-	.string "In just one day, {STR_VAR_1} obtained\n"
-	.string "{STR_VAR_2} Battle Points!\p"
-	.string "{STR_VAR_1} was later seen wrestling\n"
-	.string "with the choice of exchanging\l"
-	.string "the Battle Points for a cool item or\l"
-	.string "a nifty interior decoration.\p"
-	.string "The TRAINER reportedly was grinning\n"
-	.string "while mulling options.$"
+	.string "{STR_VAR_1}씨는 하루에\n"
+	.string "배틀포인트를\l"
+	.string "{STR_VAR_2}BP 모았습니다!\p"
+	.string "{STR_VAR_1}씨는\n"
+	.string "모은 배틀포인트로\l"
+	.string "굉장한 굿즈를 살까...\l"
+	.string "굉장한 아이템을 살까...\l"
+	.string "히죽히죽 웃으면서\l"
+	.string "계속 고민했다고 합니다!$"
+	// §いさんは いちにちでｎ
+	// バトルポイントをｌ
+	// §う BP ためました!ｐ
+	// §いさんは ｎ
+	// たまった バトルポイントでｌ
+	// すごい グッズを もらうべきか……ｌ
+	// すごい アイテムを もらうべきか……とｌ
+	// ニタニタ しながらｌ
+	// ずっと なやんでいた そうですよ!
 
 gTVWhatsNo1InHoennTodayText08:: @ 0828858B
-	.string "Well, isn't that something!\p"
-	.string "{STR_VAR_1}!\n"
-	.string "You're today's no. 1 TRAINER!\p"
-	.string "Viewers, take heart from {STR_VAR_1}!\n"
-	.string "You, too, can be no. 1 every day!$"
+	.string "이야- 굉장하네요!\p"
+	.string "{STR_VAR_1}씨!\n"
+	.string "당신이 오늘의 넘버1입니다!!\p"
+	.string "TV 앞에 계신 여러분도\n"
+	.string "{STR_VAR_1}씨에게 지지 않게\l"
+	.string "하루를 더 열심히 보냅시다!$"
+	// いや- すごい ですね!ｐ
+	// §いさん!ｎ
+	// あなたが きょうの ナンバ-1です!!ｐ
+	// テレビの まえの みなさんもｎ
+	// §いさんに まけずにｌ
+	// いちにち がんばりましょうね!
 
 TVSecretBaseSecrets_Text_Intro:: @ 08288608
-	.string "SECRET BASE SECRETS!\p"
-	.string "What do TRAINERS do in the secrecy\n"
-	.string "of SECRET BASES?\p"
-	.string "Today, we investigate {STR_VAR_1}'s\n"
-	.string "SECRET BASE.\p"
-	.string "Oh? It looks like {STR_VAR_2} has come\n"
-	.string "for a visit.\p"
-	.string "Let's have a peek!\p"
-	.string "What will {STR_VAR_2} do?$"
+	.string "“비밀기지의 비밀-!”\p"
+	.string "비밀기지에서 트레이너는 대체\n"
+	.string "어떤 행동을 할까요?\p"
+	.string "오늘은\n"
+	.string "{STR_VAR_1}씨의 비밀기지입니다\p"
+	.string "...자 {STR_VAR_2}씨가\n"
+	.string "놀러온 모양이군요!\p"
+	.string "바로 엿봐봅시다!\p"
+	.string "우선 {STR_VAR_2}씨는...$"
+	// 『ひみつきちの ヒミツ-!』ｐ
+	// ひみつきちで トレ-ナ-は いったいｎ
+	// どんな こうどうを とる のでしょうか?ｐ
+	// きょうはｎ
+	// §いさんの ひみつきちですｐ
+	// ……さあ §うさんがｎ
+	// あそびに いらした ようですね!ｐ
+	// さっそく のぞいてみましょう!ｐ
+	// まず §うさんは……
 
 TVSecretBaseSecrets_Text_WhatWillPlayerDoNext1:: @ 082886C8
-	.string "What will {STR_VAR_2} do next?$"
+	.string "{STR_VAR_2}씨는 다음에...$"
+	// §うさんは つぎに……
 
 TVSecretBaseSecrets_Text_WhatWillPlayerDoNext2:: @ 082886DE
-	.string "And now, what will {STR_VAR_2} do?$"
+	.string "이 다음에\n"
+	.string "{STR_VAR_2}씨는...$"
+	// この あとｎ
+	// §うさんは……
 
 TVSecretBaseSecrets_Text_TookXStepsBeforeLeaving:: @ 082886F8
-	.string "In the end, {STR_VAR_2} took {STR_VAR_3} steps\n"
-	.string "in {STR_VAR_1}'s SECRET BASE before\l"
-	.string "leaving.$"
+	.string "... 같은 느낌으로\n"
+	.string "{STR_VAR_2}씨는\l"
+	.string "{STR_VAR_1}씨의 기지를\l"
+	.string "{STR_VAR_3}보 걷다 돌아갔습니다$"
+	// ……と いうような かんじでｎ
+	// §うさんはｌ
+	// §いさんの きちをｌ
+	// §えほ あるいて かえりました
 
 TVSecretBaseSecrets_Text_BaseFailedToInterestPlayer:: @ 08288739
-	.string "Hmm…\p"
-	.string "It appears as if {STR_VAR_1}'s SECRET\n"
-	.string "BASE failed to interest {STR_VAR_2}…$"
+	.string "...으-음\p"
+	.string "아무래도 {STR_VAR_2}씨는\n"
+	.string "{STR_VAR_1}씨의 비밀기지에\l"
+	.string "흥미가 없었던 모양입니다...$"
+	// ……う-んｐ
+	// どうやら §うさんはｎ
+	// §いさんの ひみつきちにｌ
+	// きょうみが わかなかった ようですね……
 
 TVSecretBaseSecrets_Text_PlayerEnjoyedBase:: @ 08288777
-	.string "{STR_VAR_2} appears to have enjoyed\n"
-	.string "{STR_VAR_1}'s SECRET BASE thoroughly.$"
+	.string "{STR_VAR_2}씨는\n"
+	.string "{STR_VAR_1}씨의 비밀기지를\l"
+	.string "무척 잘 즐긴 모양입니다$"
+	// §うさんはｎ
+	// §いさんの ひみつきちをｌ
+	// とっても たのしんだ ようですね
 
 TVSecretBaseSecrets_Text_PlayerHugeFanOfBase:: @ 082887AF
-	.string "{STR_VAR_2} appears to have become\n"
-	.string "a huge fan of {STR_VAR_1}'s\l"
-	.string "SECRET BASE.$"
+	.string "{STR_VAR_2}씨는\n"
+	.string "{STR_VAR_1}씨의 비밀기지마니아가\l"
+	.string "된 모양입니다$"
+	// §うさんはｎ
+	// §いさんの ひみつきちマニアにｌ
+	// なった ようですね
 
 TVSecretBaseSecrets_Text_Outro:: @ 082887E9
-	.string "Viewers may want to check out\n"
-	.string "{STR_VAR_1}'s SECRET BASE, too.\p"
-	.string "Tune in next time as we visit another\n"
-	.string "SECRET BASE! Thanks for joining us!$"
+	.string "TV 앞에 계신 여러분도\n"
+	.string "{STR_VAR_1}씨의 비밀기지를\l"
+	.string "방문해 보시는 건 어떨까요?\p"
+	.string "그럼 또 누군가의 비밀기지에서\n"
+	.string "만납시다! 그럼 안녕히!$"
+	// テレビの まえの みなさんもｎ
+	// §いさんの ひみつきちをｌ
+	// たずねて みては いかがでしょうか?ｐ
+	// それでは また だれかの ひみつきちでｎ
+	// おあいしましょう! さようなら!
 
 TVSecretBaseSecrets_Text_StoppedMoving1:: @ 08288868
-	.string "The visitor has stopped!\p"
-	.string "The visitor isn't moving at all!\p"
-	.string "Was {STR_VAR_1}'s SECRET BASE\n"
-	.string "that unimpressive?$"
+	.string "...멈춰 버렸습니다!\p"
+	.string "전혀 움직이질 않습니다!\p"
+	.string "{STR_VAR_1}씨의 비밀기지가\n"
+	.string "마음에 들지 않았던 걸까요?$"
+	// ……たちどまって しまいました!ｐ
+	// ぜんぜん うごきません!ｐ
+	// §いさんの ひみつきちがｎ
+	// きに いらなかった のでしょうか?
 
 TVSecretBaseSecrets_Text_StoppedMoving2:: @ 082888CA
-	.string "The visitor has stopped!\p"
-	.string "The visitor isn't moving at all!\p"
-	.string "Is it fatigue?\n"
-	.string "Has the visitor grown weary?$"
+	.string "...멈춰 버렸습니다!\p"
+	.string "전혀 움직이질 않습니다!\p"
+	.string "...지쳤던 걸까요?$"
+	// ……たちどまって しまいました!ｐ
+	// ぜんぜん うごきません!ｐ
+	// ……つかれちゃった のでしょうか?
 
 TVSecretBaseSecrets_Text_UsedChair:: @ 08288930
-	.string "The visitor sat down on a chair!\n"
-	.string "The visitor is seated!\p"
-	.string "Look at that look of delight!\p"
-	.string "That chair must be very comfortable\n"
-	.string "to get that response!$"
+	.string "의자에 앉았습니다-!\p"
+	.string "무척 기쁜 것 같습니다\p"
+	.string "착석감이\n"
+	.string "좋았던 걸까요?$"
+	// いすに すわりました-!ｐ
+	// とっても うれしそうですｐ
+	// すわりごこちがｎ
+	// よかった のでしょうか?
 
 TVSecretBaseSecrets_Text_UsedBalloon:: @ 082889C0
-	.string "The visitor charged at a balloon!\p"
-	.string "It burst!\n"
-	.string "Oh, my goodness, it popped!\p"
-	.string "The visitor appears startled by\n"
-	.string "the sudden noise!$"
+	.string "풍선으로 돌격-!\p"
+	.string "터져버렸습니다-!\p"
+	.string "살짝 소리에\n"
+	.string "놀랐었네요$"
+	// ふうせんに とつげきだ-!ｐ
+	// わっちゃいました!ｐ
+	// ちょっと おとにｎ
+	// ビックリ しています
 
 TVSecretBaseSecrets_Text_UsedTent:: @ 08288A3A
 	.string "The visitor entered a TENT!\p"

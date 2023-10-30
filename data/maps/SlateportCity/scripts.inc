@@ -964,8 +964,8 @@ SlateportCity_EventScript_BerryCrushRankingsSign:: @ 81DD643
 	end
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed: @ 81DD64A
-	.string "나는 노력가! 열심히 노력해서\n"
-	.string "여러 가지를 팔지요!$"
+	.string "나는 노력가!\n"
+	.string "열심히 노력해서 여러 가지를 팔지요!$"
 	// いわし がんばりや!ｎ
 	// がんばって いろいろ うりますよ!
 
@@ -1272,7 +1272,7 @@ SlateportCity_Text_CaptSternBeingInterviewed: @ 81DE28E
 	.string "유명한 스타가 온 줄 알고\n"
 	.string "사인을 받으려고 했는데\p"
 	.string "인터뷰받고 있는 사람\n"
-	.string "어라...? 해양관장 아냐?$"
+	.string "어라... 해양관장이구먼!$"
 	// ゆうめいな スタ-が きていたらｎ
 	// サインを もらうつもり だったのにｐ
 	// インタビュ- されてるのはｎ
@@ -1280,7 +1280,7 @@ SlateportCity_Text_CaptSternBeingInterviewed: @ 81DE28E
 
 SlateportCity_Text_InterviewerSoCool: @ 81DE30C
 	.string "저 인터뷰어 언니\n"
-	.string "미인에다가 멋있기까지 해!\p"
+	.string "멋있는 데다가 미인이다!\p"
 	.string "나도 크면\n"
 	.string "국제 저널리스트가 될 거야!$"
 	// あの インタビュア-の おねえさんｎ

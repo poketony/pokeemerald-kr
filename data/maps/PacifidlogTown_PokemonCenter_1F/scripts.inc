@@ -50,7 +50,7 @@ PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats: @ 820356F
 	.string "배 위에서 태어나\l"
 	.string "배 위에서 죽었다고 하지\p"
 	.string "뭔가를 찾기 위해\n"
-	.string "그런 삶을 살았다는 모양이야$"
+	.string "그런 삶을 살았던 모양일세$"
 	// キナギで くらす ひとびとの せんぞはｎ
 	// ふねの うえで うまれてｌ
 	// そして ふねの うえで しんだ というｐ

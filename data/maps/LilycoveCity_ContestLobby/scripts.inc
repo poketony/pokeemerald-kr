@@ -1079,8 +1079,8 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum: @ 821AE78
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 	.string "그 그래!\n"
-	.string "그럼 지금 바로 가져가 볼게\l"
-	.string "제목도 붙여 둘 테니까!\p"
+	.string "그럼 지금 바로 가져가볼게\l"
+	.string "제목도 붙여둘 테니까!\p"
 	.string "이게 마음에 들어서\n"
 	.string "장식될지 어떨지\l"
 	.string "너도 다음에 보러 와줘!\l"
@@ -1116,7 +1116,7 @@ LilycoveCity_ContestLobby_Text_OkaySeeYou: @ 821B0AD
 	// それじゃね!
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum: @ 821B0BC
-	.string "음... 그럼 이건\n"
+	.string "으-음... 그럼 이건\n"
 	.string "내가 가지고 돌아갈까...\p"
 	.string "하지만 역시 가져가고 싶은데...\n"
 	.string "어떻게 생각해?$"
@@ -1127,8 +1127,8 @@ LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum: @ 821B0BC
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs: @ 821B132
 	.string "그렇구나 어쩔 수 없지\n"
-	.string "그럼 이건 내\l"
-	.string "집에 장식할게\p"
+	.string "그럼 이건\l"
+	.string "내 집에 장식할게\p"
 	.string "다음에 열심히 해야겠다...\n"
 	.string "그럼 안녕$"
 	// そっか しかたないねｎ

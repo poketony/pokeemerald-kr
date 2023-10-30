@@ -143,7 +143,7 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 	.string "이 회전문투성이인\n"
 	.string "체육관 안에서\p"
 	.string "그녀는 새로운 도전자가\n"
-	.string "날아오르길 기다리고 있다!\p"
+	.string "날아오르길 기다리고 있지!\p"
 	.string "그럼 힘내라고-!!$"
 	// げんき しとぉや!!ｎ
 	// チャンピオンを めざす §あ!!ｐ
