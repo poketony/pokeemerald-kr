@@ -363,7 +363,7 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt: @ 8223540
 MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers: @ 82235A6
 	.string "예로부터 호연지방은\n"
 	.string "운석이 많은 곳으로\l"
-	.string "유명했어$"
+	.string "유명하단 말이지$"
 	// むかしから ホウエンちほうはｎ
 	// いんせきの おおい ばしょ としてｌ
 	// ゆうめい なんだよね

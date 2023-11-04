@@ -1986,7 +1986,7 @@ SootopolisCity_Text_ExplainWaterfallGoToGym: @ 81E7B86
 	.string "어디서 받을 수 있냐면...\p"
 	.string "이미 알고 있을 것 같네\n"
 	.string "그래! 루네시티의\l"
-	.string "체육관 관장에게 이기면 돼\p"
+	.string "체육관 관장을 이기면 돼\p"
 	.string "자 준비가 되었다면\n"
 	.string "안으로 들어가 봐!$"
 	// その ひでんマシンは たきのぼり!ｐ

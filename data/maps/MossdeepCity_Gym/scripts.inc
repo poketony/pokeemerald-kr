@@ -647,8 +647,8 @@ MossdeepCity_Gym_Text_NicholasPostBattle: @ 822173A
 	// かいはつ するかな?
 
 MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
-	.string "풍: 헤헤헤...체육관 관장이\p"
-	.string "란: 후후후...체육관 관장이\p"
+	.string "풍: 헤헤헤... 체육관 관장이\p"
+	.string "란: 후후후... 체육관 관장이\p"
 	.string "풍: 두 명이나 있어서 놀랐어?\n"
 	.string "란: 두 명이나 있어서 놀랐어?\p"
 	.string "풍: 우리는 쌍둥이!\n"

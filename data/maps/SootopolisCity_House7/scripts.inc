@@ -13,7 +13,7 @@ SootopolisCity_House7_Text_CityFromEruptedVolcano: @ 82270DE
 	.string "해저에 있던 화산이 분화해서\n"
 	.string "바다 위까지 올라왔지\p"
 	.string "그리고 분화구에 빗물이 차서\n"
-	.string "생긴 게 바로 여기 루네시티야$"
+	.string "생긴 게 바로 여기 루네시티라네$"
 	// かいていに あった かざんが ふんかしてｎ
 	// うみの うえまで もりあがるｐ
 	// そして ふんかこうに あめが たまってｎ

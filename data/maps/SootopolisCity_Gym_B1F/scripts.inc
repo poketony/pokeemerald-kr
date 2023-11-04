@@ -63,7 +63,7 @@ SootopolisCity_Gym_B1F_Text_AndreaDefeat: @ 8225DB6
 
 SootopolisCity_Gym_B1F_Text_AndreaPostBattle: @ 8225DCF
 	.string "모든 바닥에 금이 가게 하면\n"
-	.string "무슨 일이 일어날 거야$"
+	.string "무슨 일이 생길 거야$"
 	// すべての ゆかに ヒビを いれるとｎ
 	// なにかが おこるわよ
 

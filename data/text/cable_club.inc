@@ -425,7 +425,7 @@ MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo: @ 8278BF1
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay: @ 8278CAC
 	.string "게임을 하려면\n"
-	.string "옆의 할아버지께 말해 줘$"
+	.string "옆의 할아버지한테 말해 줘$"
 	// ゲ-ムを するならｎ
 	// おとなりの おじいさんに いってね
 

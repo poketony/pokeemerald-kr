@@ -304,7 +304,7 @@ SeafloorCavern_Room9_Text_ArchieAMessageFromOutside: @ 82352F6
 	// だんいん からの れんらくか
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
-	.string "아강: 뭔가...?\p"
+	.string "아강: 무슨 일이냐...?\p"
 	.string "흠...\n"
 	.string "폭우가 내리고 있다고...\p"
 	.string "그렇겠지... 그것이야말로\n"
@@ -351,7 +351,7 @@ SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought: @ 82354F0
 	.string "폭우가 쏟아져 내린다면\l"
 	.string "세계는 대체 어떻게 되겠는가!\p"
 	.string "모든 대지가\n"
-	.string "물 깊숙히 가라앉게 되는 거다...$"
+	.string "물 깊숙히 가라앉게 될 거다...$"
 	// マツブサ『なんてことだ……ｐ
 	// アオギリよ…… おまえらもｎ
 	// カイオ-ガを めざめさせて しまったな!ｐ
