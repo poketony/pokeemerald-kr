@@ -475,7 +475,7 @@ BattleFrontier_ReceptionGate_Text_BattlePyramidInfo: @ 8266CBB
 BattleFrontier_ReceptionGate_Text_RankingHallInfo: @ 8266D1C
 	.string "랭킹홀은\n"
 	.string "배틀타워 근처에 있습니다\p"
-	.string "이쪽은 배틀프런티어에서\n"
+	.string "이쪽에서는 배틀프런티어에서\n"
 	.string "배틀한 트레이너의\l"
 	.string "가장 뛰어난 기록을\l"
 	.string "볼 수 있습니다$"
