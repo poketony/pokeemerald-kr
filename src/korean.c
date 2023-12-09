@@ -3,6 +3,16 @@
 #include "korean.h"
 #include "korean_table.h"
 
+static const u8 sSingleByteJongTable[] = 
+{
+    CHAR_0,
+    CHAR_1,
+    CHAR_3,
+    CHAR_6,
+    CHAR_7,
+    CHAR_8,
+};
+
 bool8 IsKoreanGlyph(u16 glyph)
 {
     return glyph >= 0x37 && glyph <= 0x41;
@@ -20,10 +30,22 @@ bool8 IsMoum(u8 glyph)
 
 bool8 HasJong(u16 ch)
 {
+    u8 i, singleByteChar;
+
     if (IsKoreanGlyph((ch & 0xff00) >> 8))
+    {
         return gConvertKoreanToUnicodeTable[ch - 0x3700] % 28;
+    }
     else
+    {
+        singleByteChar = (u8)ch & 0x00ff;
+        for (i = 0; i < sizeof(sSingleByteJongTable); i++)
+        {
+            if (singleByteChar == sSingleByteJongTable[i])
+                return TRUE;
+        }
         return FALSE;
+    }
 }
 
 u8 GetCho(u8 index)
