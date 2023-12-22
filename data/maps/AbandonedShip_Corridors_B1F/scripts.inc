@@ -63,7 +63,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanIntro:
 	// ちょいと しょうぶ してくれ!
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
-	.string "이거 곤란인걸$"
+	.string "이거 곤란한걸$"
 	// こりゃ まいった
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
@@ -83,7 +83,7 @@ AbandonedShip_Corridors_B1F_Text_YayItsAShip:
 	// ふね だぞ-!
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
-	.string "열쇠가 걸려 있다\p"
+	.string "문이 잠겨 있다\p"
 	.string "문에는 창고라고 쓰여 있다$"
 	// カギが かかっているｐ
 	// とびらには そうこ と かかれている
