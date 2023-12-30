@@ -2446,18 +2446,18 @@ static void DrawTextEntry(void)
 
     for (i = 0; i < sizeof(sNamingScreen->textBuffer); i += 2)
     {
-		if (sNamingScreen->textBuffer[i] == 0)
-		{
-			temp[0] = sNamingScreen->textBuffer[i + 1];
-			temp[1] = gText_ExpandedPlaceholder_Empty[0];
-			temp[2] = gText_ExpandedPlaceholder_Empty[0];
-		}
+        if (sNamingScreen->textBuffer[i] == 0)
+        {
+            temp[0] = sNamingScreen->textBuffer[i + 1];
+            temp[1] = gText_ExpandedPlaceholder_Empty[0];
+            temp[2] = gText_ExpandedPlaceholder_Empty[0];
+        }
         else
-		{
-			temp[0] = sNamingScreen->textBuffer[i];
-			temp[1] = sNamingScreen->textBuffer[i + 1];
-			temp[2] = gText_ExpandedPlaceholder_Empty[0];
-		}
+        {
+            temp[0] = sNamingScreen->textBuffer[i];
+            temp[1] = sNamingScreen->textBuffer[i + 1];
+            temp[2] = gText_ExpandedPlaceholder_Empty[0];
+        }
 
         AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], 7, temp, i * 4 + x, 1, 0xFF, NULL);
     }

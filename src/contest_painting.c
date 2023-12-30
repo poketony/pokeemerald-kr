@@ -168,9 +168,9 @@ void SetContestWinnerForPainting(int contestWinnerId)
     // probably fakematching
     u8 *ptr1 = &gUnknown_02039F5D;
     u8 *ptr2 = &gUnknown_02039F5C;
-	gCurContestWinner = gSaveBlock1Ptr->contestWinners[contestWinnerId - 1];
-	*ptr1 = contestWinnerId - 1;
-	*ptr2 = FALSE;
+    gCurContestWinner = gSaveBlock1Ptr->contestWinners[contestWinnerId - 1];
+    *ptr1 = contestWinnerId - 1;
+    *ptr2 = FALSE;
 }
 
 void CB2_ContestPainting(void)
