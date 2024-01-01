@@ -2,18 +2,26 @@
 gText_ConfirmSave::
 	.string "지금까지의 활약을\n"
 	.string "포켓몬 리포트로 작성할까요?$"
+	// ここまでの かつやくをｎ
+	// ポケモンレポ-トに かきこみますか?
 
 gText_AlreadySavedFile::
 	.string "전에 작성한 리포트에\n"
 	.string "덮어써도 괜찮습니까?$"
+	// まえに かかれた レポ-トにｎ
+	// うえから かいても いいですか?
 
 gText_SavingDontTurnOff::
 	.string "포켓몬 리포트를 작성하고 있습니다\n"
 	.string "전원을 끄지 않도록 해주십시오$"
+	// ポケモンレポ-トに かきこんでいますｎ
+	// でんげんを きらないで ください
 
 gText_PlayerSavedGame::
 	.string "{PLAYER}{K_EUNNEUN}\n"
     .string "리포트를 꼼꼼히 기록했다!$"
+	// §あ はｎ
+	// レポ-トに しっかり かきのこした!
 
 gText_DifferentSaveFile::
 	.string "주의!!\p"
@@ -39,7 +47,12 @@ gText_SaveError::
 	.string "리포트를 작성하지 못했습니다\p"
 	.string "백업 카트리지를\n"
 	.string "교환해 주십시오!$"
+	// レポ-トが かけませんでしたｐ
+	// バックアップカ-トリッジをｎ
+	// こうかんしてください!
 
 gText_SavingDontTurnOffPower::
 	.string "포켓몬 리포트를 작성하고 있습니다\n"
 	.string "전원을 끄지 않도록 해주십시오$"
+	// ポケモンレポ-トに かきこんでいますｎ
+	// でんげんを きらないで ください

@@ -29,27 +29,27 @@ static const u8 sSafariBallDesc[] = _(
 static const u8 sNetBallDesc[] = _(
     "물타입과 벌레타입의\n"
     "포켓몬을 잡기\n"
-    "쉬워진 볼");
+    "쉬워지는 볼");
 
 static const u8 sDiveBallDesc[] = _(
     "해저에서 사는\n"
     "포켓몬을 잡기\n"
-    "쉬워진 볼");
+    "쉬워지는 볼");
 
 static const u8 sNestBallDesc[] = _(
     "잡을 수 있는 포켓몬이\n"
     "약할수록 잡기\n"
-    "쉬워진 볼");
+    "쉬워지는 볼");
 
 static const u8 sRepeatBallDesc[] = _(
     "잡은 적이 있는\n"
     "포켓몬을 잡기\n"
-    "쉬워진 볼");
+    "쉬워지는 볼");
 
 static const u8 sTimerBallDesc[] = _(
     "턴 수가 길어지면\n"
     "길어질수록 잡기\n"
-    "쉬워진 볼");
+    "쉬워지는 볼");
 
 static const u8 sLuxuryBallDesc[] = _(
     "잡은 포켓몬이\n"
@@ -154,7 +154,7 @@ static const u8 sHealPowderDesc[] = _(
 
 static const u8 sRevivalHerbDesc[] = _(
     "매우 쓴 풀\n"
-    "기절 상태로부터\n"
+    "기절 상태에서\n"
     "부활한다");
 
 static const u8 sEtherDesc[] = _(
@@ -316,14 +316,14 @@ static const u8 sXSpecialDesc[] = _(
     "올라간다");
 
 static const u8 sPokeDollDesc[] = _(
-    "마주친 야생\n"
-    "포켓몬과의 배틀에서\n"
+    "조우한 야생\n"
+    "포켓몬으로부터 반드시\n"
     "도망칠 수 있다");
 
 static const u8 sFluffyTailDesc[] = _(
-    "마주친 야생\n"
-    "포켓몬과의 배틀에서\n"
-    "도망칠 수도 있다");
+    "조우한 야생\n"
+    "포켓몬으로부터 반드시\n"
+    "도망칠 수 있다");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
@@ -372,7 +372,7 @@ static const u8 sLeafStoneDesc[] = _(
 
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
-    "보통의 버섯\n"
+    "평범한 버섯\n"
     "싸게 팔린다");
 
 static const u8 sBigMushroomDesc[] = _(
@@ -410,32 +410,32 @@ static const u8 sHeartScaleDesc[] = _(
 static const u8 sOrangeMailDesc[] = _(
     "지그제구리의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sHarborMailDesc[] = _(
     "갈모매의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sGlitterMailDesc[] = _(
     "피카츄의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sMechMailDesc[] = _(
     "코일의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sWoodMailDesc[] = _(
     "게을로의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sWaveMailDesc[] = _(
     "고래왕자의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sBeadMailDesc[] = _(
     "지니게 한 포켓몬의\n"
@@ -444,12 +444,12 @@ static const u8 sBeadMailDesc[] = _(
 static const u8 sShadowMailDesc[] = _(
     "해골몽의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sTropicMailDesc[] = _(
     "아르코의 모습이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sDreamMailDesc[] = _(
     "지니게 한 포켓몬의\n"
@@ -458,12 +458,12 @@ static const u8 sDreamMailDesc[] = _(
 static const u8 sFabMailDesc[] = _(
     "호화로운 모양이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 static const u8 sRetroMailDesc[] = _(
     "3마리의 포켓몬이\n"
     "프린트된 편지지\n"
-    "포켓몬에게 지니게 한다");
+    "포켓몬에게 맡길 수 있다");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
@@ -570,9 +570,9 @@ static const u8 sPomegBerryDesc[] = _(
     "포켓몬과 조금\n"
     "친밀해지지만 HP의\n"
     "기초 포인트가 떨어진다");
-	//ポケモンが ちょっとｎ
-	//なつくが HPのｎ
-	//きそポイントが さがる$
+	// ポケモンが ちょっとｎ
+	// なつくが HPのｎ
+	// きそポイントが さがる
 	
 static const u8 sKelpsyBerryDesc[] = _(
     "포켓몬과 조금\n"
@@ -667,7 +667,7 @@ static const u8 sApicotBerryDesc[] = _(
 static const u8 sLansatBerryDesc[] = _(
     "지니게 하면 위급할 때\n"
 	"적의 급소를\n"
-    "맞추기 쉬워진다");
+    "맞히기 쉬워진다");
 
 static const u8 sStarfBerryDesc[] = _(
     "지니게 하면 위급할 때\n"
@@ -688,7 +688,7 @@ static const u8 sBrightPowderDesc[] = _(
 static const u8 sWhiteHerbDesc[] = _(
     "포켓몬에게 지니게 하면\n"
     "떨어진 능력을\n"
-    "원래대로 돌린다");
+    "원래대로 되돌린다");
 
 static const u8 sMachoBraceDesc[] = _(
     "포켓몬에게 지니게 하면\n"
@@ -703,7 +703,7 @@ static const u8 sExpShareDesc[] = _(
 static const u8 sQuickClawDesc[] = _(
     "포켓몬에게 지니게 하면\n"
     "선제공격을\n"
-    "가끔씩 할 때가 있다");
+    "가끔씩 한다");
 
 static const u8 sSootheBellDesc[] = _(
     "지니게 하면 포켓몬이\n"
@@ -712,7 +712,7 @@ static const u8 sSootheBellDesc[] = _(
 
 static const u8 sMentalHerbDesc[] = _(
     "지니게 한 포켓몬이\n"
-    "헤롱헤롱 상태가 되었을 때\n"
+    "헤롱헤롱 상태가 됐을 때\n"
     "낫게 한다");
 
 static const u8 sChoiceBandDesc[] = _(
@@ -756,8 +756,8 @@ static const u8 sDeepSeaScaleDesc[] = _(
     "특수방어가 올라간다");
 
 static const u8 sSmokeBallDesc[] = _(
-    "마주친 야생\n"
-    "포켓몬에게서 반드시\n"
+    "조우한 야생\n"
+    "포켓몬으로부터 반드시\n"
     "도망칠 수 있다");
 
 static const u8 sEverstoneDesc[] = _(
@@ -778,7 +778,7 @@ static const u8 sLuckyEggDesc[] = _(
 static const u8 sScopeLensDesc[] = _(
     "포켓몬에게 지니게 하면\n"
     "급소에\n"
-    "맞추기 쉬워진다");
+    "맞히기 쉬워진다");
 
 static const u8 sMetalCoatDesc[] = _(
     "포켓몬에게 지니게 하면\n"
@@ -886,8 +886,8 @@ static const u8 sShellBellDesc[] = _(
 
 static const u8 sSeaIncenseDesc[] = _(
     "포켓몬에게 지니게 하면\n"
-    "조금 물타입\n"
-    "기술의 위력이 올라간다");
+    "물타입 기술의\n"
+    "위력이 조금 올라간다");
 
 static const u8 sLaxIncenseDesc[] = _(
     "포켓몬에게 지니게 하면\n"
@@ -897,7 +897,7 @@ static const u8 sLaxIncenseDesc[] = _(
 static const u8 sLuckyPunchDesc[] = _(
     "럭키에게 지니게 하면\n"
     "상대의 급소에\n"
-    "맞추기 쉬워진다");
+    "맞히기 쉬워진다");
 
 static const u8 sMetalPowderDesc[] = _(
     "메타몽에게 지니게 하면\n"
@@ -1087,8 +1087,8 @@ static const u8 sTM03Desc[] = _(
     "만들기도 한다");
 
 static const u8 sTM04Desc[] = _(
-    "정신을 집중\n"
-    "시켜서 특수공격과\n"
+    "정신을 집중시켜서\n"
+    "특수공격과\n"
 	"특수방어를 올린다.");
 
 static const u8 sTM05Desc[] = _(
@@ -1129,7 +1129,7 @@ static const u8 sTM11Desc[] = _(
 static const u8 sTM12Desc[] = _(
     "상대를 화나게 해서\n"
     "공격 기술밖에\n"
-    "쓸 수 없게 한다");
+    "쓸 수 없게 만든다");
 
 static const u8 sTM13Desc[] = _(
     "냉기를 발사해서\n"
@@ -1158,28 +1158,28 @@ static const u8 sTM17Desc[] = _(
 
 static const u8 sTM18Desc[] = _(
     "5턴 동안\n"
-    "물타입\n"
-    "기술의 위력이 올라간다");
+    "물타입 기술의\n"
+    "위력이 올라간다");
 
 static const u8 sTM19Desc[] = _(
     "입힌 데미지의\n"
-    "절반의 체력을\n"
+    "절반만큼의 체력을\n"
     "회복할 수 있다");
 
 static const u8 sTM20Desc[] = _(
     "이상한 힘으로\n"
-    "보호받아 특수\n"
-    "상태가 되지 않는다");
+    "보호받아 특수 상태가\n"
+    "되지 않는다");
 
 static const u8 sTM21Desc[] = _(
-    "포켓몬이 친밀하지\n"
+    "포켓몬과 친밀하지\n"
     "않을수록 주는\n"
     "데미지가 올라간다");
 
 static const u8 sTM22Desc[] = _(
-    "1턴으로 빛을\n"
-    "흡수해서 다음\n"
-    "턴에 공격한다");
+    "1턴 동안 빛을\n"
+    "흡수해서\n"
+    "다음 턴에 공격한다");
 
 static const u8 sTM23Desc[] = _(
     "단단한 꼬리로 공격\n"
@@ -1202,9 +1202,9 @@ static const u8 sTM26Desc[] = _(
     "큰 데미지를 입힌다");
 
 static const u8 sTM27Desc[] = _(
-    "포켓몬이 친밀\n"
-    "할수록 주는\n"
-    "데미지가 올라간다");
+    "포켓몬과 친밀할수록\n"
+    "주는 데미지가\n"
+    "올라간다");
 
 static const u8 sTM28Desc[] = _(
     "1턴째에 땅에\n"
@@ -1243,13 +1243,13 @@ static const u8 sTM34Desc[] = _(
 
 static const u8 sTM35Desc[] = _(
     "불꽃을 흩뿌린다\n"
-    "맞은 적을\n"
+    "맞힌 적을\n"
     "화상 입힐 때가 있다");
 
 static const u8 sTM36Desc[] = _(
     "오물을 내던진다\n"
-    "맞은 적에게 독을\n"
-    "줄 때가 있다");
+    "맞힌 적을 독에\n"
+    "걸리게 할 때가 있다");
 
 static const u8 sTM37Desc[] = _(
     "모래바람을 일으켜서\n"
@@ -1264,7 +1264,7 @@ static const u8 sTM38Desc[] = _(
 static const u8 sTM39Desc[] = _(
     "바위로 적의 움직임을\n"
     "막아서 공격\n"
-    "스피드를 떨어뜨릴 수 있다");
+    "스피드를 낮추기도 한다");
 
 static const u8 sTM40Desc[] = _(
     "재빠른 움직임으로\n"
@@ -1273,8 +1273,8 @@ static const u8 sTM40Desc[] = _(
 
 static const u8 sTM41Desc[] = _(
     "적이 똑같은 기술을\n"
-    "연속으로 쓸 수\n"
-    "없게 한다");
+    "연속으로\n"
+    "쓸 수 없게 만든다");
 
 static const u8 sTM42Desc[] = _(
     "독, 마비, 화상일 때\n"
@@ -1297,8 +1297,8 @@ static const u8 sTM45Desc[] = _(
     "기술을 쓸 수 없게 된다");
 
 static const u8 sTM46Desc[] = _(
-    "공격 중에 틈을\n"
-    "봐서 적이 지니고 있는\n"
+    "공격 중에 틈을 봐서\n"
+    "적이 지니고 있는\n"
     "도구를 훔친다");
 
 static const u8 sTM47Desc[] = _(
@@ -1317,8 +1317,8 @@ static const u8 sTM49Desc[] = _(
     "자신이 쓴다");
 
 static const u8 sTM50Desc[] = _(
-    "풀 파워로 공격\n"
-    "할 수 있지만 특수공격이\n"
+    "풀 파워로 공격하지만\n"
+    "특수공격이\n"
     "크게 떨어져 버린다");
 
 
@@ -1353,7 +1353,7 @@ static const u8 sHM06Desc[] = _(
     "떨어뜨릴 때가 있다");
 
 static const u8 sHM07Desc[] = _(
-    "폭포를 거꾸로 오르는 듯한\n"
+    "폭포를 거슬러 오를 듯한\n"
     "기세로 적에게\n"
     "돌진한다");
 
@@ -1419,12 +1419,12 @@ static const u8 sSilphScopeDesc[] = _(
 
 static const u8 sBicycleDesc[] = _(
     "접이식의 자전거\n"
-    "러닝슈즈보다 빨리 달린다");
+    "러닝슈즈보다 빠르다");
 
 static const u8 sTownMapDesc[] = _(
-    "언제라도 볼 수\n"
-    "있는 편리한 지도\n"
-    "자신의 위치도 알 수 있다");
+    "언제나 볼 수 있는\n"
+    "편리한 지도 자신의\n"
+    "위치도 알 수 있다");
 
 static const u8 sVSSeekerDesc[] = _(
     "싸울 수 있는 트레이너를\n"

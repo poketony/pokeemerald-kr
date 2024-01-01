@@ -244,7 +244,7 @@ static const struct WindowTemplate sPassWindowTemplates[] =
     },
     {
         .bg = 0,
-        .tilemapLeft = 0,
+        .tilemapLeft = 1,
         .tilemapTop = 18,
         .width = 30,
         .height = 3,

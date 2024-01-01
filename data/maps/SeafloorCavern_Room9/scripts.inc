@@ -332,7 +332,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard: @ 823532B
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear: @ 823546F
 	.string "아강: 이상해...\p"
 	.string "주홍구슬로 가이오가가 눈을 뜨고\n"
-	.string "그리고 컨트롤할 수 있어야 할 텐데...\p"
+	.string "내가 컨트롤할 수 있어야 할 텐데...\p"
 	.string "그런데... 어째서...\n"
 	.string "가이오가는 여기서 없어진 거지!?\p"
 	.string "어째서냐!?$"

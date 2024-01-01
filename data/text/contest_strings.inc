@@ -16,15 +16,15 @@ gText_UsedRepeatedlyWithoutBoringJudge::
 	.string "싫증 내지 않게 어필할 수 있다$"
 
 gText_AvoidStartledByOthersOnce::
-	.string "다른 포켓몬이 놀래도\n"
+	.string "다른 포켓몬이 놀래켜도\n"
 	.string "한 번 정도는 참을 수 있다$"
 
 gText_AvoidStartledByOthers::
-	.string "다른 포켓몬이 놀래도\n"
+	.string "다른 포켓몬이 놀래켜도\n"
 	.string "참을 수 있다$"
 
 gText_AvoidStartledByOthersLittle::
-	.string "다른 포켓몬이 놀래도\n"
+	.string "다른 포켓몬이 놀래켜도\n"
 	.string "조금 참을 수 있다$"
 
 gText_UserLessLikelyStartled::

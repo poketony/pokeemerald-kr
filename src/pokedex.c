@@ -1471,7 +1471,7 @@ static const struct WindowTemplate sSearchMenu_WindowTemplate[] =
 {
     {
         .bg = 2,
-        .tilemapLeft = 0,
+        .tilemapLeft = 1,
         .tilemapTop = 0,
         .width = 32,
         .height = 20,
