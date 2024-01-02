@@ -1,36 +1,78 @@
-# Pokémon Emerald
+# 포켓몬스터 에메랄드
 
-[![Build Status][travis-badge]][travis]
+디컴파일 프로젝트([pokeemerald](https://github.com/pret/pokeemerald)) 기반의 한국어화 프로젝트입니다.
 
-[travis]: https://travis-ci.org/pret/pokeemerald
-[travis-badge]: https://travis-ci.org/pret/pokeemerald.svg?branch=master
+## 빌드 방법
 
-This is a decompilation of Pokémon Emerald.
+윈도우 WSL(Ubuntu)을 기준으로 설명합니다.
 
-It builds the following ROM:
+### 프로젝트 복사
 
-* [**pokeemerald.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=1961) `sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+```sh
+git clone https://github.com/koipkoi/pokeemerald-kr
+```
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+### 개발 도구 설치
 
+#### devkitPro
 
-## See also
+(1) 아래 명령어를 입력하여 `dkp-pacman`을 설치합니다.  
+(참조: https://devkitpro.org/wiki/devkitPro_pacman)
 
-Other disassembly and/or decompilation projects:
-* [**Pokémon Red and Blue**](https://github.com/pret/pokered)
-* [**Pokémon Gold and Silver (Space World '97 demo)**](https://github.com/pret/pokegold-spaceworld)
-* [**Pokémon Yellow**](https://github.com/pret/pokeyellow)
-* [**Pokémon Trading Card Game**](https://github.com/pret/poketcg)
-* [**Pokémon Pinball**](https://github.com/pret/pokepinball)
-* [**Pokémon Stadium**](https://github.com/pret/pokestadium)
-* [**Pokémon Gold and Silver**](https://github.com/pret/pokegold)
-* [**Pokémon Crystal**](https://github.com/pret/pokecrystal)
-* [**Pokémon Ruby and Sapphire**](https://github.com/pret/pokeruby)
-* [**Pokémon Pinball: Ruby & Sapphire**](https://github.com/pret/pokepinballrs)
-* [**Pokémon FireRed and LeafGreen**](https://github.com/pret/pokefirered)
-* [**Pokémon Mystery Dungeon: Red Rescue Team**](https://github.com/pret/pmd-red)
+```sh
+wget https://apt.devkitpro.org/install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
 
+sudo ln -s /proc/self/mounts /etc/mtab
+```
 
-## Contacts
+(2) 명령어를 입력하여 개발 도구를 설치합니다.
 
-You can find us on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://kiwiirc.com/client/irc.freenode.net/?#pret).
+```sh
+sudo pacman -Sy
+sudo pacman -S gba-dev
+```
+
+#### libpng 설치
+
+```sh
+sudo apt install libpng-dev
+```
+
+#### 컴파일러 설치 (agbcc)
+
+(1) 아래 명령어를 실행하여 프로젝트를 받습니다.
+
+```sh
+git clone https://github.com/pret/agbcc
+
+# 추후에 컴파일러가 호환되지 않을 경우 아래 명령어를 추가로 실행해주세요.
+git checkout bfa92a1c98ce039a7df833beefa612fea65d3874
+```
+
+(2) 명령어를 입력하면 컴파일러 빌드가 진행됩니다.  
+초기 빌드에 오류가 날 수도 있습니다. 그런경우 아래 명령어를 다시 한 번 더 실행해주세요.
+
+```sh
+cd agbcc
+./build.sh
+```
+
+(3) 아래 명령어를 실행하면 컴파일러 준비 완료.
+
+```sh
+./install.sh ../pokeemerald-kr
+```
+
+### 빌드
+
+원하는 항목을 입력하여 실행합니다.
+
+```sh
+# 기본 빌드
+make
+
+# 코드 개선 빌드
+make modern
+```
