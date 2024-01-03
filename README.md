@@ -70,9 +70,6 @@ cd agbcc
 원하는 항목을 입력하여 실행합니다.
 
 ```sh
-# 기본 빌드
 make
-
-# 코드 개선 빌드
 make modern
 ```

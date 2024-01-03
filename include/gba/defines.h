@@ -11,11 +11,7 @@
 #define EWRAM_DATA __attribute__((section("ewram_data")))
 #define UNUSED __attribute__((unused))
 
-#if MODERN
-#define NOINLINE __attribute__((noinline))
-#else
 #define NOINLINE
-#endif
 
 #define ALIGNED(n) __attribute__((aligned(n)))
 
