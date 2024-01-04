@@ -548,7 +548,7 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(2, PIXEL_FILL(0));
-    BuyMenuPrint(2, description, 3, 1, 0, 0);
+    BuyMenuPrint(2, description, 8, 1, 0, 0);
 }
 
 static void BuyMenuPrintPriceInList(u8 windowId, s32 item, u8 y)
@@ -675,7 +675,7 @@ static void BuyMenuDecompressBgGraphics(void)
 {
     DecompressAndCopyTileDataToVram(1, gBuyMenuFrame_Gfx, 0x3A0, 0x3E3, 0);
     LZDecompressWram(gBuyMenuFrame_Tilemap, gShopDataPtr->tilemapBuffers[0]);
-    LoadCompressedPalette(gMenuMoneyPal, 0xC0, 0x20);
+    LoadCompressedPalette(gBuyMenuFramePal, 0xC0, 0x20);
 }
 
 static void BuyMenuInitWindows(void)

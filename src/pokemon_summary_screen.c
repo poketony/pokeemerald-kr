@@ -2741,12 +2741,12 @@ static void PrintNotEggInfo(void)
 
     GetMonNickname(mon, gStringVar1);
     nicknamePosition = summary->level == 100 ? 32 : 24;
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, 7, gStringVar1, nicknamePosition, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, 1, gStringVar1, nicknamePosition, 1, 0, 1);
 
     StringCopy(strArray, &gSpeciesNames[summary->species2][0]);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, 7, strArray, 0, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, 1, strArray, 0, 1, 0, 1);
 
-    PrintGenderSymbol(mon, summary->species2, GetStringWidth(7, strArray, -1));
+    PrintGenderSymbol(mon, summary->species2, GetStringWidth(1, strArray, -1));
 
     PutWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME);
     PutWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_SPECIES);
@@ -2796,53 +2796,53 @@ static void PrintPageNamesAndStats(void)
     PrintTextOnWindow(PSS_LABEL_WINDOW_BATTLE_MOVES_TITLE, 1, gText_BattleMoves, 0, 1, 0, 1);
     PrintTextOnWindow(PSS_LABEL_WINDOW_CONTEST_MOVES_TITLE, 1, gText_ContestMoves, 0, 1, 0, 1);
 
-    stringXPos = GetStringRightAlignXOffset(7, gText_Cancel2, 62);
+    stringXPos = GetStringRightAlignXOffset(1, gText_Cancel2, 62);
     iconXPos = stringXPos - 16;
     if (iconXPos < 0)
         iconXPos = 0;
     PrintAOrBButtonIcon(PSS_LABEL_WINDOW_PROMPT_CANCEL, FALSE, iconXPos);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_CANCEL, 7, gText_Cancel2, stringXPos, 1, 0, 0);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_CANCEL, 1, gText_Cancel2, stringXPos, 1, 0, 0);
 
-    stringXPos = GetStringRightAlignXOffset(7, gText_Info, 62);
+    stringXPos = GetStringRightAlignXOffset(1, gText_Info, 62);
     iconXPos = stringXPos - 16;
     if (iconXPos < 0)
         iconXPos = 0;
     PrintAOrBButtonIcon(PSS_LABEL_WINDOW_PROMPT_INFO, FALSE, iconXPos);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_INFO, 7, gText_Info, stringXPos, 1, 0, 0);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_INFO, 1, gText_Info, stringXPos, 1, 0, 0);
 
-    stringXPos = GetStringRightAlignXOffset(7, gText_Switch, 62);
+    stringXPos = GetStringRightAlignXOffset(1, gText_Switch, 62);
     iconXPos = stringXPos - 16;
     if (iconXPos < 0)
         iconXPos = 0;
     PrintAOrBButtonIcon(PSS_LABEL_WINDOW_PROMPT_SWITCH, FALSE, iconXPos);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_SWITCH, 7, gText_Switch, stringXPos, 1, 0, 0);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_SWITCH, 1, gText_Switch, stringXPos, 1, 0, 0);
 
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_RENTAL, 7, gText_RentalPkmn, 0, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_TYPE, 7, gText_TypeSlash, 0, 1, 0, 0);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_RENTAL, 1, gText_RentalPkmn, 0, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_TYPE, 1, gText_TypeSlash, 0, 1, 0, 0);
 
     StringCopy(hpTextBuffer, hpTextJapanese);
     StringAppend(hpTextBuffer, gText_HP4);
-    statsXPos = 7 + GetStringCenterAlignXOffset(7, hpTextBuffer, 32);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 7, hpTextBuffer, statsXPos, 1, 0, 1);
-    statsXPos = 7 + GetStringCenterAlignXOffset(7, gText_Attack3, 32);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 7, gText_Attack3, statsXPos, 17, 0, 1);
-    statsXPos = 7 + GetStringCenterAlignXOffset(7, gText_Defense3, 32);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 7, gText_Defense3, statsXPos, 33, 0, 1);
+    statsXPos = 7 + GetStringCenterAlignXOffset(1, hpTextBuffer, 32);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 1, hpTextBuffer, statsXPos, 1, 0, 1);
+    statsXPos = 7 + GetStringCenterAlignXOffset(1, gText_Attack3, 32);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 1, gText_Attack3, statsXPos, 17, 0, 1);
+    statsXPos = 7 + GetStringCenterAlignXOffset(1, gText_Defense3, 32);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, 1, gText_Defense3, statsXPos, 33, 0, 1);
 
-    statsXPos = GetStringCenterAlignXOffset(7, gText_SpAtk4, 40);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 7, gText_SpAtk4, statsXPos, 1, 0, 1);
-    statsXPos = GetStringCenterAlignXOffset(7, gText_SpDef4, 40);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 7, gText_SpDef4, statsXPos, 17, 0, 1);
-    statsXPos = GetStringCenterAlignXOffset(7, gText_Speed2, 40);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 7, gText_Speed2, statsXPos, 33, 0, 1);
+    statsXPos = GetStringCenterAlignXOffset(1, gText_SpAtk4, 40);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 1, gText_SpAtk4, statsXPos, 1, 0, 1);
+    statsXPos = GetStringCenterAlignXOffset(1, gText_SpDef4, 40);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 1, gText_SpDef4, statsXPos, 17, 0, 1);
+    statsXPos = GetStringCenterAlignXOffset(1, gText_Speed2, 40);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_RIGHT, 1, gText_Speed2, statsXPos, 33, 0, 1);
 
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, 7, gText_ExpPoints, 8, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, 7, gText_NextLv, 8, 17, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATUS, 7, gText_Status, 2, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, 7, gText_Power, 8, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, 7, gText_Accuracy2, 8, 17, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, 7, gText_Appeal, 8, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, 7, gText_Jam, 8, 17, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, 1, gText_ExpPoints, 8, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, 1, gText_NextLv, 8, 17, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATUS, 1, gText_Status, 16, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, 1, gText_Power, 8, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, 1, gText_Accuracy2, 8, 17, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, 1, gText_Appeal, 8, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, 1, gText_Jam, 8, 17, 0, 1);
 }
 
 static void PutPageWindowTilemaps(u8 page)
@@ -3042,12 +3042,12 @@ static void PrintMonOTName(void)
     if (InBattleFactory() != TRUE && InSlateportBattleTent() != TRUE)
     {
         windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ORIGINAL_TRAINER);
-        PrintTextOnWindow(windowId, 7, gText_OTSlash, 0, 2, 0, 1);
+        PrintTextOnWindow(windowId, 1, gText_OTSlash, 0, 2, 0, 1);
         x = GetStringWidth(7, gText_OTSlash, 0);
         if (sMonSummaryScreen->summary.OTGender == 0)
-            PrintTextOnWindow(windowId, 7, sMonSummaryScreen->summary.OTName, x, 1, 0, 5);
+            PrintTextOnWindow(windowId, 1, sMonSummaryScreen->summary.OTName, x, 1, 0, 5);
         else
-            PrintTextOnWindow(windowId, 7, sMonSummaryScreen->summary.OTName, x, 1, 0, 6);
+            PrintTextOnWindow(windowId, 1, sMonSummaryScreen->summary.OTName, x, 1, 0, 6);
     }
 }
 
@@ -3065,13 +3065,13 @@ static void PrintMonOTID(void)
 static void PrintMonAbilityName(void)
 {
     u8 ability = GetAbilityBySpecies(sMonSummaryScreen->summary.species, sMonSummaryScreen->summary.abilityNum);
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 7, gAbilityNames[ability], 0, 2, 0, 1);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 1, gAbilityNames[ability], 0, 2, 0, 1);
 }
 
 static void PrintMonAbilityDescription(void)
 {
     u8 ability = GetAbilityBySpecies(sMonSummaryScreen->summary.species, sMonSummaryScreen->summary.abilityNum);
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 7, gAbilityDescriptionPointers[ability], 0, 17, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 1, gAbilityDescriptionPointers[ability], 0, 17, 0, 0);
 }
 
 static void BufferMonTrainerMemo(void)
@@ -3128,7 +3128,7 @@ static void BufferMonTrainerMemo(void)
 
 static void PrintMonTrainerMemo(void)
 {
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), 7, gStringVar4, 0, 1, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), 1, gStringVar4, 0, 1, 0, 0);
 }
 
 static void BufferNatureString(void)
@@ -3202,9 +3202,9 @@ static bool8 IsInGamePartnerMon(void)
 static void PrintEggOTName(void)
 {
     u32 windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ORIGINAL_TRAINER);
-    u32 width = GetStringWidth(7, gText_OTSlash, 0);
-    PrintTextOnWindow(windowId, 7, gText_OTSlash, 0, 2, 0, 1);
-    PrintTextOnWindow(windowId, 7, gText_FiveMarks, width, 1, 0, 1);
+    u32 width = GetStringWidth(1, gText_OTSlash, 0);
+    PrintTextOnWindow(windowId, 1, gText_OTSlash, 0, 2, 0, 1);
+    PrintTextOnWindow(windowId, 1, gText_FiveMarks, width, 1, 0, 1);
 }
 
 static void PrintEggOTID(void)
@@ -3232,7 +3232,7 @@ static void PrintEggState(void)
     else
         text = gText_EggWillTakeALongTime;
 
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 7, text, 0, 1, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), 1, text, 0, 1, 0, 0);
 }
 
 static void PrintEggMemo(void)
@@ -3256,7 +3256,7 @@ static void PrintEggMemo(void)
         text = gText_OddEggFoundByCouple;
     }
 
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), 7, text, 0, 1, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), 1, text, 0, 1, 0, 0);
 }
 
 static void PrintSkillsPageText(void)
@@ -3324,7 +3324,7 @@ static void PrintHeldItemName(void)
         text = gStringVar1;
     }
 
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_HELD_ITEM), 7, text, 8, 1, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_HELD_ITEM), 1, text, 8, 1, 0, 0);
 }
 
 static void PrintRibbonCount(void)
@@ -3342,7 +3342,7 @@ static void PrintRibbonCount(void)
         text = gStringVar4;
     }
 
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_RIBBON_COUNT), 7, text, 8, 1, 0, 0);
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_RIBBON_COUNT), 1, text, 8, 1, 0, 0);
 }
 
 static void BufferLeftColumnStats(void)
@@ -3404,7 +3404,7 @@ static void PrintExpPointsNextLevel(void)
     x = GetStringRightAlignXOffset(1, gStringVar1, 72);
     PrintTextOnWindow(windowId, 1, gStringVar1, x, 1, 0, 0);
 
-    PrintTextOnWindow(windowId, 7, gText_UntilNextLv, 0, 17, 0, 0);
+    PrintTextOnWindow(windowId, 1, gText_UntilNextLv, 0, 17, 0, 0);
 
     if (sum->level < MAX_LEVEL)
         expToNextLevel = gExperienceTables[gBaseStats[sum->species].growthRate][sum->level + 1] - sum->exp;
@@ -3496,7 +3496,7 @@ static void PrintMoveNameAndPP(u8 moveIndex)
     if (move != 0)
     {
         pp = CalculatePPWithBonus(move, summary->ppBonuses, moveIndex);
-        PrintTextOnWindow(moveNameWindowId, 7, gMoveNames[move], 2, moveIndex * 16 + 1, 0, 1);
+        PrintTextOnWindow(moveNameWindowId, 1, gMoveNames[move], 2, moveIndex * 16 + 1, 0, 1);
         ConvertIntToDecimalStringN(gStringVar1, summary->pp[moveIndex], STR_CONV_MODE_RIGHT_ALIGN, 2);
         ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
         DynamicPlaceholderTextUtil_Reset();
@@ -3611,7 +3611,7 @@ static void PrintContestMoveDescription(u8 moveSlot)
     if (move != MOVE_NONE)
     {
         u8 windowId = AddWindowFromTemplateList(sPageMovesTemplate, PSS_DATA_WINDOW_MOVE_DESCRIPTION);
-        PrintTextOnWindow(windowId, 7, gContestEffectDescriptionPointers[gContestMoves[move].effect], 8, 1, 0, 0);
+        PrintTextOnWindow(windowId, 1, gContestEffectDescriptionPointers[gContestMoves[move].effect], 8, 1, 0, 0);
     }
 }
 
@@ -3624,11 +3624,11 @@ static void PrintMoveDetails(u16 move)
         if (sMonSummaryScreen->currPageIndex == PSS_MODE_BOX)
         {
             PrintMovePowerAndAccuracy(move);
-            PrintTextOnWindow(windowId, 7, gMoveDescriptionPointers[move - 1], 8, 1, 0, 0);
+            PrintTextOnWindow(windowId, 1, gMoveDescriptionPointers[move - 1], 8, 1, 0, 0);
         }
         else
         {
-            PrintTextOnWindow(windowId, 7, gContestEffectDescriptionPointers[gContestMoves[move].effect], 8, 1, 0, 0);
+            PrintTextOnWindow(windowId, 1, gContestEffectDescriptionPointers[gContestMoves[move].effect], 8, 1, 0, 0);
         }
         PutWindowTilemap(windowId);
     }
@@ -3647,16 +3647,16 @@ static void PrintNewMoveDetailsOrCancelText(void)
 
     if (sMonSummaryScreen->newMove == MOVE_NONE)
     {
-        PrintTextOnWindow(windowId1, 7, gText_Cancel, 2, 65, 0, 1);
+        PrintTextOnWindow(windowId1, 1, gText_Cancel, 2, 65, 0, 1);
     }
     else
     {
         u16 move = sMonSummaryScreen->newMove;
 
         if (sMonSummaryScreen->currPageIndex == PSS_PAGE_BATTLE_MOVES)
-            PrintTextOnWindow(windowId1, 7, gMoveNames[move], 2, 65, 0, 6);
+            PrintTextOnWindow(windowId1, 1, gMoveNames[move], 2, 65, 0, 6);
         else
-            PrintTextOnWindow(windowId1, 7, gMoveNames[move], 2, 65, 0, 5);
+            PrintTextOnWindow(windowId1, 1, gMoveNames[move], 2, 65, 0, 5);
 
         ConvertIntToDecimalStringN(gStringVar1, gBattleMoves[move].pp, STR_CONV_MODE_RIGHT_ALIGN, 2);
         DynamicPlaceholderTextUtil_Reset();
@@ -3693,7 +3693,7 @@ static void PrintHMMovesCantBeForgotten(void)
 {
     u8 windowId = AddWindowFromTemplateList(sPageMovesTemplate, PSS_DATA_WINDOW_MOVE_DESCRIPTION);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
-    PrintTextOnWindow(windowId, 7, gText_HMMovesCantBeForgotten2, 6, 1, 0, 0);
+    PrintTextOnWindow(windowId, 1, gText_HMMovesCantBeForgotten2, 6, 1, 0, 0);
 }
 
 static void ResetSpriteIds(void)

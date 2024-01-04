@@ -102,6 +102,8 @@ enum
 #define POKEBALL_ROTATION_TOP    64
 #define POKEBALL_ROTATION_BOTTOM (POKEBALL_ROTATION_TOP - 16)
 
+#define MON_NAME_LEFT 176
+
 // EWRAM
 static EWRAM_DATA struct PokedexView *sPokedexView = NULL;
 static EWRAM_DATA u16 sLastSelectedPokemon = 0;
@@ -2336,13 +2338,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
                 {
                     CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
                     CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, i * 2, ignored);
-                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, i * 2 * 8);
+                    CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, MON_NAME_LEFT, i * 2 * 8);
                 }
                 else
                 {
                     CreateMonDexNum(entryNum, 0x12, i * 2, ignored);
                     CreateCaughtBall(FALSE, 0x11, i * 2, ignored);
-                    CreateMonName(0, 172, i * 2 * 8);
+                    CreateMonName(0, MON_NAME_LEFT, i * 2 * 8);
                 }
             }
             entryNum++;
@@ -2361,13 +2363,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             {
                 CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
                 CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, sPokedexView->listVOffset * 2 * 8);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, MON_NAME_LEFT, sPokedexView->listVOffset * 2 * 8);
             }
             else
             {
                 CreateMonDexNum(entryNum, 18, sPokedexView->listVOffset * 2, ignored);
                 CreateCaughtBall(FALSE, 17, sPokedexView->listVOffset * 2, ignored);
-                CreateMonName(0, 172, sPokedexView->listVOffset * 2 * 8);
+                CreateMonName(0, MON_NAME_LEFT, sPokedexView->listVOffset * 2 * 8);
             }
         }
         break;
@@ -2385,13 +2387,13 @@ static void CreateMonListEntry(u8 position, u16 b, u16 ignored)
             {
                 CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
                 CreateCaughtBall(sPokedexView->pokedexList[entryNum].owned, 0x11, vOffset * 2, ignored);
-                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, 172, vOffset * 2 * 8);
+                CreateMonName(sPokedexView->pokedexList[entryNum].dexNum, MON_NAME_LEFT, vOffset * 2 * 8);
             }
             else
             {
                 CreateMonDexNum(entryNum, 18, vOffset * 2, ignored);
                 CreateCaughtBall(FALSE, 0x11, vOffset * 2, ignored);
-                CreateMonName(0, 172, vOffset * 2 * 8);
+                CreateMonName(0, MON_NAME_LEFT, vOffset * 2 * 8);
             }
         }
         break;
@@ -2411,7 +2413,7 @@ static void CreateMonDexNum(u16 entryNum, u8 left, u8 top, u16 unused)
     text[2] = CHAR_0 + dexNum / 100;
     text[3] = CHAR_0 + (dexNum % 100) / 10;
     text[4] = CHAR_0 + (dexNum % 100) % 10;
-    PrintMonDexNumAndName(0, 7, text, left * 8, top * 8);
+    PrintMonDexNumAndName(0, 1, text, left * 8, top * 8);
 }
 
 static void CreateCaughtBall(bool16 owned, u8 x, u8 y, u16 unused)
@@ -4090,14 +4092,17 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         value = NationalToHoennOrder(num);
     else
         value = num;
+
     ConvertIntToDecimalStringN(StringCopy(str, gText_NumberClear01), value, STR_CONV_MODE_LEADING_ZEROS, 3);
     PrintInfoScreenText(1, str, 0x60, 0x19);
+
     natNum = NationalPokedexNumToSpecies(num);
     if (natNum)
         name = gSpeciesNames[natNum];
     else
         name = sText_TenDashes2;
     PrintInfoScreenText(1, name, 0x84, 0x19);
+
     if (owned)
     {
         CopyMonCategoryText(num, str2);
@@ -4107,9 +4112,11 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     {
         category = gText_5MarksPokemon;
     }
+
     PrintInfoScreenText(1, category, 0x64, 0x29);
     PrintInfoScreenText(1, gText_HTHeight, 0x60, 0x39);
     PrintInfoScreenText(1, gText_WTWeight, 0x60, 0x49);
+
     if (owned)
     {
         PrintInfoScreenText(1, gText_EmptyHeight, 0x81, 0x39);
@@ -4122,11 +4129,17 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         PrintInfoScreenText(1, gText_UnkHeight, 0x81, 0x39);
         PrintInfoScreenText(1, gText_UnkWeight, 0x81, 0x49);
     }
+
     if (owned)
         description = gPokedexEntries[num].description;
     else
         description = gExpandedPlaceholder_PokedexDescription;
-    PrintInfoScreenText(8, description, GetStringCenterAlignXOffset(8, description, 0xF0), 0x69);
+
+#if MODERN
+    PrintInfoScreenText(1, description, 24, 0x69);
+#else
+    PrintInfoScreenText(8, description, 24, 0x69);
+#endif
 }
 
 static void PrintMonSize(u16 a, u8 left, u8 top)
@@ -5335,24 +5348,24 @@ static void PrintSelectedSearchParameters(u8 taskId)
     ClearSearchMenuRect(40, 16, 96, 80);
 
     searchParamId = gTasks[taskId].tCursorPos_Name + gTasks[taskId].tScrollOffset_Name;
-    PrintSearchText(sDexSearchNameOptions[searchParamId].title, 0x2D, 0x11);
+    PrintSearchText(sDexSearchNameOptions[searchParamId].title, 41, 0x11);
 
     searchParamId = gTasks[taskId].tCursorPos_Color + gTasks[taskId].tScrollOffset_Color;
-    PrintSearchText(sDexSearchColorOptions[searchParamId].title, 0x2D, 0x21);
+    PrintSearchText(sDexSearchColorOptions[searchParamId].title, 41, 0x21);
 
     searchParamId = gTasks[taskId].tCursorPos_TypeLeft + gTasks[taskId].tScrollOffset_TypeLeft;
-    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 0x2D, 0x31);
+    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 41, 0x31);
 
     searchParamId = gTasks[taskId].tCursorPos_TypeRight + gTasks[taskId].tScrollOffset_TypeRight;
-    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 0x5D, 0x31);
+    PrintSearchText(sDexSearchTypeOptions[searchParamId].title, 89, 0x31);
 
     searchParamId = gTasks[taskId].tCursorPos_Order + gTasks[taskId].tScrollOffset_Order;
-    PrintSearchText(sDexOrderOptions[searchParamId].title, 0x2D, 0x41);
+    PrintSearchText(sDexOrderOptions[searchParamId].title, 41, 0x41);
 
     if (IsNationalPokedexEnabled())
     {
         searchParamId = gTasks[taskId].tCursorPos_Mode + gTasks[taskId].tScrollOffset_Mode;
-        PrintSearchText(sDexModeOptions[searchParamId].title, 0x2D, 0x51);
+        PrintSearchText(sDexModeOptions[searchParamId].title, 41, 0x51);
     }
 }
 

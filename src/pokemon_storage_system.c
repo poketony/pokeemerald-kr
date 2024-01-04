@@ -1539,8 +1539,7 @@ static const u16 gHandCursorPalette[] = INCBIN_U16("graphics/pokemon_storage/han
 static const u8 gHandCursorTiles[] = INCBIN_U8("graphics/pokemon_storage/hand_cursor.4bpp");
 static const u8 gHandCursorShadowTiles[] = INCBIN_U8("graphics/pokemon_storage/hand_cursor_shadow.4bpp");
 
-// code
-void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero2, s32 bytesToBuffer)
+void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 textColor, u8 textLeft, s32 bytesToBuffer)
 {
     s32 i, tileBytesToBuffer, remainingBytes;
     u16 windowId;
@@ -1551,17 +1550,14 @@ void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero
     winTemplate.width = 24;
     winTemplate.height = 2;
     windowId = AddWindow(&winTemplate);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(zero2));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
     tileData1 = (u8*) GetWindowAttribute(windowId, WINDOW_TILE_DATA);
     tileData2 = (winTemplate.width * 32) + tileData1;
 
-    if (!zero1)
-        txtColor[0] = TEXT_COLOR_TRANSPARENT;
-    else
-        txtColor[0] = zero2;
+    txtColor[0] = textColor;
     txtColor[1] = TEXT_DYNAMIC_COLOR_6;
     txtColor[2] = TEXT_DYNAMIC_COLOR_5;
-    AddTextPrinterParameterized4(windowId, 1, 0, 1, 0, 0, txtColor, -1, string);
+    AddTextPrinterParameterized4(windowId, 1, textLeft, 1, 0, 0, txtColor, -1, string);
 
     tileBytesToBuffer = bytesToBuffer;
     if (tileBytesToBuffer > 6u)
@@ -1581,7 +1577,7 @@ void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero
 
     // Never used. bytesToBuffer is always passed <= 6, so remainingBytes is always <= 0 here
     if (remainingBytes > 0)
-        CpuFill16((zero2 << 4) | zero2, dst, (u32)(remainingBytes) * 0x100);
+        CpuFill16(0, dst, (u32)(remainingBytes) * 0x100);
 
     RemoveWindow(windowId);
 }
@@ -5521,7 +5517,7 @@ static void sub_80CCB50(u8 boxId)
     sPSSData->field_738 |= 0x10000 << tagIndex;
 
     StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 16);
-    DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, 0, 0, 2);
+    DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, TEXT_COLOR_TRANSPARENT, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     r6 = sub_80CD00C(GetBoxNamePtr(boxId));
 
@@ -5557,7 +5553,7 @@ static void sub_80CCCFC(u8 boxId, s8 direction)
     }
 
     StringCopyPadded(sPSSData->field_21B8, GetBoxNamePtr(boxId), 0, 16);
-    DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, 0, 0, 2);
+    DrawTextWindowAndBufferTiles(sPSSData->field_21B8, sPSSData->field_2F8, TEXT_COLOR_TRANSPARENT, 0, 2);
     LoadSpriteSheet(&spriteSheet);
     LoadPalette(gUnknown_08577574[GetBoxWallpaper(boxId)], r8, 4);
     x = sub_80CD00C(GetBoxNamePtr(boxId));

@@ -1,3 +1,5 @@
+#include "text.h"
+
 #ifndef GUARD_KOREAN_H
 #define GUARD_KOREAN_H
 

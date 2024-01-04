@@ -652,7 +652,7 @@ static void PrintItemDescription(s32 listMenuId)
         desc = gStringVar4;
     }
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    PrintOnWindow_Font1(1, desc, 3, 0, 0, 1, 0, 0);
+    PrintOnWindow_Font1(1, desc, 8, 0, 0, 1, 0, 0);
 }
 
 static void AddScrollArrow(void)

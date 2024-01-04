@@ -2101,12 +2101,14 @@ static void UpdateSafariBallsTextOnHealthbox(u8 healthboxSpriteId)
 
 static void UpdateLeftNoOfBallsTextOnHealthbox(u8 healthboxSpriteId)
 {
-    u8 text[16];
-    u8 *txtPtr;
+    u8 text[24];
+    u8 *txtPtr = text;
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
 
-    txtPtr = ConvertIntToDecimalStringN(text, gNumSafariBalls, STR_CONV_MODE_LEFT_ALIGN, 2);
+    *(txtPtr++) = EXT_CTRL_CODE_BEGIN;
+    *(txtPtr++) = EXT_CTRL_CODE_JPN;
+    txtPtr = ConvertIntToDecimalStringN(txtPtr, gNumSafariBalls, STR_CONV_MODE_LEFT_ALIGN, 2);
     StringAppend(txtPtr, gText_SafariBallLeft);
 
     windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, GetStringRightAlignXOffset(0, text, 0x2F), 3, 2, &windowId);

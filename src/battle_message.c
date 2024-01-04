@@ -1225,7 +1225,7 @@ const u8 * const gStatNamesTable2[] =
 };
 
 const u8 gText_SafariBalls[] = _("{HIGHLIGHT DARK_GREY}사파리볼");
-const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GREY}개 남음$" "{HIGHLIGHT DARK_GREY}");
+const u8 gText_SafariBallLeft[] = _("{HIGHLIGHT DARK_GREY}{ENG}개 남음$" "{HIGHLIGHT DARK_GREY}");
 const u8 gText_Sleep[] = _("잠듦");
 const u8 gText_Poison[] = _("독");
 const u8 gText_Burn[] = _("화상");

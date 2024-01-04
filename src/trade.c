@@ -508,10 +508,16 @@ static void CB2_CreateTradeMenu(void)
         gMain.state++;
         break;
     case 10:
-        DrawTextWindowAndBufferTiles(gSaveBlock2Ptr->playerName, sMessageBoxTileBuffers[0], 0, 0, 3);
+        DrawTextWindowAndBufferTiles(gSaveBlock2Ptr->playerName, sMessageBoxTileBuffers[0], TEXT_COLOR_TRANSPARENT, 0, 3);
         id = GetMultiplayerId();
-        DrawTextWindowAndBufferTiles(gLinkPlayers[id ^ 1].name, sMessageBoxTileBuffers[3], 0, 0, 3);
-        DrawTextWindowAndBufferTiles(sTradeActionTexts[TRADE_TEXT_CANCEL], sMessageBoxTileBuffers[6], 0, 0, 2);
+        DrawTextWindowAndBufferTiles(gLinkPlayers[id ^ 1].name, sMessageBoxTileBuffers[3], TEXT_COLOR_TRANSPARENT, 0, 3);
+        DrawTextWindowAndBufferTiles(
+            sTradeActionTexts[TRADE_TEXT_CANCEL],
+            sMessageBoxTileBuffers[6],
+            TEXT_COLOR_TRANSPARENT,
+            GetStringCenterAlignXOffset(1, sTradeActionTexts[TRADE_TEXT_CANCEL], 34),
+            2
+        );
         DrawTextWindowAndBuffer6Bytes(sTradeActionTexts[TRADE_TEXT_CHOOSE_MON], sMessageBoxTileBuffers[8], 24);
         gMain.state++;
         sTradeMenuData->timer = 0;
@@ -695,10 +701,10 @@ static void CB2_ReturnToTradeMenu(void)
         gMain.state++;
         break;
     case 10:
-        DrawTextWindowAndBufferTiles(gSaveBlock2Ptr->playerName, sMessageBoxTileBuffers[0], 0, 0, 3);
+        DrawTextWindowAndBufferTiles(gSaveBlock2Ptr->playerName, sMessageBoxTileBuffers[0], TEXT_COLOR_TRANSPARENT, 0, 3);
         id = GetMultiplayerId();
-        DrawTextWindowAndBufferTiles(gLinkPlayers[id ^ 1].name, sMessageBoxTileBuffers[3], 0, 0, 3);
-        DrawTextWindowAndBufferTiles(sTradeActionTexts[TRADE_TEXT_CANCEL], sMessageBoxTileBuffers[6], 0, 0, 2);
+        DrawTextWindowAndBufferTiles(gLinkPlayers[id ^ 1].name, sMessageBoxTileBuffers[3], TEXT_COLOR_TRANSPARENT, 0, 3);
+        DrawTextWindowAndBufferTiles(sTradeActionTexts[TRADE_TEXT_CANCEL], sMessageBoxTileBuffers[6], TEXT_COLOR_TRANSPARENT, 0, 2);
         DrawTextWindowAndBuffer6Bytes(sTradeActionTexts[TRADE_TEXT_CHOOSE_MON], sMessageBoxTileBuffers[8], 24);
         gMain.state++;
         sTradeMenuData->timer = 0;
@@ -2182,7 +2188,7 @@ static bool8 LoadTradeMenuSpriteSheetsAndPalettes(void)
 
 static void DrawTextWindowAndBuffer6Bytes(const u8 *str, u8 *dest, u8 unused)
 {
-    DrawTextWindowAndBufferTiles(str, dest, 0, 0, 6);
+    DrawTextWindowAndBufferTiles(str, dest, TEXT_COLOR_TRANSPARENT, 0, 6);
 }
 
 static void SetTradePartyLiveStatuses(u8 whichParty)
