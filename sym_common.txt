@@ -19,7 +19,7 @@ gFonts:
 gUnknown_03002F84:
     .space 1
     .align 4
-gUnknown_03002F90:
+gCurrentGlyph:
     .space 132
     .align 2
 gTextFlags:

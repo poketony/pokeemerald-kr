@@ -135,7 +135,7 @@ u16 Font6Func(struct TextPrinter *textPrinter)
             }
             DecompressGlyphFont6(char_);
             CopyGlyphToWindow(textPrinter);
-            textPrinter->printerTemplate.currentX += gUnknown_03002F90.width + textPrinter->printerTemplate.letterSpacing;
+            textPrinter->printerTemplate.currentX += gCurrentGlyph.width + textPrinter->printerTemplate.letterSpacing;
             return 0;
         case 1:
             if (TextPrinterWait(textPrinter))
@@ -206,12 +206,12 @@ static void DecompressGlyphFont6(u16 glyph)
     const u16 *glyphs;
 
     glyphs = sFont6BrailleGlyphs + 0x100 * (glyph / 8) + 0x10 * (glyph % 8);
-    DecompressGlyphTile(glyphs, (u16 *)gUnknown_03002F90.unk0);
-    DecompressGlyphTile(glyphs + 0x8, (u16 *)(gUnknown_03002F90.unk20));
-    DecompressGlyphTile(glyphs + 0x80, (u16 *)(gUnknown_03002F90.unk40));
-    DecompressGlyphTile(glyphs + 0x88, (u16 *)(gUnknown_03002F90.unk60));
-    gUnknown_03002F90.width = 0x10;
-    gUnknown_03002F90.height = 0x10;
+    DecompressGlyphTile(glyphs, (u16 *)gCurrentGlyph.gfxBufferTop);
+    DecompressGlyphTile(glyphs + 0x8, (u16 *)(gCurrentGlyph.gfxBufferTop + 8));
+    DecompressGlyphTile(glyphs + 0x80, (u16 *)(gCurrentGlyph.gfxBufferBottom));
+    DecompressGlyphTile(glyphs + 0x88, (u16 *)(gCurrentGlyph.gfxBufferBottom + 8));
+    gCurrentGlyph.width = 0x10;
+    gCurrentGlyph.height = 0x10;
 }
 
 u32 GetGlyphWidthFont6(u16 glyphId, bool32 isJapanese)

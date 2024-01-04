@@ -322,6 +322,9 @@ $(FONTGFXDIR)/font6.fwjpnfont: $(FONTGFXDIR)/font6_braille.png
 $(FONTGFXDIR)/font0_korean.latfont: $(FONTGFXDIR)/font0_korean.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/font0_korean_modern.latfont: $(FONTGFXDIR)/font0_korean_modern.png
+	$(GFX) $< $@
+
 $(FONTGFXDIR)/font1_korean.latfont: $(FONTGFXDIR)/font1_korean.png
 	$(GFX) $< $@
 
