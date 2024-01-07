@@ -717,6 +717,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
         CreateCopyrightBanner(START_BANNER_X, 148);
         gTasks[taskId].data[4] = 0;
         gTasks[taskId].func = Task_TitleScreenPhase3;
+        return;
     }
 
     progress = (f32)(LOGO_SLIDE_DURATION - (gTasks[taskId].tCounter - LOGO_DELAY_DURATION)) / LOGO_SLIDE_DURATION;
