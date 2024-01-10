@@ -2,6 +2,11 @@
 
 디컴파일 프로젝트([pokeemerald](https://github.com/pret/pokeemerald)) 기반의 한국어화 프로젝트입니다.
 
+## 사용된 폰트
+
+- 알님의 [에슘길체](https://cafe.naver.com/hansicgu/1996)
+- quiple님의 [갈무리체](https://github.com/quiple/galmuri)
+
 ## 빌드 방법
 
 윈도우 WSL(Ubuntu)을 기준으로 설명합니다.
