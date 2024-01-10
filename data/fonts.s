@@ -78,7 +78,7 @@ gFont2JapaneseGlyphWidths:: @ 86748E4
 	.align 2
 gFont0KoreanGlyphs::
 	.if MODERN
-	.incbin "graphics/fonts/font0_korean_modern.latfont"
+	.incbin "graphics-modern/fonts/font0_korean.latfont"
 	.else
 	.incbin "graphics/fonts/font0_korean.latfont"
 	.endif @ MODERN
@@ -94,7 +94,7 @@ gFont2KoreanGlyphs::
 	.align 2
 gFont7KoreanGlyphs::
 	.if MODERN
-	.incbin "graphics/fonts/font7_korean_modern.latfont"
+	.incbin "graphics-modern/fonts/font7_korean.latfont"
 	.else
 	.incbin "graphics/fonts/font7_korean.latfont"
 	.endif @ MODERN

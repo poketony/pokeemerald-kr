@@ -1,6 +1,7 @@
 CASTFORMGFXDIR := graphics/pokemon/castform
 TILESETGFXDIR := data/tilesets
 FONTGFXDIR := graphics/fonts
+MODERNFONTGFXDIR := graphics-modern/fonts
 INTERFACEGFXDIR := graphics/interface
 BTLANMSPRGFXDIR := graphics/battle_anims/sprites
 UNUSEDGFXDIR := graphics/unused
@@ -322,7 +323,7 @@ $(FONTGFXDIR)/font6.fwjpnfont: $(FONTGFXDIR)/font6_braille.png
 $(FONTGFXDIR)/font0_korean.latfont: $(FONTGFXDIR)/font0_korean.png
 	$(GFX) $< $@
 
-$(FONTGFXDIR)/font0_korean_modern.latfont: $(FONTGFXDIR)/font0_korean_modern.png
+$(MODERNFONTGFXDIR)/font0_korean.latfont: $(MODERNFONTGFXDIR)/font0_korean.png
 	$(GFX) $< $@
 
 $(FONTGFXDIR)/font1_korean.latfont: $(FONTGFXDIR)/font1_korean.png
@@ -334,7 +335,7 @@ $(FONTGFXDIR)/font2_korean.latfont: $(FONTGFXDIR)/font2_korean.png
 $(FONTGFXDIR)/font7_korean.latfont: $(FONTGFXDIR)/font7_korean.png
 	$(GFX) $< $@
 
-$(FONTGFXDIR)/font7_korean_modern.latfont: $(FONTGFXDIR)/font7_korean_modern.png
+$(MODERNFONTGFXDIR)/font7_korean.latfont: $(MODERNFONTGFXDIR)/font7_korean.png
 	$(GFX) $< $@
 
 $(FONTGFXDIR)/font8_korean.latfont: $(FONTGFXDIR)/font8_korean.png
