@@ -76,36 +76,36 @@ AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
 	// それだと ぼくたちには かてないよ!
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-	.string "소영: 어머? 보물을 찾고 있었는데\n"
+	.string "나영: 어머? 보물을 찾고 있었는데\n"
 	.string "트레이너를 발견했네!$"
 	// ナツ『あら? おたから さがしていたのにｎ
 	// トレ-ナ- はっけん しちゃった!
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
-	.string "소영: 강하구나!$"
+	.string "나영: 강하구나!$"
 	// ナツ『つよいんだ!
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
-	.string "소영: 보물은 어디 있을까?\n"
-	.string "찾으면 뭘 살지 정하고 있어!$"
+	.string "나영: 보물은 어디 있을까?\n"
+	.string "찾으면 뭘 살지 고민하고 있어!$"
 	// ナツ『おたから どこかな?ｎ
 	// みつかったら なに かおうか きめてるのよ!
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
-	.string "소영: 어머 포켓몬 2마리가 아니구나?\n"
+	.string "나영: 어머 포켓몬 2마리가 아니구나?\n"
 	.string "그럼 승부는 다음에 해야겠네!$"
 	// ナツ『あら ポケモン 2ひき いないの?ｎ
 	// じゃあ しょうぶは おあずけね!
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-	.string "소영: 정말 완전 짜증나!\n"
+	.string "나영: 정말 완전 짜증나!\n"
 	.string "너 등록해 버릴 거야!$"
 	// ナツ『もう くやしいな!ｎ
 	// あなたなんて とうろく しちゃうんだから!
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
 	.string "중문: 계속 보물을 찾다 보니\n"
-	.string "포켓몬도 강해졌단 말이지-!\p"
+	.string "포켓몬도 강해졌단 말이지-!\l"
 	.string "잠깐 상대해줘$"
 	// フミ『ずっと おたから さがしていてｎ
 	// ポケモンも つよく なったんだよね-!ｌ
@@ -132,7 +132,7 @@ AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
 	// それだと ぼくたちには かてないよ!
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
-	.string "소영: 어머? 또 만났네!\n"
+	.string "나영: 어머? 또 만났네!\n"
 	.string "우리처럼 포기하지 않고\l"
 	.string "보물을 찾고 있나보구나!\p"
 	.string "승부해서 진 쪽이\n"
@@ -144,17 +144,17 @@ AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
 	// あきらめることに しない?
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-	.string "소영: 또 져버렸어...$"
+	.string "나영: 또 져버렸어...$"
 	// ナツ『また まけちゃった……
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
-	.string "소영: 더욱 포켓몬을 키워서\n"
+	.string "나영: 더욱 포켓몬을 키워서\n"
 	.string "보물을 찾을 때까지 안 돌아갈 거야!$"
 	// ナツ『もっと ポケモン そだててｎ
 	// おたから みつけるまで かえらないわよ!
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
-	.string "소영: 어머 포켓몬 2마리가 아니구나?\n"
+	.string "나영: 어머 포켓몬 2마리가 아니구나?\n"
 	.string "그럼 승부는 다음에 해야겠네!$"
 	// ナツ『あら ポケモン 2ひき いないの?ｎ
 	// じゃあ しょうぶは おあずけね!

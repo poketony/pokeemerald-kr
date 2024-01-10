@@ -42,6 +42,6 @@ DewfordTown_House1_Text_LifeGoesSlowlyOnIsland: @ 81FC45B
 	// それだけで しあわせ なんだね
 
 DewfordTown_House1_Text_Zigzagoon: @ 81FC510
-	.string "지그제구리: 킁킁!$"
+	.string "지그제구리: 구구우!$"
 	// ジグザグマ『ぐぐう!
 

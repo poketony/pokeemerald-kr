@@ -385,7 +385,7 @@ DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
 	.string "어둠 속에서 배틀함으로써\n"
 	.string "정신을 단련하고 있어\p"
 	.string "하지만 너무 어두워서\n"
-	.string "철구님의 얼굴을 못 봐...$"
+	.string "철구님의 얼굴이 안 보여...$"
 	// くらやみの なかで たたかうことでｎ
 	// こころを きたえるのｐ
 	// でも まっくら だからｎ

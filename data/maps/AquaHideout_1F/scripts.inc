@@ -102,7 +102,7 @@ AquaHideout_1F_Text_BossIsOnRoute122: @ 8233739
 	.string "리더라면 지금 122번 수로에 있는\n"
 	.string "송화산으로 가고 있어서 여기 없어!\p"
 	.string "...뭐 하러 갔냐고?\n"
-	.string "아하하핫! 그런 중요한 정보를\n"
+	.string "와하하핫! 그런 중요한 정보를\n"
 	.string "알려줄 리가 없잖아!$"
 	// なんだ なんだ!ｎ
 	// おれたち アクアだんに なんの ようだ!ｐ
@@ -132,7 +132,7 @@ AquaHideout_1F_Text_BossIsInSlateportCity: @ 8233884
 	.string "리더라면 지금 잿빛도시로\n"
 	.string "가고 있어서 여기 없어!\p"
 	.string "...뭐 하러 갔냐고?\p"
-	.string "아하하하! 그런 중요한 정보를\n"
+	.string "와하하핫! 그런 중요한 정보를\n"
 	.string "알려줄 리가 없잖아!$"
 	// なんだ なんだ!ｎ
 	// おれたち アクアだんに なんの ようだ!ｐ
@@ -153,7 +153,7 @@ AquaHideout_1F_Text_Grunt1Defeat: @ 8233964
 	// う-む まけちまったか-!
 
 AquaHideout_1F_Text_Grunt1PostBattle: @ 8233977
-	.string "승부는 졌지만\n"
-	.string "나는 임무를 달성한 거다...$"
+	.string "승부에선 졌지만\n"
+	.string "난 임무를 달성한 거다...$"
 	// しょうぶには まけたがｎ
 	// おれは やくめを はたしたのだ……

@@ -154,13 +154,13 @@ AquaHideout_B1F_Text_Grunt3PostBattle:
 	// おれの にんむ だったのさ
 
 AquaHideout_B1F_Text_Grunt5Intro:
-	.string "하-아 아지트를 지키는 것도\n"
-	.string "너무 지루하니까 상대해 줄게-$"
+	.string "하아- 아지트를 지키는 것도\n"
+	.string "너무 지루하니까 상대해줄게-$"
 	// は-あ アジトで るすばんもｎ
 	// たいくつ だから あいて してあげるわ-
 
 AquaHideout_B1F_Text_Grunt5Defeat:
-	.string "하-아 져버렸어-$"
+	.string "하아- 져버렸어-$"
 	// は-あ まけたわ-
 
 AquaHideout_B1F_Text_Grunt5PostBattle:

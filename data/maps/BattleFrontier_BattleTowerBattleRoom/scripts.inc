@@ -454,7 +454,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge:: @ 824220E
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth: @ 8242217
-	.string "포켓몬의 HP 등을\n"
+	.string "포켓몬의 체력을\n"
 	.string "회복시켜 드리겠습니다$"
 	// ポケモンの たいりょくをｎ
 	// かいふくして さしあげます
@@ -505,8 +505,7 @@ BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass: @ 82423CD
 	// フロンティアパスに きろく された!
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame: @ 82423FC
-	.string "리포트를 작성하고\n"
-	.string "중단할까요?$"
+	.string "리포트를 작성하고 종료할까요?$"
 	// レポ-トを かいて しゅうりょう しますか?
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait: @ 8242426

@@ -732,7 +732,7 @@ DewfordTown_Text_SlateportWereSettingSail: @ 81E9D3A
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail: @ 81E9D8F
 	.string "하기: 배를 타야 할 때는\n"
-	.string "언제든지 말을 걸어주게나$"
+	.string "언제든 말을 걸어주게나$"
 	// ハギ『ふねに のる ひつようが あるときはｎ
 	// いつでも こえを かけておくれ
 
@@ -879,7 +879,7 @@ DewfordTown_Text_XHuhIThinkYIsCool: @ 81EA3FE
 	.string "“{STR_VAR_2}”인가...\p"
 	.string "하지만 난\n"
 	.string "“{STR_VAR_1}” 쪽이\l"
-	.string "멋지다고 생각해$"
+	.string "더 멋지다고 생각해$"
 	// ふ-んｎ
 	// 『§う』 か…ｐ
 	// でも ぼくはｎ

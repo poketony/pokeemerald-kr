@@ -11,7 +11,7 @@ AbandonedShip_Corridors_1F_EventScript_Charlie::
 	end
 
 AbandonedShip_Corridors_1F_Text_CharlieIntro:
-	.string "배 안에서\n"
+	.string "배 안에서도\n"
 	.string "튜브를 끼는 게 이상해?$"
 	// ねの なかでもｎ
 	// うきわ もっていたら おかしい?

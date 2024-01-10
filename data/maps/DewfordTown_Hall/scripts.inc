@@ -344,7 +344,7 @@ DewfordTown_Hall_Text_NotEasyToKeepUp: @ 81FDA06
 DewfordTown_Hall_Text_TVShowAboutTrend: @ 81FDA5C
 	.string "“{STR_VAR_1}” 관련\n"
 	.string "TV 방송 같은 건\l"
-	.string "어디 안 하려나...$"
+	.string "어디서 안 하려나...$"
 	// 「§い」のｎ
 	// テレビって いうのはｌ
 	// やってないのかのう……
@@ -379,11 +379,11 @@ DewfordTown_Hall_Text_CollectTrendMerchandise: @ 81FDAC4
 
 DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 	.string "“좋은 ‘{STR_VAR_1}'{K_WAGWA}\n"
-	.string " 나쁜 ‘{STR_VAR_1}'”\p"
+	.string "  나쁜 ‘{STR_VAR_1}'”\p"
 	.string "“‘{STR_VAR_1}'{K_WAGWA}\n"
-	.string " 포켓몬의 관계”\p"
+	.string "  포켓몬의 관계”\p"
 	.string "“도움이 되는\n"
-	.string " ‘{STR_VAR_1}'”\p"
+	.string "  ‘{STR_VAR_1}'”\p"
 	.string "“{STR_VAR_1}”에 대한\n"
 	.string "책이 줄줄이 나열되어 있다!$"
 	// 『よい「§い」とｎ
@@ -397,7 +397,7 @@ DewfordTown_Hall_Text_BooksAboutTrend: @ 81FDB89
 
 DewfordTown_Hall_Text_TrendsScream: @ 81FDC05
 	.string "“‘{STR_VAR_1}'의\n"
-	.string " 외침”\p"
+	.string "  외침”\p"
 	.string "이라는 제목이다!$"
 	// 『「§い」のｎ
 	//  さけび』ｐ
@@ -405,7 +405,7 @@ DewfordTown_Hall_Text_TrendsScream: @ 81FDC05
 
 DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
 	.string "“‘{STR_VAR_1}'의\n"
-	.string " 미소”\p"
+	.string "  미소”\p"
 	.string "라는 제목이다!$"
 	// 『「§い」のｎ
 	//  ほほえみ』ｐ
@@ -413,7 +413,7 @@ DewfordTown_Hall_Text_TrendsSmile: @ 81FDC21
 
 DewfordTown_Hall_Text_LastTrend: @ 81FDC3C
 	.string "“‘{STR_VAR_1}'의\n"
-	.string " 최후”\p"
+	.string "  최후”\p"
 	.string "라는 제목이다!$"
 	// 『さいごのｎ
 	//  「§い」』ｐ
@@ -421,7 +421,7 @@ DewfordTown_Hall_Text_LastTrend: @ 81FDC3C
 
 DewfordTown_Hall_Text_BirthOfTrend: @ 81FDC57
 	.string "“‘{STR_VAR_1}'의\n"
-	.string " 탄생”\p"
+	.string "  탄생”\p"
 	.string "이라는 제목이다!$"
 	// 『「§い」のｎ
 	//  たんじょう』ｐ
@@ -432,7 +432,7 @@ DewfordTown_Hall_Text_SawTrendCoolestThing: @ 81FDC76
 	.string "“{STR_VAR_1}”{K_EULREUL}\n"
 	.string "봤어 부럽지!\p"
 	.string "정말 굉장했어\n"
-	.string "진짜는 역시 다르구나!$"
+	.string "진짜는 역시 다르더라!$"
 	// ぼく さいきん はやりのｐ
 	// 「§い」をｎ
 	// みたんだ いいだろ!ｐ
