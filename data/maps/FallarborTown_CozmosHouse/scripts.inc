@@ -119,7 +119,7 @@ FallarborTown_CozmosHouse_Text_CrushedWithDisappointment: @ 8201212
 	.string "공석박사: 그럴 수가...\n"
 	.string "완전 실망입니다...$"
 	// ソライシ『そんな……ｎ
-	// ものすごく がっかりだよ……$
+	// ものすごく がっかりだよ……
 
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite: @ 8201249
 	.string "공석박사: 그 운석...\n"

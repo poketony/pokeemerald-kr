@@ -53,7 +53,7 @@ FallarborTown_EventScript_MoveTutorSign:: @ 81EB262
 
 FallarborTown_Text_ShadyCharactersCozmosHome: @ 81EB26B
 	.string "뭔가 뭔가!?\p"
-	.string "공석박사의 연구소에\n"
+	.string "공석박사의 집에\n"
 	.string "수상한 사람들이\l"
 	.string "드나들던 것 같은데...$"
 	// なんだ なんだ!?ｐ
