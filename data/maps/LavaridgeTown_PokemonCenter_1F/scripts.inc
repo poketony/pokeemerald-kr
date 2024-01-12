@@ -48,7 +48,7 @@ LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate: @ 81FFBAD
 
 LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo: @ 81FFC21
 	.string "허허허! 젊구먼\n"
-	.string "여기서부터 온천에 갈 수 있단다!\p"
+	.string "여기서 온천에 갈 수 있단다!\p"
 	.string "포켓몬이 여기서 쉰다면\n"
 	.string "사람도 온천에서 푹 쉬어야지!$"
 	// ほっほっほ! おわかいのｎ
