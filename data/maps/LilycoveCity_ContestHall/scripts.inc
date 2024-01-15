@@ -341,7 +341,7 @@ LilycoveCity_ContestHall_Text_TodayWonSmartnessContest: @ 821B74E
 	.string "오늘은 슬기로움 콘테스트에서\l"
 	.string "우승시켰다고!\p"
 	.string "아아 내 재능이 무섭다...$"
-	// つくしさ コンテストでｎ
+	// うつくしさ コンテストでｎ
 	// ゆうしょうした この ポケモンをｌ
 	// きょうは かしこさ コンテストでｌ
 	// ゆうしょう させたんだぜ!ｐ
@@ -370,7 +370,7 @@ LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks: @ 821B899
 	// さっき ゆうしょう した おにいさんｎ
 	// すっごい たくさんの しゅるいのｌ
 	// ポロックを もってた!ｐ
-	// れだけ もってればｎ
+	// あれだけ もってればｎ
 	// ゆうしょう できるのかな?
 
 LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous: @ 821B911
@@ -383,8 +383,8 @@ LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous: @ 821B911
 
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal: @ 821B977
 	.string "사회자: 네에 근사한 포켓몬과\n"
-	.string "트레이너 여러부-운!\l"
-	.string "열심히 해주세요--오!\l"
+	.string "트레이너 여러분-!\l"
+	.string "열심히 해주세요--!\l"
 	.string "렛츠! 어필!!$"
 	// しかい『はあい かしこい ポケモンとｎ
 	// そして トレ-ナ-の みなさ-ん!ｌ
@@ -494,9 +494,9 @@ LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty: @ 821BE16
 	// おもわず さいてんを わすれますよ!
 
 LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty: @ 821BE77
-	.string "이렇게 아름다운 포켓몬\n"
+	.string "이렇게 아름다운 포켓몬은\n"
 	.string "달리 없지\p"
-	.string "모두의 눈을 사로잡아 버릴걸!$"
+	.string "모두의 눈을 사로잡아 버릴 거야!$"
 	// こんなに うつくしい ポケモンｎ
 	// ほかに いないわよ ねえｐ
 	// みんなの めを くぎづけに しちゃうわ!
@@ -506,7 +506,7 @@ LilycoveCity_ContestHall_Text_OverdidGrooming: @ 821BEDE
 	.string "이 콘테스트를 위해서\n"
 	.string "정말 열심히 털을 가꾸었는데\p"
 	.string "너무 가꾸었는지 내 포켓몬\n"
-	.string "부수수해졌어!\p"
+	.string "부스스해졌어!\p"
 	.string "어떡하지...$"
 	// うわ-ん!ｐ
 	// この コンテストの ためにｎ
@@ -538,9 +538,9 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe: @ 821BFE3
 	// あたし なんか へんなこと いったかね?
 
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy: @ 821C07F
-	.string "역시 여성으로서는\p"
-	.string "아름다움콘테스트에서 이기면\n"
-	.string "평소보다 좀 더 기쁘지-!$"
+	.string "역시 여자라서 그런지\p"
+	.string "아름다움콘테스트에서 우승하면\n"
+	.string "평소보다 좀 더 기쁘네-!$"
 	// やっぱり じょせいと してはｐ
 	// うつくしさコンテストで かてるとｎ
 	// いつもより ちょっぴり うれしいのよね-!
@@ -557,8 +557,8 @@ LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon: @ 821C0D8
 
 LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone: @ 821C137
 	.string "그저 아름다운 것만으로는\n"
-	.string "좀처럼 이길 수 없어!\p"
-	.string "내 포켓몬처럼\n"
+	.string "좀처럼 우승할 수 없어!\p"
+	.string "내 포켓몬처럼 털이\n"
 	.string "손질되어 있고 반들반들해야지!$"
 	// ただ うつくしい だけじゃｎ
 	// なかなか かてないわよ!ｐ
@@ -602,14 +602,14 @@ LilycoveCity_ContestHall_Text_NeverWonBattleButContest: @ 821C2BB
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel: @ 821C307
 	.string "내 포켓몬의 우아한\n"
 	.string "꽃잎댄스...\l"
-	.string "누구도 방해하게 두진 않아!$"
+	.string "누구도 방해하게 두지 않겠어!$"
 	// ぼくの ポケモンの かれいなｎ
 	// はなびらのまい……ｌ
 	// だれにも じゃまは させないぞ!
 
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter: @ 821C365
 	.string "어느 포켓몬도\n"
-	.string "정말로 귀엽네\p"
+	.string "정말 귀엽네\p"
 	.string "하지만 내 포켓몬이\n"
 	.string "귀여운 어필을 하면...\p"
 	.string "분명 더 귀여울 거야$"

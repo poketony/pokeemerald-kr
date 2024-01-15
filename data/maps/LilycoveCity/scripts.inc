@@ -457,7 +457,7 @@ LilycoveCity_Text_MayNotRaisingPokemon: @ 81E318D
 
 LilycoveCity_Text_MayBattleMe: @ 81E31F5
 	.string "봄이: 승부해 줄 테니까\n"
-	.string "{PLAYER}의 포켓몬도 보여 줘!$"
+	.string "{PLAYER}의 포켓몬도 보여줘!$"
 	// ハルカ『しょうぶ してあげるからｎ
 	// §あ§おの ポケモン みせてよ!
 
@@ -470,7 +470,7 @@ LilycoveCity_Text_MayWontBeBeaten: @ 81E3234
 	// まけるわけ ないんだから!
 
 LilycoveCity_Text_MayDefeat: @ 81E3275
-	.string "...... ...... ...... ......\p"
+	.string "...... ...... ......\p"
 	.string "103번 도로에서\n"
 	.string "{PLAYER}{K_WAGWA} 승부했던 일이\l"
 	.string "떠올랐어!\p"
@@ -602,7 +602,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot: @ 81E37D7
 	.string "미로마을로 돌아가려고\p"
 	.string "아빠 도와주려고 만들고 있는\n"
 	.string "포켓몬 도감도 꽤 완성돼서\l"
-	.string "아빠한테 한번 보여 줘야 되거든$"
+	.string "아빠한테 한번 보여줘야 되거든$"
 	// ユウキ『オレ……ｎ
 	// ミシロタウンに もどるつもり なんだｐ
 	// とうさんの てつだいで つくっているｎ
