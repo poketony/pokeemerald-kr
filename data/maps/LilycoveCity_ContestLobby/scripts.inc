@@ -1194,7 +1194,7 @@ LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily: @ 821B3FC
 	.string "4명이서 포켓몬스넥을 만들었더니\l"
 	.string "엄청 좋게 나왔어!\p"
 	.string "분명 여럿이서 만들면 만들수록\n"
-	.string "부드럽고 좋은 포켓몬스넥이 나오는 걸 거야$"
+	.string "부드럽고 좋은 포켓몬스넥이 나오는 걸 거야!$"
 	// ママと パパと おねえちゃんとｎ
 	// 4にんで ポロックを つくったらｌ
 	// すごく いいやつが できたんだ!ｐ

@@ -317,7 +317,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude: @ 8219EC5
 
 LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou: @ 8219EED
 	.string "그럼 또 오셨을 때\n"
-	.string "뵙도록 하죠$"
+	.string "드리도록 하죠$"
 	// それでは また いらした ときにｎ
 	// さしあげましょう
 
@@ -352,7 +352,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame: @ 821A06D
 	// みどりいろの かざりが ついた がくぶちだ!
 
 LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon: @ 821A0A1
-	.string "포켓몬의 그림이 장식되어 있다!$"
+	.string "포켓몬 그림이 장식되어 있다!$"
 	// ポケモンの えが かざってある!
 
 LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe: @ 821A0BD

@@ -1611,9 +1611,9 @@ LilycoveCity_ContestLobby_Text_ConfirmContestMon: @ 827B5C4
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4: @ 827B5E2
 	.string "그럼 손님의 포켓몬을\n"
-	.string "참가시킵니다!\p"
-	.string "참가 번호는\n"
-	.string "4번입니다!\p"
+	.string "참가시킵니다!\l"
+	.string "참가 번호는\l"
+	.string "4번입니다!\l"
 	.string "콘테스트가 곧 시작됩니다!$"
 	// それでは おきゃくさまの ポケモンをｎ
 	// エントリ- します!ｌ
@@ -1799,7 +1799,7 @@ LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain: @ 827BFD2
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX: @ 827BFF8
 	.string "그럼 손님의 포켓몬을\n"
 	.string "참가시킵니다!\p"
-	.string "참가 번호는\n"
+	.string "손님의 참가 번호는\n"
 	.string "{STR_VAR_2}번입니다!$"
 	// それでは おきゃくさまの ポケモンをｎ
 	// エントリ- します!ｐ

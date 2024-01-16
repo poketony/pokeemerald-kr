@@ -72,7 +72,7 @@ LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance: @ 821FD3B
 	.string "자라주었으면 하는데 말이지\p"
 	.string "사포닌으로 방어력을 올릴지\n"
 	.string "키토산으로 특수방어를 올릴지\l"
-	.string "지금 막 고민하는 중이라네$"
+	.string "지금 고민하는 중이라네$"
 	// じょうぶな ポケモンにｎ
 	// なって ほしいからねｐ
 	// ブロムヘキシンで ぼうぎょりょくを あげるかｎ

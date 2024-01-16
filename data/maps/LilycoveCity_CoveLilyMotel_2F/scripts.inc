@@ -133,7 +133,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart: @ 8218A21
 
 LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy: @ 8218A5B
 	.string "언제 어디서 대전이나 승부를\n"
-	.string "받을지 모르니까\l"
+	.string "도전받을지 모르니까\l"
 	.string "게임보이 어드밴스는 놓고 나갈 수 없지!$"
 	// いつ どこで たいせんや しょうぶをｎ
 	// いどまれるか わからないからなｌ

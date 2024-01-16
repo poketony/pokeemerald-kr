@@ -868,7 +868,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe: @ 821D857
 	.string "{STR_VAR_1}씨는 정말\n"
 	.string "멋지지...\p"
 	.string "나 혼자가 되어도\n"
-	.string "쭉 응원할 거야-!$"
+	.string "계속 응원할 거야-!$"
 	// §いさん って ほんとうにｎ
 	// かっこいい よねぇ……ｐ
 	// わたし ひとりに なってもｎ
@@ -1005,7 +1005,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation: @
 	// つぎの たいせんが たのしみだわ!
 
 LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout: @ 821DD36
-	.string "최근의 트레이너는\n"
+	.string "최근 잘 나가는 트레이너는\n"
 	.string "역시 {STR_VAR_1}{K_I}지!\l"
 	.string "그 강함은 보통이 아니야\p"
 	.string "당신도 잘하지만\n"

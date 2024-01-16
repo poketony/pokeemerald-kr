@@ -54,12 +54,12 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs: @ 821FE44
 	end
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM: @ 821FE50
-	.string "음...\p"
+	.string "으음...\p"
 	.string "공격의 기술인가...\n"
 	.string "방어의 기술인가...\p"
 	.string "어떤 기술머신을\n"
 	.string "포켓몬에게 배우게 할지 고민되는군...$"
-	// むむ……ｐ
+	// うむむ……ｐ
 	// こうげきの わざ か……ｎ
 	// まもりの わざ か……ｐ
 	// どの わざマシンをｎ

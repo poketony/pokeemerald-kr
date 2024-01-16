@@ -577,7 +577,7 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast: @ 821E6EA
 	step_end
 
 LilycoveCity_Harbor_Text_FerryUnavailable: @ 821E6F1
-	.string "에? 배 말입니까?\p"
+	.string "네? 배 말입니까?\p"
 	.string "죄송합니다만 현재\n"
 	.string "연락선은 없습니다...$"
 	// えっ? ふね ですか?ｐ
