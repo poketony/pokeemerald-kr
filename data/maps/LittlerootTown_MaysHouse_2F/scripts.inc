@@ -331,7 +331,7 @@ LittlerootTown_MaysHouse_2F_EventScript_TurnOffPlayerPC:: @ 81F958F
 
 RivalsHouse_2F_Text_MayWhoAreYou: @ 81F959C
 	.string "에...!?\n"
-	.string "너 누... 구야?\p"
+	.string "너 누...구야?\p"
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
 	.string "네가 {PLAYER}...\n"

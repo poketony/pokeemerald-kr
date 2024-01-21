@@ -248,7 +248,7 @@ MeteorFalls_1F_1R_Text_WithThisMeteorite: @ 822BF47
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma: @ 822BF84
 	.string "우효?\p"
 	.string "네가 누군지는 모르겠지만\n"
-	.string "마그마단의 방해를 한다면\l"
+	.string "마그마단을 방해하겠다면\l"
 	.string "용서하지 않겠다!$"
 	// ウヒョ?ｐ
 	// だれだか しらないがｎ

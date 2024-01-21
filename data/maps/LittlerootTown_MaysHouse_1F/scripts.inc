@@ -343,7 +343,7 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor: @ 81F8BC5
 	.string "{STR_VAR_1}이 있단다!\p"
 	.string "“새 친구가 생기겠네!”\n"
 	.string "라고 하면서\l"
-	.string "무척 기대하고 있었어!\p"
+	.string "무척 기대하고 있었어!$"
 	// え-と どなた かしら?ｐ
 	// …… …… ……ｎ
 	// …… …… ……ｐ

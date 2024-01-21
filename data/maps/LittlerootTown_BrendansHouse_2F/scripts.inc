@@ -296,7 +296,7 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom: @ 81F869A
 	.string "엄마: {PLAYER}{K_AYA}\n"
 	.string "새 방은 어때?\p"
 	.string "응! 깔끔하게 정리되어 있네!\n"
-	.string "아래도 이미 정리가 끝났단다\l"
+	.string "아래도 이제 정리가 끝났단다\l"
 	.string "포켓몬들이 도와주니까 정말 편해!\p"
 	.string "맞다! 책상 위의 물건들이\n"
 	.string "문제없는지 한번 확인해보렴$"

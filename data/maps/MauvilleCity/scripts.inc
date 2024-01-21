@@ -799,7 +799,7 @@ MauvilleCity_Text_ExplainTV: @ 81E056A
 	.string "TV 확인하고 있니?\p"
 	.string "최근 재미있는\n"
 	.string "방송이 갑자기 늘어났어!\p"
-	.string "TV는 참 좋지\p"
+	.string "TV는 참 좋지\n"
 	.string "갑자기 친구가\l"
 	.string "소개되거나\p"
 	.string "모르는 새에 자기가\n"

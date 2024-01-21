@@ -810,8 +810,8 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor: @ 8210830
 	// おねえさんに いってみたら どうだ?
 
 MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins: @ 82108A0
-	.string "오늘은 계속 이겨서 말이야!\n"
-	.string "너에게도 동전을 나눠주도록 하지!$"
+	.string "오늘은 계속 이겼단 말이지!\n"
+	.string "네게도 동전을 나눠주마!$"
 	// きょうは かちまくって いるからな!ｎ
 	// きみにも コインを わけて あげよう!
 

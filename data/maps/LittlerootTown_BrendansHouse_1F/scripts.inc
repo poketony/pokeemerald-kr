@@ -331,7 +331,7 @@ PlayersHouse_1F_Text_ArentYouInterestedInRoom: @ 81F7B24
 
 PlayersHouse_1F_Text_GoSetTheClock: @ 81F7B67
 	.string "엄마: {PLAYER}{K_AYA}\n"
-	.string "방 안에 있는 시계 맞춰두렴$"
+	.string "방 안에 있는 시계 맞춰 두렴$"
 	// ママ『§あｐ
 	// おへやの とけい あわせてきて
 

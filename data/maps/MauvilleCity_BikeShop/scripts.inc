@@ -209,7 +209,7 @@ MauvilleCity_BikeShop_Text_GuessYouDontNeedBike: @ 820EEE8
 	// ひつよう なさそうだね
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne: @ 820EF32
-	.string "카제노: 흠흠...\n"
+	.string "카제노: 흠흠...\p"
 	.string "뭐라고 미로마을에서 이곳까지!?\n"
 	.string "굉장히 먼 곳이잖아!\p"
 	.string "내 자전거가 있으면\n"

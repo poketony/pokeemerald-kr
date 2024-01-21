@@ -1029,7 +1029,7 @@ LittlerootTown_Text_ExplainRunningShoes:
 	// 「ランニングシュ-ズはｎ
 	// Bボタンを おすことで いままでよりもｌ
 	// はやく はしれるように なります!ｐ
-	// ランニングシュ-ズを はいてｎ//
+	// ランニングシュ-ズを はいてｎ
 	// おもいっきり そとを はしろう!」
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:

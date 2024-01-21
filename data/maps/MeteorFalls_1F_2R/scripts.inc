@@ -67,7 +67,7 @@ MeteorFalls_1F_2R_Text_NicolasIntro: @ 822C608
 	.string "여기는 우리들\n"
 	.string "드래곤 조련사들이 수행하는 곳!\p"
 	.string "챔피언도 찾아오는 곳이라고 하면\n"
-	.string "그 대단함을 이해하겠지?$"
+	.string "그 대단함을 알 수 있겠지!?$"
 	// ここは オレたちｎ
 	// ドラゴンつかいの しゅぎょうの ばしょ!ｐ
 	// チャンピオンも くる ばしょ といったらｎ
@@ -150,7 +150,7 @@ MeteorFalls_1F_2R_Text_JohnNotEnoughMons: @ 822C92B
 	// ポケモンを もっと つれてきなされ
 
 MeteorFalls_1F_2R_Text_JohnRegister: @ 822C99C
-	.string "현이: 혈기 왕성한 트레이너씨...\n"
+	.string "현이: 혈기 왕성한 트레이너분...\n"
 	.string "다시 기회가 생기면\l"
 	.string "우리와 배틀해주지 않겠나$"
 	// ゲン『わかい トレ-ナ-さん……ｎ
@@ -181,9 +181,9 @@ MeteorFalls_1F_2R_Text_JayPostBattle: @ 822CA70
 
 MeteorFalls_1F_2R_Text_JayNotEnoughMons: @ 822CACD
 	.string "초: 이런이런\n"
-	.string "혈기가 왕성한 트레이너님이구먼\p"
+	.string "혈기가 왕성한 트레이너님이군요\p"
 	.string "우리와 승부하려면\n"
-	.string "포켓몬을 더 데려오거라$"
+	.string "포켓몬을 더 데려오시지요$"
 	// ハツ『おやおやｎ
 	// わかい トレ-ナ-さん ですねえｐ
 	// わしらと しょうぶ してくれるのならｎ
@@ -247,9 +247,9 @@ MeteorFalls_1F_2R_Text_JayPostRematch: @ 822CD34
 
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons: @ 822CDAB
 	.string "초: 이런이런\n"
-	.string "혈기가 왕성한 트레이너님이구먼\p"
+	.string "혈기가 왕성한 트레이너님이군요\p"
 	.string "우리와 승부하려면\n"
-	.string "포켓몬을 더 데려오거라$"
+	.string "포켓몬을 더 데려오시지요$"
 	// ハツ『おやおやｎ
 	// わかい トレ-ナ-さん ですねえｐ
 	// わしらと しょうぶ してくれるのならｎ
