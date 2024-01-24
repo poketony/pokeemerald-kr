@@ -42,7 +42,7 @@ MossdeepCity_House4_EventScript_Skitty:: @ 8222E1E
 
 MossdeepCity_House4_Text_BrotherLikesToFindBases: @ 8222E31
 	.string "동생 말이야\n"
-	.string "사람들의 비밀기지를 찾아보는 게\l"
+	.string "사람들의 비밀기지를 찾는 게\l"
 	.string "즐겁대!$"
 	// おとうと ったらｎ
 	// ひとの ひみつきちを さがすのがｌ

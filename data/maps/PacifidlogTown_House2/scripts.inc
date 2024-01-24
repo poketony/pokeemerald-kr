@@ -165,7 +165,7 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays: @ 8203AF4
 
 PacifidlogTown_House2_Text_Rurii: @ 8203B8D
 	.string "루리리: 루리-$"
-	// ルリリ『るり-$
+	// ルリリ『るり-
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer: @ 8203B9D
 	.string "굉장히 따르고 있는 듯하다$"

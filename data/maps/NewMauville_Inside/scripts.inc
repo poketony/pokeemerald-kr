@@ -264,7 +264,7 @@ NewMauville_Inside_Text_GeneratorRadiatingHeat: @ 8237896
 	.string "열기가 전해져 온다!\p"
 	.string "빨리 멈추는 편이 좋을 것 같다$"
 	// はつでんそうちに ちかづいた だけでｎ
-	/// ねっきが つたわってくる!ｐ
+	// ねっきが つたわってくる!ｐ
 	// はやく とめたほうが よさそうだ
 
 NewMauville_Inside_Text_GeneratorQuietedDown: @ 8237916
@@ -278,7 +278,7 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped: @ 8237932
 	.string "...... ...... ......\n"
 	.string "...... ...... ......\p"
 	.string "발전장치는\n"
-	.string "멈춘 듯하다$"
+	.string "멈춘 모양이다$"
 	// §あはｎ
 	// スイッチを ふんだ!ｐ
 	// ……ポチッとな!ｐ

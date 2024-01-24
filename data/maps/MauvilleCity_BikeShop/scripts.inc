@@ -322,7 +322,7 @@ MauvilleCity_BikeShop_Text_HandbooksAreInBack: @ 820F3C3
 	.string "자전거 타는 방법 중에\n"
 	.string "잘 모르는 것이 있으면\p"
 	.string "안쪽 방에 설명서가 있으니까\n"
-	.string "그걸 읽어보는 게 좋아!$"
+	.string "그걸 읽어보면 좋을 거야!$"
 	// ぼくは ここで はたらき ながらｎ
 	// じてんしゃの べんきょうを してるんだｐ
 	// じてんしゃの のりかたでｎ

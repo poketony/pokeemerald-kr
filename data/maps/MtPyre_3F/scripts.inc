@@ -35,7 +35,7 @@ MtPyre_3F_EventScript_RematchGabrielle:: @ 82317CC
 
 MtPyre_3F_Text_WilliamIntro: @ 82317E3
 	.string "영험하고 신통한 산의 힘으로\n"
-	.string "사이코 파워가 업된 나를\l"
+	.string "사이코 파워가 업한 나를\l"
 	.string "어린애인 네가 이길 수 있을까!?$"
 	// れいげん あらたかな やまの ちからでｎ
 	// サイコパワ-の アップした わたしにｌ
@@ -46,7 +46,7 @@ MtPyre_3F_Text_WilliamDefeat: @ 8231853
 	// アップ アップ……
 
 MtPyre_3F_Text_WilliamPostBattle: @ 8231869
-	.string "나의 사이코 파워는 확실히\n"
+	.string "나의 사이코 파워는 분명히\n"
 	.string "강해졌을 텐데...$"
 	// わたしの サイコパワ-は かくじつにｎ
 	// つよく なっている はずなのに……
