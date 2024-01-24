@@ -102,7 +102,7 @@ PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing: @ 820444D
 	// ミツルは どうしてるかなあ……
 
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs: @ 820446E
-	.string "안녕 {PLAYER}{K_AYA}!\n"
+	.string "{PLAYER}{K_AYA}!\p"
 	.string "무리하게 불러내서 미안하구나!\p"
 	.string "민진이는 잔디마을에 가고 나서\n"
 	.string "훨씬 건강해졌단다!\p"

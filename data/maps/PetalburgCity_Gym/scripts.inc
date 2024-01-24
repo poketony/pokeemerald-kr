@@ -1327,12 +1327,12 @@ PetalburgCity_Gym_Text_WallyOhWowThankYou: @ 8205AF4
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe: @ 8205B0F
 	.string "{PLAYER}님...\n"
-    .string "저랑 같이 가주실 거죠$"
+    .string "저랑 같이 가주실 거죠?$"
 	// §あさん……ｎ
 	// ぼくと いっしょに きてくれますよね
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut: @ 8205B32
-	.string "아빠: 잘 됐니?$"
+	.string "아빠: 잘 잡고 왔니?$"
 	// パパ『うまく いったかい?
 
 PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
@@ -1540,11 +1540,11 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer: @ 82063CA
 	// ちょっと おかりして いくよ!
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining: @ 8206417
-	.string "아빠: {PLAYER}{K_AYA}! 가끔은 엄마를\n"
+	.string "아빠: {PLAYER}{K_AYA}! 가끔은 엄마도\n"
 	.string "만나러 가도록 하렴!\p"
 	.string "나는 여기서\n"
 	.string "스스로를 단련할 거란다!\p"
-	.string "{PLAYER}에게 진 채로는\n"
+	.string "{PLAYER} 너에게 진 채로는\n"
 	.string "트레이너로서 분하니까 말이야$"
 	// パパ『§あ! たまには ママにもｎ
 	// あいに いって あげるんだぞ!ｐ
@@ -1786,7 +1786,7 @@ PetalburgCity_Gym_Text_AlexiaDefeat: @ 8206F82
 	// まもりきれなかった……
 
 PetalburgCity_Gym_Text_AlexiaPostBattle: @ 8206F9F
-	.string "너에게는 소중한 무언가를\n"
+	.string "너에게는 중요한 무언가를\n"
 	.string "배운 거 같아...\p"
 	.string "자 계속 나아가봐!\n"
 	.string "왼쪽은 힘의 방\l"

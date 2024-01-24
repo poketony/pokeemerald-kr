@@ -381,7 +381,7 @@ PetalburgWoods_Text_YouveGotSomeNerve: @ 822E563
 	.string "...라고 하고 싶지만\n"
 	.string "더 이상 지닌 포켓몬이 없어\p"
 	.string "게다가 금탄도시에도 아쿠아단이\n"
-	.string "노리고 있는 게 있으니까!\p"
+	.string "노리고 있는 게 있거든!\p"
 	.string "오늘은 이 정도로 봐준다!$"
 	// むむむ…… アクアだんのｎ
 	// じゃまを するとは なんて やつ!ｌ

@@ -70,7 +70,7 @@ PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem: @ 8207A76
 
 PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP: @ 8207AD6
 	.string "포켓몬한테 오랭열매를 먹였더니\n"
-	.string "체력을 회복했다고!$"
+	.string "체력을 회복했어!$"
 	// ポケモンに オレンのみ を たべさせたらｎ
 	// たいりょくが かいふく したんだぜ!
 
