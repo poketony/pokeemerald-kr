@@ -864,13 +864,13 @@ gText_SelectWithoutRegisteredItem:: @ 8272C98
 	.string "편리 버튼에 등록할 수 있습니다$"
 
 gText_PokemonTrainerSchoolEmail:: @ 8272CD5
-	.string "트레이너스쿨에서 온 메일이다!\p"
+	.string "PC에\n"
+	.string "포켓몬 트레이너 강좌의\l"
+	.string "메일이 와 있다!\p"
 	.string "...... ...... ......\p"
-	.string "“포켓몬이\n"
-	.string "  배울 수 있는 기술은 4개!\p"
-	.string "  어떤 기술을 배우게 하는가로\n"
-	.string "  트레이너의 실력이\l"
-	.string "  시험받게 됩니다!”\p"
+	.string "포켓몬이 배울 수 있는 기술은 4개!\p"
+	.string "어떤 기술을 배우게 하는가로\n"
+	.string "트레이너의 실력이 시험받게 됩니다!\p"
 	.string "...... ...... ......$"
 
 gText_PlayerHouseBootPC:: @ 8272D87
