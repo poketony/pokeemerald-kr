@@ -1374,7 +1374,7 @@ void BagMenu_SwapItems(u8 taskId)
     CopyItemName(BagGetItemIdByPocketPosition(gBagPositionStruct.pocket + 1, data[1]), gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+    BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
     sub_80D4FEC(data[1]);
     BagDestroyPocketSwitchArrowPair();
     BagMenu_PrintCursor_(data[0], 2);
@@ -1586,7 +1586,7 @@ void OpenContextMenu(u8 unused)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);
         FillWindowPixelBuffer(1, PIXEL_FILL(0));
-        BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+        BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
     }
     if (gBagMenu->contextMenuNumItems == 1)
         sub_81ACAF8(BagMenu_AddWindow(0));
@@ -1751,7 +1751,7 @@ void ItemMenu_Toss(u8 taskId)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_TossHowManyVar1s);
         FillWindowPixelBuffer(1, PIXEL_FILL(0));
-        BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+        BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
         sub_81ABC3C(7);
         gTasks[taskId].func = Task_ChooseHowManyToToss;
     }
@@ -1765,7 +1765,7 @@ void BagMenu_TossItems(u8 taskId)
     ConvertIntToDecimalStringN(gStringVar2, tItemCount, STR_CONV_MODE_LEFT_ALIGN, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_ConfirmTossItems);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+    BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
     BagMenu_YesNo(taskId, 5, &sYesNoTossFunctions);
 }
 
@@ -1808,7 +1808,7 @@ void BagMenu_ConfirmToss(u8 taskId)
     ConvertIntToDecimalStringN(gStringVar2, tItemCount, STR_CONV_MODE_LEFT_ALIGN, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_ThrewAwayVar2Var1s);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+    BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
     gTasks[taskId].func = Task_ActuallyToss;
 }
 
@@ -2130,7 +2130,7 @@ void Task_ItemContext_Deposit(u8 taskId)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_DepositHowManyVar1);
         FillWindowPixelBuffer(1, PIXEL_FILL(0));
-        BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+        BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
         sub_81ABC3C(7);
         gTasks[taskId].func = Task_ChooseHowManyToDeposit;
     }
@@ -2175,7 +2175,7 @@ static void BagMenu_TryDepositItem(u8 taskId)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, tItemCount, STR_CONV_MODE_LEFT_ALIGN, MAX_ITEM_DIGITS);
         StringExpandPlaceholders(gStringVar4, gText_DepositedVar2Var1s);
-        BagMenu_Print(1, 1, gStringVar4, 3, 1, 0, 0, 0, 0);
+        BagMenu_Print(1, 1, gStringVar4, 8, 1, 0, 0, 0, 0);
         gTasks[taskId].func = Task_ActuallyToss;
     }
     else

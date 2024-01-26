@@ -912,7 +912,7 @@ static void sub_81C5D20(u8 taskId)
     CopyItemName(gSpecialVar_ItemId, gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    PrintOnWindow_Font1(1, gStringVar4, 3, 0, 0, 1, 0, 0);
+    PrintOnWindow_Font1(1, gStringVar4, 8, 0, 0, 1, 0, 0);
     if (gPyramidBagResources->menuActionsCount == 1)
         sub_81C5EAC(sub_81C6D24(0));
     else if (gPyramidBagResources->menuActionsCount == 2)
@@ -1087,7 +1087,7 @@ static void BagAction_Toss(u8 taskId)
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gText_TossHowManyVar1s);
         FillWindowPixelBuffer(1, PIXEL_FILL(0));
-        PrintOnWindow_Font1(1, gStringVar4, 3, 0, 0, 1, 0, 0);
+        PrintOnWindow_Font1(1, gStringVar4, 8, 0, 0, 1, 0, 0);
         sub_81C6404();
         gTasks[taskId].func = sub_81C64B4;
     }
@@ -1101,7 +1101,7 @@ static void sub_81C6350(u8 taskId)
     ConvertIntToDecimalStringN(gStringVar2, data[8], STR_CONV_MODE_LEFT_ALIGN, 2);
     StringExpandPlaceholders(gStringVar4, gText_ConfirmTossItems);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    PrintOnWindow_Font1(1, gStringVar4, 3, 0, 0, 1, 0, 0);
+    PrintOnWindow_Font1(1, gStringVar4, 8, 0, 0, 1, 0, 0);
     sub_81C6DAC(taskId, &sYesNoTossFuncions);
 }
 
@@ -1169,7 +1169,7 @@ static void TossItem(u8 taskId)
     ConvertIntToDecimalStringN(gStringVar2, data[8], STR_CONV_MODE_LEFT_ALIGN, 2);
     StringExpandPlaceholders(gStringVar4, gText_ThrewAwayVar2Var1s);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    PrintOnWindow_Font1(1, gStringVar4, 3, 0, 0, 1, 0, 0);
+    PrintOnWindow_Font1(1, gStringVar4, 8, 0, 0, 1, 0, 0);
     gTasks[taskId].func = sub_81C65CC;
 }
 
@@ -1266,7 +1266,7 @@ static void Task_BeginItemSwap(u8 taskId)
     CopyItemName(gSaveBlock2Ptr->frontier.pyramidBag.itemId[gSaveBlock2Ptr->frontier.lvlMode][data[1]], gStringVar1);
     StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);
     FillWindowPixelBuffer(1, PIXEL_FILL(0));
-    PrintOnWindow_Font1(1, gStringVar4, 3, 0, 0, 1, 0, 0);
+    PrintOnWindow_Font1(1, gStringVar4, 8, 0, 0, 1, 0, 0);
     sub_81C5A98(data[0], 1);
     sub_81C704C(data[1]);
     gTasks[taskId].func = Task_ItemSwapHandleInput;
