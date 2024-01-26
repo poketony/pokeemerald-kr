@@ -1948,7 +1948,7 @@ static u8 AppendCaughtBannedMonSpeciesName(u16 species, u8 count, s32 numBannedM
                 StringAppend(gStringVar1, gText_CommaSpace);
             break;
         case 2:
-                StringAppend(gStringVar1, gText_CommaSpace);
+            StringAppend(gStringVar1, gText_CommaSpace);
             StringAppend(gStringVar1, gText_NewLine);
             break;
         default:

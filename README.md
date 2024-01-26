@@ -4,7 +4,7 @@
 
 ## 사용된 폰트
 
-- 알님의 [에슘길체](https://cafe.naver.com/hansicgu/1996)
+- 에슘, 알님의 [7x11 길체](https://cafe.naver.com/hansicgu/1996)
 - quiple님의 [갈무리체](https://github.com/quiple/galmuri)
 
 ## 빌드 방법
@@ -51,9 +51,6 @@ sudo apt install libpng-dev
 
 ```sh
 git clone https://github.com/pret/agbcc
-
-# 추후에 컴파일러가 호환되지 않을 경우 아래 명령어를 추가로 실행해주세요.
-git checkout bfa92a1c98ce039a7df833beefa612fea65d3874
 ```
 
 (2) 명령어를 입력하면 컴파일러 빌드가 진행됩니다.  
@@ -61,6 +58,10 @@ git checkout bfa92a1c98ce039a7df833beefa612fea65d3874
 
 ```sh
 cd agbcc
+
+# 컴파일러가 호환되지 않을 경우 실행해주세요.
+git checkout bfa92a1c98ce039a7df833beefa612fea65d3874
+
 ./build.sh
 ```
 
