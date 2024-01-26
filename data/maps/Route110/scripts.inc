@@ -947,14 +947,14 @@ Route110_Text_TwoRoads: @ 81F0261
 	// これもあり なのかも しれんのう
 
 Route110_Text_WalkOnTheLowRoad: @ 81F02CA
-	.string "난 자전거가 없어서 말이지\n"
+	.string "난 자전거가 없으니까\n"
 	.string "아래쪽 길을 느긋하게 걸어갈 거야$"
 	// あたしは じてんしゃ もってない からねえｎ
 	// したの みちを のんびり あるいて いくよ
 
 Route110_Text_BikeTechniques: @ 81F030E
 	.string "여러 테크닉을 배우면\n"
-	.string "더욱 자전거가 즐거워질 거야!\p"
+	.string "더욱 자전거를 즐겁게 탈 수 있을 거야!\p"
 	.string "테크닉을 안 쓰면\n"
 	.string "지나갈 수 없는 장소도 있어!$"
 	// いろんな テクニックを おぼえるとｎ
@@ -972,9 +972,9 @@ Route110_Text_WhichShouldIChoose: @ 81F0390
 
 Route110_Text_CyclingChallengeResultSummary: @ 81F03FF
 	.string "부딪힌 횟수\n"
-	.string " ... {STR_VAR_1}!\p"
+	.string " ...... {STR_VAR_1}!\p"
 	.string "걸린 타임\n"
-	.string " ... {STR_VAR_2}!$"
+	.string " ...... {STR_VAR_2}!$"
 	// ぶつかった かいすうｎ
 	//  …… §い!ｐ
 	// かかった タイムｎ
@@ -1006,7 +1006,7 @@ Route110_Text_ChallengeReactionOk: @ 81F0500
 
 Route110_Text_ChallengeReactionBad: @ 81F0567
 	.string "이봐 이봐 뭔가\n"
-	.string "아슬아슬한 운전을 하고 있네\l"
+	.string "아슬아슬하게 운전하고 있잖아\l"
 	.string "좀 더 연습하라고$"
 	// おいおい なんだかｎ
 	// あぶなっかしい うんてん してるなあｌ
@@ -1042,8 +1042,8 @@ Route110_Text_AcroBikesDoNotQualify: @ 81F0755
 	.string "이 사이클링 로드에서는\n"
 	.string "마하자전거로 달려나가는\l"
 	.string "레이서의 부딪힌 횟수와\l"
-	.string "걸린 타임을 재고 있어!\p"
-	.string "더트자전거라면 꺾이기 쉬우니까\n"
+	.string "걸린 타임을 재고 있지!\p"
+	.string "더트자전거라면 꺾기 쉬우니까\n"
 	.string "기록을 잴 수 없어!$"
 	// この サイクリング ロ-ドではｎ
 	// マッハじてんしゃ で はしりぬけたｌ
@@ -1121,9 +1121,9 @@ Route110_Text_TrickHouseSign: @ 81F09DB
 Route110_Text_BestRecord: @ 81F0A1E
 	.string "지금까지의 최고 기록...\p"
 	.string "부딪힌 횟수\n"
-	.string " ... {STR_VAR_1}!\p"
+	.string " ...... {STR_VAR_1}!\p"
 	.string "걸린 타임\n"
-	.string " ... {STR_VAR_2}!!$"
+	.string " ...... {STR_VAR_2}!$"
 	// いままでの さいこう きろく……ｐ
 	// ぶつかった かいすうｎ
 	//  …… §い!ｐ

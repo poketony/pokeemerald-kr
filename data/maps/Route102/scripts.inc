@@ -114,7 +114,7 @@ Route102_Text_ImNotVeryTall: @ 81EC2C0
 	// ぶわっくしょ-ん!
 
 Route102_Text_CatchWholeBunchOfPokemon: @ 81EC32E
-	.string "포켓몬 잔뜩 잡아야-지!$"
+	.string "포켓몬 잔뜩 잡아야지-!$"
 	// ポケモン たくさん つかまえよ-っと!
 
 Route102_Text_RouteSignOldale: @ 81EC35B

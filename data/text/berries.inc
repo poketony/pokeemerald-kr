@@ -41,8 +41,8 @@ Route111_Text_WateredPlantsEveryDayTakeBerry:
 	// これ あげる
 
 Route111_Text_GoingToTryToMakeDifferentColorBerries:
-	.string "더욱더 열심히 해서\n"
-	.string "빨강포켓몬스넥 만들 거야!\l"
+	.string "열심히 해서 다양한 색의\n"
+	.string "나무열매를 키울 거야!\l"
 	.string "{K_GIRL_CALL}도 힘내!$"
 	// がんばって いろんな いろのｎ
 	// きのみを そだてるんだ!ｌ
