@@ -6276,6 +6276,8 @@ u16 GetBattleBGM(void)
             trainerClass = GetFrontierOpponentClass(gTrainerBattleOpponent_A);
         else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER_HILL)
             trainerClass = TRAINER_CLASS_EXPERT;
+        else if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
+            return MUS_VS_TRAINER;
         else
             trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
 
