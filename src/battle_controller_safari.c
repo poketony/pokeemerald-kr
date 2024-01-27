@@ -168,6 +168,26 @@ static void SafariBufferRunCommand(void)
     }
 }
 
+static void SafariActionSelectionDestroyCursorAt(u8 cursorPosition)
+{
+    u16 src[2];
+    src[0] = 0x1016;
+    src[1] = 0x1016;
+
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 5 * (cursorPosition & 1) + 18, 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyBgTilemapBufferToVram(0);
+}
+
+static void SafariActionSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
+{
+    u16 src[2];
+    src[0] = 1;
+    src[1] = 2;
+
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 5 * (cursorPosition & 1) + 18, 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyBgTilemapBufferToVram(0);
+}
+
 static void HandleInputChooseAction(void)
 {
     if (JOY_NEW(A_BUTTON))
@@ -196,9 +216,9 @@ static void HandleInputChooseAction(void)
         if (gActionSelectionCursor[gActiveBattler] & 1)
         {
             PlaySE(SE_SELECT);
-            ActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
+            SafariActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
             gActionSelectionCursor[gActiveBattler] ^= 1;
-            ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+            SafariActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
     else if (JOY_NEW(DPAD_RIGHT))
@@ -206,9 +226,9 @@ static void HandleInputChooseAction(void)
         if (!(gActionSelectionCursor[gActiveBattler] & 1))
         {
             PlaySE(SE_SELECT);
-            ActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
+            SafariActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
             gActionSelectionCursor[gActiveBattler] ^= 1;
-            ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+            SafariActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
     else if (JOY_NEW(DPAD_UP))
@@ -216,9 +236,9 @@ static void HandleInputChooseAction(void)
         if (gActionSelectionCursor[gActiveBattler] & 2)
         {
             PlaySE(SE_SELECT);
-            ActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
+            SafariActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
             gActionSelectionCursor[gActiveBattler] ^= 2;
-            ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+            SafariActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
     else if (JOY_NEW(DPAD_DOWN))
@@ -226,9 +246,9 @@ static void HandleInputChooseAction(void)
         if (!(gActionSelectionCursor[gActiveBattler] & 2))
         {
             PlaySE(SE_SELECT);
-            ActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
+            SafariActionSelectionDestroyCursorAt(gActionSelectionCursor[gActiveBattler]);
             gActionSelectionCursor[gActiveBattler] ^= 2;
-            ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+            SafariActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
 }
@@ -451,9 +471,9 @@ static void SafariHandleChooseAction(void)
     BattlePutTextOnWindow(gText_SafariZoneMenu, 2);
 
     for (i = 0; i < 4; i++)
-        ActionSelectionDestroyCursorAt(i);
+        SafariActionSelectionDestroyCursorAt(i);
 
-    ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
+    SafariActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
     BattleStringExpandPlaceholdersToDisplayedString(gText_WhatWillPkmnDo2);
     BattlePutTextOnWindow(gDisplayedStringBattle, 1);
 }
