@@ -342,19 +342,3 @@ u8 SplitJong(u8 ch, u8 index)
 
     return 0;
 }
-
-u16 GetKoreanChar(struct TextPrinter *textPrinter, u16 currChar)
-{
-    if (IsKoreanGlyph(currChar))
-    {
-        // 현재 바이트와 다음 바이트와 조합
-        u16 newChar = (currChar << 8) | *textPrinter->printerTemplate.currentChar;
-        textPrinter->printerTemplate.currentChar++;
-        return newChar;
-    }
-    else
-    {
-        // 한글 바이트가 아닐경우 기존 글자 반환
-        return currChar;
-    }
-}

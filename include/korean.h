@@ -30,6 +30,4 @@ u8 ComposeMoum(u8 ch, u8 ch2);
 u8 SplitJung(u8 ch, u8 index);
 u8 SplitJong(u8 ch, u8 index);
 
-u16 GetKoreanChar(struct TextPrinter *textPrinter, u16 currChar);
-
 #endif

@@ -56,18 +56,14 @@ const u8 gWindowVerticalScrollSpeeds[] = { 0x1, 0x2, 0x4, 0x0 };
 const struct GlyphWidthFunc gGlyphWidthFuncs[] =
 {
     {  0,  GetGlyphWidthFont0 },
-#if MODERN
-    {  1,  GetGlyphWidthFont2 },
-#else
     {  1,  GetGlyphWidthFont1 },
-#endif
     {  2,  GetGlyphWidthFont2 },
     {  3,  GetGlyphWidthFont2 },
     {  4,  GetGlyphWidthFont2 },
     {  5,  GetGlyphWidthFont2 },
     {  6,  GetGlyphWidthFont6 },
 #if MODERN
-    {  7,  GetGlyphWidthFont2 },
+    {  7,  GetGlyphWidthFont1 },
 #else
     {  7,  GetGlyphWidthFont7 },
 #endif
@@ -99,11 +95,7 @@ const u8 gKeypadIconTiles[] = INCBIN_U8("graphics/fonts/keypad_icons.4bpp");
 const struct FontInfo gFontInfos[] =
 {
     {  Font0Func, 0x5,  0xC, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
-#if MODERN
-    {  Font2Func, 0x6, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
-#else
     {  Font1Func, 0x6, 0x10, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
-#endif
     {  Font2Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
     {  Font3Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
     {  Font4Func, 0x6,  0xE, 0x0, 0x0, 0x0, 0x2, 0x1, 0x3 },
@@ -1076,7 +1068,11 @@ u16 RenderText(struct TextPrinter *textPrinter)
         }
 
         // 한글 문자 체크 & 문자 가져오기
-        currChar = GetKoreanChar(textPrinter, currChar);
+        if (!textPrinter->japanese && IsKoreanGlyph(currChar))
+        {
+            currChar = (currChar << 8) | *textPrinter->printerTemplate.currentChar;
+            textPrinter->printerTemplate.currentChar++;
+        }
 
         switch (subStruct->glyphId)
         {
@@ -1084,24 +1080,22 @@ u16 RenderText(struct TextPrinter *textPrinter)
             DecompressGlyphFont0(currChar, textPrinter->japanese);
             break;
         case 1:
-        #if !MODERN
+#if MODERN
+        case 7:
+#endif
             DecompressGlyphFont1(currChar, textPrinter->japanese);
             break;
-        #endif
         case 2:
         case 3:
         case 4:
         case 5:
-        #if MODERN
-        case 7:
-        #endif
             DecompressGlyphFont2(currChar, textPrinter->japanese);
             break;
-        #if !MODERN
+#if !MODERN
         case 7:
             DecompressGlyphFont7(currChar, textPrinter->japanese);
             break;
-        #endif
+#endif
         case 8:
             DecompressGlyphFont8(currChar, textPrinter->japanese);
             break;
