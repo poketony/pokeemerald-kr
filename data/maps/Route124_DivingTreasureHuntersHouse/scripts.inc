@@ -336,7 +336,7 @@ Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade: @ 8271117
 	// どれを こうかん するんだい?
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone: @ 8271132
-	.string "{STR_VAR_1}을 {STR_VAR_2}이랑\n"
+	.string "{STR_VAR_1}{K_EULREUL} {STR_VAR_2}{K_I}랑\n"
 	.string "교환하는 거지?$"
 	// §い を §うにｎ
 	// こうかん するんだな?
@@ -372,3 +372,11 @@ Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard: @ 8271217
 	.string "{CLEAR_TO 0x0f}파랑조각{CLEAR_TO 0x51}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x82}물의돌{CLEAR_TO 0xc8}\p"
 	.string "{CLEAR_TO 0x0e}원하는 것{CLEAR_TO 0x7d}교환할 것\n"
 	.string "{CLEAR_TO 0x0f}초록조각{CLEAR_TO 0x51}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7e}리프의돌$"
+	// ほしいモノ       あげるモノｎ
+	//  あかいかけら   ©しい©しう ほのおのいしｐ
+	// ほしいモノ       あげるモノｎ
+	//  きいろいかけら  ©しい©しう かみなりのいしｐ
+	// ほしいモノ       あげるモノｎ
+	//  あおいかけら   ©しい©しう みずのいしｐ
+	// ほしいモノ       あげるモノｎ
+	//  みどりのかけら  ©しい©しう リ-フのいし

@@ -31,7 +31,7 @@ Route110_TrickHousePuzzle8_EventScript_Leroy:: @ 826E84D
 Route110_TrickHousePuzzle8_EventScript_WroteSecretCodeLockOpened:: @ 826E864
 	.string "{PLAYER}{K_EUNNEUN} 암호를\n"
 	.string "문에 적었다!\p"
-	.string "“미궁대왕님 사랑해요”\p"
+	.string "“미궁대왕님 사랑해”\p"
 	.string "...... ...... ......\p"
 	.string "문의 자물쇠가 풀렸다!$"
 	// §あは あいことばをｎ
@@ -42,7 +42,7 @@ Route110_TrickHousePuzzle8_EventScript_WroteSecretCodeLockOpened:: @ 826E864
 
 Route110_TrickHousePuzzle8_Text_VincentIntro: @ 826E8CD
 	.string "여기까지 올 수 있는 트레이너는\n"
-	.string "그렇게 많지 않네!$"
+	.string "그렇게 많지 않지!$"
 	// ここまで こられる トレ-ナ-はｎ
 	// そうは いないよな!
 

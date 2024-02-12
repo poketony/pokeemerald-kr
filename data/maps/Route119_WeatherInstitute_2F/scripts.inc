@@ -282,9 +282,9 @@ Route119_WeatherInstitute_2F_Text_ShellyIntro: @ 8270409
 	.string "오-호호!\p"
 	.string "우리 아쿠아단을\n"
 	.string "방해할 셈이야!?\p"
-	.string "정말 무서운 걸 모르는 건지\n"
-	.string "그냥 어리석은 건지...\p"
-	.string "너무 귀여워서 얄미워!\n"
+	.string "나 참 무서운 걸 모르는 건지\n"
+	.string "그냥 멍청한 건지...\p"
+	.string "너무 귀여워서 얄미운걸!\n"
 	.string "해치워 줄게!$"
 	// オ-ッホッホ!ｐ
 	// われわれ アクアだんのｎ

@@ -205,7 +205,7 @@ Route117_Text_ArentTheseFlowersPretty: @ 81F3CFD
 	// ぜ-んぶ わたしが うえたのよ!
 
 Route117_Text_AirIsTastyHere: @ 81F3D41
-	.string "공기가 마시쪄-!$"
+	.string "공기가 맛있어-!$"
 	// くうきが うま-い!
 
 Route117_Text_RouteSignVerdanturf: @ 81F3D58

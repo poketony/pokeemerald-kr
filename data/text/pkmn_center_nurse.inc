@@ -10,26 +10,27 @@ gText_WouldYouLikeToRestYourPkmn::
 	// ここでは ポケモンのｎ
 	// たいりょく かいふくを しますｐ
 	// あなたの ポケモンをｎ
-	// やすませて あげますか?$
+	// やすませて あげますか?
 
 gText_IllTakeYourPkmn::
 	.string "그럼\n"
 	.string "맡아 드리겠습니다!$"
 	// それではｎ
-	// おあずかり いたします!$
+	// おあずかり いたします!
 
 gText_RestoredPkmnToFullHealth::
 	.string "오래 기다리셨습니다!\p"
 	.string "맡겨 두신 포켓몬이\n"
 	.string "모두 건강해졌습니다!$"
-	// /おまちどおさま!ｐ
+	// おまちどおさま!ｐ
 	// おあずかり した ポケモンはｎ
-	// みんな げんきに なりましたよ!$
+	// みんな げんきに なりましたよ!
 
 gText_WeHopeToSeeYouAgain::
-	.string "또 이용해 주세요!$"
+	.string "또\n"
+	.string "이용해 주세요!$"
 	// またのｎ
-	// ごりようを おまち してます!$
+	// ごりようを おまち してます!
 
 gText_WelcomeCutShort::
 	.string "안녕하세요!\n"
@@ -41,7 +42,7 @@ gText_WelcomeCutShort::
 	// ポケモン センタ- ですｐ
 	// ここでは ポケモンのｎ
 	// たいりょく かいふくを しますｐ
-	// あなたの ポケモンを……$
+	// あなたの ポケモンを……
 
 gText_NoticesGoldCard::
 	.string "그 그건...\n"
@@ -65,22 +66,22 @@ gText_NoticesGoldCard::
 	// ゴ-ルドカ-ドを おもちの かたはｌ
 	// {PLAYER}さんが はじめて ですよ!ｐ
 	// さあ {PLAYER}さんのｎ
-	// ポケモンを やすませて あげましょう!$
+	// ポケモンを やすませて あげましょう!
 
 gText_YouWantTheUsual::
 	.string "{PLAYER}님 안녕하세요!\n"
 	.string "오늘도 포켓몬 회복시키실 거죠?$"
 	// {PLAYER}さん おつかれさまです!ｎ
-	// いつもので よろしい ですね!$
+	// いつもので よろしい ですね!
 
 gText_IllTakeYourPkmn2::
 	.string "그럼 맡아 드리겠습니다!$"
-	// では おあずかりさせて いただきます!$
+	// では おあずかりさせて いただきます!
 
 gText_ThankYouForWaiting::
 	.string "대단히 오래 기다리셨습니다!$"
-	// たいへん おまたせ いたしました!$
+	// たいへん おまたせ いたしました!
 
 gText_WeHopeToSeeYouAgain2::
 	.string "또 언제든 오세요!$"
-	// また いつでも おこしください!$
+	// また いつでも おこしください!

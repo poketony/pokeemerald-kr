@@ -202,7 +202,7 @@ Route114_Text_ExplainRoar: @ 81F2872
 	// ほえると ポケモンも にげだすのです
 
 Route114_Text_Poochyena: @ 81F28A6
-	.string "포!! 포포!!$"
+	.string "바우!! 바바우!!$"
 	// ばうっ!! ばばうっ!!
 
 Route114_Text_MeteorFallsSign: @ 81F28B3

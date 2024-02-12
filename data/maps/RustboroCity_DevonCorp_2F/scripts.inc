@@ -449,7 +449,7 @@ RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher: @ 82122CB
 
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon: @ 82122F5
-	.string "앗! 포켓몬이 가득해서\n"
+	.string "아- 포켓몬이 가득해서\n"
 	.string "드릴 수가 없군요$"
 	// あ- ポケモン いっぱいでｎ
 	// もてないですね

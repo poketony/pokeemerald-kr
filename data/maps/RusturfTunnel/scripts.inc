@@ -463,7 +463,7 @@ RusturfTunnel_Text_GruntIntro: @ 822D20A
 
 RusturfTunnel_Text_GruntDefeat: @ 822D2B0
 	.string "으 으으윽-!\n"
-	.string "나의 악행도 여기서 막히는 건가!$"
+	.string "나의 악행도 막다른 길인가!$"
 	// む むぐぐ-!ｎ
 	// おれの あくじも いきどまりかっ!
 
@@ -518,7 +518,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko: @ 822D3BA
 	// ピ-コちゃん『ピひょ-っ!!
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging: @ 822D510
-	.string "...\p"
+	.string "......\p"
 	.string "어째서 더 파지 못하는 거지...\n"
 	.string "이 바위가 너무 딱딱해서 그런가?\p"
 	.string "이 앞에 있는 잔디마을이라는 곳에\n"
@@ -548,7 +548,7 @@ RusturfTunnel_Text_ToGetToVerdanturf: @ 822D5F3
 RusturfTunnel_Text_YouShatteredBoulderTakeHM: @ 822D65C
 	.string "이럴 수가! 네가 이 바위를\n"
 	.string "부숴준 거구나\p"
-	.string "감사의 증표로\n"
+	.string "감사의 표시로\n"
 	.string "이 비전머신을 너한테 줄게$"
 	// なんと! きみが この いわをｎ
 	// くだいて くれたんだねｐ

@@ -780,13 +780,17 @@ Route110_TrickHouseEntrance_Text_ConcealedInDresser: @ 826A529
 	.string "으 으음...!\p"
 	.string "어떻게 이 몸이 옷장 안에\n"
 	.string "숨어 있다는 걸 알았지? ...대단한데!$"
-	// む むむ…!ｐなぜ わがはいが タンスの なかにｎかくれていると わかった? ……できる!
+	// む むむ…!ｐ
+	// なぜ わがはいが タンスの なかにｎ
+	// かくれていると わかった? ……できる!
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow: @ 826A577
 	.string "으 으음...!\p"
 	.string "어떻게 이 몸이 창문 건너편에\n"
 	.string "숨어 있다는 걸 알았지? ...대단한데!$"
-	// む むむ…!ｐなぜ わがはいが まどの むこうにｎかくれていると わかった? ……できる!
+	// む むむ…!ｐ
+	// なぜ わがはいが まどの むこうにｎ
+	// かくれていると わかった? ……できる!
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter: @ 826A5C8
 	.string "으 으음...!\p"
@@ -926,7 +930,7 @@ Route110_TrickHouseEntrance_Text_ThenFarewell: @ 826ABAE
 
 Route110_TrickHouseEntrance_Text_PCFullAgain: @ 826ABBD
 	.string "엑! 또 PC가\n"
-	.string "가득 찼네...? 너무하잖아!$"
+	.string "가득 찼다고...? 너무해!$"
 	// エッ! マタ ぱそこんガｎ
 	// イッパイ ダッテ……? アンマリダ!
 

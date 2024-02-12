@@ -1023,20 +1023,19 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3: @ 826D7FC
 	// つかえない ポケモンは どれ?
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough: @ 826D84D
-	.string "축하해 정답이야!\n"
+	.string "축하해 정답이야-!\n"
 	.string "자 그럼 안으로 가!$"
 	// オメデトウ セイカイ デ-ス!ｎ
 	// サキヘ ドウゾ!
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError: @ 826D883
 	.string "땡!\n"
-	.string "틀렸어!$"
+	.string "틀렸어---!$"
 	// ザンネン!ｎ
 	// マチガイ デ---ス!
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha: @ 826D8A1
-	.string "와하하하하! 와하하하하!\n"
-	.string "달그락달그락!$"
+	.string "와하하하하! 와하하하하! 달그락달그락!$"
 	// ワハハハハ! ワハハハハ! カタカタ!
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge: @ 826D8C9
@@ -1078,7 +1077,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3: @ 826D9CE
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro: @ 826DA1E
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 3호!\l"
-	.string "돈에 대해서는 좀 까다로워$"
+	.string "돈에 대해서는 좀 까다롭지!$"
 	// カタカタ…ｎ
 	// ワガハイ ハ からくりニンギョウ 3ゴウ!ｌ
 	// オカネニハ ウルサイノダ!

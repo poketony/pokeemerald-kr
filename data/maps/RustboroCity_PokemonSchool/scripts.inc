@@ -338,7 +338,7 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry: @ 8214719
 	.string "포켓몬이 지닐 수 있는 도구는\n"
 	.string "그 밖에도 많다...\p"
 	.string "노트에 제대로 기록하는 건\n"
-	.string "참 힘들어....$"
+	.string "참 힘들어...$"
 	// ……ポケモンに きのみを もたせるとｎ
 	// じぶんで たいりょくを かいふくするｐ
 	// ポケモンが もてる どうぐはｎ

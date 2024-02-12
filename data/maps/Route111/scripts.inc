@@ -649,7 +649,7 @@ Route111_Text_VictoriaPostBattle: @ 81F1645
 	// このひと すっごく つよいわよ-!
 
 Route111_Text_ViviIntro: @ 81F167E
-	.string "엄마보다 강하다니 굉장하다!\p"
+	.string "엄마보다 강하다니 대단하다-!\p"
 	.string "하지만 나도 강하거든!\n"
 	.string "진짜라니까!$"
 	// ママより つよいなんて すご-い!ｐ
