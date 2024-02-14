@@ -27,8 +27,7 @@ gText_RestoredPkmnToFullHealth::
 	// みんな げんきに なりましたよ!
 
 gText_WeHopeToSeeYouAgain::
-	.string "또\n"
-	.string "이용해 주세요!$"
+	.string "또 이용해 주세요!$"
 	// またのｎ
 	// ごりようを おまち してます!
 

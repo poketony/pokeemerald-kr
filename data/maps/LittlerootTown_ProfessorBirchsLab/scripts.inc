@@ -890,7 +890,7 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait: @ 81FAD6F
 	.string "털보박사: 너의 앞길에는\n"
 	.string "수많은 포켓몬이 기다리고 있단다!\p"
 	.string "아- 빨리 필드워크하러\n"
-	.string "나가고 싶어졌다!$"
+	.string "나가고 싶다!$"
 	// オダマキ『きみの ゆくてにはｎ
 	// たくさんの ポケモンが まっているよ!ｐ
 	// あ- はやく フィ-ルドワ-クにｎ
