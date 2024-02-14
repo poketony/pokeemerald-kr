@@ -528,7 +528,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
 	.string "아쿠아단 녀석들이\n"
 	.string "내 잠수정\l"
 	.string "“해연 1호”를 빼앗은 거지?\p"
-	.string "설마 그 녀석들도\n"
+	.string "설마 그들도\n"
 	.string "해저에 잠들어 있는 포켓몬을...\p"
 	.string "하지만 나는 쫓아가도\n"
 	.string "그 녀석들을 상대할 수 없을 텐데...$"
@@ -544,14 +544,13 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine: @ 820D35A
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 	.string "해양: 아아 {PLAYER}{K_AYA}...\p"
 	.string "그래... 아쿠아단은\n"
-	.string "이미 출발해버렸구나...\p"
-	.string "아니야 신경쓰지 않아도 돼\n"
+	.string "출발해 버렸구나...\p"
+	.string "아니야 신경 쓰지 마\n"
 	.string "네 책임이 아니니까\p"
 	.string "잠수정을 따라간다는 거 자체가\n"
-	.string "보통 인간에게는 말도 안되는 일이지\p"
+	.string "보통 인간에게는 말도 안 되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
-	.string "바닷속으로 들어갈 수 있는 기술을\l"
-	.string "가르치면 또 모를까...\p"
+	.string "바닷속으로 파고드는 기술을 가르쳐야...\p"
 	.string "이끼시티에 가면\n"
 	.string "다이빙을 하는 사람이 많으니까\l"
 	.string "가르쳐줄 사람이 있을지도 모르겠다$"
@@ -570,10 +569,9 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive: @ 820D42B
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub: @ 820D58A
 	.string "해양: 잠수정을 따라간다는 거 자체가\n"
-	.string "보통 인간에게는 말도 안되는 일이지\p"
+	.string "보통 인간에게는 말도 안 되는 일이지\p"
 	.string "포켓몬에게 다이빙이라고 하는\n"
-	.string "바닷속으로 들어갈 수 있는 기술을\l"
-	.string "가르치면 또 모를까...\p"
+	.string "바닷속으로 파고드는 기술을 가르쳐야...\p"
 	.string "이끼시티에 가면\n"
 	.string "다이빙을 하는 사람이 많으니까\l"
 	.string "가르쳐줄 사람이 있을지도 모르겠다$"
@@ -653,7 +651,7 @@ SlateportCity_Harbor_Text_WhichOneDoYouWant: @ 820D926
 
 SlateportCity_Harbor_Text_HandedScannerToStern: @ 820D94A
 	.string "{PLAYER}{K_EUNNEUN} 해양관장에게\n"
-	.string "탐지기를 전달했다!$"
+	.string "탐지기를 건넸다!$"
 	// §あは クスノキかんちょうにｎ
 	// たんちきを わたした!
 

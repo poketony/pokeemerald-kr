@@ -309,8 +309,8 @@ SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua: @ 820BE93
 	// なにも いわずに よこせ!
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat: @ 820BEE2
-	.string "우와-!\n"
-	.string "어린애에게 당했다!$"
+	.string "으악-!\n"
+	.string "어린애한테 당했다!$"
 	// うわ-!ｎ
 	// こどもに やられちまった!
 

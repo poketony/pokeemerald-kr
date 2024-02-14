@@ -306,7 +306,7 @@ SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel: @ 820B2A2
 	.string "바다를 보면 흥분돼요!\p"
 	.string "이런 저한테 있어서\n"
 	.string "해양관장은 동경하는 사람\l"
-	.string "넘버1에 속하는 사람이에요!$"
+	.string "넘버1에 속하는 사람이라구요!$"
 	// わたくしッｎ
 	// うみを みると こうふん するのですッ!ｐ
 	// そんな わたくしに とってｎ
