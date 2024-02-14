@@ -1935,16 +1935,16 @@ static void DeleteTextCharacter(void)
     // 모음 제거 및 분리
     case STATE_MOUM:
     case STATE_MOUM_MERGEABLE:
-        ch = DecomposeToJung(korean);
+        ch = GetJungByHangul(korean);
         if (ch == 0x1d || ch == 0x1e || ch == 0x1f 
             || ch == 0x22 || ch == 0x23 || ch == 0x24 
             || ch == 0x27)
         {
             sNamingScreen->koreanState = STATE_MOUM_MERGEABLE;
 
-            korean = ComposeKorean(
-                GetCho(DecomposeToCho(korean)),
-                SplitJung(GetJung(DecomposeToJung(korean)), 0),
+            korean = AssembleHangul(
+                GetCho(GetChoByHangul(korean)),
+                SplitJung(GetJung(GetJungByHangul(korean)), 0),
                 0);
 
             sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
@@ -1954,7 +1954,7 @@ static void DeleteTextCharacter(void)
         {
             sNamingScreen->koreanState = STATE_JAUM;
             sNamingScreen->textBuffer[index] = 0x41;
-            sNamingScreen->textBuffer[index + 1] = DecomposeToCho(korean);
+            sNamingScreen->textBuffer[index + 1] = GetChoByHangul(korean);
         }
         break;
 
@@ -1962,7 +1962,7 @@ static void DeleteTextCharacter(void)
     // 자음 제거
     case STATE_JAUM_2_MERGEABLE:
     case STATE_JAUM_2:
-        ch = DecomposeToJung(korean);
+        ch = GetJungByHangul(korean);
         if (ch == 0x1d || ch == 0x1e || ch == 0x1f 
             || ch == 0x22 || ch == 0x23 || ch == 0x24 
             || ch == 0x27)
@@ -1970,9 +1970,9 @@ static void DeleteTextCharacter(void)
         else
             sNamingScreen->koreanState = STATE_MOUM_MERGEABLE;
 
-        korean = ComposeKorean(
-            GetCho(DecomposeToCho(korean)),
-            GetJung(DecomposeToJung(korean)),
+        korean = AssembleHangul(
+            GetCho(GetChoByHangul(korean)),
+            GetJung(GetJungByHangul(korean)),
             0);
 
         sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
@@ -1984,10 +1984,10 @@ static void DeleteTextCharacter(void)
     case STATE_MERGED_JAUM:
         sNamingScreen->koreanState = STATE_JAUM_2_MERGEABLE;
 
-        korean = ComposeKorean(
-            GetCho(DecomposeToCho(korean)),
-            GetJung(DecomposeToJung(korean)),
-            SplitJong(DecomposeToJongIndex(korean), 0));
+        korean = AssembleHangul(
+            GetCho(GetChoByHangul(korean)),
+            GetJung(GetJungByHangul(korean)),
+            SplitJong(GetJongIndexByHangul(korean), 0));
 
         sNamingScreen->textBuffer[index] = (korean & 0xFF00) >> 8;
         sNamingScreen->textBuffer[index + 1] = korean & 0x00FF;
@@ -2063,7 +2063,7 @@ static void BufferCharacter(u8 ch)
         {
             if (IsMoum(ch))
             {
-                koreanChar = ComposeKorean(
+                koreanChar = AssembleHangul(
                     GetCho(prevChar & 0xff),
                     GetJung(ch),
                     0);
@@ -2104,7 +2104,7 @@ static void BufferCharacter(u8 ch)
         {
             if (IsMoum(ch))
             {
-                if (!ComposeMoum(DecomposeToJung(prevChar), ch))
+                if (!JoinMoum(GetJungByHangul(prevChar), ch))
                 {
                     state = STATE_NONE;
 
@@ -2116,9 +2116,9 @@ static void BufferCharacter(u8 ch)
                 }
                 else
                 {
-                    koreanChar = ComposeKorean(
-                        GetCho(DecomposeToCho(prevChar)), 
-                        GetJung(ComposeMoum(DecomposeToJung(prevChar), ch)), 
+                    koreanChar = AssembleHangul(
+                        GetCho(GetChoByHangul(prevChar)), 
+                        GetJung(JoinMoum(GetJungByHangul(prevChar), ch)), 
                         0);
 
                     if (koreanChar == 0xffff)
@@ -2141,9 +2141,9 @@ static void BufferCharacter(u8 ch)
             }
             else
             {
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToCho(prevChar)), 
-                    GetJung(DecomposeToJung(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetChoByHangul(prevChar)), 
+                    GetJung(GetJungByHangul(prevChar)), 
                     GetJong(ch));
 
                 if (koreanChar == 0xffff || GetJong(ch) == 0xff)
@@ -2179,9 +2179,9 @@ static void BufferCharacter(u8 ch)
             }
             else
             {
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToCho(prevChar)), 
-                    GetJung(DecomposeToJung(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetChoByHangul(prevChar)), 
+                    GetJung(GetJungByHangul(prevChar)), 
                     GetJong(ch));
 
                 if (koreanChar == 0xffff || GetJong(ch) == 0x00 || GetJong(ch) == 0xff)
@@ -2212,7 +2212,7 @@ static void BufferCharacter(u8 ch)
         {
             if (IsJaum(ch))
             {
-                if (!ComposeJaum(DecomposeToJong(prevChar), ch))
+                if (!JoinJaum(GetJongByHangul(prevChar), ch))
                 {
                     if (index == sNamingScreen->template->maxChars * 2)
                         return;
@@ -2223,10 +2223,10 @@ static void BufferCharacter(u8 ch)
                 }
                 else
                 {
-                    koreanChar = ComposeKorean(
-                        GetCho(DecomposeToCho(prevChar)), 
-                        GetJung(DecomposeToJung(prevChar)), 
-                        ComposeJaum(DecomposeToJong(prevChar), ch));
+                    koreanChar = AssembleHangul(
+                        GetCho(GetChoByHangul(prevChar)), 
+                        GetJung(GetJungByHangul(prevChar)), 
+                        JoinJaum(GetJongByHangul(prevChar), ch));
 
                     if (koreanChar == 0xffff)
                     {
@@ -2252,17 +2252,17 @@ static void BufferCharacter(u8 ch)
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToCho(prevChar)), 
-                    GetJung(DecomposeToJung(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetChoByHangul(prevChar)), 
+                    GetJung(GetJungByHangul(prevChar)), 
                     0);
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
 
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToJong(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetJongByHangul(prevChar)), 
                     GetJung(ch), 
                     0);
 
@@ -2302,17 +2302,17 @@ static void BufferCharacter(u8 ch)
                 if (index == sNamingScreen->template->maxChars * 2)
                     return;
 
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToCho(prevChar)), 
-                    GetJung(DecomposeToJung(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetChoByHangul(prevChar)), 
+                    GetJung(GetJungByHangul(prevChar)), 
                     0);
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
 
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToJong(prevChar)), 
+                koreanChar = AssembleHangul(
+                    GetCho(GetJongByHangul(prevChar)), 
                     GetJung(ch), 
                     0);
 
@@ -2353,18 +2353,18 @@ static void BufferCharacter(u8 ch)
                     return;
 
                 // 이전 글자에서 종성만 제거
-                koreanChar = ComposeKorean(
-                    GetCho(DecomposeToCho(prevChar)), 
-                    GetJung(DecomposeToJung(prevChar)), 
-                    SplitJong(DecomposeToJongIndex(prevChar), 0));
+                koreanChar = AssembleHangul(
+                    GetCho(GetChoByHangul(prevChar)), 
+                    GetJung(GetJungByHangul(prevChar)), 
+                    SplitJong(GetJongIndexByHangul(prevChar), 0));
 
                 index -= 2;
                 sNamingScreen->textBuffer[index++] = (koreanChar & 0xff00) >> 8;
                 sNamingScreen->textBuffer[index++] = koreanChar & 0xff;
                 
                 // 새 글자
-                koreanChar = ComposeKorean(
-                    GetCho(ConvertJongToCho(SplitJong(DecomposeToJongIndex(prevChar), 1))), 
+                koreanChar = AssembleHangul(
+                    GetCho(ConvertJongToCho(SplitJong(GetJongIndexByHangul(prevChar), 1))), 
                     GetJung(ch), 
                     0);
 

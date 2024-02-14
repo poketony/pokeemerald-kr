@@ -40,7 +40,7 @@ u8 *DynamicPlaceholderTextUtil_ExpandPlaceholders(u8 *dest, const u8 *src)
         if (*src == PLACEHOLDER_BEGIN)
         {
             prevChar = (*(dest - 2) << 8) | *(dest - 1);
-            sHasJong = HasJong(prevChar);
+            gJongCode = GetJongCode(prevChar);
             placeholderId = *++src;
             src++;
             expandedString = GetExpandedPlaceholder(placeholderId);

@@ -3,11 +3,15 @@
 #include "korean.h"
 #include "korean_table.h"
 
-static const u8 sSingleByteJongTable[] = 
+// NOTE: 첫 항목에는 처리할 문자, 두번째 항목에는 종성 코드
+static const u8 sSingleByteJongTable[][2] = 
 {
-    CHAR_0,
-    CHAR_3,
-    CHAR_6,
+    { CHAR_0, 21 },
+    { CHAR_1,  8 },
+    { CHAR_3, 16 },
+    { CHAR_6,  1 },
+    { CHAR_7,  8 },
+    { CHAR_8,  8 },
 };
 
 bool8 IsKoreanGlyph(u16 glyph)
@@ -25,7 +29,7 @@ bool8 IsMoum(u8 glyph)
     return !IsJaum(glyph);
 }
 
-bool8 HasJong(u16 ch)
+u8 GetJongCode(u16 ch)
 {
     u8 i, singleByteChar;
 
@@ -38,11 +42,12 @@ bool8 HasJong(u16 ch)
         singleByteChar = (u8)ch & 0x00ff;
         for (i = 0; i < sizeof(sSingleByteJongTable); i++)
         {
-            if (singleByteChar == sSingleByteJongTable[i])
-                return TRUE;
+            if (singleByteChar == sSingleByteJongTable[i][0])
+                return sSingleByteJongTable[i][1];
         }
-        return FALSE;
     }
+
+    return 0;
 }
 
 u8 GetCho(u8 index)
@@ -70,24 +75,24 @@ u8 GetJong(u8 index)
     return -1;
 }
 
-u8 DecomposeToCho(u16 korean)
+u8 GetChoByHangul(u16 korean)
 {
     u16 code = gConvertKoreanToUnicodeTable[korean - 0x3700];
     return ((code / 28) / 21) + 0x01;
 }
 
-u8 DecomposeToJung(u16 korean)
+u8 GetJungByHangul(u16 korean)
 {
     u16 code = gConvertKoreanToUnicodeTable[korean - 0x3700];
     return ((code / 28) % 21) + 0x14;
 }
 
-u8 DecomposeToJong(u16 korean)
+u8 GetJongByHangul(u16 korean)
 {
     return gConvertJongToChoTable[gConvertKoreanToUnicodeTable[korean - 0x3700] % 28];
 }
 
-u8 DecomposeToJongIndex(u16 korean)
+u8 GetJongIndexByHangul(u16 korean)
 {
     return gConvertKoreanToUnicodeTable[korean - 0x3700] % 28;
 }
@@ -107,17 +112,17 @@ u16 ConvertUnicodeToKorean(u16 code)
     return gConvertUnicodeToKoreanTable[code];
 }
 
-u16 ComposeKorean(u8 cho, u8 jung, u8 jong)
+u16 AssembleHangul(u8 cho, u8 jung, u8 jong)
 {    
-    return ConvertUnicodeToKorean(ComposeKoreanToUnicode(cho, jung, jong));
+    return ConvertUnicodeToKorean(AssembleHangulToUnicode(cho, jung, jong));
 }
 
-u16 ComposeKoreanToUnicode(u8 cho, u8 jung, u8 jong)
+u16 AssembleHangulToUnicode(u8 cho, u8 jung, u8 jong)
 {    
     return (((cho * 21) + jung) * 28) + jong;
 }
 
-u8 ComposeJaum(u8 ch, u8 ch2)
+u8 JoinJaum(u8 ch, u8 ch2)
 {
     switch (ch)
     {
@@ -177,7 +182,7 @@ u8 ComposeJaum(u8 ch, u8 ch2)
     return 0;
 }
 
-u8 ComposeMoum(u8 ch, u8 ch2)
+u8 JoinMoum(u8 ch, u8 ch2)
 {
     switch (ch)
     {

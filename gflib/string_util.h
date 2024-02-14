@@ -6,7 +6,7 @@ extern u8 gStringVar2[];
 extern u8 gStringVar3[];
 extern u8 gStringVar4[];
 
-extern bool8 sHasJong;
+extern u8 gJongCode;
 
 enum StringConvertMode
 {
