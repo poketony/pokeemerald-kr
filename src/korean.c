@@ -6,11 +6,8 @@
 static const u8 sSingleByteJongTable[] = 
 {
     CHAR_0,
-    CHAR_1,
     CHAR_3,
     CHAR_6,
-    CHAR_7,
-    CHAR_8,
 };
 
 bool8 IsKoreanGlyph(u16 glyph)
