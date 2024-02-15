@@ -21,7 +21,7 @@ SootopolisCity_House5_Text_SootopolisMtPyreConnection: @ 8226EA6
 
 SootopolisCity_House5_Text_BrotherUsedToStudySea: @ 8226F35
 	.string "오빠는\n"
-	.string "고대의 바다를 연구하고 있었어$"
+	.string "고대의 바다를 연구했었어$"
 	// おにいちゃんｎ
 	// むかし うみの けんきゅうを してたんだ
 

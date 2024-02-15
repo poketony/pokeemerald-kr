@@ -31,7 +31,7 @@ SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs: @ 8226AAB
 SootopolisCity_House2_Text_YesTwoOrbsSideBySide: @ 8226AF1
 	.string "그래요... 두 개의 구슬이\n"
 	.string "이웃한 모습은\l"
-	.string "뭔가 마음이 편해지지요...$"
+	.string "왠지 마음이 편해지지요...$"
 	// そう…… ふたつのたまがｎ
 	// となりあわせに おかれている ようすはｌ
 	// なにか こころが やすらぎますよ……
