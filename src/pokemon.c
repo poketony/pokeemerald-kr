@@ -33,6 +33,7 @@
 #include "strings.h"
 #include "task.h"
 #include "text.h"
+#include "korean.h"
 #include "trainer_hill.h"
 #include "util.h"
 #include "constants/abilities.h"
@@ -3728,10 +3729,22 @@ u32 GetBoxMonData(struct BoxPokemon *boxMon, s32 field, u8 *data)
         }
         else
         {
-            for (retVal = 0;
-                retVal < POKEMON_NAME_LENGTH;
-                data[retVal] = boxMon->nickname[retVal], retVal++){}
+            u8 length = 0;
+            while (boxMon->nickname[retVal] != EOS)
+            {
+                data[retVal] = boxMon->nickname[retVal];
+                retVal++;
+                length++;
 
+                if (IsKoreanGlyph(boxMon->nickname[retVal - 1]))
+                {
+                    data[retVal] = boxMon->nickname[retVal];
+                    retVal++;
+                }
+
+                if (length == 5)
+                    break;
+            }
             data[retVal] = EOS;
         }
         break;
