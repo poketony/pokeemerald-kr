@@ -195,11 +195,11 @@ BerryTree_EventScript_PlantBerry:: @ 82744DD
 	return
 
 BerryTree_Text_ItsSoftLoamySoil: @ 82744F0
-	.string "푹신푹신한 흙이다$"
+	.string "푹신푹신한 흙이다!$"
 	// ふかふかの つちだ!
 
 BerryTree_Text_WantToPlant: @ 8274507
-	.string "푹신푹신한 흙이다\n"
+	.string "푹신푹신한 흙이다!\n"
 	.string "나무열매를 심겠습니까?$"
 	// ふかふかの つちだ!ｎ
 	// きのみを うめますか?
