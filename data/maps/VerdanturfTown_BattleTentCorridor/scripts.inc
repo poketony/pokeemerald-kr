@@ -46,7 +46,7 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor: @ 82020E4
 @ Unused
 VerdanturfTown_ContestHall_Text_WhichContestYouEntering: @ 82020E7
 	.string "넌 무슨 콘테스트에 나갈 거야?\n"
-	.string "하나 어드바이스 해줄게!\p"
+	.string "하나 어드바이스해 줄게!\p"
 	.string "예를 들어 귀여움콘테스트에서는\n"
 	.string "1차 심사에서 귀여움만이\l"
 	.string "평가되는 게 아닌 것 같아\p"
@@ -56,7 +56,7 @@ VerdanturfTown_ContestHall_Text_WhichContestYouEntering: @ 82020E7
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute: @ 82021C4
 	.string "포켓몬이 귀여워지도록\n"
 	.string "키우고 있는데\p"
-	.string "콘테스트에서는 귀여운 걸로도\n"
+	.string "콘테스트에서는 귀여움으로도\n"
 	.string "경쟁할 수가 있구나!\p"
 	.string "소중하게 키워서 다행이다...$"
 

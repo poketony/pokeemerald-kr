@@ -115,7 +115,7 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave: @ 81EB854
 	.string "안을 막고 있는 바위를 부수고\n"
 	.string "지나갈 수 있게 하려고 노력하는\l"
 	.string "사람이 있다고 하더라!\p"
-	.string "잘 됐으면 해...\n"
+	.string "동굴이 뚫리면 좋겠어...\n"
 	.string "금탄도시에도 가기 쉬워지니까!$"
 	// フレンドリィ ショップの となりにｎ
 	// どうくつが あるだろ?ｐ

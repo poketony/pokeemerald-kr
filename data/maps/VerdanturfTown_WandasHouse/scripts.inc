@@ -90,7 +90,7 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech: @ 8202993
 	.string "굉장한 트레이너가 되겠다는\l"
 	.string "목표가 생겼으니까요!\p"
 	.string "언젠가 {PLAYER}님보다도\n"
-	.string "강해져서 한번 더\l"
+	.string "강해져서 한 번 더\l"
 	.string "포켓몬 승부를 신청할 거예요!$"
 	// ミツル『§あさんに まけたけどｎ
 	// もう おちこんでないよｐ
@@ -104,7 +104,7 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech: @ 8202993
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort: @ 8202ABE
 	.string "민진: 언젠가 {PLAYER}님보다도\n"
-	.string "강해져서 한번 더\l"
+	.string "강해져서 한 번 더\l"
 	.string "포켓몬 승부를 신청할 거예요!$"
 	// ミツル『いつか §あさん よりもｎ
 	// つよくなって もういちどｌ
@@ -193,8 +193,7 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven: @ 8202E47
 	// いつも トンネルに あしを はこんでるよ
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging: @ 8202F19
-	.string "이럴 수가!\n"
-	.string "딸아이의 애인이라는 사람이\l"
+	.string "이럴 수가! 딸아이의 애인이\n"
 	.string "맨손으로 터널을 팠대!\p"
 	.string "이거 놀랄 일이야!$"
 	// なんと! むすめの こいびと ときたらｎ
@@ -210,7 +209,7 @@ VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally: @ 8202F73
 	// あわせる かおが ないよ……
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande: @ 8202FDB
-	.string "민진이 그랜드시티로 갔다고!?\p"
+	.string "민진이가 그랜드시티로 갔다고!?\p"
 	.string "등화도시에 있는 그 애의 부모도\n"
 	.string "깜짝 놀라겠는걸$"
 	// ミツルくんが サイユウに いたって!?ｐ

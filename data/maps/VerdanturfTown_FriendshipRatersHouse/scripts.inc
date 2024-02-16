@@ -64,7 +64,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu:: @ 82030DA
 
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou: @ 82030ED
 	.string "당신의 포켓몬이\n"
-	.string "어느 정도 따르고 있는지 봐줄게\p"
+	.string "얼마나 따르고 있는지 봐줄게\p"
 	.string "어머...\n"
 	.string "당신의 포켓몬$"
 	// あなたの ポケモンがｎ
@@ -100,7 +100,7 @@ VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou: @ 8203213
 
 VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou: @ 8203249
 	.string "아직 당신을 따르지는 않는 것 같아\n"
-	.string "보통 관계라는 느낌이 들어$"
+	.string "평범한 관계라는 느낌이 들어$"
 	// まだ あなたに なれていない ようねｎ
 	// ふつうの かんけい って かんじが するわ
 

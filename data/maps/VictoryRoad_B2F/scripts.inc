@@ -32,7 +32,7 @@ VictoryRoad_B2F_EventScript_Dianne:: @ 8236948
 	end
 
 VictoryRoad_B2F_Text_VitoIntro: @ 823695F
-	.string "가족들끼리\n"
+	.string "가족끼리 다 같이\n"
 	.string "포켓몬 수행을 했었어!\l"
 	.string "누구에게도 지지 않는다고!$"
 	// かぞく ぜんいんでｎ
