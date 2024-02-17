@@ -265,7 +265,7 @@ BerryBlender_Text_SaveGameBeforeBerryBlenderLink: @ 82938CD
 
 BerryBlender_Text_SearchingForFriends: @ 8293955
 	.string "친구를 찾고 있습니다\n"
-	.string "...B 버튼으로 취소$"
+	.string "......B 버튼으로 취소$"
 
 BerryBlender_Text_Player1Arrived: @ 8293986
 	.string "{STR_VAR_1}님이 왔습니다$"

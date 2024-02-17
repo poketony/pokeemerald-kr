@@ -52,7 +52,7 @@ ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
 	.string "천하일품이거든\p"
 	.string "조개껍질방울의 재료라면\n"
 	.string "매일 캘 수 있으니\l"
-	.string "모이면 다시 만들어 주마$"
+	.string "모이면 다시 만들어 주겠네$"
 	// ポケモンに もたせてあげると よろこぶよｐ
 	// なんたって かいがらのすずの ねいろはｎ
 	// てんか いっぴん だからねｐ
