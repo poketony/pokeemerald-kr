@@ -174,7 +174,7 @@ SootopolisCity_Gym_B1F_Text_OliviaPostBattle: @ 82261B5
 	// いっしょに ここで ポケモン きたえない?
 
 SootopolisCity_Gym_B1F_Text_TiffanyIntro: @ 82261F7
-	.string "얼음 위의 한붓그리기\p"
+	.string "얼음 위에서의 한붓그리기\p"
 	.string "그게 가능한 트레이너는\n"
 	.string "엘레강트하고 아름답지!$"
 	// こおりの うえでの ひとふでがきｐ

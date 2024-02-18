@@ -1704,11 +1704,11 @@ SootopolisCity_Text_CaveOfOriginSleepsToo: @ 81E6F38
 	// ほこらも しずかに ねむるのです……
 
 SootopolisCity_Text_SootopolisSkyBeautiful: @ 81E6F90
-	.string "루네시티는 운석의 낙하로 인해 생긴\n"
-	.string "크레이터의 중심에 있는 마을이야\p"
-	.string "위를 보면 크레이터의 가장자리도\n"
-	.string "같이 보여서\l"
-	.string "하늘 전체를 볼 수는 없어...\p"
+	.string "루네시티는 화산의\n"
+	.string "분화구 속에서 세워진 마을이야\p"
+	.string "위를 올려다보면\n"
+	.string "분화구도 같이 보여서\l"
+	.string "하늘 전체를 볼 수가 없지\p"
 	.string "하지만 그렇기 때문에\n"
 	.string "루네시티에서 보이는 하늘이\l"
 	.string "가장 아름다워$"

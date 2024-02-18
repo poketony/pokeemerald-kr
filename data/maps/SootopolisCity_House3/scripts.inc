@@ -50,7 +50,7 @@ SootopolisCity_House3_Text_TrainerFanClubWasWild: @ 8226C9C
 	.string "열성적인 팬들은 호연지방 밖의\n"
 	.string "지역에서도 찾아와!\p"
 	.string "내가 해안시티의\n"
-	.string "트레이너 팬클럽에 갔었을 때도\l"
+	.string "트레이너 팬클럽에 갔을 때도\l"
 	.string "엄청 굉장했어!$"
 	// ねっしんな ファンは ホウエン いがいのｎ
 	// ちいきからも やってくるの!ｐ

@@ -857,7 +857,7 @@ gText_WhichFloorWouldYouLike:: @ 8272C1D
 
 gText_SandstormIsVicious:: @ 8272C5F
 	.string "사막의 모래바람이 심해서\n"
-	.string "앞으로 갈 수 없어!$"
+	.string "앞으로 갈 수 없다!$"
 
 gText_SelectWithoutRegisteredItem:: @ 8272C98
 	.string "가방에 들어 있는 도구를\n"

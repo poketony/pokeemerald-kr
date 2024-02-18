@@ -40,8 +40,8 @@ CableClub_Text_NeedTwoMonsForDoubleBattle: @ 8277FEE
 	// ポケモンが ひつようです
 
 CableClub_Text_NeedTwoMonsToTrade: @ 8278027
-	.string "교환을 하기 위해서는 2마리 이상의\n"
-	.string "포켓몬을 지니고 있어야 합니다$"
+	.string "교환에서는 2마리 이상의\n"
+	.string "포켓몬이 필요합니다$"
 	// こうかんでは 2ひき いじょうのｎ
 	// てもちが ひつようです
 
@@ -53,13 +53,13 @@ CableClub_Text_CantTradeEnigmaBerry: @ 8278061
 
 gText_PleaseWaitForLink:: @ 8278091
 	.string "잠시 기다려 주십시오\n"
-	.string "...B 버튼으로 취소$"
+	.string "......B 버튼으로 취소$"
 	// しょうしょう おまち くださいｎ
 	// ……Bボタンで キャンセル
 
 gText_ConfirmLinkWhenPlayersReady:: @ 82780B3
 	.string "모이면 A 버튼으로 진행한다\n"
-	.string "...B 버튼으로 취소$"
+	.string "......B 버튼으로 취소$"
 	// そろったら Aボタンで すすむｎ
 	// ……Bボタンで キャンセル
 
@@ -71,7 +71,7 @@ gText_ConfirmStartLinkWithXPlayers:: @ 82780F2
 
 gText_AwaitingLinkup:: @ 8278131
 	.string "통신 시작을 기다리고 있습니다\n"
-	.string "...B 버튼으로 취소$"
+	.string "......B 버튼으로 취소$"
 	// つうしんかいしを まっていますｎ
 	// ……Bボタンで キャンセル
 
@@ -94,7 +94,7 @@ CableClub_Text_DirectYouToYourRoom: @ 82781A5
 
 Text_SomeoneIsNotReadyToLink: @ 82781C7
 	.string "친구의 준비가\n"
-	.string "되지가 않은 것 같습니다\p"
+	.string "되지 않은 것 같습니다\p"
 	.string "준비를 마치면\n"
 	.string "다시 와주십시오$"
 	// おともだちの じゅんびがｎ
@@ -179,13 +179,13 @@ CableClub_Text_GotToLookAtColoredTrainerCard: @ 827847B
 	// …{STR_VAR_2}うカ-ドだ!
 
 BattleColosseum_2P_Text_TakePlaceStartBattle: @ 82784B4
-	.string "각자 자리에 서서\n"
+	.string "정해진 자리에 서서\n"
 	.string "대전을 시작해 주십시오$"
 	// しょていの いちに ついてｎ
 	// たいせんを はじめて ください
 
 TradeCenter_Text_TakeSeatStartTrade: @ 82784E2
-	.string "각자 자리에 서서\n"
+	.string "정해진 자리에 서서\n"
 	.string "교환을 시작해 주십시오$"
 	// しょていの いちに ついてｎ
 	// こうかんを はじめて ください
@@ -209,7 +209,7 @@ CableClub_Text_NotSetUpForFarAwayRegion: @ 8278565
 	.string "죄송합니다\p"
 	.string "먼 지방의 분과\n"
 	.string "포켓몬을 교환하는 건\l"
-	.string "지금은 할 수 없습니다...$"
+	.string "아직 할 수 없습니다...$"
 	// おきゃくさまｎ
 	// もうしわけ ありませんｐ
 	// とおい ちほうの かたとｎ
@@ -229,7 +229,7 @@ CableClub_Text_YouHaveAMonThatCantBeTaken: @ 82785E9
 	// ポケモンが います
 
 RecordCorner_Text_TakeSeatAndWait: @ 827861C
-	.string "자리에 서서\n"
+	.string "정해진 자리에 서서\n"
 	.string "기다려 주십시오$"
 	// しょていの いちに ついてｎ
 	// おまち ください

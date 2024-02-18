@@ -1218,7 +1218,7 @@ SlateportCity_Text_SeaIsSoWet: @ 81DDFF7
 	.string "바다는 정말 넓어...\p"
 	.string "혹시 바다는\n"
 	.string "포켓몬이 흘린 눈물로\l"
-	.string "되어 있는 걸까....$"
+	.string "되어 있는 걸까...$"
 	// うみって おおきいなあ……ｐ
 	// ひょっとして うみってｎ
 	// ポケモンが ながした なみだでｌ
@@ -1375,12 +1375,12 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery: @ 81DE64F
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine: @ 81DE724
 	.string "“후후후...\n"
 	.string "해양관장이라는 자여\p"
-	.string "네놈의 잠수정은\n"
+	.string "너의 잠수정은\n"
 	.string "우리 아쿠아단이 가져가겠다!\p"
 	.string "너희들은 우리에게 잠자코\n"
 	.string "협력하면 되는 거다!\p"
 	.string "후후후...\n"
-	.string "지금부터 아쿠아단이 뭘 하는지\l"
+	.string "지금부터 아쿠아단이 뭘 할지\l"
 	.string "기대하고 있도록!”$"
 	// 『フフフ……ｎ
 	// クスノキかんちょう とやらｐ

@@ -1784,7 +1784,7 @@ LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice: @ 827BF4B
 
 LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel: @ 827BF85
 	.string "잠시 기다려 주십시오\n"
-	.string "...B 버튼으로 취소$"
+	.string "......B 버튼으로 취소$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2: @ 827BFA7

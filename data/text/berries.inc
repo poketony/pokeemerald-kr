@@ -1,7 +1,7 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
-	.string "아빠: 여어 {PLAYER}{K_AYA}!\p"
+	.string "아빠: 오오 {PLAYER}{K_AYA}!\p"
 	.string "희귀한 나무열매를 손에 넣었으니\n"
-	.string "선물할게!$"
+	.string "선물하도록 하마!$"
 	// パパ『やあ §あ!ｐ
 	// めずらしい きのみを てに いれたからｎ
 	// プレゼント するよ!
@@ -50,14 +50,14 @@ Route111_Text_GoingToTryToMakeDifferentColorBerries:
 
 Route111_Text_WhatColorBerriesToLookForToday:
 	.string "오늘은 무슨 색의 나무열매를\n"
-	.string "찾아볼까나-$"
+	.string "찾아볼까-$"
 	// きょうは なにいろの きのみをｎ
 	// さがそっかな-
 
 Route114_Text_LoveUsingBerryCrushShareBerry:
 	.string "나무열매크러시가 너무 재밌어서\n"
 	.string "나무열매를 모으고 있어\p"
-	.string "괜찮으면 네게도 나눠줄게!$"
+	.string "괜찮다면 네게도 나눠줄게!$"
 	// きのみクラッシュが だいすきだからｎ
 	// きのみを あつめているんだｐ
 	// よかったら きみにも わけて あげるよ!

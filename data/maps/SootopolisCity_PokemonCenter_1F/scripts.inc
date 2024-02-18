@@ -52,10 +52,10 @@ SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn: @ 8226562
 	.string "호연지방에서도 제일 강하다고\l"
 	.string "여겨지는 실력자 윤진에게\p"
 	.string "포켓몬 승부의 첫걸음을\n"
-	.string "가르쳐 준 사람입니다\p"
+	.string "가르쳐 준 사람이죠\p"
 	.string "하지만 그런 윤진의 스승보다\n"
 	.string "더 강하다고 하는 사천왕...\l"
-	.string "그 강함은 도대체 어느 정도일까요$"
+	.string "그 강함은 대체 어느 정도일지$"
 	// この まちの ジムリ-ダ-はｎ
 	// ホウエンちほう でも いちばんとｌ
 	// うわさの じつりょくしゃ ミクリにｐ

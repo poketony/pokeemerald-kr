@@ -343,8 +343,8 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon: @ 820A445
 	// はいけん させて もらいますかな!
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing: @ 820A62A
-	.string "그대의 포켓몬은 잘 자라고 있나요?\n"
-	.string "한번 봐 보도록 하죠!$"
+	.string "그대의 포켓몬은 잘 크고 있나요?\n"
+	.string "한번 봐보도록 하죠!$"
 	// きみの ポケモン そだって ますかな?ｎ
 	// ちょっと はいけん させて もらいますぞ!
 
@@ -434,12 +434,12 @@ SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou: @ 820A9E1
 	.string "그대에게 줄 도구는\n"
 	.string "이제 더 이상 없어요!\p"
 	.string "왜냐하면 도구에 기대지 않아도\n"
-	.string "포켓몬을 키우는 그대의 능력은\l"
-	.string "환상적이니까요!$"
+	.string "포켓몬을 키우는 그대의\l"
+	.string "재능은 환상적이니까요!$"
 	// きみに あげる どうぐはｎ
 	// もう なにも ないですぞ!ｐ
 	// なにしろ どうぐに たよらんでもｎ
-	//きみの ポケモンを そだてるｌ
+	// きみの ポケモンを そだてるｌ
 	// さいのうは バツグン ですからな!
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou: @ 820AA77
@@ -503,7 +503,7 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein: @ 820ACF9
 	// すごく うれしそうに するのよ!
 
 SlateportCity_PokemonFanClub_Text_Skitty: @ 820AD5A
-	.string "에나비: 후냐-아$"
+	.string "에나비: 후냐아-아$"
 	// エネコ『ふにゃあ-あ
 
 SlateportCity_PokemonFanClub_Text_Zigzagoon: @ 820AD6E
