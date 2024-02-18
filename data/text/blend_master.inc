@@ -68,7 +68,7 @@ BerryBlender_Text_BlendMasterLetsBerryBlender: @ 82C451B
 	.string "좋네!\p"
 	.string "그럼 시작해 봅세!\p"
 	.string "명인과 함께\n"
-	.string "레츠 나무열매블렌더!$"
+	.string "렛츠 나무열매블렌더!$"
 	// よしっ!ｐ
 	// では はじめるぞ!ｐ
 	// めいじんと いっしょにｎ
