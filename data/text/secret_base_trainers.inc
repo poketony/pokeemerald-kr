@@ -1,6 +1,6 @@
 SecretBase_Text_Trainer0Intro: @ 82748A0
     .string "넌 이미 비밀기지를 만들었니?\p"
-	.string "나도 이곳저곳 돌아다니면서\n"
+	.string "난 이곳저곳 돌아다니다가\n"
 	.string "드디어 이곳으로 정했어!\p"
 	.string "모처럼 왔으니까\n"
 	.string "포켓몬 승부하지 않을래?$"
@@ -23,7 +23,7 @@ SecretBase_Text_Trainer0PreChampion: @ 82749ED
     .string "넌 이미 비밀기지를 만들었니?\p"
 	.string "난 이곳저곳 돌아다니다가\n"
 	.string "드디어 이곳으로 정했어!\p"
-	.string "천천히 갔다 와!$"
+	.string "천천히 있다 가!$"
 
 SecretBase_Text_Trainer5Intro: @ 8274A64
     .string "비밀기지를 만들 수 있는 곳은\n"
@@ -37,10 +37,10 @@ SecretBase_Text_Trainer5AcceptBattle: @ 8274AFA
     .string "그럼 간다!$"
 
 SecretBase_Text_Trainer5DeclineBattle: @ 8274B0B
-    .string "그래 지금은 안 되는구나$"
+    .string "그래 지금은 안 되는구나...$"
 
 SecretBase_Text_Trainer5Defeated:: @ 8274B24
-    .string "음 내 패배네\n"
+    .string "으-음 내 패배네...\n"
 	.string "내가 진 건 비밀이야!$"
 
 SecretBase_Text_Trainer5PostBattle: @ 8274B6C
@@ -67,7 +67,7 @@ SecretBase_Text_Trainer1AcceptBattle: @ 8274CB0
 
 SecretBase_Text_Trainer1DeclineBattle: @ 8274CDA
     .string "엇 이곳에 관심없어?\n"
-	.string "그래-$"
+	.string "그렇구나-$"
 
 SecretBase_Text_Trainer1Defeated:: @ 8274D13
     .string "더는 안 되겠다!\n"
@@ -85,30 +85,30 @@ SecretBase_Text_Trainer1PreChampion: @ 8274D69
 
 SecretBase_Text_Trainer6Intro: @ 8274DD2
     .string "내 포켓몬 연구소에\n"
-	.string "잘 왔다!\p"
+	.string "잘 왔어!\p"
 	.string "여기서 포켓몬 승부에 대해\n"
-	.string "몰래 공부를 하고 있단다\p"
+	.string "몰래 공부를 하고 있지\p"
 	.string "어때 내 실력을 보여줄까?$"
 
 SecretBase_Text_Trainer6AcceptBattle: @ 8274E41
     .string "진심으로 간다!$"
 
 SecretBase_Text_Trainer6DeclineBattle: @ 8274E5A
-    .string "그럼 또 다음에 하자!$"
+    .string "그럼 다음에 하자!$"
 
 SecretBase_Text_Trainer6Defeated:: @ 8274E75
-    .string "으-음 나도 멀었네\n"
+    .string "으-음 나도 멀었네-\n"
 	.string "더 공부해야겠다!$"
 
 SecretBase_Text_Trainer6PostBattle: @ 8274EB3
-    .string "승부해줘서 고마워!\n"
+    .string "승부해 줘서 고마워!\n"
 	.string "내일 또 놀러 와-$"
 
 SecretBase_Text_Trainer6PreChampion: @ 8274EF1
     .string "내 포켓몬 연구소에\n"
-	.string "잘 왔다!\p"
+	.string "잘 왔어!\p"
 	.string "여기서 포켓몬 승부에 대해\n"
-	.string "몰래 공부를 하고 있단다$"
+	.string "몰래 공부를 하고 있지$"
 
 SecretBase_Text_Trainer2Intro: @ 8274F39
     .string "커다란 집도 좋지만\n"
@@ -126,13 +126,12 @@ SecretBase_Text_Trainer2DeclineBattle: @ 8274FDA
 
 SecretBase_Text_Trainer2Defeated:: @ 8274FFE
     .string "당했다-!\n"
-	.string "하지만 포켓몬 승부는 즐겁지-!$"
+	.string "하지만 포켓몬 승부는 즐거워-!$"
 
 SecretBase_Text_Trainer2PostBattle: @ 827502A
-    .string "다음엔 굿즈나 장식품을\n"
-    .string "사러가야겠어\p"
-    .string "다른 사람들이 내 비밀기지에서\n"
-    .string "놀 수 있게 말이야$"
+    .string "자 굿즈라도 사러 가볼까?\p"
+    .string "내 비밀기지에서\n"
+    .string "모두가 재밌게 놀 수 있도록 말이야!$"
 
 SecretBase_Text_Trainer2PreChampion: @ 82750A4
     .string "커다란 집도 좋지만\n"
@@ -149,21 +148,21 @@ SecretBase_Text_Trainer7Intro: @ 8275114
 	.string "승부해 주실래요?$"
 
 SecretBase_Text_Trainer7AcceptBattle: @ 82751AF
-    .string "그럼 부탁드릴게요$"
+    .string "그럼 잘 부탁드립니다$"
 
 SecretBase_Text_Trainer7DeclineBattle: @ 82751CA
-    .string "그래요 그건 아쉽네요...$"
+    .string "그렇군요 아쉽네요...$"
 
 SecretBase_Text_Trainer7Defeated:: @ 82751E1
-    .string "졌어요...$"
+    .string "졌습니다...$"
 
 SecretBase_Text_Trainer7PostBattle: @ 82751EC
     .string "아아 즐거웠어요!\n"
-	.string "다음은 쇼핑이라도 할까나$"
+	.string "다음은 쇼핑이나 할까$"
 
 SecretBase_Text_Trainer7PreChampion: @ 8275226
     .string "저는 굿즈 쇼핑을\n"
-	.string "엄청 좋아해요!\p"
+	.string "엄청 좋아해요\p"
 	.string "그리고 그만큼 포켓몬 키우기도\n"
 	.string "엄청 좋아해요$"
 
@@ -175,7 +174,7 @@ SecretBase_Text_Trainer3Intro: @ 8275287
 	.string "포켓몬 승부하지 않을래?$"
 
 SecretBase_Text_Trainer3AcceptBattle: @ 8275315
-    .string "간단히 끝내지는 않겠어!$"
+    .string "간단히 끝나진 않겠어!$"
 
 SecretBase_Text_Trainer3DeclineBattle: @ 8275330
     .string "혹시 찾는 데 지쳐버린 거야?$"
@@ -250,11 +249,11 @@ SecretBase_Text_Trainer9Intro: @ 82757B5
 	.string "그 사람이 어떤 센스가 있는지\l"
 	.string "자-알 알 수 있어!\p"
 	.string "내 센스는 어떤 것 같아?\n"
-	.string "우후후 아무것도 말하지 않는구나!\p"
+	.string "우후후 아무 말도 안 하는구나!\p"
 	.string "승부 센스도 시험해 볼래?$"
 
 SecretBase_Text_Trainer9AcceptBattle: @ 8275884
-    .string "마음껏 간다!$"
+    .string "있는 힘껏 간다!$"
 
 SecretBase_Text_Trainer9DeclineBattle: @ 827589D
     .string "언제라도 내 센스를 보여줄게!$"
@@ -272,4 +271,4 @@ SecretBase_Text_Trainer9PreChampion: @ 8275944
 	.string "그 사람이 어떤 센스가 있는지\l"
 	.string "자-알 알 수 있어!\p"
 	.string "내 센스는 어떤 것 같아?\n"
-	.string "우후후 아무것도 말하지 않는구나!$"
+	.string "우후후 아무 말도 안 하는구나!$"
