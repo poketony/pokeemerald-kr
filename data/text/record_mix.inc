@@ -1,6 +1,11 @@
 Text_WouldYouLikeToMixRecords: @ 827260D
-	.string "다른 플레이어와\n"
-	.string "레코드 섞기를 하시겠습니까?$"
+	.string "친구와 리포트를\n"
+	.string "섞으시겠습니까?$"
+	// おともだちと レポ-トをｎ
+	// まぜますか?
 
 Text_WeHopeToSeeYouAgain: @ 8272640
-	.string "그럼 또 방문해 주십시오$"
+	.string "다음번\n"
+	.string "방문을 기다리고 있겠습니다!$"
+	// またのｎ
+	// ごりようを おまち してます!

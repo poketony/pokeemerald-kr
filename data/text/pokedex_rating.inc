@@ -5,7 +5,7 @@ gBirchDexRatingText_AreYouCurious::
 
 gBirchDexRatingText_Cancel:
 	.string "응? 보여 줄 정도로\n"
-	.string "포켓몬을 잡지 않았구나$"
+	.string "포켓몬을 잡진 않았나 보구나$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught::
 	.string "흠흠...\p"
@@ -42,7 +42,7 @@ gBirchDexRatingText_LessThan70::
 
 gBirchDexRatingText_LessThan80::
 	.string "멋진 포켓몬 도감이 될 것 같군\n"
-	.string "그런 예감이 많이 들어!$"
+	.string "그런 예감이 들어서 기대되는걸!$"
 
 gBirchDexRatingText_LessThan90::
 	.string "이만큼이나 모으다니...\n"
@@ -67,7 +67,7 @@ gBirchDexRatingText_LessThan130::
 
 gBirchDexRatingText_LessThan140::
 	.string "친해지면 진화하는\n"
-	.string "포켓몬도 있다고 한다!$"
+	.string "포켓몬도 있다더구나!$"
 
 gBirchDexRatingText_LessThan150::
 	.string "호연지방에는 이렇게나\n"
@@ -76,12 +76,12 @@ gBirchDexRatingText_LessThan150::
 gBirchDexRatingText_LessThan160::
 	.string "가끔씩 대량발생하는\n"
 	.string "포켓몬이 있는 것 같더구나\l"
-	.string "그 기회를 놓치지 마라!$"
+	.string "그 기회를 놓치지 말거라!$"
 
 gBirchDexRatingText_LessThan170::
 	.string "너의 도감을 보면\n"
 	.string "호연지방 포켓몬의\l"
-	.string "모든 것을 알 수 있을 것 같아$"
+	.string "모든 것을 알 수 있을 것 같구나!$"
 
 gBirchDexRatingText_LessThan180::
 	.string "너는 포켓몬 박사로서도\n"
@@ -100,7 +100,6 @@ gBirchDexRatingText_DexCompleted::
 	.string "포켓몬 도감 완성이다!!$"
 
 gBirchDexRatingText_OnANationwideBasis::
-	.string "흠흠...\n"
-	.string "전국적으로는...\p"
+	.string "흠흠 전국적으로는...\p"
 	.string "발견한 포켓몬 {STR_VAR_1}마리,\n"
 	.string "잡은 포켓몬 {STR_VAR_2}마리군...$"

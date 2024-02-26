@@ -128,7 +128,7 @@ gText_AppealAsGoodAsThoseBeforeIt::
 	.string "같은 정도의 어필을 보인다$"
 
 gText_AppealAsGoodAsOneBeforeIt::
-	.string "하나 앞의 포켓몬 어필과\n"
+	.string "하나 앞의 포켓몬의 어필과\n"
 	.string "같은 정도로 잘 할 수 있다$"
 
 gText_AppealBetterLaterItsPerformed::
@@ -137,19 +137,19 @@ gText_AppealBetterLaterItsPerformed::
 
 gText_AppealVariesDependingOnTiming::
 	.string "쓸 때마다 어필의 완성도가\n"
-	.string "여러 가지로 바뀐다$"
+	.string "다양하게 바뀐다$"
 
 gText_WorksWellIfSameTypeAsBefore::
-	.string "하나 앞의 포켓몬 어필과\n"
+	.string "하나 앞의 포켓몬의 어필과\n"
 	.string "타입이 같다면 마음에 들게 된다$"
 
 gText_WorksWellIfDifferentTypeAsBefore::
-	.string "하나 앞의 포켓몬 어필과\n"
+	.string "하나 앞의 포켓몬의 어필과\n"
 	.string "타입이 다르다면 마음에 들게 된다$"
 
 gText_AffectedByAppealInFront::
-	.string "하나 앞의 포켓몬 어필이\n"
-	.string "잘 된 정도에 따라 영향을 받는다$"
+	.string "하나 앞의 포켓몬의 어필이\n"
+	.string "잘된 정도에 따라 영향을 받는다$"
 
 gText_UpsConditionHelpsPreventNervousness::
 	.string "어필 컨디션이 올라간다\n"
@@ -161,15 +161,15 @@ gText_AppealWorksWellIfConditionGood::
 
 gText_NextAppealMadeEarlier::
 	.string "이다음의 어필을\n"
-	.string "첫 번째로 할 수 있다$"
+	.string "첫 번째에 할 수 있다$"
 
 gText_NextAppealMadeLater::
 	.string "이다음의 어필을\n"
-	.string "마지막에 쓸 수 있다$"
+	.string "마지막에 할 수 있다$"
 
 gText_TurnOrderMoreEasilyScrambled::
-	.string "이다음의 어필의\n"
-	.string "순서가 바뀌기 쉬워진다$"
+	.string "이다음의 어필 순서가\n"
+	.string "바뀌기 쉬워진다$"
 
 gText_ScrambleOrderOfNextAppeals::
 	.string "이다음의 어필 순서를\n"
@@ -180,7 +180,7 @@ gText_AppealExcitesAudienceInAnyContest::
 	.string "반드시 열광하는 어필$"
 
 gText_BadlyStartlesMonsGoodAppeals::
-	.string "어필이 잘 된 포켓몬 모두를\n"
+	.string "어필이 잘된 포켓몬 모두를\n"
 	.string "상당히 놀라게 만든다$"
 
 gText_AppealBestMoreCrowdExcited::
@@ -236,19 +236,19 @@ gText_LockOn::
 @ Contest type names
 
 gContestMoveTypeCoolText::
-	.string "근사한$"
+	.string "근사함$"
 
 gContestMoveTypeBeautyText::
-	.string "아름다운$"
+	.string "아름다움$"
 
 gContestMoveTypeCuteText::
-	.string "귀여운$"
+	.string "귀여움$"
 
 gContestMoveTypeSmartText::
-	.string "슬기로운$"
+	.string "슬기로움$"
 
 gContestMoveTypeToughText::
-	.string "강인한$"
+	.string "강인함$"
 
 gText_AppealNumWhichMoveWillBePlayed::
 	.string "{STR_VAR_1}번째 어필!\n"
@@ -335,8 +335,8 @@ gText_MonHasntMadeItsAppeal::
 	.string "어필하지 않았다!{PAUSE_UNTIL_PRESS}$"
 
 gText_AnticipationSwelledForMonsAppealNext2::
-	.string "{STR_VAR_1}의 어필에\n"
-	.string " 기대가 높아졌다!$"
+	.string "다음 {STR_VAR_1}의 어필에\n"
+	.string "기대가 높아졌다!$"
 
 gText_EmptyContestString::
 	.string "$"
@@ -414,11 +414,11 @@ gText_AnticipationRoseForUpcomingAppeals::
 	.string "조금 기대가 높아졌다!$"
 
 gText_StoodOutAsMuchAsSpecialAppeals::
-	.string "스페셜 어필이 있는\n"
-	.string "수만큼 주목받았다!$"
+	.string "스페셜 어필이 있는 수만큼\n"
+	.string "주목받았다!$"
 
 gText_StoodOutAsMuchAsMon::
-	.string "{STR_VAR_1}{K_WAGWA})\n"
+	.string "{STR_VAR_1}{K_WAGWA}\n"
 	.string "같은 정도로 주목받았다!$"
 
 gText_JammedAppealsMadeEvenLessNoticeable::
@@ -427,7 +427,7 @@ gText_JammedAppealsMadeEvenLessNoticeable::
 
 gText_EveryonesAppealsMadeSame::
 	.string "전원의 어필과\n"
-	.string "수준이 같아 보이도록 보여줬다!$"
+	.string "같아 보이도록 보여줬다!$"
 
 gText_BecameMoreConsciousOfOtherMons::
 	.string "다른 포켓몬에 대해 평소보다\n"
@@ -457,7 +457,7 @@ gText_TriedToStartleOtherMons::
 	.string "놀라게 만들어 보았다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToDazzleOthers::
-	.string "관객의 눈을\n"
+	.string "모두의 눈을\n"
 	.string "속이도록 했다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAwayFromMon::
@@ -466,7 +466,7 @@ gText_JudgeLookedAwayFromMon::
 
 gText_TriedToUnnerveNextMon::
 	.string "다음을 기다리는 포켓몬을\n"
-	.string "긴장하도록 했다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "긴장하게 했다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameNervous::
 	.string "{STR_VAR_1}{K_EUNNEUN}\n"
@@ -474,7 +474,7 @@ gText_MonBecameNervous::
 
 gText_AppealTriedToUnnerveWaitingMons::
 	.string "어필을 아직 하지 않은 포켓몬을\n"
-	.string "긴장하도록 했다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "긴장하게 했다!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TauntedMonsDoingWell::
 	.string "컨디션이 좋은 포켓몬을\n"
@@ -652,8 +652,8 @@ gText_ButItMessedUp2::
 	.string "그러나 실패하고 말았다!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItFailedToMakeTargetNervous::
-	.string "그러나 긴장\n"
-	.string "시킬 수 없었다!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "그러나\n"
+	.string "긴장시킬 수 없었다!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItFailedToMakeAnyoneNervous::
 	.string "그러나 아무도\n"

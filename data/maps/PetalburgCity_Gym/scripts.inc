@@ -1232,7 +1232,7 @@ PetalburgCity_Gym_EventScript_GymStatue:: @ 8205798
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon: @ 82057A2
 	.string "아빠: 응?\p"
 	.string "{PLAYER}{K_I}잖아!\n"
-	.string "그래 이사가 다 끝났나 보네\p"
+	.string "그래 이사가 다 끝났나 보구나\p"
 	.string "그건 그렇고\n"
 	.string "용케 여기까지 혼자 왔는걸\p"
 	.string "그렇군...\n"
@@ -1240,7 +1240,7 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon: @ 82057A2
 	.string "흠... 그럼 {PLAYER}{K_I}도\n"
 	.string "나 같은\l"
 	.string "포켓몬 트레이너가 되는 건가\p"
-	.string "그거 기대되는걸!$"
+	.string "그거 기대되는데!$"
 	// パパ『ん?ｐ
 	// §あじゃ ないか!ｎ
 	// そうか ひっこしが おわったんだねｐ

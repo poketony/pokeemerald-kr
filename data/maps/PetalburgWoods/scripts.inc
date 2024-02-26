@@ -346,7 +346,7 @@ PetalburgWoods_Text_IWasGoingToAmbushYou: @ 822E3AA
 
 PetalburgWoods_Text_HandOverThosePapers: @ 822E428
 	.string "야! 데봉의 연구원!\p"
-	.string "그 서류를 일로 내놔!$"
+	.string "그 서류 일로 내놔!$"
 	// やい! デボンの けんきゅういん!ｐ
 	// その しょるいを こっちに よこしやがれ!
 

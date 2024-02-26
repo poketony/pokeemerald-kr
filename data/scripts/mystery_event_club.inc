@@ -98,82 +98,130 @@ MysteryEventClub_EventScript_Ret:: @ 8291686
 MysteryEventClub_Text_CollectTrainerProfiles: @ 8291687
 	.string "안녕하세요\n"
 	.string "미소가 멋진 트레이너님!\p"
-	.string "저는 트레이너들의 프로필을\n"
-	.string "모으고 있습니다$"
+	.string "저는 포켓몬 트레이너들의\n"
+	.string "프로필을 모으는 게\l"
+	.string "취미인데요...$"
+	// こんにちはｎ
+	// えがおの すてきな トレ-ナ-さん!ｐ
+	// ぼくは ポケモントレ-ナ-さん たちのｎ
+	// プロフィ-ルを あつめるのがｌ
+	// しゅみ なんだけど……
 
 MysteryEventClub_Text_MayISeeYourProfile: @ 82916FF
-	.string "혹시 당신의 프로필을\n"
-	.string "한번 봐도 될까요?$"
+	.string "어때요? 당신의 프로필을\n"
+	.string "제게 알려 주실 수 있나요?$"
+	// どうかな? きみの プロフィ-ルｎ
+	// ぼくに おしえて もらえないかな?
 
 MysteryEventClub_Text_EasyChatExplanation: @ 8291729
-	.string "4개의 단어를 적절히 이용해서\n"
-	.string "자신의 트레이너카드에\p"
-	.string "적고 싶은 말을\n"
-	.string "작성하시면 됩니다!\p"
-	.string "여기 제가 4개의 단어로\n"
-	.string "적은 프로필을 보여드릴테니\p"
-	.string "4개의 단어를 각각 바꿔서\l"
-	.string "자신만의 프로필을 만들면 됩니다\p"
-	.string "쓸 수 있는 단어들은 많이 있으니\n"
-	.string "한번 멋진 프로필을 만들어보세요!\p"
-	.string "또한 그룹별로 포켓몬, 생활,\n"
-	.string "취미 등으로 나누어져 있으니\l"
-	.string "쉽게 만드실 수 있을 거예요!\p"
-	.string "제일 먼저 그룹을 고르시면\n"
-	.string "해당 그룹의\l"
-	.string "단어 리스트가 나옵니다!\p"
-	.string "그중에서\n"
-	.string "마음에 드는 것을 고르세요!\p"
-	.string "그렇게 4개의 단어를 모두 다 바꾸면\n"
-	.string "자신만의 프로필이 완성됩니다!$"
+	.string "프로필은 좋아하는 말을\n"
+	.string "4개 조합해서 만들면 돼요!\p"
+	.string "지금부터 제가\n"
+	.string "적당한 4개의 말로 만든\l"
+	.string "프로필을 보여드릴 테니\p"
+	.string "당신은 그 말을\n"
+	.string "원하는 대로 바꿔서\l"
+	.string "자신만의 프로필을 만들면 됩니다!\p"
+	.string "쓸 수 있는 말들은\n"
+	.string "굉장히 많이 있어요\l"
+	.string "그룹별로 나뉘어 있답니다\l"
+	.string "포켓몬 생활 취미...\l"
+	.string "같은 식으로 말이죠!\p"
+	.string "그러니 우선\n"
+	.string "그룹을 선택하고...\l"
+	.string "그 뒤에 선택한 그룹 안에 있는\l"
+	.string "수많은 말들 중에서\l"
+	.string "마음에 드는 것을\l"
+	.string "고르시면 됩니다!$"
+	// プロフィ-ルは すきな ことばをｎ
+	// 4つ くみあわせて つくるんだよ!ｐ
+	// これから ぼくがｎ
+	// てきとうな 4つの ことばで つくったｌ
+	// プロフィ-ルを みせるからｐ
+	// きみは その ことばをｎ
+	// すきなものに いれかえてｌ
+	// きみだけの プロフィ-ルに してね!ｐ
+	// えらべる ことばはｎ
+	// すごく たくさん あるからｌ
+	// グル-プに わかれて いるんだｌ
+	// ポケモン とか せいかつ とか しゅみ…ｌ
+	// という ぐあいにね!ｐ
+	// だから まずはｎ
+	// グル-プを えらんで……ｌ
+	// そのあとに えらんだ グル-プのｌ
+	// ことばが いくつも でてくるからｌ
+	// そこから すきな ことばをｌ
+	// みつけてね!
 
 MysteryEventClub_Text_LetsSeeItThen: @ 8291969
-	.string "네 감사합니다!\n"
-	.string "그럼 당신의 프로필을 알려 주세요!$"
+	.string "앗싸! 감사합니다!\n"
+	.string "그럼 바로 알려 주세요!$"
+	// やった! ありがとう!ｎ
+	// じゃ さっそく きかせてよ!
 
 MysteryEventClub_Text_ImagineYouWouldHaveWonderfulProfile: @ 8291991
-	.string "음 그런가요?\p"
+	.string "그럴 수가...\p"
 	.string "당신의 프로필은 무척\n"
 	.string "멋질 것 같았는데...$"
+	// そんなあ……ｐ
+	// きみの プロフィ-ルは さぞかしｎ
+	// すてきだと おもうんだけど なぁ……
 
 MysteryEventClub_Text_NotIntoItRightNow: @ 82919DC
-	.string "음? 지금은 프로필이\n" 
-	.string "생각나지 않으신가요?\p"
+	.string "어라? 지금은 내키지 않으신가요?\p"
 	.string "뭐 언제든 괜찮습니다!$"
+	// あれ? いまは きが のらないんだね?ｐ
+	// だったら いつでも いいよ!
 
 MysteryEventClub_Text_YouHaveWonderfulSmile: @ 8291A1B
 	.string "안녕하세요\n"
 	.string "미소가 멋진 트레이너님!$"
+	// こんにちはｎ
+	// えがおの すてきな トレ-ナ-さん!
 
 MysteryEventClub_Text_MayISeeYourNewProfile: @ 8291A4F
-	.string "그럼 당신의\n"
-	.string "새로운 프로필을 봐도 될까요?$"
+	.string "당신의 새로운 프로필을\n"
+	.string "알려 주실 수 있나요?$"
+	// きみの あたらしい プロフィ-ルをｎ
+	// おしえて くれるのかな?
 
 MysteryEventClub_Text_EvenBetterThanLastProfile: @ 8291A6B
-	.string "네 감사합니다!\p"
-	.string "전보다 더 멋진 프로필을\n"
-	.string "기대할게요!$"
+	.string "앗싸! 감사합니다!\p"
+	.string "그럼 전보다 더\n"
+	.string "멋진 프로필을 기대할게요!$"
+	// やった! ありがとう!ｐ
+	// じゃあ まえにも ましてｎ
+	// すてきな やつを きたい してるよ!
 
 MysteryEventClub_Text_LikeProfileWayItIs: @ 8291ABA
-	.string "음?\n"
-	.string "지금의 프로필로 괜찮으신가요?\p"
-	.string "아니아니 싫다고 하는게 아니에요!\n"
-	.string "지금도 충분히 멋진\l"
-	.string "프로필이라고 생각한답니다!$"
+	.string "지금 그대로도 괜찮으신가요?\p"
+	.string "그렇겠죠 무척이나 멋진\n"
+	.string "프로필이니까요!$"
+	// いまの ままが いいんだね?ｐ
+	// そうだよね とても すてきなｎ
+	// プロフィ-ル だもの!
 
 MysteryEventClub_Text_FantasticProfile: @ 8291B22
-	.string "후-훌룡합니다!\p"
-	.string "정말로 멋진 프로필이에요!!\n"
-	.string "당신 그 자체의 프로필...\p"
-	.string "듣는 사람은 누구든지\n"
-	.string "당신에게 빠져버릴 겁니다!\p"
-	.string "멋진 프로필을 알려주셔서\n"
-	.string "감사드려요!$"
+	.string "후 훌륭합니다!\p"
+	.string "정말 당신 그 자체의 느낌이 담긴\n"
+	.string "멋진 프로필이에요!\p"
+	.string "이걸 들은 사람은\n"
+	.string "누구든지 당신에게 푹 빠져버리겠죠!\p"
+	.string "알려 주셔서 감사합니다!$"
+	// すっ すばらしい!ｐ
+	// まさに きみ そのもの って かんじのｎ
+	// すてきな プロフィ-ル!ｐ
+	// これを きいた ひとはｎ
+	// だれもが きみの とりこに なるだろうね!ｐ
+	// どうも ありがとう!
 
 @ Unused
 MysteryEventClub_Text_YouKnowSecretSaying: @ 8291BB7
-	.string "음? 당신\n"
-	.string "비밀의 말을 알고 있군요!\p"
-	.string "그건 이제 당신이\n"
-	.string "이상한 사건 클럽의\l"
-	.string "회원이라는 뜻이죠!$"
+	.string "이럴 수가!\n"
+	.string "그 말을 알고 있을 줄이야...\p"
+	.string "그렇다는 건 당신도\n"
+	.string "이상한 사건 클럽의 동료란 거군요!$"
+	// ややっ!ｎ
+	// その ことばを しっている とは……ｐ
+	// という ことは きみもｎ
+	// ふしぎな できごと クラブの なかま だね!

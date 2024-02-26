@@ -1523,22 +1523,24 @@ LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests: @ 827AEE3
 LilycoveCity_ContestLobby_Text_EnterContest1: @ 827AF28
 	.string "당신의 포켓몬도\n"
 	.string "참가시켜 보겠습니까?$"
+	// あなたの ポケモンも コンテストにｎ
+	// さんか させて みませんか?
 
 LilycoveCity_ContestLobby_Text_WhichTopic1: @ 827AF5E
 	.string "어느 설명을 듣겠습니까?$"
+	// どの せつめいを ききますか?
 
 LilycoveCity_ContestLobby_Text_ExplainContests: @ 827AF7A
-	.string "포켓몬 콘테스트는\n"
-	.string "4명의 트레이너가\p"
-	.string "포켓몬을 1마리씩 데리고 와서\n"
+	.string "포켓몬 콘테스트는 4명의 트레이너가\n"
+	.string "1마리씩 포켓몬을 데리고 와서\l"
 	.string "총 4마리로 진행됩니다!\p"
-	.string "콘테스트는 1차 심사와\n"
+	.string "콘테스트에는 1차 심사와\n"
 	.string "2차 심사가 있습니다!\p"
 	.string "1차 심사에서는 회장의\n"
-	.string "관객이 맘에 드는\l"
-	.string "포켓몬에게 투표합니다!\p"
-	.string "2차 심사에서는 포켓몬의 특기인\n"
-	.string "기술로 어필합니다!\l"
+	.string "관객이 맘에 드는 포켓몬에게\l"
+	.string "투표를 합니다!\p"
+	.string "2차 심사에서는 포켓몬이 순서대로\n"
+	.string "특기인 기술로 어필을 합니다!\l"
 	.string "심사위원의 주목을 받거나\l"
 	.string "관객을 기술로 열광시키거나...\l"
 	.string "어쨌든 마구 눈에 띄면 됩니다!\p"
@@ -1546,37 +1548,74 @@ LilycoveCity_ContestLobby_Text_ExplainContests: @ 827AF7A
 	.string "종합 포인트를 합산하여\l"
 	.string "가장 평가가 높은 포켓몬이\l"
 	.string "우승하게 됩니다!$"
+	// ポケモンコンテストは 4にんの トレ-ナ-がｎ
+	// 1ぴきずつ ポケモンを もちよってｌ
+	// 4ひきで おこなわれます!ｐ
+	// コンテスト には 1じ しんさとｎ
+	// 2じ しんさが あります!ｐ
+	// 1じ しんさでは かいじょうのｎ
+	// おきゃくさまが きにいった ポケモンをｌ
+	// とうひょう します!ｐ
+	// 2じ しんさでは ポケモンが じゅんばんにｎ
+	// とくいな わざで アピ-ルを します!ｌ
+	// しんさいんに ちゅうもくされたりｌ
+	// おきゃくさまに わざを きにいられたり……ｌ
+	// とにかく たくさん めだって ください!ｐ
+	// 1じしんさと 2じしんさの けっかからｎ
+	// そうごうポイントを だしてｌ
+	// いちばん たかかった ポケモンがｌ
+	// ゆうしょう できます!
 
 LilycoveCity_ContestLobby_Text_ExplainContestTypes: @ 827B17D
 	.string "콘테스트는 총 5종류!\n"
-	.string "근사함, 아름다움, 귀여움\l"
-	.string "슬기로움, 그리고 강인함입니다!\p"
-	.string "참가할 포켓몬이 가장\n"
-	.string "자신 있어 할 만한 콘테스트를\l"
-	.string "선택해 주십시오$"
+	.string "근사함 아름다움 귀여움\l"
+	.string "슬기로움 그리고 강인함입니다!\p"
+	.string "참가할 포켓몬에게\n"
+	.string "어울리는 콘테스트를\l"
+	.string "선택해 주세요!$"
+	// コンテストには 5しゅるい あります!ｐ
+	// かっこよさ うつくしさ かわいさｎ
+	// かしこさ そして たくましさｌ
+	// いじょうの 5しゅるい です!ｐ
+	// エントリ- する ポケモンにｎ
+	// ピッタリの コンテストをｌ
+	// えらんで あげて くださいね!
 
 LilycoveCity_ContestLobby_Text_ExplainContestRanks: @ 827B221
 	.string "포켓몬 콘테스트에는\n"
-	.string "노말랭크, 슈퍼랭크\p"
-	.string "하이퍼랭크, 마스터랭크의\n"
-	.string "4개 랭크가 있습니다\p"
+	.string "노말랭크 슈퍼랭크\l"
+	.string "하이퍼랭크 마스터랭크라고 하는\l"
+	.string "4개의 랭크가 있습니다\p"
 	.string "노말랭크에는 모든\n"
 	.string "포켓몬이 나갈 수 있습니다\p"
 	.string "노말랭크에서 우승한\n"
-	.string "포켓몬은 같은 종류의\p"
-	.string "슈퍼랭크의 콘테스트에\n"
-	.string "나갈 수 있게 됩니다!\p"
-	.string "마찬가지로 슈퍼에서\n"
-	.string "우승하면 하이퍼에\p"
-	.string "하이퍼에서 우승하면\n"
+	.string "포켓몬은 같은 종류의\l"
+	.string "슈퍼랭크 콘테스트에 나갈 수 있게 됩니다\p"
+	.string "마찬가지로 슈퍼에서 우승하면\n"
+	.string "하이퍼에 하이퍼에서 우승하면\l"
 	.string "마스터랭크에 나갈 수 있습니다\p"
 	.string "마스터랭크에서 우승한\n"
-	.string "포켓몬은 몇 번이고\p"
-	.string "마스터랭크의 콘테스트에\n"
-	.string "나갈 수 있습니다$"
+	.string "포켓몬은 몇 번이고 마스터랭크의\l"
+	.string "콘테스트에 나갈 수 있습니다$"
+	// ポケモンコンテスト にはｎ
+	// ノ-マルランク ス-パ-ランクｌ
+	// ハイパ-ランク そしてマスタ-ランクｌ
+	// という 4つの ランクが ありますｐ
+	// ノ-マルランク には すべてのｎ
+	// ポケモンが でることが できますｐ
+	// ノ-マルランクで ゆうしょう できたｎ
+	// ポケモンは おなじ しゅるいのｌ
+	// ス-パ-ランクの コンテストに でられますｐ
+	// おなじように ス-パ-で ゆうしょう すればｎ
+	// ハイパ-に ハイパ-で ゆうしょう すればｌ
+	// マスタ-ランクに でられるのですｐ
+	// マスタ-ランクで ゆうしょう したｎ
+	// ポケモンは なんどでも マスタ-ランクのｌ
+	// コンテストに でる ことが できます
 
 LilycoveCity_ContestLobby_Text_EnterWhichRank: @ 827B3FF
 	.string "어느 랭크에 참가하겠습니까?$"
+	// どの ランクに さんか しますか?
 
 LilycoveCity_ContestLobby_Text_EnterWhichContest1: @ 827B423
 	.string "어느 콘테스트에 참가하겠습니까?$"
@@ -1584,35 +1623,48 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest1: @ 827B423
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon1: @ 827B44A
 	.string "어느 포켓몬을 참가시키겠습니까?$"
+	// どの ポケモンを さんか させますか?
 
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank: @ 827B471
 	.string "죄송합니다만\n"
 	.string "손님의 포켓몬으로는\l"
 	.string "이 랭크에는 아직\l"
 	.string "참가할 수 없는 듯합니다...$"
+	// もうしわけ ないのですがｎ
+	// おきゃくさまの ポケモンですとｌ
+	// このランクには まだ しゅつじょうｌ
+	// できないようです…
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart: @ 827B4C4
 	.string "죄송합니다!\n"
 	.string "알은 참가할 수 없습니다...$"
+	// ごめんなさい!ｎ
+	// タマゴは しゅつじょう できないんです……
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest: @ 827B501
 	.string "그 포켓몬은 건강하지 않은 것\n"
 	.string "같으니 참가할 수 없습니다...$"
+	// そちらの ポケモンは げんきがないｎ
+	// ようなので しゅつじょう できないです……
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway: @ 827B547
 	.string "어라 그 리본은...\p"
 	.string "손님의 포켓몬은 이미\n"
 	.string "이 콘테스트에서 우승한 적이\l"
-	.string "있습니다..\p"
-	.string "그래도 괜찮겠습니까?$"
+	.string "있습니다... 그래도 괜찮겠습니까?$"
+	// あら そちらの リボンは……ｐ
+	// おきゃくさまの ポケモンは もうｎ
+	// この コンテストで ゆうしょう したことがｌ
+	// あるのですね… それでも いいですか?
 
 LilycoveCity_ContestLobby_Text_ConfirmContestMon: @ 827B5C4
 	.string "그 포켓몬으로 하시겠습니까?$"
+	// そちらの ポケモンで よろしいですか?
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4: @ 827B5E2
 	.string "그럼 손님의 포켓몬을\n"
 	.string "참가시킵니다!\l"
-	.string "참가 번호는\l"
+	.string "손님의 참가 번호는\l"
 	.string "4번입니다!\l"
 	.string "콘테스트가 곧 시작됩니다!$"
 	// それでは おきゃくさまの ポケモンをｎ
@@ -1624,33 +1676,58 @@ LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4: @ 827B5E2
 LilycoveCity_ContestLobby_Text_ComeThroughHere: @ 827B653
 	.string "그럼 이쪽으로 오세요!\n"
 	.string "힘내세요!$"
+	// それでは こちらへ どうぞ!ｎ
+	// がんばって くださいね!
 
 LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize: @ 827B67B
-	.string "콘테스트 우승 축하합니다!\p"
-	.string "상품을 받아 주세요!\n"
-	.string "자 여기 있습니다!$"
+	.string "콘테스트 우승\n"
+	.string "축하합니다!\p"
+	.string "상품은 이쪽에\n"
+	.string "있습니다! 자 받으세요!$"
+	// コンテストでの ゆうしょうｎ
+	// おめでとう ございます!ｐ
+	// しょうひんは こちらで おあずかりｎ
+	// して ありますよ! さあ どうぞ!
 
 LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater: @ 827B6E7
-	.string "그럼 또 다음에\n"
-	.string "가지러 와주십시오!$"
+	.string "그럼 다음에\n"
+	.string "가지러 와주세요!$"
+	// それでは また あとでｎ
+	// とりに きて くださいね!
 
 ContestHall_Text_GettingStartedParticipantsAsFollows: @ 827B711
-	.string "사회자: 네! 이제부터 {STR_VAR_3}랭크\n"
+	.string "사회자: 네! 이제부터\n"
+	.string "{STR_VAR_3}랭크\l"
 	.string "포켓몬 {STR_VAR_2}를\l"
 	.string "시작하겠습니다!\p"
 	.string "참가한 트레이너와\n"
 	.string "포켓몬들은 모두 이쪽!$"
+	// しかい『はい! これよりｎ
+	// §え ランクのｌ
+	// ポケモン §うコンテストがｌ
+	// はじまります!ｐ
+	// しゅつじょう される トレ-ナ-とｎ
+	// ポケモンの みなさんは こちら!
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink: @ 827B78F
-	.string "사회자: 네! 이제부터 친구 4인 통신\n"
+	.string "사회자: 네! 이제부터\n"
+	.string "친구 4인 통신\l"
 	.string "포켓몬 {STR_VAR_2}를\l"
 	.string "시작하겠습니다!\p"
 	.string "참가한 트레이너와\n"
 	.string "포켓몬들은 모두 이쪽!$"
+	// しかい『はい! これよりｎ
+	// おともだち 4にん つうしんのｌ
+	// ポケモン §うコンテストがｌ
+	// はじまります!ｐ
+	// しゅつじょう される トレ-ナ-とｎ
+	// ポケモンの みなさんは こちら!
 
 ContestHall_Text_EntryXTrainersMon: @ 827B815
 	.string "사회자: 참가 번호 {STR_VAR_2}번!\n"
-	.string "{STR_VAR_1}님의 {STR_VAR_3}!$"
+	.string "{STR_VAR_1}님의 {STR_VAR_3}입니다!$"
+	// しかい『エントリ-ナンバ- §うばん!ｎ
+	// §いさんの §え です!
 
 ContestHall_Text_SeenContestantsAudienceWillVote: @ 827B830
 	.string "사회자: 자\n"
@@ -1660,76 +1737,120 @@ ContestHall_Text_SeenContestantsAudienceWillVote: @ 827B830
 	.string "포켓몬의 인기투표를 해주십시오!\p"
 	.string "그럼 바로 시작합시다!\n"
 	.string "투표 부탁드립니다!$"
+	// しかい『さあｎ
+	// ポケモンの しょうかいが おわりましたｌ
+	// 1じ しんさに はいりましょう!ｐ
+	// かいじょうの おきゃくさまに よるｎ
+	// ポケモンの にんき とうひょうです!ｐ
+	// では さっそく はじめましょう!ｎ
+	// とうひょう おねがいします!
 
 ContestHall_Text_VotingUnderWay: @ 827B8F2
 	.string "                      투표 중...$"
+	//     とうひょう ちゅう…
 
 ContestHall_Text_VotingCompleteLetsAppeal: @ 827B904
 	.string "자!\n"
 	.string "투표가 끝났습니다!\l"
-	.string "포인트를 집계하는 동안에\l"
+	.string "집계하는 동안에\l"
 	.string "2차 심사를 시작하겠습니다!\p"
 	.string "2차 심사는 드디어\n"
 	.string "기다리시던 어필타임!\l"
 	.string "기술로 마구 어필합시다-!\p"
 	.string "그럼 힘내서 갑시다!\n"
-	.string "렛츠 어필!$"
+	.string "렛츠! 어필!$"
+	// さあ!ｎ
+	// いま とうひょうが おわりました!ｌ
+	// しゅうけいを している あいだにｌ
+	// 2じ しんさに うつりましょう!ｐ
+	// 2じ しんさは いよいよｎ
+	// おまちかねの アピ-ルタイム!ｌ
+	// わざで アピ-ル しまくりましょう-!ｐ
+	// では はりきって どうぞ!ｎ
+	// レッツ! アピ-ル!
 
 ContestHall_Text_ThatsItForJudging: @ 827BA15
-	.string "사회자: 거기까지--!!$"
+	.string "사회자: 네에 거기까지--!$"
+	// しかい『はあい そこまでえ--!
 
 ContestHall_Text_ThankYouForAppeals: @ 827BA30
 	.string "여러분들 대단한 어필이었습니다!\n"
 	.string "이것으로 모두 종료입니다!\l"
 	.string "수고하셨습니다!$"
+	// みなさん すばらしい アピ-ルでした!ｎ
+	// これで すべて しゅうりょう です!ｌ
+	// おつかれさまでした!
 
 ContestHall_Text_JudgeLooksReady: @ 827BAAC
 	.string "자 그럼 남은 것은\n"
-	.string "두근거리는 결과 발표입니다!\p"
-	.string "발표는 심사위원 쪽에서\n"
+	.string "두근거리는 결과 발표군요!\l"
+	.string "발표는 심사위원 쪽에서\l"
 	.string "이루어집니다!$"
+	// さて のこるはｎ
+	// ドキドキの けっかはっぴょう ですね!ｌ
+	// はっぴょうは しんさいんの ほうからｌ
+	// おこなわれます!
 
 ContestHall_Text_WeWillNowDeclareWinner: @ 827BB25
-	.string "심사위원: 그럼 발표하겠습니다!$"
+	.string "심사위원: 그럼... 발표하겠습니다!$"
+	// しんさいん『では… はっぴょう します!
 
 ContestHall_Text_CongratsTrainerXandMon: @ 827BB4C
-	.string "사회자: 참가 번호 {STR_VAR_2}번\p"
-	.string "{STR_VAR_3}님과 {STR_VAR_1}!\n"
+	.string "사회자: 참가 번호 {STR_VAR_2}번\n"
+	.string "{STR_VAR_3}님! 그리고 {STR_VAR_1}!\l"
 	.string "축하합니다!$"
+	// しかい『エントリ-ナンバ- §うばんｎ
+	// §えさん! そして §い!ｌ
+	// おめでとう ございます!
 
 ContestHall_Text_CongratsPleaseCompeteAgain: @ 827BB7A
 	.string "사회자: 축하합니다!\n"
 	.string "또 참가해 주세요!$"
+	// しかい『おめでとう ございます!ｎ
+	// また さんか してくださいね!
 
 ContestHall_Text_AcceptYourPrize: @ 827BBA8
 	.string "사회자: 자!\n"
-	.string "상품을 받아주세요!$"
+	.string "상품을 받아 주세요!$"
+	// しかい『さあ!ｎ
+	// しょうひんを おうけとり ください!
 
 ContestHall_Text_ConferRibbonAsPrize: @ 827BBD4
 	.string "상품으로\n"
-	.string "이 리본을 받아주세요!$"
+	.string "이 리본을 받아 주세요!$"
+	// しょうひんと してｎ
+	// この リボンを おうけとり ください!
 
 ContestHall_Text_ReceivedRibbon: @ 827BC00
-	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "리본을 받았다!$"
+	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
+	// §あは リボンを もらった!
 
 ContestHall_Text_PutRibbonOnMon: @ 827BC16
-	.string "{PLAYER}{K_EUNNEUN}\n"
-	.string "리본을\l"
+	.string "{PLAYER}{K_EUNNEUN} 리본을\n"
 	.string "{STR_VAR_1}에게 달아 줬다!$"
+	// §あは リボンをｎ
+	// §いに つけて あげた!
 
 ContestHall_Text_PickUpPrizeAtCounterLater: @ 827BC2F
 	.string "그럼 상품은 나중에\n"
 	.string "접수처에서 받아 주세요!\l"
-	.string "또 참가해 주세요!$"
+	.string "다음번 참가를 기다리고 있겠습니다!$"
+	// それでは しょうひんは あとでｎ
+	// うけつけで おうけとり ください!ｌ
+	// またの さんかを おまち してます!
 
 @ Unused
 ContestHall_Text_OnlyRegister4Players: @ 827BC82
-	.string "I only register four players for\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "If three other players link up, all\n"
-	.string "four may enter the same CONTEST.\p"
-	.string "Would you like to take part?$"
+	.string "여기에서는 포켓몬 콘테스트\n"
+	.string "4인 전용 접수를 받고 있습니다!\p"
+	.string "친구가 앞으로 3명 더 모이면\n"
+	.string "4명이서 같은 콘테스트에 나갈 수 있습니다!\l"
+	.string "참가하겠습니까?$"
+	// こちらは ポケモンコンテストのｎ
+	// 4めいさま せんようの うけつけです!ｐ
+	// おともだちが あと3めい そろえばｎ
+	// 4にんで おなじ コンテストに でられます!ｌ
+	// さんか しますか?
 
 LilycoveCity_ContestLobby_Text_ProgressWillBeSaved: @ 827BD17
 	.string "콘테스트에 참가하기 전에\n"
@@ -1743,33 +1864,49 @@ LilycoveCity_ContestLobby_Text_ParticipateAnotherTime: @ 827BD4F
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterContest2: @ 827BD7A
-	.string "Would you like to enter a CONTEST?$"
+	.string "콘테스트에\n"
+	.string "참가하겠습니까?$"
+	// コンテストにｎ
+	// さんか しますか?
 
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest: @ 827BD9D
-	.string "When four players are ready, connect\n"
-	.string "over a Game Link cable, and register\l"
-	.string "with me, please.\p"
-	.string "Please choose the same CONTEST\n"
-	.string "as your fellow contestants.\p"
-	.string "The CONTEST begins as soon as all\n"
-	.string "players register their entry.\p"
-	.string "After that, the usual CONTEST rules\n"
-	.string "apply.$"
+	.string "친구인 트레이너가 4명\n"
+	.string "모이면 케이블을 연결한 뒤\l"
+	.string "이쪽에서 참가해 주십시오!\p"
+	.string "콘테스트는 같은 종류를\n"
+	.string "선택하셔야 합니다!\p"
+	.string "전원의 참가가 끝나면\n"
+	.string "콘테스트가 시작되므로\l"
+	.string "그 뒤부터는 평소처럼\l"
+	.string "열심히 해주세요!$"
+	// トレ-ナ-の おともだちが 4めいｎ
+	// そろったら ケ-ブルを つないでｌ
+	// こちらで エントリ- して ください!ｐ
+	// コンテストは おなじ ものをｎ
+	// えらんで くださいね!ｐ
+	// みなさんの エントリ-が おわればｎ
+	// コンテストが はじまりますのでｌ
+	// あとは いつもと おなじ ちょうしでｌ
+	// がんばって ください!
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichContest2: @ 827BE9E
-	.string "Which CONTEST would you like to enter?$"
+	.string "어느 콘테스트에 참가하겠습니까?$"
+	// どの コンテストに さんか しますか?
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon2: @ 827BEC5
-	.string "Which POKéMON would you like to enter?$"
+	.string "어느 포켓몬을 참가시키겠습니까?$"
+	// どの ポケモンを さんか させますか?
 
 LilycoveCity_ContestLobby_Text_Transmitting: @ 827BEEC
 	.string "통신하고 있습니다...$"
+	// つうしん しています……
 
 LilycoveCity_ContestLobby_Text_TransmissionError: @ 827BEFA
 	.string "통신에 실패했습니다$"
+	// つうしんに しっぱい しました
 
 LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest: @ 827BF0E
 	.string "선택한 콘테스트가\n"
@@ -1785,16 +1922,20 @@ LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice: @ 827BF4B
 LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel: @ 827BF85
 	.string "잠시 기다려 주십시오\n"
 	.string "......B 버튼으로 취소$"
+	// しょうしょう おまち くださいｎ
+	// ……Bボタンで キャンセル
 
 @ Unused
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2: @ 827BFA7
-	.string "We hope you will participate another\n"
-	.string "time.$"
+	.string "다음번 참가를 기다리고 있겠습니다!$"
+	// またの さんかを おまち してます!
 
 @ Unused
 LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain: @ 827BFD2
-	.string "Transmission error.\n"
-	.string "Please try again.$"
+	.string "통신 에러입니다\n"
+	.string "다시 한 번 시도해 해주십시오$"
+	// つうしん エラ-ですｎ
+	// もう1ど やりなおして ください
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX: @ 827BFF8
 	.string "그럼 손님의 포켓몬을\n"
@@ -2040,6 +2181,6 @@ ContestHall_Text_SecondStageOfJudging: @ 827CAD0
 
 ContestHall_Text_LetsAppeal: @ 827CB55
 	.string "그럼 힘내서 갑시다!\n"
-	.string "렛츠 어필!$"
+	.string "렛츠! 어필!$"
 	// では はりきって どうぞ!ｎ
-	// レッツ! アピ-ル
+	// レッツ! アピ-ル!
