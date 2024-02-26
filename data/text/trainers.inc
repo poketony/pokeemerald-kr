@@ -741,8 +741,7 @@ Route105_Text_ImaniDefeated:
 	// まけちゃったわ-っ!
 
 Route105_Text_ImaniPostBattle:
-	.string "너랑 같이 있으면\n"
-	.string "편안해진다는 말을 듣고 싶어\l"
+	.string "너랑 있으면 편안해진다는 말을 듣고 싶어\n"
 	.string "우후후후후!$"
 	// あたしと いると なごむって いわれたいのｎ
 	// うふふふふ!
@@ -815,7 +814,7 @@ Route106_Text_ElliotIntro:
 
 Route106_Text_ElliotDefeated:
 	.string "마치 바다낚시와 같은\n"
-	.string "광활한 패배다!$"
+	.string "광활한 패배다-!$"
 	// まるで うみづりの ようにｎ
 	// ごうかいに まけたぞ-っ!
 
@@ -1131,8 +1130,7 @@ Route108_Text_TaraPostBattle:
 
 Route108_Text_MissyIntro:
 	.string "바다가 너무 좋아!\n"
-	.string "헤엄치고 있으면\l"
-	.string "슬픈 일들을 잊어버릴 수 있어!$"
+	.string "헤엄치다 보면 슬픈 일들을 잊을 수 있어!$"
 	// うみって だいすき!ｎ
 	// およいでいれば イヤなことも わすれるわ!
 
@@ -1267,7 +1265,7 @@ Route109_Text_EdmondIntro:
 	// しょうぶ するの? オレと?
 
 Route109_Text_EdmondDefeated:
-	.string "우웨에에엑...$"
+	.string "우웨에엑...$"
 	// げろげろ……
 
 Route109_Text_EdmondPostBattle:
@@ -1756,7 +1754,7 @@ Route110_Text_IsabelIntro:
 	// じまん するためなら どこにでも いきますわ
 
 Route110_Text_IsabelDefeated:
-	.string "어머 왜 이러니 싫다-$"
+	.string "어머 왜 이러니 싫다$"
 	// あら まあ イヤですわ
 
 Route110_Text_IsabelPostBattle:
@@ -1780,7 +1778,7 @@ Route110_Text_IsabelRematchIntro:
 	// なんどだって じまん しますわ!
 
 Route110_Text_IsabelRematchDefeated:
-	.string "어머 왜 이러니 싫다-$"
+	.string "어머 왜 이러니 싫다$"
 	// あら まあ イヤですわ
 
 Route110_Text_IsabelRematchPostBattle:
@@ -2008,7 +2006,7 @@ Route111_Text_IreneIntro:
 	// ちょっと しょうぶ してみない?
 
 Route111_Text_IreneDefeat:
-	.string "얄미울 정도로 강하구나!?$"
+	.string "얄미울 정도로 강하구나!$"
 	// にくらしいほど つよいのね!
 
 Route111_Text_IrenePostBattle:
@@ -2022,19 +2020,19 @@ Route111_Text_IrenePostBattle:
 Route111_Text_DaisukeIntro:
 	.string "자신을 단련시키기 위해\n"
 	.string "만나는 모든 사람들에게\l"
-	.string "승부를 걸고 있쑵니돠!$"
+	.string "승부를 걸고 있습니다앗!$"
 	// おのれを きたえるためｎ
 	// であう にんげん すべてにｌ
 	// しょうぶを もうしこんでるッス!
 
 Route111_Text_DaisukeDefeat:
-	.string "졌쑵니돠...!$"
+	.string "졌습니다앗...!$"
 	// まいったッス……!
 
 Route111_Text_DaisukePostBattle:
 	.string "당신처럼 강한 트레이너를\n"
 	.string "이길 수 있을 때까지\l"
-	.string "오직 수행만이 있을 뿐입니돠!$"
+	.string "오직 수행만이 있을 뿐입니닷!$"
 	// おぬしの ようにｎ
 	// つよい トレ-ナ-に かてるまでｌ
 	// しゅぎょう あるのみッス!
@@ -2298,7 +2296,7 @@ Route112_Text_TrentDefeat:
 Route112_Text_TrentPostBattle:
 	.string "몇십 킬로나 되는 짐을 지고\n"
 	.string "산길을 계속 걷는다\l"
-	.string "몸이 튼튼해지지 않을 수가 없지!$"
+	.string "몸이 튼튼해질 수밖에 없지!$"
 	// なんじゅっキロも ある にもつを せおってｎ
 	// やまみちを あるき つづけるんだｌ
 	// からだが じょうぶに なるぞ!
@@ -2363,7 +2361,7 @@ Route112_Text_CarolDefeat:
 
 Route112_Text_CarolPostBattle:
 	.string "노래도 포켓몬 승부도\n"
-	.string "잘하고 못하고는 상관없어!\p"
+	.string "잘하고 못하고는 상관없어!\l"
 	.string "즐기는 게 이기는 거지!$"
 	// うたも ポケモンしょうぶもｎ
 	// うまい へた なんて かんけい ないよ!ｌ
@@ -2751,8 +2749,8 @@ Route114_Text_SteveDefeat:
 
 Route114_Text_StevePostBattle:
 	.string "커다랗고 울퉁불퉁 딱딱한 몸에\n"
-	.string "큰 뿔과 날카로운 엄니...\p"
-	.string "우후후후후...\n"
+	.string "큰 뿔과 날카로운 엄니...\l"
+	.string "우후후후후...\l"
 	.string "그런 포켓몬을 가지고 싶어...$"
 	// からだが おおきくて ゴツゴツ かたくてｎ
 	// おおきな ツノと するどい キバ……ｌ
@@ -3677,7 +3675,7 @@ Route117_Text_DerekIntro:
 	// ずっと かわらないぜ!
 
 Route117_Text_DerekDefeat:
-	.string "포켓몬이 약한 것도 여전하군...$"
+	.string "포켓몬에 약한 것도 여전하군...$"
 	// ポケモンの よわさも かわらない……
 
 Route117_Text_DerekPostBattle:
@@ -4297,11 +4295,11 @@ Route119_Text_TakashiIntro:
 	// いたい めに あうぜ!
 
 Route119_Text_TakashiDefeat:
-	.string "강하구나 너-언!$"
+	.string "강하구나 너-!$"
 	// つよいな きみ-っ!
 
 Route119_Text_TakashiPostBattle:
-	.string "기습 작전은 실패였다...$"
+	.string "기습 작전은 실패했다...$"
 	// きしゅう さくせんは シッパイだった……
 
 Route119_Text_HideoIntro:
@@ -4322,9 +4320,9 @@ Route119_Text_HideoPostBattle:
 
 Route119_Text_ChrisIntro:
 	.string "나한테 말을 걸었다는 건...\n"
-	.string "나한테 승부를 걸겠다 이거지!?\p"
-	.string "좋았어! 파도타기 하면서\n"
-	.string "낚아 올린 포켓몬으로 승부하겠다!$"
+	.string "승부를 하겠다 이거지!?\p"
+	.string "좋았어-! 파도타기 하면서\n"
+	.string "낚아 올린 포켓몬으로 승부해야지!$"
 	// わたしに はなしかけた……ｎ
 	// つまり しょうぶを いどむ つもりだな!ｐ
 	// よ-し! なみのり しながらｎ
@@ -4469,7 +4467,7 @@ Route120_Text_LorenzoIntro:
 	// そうなん しないか みてあげよう!
 
 Route120_Text_LorenzoDefeat:
-	.string "그렇게 강한 포켓몬이 함께라면\n"
+	.string "그렇게 강한 포켓몬과 함께한다면\n"
 	.string "조난당할 걱정은 없겠군!$"
 	// そんなに つよい ポケモンと いっしょならｎ
 	// そうなんの おそれは ないな!
@@ -5431,8 +5429,8 @@ Route124_Text_JennyRematchDefeat:
 	// また まけちゃった……
 
 Route124_Text_JennyPostRematch:
-	.string "왠지 모르겠지만\n"
-	.string "미궁의 대저택에 가보는 게 좋겠어...$"
+	.string "그냥 든 생각인데\n"
+	.string "미궁의 대저택에 가볼까...?$"
 	// なんとなく だけどｎ
 	// カラクリやしきに いってみようかな……
 
@@ -5477,7 +5475,7 @@ Route124_Text_ChadPostBattle:
 	// モグリの ちが さわぐなあ……
 
 Route124_Text_LilaIntro:
-	.string "나미: 하-아\p"
+	.string "카코: 하-아\p"
 	.string "모처럼 바다에 왔는데\n"
 	.string "동생이랑 같이 있다니...\p"
 	.string "너 기분 전환할 겸 포켓몬 승부할래!?$"
@@ -5487,13 +5485,13 @@ Route124_Text_LilaIntro:
 	// あなた きばらしに ポケモン しようか!?
 
 Route124_Text_LilaDefeat:
-	.string "나미: 홍이 때문에 졌잖아!\n"
+	.string "카코: 홍이 때문에 졌잖아!\n"
 	.string "나중에 혼날 줄 알아!!$"
 	// カコ『コウの せいで まけたのよ!ｎ
 	// あとで おしおき だかんね!!
 
 Route124_Text_LilaPostBattle:
-	.string "나미: 하-아\p"
+	.string "카코: 하-아\p"
 	.string "옆에 있는 게 동생이 아니라\n"
 	.string "멋진 남자친구라면 좋을 텐데...$"
 	// カコ『は-あｐ
@@ -5501,7 +5499,7 @@ Route124_Text_LilaPostBattle:
 	// すてきな かれし だったら いいのに……
 
 Route124_Text_LilaNotEnoughMons:
-	.string "나미: 우리랑 승부할 거야?\n"
+	.string "카코: 우리랑 승부할 거야?\n"
 	.string "포켓몬 2마리가 없으면 안 돼$"
 	// カコ『あたしたちと たたかう つもり?ｎ
 	// ポケモン 2ひき いないと ダメよ
@@ -5541,7 +5539,7 @@ Route124_Text_RoyNotEnoughMons:
 	// ポケモン 2ひき つれてきなよ!
 
 Route124_Text_LilaRematchIntro:
-	.string "나미: 하-아\p"
+	.string "카코: 하-아\p"
 	.string "모처럼 바다에 왔는데\n"
 	.string "동생이랑 같이 있다니...\p"
 	.string "어머? 너 오랜만이다?\n"
@@ -5553,7 +5551,7 @@ Route124_Text_LilaRematchIntro:
 	// きばらしに ポケモン しようか!?
 
 Route124_Text_LilaRematchDefeat:
-	.string "나미: 홍이 너!\n"
+	.string "카코: 홍이 너!\n"
 	.string "너 때문에 또 졌잖아!\l"
 	.string "넌 오늘부터 특훈이야!!$"
 	// カコ『コウったら!ｎ
@@ -5561,7 +5559,7 @@ Route124_Text_LilaRematchDefeat:
 	// あとで とっくん だかんね!!
 
 Route124_Text_LilaPostRematch:
-	.string "나미: 하-아\p"
+	.string "카코: 하-아\p"
 	.string "나한테 멋진 남자친구가 있었으면\n"
 	.string "멋진 콤비네이션으로\l"
 	.string "어떤 상대라도 이길 수 있을 텐데$"
@@ -5571,7 +5569,7 @@ Route124_Text_LilaPostRematch:
 	// どんな あいてにでも かっちゃうのに
 
 Route124_Text_LilaRematchNotEnoughMons:
-	.string "나미: 우리랑 승부할 거야?\n"
+	.string "카코: 우리랑 승부할 거야?\n"
 	.string "포켓몬 2마리가 없으면 안 돼$"
 	// カコ『あたしたちと たたかう つもり?ｎ
 	// ポケモン 2ひき いないと ダメよ
@@ -5806,7 +5804,7 @@ Route125_Text_IrisPostBattle:
 
 Route125_Text_IrisNotEnoughMons:
 	.string "나호: 2대 1로 승부하다니\n"
-	.string "우리들은 그런 짓 할 수 없어$"
+	.string "우리들은 그런 짓 못 해$"
 	// ナホ『2たい1で しょうぶ なんてｎ
 	// そんな まね あたしたちに できないわ
 
@@ -5852,7 +5850,7 @@ Route125_Text_AuronPostBattle:
 
 Route126_Text_BarryIntro:
 	.string "수영은 전신 운동!\n"
-	.string "체력을 늘어난다고-!$"
+	.string "체력이 늘어난다고-!$"
 	// すいえいは ぜんしん うんどう!ｎ
 	// たいりょくが つくぞ-!
 
