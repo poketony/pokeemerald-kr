@@ -435,7 +435,7 @@ const u8 *const sTradeReactionTexts[GENDER_COUNT][4] = {
 
 ALIGNED(4) const u8 sText_XCheckedTradingBoard[] = _("{STR_VAR_1}{K_EUNNEUN}\n교환 게시판을 봤다!\p");
 ALIGNED(4) const u8 sText_RegisterMonAtTradingBoard[] = _("환영합니다\n여기서는 교환 게시판에\p자신의 포켓몬을\n등록할 수 있습니다\p등록하겠습니까?");
-ALIGNED(4) const u8 sText_TradingBoardInfo[] = _("이 교환 게시판에\n포켓몬을 등록해 두면\p게시판을 본 트레이너가\n등록된 포켓몬과\n지닌 포켓몬을\n교환할 수 있습니다\p부디 포켓몬을 등록해서\n여러 트레이너와\l교환을 즐겨 주십시오\p등록하겠습니까?");
+ALIGNED(4) const u8 sText_TradingBoardInfo[] = _("이 교환 게시판에\n포켓몬을 등록해 두면\p게시판을 본 트레이너가\n등록된 포켓몬과\p지닌 포켓몬을\n교환할 수 있습니다\p부디 포켓몬을 등록해서\n여러 트레이너와\l교환을 즐겨 주십시오\p등록하겠습니까?");
 ALIGNED(4) const u8 sText_ThankYouForRegistering[] = _("교환 게시판의 등록이\n완료됐습니다\p이용해 주셔서\n정말 감사합니다!\p"); // unused
 ALIGNED(4) const u8 sText_NobodyHasRegistered[] = _("게시판에 아무도 포켓몬을\n등록하지 않았습니다\p\n"); // unused
 ALIGNED(4) const u8 sText_ChooseRequestedMonType[] = _("가지고 싶은 포켓몬의 타입을\n선택해 주십시오\n");
