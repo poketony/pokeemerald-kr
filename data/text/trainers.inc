@@ -6720,7 +6720,7 @@ Route132_Text_RonaldIntro:
 
 Route132_Text_RonaldDefeat:
 	.string "으앙-\n"
-	.string "져버렸다-$"
+	.string "져버렸다$"
 	// わ-んｎ
 	// まけて しまった
 
