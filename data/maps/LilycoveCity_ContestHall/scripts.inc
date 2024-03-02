@@ -394,7 +394,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal: @ 821B977
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest: @ 821B9DC
 	.string "심사위원: 콘테스트 즐기고 계십니까?\p"
 	.string "친구를 3명 데리고 오면\n"
-	.string "4명 같이 참가할 수 있답니다!$"
+	.string "4명이서 같이 참가할 수 있지요!$"
 	// しんさいん『コンテスト たのしんでますか?ｐ
 	// おともだちを 3にん つれてくればｎ
 	// 4にん いっしょに さんか できますよ!
