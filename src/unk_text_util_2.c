@@ -2,6 +2,7 @@
 #include "main.h"
 #include "window.h"
 #include "text.h"
+#include "string_util.h"
 #include "sound.h"
 
 ALIGNED(4)
@@ -9,6 +10,40 @@ static const u8 sUnknown_08616124[] = {1, 2, 4};
 static const u16 sFont6BrailleGlyphs[] = INCBIN_U16("graphics/fonts/font6.fwjpnfont");
 
 static void DecompressGlyphFont6(u16);
+
+// MEMO: 기존 영문 점자를 지원하기 위한 데이터
+static const u8 sBrailleCharmap[][2] =
+{
+    { CHAR_A,      0x01 },
+    { CHAR_B,      0x05 },
+    { CHAR_C,      0x03 },
+    { CHAR_D,      0x0B },
+    { CHAR_E,      0x09 },
+    { CHAR_F,      0x07 },
+    { CHAR_G,      0x0F },
+    { CHAR_H,      0x0D },
+    { CHAR_I,      0x06 },
+    { CHAR_J,      0x0E },
+    { CHAR_K,      0x11 },
+    { CHAR_L,      0x15 },
+    { CHAR_M,      0x13 },
+    { CHAR_N,      0x1B },
+    { CHAR_O,      0x19 },
+    { CHAR_P,      0x17 },
+    { CHAR_Q,      0x1F },
+    { CHAR_R,      0x1D },
+    { CHAR_S,      0x16 },
+    { CHAR_T,      0x1E },
+    { CHAR_U,      0x31 },
+    { CHAR_V,      0x35 },
+    { CHAR_W,      0x2E },
+    { CHAR_X,      0x33 },
+    { CHAR_Y,      0x3B },
+    { CHAR_Z,      0x39 },
+    { CHAR_SPACE,  0x00 },
+    { CHAR_COMMA,  0x04 },
+    { CHAR_PERIOD, 0x2C },
+};
 
 u16 Font6Func(struct TextPrinter *textPrinter)
 {
@@ -127,13 +162,33 @@ u16 Font6Func(struct TextPrinter *textPrinter)
                     TextPrinterInitDownArrowCounters(textPrinter);
                     return 3;
                 case CHAR_EXTRA_SYMBOL:
-                    char_ = *textPrinter->printerTemplate.currentChar++| 0x100;
+                    char_ = *textPrinter->printerTemplate.currentChar++ | 0x100;
                     break;
                 case CHAR_KEYPAD_ICON:
                     textPrinter->printerTemplate.currentChar++;
                     return 0;
             }
+
+            if (char_ == 0x37)
+            {
+                char_ = (char_ << 8) | *(textPrinter->printerTemplate.currentChar++);
+                char_ -= 0x3700;
+            }
+            else
+            {
+                u8 i;
+                for (i = 0; i < sizeof(sBrailleCharmap); i++)
+                {
+                    if (char_ == sBrailleCharmap[i][0])
+                    {
+                        char_ = sBrailleCharmap[i][1];
+                        break;
+                    }
+                }
+            }
+
             DecompressGlyphFont6(char_);
+
             CopyGlyphToWindow(textPrinter);
             textPrinter->printerTemplate.currentX += gCurrentGlyph.width + textPrinter->printerTemplate.letterSpacing;
             return 0;

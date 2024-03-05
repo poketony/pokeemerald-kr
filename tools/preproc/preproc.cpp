@@ -70,16 +70,10 @@ void PreprocAsmFile(std::string filename)
             stack.top().OutputLocation();
             break;
         case Directive::String:
-        {
-            unsigned char s[kMaxStringLength];
-            int length = stack.top().ReadString(s);
-            PrintAsmBytes(s, length);
-            break;
-        }
         case Directive::Braille:
         {
             unsigned char s[kMaxStringLength];
-            int length = stack.top().ReadBraille(s);
+            int length = stack.top().ReadString(s);
             PrintAsmBytes(s, length);
             break;
         }
