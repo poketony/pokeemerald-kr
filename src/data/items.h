@@ -4787,7 +4787,7 @@ const struct Item gItems[] =
 
     [ITEM_MYSTIC_TICKET] =
     {
-        .name = _("신비의티켓"),
+        .name = _("신비티켓"),
         .itemId = ITEM_MYSTIC_TICKET,
         .price = 0,
         .description = sMysticTicketDesc,
@@ -4873,7 +4873,7 @@ const struct Item gItems[] =
 
     [ITEM_OLD_SEA_MAP] =
     {
-        .name = _("오래된 해도"), // 포케스페 번역
+        .name = _("오래된해도"), // 포케스페 번역
         .itemId = ITEM_OLD_SEA_MAP,
         .price = 0,
         .description = sOldSeaMapDesc,
