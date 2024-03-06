@@ -1109,7 +1109,7 @@ LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon: @ 821B094
 	.string "{PLAYER}{K_EUNNEUN} 리본을\n"
 	.string "{STR_VAR_1}에게 달아 줬다!$"
 	@ §あは リボンをｎ
-	/@ §いに つけて あげた!
+	@ §いに つけて あげた!
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou: @ 821B0AD
 	.string "그럼 이만!$"
