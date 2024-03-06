@@ -365,23 +365,23 @@ BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "어서 오십시오!\p"
 	.string "여기서는 연승팀배틀의\n"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の とうしを ためす ばしょ!!ｐ
-	// バトルアリ-ナへｎ
-	// ようこそ おいでなされた!ｐ
-	// こちらでは かちぬきチ-ムバトルのｎ
-	// あんないを しておりますぞ!
+	@ トレ-ナ-の とうしを ためす ばしょ!!ｐ
+	@ バトルアリ-ナへｎ
+	@ ようこそ おいでなされた!ｐ
+	@ こちらでは かちぬきチ-ムバトルのｎ
+	@ あんないを しておりますぞ!
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 	.string "배틀아레나에\n"
 	.string "도전하겠습니까?$"
-	// バトルアリ-ナにｎ
-	// ちょうせん されますかな?
+	@ バトルアリ-ナにｎ
+	@ ちょうせん されますかな?
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 	.string "다음에 또 도전해 주시죠\n"
 	.string "기다리고 있겠습니다!$"
-	// またの ちょうせんをｎ
-	// おまちして おりますぞ!
+	@ またの ちょうせんをｎ
+	@ おまちして おりますぞ!
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "배틀아레나는 연승팀배틀을\n"
@@ -405,47 +405,47 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "주의해 주십시오!\p"
 	.string "멋지게 7명을 돌파하시면\n"
 	.string "배틀포인트를 드립니다!$"
-	// バトルアリ-ナは かちぬきチ-ムバトルをｎ
-	// おこなう しせつですぞ!ｐ
-	// さんかする かたには しゅつじょう させるｎ
-	// 3ひきの ポケモンと たたかいに だすｌ
-	// じゅんばんを きめて いただきますぞ!ｐ
-	// たたかいの あいだはｎ
-	// この じゅんばん どおりにｌ
-	// ポケモンを だすことに なりますな!ｐ
-	// たたかいに いちど だした ポケモンはｎ
-	// けっちゃくが つくまでｌ
-	// こうたい させる ことが できませぬ!ｐ
-	// さらに 3タ-ン いないにｎ
-	// たたかいの けっちゃくが つかなければｌ
-	// はんていと なりますぞ!ｐ
-	// また とちゅうで ちょうせんをｎ
-	// ちゅうだんしたい ばあいはｌ
-	// レポ-トを かかないとｌ
-	// つづけて ちょうせんが できないのでｌ
-	// おきをつけ くだされ!ｐ
-	// みごと 7にんぬきを なされた あかつきにはｎ
-	// バトルポイントを おおくり いたしますぞ!
+	@ バトルアリ-ナは かちぬきチ-ムバトルをｎ
+	@ おこなう しせつですぞ!ｐ
+	@ さんかする かたには しゅつじょう させるｎ
+	@ 3ひきの ポケモンと たたかいに だすｌ
+	@ じゅんばんを きめて いただきますぞ!ｐ
+	@ たたかいの あいだはｎ
+	@ この じゅんばん どおりにｌ
+	@ ポケモンを だすことに なりますな!ｐ
+	@ たたかいに いちど だした ポケモンはｎ
+	@ けっちゃくが つくまでｌ
+	@ こうたい させる ことが できませぬ!ｐ
+	@ さらに 3タ-ン いないにｎ
+	@ たたかいの けっちゃくが つかなければｌ
+	@ はんていと なりますぞ!ｐ
+	@ また とちゅうで ちょうせんをｎ
+	@ ちゅうだんしたい ばあいはｌ
+	@ レポ-トを かかないとｌ
+	@ つづけて ちょうせんが できないのでｌ
+	@ おきをつけ くだされ!ｐ
+	@ みごと 7にんぬきを なされた あかつきにはｎ
+	@ バトルポイントを おおくり いたしますぞ!
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 	.string "배틀아레나에 입장하기 전에\n"
 	.string "리포트를 작성합니다만 괜찮겠습니까?$"
-	// バトルアリ-ナへ おつれする まえにｎ
-	// レポ-トを かきますが よろしいですかな?
+	@ バトルアリ-ナへ おつれする まえにｎ
+	@ レポ-トを かきますが よろしいですかな?
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 	.string "배틀아레나에는\n"
 	.string "레벨 50과 오픈 레벨이 있습니다만\l"
 	.string "어느 쪽으로 입장하겠습니까?$"
-	// バトルアリ-ナにはｎ
-	// レベル50と オ-プンレベルと ありますがｌ
-	// どちらに まいられますかな?
+	@ バトルアリ-ナにはｎ
+	@ レベル50と オ-プンレベルと ありますがｌ
+	@ どちらに まいられますかな?
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
 	.string "그럼 참가할 포켓몬을\n"
 	.string "3마리 선택해 주십시오!$"
-	// では さんかする ポケモンをｎ
-	// 3ひき おえらび くだされ!
+	@ では さんかする ポケモンをｎ
+	@ 3ひき おえらび くだされ!
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "손님!!\p"
@@ -460,17 +460,17 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくじん!!ｐ
-	// さんかできる ポケモンがｎ
-	// 3ひき おりませぬ!ｐ
-	// さんかする ためにはｎ
-	// すべて ちがう しゅるいの ポケモンをｌ
-	// 3ひき よういして くだされ!ｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してくだされ!ｐ
-	// なお タマゴ{STR_VAR_1}さんか させる ことは できませぬ!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし くだされ!
+	@ おきゃくじん!!ｐ
+	@ さんかできる ポケモンがｎ
+	@ 3ひき おりませぬ!ｐ
+	@ さんかする ためにはｎ
+	@ すべて ちがう しゅるいの ポケモンをｌ
+	@ 3ひき よういして くだされ!ｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してくだされ!ｐ
+	@ なお タマゴ{STR_VAR_1}さんか させる ことは できませぬ!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし くだされ!
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 	.string "손님!!\p"
@@ -485,23 +485,23 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくじん!!ｐ
-	// さんかできる ポケモンがｎ
-	// 3ひき おりませぬ!ｐ
-	// さんかする ためには レベルが 50いかでｎ
-	// すべて ちがう しゅるいの ポケモンをｌ
-	// 3ひき よういして くだされ!ｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してくだされ!ｐ
-	// なお タマゴ{STR_VAR_1}さんか させる ことは できませぬ!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし くだされ!
+	@ おきゃくじん!!ｐ
+	@ さんかできる ポケモンがｎ
+	@ 3ひき おりませぬ!ｐ
+	@ さんかする ためには レベルが 50いかでｎ
+	@ すべて ちがう しゅるいの ポケモンをｌ
+	@ 3ひき よういして くだされ!ｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してくだされ!ｐ
+	@ なお タマゴ{STR_VAR_1}さんか させる ことは できませぬ!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし くだされ!
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
 	.string "그럼 배틀아레나로\n"
 	.string "안내하겠습니다!$"
-	// では バトルアリ-ナへｎ
-	// おつれいたしますぞ!
+	@ では バトルアリ-ナへｎ
+	@ おつれいたしますぞ!
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "손님!\p"
@@ -511,39 +511,39 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 	.string "도전이 무효가 됩니다!\p"
 	.string "다시 처음부터\n"
 	.string "도전해 주십시오!!$"
-	// おきゃくじん!ｐ
-	// ぜんかい レポ-トを かいてｎ
-	// しゅうりょう しませんでしたな?ｐ
-	// ざんねんですが その ばあいｎ
-	// ちょうせんは むこうと なりますぞ!ｐ
-	// また はじめからｎ
-	// ちょうせん してくだされ!!
+	@ おきゃくじん!ｐ
+	@ ぜんかい レポ-トを かいてｎ
+	@ しゅうりょう しませんでしたな?ｐ
+	@ ざんねんですが その ばあいｎ
+	@ ちょうせんは むこうと なりますぞ!ｐ
+	@ また はじめからｎ
+	@ ちょうせん してくだされ!!
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
 	.string "7명 돌파를 달성하셨군요\n"
 	.string "정말로 멋졌습니다!$"
-	// 7にんぬき たっせいｎ
-	// おみごとで ございました!
+	@ 7にんぬき たっせいｎ
+	@ おみごとで ございました!
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 	.string "성적을 리포트에 작성하므로\n"
 	.string "기다려 주십시오!$"
-	// せいせきを レポ-トに かきますのでｎ
-	// おまちくだされ!
+	@ せいせきを レポ-トに かきますのでｎ
+	@ おまちくだされ!
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_PresentYouWithPrize:
 	.string "7명을 돌파하기를 달성하였으므로\n"
 	.string "이 상품을 드리겠습니다!$"
-	// 7にんぬきを たっせい されましたのでｎ
-	// この しょうひんを おうけとり くだされ!
+	@ 7にんぬきを たっせい されましたのでｎ
+	@ この しょうひんを おうけとり くだされ!
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
-	// {PLAYER}はｎ
-	// {STR_VAR_1}を もらった!
+	@ {PLAYER}はｎ
+	@ {STR_VAR_1}を もらった!
 
 @ Unused
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
@@ -551,67 +551,67 @@ BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
 	.string "도구가 가득하시군요!\p"
 	.string "도구를 정리하고 나서\n"
 	.string "다시 와주십시오!$"
-	// ……おおっ!ｎ
-	// どうぐが いっぱいの ようですな!ｐ
-	// どうぐを せいりしてからｎ
-	// また おこしくだされ!
+	@ ……おおっ!ｎ
+	@ どうぐが いっぱいの ようですな!ｐ
+	@ どうぐを せいりしてからｎ
+	@ また おこしくだされ!
 
 BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave:
 	.string "수고하셨습니다!\p"
 	.string "성적을 리포트에 작성하므로\n"
 	.string "기다려 주십시오$"
-	// おつかれさまでした!ｐ
-	// せいせきを レポ-トに かきますのでｎ
-	// おまちくだされ!
+	@ おつかれさまでした!ｐ
+	@ せいせきを レポ-トに かきますのでｎ
+	@ おまちくだされ!
 
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2:
 	.string "다음에 도전해 주세요\n"
 	.string "기다리고 있겠습니다!$"
-	// またの ちょうせんをｎ
-	// おまちして おりますぞ!
+	@ またの ちょうせんをｎ
+	@ おまちして おりますぞ!
 
 BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 	.string "기다리고 있었습니다!\p"
 	.string "배틀아레나에 입장하기 전에\n"
 	.string "리포트를 작성하고 있으므로\l"
 	.string "잠시 기다려 주십시오!$"
-	// おまちしておりました!ｐ
-	// バトルアリ-ナに おつれする まえにｎ
-	// レポ-トを かきますので おまちくだされ!
+	@ おまちしておりました!ｐ
+	@ バトルアリ-ナに おつれする まえにｎ
+	@ レポ-トを かきますので おまちくだされ!
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
 	.string "배틀아레나에서\n"
 	.string "마지막으로 한 배틀을\l"
 	.string "프런티어패스에 기록하겠습니까?$"
-	// バトルアリ-ナでｎ
-	// さいごに おこなった たたかいをｌ
-	// フロンティアパスに きろく されますかな?
+	@ バトルアリ-ナでｎ
+	@ さいごに おこなった たたかいをｌ
+	@ フロンティアパスに きろく されますかな?
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "판정에서 져버렸어...\p"
 	.string "방어하기만 해서\n"
 	.string "공격하지 못한 게 좋지 않았나 봐...$"
-	// はんていで まけちゃった……ｐ
-	// まもる ばっかりでｎ
-	// せめなかったのが よくなかった みたい……
+	@ はんていで まけちゃった……ｐ
+	@ まもる ばっかりでｎ
+	@ せめなかったのが よくなかった みたい……
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
 	.string "판정에서 이겼어!\p"
 	.string "상대 포켓몬에게\n"
 	.string "기술을 확실하게 맞춰서 다행이야!$"
-	// はんていで かったぜ!ｐ
-	// あいての ポケモンにｎ
-	// わざを かくじつに あてたのが よかったぜ!
+	@ はんていで かったぜ!ｐ
+	@ あいての ポケモンにｎ
+	@ わざを かくじつに あてたのが よかったぜ!
 
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
 	.string "판정으로 무승부가 났어\p"
 	.string "시간이 다 되었을 때\n"
 	.string "상대 포켓몬과 남은 HP가\l"
 	.string "같았기 때문이지...$"
-	// はんていで ひきわけ だったよｐ
-	// じかんぎれに なったときにｎ
-	// あいて ポケモンと のこりの HPがｌ
-	// おなじ くらい だったからねぇ……
+	@ はんていで ひきわけ だったよｐ
+	@ じかんぎれに なったときにｎ
+	@ あいて ポケモンと のこりの HPがｌ
+	@ おなじ くらい だったからねぇ……
 
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "배틀아레나에서는 포켓몬의 순서가\n"
@@ -621,23 +621,23 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "효과가 굉장한 기술을 가지고 있는\n"
 	.string "포켓몬을 2번째로 참가시킨다면\l"
 	.string "좋은 팀이 될 거라고 생각해!$"
-	// バトルアリ-ナでは ポケモンの じゅんばんがｎ
-	// とっても だいじ なのよ!ｐ
-	// たとえば 1ばんめの ポケモンのｎ
-	// じゃくてん となる タイプに たいしてｐ
-	// こうかばつぐんの わざを もっているｎ
-	// ポケモンを 2ばんめに いれておけばｌ
-	// いいチ-ムに なると おもうわ!
+	@ バトルアリ-ナでは ポケモンの じゅんばんがｎ
+	@ とっても だいじ なのよ!ｐ
+	@ たとえば 1ばんめの ポケモンのｎ
+	@ じゃくてん となる タイプに たいしてｐ
+	@ こうかばつぐんの わざを もっているｎ
+	@ ポケモンを 2ばんめに いれておけばｌ
+	@ いいチ-ムに なると おもうわ!
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
 	.string "연승팀배틀의\n"
 	.string "규칙이 적혀 있다!$"
-	// かちぬきチ-ムバトルのｎ
-	// ル-ルが かかれている!
+	@ かちぬきチ-ムバトルのｎ
+	@ ル-ルが かかれている!
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
 	.string "어느 설명을 읽겠습니까?$"
-	// どの せつめいを よみますか?
+	@ どの せつめいを よみますか?
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "연승팀배틀은 보통의 배틀과\n"
@@ -650,16 +650,16 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "보고 승패를 결정합니다\p"
 	.string "또 승부가 날 때까지\n"
 	.string "포켓몬을 교체할 수 없습니다$"
-	// かちぬきチ-ムバトルは ふつうの たたかいとｎ
-	// ちがい とくべつな ル-ルが ありますｐ
-	// まず 1かいの たたかいはｎ
-	// 3タ-ンで しゅうりょうと なりますｐ
-	// 3タ-ンで しょうぶが つかないときはｎ
-	// しんぱんに よる はんていに なりますｐ
-	// はんていは ポケモンの たたかいかたをｎ
-	// みて しょうはいを けってい しますｐ
-	// また しょうぶの けっちゃくが つくまでｎ
-	// ポケモンの こうたいは できません
+	@ かちぬきチ-ムバトルは ふつうの たたかいとｎ
+	@ ちがい とくべつな ル-ルが ありますｐ
+	@ まず 1かいの たたかいはｎ
+	@ 3タ-ンで しゅうりょうと なりますｐ
+	@ 3タ-ンで しょうぶが つかないときはｎ
+	@ しんぱんに よる はんていに なりますｐ
+	@ はんていは ポケモンの たたかいかたをｎ
+	@ みて しょうはいを けってい しますｐ
+	@ また しょうぶの けっちゃくが つくまでｎ
+	@ ポケモンの こうたいは できません
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "1번째 판정 포인트인\n"
@@ -668,12 +668,12 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "얼마나 트레이너가 공격하는 기술로\n"
 	.string "명령을 따랐는지에 따라\l"
 	.string "평가가 바뀝니다$"
-	// 1つめの はんてい ポイントであるｎ
-	// 「こころ」はｌ
-	// せめる きもちを みられますｐ
-	// どれだけ トレ-ナ-が こうげきする わざをｎ
-	// めいれい したかに よってｌ
-	// ひょうかが かわります
+	@ 1つめの はんてい ポイントであるｎ
+	@ 「こころ」はｌ
+	@ せめる きもちを みられますｐ
+	@ どれだけ トレ-ナ-が こうげきする わざをｎ
+	@ めいれい したかに よってｌ
+	@ ひょうかが かわります
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "2번째 판정 포인트인\n"
@@ -691,21 +691,21 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "상대의 “방어”나 “판별”로\n"
 	.string "기술을 쓰지 못해도\l"
 	.string "평가는 내려가지 않습니다$"
-	// 2つめの はんてい ポイントであるｎ
-	// 「わざ」は ポケモンの わざがｌ
-	// うまく できたかを みられますｐ
-	// わざが せいこう するとｎ
-	// ひょうかは あがりますｐ
-	// わざが しっぱい するとｎ
-	// ひょうかは さがりますｐ
-	// さらに あいてに わざを あてたときはｎ
-	// 「こうかはばつぐん」で あがりｌ
-	// 「こうかはいまひとつ」などで さがりますｐ
-	// また 「まもる」や 「みきり」はｎ
-	// だしても ひょうかは あがりませんｐ
-	// あいての 「まもる」や 「みきり」でｎ
-	// わざを だせなくてもｌ
-	// ひょうかは さがりません
+	@ 2つめの はんてい ポイントであるｎ
+	@ 「わざ」は ポケモンの わざがｌ
+	@ うまく できたかを みられますｐ
+	@ わざが せいこう するとｎ
+	@ ひょうかは あがりますｐ
+	@ わざが しっぱい するとｎ
+	@ ひょうかは さがりますｐ
+	@ さらに あいてに わざを あてたときはｎ
+	@ 「こうかはばつぐん」で あがりｌ
+	@ 「こうかはいまひとつ」などで さがりますｐ
+	@ また 「まもる」や 「みきり」はｎ
+	@ だしても ひょうかは あがりませんｐ
+	@ あいての 「まもる」や 「みきり」でｎ
+	@ わざを だせなくてもｌ
+	@ ひょうかは さがりません
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "3번째 판정 포인트인\n"
@@ -715,24 +715,24 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "HP와 비교해\l"
 	.string "대전 후의 HP가 얼마나 남았는가로\l"
 	.string "평가가 바뀝니다$"
-	// 3つめの はんてい ポイントであるｎ
-	// 「からだ」は たいせん したあとのｌ
-	// ポケモンの HPを みられますｐ
-	// たいせんが はじまる まえのｎ
-	// HPと くらべてｌ
-	// たいせんごの HPが どれだけ あるかでｌ
-	// ひょうかが かわります
+	@ 3つめの はんてい ポイントであるｎ
+	@ 「からだ」は たいせん したあとのｌ
+	@ ポケモンの HPを みられますｐ
+	@ たいせんが はじまる まえのｎ
+	@ HPと くらべてｌ
+	@ たいせんごの HPが どれだけ あるかでｌ
+	@ ひょうかが かわります
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "아레나캡틴에게 승리!\n"
 	.string "그리고 7명을 돌파하셨군요!\l"
 	.string "정말 훌륭했습니다!$"
-	// アリ-ナキャプテンからの きんぼし!ｎ
-	// ならびに 7にんぬき たっせい!ｌ
-	// まこと みごとで ございました!
+	@ アリ-ナキャプテンからの きんぼし!ｎ
+	@ ならびに 7にんぬき たっせい!ｌ
+	@ まこと みごとで ございました!
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
 	.string "손님의 불굴의 투지를 기리며\n"
 	.string "배틀포인트를 드리겠습니다!$"
-	// おきゃくじんの ふくつの とうしを たたえｎ
-	// バトルポイントを さしあげましょう!
+	@ おきゃくじんの ふくつの とうしを たたえｎ
+	@ バトルポイントを さしあげましょう!

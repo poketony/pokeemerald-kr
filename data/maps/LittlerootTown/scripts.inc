@@ -971,20 +971,20 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "살기 좋은 곳일 거 같지 않니?\p"
 	.string "이번에는 {PLAYER}의 방도 있단다!\n"
 	.string "자 그럼 안으로 들어가자!$"
-	// ママ『{PLAYER} おつかれさま!ｐ
-	// ながいあいだ トラックに ゆられてｎ
-	// たいへん だったでしょ?ｐ
-	// ここが ミシロタウンよ!ｐ
-	// どう? これが わたしたちのｎ
-	// あたらしい おうち!ｐ
-	// ちょっと こふうな かんじでｎ
-	// すみやすそうな ところ でしょ?ｐ
-	// こんどは {PLAYER}の おへやも あるのよ!ｎ
-	// さあ なかに はいりましょ!
+	@ ママ『{PLAYER} おつかれさま!ｐ
+	@ ながいあいだ トラックに ゆられてｎ
+	@ たいへん だったでしょ?ｐ
+	@ ここが ミシロタウンよ!ｐ
+	@ どう? これが わたしたちのｎ
+	@ あたらしい おうち!ｐ
+	@ ちょっと こふうな かんじでｎ
+	@ すみやすそうな ところ でしょ?ｐ
+	@ こんどは {PLAYER}の おへやも あるのよ!ｎ
+	@ さあ なかに はいりましょ!
 
 LittlerootTown_Text_WaitPlayer:
 	.string "엄마: 잠깐 {PLAYER}{K_AYA}!$"
-	// ママ『まって {PLAYER}!
+	@ ママ『まって {PLAYER}!
 
 LittlerootTown_Text_WearTheseRunningShoes:
 	.string "엄마: {PLAYER}{K_AYA}! {PLAYER}{K_AYA}!\n"
@@ -998,23 +998,23 @@ LittlerootTown_Text_WearTheseRunningShoes:
 	.string "러닝슈즈를 신어야지!\p"
 	.string "여러 장소에서\n"
 	.string "달릴 수 있게 될 거야!$"
-	// ママ『{PLAYER}! {PLAYER}!ｎ
-	// オダマキはかせに あいさつ した?ｐ
-	// あら! かわいい ポケモン!ｎ
-	// オダマキはかせ に いただいたのねｐ
-	// やっぱり パパの こども なのね……ｎ
-	// ポケモンと いっしょに いるのがｌ
-	// さまに なっているわよ!ｐ
-	// ほらっ! ぼうけんに でるならｎ
-	// ランニングシュ-ズを はくと いいわ!ｐ
-	// いろんな ところｎ
-	// はしれるように なるわよ!
+	@ ママ『{PLAYER}! {PLAYER}!ｎ
+	@ オダマキはかせに あいさつ した?ｐ
+	@ あら! かわいい ポケモン!ｎ
+	@ オダマキはかせ に いただいたのねｐ
+	@ やっぱり パパの こども なのね……ｎ
+	@ ポケモンと いっしょに いるのがｌ
+	@ さまに なっているわよ!ｐ
+	@ ほらっ! ぼうけんに でるならｎ
+	@ ランニングシュ-ズを はくと いいわ!ｐ
+	@ いろんな ところｎ
+	@ はしれるように なるわよ!
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "러닝슈즈로 갈아 신었다!$"
-	// {PLAYER}は ランニングシュ-ズにｎ
-	// はきかえた!
+	@ {PLAYER}は ランニングシュ-ズにｎ
+	@ はきかえた!
 
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "엄마: {PLAYER}{K_AYA}!\n"
@@ -1024,13 +1024,13 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "  빨리 달릴 수 있게 해 줍니다!\p"
 	.string "  러닝슈즈를 신고\n"
 	.string "  마음껏 달립시다!”$"
-	// ママ『{PLAYER}!ｎ
-	// これが せつめいしょ よｐ
-	// 「ランニングシュ-ズはｎ
-	// Bボタンを おすことで いままでよりもｌ
-	// はやく はしれるように なります!ｐ
-	// ランニングシュ-ズを はいてｎ
-	// おもいっきり そとを はしろう!」
+	@ ママ『{PLAYER}!ｎ
+	@ これが せつめいしょ よｐ
+	@ 「ランニングシュ-ズはｎ
+	@ Bボタンを おすことで いままでよりもｌ
+	@ はやく はしれるように なります!ｐ
+	@ ランニングシュ-ズを はいてｎ
+	@ おもいっきり そとを はしろう!」
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "...... ...... ......\n"
@@ -1041,22 +1041,22 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "...그치만 무리는 하지 마렴\n"
 	.string "무슨 일이 생기면 집에 와도 돼\p"
 	.string "그럼 힘내!$"
-	// …… …… ……ｎ
-	// …… …… ……ｐ
-	// あなたが じぶんの ポケモンをｎ
-	// もつように なった だなんて……ｌ
-	// パパが しったら おおよろこび するわよ!ｐ
-	// ……でも むりは しないでねｎ
-	// なにか あれば かえって くればいいからｐ
-	// じゃあ がんばってね!
+	@ …… …… ……ｎ
+	@ …… …… ……ｐ
+	@ あなたが じぶんの ポケモンをｎ
+	@ もつように なった だなんて……ｌ
+	@ パパが しったら おおよろこび するわよ!ｐ
+	@ ……でも むりは しないでねｎ
+	@ なにか あれば かえって くればいいからｐ
+	@ じゃあ がんばってね!
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "PC를 쓰면\n"
 	.string "도구나 포켓몬을 보관할 수 있어!\p"
 	.string "과학의 힘은 정말 대단해!$"
-	// パソコンを つかえばｎ
-	// どうぐや ポケモンが ほぞん できるんだ!ｐ
-	// かがくの ちからって しびれる-っ!
+	@ パソコンを つかえばｎ
+	@ どうぐや ポケモンが ほぞん できるんだ!ｐ
+	@ かがくの ちからって しびれる-っ!
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "계-속 연구소에만 틀어박혀서\n"
@@ -1064,27 +1064,27 @@ LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "갑자기 산이나 들로 뛰쳐나가시네...\p"
 	.string "털보박사님은 대체\n"
 	.string "언제 집에 가시는 걸까?$"
-	// ず-っと けんきゅうしつに こもってｎ
-	// しらべものを しているかと おもえばｌ
-	// とつぜん のやまに とびだしていく……ｐ
-	// オダマキはかせって いったいｎ
-	// いつ うちに かえっているんだろう?
+	@ ず-っと けんきゅうしつに こもってｎ
+	@ しらべものを しているかと おもえばｌ
+	@ とつぜん のやまに とびだしていく……ｐ
+	@ オダマキはかせって いったいｎ
+	@ いつ うちに かえっているんだろう?
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "있지 있지 있지!\p"
 	.string "여기 앞에 있는 도로\n"
 	.string "풀숲으로 들어가면\l"
 	.string "야생 포켓몬이 나와!$"
-	// あの あの あのね!ｐ
-	// ここから さきの どうろｎ
-	// くさむらに はいるとｌ
-	// やせいの ポケモンが でてくるの!
+	@ あの あの あのね!ｐ
+	@ ここから さきの どうろｎ
+	@ くさむらに はいるとｌ
+	@ やせいの ポケモンが でてくるの!
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "자기 포켓몬을 가지고 있지 않으면\n"
 	.string "위험하게 돼!$"
-	// じぶんの ポケモンを もってないとｎ
-	// あぶないの!
+	@ じぶんの ポケモンを もってないとｎ
+	@ あぶないの!
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "있지 있지!\p"
@@ -1094,43 +1094,43 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "나 포켓몬을 가지고 있지 않아서...\p"
 	.string "{K_GIRL_CALL}\n"
 	.string "나 대신에 보고 와줄래?$"
-	// ねえ ねえ!ｐ
-	// いま まちの そとからｎ
-	// こわ-い ポケモンの こえが きこえたよ!ｐ
-	// なにが おこってるのか みにいきたいけどｎ
-	// わたし ポケモン もってないし……ｐ
-	// {K_GIRL_CALL}ｎ
-	// わたしの かわりに みてきて くれる?
+	@ ねえ ねえ!ｐ
+	@ いま まちの そとからｎ
+	@ こわ-い ポケモンの こえが きこえたよ!ｐ
+	@ なにが おこってるのか みにいきたいけどｎ
+	@ わたし ポケモン もってないし……ｐ
+	@ {K_GIRL_CALL}ｎ
+	@ わたしの かわりに みてきて くれる?
 
 LittlerootTown_Text_YouSavedBirch:
 	.string "{K_GIRL_CALL} 덕분에\n"
 	.string "박사님이 살았어! 다행이다-$"
-	// §いの おかげでｎ
-	// はかせ たすかった! よかった-
+	@ §いの おかげでｎ
+	@ はかせ たすかった! よかった-
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "포켓몬 잡으러 가는 거야?\n"
 	.string "파이팅!$"
-	// ポケモンを つかまえに いくの?ｎ
-	// がんばってね!
+	@ ポケモンを つかまえに いくの?ｎ
+	@ がんばってね!
 
 LittlerootTown_Text_TownSign:
 	.string "여기는 미로마을\n"
 	.string "어떤 색에도 물들지 않는 마을$"
-	// ここは ミシロ タウンｎ
-	// どんな いろにも そまらない まち
+	@ ここは ミシロ タウンｎ
+	@ どんな いろにも そまらない まち
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "“털보박사 포켓몬 연구소”$"
-	// 「オダマキ ポケモン けんきゅうじょ」
+	@ 「オダマキ ポケモン けんきゅうじょ」
 
 LittlerootTown_Text_PlayersHouse:
 	.string "“{PLAYER}의 집”$"
-	// 「§あの いえ」
+	@ 「§あの いえ」
 
 LittlerootTown_Text_ProfBirchsHouse:
 	.string "“털보박사의 집”$"
-	// 「オダマキ はかせの いえ」
+	@ 「オダマキ はかせの いえ」
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "털보박사: 이야- {PLAYER}{K_AYA}!\n"
@@ -1143,14 +1143,14 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "아직 가지고 있지?\p"
 	.string "조금 이야기할 게 있으니까\n"
 	.string "함께 연구소까지 따라와 주렴$"
-	// オダマキ『いや- {PLAYER}{KUN}!ｎ
-	// それにしても みごと だったねｐ
-	// さいしょに きみを みたときからｎ
-	// ただもの ではないと おもったけどｌ
-	// まさか これほど とはねえｐ
-	// そうそう!ｎ
-	// きみに あげた ポケモンずかんｌ
-	// まだ もってるよね?ｐ
-	// ちょっと はなしが あるからｎ
-	// いっしょに けんきゅうじょまで おいで
+	@ オダマキ『いや- {PLAYER}{KUN}!ｎ
+	@ それにしても みごと だったねｐ
+	@ さいしょに きみを みたときからｎ
+	@ ただもの ではないと おもったけどｌ
+	@ まさか これほど とはねえｐ
+	@ そうそう!ｎ
+	@ きみに あげた ポケモンずかんｌ
+	@ まだ もってるよね?ｐ
+	@ ちょっと はなしが あるからｎ
+	@ いっしょに けんきゅうじょまで おいで
 

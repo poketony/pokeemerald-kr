@@ -92,11 +92,11 @@ GraniteCave_StevensRoom_Text_ImStevenLetterForMe: @ 822DD5A
 	.string "이곳저곳을 여행하고 있어\p"
 	.string "어?\n"
 	.string "나한테 편지...?$"
-	// ボクの なまえは ダイゴｐ
-	// めずらしい いしに きょうみが あってｎ
-	// あちこち たび してるんだよｐ
-	// えっ?ｎ
-	// ボクに てがみ……?
+	@ ボクの なまえは ダイゴｐ
+	@ めずらしい いしに きょうみが あってｎ
+	@ あちこち たび してるんだよｐ
+	@ えっ?ｎ
+	@ ボクに てがみ……?
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis: @ 822DDBD
 	.string "성호: 응 고마워\p"
@@ -106,13 +106,13 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis: @ 822DDBD
 	.string "이 기술머신을 너한테 줄게\p"
 	.string "강철날개라고 해서\n"
 	.string "내가 좋아하는 기술이야$"
-	// ダイゴ『うん ありがとうｐ
-	// わざわざ とどけて くれたんだｎ
-	// なにか おれいを させてもらうよｐ
-	// そうだねｎ
-	// この わざマシンを あげようｐ
-	// はがねのつばさ といってｎ
-	// ボクの おきにいりの わざ だから
+	@ ダイゴ『うん ありがとうｐ
+	@ わざわざ とどけて くれたんだｎ
+	@ なにか おれいを させてもらうよｐ
+	@ そうだねｎ
+	@ この わざマシンを あげようｐ
+	@ はがねのつばさ といってｎ
+	@ ボクの おきにいりの わざ だから
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
 	.string "성호: 네 포켓몬들\n"
@@ -126,33 +126,33 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister: @ 822DE6B
 	.string "서로 포켓내비에\l"
 	.string "이름을 등록해놓자!\p"
 	.string "...... ...... ......$"
-	// ダイゴ『きみの ポケモンｎ
-	// なかなか いい かんじ だねｐ
-	// しゅぎょうを つづければｎ
-	// いつかは ポケモンリ-グのｌ
-	// チャンピオンに だって なれるｌ
-	// ボクは そう おもうなｐ
-	// そうだ!ｎ
-	// せっかく きみと しりあえたんだｌ
-	// おたがい ポケナビにｌ
-	// なまえを とうろく しておこう!ｐ
-	// …… …… ……
+	@ ダイゴ『きみの ポケモンｎ
+	@ なかなか いい かんじ だねｐ
+	@ しゅぎょうを つづければｎ
+	@ いつかは ポケモンリ-グのｌ
+	@ チャンピオンに だって なれるｌ
+	@ ボクは そう おもうなｐ
+	@ そうだ!ｎ
+	@ せっかく きみと しりあえたんだｌ
+	@ おたがい ポケナビにｌ
+	@ なまえを とうろく しておこう!ｐ
+	@ …… …… ……
 
 GraniteCave_StevensRoom_Text_RegisteredSteven: @ 822DF6A
 	.string "성호를\n"
 	.string "포켓내비에 등록했다!$"
-	// ダイゴをｎ
-	// ポケナビに とうろく した!
+	@ ダイゴをｎ
+	@ ポケナビに とうろく した!
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong: @ 822DF8C
 	.string "...그럼\n"
 	.string "난 급히 가봐야 돼서$"
-	// ……じゃあｎ
-	// ボクは さきを いそぐから
+	@ ……じゃあｎ
+	@ ボクは さきを いそぐから
 
 GraniteCave_StevensRoom_Text_OhBagIsFull: @ 822DFAA
 	.string "가방이 가득 찼구나...\n"
 	.string "그럼 어쩔 수 없지$"
-	// バッグが いっぱい なのか……ｎ
-	// じゃあ しかたないね
+	@ バッグが いっぱい なのか……ｎ
+	@ じゃあ しかたないね
 

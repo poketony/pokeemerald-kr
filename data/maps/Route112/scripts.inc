@@ -113,53 +113,53 @@ Route112_EventScript_Shayla:: @ 81F1F28
 Route112_Text_LeaderGoingToAwakenThing: @ 81F1F3F
 	.string "이봐 있잖아 리더는 정말로\n"
 	.string "그 녀석을 깨울 생각인 거야?$"
-	// なあ おい リ-ダ-は ほんとうにｎ
-	// アイツを めざめさせる つもりか?
+	@ なあ おい リ-ダ-は ほんとうにｎ
+	@ アイツを めざめさせる つもりか?
 
 Route112_Text_YeahWeNeedMeteorite: @ 81F1F7A
 	.string "그런 것 같던데... 하지만 그러려면\n"
 	.string "운석이 필요하다고 했어$"
-	// そうらしいな…… だが そのためにはｎ
-	// いんせきが ひつよう なんだってよ
+	@ そうらしいな…… だが そのためにはｎ
+	@ いんせきが ひつよう なんだってよ
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor: @ 81F1FBA
 	.string "아하 그래서 방금\n"
 	.string "동료가 단풍마을로 간 거구만$"
-	// はは-ん それで さっきｎ
-	// なかまが ハジツゲに むかったのか
+	@ はは-ん それで さっきｎ
+	@ なかまが ハジツゲに むかったのか
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack: @ 81F2003
 	.string "맞아 그 녀석들이 돌아올 때까지는\n"
 	.string "아무도 여기를 지나가게 하지 마라!\l"
 	.string "라고 했잖아$"
-	// ああ かれらが もどってくる まではｎ
-	// だれも ここを とおすな! ってよ
+	@ ああ かれらが もどってくる まではｎ
+	@ だれも ここを とおすな! ってよ
 
 Route112_Text_NotEasyToGetBackToLavaridge: @ 81F204E
 	.string "으-음... 보라시티로 가고 싶은데...\n"
 	.string "이 턱을 내려가면\l"
 	.string "용암마을로 돌아가기가 어렵다고...$"
-	// う-む…… キンセツに いきたいのだが……ｎ
-	// この だんさを おりてしまうとｌ
-	// フエンに もどるのは たいへん だよな……
+	@ う-む…… キンセツに いきたいのだが……ｎ
+	@ この だんさを おりてしまうとｌ
+	@ フエンに もどるのは たいへん だよな……
 
 Route112_Text_MtChimneyCableCarSign: @ 81F20C1
 	.string "“굴뚝산 케이블카 승강장”\n"
 	.string "{UP_ARROW} 바로 이 앞!$"
-	// 「えんとつやま ロ-プウェイ のりば」ｎ
-	// ©し  このさき すぐ!
+	@ 「えんとつやま ロ-プウェイ のりば」ｎ
+	@ ©し  このさき すぐ!
 
 Route112_Text_MtChimneySign: @ 81F20ED
 	.string "“굴뚝산”\p"
 	.string "용암마을이나 정상으로 가려면\n"
 	.string "케이블카를 이용해 주십시오$"
-	// 「えんとつやま」ｐ
-	// フエンタウンや ちょうじょう へはｎ
-	// ロ-プウェイを ごりよう ください
+	@ 「えんとつやま」ｐ
+	@ フエンタウンや ちょうじょう へはｎ
+	@ ロ-プウェイを ごりよう ください
 
 Route112_Text_RouteSignLavaridge: @ 81F2138
 	.string "여기는 112번 도로\n"
 	.string "{LEFT_ARROW} 용암마을$"
-	// ここは 112ばん どうろｎ
-	// ©しい フエンタウン
+	@ ここは 112ばん どうろｎ
+	@ ©しい フエンタウン
 

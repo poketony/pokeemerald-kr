@@ -143,7 +143,7 @@ SkyPillar_Outside_EventScript_ClosedDoor:: @ 82393F9
 
 SkyPillar_Outside_Text_DoorIsClosed: @ 8239402
 	.string "문이 닫혀 있다!$"
-	// とびらは とざされて いる!
+	@ とびらは とざされて いる!
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar: @ 8239416
 	.string "윤진: 앗 미안 미안!\p"
@@ -152,26 +152,26 @@ SkyPillar_Outside_Text_OpenedDoorToSkyPillar: @ 8239416
 	.string "잠겨 있던 하늘기둥의 문은\n"
 	.string "내가 열어 뒀어\p"
 	.string "{PLAYER} 자 가자!$"
-	// ミクリ『やっ ごめん ごめん!ｐ
-	// あんまり あわてた ものだからｎ
-	// きみを おいてきて しまったよ!ｐ
-	// しまっていた そらのはしらの とびらはｎ
-	// わたしが あけて おいたｐ
-	// §あ§お さあ いこう!
+	@ ミクリ『やっ ごめん ごめん!ｐ
+	@ あんまり あわてた ものだからｎ
+	@ きみを おいてきて しまったよ!ｐ
+	@ しまっていた そらのはしらの とびらはｎ
+	@ わたしが あけて おいたｐ
+	@ §あ§お さあ いこう!
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste: @ 82394BC
 	.string "윤진: 지진이야!\p"
 	.string "이러고 있을 때가 아냐\n"
 	.string "앞으로 서두르자!$"
-	// ミクリ『じしんだ!ｐ
-	// こうしては いられないｎ
-	// さきを いそごう!
+	@ ミクリ『じしんだ!ｐ
+	@ こうしては いられないｎ
+	@ さきを いそごう!
 
 SkyPillar_Outside_Text_SituationGettingWorse: @ 823950C
 	.string "윤진: 으-음 상황은\n"
 	.string "점점 나빠지고 있어...$"
-	// ミクリ『う-む じょうきょうはｎ
-	// だんだん わるくなって きている……
+	@ ミクリ『う-む じょうきょうはｎ
+	@ だんだん わるくなって きている……
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis: @ 823953A
 	.string "윤진: 위험한걸...\p"
@@ -184,13 +184,13 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis: @ 823953A
 	.string "먼저 루네시티로 돌아갈게!\p"
 	.string "여기는 너에게 맡길 테니까\n"
 	.string "제대로 해 줘!$"
-	// ミクリ『まずいな……ｐ
-	// てんこうの みだれが このあたりまでｎ
-	// ひろがり はじめている……ｐ
-	// §あ§おｐ
-	// ここを のぼって いけばｎ
-	// レックウザが いるはずだｐ
-	// わたしは まちのことが しんぱい だからｎ
-	// さきに ルネまで もどっていよう!ｐ
-	// ここは きみに まかせるからｎ
-	// しっかり たのんだよ!
+	@ ミクリ『まずいな……ｐ
+	@ てんこうの みだれが このあたりまでｎ
+	@ ひろがり はじめている……ｐ
+	@ §あ§おｐ
+	@ ここを のぼって いけばｎ
+	@ レックウザが いるはずだｐ
+	@ わたしは まちのことが しんぱい だからｎ
+	@ さきに ルネまで もどっていよう!ｐ
+	@ ここは きみに まかせるからｎ
+	@ しっかり たのんだよ!

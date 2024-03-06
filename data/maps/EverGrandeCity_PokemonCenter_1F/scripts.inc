@@ -84,10 +84,10 @@ EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad: @ 8229ADA
 	.string "챔피언로드를 빠져나가면 바로 눈앞이야!\p"
 	.string "여기까지 왔으면\n"
 	.string "앞으로 나아가는 수밖에 없어!$"
-	// ポケモンリ-グはｎ
-	// チャンピオンロ-ドを ぬけると すぐ!ｐ
-	// ここまで きたらｎ
-	// まえに すすむしかないわ!
+	@ ポケモンリ-グはｎ
+	@ チャンピオンロ-ドを ぬけると すぐ!ｐ
+	@ ここまで きたらｎ
+	@ まえに すすむしかないわ!
 
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon: @ 8229B62
 	.string "챔피언로드의\n"
@@ -96,12 +96,12 @@ EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon: @ 8229B62
 	.string "다시 떠올리게 하는군\p"
 	.string "너도 자신의 포켓몬을\n"
 	.string "믿고 최선을 다하도록!$"
-	// チャンピオンロ-ドのｎ
-	// ながくて けわしい みちのり……ｐ
-	// まるで いままで あるいてきた みちをｎ
-	// おもいださせるかの ようだなｐ
-	// きみ じぶんの ポケモンをｎ
-	// しんじて がんばりたまえ!
+	@ チャンピオンロ-ドのｎ
+	@ ながくて けわしい みちのり……ｐ
+	@ まるで いままで あるいてきた みちをｎ
+	@ おもいださせるかの ようだなｐ
+	@ きみ じぶんの ポケモンをｎ
+	@ しんじて がんばりたまえ!
 
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou: @ 8229BF1
 	.string "금작화: {PLAYER}\n"
@@ -112,12 +112,12 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou: @ 8229BF1
 	.string "그때는 다시 연락할게\p"
 	.string "그럼...\n"
 	.string "힘내 {PLAYER}{K_AYA}!$"
-	// エニシダ『§あ§おｎ
-	// ついに ポケモンリ-グだね!ｌ
-	// わたしも おうえん した かいがあったよ!ｐ
-	// もし §あ§おがｎ
-	// ポケモンチャンピオンに なったら……ｌ
-	// そのときは また れんらく するからねｐ
-	// じゃ……ｎ
-	// §あ§お がんばってね!
+	@ エニシダ『§あ§おｎ
+	@ ついに ポケモンリ-グだね!ｌ
+	@ わたしも おうえん した かいがあったよ!ｐ
+	@ もし §あ§おがｎ
+	@ ポケモンチャンピオンに なったら……ｌ
+	@ そのときは また れんらく するからねｐ
+	@ じゃ……ｎ
+	@ §あ§お がんばってね!
 

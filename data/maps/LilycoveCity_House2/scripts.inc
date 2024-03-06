@@ -23,14 +23,14 @@ LilycoveCity_House2_Text_NotAwakeYetHaveThis: @ 821EDB6
 	.string "음냐...\p"
 	.string "나 지금 잠이 덜 깼으니까\n"
 	.string "이거 줄게...$"
-	// むにゃ……ｐ
-	// ぼく ねぼけて いるからｎ
-	// これを あげる……
+	@ むにゃ……ｐ
+	@ ぼく ねぼけて いるからｎ
+	@ これを あげる……
 
 LilycoveCity_House2_Text_SleepIsEssential: @ 821EDF9
 	.string "음냐음냐...\p"
 	.string "잘 자는 아이는 건강하게 크지...\n"
 	.string "자면 체력도 회복되고...$"
-	// むにゃむにゃ……ｐ
-	// ねる こは そだつ……ｎ
-	// ねむって たいりょく かいふく……
+	@ むにゃむにゃ……ｐ
+	@ ねる こは そだつ……ｎ
+	@ ねむって たいりょく かいふく……

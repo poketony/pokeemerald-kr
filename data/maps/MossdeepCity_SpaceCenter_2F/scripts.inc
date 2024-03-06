@@ -382,108 +382,108 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets: @ 82241A1
 	.string "바람의 방향도 안정적이죠\p"
 	.string "로켓을 쏘아 올리기에\n"
 	.string "안성맞춤인 장소랍니다$"
-	// トクサネは てんきの よい ひが おおいｎ
-	// かぜの むきも あんてい しているｐ
-	// ロケットを うちあげる にはｎ
-	// もってこいの ばしょ なんですな
+	@ トクサネは てんきの よい ひが おおいｎ
+	@ かぜの むきも あんてい しているｐ
+	@ ロケットを うちあげる にはｎ
+	@ もってこいの ばしょ なんですな
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel: @ 822420C
 	.string "로켓의 연료 같은 걸 빼앗아서\n"
 	.string "마그마단은 뭘 할 셈이지?$"
-	// ロケットの ねんりょうなんか うばってｎ
-	// マグマだんは なにする つもりだ!?
+	@ ロケットの ねんりょうなんか うばってｎ
+	@ マグマだんは なにする つもりだ!?
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut: @ 8224253
 	.string "나도 조금만 더 젊었더라면\n"
 	.string "우주 비행사를 꿈꿔 볼 텐데...\p"
 	.string "아니지 지금부터라도 늦지 않아!\n"
 	.string "좋-아 힘내자-!!$"
-	// わしも もうすこし わかければｎ
-	// うちゅう ひこうしに なりたかった……ｐ
-	// いや いまからでも おそくない!ｎ
-	// よ-し がんばるぞ-!!
+	@ わしも もうすこし わかければｎ
+	@ うちゅう ひこうしに なりたかった……ｐ
+	@ いや いまからでも おそくない!ｎ
+	@ よ-し がんばるぞ-!!
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis: @ 82242C5
 	.string "마그마단한테 연료를 빼앗기면\n"
 	.string "내가 우주에 갈 수 없게 돼!\p"
 	.string "그렇게 놔둘까 보냐-!$"
-	// マグマだんに ねんりょうを うばわれたらｎ
-	// わしが うちゅうに いけなくなる!ｐ
-	// そんなこと させて たまるか-!
+	@ マグマだんに ねんりょうを うばわれたらｎ
+	@ わしが うちゅうに いけなくなる!ｐ
+	@ そんなこと させて たまるか-!
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace: @ 8224342
 	.string "언젠가 평범한 사람도\n"
 	.string "우주에 갈 수 있게 되면 좋을 텐데...$"
-	// いつか ふつ-の ひともｎ
-	// うちゅうに いけると いいのにな……
+	@ いつか ふつ-の ひともｎ
+	@ うちゅうに いけると いいのにな……
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace: @ 8224376
 	.string "마그마단도...\n"
 	.string "우주에 가고 싶어하는 걸까?$"
-	// マグマだんも……ｎ
-	// うちゅうに いきたいの かな?
+	@ マグマだんも……ｎ
+	@ うちゅうに いきたいの かな?
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn: @ 82243A4
 	.string "뭐야 너!\p"
 	.string "우리 3명한테 둘러싸여 있으면서\n"
 	.string "해보자는 거냐!?$"
-	// なんだ おまえ!ｐ
-	// おれたち 3にんに かこまれてるのにｎ
-	// やろうってのか!?
+	@ なんだ おまえ!ｐ
+	@ おれたち 3にんに かこまれてるのにｎ
+	@ やろうってのか!?
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer: @ 82243FE
 	.string "그렇지!\n"
 	.string "그래야 착한 아이지!$"
-	// だよな!ｎ
-	// そのほうが おりこうさん だぜ!
+	@ だよな!ｎ
+	@ そのほうが おりこうさん だぜ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro: @ 822442D
 	.string "무모한 녀석...\n"
 	.string "그럼 나부터 간다!$"
-	// むてっぽうな やつめ……ｎ
-	// まずは オレからだ!
+	@ むてっぽうな やつめ……ｎ
+	@ まずは オレからだ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat: @ 8224461
 	.string "난 졌어 하지만!$"
-	// オレは まけたが しかし!
+	@ オレは まけたが しかし!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro: @ 822446E
 	.string "아직 안심하긴 이르지\n"
 	.string "다음 상대는 나다!$"
-	// あんしん するのは まだ はやいｎ
-	// つぎは オレが あいてだ!
+	@ あんしん するのは まだ はやいｎ
+	@ つぎは オレが あいてだ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat: @ 8224499
 	.string "난 졌어 그치만!$"
-	// オレも まけたが だけど!
+	@ オレも まけたが だけど!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro: @ 82244AB
 	.string "한숨 돌리고 싶을 테지만\n"
 	.string "그렇게 놔두진 않겠어!$"
-	// ひとやすみ したいだろう けどｎ
-	// そんな わけには いきませ-ん!
+	@ ひとやすみ したいだろう けどｎ
+	@ そんな わけには いきませ-ん!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat: @ 82244F1
 	.string "우리들이 한숨을\n"
 	.string "돌렸어야... 했는데...$"
-	// オレたちが ひとやすみｎ
-	// しておけば…… よかった……
+	@ オレたちが ひとやすみｎ
+	@ しておけば…… よかった……
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle: @ 822452C
 	.string "3명이서 덤볐는데 이 꼴이라니!$"
-	// 3にんも いて このザマか!
+	@ 3にんも いて このザマか!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle: @ 8224570
 	.string "3명이서 지면\n"
 	.string "부끄러움도 3배!$"
-	// 3にんがかりで まけるとｎ
-	// いつもの 3ばい かっこわるいぜ!
+	@ 3にんがかりで まけるとｎ
+	@ いつもの 3ばい かっこわるいぜ!
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle: @ 82245AF
 	.string "우리들의 리더에\n"
 	.string "어울릴 거 같은데...?$"
-	// オレたち リ-ダ-のｎ
-	// やくに たってるのかな……?
+	@ オレたち リ-ダ-のｎ
+	@ やくに たってるのかな……?
 
 MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou: @ 82245D9
 	.string "우효효! 모처럼\n"
@@ -491,25 +491,25 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou: @ 82245D9
 	.string "방해가 들어왔군!\p"
 	.string "너도 우리들을 방해하겠다면\n"
 	.string "같이 정리해 주마!$"
-	// ウヒョヒョ! せっかくｎ
-	// ねんりょうを いただきに きたのにｌ
-	// ジャマが はいっちまった!ｐ
-	// おまえも オレたちの ジャマを するならｎ
-	// いっしょに かたづけて やろうか!
+	@ ウヒョヒョ! せっかくｎ
+	@ ねんりょうを いただきに きたのにｌ
+	@ ジャマが はいっちまった!ｐ
+	@ おまえも オレたちの ジャマを するならｎ
+	@ いっしょに かたづけて やろうか!
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere: @ 822467B
 	.string "마적: 에-잇 거기서 비켜라!\n"
 	.string "우리들을 방해하지 말란 말이다!$"
-	// マツブサ『え-い そこをどけ!ｎ
-	// われわれの ジャマを するんじゃない!
+	@ マツブサ『え-い そこをどけ!ｎ
+	@ われわれの ジャマを するんじゃない!
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel: @ 82246B2
 	.string "성호: 마그마단...\n"
 	.string "로켓의 연료를 훔쳐서\l"
 	.string "대체 뭘 할 셈이야!$"
-	// ダイゴ『マグマだん……ｎ
-	// ロケットの ねんりょうなんか ぬすんでｌ
-	// いったい なにをする つもりなんだ!
+	@ ダイゴ『マグマだん……ｎ
+	@ ロケットの ねんりょうなんか ぬすんでｌ
+	@ いったい なにをする つもりなんだ!
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
 	.string "마적: 후후후...\n"
@@ -521,41 +521,41 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano: @ 82246F0
 	.string "그러니 연료의 힘을 이용해서\n"
 	.string "화산을 분화시킬 것이다\l"
 	.string "콰과광 하고 말이다!$"
-	// マツブサ『ふふふ……ｎ
-	// そんなに しりたけりゃ おしえてやろうｐ
-	// えんとつやまの かこうにｎ
-	// ぜんぶ なげこんで やるのさ!ｐ
-	// グラ-ドンも きえてしまった ことだしｎ
-	// もう あんなやまに ようはないｐ
-	// だから ねんりょうの ちからを りようしてｎ
-	// かざんを ふんか させて やるのさｌ
-	// ズドド-ン とな!
+	@ マツブサ『ふふふ……ｎ
+	@ そんなに しりたけりゃ おしえてやろうｐ
+	@ えんとつやまの かこうにｎ
+	@ ぜんぶ なげこんで やるのさ!ｐ
+	@ グラ-ドンも きえてしまった ことだしｎ
+	@ もう あんなやまに ようはないｐ
+	@ だから ねんりょうの ちからを りようしてｎ
+	@ かざんを ふんか させて やるのさｌ
+	@ ズドド-ン とな!
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle: @ 82247FF
 	.string "성호: {PLAYER}{K_AYA}!\n"
 	.string "힘을 빌려줄 수 있어!?\p"
 	.string "나와 함께 싸우자!\n"
 	.string "준비는 됐지?$"
-	// ダイゴ『§あ§お!ｎ
-	// ちからを かして くれるのかい!?ｐ
-	// ボクと いっしょに たたかおう!ｎ
-	// じゅんびは いいね?
+	@ ダイゴ『§あ§お!ｎ
+	@ ちからを かして くれるのかい!?ｐ
+	@ ボクと いっしょに たたかおう!ｎ
+	@ じゅんびは いいね?
 
 MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly: @ 8224854
 	.string "성호: 그럼 서둘러서\n"
 	.string "준비를 해줘!$"
-	// ダイゴ『じゃあ いそいでｎ
-	// じゅんびを ととのえて くるんだ!
+	@ ダイゴ『じゃあ いそいでｎ
+	@ じゅんびを ととのえて くるんだ!
 
 MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand: @ 822487C
 	.string "나는 단지...\n"
 	.string "땅을 넓히고 싶은 것뿐이었는데...$"
-	// わたしは ただ……ｎ
-	// りくちを ふやしたい だけなのに……
+	@ わたしは ただ……ｎ
+	@ りくちを ふやしたい だけなのに……
 
 MossdeepCity_SpaceCenter_Text_TabithaDefeat: @ 82248AD
 	.string "동감입니다...$"
-	// みぎに おなじ だ……
+	@ みぎに おなじ だ……
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
 	.string "마적: 우리들은 화산을\n"
@@ -571,29 +571,29 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided: @ 82248C2
 	.string "...... ...... ......\p"
 	.string "설마 아쿠아단의\n"
 	.string "바다를 넓히려는 생각도...$"
-	// マツブサ『われわれは かざんをｎ
-	// ふんか させられ なかった……ｐ
-	// ねむりから めざめた グラ-ドンもｎ
-	// コントロ-ル できなかった……ｐ
-	// りくちをふやす という かんがえはｎ
-	// まちがって いるのか?ｐ
-	// …… …… ……ｎ
-	// …… …… ……ｐ
-	// もしも…… われわれ マグマだんがｎ
-	// まちがっていると いうのならｌ
-	// …… …… ……ｐ
-	// まさか アクアだんのｎ
-	// うみをふやす という かんがえも……
+	@ マツブサ『われわれは かざんをｎ
+	@ ふんか させられ なかった……ｐ
+	@ ねむりから めざめた グラ-ドンもｎ
+	@ コントロ-ル できなかった……ｐ
+	@ りくちをふやす という かんがえはｎ
+	@ まちがって いるのか?ｐ
+	@ …… …… ……ｎ
+	@ …… …… ……ｐ
+	@ もしも…… われわれ マグマだんがｎ
+	@ まちがっていると いうのならｌ
+	@ …… …… ……ｐ
+	@ まさか アクアだんのｎ
+	@ うみをふやす という かんがえも……
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp: @ 82249DC
 	.string "마적: 알았다...\n"
 	.string "연료는 포기하지...\p"
 	.string "나에게는 따로 확인해야만\n"
 	.string "하는 일이 있으니까 말이다...$"
-	// マツブサ『わかった……ｎ
-	// ねんりょうは あきらめよう……ｐ
-	// わたしには ほかに たしかめ なければｎ
-	// ならない ことが あるようだ……
+	@ マツブサ『わかった……ｎ
+	@ ねんりょうは あきらめよう……ｐ
+	@ わたしには ほかに たしかめ なければｎ
+	@ ならない ことが あるようだ……
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
 	.string "성호: 휴우 위험했어\n"
@@ -603,10 +603,10 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome: @ 8224A4A
 	.string "나중에 집으로 와줘\p"
 	.string "내 집은 금탄도시가 아니라\n"
 	.string "이 섬에 있어$"
-	// ダイゴ『ふう あぶない ところ だったｎ
-	// §あ§お ありがとうｐ
-	// ちからを かしてくれた おれいにｎ
-	// いいものを あげるからｌ
-	// あとで いえまで きておくれｐ
-	// ボクのいえは カナズミ じゃないよｎ
-	// このしまに あるんだ
+	@ ダイゴ『ふう あぶない ところ だったｎ
+	@ §あ§お ありがとうｐ
+	@ ちからを かしてくれた おれいにｎ
+	@ いいものを あげるからｌ
+	@ あとで いえまで きておくれｐ
+	@ ボクのいえは カナズミ じゃないよｎ
+	@ このしまに あるんだ

@@ -302,8 +302,8 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2: @ 81F7A16
 PlayersHouse_1F_Text_IsntItNiceInHere: @ 81F7A1C
 	.string "엄마: 봐봐 {PLAYER}{K_AYA}!\n"
 	.string "집 안도 멋지지!$"
-	// ママ『ほら §あ!ｎ
-	// おうちの なかも すてき でしょ!
+	@ ママ『ほら §あ!ｎ
+	@ おうちの なかも すてき でしょ!
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
 	.string "집 정리를\n"
@@ -314,44 +314,44 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock: @ 81F7A46
 	.string "아빠가 이사 기념으로\n"
 	.string "사 주신 시계가 있을 테니까\l"
 	.string "시간 좀 맞춰 둬$"
-	// おうちの かたづけはｎ
-	// ひっこしやさんの ポケモンがｌ
-	// てつだって くれるから らくちんね!ｐ
-	// §あも 2かいに あるｎ
-	// じぶんの おへやに いってごらん!ｐ
-	// パパが ひっこしの おいわいにｎ
-	// かってくれた とけいが あるからｌ
-	// じかんを あわせて おきなさいよ
+	@ おうちの かたづけはｎ
+	@ ひっこしやさんの ポケモンがｌ
+	@ てつだって くれるから らくちんね!ｐ
+	@ §あも 2かいに あるｎ
+	@ じぶんの おへやに いってごらん!ｐ
+	@ パパが ひっこしの おいわいにｎ
+	@ かってくれた とけいが あるからｌ
+	@ じかんを あわせて おきなさいよ
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom: @ 81F7B24
 	.string "엄마: {PLAYER}{K_AYA}\p"
 	.string "네 방은 안 봐도 되니?$"
-	// ママ『§あｐ
-	// じぶんの へやを みてこないの?
+	@ ママ『§あｐ
+	@ じぶんの へやを みてこないの?
 
 PlayersHouse_1F_Text_GoSetTheClock: @ 81F7B67
 	.string "엄마: {PLAYER}{K_AYA}\n"
 	.string "방 안에 있는 시계 맞춰 두렴$"
-	// ママ『§あｐ
-	// おへやの とけい あわせてきて
+	@ ママ『§あｐ
+	@ おへやの とけい あわせてきて
 
 PlayersHouse_1F_Text_OhComeQuickly: @ 81F7B96
 	.string "엄마: ...아! {PLAYER}{K_AYA}! {PLAYER}{K_AYA}!\n"
 	.string "빨리 여기로 와보렴!$"
-	// ママ『……あ! §あ! §あ!ｎ
-	// はやく こっちに いらっしゃい!
+	@ ママ『……あ! §あ! §あ!ｎ
+	@ はやく こっちに いらっしゃい!
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
 	.string "엄마: 등화도시 체육관이 나오고 있어\n"
 	.string "아빠가 나올지도 몰라!!$"
-	// ママ『トウカの ジムが うつってるわｎ
-	// パパが でるかもよ!!
+	@ ママ『トウカの ジムが うつってるわｎ
+	@ パパが でるかもよ!!
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim: @ 81F7BF1
 	.string "엄마: 어머머... 끝나버렸네\p"
 	.string "아빠가 나왔던 거 같은데 아쉽다$"
-	// ママ『あらら…… おわっちゃったｐ
-	// パパが でてたみたい だったのに ざんねんね
+	@ ママ『あらら…… おわっちゃったｐ
+	@ パパが でてたみたい だったのに ざんねんね
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "...아 맞다 맞다! 이 마을에\n"
@@ -359,47 +359,47 @@ PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "아빠 친구분이 계시거든\p"
 	.string "박사님 집은 옆집이니까\n"
 	.string "얼른 인사 드리고 오렴!$"
-	// ……あ そうそう! このまち にはｎ
-	// オダマキはかせ っていうｌ
-	// パパの おともだちが いるのｐ
-	// はかせの いえは おとなり だからｎ
-	// きちんと あいさつ してくると いいわ!
+	@ ……あ そうそう! このまち にはｎ
+	@ オダマキはかせ っていうｌ
+	@ パパの おともだちが いるのｐ
+	@ はかせの いえは おとなり だからｎ
+	@ きちんと あいさつ してくると いいわ!
 
 PlayersHouse_1F_Text_SeeYouHoney: @ 81F7CC3
 	.string "엄마: 그럼 다녀오렴!$"
-	// ママ『いってらっしゃい!
+	@ ママ『いってらっしゃい!
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch: @ 81F7CD8
 	.string "엄마: 털보박사님은 만나고 왔니?$"
-	// ママ『オダマキはかせ には あえたの?
+	@ ママ『オダマキはかせ には あえたの?
 
 PlayersHouse_1F_Text_YouShouldRestABit: @ 81F7D08
 	.string "엄마: {PLAYER}{K_AYA} 잘 있었니?\n"
 	.string "조금 지쳐 보이네?\p"
 	.string "집에서 좀 쉬다 가렴$"
-	// ママ『どう? §あｎ
-	// すこし つかれたんじゃ ないかしら?ｐ
-	// おうちで やすんでいくと いいわ
+	@ ママ『どう? §あｎ
+	@ すこし つかれたんじゃ ないかしら?ｐ
+	@ おうちで やすんでいくと いいわ
 
 PlayersHouse_1F_Text_TakeCareHoney: @ 81F7D5C
 	.string "엄마: 그럼 조심하고!$"
-	// ママ『じゃあ きをつけてね!
+	@ ママ『じゃあ きをつけてね!
 
 PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom: @ 81F7D73
 	.string "엄마: 어머\n"
 	.string "그 배지 아빠한테 받은 거니!?\p"
 	.string "그럼 엄마도 이거 줘야겠다$"
-	// ママ『あらｎ
-	// その バッジ パパから もらったの!?ｐ
-	// じゃあ ママも これ あげようかな
+	@ ママ『あらｎ
+	@ その バッジ パパから もらったの!?ｐ
+	@ じゃあ ママも これ あげようかな
 
 PlayersHouse_1F_Text_DontPushYourselfTooHard: @ 81F7DBE
 	.string "너무 무리하지는 마렴\n"
 	.string "언제든지 집에 와도 돼\p"
 	.string "그럼 힘내!$"
-	// あんまり むりは しないでねｎ
-	// なにか あれば かえって くればいいからｐ
-	// じゃあ がんばってね!
+	@ あんまり むりは しないでねｎ
+	@ なにか あれば かえって くればいいからｐ
+	@ じゃあ がんばってね!
 
 PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
 	.string "엄마: 그건 뭐니? 포켓내비?\n"
@@ -407,41 +407,41 @@ PlayersHouse_1F_Text_IsThatAPokenav: @ 81F7E0E
 	.string "그럼 엄마도\n"
 	.string "등록해 주려무나!\p"
 	.string "...... ...... ......$"
-	// ママ『なあに それ? ポケナビ?ｎ
-	// デボンの ひとから いただいたの?ｐ
-	// じゃあ ママの こともｎ
-	// とうろくして もらっちゃおうかな!ｐ
-	// …… …… ……
+	@ ママ『なあに それ? ポケナビ?ｎ
+	@ デボンの ひとから いただいたの?ｐ
+	@ じゃあ ママの こともｎ
+	@ とうろくして もらっちゃおうかな!ｐ
+	@ …… …… ……
 
 PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "엄마를\n"
 	.string "포켓내비에 등록했다!$"
-	// ママをｎ
-	// ポケナビに とうろく した!
+	@ ママをｎ
+	@ ポケナビに とうろく した!
 
 PlayersHouse_1F_Text_Vigoroth1: @ 81F7EA8
 	.string "후기-잇$"
-	// ふぎ-っ
+	@ ふぎ-っ
 
 PlayersHouse_1F_Text_Vigoroth2: @ 81F7EB3
 	.string "후곳 후고 후고...$"
-	// ふごっ ふご ふご……
+	@ ふごっ ふご ふご……
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6
 	.string "인터뷰어: ... 이상으로\n"
 	.string "등화체육관 앞에서 전해드렸습니다!$"
-	// インタビュア-『…… いじょうｎ
-	// トウカジムの まえ からでした!
+	@ インタビュア-『…… いじょうｎ
+	@ トウカジムの まえ からでした!
 
 PlayersHouse_1F_Text_TheresAMovieOnTV: @ 81F7F0F
 	.string "TV에서 영화를 하고 있다!\p"
 	.string "어른과 아이가 둘이서 나란히\n"
 	.string "커다란 피아노 위에서 춤추고 있다!\p"
 	.string "빨리 가자!$"
-	// テレビで えいがを やってる!ｐ
-	// おとなと こどもが ふたり ならんでｎ
-	// おおきな ピアノの うえで おどってる!ｐ
-	// もう いかなきゃ!
+	@ テレビで えいがを やってる!ｐ
+	@ おとなと こどもが ふたり ならんでｎ
+	@ おおきな ピアノの うえで おどってる!ｐ
+	@ もう いかなきゃ!
 
 PlayersHouse_1F_Text_RunningShoesManual: @ 81F7F66
 	.string "러닝슈즈의\n"
@@ -451,13 +451,13 @@ PlayersHouse_1F_Text_RunningShoesManual: @ 81F7F66
 	.string "  빨리 달릴 수 있게 해줍니다!\p"
 	.string "  러닝슈즈를 신고\n"
 	.string "  마음껏 달립시다!”$"
-	// ランニングシュ-ズのｎ
-	// せつめいしょが ある!ｐ
-	// 「ランニングシュ-ズはｎ
-	//  Bボタンを おすことで いままでよりもｌ
-	//  はやく はしれるように なります!ｐ
-	//  ランニングシュ-ズを はいてｎ
-	//  おもいっきり そとを はしろう!」
+	@ ランニングシュ-ズのｎ
+	@ せつめいしょが ある!ｐ
+	@ 「ランニングシュ-ズはｎ
+	@  Bボタンを おすことで いままでよりもｌ
+	@  はやく はしれるように なります!ｐ
+	@  ランニングシュ-ズを はいてｎ
+	@  おもいっきり そとを はしろう!」
 
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou: @ 81F800E
 	.string "아빠: 응?\n"
@@ -468,46 +468,46 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou: @ 81F800E
 	.string "...아 그래 맞다\n"
 	.string "하기라는 사람한테서\l"
 	.string "네 앞으로 뭔가가 왔단다!$"
-	// パパ『ん?ｎ
-	// §あじゃ ないか!ｐ
-	// ひさしぶりに かおを みたがｎ
-	// どこか たくましくなった……ｌ
-	// そんな かんじ だなｐ
-	// ……おっと そうだったｎ
-	// ハギさん という ひとからｌ
-	// おまえあてに なにか とどいていたぞ!
+	@ パパ『ん?ｎ
+	@ §あじゃ ないか!ｐ
+	@ ひさしぶりに かおを みたがｎ
+	@ どこか たくましくなった……ｌ
+	@ そんな かんじ だなｐ
+	@ ……おっと そうだったｎ
+	@ ハギさん という ひとからｌ
+	@ おまえあてに なにか とどいていたぞ!
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove: @ 81F80FE
 	.string "아빠: 승선티켓이구나...\p"
 	.string "배를 탈 거라면 잿빛도시나 해안시티의\n"
 	.string "선착장에서 타렴$"
-	// パパ『ふねのチケットか……ｐ
-	// ふねに のるなら カイナか ミナモにｎ
-	// ふねのりばが あったよな
+	@ パパ『ふねのチケットか……ｐ
+	@ ふねに のるなら カイナか ミナモにｎ
+	@ ふねのりばが あったよな
 
 PlayersHouse_1F_Text_BetterGetBackToGym: @ 81F815B
 	.string "그럼 난\n"
 	.string "등화도시 체육관으로 돌아가마\p"
 	.string "여보\n"
 	.string "그럼 다녀올게$"
-	// では わたしはｎ
-	// トウカの ジムに もどるよｐ
-	// ママｎ
-	// いえのこと たのんだよ
+	@ では わたしはｎ
+	@ トウカの ジムに もどるよｐ
+	@ ママｎ
+	@ いえのこと たのんだよ
 
 PlayersHouse_1F_Text_DadShouldStayLonger: @ 81F81B9
 	.string "엄마: 네 아빠도 참\n"
 	.string "오랜만에 집에 왔는데\l"
 	.string "포켓몬 얘기만 하고!\p"
 	.string "좀 더 천천히 쉬었다 가지!$"
-	// ママ『パパったらｎ
-	// ひさしぶりに かえって きたのにｌ
-	// ポケモンの はなし ばっかり!ｐ
-	// もっと ゆっくり すれば いいのにね!
+	@ ママ『パパったらｎ
+	@ ひさしぶりに かえって きたのにｌ
+	@ ポケモンの はなし ばっかり!ｐ
+	@ もっと ゆっくり すれば いいのにね!
 
 PlayersHouse_1F_Text_IsThatABreakingStory: @ 81F824B
 	.string "엄마: 무슨 뉴스지?$"
-	// ママ『なにかの ニュ-ス かしら?
+	@ ママ『なにかの ニュ-ス かしら?
 
 PlayersHouse_1F_Text_LatiEmergencyNewsFlash: @ 81F826F
 	.string "임시 뉴스입니다\p"
@@ -518,25 +518,25 @@ PlayersHouse_1F_Text_LatiEmergencyNewsFlash: @ 81F826F
 	.string "확인하지 못했다고 합니다...\p"
 	.string "그럼 계속 이어지는\n"
 	.string "영화를 즐겨 주십시오$"
-	// りんじ ニュ-ス ですｐ
-	// ホウエンちほうの かくちでｎ
-	// ……いろの ポケモンが とんでいたｌ
-	// という じょうほうが よせられていますｐ
-	// いまのところ しょうたいはｎ
-	// わかって いない ようです……ｐ
-	// では ひきつづきｎ
-	// えいがを おたのしみ ください
+	@ りんじ ニュ-ス ですｐ
+	@ ホウエンちほうの かくちでｎ
+	@ ……いろの ポケモンが とんでいたｌ
+	@ という じょうほうが よせられていますｐ
+	@ いまのところ しょうたいはｎ
+	@ わかって いない ようです……ｐ
+	@ では ひきつづきｎ
+	@ えいがを おたのしみ ください
 
 PlayersHouse_1F_Text_WhatColorDidTheySay: @ 81F8351
 	.string "엄마: 저기 저기 {PLAYER}{K_AYA}\n"
 	.string "지금 뉴스\l"
 	.string "무슨 색의 포켓몬에 대해 말했었니?$"
-	// ママ『ねえ ねえ {PLAYER}ｎ
-	// いまの ニュ-スｌ
-	// なにいろの ポケモンって いってたの?
+	@ ママ『ねえ ねえ {PLAYER}ｎ
+	@ いまの ニュ-スｌ
+	@ なにいろの ポケモンって いってたの?
 
 PlayersHouse_1F_Text_StillUnknownPokemon: @ 81F83A1
 	.string "엄마: 흐음- 아직도\n"
 	.string "알려지지 않은 포켓몬이 있는 거구나$"
-	// ママ『へえ- まだまだｎ
-	// しられていない ポケモンは いるのねえ
+	@ ママ『へえ- まだまだｎ
+	@ しられていない ポケモンは いるのねえ

@@ -672,208 +672,208 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase:: @ 8210456
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner: @ 8210460
 	.string "어서 오세요!\n"
 	.string "보라시티 게임코너입니다!$"
-	// いらっしゃいませ!ｎ
-	// キンセツ ゲ-ムコ-ナ- です!
+	@ いらっしゃいませ!ｎ
+	@ キンセツ ゲ-ムコ-ナ- です!
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins: @ 821047E
 	.string "게임용 동전 말이죠?\p"
 	.string "어머? 동전을 넣는\n"
 	.string "동전케이스가 없네요$"
-	// ゲ-ムよう コイン ですね?ｐ
-	// あら? コインを いれるｎ
-	// コインケ-スが ありませんよ
+	@ ゲ-ムよう コイン ですね?ｐ
+	@ あら? コインを いれるｎ
+	@ コインケ-スが ありませんよ
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins: @ 82104DF
 	.string "게임용 동전 말이죠?\p"
 	.string "50개에 1000원입니다!\n"
 	.string "동전을 사시겠습니까?$"
-	// ゲ-ムよう コイン ですね?ｐ
-	// 50まい 1000えんに なります!ｎ
-	// コインを かいますか?
+	@ ゲ-ムよう コイン ですね?ｐ
+	@ 50まい 1000えんに なります!ｎ
+	@ コインを かいますか?
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins: @ 8210529
 	.string "네 감사합니다!\n"
 	.string "동전입니다! 여기 있습니다!$"
-	// はい ありがとう ございます!ｎ
-	// コイン です! どうぞ!
+	@ はい ありがとう ございます!ｎ
+	@ コイン です! どうぞ!
 
 MauvilleCity_GameCorner_Text_DontHaveEnoughMoney: @ 8210553
 	.string "저기...\n"
 	.string "돈이 부족한 것 같아요$"
-	// あの……ｎ
-	// おかねが たりないようです
+	@ あの……ｎ
+	@ おかねが たりないようです
 
 MauvilleCity_GameCorner_Text_CoinCaseIsFull: @ 821057E
 	.string "어머?\n"
 	.string "동전케이스가 가득 찼네요$"
-	// あら?ｎ
-	// コインケ-スが まんたん ですね
+	@ あら?ｎ
+	@ コインケ-スが まんたん ですね
 
 MauvilleCity_GameCorner_Text_DontNeedCoinsThen: @ 821059A
 	.string "... 필요 없으시군요!\n"
 	.string "그럼 또 와주세요!$"
-	// …… いりませんか!ｎ
-	// それでは また きてくださいね!
+	@ …… いりませんか!ｎ
+	@ それでは また きてくださいね!
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes: @ 82105D7
 	.string "어서 오세요!\p"
 	.string "여기서는 게임으로 쌓은 동전을\n"
 	.string "마음에 드는 경품과 교환합니다!$"
-	// いらっしゃいませ!ｐ
-	// こちらでは ゲ-ムで ためた コインをｎ
-	// おすきな けいひんと こうかん します!
+	@ いらっしゃいませ!ｐ
+	@ こちらでは ゲ-ムで ためた コインをｎ
+	@ おすきな けいひんと こうかん します!
 
 MauvilleCity_GameCorner_Text_WhichPrize: @ 821060D
 	.string "어느 것이 좋으세요?$"
-	// どれが いいですか?
+	@ どれが いいですか?
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX: @ 8210629
 	.string "{STR_VAR_1} {STR_VAR_2}{K_EU}로\n"
 	.string "괜찮으신 거죠?$"
-	// §い「§う」でｎ
-	// いいですね?
+	@ §い「§う」でｎ
+	@ いいですね?
 
 MauvilleCity_GameCorner_Text_SendToYourHomePC: @ 8210646
 	.string "감사합니다!\n"
 	.string "집에 있는 PC에 보내둘게요!$"
-	// どうも ありがとう!ｎ
-	// じたくの パソコンに おくって おきますね!
+	@ どうも ありがとう!ｎ
+	@ じたくの パソコンに おくって おきますね!
 
 MauvilleCity_GameCorner_Text_NotEnoughCoins: @ 8210673
 	.string "동전이 모자라네요$"
-	// コインが たりませんね
+	@ コインが たりませんね
 
 @ Unused
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor: @ 8210690
 	.string "{STR_VAR_1}{K_EULREUL}\n"
 	.string "놓을 장소가 없습니다$"
-	// §い をｎ
-	// いれる ばしょが いっぱいですよ
+	@ §い をｎ
+	@ いれる ばしょが いっぱいですよ
 
 MauvilleCity_GameCorner_Text_OhIsThatSo: @ 82106BF
 	.string "어머 그렇군요\n"
 	.string "동전 모아서 와주세요!$"
-	// あら そうですかｎ
-	// コイン ためて きてくださいね!
+	@ あら そうですかｎ
+	@ コイン ためて きてくださいね!
 
 MauvilleCity_GameCorner_Text_SoYourChoiceIsX: @ 8210705
 	.string "{STR_VAR_1}{K_EU}로\n"
 	.string "괜찮으신 거죠?$"
-	// §いでｎ
-	// いいですね?$
+	@ §いでｎ
+	@ いいですね?$
 
 MauvilleCity_GameCorner_Text_HereYouGo: @ 821071B
 	.string "네 여기 있습니다!$"
-	// はい どうぞ!
+	@ はい どうぞ!
 
 @ Unused
 MauvilleCity_GameCorner_Text_CantCarryAnyMore: @ 8210728
 	.string "그 이상 가지실 수 없습니다$"
-	// それいじょう もてない ですよ
+	@ それいじょう もてない ですよ
 
 MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne: @ 8210750
 	.string "실수로 같은 인형을\n"
 	.string "2개씩이나 사고 말았어!\p"
 	.string "너한테 하나 줄까?$"
-	// うっかり おんなじｎ
-	// ぬいぐるみを もらっちゃった!ｐ
-	// ひとつ あなたに わけてあげようか?
+	@ うっかり おんなじｎ
+	@ ぬいぐるみを もらっちゃった!ｐ
+	@ ひとつ あなたに わけてあげようか?
 
 MauvilleCity_GameCorner_Text_HereYouGo2: @ 821079C
 	.string "자 여기 받아!$"
-	// はい どうぞ!
+	@ はい どうぞ!
 
 MauvilleCity_GameCorner_Text_YouWantItButNotNow: @ 82107A9
 	.string "음? 갖고 싶지만\n"
 	.string "지금은 안 되는 거야-?$"
-	// え- ほしいけどｎ
-	// いまは ダメなの-?
+	@ え- ほしいけどｎ
+	@ いまは ダメなの-?
 
 MauvilleCity_GameCorner_Text_DontBeNegative: @ 82107CE
 	.string "그런 말 하지 말고 받아!$"
-	// そんなこと いわずに もらってよ!
+	@ そんなこと いわずに もらってよ!
 
 MauvilleCity_GameCorner_Text_CantWinJackpot: @ 82107FB
 	.string "갖고 싶은 경품이 있어서\n"
 	.string "당첨을 노리고 있어!$"
-	// ほしい けいひんが あるからｎ
-	// おおあたり ねらってるのよ!
+	@ ほしい けいひんが あるからｎ
+	@ おおあたり ねらってるのよ!
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor: @ 8210830
 	.string "여기서 놀려면\n"
 	.string "동전케이스가 필요하다고!\p"
 	.string "갖고 싶으면 옆집의\n"
 	.string "누나한테 가보는 건 어때?$"
-	// ここで あそぶにはｎ
-	// コインケ-スが ひつよう だぞ!ｐ
-	// ほしかったら となりの いえのｎ
-	// おねえさんに いってみたら どうだ?
+	@ ここで あそぶにはｎ
+	@ コインケ-スが ひつよう だぞ!ｐ
+	@ ほしかったら となりの いえのｎ
+	@ おねえさんに いってみたら どうだ?
 
 MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins: @ 82108A0
 	.string "오늘은 계속 이겼단 말이지!\n"
 	.string "네게도 동전을 나눠주마!$"
-	// きょうは かちまくって いるからな!ｎ
-	// きみにも コインを わけて あげよう!
+	@ きょうは かちまくって いるからな!ｎ
+	@ きみにも コインを わけて あげよう!
 
 MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone: @ 82108EF
 	.string "아저씨는 보라시티에 오면\n"
 	.string "항상 게임코너에서 논단다\p"
 	.string "뭔가 다른 곳과 비교해서\n"
 	.string "접하기 쉬운 느낌이 들지$"
-	// おじさんは キンセツに くるとｎ
-	// いつも ゲ-ムコ-ナ-で あそぶんだｐ
-	// なんだか ほかに くらべてｎ
-	// でやすいような きが するんだな
+	@ おじさんは キンセツに くるとｎ
+	@ いつも ゲ-ムコ-ナ-で あそぶんだｐ
+	@ なんだか ほかに くらべてｎ
+	@ でやすいような きが するんだな
 
 MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates: @ 8210932
 	.string "룰렛은 노는 테이블마다\n"
 	.string "내는 동전의 개수가 다르단다\p"
 	.string "가지고 있는 동전을 세서\n"
 	.string "놀 테이블을 고르도록 해라!$"
-	// ル-レットは あそぶ テ-ブルでｎ
-	// レ-トが ちがうんじゃよｐ
-	// もっている コインの かずでｎ
-	// あそぶ テ-ブルを えらぶと いいぞ!
+	@ ル-レットは あそぶ テ-ブルでｎ
+	@ レ-トが ちがうんじゃよｐ
+	@ もっている コインの かずでｎ
+	@ あそぶ テ-ブルを えらぶと いいぞ!
 
 MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime: @ 821098E
 	.string "히익- 슬롯을 하다 보면\n"
 	.string "할 일을 잊어버린다니까-$"
-	// ひ- スロットを してるとｎ
-	// しごとを わすれてしまう-
+	@ ひ- スロットを してるとｎ
+	@ しごとを わすれてしまう-
 
 MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay: @ 82109D3
 	.string "이 게임코너에서는\n"
 	.string "동전을 써서 놀아$"
-	// この ゲ-ムコ-ナ-ではｎ
-	// コインを つかって あそぶのよ
+	@ この ゲ-ムコ-ナ-ではｎ
+	@ コインを つかって あそぶのよ
 
 MauvilleCity_GameCorner_Text_RouletteOnlyLuck: @ 8210A05
 	.string "이 룰렛은\n"
 	.string "큰 걸 터뜨리려고 하면\l"
 	.string "꽤 이기기 힘든데\l"
 	.string "꽤 그만두기가 힘들단 말이지$"
-	// この ル-レット という やつはｎ
-	// おおきく ねらおうと するとｌ
-	// なかなか かてないくせにｌ
-	// なかなか やめられない こまった やつだよ
+	@ この ル-レット という やつはｎ
+	@ おおきく ねらおうと するとｌ
+	@ なかなか かてないくせにｌ
+	@ なかなか やめられない こまった やつだよ
 
 MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed: @ 8210A51
 	.string "슬롯은 동전 1개만 있어도 할 수 있지만\n"
 	.string "3개를 거는 게 좋지 않을까?\p"
 	.string "당첨될 확률이 높아지거든!$"
-	// スロットは コイン 1まいから あそべるけどｎ
-	// 3まい かけた ほうが いいんじゃない?ｐ
-	// おおあたりの かくりつが アップするからね!
+	@ スロットは コイン 1まいから あそべるけどｎ
+	@ 3まい かけた ほうが いいんじゃない?ｐ
+	@ おおあたりの かくりつが アップするからね!
 
 MauvilleCity_GameCorner_Text_DifficultToStopOn7: @ 8210A82
 	.string "너는 “7”을 노려서 멈출 수 있니?\p"
 	.string "BD 타임에서 “7”을 노려서\n"
 	.string "딱 멈출 수 있으면\l"
 	.string "동전이 잔뜩 불어나게 돼$"
-	// キミは 「7」を ねらって とめられる?ｐ
-	// BDタイム っていう チャンスゲ-ムのときｎ
-	// 「7」を ねらって ばっちり とめられればｌ
-	// コインを たくさん ふやせるよ
+	@ キミは 「7」を ねらって とめられる?ｐ
+	@ BDタイム っていう チャンスゲ-ムのときｎ
+	@ 「7」を ねらって ばっちり とめられればｌ
+	@ コインを たくさん ふやせるよ
 
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo: @ 8210B04
 	.string "슬롯에 대해 도움되는 정보를\n"
@@ -884,18 +884,18 @@ MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo: @ 8210B04
 	.string "레귤러 보너스를 4번 받고\p"
 	.string "빅 보너스를 맞추게 되면\n"
 	.string "동전을 660개나 얻을 수 있어!$"
-	// スロットの おとくな じょうほうｎ
-	// あなたに おしえて あげるわね!ｐ
-	// イナズマが たくさん たまっているほどｎ
-	// BDタイムの かいすうが ふえやすいの!ｐ
-	// さいこう 5かいの BDタイムの ゲ-ムでｎ
-	// レギュラ-ボ-ナスを 4かい あててからｐ
-	// ビッグボ-ナスを あてることが できればｎ
-	// コインを 660まいも かせげるわ!
+	@ スロットの おとくな じょうほうｎ
+	@ あなたに おしえて あげるわね!ｐ
+	@ イナズマが たくさん たまっているほどｎ
+	@ BDタイムの かいすうが ふえやすいの!ｐ
+	@ さいこう 5かいの BDタイムの ゲ-ムでｎ
+	@ レギュラ-ボ-ナスを 4かい あててからｐ
+	@ ビッグボ-ナスを あてることが できればｎ
+	@ コインを 660まいも かせげるわ!
 
 MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase: @ 8210C2E
 	.string "동전케이스를\n"
 	.string "가지고 있지 않으면 놀 수 없어요!$"
-	// コインケ-スをｎ
-	// もっていないので あそべません!
+	@ コインケ-スをｎ
+	@ もっていないので あそべません!
 

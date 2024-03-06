@@ -312,44 +312,44 @@ TrainerHill_Entrance_Text_WelcomeToTrainerHill: @ 82684C6
 	.string "여기는 여러 트레이너분들과\n"
 	.string "태그배틀을 즐길 수 있는\l"
 	.string "트레이너힐입니다!$"
-	// ようこそ いらっしゃいました!ｐ
-	// ここは さまざまな トレ-ナ-さんとのｎ
-	// タッグバトルが たのしめるｌ
-	// トレ-ナ-ヒルです!
+	@ ようこそ いらっしゃいました!ｐ
+	@ ここは さまざまな トレ-ナ-さんとのｎ
+	@ タッグバトルが たのしめるｌ
+	@ トレ-ナ-ヒルです!
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter: @ 826851C
 	.string "처음 방문하신\n"
 	.string "트레이너님이시군요\p"
 	.string "이용하시기 전에 리포트를\n"
 	.string "작성하도록 하겠습니다$"
-	// はじめて ごりようになるｎ
-	// トレ-ナ-さん ですねｐ
-	// ごりように なるまえに レポ-トをｎ
-	// おかきくださいませ
+	@ はじめて ごりようになるｎ
+	@ トレ-ナ-さん ですねｐ
+	@ ごりように なるまえに レポ-トをｎ
+	@ おかきくださいませ
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX: @ 8268564
 	.string "지금 모여 있는\n"
 	.string "트레이너님은...\p"
 	.string "{STR_VAR_1}층까지인 것 같습니다$"
-	// ただいま あつまっているｎ
-	// トレ-ナ-さんは ……ｐ
-	// §いかい までの ようですね
+	@ ただいま あつまっているｎ
+	@ トレ-ナ-さんは ……ｐ
+	@ §いかい までの ようですね
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom: @ 826859E
 	.string "지금 모여 있는\n"
 	.string "트레이너님은 ......\p"
 	.string "모든 방에 트레이너님이\n"
 	.string "모여 있는 것 같습니다!$"
-	// ただいま あつまっているｎ
-	// トレ-ナ-さんは ……ｐ
-	// すべての へやに トレ-ナ-さんがｎ
-	// あつまっている みたいですね!
+	@ ただいま あつまっているｎ
+	@ トレ-ナ-さんは ……ｐ
+	@ すべての へやに トレ-ナ-さんがｎ
+	@ あつまっている みたいですね!
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers: @ 82685F8
 	.string "트레이너님들과\n"
 	.string "승부하겠습니까?$"
-	// トレ-ナ-さんたちとｎ
-	// しょうぶ しますか?
+	@ トレ-ナ-さんたちとｎ
+	@ しょうぶ しますか?
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo: @ 826862A
 	.string "그럼 시간을 잴 테니\n"
@@ -357,29 +357,29 @@ TrainerHill_Entrance_Text_TimeProgessGetSetGo: @ 826862A
 	.string "자리에 서서.........\p"
 	.string "준비...\p"
 	.string "땅!!$"
-	// それでは じかんを はかりますのでｎ
-	// がんばってくださいね!ｐ
-	// いちについて…………………ｐ
-	// ようい……ｐ
-	// ドン!!
+	@ それでは じかんを はかりますのでｎ
+	@ がんばってくださいね!ｐ
+	@ いちについて…………………ｐ
+	@ ようい……ｐ
+	@ ドン!!
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain: @ 826866F
 	.string "다음번 방문을 기다리고 있겠습니다!$"
-	// また おこしくださいね!
+	@ また おこしくださいね!
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort: @ 8268689
 	.string "아쉽게 됐군요!\p"
 	.string "정말 좋은 승부였다고\n"
 	.string "생각합니다\p"
 	.string "또 와주세요!$"
-	// ざんねん でしたね!ｐ
-	// とっても いい しょうぶｎ
-	// だったと おもいますｐ
-	// また きてくださいね!
+	@ ざんねん でしたね!ｐ
+	@ とっても いい しょうぶｎ
+	@ だったと おもいますｐ
+	@ また きてくださいね!
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest: @ 82686F4
 	.string "열심히 해주세요!$"
-	// がんばってくださいね!
+	@ がんばってくださいね!
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch: @ 8268712
 	.string "트레이너님이 자리를 바꾸면\n"
@@ -387,15 +387,15 @@ TrainerHill_Entrance_Text_MovedReceptionHereForSwitch: @ 8268712
 	.string "이쪽으로 이동하게\n"
 	.string "되었습니다!\p"
 	.string "죄송합니다!$"
-	// トレ-ナ-さんたちが いれかわってｎ
-	// あぶないのでｐ
-	// こちらに いどう させてｎ
-	// いただきました!ｐ
-	// ごめんなさい!
+	@ トレ-ナ-さんたちが いれかわってｎ
+	@ あぶないのでｐ
+	@ こちらに いどう させてｎ
+	@ いただきました!ｐ
+	@ ごめんなさい!
 
 TrainerHill_Entrance_Text_ThankYouForPlaying: @ 82687AC
 	.string "수고하셨습니다!$"
-	// おつかれさまでした!
+	@ おつかれさまでした!
 
 TrainerHill_Entrance_Text_ExplainTrainerHill: @ 82687C3
 	.string "이곳 트레이너힐에서는\n"
@@ -410,18 +410,18 @@ TrainerHill_Entrance_Text_ExplainTrainerHill: @ 82687C3
 	.string "또한 트레이너와의 승부에서\n"
 	.string "이겨도 경험치나 돈은\l"
 	.string "얻을 수 없습니다$"
-	// ここ トレ-ナ-ヒルではｎ
-	// タイムアタックという きょうぎがｌ
-	// おこなわれますｐ
-	// はやい じかんは タイムボ-ドにｎ
-	// のりますので ともだちと じかんをｌ
-	// くらべて みてくださいｐ
-	// うけつけから おくじょうにいるｎ
-	// オ-ナ-に はなしかけるまでのｌ
-	// じかんが はかられますｐ
-	// また トレ-ナ-との しょうぶでｎ
-	// かっても けいけんちや おかねのｌ
-	// やりとりは おこなわれません
+	@ ここ トレ-ナ-ヒルではｎ
+	@ タイムアタックという きょうぎがｌ
+	@ おこなわれますｐ
+	@ はやい じかんは タイムボ-ドにｎ
+	@ のりますので ともだちと じかんをｌ
+	@ くらべて みてくださいｐ
+	@ うけつけから おくじょうにいるｎ
+	@ オ-ナ-に はなしかけるまでのｌ
+	@ じかんが はかられますｐ
+	@ また トレ-ナ-との しょうぶでｎ
+	@ かっても けいけんちや おかねのｌ
+	@ やりとりは おこなわれません
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon: @ 826890D
@@ -429,10 +429,10 @@ TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon: @ 826890D
 	.string "한 마리밖에 없으시군요\p"
 	.string "두 마리 이상 데리고\n"
 	.string "다시 방문해 주십시오$"
-	// おや?ｎ
-	// てもちが 1ぴきしか いないようですねｐ
-	// てもちを 2ひき いじょうに してからｎ
-	// またおこし くださいませ
+	@ おや?ｎ
+	@ てもちが 1ぴきしか いないようですねｐ
+	@ てもちを 2ひき いじょうに してからｎ
+	@ またおこし くださいませ
 
 TrainerHill_Roof_Text_YouFinallyCameBravo: @ 8268986
 	.string "으음!\p"
@@ -449,32 +449,32 @@ TrainerHill_Roof_Text_YouFinallyCameBravo: @ 8268986
 	.string "아닌가?\p"
 	.string "어쨌든 자네의 배틀은 잘 봤네\n"
 	.string "실로 굉장했었네! 브라보!$"
-	// ムム!ｐ
-	// ついに きたね!ｎ
-	// きてしまったね!ｐ
-	// ン- わかっているさ-!ｎ
-	// なんで きみが こんなところまでｌ
-	// ひとりで きてしまったのか!ｐ
-	// ここの オ-ナ-であるｎ
-	// この わたくしと……ｐ
-	// タッグを くみにきたんだろ-!ｎ
-	// ワオ!ｐ
-	// ……あｎ
-	// ちがうの?ｐ
-	// いや きみの たたかい みせてもらったよｎ
-	// じつに すばらしかった! ブラボ-!
+	@ ムム!ｐ
+	@ ついに きたね!ｎ
+	@ きてしまったね!ｐ
+	@ ン- わかっているさ-!ｎ
+	@ なんで きみが こんなところまでｌ
+	@ ひとりで きてしまったのか!ｐ
+	@ ここの オ-ナ-であるｎ
+	@ この わたくしと……ｐ
+	@ タッグを くみにきたんだろ-!ｎ
+	@ ワオ!ｐ
+	@ ……あｎ
+	@ ちがうの?ｐ
+	@ いや きみの たたかい みせてもらったよｎ
+	@ じつに すばらしかった! ブラボ-!
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift: @ 8268AC5
 	.string "그런 굉장한 자네에게는\n"
 	.string "이것을 선물하지-!$"
-	// そんな すばらしい キミにはｎ
-	// これを プレゼントだ-!
+	@ そんな すばらしい キミにはｎ
+	@ これを プレゼントだ-!
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis: @ 8268B07
 	.string "지닌 물건이 가득한 건가-\n"
 	.string "나중에 가지러 오게-!$"
-	// もちものが いっぱいだね-ｎ
-	// あとで とりにきて-!
+	@ もちものが いっぱいだね-ｎ
+	@ あとで とりにきて-!
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly: @ 8268B43
 	.string "오-! 설마 이렇게 빨리\n"
@@ -483,18 +483,18 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly: @ 8268B43
 	.string "열심히 해주다니-!\p"
 	.string "기쁘니 접수처의\n"
 	.string "타임보드에 기록해두겠네!$"
-	// オ-! もしかして すごく はやくｎ
-	// ここまで きたんじゃない-!?ｐ
-	// この わたくしに あうために そんなにｎ
-	// がんばって くれたんだね-!ｐ
-	// うれしすぎるから うけつけのｎ
-	// タイムボ-ドに きろく しておくぜ-!
+	@ オ-! もしかして すごく はやくｎ
+	@ ここまで きたんじゃない-!?ｐ
+	@ この わたくしに あうために そんなにｎ
+	@ がんばって くれたんだね-!ｐ
+	@ うれしすぎるから うけつけのｎ
+	@ タイムボ-ドに きろく しておくぜ-!
 
 TrainerHill_Roof_Text_YouWerentVeryQuick: @ 8268C03
 	.string "오-...\n"
 	.string "하지만 그렇게 빠르진 않았네-$"
-	// オ-……ｎ
-	// でも あんまり はやく なかったね-
+	@ オ-……ｎ
+	@ でも あんまり はやく なかったね-
 
 TrainerHill_Roof_Text_ArriveZippierNextTime: @ 8268C31
 	.string "다음엔 더 빨리 이 몸을\n"
@@ -502,11 +502,11 @@ TrainerHill_Roof_Text_ArriveZippierNextTime: @ 8268C31
 	.string "그러면 그때야말로\n"
 	.string "태그를 맺도록 하지!\p"
 	.string "그럼 또 보세! 아미고!$"
-	// つぎは もっと はやく このわたくしにｎ
-	// あいにきてくれると いいかもね!ｐ
-	// そしたら こんどこそｎ
-	// タッグを くもうな-!ｐ
-	// じゃあ またな! アミ-ゴ!
+	@ つぎは もっと はやく このわたくしにｎ
+	@ あいにきてくれると いいかもね!ｐ
+	@ そしたら こんどこそｎ
+	@ タッグを くもうな-!ｐ
+	@ じゃあ またな! アミ-ゴ!
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner: @ 8268CC6
@@ -514,24 +514,24 @@ TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner: @ 8268CC6
 	.string "파트너를 찾기 위해\p"
 	.string "이 트레이너힐을\n"
 	.string "만들었다네!$"
-	// このわたくしと タッグを くんでくれるｎ
-	// パ-トナ-を みつけるためｐ
-	// この トレ-ナ-ヒルをｎ
-	// つくったんだぜい!
+	@ このわたくしと タッグを くんでくれるｎ
+	@ パ-トナ-を みつけるためｐ
+	@ この トレ-ナ-ヒルをｎ
+	@ つくったんだぜい!
 
 TrainerHill_Entrance_Text_ChallengeTime: @ 8268D47
 	.string "{STR_VAR_1}분 {STR_VAR_2}.{STR_VAR_3}초$"
-	// §いふん §うびょう §え
+	@ §いふん §うびょう §え
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead: @ 8268D5A
 	.string "어떤 조합의 트레이너가\n"
 	.string "기다리고 있는 걸까!\p"
 	.string "어떤 녀석이 와도\n"
 	.string "내가 쓰러뜨려 주겠어!$"
-	// どんな くみあわせの トレ-ナ-がｎ
-	// まっているのか!ｐ
-	// どんな やつがきてもｎ
-	// おれが たおしてみせるぜ!
+	@ どんな くみあわせの トレ-ナ-がｎ
+	@ まっているのか!ｐ
+	@ どんな やつがきてもｎ
+	@ おれが たおしてみせるぜ!
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters: @ 8268DDA
 	.string "강한 트레이너들이 이 트레이너힐로\n"
@@ -546,11 +546,11 @@ TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop: @ 8268E6A
 	.string "나는 친구들과 누가 더\n"
 	.string "빠르고 높게 갈 수 있는지\l"
 	.string "시간을 재서 경쟁하고 있어!$"
-	// あそこに タイムボ-ドがｎ
-	// あるでしょ?ｐ
-	// わたしは ともだちと どっちがはやくｎ
-	// いちばん うえまで いけるかｌ
-	// タイムを きそってるのよ!
+	@ あそこに タイムボ-ドがｎ
+	@ あるでしょ?ｐ
+	@ わたしは ともだちと どっちがはやくｎ
+	@ いちばん うえまで いけるかｌ
+	@ タイムを きそってるのよ!
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen: @ 8268EDC
 	.string "여기 언제 여는지\n"
@@ -560,4 +560,4 @@ TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen: @ 8268EDC
 
 TrainerHill_Elevator_Text_ReturnToReception: @ 8268F3E
 	.string "접수처로 돌아가겠습니까?$"
-	// うけつけに もどりますか?
+	@ うけつけに もどりますか?

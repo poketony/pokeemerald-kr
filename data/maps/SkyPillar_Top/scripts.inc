@@ -187,6 +187,6 @@ SkyPillar_Top_Movement_CameraPanDown: @ 823985C
 SkyPillar_Top_Text_RayquazaFlewOff: @ 8239860
 	.string "눈을 뜬 레쿠쟈는\n"
 	.string "어딘가로 날아가 버렸다...$"
-	// めを さました レックウザはｎ
-	// どこかへ とんで いって しまった……
+	@ めを さました レックウザはｎ
+	@ どこかへ とんで いって しまった……
 

@@ -527,7 +527,7 @@ AquaHideout_B2F_EventScript_ItemNestBall:: @ 829137F
 	end
 
 AquaHideout_B2F_EventScript_ItemMasterBall:: @ 829138C
-	finditem ITEM_MASTER_BALL      // Unused
+	finditem ITEM_MASTER_BALL      @ Unused
 	end
 
 Route119_EventScript_ItemNugget:: @ 8291399

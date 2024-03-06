@@ -71,51 +71,51 @@ FortreeCity_House1_Text_YouWillTradeWontYou: @ 821637B
 	.string "들었다면\n"
 	.string "네 {STR_VAR_1}{K_WAGWA} {STR_VAR_2}{K_EULREUL}\l"
 	.string "당연히 교환해 줘야겠어!$"
-	// うぉ-!ｎ
-	// どうしても §いが ほし-っ!ｌ
-	// ……とｌ
-	// こころの さけびを きかれて しまった!ｐ
-	// きいた からにはｎ
-	// きみの §いと ボクの §うをｌ
-	// もちろん こうかん するでしょ!
+	@ うぉ-!ｎ
+	@ どうしても §いが ほし-っ!ｌ
+	@ ……とｌ
+	@ こころの さけびを きかれて しまった!ｐ
+	@ きいた からにはｎ
+	@ きみの §いと ボクの §うをｌ
+	@ もちろん こうかん するでしょ!
 
 FortreeCity_House1_Text_MonYouTakeCare: @ 8216440
 	.string "오- 해냈다-!\p"
 	.string "{STR_VAR_1} 잘 왔어-!\n"
 	.string "{STR_VAR_2} 건강해야 해-!$"
-	// お- やった-!ｐ
-	// §い よくきたな-!ｎ
-	// §う げんきで やれよ-!
+	@ お- やった-!ｐ
+	@ §い よくきたな-!ｎ
+	@ §う げんきで やれよ-!
 
 FortreeCity_House1_Text_ThisIsntAMon: @ 8216474
 	.string "아니 그거\n"
 	.string "{STR_VAR_1} 아니잖아$"
-	// いやソレｎ
-	// §いじゃないでしょ
+	@ いやソレｎ
+	@ §いじゃないでしょ
 
 FortreeCity_House1_Text_YouWontTradeMe: @ 821649F
 	.string "뭐 교환하지 않는다고?\n"
 	.string "마음의 소리를 들었으면서...$"
-	// え こうかん しないの?ｎ
-	// こころの さけびを きいたくせに……
+	@ え こうかん しないの?ｎ
+	@ こころの さけびを きいたくせに……
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong: @ 82164DB
 	.string "좋아 지금부터\n"
 	.string "볼비트를 강하게 키우겠어-!\l"
 	.string "플러시도 강하게 키워줘-!$"
-	// よし いまからｎ
-	// バルビ-トを つよく するぞ-!ｌ
-	// プラスルも つよく してやってよ!
+	@ よし いまからｎ
+	@ バルビ-トを つよく するぞ-!ｌ
+	@ プラスルも つよく してやってよ!
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
 	.string "다른 사람과 포켓몬을 교환하는 것...\p"
 	.string "그건 자기들의 추억을\n"
 	.string "교환하는 것이나 마찬가지지$"
-	// ひとと ポケモンを こうかん する……ｐ
-	// つまりは それぞれのｎ
-	// おもいでを こうかん しているのじゃな
+	@ ひとと ポケモンを こうかん する……ｐ
+	@ つまりは それぞれのｎ
+	@ おもいでを こうかん しているのじゃな
 
 FortreeCity_House1_Text_Zigzagoon: @ 8216597
 	.string "지그제구리: 크옹?$"
-	// ジグザグマ『グモモォ?
+	@ ジグザグマ『グモモォ?
 

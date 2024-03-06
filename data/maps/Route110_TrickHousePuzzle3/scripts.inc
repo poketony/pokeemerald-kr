@@ -322,63 +322,63 @@ Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened: @ 826C609
 	.string "“미궁대왕님 존경해”\p"
 	.string "...... ...... ......\p"
 	.string "문의 자물쇠가 풀렸다!$"
-	// §あは あいことばをｎ
-	// とびらに かきつけた!ｐ
-	// 「カラクリだいおう さま あこがれ」ｐ
-	// …… …… ……ｐ
-	// かぎの はずれる おとがした!
+	@ §あは あいことばをｎ
+	@ とびらに かきつけた!ｐ
+	@ 「カラクリだいおう さま あこがれ」ｐ
+	@ …… …… ……ｐ
+	@ かぎの はずれる おとがした!
 
 Route110_TrickHousePuzzle3_Text_JustinIntro: @ 826C676
 	.string "몇 번이고 같은 곳으로\n"
 	.string "돌아와버려-!$"
-	// なんども おなじ ところにｎ
-	// もどって きちゃうよ-!
+	@ なんども おなじ ところにｎ
+	@ もどって きちゃうよ-!
 
 Route110_TrickHousePuzzle3_Text_JustinDefeat: @ 826C69D
 	.string "내가 곤란해하고 있는데\n"
 	.string "확실하게 이겨버리다니 너무해-!$"
-	// ぼくが こまってるのにｎ
-	// ダメおしで かつなんて ひどいよ-!
+	@ ぼくが こまってるのにｎ
+	@ ダメおしで かつなんて ひどいよ-!
 
 Route110_TrickHousePuzzle3_Text_JustinPostBattle: @ 826C6E6
 	.string "문투성이라서\n"
 	.string "좁고 무섭다고-!$"
-	// とびら だらけでｎ
-	// せまくて こわいよ-!
+	@ とびら だらけでｎ
+	@ せまくて こわいよ-!
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro: @ 826C726
 	.string "뭐가 뭔지 모르겠어서\n"
 	.string "슬퍼지기 시작했어...$"
-	// なにが なんだか わからなくてｎ
-	// かなしく なってきたわ……
+	@ なにが なんだか わからなくてｎ
+	@ かなしく なってきたわ……
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat: @ 826C763
 	.string "너 너무해...$"
-	// ひっ ひどいわ……
+	@ ひっ ひどいわ……
 
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle: @ 826C776
 	.string "당연히 나는 약한 데다가\n"
 	.string "방향치라고-!$"
-	// どうせ あたしは よわいしｎ
-	// ほうこうおんちよ-!
+	@ どうせ あたしは よわいしｎ
+	@ ほうこうおんちよ-!
 
 Route110_TrickHousePuzzle3_Text_AlanIntro: @ 826C7AA
 	.string "대체 뭘 위해서\n"
 	.string "이런 저택이 있는 거지...?$"
-	// いったい なんの ためにｎ
-	// こんな やしきが あるんだろう……?
+	@ いったい なんの ためにｎ
+	@ こんな やしきが あるんだろう……?
 
 Route110_TrickHousePuzzle3_Text_AlanDefeat: @ 826C7EC
 	.string "대체 왜\n"
 	.string "내가 진 거지...?$"
-	// いったい なぜｎ
-	// わしは まけて しまったんだろう……?
+	@ いったい なぜｎ
+	@ わしは まけて しまったんだろう……?
 
 Route110_TrickHousePuzzle3_Text_AlanPostBattle: @ 826C80C
 	.string "대체 이 저택에는\n"
 	.string "얼마나 많은 장치가 있는 거지...?\p"
 	.string "자네라면 알지도 모르겠군$"
-	// いったい どれくらいの しかけがｎ
-	// この やしきに あるんだろう…?ｐ
-	// きみなら わかるかもな
+	@ いったい どれくらいの しかけがｎ
+	@ この やしきに あるんだろう…?ｐ
+	@ きみなら わかるかもな
 

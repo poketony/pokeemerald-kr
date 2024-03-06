@@ -1026,9 +1026,9 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase: @ 821AD10
 	.string "우와-!\p"
 	.string "접수원 언니한테서\n"
 	.string "포켓몬스넥 넣는 케이스 받았다!$"
-	// うわ-い!ｐ
-	// うけつけの おねえちゃんからｎ
-	// ポロック いれる ケ-ス もらった!
+	@ うわ-い!ｐ
+	@ うけつけの おねえちゃんからｎ
+	@ ポロック いれる ケ-ス もらった!
 
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
 	.string "포켓몬스넥케이스에\n"
@@ -1036,10 +1036,10 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries: @ 821AD55
 	.string "근데 포켓몬스넥을 만들 때는\n"
 	.string "모두 다른 나무열매로\l"
 	.string "만들지 않으면 안 돼!$"
-	// ポロック つくって いれて!ｐ
-	// でね ポロック つくる ときはｎ
-	// みんなが ちがう きのみでｌ
-	// つくらないと ダメ なんだよ!
+	@ ポロック つくって いれて!ｐ
+	@ でね ポロック つくる ときはｎ
+	@ みんなが ちがう きのみでｌ
+	@ つくらないと ダメ なんだよ!
 
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "우승 축하해!\p"
@@ -1050,14 +1050,14 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint: @ 821ADB9
 	.string "정말 굉장해서\l"
 	.string "평소보다 잘 그렸어!\l"
 	.string "자 이거!$"
-	// ゆうしょう おめでとう!ｐ
-	// さっそく きねんにｎ
-	// きみの ポケモンの えをｌ
-	// かきあげたんだけど……ｐ
-	// なんだか きみの ポケモンの アピ-ルがｎ
-	// あまり にも すばらしくてｌ
-	// いつもより うまく かけたんだ!ｌ
-	// ほらっ これ!
+	@ ゆうしょう おめでとう!ｐ
+	@ さっそく きねんにｎ
+	@ きみの ポケモンの えをｌ
+	@ かきあげたんだけど……ｐ
+	@ なんだか きみの ポケモンの アピ-ルがｎ
+	@ あまり にも すばらしくてｌ
+	@ いつもより うまく かけたんだ!ｌ
+	@ ほらっ これ!
 
 LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum: @ 821AE78
 	.string "어때? 자신 있는 작품인데\n"
@@ -1068,14 +1068,14 @@ LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum: @ 821AE78
 	.string "...엇 정말로 미술관에서\n"
 	.string "그림을 찾아보고 있다고?\l"
 	.string "그럼 이거 가져가 볼까?$"
-	// どうかな? じしんさく なんだけどｎ
-	// きにいったろ?ｐ
-	// これくらいの でき ならｎ
-	// びじゅつかんに かざられて いてもｌ
-	// ふしぎじゃ ないね!ｐ
-	// ……え ほんとに びじゅつかんでｎ
-	// えを さがして いるって?ｌ
-	// じゃあ これ もっていって みようかな?
+	@ どうかな? じしんさく なんだけどｎ
+	@ きにいったろ?ｐ
+	@ これくらいの でき ならｎ
+	@ びじゅつかんに かざられて いてもｌ
+	@ ふしぎじゃ ないね!ｐ
+	@ ……え ほんとに びじゅつかんでｎ
+	@ えを さがして いるって?ｌ
+	@ じゃあ これ もっていって みようかな?
 
 LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 	.string "그 그래!\n"
@@ -1085,45 +1085,45 @@ LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum: @ 821AF63
 	.string "장식될지 어떨지\l"
 	.string "너도 다음에 보러 와줘!\l"
 	.string "그럼 고마워!$"
-	// そ そうか!ｎ
-	// じゃ いますぐ もっていって みるよｌ
-	// タイトルも つけて おくからね!ｐ
-	// これが きにいられてｎ
-	// かざって もらえて いるか どうかｌ
-	// きみも こんど みに いってね!ｌ
-	// じゃ ありがとう!
+	@ そ そうか!ｎ
+	@ じゃ いますぐ もっていって みるよｌ
+	@ タイトルも つけて おくからね!ｐ
+	@ これが きにいられてｎ
+	@ かざって もらえて いるか どうかｌ
+	@ きみも こんど みに いってね!ｌ
+	@ じゃ ありがとう!
 
 LilycoveCity_ContestLobby_Text_TakeMementoOfPainting: @ 821B030
 	.string "...아 맞다\p"
 	.string "포켓몬을 그리게 해준 기념으로\n"
 	.string "이걸 받아줘!$"
-	// ……あ そうだｐ
-	// ポケモンを かかせて もらった きねんにｎ
-	// これを うけとってよ!
+	@ ……あ そうだｐ
+	@ ポケモンを かかせて もらった きねんにｎ
+	@ これを うけとってよ!
 
 LilycoveCity_ContestLobby_Text_ReceivedARibbon: @ 821B07E
 	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
-	// §あは リボンを もらった!
+	@ §あは リボンを もらった!
 
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon: @ 821B094
 	.string "{PLAYER}{K_EUNNEUN} 리본을\n"
 	.string "{STR_VAR_1}에게 달아 줬다!$"
-	// §あは リボンをｎ
-	/// §いに つけて あげた!
+	@ §あは リボンをｎ
+	/@ §いに つけて あげた!
 
 LilycoveCity_ContestLobby_Text_OkaySeeYou: @ 821B0AD
 	.string "그럼 이만!$"
-	// それじゃね!
+	@ それじゃね!
 
 LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum: @ 821B0BC
 	.string "으-음... 그럼 이건\n"
 	.string "내가 가지고 돌아갈까...\p"
 	.string "하지만 역시 가져가고 싶은데...\n"
 	.string "어떻게 생각해?$"
-	// う-ん…… じゃあ これはｎ
-	// ぼくが もってかえると するか……ｐ
-	// でも やっぱり もっていきたいな……ｎ
-	// いいだろ?
+	@ う-ん…… じゃあ これはｎ
+	@ ぼくが もってかえると するか……ｐ
+	@ でも やっぱり もっていきたいな……ｎ
+	@ いいだろ?
 
 LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs: @ 821B132
 	.string "그렇구나 어쩔 수 없지\n"
@@ -1131,11 +1131,11 @@ LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs: @ 821B132
 	.string "내 집에 장식할게\p"
 	.string "다음에 열심히 해야겠다...\n"
 	.string "그럼 안녕$"
-	// そっか しかたないねｎ
-	// それじゃ これは ぼくのｌ
-	// いえに かざりますｐ
-	// つぎ がんばると するか……ｎ
-	// じゃあな
+	@ そっか しかたないねｎ
+	@ それじゃ これは ぼくのｌ
+	@ いえに かざりますｐ
+	@ つぎ がんばると するか……ｎ
+	@ じゃあな
 
 LilycoveCity_ContestLobby_Text_MasterRankHereICome: @ 821B1B1
 	.string "드 드디어\n"
@@ -1145,49 +1145,49 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome: @ 821B1B1
 	.string "귀엽다는 걸\l"
 	.string "증명할 때가 온 거야...\l"
 	.string "우헤헤헤헤$"
-	// いっ いよいよｎ
-	// マスタ-ランクに でるぞ……ｐ
-	// おれの ポケモンちゃんがｎ
-	// このよで いちばんｌ
-	// かわいいって ことをｌ
-	// しょうめいする ときが きたんだ……ｌ
-	// うへへへへ
+	@ いっ いよいよｎ
+	@ マスタ-ランクに でるぞ……ｐ
+	@ おれの ポケモンちゃんがｎ
+	@ このよで いちばんｌ
+	@ かわいいって ことをｌ
+	@ しょうめいする ときが きたんだ……ｌ
+	@ うへへへへ
 
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere: @ 821B24D
 	.string "여기에 오면\n"
 	.string "포켓몬을 잔뜩 볼 수 있으니까\l"
 	.string "산책코스로 다니고 있어!$"
-	// ここに くればｎ
-	// ポケモンを たくさん みられるからｌ
-	// さんぽコ-スに してるの!
+	@ ここに くればｎ
+	@ ポケモンを たくさん みられるからｌ
+	@ さんぽコ-スに してるの!
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes: @ 821B2BA
 	.string "이야 콘테스트회장에 오면\n"
 	.string "그릴 만한 포켓몬이\l"
 	.string "잔뜩 있구만!$"
-	// いやあ コンテストかいじょうに くるとｎ
-	// かきがいの ある ポケモンがｌ
-	// いっぱい だね!
+	@ いやあ コンテストかいじょうに くるとｎ
+	@ かきがいの ある ポケモンがｌ
+	@ いっぱい だね!
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme: @ 821B334
 	.string "강인함콘테스트는\n"
 	.string "최고로군!\p"
 	.string "힘센 어필...\n"
 	.string "샘솟는 땀... 못 참겠어!$"
-	// たくましさコンテストってｎ
-	// さいこう だよな!ｐ
-	// ちからづよい アピ-ル……ｎ
-	// ほとばしる あせ…… たまらん!
+	@ たくましさコンテストってｎ
+	@ さいこう だよな!ｐ
+	@ ちからづよい アピ-ル……ｎ
+	@ ほとばしる あせ…… たまらん!
 
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon: @ 821B392
 	.string "매일 소중히 소중히\n"
 	.string "키워온 내 포켓몬\l"
 	.string "컨디션은 완벽!\l"
 	.string "오늘은 이긴다아아아아아아아!$"
-	// まいにち だいじに だいじにｎ
-	// そだてあげた わしの ポケモンｌ
-	// コンディションは カンペキ!ｌ
-	// きょうは かつぞおおおおおうう!
+	@ まいにち だいじに だいじにｎ
+	@ そだてあげた わしの ポケモンｌ
+	@ コンディションは カンペキ!ｌ
+	@ きょうは かつぞおおおおおうう!
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily: @ 821B3FC
 	.string "엄마하고 아빠하고 누나하고\n"
@@ -1195,9 +1195,9 @@ LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily: @ 821B3FC
 	.string "엄청 좋게 나왔어!\p"
 	.string "분명 여럿이서 만들면 만들수록\n"
 	.string "부드럽고 좋은 포켓몬스넥이 나오는 걸 거야!$"
-	// ママと パパと おねえちゃんとｎ
-	// 4にんで ポロックを つくったらｌ
-	// すごく いいやつが できたんだ!ｐ
-	// きっと おおぜいで つくれば つくるほどｎ
-	// なめらかで いい ポロックが できるんだよ!
+	@ ママと パパと おねえちゃんとｎ
+	@ 4にんで ポロックを つくったらｌ
+	@ すごく いいやつが できたんだ!ｐ
+	@ きっと おおぜいで つくれば つくるほどｎ
+	@ なめらかで いい ポロックが できるんだよ!
 

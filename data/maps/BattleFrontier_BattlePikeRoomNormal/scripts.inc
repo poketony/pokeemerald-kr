@@ -666,15 +666,15 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth: @ 825D9B6
 	.string "잘 오셨습니다...\n"
 	.string "손님은 운이 좋으시군요...\p"
 	.string "포켓몬을 회복시켜 드리겠습니다...$"
-	// ようこそ……ｎ
-	// おきゃくさまは ラッキ- ですね……ｐ
-	// ポケモンを かいふくして さしあげます……
+	@ ようこそ……ｎ
+	@ おきゃくさまは ラッキ- ですね……ｐ
+	@ ポケモンを かいふくして さしあげます……
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge: @ 825DA13
 	.string "그럼 계속해서\n"
 	.string "게임을 즐겨 주십시오...$"
-	// それでは ひきつづきｎ
-	// ゲ-ムを おたのしみ ください……
+	@ それでは ひきつづきｎ
+	@ ゲ-ムを おたのしみ ください……
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon: @ 825DA51
 	.string "오오 넌 운이 좋구나\p"
@@ -682,15 +682,15 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon: @ 825DA51
 	.string "기분이 좋으니까\p"
 	.string "네 포켓몬을 1마리만\n"
 	.string "회복시켜 주도록 하지!$"
-	// おお きみは ツイてるなｐ
-	// いまの わしは ちょっとだけｎ
-	// きげんが いいからなｐ
-	// きみの ポケモンを 1ひき だけｎ
-	// かいふくして あげようじゃ ないか!
+	@ おお きみは ツイてるなｐ
+	@ いまの わしは ちょっとだけｎ
+	@ きげんが いいからなｐ
+	@ きみの ポケモンを 1ひき だけｎ
+	@ かいふくして あげようじゃ ないか!
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell: @ 825DABE
 	.string "그럼 안녕히...$"
-	// それでは ごきげんよう……
+	@ それでは ごきげんよう……
 
 @ Seems there was a planned room type where the player could choose to battle and would be healed if they won
 @ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
@@ -699,135 +699,135 @@ BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons: @ 825DAE1
 	.string "너...\p"
 	.string "나하고 배틀하지 않을래?\n"
 	.string "이기면 포켓몬을 회복시켜 줄게$"
-	// きみ……ｐ
-	// わたしと バトルしないかね?ｎ
-	// かてば ポケモンを かいふくして あげよう
+	@ きみ……ｐ
+	@ わたしと バトルしないかね?ｎ
+	@ かてば ポケモンを かいふくして あげよう
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe: @ 825DB2F
 	.string "좋아...\n"
 	.string "...그럼 간다!$"
-	// よろしい……ｎ
-	// ……それでは いくぞ!
+	@ よろしい……ｎ
+	@ ……それでは いくぞ!
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou: @ 825DB49
 	.string "그래... 아쉽게 됐네...$"
-	// そうか… ざんねんだな……
+	@ そうか… ざんねんだな……
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised: @ 825DB67
 	.string "대단해...\p"
 	.string "약속대로 포켓몬을\n"
 	.string "회복시켜 줄게...$"
-	// すばらしい……ｐ
-	// やくそくどおり ポケモンをｎ
-	// かいふくしよう……
+	@ すばらしい……ｐ
+	@ やくそくどおり ポケモンをｎ
+	@ かいふくしよう……
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2: @ 825DBAE
 	.string "그럼 안녕...$"
-	// それでは ごきげんよう……
+	@ それでは ごきげんよう……
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut: @ 825DBD1
 	.string "!!\p"
 	.string "너! 위험해!!$"
-	// !!ｐ
-	// きみ! あぶないっ!!
+	@ !!ｐ
+	@ きみ! あぶないっ!!
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop: @ 825DBE4
 	.string "이봐!\n"
 	.string "킬리아!! 그만해!$"
-	// おいっ!ｎ
-	// キルリア!! やめなさいっ!
+	@ おいっ!ｎ
+	@ キルリア!! やめなさいっ!
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop: @ 825DC01
 	.string "이봐!\n"
 	.string "미라몽!! 그만해!$"
-	// おいっ!ｎ
-	// サマヨ-ル!! やめなさいっ!
+	@ おいっ!ｎ
+	@ サマヨ-ル!! やめなさいっ!
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic: @ 825DC20
 	.string "킬리아의 맹독 공격!$"
-	// キルリアの どくどく こうげき!
+	@ キルリアの どくどく こうげき!
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis: @ 825DC33
 	.string "킬리아의 최면술!$"
-	// キルリアの さいみんじゅつ!
+	@ キルリアの さいみんじゅつ!
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave: @ 825DC49
 	.string "킬리아의 전기자석파!$"
-	// キルリアの でんじは!
+	@ キルリアの でんじは!
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp: @ 825DC63
 	.string "킬리아의 도깨비불!$"
-	// キルリアの おにび!
+	@ キルリアの おにび!
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp: @ 825DC7C
 	.string "미라몽의 도깨비불!$"
-	// サマヨ-ルの おにび!
+	@ サマヨ-ルの おにび!
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam: @ 825DC97
 	.string "미라몽의 냉동빔!$"
-	// サマヨ-ルの れいとうビ-ム!
+	@ サマヨ-ルの れいとうビ-ム!
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough: @ 825DCAF
 	.string "에잇! 적당히 하라고!!$"
-	// ええいっ! いいかげんに しないかっ!!
+	@ ええいっ! いいかげんに しないかっ!!
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia: @ 825DCCF
 	.string "정말 미안하구나...\p"
 	.string "내 킬리아는 겁쟁이라서...$"
-	// もうしわけない……ｐ
-	// わたしの キルリアは おくびょう でな……
+	@ もうしわけない……ｐ
+	@ わたしの キルリアは おくびょう でな……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops: @ 825DD06
 	.string "정말 미안하구나...\p"
 	.string "내 미라몽은 겁쟁이라서...$"
-	// もうしわけない ……ｐ
-	// わたしの サマヨ-ルは おくびょう でな……
+	@ もうしわけない ……ｐ
+	@ わたしの サマヨ-ルは おくびょう でな……
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled: @ 825DD3F
 	.string "갑자기 사람을 보면 놀라서\n"
 	.string "습격해 버리거든...\p"
 	.string "너와 네 포켓몬은 괜찮니?$"
-	// きゅうに ひとを みると おどろいてｎ
-	// おそいかかって しまうのだ……ｐ
-	// きみも ポケモンも だいじょうぶか?
+	@ きゅうに ひとを みると おどろいてｎ
+	@ おそいかかって しまうのだ……ｐ
+	@ きみも ポケモンも だいじょうぶか?
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine: @ 825DDA3
 	.string "미안하구나...\n"
 	.string "네 포켓몬은 괜찮니?$"
-	// すまなかったな……ｎ
-	// きみの ポケモンは ぶじか?
+	@ すまなかったな……ｎ
+	@ きみの ポケモンは ぶじか?
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence: @ 825DDE6
 	.string "...... ...... ......\n"
 	.string "...... ...... ......$"
-	// …… …… ……ｎ
-	// …… …… ……
+	@ …… …… ……ｎ
+	@ …… …… ……
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer: @ 825DDFE
 	.string "잘 오셨습니다...\p"
 	.string "여기서는 상당히 실력이 좋은\n"
 	.string "트레이너와 싸우셔야 합니다...$"
-	// ようこそ……ｐ
-	// こちらでは しょうしょう うでの たつｎ
-	// トレ-ナ-と たたかって いただきます……
+	@ ようこそ……ｐ
+	@ こちらでは しょうしょう うでの たつｎ
+	@ トレ-ナ-と たたかって いただきます……
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth: @ 825DE3F
 	.string "...대단하군요...\p"
 	.string "손님의 승리를 기리며\n"
 	.string "포켓몬을 회복시켜 드리겠습니다...$"
-	// ……すばらしい……ｐ
-	// おきゃくさまの しょうりを たたえｎ
-	// ポケモンを かいふくして さしあげます……
+	@ ……すばらしい……ｐ
+	@ おきゃくさまの しょうりを たたえｎ
+	@ ポケモンを かいふくして さしあげます……
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2: @ 825DE94
 	.string "그럼 계속해서\n"
 	.string "게임을 즐겨 주십시오...$"
-	// それでは ひきつづきｎ
-	// ゲ-ムを おたのしみ ください……
+	@ それでは ひきつづきｎ
+	@ ゲ-ムを おたのしみ ください……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen: @ 825DED2
 	.string "나는 다슬...\n"
@@ -837,35 +837,35 @@ BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen: @ 825DED2
 	.string "이 앞으로 갈 수 없어...\p"
 	.string "... 수다 떨기 싫으니까\n"
 	.string "빨리 덤벼...$"
-	// あたしは アザミ……ｎ
-	// ここの あるじ…… チュ-ブクイ-ン……ｐ
-	// …… まあ わかると おもうけどｎ
-	// あたしを たおさなきゃｌ
-	// このさき すすめないよ……ｐ
-	// …… おしゃべりは すきじゃ ないからねｎ
-	// さっさと かかっといで……
+	@ あたしは アザミ……ｎ
+	@ ここの あるじ…… チュ-ブクイ-ン……ｐ
+	@ …… まあ わかると おもうけどｎ
+	@ あたしを たおさなきゃｌ
+	@ このさき すすめないよ……ｐ
+	@ …… おしゃべりは すきじゃ ないからねｎ
+	@ さっさと かかっといで……
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck: @ 825DF71
 	.string "네 운...\n"
 	.string "여기서 끝나지 않으면 좋겠지만...$"
-	// あんたの うん……ｎ
-	// ここで つきなきゃ いい けどね……
+	@ あんたの うん……ｎ
+	@ ここで つきなきゃ いい けどね……
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass: @ 825DFA2
 	.string "다슬: ...... ...... ......\n"
 	.string "프런티어패스 줘봐...$"
-	// アザミ『…… …… …… ……ｎ
-	// フロンティアパス よこしな……
+	@ アザミ『…… …… …… ……ｎ
+	@ フロンティアパス よこしな……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol: @ 825DFD0
 	.string "프런티어패스에\n"
 	.string "럭심볼이 새겨졌다!$"
-	// フロンティアパスにｎ
-	// ラックシンボルが きざまれた!
+	@ フロンティアパスにｎ
+	@ ラックシンボルが きざまれた!
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear: @ 825E003
 	.string "... 야... 빨리 나가...$"
-	// …… ほら…… さっさと きえな………
+	@ …… ほら…… さっさと きえな………
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain: @ 825E02C
 	.string "다슬: ... 또 너냐...\p"
@@ -876,36 +876,36 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain: @ 825E02C
 	.string "져 줄 필요는 없지...\l"
 	.string "...... ...... ...... ...... 좋아...\l"
 	.string "해주겠어... ...... ...... ......$"
-	// アザミ『…… また あんたか……ｐ
-	// …… …… …… ……ｐ
-	// …… …… はなも あらしも ふみこえてｎ
-	// いきてきた この あたし…… ……ｐ
-	// そうそう おなじ あいてにｎ
-	// まけて やる ひつようも ないね……ｌ
-	// …… …… …… …… いいわ……ｌ
-	// やって やるよ…… …… …… ……
+	@ アザミ『…… また あんたか……ｐ
+	@ …… …… …… ……ｐ
+	@ …… …… はなも あらしも ふみこえてｎ
+	@ いきてきた この あたし…… ……ｐ
+	@ そうそう おなじ あいてにｎ
+	@ まけて やる ひつようも ないね……ｌ
+	@ …… …… …… …… いいわ……ｌ
+	@ やって やるよ…… …… …… ……
 
 BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn: @ 825E0E8
 	.string "이봐!! 덤벼!!$"
-	// おらっ!! かかっといでっ!!
+	@ おらっ!! かかっといでっ!!
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass: @ 825E0F6
 	.string "다슬: ...... ...... ...... ......\p"
 	.string "...... ...... 프런티어패스...$"
-	// アザミ『…… …… …… ……ｐ
-	// …… …… フロンティアパス……
+	@ アザミ『…… …… …… ……ｐ
+	@ …… …… フロンティアパス……
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine: @ 825E118
 	.string "럭심볼이\n"
 	.string "금색으로 빛났다!$"
-	// ラックシンボルがｎ
-	// きんいろに かがやいた!
+	@ ラックシンボルがｎ
+	@ きんいろに かがやいた!
 
 BattleFrontier_BattlePikeRoomNormal_Text_IWontForget: @ 825E140
 	.string "...... ...... 너...\n"
 	.string "평생 잊지 않을 거야...$"
-	// …… …… あんた……ｎ
-	// いっしょう わすれない からね………
+	@ …… …… あんた……ｎ
+	@ いっしょう わすれない からね………
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal: @ 825E15D
 	.string "잘 오셨습니다...\p"
@@ -914,32 +914,32 @@ BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal: @ 825E15D
 	.string "마지막에 선택한 것이\n"
 	.string "이 방만 아니었어도 포켓몬들을\l"
 	.string "회복시킬 수 있었을 텐데...$"
-	// ようこそ いらっしゃい ました……ｐ
-	// うふふ……ｎ
-	// なんて うんの ない おかた……ｐ
-	// さいごに えらんだのがｎ
-	// このへやで なければ ポケモンたちをｌ
-	// かいふくして さしあげたのに……
+	@ ようこそ いらっしゃい ました……ｐ
+	@ うふふ……ｎ
+	@ なんて うんの ない おかた……ｐ
+	@ さいごに えらんだのがｎ
+	@ このへやで なければ ポケモンたちをｌ
+	@ かいふくして さしあげたのに……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne: @ 825E1DD
 	.string "잘 오셨습니다...\p"
 	.string "마지막에 이 방을 선택한\n"
 	.string "손님께 포켓몬을 1마리만\l"
 	.string "회복시켜 드리겠습니다...$"
-	// ようこそ いらっしゃい ました……ｐ
-	// さいごに このへやを えらばれたｎ
-	// おきゃくさまは ポケモンを 1ひきだけｌ
-	// かいふくして さしあげましょう……
+	@ ようこそ いらっしゃい ました……ｐ
+	@ さいごに このへやを えらばれたｎ
+	@ おきゃくさまは ポケモンを 1ひきだけｌ
+	@ かいふくして さしあげましょう……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo: @ 825E238
 	.string "잘 오셨습니다...\p"
 	.string "마지막에 이 방을 선택한\n"
 	.string "손님께 포켓몬을 2마리\l"
 	.string "회복시켜 드리겠습니다...$"
-	// ようこそ いらっしゃい ました……ｐ
-	// さいごに このへやを えらばれたｎ
-	// おきゃくさまは ポケモンを 2ひきｌ
-	// かいふくして さしあげましょう……
+	@ ようこそ いらっしゃい ました……ｐ
+	@ さいごに このへやを えらばれたｎ
+	@ おきゃくさまは ポケモンを 2ひきｌ
+	@ かいふくして さしあげましょう……
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons: @ 825E293
@@ -949,26 +949,26 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons: @ 825E293
 	.string "마지막에 이 방을 선택한\n"
 	.string "손님께 포켓몬을 전부\l"
 	.string "회복시켜 드리겠습니다...$"
-	// ようこそ いらっしゃい ました……ｐ
-	// うふふ……ｎ
-	// ほんとうに ラッキ-な おかた……ｐ
-	// さいごに このへやを えらばれたｎ
-	// おきゃくさまは ポケモンを すべてｌ
-	// かいふくして さしあげましょう……
+	@ ようこそ いらっしゃい ました……ｐ
+	@ うふふ……ｎ
+	@ ほんとうに ラッキ-な おかた……ｐ
+	@ さいごに このへやを えらばれたｎ
+	@ おきゃくさまは ポケモンを すべてｌ
+	@ かいふくして さしあげましょう……
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster: @ 825E311
 	.string "그럼 저희의 주인을\n"
 	.string "불러오도록 하겠습니다...$"
-	// では わたくしどもの あるじをｎ
-	// よんで まいり ますね……
+	@ では わたくしどもの あるじをｎ
+	@ よんで まいり ますね……
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons: @ 825E32E
 	.string "오오 넌 운이 좋구나!\p"
 	.string "지금 나는 기분이 좋거든!\n"
 	.string "네 포켓몬을 2마리\l"
 	.string "회복시켜 주겠다!!$"
-	// おお きみは ツイてるぞ!ｐ
-	// いまの わしは きげんが いいからな!ｎ
-	// きみの ポケモンを 2ひきｌ
-	// かいふくして あげよう!
+	@ おお きみは ツイてるぞ!ｐ
+	@ いまの わしは きげんが いいからな!ｎ
+	@ きみの ポケモンを 2ひきｌ
+	@ かいふくして あげよう!
 

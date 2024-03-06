@@ -196,41 +196,41 @@ BerryTree_EventScript_PlantBerry:: @ 82744DD
 
 BerryTree_Text_ItsSoftLoamySoil: @ 82744F0
 	.string "푹신푹신한 흙이다!$"
-	// ふかふかの つちだ!
+	@ ふかふかの つちだ!
 
 BerryTree_Text_WantToPlant: @ 8274507
 	.string "푹신푹신한 흙이다!\n"
 	.string "나무열매를 심겠습니까?$"
-	// ふかふかの つちだ!ｎ
-	// きのみを うめますか?
+	@ ふかふかの つちだ!ｎ
+	@ きのみを うめますか?
 
 BerryTree_Text_PlantedOneBerry: @ 8274535
 	.string "{PLAYER}{K_EUNNEUN} 푹신푹신한 흙에\n"
 	.string "{STR_VAR_1}{K_EULREUL} 심었다!$"
-	// §あは ふかふかの つちにｎ
-	// §いのみを うめた!
-	// 오랭열매, 이것과 아래의 주석들은 해당 대사가 출력되었을 때 
-	// {STR_VAR_1}에 들어가는 단어의 예시를 적어놓은 것입니다.
+	@ §あは ふかふかの つちにｎ
+	@ §いのみを うめた!
+	@ 오랭열매, 이것과 아래의 주석들은 해당 대사가 출력되었을 때 
+	@ {STR_VAR_1}에 들어가는 단어의 예시를 적어놓은 것입니다.
 
 BerryTree_Text_BerryGrowthStage1: @ 8274560
 	.string "{STR_VAR_1}{K_EULREUL} 심은 장소다!$"
-	// §いのみを うめた ばしょだ!
-	// 오랭열매
+	@ §いのみを うめた ばしょだ!
+	@ 오랭열매
 
 BerryTree_Text_BerryGrowthStage2: @ 8274579
 	.string "{STR_VAR_1}의 싹이 나왔다!$"
-	// §いの めが でてきた!
-	// 오랭
+	@ §いの めが でてきた!
+	@ 오랭
 
 BerryTree_Text_BerryGrowthStage3: @ 827458A
 	.string "{STR_VAR_1}의 줄기가 크게 자랐다!$"
-	// §いの みきが おおきく なってきた!
-	// 오랭
+	@ §いの みきが おおきく なってきた!
+	@ 오랭
 
 BerryTree_Text_BerryGrowthStage4: @ 82745AB
 	.string "{STR_VAR_1}의 꽃이 {STR_VAR_2} 피어있다!$"
-	// §いの はなが §う さいてる!
-	// 오랭
+	@ §いの はなが §う さいてる!
+	@ 오랭
 
 BerryTree_Text_CareAdverbGreat: @ 82745CD
 	.string "매우 아름답게$"
@@ -244,49 +244,49 @@ BerryTree_Text_CareAdverbGood: @ 82745E5
 BerryTree_Text_WantToPick: @ 82745EE
 	.string "{STR_VAR_1}가 {STR_VAR_2}개 열려있다!\n"
 	.string "{STR_VAR_1}{K_EULREUL} 따겠습니까?$"
-	// §いのみが §うこ できてる!ｐ
-	// §いのみを とりますか?
-	// 오랭열매
-	// 오랭열매
+	@ §いのみが §うこ できてる!ｐ
+	@ §いのみを とりますか?
+	@ 오랭열매
+	@ 오랭열매
 
 BerryTree_Text_PickedTheBerry: @ 827461B
 	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}{K_EULREUL} {STR_VAR_2}개 땄다!$"
-	// §あは §いのみを §うこ とった!
-	// 오랭열매
+	@ §あは §いのみを §うこ とった!
+	@ 오랭열매
 
 BerryTree_Text_PutAwayBerry: @ 8274630
 	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}{K_EULREUL}\n"
 	.string "나무열매 포켓에 넣었다!\p"
 	.string "푹신푹신한 흙으로 되돌아갔다!$"
-	// §あは §いのみをｎ
-	// きのみポケットに しまった!ｐ
-	// つちは もとの ふかふかに もどった!
-	// 오랭열매
+	@ §あは §いのみをｎ
+	@ きのみポケットに しまった!ｐ
+	@ つちは もとの ふかふかに もどった!
+	@ 오랭열매
 
 BerryTree_Text_BerryPocketFull: @ 827468F
 	.string "가방의 나무열매 포켓이 가득 찼다\n"
 	.string "{STR_VAR_1}{K_EULREUL} 포기했다$"
-	// バッグの きのみポケットが いっぱいだったｐ
-	// §いのみを あきらめた
+	@ バッグの きのみポケットが いっぱいだったｐ
+	@ §いのみを あきらめた
 
 BerryTree_Text_BerryLeftUnpicked: @ 82746CB
 	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}{K_EULREUL}\n"
 	.string "그대로 뒀다$"
-	// §あは §いのみをｎ
-	// そのままに しておいた
-	// 오랭열매
+	@ §あは §いのみをｎ
+	@ そのままに しておいた
+	@ 오랭열매
 
 BerryTree_Text_WantToWater: @ 82746E4
 	.string "지니고 있는 고래왕자물뿌리개로\n"
 	.string "{STR_VAR_1}에 물을 주겠습니까?$"
-	// もっている ホエルコじょうろ でｎ
-	// §いに みずを あげますか?
-	// 오랭
+	@ もっている ホエルコじょうろ でｎ
+	@ §いに みずを あげますか?
+	@ 오랭
 
 BerryTree_Text_WateredTheBerry: @ 8274710
 	.string "{PLAYER}{K_EUNNEUN} {STR_VAR_1}에 물을 주었다!$"
-	// §あは §いに みずを あげた!
-	// 오랭
+	@ §あは §いに みずを あげた!
+	@ 오랭
 
 BerryTree_Text_PlantIsDelighted: @ 8274723
 	.string "매우 기뻐하는 듯하다!$"

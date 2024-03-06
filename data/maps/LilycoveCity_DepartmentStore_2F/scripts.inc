@@ -69,20 +69,20 @@ LilycoveCity_DepartmentStore_2F_Pokemart2: @ 821FB94
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly: @ 821FBAC
 	.string "도구의 기본은 능숙하게 사용할 것\n"
 	.string "이게 제일 중요한 거야$"
-	// どうぐの きほんは うまく つかいこなすことｎ
-	// これ いちばん だいじ なのヨ
+	@ どうぐの きほんは うまく つかいこなすことｎ
+	@ これ いちばん だいじ なのヨ
 
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband: @ 821FBDF
 	.string "집에서 기다리고 있는 남편한테\n"
 	.string "줄 선물로 뭐가 좋을까?$"
-	// いえで まってる ダンナのｎ
-	// おみやげ なんだけど どれが いいかしら?
+	@ いえで まってる ダンナのｎ
+	@ おみやげ なんだけど どれが いいかしら?
 
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems: @ 821FC23
 	.string "이제부터 먼 곳으로\n"
 	.string "여행을 떠날 거니까\l"
 	.string "여기서 한가득 도구를 사 놓을 거야$"
-	// これから とおい ところへｎ
-	// たびに いくからなｌ
-	// ここで どっさり どうぐを かっておくのさ
+	@ これから とおい ところへｎ
+	@ たびに いくからなｌ
+	@ ここで どっさり どうぐを かっておくのさ
 

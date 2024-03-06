@@ -32,18 +32,18 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan:: @ 82034D6
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard: @ 82034DF
 	.string "너의 트레이너카드는 무슨 색이야?\n"
 	.string "나는 코퍼야!$"
-	// きみの トレ-ナ-カ-ドは なにいろ?ｎ
-	// あたしのは カッパ- なんだよ!
+	@ きみの トレ-ナ-カ-ドは なにいろ?ｎ
+	@ あたしのは カッパ- なんだよ!
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola: @ 820350F
 	.string "황금마을은 코산호들이\n"
 	.string "모여 있는 곳 위에 떠 있어\p"
 	.string "...라고 말하면\n"
 	.string "넌 믿을 거야?$"
-	// キナギタウンって サニ-ゴたちのｎ
-	// あつまりの うえに うかんでいるのｐ
-	// ……なんて いったらｎ
-	// あなたは しんじるかしら?
+	@ キナギタウンって サニ-ゴたちのｎ
+	@ あつまりの うえに うかんでいるのｐ
+	@ ……なんて いったらｎ
+	@ あなたは しんじるかしら?
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats: @ 820356F
 	.string "황금마을 사람들의 선조는\n"
@@ -51,9 +51,9 @@ PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats: @ 820356F
 	.string "배 위에서 죽었다고 하지\p"
 	.string "뭔가를 찾기 위해\n"
 	.string "그런 삶을 살았던 모양일세$"
-	// キナギで くらす ひとびとの せんぞはｎ
-	// ふねの うえで うまれてｌ
-	// そして ふねの うえで しんだ というｐ
-	// なにかを さがすためにｎ
-	// そんな いきかたを していたそうじゃ
+	@ キナギで くらす ひとびとの せんぞはｎ
+	@ ふねの うえで うまれてｌ
+	@ そして ふねの うえで しんだ というｐ
+	@ なにかを さがすためにｎ
+	@ そんな いきかたを していたそうじゃ
 

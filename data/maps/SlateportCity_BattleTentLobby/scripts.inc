@@ -285,13 +285,13 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe: @ 8208B4E
 	.string "물론 전혀 분하지 않아!\p"
 	.string "어이 너!\n"
 	.string "잠자코 이걸 받도록 해!$"
-	// なかなか かりたい ポケモンがｎ
-	// みつからねぇ からよぉｌ
-	// そこの に-さんに もんく いったけどよぉｐ
-	// ちぃっとも あいて してくれねぇのさｎ
-	// くやしいったら ありゃ しねぇぜ!ｐ
-	// おい おまえ!ｎ
-	// だまって これを うけとれよぉ!
+	@ なかなか かりたい ポケモンがｎ
+	@ みつからねぇ からよぉｌ
+	@ そこの に-さんに もんく いったけどよぉｐ
+	@ ちぃっとも あいて してくれねぇのさｎ
+	@ くやしいったら ありゃ しねぇぜ!ｐ
+	@ おい おまえ!ｎ
+	@ だまって これを うけとれよぉ!
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment: @ 8208C5C
 	.string "기술머신41은 트집!\p"
@@ -299,31 +299,31 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment: @ 8208C5C
 	.string "쓰지 못하게 하는 기술이지!\p"
 	.string "말해 두지만\n"
 	.string "나는 트집 잡은 적 없어!$"
-	// わざマシン41は いちゃもん!ｐ
-	// あいてによぉ おなじ わざを つづけてｎ
-	// ださせねえように する わざ なんだよぉ!ｐ
-	// いっとくけどなぁｎ
-	// おれは いちゃもん つけてねぇぞ!
+	@ わざマシン41は いちゃもん!ｐ
+	@ あいてによぉ おなじ わざを つづけてｎ
+	@ ださせねえように する わざ なんだよぉ!ｐ
+	@ いっとくけどなぁｎ
+	@ おれは いちゃもん つけてねぇぞ!
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons: @ 8208D27
 	.string "가끔은 싫어하는\n"
 	.string "벌레타입 포켓몬도\l"
 	.string "사용해 볼까?\l"
 	.string "좋아하게 될지도 모르니까!$"
-	// たまには にがてなｎ
-	// むしタイプの ポケモンでもｌ
-	// つかって みようかな?ｌ
-	// スキに なるかも しれないし!
+	@ たまには にがてなｎ
+	@ むしタイプの ポケモンでもｌ
+	@ つかって みようかな?ｌ
+	@ スキに なるかも しれないし!
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons: @ 8208DA6
 	.string "강한 포켓몬이 없어도\n"
 	.string "여기서라면 잔뜩 승부할 수 있어!$"
-	// つよい ポケモン もってなくてもｎ
-	// ここでなら いっぱい しょうぶできるね!
+	@ つよい ポケモン もってなくてもｎ
+	@ ここでなら いっぱい しょうぶできるね!
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection: @ 8208DF1
 	.string "멋진 트레이너 오빠도\n"
 	.string "빌릴 수 있으면 좋겠다$"
-	// ステキな トレ-ナ-の おにいさんもｎ
-	// かしだして くれれば いいのにぃ
+	@ ステキな トレ-ナ-の おにいさんもｎ
+	@ かしだして くれれば いいのにぃ
 

@@ -13,13 +13,13 @@ RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility: @ 82150E0
 	.string "포켓몬은 각각\n"
 	.string "특성이라고 하는 신비한 힘을\l"
 	.string "지니고 있지$"
-	// ポケモンには それぞれｎ
-	// とくせい とよばれる ふしぎな ちからがｌ
-	// そなわって いるんだよな
+	@ ポケモンには それぞれｎ
+	@ とくせい とよばれる ふしぎな ちからがｌ
+	@ そなわって いるんだよな
 
 RustboroCity_Flat1_1F_Text_PokemonStrange: @ 8215115
 	.string "포켓몬은 정말\n"
 	.string "신비한 생물이구나$"
-	// ほんとうに ポケモンってｎ
-	// ふしぎな いきもの なのね
+	@ ほんとうに ポケモンってｎ
+	@ ふしぎな いきもの なのね
 

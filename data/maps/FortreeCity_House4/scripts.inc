@@ -70,22 +70,22 @@ FortreeCity_House4_Text_BringsWorldCloserTogether: @ 8217D33
 	.string "친한 친구들이 점점 늘어나...\p"
 	.string "이렇게 세계는 하나로 뭉쳐지는 거구나!\n"
 	.string "너무 멋진 거 같아!$"
-	// ポケモンと いることでｎ
-	// なかの いい ともだちが ふえていく……ｐ
-	// こうして せかいは つながって いくのね!ｎ
-	// すてきだわ!
+	@ ポケモンと いることでｎ
+	@ なかの いい ともだちが ふえていく……ｐ
+	@ こうして せかいは つながって いくのね!ｎ
+	@ すてきだわ!
 
 FortreeCity_House4_Text_GoBirdPokemon: @ 8217DB9
 	.string "자!\n"
 	.string "갔다 와 새포켓몬$"
-	// それっ!ｎ
-	// ゆけっ とりポケモン
+	@ それっ!ｎ
+	@ ゆけっ とりポケモン
 
 FortreeCity_House4_Text_AskedWingullToRunErrand: @ 8217DD2
 	.string "에헤헤 갈모매한테\n"
 	.string "심부름 좀 시켰어$"
-	// えへへ キャモメにｎ
-	// ちょっと おつかいを たのんだのさ
+	@ えへへ キャモメにｎ
+	@ ちょっと おつかいを たのんだのさ
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb: @ 8217E05
 	.string "좋-아!\n"
@@ -95,21 +95,21 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb: @ 8217E05
 	.string "오면서 주워 왔구나\p"
 	.string "그치만 난 트레이너가 아니니까\n"
 	.string "이거 너한테 줄게!$"
-	// よ-し!ｎ
-	// おかえり キャモメ!ｐ
-	// あれえ? なに もってるんだ?ｐ
-	// メンタルハ-ブ かあ……ｎ
-	// どこかで ひろったんだなｐ
-	// でも ぼく トレ-ナ-じゃ ないからなｎ
-	// きみに あげるよ!
+	@ よ-し!ｎ
+	@ おかえり キャモメ!ｐ
+	@ あれえ? なに もってるんだ?ｐ
+	@ メンタルハ-ブ かあ……ｎ
+	@ どこかで ひろったんだなｐ
+	@ でも ぼく トレ-ナ-じゃ ないからなｎ
+	@ きみに あげるよ!
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull: @ 8217EA8
 	.string "갈모매 덕분에\n"
 	.string "멀리 있는 친구랑도 친하게 지낼 수 있어!$"
-	// キャモメの おかげでｎ
-	// とおくの ともだちとも なかよし なのさ!
+	@ キャモメの おかげでｎ
+	@ とおくの ともだちとも なかよし なのさ!
 
 FortreeCity_House4_Text_Wingull: @ 8217EE0
 	.string "갈모매: 삐뾰-!$"
-	// キャモメ『ぴひょ-!
+	@ キャモメ『ぴひょ-!
 

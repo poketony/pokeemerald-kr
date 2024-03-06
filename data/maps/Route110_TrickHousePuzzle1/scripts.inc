@@ -44,57 +44,57 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened:: @ 826B98D
 	.string "“미궁대왕님 짱이야”\p"
 	.string "...... ...... ......\p"
 	.string "문의 자물쇠가 풀렸다!$"
-	// §あは あいことばをｎ
-	// とびらに かきつけた!ｐ
-	// 「カラクリだいおう さま すてき」ｐ
-	// …… …… ……ｐ
-	// かぎの はずれる おとがした!
+	@ §あは あいことばをｎ
+	@ とびらに かきつけた!ｐ
+	@ 「カラクリだいおう さま すてき」ｐ
+	@ …… …… ……ｐ
+	@ かぎの はずれる おとがした!
 
 Route110_TrickHousePuzzle1_Text_SallyIntro: @ 826B9FB
 	.string "방금 막 배우게 한 풀베기로\n"
 	.string "자르고 자르고 또 자를 거야!$"
-	// おぼえさせた ばかりの いあいぎりでｎ
-	// きって きって きりまくりよ!
+	@ おぼえさせた ばかりの いあいぎりでｎ
+	@ きって きって きりまくりよ!
 
 Route110_TrickHousePuzzle1_Text_SallyDefeat: @ 826BA3F
 	.string "진심으로 하지 말아줘-!$"
-	// ほんき ださないでよ-!
+	@ ほんき ださないでよ-!
 
 Route110_TrickHousePuzzle1_Text_SallyPostBattle: @ 826BA57
 	.string "자르고 잘라도 질리지가 않아!$"
-	// きっても きっても あきないわ!
+	@ きっても きっても あきないわ!
 
 Route110_TrickHousePuzzle1_Text_EddieIntro: @ 826BA82
 	.string "길을 헤매다가\n"
 	.string "이상한 저택에 들어와 버렸다...$"
-	// へんな やしきにｎ
-	// まよいこんじゃった……
+	@ へんな やしきにｎ
+	@ まよいこんじゃった……
 
 Route110_TrickHousePuzzle1_Text_EddieDefeat: @ 826BAB0
 	.string "게다가 져버렸다...$"
-	// おまけに まけちゃった……
+	@ おまけに まけちゃった……
 
 Route110_TrickHousePuzzle1_Text_EddiePostBattle: @ 826BAC3
 	.string "심지어 길도 잃었다...\n"
 	.string "나갈 수가 없어...$"
-	// さらに まよっちゃった……ｎ
-	// でられない……
+	@ さらに まよっちゃった……ｎ
+	@ でられない……
 
 Route110_TrickHousePuzzle1_Text_RobinIntro: @ 826BB10
 	.string "미궁대왕이란 사람은\n"
 	.string "대체 뭐 하는 사람일까?$"
-	// カラクリだいおう ってｎ
-	// なにもの なのかしら?
+	@ カラクリだいおう ってｎ
+	@ なにもの なのかしら?
 
 Route110_TrickHousePuzzle1_Text_RobinDefeat: @ 826BB2E
 	.string "정신이 팔려 있는 동안에\n"
 	.string "져버렸어!$"
-	// きを とられていたらｎ
-	// まけちゃったわ!
+	@ きを とられていたらｎ
+	@ まけちゃったわ!
 
 Route110_TrickHousePuzzle1_Text_RobinPostBattle: @ 826BB52
 	.string "강하다!\n"
 	.string "넌 또 정체가 뭐니?$"
-	// つよいわ!ｎ
-	// あなたも なにもの なの?
+	@ つよいわ!ｎ
+	@ あなたも なにもの なの?
 

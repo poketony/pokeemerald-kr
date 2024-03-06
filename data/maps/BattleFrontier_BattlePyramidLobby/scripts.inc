@@ -539,22 +539,22 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid: @ 8250F31
 	.string "배틀피라미드에 어서 오십시오!\p"
 	.string "여기서는 배틀어드벤처의\n"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の ゆうきを ためす ばしょ!ｎ
-	// バトルピラミッドへ ようこそ!ｐ
-	// こちらでは バトルアドベンチャ-のｎ
-	// ごあんないを しておりますぞ!
+	@ トレ-ナ-の ゆうきを ためす ばしょ!ｎ
+	@ バトルピラミッドへ ようこそ!ｐ
+	@ こちらでは バトルアドベンチャ-のｎ
+	@ ごあんないを しておりますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge: @ 8250FA7
 	.string "배틀어드벤처에\n"
 	.string "도전하겠습니까?$"
-	// バトルアドベンチャ-にｎ
-	// ちょうせん されますかな?
+	@ バトルアドベンチャ-にｎ
+	@ ちょうせん されますかな?
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge: @ 8250FE5
 	.string "다음 도전을\n"
 	.string "기다리고 있겠습니다!$"
-	// またの ちょうせんをｎ
-	// おまちして おりますぞ!
+	@ またの ちょうせんをｎ
+	@ おまちして おりますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid: @ 825100C
 	.string "배틀어드벤처는\n"
@@ -577,40 +577,40 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid: @ 825100C
 	.string "“쉰다”를 선택하지 않으면\l"
 	.string "모험은 중지됩니다!\l"
 	.string "부디 주의해 주십시오!$"
-	// バトルアドベンチャ-はｎ
-	// ピラミッドの なかへ はいりｌ
-	// ちょうじょう せいはを めざすｌ
-	// ぼうけん イベント ですぞ!ｐ
-	// ピラミッドの なかはｎ
-	// 7だんの めいろで わかれていてｌ
-	// うでに おぼえの ある トレ-ナ-とｌ
-	// やせい ポケモンが まって いますぞ!ｐ
-	// どうぐを もたせて いないｎ
-	// 3ひきの ポケモンとｌ
-	// おわたしする バトルバッグを もってｌ
-	// ちょうじょうを めざして いただきますぞ!ｐ
-	// この バトルバッグに いれた どうぐはｎ
-	// ぼうけんに しっぱいするとｌ
-	// なくなって しまいますのでｌ
-	// おきをつけ くだされ!ｐ
-	// また ぼうけんを ちゅうだん するときはｎ
-	// 「やすむ」を えらんで おわらせないとｌ
-	// ぼうけんは ちゅうしと なってしまいます!ｌ
-	// じゅうぶん おきをつけ くだされ!
+	@ バトルアドベンチャ-はｎ
+	@ ピラミッドの なかへ はいりｌ
+	@ ちょうじょう せいはを めざすｌ
+	@ ぼうけん イベント ですぞ!ｐ
+	@ ピラミッドの なかはｎ
+	@ 7だんの めいろで わかれていてｌ
+	@ うでに おぼえの ある トレ-ナ-とｌ
+	@ やせい ポケモンが まって いますぞ!ｐ
+	@ どうぐを もたせて いないｎ
+	@ 3ひきの ポケモンとｌ
+	@ おわたしする バトルバッグを もってｌ
+	@ ちょうじょうを めざして いただきますぞ!ｐ
+	@ この バトルバッグに いれた どうぐはｎ
+	@ ぼうけんに しっぱいするとｌ
+	@ なくなって しまいますのでｌ
+	@ おきをつけ くだされ!ｐ
+	@ また ぼうけんを ちゅうだん するときはｎ
+	@ 「やすむ」を えらんで おわらせないとｌ
+	@ ぼうけんは ちゅうしと なってしまいます!ｌ
+	@ じゅうぶん おきをつけ くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode: @ 8251248
 	.string "피라미드에는\n"
 	.string "레벨 50과 오픈 레벨이 있습니다만\l"
 	.string "어느 쪽으로 들어가겠습니까?$"
-	// ピラミッドにはｎ
-	// レベル50と オ-プンレベルと ありますがｌ
-	// どちらに はいられますかな?
+	@ ピラミッドにはｎ
+	@ レベル50と オ-プンレベルと ありますがｌ
+	@ どちらに はいられますかな?
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons: @ 8251297
 	.string "그럼 데려갈 포켓몬을\n"
 	.string "3마리 선택해 주십시오!$"
-	// では つれていく ポケモンをｎ
-	// 3ひき おえらび くだされ!
+	@ では つれていく ポケモンをｎ
+	@ 3ひき おえらび くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen: @ 82512E2
 	.string "모험자여!!\p"
@@ -622,14 +622,14 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen: @ 82512E2
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오$"
-	// ぼうけんしゃよ!!ｐ
-	// つれていける ポケモンがｎ
-	// 3ひき いないようですぞ!ｐ
-	// また ポケモンに もたせている どうぐはｎ
-	// すべて はずしてくだされ!ｐ
-	// なお タマゴいさんか させる ことは できませんぞ!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし くだされ!
+	@ ぼうけんしゃよ!!ｐ
+	@ つれていける ポケモンがｎ
+	@ 3ひき いないようですぞ!ｐ
+	@ また ポケモンに もたせている どうぐはｎ
+	@ すべて はずしてくだされ!ｐ
+	@ なお タマゴいさんか させる ことは できませんぞ!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50: @ 82513C1
 	.string "모험자여!!\p"
@@ -644,53 +644,53 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50: @ 82513C1
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오$"
-	// ぼうけんしゃよ!!ｐ
-	// つれていける ポケモンがｎ
-	// 3ひき いないようですぞ!ｐ
-	// つれていく ためには レベルが 50いかでｎ
-	// すべて ちがう しゅるいの ポケモンをｌ
-	// 3ひき よういして くだされ!ｐ
-	// また ポケモンに もたせている どうぐはｎ
-	// すべて はずしてくだされ!ｐ
-	// なお タマゴいさんか させる ことは できませんぞ!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし くだされ!
+	@ ぼうけんしゃよ!!ｐ
+	@ つれていける ポケモンがｎ
+	@ 3ひき いないようですぞ!ｐ
+	@ つれていく ためには レベルが 50いかでｎ
+	@ すべて ちがう しゅるいの ポケモンをｌ
+	@ 3ひき よういして くだされ!ｐ
+	@ また ポケモンに もたせている どうぐはｎ
+	@ すべて はずしてくだされ!ｐ
+	@ なお タマゴいさんか させる ことは できませんぞ!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge: @ 82514E6
 	.string "배틀피라미드에 들어가기 전에\n"
 	.string "리포트를 작성합니다만 괜찮겠습니까?$"
-	// バトルピラミッドへ はいる まえにｎ
-	// レポ-トを かきますが よろしいですかな?
+	@ バトルピラミッドへ はいる まえにｎ
+	@ レポ-トを かきますが よろしいですかな?
 
 BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid: @ 8251531
 	.string "그럼 배틀피라미드 안으로\n"
 	.string "모셔다 드리겠습니다!$"
-	// では バトルピラミッドの なかへｎ
-	// おつれいたしますぞ!
+	@ では バトルピラミッドの なかへｎ
+	@ おつれいたしますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping: @ 8251569
 	.string "{PLAYER}님이 가지고 계신 가방은\n"
 	.string "이쪽에서 맡도록 하겠습니다!$"
-	// あさんの もっている バッグはｎ
-	// こちらで あずからせて いただきますぞ!
+	@ あさんの もっている バッグはｎ
+	@ こちらで あずからせて いただきますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag: @ 82515AD
 	.string "대신 전에 사용하셨던\n"
 	.string "이 배틀백을 가져가 주십시오!$"
-	// かわりに ぜんかい おつかいになったｎ
-	// この バトルバッグを おもちくだされ!
+	@ かわりに ぜんかい おつかいになったｎ
+	@ この バトルバッグを おもちくだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag: @ 82515F4
 	.string "대신 이쪽의\n"
 	.string "배틀백을 가져가 주십시오!$"
-	// かわりに こちらのｎ
-	// バトルバッグを おもちくだされ!
+	@ かわりに こちらのｎ
+	@ バトルバッグを おもちくだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag: @ 825161E
 	.string "{PLAYER}{K_EUNNEUN} 가방을 맡기고\n"
 	.string "배틀백을 받았다!$"
-	// あは バッグを あずけてｎ
-	// バトルバッグを うけとった!
+	@ あは バッグを あずけてｎ
+	@ バトルバッグを うけとった!
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel: @ 8251647
 	.string "이쪽에 있는 마루를 밟아주시면\n"
@@ -698,11 +698,11 @@ BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel: @ 8251647
 	.string "나아갈 수 있습니다!\p"
 	.string "무사히 모험을 할 수 있기를\n"
 	.string "빌고 있겠습니다!$"
-	// こちらにある ゆかを ふんで いただくとｎ
-	// ピラミッドの うえの だんへとｌ
-	// すすむことが できますぞ!ｐ
-	// ぶじ ぼうけんが すすむことをｎ
-	// いのって おりますぞ!
+	@ こちらにある ゆかを ふんで いただくとｎ
+	@ ピラミッドの うえの だんへとｌ
+	@ すすむことが できますぞ!ｐ
+	@ ぶじ ぼうけんが すすむことをｎ
+	@ いのって おりますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag: @ 82516D6
 	.string "모험자여!\p"
@@ -715,23 +715,23 @@ BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag: @ 82516D6
 	.string "가방은 돌려드리겠습니다!\p"
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "가방을 받았다!$"
-	// ぼうけんしゃよ!ｐ
-	// ぜんかい レポ-トを かいてｎ
-	// しゅうりょう しませんでしたな?ｐ
-	// ざんねんですが この ばあいｎ
-	// ちょうせんは むこうと なりますぞ!ｐ
-	// おあずかり していたｎ
-	// バッグは おかえし いたしますぞ!ｐ
-	// あはｎ
-	// バッグを うけとった!
+	@ ぼうけんしゃよ!ｐ
+	@ ぜんかい レポ-トを かいてｎ
+	@ しゅうりょう しませんでしたな?ｐ
+	@ ざんねんですが この ばあいｎ
+	@ ちょうせんは むこうと なりますぞ!ｐ
+	@ おあずかり していたｎ
+	@ バッグは おかえし いたしますぞ!ｐ
+	@ あはｎ
+	@ バッグを うけとった!
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid: @ 82517B5
 	.string "돌아오셨습니까!\p"
 	.string "훌륭히 배틀피라미드를\n"
 	.string "제패하셨군요!$"
-	// おかえりなさいませ!ｐ
-	// みごとに バトルピラミッドをｎ
-	// せいは されましたな!
+	@ おかえりなさいませ!ｐ
+	@ みごとに バトルピラミッドをｎ
+	@ せいは されましたな!
 
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake: @ 82517FC
 	.string "아앗!\p"
@@ -740,49 +740,49 @@ BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake: @ 82517FC
 	.string "죄송하지만\n"
 	.string "피라미드에서 얻은 도구는\l"
 	.string "가지고 가실 수 없습니다!$"
-	// おおっ!ｐ
-	// ポケモンにｎ
-	// どうぐを もたせていますな……ｐ
-	// もうしわけ ありませんがｎ
-	// ピラミッドで てにいれた どうぐはｌ
-	// もっていくことが できませんぞ!
+	@ おおっ!ｐ
+	@ ポケモンにｎ
+	@ どうぐを もたせていますな……ｐ
+	@ もうしわけ ありませんがｎ
+	@ ピラミッドで てにいれた どうぐはｌ
+	@ もっていくことが できませんぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag: @ 8251881
 	.string "지니게 한 도구는\n"
 	.string "모두 {PLAYER}님의 배틀백에\l"
 	.string "넣어두겠습니다!$"
-	// もたせている どうぐはｎ
-	// すべて あさんの バトルバッグにｌ
-	// いれておきますぞ!
+	@ もたせている どうぐはｎ
+	@ すべて あさんの バトルバッグにｌ
+	@ いれておきますぞ!
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep: @ 82518C6
 	.string "배틀백에는\n"
 	.string "모두 들어가지 않으므로\l"
 	.string "배틀백과 지니게 한 도구를\l"
 	.string "정리해 주세요!$"
-	// バトルバッグにはｎ
-	// すべて はいらない ようなのでｌ
-	// バトルバッグと もたせたどうぐをｌ
-	// せいりして くだされ!
+	@ バトルバッグにはｎ
+	@ すべて はいらない ようなのでｌ
+	@ バトルバッグと もたせたどうぐをｌ
+	@ せいりして くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem: @ 825194F
 	.string "아직 포켓몬이\n"
 	.string "도구를 지니고 있습니다!$"
-	// ポケモンにｎ
-	// まだ どうぐを もたせていますぞ!$
+	@ ポケモンにｎ
+	@ まだ どうぐを もたせていますぞ!$
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep: @ 825197E
 	.string "배틀백과 지니게 한 도구를\n"
 	.string "정리해 주세요!$"
-	// バトルバッグと もたせたどうぐをｎ
-	// せいりして くだされ!
+	@ バトルバッグと もたせたどうぐをｎ
+	@ せいりして くだされ!
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld: @ 82519CA
 	.string "{PLAYER}{K_EUNNEUN} 지니게 한\n"
 	.string "도구를 바꿨다!$"
-	// あは ポケモンに もたせているｎ
-	// どうぐを かえした!
+	@ あは ポケモンに もたせているｎ
+	@ どうぐを かえした!
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept: @ 82519F8
 	.string "수고하셨습니다 배틀백은\n"
@@ -790,31 +790,31 @@ BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept: @ 82519F8
 	.string "맡아두도록 하겠습니다!\p"
 	.string "{PLAYER}{K_EUNNEUN} 배틀백을 맡기고\n"
 	.string "가방을 받았다!$"
-	// おつかいになられた バトルバッグはｎ
-	// じかいの ちょうせんまでｌ
-	// おあずかり いたしますぞ!ｐ
-	// あは バトルバッグを あずけてｎ
-	// バッグを うけとった!
+	@ おつかいになられた バトルバッグはｎ
+	@ じかいの ちょうせんまでｌ
+	@ おあずかり いたしますぞ!ｐ
+	@ あは バトルバッグを あずけてｎ
+	@ バッグを うけとった!
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait: @ 8251A77
 	.string "성적을 리포트에 작성하므로\n"
 	.string "기다려 주십시오!$"
-	// せいせきを レポ-トに かきますのでｎ
-	// おまちくだされ!
+	@ せいせきを レポ-トに かきますのでｎ
+	@ おまちくだされ!
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis: @ 8251AA0
 	.string "배틀피라미드 제패를 기념하여\n"
 	.string "이 상품을 받아주세요!$"
-	// バトルピラミッド せいはの きねんとしてｎ
-	// この しょうひんを おうけとり くだされ!
+	@ バトルピラミッド せいはの きねんとしてｎ
+	@ この しょうひんを おうけとり くだされ!
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem: @ 8251AE2
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "{STR_VAR_1}{K_EULREUL} 받았다!$"
-	// あはｎ
-	// いを もらった!
+	@ あはｎ
+	@ いを もらった!
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull: @ 8251AFC
@@ -822,10 +822,10 @@ BattleFrontier_BattlePyramidLobby_Text_BagIsFull: @ 8251AFC
 	.string "도구가 가득찬 모양입니다\p"
 	.string "도구를 정리하고 나서\n"
 	.string "다시 와주십시오!$"
-	// ……ほう!ｎ
-	// どうぐが いっぱいの ようですなｐ
-	// どうぐを せいりしてからｎ
-	// また おこしくだされ!
+	@ ……ほう!ｎ
+	@ どうぐが いっぱいの ようですなｐ
+	@ どうぐを せいりしてからｎ
+	@ また おこしくだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag: @ 8251B5A
 	.string "아쉽게 되었군요...\p"
@@ -833,72 +833,72 @@ BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag: @ 8251B5A
 	.string "가방을 돌려드리겠습니다!\p"
 	.string "{PLAYER}{K_EUNNEUN}\n"
 	.string "가방을 받았다!$"
-	// ざんねんでしたな……ｐ
-	// おあずかりしていたｎ
-	// バッグは おかえし いたしますぞ!ｐ
-	// あはｎ
-	// バッグを うけとった!
+	@ ざんねんでしたな……ｐ
+	@ おあずかりしていたｎ
+	@ バッグは おかえし いたしますぞ!ｐ
+	@ あはｎ
+	@ バッグを うけとった!
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge: @ 8251BB6
 	.string "다음 도전을\n"
 	.string "기다리고 있겠습니다!$"
-	// またの ちょうせんをｎ
-	// おまちして おりますぞ!
+	@ またの ちょうせんをｎ
+	@ おまちして おりますぞ!
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_HereIsPrize: @ 8251BDE
 	.string "기다리고 있었습니다!\p"
 	.string "배틀피라미드 제패를 기념하여\n"
 	.string "이 상품을 드리겠습니다!$"
-	// おまちしておりましたぞ!ｐ
-	// バトルピラミッド せいはの きねんとしてｎ
-	// この しょうひんを おうけとり くだされ!
+	@ おまちしておりましたぞ!ｐ
+	@ バトルピラミッド せいはの きねんとしてｎ
+	@ この しょうひんを おうけとり くだされ!
 
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait: @ 8251C3B
 	.string "어서 오세요...\p"
 	.string "피라미드에서 일어날 일들을\n"
 	.string "점쳐 드리겠습니다...$"
-	// ようこそ……ｐ
-	// ピラミッドで おこる わざわいをｎ
-	// うらなって さしあげましょう……
+	@ ようこそ……ｐ
+	@ ピラミッドで おこる わざわいをｎ
+	@ うらなって さしあげましょう……
 
 BattleFrontier_BattlePyramidLobby_Text_Aah: @ 8251C8A
 	.string "........................\n"
 	.string "........................\p"
 	.string "...아앗!$"
-	// ………………………………………………………ｎ
-	// ………………………………………………………ｐ
-	// ……っああっ!
+	@ ………………………………………………………ｎ
+	@ ………………………………………………………ｐ
+	@ ……っああっ!
 
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis: @ 8251CB3
 	.string "전기가 튀고 있는 게 보입니다...\p"
 	.string "...그리고\n"
 	.string "마비 때문에 생각대로 움직일 수 없는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// でんきが とびちっています……ｐ
-	// ……そしてｎ
-	// まひにより おもうように うごけないｌ
-	// あなたの ポケモンの すがたも……
+	@ でんきが とびちっています……ｐ
+	@ ……そしてｎ
+	@ まひにより おもうように うごけないｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintPoison: @ 8251D07
 	.string "독이 보입니다...\p"
 	.string "...그리고\n"
 	.string "독에 걸려 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// どくが みえます……ｐ
-	// ……そしてｎ
-	// どくに おかされ くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ どくが みえます……ｐ
+	@ ……そしてｎ
+	@ どくに おかされ くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintBurn: @ 8251D54
 	.string "새빨간 불꽃이 보입니다...\p"
 	.string "...그리고\n"
 	.string "화상으로 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// まっかな ほのおが みえます……ｐ
-	// ……そしてｎ
-	// やけどを おって くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ まっかな ほのおが みえます……ｐ
+	@ ……そしてｎ
+	@ やけどを おって くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste: @ 8251D9C
 	.string "굉장한 프레셔와 원념...\n"
@@ -907,12 +907,12 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste: @ 8251D9C
 	.string "파워포인트가 없어져서\l"
 	.string "발버둥치고 있는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// すさまじい プレッシャ-と おんねん……ｎ
-	// うらみの ちからが みえます……ｐ
-	// そして……ｎ
-	// パワ-ポイントが なくなりｌ
-	// わるあがきを するｌ
-	// あなたの ポケモンの すがたも……
+	@ すさまじい プレッシャ-と おんねん……ｎ
+	@ うらみの ちからが みえます……ｐ
+	@ そして……ｎ
+	@ パワ-ポイントが なくなりｌ
+	@ わるあがきを するｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate: @ 8251E3D
 	.string "천천히 부유하는\n"
@@ -920,11 +920,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintLevitate: @ 8251E3D
 	.string "...그리고\n"
 	.string "땅 기술을 쓰지 못해 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// ゆるやかに ふゆうするｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// じめんの わざを つかえずに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ ゆるやかに ふゆうするｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ じめんの わざを つかえずに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility: @ 8251EA1
 	.string "발밑에서 솟아오르는\n"
@@ -932,11 +932,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility: @ 8251EA1
 	.string "...그리고\n"
 	.string "도망치려고 해도 도망칠 수 없는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// あしもとから わきおこるｎ
-	// つよい ちからが みえます……ｐ
-	// ……そしてｎ
-	// にげようとしても にげられないｌ
-	// あなたの ポケモンの すがたも……
+	@ あしもとから わきおこるｎ
+	@ つよい ちからが みえます……ｐ
+	@ ……そしてｎ
+	@ にげようとしても にげられないｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintIce: @ 8251F17
 	.string "얼음타입의\n"
@@ -944,11 +944,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintIce: @ 8251F17
 	.string "...그리고\n"
 	.string "얼음 기술로 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// こおりタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// こおりの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ こおりタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ こおりの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion: @ 8251F6E
 	.string "목숨을 깎으며\n"
@@ -956,11 +956,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintExplosion: @ 8251F6E
 	.string "...그리고\n"
 	.string "기술을 맞고 쓰러져 가는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// いのちを かけてｎ
-	// くりだされる わざが みえます……ｐ
-	// ……そしてｎ
-	// わざを うけて たおれていくｌ
-	// あなたの ポケモンの すがたも……
+	@ いのちを かけてｎ
+	@ くりだされる わざが みえます……ｐ
+	@ ……そしてｎ
+	@ わざを うけて たおれていくｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic: @ 8251FC7
 	.string "에스퍼타입의\n"
@@ -968,11 +968,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintPsychic: @ 8251FC7
 	.string "...그리고\n"
 	.string "에스퍼 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// エスパ-タイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// エスパ-の わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ エスパ-タイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ エスパ-の わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock: @ 825201B
 	.string "바위타입의\n"
@@ -980,11 +980,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintRock: @ 825201B
 	.string "...그리고\n"
 	.string "바위 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// いわタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// いわの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ いわタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ いわの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting: @ 8252068
 	.string "격투타입의\n"
@@ -992,11 +992,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting: @ 8252068
 	.string "...그리고\n"
 	.string "격투 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// かくとうタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// かくとうの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ かくとうタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ かくとうの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather: @ 82520BA
 	.string "비바라기... 쾌청...\n"
@@ -1006,13 +1006,13 @@ BattleFrontier_BattlePyramidLobby_Text_HintWeather: @ 82520BA
 	.string "...그리고\n"
 	.string "여러 타입에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// あまごい…… にほんばれ……ｎ
-	// すなあらし…… あられ……ｐ
-	// てんこうの へんかで つよくなるｎ
-	// ポケモンたちが みえますｐ
-	// ……そしてｎ
-	// さまざまな タイプに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ あまごい…… にほんばれ……ｎ
+	@ すなあらし…… あられ……ｐ
+	@ てんこうの へんかで つよくなるｎ
+	@ ポケモンたちが みえますｐ
+	@ ……そしてｎ
+	@ さまざまな タイプに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintBug: @ 8252158
 	.string "벌레타입의\n"
@@ -1020,11 +1020,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintBug: @ 8252158
 	.string "...그리고\n"
 	.string "다양한 공격으로 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// むしタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// さまざまな こうげきで くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ むしタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ さまざまな こうげきで くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintDark: @ 82521B4
 	.string "악타입의\n"
@@ -1032,11 +1032,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintDark: @ 82521B4
 	.string "...그리고\n"
 	.string "악 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// あく タイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// あくの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ あく タイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ あくの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintWater: @ 8252206
 	.string "물타입의\n"
@@ -1044,11 +1044,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintWater: @ 8252206
 	.string "...그리고\n"
 	.string "물 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// みずタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// みずの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ みずタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ みずの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintGhost: @ 825225A
 	.string "고스트타입의\n"
@@ -1056,11 +1056,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintGhost: @ 825225A
 	.string "...그리고\n"
 	.string "고스트 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// ゴ-ストタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// ゴ-ストの わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ ゴ-ストタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ ゴ-ストの わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintSteel: @ 82522AE
 	.string "강철타입의\n"
@@ -1068,11 +1068,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintSteel: @ 82522AE
 	.string "...그리고\n"
 	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// はがねタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// きょうだいな わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ はがねタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ きょうだいな わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon: @ 825230B
 	.string "하늘을 나는\n"
@@ -1080,11 +1080,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon: @ 825230B
 	.string "...그리고\n"
 	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// そらをとぶｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// きょうだいな わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ そらをとぶｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ きょうだいな わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve: @ 8252364
 	.string "돌의 힘으로\n"
@@ -1093,12 +1093,12 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve: @ 8252364
 	.string "불꽃... 물... 전기...\p"
 	.string "3개의 힘에 괴로워하는\n"
 	.string "당신의 포켓몬의 모습도...$"
-	// いしの ちからによりｎ
-	// しんかした ものたちが みえます……ｐ
-	// ……そしてｎ
-	// ほのお…… みず…… でんき……ｐ
-	// 3つの ちからに くるしむｎ
-	// あなたの ポケモンの すがたも……
+	@ いしの ちからによりｎ
+	@ しんかした ものたちが みえます……ｐ
+	@ ……そしてｎ
+	@ ほのお…… みず…… でんき……ｐ
+	@ 3つの ちからに くるしむｎ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_HintNormal: @ 8252403
 	.string "노말타입의\n"
@@ -1106,21 +1106,21 @@ BattleFrontier_BattlePyramidLobby_Text_HintNormal: @ 8252403
 	.string "...그리고\n"
 	.string "강한 기술에 괴로워하는\l"
 	.string "당신의 포켓몬의 모습도...$"
-	// ノ-マルタイプのｎ
-	// ポケモンたちが みえます……ｐ
-	// ……そしてｎ
-	// きょうだいな わざに くるしむｌ
-	// あなたの ポケモンの すがたも……
+	@ ノ-マルタイプのｎ
+	@ ポケモンたちが みえます……ｐ
+	@ ……そしてｎ
+	@ きょうだいな わざに くるしむｌ
+	@ あなたの ポケモンの すがたも……
 
 BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot: @ 8252461
 	.string "점을 믿든 그렇지 않든\n"
 	.string "선택은 당신의 몫...\p"
 	.string "미래는 언제나 바뀔 수 있습니다...\n"
 	.string "부디 무사하시길...$"
-	// うらないを しんじるも しんじないもｎ
-	// あなた しだい……ｐ
-	// みらいは いつでも かえられます……ｎ
-	// どうぞ ごぶじで……
+	@ うらないを しんじるも しんじないもｎ
+	@ あなた しだい……ｐ
+	@ みらいは いつでも かえられます……ｎ
+	@ どうぞ ごぶじで……
 
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning: @ 82524DA
 	.string "너 그거 알아?\p"
@@ -1131,52 +1131,52 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning: @ 82524DA
 	.string "눈을 마주치지 않으려면\l"
 	.string "트레이너의 움직임을 보면서\l"
 	.string "차분히 걷는 편이 좋지!$"
-	// あなた しってた?ｐ
-	// はやく はしるとｎ
-	// トレ-ナ-が あしおとに きづいてｌ
-	// しょうぶを しかけて くるの!ｐ
-	// だから トレ-ナ-とｎ
-	// めを あわせたくない ときはｌ
-	// トレ-ナ-の ようすを みながらｌ
-	// ゆっくり あるいた ほうが いいのよ!
+	@ あなた しってた?ｐ
+	@ はやく はしるとｎ
+	@ トレ-ナ-が あしおとに きづいてｌ
+	@ しょうぶを しかけて くるの!ｐ
+	@ だから トレ-ナ-とｎ
+	@ めを あわせたくない ときはｌ
+	@ トレ-ナ-の ようすを みながらｌ
+	@ ゆっくり あるいた ほうが いいのよ!
 
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems: @ 8252595
 	.string "우오오오------옷!\p"
 	.string "도구를 가득 가져왔었는데\n"
 	.string "져서 전부 없어져 버렸다...\p"
 	.string "우오오오------옷!$"
-	// うおおおお------ん!ｐ
-	// どうぐを いっぱい もってたのにｎ
-	// まけたら ぜんぶ なくなっちゃった……ｐ
-	// うおおおお------ん!
+	@ うおおおお------ん!ｐ
+	@ どうぐを いっぱい もってたのにｎ
+	@ まけたら ぜんぶ なくなっちゃった……ｐ
+	@ うおおおお------ん!
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing: @ 82525F4
 	.string "돌아오셨습니까!\p"
 	.string "피라미드킹을 쓰러뜨리고\n"
 	.string "훌륭히 배틀피라미드를\l"
 	.string "제패하셨군요!$"
-	// おかえりなさいませ!ｐ
-	// ピラミッドキングを たおしｎ
-	// みごと バトルピラミッドをｌ
-	// せいは されましたな!
+	@ おかえりなさいませ!ｐ
+	@ ピラミッドキングを たおしｎ
+	@ みごと バトルピラミッドをｌ
+	@ せいは されましたな!
 
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints: @ 8252662
 	.string "모험자여!\n"
 	.string "당신의 뜨거운 용기를 기리며\l"
 	.string "배틀포인트를 드리겠습니다!$"
-	// ぼうけんしゃよ!ｎ
-	// あなたの あつい ゆうきを たたえｌ
-	// バトルポイントを おおくり しましょう!
+	@ ぼうけんしゃよ!ｎ
+	@ あなたの あつい ゆうきを たたえｌ
+	@ バトルポイントを おおくり しましょう!
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed: @ 82526B6
 	.string "배틀어드벤처의\n"
 	.string "규칙이 적혀 있다!$"
-	// バトルアドベンチャ-のｎ
-	// ル-ルが かかれている!
+	@ バトルアドベンチャ-のｎ
+	@ ル-ルが かかれている!
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading: @ 82526D9
 	.string "어느 설명을 읽겠습니까?$"
-	// どの せつめいを よみますか?
+	@ どの せつめいを よみますか?
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules: @ 82526FC
 	.string "피라미드 안에서 튀어나오는\n"
@@ -1184,11 +1184,11 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules: @ 82526FC
 	.string "피라미드를 제패하면 바뀝니다\p"
 	.string "어떤 포켓몬이 나오는지는\n"
 	.string "실제로 모험하면서 알아봅시다$"
-	// ピラミッドの なかで でてくるｎ
-	// やせい ポケモンはｌ
-	// ピラミッドを せいはすると かわりますｐ
-	// どんな ポケモンが でてくるのかはｎ
-	// じっさいに ぼうけんして おぼえましょう
+	@ ピラミッドの なかで でてくるｎ
+	@ やせい ポケモンはｌ
+	@ ピラミッドを せいはすると かわりますｐ
+	@ どんな ポケモンが でてくるのかはｎ
+	@ じっさいに ぼうけんして おぼえましょう
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules: @ 82527A9
 	.string "피라미드 안에서는\n"
@@ -1198,13 +1198,13 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules: @ 82527A9
 	.string "또한 트레이너에게 이기면\n"
 	.string "조금 모험에 도움이 되는\l"
 	.string "힌트를 받을 수 있습니다$"
-	// ピラミッドの なかにはｎ
-	// トレ-ナ-が まちかまえて いますｐ
-	// 1つの だんには さいこうでｎ
-	// 8にんの トレ-ナ-が いますｐ
-	// また トレ-ナ-に かつとｎ
-	// ちょっと ぼうけんに やくだつｌ
-	// ヒントが もらえます
+	@ ピラミッドの なかにはｎ
+	@ トレ-ナ-が まちかまえて いますｐ
+	@ 1つの だんには さいこうでｎ
+	@ 8にんの トレ-ナ-が いますｐ
+	@ また トレ-ナ-に かつとｎ
+	@ ちょっと ぼうけんに やくだつｌ
+	@ ヒントが もらえます
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules: @ 825285A
 	.string "피라미드의 미로는\n"
@@ -1214,13 +1214,13 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules: @ 825285A
 	.string "또한 야생 포켓몬이나 트레이너와\n"
 	.string "배틀할 때마다\l"
 	.string "조금씩 주변이 밝아집니다$"
-	// ピラミッドの めいろはｎ
-	// はいる たびに かわりますｐ
-	// なかは とても くらく なっているのでｎ
-	// しんちょうに すすみましょうｐ
-	// また やせいポケモンや トレ-ナ-とのｎ
-	// たたかいに かつとｌ
-	// ちょっとだけ まわりが あかるくなります
+	@ ピラミッドの めいろはｎ
+	@ はいる たびに かわりますｐ
+	@ なかは とても くらく なっているのでｎ
+	@ しんちょうに すすみましょうｐ
+	@ また やせいポケモンや トレ-ナ-とのｎ
+	@ たたかいに かつとｌ
+	@ ちょっとだけ まわりが あかるくなります
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules: @ 8252924
 	.string "배틀백은 피라미드에 있는 동안\n"
@@ -1231,12 +1231,12 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules: @ 8252924
 	.string "99개까지 넣을 수 있습니다\p"
 	.string "또한 가방의 내용물은 모험에\n"
 	.string "실패하면 없어져 버립니다$"
-	// バトルバッグは ピラミッドに いる あいだｎ
-	// つかうことが できますｐ
-	// レベル50と オ-プンレベルのｎ
-	// バッグが それぞれ ようい されていてｌ
-	// 10しゅるいの どうぐをｌ
-	// 99こ まで いれることが できますｐ
-	// また バッグの なかみは ぼうけんにｎ
-	// しっぱい すると なくなって しまいます
+	@ バトルバッグは ピラミッドに いる あいだｎ
+	@ つかうことが できますｐ
+	@ レベル50と オ-プンレベルのｎ
+	@ バッグが それぞれ ようい されていてｌ
+	@ 10しゅるいの どうぐをｌ
+	@ 99こ まで いれることが できますｐ
+	@ また バッグの なかみは ぼうけんにｎ
+	@ しっぱい すると なくなって しまいます
 

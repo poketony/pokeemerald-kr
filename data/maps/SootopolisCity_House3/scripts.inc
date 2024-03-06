@@ -26,25 +26,25 @@ SootopolisCity_House3_Text_JuanHasManyFansDoYou: @ 8226BA4
 	.string "제자인 윤진님보다\l"
 	.string "더 팬이 많아!\p"
 	.string "너한테는 팬이 있니?$"
-	// あなた ポケモン トレ-ナ-ね?ｐ
-	// ルネシティの アダンさまはｎ
-	// おでしさんの ミクリさま よりｌ
-	// さらに たくさんの ファンが いるのよ!ｐ
-	// あなたに ファンは いるのかしら?
+	@ あなた ポケモン トレ-ナ-ね?ｐ
+	@ ルネシティの アダンさまはｎ
+	@ おでしさんの ミクリさま よりｌ
+	@ さらに たくさんの ファンが いるのよ!ｐ
+	@ あなたに ファンは いるのかしら?
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong: @ 8226C20
 	.string "헤에-\n"
 	.string "그럼 꽤 강한가 보네!$"
-	// へえ-ｎ
-	// じゃあ けっこう つよいのね!
+	@ へえ-ｎ
+	@ じゃあ けっこう つよいのね!
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder: @ 8226C44
 	.string "어머머...\n"
 	.string "그건 좀 슬프다\p"
 	.string "팬이 생기도록 열심히 해봐!$"
-	// あららん……ｎ
-	// それは ちょっと さみしいわねｐ
-	// ファンが できるよう がんばりなさいよ!
+	@ あららん……ｎ
+	@ それは ちょっと さみしいわねｐ
+	@ ファンが できるよう がんばりなさいよ!
 
 SootopolisCity_House3_Text_TrainerFanClubWasWild: @ 8226C9C
 	.string "열성적인 팬들은 호연지방 밖의\n"
@@ -52,9 +52,9 @@ SootopolisCity_House3_Text_TrainerFanClubWasWild: @ 8226C9C
 	.string "내가 해안시티의\n"
 	.string "트레이너 팬클럽에 갔을 때도\l"
 	.string "엄청 굉장했어!$"
-	// ねっしんな ファンは ホウエン いがいのｎ
-	// ちいきからも やってくるの!ｐ
-	// あたしが ミナモのｎ
-	// トレ-ナ- ファンクラブに いったときもｌ
-	// とっても すごかったもの!
+	@ ねっしんな ファンは ホウエン いがいのｎ
+	@ ちいきからも やってくるの!ｐ
+	@ あたしが ミナモのｎ
+	@ トレ-ナ- ファンクラブに いったときもｌ
+	@ とっても すごかったもの!
 

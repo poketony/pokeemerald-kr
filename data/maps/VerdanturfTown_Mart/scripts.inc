@@ -45,10 +45,10 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial: @ 82025D5
 	.string "스페셜업은 빠질 수 없지!\p"
 	.string "배틀 때만이라고는 해도\n"
 	.string "기술의 위력이 올라가거든!$"
-	// ポケモン しょうぶにｎ
-	// スペシャルアップは かかせない!ｐ
-	// たたかいの ときだけ とはいえｎ
-	// わざの いりょくが あがるんだからな!
+	@ ポケモン しょうぶにｎ
+	@ スペシャルアップは かかせない!ｐ
+	@ たたかいの ときだけ とはいえｎ
+	@ わざの いりょくが あがるんだからな!
 
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
 	.string "배틀텐트 필승\n"
@@ -56,15 +56,15 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent: @ 820264C
 	.string "팔지 않는 건가...\p"
 	.string "역시 직접 힘내서\n"
 	.string "해내지 않으면 안 되겠구먼$"
-	// バトルテント ひっしょうｎ
-	// こうりゃくぼん というのはｌ
-	// うってない ですねえ……ｐ
-	// やはり じぶんでｎ
-	// がんばらないと ダメなんですねえ
+	@ バトルテント ひっしょうｎ
+	@ こうりゃくぼん というのはｌ
+	@ うってない ですねえ……ｐ
+	@ やはり じぶんでｎ
+	@ がんばらないと ダメなんですねえ
 
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon: @ 82026C9
 	.string "잔디마을에서만 살 수 있는 네스트볼은\n"
 	.string "약한 포켓몬일수록 잡기 쉽게 해줘$"
-	// シダケでしか かえない ネストボ-ルｎ
-	// よわい ポケモンほど つかまえ やすくなるの
+	@ シダケでしか かえない ネストボ-ルｎ
+	@ よわい ポケモンほど つかまえ やすくなるの
 

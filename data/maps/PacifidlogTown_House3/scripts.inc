@@ -61,13 +61,13 @@ PacifidlogTown_House3_Text_WillingToTradeIt: @ 8203CBE
 	.string "뭐 희귀한 {STR_VAR_2}{K_I}니까!\p"
 	.string "좋아! {STR_VAR_1}{K_I}라면\n"
 	.string "교환해 주도록 할게!$"
-	// みてくれよ この §う!ｎ
-	// おれが きのう じぶんの たんじょうびにｌ
-	// きねんに つかまえた §うだ!ｐ
-	// お! ほしい って かおを したな?ｎ
-	// まっ きちょうな §うだからな!ｐ
-	// よし! §いと だったらｎ
-	// こうかん して やっても いいぞ!
+	@ みてくれよ この §う!ｎ
+	@ おれが きのう じぶんの たんじょうびにｌ
+	@ きねんに つかまえた §うだ!ｐ
+	@ お! ほしい って かおを したな?ｎ
+	@ まっ きちょうな §うだからな!ｐ
+	@ よし! §いと だったらｎ
+	@ こうかん して やっても いいぞ!
 
 PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou: @ 8203D87
 	.string "오옷 이게 {STR_VAR_1}{K_I}구나-!\n"
@@ -75,43 +75,43 @@ PacifidlogTown_House3_Text_ItsSubtlyDifferentThankYou: @ 8203D87
 	.string "여러 가지로 닮았으면서도\l"
 	.string "미묘하게 다르네!\p"
 	.string "땡큐!$"
-	// おっ これが §い かあ-!ｎ
-	// やっぱ §う とはｌ
-	// いろいろ にている ようでｌ
-	// びみょうに ちがうなあ!ｐ
-	// サンキュ!
+	@ おっ これが §い かあ-!ｎ
+	@ やっぱ §う とはｌ
+	@ いろいろ にている ようでｌ
+	@ びみょうに ちがうなあ!ｐ
+	@ サンキュ!
 
 PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon: @ 8203DDE
 	.string "안돼안돼! {STR_VAR_1}{K_IGA} 아니라면\n"
 	.string "받을 수 없어!$"
-	// だめだめ! §い じゃないと ｎ
-	// ひきうけられないね!
+	@ だめだめ! §い じゃないと ｎ
+	@ ひきうけられないね!
 
 PacifidlogTown_House3_Text_NotDesperateOrAnything: @ 8203E12
 	.string "흐-음 관두는 거구나...\p"
 	.string "뭐 나도\n"
 	.string "꼭 하고 싶은 건 아니니까$"
-	// ふ-ん やめるのか……ｐ
-	// まっ おれのほうもｎ
-	// どうしても って わけじゃ ないしね
+	@ ふ-ん やめるのか……ｐ
+	@ まっ おれのほうもｎ
+	@ どうしても って わけじゃ ないしね
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon: @ 8203E7F
 	.string "스스로 찾아도 되지만...\p"
 	.string "다른 트레이너가 잡은\n"
 	.string "아공이를\l"
 	.string "정말 갖고 싶었어$"
-	// じぶんで さがしても いいんだけど……ｐ
-	// ほかの トレ-ナ-が つかまえたｎ
-	// タツベイ って いうのがｌ
-	// どうしても ほしかったんだよね
+	@ じぶんで さがしても いいんだけど……ｐ
+	@ ほかの トレ-ナ-が つかまえたｎ
+	@ タツベイ って いうのがｌ
+	@ どうしても ほしかったんだよね
 
 PacifidlogTown_House3_Text_IsThatAPokedex: @ 8203EF1
 	.string "그거 포켓몬 도감이지?\p"
 	.string "그럼 너 많은 포켓몬이랑\n"
 	.string "만났다는 소리 아니야?\p"
 	.string "그거 정말 부러운걸!$"
-	// それって ポケモンずかん?ｐ
-	// それって あなた たくさんのｎ
-	// ポケモンと であった ってこと?ｐ
-	// それって すっごい うらやましい!
+	@ それって ポケモンずかん?ｐ
+	@ それって あなた たくさんのｎ
+	@ ポケモンと であった ってこと?ｐ
+	@ それって すっごい うらやましい!
 

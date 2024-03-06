@@ -46,8 +46,8 @@ FortreeCity_House2_Text_HiddenPowersArousedByNature: @ 8217882
 	.string "사람도 포켓몬도\n"
 	.string "자연 속에서 살아감으로써\l"
 	.string "본연의 힘이 깨어난다...$"
-	// ひとも ポケモンもｎ
-	// しぜんの なかで くらすことでｌ
+	@ ひとも ポケモンもｎ
+	@ しぜんの なかで くらすことでｌ
 	// もともとの パワ-が めざめる……
 
 FortreeCity_House2_Text_CoinInWhichHand: @ 82178D6

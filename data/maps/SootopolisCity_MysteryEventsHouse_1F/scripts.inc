@@ -186,30 +186,30 @@ SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles: @ 8227B4
 	.string "할아버지가 되어 버린 지금은\n"
 	.string "젊은 트레이너의 승부를 보는 게\l"
 	.string "유일한 낙이라네$"
-	// わしも わかいころはｎ
-	// ポケモン トレ-ナ-としてｌ
-	// せかいじゅうを たび していたのじゃｐ
-	// ジジイとなった いまではｎ
-	// わかい トレ-ナ-の しょうぶを みるのがｌ
-	// ゆいいつの たのしみ じゃ
+	@ わしも わかいころはｎ
+	@ ポケモン トレ-ナ-としてｌ
+	@ せかいじゅうを たび していたのじゃｐ
+	@ ジジイとなった いまではｎ
+	@ わかい トレ-ナ-の しょうぶを みるのがｌ
+	@ ゆいいつの たのしみ じゃ
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked: @ 8227BDD
 	.string "문이 잠겨 있는 것 같다!$"
-	// とびらには かぎが かかって いるようだ!
+	@ とびらには かぎが かかって いるようだ!
 
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer: @ 8227BFC
 	.string "지금 {STR_VAR_1}{K_I}라는 트레이너가\n"
 	.string "우리 집에 와 있네!\p"
 	.string "{STR_VAR_1}{K_WAGWA} 승부하지 않겠나?$"
-	// いまは §い という トレ-ナ-がｎ
-	// わしの いえに きておる!ｐ
-	// §いと しょうぶ してみたいのじゃな?
+	@ いまは §い という トレ-ナ-がｎ
+	@ わしの いえに きておる!ｐ
+	@ §いと しょうぶ してみたいのじゃな?
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle: @ 8227C44
 	.string "승부하지 않는 겐가...\n"
 	.string "승부를 볼 수 없어서 실망이구먼...$"
-	// しょうぶ せんのか……ｎ
-	// しょうぶを みられなくて ガッカリ……
+	@ しょうぶ せんのか……ｎ
+	@ しょうぶを みられなくて ガッカリ……
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3: @ 8227C84
 	.string "오오 그래그래!\p"
@@ -217,21 +217,21 @@ SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3: @ 8227C84
 	.string "그다지 튼튼하지 않으니까\p"
 	.string "많아도 3대3\n"
 	.string "승부로 해 주지 않겠나?$"
-	// おお そうか そうか!ｐ
-	// じゃが この いえはｎ
-	// あんまり がんじょう じゃないからｐ
-	// せめて 3たい3のｎ
-	// しょうぶに して くれんかのう?
+	@ おお そうか そうか!ｐ
+	@ じゃが この いえはｎ
+	@ あんまり がんじょう じゃないからｐ
+	@ せめて 3たい3のｎ
+	@ しょうぶに して くれんかのう?
 
 SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle: @ 8227CEB
 	.string "그럼 승부 전에\n"
 	.string "리포트를 해 두는 편이 좋네$"
-	// じゃあ しょうぶの まえにｎ
-	// レポ-トを かいて おいたほうが よいぞ
+	@ じゃあ しょうぶの まえにｎ
+	@ レポ-トを かいて おいたほうが よいぞ
 
 SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch: @ 8227D21
 	.string "좋은 승부를 기대하고 있겠네!$"
-	// よい しょうぶを きたい しておるぞ!
+	@ よい しょうぶを きたい しておるぞ!
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie: @ 8227D3D
@@ -239,15 +239,15 @@ SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie: @ 8227D3D
 
 SootopolisCity_MysteryEventsHouse_B1F_Text_MatchEndedUpDraw: @ 8227D40
 	.string "승부는 무승부로 끝났다!$"
-	// しょうぶは ひきわけに おわった!
+	@ しょうぶは ひきわけに おわった!
 
 SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff: @ 8227D5B
 	.string "무승부였나!\p"
 	.string "서로 한방도 용납하지 않는\n"
 	.string "굉장한 승부였다네!$"
-	// ひきわけ じゃったか!ｐ
-	// おたがい いっぽも ゆずらぬｎ
-	// すばらしい しょうぶ じゃったぞ!
+	@ ひきわけ じゃったか!ｐ
+	@ おたがい いっぽも ゆずらぬｎ
+	@ すばらしい しょうぶ じゃったぞ!
 
 @ Unused
 SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Won: @ 8227DB5
@@ -257,9 +257,9 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ThatWasSuperlative: @ 8227DB8
 	.string "훌륭했네!\p"
 	.string "마치 내 젊은 시절을\n"
 	.string "보는 것 같구먼!$"
-	// みごと じゃったぞ!ｐ
-	// まるで わしの わかい ころをｎ
-	// みている ようじゃわい!
+	@ みごと じゃったぞ!ｐ
+	@ まるで わしの わかい ころをｎ
+	@ みている ようじゃわい!
 
 
 @ Unused
@@ -270,7 +270,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou: @ 8227E03
 	.string "유감이구먼\n"
 	.string "하지만 좋은 승부였네!\l"
 	.string "다음 번은 이기면 좋겠구먼!$"
-	// ざんねん じゃったのうｎ
-	// じゃが よい しょうぶ じゃったぞ!ｌ
-	// つぎこそは かてると よいのう
+	@ ざんねん じゃったのうｎ
+	@ じゃが よい しょうぶ じゃったぞ!ｌ
+	@ つぎこそは かてると よいのう
 

@@ -48,59 +48,59 @@ Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened: @ 826DE26
 	.string "“미궁대왕님 소중해”\p"
 	.string "...... ...... ......\p"
 	.string "문의 자물쇠가 풀렸다!$"
-	// §あは あいことばをｎ
-	// とびらに かきつけた!ｐ
-	// 「カラクリだいおう さま いのち」ｐ
-	// …… …… ……ｐ
-	// かぎの はずれる おとがした!
+	@ §あは あいことばをｎ
+	@ とびらに かきつけた!ｐ
+	@ 「カラクリだいおう さま いのち」ｐ
+	@ …… …… ……ｐ
+	@ かぎの はずれる おとがした!
 
 Route110_TrickHousePuzzle6_Text_SophiaIntro: @ 826DE93
 	.string "최근에 이상한 저택이 생겼다는\n"
 	.string "소문을 듣고 조사하러 왔어!$"
-	// さいきん へんな やしきが あるってｎ
-	// きいたから しらべに きたのよ!
+	@ さいきん へんな やしきが あるってｎ
+	@ きいたから しらべに きたのよ!
 
 Route110_TrickHousePuzzle6_Text_SophiaDefeat: @ 826DED2
 	.string "강한 트레이너 발견!$"
-	// つよい トレ-ナ-を はっけん!
+	@ つよい トレ-ナ-を はっけん!
 
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle: @ 826DEF3
 	.string "저택을 조사하고 있는데 재미있어서\n"
 	.string "몇 번이고 도전하고 있어!$"
-	// やしきを しらべてたら おもしろくてｎ
-	// なんかいも チャレンジ してるのよ!
+	@ やしきを しらべてたら おもしろくてｎ
+	@ なんかいも チャレンジ してるのよ!
 
 Route110_TrickHousePuzzle6_Text_BennyIntro: @ 826DF55
 	.string "나의 새포켓몬으로\n"
 	.string "벽을 뛰어넘어 버릴까...?$"
-	// おいらの とりポケモンでｎ
-	// かべを とびこえて いっちゃうか……?
+	@ おいらの とりポケモンでｎ
+	@ かべを とびこえて いっちゃうか……?
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat: @ 826DF8D
 	.string "와앗 져버렸다!$"
-	// わわっ しまった!
+	@ わわっ しまった!
 
 Route110_TrickHousePuzzle6_Text_BennyPostBattle: @ 826DFA0
 	.string "데헤헤... 잔꾀를 부려서\n"
 	.string "져버린 건가...$"
-	// てへへ… ズルしようと したからｎ
-	// まけちゃったの かな……
+	@ てへへ… ズルしようと したからｎ
+	@ まけちゃったの かな……
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro: @ 826DFD7
 	.string "회전하는 문 때문에\n"
 	.string "눈이 돌아간다...$"
-	// かいてん する とびらでｎ
-	// めが まわってきた……
+	@ かいてん する とびらでｎ
+	@ めが まわってきた……
 
 Route110_TrickHousePuzzle6_Text_SebastianDefeat: @ 826E004
 	.string "빙-글빙글 빙-글빙글\n"
 	.string "난 더 이상은 못해...$"
-	// く-るくる く-るくるｎ
-	// おれは もう ダメだ……
+	@ く-るくる く-るくるｎ
+	@ おれは もう ダメだ……
 
 Route110_TrickHousePuzzle6_Text_SebastianPostBattle: @ 826E048
 	.string "너는 전혀 아무렇지도 않은 모양이네\n"
 	.string "아니면 그냥 무표정인 거니?$"
-	// キミは ぜんぜん へいき みたいだねｎ
-	// それとも ポ-カ-フェイス なの?
+	@ キミは ぜんぜん へいき みたいだねｎ
+	@ それとも ポ-カ-フェイス なの?
 

@@ -973,8 +973,8 @@ BattleFrontier_BattleTowerLobby_EventScript_ExitRules:: @ 823F558
 BattleFrontier_BattleTowerLobby_EventScript_DirectYouToBattleRoom: @ 823F55A
 	.string "그럼 배틀룸으로\n"
 	.string "안내하겠습니다!$"
-	// それでは バトルル-ムへｎ
-	// ごあんない します!
+	@ それでは バトルル-ムへｎ
+	@ ごあんない します!
 
 BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting: @ 823F583
 	.string "손님!\p"
@@ -983,28 +983,28 @@ BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting: @ 823F583
 	.string "작성하지 않으셨죠?\p"
 	.string "죄송하지만 이런 경우에는\n"
 	.string "도전이 무효가 됩니다$"
-	// おきゃくさま!ｐ
-	// ぜんかい ちゃんと レポ-トを かいてｎ
-	// しゅうりょう しませんでしたね?ｐ
-	// もうしわけ ありませんが そのばあいｎ
-	// ちょうせんは むこうと なります
+	@ おきゃくさま!ｐ
+	@ ぜんかい ちゃんと レポ-トを かいてｎ
+	@ しゅうりょう しませんでしたね?ｐ
+	@ もうしわけ ありませんが そのばあいｎ
+	@ ちょうせんは むこうと なります
 
 BattleFrontier_BattleTowerLobby_Text_CongratsBeatenSeven: @ 823F60D
 	.string "축하합니다!\n"
 	.string "멋지게 7명을 돌파하셨네요!\p"
 	.string "$"
-	// おめでとう ございます!ｎ
-	// みごと 7にんぬき されましたね!ｐ
-	// 
+	@ おめでとう ございます!ｎ
+	@ みごと 7にんぬき されましたね!ｐ
+	@ 
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_EarnedFabulousPrize: @ 823F641
 	.string "7명을 돌파하기를 달성하였으므로\n"
 	.string "이 상품을 드리겠습니다!\p"
 	.string "$"
-	// 7にんぬきを たっせい されましたのでｎ
-	// この しょうひんを さしあげます!ｐ
-	// 
+	@ 7にんぬきを たっせい されましたのでｎ
+	@ この しょうひんを さしあげます!ｐ
+	@ 
 
 BattleFrontier_BattleTowerLobby_Text_ReceivedPrize: @ 823F68C
 	.string "{PLAYER}{K_EUNNEUN}\n"
@@ -1015,33 +1015,33 @@ BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom: @ 823F6A6
 	.string "...어라 도구가 가득하네요\p"
 	.string "도구를 정리하고 나서\n"
 	.string "다시 와주세요$"
-	// …あら どうぐが いっぱいですねｐ
-	// どうぐを せいりしてからｎ
-	// またおこしください
+	@ …あら どうぐが いっぱいですねｐ
+	@ どうぐを せいりしてからｎ
+	@ またおこしください
 
 BattleFrontier_BattleTowerLobby_Text_ThankYouForPlaying: @ 823F6F7
 	.string "수고하셨습니다!\p"
 	.string "$"
-	// おつかれさまでした!ｐ
-	// 
+	@ おつかれさまでした!ｐ
+	@ 
 
 BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved: @ 823F70F
 	.string "성적을 리포트에 작성하므로\n"
 	.string "기다려 주십시오$"
-	// せいせきを レポ-トに かきますのでｎ
-	// おまちください
+	@ せいせきを レポ-トに かきますのでｎ
+	@ おまちください
 
 BattleFrontier_BattleTowerLobby_Text_WeveBeenWaitingForYou: @ 823F737
 	.string "기다리고 있었습니다!\p"
 	.string "$"
-	// おまちしておりました!ｐ
-	// 
+	@ おまちしておりました!ｐ
+	@ 
 
 BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved: @ 823F754
 	.string "배틀룸으로 안내하기 전에\n"
 	.string "리포트를 작성하므로 기다려 주십시오$"
-	// バトルル-ムに ごあんないする まえにｎ
-	// レポ-トを かきますので おまちください
+	@ バトルル-ムに ごあんないする まえにｎ
+	@ レポ-トを かきますので おまちください
 
 BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer: @ 823F79D
 	.string "드디어 다음은 50번째\n"
@@ -1049,25 +1049,25 @@ BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer: @ 823F79D
 	.string "이제부터는 7연승을 할 때마다\n"
 	.string "손님의 포켓몬에게 기념리본이\l"
 	.string "달리므로 열심히 해주세요!$"
-	// いよいよ つぎは 50にんめのｎ
-	// トレ-ナ- ですね!ｐ
-	// これからは 7にんを かちぬく たびにｎ
-	// あなたの ポケモンに きねんリボンがｌ
-	// おくられますので がんばって くださいね!
+	@ いよいよ つぎは 50にんめのｎ
+	@ トレ-ナ- ですね!ｐ
+	@ これからは 7にんを かちぬく たびにｎ
+	@ あなたの ポケモンに きねんリボンがｌ
+	@ おくられますので がんばって くださいね!
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons: @ 823F844
 	.string "강한 트레이너 7명에게\n"
 	.string "연승한 기념으로 리본을 드립니다!\p"
 	.string "{PLAYER}{K_EUNNEUN} 리본을 받았다!$"
-	// つよい トレ-ナ- 7にんをｎ
-	// かちぬいた きねんの リボンを どうぞ!ｐ
-	// あは リボンを もらった!
+	@ つよい トレ-ナ- 7にんをｎ
+	@ かちぬいた きねんの リボンを どうぞ!ｐ
+	@ あは リボンを もらった!
 
 BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons: @ 823F89F
 	.string "{PLAYER}{K_EUNNEUN} 포켓몬에게\n"
 	.string "리본을 달아 줬다!$"
-	// あは ポケモンにｎ
-	// リボンを つけて あげた!
+	@ あは ポケモンにｎ
+	@ リボンを つけて あげた!
 
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower: @ 823F8CD
 	.string "있잖아!\p"
@@ -1075,59 +1075,59 @@ BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower: @ 823F8CD
 	.string "...라고 말할 때라든가\p"
 	.string "이겼거나 졌을 때라든가\n"
 	.string "어떤 기분인지 알려줘!$"
-	// ねえねえ!ｐ
-	// バトルタワ-で これから しょうぶだ!ｎ
-	// ……ってとき とかｐ
-	// かったり まけたり したときってｎ
-	// どんな きもち なのか おしえてよ!
+	@ ねえねえ!ｐ
+	@ バトルタワ-で これから しょうぶだ!ｎ
+	@ ……ってとき とかｐ
+	@ かったり まけたり したときってｎ
+	@ どんな きもち なのか おしえてよ!
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouBegin: @ 823F969
 	.string "그럼 바로\n"
 	.string "승부할 때의 기분을...$"
-	// じゃあ さっそくｎ
-	// しょうぶに いどむときの きもちを……
+	@ じゃあ さっそくｎ
+	@ しょうぶに いどむときの きもちを……
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveWon: @ 823F9AA
 	.string "그럼 승부에서 이겼을 때의\n"
 	.string "기분을 알려주면 좋겠어$"
-	// じゃあ しょうぶに かったときのｎ
-	// きもちを きかせて もらおうかな-
+	@ じゃあ しょうぶに かったときのｎ
+	@ きもちを きかせて もらおうかな-
 
 BattleFrontier_BattleTowerLobby_Text_FeelWhatWhenYouveLost: @ 823F9D4
 	.string "승부에서 졌을 때\n"
 	.string "어떤 기분인지 알려 줘!$"
-	// しょうぶに まけちゃったときｎ
-	// どんな きもちを なるか きかせて!
+	@ しょうぶに まけちゃったときｎ
+	@ どんな きもちを なるか きかせて!
 
 BattleFrontier_BattleTowerLobby_Text_DontThinkMuchAboutIt: @ 823FA0F
 	.string "딱히 아무 생각도 없는 거야?\n"
 	.string "너 쿨하구나$"
-	// とくに なにも おもわないって こと?ｎ
-	// きみって ク-ルなんだね
+	@ とくに なにも おもわないって こと?ｎ
+	@ きみって ク-ルなんだね
 
 BattleFrontier_BattleTowerLobby_Text_ChangedYourMind: @ 823FA4F
 	.string "어라? 역시 그만두는 거야?\n"
 	.string "너 변덕쟁이구나$"
-	// あれ? やっぱり やめたの?ｎ
-	// きみって きまぐれ なんだね
+	@ あれ? やっぱり やめたの?ｎ
+	@ きみって きまぐれ なんだね
 
 BattleFrontier_BattleTowerLobby_Text_ThatsHowYouFeel: @ 823FA83
 	.string "흐음 그런 기분인 거구나!\n"
 	.string "좀 독특한걸...\p"
 	.string "정말 고마워!$"
-	// へえ そんな きぶんに なるんだ!ｎ
-	// なかなか こせいてき だね……ｐ
-	// どうも ありがと!
+	@ へえ そんな きぶんに なるんだ!ｎ
+	@ なかなか こせいてき だね……ｐ
+	@ どうも ありがと!
 
 BattleFrontier_BattleTowerLobby_Text_WinsInRowRecorded: @ 823FAC0
 	.string "배틀에서 승리한 트레이너의 수가\n"
 	.string "기록되고 있어!\p"
 	.string "부끄럽지 않은 배틀을\n"
 	.string "해야 돼...!$"
-	// かちぬいた トレ-ナ-の にんずうはｎ
-	// きろく されて いるのよ!ｐ
-	// はずかしく ない たたかいをｎ
-	// しなきゃ……!
+	@ かちぬいた トレ-ナ-の にんずうはｎ
+	@ きろく されて いるのよ!ｐ
+	@ はずかしく ない たたかいをｎ
+	@ しなきゃ……!
 
 BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins: @ 823FB26
 	.string "일단 배틀타워에 들어가면\n"
@@ -1135,11 +1135,11 @@ BattleFrontier_BattleTowerLobby_Text_CanLeaveUntilLossOrSevenWins: @ 823FB26
 	.string "7명에게 승리할 때까지는\l"
 	.string "나올 수 없어!\p"
 	.string "각오하고 도전해야 돼!$"
-	// いちど バトルタワ-に はいればｎ
-	// とちゅうで まけちゃうかｌ
-	// 7にん かちぬくまではｌ
-	// でられなく なっちゃうんだ!ｐ
-	// かくごして チャレンジ しないとね!
+	@ いちど バトルタワ-に はいればｎ
+	@ とちゅうで まけちゃうかｌ
+	@ 7にん かちぬくまではｌ
+	@ でられなく なっちゃうんだ!ｐ
+	@ かくごして チャレンジ しないとね!
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction: @ 823FBCE
@@ -1147,10 +1147,10 @@ BattleFrontier_BattleTowerLobby_Text_DoubleBattleRoomConstruction: @ 823FBCE
 	.string "어서 오세요!\p"
 	.string "현재 배틀룸은 공사 중입니다\n"
 	.string "완성될 때까지 기다려 주십시오$"
-	// バトルタワ- ダブルバトルコ-ナ-へｎ
-	// ようこそ!ｐ
-	// げんざい バトルル-ムは こうじちゅうですｎ
-	// かんせいまで しばらく おまちください
+	@ バトルタワ- ダブルバトルコ-ナ-へｎ
+	@ ようこそ!ｐ
+	@ げんざい バトルル-ムは こうじちゅうですｎ
+	@ かんせいまで しばらく おまちください
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction: @ 823FC6B
@@ -1158,51 +1158,51 @@ BattleFrontier_BattleTowerLobby_Text_MultiBattleRoomConstruction: @ 823FC6B
 	.string "어서 오세요!\p"
 	.string "현재 배틀룸은 공사 중입니다\n"
 	.string "완성될 때까지 기다려 주십시오$"
-	// バトルタワ- マルチバトルコ-ナ-へｎ
-	// ようこそ!ｐ
-	// げんざい バトルル-ムは こうじちゅうですｎ
-	// かんせいまで しばらく おまちください
+	@ バトルタワ- マルチバトルコ-ナ-へｎ
+	@ ようこそ!ｐ
+	@ げんざい バトルル-ムは こうじちゅうですｎ
+	@ かんせいまで しばらく おまちください
 
 BattleFrontier_BattleTowerLobby_Text_LookForwardToAnotherChallenge: @ 823FD07
 	.string "다음 도전을\n"
 	.string "기다리고 있겠습니다!$"
-	// またの ちょうせんをｎ
-	// おまちして おります!
+	@ またの ちょうせんをｎ
+	@ おまちして おります!
 
 BattleFrontier_BattleTowerLobby_Text_WhichLevelMode: @ 823FD3B
 	.string "배틀룸에는\n"
 	.string "레벨 50과 오픈 레벨이 있습니다만\l"
 	.string "어느 쪽으로 입장하겠습니까?$"
-	// バトルル-ムにはｎ
-	// レベル50と オ-プンレベルと ありますがｌ
-	// どちらに はいりますか?
+	@ バトルル-ムにはｎ
+	@ レベル50と オ-プンレベルと ありますがｌ
+	@ どちらに はいりますか?
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectMons: @ 823FD9A
 	.string "그럼 참가할 포켓몬을\n"
 	.string "선택해 주십시오!$"
-	// では さんかする ポケモンをｎ
-	// おえらび ください!
+	@ では さんかする ポケモンをｎ
+	@ おえらび ください!
 
 BattleFrontier_BattleTowerLobby_Text_OkayToSaveBeforeEntering: @ 823FDC7
 	.string "안내하기 전에\n"
 	.string "리포트를 작성합니다만 괜찮겠습니까?$"
-	// ごあんないする まえにｎ
-	// レポ-トを かきますが よろしいですか?
+	@ ごあんないする まえにｎ
+	@ レポ-トを かきますが よろしいですか?
 
 BattleFrontier_BattleTowerLobby_Text_ShowYouToBattleRoom: @ 823FE11
 	.string "그럼 {STR_VAR_1} 배틀룸으로\n"
 	.string "안내하겠습니다!$"
-	// それでは {STR_VAR_1} バトルル-ムにｎ
-	// ごあんない いたします!
+	@ それでは {STR_VAR_1} バトルル-ムにｎ
+	@ ごあんない いたします!
 
 BattleFrontier_BattleTowerLobby_Text_RecordLastMatch: @ 823FE3C
 	.string "배틀타워에서\n"
 	.string "마지막으로 했던 배틀을\l"
 	.string "프런티어패스에 기록하겠습니까?$"
-	// バトルタワ-でｎ
-	// さいごに おこなった たたかいをｌ
-	// フロンティアパスに きろく しますか?
+	@ バトルタワ-でｎ
+	@ さいごに おこなった たたかいをｌ
+	@ フロンティアパスに きろく しますか?
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50: @ 823FE7F
@@ -1214,17 +1214,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50: @ 823FE7F
 	.string "kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when you are ready.$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンがうひき いません!ｐ
-	// さんかする ためには レベルが 50いかでｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// うひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンがうひき いません!ｐ
+	@ さんかする ためには レベルが 50いかでｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ うひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen: @ 823FF5D
@@ -1236,17 +1236,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen: @ 823FF5D
 	.string "kinds of items.\p"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 	.string "Please come see me when you are ready.$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが うひき いません!ｐ
-	// さんかする ためにはｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// うひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが うひき いません!ｐ
+	@ さんかする ためにはｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ うひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles: @ 8240027
 	.string "손님!\p"
@@ -1261,17 +1261,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles: @ 8240027
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 3ひき いません!ｐ
-	// さんかする ためには レベルが 50いかでｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 3ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 3ひき いません!ｐ
+	@ さんかする ためには レベルが 50いかでｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 3ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles: @ 824010B
 	.string "손님!\p"
@@ -1286,17 +1286,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles: @ 824010B
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 3ひき いません!ｐ
-	// さんかする ためにはｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 3ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 3ひき いません!ｐ
+	@ さんかする ためにはｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 3ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles: @ 82401DB
 	.string "손님!\p"
@@ -1311,17 +1311,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles: @ 82401DB
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 4ひき いません!ｐ
-	// さんかする ためには レベルが 50いかでｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 4ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 4ひき いません!ｐ
+	@ さんかする ためには レベルが 50いかでｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 4ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles: @ 82402BD
 	.string "손님!\p"
@@ -1336,17 +1336,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles: @ 82402BD
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 4ひき いません!ｐ
-	// さんかする ためにはｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 4ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 4ひき いません!ｐ
+	@ さんかする ためにはｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 4ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis: @ 824038B
 	.string "손님!\p"
@@ -1361,17 +1361,17 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis: @ 824038B
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 2ひき いません!ｐ
-	// さんかする ためには レベルが 50いかでｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 2ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 2ひき いません!ｐ
+	@ さんかする ためには レベルが 50いかでｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 2ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis: @ 824046B
 	.string "손님!\p"
@@ -1386,33 +1386,33 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis: @ 824046B
 	.string "참가시킬 수 없습니다!\p"
 	.string "준비되면\n"
 	.string "다시 방문해 주십시오!$"
-	// おきゃくさま!ｐ
-	// さんかできる ポケモンが 2ひき いません!ｐ
-	// さんかする ためにはｎ
-	// すべて ちがうしゅるいの ポケモンをｌ
-	// 2ひき よういして くださいｐ
-	// また もたせる どうぐもｎ
-	// すべて ちがう どうぐに してください!ｐ
-	// なお タマゴ§い
-	// さんか させることは できません!ｐ
-	// じゅんびが できましたらｎ
-	// また おこし ください
+	@ おきゃくさま!ｐ
+	@ さんかできる ポケモンが 2ひき いません!ｐ
+	@ さんかする ためにはｎ
+	@ すべて ちがうしゅるいの ポケモンをｌ
+	@ 2ひき よういして くださいｐ
+	@ また もたせる どうぐもｎ
+	@ すべて ちがう どうぐに してください!ｐ
+	@ なお タマゴ§い
+	@ さんか させることは できません!ｐ
+	@ じゅんびが できましたらｎ
+	@ また おこし ください
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle: @ 8240537
 	.string "트레이너의 재능을 시험하는 장소!\n"
 	.string "배틀타워에 어서 오세요!\p"
 	.string "여기서는 싱글 배틀룸의\n"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の さいのうを はかる ばしょ!ｎ
-	// バトルタワ-へ ようこそ!ｐ
-	// こちらでは シングル バトルル-ムのｎ
-	// ごあんないを しております!
+	@ トレ-ナ-の さいのうを はかる ばしょ!ｎ
+	@ バトルタワ-へ ようこそ!ｐ
+	@ こちらでは シングル バトルル-ムのｎ
+	@ ごあんないを しております!
 
 BattleFrontier_BattleTowerLobby_Text_TakeSinglesChallenge: @ 82405B3
 	.string "싱글 배틀룸에\n"
 	.string "도전하겠습니까?$"
-	// シングル バトルル-ムにｎ
-	// ちょうせん されますか?
+	@ シングル バトルル-ムにｎ
+	@ ちょうせん されますか?
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge: @ 82405EC
 	.string "배틀타워 싱글 배틀룸은\n"
@@ -1431,44 +1431,44 @@ BattleFrontier_BattleTowerLobby_Text_ExplainSinglesChallenge: @ 82405EC
 	.string "리포트를 작성하지 않으면\l"
 	.string "도전이 무효가 되므로\l"
 	.string "주의해 주십시오!$"
-	// バトルタワ- シングル バトルル-ムはｎ
-	// 3ひきの ポケモンでｌ
-	// シングルバトルを おこなう しせつです!ｐ
-	// タワ-には シングル バトルル-ム というｎ
-	// たいせんの ための へやがｌ
-	// たくさん ようい されています!ｐ
-	// それぞれの シングル バトルル-ムにはｎ
-	// 7にんの トレ-ナ-が いてｌ
-	// あなたの チャレンジを まっています!ｐ
-	// みごと その 7にんを たおせたらｎ
-	// バトルポイントを しんてい いたします!ｐ
-	// また とちゅうで ちょうせんをｎ
-	// ちゅうだん したい ばあいは しっかりとｌ
-	// レポ-トに かいて おわらせないとｌ
-	// ちょうせんは むこうに なってしまうのでｌ
-	// じゅうぶん ちゅうい してください!
+	@ バトルタワ- シングル バトルル-ムはｎ
+	@ 3ひきの ポケモンでｌ
+	@ シングルバトルを おこなう しせつです!ｐ
+	@ タワ-には シングル バトルル-ム というｎ
+	@ たいせんの ための へやがｌ
+	@ たくさん ようい されています!ｐ
+	@ それぞれの シングル バトルル-ムにはｎ
+	@ 7にんの トレ-ナ-が いてｌ
+	@ あなたの チャレンジを まっています!ｐ
+	@ みごと その 7にんを たおせたらｎ
+	@ バトルポイントを しんてい いたします!ｐ
+	@ また とちゅうで ちょうせんをｎ
+	@ ちゅうだん したい ばあいは しっかりとｌ
+	@ レポ-トに かいて おわらせないとｌ
+	@ ちょうせんは むこうに なってしまうのでｌ
+	@ じゅうぶん ちゅうい してください!
 
 BattleFrontier_BattleTowerLobby_Text_SelectThreeMons: @ 82407A6
 	.string "그럼 참가할 포켓몬을\n"
 	.string "3마리 선택해 주십시오$"
-	// では さんかする ポケモンをｎ
-	// 3ひき おえらび ください!
+	@ では さんかする ポケモンをｎ
+	@ 3ひき おえらび ください!
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeDoubleBattle: @ 82407E2
 	.string "트레이너의 재능을 시험하는 장소!\n"
 	.string "배틀타워에 어서 오세요!\p"
 	.string "여기서는 더블 배틀룸의\n"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の さいのうを はかる ばしょ!ｎ
-	// バトルタワ-へ ようこそ!ｐ
-	// こちらでは ダブル バトルル-ムのｎ
-	// ごあんないを しております!
+	@ トレ-ナ-の さいのうを はかる ばしょ!ｎ
+	@ バトルタワ-へ ようこそ!ｐ
+	@ こちらでは ダブル バトルル-ムのｎ
+	@ ごあんないを しております!
 
 BattleFrontier_BattleTowerLobby_Text_TakeDoublesChallenge: @ 824085E
 	.string "더블 배틀룸에\n"
 	.string "도전하겠습니까?$"
-	// ダブル バトルル-ムにｎ
-	// ちょうせん されますか?
+	@ ダブル バトルル-ムにｎ
+	@ ちょうせん されますか?
 
 BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge: @ 8240897
 	.string "배틀타워 더블 배틀룸은\n"
@@ -1487,44 +1487,44 @@ BattleFrontier_BattleTowerLobby_Text_ExplainDoublesChallenge: @ 8240897
 	.string "리포트를 작성하지 않으면\l"
 	.string "도전이 무효가 되므로\l"
 	.string "주의해 주십시오!$"
-	// バトルタワ- ダブル バトルル-ムはｎ
-	// 4ひきの ポケモンでｌ
-	// ダブルバトルを おこなう しせつです!ｐ
-	// タワ-には ダブル バトルル-ム というｎ
-	// たいせんの ための へやがｌ
-	// たくさん ようい されています!ｐ
-	// それぞれの ダブル バトルル-ムにはｎ
-	// 7にんの トレ-ナ-が いてｌ
-	// あなたの チャレンジを まっています!ｐ
-	// みごと その 7にんを たおせたらｎ
-	// バトルポイントを しんてい いたします!ｐ
-	// また とちゅうで ちょうせんをｎ
-	// ちゅうだん したい ばあいは しっかりとｌ
-	// レポ-トに かいて おわらせないとｌ
-	// ちょうせんは むこうに なってしまうのでｌ
-	// じゅうぶん ちゅうい してください!
+	@ バトルタワ- ダブル バトルル-ムはｎ
+	@ 4ひきの ポケモンでｌ
+	@ ダブルバトルを おこなう しせつです!ｐ
+	@ タワ-には ダブル バトルル-ム というｎ
+	@ たいせんの ための へやがｌ
+	@ たくさん ようい されています!ｐ
+	@ それぞれの ダブル バトルル-ムにはｎ
+	@ 7にんの トレ-ナ-が いてｌ
+	@ あなたの チャレンジを まっています!ｐ
+	@ みごと その 7にんを たおせたらｎ
+	@ バトルポイントを しんてい いたします!ｐ
+	@ また とちゅうで ちょうせんをｎ
+	@ ちゅうだん したい ばあいは しっかりとｌ
+	@ レポ-トに かいて おわらせないとｌ
+	@ ちょうせんは むこうに なってしまうのでｌ
+	@ じゅうぶん ちゅうい してください!
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons: @ 8240A50
 	.string "그럼 참가할 포켓몬을\n"
 	.string "4마리 선택해 주십시오$"
-	// では さんかする ポケモンをｎ
-	// 4ひき おえらび ください!
+	@ では さんかする ポケモンをｎ
+	@ 4ひき おえらび ください!
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeMultiBattle: @ 8240A8B
 	.string "트레이너의 재능을 시험하는 장소!\n"
 	.string "배틀타워에 어서 오세요!\p"
 	.string "여기서는 멀티 배틀룸의\n"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の さいのうを はかる ばしょ!ｎ
-	// バトルタワ-へ ようこそ!ｐ
-	// こちらでは マルチ バトルル-ムのｎ
-	// ごあんないを しております!
+	@ トレ-ナ-の さいのうを はかる ばしょ!ｎ
+	@ バトルタワ-へ ようこそ!ｐ
+	@ こちらでは マルチ バトルル-ムのｎ
+	@ ごあんないを しております!
 
 BattleFrontier_BattleTowerLobby_Text_TakeMultisChallenge: @ 8240B06
 	.string "멀티 배틀룸에\n"
 	.string "도전하겠습니까?$"
-	// マルチ バトルル-ムにｎ
-	// ちょうせん されますか?
+	@ マルチ バトルル-ムにｎ
+	@ ちょうせん されますか?
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge: @ 8240B3E
 	.string "멀티 배틀룸은 타워에 있는\n"
@@ -1548,33 +1548,33 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultisChallenge: @ 8240B3E
 	.string "리포트를 작성하지 않으면\l"
 	.string "도전이 무효가 되므로\l"
 	.string "주의해 주십시오!$"
-	// マルチ バトルル-ムは タワ-に いるｎ
-	// トレ-ナ-と きょうりょくしてｌ
-	// ポケモンを 2ひきずつ もちよりｌ
-	// マルチバトルで たたかう しせつです!ｐ
-	// タワ-ないには バトルサロン というｎ
-	// トレ-ナ-の あつまる へやがｌ
-	// ようい されています!ｐ
-	// ここで いっしょに タッグを くみたいｎ
-	// トレ-ナ-を みつけて ください!ｐ
-	// タッグが くめたところでｎ
-	// マルチ バトルル-ムへ おつれします!ｐ
-	// この マルチ バトルル-ムにはｎ
-	// 7くみの タッグ トレ-ナ-が いてｌ
-	// あなたの チャレンジを まっています!ｐ
-	// みごと その 7くみを たおせたらｎ
-	// バトルポイントを しんてい いたします!ｐ
-	// また とちゅうで ちょうせんをｎ
-	// ちゅうだん したい ばあいは しっかりとｌ
-	// レポ-トに かいて おわらせないとｌ
-	// ちょうせんは むこうに なってしまうのでｌ
-	// じゅうぶん ちゅうい してください!
+	@ マルチ バトルル-ムは タワ-に いるｎ
+	@ トレ-ナ-と きょうりょくしてｌ
+	@ ポケモンを 2ひきずつ もちよりｌ
+	@ マルチバトルで たたかう しせつです!ｐ
+	@ タワ-ないには バトルサロン というｎ
+	@ トレ-ナ-の あつまる へやがｌ
+	@ ようい されています!ｐ
+	@ ここで いっしょに タッグを くみたいｎ
+	@ トレ-ナ-を みつけて ください!ｐ
+	@ タッグが くめたところでｎ
+	@ マルチ バトルル-ムへ おつれします!ｐ
+	@ この マルチ バトルル-ムにはｎ
+	@ 7くみの タッグ トレ-ナ-が いてｌ
+	@ あなたの チャレンジを まっています!ｐ
+	@ みごと その 7くみを たおせたらｎ
+	@ バトルポイントを しんてい いたします!ｐ
+	@ また とちゅうで ちょうせんをｎ
+	@ ちゅうだん したい ばあいは しっかりとｌ
+	@ レポ-トに かいて おわらせないとｌ
+	@ ちょうせんは むこうに なってしまうのでｌ
+	@ じゅうぶん ちゅうい してください!
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons: @ 8240DDB
 	.string "그럼 참가할 포켓몬을\n"
 	.string "2마리 선택해 주십시오!$"
-	// では さんかする ポケモンをｎ
-	// 2ひき おえらび ください!
+	@ では さんかする ポケモンをｎ
+	@ 2ひき おえらび ください!
 
 BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle: @ 8240E15
 	.string "트레이너의 재능을 시험하는 장소!\n"
@@ -1582,17 +1582,17 @@ BattleFrontier_BattleTowerLobby_Text_WelcomeLinkMultiBattle: @ 8240E15
 	.string "여기서는\n"
 	.string "통신멀티 배틀룸의\l"
 	.string "안내를 하고 있습니다!$"
-	// トレ-ナ-の さいのうを はかる ばしょ!ｎ
-	// バトルタワ-へ ようこそ!ｐ
-	// こちらではｎ
-	// つうしんマルチ バトルル-ムのｌ
-	// ごあんないを しております!
+	@ トレ-ナ-の さいのうを はかる ばしょ!ｎ
+	@ バトルタワ-へ ようこそ!ｐ
+	@ こちらではｎ
+	@ つうしんマルチ バトルル-ムのｌ
+	@ ごあんないを しております!
 
 BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge: @ 8240E95
 	.string "통신멀티 배틀룸에\n"
 	.string "도전하겠습니까?$"
-	// つうしんマルチ バトルル-ムにｎ
-	// ちょうせん されますか?
+	@ つうしんマルチ バトルル-ムにｎ
+	@ ちょうせん されますか?
 
 BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge: @ 8240ED2
 	.string "통신멀티 배틀룸은\n"
@@ -1614,32 +1614,32 @@ BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge: @ 8240ED2
 	.string "중단할 수 없습니다!\p"
 	.string "7번 연속으로 배틀을 하므로\n"
 	.string "주의해 주십시오!$"
-	// つうしんマルチ バトルル-ムはｎ
-	// ワイヤレスアダプタや つうしんケ-ブルをｌ
-	// つないだ ともだちと ふたりでｌ
-	// ちがう しゅるいの ポケモンをｌ
-	// 2ひきずつ もちよりｌ
-	// マルチバトルで たたかう しせつです!ｐ
-	// タワ-ないには マルチ バトルル-ムというｎ
-	// たいせんの ための へやがｌ
-	// たくさん ようい されています!ｐ
-	// それぞれ マルチ バトルル-ムにはｎ
-	// 7くみの タッグ トレ-ナ-が いてｌ
-	// あなたと ともだちの タッグでのｌ
-	// チャレンジを まっています!ｐ
-	// みごと その 7くみを たおせたらｎ
-	// バトルポイントを しんてい いたします!ｐ
-	// また ほかの しせつと ちがってｎ
-	// ここでは とちゅうで ちょうせんをｌ
-	// ちゅうだん できません!ｐ
-	// 7かい れんぞくで たたかうことに なるのでｎ
-	// じゅうぶん ちゅうい してください!
+	@ つうしんマルチ バトルル-ムはｎ
+	@ ワイヤレスアダプタや つうしんケ-ブルをｌ
+	@ つないだ ともだちと ふたりでｌ
+	@ ちがう しゅるいの ポケモンをｌ
+	@ 2ひきずつ もちよりｌ
+	@ マルチバトルで たたかう しせつです!ｐ
+	@ タワ-ないには マルチ バトルル-ムというｎ
+	@ たいせんの ための へやがｌ
+	@ たくさん ようい されています!ｐ
+	@ それぞれ マルチ バトルル-ムにはｎ
+	@ 7くみの タッグ トレ-ナ-が いてｌ
+	@ あなたと ともだちの タッグでのｌ
+	@ チャレンジを まっています!ｐ
+	@ みごと その 7くみを たおせたらｎ
+	@ バトルポイントを しんてい いたします!ｐ
+	@ また ほかの しせつと ちがってｎ
+	@ ここでは とちゅうで ちょうせんをｌ
+	@ ちゅうだん できません!ｐ
+	@ 7かい れんぞくで たたかうことに なるのでｎ
+	@ じゅうぶん ちゅうい してください!
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2: @ 824115E
 	.string "그럼 참가할 포켓몬을\n"
 	.string "2마리 선택해 주십시오!$"
-	// では さんかする ポケモンをｎ
-	// 2ひき おえらび ください!
+	@ では さんかする ポケモンをｎ
+	@ 2ひき おえらび ください!
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend: @ 8241198
@@ -1648,39 +1648,39 @@ BattleFrontier_BattleTowerLobby_Text_ChoseSameMonAsFriend: @ 8241198
 	.string "Please choose two POKéMON different\n"
 	.string "from your friend's, match the level\l"
 	.string "you wish to enter, and register again.$"
-	// ともだちとｎ
-	// おなじ ポケモンを えらんでいます!ｐ
-	// ともだちの ポケモンとｎ
-	// ちがう しゅるいの ポケモンをｌ
-	// 2ひき えらびｌ
-	// さんかする レベルを あわせてｌ
-	// とうろくを やりなおして ください!
+	@ ともだちとｎ
+	@ おなじ ポケモンを えらんでいます!ｐ
+	@ ともだちの ポケモンとｎ
+	@ ちがう しゅるいの ポケモンをｌ
+	@ 2ひき えらびｌ
+	@ さんかする レベルを あわせてｌ
+	@ とうろくを やりなおして ください!
 
 BattleFrontier_BattleTowerLobby_Text_LinkMultiOnlyForTwoPlayers: @ 8241240
 	.string "통신멀티 배틀룸은\n"
 	.string "{STR_VAR_1}명이서 도전할 수 없습니다!$"
-	// つうしんマルチ バトルル-ムはｎ
-	// {FD 02}にん では ちょうせん できません!
+	@ つうしんマルチ バトルル-ムはｎ
+	@ {FD 02}にん では ちょうせん できません!
 
 BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMon: @ 8241285
 	.string "친구는\n"
 	.string "{STR_VAR_1}{K_EULREUL} 선택했다!$"
-	// ともだちもｎ
-	// いを えらんでいます!
+	@ ともだちもｎ
+	@ いを えらんでいます!
 
 BattleFrontier_BattleTowerLobby_Text_FriendAlsoSelectedMons: @ 82412B3
 	.string "친구는\n"
 	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}{K_EULREUL}\l"
 	.string "선택했다!$"
-	// ともだちもｎ
-	// いと うをｌ
-	// えらんでいます!
+	@ ともだちもｎ
+	@ いと うをｌ
+	@ えらんでいます!
 
 BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlMode: @ 82412E8
 	.string "친구와\n"
 	.string "선택한 레벨이 다릅니다!$"
-	// ともだちとｎ
-	// えらんだ レベルが ちがいます!
+	@ ともだちとｎ
+	@ えらんだ レベルが ちがいます!
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMon: @ 8241319
@@ -1688,10 +1688,10 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMon: @ 82413
 	.string "battle level.\p"
 	.string "Your friend has also selected\n"
 	.string "the POKéMON {STR_VAR_1}.$"
-	// ともだちとｎ
-	// えらんだ レベルが ちがいます!ｐ
-	// ともだちもｎ
-	// いを えらんでいます!
+	@ ともだちとｎ
+	@ えらんだ レベルが ちがいます!ｐ
+	@ ともだちもｎ
+	@ いを えらんでいます!
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons: @ 8241378
@@ -1699,11 +1699,11 @@ BattleFrontier_BattleTowerLobby_Text_FriendChoseDifferentLvlModeSameMons: @ 8241
 	.string "battle level.\p"
 	.string "Your friend has also selected the\n"
 	.string "POKéMON {STR_VAR_1} and {STR_VAR_2}.$"
-	// ともだちとｎ
-	// えらんだ レベルが ちがいます!ｐ
-	// ともだちもｎ
-	// いと うをｌ
-	// えらんでいます
+	@ ともだちとｎ
+	@ えらんだ レベルが ちがいます!ｐ
+	@ ともだちもｎ
+	@ いと うをｌ
+	@ えらんでいます
 
 BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode: @ 82413DE
 	.string "친구의 포켓몬과\n"
@@ -1711,49 +1711,49 @@ BattleFrontier_BattleTowerLobby_Text_ChooseDifferentMonsMatchLvlMode: @ 82413DE
 	.string "2마리 선택하고\l"
 	.string "참가할 레벨을 맞추어\l"
 	.string "다시 등록해 주십시오!$"
-	// ともだちの ポケモンとｎ
-	// ちがう しゅるいの ポケモンをｌ
-	// 2ひき えらびｌ
-	// さんかする レベルを あわせてｌ
-	// とうろくを やりなおして ください!
+	@ ともだちの ポケモンとｎ
+	@ ちがう しゅるいの ポケモンをｌ
+	@ 2ひき えらびｌ
+	@ さんかする レベルを あわせてｌ
+	@ とうろくを やりなおして ください!
 
 BattleFrontier_BattleTowerLobby_Text_SaveGameBeforeShowingIn: @ 824144D
 	.string "안내하기 전에 리포트를 작성합니다\n"
 	.string "잠시 기다려 주십시오!$"
-	// ごあんないする まえに レポ-トを かきますｎ
-	// しばらく おまちください!
+	@ ごあんないする まえに レポ-トを かきますｎ
+	@ しばらく おまちください!
 
 BattleFrontier_BattleTowerLobby_Text_CongratsDefeatedMaiden: @ 8241486
 	.string "축하합니다!\n"
 	.string "타워타이쿤을 쓰러뜨리고\l"
 	.string "멋지게 7명을 돌파하셨네요!$"
-	// おめでとう ございます!ｎ
-	// タワ-タイク-ンを たおしｌ
-	// みごと 7にんぬき されましたね!
+	@ おめでとう ございます!ｎ
+	@ タワ-タイク-ンを たおしｌ
+	@ みごと 7にんぬき されましたね!
 
 BattleFrontier_BattleTowerLobby_Text_AwardYouTheseBattlePoints: @ 82414D4
 	.string "손님의\n"
 	.string "끝없는 재능을 기리며\l"
 	.string "배틀포인트를 드립니다!$"
-	// おきゃくさまのｎ
-	// かぎりない さいのうを たたえｌ
-	// バトルポイントを しんてい します!
+	@ おきゃくさまのｎ
+	@ かぎりない さいのうを たたえｌ
+	@ バトルポイントを しんてい します!
 
 BattleFrontier_Text_ObtainedXBattlePoints: @ 8241520
 	.string "{PLAYER}{K_EUNNEUN} 배틀포인트를\n"
 	.string "{STR_VAR_1}BP 손에 넣었다!$"
-	// あは バトルポイントをｎ
-	// い BP てにいれた!
+	@ あは バトルポイントをｎ
+	@ い BP てにいれた!
 
 BattleFrontier_BattleTowerLobby_Text_RulesAreListed: @ 8241540
 	.string "배틀타워의\n"
 	.string "규칙이 적혀 있다!$"
-	// バトルタワ-のｎ
-	// ル-ルが かかれている!
+	@ バトルタワ-のｎ
+	@ ル-ルが かかれている!
 
 BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading: @ 8241563
 	.string "어느 설명을 읽겠습니까?$"
-	// どの せつめいを よみますか?
+	@ どの せつめいを よみますか?
 
 BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules: @ 8241586
 	.string "배틀타워는\n"
@@ -1766,16 +1766,16 @@ BattleFrontier_BattleTowerLobby_Text_ExplainTowerRules: @ 8241586
 	.string "대전의 방이 준비되어 있습니다\p"
 	.string "도전하고 싶은 배틀의 접수처에서\n"
 	.string "말을 걸어 신청합시다$"
-	// バトルタワ-はｎ
-	// シングルバトル ダブルバトル マルチバトルｌ
-	// つうしんマルチバトル というようにｌ
-	// 4つの たたかいがｌ
-	// おこなわれる しせつですｐ
-	// それぞれの たたかい ごとにｎ
-	// バトルル-ムと よばれるｌ
-	// たいせんの へやが ようい されていますｐ
-	// ちょうせん したい たたかいの うけつけにｎ
-	// はなしかけて いどみましょう
+	@ バトルタワ-はｎ
+	@ シングルバトル ダブルバトル マルチバトルｌ
+	@ つうしんマルチバトル というようにｌ
+	@ 4つの たたかいがｌ
+	@ おこなわれる しせつですｐ
+	@ それぞれの たたかい ごとにｎ
+	@ バトルル-ムと よばれるｌ
+	@ たいせんの へやが ようい されていますｐ
+	@ ちょうせん したい たたかいの うけつけにｎ
+	@ はなしかけて いどみましょう
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMonRules: @ 8241693
 	.string "도전할 배틀룸에 따라\n"
@@ -1783,11 +1783,11 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMonRules: @ 8241693
 	.string "싱글에서는 3마리\n"
 	.string "더블에서는 4마리\l"
 	.string "멀티에서는 2마리입니다$"
-	// ちょうせんする バトルル-ム ごとにｎ
-	// つれていく ポケモンの かずが かわりますｐ
-	// シングルでは 3ひきｎ
-	// ダブルでは 4ひきｌ
-	// マルチでは 2ひき と なっています
+	@ ちょうせんする バトルル-ム ごとにｎ
+	@ つれていく ポケモンの かずが かわりますｐ
+	@ シングルでは 3ひきｎ
+	@ ダブルでは 4ひきｌ
+	@ マルチでは 2ひき と なっています
 
 BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules: @ 8241777
 	.string "배틀살롱은 멀티배틀에서\n"
@@ -1796,12 +1796,12 @@ BattleFrontier_BattleTowerLobby_Text_ExplainSalonRules: @ 8241777
 	.string "가장 좋은 상대를 선택합시다\p"
 	.string "또한 팀을 구성한 상대는\n"
 	.string "7연승마다 다시 선택할 수 있습니다$"
-	// バトルサロンは マルチバトルでｎ
-	// タッグを くむ あいてを さがす へやですｐ
-	// トレ-ナ-の ポケモンや わざなどを みてｎ
-	// ベストな あいてを えらびましょうｐ
-	// また タッグを くむ あいてはｎ
-	// 7れんしょう ごとに えらび なおします
+	@ バトルサロンは マルチバトルでｎ
+	@ タッグを くむ あいてを さがす へやですｐ
+	@ トレ-ナ-の ポケモンや わざなどを みてｎ
+	@ ベストな あいてを えらびましょうｐ
+	@ また タッグを くむ あいてはｎ
+	@ 7れんしょう ごとに えらび なおします
 
 BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules: @ 824187E
 	.string "통신멀티에서는\n"
@@ -1813,12 +1813,12 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules: @ 824187E
 	.string "참가할 수 없습니다\p"
 	.string "또한 여기서는 배틀 도중에\n"
 	.string "쉴 수 없습니다$"
-	// つうしんマルチ ではｎ
-	// ワイヤレスアダプタや つうしんケ-ブルをｌ
-	// つないだ ともだちと ふたりでｌ
-	// ちょうせん することが できますｐ
-	// うけつけで 2ひきを えらびますがｎ
-	// ともだちと おなじ ポケモンではｌ
-	// さんかする ことが できませんｐ
-	// また ここでは たたかいの とちゅうでｎ
-	// やすむ ことは できません
+	@ つうしんマルチ ではｎ
+	@ ワイヤレスアダプタや つうしんケ-ブルをｌ
+	@ つないだ ともだちと ふたりでｌ
+	@ ちょうせん することが できますｐ
+	@ うけつけで 2ひきを えらびますがｎ
+	@ ともだちと おなじ ポケモンではｌ
+	@ さんかする ことが できませんｐ
+	@ また ここでは たたかいの とちゅうでｎ
+	@ やすむ ことは できません

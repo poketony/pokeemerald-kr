@@ -69,43 +69,43 @@ BerryBlender_Text_DontHavePokeblockCase: @ 8293157
 
 BerryBlender_Text_LetsGetBlendingAlready: @ 82931AA
 	.string "빨리 섞어 보자!!$"
-	// はやく まぜようぜ!!
+	@ はやく まぜようぜ!!
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet: @ 82931C6
 	.string "어떤 포켓몬스넥이 완성될까?\n"
 	.string "두근거리네!$"
-	// どんな ポロックが できるのかしら?ｎ
-	// ドキドキ しちゃう!
+	@ どんな ポロックが できるのかしら?ｎ
+	@ ドキドキ しちゃう!
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs: @ 8293201
 	.string "좋았어! 우리랑 같이\n"
 	.string "포켓몬스넥을 만들고 싶은 거구나!$"
-	// よっしっ! おにいさん たちと いっしょにｎ
-	// ポロックを つくりたいんだね!
+	@ よっしっ! おにいさん たちと いっしょにｎ
+	@ ポロックを つくりたいんだね!
 
 BerryBlender_Text_Okay: @ 8293237
 	.string "좋았어!$"
-	// よっしっ!
+	@ よっしっ!
 
 BerryBlender_Text_ThatsTooBad: @ 829323D
 	.string "아쉽네...\p"
 	.string "하지만 우리는\n"
 	.string "언제나 너를 기다리고 있단다!$"
-	// ざんねんだよ……ｐ
-	// でも おにいさん たちはｎ
-	// いつでも きみを まってる からね!
+	@ ざんねんだよ……ｐ
+	@ でも おにいさん たちはｎ
+	@ いつでも きみを まってる からね!
 
 BerryBlender_Text_KnowHowToMakePokeblocks2: @ 829328C
 	.string "물론 포켓몬스넥을 만드는 방법은\n"
 	.string "알고 있겠지?$"
-	// もちろん ポロックの つくりかたはｎ
-	// しっているよね?
+	@ もちろん ポロックの つくりかたはｎ
+	@ しっているよね?
 
 BerryBlender_Text_LetsBerryBlender2: @ 82932C3
 	.string "좋았어! 그럼 시작할게!\p"
 	.string "렛츠 나무열매블렌더!!$"
-	// よっしっ! じゃあ はじめるよ!ｐ
-	// レッツ きのみブレンダ-!!
+	@ よっしっ! じゃあ はじめるよ!ｐ
+	@ レッツ きのみブレンダ-!!
 
 BerryBlender_Text_ExplainBerryBlending2: @ 82932F1
 	.string "좋았어!\n"
@@ -115,13 +115,13 @@ BerryBlender_Text_ExplainBerryBlending2: @ 82932F1
 	.string "버튼을 누르면 돼!\p"
 	.string "엄청\n"
 	.string "간단하지?$"
-	// よっしっ!ｎ
-	// おにいさんが せつめいして あげよう!ｐ
-	// きのみブレンダ-の マ-クがｎ
-	// じぶんの ところに きたらｌ
-	// ボタンを おすんだよ!ｐ
-	// とってもｎ
-	// かんたんな ことだろう?
+	@ よっしっ!ｎ
+	@ おにいさんが せつめいして あげよう!ｐ
+	@ きのみブレンダ-の マ-クがｎ
+	@ じぶんの ところに きたらｌ
+	@ ボタンを おすんだよ!ｐ
+	@ とってもｎ
+	@ かんたんな ことだろう?
 
 BerryBlender_Text_DontHaveAnyBerries2: @ 8293394
 	.string "...라고 생각했는데\n"
@@ -131,23 +131,23 @@ BerryBlender_Text_DontHaveAnyBerries2: @ 8293394
 	.string "형네는\n"
 	.string "언제나 여기에 있을 테니까\l"
 	.string "나무열매를 찾으면 다시 하자!$"
-	// ……と おもったらｎ
-	// きみ きのみを もっていない みたいだねｐ
-	// きのみが ないと ポロックはｎ
-	// つくれないんだよ……ｐ
-	// おにいさん たちはｎ
-	// いつも ここに いるからｌ
-	// きのみを みつけたら また やろうね!
+	@ ……と おもったらｎ
+	@ きみ きのみを もっていない みたいだねｐ
+	@ きのみが ないと ポロックはｎ
+	@ つくれないんだよ……ｐ
+	@ おにいさん たちはｎ
+	@ いつも ここに いるからｌ
+	@ きのみを みつけたら また やろうね!
 
 BerryBlender_Text_PokeblockCaseIsFull2: @ 829343E
 	.string "...라고 생각했는데\n"
 	.string "포켓몬스넥케이스가 가득한 모양이구나\p"
 	.string "포켓몬스넥을 줄이고 나서\n"
 	.string "다시 오렴$"
-	// ……と おもったらｎ
-	// ポロックケ-スが いっぱいの ようだねｐ
-	// ポロックを へらしてからｎ
-	// また きてね
+	@ ……と おもったらｎ
+	@ ポロックケ-スが いっぱいの ようだねｐ
+	@ ポロックを へらしてからｎ
+	@ また きてね
 
 BerryBlender_Text_DontHavePokeblockCase2: @ 82934A2
 	.string "...라고 생각했는데\n"
@@ -155,18 +155,18 @@ BerryBlender_Text_DontHavePokeblockCase2: @ 82934A2
 	.string "갖고 있지 않은 모양이구나\p"
 	.string "포켓몬스넥케이스를\n"
 	.string "받고 나서 다시 오렴$"
-	// ……と おもったらｎ
-	// きみ ポロックケ-スをｌ
-	// まだ もって ないようだねｐ
-	// ポロックケ-スをｎ
-	// もらってから また きてね
+	@ ……と おもったらｎ
+	@ きみ ポロックケ-スをｌ
+	@ まだ もって ないようだねｐ
+	@ ポロックケ-スをｎ
+	@ もらってから また きてね
 
 @ Unused
 BerryBlender_Text_MakePokeblocksWithOurGroup: @ 829350B
 	.string "어머어머! 아주머니네랑 같이\n"
 	.string "포켓몬스넥을 만들고 싶은 거니?$"
-	// あらあら! おばさん たちと いっしょにｎ
-	// ポロックを つくりたいのかしら?
+	@ あらあら! おばさん たちと いっしょにｎ
+	@ ポロックを つくりたいのかしら?
 
 BerryBlender_Text_OhDear: @ 829354E
 	.string "어머어머!$"
@@ -192,13 +192,13 @@ BerryBlender_Text_ExplainBerryBlending3: @ 82935E5
 	.string "자기가 있는 곳에 오면\l"
 	.string "버튼을 파박 누르면 돼!\l"
 	.string "간단하지-!$"
-	// あらあら!ｐ
-	// じゃあ おばさんがｎ
-	// やさしく せつめいして あげるわね!ｐ
-	// きのみブレンダ-の マ-クがｎ
-	// じぶんの ところに きたらｌ
-	// ボタンを バシッと おすだけで いいのよ!ｌ
-	// かんたん ね-!
+	@ あらあら!ｐ
+	@ じゃあ おばさんがｎ
+	@ やさしく せつめいして あげるわね!ｐ
+	@ きのみブレンダ-の マ-クがｎ
+	@ じぶんの ところに きたらｌ
+	@ ボタンを バシッと おすだけで いいのよ!ｌ
+	@ かんたん ね-!
 
 BerryBlender_Text_DontHaveAnyBerries3: @ 829367D
 	.string "너 나무열매가 없구나\p"
@@ -207,54 +207,54 @@ BerryBlender_Text_DontHaveAnyBerries3: @ 829367D
 	.string "아주머니네는 언제나 여기서\n"
 	.string "포켓몬스넥을 만들고 있을 테니까\l"
 	.string "나무열매를 찾으면 다시 하자!$"
-	// あなた きのみを もってないわねｐ
-	// きのみが ないと ポロックはｎ
-	// つくれないのよ……ｐ
-	// おばさん たち いつでも ここでｎ
-	// ポロックを つくっているからｌ
-	// きのみを みつけたら また やろうね!
+	@ あなた きのみを もってないわねｐ
+	@ きのみが ないと ポロックはｎ
+	@ つくれないのよ……ｐ
+	@ おばさん たち いつでも ここでｎ
+	@ ポロックを つくっているからｌ
+	@ きのみを みつけたら また やろうね!
 
 BerryBlender_Text_PokeblockCaseIsFull3: @ 8293738
 	.string "포켓몬스넥케이스가\n"
 	.string "가득한 모양이구나\p"
 	.string "포켓몬스넥을 줄이고 나서\n"
 	.string "다시 오렴$"
-	// ポロックケ-スがｎ
-	// いっぱいの ようねｐ
-	// ポロックを へらしてからｎ
-	// また きてね
+	@ ポロックケ-スがｎ
+	@ いっぱいの ようねｐ
+	@ ポロックを へらしてからｎ
+	@ また きてね
 
 BerryBlender_Text_DontHavePokeblockCase3: @ 8293792
 	.string "포켓몬스넥케이스를\n"
 	.string "아직 갖고 있지 않나 보구나\p"
 	.string "포켓몬스넥케이스를\n"
 	.string "받고 나서 다시 오렴$"
-	// ポロックケ-スをｎ
-	// まだ もって ないようねｐ
-	// ポロックケ-スをｎ
-	// もらってから また きてね
+	@ ポロックケ-スをｎ
+	@ まだ もって ないようねｐ
+	@ ポロックケ-スをｎ
+	@ もらってから また きてね
 
 BerryBlender_Text_SetNewBlenderRecord: @ 82937F9
 	.string "좋았어! 오늘이야말로\n"
 	.string "블렌더의 최고 속도를 낼 거야!$"
-	// よっしっ! きょうこそｎ
-	// ブレンダ-の さいこうそくどを だすぞ!
+	@ よっしっ! きょうこそｎ
+	@ ブレンダ-の さいこうそくどを だすぞ!
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs: @ 8293842
 	.string "어머어머!\n"
 	.string "너 잘 섞는구나!\l"
 	.string "같이 하지 않을래?$"
-	// あらあら!ｎ
-	// あなた まぜるの うまそうね!ｌ
-	// いっしょに やらない?
+	@ あらあら!ｎ
+	@ あなた まぜるの うまそうね!ｌ
+	@ いっしょに やらない?
 
 BerryBlender_Text_MakeDeliciousPokeblocks: @ 829388F
 	.string "맛있는 포켓몬스넥을 만들어서\n"
 	.string "내 포켓몬을\l"
 	.string "더 더 귀엽게 만들 거야-$"
-	// おいしい ポロックを つくってｎ
-	// わたしの ポケモンをｌ
-	// もっと もっと かわいく するの-
+	@ おいしい ポロックを つくってｎ
+	@ わたしの ポケモンをｌ
+	@ もっと もっと かわいく するの-
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink: @ 82938CD
 	.string "나무열매블렌더로 친구와 함께\n"

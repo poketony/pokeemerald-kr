@@ -104,5 +104,5 @@ Route124_EventScript_Isabella:: @ 81F6722
 
 Route124_Text_HuntersHouse: @ 81F6739
 	.string "“트레져헌터의 작은 집”$"
-	// 「トレジャ-ハンタ-の こや」
+	@ 「トレジャ-ハンタ-の こや」
 

@@ -278,11 +278,11 @@ MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes: @ 828E726
 	.string "{STR_VAR_2}고!?\p"
 	.string "...으음 그거 대단한데!\n"
 	.string "새로운 전설의 시작이야!$"
-	// ……え!!!ｐ
-	// きみ §いかい もｎ
-	// §う の!?ｐ
-	// ……ううむ それは すごい!ｎ
-	// あたらしい でんせつの はじまりだ!
+	@ ……え!!!ｐ
+	@ きみ §いかい もｎ
+	@ §う の!?ｐ
+	@ ……ううむ それは すごい!ｎ
+	@ あたらしい でんせつの はじまりだ!
 
 MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends: @ 828E78A
 	.string "이것보다 좀 더 대단한\n"
