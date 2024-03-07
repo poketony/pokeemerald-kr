@@ -341,29 +341,29 @@ static const u8 gCreditsText_RetsujiNomoto[] = _("Retsuji Nomoto");
 static const u8 gCreditsText_AzusaTajima[] = _("Azusa Tajima");
 static const u8 gCreditsText_ShusakuEgami[] = _("Shusaku Egami");
 static const u8 gCreditsText_PackageAndManual[] = _("Package & Manual Illustration");
-static const u8 gCreditsText_EnglishVersion[] = _("NOK Localization Staff");
+static const u8 gCreditsText_EnglishVersion[] = _("English Version Coordinators");
 static const u8 gCreditsText_Translator[] = _("Translator");
 static const u8 gCreditsText_TextEditor[] = _("Text Editor");
 static const u8 gCreditsText_NCLCoordinator[] = _("NCL Coordinator");
 static const u8 gCreditsText_GraphicDesigner[] = _("Graphic Designer");
-static const u8 gCreditsText_NOAProductTesting[] = _("NOK Product Testing");
+static const u8 gCreditsText_NOAProductTesting[] = _("NOA Product Testing");
 static const u8 gCreditsText_HideyukiNakajima[] = _("Hideyuki Nakajima");
 static const u8 gCreditsText_HidenoriSaeki[] = _("Hidenori Saeki");
 static const u8 gCreditsText_YokoWatanabe[] = _("Yoko Watanabe");
 static const u8 gCreditsText_SakaeKimura[] = _("Sakae Kimura");
 static const u8 gCreditsText_ChiakiShinkai[] = _("Chiaki Shinkai");
-static const u8 gCreditsText_SethMcMahill[] = _("Kohan Lee");
-static const u8 gCreditsText_NobOgasawara[] = _("Hyangun Kim");
-static const u8 gCreditsText_TeresaLillygren[] = _("Kohan Lee");
+static const u8 gCreditsText_SethMcMahill[] = _("Seth McMahill");
+static const u8 gCreditsText_NobOgasawara[] = _("Nob Ogasawara");
+static const u8 gCreditsText_TeresaLillygren[] = _("Teresa Lillygren");
 static const u8 gCreditsText_KimikoNakamichi[] = _("Kimiko Nakamichi");
 static const u8 gCreditsText_SouichiYamamoto[] = _("Souichi Yamamoto");
 static const u8 gCreditsText_YuichiroIto[] = _("Yuichiro Ito");
-static const u8 gCreditsText_ThomasHertzog[] = _("Jihun Oh");
+static const u8 gCreditsText_ThomasHertzog[] = _("Thomas Hertzog");
 static const u8 gCreditsText_MikaKurosawa[] = _("Mika Kurosawa");
 static const u8 gCreditsText_NationalFederationBlind[] = _("National Federation of the Blind");
-static const u8 gCreditsText_PatriciaAMaurer[] = _("Youngyoo Han");
+static const u8 gCreditsText_PatriciaAMaurer[] = _("Patricia A. Maurer");
 static const u8 gCreditsText_EuropeanBlindUnion[] = _("European Blind Union");
-static const u8 gCreditsText_AustralianBrailleAuthority[] = _("Korean Braille Library");
+static const u8 gCreditsText_AustralianBrailleAuthority[] = _("Australian Braille Authority");
 static const u8 gCreditsText_RoyalNewZealandFederationBlind[] = _("Royal New Zealand Federation for the Blind");
 static const u8 gCreditsText_MotoyasuTojima[] = _("Motoyasu Tojima");
 static const u8 gCreditsText_NicolaPrattBarlow[] = _("Nicola Pratt-Barlow");
@@ -572,7 +572,7 @@ static const struct CreditsEntry *const gCreditsEntryPointerTable[][5] =
         gCreditsEntry_HisashiSogabe,
         gCreditsEntry_TomomichiOhta,
         gCreditsEntry_NozomuSaito,
-        gCreditsEntry_EmptyString,
+        _,
     },
     {
         gCreditsEntry_Programmers,
