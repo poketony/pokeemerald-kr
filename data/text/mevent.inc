@@ -53,8 +53,8 @@ Mevent_Text_YouCanAccessMysteryEvent:: @ 8273559
 	@ つかえるように なります
 
 Mevent_Text_TheresATicketForYou:: @ 8273594
-	.string "이상한 소포를 이용해 주셔서\n"
-	.string "감사합니다!\l"
+	.string "이상한 소포를 이용해\n"
+	.string "주셔서 감사합니다!\l"
 	.string "{PLAYER}님이시군요\p" 
 	.string "손님 앞으로\n"
 	.string "이 티켓이\l"
