@@ -82,6 +82,10 @@ enum
     PAGE_EXECUTIVE_DIRECTOR,
     PAGE_EXECUTIVE_PRODUCERS_1,
     PAGE_EXECUTIVE_PRODUCERS_2,
+    PAGE_FAN_TRANSLATOR_1,
+    PAGE_FAN_TRANSLATOR_2,
+    PAGE_FAN_TRANSLATOR_3,
+    PAGE_FAN_TRANSLATOR_4,
     PAGE_COUNT
 };
 
@@ -369,6 +373,19 @@ static const u8 gCreditsText_MotoyasuTojima[] = _("Motoyasu Tojima");
 static const u8 gCreditsText_NicolaPrattBarlow[] = _("Nicola Pratt-Barlow");
 static const u8 gCreditsText_ShellieDow[] = _("Shellie Dow");
 static const u8 gCreditsText_ErikJohnson[] = _("Erik Johnson");
+static const u8 gCreditsText_FanTranslator[] = _("Korean Fan Translator");
+static const u8 gCreditsText_FanTranslator1[] = _("koipkoi");
+static const u8 gCreditsText_FanTranslator2[] = _("poketony");
+static const u8 gCreditsText_FanTranslator3[] = _("myeong-gun");
+static const u8 gCreditsText_FanTranslator4[] = _("hsgo2430");
+static const u8 gCreditsText_FanTranslator5[] = _("bloodbird");
+static const u8 gCreditsText_FanTranslator6[] = _("pyg7669");
+static const u8 gCreditsText_FanTranslator7[] = _("lee8321996");
+static const u8 gCreditsText_FanTranslator8[] = _("Korean Fan Translator (Font)");
+static const u8 gCreditsText_FanTranslator9[] = _("Galmuri (quiple)");
+static const u8 gCreditsText_FanTranslator10[] = _("7x11 Gilche (chozekun)");
+static const u8 gCreditsText_FanTranslator11[] = _("Korean Braille Library");
+
 static const struct CreditsEntry gCreditsEntry_EmptyString[] = {0, FALSE, gCreditsText_EmptyString};
 static const struct CreditsEntry gCreditsEntry_PkmnEmeraldVersion[] = {7, TRUE, gCreditsText_PkmnEmeraldVersion};
 static const struct CreditsEntry gCreditsEntry_Credits[] = {11, TRUE, gCreditsText_Credits};
@@ -528,6 +545,18 @@ static const struct CreditsEntry gCreditsEntry_MotoyasuTojima[] = {0, FALSE, gCr
 static const struct CreditsEntry gCreditsEntry_NicolaPrattBarlow[] = {0, FALSE, gCreditsText_NicolaPrattBarlow};
 static const struct CreditsEntry gCreditsEntry_ShellieDow[] = {0, FALSE, gCreditsText_ShellieDow};
 static const struct CreditsEntry gCreditsEntry_ErikJohnson[] = {0, FALSE, gCreditsText_ErikJohnson};
+static const struct CreditsEntry gCreditsEntry_FanTranslator[] = {0, TRUE, gCreditsText_FanTranslator};
+static const struct CreditsEntry gCreditsEntry_FanTranslator1[] = {0, FALSE, gCreditsText_FanTranslator1};
+static const struct CreditsEntry gCreditsEntry_FanTranslator2[] = {0, FALSE, gCreditsText_FanTranslator2};
+static const struct CreditsEntry gCreditsEntry_FanTranslator3[] = {0, FALSE, gCreditsText_FanTranslator3};
+static const struct CreditsEntry gCreditsEntry_FanTranslator5[] = {0, FALSE, gCreditsText_FanTranslator5};
+static const struct CreditsEntry gCreditsEntry_FanTranslator4[] = {0, FALSE, gCreditsText_FanTranslator4};
+static const struct CreditsEntry gCreditsEntry_FanTranslator6[] = {0, FALSE, gCreditsText_FanTranslator6};
+static const struct CreditsEntry gCreditsEntry_FanTranslator7[] = {0, FALSE, gCreditsText_FanTranslator7};
+static const struct CreditsEntry gCreditsEntry_FanTranslator8[] = {0, TRUE, gCreditsText_FanTranslator8};
+static const struct CreditsEntry gCreditsEntry_FanTranslator9[] = {0, FALSE, gCreditsText_FanTranslator9};
+static const struct CreditsEntry gCreditsEntry_FanTranslator10[] = {0, FALSE, gCreditsText_FanTranslator10};
+static const struct CreditsEntry gCreditsEntry_FanTranslator11[] = {0, FALSE, gCreditsText_FanTranslator11};
 
 #define _ gCreditsEntry_EmptyString
 static const struct CreditsEntry *const gCreditsEntryPointerTable[][5] =
@@ -928,6 +957,34 @@ static const struct CreditsEntry *const gCreditsEntryPointerTable[][5] =
         _,
         gCreditsEntry_ExecProducers,
         gCreditsEntry_TsunekazIshihara,
+        _,
+        _,
+    },
+    {
+        gCreditsEntry_FanTranslator,
+        gCreditsEntry_FanTranslator1,
+        gCreditsEntry_FanTranslator2,
+        gCreditsEntry_FanTranslator3,
+        gCreditsEntry_FanTranslator4,
+    },
+    {
+        gCreditsEntry_FanTranslator,
+        gCreditsEntry_FanTranslator5,
+        gCreditsEntry_FanTranslator6,
+        gCreditsEntry_FanTranslator7,
+        _,
+    },
+    {
+        gCreditsEntry_FanTranslator8,
+        gCreditsEntry_FanTranslator9,
+        gCreditsEntry_FanTranslator10,
+        _,
+        _,
+    },
+    {
+        _,
+        gCreditsEntry_BrailleCodeCheck,
+        gCreditsEntry_FanTranslator11,
         _,
         _,
     },
@@ -1525,7 +1582,7 @@ static void sub_8175DA0(u8 taskIdB)
         if (!gPaletteFade.active)
         {
             gTasks[taskIdB].data[TDB_0] = 1;
-            gTasks[taskIdB].data[TDB_3] = 0x48;
+            gTasks[taskIdB].data[TDB_3] = 72;
             gTasks[gTasks[taskIdB].data[TDB_TASK_A_ID]].data[TDA_14] = 0;
             gUnknown_0203BCE0 = 0;
         }
@@ -1570,7 +1627,7 @@ static void sub_8175DA0(u8 taskIdB)
     case 3:
         if (!gPaletteFade.active)
         {
-            gTasks[taskIdB].data[TDB_3] = 0x73;
+            gTasks[taskIdB].data[TDB_3] = 104;
             gTasks[taskIdB].data[TDB_0] += 1;
         }
         return;
