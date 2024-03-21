@@ -1997,7 +1997,8 @@ void BufferStringBattle(u16 stringID)
     {
         sBattlerAbilities[i] = gBattleMsgDataPtr->abilities[i];
     }
-    for (i = 0; i < TEXT_BUFF_ARRAY_COUNT; i++)
+
+    for (i = 0; i < TRANSFER_TEXT_BUFF_ARRAY_COUNT; i++)
     {
         gBattleTextBuff1[i] = gBattleMsgDataPtr->textBuffs[0][i];
         gBattleTextBuff2[i] = gBattleMsgDataPtr->textBuffs[1][i];
