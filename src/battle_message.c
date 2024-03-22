@@ -2979,6 +2979,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         default:
             *(dst++) = B_BUFF_PLACEHOLDER_BEGIN;
             *(dst++) = src[srcID];
+            *(dst++) = EOS;
             srcID++;
             break;
         }
