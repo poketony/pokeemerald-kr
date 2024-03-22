@@ -25,6 +25,7 @@
 #include "pokedex.h"
 #include "event_object_movement.h"
 #include "text.h"
+#include "korean.h"
 #include "script_menu.h"
 #include "naming_screen.h"
 #include "malloc.h"
@@ -3325,85 +3326,156 @@ u8 TV_GetNicknameSumMod8(TVShow *show)
     return ct & 7;
 }
 
-void TV_GetNicknameSubstring(u8 varIdx, u8 whichPosition, u8 charParam, u16 whichString, u16 species, TVShow *show)
+void TV_GetNicknameSubstring(u8 stringVarsType, u8 startIndex, u8 type, u16 targetType, u16 targetIndex, TVShow *tvShow)
 {
-    u8 buff[16];
+    const u8 *originNamePtr;
+    u8 normalizedName[22];
+    u8 copyBuf[6];
+    u16 nameLength, requiredNameLength;
     u8 i;
-    u16 strlen;
 
-    for (i = 0; i < 3; i ++)
+    for (i = 0; i < 6; i++)
+        copyBuf[i] = EOS;
+    for (i = 0; i < 22; i++)
+        normalizedName[i] = EOS;
+
+    switch (targetType)
     {
-        buff[i] = EOS;
+    case 0:
+        originNamePtr = tvShow->nameRaterShow.trainerName;
+        nameLength = StringLength_Multibyte(originNamePtr);
+        break;
+    case 1:
+        originNamePtr = tvShow->nameRaterShow.pokemonName;
+        nameLength = StringLength_Multibyte(originNamePtr);
+        break;
+    default:
+        originNamePtr = gSpeciesNames[targetIndex];
+        nameLength = StringLength_Multibyte(originNamePtr);
+        break;
     }
-    if (whichString == 0)
+
+    i = 0;
+    while (*originNamePtr != EOS)
     {
-        strlen = StringLength(show->nameRaterShow.trainerName);
-        if (charParam == 0)
+        if (IsKoreanGlyph(*originNamePtr))
         {
-            buff[0] = show->nameRaterShow.trainerName[whichPosition];
-        }
-        else if (charParam == 1)
-        {
-            buff[0] = show->nameRaterShow.trainerName[strlen - whichPosition];
-        }
-        else if (charParam == 2)
-        {
-            buff[0] = show->nameRaterShow.trainerName[whichPosition];
-            buff[1] = show->nameRaterShow.trainerName[whichPosition + 1];
+            normalizedName[i++] = *(originNamePtr++);
+            normalizedName[i++] = *originNamePtr++;
         }
         else
         {
-            buff[0] = show->nameRaterShow.trainerName[strlen - (whichPosition + 2)];
-            buff[1] = show->nameRaterShow.trainerName[strlen - (whichPosition + 1)];
+            normalizedName[i++] = 0;
+            normalizedName[i++] = *originNamePtr++;
         }
-        ConvertInternationalString(buff, show->nameRaterShow.language);
     }
-    else if (whichString == 1)
+
+    switch (type)
     {
-        strlen = StringLength(show->nameRaterShow.pokemonName);
-        if (charParam == 0)
+        case 0:
+        case 1:
+            requiredNameLength = startIndex + 1;
+            break;
+        case 2:
+        default:
+            requiredNameLength = startIndex + 2;
+            break;
+    }
+
+    // NOTE: 영문과 다르게 한글은 짧은 문자열이 존재합니다.
+    if (nameLength < requiredNameLength)
+    {
+        if (normalizedName[0] == 0)
         {
-            buff[0] = show->nameRaterShow.pokemonName[whichPosition];
-        }
-        else if (charParam == 1)
-        {
-            buff[0] = show->nameRaterShow.pokemonName[strlen - whichPosition];
-        }
-        else if (charParam == 2)
-        {
-            buff[0] = show->nameRaterShow.pokemonName[whichPosition];
-            buff[1] = show->nameRaterShow.pokemonName[whichPosition + 1];
+            copyBuf[0] = normalizedName[1];
         }
         else
         {
-            buff[0] = show->nameRaterShow.pokemonName[strlen - (whichPosition + 2)];
-            buff[1] = show->nameRaterShow.pokemonName[strlen - (whichPosition + 1)];
+            copyBuf[0] = normalizedName[0];
+            copyBuf[1] = normalizedName[1];
         }
-        ConvertInternationalString(buff, show->nameRaterShow.pokemonNameLanguage);
     }
     else
     {
-        strlen = StringLength(gSpeciesNames[species]);
-        if (charParam == 0)
+        switch (type)
         {
-            buff[0] = gSpeciesNames[species][whichPosition];
+        case 0:
+        {
+            u8 *dst = copyBuf;
+            u8 index = index = (startIndex + 0) * 2;
+            if (normalizedName[index] == 0)
+            {
+                *(dst++) = normalizedName[index + 1];
+            }
+            else
+            {
+                *(dst++) = normalizedName[index];
+                *(dst++) = normalizedName[index + 1];
+            }
+            break;
         }
-        else if (charParam == 1)
+
+        case 1:
         {
-            buff[0] = gSpeciesNames[species][strlen - whichPosition];
+            u8 *dst = copyBuf;
+            u8 index = (nameLength - startIndex - (2 - i)) * 2;
+            if (normalizedName[index] == 0)
+            {
+                *(dst++) = normalizedName[index + 1];
+            }
+            else
+            {
+                *(dst++) = normalizedName[index];
+                *(dst++) = normalizedName[index + 1];
+            }
+            break;
         }
-        else if (charParam == 2)
+
+        case 2:
         {
-            buff[0] = gSpeciesNames[species][whichPosition];
-            buff[1] = gSpeciesNames[species][whichPosition + 1];
+            u8 index;
+            u8 *dst = copyBuf;
+
+            for (i = 0; i < 2; i++)
+            {
+                index = (startIndex + i) * 2;
+                if (normalizedName[index] == 0)
+                {
+                    *(dst++) = normalizedName[index + 1];
+                }
+                else
+                {
+                    *(dst++) = normalizedName[index];
+                    *(dst++) = normalizedName[index + 1];
+                }
+            }
+            break;
         }
-        else
+
+        default:
         {
-            buff[0] = gSpeciesNames[species][strlen - (whichPosition + 2)];
-            buff[1] = gSpeciesNames[species][strlen - (whichPosition + 1)];
+            u8 index;
+            u8 *dst = copyBuf;
+
+            for (i = 0; i < 2; i++)
+            {
+                index = (nameLength - startIndex - (2 - i)) * 2;
+                if (normalizedName[index] == 0)
+                {
+                    *(dst++) = normalizedName[index + 1];
+                }
+                else
+                {
+                    *(dst++) = normalizedName[index];
+                    *(dst++) = normalizedName[index + 1];
+                }
+            }
+            break;
+        }
         }
     }
-    StringCopy(gTVStringVarPtrs[varIdx], buff);
+
+    StringCopy(gTVStringVarPtrs[stringVarsType], copyBuf);
 }
 
 bool8 TV_IsScriptShowKindAlreadyInQueue(void)
