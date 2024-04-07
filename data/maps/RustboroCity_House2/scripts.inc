@@ -20,7 +20,7 @@ RustboroCity_House2_Text_TrainerSchoolExcellent: @ 8215EC6
 RustboroCity_House2_Text_RoxanneKnowsALot: @ 8215F21
 	.string "체육관 관장인 원규 언니는\n"
 	.string "엄청 포켓몬을 잘 알고\l"
-	.string "엄청 포켓몬 배틀에도 잘해!$"
+	.string "엄청 포켓몬 배틀을 잘해!$"
 	@ ジムリ-ダ-の ツツジ ね-ちゃんｎ
 	@ すっごい ポケモン くわしくてｌ
 	@ すっごい ポケモン つよいんだから!
