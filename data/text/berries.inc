@@ -141,11 +141,11 @@ LilycoveCity_Text_PokeblocksSuitPokemon:
 	@ ポケモンには ポロックが にあうな
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
-	.string "난 나무열매 명인이라고 불리고 있지\p"
+	.string "난 나무열매 명인이라 불리고 있다네\p"
 	.string "난 온 세상을 아름다운 꽃으로\n"
 	.string "채우기 위해 나무열매를 키우고\l"
-	.string "그리고 마구 나눠주고 있다네\p"
-	.string "너에게도 나무열매를 나눠 주지!$"
+	.string "그리고 마구 나눠주고 있지\p"
+	.string "자네에게도 나무열매를 나눠주겠네!$"
 	@ わしは きのみめいじんと よばれておるｐ
 	@ わしは せかいじゅうを うつくしい はなでｎ
 	@ うめつくそうと きのみを そだててｌ

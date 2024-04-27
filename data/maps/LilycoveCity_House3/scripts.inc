@@ -133,7 +133,7 @@ LilycoveCity_House3_Text_ExplainPokeblocks: @ 821F0F8
 	.string "이 숫자가 작을수록 부드러운 거야!\l"
 	.string "이 부분 착각하면 안 된다!\p"
 	.string "부드러움 수치가 낮고\n"
-	.string "레벨이 높을 것이 좋은 포켓몬스넥!\l"
+	.string "레벨이 높은 것이 좋은 포켓몬스넥!\l"
 	.string "좋은 포켓몬스넥은 잔뜩\l"
 	.string "포켓몬이 먹어 준단다!\p"
 	.string "그리고 알겠니?\p"
