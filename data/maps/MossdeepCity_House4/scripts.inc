@@ -71,6 +71,6 @@ MossdeepCity_House4_Text_MakeSecretBase: @ 8222EF7
 	@ ぼくが さがしだして みせるからさ
 
 MossdeepCity_House4_Text_Skitty: @ 8222F31
-	.string "델케티: 미양?$"
+	.string "에나비: 미양?$"
 	@ エネコ『みゃあん?
 
