@@ -35,8 +35,8 @@ sudo ln -s /proc/self/mounts /etc/mtab
 (2) 명령어를 입력하여 개발 도구를 설치합니다.
 
 ```sh
-dkp-sudo pacman -Sy
-dkp-sudo pacman -S gba-dev
+sudo dkp-pacman -Sy
+sudo dkp-pacman -S gba-dev
 ```
 
 #### libpng 설치
