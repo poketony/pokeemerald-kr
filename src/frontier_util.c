@@ -1935,26 +1935,15 @@ static u8 AppendCaughtBannedMonSpeciesName(u16 species, u8 count, s32 numBannedM
 {
     if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
     {
+        StringAppend(gStringVar1, gText_CommaSpace);
+
         count++;
-        switch (count)
+        if (count % 2 == 1)
         {
-        case 1:
-        case 3:
-        case 5:
-        case 7:
-        case 9:
-        case 11:
-            if (numBannedMonsCaught > count)
-                StringAppend(gStringVar1, gText_CommaSpace);
-            break;
-        case 2:
-            StringAppend(gStringVar1, gText_CommaSpace);
-            StringAppend(gStringVar1, gText_NewLine);
-            break;
-        default:
-            StringAppend(gStringVar1, gText_CommaSpace);
-            StringAppend(gStringVar1, gText_LineBreak);
-            break;
+            if (count >= 4)
+                StringAppend(gStringVar1, gText_LineBreak);
+            else
+                StringAppend(gStringVar1, gText_NewLine);
         }
         StringAppend(gStringVar1, gSpeciesNames[species]);
     }
@@ -2000,10 +1989,6 @@ static void AppendIfValid(u16 species, u16 heldItem, u16 hp, u8 lvlMode, u8 monL
 // The names of ineligible pokemon that have been caught are also buffered to print
 static void CheckPartyIneligibility(void)
 {
-    const u8 textSpace[] = _(" ");
-    const u8 textLineBreak[] = _("\l");
-    const u8 textAre[] = _("{K_EUNNEUN} ");
-
     u16 speciesArray[PARTY_SIZE];
     u16 itemArray[PARTY_SIZE];
     s32 monId = 0;
@@ -2066,27 +2051,25 @@ static void CheckPartyIneligibility(void)
         s32 i;
         s32 caughtBannedMons = 0;
         s32 species = gFrontierBannedSpecies[0];
+
         for (i = 0; species != 0xFFFF; i++, species = gFrontierBannedSpecies[i])
         {
             if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
                 caughtBannedMons++;
         }
+
         gStringVar1[0] = EOS;
         gSpecialVar_0x8004 = TRUE;
-        count = 0;
+        count = 1;
+
         for (i = 0; gFrontierBannedSpecies[i] != 0xFFFF; i++)
             count = AppendCaughtBannedMonSpeciesName(gFrontierBannedSpecies[i], count, caughtBannedMons);
 
-        if (count == 0)
-        {
-            StringAppend(gStringVar1, textAre);
-        }
+        if (count & 1)
+            StringAppend(gStringVar1, gText_Are);
         else
-        {
-            if (count & 1)
-                StringAppend(gStringVar1, textLineBreak);
-            StringAppend(gStringVar1, textAre);
-        }
+            StringAppend(gStringVar1, gText_Are2);
+
         StringExpandPlaceholders(buffer, gStringVar1);
         StringCopy(gStringVar1, buffer);
     }
