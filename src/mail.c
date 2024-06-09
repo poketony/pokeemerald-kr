@@ -452,17 +452,11 @@ static void sub_8121A1C(void)
         ConvertEasyChatWordsToString(sMailRead->strbuf[i], &sMailRead->mail->words[total], sMailRead->layout->var8[i].numEasyChatWords, 1);
         total += sMailRead->layout->var8[i].numEasyChatWords;
     }
-    ptr = StringCopy(sMailRead->playerName, sMailRead->mail->playerName);
-    if (!sMailRead->playerIsSender)
-    {
-        StringCopy(ptr, gText_FromSpace);
-        sMailRead->signatureWidth = sMailRead->layout->signatureWidth - (StringLength(sMailRead->playerName) * 8 - 0x60);
-    }
-    else
-    {
-        sub_81DB52C(sMailRead->playerName);
-        sMailRead->signatureWidth = sMailRead->layout->signatureWidth;
-    }
+
+    ptr = StringCopy(sMailRead->playerName, gText_FromSpace);
+    ptr = StringAppend(sMailRead->playerName, sMailRead->mail->playerName);
+    sub_81DB52C(sMailRead->playerName);
+    sMailRead->signatureWidth = sMailRead->layout->signatureWidth;
 }
 
 static void sub_8121B1C(void)
@@ -489,9 +483,8 @@ static void sub_8121B1C(void)
         y += sMailRead->layout->var8[i].lineHeight;
     }
     bufptr = StringCopy(strbuf, sMailRead->playerName);
-    StringCopy(bufptr, gText_FromSpace);
-    box_x = GetStringCenterAlignXOffset(1, strbuf, sMailRead->signatureWidth) + 0x68;
-    box_y = sMailRead->layout->signatureYPos + 0x58;
+    box_x = 104;
+    box_y = sMailRead->layout->signatureYPos + 88;
     AddTextPrinterParameterized3(0, 1, box_x, box_y, sTextColors, 0, strbuf);
     CopyWindowToVram(0, 3);
     CopyWindowToVram(1, 3);
