@@ -1337,7 +1337,7 @@ PetalburgCity_Gym_Text_DadSoDidItWorkOut: @ 8205B32
 
 PetalburgCity_Gym_Text_WallyThankYouBye: @ 8205B4C
 	.string "민진: 아저씨\n"
-	.string "빌려주신 포켓몬 돌려 드릴게요\p"
+	.string "빌려주신 포켓몬 돌려드릴게요\p"
 	.string "{PLAYER}님 저랑 같이 가주셔서\n"
 	.string "정말 감사했습니다...\p"
 	.string "포켓몬을 잡을 수 있었던 건\n"

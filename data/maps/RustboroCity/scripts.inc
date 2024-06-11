@@ -1150,7 +1150,7 @@ RustboroCity_Text_PokemonCanChangeLookFromExp: @ 81E16F4
 
 RustboroCity_Text_PokemonChangeShape: @ 81E174B
 	.string "포켓몬의 생김새가 바뀐다고?\n"
-	.string "갑자기 바뀌면 놀라겠는데!$"
+	.string "갑자기 바뀌면 놀라겠다!$"
 	@ ポケモンの すがたが かわっちゃうの?ｎ
 	@ いきなり かわると ビックリしちゃう!
 

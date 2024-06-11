@@ -990,7 +990,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro: @ 826D6CE
 	.string "달그락달그락...\n"
 	.string "이 몸은 꼭두각시인형 1호!\p"
 	.string "꼭두각시인형 5호가 있는 곳까지\n"
-	.string "연속으로 퀴즈를 맞추면\l"
+	.string "연속으로 퀴즈를 맞히면\l"
 	.string "암호를 알 수 있을 거야!$"
 	@ カタカタ…ｎ
 	@ ワガハイ ハ からくりニンギョウ 1ゴウ!ｐ

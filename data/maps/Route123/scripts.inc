@@ -178,8 +178,8 @@ Route123_EventScript_RematchFernando:: @ 81F6407
 Route123_Text_LoveGrassMonsHaveAny: @ 81F641E
 	.string "난 풀타입 포켓몬이\n"
 	.string "너무 좋아!\p"
-	.string "넌 풀타입 포켓몬이\n"
-	.string "없구나...?$"
+	.string "넌 풀타입 포켓몬\n"
+	.string "없어...?$"
 	@ あたし くさタイプの ポケモンｎ
 	@ だいすき なの!ｐ
 	@ あなたは くさタイプの ポケモンｎ

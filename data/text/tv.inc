@@ -318,7 +318,7 @@ gTVBravoTrainerBattleTowerText02:: @ 0827FC04
 	.string "으-음! 안타까워\p"
 	.string "이렇게 빨리 {STR_VAR_1}씨와\n"
 	.string "마주친 건 운이 없었다고밖에 할 수 없지\p"
-	.string "자 그럼 그 {STR_VAR_1}씨와의\n"
+	.string "자 그럼 그 {STR_VAR_1}씨와\n"
 	.string "승부한 감상을 물어봤는데$"
 	@ おしくも §うにんめで たたかったｎ
 	@ §いさんに まけて しまいましたｌ

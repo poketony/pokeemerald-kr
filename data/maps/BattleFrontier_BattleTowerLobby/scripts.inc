@@ -1254,7 +1254,7 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles: @ 8240027
 	.string "3마리는 필요합니다!\p"
 	.string "참가하려면 레벨 50 이하의\n"
 	.string "종류가 다른 포켓몬을\l"
-	.string "3마리 준비해 주십시오!\p"
+	.string "3마리 준비해 주십시오\p"
 	.string "또한 지니게 할 도구도\n"
 	.string "모두 다른 도구로 해주십시오!\p"
 	.string "그리고 알{STR_VAR_1}"

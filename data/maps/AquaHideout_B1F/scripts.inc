@@ -115,7 +115,7 @@ AquaHideout_B1F_EventScript_Grunt7::
 
 AquaHideout_B1F_Text_Grunt2Intro:
 	.string "아지트의 비밀을 알고 싶다면\n"
-	.string "이 몸을 쓰려뜨려 보시지!$"
+	.string "이 몸을 쓰러뜨려 보시지!$"
 	// アジトの ひみつを しりたけりゃｎ
 	// おれを たおす ことだな!
 

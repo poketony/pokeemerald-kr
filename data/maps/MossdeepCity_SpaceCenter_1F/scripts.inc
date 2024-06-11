@@ -406,7 +406,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind: @ 822375B
 	.string "거대한 철 덩어리가\n"
 	.string "창공을 뚫고\l"
 	.string "우주까지 날아간다...\p"
-	.string "정말 끝내주지$"
+	.string "정말 굉장한 일이지$"
 	@ でっかい てつの かたまりがｎ
 	@ おおぞらを つきぬけｌ
 	@ うちゅうまで とんで いく……ｐ

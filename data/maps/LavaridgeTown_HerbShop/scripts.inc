@@ -70,7 +70,7 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal: @ 81FE5EB
 
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike: @ 81FE685
 	.string "한약의 효과는 엄청나지만\n"
-	.string "포켓몬에게 마시게 하면 미움받는다네\l"
+	.string "포켓몬에게 먹게 하면 미움받는다네\l"
 	.string "분명 엄청 써서 그런 것일 테지!$"
 	@ かんぽうやくの ききめは すごいがｎ
 	@ ポケモンに のませると きらわれるぞよｌ

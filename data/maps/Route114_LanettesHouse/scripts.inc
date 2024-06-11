@@ -49,7 +49,7 @@ Route114_LanettesHouse_EventScript_PC:: @ 822B345
 	end
 
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis: @ 822B34E
-	.string "유미: 앗! {PLAYER}{K_AYA}!\p"
+	.string "유미: 앗! {PLAYER}!\p"
 	.string "어질러져 있어서 미안해요...\n"
 	.string "연구에 집중하다 보면\l"
 	.string "항상 이렇게 된답니다...\p"

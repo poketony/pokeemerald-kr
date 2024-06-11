@@ -440,7 +440,7 @@ const struct ContestPokemon gContestOpponents[] =
     },
     [CONTEST_OPPONENT_ALEC] = {
         .species = SPECIES_SLAKOTH,
-        .nickname = _("게을게을"), // ケロタロウ
+        .nickname = _("게을이"), // ケロタロウ
         .trainerName = _("인목"), //  ヒトキ
         .trainerGfxId = OBJ_EVENT_GFX_CAMPER,
         .aiFlags = CONTEST_AI_SET_9,
@@ -1224,7 +1224,7 @@ const struct ContestPokemon gContestOpponents[] =
     },
     [CONTEST_OPPONENT_SANDRA] = {
         .species = SPECIES_BARBOACH,
-        .nickname = _("미끌미끌"), // ナマゾ-
+        .nickname = _("미끌이"), // ナマゾ-
         .trainerName = _("사효"), // ミノリ
         .trainerGfxId = OBJ_EVENT_GFX_TWIN,
         .aiFlags = CONTEST_AI_SET_1A,
@@ -2624,8 +2624,8 @@ const struct ContestPokemon gContestOpponents[] =
     },
     [CONTEST_OPPONENT_HELEN] = {
         .species = SPECIES_WOBBUFFET,
-        .nickname = _("트려서"), // ナンチッチ
-        .trainerName = _("미훌"), // ミクル
+        .nickname = _("틀려용"), // ナンチッチ
+        .trainerName = _("미쿨"), // ミクル
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_1,
         .aiFlags = CONTEST_AI_SET_F,
         .whichRank = CONTEST_RANK_MASTER,
