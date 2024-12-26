@@ -523,18 +523,18 @@ static const u8 sUnknown_08597748[][7] = {
 };
 
 static const u16 sMysteryGiftPhrase[] = {
-    EC_WORD_LINK,
-    EC_WORD_TOGETHER,
-    EC_WORD_WITH,
-    EC_WORD_ALL,
-};
+    EC_WORD_WE, // 통신 -> 모두
+    EC_WORD_TOGETHER, // 같이 -> 같이
+    EC_WORD_LINK, // 겁니다 -> 통신
+    EC_WORD_LET_S, // 하도록 해 -> 하자
+}; // 모두 같이 통신 하자
 
 static const u16 sBerryMasterWifePhrases[][2] = {
-    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_GREAT, EC_WORD_BATTLE},
-    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CHALLENGE, EC_WORD_CONTEST},
-    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_WORD_OVERWHELMING, EC_POKEMON(LATIAS)},
-    [PHRASE_COOL_LATIOS - 1]         = {EC_WORD_COOL, EC_POKEMON(LATIOS)},
-    [PHRASE_SUPER_HUSTLE - 1]        = {EC_WORD_SUPER, EC_WORD_HUSTLE},
+    [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_MUCH, EC_WORD_MATCH}, // すごい しょうぶ -> 굉장한 승부
+    [PHRASE_CHALLENGE_CONTEST - 1]   = {EC_WORD_CONTEST, EC_WORD_CHALLENGE}, // チャレンジ コンテスト -> 콘테스트 도전
+    [PHRASE_OVERWHELMING_LATIAS - 1] = {EC_WORD_BEAUTIFUL, EC_POKEMON(LATIAS)}, // すごすぎ ラティアス -> 아름다운 라티아스
+    [PHRASE_COOL_LATIOS - 1]         = {EC_WORD_FABULOUS, EC_POKEMON(LATIOS)}, // かっこいい ラティオス -> 멋진 라티오스
+    [PHRASE_SUPER_HUSTLE - 1]        = {EC_WORD_HUSTLE, EC_WORD_FULL}, // モーレツ ハッスル -> 의욕 가득
 };
 
 static const u16 sEasyChatTriangleCursorPalette[] = INCBIN_U16("graphics/easy_chat/triangle_cursor.gbapal");
@@ -1044,38 +1044,38 @@ const u8 *const gEasyChatGroupNamePointers[] = {
 };
 
 static const u16 sDefaultProfileWords[] = {
-    EC_WORD_I_AM,
-    EC_WORD_A,
-    EC_WORD_POKEMON,
-    EC_WORD_FRIEND,
-};
+    EC_WORD_I, // 나
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_EXCESS, // 너무
+    EC_WORD_LIKES, // 좋아
+}; // 나 포켓몬 너무 좋아
 
 static const u16 sDefaultBattleStartWords[] = {
-    EC_WORD_ARE,
-    EC_WORD_YOU,
-    EC_WORD_READY,
-    EC_WORD_QUES,
-    EC_WORD_HERE_I_COME,
-    EC_WORD_EXCL,
-};
+    EC_WORD_HIT, // 자 그럼
+    EC_WORD_WENT, // 간다
+    EC_WORD_A_LOT, // 엄청
+    EC_WORD_DECIDE, // 각오
+    EC_WORD_ALL, // 하도록 해
+    EC_WORD_EXCL, // !
+}; // 자 그럼 간다 엄청 각오 하도록 해 ! 
 
 static const u16 sUnknown_0859E640[] = {
-    EC_WORD_YAY,
-    EC_WORD_YAY,
-    EC_WORD_EXCL_EXCL,
-    EC_WORD_I_VE,
-    EC_WORD_WON,
-    EC_WORD_EXCL_EXCL,
-};
+    EC_WORD_HAHAHA, // 하하하
+    EC_WORD_OKAY, // 좋아!
+    EC_WORD_I, // 나
+    EC_WORD_OF, // 의
+    EC_WORD_VICTORY, // 승리
+    EC_WORD_EXCL_EXCL, // !! 
+}; // 하하하 좋아! 나 의 승리 !!
 
 static const u16 sUnknown_0859E64C[] = {
-    EC_WORD_TOO,
-    EC_WORD_BAD,
-    EC_WORD_ELLIPSIS,
-    EC_WORD_WE,
-    EC_WORD_LOST,
-    EC_WORD_ELLIPSIS,
-};
+    EC_WORD_HAH, // 하아-
+    EC_WORD_ELLIPSIS, // ...
+    EC_WORD_ELLIPSIS, // ...
+    EC_WORD_GIVE_UP, // 졌다
+    EC_WORD_ELLIPSIS, // ...
+    EC_WORD_ELLIPSIS, // ...
+}; // 하아- ... ... 졌다 ... ...
 
 static const u16 sUnknown_0859E658[] = {
     SPECIES_DEOXYS,
