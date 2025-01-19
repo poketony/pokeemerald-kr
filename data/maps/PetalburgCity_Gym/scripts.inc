@@ -1828,7 +1828,7 @@ PetalburgCity_Gym_Text_JodyPostBattle: @ 82070FB
 	@ あなたの おとうさんが まっているわ!
 
 PetalburgCity_Gym_Text_JodyPostBadge: @ 8207170
-	.string "포켓몬을 강하게 키우는 것도 좋지만\n"
+	.string "포켓몬을 강하게 키우는 것도 좋지만\p"
 	.string "승부의 승패를 정하는 건\n"
 	.string "그 사람의 포켓몬을 생각하는\l"
 	.string "마음이야...!$"
