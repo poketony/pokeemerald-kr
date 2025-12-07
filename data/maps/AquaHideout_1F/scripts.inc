@@ -101,7 +101,7 @@ AquaHideout_1F_Text_BossIsOnRoute122: @ 8233739
 	.string "우리 아쿠아단한테 무슨 볼일이야!\p"
 	.string "리더라면 지금 122번 수로에 있는\n"
 	.string "송화산으로 가고 있어서 여기 없어!\p"
-	.string "...뭐 하러 갔냐고?\n"
+	.string "...뭐 하러 갔냐고?\p"
 	.string "와하하핫! 그런 중요한 정보를\n"
 	.string "알려줄 리가 없잖아!$"
 	@ なんだ なんだ!ｎ

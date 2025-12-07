@@ -42,7 +42,7 @@ gText_ApprenticeChallenge6:: @ 82B700C
 
 gText_ApprenticeChallenge7:: @ 82B703A
 	.string "전 {STR_VAR_1}님의 {STR_VAR_2}번째\n"
-	.string "제자입니다... 갈게요$"
+	.string "제자랍니다... 그럼 갈게요$"
 	@ わたくし §いさまの §うばんのｎ
 	@ でしで ございますの…… いきますわよ
 
@@ -66,7 +66,7 @@ gText_ApprenticeChallenge10:: @ 82B70CC
 
 gText_ApprenticeChallenge11:: @ 82B710A
 	.string "{STR_VAR_1}님의 {STR_VAR_2}번째\n"
-	.string "제자라고! 들썩들썩하게 가자고-!$"
+	.string "제자다! 들썩들썩하게 가자고-!$"
 	@ §いさんの §うばんのｎ
 	@ でしだぜ! ノリノリで いってみようぜ-!
 
@@ -532,7 +532,7 @@ gText_ApprenticeLevelModeThanks6:: @ 82B8656
 	.string "허허허-!\n"
 	.string "{STR_VAR_1}이라고요!\l"
 	.string "깔끔한 대답 고마워!\p"
-	.string "응 오늘은 이 정도만 할게\n"
+	.string "응 오늘은 이 정도가 다야\n"
 	.string "다음에 또 여기서 보자!\l"
 	.string "고마워!$"
 	@ ほほぉ-!ｎ
@@ -605,7 +605,7 @@ gText_ApprenticeLevelModeThanks7:: @ 82B8957
 	.string "알겠습니다 열심히 할게요!\p"
 	.string "그럼 {PLAYER}님\n"
 	.string "앞으로도 잘 부탁드립니다\l"
-	.string "다음에 뵈어요!$"
+	.string "안녕히 계세요!$"
 	@ §い ですのね!ｎ
 	@ わかりました がんばりますわ!ｐ
 	@ それでは §あさんｎ
@@ -673,7 +673,7 @@ gText_ApprenticeLevelModeThanks8:: @ 82B8C20
 	.string "가슴에 새길게요!\l"
 	.string "저 감격했어요!\p"
 	.string "그럼 다음에 또\n"
-	.string "여러 가지 알려주세요!$"
+	.string "여러 가지 가르쳐 주세요!$"
 	@ §い りょうかいですっｎ
 	@ りょうかいで ありますっ!ｌ
 	@ わたし かんげき です!ｐ
@@ -746,7 +746,7 @@ gText_ApprenticePleaseTeach10:: @ 82B8F45
 	.string "...라는 말도 거짓말이지롱!\p"
 	.string "실은 나 포켓몬 승부를\n"
 	.string "그다지 잘하지 않아서 말야!\l"
-	.string "제안 하나 할게\l"
+	.string "거기서 제안 하나!\l"
 	.string "내 스승님이 되어주지 않을래?$"
 	@ お おいっ §あ§おだろ!ｎ
 	@ さっき おまわりさんが さがしてたぞ!ｐ
@@ -798,10 +798,10 @@ gText_ApprenticeLevelModeThanks10:: @ 82B9204
 	.string "그렇구나\n"
 	.string "{STR_VAR_1}이 좋다고!\l"
 	.string "그럼 그 반대쪽으로 가야지!\p"
-	.string "...농담이야!\n"
-	.string "스승님 말씀은 제대로 들어야지\p"
+	.string "...농담이야 농담!\n"
+	.string "스승님이 말한 대로 할게\p"
 	.string "고마워 스승님!\n"
-	.string "또 만나면 그때도 부탁할게-$"
+	.string "다음에도 잘 부탁해-$"
 	@ そうかｎ
 	@ §いが いいのね!ｌ
 	@ じゃあ ちがうほうに いこうっと!ｐ
@@ -813,8 +813,8 @@ gText_ApprenticeLevelModeThanks10:: @ 82B9204
 gText_ApprenticePleaseTeach11:: @ 82B929C
 	.string "처-음-뵙-겠-습-니-다!\n"
 	.string "네 처음 뵙겠습니다!\l"
-	.string "전 선선한 선원 {STR_VAR_1}!\l"
-	.string "당신도 자기소개 해보십시오!\p"
+	.string "전 시원한 선원 {STR_VAR_1}!\l"
+	.string "당신도 자기소개 해보시죠!\p"
 	.string "흠흠 이름은 {PLAYER}{K_I}군요!\n"
 	.string "포켓몬을 엄청 좋아하는\l"
 	.string "미묘한 나이의 청년이고!\p"
@@ -836,7 +836,7 @@ gText_ApprenticePleaseTeach11:: @ 82B929C
 
 gText_ApprenticeRejectTeaching11:: @ 82B9438
 	.string "그럴 수가!\n"
-	.string "선선하지 못한 선택 아닌가요!\p"
+	.string "시원하지 못한 선택 아닌가요!\p"
 	.string "저기 괜찮잖아요\n"
 	.string "부디 저를 제자로 받아주세요!$"
 	@ そんな!ｎ
@@ -845,7 +845,7 @@ gText_ApprenticeRejectTeaching11:: @ 82B9438
 	@ ぜひとも わしを でしに してください!
 
 gText_ApprenticeWhichLevelMode11:: @ 82B9488
-	.string "요요! 선선한 선택!\n"
+	.string "요요! 시원한 선택!\n"
 	.string "{PLAYER}님 잘 부탁드립니다!\p"
 	.string "그럼 1번째 질문\n"
 	.string "가볼까요!\l"
@@ -862,7 +862,7 @@ gText_ApprenticeWhichLevelMode11:: @ 82B9488
 
 gText_ApprenticeLevelModeThanks11:: @ 82B9564
 	.string "{STR_VAR_1}입니까-앗! 요요!\n"
-	.string "그렇다면 선선하게 가보겠습니다!\p"
+	.string "그렇다면 시원하게 가보겠습니다!\p"
 	.string "앞으로도 잘 부탁드립니다\n"
 	.string "{PLAYER}님!$"
 	@ §いか-っ! ようよう!ｎ
@@ -1062,7 +1062,7 @@ gText_ApprenticeLevelModeThanks14:: @ 82B9EAA
 
 gText_ApprenticePleaseTeach15:: @ 82B9F55
 	.string "응?\n"
-	.string "{PLAYER}처럼 보이는데...\l"
+	.string "{PLAYER}처럼 보인다만...\l"
 	.string "진짜인가?\p"
 	.string "난 {STR_VAR_1}\n"
 	.string "지금 말이지 누군가 강한 트레이너의\l"
@@ -1121,7 +1121,7 @@ gText_ApprenticeLevelModeThanks15:: @ 82BA1F3
 	@ いずれまた あおう!
 
 gText_ApprenticeWhatHeldItem0:: @ 82BA2A3
-	.string "하아… 훌쩍훌쩍…\n"
+	.string "하아... 훌쩍훌쩍...\n"
 	.string "아앗 {PLAYER}님!\p"
 	.string "저 말이죠 못 정하고 있는 게 있어서\n"
 	.string "조금 곤란해하고 있었어요\p"
@@ -1362,8 +1362,8 @@ gText_ApprenticeHoldNothing4:: @ 82BAC43
 
 gText_ApprenticeThanksNoHeldItem4:: @ 82BAC78
 	.string "그게 좋다면 그렇게 할게!\n"
-	.string "{PLAYER}{K_IGA} 정해줬으니\l"
-	.string "지더라도 마음이 편할 것 같아!\p"
+	.string "{PLAYER}{K_IGA} 정해주니까\l"
+	.string "져도 마음이 편할 것 같아!\p"
 	.string "그럼 안녕\n"
 	.string "다음에 또 상담해줘!$"
 	@ それが よければ そうするわ!ｎ
@@ -1375,8 +1375,8 @@ gText_ApprenticeThanksNoHeldItem4:: @ 82BAC78
 gText_ApprenticeThanksHeldItem4:: @ 82BAD17
 	.string "{STR_VAR_1} 말이지\n"
 	.string "나쁘지 않네 그렇게 할게!\l"
-	.string "{PLAYER}{K_IGA} 정해줬으니\l"
-	.string "지더라도 마음이 편할 것 같아!\p"
+	.string "{PLAYER}{K_IGA} 정해주니까\l"
+	.string "져도 마음이 편할 것 같아!\p"
 	.string "그럼 안녕\n"
 	.string "다음에 또 상담해줘!$"
 	@ §いかｎ
@@ -1555,7 +1555,7 @@ gText_ApprenticeThanksNoHeldItem7:: @ 82BB4FB
 	.string "이대로 계속 열심히 해볼게요\p"
 	.string "그럼 {PLAYER}님\n"
 	.string "앞으로도 잘 부탁드립니다\l"
-	.string "다음에 뵈어요!$"
+	.string "안녕히 계세요!$"
 	@ わかりましたわ!ｎ
 	@ このまま がんばる ことに しますわｐ
 	@ それでは §あさんｎ
@@ -1567,7 +1567,7 @@ gText_ApprenticeThanksHeldItem7:: @ 82BB575
 	.string "바로 주문해야겠네요!\p"
 	.string "그럼 {PLAYER}님\n"
 	.string "앞으로도 잘 부탁드립니다\l"
-	.string "다음에 뵈어요!$"
+	.string "안녕히 계세요!$"
 	@ §い ですのね!ｎ
 	@ さっそく とりよせますわ!ｐ
 	@ それでは §あさんｎ
@@ -1645,7 +1645,7 @@ gText_ApprenticeItemAlreadyRecommended8:: @ 82BB84A
 	@ もたせなくて いいって ことですかっ?
 
 gText_ApprenticeWhatHeldItem9:: @ 82BB8CD
-	.string "헬로 헬로\n"
+	.string "헬로 헬-로\n"
 	.string "마이 티처 {PLAYER}!\p"
 	.string "오늘은 포켓몬의 도구에 대해서\n"
 	.string "어드바이스를 부탁하고 싶어!\p"
@@ -1671,7 +1671,7 @@ gText_ApprenticeHoldNothing9:: @ 82BB970
 gText_ApprenticeThanksNoHeldItem9:: @ 82BB9AE
 	.string "오케이 오케이!\n"
 	.string "아저씨 팍팍 힘내볼게!\p"
-	.string "그럼 앞으로도 잘 부탁해!\n"
+	.string "그럼 앞으로도 잘 부탁해\n"
 	.string "아디오스-!$"
 	@ オ-ケイ オ-ケイ!ｎ
 	@ おじさん グ-っと がんばるよ!ｐ
@@ -1711,7 +1711,7 @@ gText_ApprenticeWhatHeldItem10:: @ 82BBB01
 	.string "사실 나 포켓몬의 도구를\n"
 	.string "뭘로 할지 고민 중인데\l"
 	.string "그런 건 내 성격에 안 맞아!\l"
-	.string "그러니까 내 {STR_VAR_1}에게\l"
+	.string "거기서 제안 하나! 내 {STR_VAR_1}에게\l"
 	.string "뭘 지니게 하면 좋을지\l"
 	.string "스승님이 정해주지 않을래?$"
 	@ §あ§お ちょっとｎ
@@ -1735,7 +1735,7 @@ gText_ApprenticeHoldNothing10:: @ 82BBC1C
 gText_ApprenticeThanksNoHeldItem10:: @ 82BBC4B
 	.string "그렇구나 빈손으로도 괜찮다 이거지!\n"
 	.string "그럼 뭐라도 지니게 해야겠다!\p"
-	.string "...농담이야!\n"
+	.string "...농담이야 농담!\n"
 	.string "스승님이 말한 대로 할게\p"
 	.string "고마워 스승님!\n"
 	.string "다음에도 잘 부탁해-$"
@@ -1750,7 +1750,7 @@ gText_ApprenticeThanksHeldItem10:: @ 82BBCF6
 	.string "그렇구나\n"
 	.string "{STR_VAR_1}{K_IGA} 좋다고!\l"
 	.string "그럼 그거 말고 다른 거 줘야지!\p"
-	.string "...농담이야!\n"
+	.string "...농담이야 농담!\n"
 	.string "스승님이 말한 대로 할게\p"
 	.string "고마워 스승님!\n"
 	.string "다음에도 잘 부탁해-$"
@@ -1777,7 +1777,7 @@ gText_ApprenticeItemAlreadyRecommended10:: @ 82BBD90
 gText_ApprenticeWhatHeldItem11:: @ 82BBE0B
 	.string "안-녕-하-세-요!\n"
 	.string "네 안녕하십니까!\l"
-	.string "선선한 선원인 저와 함께하는\l"
+	.string "시원한 선원인 저와 함께하는\l"
 	.string "상담 타임 시간입니다!\l"
 	.string "도구에 관한 상담인데요!\p"
 	.string "제 {STR_VAR_1}에게 건넬\n"
@@ -1798,7 +1798,7 @@ gText_ApprenticeHoldNothing11:: @ 82BBEE5
 
 gText_ApprenticeThanksNoHeldItem11:: @ 82BBF25
 	.string "그럴 수가-앗! 요요!\n"
-	.string "그럼 선선하게 빈손으로 가볼까!\p"
+	.string "그럼 시원하게 빈손으로 가볼까!\p"
 	.string "앞으로도 잘 부탁드립니다\n"
 	.string "{PLAYER}님!$"
 	@ そうか-っ! ようよう!ｎ
@@ -1808,7 +1808,7 @@ gText_ApprenticeThanksNoHeldItem11:: @ 82BBF25
 
 gText_ApprenticeThanksHeldItem11:: @ 82BBFA4
 	.string "{STR_VAR_1}{K_I}라니-잇! 요요!\n"
-	.string "그럼 선선하게 지니게 해볼까!\p"
+	.string "그럼 시원하게 지니게 해볼까!\p"
 	.string "앞으로도 잘 부탁드립니다\n"
 	.string "{PLAYER}님!$"
 	@ §いか-っ! ようよう!ｎ
@@ -1957,9 +1957,9 @@ gText_ApprenticeItemAlreadyRecommended13:: @ 82BC666
 gText_ApprenticeWhatHeldItem14:: @ 82BC714
 	.string "아... 아...\n"
 	.string "{PLAYER}...\p"
-	.string "그 그렇게 보지 말게나\n"
+	.string "그 그렇게 보지 말아주게\n"
 	.string "내 포켓몬은 지닌물건이 없어서 말인데\p"
-	.string "잠깐 그... 상담 좀 해주게\n"
+	.string "잠깐 그... 상담 좀 해주게나\n"
 	.string "부 부끄럽지만 말일세!\l"
 	.string "{STR_VAR_1}{K_IGA} 무엇을\l"
 	.string "지니면 강해질지 고민하고 있거든\l"
@@ -2024,7 +2024,7 @@ gText_ApprenticeItemAlreadyRecommended14:: @ 82BC984
 
 gText_ApprenticeWhatHeldItem15:: @ 82BCA4D
 	.string "응?\n"
-	.string "{PLAYER} 같아 보인다만...\l"
+	.string "{PLAYER}처럼 보인다만...\l"
 	.string "정말로 자네 맞는 겐가?\l"
 	.string "설마 쌍둥이는 아니겠지?\p"
 	.string "앗 아닐세 아닐세!\n"
@@ -2222,7 +2222,7 @@ gText_ApprenticeWhichMonFirst4:: @ 82BD222
 
 gText_ApprenticeMonFirstThanks4:: @ 82BD325
 	.string "{STR_VAR_1} 말이지 알았어!\n"
-	.string "{PLAYER}{K_IGA} 정해줬다고 생각하니\l"
+	.string "{PLAYER}{K_IGA} 정해주니까\l"
 	.string "져도 마음이 편할 것 같아!\p"
 	.string "그럼 안녕\n"
 	.string "다음에 또 상담해줘!$"
@@ -2265,14 +2265,14 @@ gText_ApprenticeMonFirstThanks5:: @ 82BD493
 	@ サンキュ-! じゃ またな!
 
 gText_ApprenticeWhichMonFirst6:: @ 82BD51C
-	.string "Yoohoo! Hiya, {PLAYER}!\n"
-	.string "You always walk around looking tough!\p"
-	.string "Listen, I need something from you\n"
-	.string "again! It's the usual thing!\p"
-	.string "Drum roll, please!\n"
-	.string "The question I have is about my team.\p"
-	.string "Which POKéMON of mine should be first\n"
-	.string "to go out in a battle?$"
+	.string "야호- 하이 {PLAYER}님-\n"
+	.string "언제나 강해보이는 얼굴인걸\p"
+	.string "저기 있지! 오늘도\n"
+	.string "그거... 부탁할게! 괜찮지!?\p"
+	.string "엣헴 그럼 오늘의 상담!\n"
+	.string "제가 지니고 있는 포켓몬!\l"
+	.string "자 어느 애를 첫 번째로\l"
+	.string "내보내면 좋을까요?$"
 	@ ヤッホ- ハ-イ §あさ-んｎ
 	@ いつも つよそうな かおで あるいてるわねｐ
 	@ ねえねえ! きょうもｎ
@@ -2283,13 +2283,12 @@ gText_ApprenticeWhichMonFirst6:: @ 82BD51C
 	@ さいしょに だせば いいでしょう?
 
 gText_ApprenticeMonFirstThanks6:: @ 82BD609
-	.string "Hmhm!\n"
-	.string "My {STR_VAR_1}, you say!\l"
-	.string "Thanks for a most cool answer!\p"
-	.string "I guess that's about all I wanted\n"
-	.string "to ask you today.\p"
-	.string "Let's meet here again, okay?\n"
-	.string "Thanks!$"
+	.string "흠흠!\n"
+	.string "{STR_VAR_1} 말이군요?\l"
+	.string "깔끔한 대답 고마워!\p"
+	.string "응 오늘은 이 정도가 다야\n"
+	.string "다음에 또 여기서 보자!\l"
+	.string "고마워!$"
 	@ ふむふむ!ｎ
 	@ §い ですねぇ?ｌ
 	@ シブイ おこたえ ありがとう!ｐ
@@ -2298,14 +2297,14 @@ gText_ApprenticeMonFirstThanks6:: @ 82BD609
 	@ ありがと!
 
 gText_ApprenticeWhichMonFirst7:: @ 82BD697
-	.string "Thank you so much for stopping to\n"
-	.string "chat with me, {PLAYER}.\p"
-	.string "I know I'm taking advantage of your\n"
-	.string "kindness, but may I ask for advice?\p"
-	.string "I would like you to decide on the order\n"
-	.string "of my POKéMON team.\p"
-	.string "It would please me if you could decide\n"
-	.string "which POKéMON should come first.$"
+	.string "말을 걸어주셔서\n"
+	.string "정말로 감사드립니다 {PLAYER}님\p"
+	.string "그 친절함에 기대어\n"
+	.string "오늘도 상담을 부탁드리고자 합니다만...\p"
+	.string "포켓몬의 순서를\n"
+	.string "정해 주셨으면 합니다\p"
+	.string "처음에 내보낼 포켓몬으로\n"
+	.string "어느 아이가 좋다고 생각하시는지요?$"
 	@ はなしかけて くださってｎ
 	@ ありがとう ございます §あさんｐ
 	@ その おやさしさに あまえてｎ
@@ -2316,11 +2315,11 @@ gText_ApprenticeWhichMonFirst7:: @ 82BD697
 	@ どの ポケモンが よろしいでしょうか?
 
 gText_ApprenticeMonFirstThanks7:: @ 82BD797
-	.string "My {STR_VAR_1} it is!\n"
-	.string "I will put it first right away!\p"
-	.string "Thank you, {PLAYER}.\n"
-	.string "I hope I can count on you again.\l"
-	.string "Please take care!$"
+	.string "{STR_VAR_1} 말이군요!\n"
+	.string "바로 순서를 바꿔 놔야겠어요!\p"
+	.string "그럼 {PLAYER}님\n"
+	.string "앞으로도 잘 부탁드립니다\l"
+	.string "안녕히 계세요!$"
 	@ §い ですのね!ｎ
 	@ すぐに ならびかえますわ!ｐ
 	@ それでは §あさんｎ
@@ -2328,15 +2327,16 @@ gText_ApprenticeMonFirstThanks7:: @ 82BD797
 	@ ごきげんよう!
 
 gText_ApprenticeWhichMonFirst8:: @ 82BD806
-	.string "Eek! {PLAYER}!\n"
-	.string "I… I'm overjoyed to see you again!\p"
-	.string "My POKéMON have become much\n"
-	.string "stronger!\p"
-	.string "But I don't always win. It seems to\n"
-	.string "depend on which POKéMON goes first.\p"
-	.string "{PLAYER}, please, I need your help!\p"
-	.string "Please decide which of my POKéMON\n"
-	.string "should go out first!$"
+	.string "꺄- 꺄-!\n"
+	.string "{PLAYER}님이다!\l"
+	.string "오늘도 만나서 감격했어요...!\p"
+	.string "제 포켓몬들\n"
+	.string "많이 강해졌답니다!\l"
+	.string "근데 처음에 내보내는 포켓몬에 따라\l"
+	.string "이기기도 하고 지기도 하더라고요\p"
+	.string "{PLAYER}님 그러니 부탁드릴게요!\n"
+	.string "어느 애를 처음으로 내보내면 좋을지\l"
+	.string "제발 정해주세요!$"
 	@ キャ-キャ-!ｎ
 	@ §あ さ-んっ!ｌ
 	@ きょうも あえて かんげきっ……!ｐ
@@ -2349,13 +2349,12 @@ gText_ApprenticeWhichMonFirst8:: @ 82BD806
 	@ ぜひ きめて ほしいのですっ!
 
 gText_ApprenticeMonFirstThanks8:: @ 82BD8F5
-	.string "Sigh… I'm overwhelmed with happiness…\p"
-	.string "It's like a dream having you decide\n"
-	.string "for me, {PLAYER}.\p"
-	.string "But perfectly understood!\n"
-	.string "I will go with my {STR_VAR_1} first!\p"
-	.string "I hope you'll be willing to teach me\n"
-	.string "some more another time.$"
+	.string "하아아아... 너무 행복해요\n"
+	.string "{PLAYER}님이 정해주시다니!\l"
+	.string "알겠습니다! 저\l"
+	.string "{STR_VAR_1}부터 내보내볼게요!\p"
+	.string "그럼 다음에 또\n"
+	.string "여러 가지 가르쳐 주세요!$"
 	@ はあああ…… しあわせすぎるｎ
 	@ §あさんに きめて もらうなんて!ｌ
 	@ りょうかいですっ! わたしｌ
@@ -2364,17 +2363,15 @@ gText_ApprenticeMonFirstThanks8:: @ 82BD8F5
 	@ いろいろと おしえて くださいね!
 
 gText_ApprenticeWhichMonFirst9:: @ 82BD9BE
-	.string "Hello, hello!\n"
-	.string "My mentor, {PLAYER}{KUN}!\l"
-	.string "Hit me with your sage advice today!\p"
-	.string "You see, I pulled together a team of\n"
-	.string "three POKéMON. So far so good.\p"
-	.string "But the team's battling order's not\n"
-	.string "settled yet.\p"
-	.string "This is where you come in, {PLAYER}{KUN}!\n"
-	.string "You decide which POKéMON leads off!\p"
-	.string "Don't be shy now.\n"
-	.string "Let's blurt it out!$"
+	.string "헬-로!\n"
+	.string "마이 티처 {PLAYER}\l"
+	.string "오늘도 어드바이스 팍팍 부탁할게!\p"
+	.string "아저씨 쓰리 포켓몬으로\n"
+	.string "팀을 만들기까진 했는데\l"
+	.string "아직 순서를 못 정했거든\p"
+	.string "그러니까! {PLAYER}{K_IGA}\n"
+	.string "먼저 처음에 내보낼 포켓몬을\l"
+	.string "파밧 정해줘!$"
 	@ ハロ-ウ!ｎ
 	@ マイ ティ-チャ- §あ§おｌ
 	@ きょうも アドバイス バンバンたのむよ!ｐ
@@ -2386,11 +2383,11 @@ gText_ApprenticeWhichMonFirst9:: @ 82BD9BE
 	@ ササ-っと きめちゃって くれ!
 
 gText_ApprenticeMonFirstThanks9:: @ 82BDAE1
-	.string "Uh-huh, my {STR_VAR_1} leads off!\n"
-	.string "OK, A-OK!\l"
-	.string "I'll reorder the lineup, like, wham!\p"
-	.string "All right, thanks, as always!\n"
-	.string "Adios!$"
+	.string "아하 {STR_VAR_1} 말이지\n"
+	.string "오케이 오케이!\l"
+	.string "아저씨 휙 하고 바꿔둘게!\p"
+	.string "그럼 앞으로도 잘 부탁해\n"
+	.string "아디오스-!$"
 	@ あはぁ §いねｎ
 	@ オ-ケイ オ-ケイ!ｌ
 	@ おじさん ガガ-っと いれかえるよ!ｐ
@@ -2398,17 +2395,16 @@ gText_ApprenticeMonFirstThanks9:: @ 82BDAE1
 	@ アディオ-ス!
 
 gText_ApprenticeWhichMonFirst10:: @ 82BDB4E
-	.string "{PLAYER}{KUN}, listen!\n"
-	.string "It's a crisis!\p"
-	.string "My POKéMON, all three of them, go into\n"
-	.string "battle at once!\p"
-	.string "Of course that's impossible!\n"
-	.string "Wahahaha!\p"
-	.string "This is no lie, though.\n"
-	.string "I'm not very good at thinking about\l"
-	.string "how I should line up my POKéMON.\p"
-	.string "So, how about deciding for me which\n"
-	.string "POKéMON should go first, master?$"
+	.string "{PLAYER} 들어봐 큰일이라고!\n"
+	.string "내 포켓몬 배틀하라고 하면\l"
+	.string "3마리가 동시에 나가버려!\l"
+	.string "...농담이야 그럴 리 없잖아 으하하!\p"
+	.string "실은 나 포켓몬의\n"
+	.string "순서를 정하는 데\l"
+	.string "그다지 재능이 없거든!\l"
+	.string "거기서 제안 하나! 내 포켓몬 중\l"
+	.string "어느 녀석을 처음에 내보내면 좋을지\l"
+	.string "스승님이 정해주지 않을래?$"
 	@ §あ§お きいてくれ たいへんだ!ｎ
 	@ おいらの ポケモンと きたらｌ
 	@ 3びき いっしょに とびだすんだよ!ｌ
@@ -2421,12 +2417,13 @@ gText_ApprenticeWhichMonFirst10:: @ 82BDB4E
 	@ ししょうが きめて くれない かな?
 
 gText_ApprenticeMonFirstThanks10:: @ 82BDC6B
-	.string "Okay, so it's my {STR_VAR_1} you chose?\n"
-	.string "I'll let any but that one go first!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks, master!\n"
-	.string "I hope you'll keep teaching me!$"
+	.string "그렇구나\n"
+	.string "{STR_VAR_1}{K_IGA} 좋단 말이지!\l"
+	.string "그럼 그 녀석만 빼고 선두에 내보내야겠다!\p"
+	.string "...농담이야 농담!\n"
+	.string "스승님이 말한 대로 할게\p"
+	.string "고마워 스승님!\n"
+	.string "다음에도 잘 부탁해-$"
 	@ そうかｎ
 	@ §いが いいのね!ｌ
 	@ じゃあ そいつだけは やめようっと!ｐ
@@ -2436,15 +2433,13 @@ gText_ApprenticeMonFirstThanks10:: @ 82BDC6B
 	@ また あったら よろしくな-
 
 gText_ApprenticeWhichMonFirst11:: @ 82BDD0D
-	.string "A-H-O-Y!\n"
-	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
-	.string "I present to you a question\l"
-	.string "that's pretty fly!\p"
-	.string "It's a team lineup question\n"
-	.string "that begs your suggestion!\p"
-	.string "Out of this lot, which should go first\n"
-	.string "as the first on the spot?$"
+	.string "안-녕-하-세-요!\n"
+	.string "네 안녕하십니까!\l"
+	.string "시원한 선원인 저와\l"
+	.string "오늘의 상담 타임! 시작합니다!\l"
+	.string "순서에 관한 상담이라구요!\p"
+	.string "대답 주시죠! 이 중에서\n"
+	.string "선두에 내보내야 할 포켓몬은?$"
 	@ こ®ん®に®ち®は!ｎ
 	@ は-い こんにちは!ｌ
 	@ ノリノリ ふなのりの わしのｌ
@@ -2454,25 +2449,22 @@ gText_ApprenticeWhichMonFirst11:: @ 82BDD0D
 	@ せんとうに したい ポケモンは どれ?
 
 gText_ApprenticeMonFirstThanks11:: @ 82BDDEC
-	.string "Okay, I hear you, sure I do!\n"
-	.string "I'll switch them up, that I'll do!\p"
-	.string "If it's advice I ever need,\n"
-	.string "{PLAYER}, your word I'll always heed!$"
+	.string "{STR_VAR_1}{K_I}란 말인가-앗! 요요!\n"
+	.string "그럼 시원하게 바꿔두겠습니다!\p"
+	.string "앞으로도 잘 부탁드립니다\n"
+	.string "{PLAYER}님!$"
 	@ §いか-っ! ようよう!ｎ
 	@ そんなら ノリノリで いれかえるぜ!ｐ
 	@ これからも ヨロシク たのむぜｎ
 	@ §あさん!
 
 gText_ApprenticeWhichMonFirst12:: @ 82BDE68
-	.string "Yahoo, {PLAYER}!\n"
-	.string "How do you do?\p"
-	.string "What should I do? Go ahead and ask?\n"
-	.string "Uh-huh, I have something to ask!\l"
-	.string "Are you receiving me?\l"
-	.string "You are receiving me!\p"
-	.string "You have to decide, which of my\n"
-	.string "POKéMON is the first to ride!\l"
-	.string "Into battle, I mean to say.$"
+	.string "야-호- {PLAYER}님 아냐-?\n"
+	.string "어떡하지 나? 그거 물어볼까?\l"
+	.string "상담할 게 있는데 들어줘!\l"
+	.string "앗 근데 이미 듣고 있네!!?\p"
+	.string "내 포켓몬 중에서 어느 녀석을\n"
+	.string "처음에 내보낼지 정해줘어엇!$"
 	@ ヤァ-フゥ- §あさんじゃ-ん?ｎ
 	@ どうする オレ? アレきいてみる!?ｌ
 	@ そうだんが あるんだけど きいてェ!ｌ
@@ -2481,11 +2473,11 @@ gText_ApprenticeWhichMonFirst12:: @ 82BDE68
 	@ さいしょに だしたら いいか きめてエェ!
 
 gText_ApprenticeMonFirstThanks12:: @ 82BDF4D
-	.string "My {STR_VAR_1}? Yes!\n"
-	.string "That'll do, there's no distress!\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me.\p"
-	.string "See you again, my smart friend!$"
+	.string "{STR_VAR_1}{K_I}라고? 오우 예스!\n"
+	.string "그럼 그렇게 해볼게!!\p"
+	.string "앗 근데 {PLAYER}님\n"
+	.string "나 잊으면 안 돼!\l"
+	.string "또 보자!$"
 	@ §いだって! イエス!ｎ
 	@ じゃ そうしてみる!!ｐ
 	@ って §あさんｎ
@@ -2493,16 +2485,17 @@ gText_ApprenticeMonFirstThanks12:: @ 82BDF4D
 	@ また あおうぜ!!
 
 gText_ApprenticeWhichMonFirst13:: @ 82BDFD8
-	.string "…Oof…ooch… {PLAYER}{KUN}…\n"
-	.string "My stomach's hurting all of a sudden…\p"
-	.string "…It's getting better now…\p"
-	.string "I must've worried myself sick racking\n"
-	.string "my brains on how I should line up\l"
-	.string "my posse of POKéMON.\p"
-	.string "So, things being this way,\n"
-	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, which of my POKéMON should\n"
-	.string "go first? So I'd win, I mean.$"
+	.string "으으 {PLAYER}...\n"
+	.string "배가 아프니까 잠깐 기다려줘...\p"
+	.string "...아아 좀 나아졌다...\p"
+	.string "어느 포켓몬을 승부할 때\n"
+	.string "첫 번째로 내보낼지 고민 중인데\l"
+	.string "고민을 해도 너무 했나봐!\p"
+	.string "그러니까\n"
+	.string "대신 좀 정해주라!\p"
+	.string "{PLAYER}{K_EUNNEUN} 내 포켓몬 중\n"
+	.string "누구를 처음에 내보내야\l"
+	.string "이길 수 있다고 생각해?$"
 	@ うう §あ§お ……ｎ
 	@ おなか いたくってさ ちょっとまって……ｐ
 	@ ……ああ なおってきた……ｐ
@@ -2516,29 +2509,26 @@ gText_ApprenticeWhichMonFirst13:: @ 82BDFD8
 	@ かてると おもうかい?
 
 gText_ApprenticeMonFirstThanks13:: @ 82BE0FD
-	.string "Hm, all right.\n"
-	.string "My {STR_VAR_1} goes first.\p"
-	.string "I'll fix the lineup like that after\n"
-	.string "I have my supper.\p"
-	.string "I hope I can keep hitting you up\n"
-	.string "for help like this.$"
+	.string "응 알았어 {STR_VAR_1} 말이지!\n"
+	.string "그럼 밥 먹고 나서\l"
+	.string "그렇게 해봐야겠다\p"
+	.string "앞으로도 나를 잘 부탁한다고!$"
 	@ ん わかった §いな!ｎ
 	@ じゃあ ごはんを たべたらｌ
 	@ そういうふうに してみるよ!ｐ
 	@ これからも おれを よろしく たのむよ!
 
 gText_ApprenticeWhichMonFirst14:: @ 82BE189
-	.string "Er… Um…\n"
-	.string "{PLAYER}{KUN}?\p"
-	.string "Please, don't look at me that way.\n"
-	.string "You're making me feel all flustered.\p"
-	.string "Um…\n"
-	.string "I really need your advice.\p"
-	.string "It makes me bashful to say this,\n"
-	.string "but I chose my 3-POKéMON team.\l"
-	.string "I can't decide on the order, though.\p"
-	.string "Which POKéMON should I send out first\n"
-	.string "so I at least look capable?$"
+	.string "아... 아...\n"
+	.string "{PLAYER} 맞지?\l"
+	.string "그 그렇게 보지 말아주게!\l"
+	.string "부끄럽단 말일세\l"
+	.string "하나... 상담할 게 있네\p"
+	.string "부 부끄러워하면서\n"
+	.string "참가시킬 포켓몬 3마리는 정했다만\l"
+	.string "내보낼 순서를 못 정했다네\p"
+	.string "어느 포켓몬을 1번째로\n"
+	.string "내보내야 체면이 서겠나...?$"
 	@ あ…… あ……ｎ
 	@ §あ§お だよね?ｌ
 	@ そ そんなに みないで くれよ!ｌ
@@ -2551,13 +2541,12 @@ gText_ApprenticeWhichMonFirst14:: @ 82BE189
 	@ だせば かっこが つくの かな……?
 
 gText_ApprenticeMonFirstThanks14:: @ 82BE2A5
-	.string "Oh… Okay!\n"
-	.string "I'll lead with my {STR_VAR_1}.\p"
-	.string "I hope I can do my best without\n"
-	.string "getting all flustered.\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "If we meet again, I hope you will be\l"
-	.string "as helpful.$"
+	.string "아 알겠네!\n"
+	.string "{STR_VAR_1}부터 내보내도록 하지\p"
+	.string "으으 부끄러움 안 타고\n"
+	.string "열심히 할 수 있을까...?\p"
+	.string "고맙네 {PLAYER}\n"
+	.string "다음에 또 보면... 잘 부탁하네$"
 	@ よ よし!ｎ
 	@ §いから だして みるよｐ
 	@ うう はずかし がらずにｎ
@@ -2566,16 +2555,15 @@ gText_ApprenticeMonFirstThanks14:: @ 82BE2A5
 	@ また こんど あえたら…… よろしくね
 
 gText_ApprenticeWhichMonFirst15:: @ 82BE33E
-	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
-	.string "But are you really?\l"
-	.string "Perhaps you're a clever look-alike?\p"
-	.string "Oh, no, no, no, don't worry!\n"
-	.string "If you really are {PLAYER}, please\l"
-	.string "forget about my rudeness.\p"
-	.string "What I would like is your fine advice.\p"
-	.string "I have here my POKéMON team.\n"
-	.string "I would like you to tell me which one\l"
-	.string "should go first in a battle.$"
+	.string "응?\n"
+	.string "{PLAYER}처럼 보인다만...\l"
+	.string "그림자분신이라도 쓴 건 아니겠지?\p"
+	.string "아닐세 아닐세! 진짜라면 됐네\n"
+	.string "화내지 말게나!\l"
+	.string "그나저나 조언을 부탁하고 싶네!\p"
+	.string "내 지닌 포켓몬 중에서\n"
+	.string "어느 포켓몬을 승부에 처음으로\l"
+	.string "내보내면 좋을지 알려주게나$"
 	@ ん?ｎ
 	@ §あ§おの ように みえるが……ｌ
 	@ かげむしゃ って ことは ないだろうねｐ
@@ -2587,13 +2575,12 @@ gText_ApprenticeWhichMonFirst15:: @ 82BE33E
 	@ だせば いいのか おしえて ほしい
 
 gText_ApprenticeMonFirstThanks15:: @ 82BE46C
-	.string "My {STR_VAR_1}…\n"
-	.string "You aren't pulling my leg?\p"
-	.string "I see. If that's the case, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "I am as you see, but I shall do\n"
-	.string "my best.\p"
-	.string "Let us meet again!$"
+	.string "{STR_VAR_1}...\n"
+	.string "거짓말은 아니겠지?\p"
+	.string "아니 진짜라면 됐네\n"
+	.string "정말 고맙군\l"
+	.string "이런 나지만 열심히 해보겠네\p"
+	.string "그럼 언젠가 다시 보도록 하지!$"
 	@ §い……ｎ
 	@ うそでは ないだろうね?ｐ
 	@ いや ほんとう なら いいんだｎ
@@ -2602,919 +2589,1644 @@ gText_ApprenticeMonFirstThanks15:: @ 82BE46C
 	@ では いずれまた あおう!
 
 gText_ApprenticeWhichMon0:: @ 82BE50D
-	.string "Snivel…\n"
-	.string "Oh, {PLAYER}!\p"
-	.string "What perfect timing!\n"
-	.string "There's something I just can't decide…\p"
-	.string "I can't decide which POKéMON I should\n"
-	.string "be using.\p"
-	.string "I can't decide between the POKéMON\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}…\p"
-	.string "{PLAYER}, which do you think will give\n"
-	.string "even me a chance at winning?$"
+	.string "훌쩍...\n"
+	.string "앗 {PLAYER}님!\l"
+	.string "마침 만나서 잘됐네요\l"
+	.string "저 정하지 못하겠는 게 있어서...\p"
+	.string "그게 있죠 포켓몬 말인데요\n"
+	.string "어느 쪽을 쓸지 못 정하겠어요\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\n"
+	.string "고민하는 중인데...\l"
+	.string "{PLAYER}님은 어느 쪽을 써야\l"
+	.string "이런 제가 이길 수 있을 거라 생각하세요?$"
+	@ グスン……ｎ
+	@ あっ §あさん!ｌ
+	@ ちょうど よかったようｌ
+	@ ぼく きめられない ことが あって……ｐ
+	@ あのね ポケモンをねｎ
+	@ どっちを つかうか きめられないんですｐ
+	@ §い と §うでｎ
+	@ まよって いるんだけど……ｌ
+	@ §あさんは どっち だったらｌ
+	@ ぼくでも かてそう って おもいますか?
 
 gText_ApprenticeMonThanks0:: @ 82BE5F5
-	.string "Snivel… I… I understand!\n"
-	.string "Oh! I'm so sorry!\l"
-	.string "You've made me so happy, I'm crying…\p"
-	.string "I'll do my best to catch one\n"
-	.string "{STR_VAR_1}!\p"
-	.string "Thank you so much!$"
+	.string "훌쩍 아 알겠습니다!\n"
+	.string "아 죄송해요 너무 기뻐서 눈물이...\p"
+	.string "저 힘내서 {STR_VAR_1}{K_EULREUL}\n"
+	.string "잡아오도록 할게요!\p"
+	.string "정말 감사합니다! 이만 실례할게요$"
+	@ グスっ わ わかりました!ｎ
+	@ あ ごめんなさい うれしくて なみだが……ｐ
+	@ ぼく がんばって §いをｎ
+	@ つかまえてみます!ｐ
+	@ じゃあ ありがとう ございました!
 
 gText_ApprenticeWhichMon1:: @ 82BE679
-	.string "Yay! It's {PLAYER}!\n"
-	.string "Yay, you came at the right time, too!\l"
-	.string "I need your advice again!\p"
-	.string "Um, I'm all mixed up--should I use\n"
-	.string "my {STR_VAR_1} or {STR_VAR_2}…\p"
-	.string "Which do you think I should raise,\n"
-	.string "{PLAYER}?$"
+	.string "앗! {PLAYER}님이다-!\n"
+	.string "와아 마침 잘 만났네\l"
+	.string "오늘도 나하고 상담 좀 해주라!\p"
+	.string "저기 있지 나 말야\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\l"
+	.string "어느 쪽을 쓸지 고민 중이거든\p"
+	.string "누구를 키워야 할까\n"
+	.string "{PLAYER}님은 어떻게 생각해?$"
+	@ あっ! §あさんだ-!ｎ
+	@ わ-い ちょうど よかったｌ
+	@ きょうも ボクの そうだんに のってね!ｐ
+	@ あのね ボクねｎ
+	@ §いと §うの どっちをｌ
+	@ つかうか まよっちゃったのｐ
+	@ どっちを そだてようかなあｎ
+	@ §あさんは どう おもう?
 
 gText_ApprenticeMonThanks1:: @ 82BE71E
-	.string "Oh, so my {STR_VAR_1} is better!\n"
-	.string "Okay, I'll do that!\p"
-	.string "Thanks for teaching me!$"
+	.string "헤에\n"
+	.string "{STR_VAR_1}{K_IGA} 좋구나!\l"
+	.string "그럼 그렇게 할게-!\p"
+	.string "고마워 선생님!$"
+	@ へえｎ
+	@ §いが いいのか!ｌ
+	@ じゃあ そうする-!ｐ
+	@ せんせい ありがと!
 
 gText_ApprenticeWhichMon2:: @ 82BE762
-	.string "{PLAYER}, hello!\n"
-	.string "I have a question I wanted to ask.\p"
-	.string "I'm in a dilemma over whether I should\n"
-	.string "raise one {STR_VAR_1} or {STR_VAR_2}.\p"
-	.string "Which POKéMON do you think will\n"
-	.string "be stronger?$"
+	.string "{PLAYER}님 안녕하세요!\n"
+	.string "잠깐 질문드릴 게 있습니다!\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\n"
+	.string "어느 쪽을 쓸지 고민하고 있거든요!\p"
+	.string "어느 포켓몬이\n"
+	.string "더 강하다고 생각하세요?$"
+	@ §あさん こんにちは!ｎ
+	@ ちょっと しつもん させて ください!ｐ
+	@ §い と §う でｎ
+	@ どっちを つかうか なやんでるんです!ｐ
+	@ どっちの ポケモンがｎ
+	@ つよいと おもいますか?
 
 gText_ApprenticeMonThanks2:: @ 82BE7F8
-	.string "{STR_VAR_1} is your choice?\n"
-	.string "Okay, I got it!\p"
-	.string "I'll go catch a strong {STR_VAR_1}\n"
-	.string "right away!\p"
-	.string "See you again!$"
+	.string "{STR_VAR_1} 말이군요!\n"
+	.string "알겠습니다!\p"
+	.string "좋았어 바로\n"
+	.string "강한 {STR_VAR_1}{K_EULREUL} 잡아야지!\p"
+	.string "그럼 다음에 봬요!$"
+	@ §い ですね!ｎ
+	@ わかりました!ｐ
+	@ よし さっそくｎ
+	@ つよい §いを つかまえるぞ!ｐ
+	@ じゃあ また!
 
 gText_ApprenticeWhichMon3:: @ 82BE850
-	.string "Hello, {PLAYER}…\p"
-	.string "Um, you've probably already forgotten\n"
-	.string "about someone like me…\p"
-	.string "…But that doesn't matter if you\n"
-	.string "could give me advice…\p"
-	.string "I can't decide on the one kind of\n"
-	.string "POKéMON I should raise…\p"
-	.string "I've narrowed the field to the POKéMON\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}, but that's\l"
-	.string "where I became stuck…\p"
-	.string "{PLAYER}, you probably don't want to\n"
-	.string "bother, but please decide for me.$"
+	.string "{PLAYER}님...!\n"
+	.string "저기 어차피 저 같은 건\l"
+	.string "잊어버리셨겠지만\p"
+	.string "...그래도 괜찮으니까\n"
+	.string "상담 좀 부탁드릴게요...\p"
+	.string "저 키우고 싶은 포켓몬 하나조차\n"
+	.string "스스로 결정하지 못하겠어서...\l"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}\l"
+	.string "선택지를 두 개로 좁히긴 했는데\l"
+	.string "고민이 끝나질 않아요...\p"
+	.string "{PLAYER}님 싫으실지도 모르지만\n"
+	.string "부디 저 대신 정해주세요!$"
+	@ §あさん……!ｎ
+	@ あの あたしの ことなんてｌ
+	@ どうせ わすれて しまいました よねｐ
+	@ ……それでも いいです からｎ
+	@ そうだんに のって ください……ｐ
+	@ あたし そだてたい ポケモン ひとつｎ
+	@ じぶんで きめられなくって……ｌ
+	@ §い か §うｌ
+	@ どちらかに する までは きまったけどｌ
+	@ そこで まよってしまって……ｐ
+	@ §あさん いやかも しれませんがｎ
+	@ あたしの かわりに きめてください!
 
 gText_ApprenticeMonThanks3:: @ 82BE99C
-	.string "But will a wild {STR_VAR_1} even pay\n"
-	.string "attention to me?\p"
-	.string "I will try!\p"
-	.string "But will I even be able to catch one…\n"
-	.string "No! I'll do my best!\p"
-	.string "Thank you!$"
+	.string "저 따위가 하는 말을\n"
+	.string "{STR_VAR_1}{K_IGA} 들어줄지...\p"
+	.string "그래도 한번 해볼게요!\p"
+	.string "근데 그 전에 잡을 수는 있을까...?\n"
+	.string "아니지! 열심히 할게요\p"
+	.string "감사합니다!$"
+	@ あたし なんかの いうことｎ
+	@ §いが きいて くれるか……ｐ
+	@ でも やって みます!ｐ
+	@ そのまえに つかまえられるか……ｎ
+	@ いえ! がんばって みますｐ
+	@ ありがとう ございます!
 
 gText_ApprenticeWhichMon4:: @ 82BEA1B
-	.string "Oh, {PLAYER}{KUN}! I'm so glad to see you!\n"
-	.string "I was about to go looking for you!\p"
-	.string "Can you decide what kind of POKéMON\n"
-	.string "I should use?\p"
-	.string "For instance…\n"
-	.string "How about the POKéMON {STR_VAR_1}\l"
-	.string "and {STR_VAR_2}?\p"
-	.string "Which one do you think would be\n"
-	.string "better?$"
+	.string "{PLAYER} 잘됐다\n"
+	.string "마침 찾으러 가려고 했었거든!\p"
+	.string "저기 있지 내가 쓸 포켓몬\n"
+	.string "네가 정해주면 안 될까?\p"
+	.string "그러니까...\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\l"
+	.string "누가 더 좋다고 생각해?$"
+	@ §あ§お よかったｎ
+	@ さがしに いこうと おもってたのよ!ｐ
+	@ ねえ わたしが つかう ポケモンｎ
+	@ あなたが きめて くれない?ｐ
+	@ そうね……ｎ
+	@ §いと §うだったらｌ
+	@ どっちが いいと おもう?
 
 gText_ApprenticeMonThanks4:: @ 82BEAE9
-	.string "{STR_VAR_1}? That's great!\p"
-	.string "Knowing that you made the decision,\n"
-	.string "{PLAYER}{KUN}, I won't be so upset if\l"
-	.string "I lose.\p"
-	.string "Okay, I'll look to you for advice again.\n"
-	.string "Bye!$"
+	.string "{STR_VAR_1} 말이지 고마워!\n"
+	.string "{PLAYER}{K_IGA} 정해주니까\l"
+	.string "져도 마음이 편할 것 같아!\p"
+	.string "그럼 안녕\n"
+	.string "다음에 또 상담해줘!$"
+	@ §いね ありがと!ｎ
+	@ §あ§おが きめた って おもえばｌ
+	@ まけても きが らくだわ!ｐ
+	@ じゃあねｎ
+	@ また そうだんに のってね!
 
 gText_ApprenticeWhichMon5:: @ 82BEB72
-	.string "If it isn't {PLAYER}{KUN}! How's it going?\n"
-	.string "I'm busy again as always!\p"
-	.string "I want to do good with POKéMON, too,\n"
-	.string "but I haven't been able to decide\l"
-	.string "which POKéMON I should use.\p"
-	.string "You know how {STR_VAR_1} look strong?\n"
-	.string "But {STR_VAR_2} are tough to ignore.\p"
-	.string "{PLAYER}{KUN}, give me some of your good\n"
-	.string "advice! Which one'd be good for me?$"
+	.string "어라-\n"
+	.string "{PLAYER}잖아 잘 지내?\l"
+	.string "난 변함없이 바쁘다고!\p"
+	.string "포켓몬 쪽에도 집중하고 싶은데\n"
+	.string "누구를 잡을지도 못 정하겠어-\p"
+	.string "그러니까 물어볼게!\n"
+	.string "{STR_VAR_1}{K_EUNNEUN} 강해보이잖아?\l"
+	.string "근데 {STR_VAR_2}도 멋지단 말이지-\p"
+	.string "{PLAYER} 어드바이스 좀 해줘!\n"
+	.string "어느 포켓몬이 좋을까?$"
+	@ あっれ-ｎ
+	@ §あ§お じゃない げんき?ｌ
+	@ オレは あいかわらず いそがしくてさ!ｐ
+	@ ポケモンも がんばりたいんだ けどｎ
+	@ どいつを つかうかも きまんなくてね-ｐ
+	@ あのさ!ｎ
+	@ §いって つよそう じゃん?ｌ
+	@ でも §うも すてがたいよね-ｐ
+	@ §あ§お アドバイス してよ!ｎ
+	@ どっちの ポケモンが イイかな?
 
 gText_ApprenticeMonThanks5:: @ 82BEC8E
-	.string "Okay, gotcha.\n"
-	.string "I'll find time somehow and catch me\l"
-	.string "that {STR_VAR_1} you recommended.\p"
-	.string "I'm glad I met a good mentor in you.\n"
-	.string "Thanks! See you around!$"
+	.string "오케이 알았어!\n"
+	.string "그럼 어떻게든 시간을 내서\l"
+	.string "{STR_VAR_1}{K_EULREUL} 잡아봐야겠다!\p"
+	.string "난 좋은 선생님을 만났는걸\n"
+	.string "땡큐! 그럼 또 보자!$"
+	@ オ-ケ- わかった!ｎ
+	@ じゃ なんとか じかん つくってｌ
+	@ §いを つかまえて みるぜ!ｐ
+	@ オレは いい せんせいに であえたよなｎ
+	@ サンキュ-! じゃ またな!
 
 gText_ApprenticeWhichMon6:: @ 82BED16
-	.string "Oh!\n"
-	.string "Yay, it's {PLAYER}!\p"
-	.string "I didn't waste any time boasting to\n"
-	.string "my friends about meeting you!\p"
-	.string "I need to tap your mind again today.\n"
-	.string "It's an easy one for you!\p"
-	.string "Drum roll, please!\n"
-	.string "The question I have is…\p"
-	.string "If I were to raise a POKéMON,\n"
-	.string "and the choices were one {STR_VAR_1}\l"
-	.string "or {STR_VAR_2}, which should it be?$"
+	.string "앗 와아!\n"
+	.string "{PLAYER}님이잖아!\l"
+	.string "나 요전에 친구들한테\l"
+	.string "아는 사이라고 자랑했다!\p"
+	.string "저기 있지 오늘도 어드바이스 부탁할게!\n"
+	.string "간단한 거야!\p"
+	.string "자 그럼 질문입니다!\n"
+	.string "내가 키울 포켓몬으로!\l"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중 누가 좋을까?$"
+	@ あっ わ-いｎ
+	@ §あさん じゃない!ｌ
+	@ わたし さっそく ともだちにｌ
+	@ しりあいだって じまん しちゃったよ!ｐ
+	@ ねえねえ きょうも アドバイス おねがい!ｎ
+	@ かんたんな こと だから ねっ!ｐ
+	@ ジャ-ン では しつもんです!ｎ
+	@ わたしが そだてる なら!ｌ
+	@ §いと §う さあどっち?
 
 gText_ApprenticeMonThanks6:: @ 82BEE29
-	.string "Ahhh!\n"
-	.string "{STR_VAR_1}, you say!\l"
-	.string "Thanks for a most cool answer!\p"
-	.string "I guess that's about all I wanted\n"
-	.string "to ask you today.\p"
-	.string "Let's meet here again, okay?\n"
-	.string "Thanks!$"
+	.string "호오-!\n"
+	.string "{STR_VAR_1}{K_I}라고요!\l"
+	.string "깔끔한 대답 고마워!\p"
+	.string "응 오늘은 이 정도가 다야\n"
+	.string "다음에 또 여기서 보자!\l"
+	.string "고마워!$"
+	@ へっえ-!ｎ
+	@ §い と きますかぁ!ｌ
+	@ シブイ おこたえ ありがとう!ｐ
+	@ ん きょうは こんなところ かなｎ
+	@ こんど また ここで あおうね!ｌ
+	@ ありがと!
 
 gText_ApprenticeWhichMon7:: @ 82BEEB4
-	.string "Oh, is it you, {PLAYER}?\n"
-	.string "I'm delighted to see you again!\p"
-	.string "Ever since I became your apprentice,\n"
-	.string "my confidence has been blooming.\p"
-	.string "I think I'm ready to raise a POKéMON\n"
-	.string "of my own!\p"
-	.string "{PLAYER}, may I impose on you to choose\n"
-	.string "which POKéMON I should raise?\p"
-	.string "The choices are the POKéMON\n"
-	.string "{STR_VAR_1} or {STR_VAR_2}…\l"
-	.string "Which POKéMON is right for me?$"
+	.string "어머 {PLAYER}님 아니신가요?\n"
+	.string "그간 평안하셨는지요...!\p"
+	.string "당신의 제자로 들어가고 나서\n"
+	.string "저 조금 자신감이 붙기 시작했답니다!\l"
+	.string "그래서 빨리 포켓몬을 키우고 싶다고\l"
+	.string "생각하고 있지요!\p"
+	.string "그래서 말이죠 {PLAYER}님께서\n"
+	.string "제 포켓몬을\l"
+	.string "정해주실 수는 없으신가요?\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}...\n"
+	.string "어느 포켓몬이 괜찮을까요?$"
+	@ まあ §あさんでは?ｎ
+	@ ごきげんよう……!ｐ
+	@ あなたに でしいり して わたくしｎ
+	@ すこし じしんが ついて まいりました!ｌ
+	@ ポケモンを さっそく そだてたいとｌ
+	@ おもって おりますの!ｐ
+	@ それでね §あさんにｎ
+	@ わたしの ポケモンをｌ
+	@ きめていただく わけには まいりませんか?ｐ
+	@ §いと §う……ｎ
+	@ どちらの ポケモンが よろしいでしょう?
 
 gText_ApprenticeMonThanks7:: @ 82BEFE2
-	.string "One {STR_VAR_1} it is!\n"
-	.string "I will find one right away!\p"
-	.string "Thank you, {PLAYER}.\n"
-	.string "I hope I can count on you again.\l"
-	.string "Please take care!$"
+	.string "{STR_VAR_1} 말이군요!\n"
+	.string "바로 찾아보도록 하겠습니다!\p"
+	.string "그럼 {PLAYER}님\n"
+	.string "앞으로도 잘 부탁드립니다\l"
+	.string "안녕히 계세요!$"
+	@ §い ですのね!ｎ
+	@ さっそく さがして きますわ!ｐ
+	@ それでは §あさんｎ
+	@ これからも よろしく おねがいしますわｌ
+	@ ごきげんよう!
 
 gText_ApprenticeWhichMon8:: @ 82BF04E
-	.string "Eek! {PLAYER}! I met you again!\n"
-	.string "I… I'm overjoyed!\p"
-	.string "Oh-oh-oh, I know!\n"
-	.string "I shouldn't pass up this opportunity!\p"
-	.string "May I ask a huge favor, {PLAYER}?\n"
-	.string "Please choose a POKéMON for me!\p"
-	.string "Please decide which would be better,\n"
-	.string "{STR_VAR_1} or {STR_VAR_2}!$"
+	.string "꺄- 또 {PLAYER}님을 만났어!\n"
+	.string "가 감격이야...!\p"
+	.string "마마마 맞다!\n"
+	.string "모처럼 만났는걸\l"
+	.string "이 기회를 놓칠 수는 없지!\p"
+	.string "{PLAYER}님 부탁이 있어요!\n"
+	.string "제 포켓몬을 정해주세요!\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\n"
+	.string "어느 쪽이 더 좋은가요!$"
+	@ キャ- §あさんに また あえた!ｎ
+	@ かっ かんげきっ……!ｐ
+	@ そそそ そうだわっ!ｎ
+	@ せっかく あえたん ですものｌ
+	@ この チャンスを のがす ては ないわっ!ｐ
+	@ §あさん おねがいが!ｎ
+	@ わたしの ポケモンを きめて くださいっ!ｐ
+	@ §いと §うとｎ
+	@ どちらが いいか きめて ほしいのですっ!
 
 gText_ApprenticeMonThanks8:: @ 82BF11D
-	.string "Wow! You decided for me!\n"
-	.string "One {STR_VAR_1} is what I'll raise to\l"
-	.string "the best of my ability.\p"
-	.string "I hope you'll be willing to teach me\n"
-	.string "some more another time.$"
+	.string "우와아아 정해주셨어!\n"
+	.string "{STR_VAR_1} 말이군요!\l"
+	.string "열심히 키워볼게요!\p"
+	.string "그럼 다음에 또\n"
+	.string "여러 가지 가르쳐 주세요!$"
+	@ うわぁぁ きめて もらっちゃったあ!ｎ
+	@ §い ですねっ!ｌ
+	@ がんばって そだてるで あります!ｐ
+	@ では また こんどｎ
+	@ いろいろと おしえて くださいね!
 
 gText_ApprenticeWhichMon9:: @ 82BF1A8
-	.string "Hey, hey!\n"
-	.string "My mentor, {PLAYER}{KUN}!\p"
-	.string "Hello, I've been looking for you\n"
-	.string "for some more of your sage advice!\p"
-	.string "Which kind of POKéMON would be right\n"
-	.string "for me, one {STR_VAR_1} or {STR_VAR_2}?\p"
-	.string "Don't be shy now.\n"
-	.string "Let's blurt it out!$"
+	.string "헤이 헤이 {PLAYER}!\n"
+	.string "아저씨의 포켓몬 티처!\p"
+	.string "헬로 너를 찾고 있었다고\n"
+	.string "어드바이스를 부탁할게!\p"
+	.string "아저씨가 쓸 포켓몬\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중에서\l"
+	.string "어느 쪽이 더 좋을까?\l"
+	.string "한 번에 딱 정해줘!$"
+	@ ヘイ ヘイ §あ§お!ｎ
+	@ おじさんの ポケモン ティ-チャ-!ｐ
+	@ ハロウ きみを さがしてたんだよｎ
+	@ アドバイスを おねがいするよ!ｐ
+	@ おじさんが つかう ポケモンｎ
+	@ どっちが いいかな?ｌ
+	@ §いか §うかｌ
+	@ パ-っと きめちゃって くれ!
 
 gText_ApprenticeMonThanks9:: @ 82BF268
-	.string "Uh-huh, one {STR_VAR_1} it is!\n"
-	.string "OK, A-OK!\l"
-	.string "I'll get one in a BALL, like, cram!\p"
-	.string "All right, thanks, as always!\n"
-	.string "Adios!$"
+	.string "아하 {STR_VAR_1} 말이지\n"
+	.string "오케이 오케이!\l"
+	.string "아저씨 파박 잡고 올게!\p"
+	.string "그럼 앞으로도 잘 부탁해\n"
+	.string "아디오스-!$"
+	@ あはぁ §いねｎ
+	@ オ-ケイ オ-ケイ!ｌ
+	@ おじさん ガ-っと つかまえて くるよ!ｐ
+	@ それじゃあ これからも よろしくねｎ
+	@ アディオ-ス!
 
 gText_ApprenticeWhichMon10:: @ 82BF2D1
-	.string "{PLAYER}{KUN}, listen! Big news!\n"
-	.string "I caught a mirage POKéMON!\p"
-	.string "Of course I'm lying!\n"
-	.string "Wahahaha!\p"
-	.string "This is no lie, though.\n"
-	.string "I'm not very good at catching\l"
-	.string "POKéMON.\p"
-	.string "So, how about deciding for me which\n"
-	.string "kind of POKéMON I should catch,\l"
-	.string "master?\p"
-	.string "Which would be better?\n"
-	.string "{STR_VAR_1} or {STR_VAR_2}?$"
+	.string "{PLAYER} 큰일이야 큰일!\n"
+	.string "환상의 포켓몬을 잡아버렸다구!\l"
+	.string "...농담이야 거짓말이지롱! 와하하\p"
+	.string "실은 나 포켓몬 잡는 데에\n"
+	.string "그다지 재능이 없어서 말야!\l"
+	.string "거기서 제안 하나! 어느 녀석을\l"
+	.string "내 포켓몬으로 잡으면 좋을지\l"
+	.string "스승님이 정해주지 않을래?\p"
+	.string "어느 쪽이 좋을까?\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}{K_I}라면...$"
+	@ §あ§お たいへんだ たいへんだ!ｎ
+	@ まぼろしの ポケモン つかまえちゃった!ｌ
+	@ ……なんて うそさ! わっはっはｐ
+	@ じつは おいら ポケモン つかまえるのｎ
+	@ あんまり とくいじゃ なくてさ!ｌ
+	@ ひとつ どうだろ おいらの ポケモンｌ
+	@ どいつを つかまえたら いいかｌ
+	@ ししょうが きめて くれない かな?ｐ
+	@ どっちが いいかな?ｎ
+	@ §いと §うだと……
 
 gText_ApprenticeMonThanks10:: @ 82BF3CF
-	.string "Okay, so it's {STR_VAR_1} you chose?\n"
-	.string "I'll grab the other kind, then!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks, master!\n"
-	.string "I hope you'll keep teaching me!$"
+	.string "그렇구나\n"
+	.string "{STR_VAR_1}{K_IGA} 좋단 말이지!\l"
+	.string "그럼 그 반대쪽을 잡아야겠다!\p"
+	.string "...농담이야 농담!\n"
+	.string "스승님이 말한 대로 할게\p"
+	.string "고마워 스승님!\n"
+	.string "다음에도 잘 부탁해-$"
+	@ そうかｎ
+	@ §いが いいのね!ｌ
+	@ じゃあ ちがうほうに しようっと!ｐ
+	@ …… なんて じょうだん!ｎ
+	@ ちゃんと ししょうの いうこと きくよｐ
+	@ ありがとう ししょう!ｎ
+	@ また あったら よろしくな-
 
 gText_ApprenticeWhichMon11:: @ 82BF46A
-	.string "A-H-O-Y!\n"
-	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
-	.string "Surely you remember who am I?\p"
-	.string "Today, I have a POKéMON question\n"
-	.string "that begs your suggestion!\p"
-	.string "I have the choice between this\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}, you see.\l"
-	.string "Which is the one to catch for me?$"
+	.string "안-녕-하-세-요!\n"
+	.string "네 안녕하십니까!\l"
+	.string "시원한 선원인 저를\l"
+	.string "당연히 기억하시겠죠 당신?\p"
+	.string "자 오늘도 질문 갑니다!\n"
+	.string "포켓몬에 관한 상담이라구요!\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}\n"
+	.string "저는 어느 쪽을 잡으면 좋을까요?$"
+	@ こ®ん®に®ち®は!ｎ
+	@ は-い こんにちは!ｌ
+	@ ノリノリ ふなのりの わしｌ
+	@ きみは とうぜん おぼえてるだろ?ｐ
+	@ きょうも わしの しつもん いってみよう!ｎ
+	@ ポケモンに かんする そうだんだよ!ｐ
+	@ §い と §うｎ
+	@ わしが つかまえるなら さあ どっち?
 
 gText_ApprenticeMonThanks11:: @ 82BF551
-	.string "{STR_VAR_1}, you say, hey, hey!\n"
-	.string "I'll go get me one right away!\p"
-	.string "If it's advice I ever need,\n"
-	.string "{PLAYER}, your word I'll always heed!$"
+	.string "{STR_VAR_1}입니까-앗! 요요!\n"
+	.string "그렇다면 시원시원하게 찾아보죠!\p"
+	.string "앞으로도 잘 부탁드립니다\n"
+	.string "{PLAYER}님!$"
+	@ §いか-っ! ようよう!ｎ
+	@ そんなら ノリノリで さがしてくるぜ!ｐ
+	@ これからも ヨロシク たのむぜｎ
+	@ §あさん!
 
 gText_ApprenticeWhichMon12:: @ 82BF5C3
-	.string "Oh, wow, if it isn't {PLAYER}!\p"
-	.string "What should I do? Get your advice?\n"
-	.string "Why not? I'm already talking to you!\p"
-	.string "It's been a long time. Let me break\n"
-	.string "the ice. I'm also looking for advice!\l"
-	.string "Are you receiving me?\l"
-	.string "You are receiving me!\p"
-	.string "My POKéMON--which should I use?\n"
-	.string "It's either {STR_VAR_1} or {STR_VAR_2}.\l"
-	.string "Which do you choose?$"
+	.string "우오옷 {PLAYER}님 아냐-!?\n"
+	.string "어떡하지 나? 상담해볼까!?\l"
+	.string "앗 근데 이미 말 걸고 있잖아!?\p"
+	.string "안녕 오랜만이야!\n"
+	.string "상담이 있는데 들어줘어!\l"
+	.string "듣고 있지!? 들어야 돼!!\l"
+	.string "내 포켓몬 뭘로 하면 좋을까!?\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2}\n"
+	.string "어느 쪽이 좋을까 자 정해줘!$"
+	@ ゥワォ §あさんじゃな-い!?ｎ
+	@ どうする オレ? そうだんしてみる!?ｌ
+	@ って もう はなしかけてる!?ｐ
+	@ オスっ ひさしぶり ですっ!ｎ
+	@ そうだんが あるんだけど きいてェ!ｌ
+	@ って きいてる!? きいてる!!ｌ
+	@ オレの ポケモン なにに したらいいかな!ｐ
+	@ §いと §うｎ
+	@ どっちが いいか さあ きめて!
 
 gText_ApprenticeMonThanks12:: @ 82BF6E5
-	.string "If that {STR_VAR_1} is the best,\n"
-	.string "I'll do as you suggest!\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me.\p"
-	.string "See you again, my smart friend!$"
+	.string "{STR_VAR_1}{K_I}라고오오!\n"
+	.string "그럼 빠르게 찾아보겠습니다!!\p"
+	.string "앗 근데 {PLAYER}님\n"
+	.string "나 잊으면 안 돼!\l"
+	.string "또 보자!$"
+	@ §いだってエェ!ｎ
+	@ じゃ さっそく さがしてみるよ!!ｐ
+	@ って §あさんｎ
+	@ オレの こと わすれんなよ!ｌ
+	@ また あおうぜ!!
 
 gText_ApprenticeWhichMon13:: @ 82BF773
-	.string "Oh, hi, {PLAYER}{KUN}…\n"
-	.string "I have this horrible headache…\p"
-	.string "I must've worried too much about\n"
-	.string "the kind of POKéMON I should raise.\p"
-	.string "So, things being this way,\n"
-	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, if I had to choose between\n"
-	.string "the POKéMON {STR_VAR_1} and\l"
-	.string "{STR_VAR_2}, which should it be?$"
+	.string "{PLAYER}{K_I}구나\n"
+	.string "나 머리가 아파서 말야...\p"
+	.string "어느 포켓몬으로 할지\n"
+	.string "고민을 너무 한 걸 거야 분명\l"
+	.string "그러니까 말야\l"
+	.string "나 대신 정해주라!\p"
+	.string "{PLAYER}{K_EUNNEUN}\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중\l"
+	.string "어느 쪽이 내 포켓몬에 어울릴까?$"
+	@ §あ§おかぁｎ
+	@ おれ あたま いたくてさ……ｐ
+	@ どの ポケモンに するかｎ
+	@ なやみ すぎちゃったん だよね きっとｌ
+	@ というわけ だからさｌ
+	@ かわりに きめて くれよ!ｐ
+	@ §あ§おはさ おれの ポケモンｎ
+	@ §いと §う だったらｌ
+	@ どっちが あってると おもうかい?
 
 gText_ApprenticeMonThanks13:: @ 82BF869
-	.string "Hm, one {STR_VAR_1}, all right.\n"
-	.string "I'll go look for one when I get better.\p"
-	.string "I hope I can keep hitting you up\n"
-	.string "for help like this.$"
+	.string "응 알았어 {STR_VAR_1}{K_I}구나!\n"
+	.string "그럼 컨디션이 좋을 때\l"
+	.string "찾아볼게!\p"
+	.string "앞으로도 나를 잘 부탁해!$"
+	@ ん わかった §いな!ｎ
+	@ じゃあ たいちょうの いいときにｌ
+	@ さがしてみるよ!ｐ
+	@ これからも おれを よろしく たのむよ!
 
 gText_ApprenticeWhichMon14:: @ 82BF8DD
-	.string "Er… Um…\n"
-	.string "{PLAYER}{KUN}…?\p"
-	.string "Please, don't look at me that way.\n"
-	.string "I'm getting all flustered…\l"
-	.string "I… I need your advice.\p"
-	.string "I… I'm really embarrassed, but I can't\n"
-	.string "decide which POKéMON to use.\p"
-	.string "If the choices were {STR_VAR_1} or\n"
-	.string "{STR_VAR_2}, which would be better?$"
+	.string "아... 아...\n"
+	.string "{PLAYER} 맞지...?\l"
+	.string "그 그렇게 보지 말아주게!\l"
+	.string "부끄럽단 말일세\l"
+	.string "잠깐... 상담 좀 해주게나\p"
+	.string "부 부끄럽지만 말일세!\n"
+	.string "쓸 포켓몬을 뭘로 할지 고민 중이라네\p"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중\n"
+	.string "어느 쪽을 쓰면 좋겠나...?$"
+	@ あ…… あ……ｎ
+	@ §あ§お だよね?ｌ
+	@ そ そんなに みないで くれよ!ｌ
+	@ てれるだろｌ
+	@ ちょっと…… そうだん させて くれよｐ
+	@ は はずかしいん だけどさ!ｎ
+	@ つかいたい ポケモンで なやんでててさｌ
+	@ §いと §うだったらｌ
+	@ どっちを つかったら いい かな……?
 
 gText_ApprenticeMonThanks14:: @ 82BF9BA
-	.string "Oh… Okay!\n"
-	.string "I'll do my best with one {STR_VAR_1}.\p"
-	.string "I hope I can do my best without\n"
-	.string "getting all flustered.\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "If we meet again, I hope you will be\l"
-	.string "as helpful.$"
+	.string "아 알겠네!\n"
+	.string "{STR_VAR_1}{K_EU}로 힘내보지\p"
+	.string "으으 부끄러움 안 타고\n"
+	.string "열심히 할 수 있을까...?\p"
+	.string "고맙네 {PLAYER}\n"
+	.string "다음에 또 보면... 잘 부탁하네$"
+	@ よ よし!ｎ
+	@ §いで がんばって みるよｐ
+	@ うう はずかし がらずにｎ
+	@ がんばれる かな……?ｐ
+	@ ありがとう §あ§おｎ
+	@ また こんど あえたら…… よろしくね
 
 gText_ApprenticeWhichMon15:: @ 82BFA5A
-	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
-	.string "But are you really real?\p"
-	.string "No, no, if you are real, it's fine.\n"
-	.string "Incidentally, I would like to obtain\l"
-	.string "your advice.\p"
-	.string "It's about the POKéMON I am to use.\p"
-	.string "If the choices are the POKéMON\n"
-	.string "{STR_VAR_1} and {STR_VAR_2}, which is\l"
-	.string "more worthy of me?$"
+	.string "응?\n"
+	.string "{PLAYER}처럼 보인다만...\l"
+	.string "진짜인가?\p"
+	.string "아니 진짜라면 됐네\n"
+	.string "그리고 제자인 내게\l"
+	.string "조언을 부탁하네!\p"
+	.string "내가 쓸 포켓몬 말이다만\n"
+	.string "{STR_VAR_1}{K_WAGWA} {STR_VAR_2} 중\l"
+	.string "어느 쪽이 내게 어울리나?$"
+	@ ん?ｎ
+	@ §あ§おの ように みえるが……ｌ
+	@ ほんもの なのかね?ｐ
+	@ いや ほんもの なら いいんだｎ
+	@ ついでに でしの わたしにｌ
+	@ じょげんを おねがい したい!ｐ
+	@ わたしが つかう ポケモンの ことだがｎ
+	@ §いと §うであればｌ
+	@ どちらが わたしに ふさわしい かな?
 
 gText_ApprenticeMonThanks15:: @ 82BFB4E
-	.string "{STR_VAR_1}?\n"
-	.string "Are you certain?\p"
-	.string "I see. If that's the case, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "I do hope it is something even I can\n"
-	.string "handle with aplomb.\p"
-	.string "Let us meet again!$"
+	.string "{STR_VAR_1}... 자네 맞나?\p"
+	.string "아니 진짜라면 됐네\n"
+	.string "정말 고맙네\l"
+	.string "이런 나라도\l"
+	.string "잘 쓸 수 있으면 좋겠군\p"
+	.string "그럼 언젠가 다시 보도록 하지!$"
+	@ §い…… ほんとうかね?ｐ
+	@ いや ほんとう なら いいんだｎ
+	@ どうも ありがとうｌ
+	@ こんな わたし でもｌ
+	@ なんとか つかい こなせると いいなｐ
+	@ では いずれまた あおう!
 
 gText_ApprenticeWhichMove0:: @ 82BFBF2
-	.string "Waaah! Oh, {PLAYER}!\n"
-	.string "Snivel… Hiccup…\p"
-	.string "I have a dilemma!\n"
-	.string "I can't decide on a move for\l"
-	.string "my {STR_VAR_1}…\p"
-	.string "Please, please, {PLAYER}.\n"
-	.string "Can you decide for me?\p"
-	.string "For my {STR_VAR_1}, which move would\n"
-	.string "be the better choice: {STR_VAR_2}\l"
-	.string "or {STR_VAR_3}?$"
+	.string "으앙- {PLAYER}님!\n"
+	.string "훌쩍... 히끅\l"
+	.string "저 어떻게 하면 좋을지 모르겠어요!\l"
+	.string "제 {STR_VAR_1}한테 기술을\l"
+	.string "뭘 가르칠지 못 정하고 있거든요...\p"
+	.string "저기 그래서 말인데요!\n"
+	.string "{PLAYER}님이 정해주시면 안 될까요?\p"
+	.string "{STR_VAR_1}의 기술\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중에서\l"
+	.string "어느 게 더 좋을까요...?$"
+	@ うわ-ん §あさんだ!ｎ
+	@ ぐすん ひっくｌ
+	@ ぼく なやんで いるんですよう!ｌ
+	@ ぼくの §いのね わざがｌ
+	@ なかなか きまらないん です……ｐ
+	@ あのう あのう!ｎ
+	@ §あさん きめて もらえませんか?ｐ
+	@ §いの わざｎ
+	@ §うと §えならｌ
+	@ どっちが いいんでしょう……?
 
 gText_ApprenticeMoveThanks0:: @ 82BFCAE
-	.string "{STR_VAR_1}?\n"
-	.string "Waaaaah!\p"
-	.string "Oh! I'm so sorry, {PLAYER}!\n"
-	.string "You've made me so happy by deciding\l"
-	.string "the move, I'm crying…\p"
-	.string "Snivel…\n"
-	.string "Thank you so much!$"
+	.string "{STR_VAR_1} 말이죠!\n"
+	.string "으흑 으아아아앙!\p"
+	.string "앗! 죄송합니다\n"
+	.string "{PLAYER}님이 기술을\l"
+	.string "정해주신 게 기뻐서 그만 눈물이...\p"
+	.string "...훌쩍\n"
+	.string "감사합니다!\l"
+	.string "또 상담해 주세요!$"
+	@ §い ですね!ｎ
+	@ うぅ うわああぁん!ｐ
+	@ あ! ごめんなさいｎ
+	@ §あさんが わざをｌ
+	@ きめてくれた うれしさで なみだが……ｐ
+	@ ……グスンｎ
+	@ ありがとう ございました!ｌ
+	@ また おはなし してください!
 
 gText_ApprenticeWhichMove1:: @ 82BFD26
-	.string "Yay! Hi, {PLAYER}!\n"
-	.string "I need your advice again!\p"
-	.string "I want to teach my {STR_VAR_1}\n"
-	.string "a cool move.\p"
-	.string "I like either of the moves\n"
-	.string "{STR_VAR_2} or {STR_VAR_3}.\l"
-	.string "What's your recommendation?$"
+	.string "{PLAYER} 선생님 안녕!\n"
+	.string "또 알려줬으면 하는 게 있어!\p"
+	.string "내 {STR_VAR_1}에게\n"
+	.string "근사한 기술을 배우게 하고 싶거든!\l"
+	.string "그러니까 추천 좀 해줄래?\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3}\n"
+	.string "좋은 것 좀 골라줘...$"
+	@ §あせんせい こんにちは!ｎ
+	@ また おしえて ほしいことが あるの!ｐ
+	@ ぼくの §いにｎ
+	@ かっこいい わざを おしえたいの!ｌ
+	@ おすすめは どっちかな?ｐ
+	@ §うか §えがｎ
+	@ いいんだけど……
 
 gText_ApprenticeMoveThanks1:: @ 82BFDB1
-	.string "{STR_VAR_1} is better? I guess so!\n"
-	.string "Okay, I'll go with that!\p"
-	.string "If we meet here again, please teach\n"
-	.string "me something else, teacher!$"
+	.string "{STR_VAR_1} 말이지! 역시나-!\n"
+	.string "그럼 나 그 기술로 해볼게!\p"
+	.string "다음에 또 여기서 만나면\n"
+	.string "뭔가 더 알려줘 선생님!$"
+	@ §いか! そ-だよね!ｎ
+	@ じゃあ ボク それで いくね!ｐ
+	@ また こんど ここで あったらｎ
+	@ なにか おしえてね せんせい!
 
 gText_ApprenticeWhichMove2:: @ 82BFE24
-	.string "{PLAYER}, hello!\n"
-	.string "It's about my {STR_VAR_1}, but I'm\l"
-	.string "worried about its moves.\p"
-	.string "You see, it's the moves {STR_VAR_2}\n"
-	.string "and {STR_VAR_3}.\p"
-	.string "Which is stronger and better for\n"
-	.string "my {STR_VAR_1}?$"
+	.string "{PLAYER}님 안녕하세요!\n"
+	.string "제 {STR_VAR_1} 말인데요\l"
+	.string "기술을 뭘 가르칠지 고민이에요\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\n"
+	.string "어느 기술이 더 강할지 모르겠어서...\p"
+	.string "{STR_VAR_1}에게는 어느 기술이\n"
+	.string "더 어울린다고 생각하세요?$"
+	@ §あさん こんにちは!ｎ
+	@ ぼくの §いの こと なんだけどｌ
+	@ わざの ことで なやんでるんですｐ
+	@ §う と §えｎ
+	@ どっちの わざが つよいのか……ｐ
+	@ §いには どっちの わざがｎ
+	@ あってると おもいますか?
 
 gText_ApprenticeMoveThanks2:: @ 82BFEAD
-	.string "{STR_VAR_1} is your choice?\n"
-	.string "Okay, I got it!\p"
-	.string "I'll go teach {STR_VAR_1} to\n"
-	.string "my POKéMON right away!\p"
-	.string "See you again!$"
+	.string "{STR_VAR_1} 말이죠!\n"
+	.string "알겠습니다!\p"
+	.string "좋았어 바로\n"
+	.string "{STR_VAR_1}{K_EULREUL} 배우게 해야지!\p"
+	.string "그럼 다음에 봬요!$"
+	@ §い ですね!ｎ
+	@ わかりました!ｐ
+	@ よし さっそくｎ
+	@ §いを おぼえさせるぞ!ｐ
+	@ じゃあ また!
 
 gText_ApprenticeWhichMove3:: @ 82BFF0A
-	.string "Ohhh, {PLAYER}…\n"
-	.string "I'm hopeless, no, really!\p"
-	.string "I've decided to raise a POKéMON,\n"
-	.string "but now I can't even decide what\l"
-	.string "move I should let it learn…\p"
-	.string "I know that it doesn't mean anything\n"
-	.string "to you, {PLAYER}.\p"
-	.string "But it means a lot to me…\p"
-	.string "Please, {PLAYER}, could you choose\n"
-	.string "a move for my {STR_VAR_1}?\p"
-	.string "If you could even choose between\n"
-	.string "{STR_VAR_2} and {STR_VAR_3}…$"
+	.string "아아 {PLAYER}님!\n"
+	.string "저 말이죠 정말로 글러먹었어요!\p"
+	.string "포켓몬을 한번 키워보려고 했는데\n"
+	.string "...기술 하나도 제대로 못 정하겠어서\l"
+	.string "이러지도 저러지도 못하는 중이에요...\p"
+	.string "{PLAYER}님에겐 그런 것 따윈\n"
+	.string "어찌 되든 상관없다는 건 알고 있습니다...\l"
+	.string "하지만 저는...\p"
+	.string "부탁이에요 {PLAYER}님\n"
+	.string "제 {STR_VAR_1}의 기술을\l"
+	.string "정해주시면 안 될까요?\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\n"
+	.string "하나만 선택이라도 해주세요!$"
+	@ ああ §あさん!ｎ
+	@ あたし あたし ほんと ダメなんです!ｐ
+	@ ポケモンを いざ そだてようと してもｎ
+	@ ……わざ ひとつ まともに きめられなくてｌ
+	@ どうしようも ありません……ｐ
+	@ §あさんには そんな ことｎ
+	@ どうでも いいのは わかってます……ｌ
+	@ でも あたし……ｐ
+	@ おねがいです §あさんｎ
+	@ あたしの §いの わざｌ
+	@ きめて いただけませんか?ｐ
+	@ §うと §えかｎ
+	@ どちらかを えらんで くださるだけでも!
 
 gText_ApprenticeMoveThanks3:: @ 82C0032
-	.string "I understand!\p"
-	.string "But will it even be willing to learn\n"
-	.string "{STR_VAR_1} for me…\l"
-	.string "No! I'll do my best!\p"
-	.string "Thank you!$"
+	.string "알겠습니다!\p"
+	.string "저 같은 걸 위해서\n"
+	.string "{STR_VAR_1}{K_EULREUL} 배워줄지...\l"
+	.string "아니죠! 열심히 해볼게요\p"
+	.string "정말 감사합니다!$"
+	@ わかりました!ｐ
+	@ あたし なんかの ためにｎ
+	@ §いを おぼえて くれるか……ｌ
+	@ いえ! がんばって みますｐ
+	@ ありがとう ございます!
 
 gText_ApprenticeWhichMove4:: @ 82C0090
-	.string "Oh, {PLAYER}{KUN}!\n"
-	.string "I was just hoping to see you, too!\p"
-	.string "I was wondering what move would\n"
-	.string "be suitable for my {STR_VAR_1}.\p"
-	.string "I can't decide, so can you decide\n"
-	.string "for me instead?\p"
-	.string "For instance… How about the moves\n"
-	.string "{STR_VAR_2} and {STR_VAR_3}?\l"
-	.string "Which one would be better?$"
+	.string "어머 {PLAYER}!\n"
+	.string "만나고 싶다고 생각하고 있었는데!\l"
+	.string "내 {STR_VAR_1}에게 걸맞은 기술은\l"
+	.string "뭘까- 하고 고민 중이었거든...\l"
+	.string "네가 정해주지 않을래?\p"
+	.string "어디 보자...\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\l"
+	.string "어느 게 더 좋다고 생각해?$"
+	@ あら! §あ§おｎ
+	@ あいたいと おもって いたの!ｌ
+	@ わたしの §いに ふさわしい わざはｌ
+	@ なにかな- って まよってて……ｌ
+	@ あなたが きめて くれない?ｐ
+	@ そうね……ｎ
+	@ §うと §えだったらｌ
+	@ どっちが いいと おもう?
 
 gText_ApprenticeMoveThanks4:: @ 82C016E
-	.string "{STR_VAR_1}? That's great!\p"
-	.string "Knowing that you made the decision,\n"
-	.string "{PLAYER}{KUN}, I won't be so upset if\l"
-	.string "I lose.\p"
-	.string "Okay, I'll look to you for advice again.\n"
-	.string "Bye!$"
+	.string "{STR_VAR_1} 말이지 고마워!\n"
+	.string "{PLAYER}{K_IGA} 정해주니까\l"
+	.string "져도 마음이 편할 것 같아!\p"
+	.string "그럼 안녕\n"
+	.string "다음에 또 상담해줘!$"
+	@ §いね ありがと!ｎ
+	@ §あ§おが きめた って おもえばｌ
+	@ まけても きが らくだわ!ｐ
+	@ じゃあねｎ
+	@ また そうだんに のってね!
 
 gText_ApprenticeWhichMove5:: @ 82C01F7
-	.string "How could things be this busy?\n"
-	.string "Hey, if it isn't {PLAYER}{KUN}!\l"
-	.string "How's it going?\p"
-	.string "Since I got up this morning, I've done\n"
-	.string "my jogging, swimming, and cooking!\p"
-	.string "You wouldn't believe how busy I am!\p"
-	.string "I can't even decide what move\n"
-	.string "my {STR_VAR_1} should learn!\p"
-	.string "{STR_VAR_2} looks good, huh?\n"
-	.string "But {STR_VAR_3}'s also decent.\p"
-	.string "{PLAYER}{KUN}, give me some of your good\n"
-	.string "advice! Which move'd be good for me?$"
+	.string "아- 바쁘다 바빠!\n"
+	.string "어이쿠 넌 {PLAYER}{K_I}잖아!\l"
+	.string "상태는 어때?\p"
+	.string "난 말이지! 아침에 일어나자마자\n"
+	.string "조깅에 스위밍에 쿠킹에\l"
+	.string "바빠서 정신이 없을 지경이라고...!\p"
+	.string "그래서 내 {STR_VAR_1}에게\n"
+	.string "배우게 할 기술도 못 정했어-\p"
+	.string "그래서 말인데!\n"
+	.string "{STR_VAR_2} 좋아보이지 않아?\l"
+	.string "근데 {STR_VAR_3}도 좋단 말이지!\p"
+	.string "{PLAYER}의 어드바이스 부탁할게!\n"
+	.string "어느 기술이 더 좋을까?$"
+	@ あ- いそがしい いそがしい!ｎ
+	@ おっと きみは §あ§お!ｌ
+	@ ちょうしは どう?ｐ
+	@ こっちはさ! けさ おきてからｎ
+	@ ジョギング スイミング クッキングｌ
+	@ いそがしいの なんのって……!ｐ
+	@ オレの §いにｎ
+	@ おしえさせる わざも きまんなくてね-ｐ
+	@ あのさ!ｎ
+	@ §う って よさそうじゃん?ｌ
+	@ でも §え も イイよね!ｐ
+	@ §あ§おの アドバイス たのむよ!ｎ
+	@ どっちの わざが イイかな?
 
 gText_ApprenticeMoveThanks5:: @ 82C034C
-	.string "Okay, gotcha.\n"
-	.string "I'll make room in my schedule and\l"
-	.string "teach that move.\p"
-	.string "I'm glad I met a good mentor in you.\n"
-	.string "Thanks! See you around!$"
+	.string "오케이 알았어!\n"
+	.string "그럼 스케쥴 비워서\l"
+	.string "배우게 해볼게!\p"
+	.string "넌 정말 좋은 선생님이라니까\n"
+	.string "땡큐! 다음에 또 보자!$"
+	@ オ-ケ- わかった!ｎ
+	@ じゃ スケジュ-ル あけてｌ
+	@ おぼえさせて みるぜ!ｐ
+	@ ほんと きみって いい せんせい だぜｎ
+	@ サンキュ-! じゃ またな!
 
 gText_ApprenticeWhichMove6:: @ 82C03CA
-	.string "Oh! Lucky!\n"
-	.string "I met you again, {PLAYER}!\l"
-	.string "I need to tap your mind again today.\p"
-	.string "Drum roll, please!\n"
-	.string "The question I have is…\p"
-	.string "For my {STR_VAR_1}, which is the move\n"
-	.string "best suited, {STR_VAR_2} or\l"
-	.string "{STR_VAR_3}?$"
+	.string "오옷 럭키!\n"
+	.string "{PLAYER}님을 만났군요-!\l"
+	.string "그럼 바로 질문 들어갑니다-!\p"
+	.string "엣헴 그럼\n"
+	.string "오늘의 상담!\p"
+	.string "제 {STR_VAR_1}에게는\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\l"
+	.string "어느 기술이 더 어울릴까요?$"
+	@ おおっ ラッキ-!ｎ
+	@ §あさんに あえました-!ｌ
+	@ さっそく ききたいことが あるの-!ｐ
+	@ ジャ-ン ではｎ
+	@ ほんじつの そうだんで-す!ｐ
+	@ わたしの §いにはｎ
+	@ §うと §えｌ
+	@ おにあいの わざは さあどっち?
 
 gText_ApprenticeMoveThanks6:: @ 82C046E
-	.string "Ahhh!\n"
-	.string "{STR_VAR_1}, you say!\l"
-	.string "Thanks for a most cool answer!\p"
-	.string "I guess that's about all I wanted\n"
-	.string "to ask you today.\p"
-	.string "Let's meet here again, okay?\n"
-	.string "Thanks!$"
+	.string "흐으음-\n"
+	.string "{STR_VAR_1}{K_IGA} 좋단 말입니까!\l"
+	.string "깔끔한 대답 고마워!\p"
+	.string "응 오늘은 이 정도가 다야\n"
+	.string "다음에 또 여기서 보자!\l"
+	.string "고마워!$"
+	@ ははぁ-んｎ
+	@ §い が イイですか!ｌ
+	@ シブイ おこたえ ありがとう!ｐ
+	@ ん きょうは こんなところ かなｎ
+	@ こんど また ここで あおうね!ｌ
+	@ ありがと!
 
 gText_ApprenticeWhichMove7:: @ 82C04F9
-	.string "Oh, hello, {PLAYER}.\n"
-	.string "I trust you've been well?\p"
-	.string "I have to seek your advice again.\n"
-	.string "It's about my dearest {STR_VAR_1}.\p"
-	.string "What would be the ideal move for\n"
-	.string "my lovable {STR_VAR_1}?\l"
-	.string "{STR_VAR_2} or {STR_VAR_3}?$"
+	.string "그간 평안하셨는지요 {PLAYER}님...!\n"
+	.string "저기 있죠 저 오늘도\l"
+	.string "상담드릴 게 있답니다\l"
+	.string "제 귀여운\l"
+	.string "{STR_VAR_1}에 대한 거예요\p"
+	.string "{STR_VAR_1}에게 딱 맞는 기술...\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\l"
+	.string "어느 것을 가르쳐야 괜찮을까요?$"
+	@ ごきげんよう §あさん……!ｎ
+	@ あのね きょうもｌ
+	@ わたくし そうだんが あるのですｌ
+	@ わたくしの かわいいｌ
+	@ §いちゃんの ことですのｐ
+	@ §いちゃんに ピッタリの わざ……ｎ
+	@ §うと §えのｌ
+	@ どちらを おしえたら よろしいでしょう?
 
 gText_ApprenticeMoveThanks7:: @ 82C0598
-	.string "{STR_VAR_1} it is!\n"
-	.string "I will teach that right away!\p"
-	.string "Thank you, {PLAYER}.\n"
-	.string "I hope I can count on you again.\l"
-	.string "Please take care!$"
+	.string "{STR_VAR_1} 말이군요!\n"
+	.string "신속히 그렇게 할게요!\p"
+	.string "그럼 {PLAYER}님\n"
+	.string "앞으로도 잘 부탁드립니다\l"
+	.string "안녕히 계세요!$"
+	@ §い ですのね!ｎ
+	@ さっそく そのように しますわ!ｐ
+	@ それでは §あさんｎ
+	@ これからも よろしく おねがいしますわｌ
+	@ ごきげんよう!
 
 gText_ApprenticeWhichMove8:: @ 82C0602
-	.string "Eek! {PLAYER}! I met you again!\n"
-	.string "I… I'm overjoyed!\p"
-	.string "Whenever I'm in need, you're always\n"
-	.string "there for me, {PLAYER}!\p"
-	.string "Today, I want you to recommend\n"
-	.string "a move for me!\p"
-	.string "Please choose a move for\n"
-	.string "my {STR_VAR_1}!\p"
-	.string "Which move would be better,\n"
-	.string "{STR_VAR_2} or {STR_VAR_3}?$"
+	.string "꺄아아 {PLAYER}님이 있잖아-!\n"
+	.string "가 감격이야...!\l"
+	.string "곤란할 때는 역시 {PLAYER}님이 최고죠!\p"
+	.string "오늘은 기술 추천을\n"
+	.string "해주셨으면 좋겠어요!\l"
+	.string "제 {STR_VAR_1}의 기술을\l"
+	.string "정해주세요!\p"
+	.string "어느 쪽이 좋을까요?\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중에서요!$"
+	@ キャァァ §あさんが いる-っ!ｎ
+	@ かっ かんげきっ……!ｌ
+	@ こまった ときは §あさんですっ!ｐ
+	@ ほんじつは わざの オススメをｎ
+	@ おしえて ほしいのですっ!ｌ
+	@ わたしの §いの わざをｌ
+	@ きめて くださいっ!ｐ
+	@ どっちが いいですかっ?ｎ
+	@ §うと §え!
 
 gText_ApprenticeMoveThanks8:: @ 82C06D8
-	.string "Oh-oh-oh! Thank you!\n"
-	.string "{STR_VAR_1} is it!\l"
-	.string "Perfectly understood!\p"
-	.string "I hope you'll be willing to teach me\n"
-	.string "some more another time.$"
+	.string "가가가 감사합니닷!\n"
+	.string "{STR_VAR_1} 말이죠\l"
+	.string "가슴에 새기겠습니다!\p"
+	.string "그럼 다음에 또\n"
+	.string "여러 가지 가르쳐 주세요!$"
+	@ ああぁ ありがとう ございますっ!ｎ
+	@ §い ですねっｌ
+	@ りょうかいで ありますっ!ｐ
+	@ では また こんどｎ
+	@ いろいろと おしえて くださいね!
 
 gText_ApprenticeWhichMove9:: @ 82C074A
-	.string "Hola, {PLAYER}{KUN}, bueno!\n"
-	.string "I'm hoping for some more of\l"
-	.string "your sage advice today!\p"
-	.string "What would be the best move for\n"
-	.string "my {STR_VAR_1}?\p"
-	.string "It should be something that'll\n"
-	.string "let me win just like that!\p"
-	.string "Would it be {STR_VAR_2}?\n"
-	.string "Or {STR_VAR_3}?$"
+	.string "헬로 {PLAYER} 헬로!\n"
+	.string "너 오늘도 아저씨에게\l"
+	.string "어드바이스를 좀 해주라 플리즈!\p"
+	.string "마이 포켓몬 {STR_VAR_1}에게\n"
+	.string "베스트인 기술은 뭘까?\l"
+	.string "파박 하고 이겨버릴 거 같은 기술!\p"
+	.string "{STR_VAR_2}일까?\n"
+	.string "오어 {STR_VAR_3}일까?$"
+	@ ハロウ §あ§お ハロウ!ｎ
+	@ おじさん きょうも きみにｌ
+	@ アドバイスを もらいたいんだ プリ-ズ!ｐ
+	@ マイ ポケモン §いのｎ
+	@ ベストな わざは なんだろう?ｌ
+	@ ババ-っと かてちゃいそうな わざ!ｐ
+	@ §う かな?ｎ
+	@ オア §え かな?
 
 gText_ApprenticeMoveThanks9:: @ 82C0809
-	.string "Uh-huh, {STR_VAR_1} it is!\n"
-	.string "Si, bueno!\l"
-	.string "I'll get it taught, like, ka-blam!\p"
-	.string "All right, thanks, as always!\n"
-	.string "Adios!$"
+	.string "아-하 {STR_VAR_1} 말이지-\n"
+	.string "오-케이 오-케이!\l"
+	.string "아저씨 얼른 가르쳐볼게!\p"
+	.string "그럼 앞으로도 잘 부탁해\n"
+	.string "아디오스-!$"
+	@ あはぁ §いね-ｎ
+	@ オ-ケイ オ-ケイ!ｌ
+	@ おじさん ザザ-っと おぼえさせるよ!ｐ
+	@ それじゃあ これからも よろしくねｎ
+	@ アディオ-ス!
 
 gText_ApprenticeWhichMove10:: @ 82C086E
-	.string "{PLAYER}{KUN}, it's completely wild!\p"
-	.string "My POKéMON!\n"
-	.string "It learned six moves!\p"
-	.string "Of course I'm lying!\n"
-	.string "Wahahaha!\p"
-	.string "This is no lie, though.\n"
-	.string "I'm not very good at choosing moves\l"
-	.string "for my POKéMON.\p"
-	.string "So, how about deciding for me which\n"
-	.string "kind of move I should teach?\p"
-	.string "{STR_VAR_2} or {STR_VAR_3}--which\n"
-	.string "would go with my {STR_VAR_1} best?$"
+	.string "{PLAYER} 큰일이야!\n"
+	.string "내 포켓몬이 무려\l"
+	.string "기술을 6개나 배웠다고!\p"
+	.string "...농담이야 거짓말이지롱! 하하하!\p"
+	.string "실은 나 포켓몬의 기술을 정하는 데\n"
+	.string "그다지 일가견이 없어!\l"
+	.string "거기서 제안 하나! 스승님이\l"
+	.string "기술을 추천해주면 안 될까?\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\n"
+	.string "{STR_VAR_1}한테 어느 게 더 어울릴까?$"
+	@ §あ§お たいへんだぞ!ｎ
+	@ おいらの ポケモンが なんとｌ
+	@ わざを 6つ おぼえたんだ!ｐ
+	@ ……なんてね ウソだよ! ははは!ｐ
+	@ じつは おいら ポケモンの わざ きめるのｎ
+	@ あんまり とくいじゃ なくてさ!ｌ
+	@ ひとつ どうだろ ししょうがｌ
+	@ オススメのわざ きめて くれない かな?ｐ
+	@ §う と §えｎ
+	@ §いなら どっちが あうかい?
 
 gText_ApprenticeMoveThanks10:: @ 82C0982
-	.string "Okay, so it's {STR_VAR_1} you chose?\n"
-	.string "I'll choose another move, then!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks, master!\n"
-	.string "I hope you'll keep teaching me!$"
+	.string "그렇구나\n"
+	.string "{STR_VAR_1}{K_IGA} 좋단 말이지!\l"
+	.string "그럼 다른 기술로 해야겠다!\p"
+	.string "...농담이야 농담!\n"
+	.string "스승님이 말한 대로 할게\p"
+	.string "고마워 스승님!\n"
+	.string "다음에도 잘 부탁해-$"
+	@ そうかｎ
+	@ §いが いいのね!ｌ
+	@ じゃあ ちがうわざに しようっと!ｐ
+	@ …… なんて じょうだん!ｎ
+	@ ちゃんと ししょうの いうこと きくよｐ
+	@ ありがとう ししょう!ｎ
+	@ また あったら よろしくな-
 
 gText_ApprenticeWhichMove11:: @ 82C0A1D
-	.string "A-H-O-Y!\n"
-	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
-	.string "I'm always with it, don't ask me why.\p"
-	.string "Today, I have a move question\n"
-	.string "that begs your suggestion!\p"
-	.string "{STR_VAR_2} and {STR_VAR_3} are\n"
-	.string "the moves. What would be the best\l"
-	.string "for my {STR_VAR_1} so it grooves?$"
+	.string "안-녕-하-세-요!\n"
+	.string "네 안녕하십니까!\l"
+	.string "시원한 선원인 제가 왔습니다-!\p"
+	.string "자 오늘의 상담\n"
+	.string "가볼까요-!\l"
+	.string "기술에 관한 상담입니다!\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3}\n"
+	.string "{STR_VAR_1}한테 어느 걸 배우게 할까?$"
+	@ こ®ん®に®ち®は!ｎ
+	@ は-い こんにちは!ｌ
+	@ ノリノリ ふなのりの わしだぜ-!ｐ
+	@ よ-し きょうの わしの そうだんｎ
+	@ いってみようぜ-!ｌ
+	@ わざに かんする そうだんだよ!ｐ
+	@ §うと §えｎ
+	@ §いが おぼえるなら どっちだ?
 
 gText_ApprenticeMoveThanks11:: @ 82C0AFD
-	.string "{STR_VAR_1}, you say, hey, hey!\n"
-	.string "I'll go teach that right away!\p"
-	.string "If it's advice I ever need,\n"
-	.string "{PLAYER}, your word I'll always heed!$"
+	.string "{STR_VAR_1}입니까-앗! 요요!\n"
+	.string "그렇다면 바로 시원하게 가르쳐야지!\p"
+	.string "앞으로도 잘 부탁드립니다\n"
+	.string "{PLAYER}님!$"
+	@ §いか-っ! ようよう!ｎ
+	@ そんなら ノリノリで おぼえさせるぜ!ｐ
+	@ これからも ヨロシク たのむぜｎ
+	@ §あさん!
 
 gText_ApprenticeWhichMove12:: @ 82C0B6F
-	.string "Oh, yeahah, if it isn't {PLAYER}!\p"
-	.string "What should I do? Get your advice?\n"
-	.string "Why not? I'm already talking to you!\p"
-	.string "{PLAYER}, are you surprised by me?\n"
-	.string "I want your advice, can't you see?\p"
-	.string "Are you receiving me?\n"
-	.string "You are receiving me!\p"
-	.string "My {STR_VAR_1}--what should it use?\n"
-	.string "It's {STR_VAR_2} or {STR_VAR_3},\l"
-	.string "what do you choose?$"
+	.string "예이 {PLAYER}님 아냐-?\n"
+	.string "어떡하지 나? 또 말 걸어볼까!?\l"
+	.string "앗 근데 이미 말 걸고 있잖아!?\l"
+	.string "앗 근데 이미 {PLAYER}님이 지쳤잖아!?\l"
+	.string "어쩔 수 없지- 상담해볼까!?\p"
+	.string "오늘도 상담해줘!\n"
+	.string "앗 근데 듣고 있는 거지!?\p"
+	.string "내 {STR_VAR_1}의 기술\n"
+	.string "어떡하면 좋을까? 정해줘어엇!\l"
+	.string "{STR_VAR_2}!? 아니면 {STR_VAR_3}!?$"
+	@ イエァ §あさんじゃないの-?ｎ
+	@ どうする オレ? また はなしかける!?ｌ
+	@ ってもう はなしかけてる!?ｌ
+	@ って §あさん あきれてる!?ｌ
+	@ しかたね- そうだん してみる!?ｐ
+	@ きょうも そうだんに のってェ!ｎ
+	@ って きいてる!? きいてる!!ｐ
+	@ おれの §いの わざｎ
+	@ どうしたら いいかな? きめてエェ!ｌ
+	@ §う!? §え!?
 
 gText_ApprenticeMoveThanks12:: @ 82C0C7D
-	.string "If that {STR_VAR_1} is the best,\n"
-	.string "I'll do as you suggest!\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me.\p"
-	.string "See you again, my smart friend!$"
+	.string "{STR_VAR_1}{K_EU}로 결정-!\n"
+	.string "그럼 바로 가르쳐볼게!!\p"
+	.string "앗 근데 {PLAYER}님\n"
+	.string "나 잊으면 안 돼!\l"
+	.string "또 보자!$"
+	@ §いで オ-ライ!ｎ
+	@ じゃ さっそく おぼえさせるぜェ!!ｐ
+	@ って §あさんｎ
+	@ オレの こと わすれんなよ!ｌ
+	@ また あおうぜ!!
 
 gText_ApprenticeWhichMove13:: @ 82C0D0B
-	.string "Gahack! Gaah! Oh, {PLAYER}{KUN}…\n"
-	.string "I have this lousy cold, I do…\p"
-	.string "I want to pick a move for my POKéMON,\n"
-	.string "but I'm not up to it…\p"
-	.string "So, things being this way,\n"
-	.string "I need you to decide for me.\p"
-	.string "{PLAYER}{KUN}, if I had to choose between\n"
-	.string "{STR_VAR_2} and {STR_VAR_3} for\l"
-	.string "my {STR_VAR_1}, which would it be?$"
+	.string "쿨럭커헉! 아 {PLAYER}\n"
+	.string "나 감기 걸렸어...\p"
+	.string "포켓몬에게 가르칠 기술을\n"
+	.string "정하고 싶은데 이 상태론 어림도 없겠지\l"
+	.string "그러니까 나 대신 좀 해주라 부탁할게!\p"
+	.string "{PLAYER}{K_EUNNEUN} 말야 내 {STR_VAR_1}에게\n"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3} 중\l"
+	.string "어느 게 더 어울린다고 생각해?$"
+	@ ガハゴホ あ §あ§おｎ
+	@ カゼ ひいちゃったよ おれ……ｐ
+	@ ポケモンに おしえる わざをｎ
+	@ きめたいんだけど ムリっぽいん だよねｌ
+	@ というわけ だからさ かわりに たのむよ!ｐ
+	@ §あ§おはさ おれの §いｎ
+	@ §うと §えならｌ
+	@ どっちが あってると おもうかい?
 
 gText_ApprenticeMoveThanks13:: @ 82C0DFE
-	.string "Hm, {STR_VAR_1}, all right. Cough!\n"
-	.string "I'll go teach it when I get better.\p"
-	.string "I hope I can keep hitting you up\n"
-	.string "for help like this.$"
+	.string "응 알았어 {STR_VAR_1} 말이지!\n"
+	.string "그럼 감기가 나으면\l"
+	.string "콜록 가르쳐볼게!\p"
+	.string "앞으로도 나를 잘 부탁한다구!$"
+	@ ん わかった §いな!ｎ
+	@ じゃあ カゼが なおったらｌ
+	@ ゴホ おしえて みるよ!ｐ
+	@ これからも おれを よろしく たのむよ!
 
 gText_ApprenticeWhichMove14:: @ 82C0E71
-	.string "Er… Um…\n"
-	.string "{PLAYER}{KUN}…?\p"
-	.string "Please, don't look at me that way.\n"
-	.string "I'm getting all flustered…\l"
-	.string "I… I need your advice.\p"
-	.string "I… I'm really embarrassed, but I can't\n"
-	.string "decide what move I should teach\l"
-	.string "my POKéMON.\p"
-	.string "It's for my {STR_VAR_1}.\n"
-	.string "If the choices were {STR_VAR_2} or\l"
-	.string "{STR_VAR_3}, which would be better?$"
+	.string "아... 아...\n"
+	.string "{PLAYER} 맞지?\l"
+	.string "그 그렇게 보지 말게나!\l"
+	.string "부끄럽단 말일세\l"
+	.string "또... 상담하게 해주게\p"
+	.string "부 부끄럽지만 말일세\n"
+	.string "포켓몬에게 가르칠 기술을 말이네\l"
+	.string "도저히 못 정하겠으니 어드바이스를 주게!\p"
+	.string "포켓몬은 {STR_VAR_1}인데\n"
+	.string "그렇다면 어느 쪽이 좋겠나...?\l"
+	.string "{STR_VAR_2}... {STR_VAR_3}...$"
+	@ あ…… あ……ｎ
+	@ §あ§お だよね?ｌ
+	@ そ そんなに みないで くれよ!ｌ
+	@ てれるだろｌ
+	@ また…… そうだん させて くれよｐ
+	@ は はずかしながらさｎ
+	@ ポケモンに おしえる わざがさｌ
+	@ きまんないんだ アドバイス くれよ!ｐ
+	@ ポケモンは §いなんだｎ
+	@ だったら どっちが いい かな……?ｎ
+	@ §う…… §え……
 
 gText_ApprenticeMoveThanks14:: @ 82C0F6D
-	.string "Oh… Okay!\n"
-	.string "I'll try that {STR_VAR_1}.\p"
-	.string "I hope I can teach that move…\n"
-	.string "This is so nerve-racking…\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "If we meet again, I hope you will be\l"
-	.string "as helpful.$"
+	.string "아 알겠네 {STR_VAR_1}{K_I}라고\n"
+	.string "한번 해보겠네!\p"
+	.string "그런 기술을 가르치라니\n"
+	.string "부 부끄럽구만...\p"
+	.string "고맙네 {PLAYER}\n"
+	.string "다음에 또 만나면... 잘 부탁하네$"
+	@ よ よし §いｎ
+	@ いって みるよ!ｐ
+	@ そんな わざを おしえるなんてｎ
+	@ て てれるな……ｐ
+	@ ありがとう §あ§おｎ
+	@ また こんど あえたら…… よろしくね
 
 gText_ApprenticeWhichMove15:: @ 82C1003
-	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
-	.string "But are you really real?\p"
-	.string "Perhaps you're one of those popular\n"
-	.string "mimics?\p"
-	.string "No, no, if you are real, it's fine.\n"
-	.string "No need to be upset, I assure you!\p"
-	.string "Incidentally, I would like to obtain\n"
-	.string "your advice.\p"
-	.string "It's about my {STR_VAR_1}.\p"
-	.string "Which move would be better for it to\n"
-	.string "use, {STR_VAR_2} or {STR_VAR_3}?$"
+	.string "음?\n"
+	.string "{PLAYER}처럼 보인다만...\l"
+	.string "진짜인가?\l"
+	.string "최근 유행하는 흉내내기는 아니겠지?\p"
+	.string "아닐세 아닐세! 진짜라면 됐네!\n"
+	.string "기분 나빠 하지 말게나!\l"
+	.string "그리고 제자인 내게\l"
+	.string "조언을 부탁하네!\l"
+	.string "내 {STR_VAR_1}에 대한 것일세!\p"
+	.string "{STR_VAR_2}{K_WAGWA} {STR_VAR_3}\n"
+	.string "어느 기술을 써야 좋겠는가?$"
+	@ ん?ｎ
+	@ §あ§おの ように みえるが……ｌ
+	@ ほんものかな?ｌ
+	@ さいきん はやりの モノマネ では?ｐ
+	@ いやいや! ほんもの ならいいんだ!ｎ
+	@ きを わるく しないでくれ!ｌ
+	@ そして ついでに でしの わたしにｌ
+	@ じょげんを おねがい したいｌ
+	@ わたしの §いの ことだ!ｐ
+	@ §う と §えｎ
+	@ どっちの わざが つかえたら いいかね?
 
 gText_ApprenticeMoveThanks15:: @ 82C1122
-	.string "{STR_VAR_1}?\n"
-	.string "There's no question about that?\p"
-	.string "I see. If that's the case, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "I do hope it is something even\n"
-	.string "my POKéMON can learn.\p"
-	.string "Let us meet again!$"
+	.string "{STR_VAR_1}...\n"
+	.string "틀림없는 거겠지?\p"
+	.string "아니 정말이라면 됐네\n"
+	.string "정말 고맙군\l"
+	.string "이런 나의 포켓몬이라도\l"
+	.string "잘 쓸 수 있다면 좋겠어\p"
+	.string "그럼 언젠가 다시 보도록 하지!$"
+	@ §い……ｎ
+	@ まちがいなく そうなの かね?ｐ
+	@ いや ほんとう なら いいんだｎ
+	@ どうも ありがとうｌ
+	@ こんな わたしの ポケモンでもｌ
+	@ おぼえて くれると いいなｐ
+	@ では いずれまた あおう!
 
 gText_ApprenticePickWinSpeech0:: @ 82C11D1
-	.string "Oh… {PLAYER}?\n"
-	.string "It is {PLAYER}!\l"
-	.string "Oh! Sniff…sob… Please, listen!\p"
-	.string "I… When I battle, I get so nervous,\n"
-	.string "I can't help crying even if I win…\p"
-	.string "I wish I could say something cool\n"
-	.string "when I win…\p"
-	.string "Please, please, {PLAYER}!\n"
-	.string "Could you maybe teach me something\l"
-	.string "cool to say when I win so I don't cry?$"
+	.string "아앗 {PLAYER}\n"
+	.string "{PLAYER}님이다! 으앙-!\l"
+	.string "훌쩍 히끅 제 말 좀 들어주세요\p"
+	.string "저 저 말이죠 승부할 때\n"
+	.string "엄청나게 긴장해서\l"
+	.string "이겨도 울고 말아요...\p"
+	.string "뭔가 멋진 말이라도 하면\n"
+	.string "나아지지 않을까 싶은데...\p"
+	.string "저기 {PLAYER}님\n"
+	.string "만약 괜찮다면...\l"
+	.string "제가 울지 않을 수 있게\l"
+	.string "이겼을 때 할 말을\l"
+	.string "생각해주시면 안 될까요?$"
+	@ ああっ §あさんｎ
+	@ §あさんだ! わわ-ん!ｌ
+	@ ぐすん ひっく きいて くださいｐ
+	@ ぼくっ ぼく しょうぶ するときｎ
+	@ ものすごく きんちょう してｌ
+	@ かっても ないちゃうん です……ｐ
+	@ なにか かっこいい こと いえたらｎ
+	@ いいなと おもうんです けど……ｐ
+	@ あのう あのう §あさんｎ
+	@ もし よかったら……ｌ
+	@ ぼく なかなくて いいようにｌ
+	@ なにか かったときに いう ことばをｌ
+	@ かんがえて もらえませんか?
 
 gText_ApprenticeWinSpeechThanks0:: @ 82C12D5
 	.string "{STR_VAR_1}\p"
-	.string "Awesome! Wicked! Awoooh!\n"
-	.string "It's really cool!\p"
-	.string "Oh… I'm sorry…\n"
-	.string "I'm so happy, I'm crying…\p"
-	.string "Snivel… {PLAYER}!\n"
-	.string "Thank you so much for everything!\p"
-	.string "I will battle the best I can for\n"
-	.string "your sake, {PLAYER}!\p"
-	.string "{PLAYER}…\n"
-	.string "Next time… We should battle!$"
+	.string "... 우와아아!\n"
+	.string "엄청나게 멋져요!\p"
+	.string "아 죄송합니다\n"
+	.string "너무 기뻐서 눈물이...\p"
+	.string "...훌쩍 {PLAYER}님!\n"
+	.string "그동안 정말 감사했습니다!\l"
+	.string "저 {PLAYER}님을 위해서라도\l"
+	.string "계속 열심히 승부해 나갈게요!\p"
+	.string "그럼 {PLAYER}님!\n"
+	.string "다음엔... 어딘가에서 승부해요!$"
+	@ §いｐ
+	@ …… うぉぉ-ん!ｎ
+	@ すごく かっこいいよう!ｐ
+	@ あ ごめんなさいｎ
+	@ うれしすぎて なみだが……ｐ
+	@ ……グスン §あさん!ｎ
+	@ いつも いつも ありがとう ございました!ｌ
+	@ ぼく §あさんの ためにもｌ
+	@ がんばって たたかい つづけます!ｐ
+	@ では §あさん!ｎ
+	@ こんどは…… どこかで たたかいましょう!
 
 gText_ApprenticePickWinSpeech1:: @ 82C13AB
-	.string "Yay! It's {PLAYER}! Hello!\n"
-	.string "I wanted to ask you something!\p"
-	.string "I want to say something cool when\n"
-	.string "I win a match.\p"
-	.string "Do you have a cool saying that\n"
-	.string "you could recommend?$"
+	.string "{PLAYER} 선생님 안녕!\n"
+	.string "나 정하고 싶은 게 있어!\p"
+	.string "저기 있잖아!\n"
+	.string "나 승부에서 이겼을 때\l"
+	.string "뭔가 멋있는 대사를 하고 싶거든!\p"
+	.string "선생님은 추천하고 싶은\n"
+	.string "멋있는 대사 같은 거 없어?$"
+	@ §あせんせい こんにちは!ｎ
+	@ ぼく きめたい ことが あるの!ｐ
+	@ あのね!ｎ
+	@ ぼく しょうぶに かった ときｌ
+	@ なにか かっこいい セリフを いいたいの!ｐ
+	@ せんせい おすすめのｎ
+	@ かっこいい セリフって あるかな?
 
 gText_ApprenticeWinSpeechThanks1:: @ 82C1444
 	.string "{STR_VAR_1}\p"
-	.string "Oh, wow! That is so cool!\n"
-	.string "Okay, I'll say that!\p"
-	.string "Thanks for teaching me all this time!\n"
-	.string "I'm going to do the best I can\l"
-	.string "wherever I go from now on!\p"
-	.string "When we meet again, it'll be for\n"
-	.string "a battle!$"
+	.string "우와아- 좋다-!\n"
+	.string "그럼 나 그걸로 할게!\p"
+	.string "선생님 지금까지 고마웠어!\n"
+	.string "나 이제부터 다양한 곳에서\l"
+	.string "열심히 할게!\p"
+	.string "다음에 만날 때는 승부야!$"
+	@ §いｐ
+	@ うわあ- い-ね!ｎ
+	@ じゃあ ボク それで いくね!ｐ
+	@ せんせい いままで ありがとう!ｎ
+	@ ボク これから いろんな ところでｌ
+	@ がんばる ことに する!ｐ
+	@ こんど あうときは しょうぶ だよ!
 
 gText_ApprenticePickWinSpeech2:: @ 82C1501
-	.string "{PLAYER}, hello!\p"
-	.string "My POKéMON and I are ready for\n"
-	.string "anything, except for one thing.\p"
-	.string "I think it would be good if I had\n"
-	.string "something to shout when I win.\p"
-	.string "Could you think up something good\n"
-	.string "to say?$"
+	.string "{PLAYER}님 안녕하세요!\n"
+	.string "포켓몬 배틀의 준비는\p"
+	.string "완벽하게 끝났지만\n"
+	.string "하나 고민이 있어서요\p"
+	.string "포켓몬 트레이너니까\n"
+	.string "승부에서 이겼을 때의 대사가\p"
+	.string "있으면 좋겠다는 생각이 듭니다\n"
+	.string "뭔가 좋은 대사를 생각해주세요!$"
+	@ §あさん こんにちは!ｎ
+	@ ポケモンの じゅんびはｐ
+	@ ばんぜん なんですけどｎ
+	@ ひとつ きに なってるんですｐ
+	@ ポケモントレ-ナ-ってｎ
+	@ しょうぶに かった ときに かけごえ がｐ
+	@ あると いいかな-って おもうんですｎ
+	@ なにか いいの かんがえて ください!
 
 gText_ApprenticeWinSpeechThanks2:: @ 82C15B6
 	.string "{STR_VAR_1}\p"
-	.string "…Cool!\n"
-	.string "I will use that!\p"
-	.string "I'm going out to battle all over\n"
-	.string "the place.\p"
-	.string "Who knows, I may even get to battle\n"
-	.string "you one day, {PLAYER}.\p"
-	.string "Next time, let's meet at a place\n"
-	.string "of battle!$"
+	.string "...멋지네요!\n"
+	.string "그 대사를 쓰도록 하겠습니다!\p"
+	.string "그럼 저는 앞으로\n"
+	.string "다양한 곳에서 승부해 볼게요!\p"
+	.string "언젠가 {PLAYER}님과도\n"
+	.string "승부하는 날이\l"
+	.string "찾아올지도 모르겠네요!\p"
+	.string "그럼 다음엔 승부의 장에서\n"
+	.string "만납시다!$"
+	@ §いｐ
+	@ ……かっこいいですね!ｎ
+	@ それ つかわせて いただきます!ｐ
+	@ じゃあ ぼくは これからｎ
+	@ いろんな ところで しょうぶ してきます!ｐ
+	@ いつか §あさんとｎ
+	@ しょうぶ する ひがｌ
+	@ くるかも しれませんね!ｐ
+	@ では こんどは しょうぶの ば でｎ
+	@ おあい しましょう!
 
 gText_ApprenticePickWinSpeech3:: @ 82C165E
-	.string "Hello, {PLAYER}…\n"
-	.string "I'm sorry to bug you, but I'm hopeless…\p"
-	.string "Even when…\n"
-	.string "Even when I win, I don't have anything\l"
-	.string "special to say…\p"
-	.string "I know that it doesn't mean anything\n"
-	.string "to you, {PLAYER}.\p"
-	.string "But it means a lot to me…\p"
-	.string "Please, {PLAYER}, what should I say\n"
-	.string "if I win a battle?$"
+	.string "앗 {PLAYER}님...!\n"
+	.string "전 정말로 쓸모없는 여자애예요!\p"
+	.string "모처럼...\n"
+	.string "모처럼 승부에서 이겼는데도\l"
+	.string "말이 한마디도 안 나와서...\p"
+	.string "{PLAYER}님에게 그런 건\n"
+	.string "어찌 되든 좋은 일인 거 알아요!\l"
+	.string "하지만 저는 무슨 일이 있더라도...\p"
+	.string "부탁이에요! {PLAYER}님\n"
+	.string "이겼을 때에\l"
+	.string "무슨 말을 하면 좋을까요...?$"
+	@ あっ §あさん……!ｎ
+	@ あたし ほんと ダメな おんなのこです!ｐ
+	@ せっかく……ｎ
+	@ せっかく しょうぶに かってもｌ
+	@ ことば ひとつ でてこなくって……ｐ
+	@ §あさんには そんな ことｎ
+	@ どうでも いいのは わかってます!ｌ
+	@ でも あたし どうしても……ｐ
+	@ おねがい! です §あさんｎ
+	@ かったとき ってｌ
+	@ なんて いうべき なんでしょうか……?
 
 gText_ApprenticeWinSpeechThanks3:: @ 82C174F
 	.string "{STR_VAR_1}\p"
-	.string "That's inspired…\p"
-	.string "Uh… Is it okay for someone like me\n"
-	.string "to even say that?\p"
-	.string "No! I'll do my best!\p"
-	.string "{PLAYER}, thank you so much for\n"
-	.string "putting up with me for so long…\p"
-	.string "I promise to do my best from now on.\p"
-	.string "I'm sure you'll quickly forget about\n"
-	.string "someone like me, but let's meet\l"
-	.string "somewhere again!$"
+	.string "굉장해...\p"
+	.string "저 저 따위가\n"
+	.string "그런 말을 해도 괜찮을까요...\l"
+	.string "아니죠! 열심히 하겠습니다\p"
+	.string "{PLAYER}님!\p"
+	.string "지금까지 저 따위를 위해\n"
+	.string "힘써주셔서... 감사했습니다...!\l"
+	.string "저 이제부터 열심히 할게요!\p"
+	.string "저 따위는\n"
+	.string "금방 잊어버리실지도 모르지만\l"
+	.string "그래도 어딘가에서 또 만나요!$"
+	@ §いｐ
+	@ すごいわ……ｐ
+	@ あ あたしなんかがｎ
+	@ そんな こと いって いいのか……ｌ
+	@ いえ! がんばって みますｐ
+	@ §あさん!ｐ
+	@ いままで あたしなんかの ためにｎ
+	@ ありがとう…… ございました……!ｌ
+	@ あたし いまから がんばってきます!ｐ
+	@ あたしの こと なんてｎ
+	@ すぐに わすれて しまうと おもうけどｌ
+	@ でも どこかで おあい しましょう!
 
 gText_ApprenticePickWinSpeech4:: @ 82C1862
-	.string "Oh, {PLAYER}{KUN}.\n"
-	.string "There's something I want you to hear.\p"
-	.string "I know that I don't always sound\n"
-	.string "nice or polite…\p"
-	.string "When I win a battle, I think I come\n"
-	.string "across as being arrogant.\p"
-	.string "I don't want people to dislike me,\n"
-	.string "so I want to say something nice to\l"
-	.string "someone I beat.\p"
-	.string "But I can't think of anything good!\n"
-	.string "Could you think something up for me?$"
+	.string "어머 {PLAYER}?\n"
+	.string "잠깐 내 말 좀 들어줘!\p"
+	.string "스스로도 알고는 있었지만\n"
+	.string "난 정말 말버릇이 나빠서...\l"
+	.string "승부에서 이겼을 때에\l"
+	.string "잘난 척을 너무 한단 말이지!\p"
+	.string "그치만 미움받고 싶진 않으니까\n"
+	.string "나한테 진 상대에게\l"
+	.string "부드럽게 말해주고 싶어!\p"
+	.string "하지만 전혀 생각이 안 나!\n"
+	.string "당신이 생각해 줄래?$"
+	@ あら §あ§お?ｎ
+	@ ちょっと きいて ほしいんだけど!ｐ
+	@ じぶんでも わかって いるけどｎ
+	@ わたし すこし くちが わるくて……ｌ
+	@ しょうぶに かったときにｌ
+	@ なんか えらそうに しちゃうのよね!ｐ
+	@ だけど きらわれたく ないからｎ
+	@ わたしに まけた あいてにｌ
+	@ やさしい ことばを かけて あげたいのよ!ｐ
+	@ でも ぜんぜん おもいつかなくて!ｎ
+	@ あなたが かんがえて くれない?
 
 gText_ApprenticeWinSpeechThanks4:: @ 82C19A0
 	.string "{STR_VAR_1}\p"
-	.string "Not bad!\n"
-	.string "Yup, that's what I'll go with!\p"
-	.string "I'm going to hit the road and do what\n"
-	.string "I can with what you taught me in\l"
-	.string "my head and heart.\p"
-	.string "I'm sorry that I've been so pushy\n"
-	.string "with you!\p"
-	.string "Next time, we battle, okay?\n"
-	.string "See you!$"
+	.string "나쁘지 않은데!\n"
+	.string "음 그걸로 가야겠다!\p"
+	.string "그럼... 여태까지\n"
+	.string "{PLAYER}에게 배운\l"
+	.string "다양한 것들을 가슴에 품고\l"
+	.string "나 열심히 해볼게!\l"
+	.string "이런저런 실례를 끼쳐서\l"
+	.string "정말 미안했어!\p"
+	.string "다음에 만날 때는 승부야!\n"
+	.string "그럼 안녕!$"
+	@ §いｐ
+	@ わるく ないわね!ｎ
+	@ うん それで いくことに するわ!ｐ
+	@ じゃあ…… いままでｎ
+	@ §あさんに おそわったｌ
+	@ いろいろな ことを むねにｌ
+	@ わたし がんばって くる!ｌ
+	@ いろいろと なまいき いってｌ
+	@ ごめんなさい!ｐ
+	@ つぎに あう ときは しょうぶよ!ｎ
+	@ じゃあね!
 
 gText_ApprenticePickWinSpeech5:: @ 82C1A76
-	.string "Oh, I can't get over how busy I am!\n"
-	.string "Oh, hey, I was looking for you, {PLAYER}{KUN}.\p"
-	.string "Are you well as usual?\n"
-	.string "Things haven't changed for me at all.\p"
-	.string "I've got running, fighting, and mapping\n"
-	.string "to do. Why am I so busy?\p"
-	.string "But even though I'm busy, it'd be rude\n"
-	.string "to just turn on my heels and walk away\l"
-	.string "from a win without saying a word.\p"
-	.string "So, what would be a cool saying to\n"
-	.string "underline my coolness when I'm done\l"
-	.string "and walking away? {PLAYER}{KUN}, help me!$"
+	.string "아- 바쁘다 바빠!\n"
+	.string "어이쿠 찾고 있었다고 {PLAYER}\l"
+	.string "오늘도 건강해?\p"
+	.string "난 말이지-! 변함없이\n"
+	.string "러닝에 파이팅에 매핑에...\l"
+	.string "말이 안 될 정도로 바쁘다?\p"
+	.string "하지만! 바쁘다고 해서\n"
+	.string "승부에서 이겼을 때에\l"
+	.string "아무 말도 안 하고\l"
+	.string "가버리는 건 실례잖아?\p"
+	.string "그래서 말인데!\n"
+	.string "이긴 뒤 떠나는 나를\l"
+	.string "멋있게 연출해줄 좋은 대사 없을까?\l"
+	.string "{PLAYER} 뭐라도 부탁할게!$"
+	@ あ- いそがしい いそがしい!ｎ
+	@ おっと さがしてたよ §あ§おｌ
+	@ きょうも げんきかい?ｐ
+	@ こっちはさ-! あいかわらずｎ
+	@ ランニング ファイティング マッピングとｌ
+	@ なんで こんなに いそがしいんだ?ｐ
+	@ でもさ! いそがしい からってｎ
+	@ しょうぶに かった ときにｌ
+	@ なにも いわないでｌ
+	@ たちさっちゃ しつれいだろ?ｐ
+	@ でさ!ｎ
+	@ かっこよく たちさる オレをｌ
+	@ えんしゅつする いい ことば ないかな?ｌ
+	@ §あ§お なんか たのむよ!
 
 gText_ApprenticeWinSpeechThanks5:: @ 82C1C16
 	.string "{STR_VAR_1}\p"
-	.string "Okay, gotcha.\n"
-	.string "I can find time to say that!\p"
-	.string "Honestly, I'm glad I met a good mentor\n"
-	.string "like you.\p"
-	.string "I'm going to make time somehow so\n"
-	.string "I can get into battling.\p"
-	.string "Thanks for everything, {PLAYER}{KUN}!\n"
-	.string "We have to battle, you and me, one day!$"
+	.string "오케이 알았어!\n"
+	.string "그 정도 말을 할 시간은 있지!\l"
+	.string "정말이지 너처럼\l"
+	.string "좋은 선생님을 만나서 다행이야!\p"
+	.string "난 이제부터 시간을 내서\n"
+	.string "포켓몬 승부를 할게!\l"
+	.string "지금까지 도와줘서 땡큐 {PLAYER}!\p"
+	.string "언젠가 나하고 승부하자고!$"
+	@ §いｐ
+	@ オ-ケ- わかった!ｎ
+	@ そのぐらい いう じかんは つくれるぜ!ｌ
+	@ ほんと きみ みたいなｌ
+	@ いい せんせいに であえて よかったぜ!ｐ
+	@ オレは これから じかんを つくってｎ
+	@ ポケモンしょうぶを してくるよ!ｌ
+	@ いままで サンキュ- §あ§お!ｐ
+	@ いつか オレと しょうぶ しようぜ!
 
 gText_ApprenticePickWinSpeech6:: @ 82C1CF5
-	.string "I lucked out again!\n"
-	.string "{PLAYER}! Am I glad to see you!\l"
-	.string "Like usual, I need your advice!\p"
-	.string "Drum roll, please!\n"
-	.string "The last question I have is…\p"
-	.string "If I win a battle and want to end\n"
-	.string "it with a cool flourish, what\l"
-	.string "should I say?$"
+	.string "해냈다-!\n"
+	.string "{PLAYER}님을 만났어!\l"
+	.string "바로 상담하고 싶은 게 있었거든!\p"
+	.string "자-\n"
+	.string "그럼 마지막 상담입니다-!\p"
+	.string "나 승부에서 이겼을 때\n"
+	.string "멋있게 대사를 딱 날리고 싶은데\l"
+	.string "뭐라고 하면 좋을까?$"
+	@ やったね-っｎ
+	@ §あさんに あえちゃった!ｌ
+	@ さっそく そうだんが あるのよ!ｐ
+	@ ジャ-ンｎ
+	@ では さいごの そうだん で-す!ｐ
+	@ わたしが しょうぶで かった ときｎ
+	@ かっこよく キメたいと したらｌ
+	@ さあ なんて いえばいい?
 
 gText_ApprenticeWinSpeechThanks6:: @ 82C1DC1
 	.string "{STR_VAR_1}\p"
-	.string "That… That's fabulous!\n"
-	.string "It's dignified and cool! I claim it!\p"
-	.string "…Listen, I think I'm getting decent\n"
-	.string "at this, huh?\p"
-	.string "So, I'm thinking of challenging other\n"
-	.string "TRAINERS from now on.\p"
-	.string "{PLAYER}, your advice really helped me.\p"
-	.string "Maybe one day, there'll be a time when\n"
-	.string "we battle!\p"
-	.string "Thank you for everything!$"
+	.string "너무 좋다!\n"
+	.string "멋있어! 그걸로 할게!\p"
+	.string "...저기 나 말이지\n"
+	.string "이제 1인분은 할 수 있게 됐어!\p"
+	.string "그래서 앞으로도 여러 사람과\n"
+	.string "배틀해 보려고!\p"
+	.string "{PLAYER}님의 어드바이스\n"
+	.string "엄청 도움이 됐어-!\l"
+	.string "언젠가 승부할지도 모르겠다\l"
+	.string "여태까지 정말 고마웠어-!$"
+	@ §いｐ
+	@ いっ イイ!ｎ
+	@ シブイ! それいただき!ｐ
+	@ ……ねえ わたしｎ
+	@ そろそろ いちにんまえに なったよね!ｐ
+	@ あのね これから いろんなひととｎ
+	@ たたかって みようと おもうの!ｐ
+	@ §あさんの アドバイスｎ
+	@ すっごく たすかったよ-!ｌ
+	@ いつか しょうぶする ときが くるかもねｌ
+	@ いままで ほんと ありがと-!
 
 gText_ApprenticePickWinSpeech7:: @ 82C1EDC
-	.string "Oh, {PLAYER}.\n"
-	.string "I'm so glad I met you!\p"
-	.string "I no longer have any concerns with\n"
-	.string "regard to my POKéMON.\p"
-	.string "It's myself that worries me…\p"
-	.string "Do you know how a TRAINER says\n"
-	.string "a few things upon winning a battle?\p"
-	.string "Definitely, I wish I could do that,\n"
-	.string "too!\p"
-	.string "Please, what should I say when\n"
-	.string "I win a battle?$"
+	.string "어머 {PLAYER}님\n"
+	.string "만나 뵙게 되어 다행이에요...!\p"
+	.string "제 포켓몬에는\n"
+	.string "이제 문제가 없습니다만\l"
+	.string "제 자신에겐 있는지라...\p"
+	.string "그게 포켓몬 트레이너분들은\n"
+	.string "모두 승부에서 이겼을 때\l"
+	.string "하는 대사가 있더라고요?\p"
+	.string "저도 꼭! 그런 대사를\n"
+	.string "말해 보고 싶어요!\l"
+	.string "부탁이에요! 뭐라도\l"
+	.string "승리했을 때의 대사를 정해 주세요!$"
+	@ まあ §あさんｎ
+	@ あえて よかった ですわ……!ｐ
+	@ わたくし ポケモンの ほうはｎ
+	@ もう しんぱい ないのです けれどｌ
+	@ わたくし じしんの ほうが……ｐ
+	@ その あの ポケモントレ-ナ-さんはｎ
+	@ いつも しょうぶに かったときｌ
+	@ ことばを かけて くださいますね?ｐ
+	@ ぜひ! わたくしも あれをｎ
+	@ やってみたいのです!ｌ
+	@ おねがいです! なにかｌ
+	@ かったときの ことば きめて ください!
 
 gText_ApprenticeWinSpeechThanks7:: @ 82C1FEC
 	.string "{STR_VAR_1}\p"
-	.string "Ah! That saying! It refreshes me\n"
-	.string "and makes me feel reborn!\p"
-	.string "I must use that right away!\p"
-	.string "And now, I must take my leave,\n"
-	.string "{PLAYER}…\p"
-	.string "I will go out to battle many others,\n"
-	.string "but never will I forget your teachings.\p"
-	.string "Perhaps one day…\n"
-	.string "Farewell!$"
+	.string "라고 하면 되는군요...!\p"
+	.string "아아! 저 왠지\n"
+	.string "다시 태어난 듯한 기분이 들어요...!\l"
+	.string "바로 그 말을 써 보도록 하겠습니다!\p"
+	.string "그럼 이만 가 볼게요...\n"
+	.string "{PLAYER}님께서 알려 주신 것을\l"
+	.string "결코 잊지 않고\l"
+	.string "다양한 분들과 배틀하도록 하겠습니다!\p"
+	.string "언젠가 또 봬요...\n"
+	.string "감사했어요!$"
+	@ §いｐ
+	@ ですのね……!ｐ
+	@ ああ! なんだか わたくしｎ
+	@ うまれかわれる きが しますわ……!ｌ
+	@ さっそく そのことば つかってみますわ!ｐ
+	@ それでは ここで おわかれです……ｎ
+	@ §あさんの ごしどうｌ
+	@ わたくし けっして わすれずにｌ
+	@ みなさまと たたかって まいります!ｐ
+	@ また いずれ……ｎ
+	@ ごきげんよう!
 
 gText_ApprenticePickWinSpeech8:: @ 82C20D1
-	.string "Eek! I spotted {PLAYER}!\n"
-	.string "I… I'm overjoyed to see you!\p"
-	.string "Oh-oh-oh! There's something I just\n"
-	.string "had to ask you!\p"
-	.string "A little while ago, I won a battle.\n"
-	.string "That part was giddying!\p"
-	.string "But it made me so overjoyed that\n"
-	.string "I choked up and couldn't say a thing!\p"
-	.string "So now, {PLAYER}, please, I want you to\n"
-	.string "think up an exit line for when I win!$"
+	.string "꺄아-!\n"
+	.string "{PLAYER}님 발-견!\l"
+	.string "가 감격이야...!\p"
+	.string "저기 상담할 게 있어요!\p"
+	.string "지난번에 포켓몬 승부에서\n"
+	.string "이기긴 했는데 말이죠!\l"
+	.string "저 너무 감격한 나머지\l"
+	.string "아무 말도 못 했거든요...!\p"
+	.string "그래서 말인데요 {PLAYER}님!\n"
+	.string "제가 이겼을 때의 결정타 대사 있죠!\l"
+	.string "뭘로 할지 정해주세요!$"
+	@ キャァ-!ｎ
+	@ §あさんを はっけん-っ!ｌ
+	@ かっ かんげきっ……!ｐ
+	@ あのっ そうだんが あります!ｐ
+	@ このあいだ ポケモンしょうぶにｎ
+	@ かったは いいんですけど!ｌ
+	@ わたし かんげき しすぎちゃってｌ
+	@ なんにも いえなく なっちゃって……!ｐ
+	@ そこで §あさん!ｎ
+	@ わたしが かった ときの きめぜりふ!ｌ
+	@ かんがえて ほしいのですっ!
 
 gText_ApprenticeWinSpeechThanks8:: @ 82C21FF
 	.string "{STR_VAR_1}\p"
-	.string "Waaaaah!\n"
-	.string "I'm going to say that?!\l"
-	.string "I… I'm delirious with joy!\p"
-	.string "Th-th-thank you!\n"
-	.string "I have nothing left to regret now!\p"
-	.string "I'm going to travel now and battle\n"
-	.string "all sorts of people.\p"
-	.string "Everything, I owe it to you, {PLAYER}.\n"
-	.string "Really, really, thank you!\p"
-	.string "I've got to go now, but let's meet\n"
-	.string "in battle one day!$"
+	.string "우 우와아아아아아!\n"
+	.string "이런 말을 제가요!?\l"
+	.string "가 감격했어요...!!\p"
+	.string "가가가 감사합니다!\n"
+	.string "이제 궁금한 건 없어요!\l"
+	.string "저 앞으로는 새출발해서\l"
+	.string "다양한 사람과 승부해 볼게요!\p"
+	.string "모두 {PLAYER}님\n"
+	.string "덕분이에요!\l"
+	.string "정말 감사드립니다!\p"
+	.string "자 그럼\n"
+	.string "언젠가 승부의 장에서 봐요!$"
+	@ §いｐ
+	@ う うわああぁぁあ!ｎ
+	@ この ことばを わたしが!ｌ
+	@ かっ かんげき………っ!!ｐ
+	@ あああ ありがとう ございますっ!ｎ
+	@ もう おもいのこす ことは ありませんっ!ｌ
+	@ わたし これから たびだってｌ
+	@ いろいろな ひとと しょうぶ してみます!ｐ
+	@ なにもかも §あさんのｎ
+	@ おかげで あります!ｌ
+	@ ほんとうに ありがとう ございますっ!ｐ
+	@ それでは それではｎ
+	@ いつか しょうぶの ばで あいましょう!
 
 gText_ApprenticePickWinSpeech9:: @ 82C231C
-	.string "Hola, bueno!\n"
-	.string "{PLAYER}{KUN}!\p"
-	.string "You know, I'm getting the itch to roam\n"
-	.string "and battle where I may.\p"
-	.string "But before I do, I want your advice\n"
-	.string "once again, please!\p"
-	.string "If I were to win a battle, what would\n"
-	.string "be a good boast I could say to my\l"
-	.string "fallen TRAINER opponent?$"
+	.string "헬로-\n"
+	.string "헬로 {PLAYER}!\p"
+	.string "아저씨 슬슬 이곳저곳에서\n"
+	.string "승부하고 싶어졌어!\l"
+	.string "그래서 그 전에 네게\l"
+	.string "어드바이스를 받고 싶어 플리즈!\p"
+	.string "아저씨가 승부에서 이겼을 때\n"
+	.string "상대 트레이너를 향해서\l"
+	.string "뭐라고 자랑하면 좋을까?$"
+	@ ハッロ-ウｎ
+	@ ハロウ §あ§お!ｐ
+	@ おじさん そろそろ あちこちでｎ
+	@ しょうぶが したく なって きたよ!ｌ
+	@ そこで そのまえに きみにｌ
+	@ アドバイスを もらいたいんだ プリ-ズ!ｐ
+	@ おじさんが もし しょうぶに かったらｎ
+	@ あいての トレ-ナ-に むかってｌ
+	@ じまん するような ことばって ないかな?
 
 gText_ApprenticeWinSpeechThanks9:: @ 82C2407
 	.string "{STR_VAR_1}\p"
-	.string "Uh-huh, that's sweet!\n"
-	.string "Si, bueno!\l"
-	.string "I'll try saying that, like, ham!\p"
-	.string "And now, it's time to say good-bye!\n"
-	.string "Thanks for all sorts of things!\p"
-	.string "Give me a battle one day, OK?\n"
-	.string "Adios!$"
+	.string "아하 그거 좋네\n"
+	.string "오케이 오케이!\l"
+	.string "아저씨 팍팍 말해볼게!\p"
+	.string "그럼 이제 작별이네!\n"
+	.string "지금까지 여러모로 고마웠어\l"
+	.string "언젠가 승부도 해주라!\p"
+	.string "아디오스-!$"
+	@ §いｐ
+	@ あはぁ それいいねｎ
+	@ オ-ケイ オ-ケイ!ｌ
+	@ おじさん ババ-っと いってみるよ!ｐ
+	@ それじゃあ おわかれだ!ｎ
+	@ いままで いろいろ ありがとうねｌ
+	@ いつか しょうぶも してくれよ!ｐ
+	@ アディオ-ス!
 
 gText_ApprenticePickWinSpeech10:: @ 82C24B5
-	.string "{PLAYER}{KUN}, there's big trouble!\p"
-	.string "When I win a battle, I brag about it\n"
-	.string "for an hour at least!\p"
-	.string "Of course I'm lying!\n"
-	.string "Wahahaha!\p"
-	.string "This is no lie, though.\n"
-	.string "I'm not very good at chatting.\p"
-	.string "So, how about deciding for me what\n"
-	.string "I should say after winning a battle,\l"
-	.string "master?$"
+	.string "{PLAYER} 들어봐 큰일이라고-!\p"
+	.string "나 승부에서 이기면\n"
+	.string "1시간이나 자랑해버린단 말야!\p"
+	.string "...농담이야 농담! 으하하\p"
+	.string "실은 나 다른 사람하고 대화를\n"
+	.string "그다지 잘하지 못하거든!\l"
+	.string "거기서 제안 하나!\l"
+	.string "내가 승부에서 이겼을 때\l"
+	.string "하면 좋을 거 같은 대사를\l"
+	.string "스승님이 정해주지 않을래?$"
+	@ §あ§お たいへんだ-っ!ｐ
+	@ おいら しょうぶに かつとｎ
+	@ 1じかんも えばっちゃうんだ!ｐ
+	@ ……なんてね ウソなんだよ! うっははｐ
+	@ じつは おいら ひとと はなし するのｎ
+	@ あんまり とくいじゃ なくてさ!ｌ
+	@ ひとつ どうだろｌ
+	@ おいらが しょうぶに かったときにｌ
+	@ いう ことばをｌ
+	@ ししょうが きめて くれない かな?
 
 gText_ApprenticeWinSpeechThanks10:: @ 82C25B1
 	.string "{STR_VAR_1}\p"
-	.string "That's what I should say, huh?\n"
-	.string "Then, I'll stay away from that!\p"
-	.string "Just kidding!\n"
-	.string "I'll obey your teaching, master!\p"
-	.string "Thanks for teaching me all this time,\n"
-	.string "master!\p"
-	.string "I'm finally understanding what being\n"
-	.string "a TRAINER is about.\p"
-	.string "I'm going to go out and win battles\n"
-	.string "against any TRAINER.\p"
-	.string "Maybe it'll be you one day, master!\p"
-	.string "That's all!\n"
-	.string "Farewell, my master!$"
+	.string "직접 말해보니 좋은걸!\n"
+	.string "그럼 이 대사만큼은 피해야겠다!\p"
+	.string "...농담이야 농담!\n"
+	.string "스승님이 말한 대로 할게\p"
+	.string "여태까지 정말 고마웠어 스승님!\n"
+	.string "나 드디어 트레이너가 뭔지\l"
+	.string "이해한 거 같아!\p"
+	.string "이제부터 다양한 녀석들과\n"
+	.string "승부해서 이기고 올게!\l"
+	.string "스승님하고 승부하게 될지도 몰라!\p"
+	.string "그럼 이만!\n"
+	.string "작별이야 스승님!$"
+	@ §いｐ
+	@ こう いえば いいのね!ｎ
+	@ じゃあ それだけは やめておこうっと!ｐ
+	@ …… なんて じょうだん!ｎ
+	@ ちゃんと ししょうの いうこと きくよｐ
+	@ ずっとずっと ありがとう ししょう!ｎ
+	@ おいら やっと トレ-ナ-って もんがｌ
+	@ わかった きがするよ!ｐ
+	@ いまから いろんな やつとｎ
+	@ しょうぶして かって くるぞ!ｌ
+	@ ししょう とも しょうぶ するかもな!ｐ
+	@ それじゃな!ｎ
+	@ さらばだ ししょう!
 
 gText_ApprenticePickWinSpeech11:: @ 82C2707
-	.string "A-H-O-Y!\n"
-	.string "And that spells ahoy!\p"
-	.string "The rappin' SAILOR am I!\n"
-	.string "This will be my last question,\l"
-	.string "don't you cry!\p"
-	.string "It's a saying question\n"
-	.string "that begs your suggestion!\p"
-	.string "If I win a match, what can I say\n"
-	.string "in a real cool way?$"
+	.string "안-녕-하-세-요!\n"
+	.string "네 안녕하십니까!\l"
+	.string "시원한 선원인 제가 왔습니다-!\p"
+	.string "자 마지막 상담\n"
+	.string "시작해볼까요-!\l"
+	.string "대사에 관한 상담인데요!\p"
+	.string "제가 만약 승부에서 이기면\n"
+	.string "어떤 대사를 날리는 게 좋을까요?$"
+	@ こ®ん®に®ち®は!ｎ
+	@ は-い こんにちは!ｌ
+	@ ノリノリ ふなのりの わしだぜ-!ｐ
+	@ よ-し さいごの わしの そうだんｎ
+	@ いってみようぜ-!ｌ
+	@ ことばに かんする そうだんだよ!ｐ
+	@ わしが もし しょうぶで かったらｎ
+	@ どういう ことばで キメたら いいかな?
 
 gText_ApprenticeWinSpeechThanks11:: @ 82C27D4
 	.string "{STR_VAR_1}\p"
-	.string "Perfect! That's what I'll use.\n"
-	.string "I was right to make you choose!\p"
-	.string "And now, I think it'd be best,\n"
-	.string "if I were to fly the nest!\p"
-	.string "Thanks for all you taught me.\n"
-	.string "I'll be off on a battle spree!\p"
-	.string "B-O-N-V-O-Y-A-G-E!\n"
-	.string "And that spells bon voyage,\l"
-	.string "to you this is my homage!$"
+	.string "과연-! 요요!\n"
+	.string "그렇다면 시원하게 써보도록 하죠!\p"
+	.string "저 슬슬 독립하겠습니다\n"
+	.string "시원하게 마구 싸워볼게요!\l"
+	.string "여러모로 감사했어요!\p"
+	.string "고-생-하-셨-습-니-다!\n"
+	.string "또 어디선가 만나요!$"
+	@ §いｐ
+	@ なるほど-っ! ようよう!ｎ
+	@ そんなら ノリノリで それ つかうぜ!ｐ
+	@ そろそろ わしも すだつと するかｎ
+	@ ノリノリで たたかい まくるぜ!ｌ
+	@ いろいろと ありがとうな!ｐ
+	@ お®つ®か®れ®さ®ま!ｎ
+	@ は-い おつかれさま ごきげんよう!
 
 gText_ApprenticePickWinSpeech12:: @ 82C28D6
-	.string "Oh, yeah, {PLAYER}!\n"
-	.string "I found you again today!\p"
-	.string "What should I do? Ask you again?\n"
-	.string "Why not? I'm already asking you!\p"
-	.string "Anyways, {PLAYER}…\n"
-	.string "Are you receiving me?\l"
-	.string "You are receiving me!\l"
-	.string "I need some more advice for me!\p"
-	.string "It's about what I should yell.\n"
-	.string "Something cool to holler when\l"
-	.string "a battle ends well.\p"
-	.string "Come on, I wanna hear you say it!$"
+	.string "오우예 {PLAYER}니임!\n"
+	.string "어떡하지 나? 오늘도 물어볼까?\l"
+	.string "앗 근데 이미 물어보고 있잖아!\p"
+	.string "애초에 {PLAYER}님은\n"
+	.string "언제나 받아주지!? 그렇잖아!!\l"
+	.string "그러니까 상담 좀 해주라!\p"
+	.string "내가 이겼을 때에 외칠\n"
+	.string "멋지고 엄청나고\l"
+	.string "굉장한 대사를...\l"
+	.string "뭐라도 추천해 줘어어어!$"
+	@ オ-イェッ §あさあん!ｎ
+	@ どうする オレ? きょうも きいてみる?ｌ
+	@ ってもう きこうとしてる!?ｐ
+	@ そもそも §あさんってｎ
+	@ いつも きいてる!? きいてる!!ｌ
+	@ じゃ そうだんに のってェ!ｐ
+	@ おれが かった ときに さけぶｎ
+	@ カッコイイ キメキメのｌ
+	@ すんごい セリフ……ｌ
+	@ なんか かんがえてエエェ!
 
 gText_ApprenticeWinSpeechThanks12:: @ 82C2A0B
 	.string "{STR_VAR_1}\p"
-	.string "All right, all right!\n"
-	.string "I'll use that because it's so tight!\p"
-	.string "I'm out of things to ask you.\n"
-	.string "Waving bye is all that's left to do.\p"
-	.string "But maybe one day we'll meet, with one\n"
-	.string "destined to go down in defeat.\p"
-	.string "But, it really is time to say farewell.\p"
-	.string "Well, {PLAYER}, I have to roam free,\n"
-	.string "but don't you forget about me!\p"
-	.string "Take care, {PLAYER}!\n"
-	.string "Love ya!$"
+	.string "오-케-이 오-케이!\n"
+	.string "그럼 바로 그걸로 갈게!\p"
+	.string "앗 근데 이젠\n"
+	.string "물어볼 게 없어졌어!\l"
+	.string "어쩔 수 없지- 이걸로 끝낼까!?\l"
+	.string "라고 말해놓고 어딘가에서 딱\l"
+	.string "마주치는 거 아니야!?\p"
+	.string "뭐- 그래도 일단 여기서 작별하자!\p"
+	.string "{PLAYER}님\n"
+	.string "나 잊으면 안 돼!\l"
+	.string "그럼 안녕 {PLAYER}님! 사랑한다구!$"
+	@ §いｐ
+	@ オ-ラ-イ オ-ライ!ｎ
+	@ じゃ さっそく それでいくぜェ!ｐ
+	@ ってオレ もうｎ
+	@ きくことが なくなったぜ!ｌ
+	@ しかたね- これで おわかれする!?ｌ
+	@ とかいって どこかで ちゃっかりｌ
+	@ また あえちゃったり するかも!?ｐ
+	@ ま- とりあえずは おわかれだぜ!ｐ
+	@ って §あさんｎ
+	@ オレの こと わすれんなよ!ｌ
+	@ じゃあな §あさん! スキだぜェ!
 
 gText_ApprenticePickWinSpeech13:: @ 82C2B50
 	.string "{PLAYER}{KUN}, I'm finished…\n"
@@ -3527,6 +4239,18 @@ gText_ApprenticePickWinSpeech13:: @ 82C2B50
 	.string "I need you to decide for me, {PLAYER}{KUN}.\p"
 	.string "When I win a battle,\n"
 	.string "what should I say?$"
+	@ §あ§お おれはｎ
+	@ もう ダメだよ……ｌ
+	@ はなみずが とまらなくってさ……ｐ
+	@ しょうぶに かった ときにｎ
+	@ なにか かっこいいこと いおうとしてｌ
+	@ あたまで かんがえてたら……ｐ
+	@ われながら ジ-ンと なけちゃってｎ
+	@ はなみずが でたんだよね きっと!ｌ
+	@ というわけ だからさｌ
+	@ §あ§お かんがえてよ!ｐ
+	@ しょうぶに かったらｎ
+	@ おれ なんて いえば いいかな?
 
 gText_ApprenticeWinSpeechThanks13:: @ 82C2C77
 	.string "{STR_VAR_1}\p"
@@ -3539,6 +4263,16 @@ gText_ApprenticeWinSpeechThanks13:: @ 82C2C77
 	.string "{PLAYER}{KUN}.\p"
 	.string "From now on, we're rivals!\n"
 	.string "Thanks for everything!$"
+	@ §いｐ
+	@ …… …… ……いいよｎ
+	@ それ いいよ!ｌ
+	@ ダメだ なみだが また とまらないよｐ
+	@ でも なみだと はなみずを こらえてｎ
+	@ そのセリフ つかわせて もらうよ!ｐ
+	@ おれは もう §あ§おにｎ
+	@ ききたい ことは なくなった!ｌ
+	@ これからは ライバルだよ!ｐ
+	@ ん いままで ありがとうな!
 
 gText_ApprenticePickWinSpeech14:: @ 82C2D67
 	.string "Er… Um…\n"
@@ -3550,6 +4284,15 @@ gText_ApprenticePickWinSpeech14:: @ 82C2D67
 	.string "It's really embarrassing to ask,\n"
 	.string "but what if I win a battle?\l"
 	.string "What should I say?$"
+	@ あ…… あ……ｎ
+	@ §あ§お だよね?ｌ
+	@ そ そんなに みないで くれよ!ｌ
+	@ てれるだろｐ
+	@ また…… そうだん させて くれよｎ
+	@ こ これで さいごに するからさｐ
+	@ あのさ はずかしいん だけどさｎ
+	@ もし もし しょうぶに かったら!ｌ
+	@ ワシは なんて いったら いいんだろう……?
 
 gText_ApprenticeWinSpeechThanks14:: @ 82C2E41
 	.string "{STR_VAR_1}\p"
@@ -3560,6 +4303,14 @@ gText_ApprenticeWinSpeechThanks14:: @ 82C2E41
 	.string "I have to say good-bye now.\p"
 	.string "I'll obey all that you've taught me,\n"
 	.string "{PLAYER}{KUN}, and do the best I can.$"
+	@ §いｐ
+	@ よ よし それｎ
+	@ いって みるよ!ｌ
+	@ は はずかしいな いえるかな……ｐ
+	@ ありがとう §あ§おｎ
+	@ さようならだ!ｌ
+	@ §あ§おに いわれた ことｌ
+	@ ぜんぶ まもって ワシ がんばるよ!
 
 gText_ApprenticePickWinSpeech15:: @ 82C2EF5
 	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
@@ -3573,6 +4324,17 @@ gText_ApprenticePickWinSpeech15:: @ 82C2EF5
 	.string "It concerns a saying.\p"
 	.string "More precisely, what should I say\n"
 	.string "if I win a battle?$"
+	@ ん?ｎ
+	@ §あ§おの ように みえるが……ｌ
+	@ ほんものかな?ｌ
+	@ §あ§お ぬいぐるみ では?ｐ
+	@ いや! いやいやいやいや!ｎ
+	@ すまない ほんものなら いいんだｌ
+	@ まあ そう おこらないで くれ!ｌ
+	@ それでもって じょげんを おねがいするｌ
+	@ ことばに かんする ことだ!ｐ
+	@ もし わたしが しょうぶに かったらｎ
+	@ ぜんたい なんと いえば いいかね?
 
 gText_ApprenticeWinSpeechThanks15:: @ 82C3023
 	.string "{STR_VAR_1}\p"
@@ -3590,3 +4352,18 @@ gText_ApprenticeWinSpeechThanks15:: @ 82C3023
 	.string "farewell and strike out on my own.\p"
 	.string "Thank you, my mentor!\n"
 	.string "I apologize for my skepticism!$"
+	@ §いｐ
+	@ …… …… ……ｎ
+	@ しょうぶに かったらｐ
+	@ §いｐ
+	@ …… ほんき なのかね?ｐ
+	@ いや ほんき なら いいんだ!ｎ
+	@ どうも ありがとうｌ
+	@ こんな わたしでも いつかｌ
+	@ つかえる ときが くれば いいなｐ
+	@ では そろそろｎ
+	@ ほしい じょげんも なくなってきたｌ
+	@ §あ§おとは おわかれしてｌ
+	@ ひとりで がんばって みようかと おもうｐ
+	@ では ありがとう!ｎ
+	@ うたがって すまなかった!

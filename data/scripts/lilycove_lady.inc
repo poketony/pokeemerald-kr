@@ -735,7 +735,7 @@ LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz: @ 82A8E4E
 	@ だから また こんどね!
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger: @ 82A8EAC
-    .string "지금 {STR_VAR_1}씨가 생각한 퀴즈에\n"
+    .string "지금 {STR_VAR_1}{K_IGA} 생각한 퀴즈에\n"
     .string "대답해줄 사람을 찾고 있어!$"
 	@ いま §いさんの かんがえた クイズにｎ
 	@ こたえて くれる ひとを さがしてるの!
