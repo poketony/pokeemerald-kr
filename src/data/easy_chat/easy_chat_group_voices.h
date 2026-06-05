@@ -75,12 +75,12 @@ const struct EasyChatWordInfo gEasyChatGroup_Voices[] = {
     },
     {
         .text = gEasyChatWord_QuesExcl,
-        .alphabeticalOrder = 7,
+        .alphabeticalOrder = 2,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Ques,
-        .alphabeticalOrder = 8,
+        .alphabeticalOrder = 7,
         .enabled = TRUE,
     },
     {
@@ -105,7 +105,7 @@ const struct EasyChatWordInfo gEasyChatGroup_Voices[] = {
     },
     {
         .text = gEasyChatWord_DashDashDash,
-        .alphabeticalOrder = 2,
+        .alphabeticalOrder = 8,
         .enabled = TRUE,
     },
     {
@@ -115,267 +115,267 @@ const struct EasyChatWordInfo gEasyChatGroup_Voices[] = {
     },
     {
         .text = gEasyChatWord_Waaah,
-        .alphabeticalOrder = 11,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Ahaha,
-        .alphabeticalOrder = 41,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_OhQues,
-        .alphabeticalOrder = 52,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Nope,
-        .alphabeticalOrder = 59,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Urgh,
-        .alphabeticalOrder = 22,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hmm,
-        .alphabeticalOrder = 25,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Whoah,
         .alphabeticalOrder = 32,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_WroooaarExcl,
-        .alphabeticalOrder = 24,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Wow,
-        .alphabeticalOrder = 26,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Giggle,
-        .alphabeticalOrder = 43,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Sigh,
-        .alphabeticalOrder = 19,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Unbelievable,
-        .alphabeticalOrder = 33,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Cries,
-        .alphabeticalOrder = 61,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Agree,
+        .text = gEasyChatWord_Ahaha,
         .alphabeticalOrder = 34,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_EhQues,
-        .alphabeticalOrder = 38,
+        .text = gEasyChatWord_OhQues,
+        .alphabeticalOrder = 39,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Cry,
-        .alphabeticalOrder = 40,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Ehehe,
-        .alphabeticalOrder = 48,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_OiOiOi,
-        .alphabeticalOrder = 37,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_OhYeah,
-        .alphabeticalOrder = 47,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Oh,
-        .alphabeticalOrder = 42,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Oops,
-        .alphabeticalOrder = 15,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Shocked,
-        .alphabeticalOrder = 49,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Eek,
-        .alphabeticalOrder = 46,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Graaah,
+        .text = gEasyChatWord_Nope,
         .alphabeticalOrder = 57,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Gwahahaha,
-        .alphabeticalOrder = 44,
+        .text = gEasyChatWord_Urgh,
+        .alphabeticalOrder = 24,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Way,
-        .alphabeticalOrder = 54,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Tch,
-        .alphabeticalOrder = 53,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hehe,
-        .alphabeticalOrder = 13,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hah,
-        .alphabeticalOrder = 29,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Yup,
-        .alphabeticalOrder = 51,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hahaha,
-        .alphabeticalOrder = 28,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Aiyeeh,
-        .alphabeticalOrder = 55,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hiyah,
-        .alphabeticalOrder = 12,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Fufufu,
-        .alphabeticalOrder = 27,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Lol,
-        .alphabeticalOrder = 56,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Snort,
-        .alphabeticalOrder = 30,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Humph,
-        .alphabeticalOrder = 31,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hehehe,
-        .alphabeticalOrder = 20,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Heh,
-        .alphabeticalOrder = 45,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hohoho,
-        .alphabeticalOrder = 36,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_UhHuh,
-        .alphabeticalOrder = 50,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_OhDear,
+        .text = gEasyChatWord_Hmm,
         .alphabeticalOrder = 9,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Arrgh,
-        .alphabeticalOrder = 21,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Mufufu,
-        .alphabeticalOrder = 14,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Mmm,
+        .text = gEasyChatWord_Whoah,
         .alphabeticalOrder = 10,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_OhKay,
-        .alphabeticalOrder = 62,
+        .text = gEasyChatWord_WroooaarExcl,
+        .alphabeticalOrder = 13,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Okay,
-        .alphabeticalOrder = 35,
+        .text = gEasyChatWord_Wow,
+        .alphabeticalOrder = 11,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Lalala,
-        .alphabeticalOrder = 16,
+        .text = gEasyChatWord_Giggle,
+        .alphabeticalOrder = 27,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Yay,
+        .text = gEasyChatWord_Sigh,
         .alphabeticalOrder = 18,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Aww,
-        .alphabeticalOrder = 60,
+        .text = gEasyChatWord_Unbelievable,
+        .alphabeticalOrder = 12,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Wowee,
-        .alphabeticalOrder = 17,
+        .text = gEasyChatWord_Cries,
+        .alphabeticalOrder = 30,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Gwah,
+        .text = gEasyChatWord_Agree,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_EhQues,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Cry,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Ehehe,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_OiOiOi,
         .alphabeticalOrder = 58,
         .enabled = TRUE,
     },
     {
+        .text = gEasyChatWord_OhYeah,
+        .alphabeticalOrder = 59,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Oh,
+        .alphabeticalOrder = 60,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Oops,
+        .alphabeticalOrder = 62,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Shocked,
+        .alphabeticalOrder = 61,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Eek,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Graaah,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Gwahahaha,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Way,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Tch,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hehe,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hah,
+        .alphabeticalOrder = 52,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Yup,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hahaha,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Aiyeeh,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hiyah,
+        .alphabeticalOrder = 54,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Fufufu,
+        .alphabeticalOrder = 53,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Lol,
+        .alphabeticalOrder = 50,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Snort,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Humph,
+        .alphabeticalOrder = 55,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hehehe,
+        .alphabeticalOrder = 56,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Heh,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hohoho,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_UhHuh,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_OhDear,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Arrgh,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Mufufu,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Mmm,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_OhKay,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Okay,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Lalala,
+        .alphabeticalOrder = 47,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Yay,
+        .alphabeticalOrder = 49,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Aww,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Wowee,
+        .alphabeticalOrder = 45,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Gwah,
+        .alphabeticalOrder = 46,
+        .enabled = TRUE,
+    },
+    {
         .text = gEasyChatWord_Wahahaha,
-        .alphabeticalOrder = 39,
+        .alphabeticalOrder = 41,
         .enabled = TRUE,
     },
 };

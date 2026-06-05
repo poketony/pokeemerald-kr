@@ -38,182 +38,182 @@ const u8 gEasyChatWord_Anticipation[] = _("쿵쾅쿵쾅");
 const struct EasyChatWordInfo gEasyChatGroup_Adjectives[] = {
     {
         .text = gEasyChatWord_Wandering,
-        .alphabeticalOrder = 35,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Rickety,
-        .alphabeticalOrder = 23,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_RockSolid,
-        .alphabeticalOrder = 20,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hungry,
-        .alphabeticalOrder = 31,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Tight,
-        .alphabeticalOrder = 14,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Ticklish,
-        .alphabeticalOrder = 15,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Twirling,
-        .alphabeticalOrder = 32,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Spiraling,
-        .alphabeticalOrder = 34,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Thirsty,
-        .alphabeticalOrder = 12,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Lolling,
         .alphabeticalOrder = 3,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Silky,
-        .alphabeticalOrder = 29,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Sadly,
-        .alphabeticalOrder = 9,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hopeless,
-        .alphabeticalOrder = 33,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Useless,
-        .alphabeticalOrder = 1,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Drooling,
-        .alphabeticalOrder = 27,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Exciting,
-        .alphabeticalOrder = 2,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Thick,
-        .alphabeticalOrder = 11,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Smooth,
-        .alphabeticalOrder = 22,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Slimy,
-        .alphabeticalOrder = 26,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Thin,
-        .alphabeticalOrder = 28,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Break,
-        .alphabeticalOrder = 10,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Voracious,
-        .alphabeticalOrder = 18,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Scatter,
-        .alphabeticalOrder = 17,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Awesome,
-        .alphabeticalOrder = 7,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Wimpy,
-        .alphabeticalOrder = 16,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Wobbly,
-        .alphabeticalOrder = 19,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Shaky,
-        .alphabeticalOrder = 8,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Ripped,
-        .alphabeticalOrder = 5,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Shredded,
+        .text = gEasyChatWord_Rickety,
         .alphabeticalOrder = 4,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Increasing,
+        .text = gEasyChatWord_RockSolid,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hungry,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Tight,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Ticklish,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Twirling,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Spiraling,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Thirsty,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Lolling,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Silky,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Sadly,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hopeless,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Useless,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Drooling,
         .alphabeticalOrder = 6,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Yet,
-        .alphabeticalOrder = 13,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Destroyed,
+        .text = gEasyChatWord_Exciting,
         .alphabeticalOrder = 21,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Fiery,
+        .text = gEasyChatWord_Thick,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Smooth,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Slimy,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Thin,
         .alphabeticalOrder = 0,
         .enabled = TRUE,
     },
     {
+        .text = gEasyChatWord_Break,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Voracious,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Scatter,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Awesome,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Wimpy,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Wobbly,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Shaky,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Ripped,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Shredded,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Increasing,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Yet,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Destroyed,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Fiery,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE,
+    },
+    {
         .text = gEasyChatWord_LoveyDovey,
-        .alphabeticalOrder = 24,
+        .alphabeticalOrder = 11,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Happily,
-        .alphabeticalOrder = 25,
+        .alphabeticalOrder = 24,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Anticipation,
-        .alphabeticalOrder = 30,
+        .alphabeticalOrder = 25,
         .enabled = TRUE,
     },
 };

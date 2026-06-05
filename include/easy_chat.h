@@ -104,16 +104,19 @@ struct EasyChatGroup
     u16 numEnabledWords;
 };
 
+#define EASY_CHAT_ALPHABETICAL_GROUPS 27
+#define EASY_CHAT_ALPHABETICAL_WORDS_CAPACITY 512
+
 struct Unk203A120
 {
     u16 unk0;
     u16 unk2[EC_NUM_GROUPS];
-    u16 unk2E[27];
-    u16 unk64[27][270];
+    u16 unk2E[EASY_CHAT_ALPHABETICAL_GROUPS];
+    u16 unk64[EASY_CHAT_ALPHABETICAL_GROUPS][EASY_CHAT_ALPHABETICAL_WORDS_CAPACITY];
     u8 filler3958[0x2C];
-    u16 unk3984[0x10E];
+    u16 unk3984[EASY_CHAT_ALPHABETICAL_WORDS_CAPACITY];
     u16 unk3BA0;
-}; /*size = 0x3BA4*/
+};
 
 struct EasyChatWordsByLetter
 {

@@ -12,6 +12,7 @@
 #include "frontier_util.h"
 #include "string_util.h"
 #include "constants/battle_tent.h"
+#include "constants/frontier_util.h"
 #include "constants/battle_tent_trainers.h"
 #include "constants/battle_tent_mons.h"
 #include "constants/items.h"
@@ -136,7 +137,7 @@ static void SetVerdanturfTentTrainerGfx(void)
 static void BufferVerdanturfTentTrainerIntro(void)
 {
     if (gTrainerBattleOpponent_A < FRONTIER_TRAINERS_COUNT)
-        FrontierSpeechToString(gFacilityTrainers[gTrainerBattleOpponent_A].speechBefore);
+        FrontierTrainerStringToString(gTrainerBattleOpponent_A, FRONTIER_BEFORE_TEXT);
 }
 
 static void SaveVerdanturfTentChallenge(void)

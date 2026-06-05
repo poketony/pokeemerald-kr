@@ -4229,16 +4229,18 @@ gText_ApprenticeWinSpeechThanks12:: @ 82C2A0B
 	@ じゃあな §あさん! スキだぜェ!
 
 gText_ApprenticePickWinSpeech13:: @ 82C2B50
-	.string "{PLAYER}{KUN}, I'm finished…\n"
-	.string "My nose won't stop dripping…\p"
-	.string "I was trying to think up something\n"
-	.string "cool to say when I win a battle.\p"
-	.string "It inspired me so much, it made me cry,\n"
-	.string "and now my nose won't stop running…\p"
-	.string "So, things being this way,\n"
-	.string "I need you to decide for me, {PLAYER}{KUN}.\p"
-	.string "When I win a battle,\n"
-	.string "what should I say?$"
+	.string "{PLAYER} 난\n"
+	.string "이제 틀렸어...\l"
+	.string "콧물이 멈추질 않아...\p"
+	.string "승부에서 이겼을 때\n"
+	.string "뭔가 멋진 대사를 말해보려고\l"
+	.string "머릿속으로 생각하고 있었더니...\p"
+	.string "나 스스로도 찡해져서 눈물이 나오지 뭐야\n"
+	.string "그래서 콧물도 나온 거겠지 분명!\l"
+	.string "아무튼 그렇게 됐으니!\l"
+	.string "{PLAYER}{K_IGA} 생각해줘!\p"
+	.string "승부에서 이기면\n"
+	.string "나 무슨 말을 하면 좋을까?$"
 	@ §あ§お おれはｎ
 	@ もう ダメだよ……ｌ
 	@ はなみずが とまらなくってさ……ｐ
@@ -4254,15 +4256,15 @@ gText_ApprenticePickWinSpeech13:: @ 82C2B50
 
 gText_ApprenticeWinSpeechThanks13:: @ 82C2C77
 	.string "{STR_VAR_1}\p"
-	.string "… … …That's good.\n"
-	.string "No, it's awe inspiring!\l"
-	.string "It's bringing fresh tears to my eyes!\p"
-	.string "But in spite of my tears and runny\n"
-	.string "nose, I will use that saying!\p"
-	.string "I'm plumb out of things to ask you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "From now on, we're rivals!\n"
-	.string "Thanks for everything!$"
+	.string "...... ...... ......알겠어\n"
+	.string "그거 좋은데!\l"
+	.string "이런 눈물이 또 나오기 시작했어\p"
+	.string "하지만 눈물 콧물 꾹 참고\n"
+	.string "그 대사를 꼭 쓰도록 할게!\p"
+	.string "내가 이제 {PLAYER}에게\n"
+	.string "물어보고 싶은 건 없어!\l"
+	.string "이제부터는 라이벌이야!\p"
+	.string "응! 여태까지 고마웠어!$"
 	@ §いｐ
 	@ …… …… ……いいよｎ
 	@ それ いいよ!ｌ
@@ -4275,15 +4277,15 @@ gText_ApprenticeWinSpeechThanks13:: @ 82C2C77
 	@ ん いままで ありがとうな!
 
 gText_ApprenticePickWinSpeech14:: @ 82C2D67
-	.string "Er… Um…\n"
-	.string "{PLAYER}{KUN}…\p"
-	.string "Please, don't look at me that way.\n"
-	.string "You're making me all nervous.\p"
-	.string "I… I need your advice again.\n"
-	.string "I'll make it my last, though…\p"
-	.string "It's really embarrassing to ask,\n"
-	.string "but what if I win a battle?\l"
-	.string "What should I say?$"
+	.string "아... 아...\n"
+	.string "{PLAYER} 맞지?\l"
+	.string "그 그렇게 보지 말아주게!\l"
+	.string "부끄럽단 말일세\p"
+	.string "또... 상담해 주게나\n"
+	.string "이 이걸로 마지막이라네\p"
+	.string "저기 부끄럽지만\n"
+	.string "만약... 만약 승부에서 이긴다면!\l"
+	.string "나는 무슨 말을 하는 게 좋겠나...?$"
 	@ あ…… あ……ｎ
 	@ §あ§お だよね?ｌ
 	@ そ そんなに みないで くれよ!ｌ
@@ -4296,13 +4298,13 @@ gText_ApprenticePickWinSpeech14:: @ 82C2D67
 
 gText_ApprenticeWinSpeechThanks14:: @ 82C2E41
 	.string "{STR_VAR_1}\p"
-	.string "Oh… Okay!\n"
-	.string "I'll try to say that!\l"
-	.string "I might be too nervous to say it…\p"
-	.string "Thank you, {PLAYER}{KUN}.\n"
-	.string "I have to say good-bye now.\p"
-	.string "I'll obey all that you've taught me,\n"
-	.string "{PLAYER}{KUN}, and do the best I can.$"
+	.string "그 그거 좋구먼\n"
+	.string "해 보겠네!\l"
+	.string "부 부끄러운데 할 수 있을까...\p"
+	.string "고맙네 {PLAYER}\n"
+	.string "작별일세!\l"
+	.string "{PLAYER}에게서 배운 것\l"
+	.string "전부 잊지 않고 열심히 하겠네!$"
 	@ §いｐ
 	@ よ よし それｎ
 	@ いって みるよ!ｌ
@@ -4313,17 +4315,17 @@ gText_ApprenticeWinSpeechThanks14:: @ 82C2E41
 	@ ぜんぶ まもって ワシ がんばるよ!
 
 gText_ApprenticePickWinSpeech15:: @ 82C2EF5
-	.string "Hm? You appear to be {PLAYER}{KUN}…\n"
-	.string "But are you really?\l"
-	.string "Perhaps a clever {PLAYER} DOLL?\p"
-	.string "Oh, no, no, no, don't worry!\n"
-	.string "If you really are real, please\l"
-	.string "forget about my rudeness.\p"
-	.string "No need to be so angry. All I wish for\n"
-	.string "is more of your fine advice.\p"
-	.string "It concerns a saying.\p"
-	.string "More precisely, what should I say\n"
-	.string "if I win a battle?$"
+	.string "응?\n"
+	.string "{PLAYER}처럼 보인다만...\l"
+	.string "진짜인가?\l"
+	.string "{PLAYER}인 척하는 봉제인형이 아니고?\p"
+	.string "아니! 아니아니아니아니!\n"
+	.string "미안하네 진짜라면 됐네\l"
+	.string "그렇게 화내지 말게나!\l"
+	.string "그것보다 조언을 부탁하고 싶네만\l"
+	.string "대사에 대한 걸세!\p"
+	.string "만약 내가 승부에서 이긴다면\n"
+	.string "대체 뭐라고 하면 좋겠나?$"
 	@ ん?ｎ
 	@ §あ§おの ように みえるが……ｌ
 	@ ほんものかな?ｌ
@@ -4338,20 +4340,20 @@ gText_ApprenticePickWinSpeech15:: @ 82C2EF5
 
 gText_ApprenticeWinSpeechThanks15:: @ 82C3023
 	.string "{STR_VAR_1}\p"
-	.string "… … … … … …\n"
-	.string "When I win a match…\p"
+	.string "...... ...... ......\n"
+	.string "시합에서 이기면\p"
 	.string "{STR_VAR_1}\p"
-	.string "…Are you serious?\p"
-	.string "I see. If you are serious, that's fine.\n"
-	.string "I thank you for your time.\p"
-	.string "I do hope even I will be able to\n"
-	.string "put that saying to good use.\p"
-	.string "I seem to have run dry on what advice\n"
-	.string "I need.\p"
-	.string "I do believe it's high time I bid you\n"
-	.string "farewell and strike out on my own.\p"
-	.string "Thank you, my mentor!\n"
-	.string "I apologize for my skepticism!$"
+	.string "...진심인가?\p"
+	.string "아니 진심이라면 됐네!\n"
+	.string "정말 고맙군\l"
+	.string "이런 나라도 언젠가\l"
+	.string "그 대사를 말할 때가 오면 좋겠어\p"
+	.string "그럼 슬슬\n"
+	.string "원하는 조언도 다 들었으니\l"
+	.string "{PLAYER}와는 작별을 고하고\l"
+	.string "혼자서 열심히 해보려고 하네\p"
+	.string "그럼 고마웠네!\n"
+	.string "의심해서 미안했네!$"
 	@ §いｐ
 	@ …… …… ……ｎ
 	@ しょうぶに かったらｐ

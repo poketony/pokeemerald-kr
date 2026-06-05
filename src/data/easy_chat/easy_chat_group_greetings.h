@@ -44,212 +44,212 @@ const u8 gEasyChatWord_CountOn[] = _("잘 부탁해");
 const struct EasyChatWordInfo gEasyChatGroup_Greetings[] = {
     {
         .text = gEasyChatWord_Thanks,
-        .alphabeticalOrder = 12,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Yes,
-        .alphabeticalOrder = 25,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HereGoes,
-        .alphabeticalOrder = 32,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HereICome,
-        .alphabeticalOrder = 40,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HereItIs,
-        .alphabeticalOrder = 9,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Yeah,
-        .alphabeticalOrder = 41,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Welcome,
-        .alphabeticalOrder = 20,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Oi,
-        .alphabeticalOrder = 22,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HowDo,
-        .alphabeticalOrder = 13,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Congrats,
-        .alphabeticalOrder = 10,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_GiveMe,
-        .alphabeticalOrder = 24,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Sorry,
-        .alphabeticalOrder = 16,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Apologize,
-        .alphabeticalOrder = 15,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Forgive,
         .alphabeticalOrder = 2,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_HeyThere,
+        .text = gEasyChatWord_Yes,
         .alphabeticalOrder = 3,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Hello,
+        .text = gEasyChatWord_HereGoes,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_HereICome,
         .alphabeticalOrder = 4,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_GoodBye,
-        .alphabeticalOrder = 34,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_ThankYou,
+        .text = gEasyChatWord_HereItIs,
         .alphabeticalOrder = 14,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_IveArrived,
-        .alphabeticalOrder = 26,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Pardon,
-        .alphabeticalOrder = 30,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Excuse,
-        .alphabeticalOrder = 37,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_SeeYa,
-        .alphabeticalOrder = 8,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_ExcuseMe,
-        .alphabeticalOrder = 28,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_WellThen,
-        .alphabeticalOrder = 18,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_GoAhead,
-        .alphabeticalOrder = 36,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Appreciate,
-        .alphabeticalOrder = 33,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HeyQues,
-        .alphabeticalOrder = 29,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_WhatsUpQues,
-        .alphabeticalOrder = 7,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HuhQues,
-        .alphabeticalOrder = 19,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_No,
-        .alphabeticalOrder = 21,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hi,
-        .alphabeticalOrder = 35,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_YeahYeah,
-        .alphabeticalOrder = 11,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_ByeBye,
-        .alphabeticalOrder = 17,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_MeetYou,
+        .text = gEasyChatWord_Yeah,
         .alphabeticalOrder = 0,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Hey,
-        .alphabeticalOrder = 6,
+        .text = gEasyChatWord_Welcome,
+        .alphabeticalOrder = 21,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Smell,
+        .text = gEasyChatWord_Oi,
         .alphabeticalOrder = 23,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Listening,
-        .alphabeticalOrder = 27,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_HooHah,
-        .alphabeticalOrder = 38,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Yahoo,
-        .alphabeticalOrder = 5,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Yo,
+        .text = gEasyChatWord_HowDo,
         .alphabeticalOrder = 31,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_ComeOver,
+        .text = gEasyChatWord_Congrats,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_GiveMe,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Sorry,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Apologize,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Forgive,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_HeyThere,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hello,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_GoodBye,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_ThankYou,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_IveArrived,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Pardon,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Excuse,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_SeeYa,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_ExcuseMe,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_WellThen,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_GoAhead,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Appreciate,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_HeyQues,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_WhatsUpQues,
         .alphabeticalOrder = 1,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_CountOn,
+        .text = gEasyChatWord_HuhQues,
         .alphabeticalOrder = 39,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_No,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hi,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_YeahYeah,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_ByeBye,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_MeetYou,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hey,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Smell,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Listening,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_HooHah,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Yahoo,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Yo,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_ComeOver,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_CountOn,
+        .alphabeticalOrder = 6,
         .enabled = TRUE,
     },
 };

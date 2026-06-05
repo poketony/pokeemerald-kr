@@ -1,10 +1,10 @@
 #include "global.h"
 
 // Easy Chat keyboard
-const u8 gText_EasyChatKeyboard_ABCDEFothers[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 26}others");
-const u8 gText_EasyChatKeyboard_GHIJKL[] = _("{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L");
-const u8 gText_EasyChatKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ");
-const u8 gText_EasyChatKeyboard_TUVWXYZ[] = _("{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ");
+const u8 gText_EasyChatKeyboard_ABCDEFothers[] = _("{CLEAR_TO 6}ㄱ{CLEAR_TO 23}ㄲ{CLEAR_TO 40}ㄴ{CLEAR_TO 83}ㄷ{CLEAR_TO 100}ㄸ{CLEAR_TO 117}ㄹ{CLEAR_TO 142}기타");
+const u8 gText_EasyChatKeyboard_GHIJKL[] = _("{CLEAR_TO 6}ㅁ{CLEAR_TO 23}ㅂ{CLEAR_TO 40}ㅃ{CLEAR_TO 83}ㅅ{CLEAR_TO 100}ㅆ{CLEAR_TO 117}ㅇ");
+const u8 gText_EasyChatKeyboard_MNOPQRS[] = _("{CLEAR_TO 6}ㅈ{CLEAR_TO 23}ㅉ{CLEAR_TO 40}ㅊ{CLEAR_TO 83}ㅋ{CLEAR_TO 100}ㅌ{CLEAR_TO 117}ㅍ{CLEAR_TO 134}ㅎ");
+const u8 gText_EasyChatKeyboard_TUVWXYZ[] = _("");
 
 // Naming Screen keyboard
 const u8 gText_NamingScreenKeyboard_abcdef[] = _("1{CLEAR_TO 16}2{CLEAR_TO 32}3{CLEAR_TO 48}4{CLEAR_TO 64}5{CLEAR_TO 80}6{CLEAR_TO 96}7{CLEAR_TO 112}8{CLEAR_TO 128}9{CLEAR_TO 144}0");

@@ -47,67 +47,67 @@ const u8 gEasyChatWord_Week[] = _("다음 주");
 const struct EasyChatWordInfo gEasyChatGroup_Time[] = {
     {
         .text = gEasyChatWord_Fall,
-        .alphabeticalOrder = 29,
+        .alphabeticalOrder = 0,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Morning,
-        .alphabeticalOrder = 39,
+        .alphabeticalOrder = 36,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Tomorrow,
-        .alphabeticalOrder = 6,
+        .alphabeticalOrder = 24,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Last,
-        .alphabeticalOrder = 18,
+        .alphabeticalOrder = 22,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Day,
-        .alphabeticalOrder = 33,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Sometime,
-        .alphabeticalOrder = 7,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Always,
-        .alphabeticalOrder = 37,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Current,
-        .alphabeticalOrder = 4,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Forever,
         .alphabeticalOrder = 9,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Days,
-        .alphabeticalOrder = 35,
+        .text = gEasyChatWord_Sometime,
+        .alphabeticalOrder = 14,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_End,
-        .alphabeticalOrder = 17,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Tuesday,
+        .text = gEasyChatWord_Always,
         .alphabeticalOrder = 10,
         .enabled = TRUE,
     },
     {
+        .text = gEasyChatWord_Current,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Forever,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Days,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_End,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Tuesday,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE,
+    },
+    {
         .text = gEasyChatWord_Yesterday,
-        .alphabeticalOrder = 0,
+        .alphabeticalOrder = 29,
         .enabled = TRUE,
     },
     {
@@ -117,157 +117,157 @@ const struct EasyChatWordInfo gEasyChatGroup_Time[] = {
     },
     {
         .text = gEasyChatWord_Friday,
-        .alphabeticalOrder = 20,
+        .alphabeticalOrder = 37,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Monday,
-        .alphabeticalOrder = 8,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Later,
-        .alphabeticalOrder = 14,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Earlier,
-        .alphabeticalOrder = 3,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Another,
-        .alphabeticalOrder = 16,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Time,
-        .alphabeticalOrder = 15,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Finish,
-        .alphabeticalOrder = 24,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Wednesday,
-        .alphabeticalOrder = 1,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Soon,
         .alphabeticalOrder = 40,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Start,
-        .alphabeticalOrder = 28,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Month,
-        .alphabeticalOrder = 43,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Stop,
-        .alphabeticalOrder = 42,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Now,
-        .alphabeticalOrder = 26,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Final,
-        .alphabeticalOrder = 38,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Next,
-        .alphabeticalOrder = 30,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Age,
-        .alphabeticalOrder = 5,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Saturday,
-        .alphabeticalOrder = 22,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Summer,
-        .alphabeticalOrder = 34,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Sunday,
-        .alphabeticalOrder = 23,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Beginning,
-        .alphabeticalOrder = 25,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Spring,
-        .alphabeticalOrder = 31,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Daytime,
-        .alphabeticalOrder = 32,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Winter,
+        .text = gEasyChatWord_Later,
         .alphabeticalOrder = 41,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Daily,
-        .alphabeticalOrder = 19,
+        .text = gEasyChatWord_Earlier,
+        .alphabeticalOrder = 43,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Olden,
-        .alphabeticalOrder = 13,
+        .text = gEasyChatWord_Another,
+        .alphabeticalOrder = 42,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Almost,
-        .alphabeticalOrder = 2,
+        .text = gEasyChatWord_Time,
+        .alphabeticalOrder = 34,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Nearly,
-        .alphabeticalOrder = 11,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Thursday,
+        .text = gEasyChatWord_Finish,
         .alphabeticalOrder = 21,
         .enabled = TRUE,
     },
     {
+        .text = gEasyChatWord_Wednesday,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Soon,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Start,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Month,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Stop,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Now,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Final,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Next,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Age,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Saturday,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Summer,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Sunday,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Beginning,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Spring,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Daytime,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Winter,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Daily,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Olden,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Almost,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Nearly,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Thursday,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE,
+    },
+    {
         .text = gEasyChatWord_Nighttime,
-        .alphabeticalOrder = 44,
+        .alphabeticalOrder = 3,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Night,
-        .alphabeticalOrder = 36,
+        .alphabeticalOrder = 6,
         .enabled = TRUE,
     },
     {
         .text = gEasyChatWord_Week,
-        .alphabeticalOrder = 12,
+        .alphabeticalOrder = 11,
         .enabled = TRUE,
     },
 };

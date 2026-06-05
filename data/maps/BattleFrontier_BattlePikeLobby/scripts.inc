@@ -436,7 +436,7 @@ BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2: @ 825C209
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit: @ 825C26C
-	.string "포인트가 가득하군요...\n"
+	.string "포인트가 가득하군요...\p"
 	.string "포인트를 정리하고 나서\n"
 	.string "다시 와 주세요...$"
 	// ポイントが いっぱいの ようですね……ｐ

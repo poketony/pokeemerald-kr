@@ -35,167 +35,167 @@ const u8 gEasyChatWord_Ugly[] = _("존못");
 const struct EasyChatWordInfo gEasyChatGroup_TrendySaying[] = {
     {
         .text = gEasyChatWord_KthxBye,
-        .alphabeticalOrder = 7,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_YesSirExcl,
-        .alphabeticalOrder = 2,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_AvantGarde,
-        .alphabeticalOrder = 28,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Couple,
-        .alphabeticalOrder = 22,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_MuchObliged,
-        .alphabeticalOrder = 9,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_YeehawExcl,
-        .alphabeticalOrder = 3,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Mega,
-        .alphabeticalOrder = 8,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_1HitKOExcl,
-        .alphabeticalOrder = 26,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Destiny,
-        .alphabeticalOrder = 11,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Cancel,
-        .alphabeticalOrder = 15,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_New,
-        .alphabeticalOrder = 24,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Flatten,
-        .alphabeticalOrder = 29,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Kidding,
-        .alphabeticalOrder = 16,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Loser,
-        .alphabeticalOrder = 12,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Losing,
-        .alphabeticalOrder = 23,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Happening,
         .alphabeticalOrder = 0,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_HipAnd,
-        .alphabeticalOrder = 13,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Shake,
-        .alphabeticalOrder = 14,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Shady,
-        .alphabeticalOrder = 6,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Upbeat,
-        .alphabeticalOrder = 20,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Modern,
-        .alphabeticalOrder = 4,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_SmellYa,
+        .text = gEasyChatWord_YesSirExcl,
         .alphabeticalOrder = 10,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Bang,
+        .text = gEasyChatWord_AvantGarde,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Couple,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_MuchObliged,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_YeehawExcl,
         .alphabeticalOrder = 30,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Knockout,
-        .alphabeticalOrder = 18,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Hassle,
-        .alphabeticalOrder = 17,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Winner,
-        .alphabeticalOrder = 21,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Fever,
-        .alphabeticalOrder = 32,
-        .enabled = TRUE,
-    },
-    {
-        .text = gEasyChatWord_Wannabe,
+        .text = gEasyChatWord_Mega,
         .alphabeticalOrder = 19,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Baby,
-        .alphabeticalOrder = 27,
+        .text = gEasyChatWord_1HitKOExcl,
+        .alphabeticalOrder = 13,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Heart,
-        .alphabeticalOrder = 25,
+        .text = gEasyChatWord_Destiny,
+        .alphabeticalOrder = 20,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Old,
-        .alphabeticalOrder = 5,
+        .text = gEasyChatWord_Cancel,
+        .alphabeticalOrder = 28,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Young,
+        .text = gEasyChatWord_New,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Flatten,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Kidding,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Loser,
         .alphabeticalOrder = 1,
         .enabled = TRUE,
     },
     {
-        .text = gEasyChatWord_Ugly,
+        .text = gEasyChatWord_Losing,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Happening,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_HipAnd,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Shake,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Shady,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Upbeat,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Modern,
         .alphabeticalOrder = 31,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_SmellYa,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Bang,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Knockout,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Hassle,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Winner,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Fever,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Wannabe,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Baby,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Heart,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Old,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Young,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE,
+    },
+    {
+        .text = gEasyChatWord_Ugly,
+        .alphabeticalOrder = 17,
         .enabled = TRUE,
     },
 };

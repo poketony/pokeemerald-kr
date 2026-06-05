@@ -1450,17 +1450,17 @@ void SoftResetInBattlePyramid(void)
 
 void CopyPyramidTrainerSpeechBefore(u16 trainerId)
 {
-    FrontierSpeechToString(gFacilityTrainers[trainerId].speechBefore);
+    FrontierTrainerStringToString(trainerId, FRONTIER_BEFORE_TEXT);
 }
 
 void CopyPyramidTrainerWinSpeech(u16 trainerId)
 {
-    FrontierSpeechToString(gFacilityTrainers[trainerId].speechWin);
+    FrontierTrainerStringToString(trainerId, FRONTIER_PLAYER_LOST_TEXT);
 }
 
 void CopyPyramidTrainerLoseSpeech(u16 trainerId)
 {
-    FrontierSpeechToString(gFacilityTrainers[trainerId].speechLose);
+    FrontierTrainerStringToString(trainerId, FRONTIER_PLAYER_WON_TEXT);
 }
 
 u8 GetBattlePyramindTrainerEncounterMusicId(u16 trainerId)

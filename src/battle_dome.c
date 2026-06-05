@@ -5346,6 +5346,7 @@ static void Task_ShowTourneyTree(u8 taskId)
         textPrinter.bgColor = TEXT_COLOR_TRANSPARENT;
         textPrinter.shadowColor = TEXT_DYNAMIC_COLOR_4;
         AddTextPrinter(&textPrinter, 0, NULL);
+
         for (i = 0; i < DOME_TOURNAMENT_TRAINERS_COUNT; i++)
         {
             int roundId, var2;
@@ -5517,7 +5518,7 @@ static void Task_HandleStaticTourneyTreeInput(u8 taskId)
         {
             gTasks[taskId].tState = STATE_DELAY;
             gTasks[taskId].data[3] = 64;
-            textPrinter.fontId = 2;
+            textPrinter.fontId = 10;
             textPrinter.x = 0;
             textPrinter.y = 0;
             textPrinter.letterSpacing = 2;

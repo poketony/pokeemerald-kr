@@ -519,7 +519,6 @@ static const u8 sUnknown_08597748[][7] = {
     { 1,  2,  3,  4,  5,  6,  0},
     { 7,  8,  9, 10, 11, 12,  0},
     {13, 14, 15, 16, 17, 18, 19},
-    {20, 21, 22, 23, 24, 25, 26},
 };
 
 static const u16 sMysteryGiftPhrase[] = {
@@ -702,7 +701,6 @@ static const u8 *const sEasyChatKeyboardText[] =
     gText_EasyChatKeyboard_ABCDEFothers,
     gText_EasyChatKeyboard_GHIJKL,
     gText_EasyChatKeyboard_MNOPQRS,
-    gText_EasyChatKeyboard_TUVWXYZ,
 };
 
 static const struct SpriteSheet sEasyChatSpriteSheets[] = {
@@ -767,7 +765,7 @@ static const struct CompressedSpriteSheet sUnknown_08597CE8[] = {
     },
 };
 
-static const u8 sUnknown_08597D08[] = {0, 12, 24, 56, 68, 80, 92};
+static const u8 sUnknown_08597D08[] = {0, 17, 34, 77, 94, 111, 128};
 
 static const struct OamData sOamData_8597D10 = {
     .y = 0,
@@ -2199,12 +2197,12 @@ static int sub_811B634(u32 arg0)
         if (sEasyChatScreen->unk_0b > 0)
             sEasyChatScreen->unk_0b--;
         else
-            sEasyChatScreen->unk_0b = 3;
+            sEasyChatScreen->unk_0b = 2;
 
         sub_811B978();
         return 15;
     case 3:
-        if (sEasyChatScreen->unk_0b < 3)
+        if (sEasyChatScreen->unk_0b < 2)
             sEasyChatScreen->unk_0b++;
         else
             sEasyChatScreen->unk_0b = 0;
@@ -2380,7 +2378,7 @@ static u16 sub_811B8E8(void)
 static int sub_811B908(void)
 {
     int var0 = (u8)sEasyChatScreen->unk_0a < 7 ? sEasyChatScreen->unk_0a : 0;
-    int var1 = (u8)sEasyChatScreen->unk_0b < 4 ? sEasyChatScreen->unk_0b : 0;
+    int var1 = (u8)sEasyChatScreen->unk_0b < ARRAY_COUNT(sUnknown_08597748) ? sEasyChatScreen->unk_0b : 0;
     return sUnknown_08597748[var1][var0];
 }
 
@@ -2394,10 +2392,12 @@ static u8 sub_811B960(u8 arg0)
     switch (arg0)
     {
     case 0:
-    default:
         return 6;
     case 1:
         return 5;
+    case 2:
+    default:
+        return 6;
     }
 }
 
@@ -4469,10 +4469,10 @@ static void sub_811E1A4(s8 arg0, s8 arg1)
     if (arg0 != -1)
     {
         y = arg1 * 16 + 96;
-        x = 32;
+        x = 28;
         if (arg0 == 6 && arg1 == 0)
         {
-            x = 158;
+            x = 162;
             anim = 2;
         }
         else
@@ -5380,7 +5380,7 @@ static void sub_811F46C(void)
     u16 numToProcess;
     int index;
 
-    for (i = 0; i < 27; i++)
+    for (i = 0; i < EASY_CHAT_ALPHABETICAL_GROUPS; i++)
     {
         numWords = gEasyChatWordsByLetterPointers[i].numWords;
         words = gEasyChatWordsByLetterPointers[i].words;

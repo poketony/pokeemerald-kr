@@ -1466,12 +1466,12 @@ static void BufferTrainerIntro(void)
     if (gSpecialVar_0x8005 == 0)
     {
         if (gTrainerBattleOpponent_A < FRONTIER_TRAINERS_COUNT)
-            FrontierSpeechToString(gFacilityTrainers[gTrainerBattleOpponent_A].speechBefore);
+            FrontierTrainerStringToString(gTrainerBattleOpponent_A, FRONTIER_BEFORE_TEXT);
     }
     else if (gSpecialVar_0x8005 == 1)
     {
         if (gTrainerBattleOpponent_B < FRONTIER_TRAINERS_COUNT)
-            FrontierSpeechToString(gFacilityTrainers[gTrainerBattleOpponent_B].speechBefore);
+            FrontierTrainerStringToString(gTrainerBattleOpponent_B, FRONTIER_BEFORE_TEXT);
     }
 }
 

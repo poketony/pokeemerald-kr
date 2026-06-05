@@ -1601,6 +1601,7 @@ BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge: @ 8240ED2
 	.string "다른 종류의 포켓몬을\l"
 	.string "2마리씩 가지고\l"
 	.string "멀티배틀로 대전하는 시설입니다!\p"
+	.string "타워 안에는 멀티 배틀룸이라는\n"
 	.string "대전을 위한 방이\l"
 	.string "많이 준비되어 있습니다!\p"
 	.string "각각의 멀티 배틀룸에는\n"

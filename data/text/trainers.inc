@@ -27,7 +27,7 @@ Route102_Text_CalvinRegister:
 	@ ポケナビ とうろく してよ!
 
 Route102_Text_CalvinRegisterShort:
-	.string "다음에 또 배틀하고 싶으니까\l"
+	.string "다음에 또 배틀하고 싶으니까\n"
 	.string "포켓내비에 등록해 주라!$"
 	@ こんど また たたかいたい からｎ
 	@ ポケナビ とうろく してよ!

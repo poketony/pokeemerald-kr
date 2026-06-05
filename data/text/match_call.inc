@@ -890,11 +890,12 @@ MatchCall_DifferentRouteBattleRequestText3:: @ 82AB73C
 
 MatchCall_DifferentRouteBattleRequestText4:: @ 82AB808
 	.string "여어 {PLAYER}\n"
-	.string "{STR_VAR_1}{K_I}야\l"
+	.string "{STR_VAR_1}{K_I}야\p"
 	.string "상태는 어때?\n"
 	.string "내 포켓몬도\l"
 	.string "충분히 강해졌어\p"
-	.string "승부하지 않을래?\n"
+	.string "맞다 또 나하고\n"
+	.string "승부하지 않을래?\l"
 	.string "그럼 {STR_VAR_2}에서 보자$"
 	@ やあ §あ§おｎ
 	@ §い だｐ
@@ -1285,7 +1286,7 @@ MatchCall_PersonalizedText11:: @ 82AC82C
 	.string "풀만 엄청 자라있어서\l"
 	.string "너무 넓은 거 있지-! 흥흥!\p"
 	.string "아- 화냈더니 마음이 좀 놓이네\n"
-	.string "잠깐 사파리존에라도 가야지!\n"
+	.string "잠깐 사파리존에라도 가야지!\l"
 	.string "또 봐!$"
 	@ §いよｎ
 	@ ちょっと はなし ききなさいよ!ｐ
@@ -1915,7 +1916,7 @@ MatchCall_PersonalizedText39:: @ 82AE489
 	.string "바다에 떨어뜨려 버렸어!\p"
 	.string "바다에 떨어뜨려도 고장나지 않는다니\n"
 	.string "데봉의 포켓내비는 굉장한걸-!\l"
-	.string "그럼 일광욕을 계속해야 되니까\n"
+	.string "그럼 일광욕을 계속해야 되니까\l"
 	.string "다음에 얘기하자!$"
 	@ ああ §い ですけ……ｐ
 	@ ボチャンｐ

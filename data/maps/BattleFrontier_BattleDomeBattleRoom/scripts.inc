@@ -1307,7 +1307,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
 	// きんいろに かがやいた!
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
-	.string "강하고! 무엇보다도 귀여워 너!!\n"
+	.string "강하고! 무엇보다도 귀여운 너!!\p"
 	.string "너에게서 나 같은\n"
 	.string "슈퍼스타가 될 수 있는\l"
 	.string "가능성을 느낄 수 있어!\l"

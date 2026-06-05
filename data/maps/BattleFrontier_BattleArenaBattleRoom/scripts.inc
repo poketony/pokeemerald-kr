@@ -611,7 +611,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
 	.string "손님!\p"
 	.string "당신의 실력은\n"
-	.string "실로 굉장하군요!\n"
+	.string "실로 굉장하군요!\p"
 	.string "그러니 이쯤에서 한번\n"
 	.string "우리들의 대장 아레나캡틴과\l"
 	.string "한 수 부탁드립니다!$"
