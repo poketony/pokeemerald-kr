@@ -895,13 +895,13 @@ static const u8 sBattleTowerPartySizes[FRONTIER_MODE_COUNT] =
 
 static const u16 sRecordTrainerSpeechWon[] =
 {
-    EC_WORD_YAY, EC_WORD_YAY, EC_WORD_EXCL_EXCL, EC_WORD_I_VE, EC_WORD_WON, EC_WORD_EXCL_EXCL
-};
+    EC_WORD_YAHOO, EC_WORD_EXCL, EC_WORD_I, EC_WORD_AREN_T, EC_WORD_WON, EC_WORD_EXCL_EXCL
+}; // 야호 ! 나 너를 이겼다 !!
 
 static const u16 sRecordTrainerSpeechLost[] =
 {
-    EC_WORD_TOO, EC_WORD_BAD, EC_WORD_ELLIPSIS, EC_WORD_WE, EC_WORD_LOST, EC_WORD_ELLIPSIS
-};
+    EC_WORD_GIVE_UP, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_I, EC_WORD_THESE_WERE, EC_WORD_BEING, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS
+}; // 졌다 ...... 나 이건 싫어 ......
 
 // code
 void CallBattleTowerFunc(void)

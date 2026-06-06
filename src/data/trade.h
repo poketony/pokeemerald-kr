@@ -1047,35 +1047,35 @@ static const struct InGameTrade sIngameTrades[] =
 static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
 {
     {
-        EC_WORD_BE,
-        EC_WORD_NICE,
-        EC_WORD_TO,
-        EC_POKEMON(PLUSLE),
-        EC_WORD_EXCL,
-        EC_POKEMON(VOLBEAT),
-        EC_WORD_WILL,
-        EC_WORD_BE,
-        EC_WORD_FANTASTIC
+        EC_POKEMON(PLUSLE), // 플러시
+        EC_WORD_COUNT_ON, //  잘 부탁해
+        EC_WORD_CARES, // 소중히
+        EC_WORD_ALL, // 하도록 해
+        EC_WORD_EXCL, // !
+        EC_POKEMON(VOLBEAT), // 볼비트
+        EC_WORD_RECEIVED, // 받았다
+        EC_WORD_ENJOYS, // 너무 즐겁다
+        EC_WORD_EXCL // !
     }, {
-        EC_WORD_I,
-        EC_WORD_WILL,
-        EC_WORD_MAKE,
-        EC_POKEMON(BAGON),
-        EC_WORD_TOUGH,
-        EC_WORD_PLEASE,
-        EC_WORD_TRAIN,
-        EC_POKEMON(HORSEA),
-        EC_WORD_WELL
+        EC_WORD_I, // 나
+        EC_POKEMON(BAGON), // 아공이
+        EC_WORD_WELL, // 잘
+        EC_WORD_TRAINS, // 단련
+        EC_WORD_ONCE, // 할게
+        EC_WORD_EXCL, // !
+        EC_POKEMON(HORSEA), // 쏘드라
+        EC_WORD_COUNT_ON, //  잘 부탁해
+        EC_WORD_EXCL // !
     }, {
-        EC_WORD_THANK_YOU,
-        EC_WORD_FOR,
-        EC_POKEMON(SKITTY),
-        EC_POKEMON2(MEOWTH),
-        EC_WORD_CRIES,
-        EC_WORD_IN,
-        EC_WORD_A,
-        EC_WORD_CUTE,
-        EC_WORD_WAY
+        EC_POKEMON(SKITTY), // 에나비
+        EC_WORD_RECEIVED, // 받았다
+        EC_WORD_THANKS, // 고마워
+        EC_WORD_EXCL, // !
+        EC_POKEMON2(MEOWTH), // 나옹
+        EC_MOVE2(ROAR), // 울부짖기
+        EC_WORD_EXCESS, // 너무
+        EC_WORD_CUTENESS, // 귀여움
+        EC_WORD_ADORE // 완전 좋아
     }
 };
 

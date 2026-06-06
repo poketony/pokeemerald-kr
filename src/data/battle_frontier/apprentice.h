@@ -302,128 +302,128 @@ const struct ApprenticeTrainer gApprentices[NUM_APPRENTICES] =
         .facilityClass = FACILITY_CLASS_BUG_CATCHER,
         .species = {SPECIES_BEAUTIFLY, SPECIES_DUSTOX, SPECIES_ILLUMISE, SPECIES_SHIFTRY, SPECIES_BRELOOM, SPECIES_NINJASK, SPECIES_SHEDINJA, SPECIES_PINSIR, SPECIES_HERACROSS, SPECIES_VOLBEAT},
         .id = 0,
-        .speechLost = {EC_WORD_NO, EC_WORD_MISTAKE, EC_WORD_EXCL, EC_WORD_I, EC_WORD_LOST, EC_WORD_BADLY},
-    },
+        .speechLost = {EC_WORD_LACKS, EC_WORD_ANYWHERE, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 부족 했습니다 ......
     {
         .name = {_("히로오"), _("리오넬"), _("리오넬"), _("카이오"), _("루드비"), _("레오")},
         .otId = 0xCF09,
         .facilityClass = FACILITY_CLASS_YOUNGSTER,
         .species = {SPECIES_SWELLOW, SPECIES_SWALOT, SPECIES_SHUCKLE, SPECIES_MANECTRIC, SPECIES_TORKOAL, SPECIES_HARIYAMA, SPECIES_MIGHTYENA, SPECIES_LUDICOLO, SPECIES_CRAWDAUNT, SPECIES_WHISCASH},
         .id = 1,
-        .speechLost = {EC_WORD_OKAY, EC_WORD_I, EC_WORD_LOST, EC_WORD_YOU_RE, EC_WORD_A, EC_WORD_MASTER},
-    },
+        .speechLost = {EC_WORD_AGREE, EC_WORD_PLACE, EC_WORD_WON, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 그래 네가 이겼다
     {
         .name = {_("케이지"), _("소니"), _("에르브"), _("페드로"), _("벤젤"), _("산티")},
         .otId = 0x2E34,
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_M,
         .species = {SPECIES_LINOONE, SPECIES_MIGHTYENA, SPECIES_WHISCASH, SPECIES_ZANGOOSE, SPECIES_SEVIPER, SPECIES_NINETALES, SPECIES_KECLEON, SPECIES_SHUCKLE, SPECIES_MANECTRIC, SPECIES_MACHAMP},
         .id = 2,
-        .speechLost = {EC_WORD_I, EC_WORD_WENT, EC_WORD_AND, EC_WORD_LOST, EC_WORD_AWW, EC_WORD_ELLIPSIS},
-    },
+        .speechLost = {EC_WORD_GIVE_UP, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 졌다 ......
     {
         .name = {_("유라"), _("레일라"), _("레일라"), _("아스트"), _("소냐"), _("롤라")},
         .otId = 0x84EF,
         .facilityClass = FACILITY_CLASS_LASS,
         .species = {SPECIES_SWALOT, SPECIES_XATU, SPECIES_ALTARIA, SPECIES_GOLDUCK, SPECIES_FLYGON, SPECIES_ALAKAZAM, SPECIES_GARDEVOIR, SPECIES_WAILORD, SPECIES_GRUMPIG, SPECIES_MIGHTYENA},
         .id = 3,
-        .speechLost = {EC_WORD_IS, EC_WORD_THIS, EC_WORD_TOO, EC_WORD_MUCH, EC_WORD_QUES, 0xFFFF},
-    },
+        .speechLost = {EC_WORD_TOO_STRONG, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, //  너무 강하다 ......
     {
         .name = {_("요우카"), _("메이시"), _("아멜리"), _("클레오"), _("마리아"), _("엘리사")},
         .otId = 0x1E43,
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .species = {SPECIES_WIGGLYTUFF, SPECIES_LINOONE, SPECIES_KINGDRA, SPECIES_DELCATTY, SPECIES_RAICHU, SPECIES_FEAROW, SPECIES_STARMIE, SPECIES_MEDICHAM, SPECIES_SHIFTRY, SPECIES_BEAUTIFLY},
         .id = 4,
-        .speechLost = {EC_WORD_THIS, EC_WORD_WON_T, EC_WORD_BE, EC_WORD_HAPPENING, EC_WORD_NEXT, EC_WORD_TIME},
-    },
+        .speechLost = {EC_WORD_NEXT, EC_WORD_BATTLE, EC_WORD_MUST_BE, EC_WORD_WIN, EC_WORD_EXCL, 0xFFFF},
+    }, // 다음 배틀 반드시 이긴다 !
     {
         .name = {_("야스시"), _("돈테"), _("브라힘"), _("글라우"), _("요제프"), _("로크")},
         .otId = 0x379F,
         .facilityClass = FACILITY_CLASS_RUNNING_TRIATHLETE_M,
         .species = {SPECIES_STARMIE, SPECIES_DODRIO, SPECIES_AGGRON, SPECIES_MAGNETON, SPECIES_MACHAMP, SPECIES_ARMALDO, SPECIES_HERACROSS, SPECIES_NOSEPASS, SPECIES_EXPLOUD, SPECIES_MIGHTYENA},
         .id = 5,
-        .speechLost = {EC_WORD_I_AM, EC_WORD_GOING, EC_WORD_TO, EC_WORD_RUN, EC_WORD_BYE_BYE, EC_WORD_EXCL},
-    },
+        .speechLost = {EC_WORD_HURRIED, EC_WORD_ESCAPE, EC_WORD_HERE_GOES, EC_WORD_BYE_BYE, EC_WORD_EXCL, 0xFFFF},
+    }, // 서둘러서 도망 간다 바이바이 !
     {
         .name = {_("미사오"), _("아미라"), _("로르"), _("다프네"), _("아멜리"), _("라라")},
         .otId = 0xF555,
         .facilityClass = FACILITY_CLASS_RUNNING_TRIATHLETE_F,
         .species = {SPECIES_STARMIE, SPECIES_DODRIO, SPECIES_MAGNETON, SPECIES_MEDICHAM, SPECIES_MIGHTYENA, SPECIES_GLALIE, SPECIES_GOLEM, SPECIES_ELECTRODE, SPECIES_PELIPPER, SPECIES_SHARPEDO},
         .id = 6,
-        .speechLost = {EC_WORD_AHAHA, EC_WORD_DEFEATED, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_NOTHING, EC_WORD_EXCL},
-    },
+        .speechLost = {EC_WORD_AHAHA, EC_WORD_GIVE_UP, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 아하하 졌다 ......
     {
         .name = {_("카즈사"), _("칼리"), _("조디"), _("일레냐"), _("카로"), _("엘사")},
         .otId = 0x8D26,
         .facilityClass = FACILITY_CLASS_BEAUTY,
         .species = {SPECIES_NINETALES, SPECIES_ALAKAZAM, SPECIES_SCEPTILE, SPECIES_SALAMENCE, SPECIES_GOLDUCK, SPECIES_MAWILE, SPECIES_WEEZING, SPECIES_LANTURN, SPECIES_GARDEVOIR, SPECIES_MILOTIC},
         .id = 7,
-        .speechLost = {EC_WORD_YOU_RE, EC_WORD_STRONG, EC_WORD_AREN_T, EC_WORD_YOU, EC_WORD_QUES, 0xFFFF},
-    },
+        .speechLost = {EC_WORD_TOO_STRONG, EC_WORD_ADORE, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 너무 강하다 완전 좋아 ......
     {
         .name = {_("스미레"), _("애니"), _("애니"), _("이멜다"), _("이네스"), _("로사")},
         .otId = 0x800C,
         .facilityClass = FACILITY_CLASS_AROMA_LADY,
         .species = {SPECIES_SCEPTILE, SPECIES_VILEPLUME, SPECIES_BELLOSSOM, SPECIES_ROSELIA, SPECIES_CORSOLA, SPECIES_FLYGON, SPECIES_BRELOOM, SPECIES_MILOTIC, SPECIES_ALTARIA, SPECIES_CRADILY},
         .id = 8,
-        .speechLost = {EC_WORD_WHAT, EC_WORD_TOUGH, EC_WORD_POKEMON, EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_EXCL},
-    },
+        .speechLost = {EC_WORD_POKEMON, EC_WORD_TOO_STRONG, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 포켓몬 너무 강하다 ......
     {
         .name = {_("아키노"), _("딜렌"), _("르네"), _("인드로"), _("데틀프"), _("페드로")},
         .otId = 0x469f,
         .facilityClass = FACILITY_CLASS_HIKER,
         .species = {SPECIES_SKARMORY, SPECIES_GOLEM, SPECIES_BLAZIKEN, SPECIES_CAMERUPT, SPECIES_DONPHAN, SPECIES_MUK, SPECIES_SALAMENCE, SPECIES_TROPIUS, SPECIES_SOLROCK, SPECIES_RHYDON},
         .id = 9,
-        .speechLost = {EC_WORD_WE, EC_WORD_WERE, EC_WORD_JUST, EC_WORD_SHREDDED, EC_WORD_ELLIPSIS, 0xFFFF},
-    },
+        .speechLost = {EC_WORD_DESTROYED, EC_WORD_DEFEATED, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 엉망진창 당했다 ......
     {
         .name = {_("토우조"), _("달라스"), _("브루노"), _("레아르"), _("안스가"), _("마놀로")},
         .otId = 0x71FC,
         .facilityClass = FACILITY_CLASS_FISHERMAN,
         .species = {SPECIES_SEAKING, SPECIES_STARMIE, SPECIES_GOLDUCK, SPECIES_TENTACRUEL, SPECIES_OCTILLERY, SPECIES_GOREBYSS, SPECIES_GLALIE, SPECIES_WAILORD, SPECIES_SHARPEDO, SPECIES_KINGDRA},
         .id = 10,
-        .speechLost = {EC_WORD_YOUR, EC_WORD_WIN, EC_WORD_ANGERS, EC_WORD_ME, EC_WORD_EXCL, 0xFFFF},
-    },
+        .speechLost = {EC_WORD_THIS, EC_WORD_THING, EC_WORD_REJECT, EC_WORD_EXCL_EXCL, 0xFFFF, 0xFFFF},
+    }, // 이런 것 인정 못 한다 !!
     {
         .name = {_("세이야"), _("프랭크"), _("프랭크"), _("올린도"), _("프랭크"), _("마우로")},
         .otId = 0xA39E,
         .facilityClass = FACILITY_CLASS_SAILOR,
         .species = {SPECIES_QUAGSIRE, SPECIES_STARMIE, SPECIES_PELIPPER, SPECIES_CRAWDAUNT, SPECIES_WAILORD, SPECIES_GYARADOS, SPECIES_SWAMPERT, SPECIES_LANTURN, SPECIES_WHISCASH, SPECIES_SHUCKLE},
         .id = 11,
-        .speechLost = {EC_WORD_LOSING, EC_WORD_DOESN_T, EC_MOVE(CUT), EC_WORD_ME, EC_WORD_DEEP, EC_WORD_OK_QUES},
-    },
+        .speechLost = {EC_WORD_GIVE_UP, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_BUT, EC_WORD_ALL_RIGHT, EC_WORD_EXCL, 0xFFFF},
+    }, // 졌다 ...... 하지만 괜찮아 !
     {
         .name = {_("류지"), _("라몬트"), _("자브"), _("오르페"), _("위르겐"), _("호르헤")},
         .otId = 0xE590,
         .facilityClass = FACILITY_CLASS_GUITARIST,
         .species = {SPECIES_ABSOL, SPECIES_CROBAT, SPECIES_EXPLOUD, SPECIES_MAGNETON, SPECIES_SHARPEDO, SPECIES_MANECTRIC, SPECIES_METAGROSS, SPECIES_ELECTRODE, SPECIES_NOSEPASS, SPECIES_WEEZING},
         .id = 12,
-        .speechLost = {EC_WORD_A, EC_WORD_LOSS, EC_WORD_IS, EC_WORD_WHAT, EC_WORD_THIS, EC_WORD_IS},
-    },
+        .speechLost = {EC_WORD_QUITE, EC_WORD_ANGRY, EC_WORD_FEELING, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 상당히 분한 기분
     {
         .name = {_("카츠야"), _("타이리"), _("앤디"), _("파리데"), _("데이비"), _("치초")},
         .otId = 0xD018,
         .facilityClass = FACILITY_CLASS_BLACK_BELT,
         .species = {SPECIES_BLAZIKEN, SPECIES_GOLEM, SPECIES_MACHAMP, SPECIES_RHYDON, SPECIES_HARIYAMA, SPECIES_AGGRON, SPECIES_MEDICHAM, SPECIES_ZANGOOSE, SPECIES_VIGOROTH, SPECIES_SLAKING},
         .id = 13,
-        .speechLost = {EC_WORD_I_AM, EC_WORD_TOO_WEAK, EC_WORD_AND, EC_WORD_LOW, EC_WORD_OF, EC_WORD_POWER},
-    },
+        .speechLost = {EC_WORD_ME, EC_WORD_WELL, EC_WORD_WEAKENED, EC_WORD_AND, EC_WORD_GIVE_UP, 0xFFFF},
+    }, // 이 몸 잘 약해져 그래서 졌다
     {
         .name = {_("토시미"), _("단테"), _("단테"), _("라울"), _("로타르"), _("파블로")},
         .otId = 0xBC75,
         .facilityClass = FACILITY_CLASS_RUIN_MANIAC,
         .species = {SPECIES_SCEPTILE, SPECIES_SANDSLASH, SPECIES_FLYGON, SPECIES_CLAYDOL, SPECIES_ARMALDO, SPECIES_CROBAT, SPECIES_CRADILY, SPECIES_SOLROCK, SPECIES_LUNATONE, SPECIES_GOLEM},
         .id = 14,
-        .speechLost = {EC_WORD_I, EC_WORD_DON_T, EC_WORD_UNDERSTAND, EC_WORD_WHAT, EC_WORD_IS, EC_WORD_HAPPENING},
-    },
+        .speechLost = {EC_WORD_WHAT_S_UP_QUES, EC_WORD_HOW, EC_WORD_QUES_EXCL, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 뭐야 어떻게 !?
     {
         .name = {_("로웬"), _("아르투"), _("아르투"), _("로몰로"), _("브라이"), _("아르투")},
         .otId = 0xFA02,
         .facilityClass = FACILITY_CLASS_GENTLEMAN,
         .species = {SPECIES_ABSOL, SPECIES_MIGHTYENA, SPECIES_ALAKAZAM, SPECIES_BANETTE, SPECIES_NINETALES, SPECIES_CLAYDOL, SPECIES_MUK, SPECIES_SALAMENCE, SPECIES_WALREIN, SPECIES_DUSCLOPS},
         .id = 15,
-        .speechLost = {EC_WORD_THIS, EC_WORD_HAS, EC_WORD_TO, EC_WORD_BE, EC_WORD_A, EC_WORD_LIE},
-    },
+        .speechLost = {EC_WORD_THESE_WERE, EC_WORD_LIE, EC_WORD_YEAH, 0xFFFF, 0xFFFF, 0xFFFF},
+    }, // 이건 거짓말 이야-
 };
 
 // Sequence of 4 messages for the first meeting with the apprentice

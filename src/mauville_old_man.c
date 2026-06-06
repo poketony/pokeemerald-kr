@@ -42,12 +42,12 @@ static EWRAM_DATA struct MauvilleManStoryteller * sStorytellerPtr = NULL;
 static EWRAM_DATA u8 sStorytellerWindowId = 0;
 
 static const u16 sDefaultBardSongLyrics[BARD_SONG_LENGTH] = {
-    EC_WORD_SHAKE,
-    EC_WORD_IT,
-    EC_WORD_DO,
-    EC_WORD_THE,
-    EC_WORD_DIET,
-    EC_WORD_DANCE
+    EC_WORD_YOUR, // 당신의
+    EC_WORD_HIP_AND, // 엉덩이를
+    EC_WORD_SHAKE, // 흔드세요
+    EC_WORD_TOGETHER, // 같이
+    EC_WORD_DIET, // 다이어트
+    EC_WORD_DANCE // 댄스
 };
 
 static const u8 * const sGiddyAdjectives[] = {

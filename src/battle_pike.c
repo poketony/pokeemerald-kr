@@ -12,6 +12,7 @@
 #include "malloc.h"
 #include "palette.h"
 #include "script.h"
+#include "string_util.h"
 #include "battle_setup.h"
 #include "constants/event_objects.h"
 #include "constants/battle_frontier.h"
@@ -419,50 +420,93 @@ static const struct PikeRoomNPC sNPCTable[] =
     }
 };
 
-static const u16 sNPCSpeeches[][EASY_CHAT_BATTLE_WORDS_COUNT] =
+static const u8 sNPCSpeechText0[] = _("길을 잃었어...\n도와줘!");
+static const u8 sNPCSpeechText1[] = _("내가 어디 있는지도 모르겠어");
+static const u8 sNPCSpeechText2[] = _("이제 어떡하면 좋지?");
+static const u8 sNPCSpeechText3[] = _("여긴 너무 흥분돼서\n못 견디겠어");
+static const u8 sNPCSpeechText4[] = _("혹시 길을 잘못 든 건가?");
+static const u8 sNPCSpeechText5[] = _("여긴 정말 짓궂고\n끔찍한 곳이야!");
+static const u8 sNPCSpeechText6[] = _("여긴 이제 지긋지긋해");
+static const u8 sNPCSpeechText7[] = _("난 이 도전이 꽤 즐거워");
+static const u8 sNPCSpeechText8[] = _("내가 어떻게 돌파하는지 봐봐");
+static const u8 sNPCSpeechText9[] = _("아직 포기할 생각은 없어?");
+static const u8 sNPCSpeechText10[] = _("으악!\n넌 누구야?");
+static const u8 sNPCSpeechText11[] = _("계속 헤매고만 있어...");
+static const u8 sNPCSpeechText12[] = _("나 이제 포기할까봐");
+static const u8 sNPCSpeechText13[] = _("다음엔 뭘 해야 하지?");
+static const u8 sNPCSpeechText14[] = _("절대영도로 다 이겨주겠어!");
+static const u8 sNPCSpeechText15[] = _("멋진 사람이\n나타나지 않으려나?");
+static const u8 sNPCSpeechText16[] = _("배틀게임 최고!");
+static const u8 sNPCSpeechText17[] = _("더는 못 버티겠어");
+static const u8 sNPCSpeechText18[] = _("이대로 괜찮은 걸까?");
+static const u8 sNPCSpeechText19[] = _("으악!\n또 트레이너야");
+static const u8 sNPCSpeechText20[] = _("다음은 왼쪽일지도 몰라");
+static const u8 sNPCSpeechText21[] = _("쭉 가면 끝날지도?");
+static const u8 sNPCSpeechText22[] = _("여긴 완전 쉽지 않아?");
+static const u8 sNPCSpeechText23[] = _("아직 힘낼 수 있어!");
+static const u8 sNPCSpeechText24[] = _("난 못 버틸 것 같아");
+static const u8 sNPCSpeechText25[] = _("어떻게든 해낼 수 있을 거야");
+static const u8 sNPCSpeechText26[] = _("가자... 난 더는 못 해");
+static const u8 sNPCSpeechText27[] = _("또 트레이너라니...");
+static const u8 sNPCSpeechText28[] = _("강철포켓몬 좋아해?");
+static const u8 sNPCSpeechText29[] = _("여기 트레이너들은\n다 너무 약해");
+static const u8 sNPCSpeechText30[] = _("여기 쉽다고 생각해?");
+static const u8 sNPCSpeechText31[] = _("이 다음엔 뭐가 나올까?");
+static const u8 sNPCSpeechText32[] = _("완전 혼란스러워!");
+static const u8 sNPCSpeechText33[] = _("그냥 집에 가고 싶어...");
+static const u8 sNPCSpeechText34[] = _("이예이!\n여긴 완전 껌이네");
+static const u8 sNPCSpeechText35[] = _("배틀은 정말 오랜만인걸");
+static const u8 sNPCSpeechText36[] = _("다음은 오른쪽 같아");
+static const u8 sNPCSpeechText37[] = _("아-앙!\n이게 아니었는데");
+static const u8 sNPCSpeechText38[] = _("포켓몬이 너무 지쳤어...");
+static const u8 sNPCSpeechText39[] = _("내 포켓몬은 독에 강해!");
+static const u8 sNPCSpeechText40[] = _("라라라!\n난 최고야 라라라-");
+static const u8 sNPCSpeechText41[] = _("맹독은\n정말 무서운 기술이지?");
+
+static const u8 *const sNPCSpeechTexts[] =
 {
-    {EC_WORD_I_AM, EC_WORD_LOST, EC_WORD_I, EC_WORD_NEED, EC_WORD_A, EC_MOVE2(HELPING_HAND)},
-    {EC_WORD_I_VE, EC_WORD_NO, EC_WORD_SENSE, EC_WORD_OF, EC_WORD_WHERE, EC_WORD_I_AM},
-    {EC_WORD_WHAT, EC_WORD_SHOULD, EC_WORD_I, EC_WORD_DO, EC_WORD_NOW, EC_WORD_QUES},
-    {EC_WORD_THIS, EC_WORD_IS, EC_WORD_TOO, EC_WORD_EXCITING, EC_WORD_FOR, EC_WORD_ME},
-    {EC_WORD_DID, EC_WORD_YOU, EC_WORD_MAKE, EC_WORD_A, EC_WORD_MISTAKE, EC_WORD_QUES},
-    {EC_WORD_IT_S, EC_WORD_MEAN, EC_WORD_AND, EC_WORD_AWFUL, EC_WORD_IN, EC_WORD_HERE},
-    {EC_WORD_I_AM, EC_WORD_SO, EC_WORD_TIRED, EC_WORD_OF, EC_WORD_THIS, EC_WORD_PLACE},
-    {EC_WORD_I, EC_WORD_QUITE, EC_WORD_ENJOY, EC_WORD_THIS, EC_WORD_CHALLENGE, 0xFFFF},
-    {EC_WORD_LOOK, EC_WORD_AT, EC_WORD_HOW, EC_WORD_I, EC_MOVE2(TACKLE), EC_WORD_THIS},
-    {EC_WORD_READY, EC_WORD_TO, EC_WORD_GIVE_UP, EC_WORD_YET, EC_WORD_QUES, 0xFFFF},
-    {EC_WORD_OH, EC_WORD_NO, EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES},
-    {EC_WORD_I_VE, EC_WORD_BEEN, EC_WORD_WANDERING, EC_WORD_ABOUT, EC_WORD_FOREVER, EC_WORD_ELLIPSIS},
-    {EC_WORD_I, EC_WORD_THINK, EC_WORD_I, EC_WORD_WILL, EC_WORD_GIVE_UP, 0xFFFF},
-    {EC_WORD_WHAT, EC_WORD_SHOULD, EC_WORD_I, EC_WORD_DO, EC_WORD_NEXT, EC_WORD_QUES},
-    {EC_WORD_I, EC_WORD_CAN_WIN, EC_WORD_WITH, EC_WORD_MY, EC_MOVE(SHEER_COLD), EC_WORD_GENIUS},
-    {EC_WORD_WON_T, EC_WORD_SOMEONE, EC_WORD_COOL, EC_WORD_SHOW, EC_WORD_UP, EC_WORD_QUES},
-    {EC_WORD_BATTLE, EC_WORD_GAME, EC_WORD_IS, EC_WORD_AWESOME, EC_WORD_EXCL, 0xFFFF},
-    {EC_WORD_I, EC_WORD_CAN_T, EC_WORD_TAKE, EC_WORD_THIS, EC_WORD_ANY, EC_WORD_MORE},
-    {EC_WORD_I, EC_WORD_DON_T, EC_WORD_KNOW, EC_WORD_IF, EC_WORD_IT_S, EC_WORD_OKAY},
-    {EC_WORD_OH, EC_WORD_NO, EC_WORD_EXCL, EC_WORD_NOT, EC_WORD_ANOTHER, EC_WORD_TRAINER},
-    {EC_WORD_IT, EC_WORD_HAS, EC_WORD_TO, EC_WORD_BE, EC_WORD_LEFT, EC_WORD_NEXT},
-    {EC_WORD_IT, EC_WORD_MUST_BE, EC_WORD_OVER, EC_WORD_SOON, EC_WORD_RIGHT, EC_WORD_QUES},
-    {EC_WORD_THIS, EC_WORD_IS, EC_WORD_TOTALLY, EC_WORD_EASY, EC_WORD_ISN_T_IT_QUES, 0xFFFF},
-    {EC_WORD_I_AM, EC_WORD_GOING, EC_WORD_TO, EC_WORD_POWER, EC_WORD_ON, 0xFFFF},
-    {EC_WORD_THERE, EC_WORD_IS, EC_WORD_NO, EC_WORD_GIVE_UP, EC_WORD_IN, EC_WORD_ME},
-    {EC_WORD_I_AM, EC_WORD_NOT, EC_WORD_GOING, EC_WORD_TO, EC_WORD_MAKE, EC_WORD_IT},
-    {EC_WORD_GO, EC_WORD_ON, EC_WORD_I, EC_WORD_CAN_T, EC_WORD_ANY, EC_WORD_MORE},
-    {EC_WORD_A, EC_WORD_TRAINER, EC_WORD_AFTER, EC_WORD_ANOTHER, EC_WORD_ELLIPSIS, 0xFFFF},
-    {EC_WORD_DO, EC_WORD_YOU, EC_WORD_LIKE, EC_WORD_STEEL, EC_WORD_POKEMON, EC_WORD_QUES},
-    {EC_WORD_EVERY, EC_WORD_TRAINER, EC_WORD_HERE, EC_WORD_IS, EC_WORD_TOO_WEAK, 0xFFFF},
-    {EC_WORD_YOU, EC_WORD_THINK, EC_WORD_THIS, EC_WORD_IS, EC_WORD_EASY, EC_WORD_QUES},
-    {EC_WORD_WHAT, EC_WORD_WILL, EC_WORD_COME, EC_WORD_AFTER, EC_WORD_THIS, EC_WORD_QUES},
-    {EC_WORD_I_AM, EC_WORD_JUST, EC_WORD_SO, EC_WORD_CONFUSED, EC_WORD_EXCL, 0xFFFF},
-    {EC_WORD_I, EC_WORD_JUST, EC_WORD_WANT, EC_WORD_TO, EC_WORD_GO_HOME, EC_WORD_ELLIPSIS},
-    {EC_WORD_YEEHAW_EXCL, EC_WORD_THIS, EC_WORD_PLACE, EC_WORD_IS, EC_WORD_A, EC_WORD_PUSHOVER},
-    {EC_WORD_I, EC_WORD_HAVEN_T, EC_WORD_BEEN, EC_WORD_IN, EC_WORD_A, EC_WORD_BATTLE},
-    {EC_WORD_MAYBE, EC_WORD_IT_S, EC_WORD_RIGHT, EC_WORD_NEXT, EC_WORD_I, EC_WORD_THINK},
-    {EC_WORD_WAAAH, EC_WORD_EXCL, EC_WORD_IT, EC_WORD_WASN_T, EC_WORD_THIS, EC_WORD_WAY},
-    {EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_TOO, EC_WORD_TIRED, EC_WORD_ELLIPSIS},
-    {EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_STRONG, EC_WORD_TO, EC_WORD_POISON},
-    {EC_WORD_LALALA, EC_WORD_LALALA, EC_WORD_EXCL, EC_WORD_I_AM, EC_WORD_AWESOME, EC_WORD_LALALA},
-    {EC_MOVE2(TOXIC), EC_WORD_IS, EC_WORD_A, EC_WORD_TERRIBLE, EC_WORD_THING, EC_WORD_ISN_T_IT_QUES},
+    sNPCSpeechText0,
+    sNPCSpeechText1,
+    sNPCSpeechText2,
+    sNPCSpeechText3,
+    sNPCSpeechText4,
+    sNPCSpeechText5,
+    sNPCSpeechText6,
+    sNPCSpeechText7,
+    sNPCSpeechText8,
+    sNPCSpeechText9,
+    sNPCSpeechText10,
+    sNPCSpeechText11,
+    sNPCSpeechText12,
+    sNPCSpeechText13,
+    sNPCSpeechText14,
+    sNPCSpeechText15,
+    sNPCSpeechText16,
+    sNPCSpeechText17,
+    sNPCSpeechText18,
+    sNPCSpeechText19,
+    sNPCSpeechText20,
+    sNPCSpeechText21,
+    sNPCSpeechText22,
+    sNPCSpeechText23,
+    sNPCSpeechText24,
+    sNPCSpeechText25,
+    sNPCSpeechText26,
+    sNPCSpeechText27,
+    sNPCSpeechText28,
+    sNPCSpeechText29,
+    sNPCSpeechText30,
+    sNPCSpeechText31,
+    sNPCSpeechText32,
+    sNPCSpeechText33,
+    sNPCSpeechText34,
+    sNPCSpeechText35,
+    sNPCSpeechText36,
+    sNPCSpeechText37,
+    sNPCSpeechText38,
+    sNPCSpeechText39,
+    sNPCSpeechText40,
+    sNPCSpeechText41,
 };
 
 // Table duplicated from frontier_util, only Battle Pike entry used
@@ -770,7 +814,7 @@ static void BufferNPCMessage(void)
     else
         speechId = sNPCTable[sNpcId].speechId3;
 
-    FrontierSpeechToString(sNPCSpeeches[speechId]);
+    StringCopy(gStringVar4, sNPCSpeechTexts[speechId]);
 }
 
 static void StatusInflictionScreenFlash(void)

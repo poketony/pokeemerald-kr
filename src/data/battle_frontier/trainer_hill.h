@@ -1225,7 +1225,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
             },
             [1] =
             {
-                .name = _("베로니카"),
+                .name = _("베르카"),
                 .facilityClass = FACILITY_CLASS_PKMN_BREEDER_F,
                 .unused = 0,
                 .speechBefore = {EC_WORD_I_AM, EC_WORD_THE, EC_WORD_STRONG, EC_WORD_BEAUTY, EC_WORD_AROUND, EC_WORD_HERE},
@@ -1542,7 +1542,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
             },
             [1] =
             {
-                .name = _("크리스티나"),
+                .name = _("티나"),
                 .facilityClass = FACILITY_CLASS_AROMA_LADY,
                 .unused = 0,
                 .speechBefore = {EC_WORD_IT_S, EC_WORD_HOT, EC_WORD_ELLIPSIS, EC_WORD_WHAT, EC_WORD_A, EC_WORD_STENCH},
@@ -4444,7 +4444,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                         },
                     [1] =
                         {
-                            .name = _("EDIE"),
+                            .name = _("에디"),
                             .facilityClass = FACILITY_CLASS_PSYCHIC_F,
                             .unused = 0,
                             .speechBefore = {EC_WORD_WE, EC_WORD_WILL_BE_HERE, EC_WORD_FOR, EC_WORD_ANY, EC_WORD_TRAINER, EC_WORD_CHALLENGE},

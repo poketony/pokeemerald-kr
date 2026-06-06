@@ -22,76 +22,76 @@ static const u16 sLilycoveLadyGfxId[] =
 // Quiz Lady data
 static const u16 sQuizLadyQuestion1[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_STORES,
-    EC_WORD_INFORMATION,
-    EC_WORD_ON,
-    EC_WORD_POKEMON,
-    EC_WORD_QUES,
-    EC_WORD_CAMERA,
-    EC_WORD_POKEDEX,
-    EC_WORD_POKENAV
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_INFORMATION, // 정보
+    EC_WORD_READY, // 뭐든지
+    EC_WORD_WILL_BE_HERE, // 있습니다
+    EC_WORD_FUNNY, // 기묘한
+    EC_WORD_MACHINE, // 머신
+    EC_WORD_CAMERA, // 카메라
+    EC_WORD_POKEDEX, // 포켓몬 도감
+    EC_WORD_POKENAV // 포켓내비
 };
 
 static const u16 sQuizLadyQuestion2[] =
 {
-    EC_WORD_WHICH, 
-    EC_WORD_ISN_T,
-    EC_WORD_A,
-    EC_WORD_GAME,
-    EC_WORD_VERSION,
-    EC_WORD_QUES,
-    EC_WORD_RUBY,
-    EC_WORD_SAPPHIRE,
-    EC_WORD_DARK
+    EC_WORD_GAME,  // 게임
+    EC_WORD_VERSION, // 버전
+    EC_WORD_NAME, // 이름
+    EC_WORD_NONE, // 없는
+    EC_WORD_THING, // 것
+    EC_WORD_QUES, // ?
+    EC_WORD_RUBY, // 루비
+    EC_WORD_SAPPHIRE, // 사파이어
+    EC_WORD_DARK // 악
 };
 
 static const u16 sQuizLadyQuestion3[] =
 {
-    EC_WORD_HOW,
-    EC_WORD_DO,
-    EC_WORD_POKEMON,
-    EC_WORD_EVOLVE,
-    EC_WORD_QUES,
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_EVOLUTION, // 진화
+    EC_WORD_HOW, // 어떻게
+    EC_WORD_OUT, // 해요
+    EC_WORD_QUES, // ?
     0xFFFF,
-    EC_WORD_LEVEL,
-    EC_WORD_INSOMNIA,
-    EC_WORD_CUTE_CHARM
+    EC_WORD_LEVEL, // 레벨
+    EC_WORD_INSOMNIA, // 불면
+    EC_WORD_CUTE_CHARM // 헤롱헤롱바디
 };
 
 static const u16 sQuizLadyQuestion4[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_IS,
-    EC_WORD_THE,
-    EC_WORD_PRETTY,
-    EC_WORD_ITEM,
-    EC_WORD_QUES,
-    EC_WORD_COLD,
-    EC_WORD_FLOWERS,
-    EC_WORD_MACHINE
+    EC_WORD_NO_1, // 최고
+    EC_WORD_BEAUTIFUL, // 아름다운
+    EC_WORD_ITEM, // 도구
+    EC_WORD_TYPE, // 타입
+    EC_WORD_WHAT, // 무엇
+    EC_WORD_QUES, // ?
+    EC_WORD_COLD, // 추운
+    EC_WORD_FLOWERS, // 꽃
+    EC_WORD_MACHINE // 머신
 };
 
 static const u16 sQuizLadyQuestion5[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_ITEM,
-    EC_WORD_DO,
-    EC_WORD_YOU,
-    EC_WORD_BREAK,
-    EC_WORD_QUES,
-    EC_WORD_EGG,
-    EC_WORD_MAIL,
-    EC_WORD_PHONE
+    EC_WORD_YOURS, // 당신이
+    EC_WORD_GUTS, // 근성
+    EC_WORD_OWN, // 가지고
+    EC_WORD_RUNS, // 달리기
+    EC_WORD_LIKELY_TO, // 하곤 한다
+    EC_WORD_QUES, // ?
+    EC_WORD_EGG, // 알
+    EC_WORD_MAIL, // 메일
+    EC_WORD_PHONE // 전화
 };
 
 static const u16 sQuizLadyQuestion6[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
-    EC_MOVE2(CONFUSION),
-    EC_WORD_QUES,
+    EC_WORD_CONFUSED, // 혼란스러운
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_NONE, // 없는
+    EC_WORD_SP_ABILITY, // 특성
+    EC_WORD_QUES, // ?
     0xFFFF,
     EC_WORD_ILLUMINATE,
     EC_WORD_OWN_TEMPO,
@@ -100,131 +100,131 @@ static const u16 sQuizLadyQuestion6[] =
 
 static const u16 sQuizLadyQuestion7[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_OF,
-    EC_WORD_THESE,
-    EC_WORD_IS,
-    EC_WORD_MUSIC,
-    EC_WORD_QUES,
-    EC_WORD_FLYING,
-    EC_WORD_STEEL,
-    EC_WORD_ROCK
+    EC_WORD_MUSIC, // 음악
+    EC_WORD_TYPE, // 타입
+    EC_WORD_NAME, // 이름
+    EC_WORD_QUES, // ?
+    EC_WORD_POPULAR, // 인기
+    EC_WORD_COULD, // 많습니다
+    EC_WORD_FLYING, // 비행
+    EC_WORD_STEEL, // 강철
+    EC_WORD_ROCK // 바위
 };
 
 static const u16 sQuizLadyQuestion8[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_MOVE2(BLOCK),
-    EC_WORD_ESCAPE,
-    EC_WORD_QUES,
+    EC_WORD_ESCAPE, // 도망
+    EC_WORD_IMPOSSIBLE, // 불가능한
+    EC_WORD_SP_ABILITY, // 특성
+    EC_WORD_NAME, // 이름
+    EC_WORD_QUES, // ?
     0xFFFF, 
-    EC_WORD_RUN_AWAY,
-    EC_WORD_SHADOW_TAG,
-    EC_WORD_WONDER_GUARD
+    EC_WORD_RUN_AWAY, // 도주
+    EC_WORD_SHADOW_TAG, // 그림자밟기
+    EC_WORD_WONDER_GUARD // 불가사의부적
 };
 
 static const u16 sQuizLadyQuestion9[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_WILL,
-    EC_WORD_STOP,
-    EC_WORD_POISON,
-    EC_WORD_QUES,
+    EC_WORD_POISON, // 독
+    EC_WORD_NONE, // 없는
+    EC_WORD_SP_ABILITY, // 특성
+    EC_WORD_NAME, // 이름
+    EC_WORD_QUES, // ?
     0xFFFF,
-    EC_WORD_GUTS,
-    EC_WORD_IMMUNITY,
-    EC_WORD_SHED_SKIN
+    EC_WORD_GUTS, // 근성
+    EC_WORD_IMMUNITY, // 면역
+    EC_WORD_SHED_SKIN // 탈피
 };
 
 static const u16 sQuizLadyQuestion10[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_GOES,
-    EC_WORD_WITH,
-    EC_WORD_CENTER,
-    EC_WORD_QUES,
+    EC_WORD_CENTER, // 센터
+    EC_WORD_WORKING, // 활약한다
+    EC_WORD_FAINT, // 기절
+    EC_WORD_WHAT, // 무엇
+    EC_WORD_QUES, // ?
     0xFFFF,
-    EC_WORD_POKEDEX,
-    EC_WORD_POKEMON,
-    EC_WORD_POKENAV
+    EC_WORD_POKEDEX, // 포켓몬 도감
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_POKENAV // 포켓내비
 };
 
 static const u16 sQuizLadyQuestion11[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_STORES,
-    EC_WORD_YOUR,
-    EC_WORD_POKEMON,
-    EC_WORD_QUES,
+    EC_WORD_YOUR, // 당신의
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_HERE, // 여기
+    EC_WORD_INSIDE, // 안에
+    EC_WORD_QUES, // ?
     0xFFFF,
-    EC_WORD_PC,
-    EC_WORD_DEPT_STORE,
-    EC_WORD_TELEVISION
+    EC_WORD_PC, // PC
+    EC_WORD_DEPT_STORE, // 백화점
+    EC_WORD_TELEVISION // TV
 };
 
 static const u16 sQuizLadyQuestion12[] =
 {
-    EC_WORD_WHICH,
-    EC_WORD_MACHINE,
-    EC_WORD_GIVES,
-    EC_WORD_YOU,
-    EC_WORD_INFORMATION,
-    EC_WORD_QUES,
-    EC_WORD_BIKE,
-    EC_WORD_LOCOMOTIVE,
-    EC_WORD_TELEVISION
+    EC_WORD_INFORMATION, // 정보
+    EC_WORD_DAUGHTER, // 네게
+    EC_WORD_GIVE, // 준다
+    EC_WORD_AMUSING, // 재미있는
+    EC_WORD_MACHINE, // 머신
+    EC_WORD_QUES, // ?
+    EC_WORD_BIKE, // 자전거
+    EC_WORD_LOCOMOTIVE, // 전철
+    EC_WORD_TELEVISION // TV
 };
 
 static const u16 sQuizLadyQuestion13[] =
 {
-    EC_WORD_A,
-    EC_WORD_POKEMON,
-    EC_WORD_WAS,
-    EC_WORD_ONCE,
-    EC_WORD_THIS,
-    EC_WORD_QUES,
-    EC_WORD_PHONE,
-    EC_WORD_PLUSH_DOLL,
-    EC_WORD_LETTER
+    EC_WORD_POKEMON, // 포켓몬
+    EC_WORD_DOES, // 같은 느낌
+    EC_WORD_SILKY, // 보슬보슬
+    EC_WORD_CUTE, // 귀여운
+    EC_WORD_THING, // 것
+    EC_WORD_QUES, // ?
+    EC_WORD_PHONE, // 전화
+    EC_WORD_PLUSH_DOLL, // 봉제인형
+    EC_WORD_LETTER // 편지
 };
 
 static const u16 sQuizLadyQuestion14[] =
 {
-    EC_WORD_STEEL,
-    EC_WORD_IS,
-    EC_WORD_STRONG,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_ICE,
-    EC_WORD_GROUND,
+    EC_WORD_THOSE_WERE, // 그건
+    EC_WORD_STEEL, // 강철
+    EC_WORD_FRONT, // 앞에
+    EC_WORD_WEAK, // 약하다
+    EC_WORD_ROCK_SOLID, // 딱딱
+    EC_WORD_QUES, // ?
+    EC_WORD_ICE, // 얼음
+    EC_WORD_GROUND, // 땅
     0xFFFF
 };
 
 static const u16 sQuizLadyQuestion15[] =
 {
-    EC_WORD_DARK,
-    EC_WORD_IS,
-    EC_WORD_WEAK,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_PSYCHIC,
-    EC_WORD_FIGHTING,
+    EC_WORD_THOSE_WERE, // 그건
+    EC_WORD_DARK, // 악
+    EC_WORD_FRONT, // 앞에
+    EC_WORD_STRONG, // 강하다
+    EC_WORD_FIGHT, // 파이트
+    EC_WORD_QUES, // ?
+    EC_WORD_PSYCHIC, // 에스퍼
+    EC_WORD_FIGHTING, // 격투
     0xFFFF
 };
 
 static const u16 sQuizLadyQuestion16[] =
 {
-    EC_WORD_GHOST,
-    EC_WORD_IS,
-    EC_WORD_WEAK,
-    EC_WORD_VERSUS,
-    EC_WORD_WHICH,
-    EC_WORD_QUES,
-    EC_WORD_NORMAL,
-    EC_WORD_DARK,
+    EC_WORD_THOSE_WERE, // 그건
+    EC_WORD_GHOST, // 고스트
+    EC_WORD_FRONT, // 앞에
+    EC_WORD_STRONG, // 강하다
+    EC_WORD_BADLY, // 나쁜
+    EC_WORD_QUES, // ?
+    EC_WORD_NORMAL, // 노말
+    EC_WORD_DARK, // 악
     0xFFFF
 };
 
