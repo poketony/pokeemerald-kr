@@ -483,7 +483,7 @@ static void sub_8121B1C(void)
         y += sMailRead->layout->var8[i].lineHeight;
     }
     bufptr = StringCopy(strbuf, sMailRead->playerName);
-    box_x = 104;
+    box_x = 150;
     box_y = sMailRead->layout->signatureYPos + 88;
     AddTextPrinterParameterized3(0, 1, box_x, box_y, sTextColors, 0, strbuf);
     CopyWindowToVram(0, 3);
