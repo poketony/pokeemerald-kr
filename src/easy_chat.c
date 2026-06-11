@@ -522,11 +522,11 @@ static const u8 sUnknown_08597748[][7] = {
 };
 
 static const u16 sMysteryGiftPhrase[] = {
-    EC_WORD_WE, // 통신 -> 모두
-    EC_WORD_TOGETHER, // 같이 -> 같이
-    EC_WORD_LINK, // 겁니다 -> 통신
-    EC_WORD_LET_S, // 하도록 해 -> 하자
-}; // 모두 같이 통신 하자
+    EC_WORD_FRIEND, // 친구
+    EC_WORD_FULL, // 가득
+    EC_WORD_MYSTERY, // 이상한
+    EC_WORD_LINK, // 통신
+};
 
 static const u16 sBerryMasterWifePhrases[][2] = {
     [PHRASE_GREAT_BATTLE - 1]        = {EC_WORD_MUCH, EC_WORD_MATCH}, // すごい しょうぶ -> 굉장한 승부
